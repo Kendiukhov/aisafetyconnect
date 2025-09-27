@@ -24,14 +24,22 @@ class LessWrongExtractor(BasePlatformExtractor):
         return "lesswrong"
 
     def setup_ai_safety_tags(self):
-        """Define los tags definitivos de AI Safety - empezando con subset para test"""
-        # Para test inicial, usar solo 5 tags principales
+        """Define los tags definitivos de AI Safety - 10 tags más relevantes"""
+        # Top 10 tags de AI Safety por relevancia y número de posts
         self.DEFINITE_AI_SAFETY_TAGS = {
+            # Core alignment tags
             "NrvXXL3iGjjxu5B7d": {"name": "MIRI", "posts": 166},
             "Dw5Z6wtTgk4Fikz9f": {"name": "Inner Alignment", "posts": 343},
             "BisjoDrd3oNatDu7X": {"name": "Outer Alignment", "posts": 335},
             "qHDus5MuMNqQxJbjD": {"name": "AI Governance", "posts": 794},
-            "E9FmKBJvWBJd8FJuf": {"name": "Interpretability (ML & AI)", "posts": 351}
+            "E9FmKBJvWBJd8FJuf": {"name": "Interpretability (ML & AI)", "posts": 351},
+
+            # Additional important tags
+            "NZ67PZ8CkeS6xn27h": {"name": "Mesa-Optimization", "posts": 140},
+            "mZTuBntSdPeyLSrec": {"name": "Chain-of-Thought Alignment", "posts": 112},
+            "qnYusX26j7YLYxHxR": {"name": "Agent Foundations", "posts": 167},
+            "2KA9EDpAkGhNxrbLm": {"name": "AI Alignment (general)", "posts": 394},
+            "nBqjqNWqDYfvMRYZ8": {"name": "Existential Risk", "posts": 536}
         }
 
         # Lista completa para cuando funcione el test
@@ -90,7 +98,7 @@ class LessWrongExtractor(BasePlatformExtractor):
             "RdBTegsjrGjuqqGPL": {"name": "Deceptive Alignment", "posts": 31},
             "RCBb8cL5znBuNawyv": {"name": "Recursive Self-Improvement", "posts": 44}
         }
-        self.logger.info(f"Configurados {len(self.DEFINITE_AI_SAFETY_TAGS)} tags AI Safety para test inicial")
+        self.logger.info(f"Configurados {len(self.DEFINITE_AI_SAFETY_TAGS)} tags AI Safety principales")
 
     def make_graphql_request(self, query: str, variables: Dict = None) -> Optional[Dict]:
         """Realiza una request GraphQL con rate limiting y reintentos"""
@@ -333,11 +341,6 @@ class LessWrongExtractor(BasePlatformExtractor):
         result = self.make_graphql_request(query, {})
         if result and result.get('data', {}).get('posts', {}).get('results'):
             posts = result['data']['posts']['results']
-
-            # Debug: verificar si los posts tienen tags
-            for i, post in enumerate(posts[:3]):  # Solo los primeros 3 para debug
-                self.logger.debug(f"Post {i}: {post.get('title', 'Sin título')}")
-                self.logger.debug(f"  Tags en post: {post.get('tags', [])}")
 
             # Enriquecer cada post con información de AI Safety tags
             for post in posts:

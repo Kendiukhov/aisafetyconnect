@@ -4,7 +4,7 @@ from lesswrong_extractor import LessWrongExtractor
 
 # Configurar logging
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
         logging.FileHandler('extraction.log'),
@@ -17,15 +17,17 @@ logger = logging.getLogger(__name__)
 def main():
     """Script principal de extracción"""
     try:
-        # MVP: Extraer top 100 usuarios de LessWrong
+        # Extraer top usuarios de LessWrong
         extractor = LessWrongExtractor()
 
-        # Test con 3 usuarios primero
-        logger.info("=== TEST: Extrayendo 3 usuarios ===")
-        extractor.extract_and_save_all(limit=3)
+        # Extraer 20 usuarios más relevantes
+        logger.info("=== EXTRACCIÓN: Top 20 usuarios de AI Safety ===")
+        extractor.extract_and_save_all(limit=20)
 
-        # Si funciona, ejecutar completo
-        # logger.info("=== COMPLETO: Extrayendo 100 usuarios ===")
+        # Para test con menos usuarios:
+        # extractor.extract_and_save_all(limit=3)
+
+        # Para extracción completa:
         # extractor.extract_and_save_all(limit=100)
 
     except Exception as e:

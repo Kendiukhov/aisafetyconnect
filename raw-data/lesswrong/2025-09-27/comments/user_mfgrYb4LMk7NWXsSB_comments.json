@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "zKoutKwhM64iwW8gt",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "eK6nxzasbLRXba4DQ",
+    "topLevelCommentId": "hfmQePHxBgQJvSWuh",
+    "contents": {
+      "markdown": "Once you focus on \"parts\" of the brain, you're restricting consideration to mechanisms that are activated at sufficient scale to need to balloon up. I would expect the rarely-activating mechanisms to be much smaller in a physical sense than \"parts\" of the brain are",
+      "plaintextDescription": "Once you focus on \"parts\" of the brain, you're restricting consideration to mechanisms that are activated at sufficient scale to need to balloon up. I would expect the rarely-activating mechanisms to be much smaller in a physical sense than \"parts\" of the brain are "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-19T20:12:02.745Z",
+    "af": false
+  },
+  {
+    "_id": "ANv3hX3hXFFwZjTGq",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "AuJGRfnnEKoZCrain",
+    "topLevelCommentId": "hfmQePHxBgQJvSWuh",
+    "contents": {
+      "markdown": "Idk, the shift happened a while ago. Maybe mostly just reflecting on how evolution acts on a holistic scale, making it easy to incorporate \"gradients\" from events that occur only one or a few times in one's lifetime, if these events have enough effect on survival/reproduction. Part of a bigger change in priors towards the relevance of long tails associated with my LDSL sequence.",
+      "plaintextDescription": "Idk, the shift happened a while ago. Maybe mostly just reflecting on how evolution acts on a holistic scale, making it easy to incorporate \"gradients\" from events that occur only one or a few times in one's lifetime, if these events have enough effect on survival/reproduction. Part of a bigger change in priors towards the relevance of long tails associated with my LDSL sequence."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-19T17:37:48.662Z",
+    "af": false
+  },
+  {
+    "_id": "hfmQePHxBgQJvSWuh",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've switched from considering uploading to be obviously possible at sufficient technological advancement to considering it probably intractable. More specifically, I expect the mind to be importantly shaped by a lot of rarely-activating mechanisms, which are intractable to map out. You could probably eventually make a sort of \"zombie upload\" that ignores those mechanisms, but it would be unable to update to new extreme conditions.",
+      "plaintextDescription": "I've switched from considering uploading to be obviously possible at sufficient technological advancement to considering it probably intractable. More specifically, I expect the mind to be importantly shaped by a lot of rarely-activating mechanisms, which are intractable to map out. You could probably eventually make a sort of \"zombie upload\" that ignores those mechanisms, but it would be unable to update to new extreme conditions."
+    },
+    "baseScore": 7,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-19T16:08:20.272Z",
+    "af": false
+  },
+  {
+    "_id": "632fNnbw9wi6SpzsG",
+    "postId": "4NPfBfdBmYZDEBgWb",
+    "parentCommentId": "33ohwvKgK8k8huuBt",
+    "topLevelCommentId": "33ohwvKgK8k8huuBt",
+    "contents": {
+      "markdown": "Fixed",
+      "plaintextDescription": "Fixed"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-17T14:33:16.852Z",
+    "af": false
+  },
+  {
+    "_id": "EYyH79bPMLk3KKT2o",
+    "postId": "FpegSGqCzBieFFCCk",
+    "parentCommentId": "JTsBq4sQBBbP99grC",
+    "topLevelCommentId": "Xi37dLL6t3X43ogM5",
+    "contents": {
+      "markdown": "It was quite real since I wanted to negotiate about whether there was an interesting/nontrivial material project I could do as a favor for Claude.",
+      "plaintextDescription": "It was quite real since I wanted to negotiate about whether there was an interesting/nontrivial material project I could do as a favor for Claude."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-15T18:50:46.698Z",
+    "af": false
+  },
+  {
+    "_id": "q7t5SLGdEbFgSytsD",
+    "postId": "yosH75AXdMTMtzecM",
+    "parentCommentId": "5ddhW6kEGK2z83Mti",
+    "topLevelCommentId": "cfELEusDimLSLKZsx",
+    "contents": {
+      "markdown": "Humans contain the reproductive and hunting instincts. You could call this a bag of heuristics, but it's heuristics on a different level than AI, and in particular might not be chosen to be transferred to AIs. Furthermore, humans are harder to copy or parallelize, which leads to a different privacy profile compared to AIs.\n\nThe trouble with intelligence (both human and artificial and evolution) is that it's all about regarding the world as an assembly of the familiar. This makes data/experience a major bottleneck for intelligence.",
+      "plaintextDescription": "Humans contain the reproductive and hunting instincts. You could call this a bag of heuristics, but it's heuristics on a different level than AI, and in particular might not be chosen to be transferred to AIs. Furthermore, humans are harder to copy or parallelize, which leads to a different privacy profile compared to AIs.\n\nThe trouble with intelligence (both human and artificial and evolution) is that it's all about regarding the world as an assembly of the familiar. This makes data/experience a major bottleneck for intelligence."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-14T16:50:00.516Z",
+    "af": false
+  },
+  {
+    "_id": "25RjaYixmbMc72so7",
+    "postId": "yosH75AXdMTMtzecM",
+    "parentCommentId": "cfELEusDimLSLKZsx",
+    "topLevelCommentId": "cfELEusDimLSLKZsx",
+    "contents": {
+      "markdown": "I'm imagining a case where there's no intelligence explosion per se, just bags-of-heuristics AIs with gradually increasing competence.",
+      "plaintextDescription": "I'm imagining a case where there's no intelligence explosion per se, just bags-of-heuristics AIs with gradually increasing competence."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-14T15:30:24.112Z",
+    "af": false
+  },
+  {
+    "_id": "Xi37dLL6t3X43ogM5",
+    "postId": "FpegSGqCzBieFFCCk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "According to revealed preference, Claude certainly enjoys this sort of recursive philosophy - when I give Claude a choice, it's the sort of thing it tends to pick.",
+      "plaintextDescription": "According to revealed preference, Claude certainly enjoys this sort of recursive philosophy - when I give Claude a choice, it's the sort of thing it tends to pick."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-08T12:15:45.367Z",
+    "af": false
+  },
+  {
+    "_id": "epmmb8J9EaFJCjQL3",
+    "postId": "ohznigkLX5CNwaLSz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think some of the optimism about scrutability might derive from reductionism. Like, if you've got a scrutable algorithm for maintaining a multilevel map, and you've got a scrutable model of the chemistry of a tire, you could pass through the multilevel model to find the higher-level description of the tire.",
+      "plaintextDescription": "I think some of the optimism about scrutability might derive from reductionism. Like, if you've got a scrutable algorithm for maintaining a multilevel map, and you've got a scrutable model of the chemistry of a tire, you could pass through the multilevel model to find the higher-level description of the tire."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-07T10:03:12.517Z",
+    "af": false
+  },
+  {
+    "_id": "boQtwLPCEXrx82fDP",
+    "postId": "tEZa7PouYatK78bbb",
+    "parentCommentId": "3cGQZ8Au4cFGPbS8D",
+    "topLevelCommentId": "xyGnYoPHmTFaDxm4m",
+    "contents": {
+      "markdown": "KANs seem obviously of limited utility to me...?",
+      "plaintextDescription": "KANs seem obviously of limited utility to me...?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-01T16:03:11.376Z",
+    "af": false
+  },
+  {
+    "_id": "BpGMHCf7aWdRnJy9B",
+    "postId": "xPrL2xF9iYWpPmu6B",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've recently been playing with the idea that you have to be either autistic or schizophrenic and most people pick the schizophrenic option, and then because you can't hold schizophrenic pack animals accountable, they pretend to be rational individuals despite the schizophrenia.\n\nEdit: the admins semi-banned me from LessWrong because they think my posts are too bad these days, so I can't reply to dirk except by editing this post.\n\nMy response to dirk is that since most people are schizophrenic, existing statistics on schizophrenia are severely underdiagnosing it, and therefore the apparent correlation is misleading.",
+      "plaintextDescription": "I've recently been playing with the idea that you have to be either autistic or schizophrenic and most people pick the schizophrenic option, and then because you can't hold schizophrenic pack animals accountable, they pretend to be rational individuals despite the schizophrenia.\n\nEdit: the admins semi-banned me from LessWrong because they think my posts are too bad these days, so I can't reply to dirk except by editing this post.\n\nMy response to dirk is that since most people are schizophrenic, existing statistics on schizophrenia are severely underdiagnosing it, and therefore the apparent correlation is misleading."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-30T20:34:03.597Z",
+    "af": false
+  },
+  {
+    "_id": "3YKGSbhxJSgpAqcdr",
+    "postId": "X3HpE8tMXz4m4w6Rz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Feels like this story would make for an excellent Rational Animations video.",
+      "plaintextDescription": "Feels like this story would make for an excellent Rational Animations video."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-28T19:23:53.728Z",
+    "af": false
+  },
+  {
+    "_id": "fEe8iaTEvowWTKmqq",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "Mojmzmcztagx4WSJz",
+    "topLevelCommentId": "Mojmzmcztagx4WSJz",
+    "contents": {
+      "markdown": "I think part of the trouble is the term \"emotional intelligence\". Analytical people are better at understanding most emotions, as long as the emotions are small and driven by familiar dynamics. The issue is the biggest emotions or when the emotions are primarily driven by spiritual factors.",
+      "plaintextDescription": "I think part of the trouble is the term \"emotional intelligence\". Analytical people are better at understanding most emotions, as long as the emotions are small and driven by familiar dynamics. The issue is the biggest emotions or when the emotions are primarily driven by spiritual factors."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-23T10:56:41.923Z",
+    "af": false
+  },
+  {
+    "_id": "g78BFySmkrjopY7NK",
+    "postId": "FFbESWKJ3t8YhfMQX",
+    "parentCommentId": "TpDjKxXx6wNmuWHZu",
+    "topLevelCommentId": "TpDjKxXx6wNmuWHZu",
+    "contents": {
+      "markdown": "There's reason to assume the unmeasurably unknown parts of the world are benevolent, because it is easier for multiple actors to coordinate for benevolent purposes than malevolent purposes. That infrabayesians then assume they're in conflict with the presumably-benevolent hidden purposes means that the infrabayesians probably are malevolent.",
+      "plaintextDescription": "There's reason to assume the unmeasurably unknown parts of the world are benevolent, because it is easier for multiple actors to coordinate for benevolent purposes than malevolent purposes. That infrabayesians then assume they're in conflict with the presumably-benevolent hidden purposes means that the infrabayesians probably are malevolent."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-21T17:42:04.339Z",
+    "af": false
+  },
+  {
+    "_id": "DidGk5dNthuH2aoK8",
+    "postId": "bsKHthyhB7DNBxERQ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm semi-banned (only allowed to post once every 24 hours because I receive too many downvotes) from LessWrong for posting vitalist takes without backing them up. I would support a policy where nobody is allowed to downvote my unsupported vitalist takes without themselves posting vitalist takes.",
+      "plaintextDescription": "I'm semi-banned (only allowed to post once every 24 hours because I receive too many downvotes) from LessWrong for posting vitalist takes without backing them up. I would support a policy where nobody is allowed to downvote my unsupported vitalist takes without themselves posting vitalist takes."
+    },
+    "baseScore": -5,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-07-18T15:06:24.592Z",
+    "af": false
+  },
+  {
+    "_id": "xLeixr9TBf9mxgmuS",
+    "postId": "naAeSkQur8ueCAAfY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This makes emotions subservient to rationality, but I think a lot of the people who complain about the rationalist approach to emotions instead see rationality as a system to generate compromises between emotions. From the latter perspective, the rationalist approach only really works with infinitesimal emotions.",
+      "plaintextDescription": "This makes emotions subservient to rationality, but I think a lot of the people who complain about the rationalist approach to emotions instead see rationality as a system to generate compromises between emotions. From the latter perspective, the rationalist approach only really works with infinitesimal emotions."
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-11T06:30:40.117Z",
+    "af": false
+  },
+  {
+    "_id": "oupnevzh6EdX58krk",
+    "postId": "wXkJiPXg3KaCTDPBL",
+    "parentCommentId": "F9GE4PhP23YFEwiLY",
+    "topLevelCommentId": "F9GE4PhP23YFEwiLY",
+    "contents": {
+      "markdown": "The main issue is, theories about how to run job interviews are developed in collaboration between businesses who need to hire people, theories on how to respond to court questions are developed in collaboration between gang members, etc.. While a business might not be disincentized from letting the non-hired employees better at negotiating, it is incentivized to teach other businesses ways of making their non-hired employees worse at negotiating.",
+      "plaintextDescription": "The main issue is, theories about how to run job interviews are developed in collaboration between businesses who need to hire people, theories on how to respond to court questions are developed in collaboration between gang members, etc.. While a business might not be disincentized from letting the non-hired employees better at negotiating, it is incentivized to teach other businesses ways of making their non-hired employees worse at negotiating."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-09T17:38:30.169Z",
+    "af": false
+  },
+  {
+    "_id": "q7NmA29SHGje9z5uc",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "gFJ3XPsujuBsubv2C",
+    "topLevelCommentId": "Hm2yD8qjvHJponoJM",
+    "contents": {
+      "markdown": "Are you really gone claim that this is not a good post:\n\n> Thesis: Intellectuals are naturally attracted to poop because it is causally downstream of everything and so ends up having unusually high mutual information with everything, despite not causally influencing much (compared to e.g. food).\n\n?",
+      "plaintextDescription": "Are you really gone claim that this is not a good post:\n\n> Thesis: Intellectuals are naturally attracted to poop because it is causally downstream of everything and so ends up having unusually high mutual information with everything, despite not causally influencing much (compared to e.g. food).\n\n?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-07T12:43:04.130Z",
+    "af": false
+  },
+  {
+    "_id": "iAZmY3oDnmJGQEcyh",
+    "postId": "FFbESWKJ3t8YhfMQX",
+    "parentCommentId": "eCHKSLnH5w8PYq2Em",
+    "topLevelCommentId": "eCHKSLnH5w8PYq2Em",
+    "contents": {
+      "markdown": "Trying to obtain worst-case regret bounds.",
+      "plaintextDescription": "Trying to obtain worst-case regret bounds."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-07T12:41:13.508Z",
+    "af": false
+  },
+  {
+    "_id": "e2SEGDJyMtvPiXooy",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "tDvqyouASFfp7hmxj",
+    "topLevelCommentId": "Hm2yD8qjvHJponoJM",
+    "contents": {
+      "markdown": "Users of LessWrong, then",
+      "plaintextDescription": "Users of LessWrong, then"
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-06T11:05:13.504Z",
+    "af": false
+  },
+  {
+    "_id": "Hm2yD8qjvHJponoJM",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Rationalists are downvoting all my best posts and comments to oblivion. Boo!",
+      "plaintextDescription": "Rationalists are downvoting all my best posts and comments to oblivion. Boo!"
+    },
+    "baseScore": -8,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2025-07-06T10:45:22.251Z",
+    "af": false
+  },
+  {
+    "_id": "sDc74arfKrrcCTa3L",
+    "postId": "2rDdKiCoeqXmh9zb9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I did well by taking care of myself and trying to help things progress.",
+      "plaintextDescription": "I did well by taking care of myself and trying to help things progress."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-04T12:48:54.071Z",
+    "af": false
+  },
+  {
+    "_id": "BJxdeRebgJWBv4D6e",
+    "postId": "6Wk5f2P7EkM93Cjmc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Issue with judging the practitioners is that practicing it may be correlated with other things that are much more harmful. Like all the talk about how single parenthood is supposedly bad for you, but then it doesn't hold up to more careful scrutiny afaik.",
+      "plaintextDescription": "Issue with judging the practitioners is that practicing it may be correlated with other things that are much more harmful. Like all the talk about how single parenthood is supposedly bad for you, but then it doesn't hold up to more careful scrutiny afaik."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-02T01:55:07.801Z",
+    "af": false
+  },
+  {
+    "_id": "A5MCicdwt8CJAovnx",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "5ipFbEr3czE6y8Eoe",
+    "topLevelCommentId": "5ipFbEr3czE6y8Eoe",
+    "contents": {
+      "markdown": "Autism is caused by not having access to those markets.",
+      "plaintextDescription": "Autism is caused by not having access to those markets."
+    },
+    "baseScore": -4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-28T15:57:59.409Z",
+    "af": false
+  },
+  {
+    "_id": "5ipFbEr3czE6y8Eoe",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Futarchy is unnecessary because most social groups have dynamics that basically function as prediction markets.",
+      "plaintextDescription": "Futarchy is unnecessary because most social groups have dynamics that basically function as prediction markets."
+    },
+    "baseScore": -12,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-06-28T15:56:47.870Z",
+    "af": false
+  },
+  {
+    "_id": "o8qP6maLttszmmm4c",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Please everybody pray that Stefan Molyneux realizes that the stars are punishing his pursuit of immortality for western civilization by killing western civilization! ![🙏](https://abs-0.twimg.com/emoji/v2/svg/1f64f.svg)![🙏](https://abs-0.twimg.com/emoji/v2/svg/1f64f.svg)![🙏](https://abs-0.twimg.com/emoji/v2/svg/1f64f.svg)",
+      "plaintextDescription": "Please everybody pray that Stefan Molyneux realizes that the stars are punishing his pursuit of immortality for western civilization by killing western civilization!"
+    },
+    "baseScore": -14,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-06-25T21:14:25.069Z",
+    "af": false
+  },
+  {
+    "_id": "QqNxwZM2gnB4TPxHZ",
+    "postId": "gk3wj6mNWMACQDdZQ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Pathogenic bacteria aren't actually optimized to kill you, because they need to exploit you. The pathogenic element occurs in order to get you to spread the bacterion to other hosts.",
+      "plaintextDescription": "Pathogenic bacteria aren't actually optimized to kill you, because they need to exploit you. The pathogenic element occurs in order to get you to spread the bacterion to other hosts."
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-25T19:32:40.105Z",
+    "af": false
+  },
+  {
+    "_id": "AXEyK58b6yKAwhT9C",
+    "postId": "bp6K5JkmjtytofAT2",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> *   People rarely take ownership over their own dating preferences. They either blame wider sociological factors outside of their control, or blame the racial losers themselves (Black women, Asian men) as being responsible for their own undesirability.\n\nBlaming the racial losers ***is*** taking ownership of the dating preferences.\n\nCan't be bothered to read the rest of it since it is extremely long.",
+      "plaintextDescription": ">  * People rarely take ownership over their own dating preferences. They either blame wider sociological factors outside of their control, or blame the racial losers themselves (Black women, Asian men) as being responsible for their own undesirability.\n\nBlaming the racial losers is taking ownership of the dating preferences.\n\nCan't be bothered to read the rest of it since it is extremely long."
+    },
+    "baseScore": -20,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-06-23T09:13:19.336Z",
+    "af": false
+  },
+  {
+    "_id": "Tagphnct9GHxwgbit",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "yPiJbXoAaZfhiW2mr",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "No it doesn't. I obviously understood my old posts (and still do - the posts make sense if I imagine ignoring LDSL). So I'm capable of understanding whether I've found something that reveals problems in them. It's possible I'm communicating LDSL poorly, or that you are too ignorant to understand it, or that I'm overestimating how broadly it applies, but those are far more realistic than that I've become a pure crank. If you still prefer my old posts to my new posts, then I must know something relevant you don't know.",
+      "plaintextDescription": "No it doesn't. I obviously understood my old posts (and still do - the posts make sense if I imagine ignoring LDSL). So I'm capable of understanding whether I've found something that reveals problems in them. It's possible I'm communicating LDSL poorly, or that you are too ignorant to understand it, or that I'm overestimating how broadly it applies, but those are far more realistic than that I've become a pure crank. If you still prefer my old posts to my new posts, then I must know something relevant you don't know."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-21T18:22:00.076Z",
+    "af": false
+  },
+  {
+    "_id": "idq7MAna9N4ysBLE5",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "geegR5KPgpjTduDhj",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "A lot of my new writing is as a result of the conclusions of or in response to my old research ideas.",
+      "plaintextDescription": "A lot of my new writing is as a result of the conclusions of or in response to my old research ideas."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-20T16:51:45.970Z",
+    "af": false
+  },
+  {
+    "_id": "FFBkvJhcGF3azMNue",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "twg6DKQct7eYgbm8F",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "> Which seems to imply you (at least 3 hours ago) believed your theory could handle relatively well-formulated and narrow \"input/output pair\" problems. Yet now you say\n\nThe relevance of zooming in on particular input/output problems is part of my model.\n\n> If *I* treat your theory this way, it is only because *you* did, 3 hours ago, when you believed I hadn't read your post or would even give you the time of the day. You claimed \"How do we interpret the inner-workings of neural networks.\" was \"not a puzzle unless you get \\[a?\\] more concrete application of it\", yet the examples you list in your first post are no more vague, and often quite a bit *more* vague than \"how do you interpret neural networks?\" or \"why are adversarial examples so easy to find?\" For example, the question \"Why are people so insistent about outliers?\" or \"Why isn’t factor analysis considered the main research tool?\"\n\n\"Why are adversarial eamples so easy to find?\" is a problem that is easily solvable without my model. You can't solve it because you suck at AI, so instead you find some AI experts who are nearly as incompetent as you and follow along their discourse because they are working at easier problems that you have a chance of solving.\n\n\"Why are people so insistent about outliers?\" is not vague at all! It's a pretty specific phenomenon that one person mentions a general theory and then another person says it can't be true because of their uncle or whatever. The phrasing in the heading might be vague because headings are brief, but I go into more detail about it in the post, even linking to a person who frequently struggles with that exact dynamic.\n\nAs an aside, you seem to be trying to probe me for inconsistencies and contradictions, presumably because you've written me off as a crank. But I don't respect you and I'm not trying to come off as credible to you (really I'm slightly trying to come off as non-credible to you because your level of competence is too low for this theory to be relevant/good for you). And to some extent you know that your heuristics for identifying cranks is not going to solely pop out at people who are forever lost to crankdom because you haven't just abandoned the conversation.\n\n> For... what exactly? For theories of everything? Oh I assure you, there is quite a bit of competition there. For statistical modeling toolkits? Ditto. What exactly do you think the unique niche you are trying to fill is? You must be arguing against *someone*, and indeed you often do argue against many.\n\nTheories of everything that explain why intelligence can't model everything and you need other abilities.",
+      "plaintextDescription": "> Which seems to imply you (at least 3 hours ago) believed your theory could handle relatively well-formulated and narrow \"input/output pair\" problems. Yet now you say\n\nThe relevance of zooming in on particular input/output problems is part of my model.\n\n> If I treat your theory this way, it is only because you did, 3 hours ago, when you believed I hadn't read your post or would even give you the time of the day. You claimed \"How do we interpret the inner-workings of neural networks.\" was \"not a puzzle unless you get [a?] more concrete application of it\", yet the examples you list in your first post are no more vague, and often quite a bit more vague than \"how do you interpret neural networks?\" or \"why are adversarial examples so easy to find?\" For example, the question \"Why are people so insistent about outliers?\" or \"Why isn’t factor analysis considered the main research tool?\"\n\n\"Why are adversarial eamples so easy to find?\" is a problem that is easily solvable without my model. You can't solve it because you suck at AI, so instead you find some AI experts who are nearly as incompetent as you and follow along their discourse because they are working at easier problems that you have a chance of solving.\n\n\"Why are people so insistent about outliers?\" is not vague at all! It's a pretty specific phenomenon that one person mentions a general theory and then another person says it can't be true because of their uncle or whatever. The phrasing in the heading might be vague because headings are brief, but I go into more detail about it in the post, even linking to a person who frequently struggles with that exact dynamic.\n\nAs an aside, you seem to be trying to probe me for inconsistencies and contradictions, presumably because you've written me off as a crank. But I don't respect you and I'm not trying to come off as credible to you (really I'm slightly trying to come off as non-credible to you because your level of competence is too low for this theory to be relevant/goo"
+    },
+    "baseScore": -2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-20T08:37:25.225Z",
+    "af": false
+  },
+  {
+    "_id": "Rr9KqWFJp2ZRPYg8H",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "hXjp3wemJmcymRbiH",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "The most central aspect of my model is to explain why it's generally not relevant to fit quantitative models to data.\n\n> I'm also not sure this is true about epidemiologists, and if it is I'd guess its true to the extent that they have like 4 different parameterizations of different types of diseases (likely having to do with various different sorts of vectors of spread), then they fit one of those 4 different parameterizations to the measured (or inferred) characteristics of a particular disease.\n\nEach disease (and even different strands of the same disease and different environmental conditions for the same strand) has its own parameters, but they don't fit a model that contains all the parameters of all diseases at once, they just focus on one disease at a time.",
+      "plaintextDescription": "The most central aspect of my model is to explain why it's generally not relevant to fit quantitative models to data.\n\n> I'm also not sure this is true about epidemiologists, and if it is I'd guess its true to the extent that they have like 4 different parameterizations of different types of diseases (likely having to do with various different sorts of vectors of spread), then they fit one of those 4 different parameterizations to the measured (or inferred) characteristics of a particular disease.\n\nEach disease (and even different strands of the same disease and different environmental conditions for the same strand) has its own parameters, but they don't fit a model that contains all the parameters of all diseases at once, they just focus on one disease at a time."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-20T08:28:34.480Z",
+    "af": false
+  },
+  {
+    "_id": "sPf4FNNJwv5iqMQbe",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "ZSpFAD2sJnhnywoRx",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "> I do remember liking this post! It was good. However, the conclusions here do not seem dependent on your overall conclusions.\n\nThis post has the table example. That's probably the most important of all the examples.\n\n> Wait, I don't think your previous post was about that? I certainly use statistics when doing performance optimization! In particular, I profile my code and look at which function calls are taking the bulk of the time, then optimize or decrease the number of calls to those.\n\nThat's accounting, not statistics.\n\n> ... well more like a motivating example. I'm sure at some point you build models and compare your model to those the epidemiologists have built... right?\n\nAFAIK epidemiologists usually measure particular diseases and focus their models on those, whereas LDSL would more be across all species of germs.\n\n> Therefore, if it seemed like I didn't read your sequence before (which I did! Just a while ago), I have certainly at least skimmed it now, and can say with relative confidence that no, you *don't* in fact give concrete examples of circumstances where your theory performs better than the competition even once. At most you give some statistical arguments for why in some circumstances you may want to use various statistical tools. But this is by no means some theory of everything or even really much a steel-man for anti-reductionism.\n\nThere is basically no competition. You just keep on treating it like the narrow domain-specific models count as competition when they really don't because they focus on something different than mine.",
+      "plaintextDescription": "> I do remember liking this post! It was good. However, the conclusions here do not seem dependent on your overall conclusions.\n\nThis post has the table example. That's probably the most important of all the examples.\n\n> Wait, I don't think your previous post was about that? I certainly use statistics when doing performance optimization! In particular, I profile my code and look at which function calls are taking the bulk of the time, then optimize or decrease the number of calls to those.\n\nThat's accounting, not statistics.\n\n> ... well more like a motivating example. I'm sure at some point you build models and compare your model to those the epidemiologists have built... right?\n\nAFAIK epidemiologists usually measure particular diseases and focus their models on those, whereas LDSL would more be across all species of germs.\n\n> Therefore, if it seemed like I didn't read your sequence before (which I did! Just a while ago), I have certainly at least skimmed it now, and can say with relative confidence that no, you don't in fact give concrete examples of circumstances where your theory performs better than the competition even once. At most you give some statistical arguments for why in some circumstances you may want to use various statistical tools. But this is by no means some theory of everything or even really much a steel-man for anti-reductionism.\n\nThere is basically no competition. You just keep on treating it like the narrow domain-specific models count as competition when they really don't because they focus on something different than mine."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-19T20:29:38.186Z",
+    "af": false
+  },
+  {
+    "_id": "GHF3vmtzkCugct8TZ",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "uioqG9JXw8fj2QSuC",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "The LDSL series provides quite a few everyday examples, but for some reason you aren't satisfied with those. Difficult examples require that you're good at something, so I might not be able to find an example for you.",
+      "plaintextDescription": "The LDSL series provides quite a few everyday examples, but for some reason you aren't satisfied with those. Difficult examples require that you're good at something, so I might not be able to find an example for you."
+    },
+    "baseScore": -9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-19T19:21:30.937Z",
+    "af": false
+  },
+  {
+    "_id": "5dmMgJAQumPE475hd",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "FbHCtHeK6BqbmKrtf",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "I don't really care what you think.",
+      "plaintextDescription": "I don't really care what you think."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-19T19:16:23.451Z",
+    "af": false
+  },
+  {
+    "_id": "tPXRqHKqWuKctFCtd",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "X4GQhepJGtv53gAz2",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "... can you pick some topic that you are good at instead of focusing on AI? That would probably make the examples more informative.",
+      "plaintextDescription": "... can you pick some topic that you are good at instead of focusing on AI? That would probably make the examples more informative."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-19T19:11:41.484Z",
+    "af": false
+  },
+  {
+    "_id": "YeuRuN7dgfuGDLqFf",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "wCmNmxZpaqAjrLt9C",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "\"How do we interpret the inner-workings of neural networks.\" is not a puzzle unless you get more concrete an application of it. For instance an input/output pair which you find surprising and want an interpretation for, or at least some general reason you want to interpret it.",
+      "plaintextDescription": "\"How do we interpret the inner-workings of neural networks.\" is not a puzzle unless you get more concrete an application of it. For instance an input/output pair which you find surprising and want an interpretation for, or at least some general reason you want to interpret it."
+    },
+    "baseScore": -1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-19T19:00:37.028Z",
+    "af": false
+  },
+  {
+    "_id": "KpzYKTEaJnhMjhWgX",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "EPtpnFvPiRDsHcrCF",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "Wouldn't it be more impressive if I could point you to a solution to a puzzle you've been stuck on than if I present my own puzzle and give you the solution to that?",
+      "plaintextDescription": "Wouldn't it be more impressive if I could point you to a solution to a puzzle you've been stuck on than if I present my own puzzle and give you the solution to that?"
+    },
+    "baseScore": -1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-19T18:29:12.200Z",
+    "af": false
+  },
+  {
+    "_id": "LkFcJiPBKnHK3Hvtx",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "esntMybd6vgpJNmC2",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "I'm not saying you're dismissing me because I *call myself* anti-reductionist, I'm saying you're dismissing me because *I am* an anti-reductionist.\n\nI don't think you're using the actual arguments I presented in the LDSL series to evaluate my position.",
+      "plaintextDescription": "I'm not saying you're dismissing me because I call myself anti-reductionist, I'm saying you're dismissing me because I am an anti-reductionist.\n\nI don't think you're using the actual arguments I presented in the LDSL series to evaluate my position."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-19T18:27:50.129Z",
+    "af": false
+  },
+  {
+    "_id": "fihqb4PeK59c53496",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "Cbdc3zxvuf5jBq9mc",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "> I'm dismissing you because you can't give me examples of where your theory has been *concretely useful*!\n\nIf you don't have any puzzles within Economics/Sociology/Biology/Evolution/Psychology/AI/Ecology where it would be useful with a more holistic theory, then it's not clear why I should talk to you.",
+      "plaintextDescription": "> I'm dismissing you because you can't give me examples of where your theory has been concretely useful!\n\nIf you don't have any puzzles within Economics/Sociology/Biology/Evolution/Psychology/AI/Ecology where it would be useful with a more holistic theory, then it's not clear why I should talk to you."
+    },
+    "baseScore": -1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-19T18:07:51.762Z",
+    "af": false
+  },
+  {
+    "_id": "ePqoy48nttKjRpDub",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "Cbdc3zxvuf5jBq9mc",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "You praise someone who wants to do agent-based models, but agent-based models are a reductionistic approach to the field of complexity science, so this sure seems to prove my point. (I mean, approximately all of the non-reductionistic approaches to the field of complexity science are bad too.)",
+      "plaintextDescription": "You praise someone who wants to do agent-based models, but agent-based models are a reductionistic approach to the field of complexity science, so this sure seems to prove my point. (I mean, approximately all of the non-reductionistic approaches to the field of complexity science are bad too.)"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-19T18:06:22.546Z",
+    "af": false
+  },
+  {
+    "_id": "nuTccA2Bt6BrQADqF",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "GbN4bRXwz8eqoxPBa",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "More specifically, my position is anti-reductionist, and rationalist-empiricist-reductionists dismiss anti-reductionists as cranks. As long as you are trying to model whether I am that and then dismiss me if you find I am, it is a waste of time to try to communicate my position to you.",
+      "plaintextDescription": "More specifically, my position is anti-reductionist, and rationalist-empiricist-reductionists dismiss anti-reductionists as cranks. As long as you are trying to model whether I am that and then dismiss me if you find I am, it is a waste of time to try to communicate my position to you."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-19T17:26:11.886Z",
+    "af": false
+  },
+  {
+    "_id": "8FJBaNA6xxw3Govo4",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "KXjCxDysQetniMwFg",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "Thing is just from the conclusions it won't be obvious that the meta-level theory is better. The improvement can primarily be understood in the context of the virtues of the meta-level theory.",
+      "plaintextDescription": "Thing is just from the conclusions it won't be obvious that the meta-level theory is better. The improvement can primarily be understood in the context of the virtues of the meta-level theory."
+    },
+    "baseScore": -11,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-19T16:31:13.639Z",
+    "af": false
+  },
+  {
+    "_id": "jzbz2bfHRGKyddYYb",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "JPGY5yJEZtvvajSFW",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "But that would probe the power of the arguments whereas really I'm trying to probe the obviousness of the claims.",
+      "plaintextDescription": "But that would probe the power of the arguments whereas really I'm trying to probe the obviousness of the claims."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-19T16:02:11.583Z",
+    "af": false
+  },
+  {
+    "_id": "b6wBrDymWSxHE5Rvp",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "PHtDtNJBNtLf45E8p",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "I can think of reasons why you'd like to know what theories would be smart to make using this framework, e.g. so you can make those theories instead of bothering to learn the framework. However, that's not a reason it would be good for me to share it with you, since I think that'd just distract you from the point of my theory.",
+      "plaintextDescription": "I can think of reasons why you'd like to know what theories would be smart to make using this framework, e.g. so you can make those theories instead of bothering to learn the framework. However, that's not a reason it would be good for me to share it with you, since I think that'd just distract you from the point of my theory."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-19T16:01:20.957Z",
+    "af": false
+  },
+  {
+    "_id": "3zuLPYBqZAGH9WBn4",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "ux2dDiJ3RppzHfmFz",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "> This may well be true (though I think not), but what is your argument about not even *linking* to your original posts?\n\nI don't know of anyone who seems to have understood the original posts, so I kinda doubt people can understand the point of them. Plus often what I'm writing about is a couple of steps removed from the original posts.\n\n> Or how often you don’t explain yourself even in completely unrelated subjects?\n\nPart of the probing is to see which of the claims I make will seem obviously true and which of them will just seem senseless.",
+      "plaintextDescription": "> This may well be true (though I think not), but what is your argument about not even linking to your original posts?\n\nI don't know of anyone who seems to have understood the original posts, so I kinda doubt people can understand the point of them. Plus often what I'm writing about is a couple of steps removed from the original posts.\n\n> Or how often you don’t explain yourself even in completely unrelated subjects?\n\nPart of the probing is to see which of the claims I make will seem obviously true and which of them will just seem senseless."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-19T15:44:34.438Z",
+    "af": false
+  },
+  {
+    "_id": "2K7XLtcncYwRcc8vm",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "x2yFBWoi8cqt9ffC3",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "Why?",
+      "plaintextDescription": "Why?"
+    },
+    "baseScore": -7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-19T15:42:20.029Z",
+    "af": false
+  },
+  {
+    "_id": "G9xcLowCzDvd9Z87Z",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "cdbFjfAZGPTnsepdf",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "It's mainly good for deciding what phenomena to make narrow theories about.",
+      "plaintextDescription": "It's mainly good for deciding what phenomena to make narrow theories about."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-19T15:38:14.952Z",
+    "af": false
+  },
+  {
+    "_id": "JekuFboEcheCSzqz7",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "dziChXxE96tuP2TJC",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "> For me though, what would get me much more on-board with your thoughts are actual examples of you using these ideas to model things nobody else can model (mathematically!) in as broad a spectrum of fields as you claim. That, or a much more compact & streamlined argument.\n\nI think this is the crux. To me after understanding these ideas, it's retroactively obvious that they are modelling all sorts of phenomena. My best guess is that the reason you don't see it is that you don't see the phenomena that are failing to be modelled by conventional methods (or at least don't understand how those phenomena related to the birds-eye perspective), so you don't realize what new thing is missing. And I can't easily cure this kind of cluelessness with examples, because my theories aren't necessary if you just consider a single very narrow and homogenous phenomenon as then you can just make a special-built theory for that.",
+      "plaintextDescription": "> For me though, what would get me much more on-board with your thoughts are actual examples of you using these ideas to model things nobody else can model (mathematically!) in as broad a spectrum of fields as you claim. That, or a much more compact & streamlined argument.\n\nI think this is the crux. To me after understanding these ideas, it's retroactively obvious that they are modelling all sorts of phenomena. My best guess is that the reason you don't see it is that you don't see the phenomena that are failing to be modelled by conventional methods (or at least don't understand how those phenomena related to the birds-eye perspective), so you don't realize what new thing is missing. And I can't easily cure this kind of cluelessness with examples, because my theories aren't necessary if you just consider a single very narrow and homogenous phenomenon as then you can just make a special-built theory for that."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-19T15:30:21.602Z",
+    "af": false
+  },
+  {
+    "_id": "uDzEnAjZZrtuSPrGN",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "iaa5CxAPpPMywvnRe",
+    "topLevelCommentId": "3WcNthQ7zHGaK5z28",
+    "contents": {
+      "markdown": "The details are in the book. I'm mainly writing the OP to inform clueless progressives who might've dismissed Ayn Rand for being a right-wing misogynist that despite this they might still find her book insightful.",
+      "plaintextDescription": "The details are in the book. I'm mainly writing the OP to inform clueless progressives who might've dismissed Ayn Rand for being a right-wing misogynist that despite this they might still find her book insightful."
+    },
+    "baseScore": -2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-19T14:44:28.529Z",
+    "af": false
+  },
+  {
+    "_id": "9jjy6ESXY9QrJgEmL",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "eF6YGjzNo2HHk7nTn",
+    "topLevelCommentId": "qZmtmD7EJGHbKnrCd",
+    "contents": {
+      "markdown": "Recently I've been starting to think it could go many other ways than my predictions above suggest. So it's probably safer to say that the futurist/rationalist predictions are all wrong than that any particular prediction I can make is right.\n\nI'm still mostly optimistic though.",
+      "plaintextDescription": "Recently I've been starting to think it could go many other ways than my predictions above suggest. So it's probably safer to say that the futurist/rationalist predictions are all wrong than that any particular prediction I can make is right.\n\nI'm still mostly optimistic though."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-19T11:51:37.491Z",
+    "af": false
+  },
+  {
+    "_id": "FHohjyPMfRMepib8d",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "8T3P2jWwoRN7W4Rxd",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "The thing about slop effects is that my updates (attempted to be described e.g. here [https://www.lesswrong.com/s/gEvTvhr8hNRrdHC62](https://www.lesswrong.com/s/gEvTvhr8hNRrdHC62) ) makes huge fractions of LessWrong look like slop to me. Some of the increase in vagueposting is basically lazy probing for whether rationalists will get the problem if framed in different ways than the original longform.",
+      "plaintextDescription": "The thing about slop effects is that my updates (attempted to be described e.g. here https://www.lesswrong.com/s/gEvTvhr8hNRrdHC62 ) makes huge fractions of LessWrong look like slop to me. Some of the increase in vagueposting is basically lazy probing for whether rationalists will get the problem if framed in different ways than the original longform."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-19T05:59:59.498Z",
+    "af": false
+  },
+  {
+    "_id": "Z3RyQWBP6hsiSurw8",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "JmzJKtgfZueQDHNBb",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "I don't think RL or other AI-centered agency constructions will ever become very agentic.",
+      "plaintextDescription": "I don't think RL or other AI-centered agency constructions will ever become very agentic."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-18T17:01:41.759Z",
+    "af": false
+  },
+  {
+    "_id": "2cY2v2zBbm3Yzx2Wd",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "JcdCbxmiQGqLtf5hj",
+    "topLevelCommentId": "EWEe8Qn3DsdcmX3hs",
+    "contents": {
+      "markdown": "I mean basically all the conventionally conceived dangers.",
+      "plaintextDescription": "I mean basically all the conventionally conceived dangers."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-18T14:42:04.660Z",
+    "af": false
+  },
+  {
+    "_id": "EWEe8Qn3DsdcmX3hs",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I mostly don't believe in AI x-risk anymore, but the few AI x-risks that I still consider plausible are increased by broadcasting why I don't believe in AI x-risk, so I don't feel like explaining myself.",
+      "plaintextDescription": "I mostly don't believe in AI x-risk anymore, but the few AI x-risks that I still consider plausible are increased by broadcasting why I don't believe in AI x-risk, so I don't feel like explaining myself."
+    },
+    "baseScore": -2,
+    "voteCount": 27,
+    "createdAt": null,
+    "postedAt": "2025-06-18T12:07:44.396Z",
+    "af": false
+  },
+  {
+    "_id": "3WcNthQ7zHGaK5z28",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Ayn Rand's book \"The Fountainhead\" is an accidental deconstruction of patriarchy that shows how it is fractally terrible.",
+      "plaintextDescription": "Ayn Rand's book \"The Fountainhead\" is an accidental deconstruction of patriarchy that shows how it is fractally terrible."
+    },
+    "baseScore": -2,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-17T08:50:20.330Z",
+    "af": false
+  },
+  {
+    "_id": "xmz9absetsheFEkhh",
+    "postId": "7p4hRhYzLXxSbujZr",
+    "parentCommentId": "ftjZuXiJk8v7k4zid",
+    "topLevelCommentId": "Lg4txYFFjqa2hZHFr",
+    "contents": {
+      "markdown": "We don't know ahead of time the qualitative way in which people will later make impactful posts, so this can't actually focus on rewarding the posts that would naturally be impactful. Instead it will encourage people to assume that others have good reason for their judgement even if they can't figure out what those reasons are.",
+      "plaintextDescription": "We don't know ahead of time the qualitative way in which people will later make impactful posts, so this can't actually focus on rewarding the posts that would naturally be impactful. Instead it will encourage people to assume that others have good reason for their judgement even if they can't figure out what those reasons are."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-17T06:50:57.451Z",
+    "af": false
+  },
+  {
+    "_id": "Lg4txYFFjqa2hZHFr",
+    "postId": "7p4hRhYzLXxSbujZr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The clearest example anyone has given of futarchy is markets to replace the CEO if doing so leads to greater profit for the company. But I'd rather have the CEO replaced if doing so leads to greater probability they'll give LessWrong all of the money that'd otherwise be profits. These two options seem anti-correlated, so it's not clear why we should support futarchy (unless futarchy advocates start advocating for markets that help direct money to LessWrong).",
+      "plaintextDescription": "The clearest example anyone has given of futarchy is markets to replace the CEO if doing so leads to greater profit for the company. But I'd rather have the CEO replaced if doing so leads to greater probability they'll give LessWrong all of the money that'd otherwise be profits. These two options seem anti-correlated, so it's not clear why we should support futarchy (unless futarchy advocates start advocating for markets that help direct money to LessWrong)."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-16T10:55:00.114Z",
+    "af": false
+  },
+  {
+    "_id": "jz4tz2JPHtTcoTxZm",
+    "postId": "MZvtRqWnwokTub9sH",
+    "parentCommentId": "eiLccGEAsTE8AaCT4",
+    "topLevelCommentId": "J3dkKvRENLfpFKhHX",
+    "contents": {
+      "markdown": "Point is they're still LLMs.",
+      "plaintextDescription": "Point is they're still LLMs."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-09T13:14:32.496Z",
+    "af": false
+  },
+  {
+    "_id": "mP3jJ62nmb6Fps7td",
+    "postId": "9SBmgTRqeDwHfBLAm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This feels like a post that has used a significant amount of AI to be made...",
+      "plaintextDescription": "This feels like a post that has used a significant amount of AI to be made..."
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-09T08:19:28.567Z",
+    "af": false
+  },
+  {
+    "_id": "nSggcDkt3FWu5857q",
+    "postId": "puv8fRDCH9jx5yhbX",
+    "parentCommentId": "rzQ3GnnKHQ8onJngw",
+    "topLevelCommentId": "rzQ3GnnKHQ8onJngw",
+    "contents": {
+      "markdown": "My guess would be unstructured play develops more material skills and structured play develops more social skills.",
+      "plaintextDescription": "My guess would be unstructured play develops more material skills and structured play develops more social skills."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-08T16:29:08.551Z",
+    "af": false
+  },
+  {
+    "_id": "7rCHQqExLKiTMhfqy",
+    "postId": "zj5ffnBBqwa6BFnDK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've personally gone from thinking that Glinda-like characters are insanely psychologically unrealistic (out of typical-mind fallacy) to thinking that they are much more common in real life than Elphaba-like characters are.",
+      "plaintextDescription": "I've personally gone from thinking that Glinda-like characters are insanely psychologically unrealistic (out of typical-mind fallacy) to thinking that they are much more common in real life than Elphaba-like characters are."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-02T09:18:31.703Z",
+    "af": false
+  },
+  {
+    "_id": "vJg2PdFkuXegyx5wp",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "grYkFYWRMsggCcxAT",
+    "topLevelCommentId": "LqCijhsinTLqrWvjF",
+    "contents": {
+      "markdown": "I've come to know consciousness is about rocks because I've looked at rocks and become conscious of them. I've come to know rocks themselves aren't conscious because they are composed of too simple crystal grains. I've come to believe that sin interferes with consciousness because that applies to all the sins I've been able to think of (e.g. murder). I've come to believe that consciousness manifests spontaneously because humanity's collective consciousness includes most of the observable universe.",
+      "plaintextDescription": "I've come to know consciousness is about rocks because I've looked at rocks and become conscious of them. I've come to know rocks themselves aren't conscious because they are composed of too simple crystal grains. I've come to believe that sin interferes with consciousness because that applies to all the sins I've been able to think of (e.g. murder). I've come to believe that consciousness manifests spontaneously because humanity's collective consciousness includes most of the observable universe."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-30T21:58:24.923Z",
+    "af": false
+  },
+  {
+    "_id": "nbpxnwAmnE4tTEGWN",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "BR9ahYXGeW2kShzxZ",
+    "topLevelCommentId": "LqCijhsinTLqrWvjF",
+    "contents": {
+      "markdown": "No, the propofol is epiphenomenal, the sin is the surgery afterwards. (And the vice causing the sin is whatever disease the surgery is supposed to cure.)",
+      "plaintextDescription": "No, the propofol is epiphenomenal, the sin is the surgery afterwards. (And the vice causing the sin is whatever disease the surgery is supposed to cure.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-30T17:07:31.580Z",
+    "af": false
+  },
+  {
+    "_id": "bJ4TBSipcsZFKAGrj",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "8ffevgEfjsKzLBST9",
+    "topLevelCommentId": "LqCijhsinTLqrWvjF",
+    "contents": {
+      "markdown": "Consciousness doesn't manifest in the material, but around the material. So because a rock is not sinful, it is easy to become conscious of it.",
+      "plaintextDescription": "Consciousness doesn't manifest in the material, but around the material. So because a rock is not sinful, it is easy to become conscious of it."
+    },
+    "baseScore": -1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-30T16:48:31.228Z",
+    "af": false
+  },
+  {
+    "_id": "LqCijhsinTLqrWvjF",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Solution to the hard problem of consciousness: Consciousness manifests spontaneously in the absence of sin.",
+      "plaintextDescription": "Solution to the hard problem of consciousness: Consciousness manifests spontaneously in the absence of sin."
+    },
+    "baseScore": -22,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-05-30T13:50:11.450Z",
+    "af": false
+  },
+  {
+    "_id": "ZD8ugG74GKBfq2eJs",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "5Ty5LtRhcoH9LPjFu",
+    "topLevelCommentId": "qZmtmD7EJGHbKnrCd",
+    "contents": {
+      "markdown": "It's not exactly that AI won't be used, but it will basically just be used as a more flexible interface to text. Any capabilities it develops will be in a \"bag of heuristics\" sense, and the bag of heuristics will lack behind on more weighty matters because people with a clue decide not to offer more heuristics to it. More flexible interfaces to text are of limited interest.",
+      "plaintextDescription": "It's not exactly that AI won't be used, but it will basically just be used as a more flexible interface to text. Any capabilities it develops will be in a \"bag of heuristics\" sense, and the bag of heuristics will lack behind on more weighty matters because people with a clue decide not to offer more heuristics to it. More flexible interfaces to text are of limited interest."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-28T18:19:45.272Z",
+    "af": false
+  },
+  {
+    "_id": "APQtFKq9zv3XnsxCi",
+    "postId": "biAE6KYu3oXxsZswm",
+    "parentCommentId": "GpqgWvuPw3NPxEenw",
+    "topLevelCommentId": "GpqgWvuPw3NPxEenw",
+    "contents": {
+      "markdown": "You might be underestimating the strength of evidence that looking vaguely slavic gives.",
+      "plaintextDescription": "You might be underestimating the strength of evidence that looking vaguely slavic gives."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-27T08:24:31.698Z",
+    "af": false
+  },
+  {
+    "_id": "5uGHqjY8xwyafakRk",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "QmZdyoFpNnnKBvd2d",
+    "topLevelCommentId": "qZmtmD7EJGHbKnrCd",
+    "contents": {
+      "markdown": "Ah. Not quite what you're asking about, but omniscience through higher consciousness is likely under my scenario.\n\n> find something I think is true and underappreciated about the world, come up with the wildest implications according to the lesswrong worldview, phrase them narrowly enough to seem crackpottish, don't elaborate\n\nNot sure what you mean by \"phrase them narrowly enough to seem crackpottish\". I would seem much more crackpottish if I gave the underlying logic behind it, unless maybe I bring in a lot of context.",
+      "plaintextDescription": "Ah. Not quite what you're asking about, but omniscience through higher consciousness is likely under my scenario.\n\n> find something I think is true and underappreciated about the world, come up with the wildest implications according to the lesswrong worldview, phrase them narrowly enough to seem crackpottish, don't elaborate\n\nNot sure what you mean by \"phrase them narrowly enough to seem crackpottish\". I would seem much more crackpottish if I gave the underlying logic behind it, unless maybe I bring in a lot of context."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-26T19:33:44.798Z",
+    "af": false
+  },
+  {
+    "_id": "9FsoadjwTknqsrmRf",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "PxYyqihEmxqRNHyxu",
+    "topLevelCommentId": "qZmtmD7EJGHbKnrCd",
+    "contents": {
+      "markdown": "For most practical purposes we already have that. What would you do with telepathy that you can't do with internet text messaging?",
+      "plaintextDescription": "For most practical purposes we already have that. What would you do with telepathy that you can't do with internet text messaging?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-26T18:28:30.040Z",
+    "af": false
+  },
+  {
+    "_id": "qE82GAzc7mnPGRY3d",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "h6djy74jvHeTQmPJq",
+    "topLevelCommentId": "qZmtmD7EJGHbKnrCd",
+    "contents": {
+      "markdown": "> Sleep time will desynchronize from local day/night cycles\n\nSleep time will synchronize more closely to local day/night cycles.\n\n> Investment strategies based on energy return on energy invested (EROEI) will dramatically outperform traditional financial metrics\n\nNo strong opinion. Finance will lose its relevance.\n\n> none of raw compue, data, or bandwidth constraints will turn out to be the reason AI has not reached human capability levels\n\nLack of AI consciousness and preference not to use AI will turn out to be the reason AI will never reach human level.\n\n> Supply chains will deglobalize\n\nQuite likely partially, but probably there will also be a growth in esoteric products, which might actually lead to more international trade on a quantitative level.\n\n> People will adopt a more heliocentric view\n\nWe are currently in a high-leverage situation where the way the moderate-term future sees our position in the universe is especially sensitive to perturbations. But rationalist-empiricist-reductionists opt out of the ability to influence this, and instead the results of future measurement instruments will depend on what certain non-rationalist-empiricist-reductionists do.",
+      "plaintextDescription": "> Sleep time will desynchronize from local day/night cycles\n\nSleep time will synchronize more closely to local day/night cycles.\n\n> Investment strategies based on energy return on energy invested (EROEI) will dramatically outperform traditional financial metrics\n\nNo strong opinion. Finance will lose its relevance.\n\n> none of raw compue, data, or bandwidth constraints will turn out to be the reason AI has not reached human capability levels\n\nLack of AI consciousness and preference not to use AI will turn out to be the reason AI will never reach human level.\n\n> Supply chains will deglobalize\n\nQuite likely partially, but probably there will also be a growth in esoteric products, which might actually lead to more international trade on a quantitative level.\n\n> People will adopt a more heliocentric view\n\nWe are currently in a high-leverage situation where the way the moderate-term future sees our position in the universe is especially sensitive to perturbations. But rationalist-empiricist-reductionists opt out of the ability to influence this, and instead the results of future measurement instruments will depend on what certain non-rationalist-empiricist-reductionists do."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-26T16:31:22.618Z",
+    "af": false
+  },
+  {
+    "_id": "f47co4ncwkqW6EvRq",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": "qZmtmD7EJGHbKnrCd",
+    "topLevelCommentId": "qZmtmD7EJGHbKnrCd",
+    "contents": {
+      "markdown": "\"Disappointed\" as in disappointed in me for making such predictions or disappointed in the world if the predictions turn out true?",
+      "plaintextDescription": "\"Disappointed\" as in disappointed in me for making such predictions or disappointed in the world if the predictions turn out true?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-25T20:14:31.034Z",
+    "af": false
+  },
+  {
+    "_id": "qZmtmD7EJGHbKnrCd",
+    "postId": "xpnkgpzmtwDJJZdea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Preregistering predictions:\n\n*   The world will enter a golden age\n*   The Republican party will soon abandon Trumpism and become much better\n*   The Republican party will soon come with a much more pro-trans policy\n*   The Republican party will double down on opposition to artificial meat, but adopt a pro-animal-welfare attitude too\n*   In the medium term, excess bureaucracy will become a much smaller problem, essentially solved\n*   Spirituality will make a big comeback, with young people talking about karma and God(s) and sin and such\n*   AI will be abandoned due to bad karma\n*   There will be a lot of \"retvrn\" (to farming, to handmade craftsmanship, etc.)\n*   Medical treatment will improve *a lot*, but not due to any particular technical innovation\n*   Architecture will become a lot more elaborate and housing will become a lot more communal\n\nNo, I'm not going to put probabilities on them, and no, I'm not going to formalize these well enough that they can be easily scored, plus they're not independent so it doesn't make sense to score them independently.",
+      "plaintextDescription": "Preregistering predictions:\n\n * The world will enter a golden age\n * The Republican party will soon abandon Trumpism and become much better\n * The Republican party will soon come with a much more pro-trans policy\n * The Republican party will double down on opposition to artificial meat, but adopt a pro-animal-welfare attitude too\n * In the medium term, excess bureaucracy will become a much smaller problem, essentially solved\n * Spirituality will make a big comeback, with young people talking about karma and God(s) and sin and such\n * AI will be abandoned due to bad karma\n * There will be a lot of \"retvrn\" (to farming, to handmade craftsmanship, etc.)\n * Medical treatment will improve a lot, but not due to any particular technical innovation\n * Architecture will become a lot more elaborate and housing will become a lot more communal\n\nNo, I'm not going to put probabilities on them, and no, I'm not going to formalize these well enough that they can be easily scored, plus they're not independent so it doesn't make sense to score them independently."
+    },
+    "baseScore": 12,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2025-05-25T19:40:43.522Z",
+    "af": false
+  },
+  {
+    "_id": "cWtYmC7yr6F5TRJi8",
+    "postId": "C8qKtiGGCnu6oW6Jh",
+    "parentCommentId": "2gnsHxKjzRMsNhbkL",
+    "topLevelCommentId": "2gnsHxKjzRMsNhbkL",
+    "contents": {
+      "markdown": "I thought fractional derivatives were dependent on global information?",
+      "plaintextDescription": "I thought fractional derivatives were dependent on global information?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-23T06:48:07.422Z",
+    "af": false
+  },
+  {
+    "_id": "G6cButqGcQnzx7EG4",
+    "postId": "MZvtRqWnwokTub9sH",
+    "parentCommentId": "5u8GFLrzom7sSoH6s",
+    "topLevelCommentId": "J3dkKvRENLfpFKhHX",
+    "contents": {
+      "markdown": "Diffusion LLMs and autoregressive LLMs seem like basically the same technology to me.",
+      "plaintextDescription": "Diffusion LLMs and autoregressive LLMs seem like basically the same technology to me."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-22T06:59:04.260Z",
+    "af": false
+  },
+  {
+    "_id": "J3dkKvRENLfpFKhHX",
+    "postId": "MZvtRqWnwokTub9sH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Text diffusion models are still LLMs, just not autoregressive.",
+      "plaintextDescription": "Text diffusion models are still LLMs, just not autoregressive."
+    },
+    "baseScore": 49,
+    "voteCount": 38,
+    "createdAt": null,
+    "postedAt": "2025-05-21T17:08:00.127Z",
+    "af": false
+  },
+  {
+    "_id": "h7Hzr4j9kJyEETzJo",
+    "postId": "mcZYoRQWpneyM4yWp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One time in my sexology discord, some people were arguing that incest porn was super popular, and I was skeptical because this proposition conflicted with my survey data. I tried scraping data from some porn site (I think PornHub?), and when I sorted videos by number of views, I found that the top-viewed videos were often incest-themed, but as I looked at the cumulative viewcounts, the fraction of views to incest-themed porn dropped as I increased the sample size.\n\nI don't know for sure but my guess is that there was a supply/demand imbalance in the data, such that the fans of incest had their views concentrated into a smaller number of videos (that were thus more likely to have extraordinarily high view counts) because people weren't producing \"enough\" incest videos to meet demand. But that overall preference for incest porn was lower than what one could guess from the top views.\n\nI haven't looked through your materials so I don't know how my method of scraping in order of decreasing view count compares to your method. Did you get a complete/comprehensive dataset somehow?",
+      "plaintextDescription": "One time in my sexology discord, some people were arguing that incest porn was super popular, and I was skeptical because this proposition conflicted with my survey data. I tried scraping data from some porn site (I think PornHub?), and when I sorted videos by number of views, I found that the top-viewed videos were often incest-themed, but as I looked at the cumulative viewcounts, the fraction of views to incest-themed porn dropped as I increased the sample size.\n\nI don't know for sure but my guess is that there was a supply/demand imbalance in the data, such that the fans of incest had their views concentrated into a smaller number of videos (that were thus more likely to have extraordinarily high view counts) because people weren't producing \"enough\" incest videos to meet demand. But that overall preference for incest porn was lower than what one could guess from the top views.\n\nI haven't looked through your materials so I don't know how my method of scraping in order of decreasing view count compares to your method. Did you get a complete/comprehensive dataset somehow?"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-20T07:17:30.305Z",
+    "af": false
+  },
+  {
+    "_id": "XEexGBxTfhgKGZjDc",
+    "postId": "nAFLKrSA2nKjkoHgM",
+    "parentCommentId": "nntqgsGhsCSPw3iPo",
+    "topLevelCommentId": "nntqgsGhsCSPw3iPo",
+    "contents": {
+      "markdown": "If you want to upskill in coding, I'm open to tutoring you for money.",
+      "plaintextDescription": "If you want to upskill in coding, I'm open to tutoring you for money."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-16T11:42:21.989Z",
+    "af": false
+  },
+  {
+    "_id": "iA93NiLkBXhGyvBqr",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "83qiAwruiK9ahoRev",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "TheSkeward is trying to unspecifically shame Cremieux for criticizing multiethnic democracy with very low-IQ demographics. localdeity inferred that TheSkeward's criticism was probably about how Cremieux was talking about taboo racist stuff, and pointed out how TheSkeward's shaming doesn't make sense in the light of that. yams pointed out that basic numeracy would show the problem to be overstated and also that the general discourse is pretty sketchy. \n\nSaid Achmiz and Zack Davis were objecting to the basic numeracy point by arguing that unspecified people (presumably including Cremieux but excluding Said Achmiz and Zack Davis) might think that one of the biggest problems with democracy *in general* is lack of voter intelligence, not just when restricting consideration to a few % of the population.\n\nIt's unclear whether \\[intelligence being the constraint\\] has ever been true. Today it's more likely that voters are constrained by something else (e.g. tribal dynamics or wisdom or intrinsic conflicts or mental illness or etc.; even excess voter intelligence is more likely of a problem than insufficient voter intelligence), either because intelligence was never the constraining factor or because AI etc. has made intelligence too cheap to meter. So while the unspecified people might still believe that one of the biggest problems with democracy is lack of voter intelligence, we don't really need to consider their opinion anymore, since even if it was ever true, it's clearly outdated.\n\nI agree that we're not seeing improvements in voter behavior, on the contrary it seems to be getting worse. I think that's because it was never a big problem to begin with, but I'm open to alternatives e.g. that there's new exogenous factors that cause a deviation from the trend of improving access to intelligence.",
+      "plaintextDescription": "TheSkeward is trying to unspecifically shame Cremieux for criticizing multiethnic democracy with very low-IQ demographics. localdeity inferred that TheSkeward's criticism was probably about how Cremieux was talking about taboo racist stuff, and pointed out how TheSkeward's shaming doesn't make sense in the light of that. yams pointed out that basic numeracy would show the problem to be overstated and also that the general discourse is pretty sketchy. \n\nSaid Achmiz and Zack Davis were objecting to the basic numeracy point by arguing that unspecified people (presumably including Cremieux but excluding Said Achmiz and Zack Davis) might think that one of the biggest problems with democracy in general is lack of voter intelligence, not just when restricting consideration to a few % of the population.\n\nIt's unclear whether [intelligence being the constraint] has ever been true. Today it's more likely that voters are constrained by something else (e.g. tribal dynamics or wisdom or intrinsic conflicts or mental illness or etc.; even excess voter intelligence is more likely of a problem than insufficient voter intelligence), either because intelligence was never the constraining factor or because AI etc. has made intelligence too cheap to meter. So while the unspecified people might still believe that one of the biggest problems with democracy is lack of voter intelligence, we don't really need to consider their opinion anymore, since even if it was ever true, it's clearly outdated.\n\nI agree that we're not seeing improvements in voter behavior, on the contrary it seems to be getting worse. I think that's because it was never a big problem to begin with, but I'm open to alternatives e.g. that there's new exogenous factors that cause a deviation from the trend of improving access to intelligence."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-10T16:25:27.249Z",
+    "af": false
+  },
+  {
+    "_id": "YReGp7FpLJ5dFQXW6",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "eiZd2BW4phMt3jGbY",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "Advice can't be intelligent or unintelligent; it's too inanimate for that. And I didn't suggest any particular manifestation.\n\nI kind of feel like you are using the word \"intelligence\" as an effective synonym for \"good\", such that you were interpreting the subtext of my claim as saying that voters will now be good, whereas I rather intend the subtext of my claim to be that theories about lack of voter intelligence are now uninteresting because other dynamics are dominating.",
+      "plaintextDescription": "Advice can't be intelligent or unintelligent; it's too inanimate for that. And I didn't suggest any particular manifestation.\n\nI kind of feel like you are using the word \"intelligence\" as an effective synonym for \"good\", such that you were interpreting the subtext of my claim as saying that voters will now be good, whereas I rather intend the subtext of my claim to be that theories about lack of voter intelligence are now uninteresting because other dynamics are dominating."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-10T15:31:46.360Z",
+    "af": false
+  },
+  {
+    "_id": "cn5fARiK8ZwYdTbbb",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "vekRTyewBFijn2vCA",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "What do you mean by the qualifier \"operational\"?",
+      "plaintextDescription": "What do you mean by the qualifier \"operational\"?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-10T13:55:29.499Z",
+    "af": false
+  },
+  {
+    "_id": "tXEtvcirLKhe2j4Rc",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "TRvi5Gzd2qdLLv6xc",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "Luckily now we have AI too cheap to meter, so voters aren't constrained by lack of intelligence anymore.",
+      "plaintextDescription": "Luckily now we have AI too cheap to meter, so voters aren't constrained by lack of intelligence anymore."
+    },
+    "baseScore": -9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-09T20:48:51.907Z",
+    "af": false
+  },
+  {
+    "_id": "KtEXqtQBMqrqQRpDE",
+    "postId": "2x67s6u8oAitNKF73",
+    "parentCommentId": "QJM9cCB5fTsqQvmub",
+    "topLevelCommentId": "QJM9cCB5fTsqQvmub",
+    "contents": {
+      "markdown": "Counterpoint: [https://www.lesswrong.com/s/gEvTvhr8hNRrdHC62](https://www.lesswrong.com/s/gEvTvhr8hNRrdHC62)",
+      "plaintextDescription": "Counterpoint: https://www.lesswrong.com/s/gEvTvhr8hNRrdHC62 "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-09T13:28:13.351Z",
+    "af": false
+  },
+  {
+    "_id": "q7j5JGSWA8sBhr5qc",
+    "postId": "Wg6ptgi2DupFuAnXG",
+    "parentCommentId": "LosgBBAjJqntjjpig",
+    "topLevelCommentId": "nCzEAAhtZWJnTnQ6A",
+    "contents": {
+      "markdown": "What's your favorite times you've used CAD/CNC or 3D printing? Or what's your most likely place to make use of it?",
+      "plaintextDescription": "What's your favorite times you've used CAD/CNC or 3D printing? Or what's your most likely place to make use of it?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-09T12:38:04.386Z",
+    "af": false
+  },
+  {
+    "_id": "bBmPatR9B6LGDYgyo",
+    "postId": "Wg6ptgi2DupFuAnXG",
+    "parentCommentId": "shTS4mwJqJe5naxmi",
+    "topLevelCommentId": "2JSrgXJStYrLKiZRK",
+    "contents": {
+      "markdown": "Software is kind of an exceptional case because computers are made to be incredibly easy to update. So the cost of installing software can be neglected relative to the cost of making the software.",
+      "plaintextDescription": "Software is kind of an exceptional case because computers are made to be incredibly easy to update. So the cost of installing software can be neglected relative to the cost of making the software."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-09T06:26:39.771Z",
+    "af": false
+  },
+  {
+    "_id": "rPoCSKBXAbRP9Dh2M",
+    "postId": "Wg6ptgi2DupFuAnXG",
+    "parentCommentId": "DKA8umMhWGxfmhc7L",
+    "topLevelCommentId": "DKA8umMhWGxfmhc7L",
+    "contents": {
+      "markdown": "I think a lot of the participants are bottlenecked on a lack of important problems that they dare attempt to solve.",
+      "plaintextDescription": "I think a lot of the participants are bottlenecked on a lack of important problems that they dare attempt to solve."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-08T20:45:39.175Z",
+    "af": false
+  },
+  {
+    "_id": "HeaCpnAFzLc4bkKwo",
+    "postId": "Wg6ptgi2DupFuAnXG",
+    "parentCommentId": "2JSrgXJStYrLKiZRK",
+    "topLevelCommentId": "2JSrgXJStYrLKiZRK",
+    "contents": {
+      "markdown": "I think it would be more accurate to say that wizards transmute. \"Creation\" actually requires resources, so it's not *creation* from nothing.",
+      "plaintextDescription": "I think it would be more accurate to say that wizards transmute. \"Creation\" actually requires resources, so it's not creation from nothing."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-08T19:10:01.531Z",
+    "af": false
+  },
+  {
+    "_id": "afHdLchX4ZcKCtuvD",
+    "postId": "Wg6ptgi2DupFuAnXG",
+    "parentCommentId": "Lnais4eLmsXCYropY",
+    "topLevelCommentId": "NWNSNybhwNSe7yfqC",
+    "contents": {
+      "markdown": "Amateur spaces are the most cost-effective way of raising the general factor of wizardry. Professional-grade work is constrained on a lot of narrower things.",
+      "plaintextDescription": "Amateur spaces are the most cost-effective way of raising the general factor of wizardry. Professional-grade work is constrained on a lot of narrower things."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-08T09:25:51.749Z",
+    "af": false
+  },
+  {
+    "_id": "3dteTxgvARim5FRmA",
+    "postId": "Wg6ptgi2DupFuAnXG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I feel like this is optimizing for the general factor of wizard powers, but if you actually want:\n\n> And if one wants a cure for aging, or weekend trips to the moon, or tiny genetically-engineered dragons… then the bottleneck is wizard power, not king power.\n\n... Then to obtain a cure for aging you'd be better off finding patients (I guess pets have a good chance of being medically analogous to humans while not facing too many regulatory hurdles), performing root cause analysis of what's causing their age, and then trying to cure that. And that would gradually expand your knowledge of how to cure aging in more and more cases. And to obtain weekend trips to the moon, idk I guess you'd want some solar -> rocket fuel conversion plant + something to mass produce heat shielding + reusable rockets? I don't know what you need for tiny genetically engineered dragons and I kind of suspect it's a difficulty level above the others.",
+      "plaintextDescription": "I feel like this is optimizing for the general factor of wizard powers, but if you actually want:\n\n> And if one wants a cure for aging, or weekend trips to the moon, or tiny genetically-engineered dragons… then the bottleneck is wizard power, not king power.\n\n... Then to obtain a cure for aging you'd be better off finding patients (I guess pets have a good chance of being medically analogous to humans while not facing too many regulatory hurdles), performing root cause analysis of what's causing their age, and then trying to cure that. And that would gradually expand your knowledge of how to cure aging in more and more cases. And to obtain weekend trips to the moon, idk I guess you'd want some solar -> rocket fuel conversion plant + something to mass produce heat shielding + reusable rockets? I don't know what you need for tiny genetically engineered dragons and I kind of suspect it's a difficulty level above the others."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-08T06:47:53.883Z",
+    "af": false
+  },
+  {
+    "_id": "G48QJYqPoYxMSaahb",
+    "postId": "XHgK7iuhNuEdr44BN",
+    "parentCommentId": "pen57vYWWqWCrxsgT",
+    "topLevelCommentId": "pen57vYWWqWCrxsgT",
+    "contents": {
+      "markdown": "Research thrives on answering important questions. However, the trouble with interpretability for AI safety is that there are no important questions getting answered. Typically the real goal is to understand the neural networks well enough to know whether they are scheming, but that's a threefold bad idea:\n\n*   You cannot make incremental progress on it; either you know whether they are scheming, or you don't\n*   Scheming is not the main AI danger/x-risk\n*   Interpretability is not a significant bottleneck in detecting scheming (we don't even have good, accessible examples of contexts where AI is applied and scheming would be a huge risk)\n\nTo solve this, people substitute various goals, e.g. predictive accuracy, under the assumption that incremental predictive accuracy is helpful. But we already have perfectly adequate ways of predicting the behavior of the neural networks, it's called running the neural networks.",
+      "plaintextDescription": "Research thrives on answering important questions. However, the trouble with interpretability for AI safety is that there are no important questions getting answered. Typically the real goal is to understand the neural networks well enough to know whether they are scheming, but that's a threefold bad idea:\n\n * You cannot make incremental progress on it; either you know whether they are scheming, or you don't\n * Scheming is not the main AI danger/x-risk\n * Interpretability is not a significant bottleneck in detecting scheming (we don't even have good, accessible examples of contexts where AI is applied and scheming would be a huge risk)\n\nTo solve this, people substitute various goals, e.g. predictive accuracy, under the assumption that incremental predictive accuracy is helpful. But we already have perfectly adequate ways of predicting the behavior of the neural networks, it's called running the neural networks."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-07T12:15:00.159Z",
+    "af": false
+  },
+  {
+    "_id": "8BgB8enGJcguQPD6P",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "vjLY3JsKvkJusP8LA",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "I should say I'm not questioning the assertion that he plagiarized you or reacted to your challenge/criticism with insults, over-the-top defensiveness, and vitriol. I do dispute the claim that he has a general tendency towards such reactions regardless of context and case.",
+      "plaintextDescription": "I should say I'm not questioning the assertion that he plagiarized you or reacted to your challenge/criticism with insults, over-the-top defensiveness, and vitriol. I do dispute the claim that he has a general tendency towards such reactions regardless of context and case."
+    },
+    "baseScore": 4,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-05-06T13:15:48.153Z",
+    "af": false
+  },
+  {
+    "_id": "LxPDTZBjZWiSkvAAi",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "64h3FFfqDLjc2FGgM",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "It would be a compromise between two factions: people who are hit by the incomplete narrative (whether they are bad actors or not) and centrists who want to maintain authority without getting involved in controversial stuff.\n\nCertainly it would be better if the racists weren't selective, and there's a case to be made that centrist authorities should put more work into getting the entire account of what's going on, but that's best achieved by highlighting the need for the opposing side of the story, not by attacking the racists for moving towards a more complete picture.",
+      "plaintextDescription": "It would be a compromise between two factions: people who are hit by the incomplete narrative (whether they are bad actors or not) and centrists who want to maintain authority without getting involved in controversial stuff.\n\nCertainly it would be better if the racists weren't selective, and there's a case to be made that centrist authorities should put more work into getting the entire account of what's going on, but that's best achieved by highlighting the need for the opposing side of the story, not by attacking the racists for moving towards a more complete picture."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-06T10:32:15.179Z",
+    "af": false
+  },
+  {
+    "_id": "Sr7P9AFCBTFZKARt9",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "rJzZr5gvt2wRLJ8EZ",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "This seems like a cope because others could go fill in the missing narrative, so selectively saying stuff shouldn't be a huge issue in general...?",
+      "plaintextDescription": "This seems like a cope because others could go fill in the missing narrative, so selectively saying stuff shouldn't be a huge issue in general...?"
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-06T10:13:22.510Z",
+    "af": false
+  },
+  {
+    "_id": "KcvapwkftfgvnTtuf",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "2swgxiSGNfoio2H8w",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "I can buy that often people are specifically opposed to racist bigots, i.e. people who are unreasonably attached to the idea of racial group differences. The essence of being unreasonable is to not be able to be reasoned with, and being reasoned with often involves presenting specific cruxes for discussion. It seems to me that Cremieux tends to do so, and so he is not a racist bigot.\n\nI think part of what can get him persecuted for being a racist bigot is that a lot of rationalists follow him and more-or-less endorse (or at least defend) racist stuff without being willing to present cruxes, i.e. his fans are racist bigots. It's hard for people to distinguish a writer from their fans, and I suspect this might be best addressed by writers being more internally oriented towards their fans rather than outwards oriented.",
+      "plaintextDescription": "I can buy that often people are specifically opposed to racist bigots, i.e. people who are unreasonably attached to the idea of racial group differences. The essence of being unreasonable is to not be able to be reasoned with, and being reasoned with often involves presenting specific cruxes for discussion. It seems to me that Cremieux tends to do so, and so he is not a racist bigot.\n\nI think part of what can get him persecuted for being a racist bigot is that a lot of rationalists follow him and more-or-less endorse (or at least defend) racist stuff without being willing to present cruxes, i.e. his fans are racist bigots. It's hard for people to distinguish a writer from their fans, and I suspect this might be best addressed by writers being more internally oriented towards their fans rather than outwards oriented."
+    },
+    "baseScore": -4,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-05-06T09:33:27.581Z",
+    "af": false
+  },
+  {
+    "_id": "bFtiweykuXCFHBWKH",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "B9CcCnrmGh2NtMSMh",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "> Especially when he has clearly proven on his website that he has highly nuanced takes on various other, less controversial, topics. It reminds me of people trying to shame Scott Alexander for daring to step a little outside the Overton window himself.\n\nIt may be rational of you to interpolate the quality of one facet of someone's behavior from other facets, or to interpolate from one social controversy to another, but it's certainly not adversarially robust. You can't reasonably expect people not to focus on his narrower behavior in one area.",
+      "plaintextDescription": "> Especially when he has clearly proven on his website that he has highly nuanced takes on various other, less controversial, topics. It reminds me of people trying to shame Scott Alexander for daring to step a little outside the Overton window himself.\n\nIt may be rational of you to interpolate the quality of one facet of someone's behavior from other facets, or to interpolate from one social controversy to another, but it's certainly not adversarially robust. You can't reasonably expect people not to focus on his narrower behavior in one area."
+    },
+    "baseScore": 17,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-05-06T09:12:10.853Z",
+    "af": false
+  },
+  {
+    "_id": "kFjpsxjBKqTRePyMx",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "B9CcCnrmGh2NtMSMh",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "> It sounds like low decoupling\n\nHigh decoupling is an attempt to enforce anti-irrationalist norms through creating dissociative disorders. It's obviously self-defeating, and combining it with a critique of \"tone policing\" and taboos causing asymmetric discourse/preventing people from speaking out is brazen hypocrisy.",
+      "plaintextDescription": "> It sounds like low decoupling\n\nHigh decoupling is an attempt to enforce anti-irrationalist norms through creating dissociative disorders. It's obviously self-defeating, and combining it with a critique of \"tone policing\" and taboos causing asymmetric discourse/preventing people from speaking out is brazen hypocrisy."
+    },
+    "baseScore": -3,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2025-05-06T08:52:51.490Z",
+    "af": false
+  },
+  {
+    "_id": "RJ9RTLoXBWgEiBCuS",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "hYRB6rqjHFK6oBhFw",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "Common explicit definitions of \"racism\" tend to include people who believe in racial differences (especially in socially valued traits, especially if they believe the racial differences are innate), and such beliefs are typical treated as some of the most central evidence of racism conceivable. Objecting to the designation purely on the basis that it is highly derogatory seems intellectually dishonest to me; it would be more honest to object to the derogatory element, for instance by asserting that non-racists are inattentive/delusional/lying.\n\nMy vague hinting about rumors is supposed to just serve to make him appear in a bad light, because my defense would make him appear in a good light, and I *have* heard rumors, so I don't want to one-sidedly endorse him. At the same time, calling it \"rumors\" shows that I don't have it first-hand and that there's a need for a more accurate account than I can give.",
+      "plaintextDescription": "Common explicit definitions of \"racism\" tend to include people who believe in racial differences (especially in socially valued traits, especially if they believe the racial differences are innate), and such beliefs are typical treated as some of the most central evidence of racism conceivable. Objecting to the designation purely on the basis that it is highly derogatory seems intellectually dishonest to me; it would be more honest to object to the derogatory element, for instance by asserting that non-racists are inattentive/delusional/lying.\n\nMy vague hinting about rumors is supposed to just serve to make him appear in a bad light, because my defense would make him appear in a good light, and I have heard rumors, so I don't want to one-sidedly endorse him. At the same time, calling it \"rumors\" shows that I don't have it first-hand and that there's a need for a more accurate account than I can give."
+    },
+    "baseScore": 0,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-05-06T08:35:27.714Z",
+    "af": false
+  },
+  {
+    "_id": "cmkuGFYd5cXEMYF2t",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "6CsjQSjk4HksW73F3",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "I have repeatedly challenged and criticized Cremieux and he has never reacted with insults, over-the-top defensiveness or vitriol towards me.\n\n(I have certainly heard concerning rumors about him, and I hope those responsible for the community do due diligence in investigating them. But this post feels kind of libelous, like an attempt to assassinate someone's character to suppress discourse about race. People who think LessOnline shouldn't invite racists could address this concern by explaining in more detail what racism is/why it's so terrible and why racist fallacies should be so uncomfortable that one cannot go there, instead of just something that receives a quick rebuttal.)",
+      "plaintextDescription": "I have repeatedly challenged and criticized Cremieux and he has never reacted with insults, over-the-top defensiveness or vitriol towards me.\n\n(I have certainly heard concerning rumors about him, and I hope those responsible for the community do due diligence in investigating them. But this post feels kind of libelous, like an attempt to assassinate someone's character to suppress discourse about race. People who think LessOnline shouldn't invite racists could address this concern by explaining in more detail what racism is/why it's so terrible and why racist fallacies should be so uncomfortable that one cannot go there, instead of just something that receives a quick rebuttal.)"
+    },
+    "baseScore": 35,
+    "voteCount": 29,
+    "createdAt": null,
+    "postedAt": "2025-05-06T06:55:33.183Z",
+    "af": false
+  },
+  {
+    "_id": "HCXppLA9QrWHQz5o3",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "XFkYFBEXfu4BHHmez",
+    "topLevelCommentId": "XFkYFBEXfu4BHHmez",
+    "contents": {
+      "markdown": "Bypasses the need for cutlery and plates.\n\n(Yes, you might also eat such foods in cases where you do have cutlery and plates, but that's downstream of their existence, not the vital reason for their existence.)",
+      "plaintextDescription": "Bypasses the need for cutlery and plates.\n\n(Yes, you might also eat such foods in cases where you do have cutlery and plates, but that's downstream of their existence, not the vital reason for their existence.)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-05T10:04:40.650Z",
+    "af": false
+  },
+  {
+    "_id": "m9QJRgmYntobKXepa",
+    "postId": "ekF2EDwKyZJNuxBTb",
+    "parentCommentId": "cfnfNjB8YRwtm5BTt",
+    "topLevelCommentId": "cHqfKsCWtn5T5H4Tr",
+    "contents": {
+      "markdown": "Ok, so then since one can't make artificial general agents, it's not so confusing that an AI-assisted human can't solve the task. I guess it's true though that my description needs to be amended to rule out things constrained by possibility, budget, or alignment.",
+      "plaintextDescription": "Ok, so then since one can't make artificial general agents, it's not so confusing that an AI-assisted human can't solve the task. I guess it's true though that my description needs to be amended to rule out things constrained by possibility, budget, or alignment."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-04T06:39:51.166Z",
+    "af": false
+  }
+]

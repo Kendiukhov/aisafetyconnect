@@ -1,0 +1,2260 @@
+{
+  "timestamp": "2025-09-25T13:48:56.359411",
+  "analysis_method": "Equal weights for all Research Agendas (weight=9)",
+  "stats": {
+    "definitely_ai_safety": 53,
+    "probably_ai_safety": 74,
+    "possibly_ai_safety": 41
+  },
+  "ai_safety_tags": {
+    "definite": [
+      {
+        "id": "mZTuBntSdPeyLSrec",
+        "name": "Chain-of-Thought Alignment",
+        "slug": "chain-of-thought-alignment",
+        "postCount": 112,
+        "score": 66,
+        "matched_keywords": [
+          "alignment",
+          "chain-of-thought",
+          "ought",
+          "chai"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "dHfxtPwAmrij4KEce",
+        "name": "Redwood Research",
+        "slug": "redwood-research",
+        "postCount": 54,
+        "score": 64,
+        "matched_keywords": [
+          "redwood research",
+          "redwood",
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "HrCcwuykKcn2SJgge",
+        "name": "Alignment Research Center (ARC)",
+        "slug": "alignment-research-center-arc",
+        "postCount": 34,
+        "score": 60,
+        "matched_keywords": [
+          "alignment",
+          "arc",
+          "search",
+          "alignment research center"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "NrvXXL3iGjjxu5B7d",
+        "name": "Machine Intelligence Research Institute (MIRI)",
+        "slug": "machine-intelligence-research-institute-miri",
+        "postCount": 166,
+        "score": 56,
+        "matched_keywords": [
+          "search",
+          "machine intelligence research institute",
+          "miri",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Dw5Z6wtTgk4Fikz9f",
+        "name": "Inner Alignment",
+        "slug": "inner-alignment",
+        "postCount": 343,
+        "score": 47,
+        "matched_keywords": [
+          "alignment",
+          "inner alignment"
+        ],
+        "research_agendas": [
+          "Alignment Theory"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "BisjoDrd3oNatDu7X",
+        "name": "Outer Alignment",
+        "slug": "outer-alignment",
+        "postCount": 335,
+        "score": 47,
+        "matched_keywords": [
+          "alignment",
+          "outer alignment"
+        ],
+        "research_agendas": [
+          "Alignment Theory"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "NZ67PZ8CkeS6xn27h",
+        "name": "Mesa-Optimization",
+        "slug": "mesa-optimization",
+        "postCount": 140,
+        "score": 45,
+        "matched_keywords": [
+          "mesa-optimization",
+          "mesa optimization"
+        ],
+        "research_agendas": [
+          "Alignment Theory"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "cawGhjgJmnoLLHXMC",
+        "name": "Adversarial Training",
+        "slug": "adversarial-training",
+        "postCount": 29,
+        "score": 45,
+        "matched_keywords": [
+          "adversarial training",
+          "rsa"
+        ],
+        "research_agendas": [
+          "Adversarial Robustness"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "TXYW2ftfEvuwLBCpb",
+        "name": "Compute Governance",
+        "slug": "compute-governance",
+        "postCount": 20,
+        "score": 45,
+        "matched_keywords": [
+          "compute governance",
+          "compute"
+        ],
+        "research_agendas": [
+          "AI Governance & Policy",
+          "Compute Governance"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "KEAWfxwjitNJFrC68",
+        "name": "Deceptive Alignment",
+        "slug": "deceptive-alignment",
+        "postCount": 245,
+        "score": 41,
+        "matched_keywords": [
+          "alignment",
+          "deceptive alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "cPFuhAE7PwoKF7yTj",
+        "name": "Inverse Reinforcement Learning",
+        "slug": "inverse-reinforcement-learning",
+        "postCount": 45,
+        "score": 41,
+        "matched_keywords": [
+          "inverse reinforcement learning",
+          "reinforcement learning"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "6zBEfFYJxhSEcchbR",
+        "name": "AI Alignment Fieldbuilding",
+        "slug": "ai-alignment-fieldbuilding",
+        "postCount": 394,
+        "score": 40,
+        "matched_keywords": [
+          "alignment",
+          "ai alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Fxq9YJMGsuphd8Rmt",
+        "name": "AI Alignment Intro Materials",
+        "slug": "ai-alignment-intro-materials",
+        "postCount": 66,
+        "score": 40,
+        "matched_keywords": [
+          "alignment",
+          "ai alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "KRSY6MhAcgtBCC9FH",
+        "name": "2017-2019 AI Alignment Prize",
+        "slug": "2017-2019-ai-alignment-prize",
+        "postCount": 6,
+        "score": 40,
+        "matched_keywords": [
+          "alignment",
+          "ai alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "HqaByfeGvDLKSaK2W",
+        "name": "Debate (AI safety technique)",
+        "slug": "debate-ai-safety-technique-1",
+        "postCount": 114,
+        "score": 38,
+        "matched_keywords": [
+          "ai safety",
+          "debate"
+        ],
+        "research_agendas": [
+          "Scalable Oversight"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "zJsG4caBHv3kSdT2a",
+        "name": "Conversations with AIs",
+        "slug": "conversations-with-ais",
+        "postCount": 54,
+        "score": 38,
+        "matched_keywords": [
+          "ais",
+          "rsa"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "chuP2QqQycjD8qakL",
+        "name": "Coordination / Cooperation",
+        "slug": "coordination-cooperation",
+        "postCount": 321,
+        "score": 36,
+        "matched_keywords": [
+          "cooperation",
+          "coordination"
+        ],
+        "research_agendas": [
+          "Cooperative AI"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "4mRJmYxNDnn7r2gNu",
+        "name": "Iterated Amplification ",
+        "slug": "iterated-amplification",
+        "postCount": 70,
+        "score": 36,
+        "matched_keywords": [
+          "iterated amplification",
+          "amplification"
+        ],
+        "research_agendas": [
+          "Scalable Oversight"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "YSSNFEnW6ugFhEE6m",
+        "name": "Adversarial Examples (AI)",
+        "slug": "adversarial-examples-ai",
+        "postCount": 41,
+        "score": 36,
+        "matched_keywords": [
+          "rsa",
+          "adversarial examples"
+        ],
+        "research_agendas": [
+          "Adversarial Robustness"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "RyNWXFjKNcafRKvPh",
+        "name": "Agent Foundations",
+        "slug": "agent-foundations",
+        "postCount": 167,
+        "score": 35,
+        "matched_keywords": [
+          "agent foundations",
+          "agent"
+        ],
+        "research_agendas": [
+          "Agent Foundations"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "MP8NqPNATMqPrij4n",
+        "name": "Embedded Agency",
+        "slug": "embedded-agency",
+        "postCount": 125,
+        "score": 35,
+        "matched_keywords": [
+          "embedded agency",
+          "agency"
+        ],
+        "research_agendas": [
+          "Agent Foundations"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "wqeBNjndX7egbzQrW",
+        "name": "RLHF",
+        "slug": "rlhf",
+        "postCount": 94,
+        "score": 35,
+        "matched_keywords": [
+          "rl",
+          "rlhf"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "agnEHZTiXEyzBFPmF",
+        "name": "Orthogonality Thesis",
+        "slug": "orthogonality-thesis",
+        "postCount": 77,
+        "score": 35,
+        "matched_keywords": [
+          "orthogonal",
+          "orthogonality thesis"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "3uE2pXvbcnS9nnZRE",
+        "name": "World Modeling",
+        "slug": "world-modeling",
+        "postCount": 6111,
+        "score": 34,
+        "matched_keywords": [
+          "rl",
+          "world modeling",
+          "world model"
+        ],
+        "research_agendas": [],
+        "core": true,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "K6oowPZC6kds6LDTg",
+        "name": "Future of Humanity Institute (FHI)",
+        "slug": "future-of-humanity-institute-fhi",
+        "postCount": 31,
+        "score": 32,
+        "matched_keywords": [
+          "future of humanity institute",
+          "fhi"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "WafcndjLNe4x3uXPL",
+        "name": "Center for Human-Compatible AI (CHAI)",
+        "slug": "center-for-human-compatible-ai-chai",
+        "postCount": 30,
+        "score": 32,
+        "matched_keywords": [
+          "center for human-compatible ai",
+          "chai"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "F9wngEGHSLuKMwkZj",
+        "name": "Evidential Cooperation in Large Worlds",
+        "slug": "evidential-cooperation-in-large-worlds",
+        "postCount": 13,
+        "score": 32,
+        "matched_keywords": [
+          "rl",
+          "cooperation"
+        ],
+        "research_agendas": [
+          "Cooperative AI"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "oNcqyaWPXNGTTRPHm",
+        "name": "Existential risk",
+        "slug": "existential-risk",
+        "postCount": 536,
+        "score": 30,
+        "matched_keywords": [
+          "existential risk"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb297",
+        "name": "Superintelligence",
+        "slug": "superintelligence",
+        "postCount": 169,
+        "score": 30,
+        "matched_keywords": [
+          "superintelligence"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "oFpCNzqBd6tzCuxLa",
+        "name": "World Modeling Techniques",
+        "slug": "world-modeling-techniques",
+        "postCount": 41,
+        "score": 30,
+        "matched_keywords": [
+          "rl",
+          "world modeling",
+          "world model"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "MhHM6Rx2b4F8tHTQk",
+        "name": "Computer Security & Cryptography",
+        "slug": "computer-security-and-cryptography",
+        "postCount": 121,
+        "score": 28,
+        "matched_keywords": [
+          "compute",
+          "cryptography"
+        ],
+        "research_agendas": [
+          "Compute Governance"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "qHDus5MuMNqQxJbjD",
+        "name": "AI Governance",
+        "slug": "ai-governance",
+        "postCount": 794,
+        "score": 27,
+        "matched_keywords": [
+          "ai governance"
+        ],
+        "research_agendas": [
+          "AI Governance & Policy"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "b8FHrKqyXuYGWc6vn",
+        "name": "Game Theory",
+        "slug": "game-theory",
+        "postCount": 364,
+        "score": 27,
+        "matched_keywords": [
+          "game theory"
+        ],
+        "research_agendas": [
+          "Cooperative AI"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "NLwTnsH9RSotqXYLw",
+        "name": "Value Learning",
+        "slug": "value-learning",
+        "postCount": 208,
+        "score": 27,
+        "matched_keywords": [
+          "value learning"
+        ],
+        "research_agendas": [
+          "Value Learning & Alignment"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "ipJwbLxhR83ZksN6Z",
+        "name": "Mechanism Design",
+        "slug": "mechanism-design",
+        "postCount": 167,
+        "score": 27,
+        "matched_keywords": [
+          "mechanism design"
+        ],
+        "research_agendas": [
+          "Scalable Oversight"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "tTp6uCjAMJh66vZkc",
+        "name": "Moral uncertainty",
+        "slug": "moral-uncertainty",
+        "postCount": 84,
+        "score": 27,
+        "matched_keywords": [
+          "moral uncertainty"
+        ],
+        "research_agendas": [
+          "Value Learning & Alignment"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "8hPTCJbwJnLBmfpCX",
+        "name": "Calibration",
+        "slug": "calibration",
+        "postCount": 81,
+        "score": 27,
+        "matched_keywords": [
+          "calibration"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "ye2H85NHoDLomm6BS",
+        "name": "Logical Uncertainty",
+        "slug": "logical-uncertainty",
+        "postCount": 77,
+        "score": 27,
+        "matched_keywords": [
+          "logical uncertainty"
+        ],
+        "research_agendas": [
+          "Agent Foundations"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "WnnwytvzpKqJ3YChY",
+        "name": "Newcomb's Problem",
+        "slug": "newcomb-s-problem",
+        "postCount": 71,
+        "score": 27,
+        "matched_keywords": [
+          "newcomb's problem"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "bWcaNMZifyYShJEPd",
+        "name": "Compute",
+        "slug": "compute",
+        "postCount": 48,
+        "score": 27,
+        "matched_keywords": [
+          "compute"
+        ],
+        "research_agendas": [
+          "Compute Governance"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "fM6pmeSEncbzxoGpr",
+        "name": "Functional Decision Theory",
+        "slug": "functional-decision-theory",
+        "postCount": 46,
+        "score": 27,
+        "matched_keywords": [
+          "functional decision theory"
+        ],
+        "research_agendas": [
+          "Agent Foundations"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb1dc",
+        "name": "Updateless Decision Theory",
+        "slug": "updateless-decision-theory",
+        "postCount": 41,
+        "score": 27,
+        "matched_keywords": [
+          "updateless decision theory"
+        ],
+        "research_agendas": [
+          "Agent Foundations"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "DFCEGpufjkvqQaRXt",
+        "name": "L\u00f6b's theorem",
+        "slug": "loeb-s-theorem",
+        "postCount": 37,
+        "score": 27,
+        "matched_keywords": [
+          "l\u00f6b's theorem"
+        ],
+        "research_agendas": [
+          "Agent Foundations"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "jnpHBYvdW8bvH5JYK",
+        "name": "Category theory",
+        "slug": "category-theory",
+        "postCount": 36,
+        "score": 27,
+        "matched_keywords": [
+          "category theory"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "wfW6iL96u26mbatep",
+        "name": "Bounded Rationality",
+        "slug": "bounded-rationality",
+        "postCount": 33,
+        "score": 27,
+        "matched_keywords": [
+          "bounded rationality"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "gHu9x4qpLxyrBFYaE",
+        "name": "Scalable Oversight",
+        "slug": "scalable-oversight",
+        "postCount": 24,
+        "score": 27,
+        "matched_keywords": [
+          "scalable oversight"
+        ],
+        "research_agendas": [
+          "Scalable Oversight"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "qQMEMrXioExa4uhTB",
+        "name": "Value Drift",
+        "slug": "value-drift",
+        "postCount": 18,
+        "score": 27,
+        "matched_keywords": [
+          "value drift"
+        ],
+        "research_agendas": [
+          "Value Learning & Alignment"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Qs5KwojJdJitjisD4",
+        "name": "Commitment Mechanisms",
+        "slug": "commitment-mechanisms",
+        "postCount": 14,
+        "score": 27,
+        "matched_keywords": [
+          "commitment mechanisms"
+        ],
+        "research_agendas": [
+          "Cooperative AI"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "HJZZxyYXWzB74M4FT",
+        "name": "Fixed Point Theorems",
+        "slug": "fixed-point-theorems",
+        "postCount": 12,
+        "score": 27,
+        "matched_keywords": [
+          "fixed point theorems"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "XEo9oS2AQvS4spLco",
+        "name": "Domain Theory",
+        "slug": "domain-theory",
+        "postCount": 7,
+        "score": 27,
+        "matched_keywords": [
+          "domain theory"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "mwKRsZuFbGr7tA5h7",
+        "name": "Delegation",
+        "slug": "delegation",
+        "postCount": 4,
+        "score": 27,
+        "matched_keywords": [
+          "delegation"
+        ],
+        "research_agendas": [
+          "Scalable Oversight"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "erGz7MHpQP2Q3fJqB",
+        "name": "Archetypal Transfer Learning ",
+        "slug": "archetypal-transfer-learning",
+        "postCount": 22,
+        "score": 26,
+        "matched_keywords": [
+          "transfer learning",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "YhZLQQKsREKE7fC4F",
+        "name": "Principal-Agent Problems",
+        "slug": "principal-agent-problems",
+        "postCount": 12,
+        "score": 26,
+        "matched_keywords": [
+          "agent",
+          "principal-agent"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      }
+    ],
+    "probable": [
+      {
+        "id": "H4n4rzs33JfEgkf8b",
+        "name": "OpenAI",
+        "slug": "openai",
+        "postCount": 239,
+        "score": 24,
+        "matched_keywords": [
+          "openai"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Z38PqJbRyfwCxKvvL",
+        "name": "Research Agendas",
+        "slug": "research-agendas",
+        "postCount": 235,
+        "score": 24,
+        "matched_keywords": [
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "nKtyrL5u4Y5kmMWT5",
+        "name": "DeepMind",
+        "slug": "deepmind",
+        "postCount": 86,
+        "score": 24,
+        "matched_keywords": [
+          "deepmind"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "2Rd4dxEcxyCHqLEKW",
+        "name": "Apart Research",
+        "slug": "apart-research",
+        "postCount": 55,
+        "score": 24,
+        "matched_keywords": [
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "E4wsWbWrqjovpMrYd",
+        "name": "Research Taste",
+        "slug": "research-taste",
+        "postCount": 31,
+        "score": 24,
+        "matched_keywords": [
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "QGgkHdNjZQgPvoun6",
+        "name": "Apollo Research (org)",
+        "slug": "apollo-research-org",
+        "postCount": 22,
+        "score": 24,
+        "matched_keywords": [
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "ezKDwAcE9YWACL2XM",
+        "name": "Open Agency Architecture",
+        "slug": "open-agency-architecture",
+        "postCount": 22,
+        "score": 24,
+        "matched_keywords": [
+          "agency",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "RseFyq6FqAhTycBEY",
+        "name": "Ought",
+        "slug": "ought",
+        "postCount": 17,
+        "score": 24,
+        "matched_keywords": [
+          "ought"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "sYbszETv5rKst6gxD",
+        "name": "Leverage Research",
+        "slug": "leverage-research",
+        "postCount": 16,
+        "score": 24,
+        "matched_keywords": [
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "t5hHGjmx6aHj83ADT",
+        "name": "Pivotal Research ",
+        "slug": "pivotal-research",
+        "postCount": 9,
+        "score": 24,
+        "matched_keywords": [
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Hc9fuB89BRPkeH6c5",
+        "name": "Qualia Research Institute",
+        "slug": "qualia-research-institute",
+        "postCount": 4,
+        "score": 24,
+        "matched_keywords": [
+          "search",
+          "arc"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "wK59GLLXFhP6D7FWo",
+        "name": "Human Alignment",
+        "slug": "human-alignment",
+        "postCount": 25,
+        "score": 23.0,
+        "matched_keywords": [
+          "alignment",
+          "cev(desc)"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "YWzByWvtXunfrBu5b",
+        "name": "GPT",
+        "slug": "gpt",
+        "postCount": 468,
+        "score": 21,
+        "matched_keywords": [
+          "gpt"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Fi6SeJRGfJs3bp5se",
+        "name": "Reinforcement learning",
+        "slug": "reinforcement-learning",
+        "postCount": 213,
+        "score": 21,
+        "matched_keywords": [
+          "reinforcement learning"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "qHCFjTEWCQjKBWy5z",
+        "name": "Corrigibility",
+        "slug": "corrigibility-1",
+        "postCount": 170,
+        "score": 21,
+        "matched_keywords": [
+          "corrigibility"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "PvridmTCj2qsugQCH",
+        "name": "Goodhart's Law",
+        "slug": "goodhart-s-law",
+        "postCount": 142,
+        "score": 21,
+        "matched_keywords": [
+          "goodhart's law"
+        ],
+        "research_agendas": [
+          "AI Governance & Policy"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "vCKdypwBjqn2HoGTy",
+        "name": "Instrumental convergence",
+        "slug": "instrumental-convergence",
+        "postCount": 122,
+        "score": 21,
+        "matched_keywords": [
+          "instrumental convergence"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "ekAK52RA5cdimrmsy",
+        "name": "Intelligence explosion",
+        "slug": "intelligence-explosion",
+        "postCount": 54,
+        "score": 21,
+        "matched_keywords": [
+          "intelligence explosion"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "yEs5Tdwfw5Zw8yGWC",
+        "name": "Wireheading",
+        "slug": "wireheading",
+        "postCount": 49,
+        "score": 21,
+        "matched_keywords": [
+          "wireheading"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "hwHxSdrxafFTuaCJE",
+        "name": "Prompt Engineering",
+        "slug": "prompt-engineering",
+        "postCount": 48,
+        "score": 21,
+        "matched_keywords": [
+          "prompt engineering"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "qL92kMi7wh6qktrrQ",
+        "name": "Mild optimization",
+        "slug": "mild-optimization",
+        "postCount": 31,
+        "score": 21,
+        "matched_keywords": [
+          "mild optimization"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "LY3xMQMKSXiYr7rgw",
+        "name": "Quantilization",
+        "slug": "quantilization",
+        "postCount": 21,
+        "score": 21,
+        "matched_keywords": [
+          "quantilization"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "qNF7Ti87CLfHhbttj",
+        "name": "Treacherous Turn",
+        "slug": "treacherous-turn",
+        "postCount": 17,
+        "score": 21,
+        "matched_keywords": [
+          "treacherous turn"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "jD7udwCn3duDZJNhW",
+        "name": "Constitutional AI",
+        "slug": "constitutional-ai",
+        "postCount": 14,
+        "score": 21,
+        "matched_keywords": [
+          "constitutional ai"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "c42eTtBCXyJmtpqwZ",
+        "name": "AI-Assisted Alignment",
+        "slug": "ai-assisted-alignment",
+        "postCount": 163,
+        "score": 20,
+        "matched_keywords": [
+          "alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "D6y2AgYBeHsMYqWC4",
+        "name": "AI Safety Public Materials",
+        "slug": "ai-safety-public-materials-1",
+        "postCount": 150,
+        "score": 20,
+        "matched_keywords": [
+          "ai safety"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb2ac",
+        "name": "Economic Consequences of AGI",
+        "slug": "economic-consequences-of-agi",
+        "postCount": 115,
+        "score": 20,
+        "matched_keywords": [
+          "agi"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Z6DgiCrMtpSNxwuYW",
+        "name": "Grants & Fundraising Opportunities",
+        "slug": "grants-and-fundraising-opportunities",
+        "postCount": 115,
+        "score": 20,
+        "matched_keywords": [
+          "ais"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "qDvaStt6c3KuqLr2P",
+        "name": "AI Safety Camp",
+        "slug": "ai-safety-camp",
+        "postCount": 104,
+        "score": 20,
+        "matched_keywords": [
+          "ai safety"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb26d",
+        "name": "Oracle AI",
+        "slug": "oracle-ai",
+        "postCount": 91,
+        "score": 20,
+        "matched_keywords": [
+          "oracle ai",
+          "oracle"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "tgJoX7PGDDh2vJNqT",
+        "name": "Acausal Trade",
+        "slug": "acausal-trade",
+        "postCount": 78,
+        "score": 20,
+        "matched_keywords": [
+          "acausal trade",
+          "acausal"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "N3CqcPdCZNspF9bFb",
+        "name": "Emergent Behavior ( Emergence )",
+        "slug": "emergent-behavior-emergence",
+        "postCount": 74,
+        "score": 20,
+        "matched_keywords": [
+          "emergence",
+          "emergent behavior"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "t7t9nW6BtJhfGNSR6",
+        "name": "Aging",
+        "slug": "aging",
+        "postCount": 73,
+        "score": 20,
+        "matched_keywords": [
+          "agi"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "dKWRLcAnGw4cjJJHd",
+        "name": "Human-AI Safety",
+        "slug": "human-ai-safety",
+        "postCount": 68,
+        "score": 20,
+        "matched_keywords": [
+          "ai safety"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "dHNS6r6LD6s2hEvZz",
+        "name": "AI Services (CAIS)",
+        "slug": "ai-services-cais",
+        "postCount": 26,
+        "score": 20,
+        "matched_keywords": [
+          "ais"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "ajGBtsBmKQYGvXPoH",
+        "name": "Jailbreaking (AIs)",
+        "slug": "jailbreaking-ais",
+        "postCount": 16,
+        "score": 20,
+        "matched_keywords": [
+          "ais"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "7Ebtk85mDsjHCJMRE",
+        "name": "Alignment Jam",
+        "slug": "alignment-jam",
+        "postCount": 16,
+        "score": 20,
+        "matched_keywords": [
+          "alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "TnkKCMhkuddJjHNEe",
+        "name": "AI Safety Mentors and Mentees Program",
+        "slug": "ai-safety-mentors-and-mentees-program",
+        "postCount": 15,
+        "score": 20,
+        "matched_keywords": [
+          "ai safety"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "dirWGdnudLCB6znn7",
+        "name": "Alignment Tax",
+        "slug": "alignment-tax",
+        "postCount": 15,
+        "score": 20,
+        "matched_keywords": [
+          "alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "fuanMA7z4JqDGsN5Q",
+        "name": "Internal Alignment (Human)",
+        "slug": "internal-alignment-human",
+        "postCount": 14,
+        "score": 20,
+        "matched_keywords": [
+          "alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "tfLKHMQfgggz2eW7S",
+        "name": "AI Safety Cases",
+        "slug": "ai-safety-cases",
+        "postCount": 12,
+        "score": 20,
+        "matched_keywords": [
+          "ai safety"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "woeLa6nvmhroCh3Fi",
+        "name": "General Alignment Properties",
+        "slug": "general-alignment-properties",
+        "postCount": 12,
+        "score": 20,
+        "matched_keywords": [
+          "alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb356",
+        "name": "Road To AI Safety Excellence",
+        "slug": "road-to-ai-safety-excellence",
+        "postCount": 7,
+        "score": 20,
+        "matched_keywords": [
+          "ai safety"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "uDqJKemEHHsyWPm4m",
+        "name": "Market making (AI safety technique) ",
+        "slug": "market-making-ai-safety-technique",
+        "postCount": 4,
+        "score": 20,
+        "matched_keywords": [
+          "ai safety"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "fhbPbcDqKYQh4PYfn",
+        "name": "Successor alignment",
+        "slug": "successor-alignment",
+        "postCount": 3,
+        "score": 20,
+        "matched_keywords": [
+          "alignment"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "56yXXrcxRjrQs6z9R",
+        "name": "Interpretability (ML & AI)",
+        "slug": "interpretability-ml-and-ai",
+        "postCount": 998,
+        "score": 18,
+        "matched_keywords": [
+          "interpretability"
+        ],
+        "research_agendas": [
+          "Mechanistic Interpretability"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "XSryTypw5Hszpa4TS",
+        "name": "Consciousness",
+        "slug": "consciousness",
+        "postCount": 430,
+        "score": 18,
+        "matched_keywords": [
+          "consciousness"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "FBRwHSmTudwiHHtrn",
+        "name": "AI Evaluations",
+        "slug": "ai-evaluations",
+        "postCount": 254,
+        "score": 18,
+        "matched_keywords": [
+          "evaluations"
+        ],
+        "research_agendas": [
+          "Evaluations & Dangerous Capabilities"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb2c7",
+        "name": "Regulation and AI Risk",
+        "slug": "regulation-and-ai-risk",
+        "postCount": 149,
+        "score": 18,
+        "matched_keywords": [
+          "regulation"
+        ],
+        "research_agendas": [
+          "AI Governance & Policy"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "ZXFpyQWPB5ideFbEG",
+        "name": "Conversation (topic)",
+        "slug": "conversation-topic",
+        "postCount": 136,
+        "score": 18,
+        "matched_keywords": [
+          "rsa"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      }
+    ],
+    "possible": [
+      {
+        "id": "xexCWMyds6QLWognu",
+        "name": "World Optimization",
+        "slug": "world-optimization",
+        "postCount": 3246,
+        "score": 14,
+        "matched_keywords": [
+          "rl"
+        ],
+        "research_agendas": [],
+        "core": true,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "KmgkrftQuX7jmjjp5",
+        "name": "Language Models (LLMs)",
+        "slug": "language-models-llms",
+        "postCount": 925,
+        "score": 14,
+        "matched_keywords": [
+          "llm"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "oiRp4T6u5poc8r9Tj",
+        "name": "AI Takeoff",
+        "slug": "ai-takeoff",
+        "postCount": 356,
+        "score": 14,
+        "matched_keywords": [
+          "takeoff"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "GrHAiuzAjG2mDxvMB",
+        "name": "ChatGPT",
+        "slug": "chatgpt-1",
+        "postCount": 213,
+        "score": 14,
+        "matched_keywords": [
+          "gpt"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "nzvHaqwdXtvWkbonG",
+        "name": "Risks of Astronomical Suffering (S-risks)",
+        "slug": "risks-of-astronomical-suffering-s-risks",
+        "postCount": 74,
+        "score": 14,
+        "matched_keywords": [
+          "s-risk"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb1c9",
+        "name": "Many-Worlds Interpretation",
+        "slug": "many-worlds-interpretation",
+        "postCount": 70,
+        "score": 14,
+        "matched_keywords": [
+          "rl"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "6voWoNt3q3jpEcPzk",
+        "name": "Transformers",
+        "slug": "transformers",
+        "postCount": 65,
+        "score": 14,
+        "matched_keywords": [
+          "transformer"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Rqo9s86mfTjdbfDXB",
+        "name": "Future Fund Worldview Prize",
+        "slug": "future-fund-worldview-prize",
+        "postCount": 63,
+        "score": 14,
+        "matched_keywords": [
+          "rl"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "QH4LhvnyR4QkW9MG8",
+        "name": "Squiggle Maximizer (formerly \"Paperclip maximizer\")",
+        "slug": "squiggle-maximizer-formerly-paperclip-maximizer",
+        "postCount": 55,
+        "score": 14,
+        "matched_keywords": [
+          "rl"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "xi9JLxEtEoPCgRXRj",
+        "name": "Transformer Circuits",
+        "slug": "transformer-circuits",
+        "postCount": 47,
+        "score": 14,
+        "matched_keywords": [
+          "transformer"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "8Xec73Ndz2F59AmGe",
+        "name": "Vulnerable World Hypothesis",
+        "slug": "vulnerable-world-hypothesis",
+        "postCount": 19,
+        "score": 14,
+        "matched_keywords": [
+          "rl"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "r7tnYvKBLWNibSgNn",
+        "name": "LLM-Induced Psychosis",
+        "slug": "llm-induced-psychosis",
+        "postCount": 5,
+        "score": 14,
+        "matched_keywords": [
+          "llm"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "RERM5H6RMnaafxMwQ",
+        "name": "Medianworld",
+        "slug": "medianworld",
+        "postCount": 1,
+        "score": 14,
+        "matched_keywords": [
+          "rl"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "2wDMWTpP8YNxXdkQD",
+        "name": "Just World Hypothesis",
+        "slug": "just-world-hypothesis",
+        "postCount": 1,
+        "score": 14,
+        "matched_keywords": [
+          "rl"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "GDGYkF29pxEQNWjYc",
+        "name": "Agency",
+        "slug": "agency",
+        "postCount": 222,
+        "score": 12,
+        "matched_keywords": [
+          "agency"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "G5zEXFxtMSAnNfBhX",
+        "name": "Solomonoff induction",
+        "slug": "solomonoff-induction",
+        "postCount": 81,
+        "score": 12,
+        "matched_keywords": [
+          "solomonoff induction"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "7jaBCxPHRDfJppYws",
+        "name": "AI Sentience",
+        "slug": "ai-sentience",
+        "postCount": 80,
+        "score": 12,
+        "matched_keywords": [
+          "sentience"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "LXk7bxNkYSjgatdAt",
+        "name": "Tool AI",
+        "slug": "tool-ai",
+        "postCount": 57,
+        "score": 12,
+        "matched_keywords": [
+          "tool ai"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "KqrZ5sDEyHm6JaaKp",
+        "name": "The Hard Problem of Consciousness",
+        "slug": "the-hard-problem-of-consciousness",
+        "postCount": 50,
+        "score": 12,
+        "matched_keywords": [
+          "consciousness"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "CANvaDc9dipWGJATj",
+        "name": "AIXI",
+        "slug": "aixi",
+        "postCount": 49,
+        "score": 12,
+        "matched_keywords": [
+          "aixi"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "QmvAYnvqYpXeHi2Xi",
+        "name": "Simulation",
+        "slug": "simulation-1",
+        "postCount": 48,
+        "score": 12,
+        "matched_keywords": [
+          "simulation"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "8ckoduMw3gvCMJGSB",
+        "name": "Logical Induction",
+        "slug": "logical-induction",
+        "postCount": 43,
+        "score": 12,
+        "matched_keywords": [
+          "logical induction"
+        ],
+        "research_agendas": [
+          "Agent Foundations"
+        ],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb292",
+        "name": "Seed AI",
+        "slug": "seed-ai",
+        "postCount": 9,
+        "score": 12,
+        "matched_keywords": [
+          "seed ai"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "Y5kNogc5QdqTwejQu",
+        "name": "AI Consciousness",
+        "slug": "ai-consciousness",
+        "postCount": 2,
+        "score": 12,
+        "matched_keywords": [
+          "consciousness"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "ZwpcAKEFoYa3uBEjA",
+        "name": "AI Benchmarking",
+        "slug": "ai-benchmarking",
+        "postCount": 36,
+        "score": 10,
+        "matched_keywords": [
+          "benchmarking"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5f5c37ee1b5cdee568cfb125",
+        "name": "Generalization From Fictional Evidence",
+        "slug": "generalization-from-fictional-evidence",
+        "postCount": 15,
+        "score": 10,
+        "matched_keywords": [
+          "generalization"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "KoXbd2HmbdRfqLngk",
+        "name": "Planning & Decision-Making",
+        "slug": "planning-and-decision-making",
+        "postCount": 143,
+        "score": 8,
+        "matched_keywords": [
+          "planning"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "22z6XpWKqw3bNv4oR",
+        "name": "Simulation Hypothesis",
+        "slug": "simulation-hypothesis",
+        "postCount": 118,
+        "score": 8,
+        "matched_keywords": [
+          "simulation"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "5uHdFgR938LGGxMKQ",
+        "name": "Subagents",
+        "slug": "subagents",
+        "postCount": 107,
+        "score": 8,
+        "matched_keywords": [
+          "agent"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      },
+      {
+        "id": "wBoHTJs9iQzczNtW3",
+        "name": "Robust Agents",
+        "slug": "robust-agents",
+        "postCount": 45,
+        "score": 8,
+        "matched_keywords": [
+          "agent"
+        ],
+        "research_agendas": [],
+        "core": false,
+        "isSubforum": false,
+        "parentTagId": null
+      }
+    ]
+  },
+  "by_research_agenda": {
+    "Mechanistic Interpretability": [
+      {
+        "name": "Interpretability (ML & AI)",
+        "slug": "interpretability-ml-and-ai",
+        "posts": 998,
+        "score": 18
+      }
+    ],
+    "Scalable Oversight": [
+      {
+        "name": "Mechanism Design",
+        "slug": "mechanism-design",
+        "posts": 167,
+        "score": 27
+      },
+      {
+        "name": "Debate (AI safety technique)",
+        "slug": "debate-ai-safety-technique-1",
+        "posts": 114,
+        "score": 38
+      },
+      {
+        "name": "Iterated Amplification ",
+        "slug": "iterated-amplification",
+        "posts": 70,
+        "score": 36
+      },
+      {
+        "name": "Intelligence Amplification",
+        "slug": "intelligence-amplification",
+        "posts": 63,
+        "score": 18
+      },
+      {
+        "name": "Scalable Oversight",
+        "slug": "scalable-oversight",
+        "posts": 24,
+        "score": 27
+      },
+      {
+        "name": "Delegation",
+        "slug": "delegation",
+        "posts": 4,
+        "score": 27
+      }
+    ],
+    "Adversarial Robustness": [
+      {
+        "name": "Adversarial Examples (AI)",
+        "slug": "adversarial-examples-ai",
+        "posts": 41,
+        "score": 36
+      },
+      {
+        "name": "Adversarial Training",
+        "slug": "adversarial-training",
+        "posts": 29,
+        "score": 45
+      }
+    ],
+    "Agent Foundations": [
+      {
+        "name": "Agent Foundations",
+        "slug": "agent-foundations",
+        "posts": 167,
+        "score": 35
+      },
+      {
+        "name": "Embedded Agency",
+        "slug": "embedded-agency",
+        "posts": 125,
+        "score": 35
+      },
+      {
+        "name": "Logical Uncertainty",
+        "slug": "logical-uncertainty",
+        "posts": 77,
+        "score": 27
+      },
+      {
+        "name": "Functional Decision Theory",
+        "slug": "functional-decision-theory",
+        "posts": 46,
+        "score": 27
+      },
+      {
+        "name": "Logical Induction",
+        "slug": "logical-induction",
+        "posts": 43,
+        "score": 12
+      },
+      {
+        "name": "Updateless Decision Theory",
+        "slug": "updateless-decision-theory",
+        "posts": 41,
+        "score": 27
+      },
+      {
+        "name": "L\u00f6b's theorem",
+        "slug": "loeb-s-theorem",
+        "posts": 37,
+        "score": 27
+      }
+    ],
+    "Alignment Theory": [
+      {
+        "name": "Inner Alignment",
+        "slug": "inner-alignment",
+        "posts": 343,
+        "score": 47
+      },
+      {
+        "name": "Outer Alignment",
+        "slug": "outer-alignment",
+        "posts": 335,
+        "score": 47
+      },
+      {
+        "name": "Mesa-Optimization",
+        "slug": "mesa-optimization",
+        "posts": 140,
+        "score": 45
+      }
+    ],
+    "Evaluations & Dangerous Capabilities": [
+      {
+        "name": "AI Evaluations",
+        "slug": "ai-evaluations",
+        "posts": 254,
+        "score": 18
+      }
+    ],
+    "Value Learning & Alignment": [
+      {
+        "name": "Value Learning",
+        "slug": "value-learning",
+        "posts": 208,
+        "score": 27
+      },
+      {
+        "name": "Moral uncertainty",
+        "slug": "moral-uncertainty",
+        "posts": 84,
+        "score": 27
+      },
+      {
+        "name": "Value Drift",
+        "slug": "value-drift",
+        "posts": 18,
+        "score": 27
+      }
+    ],
+    "Cooperative AI": [
+      {
+        "name": "Game Theory",
+        "slug": "game-theory",
+        "posts": 364,
+        "score": 27
+      },
+      {
+        "name": "Coordination / Cooperation",
+        "slug": "coordination-cooperation",
+        "posts": 321,
+        "score": 36
+      },
+      {
+        "name": "Open Source Game Theory",
+        "slug": "open-source-game-theory",
+        "posts": 16,
+        "score": 18
+      },
+      {
+        "name": "Commitment Mechanisms",
+        "slug": "commitment-mechanisms",
+        "posts": 14,
+        "score": 27
+      },
+      {
+        "name": "Evidential Cooperation in Large Worlds",
+        "slug": "evidential-cooperation-in-large-worlds",
+        "posts": 13,
+        "score": 32
+      },
+      {
+        "name": "Quining Cooperation",
+        "slug": "quining-cooperation",
+        "posts": 2,
+        "score": 18
+      }
+    ],
+    "AI Governance & Policy": [
+      {
+        "name": "AI Governance",
+        "slug": "ai-governance",
+        "posts": 794,
+        "score": 27
+      },
+      {
+        "name": "Regulation and AI Risk",
+        "slug": "regulation-and-ai-risk",
+        "posts": 149,
+        "score": 18
+      },
+      {
+        "name": "Goodhart's Law",
+        "slug": "goodhart-s-law",
+        "posts": 142,
+        "score": 21
+      },
+      {
+        "name": "Scaling Laws",
+        "slug": "scaling-laws",
+        "posts": 91,
+        "score": 15
+      },
+      {
+        "name": "Compute Governance",
+        "slug": "compute-governance",
+        "posts": 20,
+        "score": 45
+      }
+    ],
+    "Compute Governance": [
+      {
+        "name": "Computer Science",
+        "slug": "computer-science",
+        "posts": 128,
+        "score": 18
+      },
+      {
+        "name": "Computer Security & Cryptography",
+        "slug": "computer-security-and-cryptography",
+        "posts": 121,
+        "score": 28
+      },
+      {
+        "name": "Compute",
+        "slug": "compute",
+        "posts": 48,
+        "score": 27
+      },
+      {
+        "name": "Brain-Computer Interfaces",
+        "slug": "brain-computer-interfaces",
+        "posts": 44,
+        "score": 18
+      },
+      {
+        "name": "Compute Governance",
+        "slug": "compute-governance",
+        "posts": 20,
+        "score": 45
+      }
+    ]
+  },
+  "weight_explanation": {
+    "research_agendas": "All 10 research agendas have weight 9 (equal importance)",
+    "core_safety_terms": "Fundamental AI Safety terms have weight 10",
+    "organizations": "Research organizations have weight 8",
+    "technical_concepts": "Supporting technical concepts have weight 7",
+    "other": "Peripheral concepts have weights 4-6"
+  }
+}
