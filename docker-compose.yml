@@ -1,0 +1,20 @@
+version: "3.9"
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: ai_safety_pg
+    environment:
+      POSTGRES_DB: ai_safety
+      POSTGRES_USER: scholar_user
+      POSTGRES_PASSWORD: scholar_pass_2024
+    ports:
+      - "6543:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U scholar_user -d ai_safety"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+volumes:
+  pgdata: 

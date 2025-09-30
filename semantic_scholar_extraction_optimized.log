@@ -1,0 +1,595 @@
+2025-09-29 18:19:14,895 - INFO - requests-cache habilitado (TTL 24h)
+2025-09-29 18:19:15,087 - INFO - 🚀 Iniciando extracción OPTIMIZADA con Semantic Scholar API
+2025-09-29 18:19:15,093 - INFO - Conexión a PostgreSQL exitosa
+2025-09-29 18:19:15,094 - INFO - Ejecutando 20 queries optimizadas
+2025-09-29 18:19:15,094 - INFO - 
+📊 Progreso: 1/20
+2025-09-29 18:19:15,094 - INFO - 📈 Papers hoy: 88/2000
+2025-09-29 18:19:15,094 - INFO - 🔍 Query: "Mechanistic Interpretability"
+2025-09-29 18:19:15,094 - INFO - Buscando: "Mechanistic Interpretability"
+2025-09-29 18:19:18,951 - INFO - Query: '"Mechanistic Interpretability"' | Papers: 100/635223 | Offset: 0
+2025-09-29 18:19:19,019 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:19:19,019 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:19:19,019 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:19:21,276 - INFO - Query: '"Mechanistic Interpretability"' | Papers: 100/635223 | Offset: 100
+2025-09-29 18:19:21,770 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:21,771 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:21,771 - INFO -   Procesados: 100 | Total: 200 | Nuevos: 0
+2025-09-29 18:19:27,828 - INFO - Query: '"Mechanistic Interpretability"' | Papers: 100/635223 | Offset: 200
+2025-09-29 18:19:27,859 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:19:27,860 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:19:27,860 - INFO -   Procesados: 100 | Total: 300 | Nuevos: 0
+2025-09-29 18:19:28,392 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:19:30,397 - INFO - 
+📊 Progreso: 2/20
+2025-09-29 18:19:30,398 - INFO - 📈 Papers hoy: 388/2000
+2025-09-29 18:19:30,398 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience
+2025-09-29 18:19:30,398 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience
+2025-09-29 18:19:30,666 - WARNING - Rate limit (429). Esperando 3.2s (intento 1/3)
+2025-09-29 18:19:35,327 - INFO - Query: '"Mechanistic Interpretability" Neuroscience' | Papers: 100/4776 | Offset: 0
+2025-09-29 18:19:35,349 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:19:35,350 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:19:35,350 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:19:38,326 - INFO - Query: '"Mechanistic Interpretability" Neuroscience' | Papers: 100/4776 | Offset: 100
+2025-09-29 18:19:38,348 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:38,348 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:38,348 - INFO -   Procesados: 100 | Total: 200 | Nuevos: 0
+2025-09-29 18:19:40,273 - INFO - Query: '"Mechanistic Interpretability" Neuroscience' | Papers: 100/4776 | Offset: 200
+2025-09-29 18:19:40,294 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:40,294 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:40,294 - INFO -   Procesados: 100 | Total: 300 | Nuevos: 0
+2025-09-29 18:19:40,811 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:19:42,816 - INFO - 
+📊 Progreso: 3/20
+2025-09-29 18:19:42,817 - INFO - 📈 Papers hoy: 688/2000
+2025-09-29 18:19:42,817 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience "Neural coding"
+2025-09-29 18:19:42,817 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Neural coding"
+2025-09-29 18:19:44,069 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural coding"' | Papers: 100/163 | Offset: 0
+2025-09-29 18:19:44,107 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:44,107 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:44,107 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:19:45,637 - WARNING - Rate limit (429). Esperando 2.8s (intento 1/3)
+2025-09-29 18:19:49,305 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural coding"' | Papers: 63/163 | Offset: 100
+2025-09-29 18:19:49,332 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:49,332 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:19:49,332 - INFO -   Procesados: 63 | Total: 163 | Nuevos: 0
+2025-09-29 18:19:49,346 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:19:51,351 - INFO - 
+📊 Progreso: 4/20
+2025-09-29 18:19:51,352 - INFO - 📈 Papers hoy: 851/2000
+2025-09-29 18:19:51,352 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience Connectomics
+2025-09-29 18:19:51,352 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience Connectomics
+2025-09-29 18:19:51,880 - WARNING - Rate limit (429). Esperando 3.4s (intento 1/3)
+2025-09-29 18:19:55,778 - WARNING - Rate limit (429). Esperando 5.2s (intento 2/3)
+2025-09-29 18:20:01,931 - INFO - Query: '"Mechanistic Interpretability" Neuroscience Connectomics' | Papers: 85/85 | Offset: 0
+2025-09-29 18:20:01,957 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:20:01,957 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:20:01,957 - INFO -   Procesados: 85 | Total: 85 | Nuevos: 0
+2025-09-29 18:20:01,972 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:03,978 - INFO - 
+📊 Progreso: 5/20
+2025-09-29 18:20:03,979 - INFO - 📈 Papers hoy: 936/2000
+2025-09-29 18:20:03,979 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience "Neural decoding"
+2025-09-29 18:20:03,979 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Neural decoding"
+2025-09-29 18:20:05,850 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural decoding"' | Papers: 100/147 | Offset: 0
+2025-09-29 18:20:05,893 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:20:05,893 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:20:05,893 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:20:06,890 - WARNING - Rate limit (429). Esperando 2.8s (intento 1/3)
+2025-09-29 18:20:11,014 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural decoding"' | Papers: 47/147 | Offset: 100
+2025-09-29 18:20:11,032 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:20:11,032 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:20:11,032 - INFO -   Procesados: 47 | Total: 147 | Nuevos: 0
+2025-09-29 18:20:11,047 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:13,051 - INFO - 
+📊 Progreso: 6/20
+2025-09-29 18:20:13,052 - INFO - 📈 Papers hoy: 1083/2000
+2025-09-29 18:20:13,052 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience "Brain imaging analysis (fMRI/EEG interpretation)"
+2025-09-29 18:20:13,052 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Brain imaging analysis (fMRI/EEG interpretation)"
+2025-09-29 18:20:13,939 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Brain imaging analysis (fMRI/EEG interpretation)"' | Papers: 24/24 | Offset: 0
+2025-09-29 18:20:13,960 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:20:13,961 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:20:13,961 - INFO -   Procesados: 24 | Total: 24 | Nuevos: 0
+2025-09-29 18:20:13,974 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:15,980 - INFO - 
+📊 Progreso: 7/20
+2025-09-29 18:20:15,980 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:15,980 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing"
+2025-09-29 18:20:15,980 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing"
+2025-09-29 18:20:15,980 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:15,980 - INFO - Batch vacío 1/3
+2025-09-29 18:20:16,985 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:16,986 - INFO - Batch vacío 2/3
+2025-09-29 18:20:17,991 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:17,992 - INFO - Batch vacío 3/3
+2025-09-29 18:20:19,026 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:21,033 - INFO - 
+📊 Progreso: 8/20
+2025-09-29 18:20:21,049 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:21,052 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Sparse coding"
+2025-09-29 18:20:21,053 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Sparse coding"
+2025-09-29 18:20:21,054 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:21,054 - INFO - Batch vacío 1/3
+2025-09-29 18:20:22,057 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:22,058 - INFO - Batch vacío 2/3
+2025-09-29 18:20:23,063 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:23,064 - INFO - Batch vacío 3/3
+2025-09-29 18:20:24,105 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:26,107 - INFO - 
+📊 Progreso: 9/20
+2025-09-29 18:20:26,107 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:26,107 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Dictionary learning"
+2025-09-29 18:20:26,107 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Dictionary learning"
+2025-09-29 18:20:26,107 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:26,107 - INFO - Batch vacío 1/3
+2025-09-29 18:20:27,112 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:27,113 - INFO - Batch vacío 2/3
+2025-09-29 18:20:28,118 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:28,118 - INFO - Batch vacío 3/3
+2025-09-29 18:20:29,150 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:31,156 - INFO - 
+📊 Progreso: 10/20
+2025-09-29 18:20:31,156 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:31,157 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Blind source separation"
+2025-09-29 18:20:31,157 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Blind source separation"
+2025-09-29 18:20:31,157 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:31,157 - INFO - Batch vacío 1/3
+2025-09-29 18:20:32,159 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:32,159 - INFO - Batch vacío 2/3
+2025-09-29 18:20:33,164 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:33,164 - INFO - Batch vacío 3/3
+2025-09-29 18:20:34,197 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:36,202 - INFO - 
+📊 Progreso: 11/20
+2025-09-29 18:20:36,203 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:36,203 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Independent component analysis"
+2025-09-29 18:20:36,204 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Independent component analysis"
+2025-09-29 18:20:36,204 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:36,204 - INFO - Batch vacío 1/3
+2025-09-29 18:20:37,209 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:37,209 - INFO - Batch vacío 2/3
+2025-09-29 18:20:38,214 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:38,215 - INFO - Batch vacío 3/3
+2025-09-29 18:20:39,244 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:41,247 - INFO - 
+📊 Progreso: 12/20
+2025-09-29 18:20:41,248 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:41,248 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics"
+2025-09-29 18:20:41,248 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics"
+2025-09-29 18:20:41,248 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:41,248 - INFO - Batch vacío 1/3
+2025-09-29 18:20:42,253 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:42,254 - INFO - Batch vacío 2/3
+2025-09-29 18:20:43,254 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:43,254 - INFO - Batch vacío 3/3
+2025-09-29 18:20:44,282 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:46,285 - INFO - 
+📊 Progreso: 13/20
+2025-09-29 18:20:46,286 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:46,286 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics" "Matrix factorization"
+2025-09-29 18:20:46,286 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics" "Matrix factorization"
+2025-09-29 18:20:46,286 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:46,286 - INFO - Batch vacío 1/3
+2025-09-29 18:20:47,291 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:47,291 - INFO - Batch vacío 2/3
+2025-09-29 18:20:48,292 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:48,292 - INFO - Batch vacío 3/3
+2025-09-29 18:20:49,319 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:51,327 - INFO - 
+📊 Progreso: 14/20
+2025-09-29 18:20:51,330 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:51,330 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics" "Tensor decomposition"
+2025-09-29 18:20:51,330 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics" "Tensor decomposition"
+2025-09-29 18:20:51,331 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:51,331 - INFO - Batch vacío 1/3
+2025-09-29 18:20:52,336 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:52,336 - INFO - Batch vacío 2/3
+2025-09-29 18:20:53,341 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:53,341 - INFO - Batch vacío 3/3
+2025-09-29 18:20:54,360 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:20:56,365 - INFO - 
+📊 Progreso: 15/20
+2025-09-29 18:20:56,365 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:20:56,365 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics" "Spectral analysis"
+2025-09-29 18:20:56,365 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics" "Spectral analysis"
+2025-09-29 18:20:56,365 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:56,365 - INFO - Batch vacío 1/3
+2025-09-29 18:20:57,370 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:57,371 - INFO - Batch vacío 2/3
+2025-09-29 18:20:58,371 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:20:58,371 - INFO - Batch vacío 3/3
+2025-09-29 18:20:59,400 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:21:01,401 - INFO - 
+📊 Progreso: 16/20
+2025-09-29 18:21:01,402 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:21:01,402 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics" "Wavelet analysis"
+2025-09-29 18:21:01,402 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics" "Wavelet analysis"
+2025-09-29 18:21:01,402 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:01,402 - INFO - Batch vacío 1/3
+2025-09-29 18:21:02,407 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:02,407 - INFO - Batch vacío 2/3
+2025-09-29 18:21:03,408 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:03,409 - INFO - Batch vacío 3/3
+2025-09-29 18:21:04,442 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:21:06,448 - INFO - 
+📊 Progreso: 17/20
+2025-09-29 18:21:06,449 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:21:06,449 - INFO - 🔍 Query: "Mechanistic Interpretability" "Statistical Physics"
+2025-09-29 18:21:06,449 - INFO - Buscando: "Mechanistic Interpretability" "Statistical Physics"
+2025-09-29 18:21:06,449 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:06,449 - INFO - Batch vacío 1/3
+2025-09-29 18:21:07,451 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:07,451 - INFO - Batch vacío 2/3
+2025-09-29 18:21:08,456 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:08,456 - INFO - Batch vacío 3/3
+2025-09-29 18:21:09,476 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:21:11,482 - INFO - 
+📊 Progreso: 18/20
+2025-09-29 18:21:11,482 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:21:11,482 - INFO - 🔍 Query: "Mechanistic Interpretability" "Statistical Physics" "Phase transitions in neural networks"
+2025-09-29 18:21:11,482 - INFO - Buscando: "Mechanistic Interpretability" "Statistical Physics" "Phase transitions in neural networks"
+2025-09-29 18:21:11,482 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:11,482 - INFO - Batch vacío 1/3
+2025-09-29 18:21:12,487 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:12,487 - INFO - Batch vacío 2/3
+2025-09-29 18:21:13,492 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:13,493 - INFO - Batch vacío 3/3
+2025-09-29 18:21:14,521 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:21:16,527 - INFO - 
+📊 Progreso: 19/20
+2025-09-29 18:21:16,527 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:21:16,527 - INFO - 🔍 Query: "Mechanistic Interpretability" "Statistical Physics" "Mean field theory"
+2025-09-29 18:21:16,527 - INFO - Buscando: "Mechanistic Interpretability" "Statistical Physics" "Mean field theory"
+2025-09-29 18:21:16,527 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:16,527 - INFO - Batch vacío 1/3
+2025-09-29 18:21:17,530 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:17,530 - INFO - Batch vacío 2/3
+2025-09-29 18:21:18,533 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:18,533 - INFO - Batch vacío 3/3
+2025-09-29 18:21:19,552 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:21:21,586 - INFO - 
+📊 Progreso: 20/20
+2025-09-29 18:21:21,591 - INFO - 📈 Papers hoy: 1107/2000
+2025-09-29 18:21:21,591 - INFO - 🔍 Query: "Mechanistic Interpretability" "Statistical Physics" "Renormalization group methods"
+2025-09-29 18:21:21,591 - INFO - Buscando: "Mechanistic Interpretability" "Statistical Physics" "Renormalization group methods"
+2025-09-29 18:21:21,592 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:21,596 - INFO - Batch vacío 1/3
+2025-09-29 18:21:22,597 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:22,597 - INFO - Batch vacío 2/3
+2025-09-29 18:21:23,598 - WARNING - Límite de sesión alcanzado: 1019/1000
+2025-09-29 18:21:23,599 - INFO - Batch vacío 3/3
+2025-09-29 18:21:24,639 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:21:24,639 - INFO - 
+🎉 EXTRACCIÓN OPTIMIZADA COMPLETADA:
+2025-09-29 18:21:24,639 - INFO - ✅ Queries exitosas: 20/20
+2025-09-29 18:21:24,639 - INFO - 📚 Total papers: 1019
+2025-09-29 18:21:24,663 - INFO - 💾 Papers únicos en DB: 88
+2025-09-29 18:21:24,760 - INFO - Datos exportados a: ai_safety_papers_optimized.csv
+2025-09-29 18:22:11,325 - INFO - requests-cache habilitado (TTL 24h)
+2025-09-29 18:22:11,387 - INFO - 🚀 Iniciando extracción OPTIMIZADA con Semantic Scholar API
+2025-09-29 18:22:11,395 - INFO - Conexión a PostgreSQL exitosa
+2025-09-29 18:22:11,396 - INFO - Ejecutando 15 queries optimizadas
+2025-09-29 18:22:11,396 - INFO - 
+📊 Progreso: 1/15
+2025-09-29 18:22:11,396 - INFO - 📈 Papers hoy: 88/2000
+2025-09-29 18:22:11,396 - INFO - 🔍 Query: "Mechanistic Interpretability"
+2025-09-29 18:22:11,396 - INFO - Buscando: "Mechanistic Interpretability"
+2025-09-29 18:22:11,881 - WARNING - Rate limit (429). Esperando 3.0s (intento 1/3)
+2025-09-29 18:22:15,228 - WARNING - Rate limit (429). Esperando 5.1s (intento 2/3)
+2025-09-29 18:22:20,664 - WARNING - Rate limit (429). Esperando 10.0s (intento 3/3)
+2025-09-29 18:22:30,672 - ERROR - Max reintentos alcanzado para https://api.semanticscholar.org/graph/v1/paper/search
+2025-09-29 18:22:30,678 - INFO - Batch vacío 1/3
+2025-09-29 18:22:36,498 - WARNING - Rate limit (429). Esperando 2.8s (intento 1/3)
+2025-09-29 18:22:39,788 - WARNING - Rate limit (429). Esperando 5.2s (intento 2/3)
+2025-09-29 18:22:45,470 - WARNING - Rate limit (429). Esperando 10.0s (intento 3/3)
+2025-09-29 18:22:55,476 - ERROR - Max reintentos alcanzado para https://api.semanticscholar.org/graph/v1/paper/search
+2025-09-29 18:22:55,480 - INFO - Batch vacío 2/3
+2025-09-29 18:22:57,022 - WARNING - Rate limit (429). Esperando 3.0s (intento 1/3)
+2025-09-29 18:23:00,609 - WARNING - Rate limit (429). Esperando 5.1s (intento 2/3)
+2025-09-29 18:23:06,165 - WARNING - Rate limit (429). Esperando 10.0s (intento 3/3)
+2025-09-29 18:23:16,171 - ERROR - Max reintentos alcanzado para https://api.semanticscholar.org/graph/v1/paper/search
+2025-09-29 18:23:16,174 - INFO - Batch vacío 3/3
+2025-09-29 18:23:17,213 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:23:19,218 - INFO - 
+📊 Progreso: 2/15
+2025-09-29 18:23:19,219 - INFO - 📈 Papers hoy: 88/2000
+2025-09-29 18:23:19,219 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience
+2025-09-29 18:23:19,219 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience
+2025-09-29 18:23:19,710 - WARNING - Rate limit (429). Esperando 2.5s (intento 1/3)
+2025-09-29 18:23:33,479 - INFO - Query: '"Mechanistic Interpretability" Neuroscience' | Papers: 100/3783 | Offset: 0
+2025-09-29 18:23:33,515 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:23:33,516 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:23:33,516 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:23:41,335 - WARNING - Rate limit (429). Esperando 3.2s (intento 1/3)
+2025-09-29 18:23:46,046 - WARNING - Rate limit (429). Esperando 5.7s (intento 2/3)
+2025-09-29 18:23:53,954 - INFO - Query: '"Mechanistic Interpretability" Neuroscience' | Papers: 100/3783 | Offset: 100
+2025-09-29 18:23:53,984 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:23:53,984 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:23:53,984 - INFO -   Procesados: 100 | Total: 200 | Nuevos: 0
+2025-09-29 18:23:54,507 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:23:56,510 - INFO - 
+📊 Progreso: 3/15
+2025-09-29 18:23:56,511 - INFO - 📈 Papers hoy: 288/2000
+2025-09-29 18:23:56,511 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience "Neural coding"
+2025-09-29 18:23:56,511 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Neural coding"
+2025-09-29 18:23:57,388 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural coding"' | Papers: 100/134 | Offset: 0
+2025-09-29 18:23:57,429 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:23:57,430 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:23:57,430 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:24:00,016 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural coding"' | Papers: 34/134 | Offset: 100
+2025-09-29 18:24:00,047 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:00,047 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:00,047 - INFO -   Procesados: 34 | Total: 134 | Nuevos: 0
+2025-09-29 18:24:00,064 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:24:02,067 - INFO - 
+📊 Progreso: 4/15
+2025-09-29 18:24:02,067 - INFO - 📈 Papers hoy: 422/2000
+2025-09-29 18:24:02,067 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience Connectomics
+2025-09-29 18:24:02,067 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience Connectomics
+2025-09-29 18:24:02,997 - WARNING - Rate limit (429). Esperando 2.7s (intento 1/3)
+2025-09-29 18:24:06,354 - WARNING - Rate limit (429). Esperando 5.2s (intento 2/3)
+2025-09-29 18:24:12,312 - INFO - Query: '"Mechanistic Interpretability" Neuroscience Connectomics' | Papers: 69/69 | Offset: 0
+2025-09-29 18:24:12,338 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:24:12,338 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 18:24:12,338 - INFO -   Procesados: 69 | Total: 69 | Nuevos: 0
+2025-09-29 18:24:12,359 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:24:14,364 - INFO - 
+📊 Progreso: 5/15
+2025-09-29 18:24:14,364 - INFO - 📈 Papers hoy: 491/2000
+2025-09-29 18:24:14,364 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience "Neural decoding"
+2025-09-29 18:24:14,364 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Neural decoding"
+2025-09-29 18:24:15,355 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural decoding"' | Papers: 100/126 | Offset: 0
+2025-09-29 18:24:15,374 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:15,374 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:15,374 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:24:17,174 - WARNING - Rate limit (429). Esperando 2.9s (intento 1/3)
+2025-09-29 18:24:20,867 - WARNING - Rate limit (429). Esperando 5.5s (intento 2/3)
+2025-09-29 18:24:30,475 - WARNING - Rate limit (429). Esperando 10.0s (intento 3/3)
+2025-09-29 18:24:40,482 - ERROR - Max reintentos alcanzado para https://api.semanticscholar.org/graph/v1/paper/search
+2025-09-29 18:24:40,489 - INFO - Batch vacío 1/3
+2025-09-29 18:24:42,349 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Neural decoding"' | Papers: 26/126 | Offset: 100
+2025-09-29 18:24:42,386 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:42,386 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:42,386 - INFO -   Procesados: 26 | Total: 126 | Nuevos: 0
+2025-09-29 18:24:42,418 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:24:44,422 - INFO - 
+📊 Progreso: 6/15
+2025-09-29 18:24:44,422 - INFO - 📈 Papers hoy: 617/2000
+2025-09-29 18:24:44,422 - INFO - 🔍 Query: "Mechanistic Interpretability" Neuroscience "Brain imaging analysis (fMRI/EEG interpretation)"
+2025-09-29 18:24:44,422 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Brain imaging analysis (fMRI/EEG interpretation)"
+2025-09-29 18:24:44,869 - WARNING - Rate limit (429). Esperando 2.7s (intento 1/3)
+2025-09-29 18:24:48,323 - WARNING - Rate limit (429). Esperando 5.9s (intento 2/3)
+2025-09-29 18:24:55,053 - INFO - Query: '"Mechanistic Interpretability" Neuroscience "Brain imaging analysis (fMRI/EEG interpretation)"' | Papers: 18/18 | Offset: 0
+2025-09-29 18:24:55,079 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:55,079 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:24:55,079 - INFO -   Procesados: 18 | Total: 18 | Nuevos: 0
+2025-09-29 18:24:55,095 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:24:57,100 - INFO - 
+📊 Progreso: 7/15
+2025-09-29 18:24:57,100 - INFO - 📈 Papers hoy: 635/2000
+2025-09-29 18:24:57,100 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing"
+2025-09-29 18:24:57,100 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing"
+2025-09-29 18:24:57,409 - WARNING - Rate limit (429). Esperando 2.9s (intento 1/3)
+2025-09-29 18:25:02,794 - INFO - Query: '"Mechanistic Interpretability" "Signal Processing"' | Papers: 100/11904 | Offset: 0
+2025-09-29 18:25:02,845 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:02,846 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:02,846 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:25:05,340 - INFO - Query: '"Mechanistic Interpretability" "Signal Processing"' | Papers: 100/11904 | Offset: 100
+2025-09-29 18:25:05,399 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:05,400 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:05,400 - INFO -   Procesados: 100 | Total: 200 | Nuevos: 0
+2025-09-29 18:25:05,965 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:25:07,966 - INFO - 
+📊 Progreso: 8/15
+2025-09-29 18:25:07,966 - INFO - 📈 Papers hoy: 835/2000
+2025-09-29 18:25:07,966 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Sparse coding"
+2025-09-29 18:25:07,966 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Sparse coding"
+2025-09-29 18:25:09,395 - INFO - Query: '"Mechanistic Interpretability" "Signal Processing" "Sparse coding"' | Papers: 100/1421 | Offset: 0
+2025-09-29 18:25:09,417 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:09,417 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:09,417 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:25:10,961 - WARNING - Rate limit (429). Esperando 3.2s (intento 1/3)
+2025-09-29 18:25:14,611 - WARNING - Rate limit (429). Esperando 5.1s (intento 2/3)
+2025-09-29 18:25:20,198 - WARNING - Rate limit (429). Esperando 10.0s (intento 3/3)
+2025-09-29 18:25:30,204 - ERROR - Max reintentos alcanzado para https://api.semanticscholar.org/graph/v1/paper/search
+2025-09-29 18:25:30,209 - INFO - Batch vacío 1/3
+2025-09-29 18:25:33,164 - INFO - Query: '"Mechanistic Interpretability" "Signal Processing" "Sparse coding"' | Papers: 100/1421 | Offset: 100
+2025-09-29 18:25:33,194 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:33,194 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:33,194 - INFO -   Procesados: 100 | Total: 200 | Nuevos: 0
+2025-09-29 18:25:33,720 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:25:35,726 - INFO - 
+📊 Progreso: 9/15
+2025-09-29 18:25:35,726 - INFO - 📈 Papers hoy: 1035/2000
+2025-09-29 18:25:35,726 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Dictionary learning"
+2025-09-29 18:25:35,726 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Dictionary learning"
+2025-09-29 18:25:36,036 - WARNING - Rate limit (429). Esperando 3.3s (intento 1/3)
+2025-09-29 18:25:41,055 - INFO - Query: '"Mechanistic Interpretability" "Signal Processing" "Dictionary learning"' | Papers: 100/2645 | Offset: 0
+2025-09-29 18:25:41,114 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:41,115 - ERROR - Error guardando lote de papers: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 18:25:41,115 - INFO -   Procesados: 100 | Total: 100 | Nuevos: 0
+2025-09-29 18:25:41,620 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:41,620 - INFO - Batch vacío 1/3
+2025-09-29 18:25:42,621 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:42,621 - INFO - Batch vacío 2/3
+2025-09-29 18:25:43,625 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:43,625 - INFO - Batch vacío 3/3
+2025-09-29 18:25:44,644 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:25:46,649 - INFO - 
+📊 Progreso: 10/15
+2025-09-29 18:25:46,649 - INFO - 📈 Papers hoy: 1135/2000
+2025-09-29 18:25:46,649 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Blind source separation"
+2025-09-29 18:25:46,649 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Blind source separation"
+2025-09-29 18:25:46,649 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:46,649 - INFO - Batch vacío 1/3
+2025-09-29 18:25:47,654 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:47,655 - INFO - Batch vacío 2/3
+2025-09-29 18:25:48,655 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:48,655 - INFO - Batch vacío 3/3
+2025-09-29 18:25:49,681 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:25:51,686 - INFO - 
+📊 Progreso: 11/15
+2025-09-29 18:25:51,687 - INFO - 📈 Papers hoy: 1135/2000
+2025-09-29 18:25:51,687 - INFO - 🔍 Query: "Mechanistic Interpretability" "Signal Processing" "Independent component analysis"
+2025-09-29 18:25:51,687 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Independent component analysis"
+2025-09-29 18:25:51,687 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:51,687 - INFO - Batch vacío 1/3
+2025-09-29 18:25:52,689 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:52,689 - INFO - Batch vacío 2/3
+2025-09-29 18:25:53,691 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:53,691 - INFO - Batch vacío 3/3
+2025-09-29 18:25:54,718 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:25:56,723 - INFO - 
+📊 Progreso: 12/15
+2025-09-29 18:25:56,724 - INFO - 📈 Papers hoy: 1135/2000
+2025-09-29 18:25:56,724 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics"
+2025-09-29 18:25:56,724 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics"
+2025-09-29 18:25:56,724 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:56,724 - INFO - Batch vacío 1/3
+2025-09-29 18:25:57,726 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:57,726 - INFO - Batch vacío 2/3
+2025-09-29 18:25:58,732 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:25:58,732 - INFO - Batch vacío 3/3
+2025-09-29 18:25:59,745 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:26:01,747 - INFO - 
+📊 Progreso: 13/15
+2025-09-29 18:26:01,747 - INFO - 📈 Papers hoy: 1135/2000
+2025-09-29 18:26:01,747 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics" "Matrix factorization"
+2025-09-29 18:26:01,747 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics" "Matrix factorization"
+2025-09-29 18:26:01,747 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:01,747 - INFO - Batch vacío 1/3
+2025-09-29 18:26:02,748 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:02,748 - INFO - Batch vacío 2/3
+2025-09-29 18:26:03,749 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:03,749 - INFO - Batch vacío 3/3
+2025-09-29 18:26:04,775 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:26:06,780 - INFO - 
+📊 Progreso: 14/15
+2025-09-29 18:26:06,780 - INFO - 📈 Papers hoy: 1135/2000
+2025-09-29 18:26:06,780 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics" "Tensor decomposition"
+2025-09-29 18:26:06,780 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics" "Tensor decomposition"
+2025-09-29 18:26:06,780 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:06,781 - INFO - Batch vacío 1/3
+2025-09-29 18:26:07,786 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:07,786 - INFO - Batch vacío 2/3
+2025-09-29 18:26:08,791 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:08,792 - INFO - Batch vacío 3/3
+2025-09-29 18:26:09,821 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:26:11,823 - INFO - 
+📊 Progreso: 15/15
+2025-09-29 18:26:11,824 - INFO - 📈 Papers hoy: 1135/2000
+2025-09-29 18:26:11,824 - INFO - 🔍 Query: "Mechanistic Interpretability" "Applied Mathematics" "Spectral analysis"
+2025-09-29 18:26:11,824 - INFO - Buscando: "Mechanistic Interpretability" "Applied Mathematics" "Spectral analysis"
+2025-09-29 18:26:11,824 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:11,824 - INFO - Batch vacío 1/3
+2025-09-29 18:26:12,829 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:12,829 - INFO - Batch vacío 2/3
+2025-09-29 18:26:13,834 - WARNING - Límite de sesión alcanzado: 1047/1000
+2025-09-29 18:26:13,834 - INFO - Batch vacío 3/3
+2025-09-29 18:26:14,867 - INFO - ✅ Éxito: 0 nuevos, 0 actualizados
+2025-09-29 18:26:14,868 - INFO - 
+🎉 EXTRACCIÓN OPTIMIZADA COMPLETADA:
+2025-09-29 18:26:14,868 - INFO - ✅ Queries exitosas: 15/15
+2025-09-29 18:26:14,868 - INFO - 📚 Total papers: 1047
+2025-09-29 18:26:14,885 - INFO - 💾 Papers únicos en DB: 88
+2025-09-29 18:26:14,960 - INFO - Datos exportados a: ai_safety_papers_optimized.csv

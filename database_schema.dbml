@@ -1,0 +1,195 @@
+// AI Safety Papers Database Schema
+// Updated for Approach2_optimized.py - Ultra Optimized Version
+
+Project ai_safety_papers {
+  database_type: 'PostgreSQL'
+  Note: '''
+    # AI Safety Papers Database - Ultra Optimized
+    
+    This database stores research papers extracted from Semantic Scholar API
+    focused on AI Safety topics using diverse taxonomy queries with anti-duplication.
+    
+    ## Key Features:
+    - Papers stored with unique paper_id as primary key
+    - Anti-duplication in memory to avoid processing same papers
+    - Ultra conservative rate limiting (4s delay)
+    - Diverse queries without overlap
+    - JSONB fields for flexible metadata storage
+    - Extraction logging for audit trails
+    - No problematic unique constraints on DOI/ArXiv
+  '''
+}
+
+// Main papers table - Optimized schema
+Table papers {
+  paper_id text [pk, note: 'Primary key from Semantic Scholar API - unique identifier']
+  title text [not null, note: 'Paper title']
+  authors text [note: 'Comma-separated list of authors']
+  year integer [note: 'Publication year']
+  abstract text [note: 'Paper abstract']
+  url text [note: 'Semantic Scholar URL or canonical URL']
+  pdf_url text [note: 'Direct PDF download URL if available']
+  scholar_url text [note: 'Scholar URL (usually same as url)']
+  venue text [note: 'Publication venue/conference/journal']
+  keywords text [note: 'Comma-separated keywords from s2FieldsOfStudy']
+  citations integer [default: 0, note: 'Number of citations']
+  title_hash text [note: 'MD5 hash of title for deduplication fallback']
+  doi text [note: 'Digital Object Identifier - no unique constraint']
+  arxiv_id text [note: 'ArXiv preprint identifier - no unique constraint']
+  s2_fields jsonb [note: 'Semantic Scholar fields of study as JSON array']
+  created_at timestamptz [default: `now()`, note: 'Record creation timestamp']
+  updated_at timestamptz [default: `now()`, note: 'Last update timestamp']
+  
+  Note: '''
+    # Papers Table - Ultra Optimized
+    
+    Stores research papers extracted from Semantic Scholar API with optimized deduplication.
+    
+    ## Deduplication Strategy:
+    1. Primary: paper_id (from Semantic Scholar) - PRIMARY KEY
+    2. In-memory: processed_paper_ids set to avoid reprocessing
+    3. Fallback: title_hash for papers without IDs
+    4. NO unique constraints on DOI/ArXiv to avoid errors with empty values
+    
+    ## Key Optimizations:
+    - Removed problematic unique constraints on DOI/ArXiv
+    - Uses UPSERT on paper_id for idempotent operations
+    - JSONB s2_fields stores complete Semantic Scholar metadata
+    - Optimized for 83.4% deduplication efficiency
+  '''
+}
+
+// Extraction logs table - Enhanced for ultra optimization
+Table extraction_logs {
+  id serial [pk, note: 'Auto-incrementing primary key']
+  query text [note: 'Search query executed']
+  papers_found integer [note: 'Total papers found in search']
+  papers_new integer [note: 'New papers inserted']
+  papers_updated integer [note: 'Existing papers updated']
+  extraction_mode text [note: 'Extraction method used (semantic_scholar_ultra_optimized)']
+  proxy_used text [note: 'Proxy configuration (none)']
+  duration_seconds double precision [note: 'Query execution time in seconds']
+  success boolean [note: 'Whether extraction was successful']
+  error_message text [note: 'Error details if extraction failed']
+  created_at timestamptz [default: `now()`, note: 'Log entry timestamp']
+  
+  Note: '''
+    # Extraction Logs Table - Ultra Optimized
+    
+    Audit trail for all extraction operations with enhanced tracking.
+    
+    ## Ultra Optimization Features:
+    - Tracks diverse query performance
+    - Monitors anti-duplication effectiveness
+    - Records rate limiting compliance
+    - Tracks 4s delay implementation
+    - Monitors 83.4% efficiency achievement
+    
+    ## Use Cases:
+    - Performance monitoring and bottleneck analysis
+    - Error tracking and debugging
+    - Extraction statistics and efficiency metrics
+    - Rate limiting compliance verification
+  '''
+}
+
+// Performance indexes - Optimized for ultra performance
+Indexes {
+  (papers.citations) [name: 'idx_papers_citations', note: 'Optimize citation-based sorting - DESC for top papers']
+  (papers.year) [name: 'idx_papers_year', note: 'Optimize year-based filtering and temporal analysis']
+  (papers.created_at) [name: 'idx_papers_created_at', note: 'Optimize time-based queries and recent papers']
+  (papers.updated_at) [name: 'idx_papers_updated_at', note: 'Optimize update tracking and change detection']
+  (extraction_logs.created_at) [name: 'idx_extraction_logs_created_at', note: 'Optimize log queries by time']
+  (extraction_logs.success) [name: 'idx_extraction_logs_success', note: 'Optimize success/failure filtering']
+  (extraction_logs.extraction_mode) [name: 'idx_extraction_logs_mode', note: 'Optimize by extraction method']
+}
+
+// Relationships (conceptual - no foreign keys in current implementation)
+Ref: papers.paper_id - extraction_logs.query [note: 'Conceptual: papers found by diverse queries']
+
+// Enums for better data validation (future enhancement)
+Enum extraction_status {
+  pending
+  running
+  completed
+  failed
+  rate_limited
+  ultra_optimized
+}
+
+Enum paper_source {
+  semantic_scholar
+  arxiv
+  doi_resolver
+  manual_entry
+  ultra_optimized_extraction
+}
+
+Enum query_type {
+  area_specific
+  field_specific
+  subtopic_specific
+  technical_governance
+  diverse_combination
+}
+
+// Views for common queries - Enhanced for ultra optimization
+View top_cited_papers {
+  paper_id text
+  title text
+  year integer
+  venue text
+  citations integer
+  url text
+  pdf_url text
+  Note: 'Top 100 most cited papers for quick access - optimized for 759 papers'
+}
+
+View recent_papers {
+  paper_id text
+  title text
+  year integer
+  created_at timestamptz
+  Note: 'Recently added papers for monitoring - tracks ultra optimization progress'
+}
+
+View extraction_stats {
+  total_queries integer
+  successful_queries integer
+  total_papers_found integer
+  unique_papers integer
+  efficiency_percentage double precision
+  avg_duration_seconds double precision
+  rate_limit_events integer
+  Note: 'Aggregated extraction statistics with ultra optimization metrics'
+}
+
+View diverse_query_performance {
+  query text
+  papers_found integer
+  papers_new integer
+  efficiency_percentage double precision
+  duration_seconds double precision
+  success boolean
+  Note: 'Performance analysis of diverse queries without overlap'
+}
+
+View anti_duplication_stats {
+  total_processed integer
+  unique_papers integer
+  duplicate_rate double precision
+  efficiency_gain double precision
+  Note: 'Anti-duplication effectiveness metrics'
+}
+
+// Ultra optimization specific views
+View ultra_optimization_metrics {
+  extraction_mode text
+  total_papers integer
+  unique_papers integer
+  efficiency_percentage double precision
+  avg_citations double precision
+  rate_limit_events integer
+  error_count integer
+  Note: 'Comprehensive metrics for ultra optimization validation'
+}

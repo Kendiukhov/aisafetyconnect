@@ -1,0 +1,792 @@
+2025-09-29 14:01:11,329 - INFO - requests-cache habilitado (TTL 12h)
+2025-09-29 14:01:11,523 - ERROR - Error de conexión a DB: relation "papers" does not exist
+LINE 1: SELECT COUNT(*) FROM papers WHERE DATE(created_at) = '2025-0...
+                             ^
+
+2025-09-29 14:01:11,523 - ERROR - Error obteniendo conteo de papers: relation "papers" does not exist
+LINE 1: SELECT COUNT(*) FROM papers WHERE DATE(created_at) = '2025-0...
+                             ^
+
+2025-09-29 14:01:11,638 - INFO - Iniciando extracción BOOTSTRAP con Semantic Scholar API
+2025-09-29 14:01:11,645 - INFO - Conexión a PostgreSQL exitosa
+2025-09-29 14:01:11,646 - INFO - 
+Progreso: 1/10
+2025-09-29 14:01:11,646 - INFO - Papers hoy: 0/500
+2025-09-29 14:01:11,646 - INFO - Buscando: "Mechanistic Interpretability"
+2025-09-29 14:01:13,772 - INFO - Encontrados 100 papers (total disponibles: 635223)
+2025-09-29 14:01:13,802 - INFO -    1. Progress measures for grokking via mechanistic interpretabil...
+2025-09-29 14:01:13,802 - INFO -       517 citas | 2023
+2025-09-29 14:01:14,032 - INFO -    2. Mechanistic Interpretability for AI Safety - A Review...
+2025-09-29 14:01:14,032 - INFO -       201 citas | 2024
+2025-09-29 14:01:14,261 - INFO -    3. Towards Automated Circuit Discovery for Mechanistic Interpre...
+2025-09-29 14:01:14,261 - INFO -       356 citas | 2023
+2025-09-29 14:01:14,490 - INFO -    4. A Practical Review of Mechanistic Interpretability for Trans...
+2025-09-29 14:01:14,490 - INFO -       50 citas | 2024
+2025-09-29 14:01:14,722 - INFO -    5. ReDeEP: Detecting Hallucination in Retrieval-Augmented Gener...
+2025-09-29 14:01:14,722 - INFO -       32 citas | 2024
+2025-09-29 14:01:14,956 - INFO -    6. Dictionary Learning Improves Patch-Free Circuit Discovery in...
+2025-09-29 14:01:14,956 - INFO -       24 citas | 2024
+2025-09-29 14:01:15,184 - INFO -    7. Explaining AI through mechanistic interpretability...
+2025-09-29 14:01:15,185 - INFO -       18 citas | 2024
+2025-09-29 14:01:15,407 - INFO -    8. Opening the AI black box: program synthesis via mechanistic ...
+2025-09-29 14:01:15,407 - INFO -       15 citas | 2024
+2025-09-29 14:01:15,637 - INFO -    9. How does GPT-2 Predict Acronyms? Extracting and Understandin...
+2025-09-29 14:01:15,638 - INFO -       12 citas | 2024
+2025-09-29 14:01:15,864 - INFO -    10. Causal Abstraction: A Theoretical Foundation for Mechanistic...
+2025-09-29 14:01:15,865 - INFO -       80 citas | 2023
+2025-09-29 14:01:16,091 - INFO -    11. Seeing is Believing: Brain-Inspired Modular Training for Mec...
+2025-09-29 14:01:16,091 - INFO -       46 citas | 2023
+2025-09-29 14:01:16,316 - INFO -    12. Compact Proofs of Model Performance via Mechanistic Interpre...
+2025-09-29 14:01:16,317 - INFO -       9 citas | 2024
+2025-09-29 14:01:16,542 - INFO -    13. What Do VLMs NOTICE? A Mechanistic Interpretability Pipeline...
+2025-09-29 14:01:16,542 - INFO -       9 citas | 2024
+2025-09-29 14:01:16,767 - INFO -    14. Towards Vision-Language Mechanistic Interpretability: A Caus...
+2025-09-29 14:01:16,767 - INFO -       34 citas | 2023
+2025-09-29 14:01:16,999 - INFO -    15. Bilinear MLPs enable weight-based mechanistic interpretabili...
+2025-09-29 14:01:16,999 - INFO -       9 citas | 2024
+2025-09-29 14:01:17,233 - INFO -    16. Unlocking the Future: Exploring Look-Ahead Planning Mechanis...
+2025-09-29 14:01:17,234 - INFO -       12 citas | 2024
+2025-09-29 14:01:17,458 - INFO -    17. Using Degeneracy in the Loss Landscape for Mechanistic Inter...
+2025-09-29 14:01:17,458 - INFO -       8 citas | 2024
+2025-09-29 14:01:17,684 - INFO -    18. An introduction to graphical tensor notation for mechanistic...
+2025-09-29 14:01:17,685 - INFO -       5 citas | 2024
+2025-09-29 14:01:17,904 - INFO -    19. Detecting and Understanding Vulnerabilities in Language Mode...
+2025-09-29 14:01:17,904 - INFO -       5 citas | 2024
+2025-09-29 14:01:18,125 - INFO -    20. InterpBench: Semi-Synthetic Transformers for Evaluating Mech...
+2025-09-29 14:01:18,125 - INFO -       4 citas | 2024
+2025-09-29 14:01:18,343 - INFO -    21. Mechanistic interpretability of large language models with a...
+2025-09-29 14:01:18,343 - INFO -       3 citas | 2024
+2025-09-29 14:01:18,568 - INFO -    22. Evaluating Brain-Inspired Modular Training in Automated Circ...
+2025-09-29 14:01:18,568 - INFO -       3 citas | 2024
+2025-09-29 14:01:18,783 - INFO -    23. Understanding Multimodal LLMs: the Mechanistic Interpretabil...
+2025-09-29 14:01:18,783 - INFO -       3 citas | 2024
+2025-09-29 14:01:19,016 - INFO -    24. Adaptive Circuit Behavior and Generalization in Mechanistic ...
+2025-09-29 14:01:19,017 - INFO -       2 citas | 2024
+2025-09-29 14:01:19,238 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:19,238 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:19,238 - INFO -    25. Towards Mechanistic Interpretability for Autoencoder compres...
+2025-09-29 14:01:19,238 - INFO -       0 citas | 2024
+2025-09-29 14:01:19,464 - INFO -    26. Mechanistic Interpretability of Reinforcement Learning Agent...
+2025-09-29 14:01:19,464 - INFO -       0 citas | 2024
+2025-09-29 14:01:19,693 - INFO -    27. Mechanistic Interpretability of Binary and Ternary Transform...
+2025-09-29 14:01:19,693 - INFO -       0 citas | 2024
+2025-09-29 14:01:19,918 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:19,919 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:19,919 - INFO -    28. Probing Ranking LLMs: Mechanistic Interpretability in Inform...
+2025-09-29 14:01:19,919 - INFO -       4 citas | 2024
+2025-09-29 14:01:20,148 - INFO -    29. Scale Alone Does not Improve Mechanistic Interpretability in...
+2025-09-29 14:01:20,148 - INFO -       19 citas | 2023
+2025-09-29 14:01:20,379 - INFO -    30. Open Problems in Mechanistic Interpretability...
+2025-09-29 14:01:20,379 - INFO -       52 citas | 2025
+2025-09-29 14:01:20,600 - INFO -    31. Towards Mechanistic Interpretability of Graph Transformers v...
+2025-09-29 14:01:20,600 - INFO -       6 citas | 2025
+2025-09-29 14:01:20,834 - INFO -    32. Everything, Everywhere, All at Once: Is Mechanistic Interpre...
+2025-09-29 14:01:20,834 - INFO -       4 citas | 2025
+2025-09-29 14:01:21,050 - INFO -    33. Prisma: An Open Source Toolkit for Mechanistic Interpretabil...
+2025-09-29 14:01:21,050 - INFO -       3 citas | 2025
+2025-09-29 14:01:21,282 - INFO -    34. Evaluating Explanations: An Explanatory Virtues Framework fo...
+2025-09-29 14:01:21,283 - INFO -       2 citas | 2025
+2025-09-29 14:01:21,504 - INFO -    35. HyperDAS: Towards Automating Mechanistic Interpretability wi...
+2025-09-29 14:01:21,504 - INFO -       4 citas | 2025
+2025-09-29 14:01:21,731 - INFO -    36. Using Mechanistic Interpretability to Craft Adversarial Atta...
+2025-09-29 14:01:21,731 - INFO -       2 citas | 2025
+2025-09-29 14:01:21,963 - INFO -    37. A Mathematical Philosophy of Explanations in Mechanistic Int...
+2025-09-29 14:01:21,963 - INFO -       2 citas | 2025
+2025-09-29 14:01:22,188 - INFO -    38. Dissecting Bias in LLMs: A Mechanistic Interpretability Pers...
+2025-09-29 14:01:22,188 - INFO -       3 citas | 2025
+2025-09-29 14:01:22,414 - INFO -    39. How do Large Language Models Understand Relevance? A Mechani...
+2025-09-29 14:01:22,414 - INFO -       2 citas | 2025
+2025-09-29 14:01:22,636 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:22,636 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:22,637 - INFO -    40. Towards Unified Attribution in Explainable AI, Data-Centric ...
+2025-09-29 14:01:22,637 - INFO -       2 citas | 2025
+2025-09-29 14:01:22,869 - INFO -    41. MechIR: A Mechanistic Interpretability Framework for Informa...
+2025-09-29 14:01:22,869 - INFO -       3 citas | 2025
+2025-09-29 14:01:23,092 - INFO -    42. MIB: A Mechanistic Interpretability Benchmark...
+2025-09-29 14:01:23,092 - INFO -       4 citas | 2025
+2025-09-29 14:01:23,317 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:23,317 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:23,317 - INFO -    43. Exploring Mechanistic Interpretability in Large Language Mod...
+2025-09-29 14:01:23,317 - INFO -       1 citas | 2025
+2025-09-29 14:01:23,542 - INFO -    44. Towards eliciting latent knowledge from LLMs with mechanisti...
+2025-09-29 14:01:23,543 - INFO -       1 citas | 2025
+2025-09-29 14:01:23,757 - INFO -    45. Mechanistic Interpretability of Fine-Tuned Vision Transforme...
+2025-09-29 14:01:23,757 - INFO -       1 citas | 2025
+2025-09-29 14:01:23,976 - INFO -    46. Mechanistic Interpretability Needs Philosophy...
+2025-09-29 14:01:23,976 - INFO -       1 citas | 2025
+2025-09-29 14:01:24,207 - INFO -    47. Geospatial Mechanistic Interpretability of Large Language Mo...
+2025-09-29 14:01:24,207 - INFO -       1 citas | 2025
+2025-09-29 14:01:24,435 - INFO -    48. A Survey on Mechanistic Interpretability for Multi-Modal Fou...
+2025-09-29 14:01:24,435 - INFO -       8 citas | 2025
+2025-09-29 14:01:24,657 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:24,657 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:24,657 - INFO -    49. Wavelet-Based Mechanistic Interpretability of Vision Transfo...
+2025-09-29 14:01:24,657 - INFO -       0 citas | 2025
+2025-09-29 14:01:24,885 - INFO -    50. Mechanistic Interpretability in the Presence of Architectura...
+2025-09-29 14:01:24,885 - INFO -       0 citas | 2025
+2025-09-29 14:01:25,110 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:25,110 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:25,110 - INFO -    51. Mechanistic interpretability for steering vision-language-ac...
+2025-09-29 14:01:25,110 - INFO -       0 citas | 2025
+2025-09-29 14:01:25,340 - INFO -    52. Causal Intervention Framework for Variational Auto Encoder M...
+2025-09-29 14:01:25,340 - INFO -       0 citas | 2025
+2025-09-29 14:01:25,561 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:25,562 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:25,562 - INFO -    53. Understanding Sarcasm Detection Through Mechanistic Interpre...
+2025-09-29 14:01:25,562 - INFO -       0 citas | 2025
+2025-09-29 14:01:25,791 - INFO -    54. Mechanistic Interpretability of GPT-like Models on Summariza...
+2025-09-29 14:01:25,791 - INFO -       0 citas | 2025
+2025-09-29 14:01:26,020 - INFO -    55. Position: Mechanistic Interpretability Should Prioritize Fea...
+2025-09-29 14:01:26,020 - INFO -       0 citas | 2025
+2025-09-29 14:01:26,251 - INFO -    56. The Non-Linear Representation Dilemma: Is Causal Abstraction...
+2025-09-29 14:01:26,251 - INFO -       3 citas | 2025
+2025-09-29 14:01:26,474 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:26,475 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:26,475 - INFO -    57. From Mechanistic Interpretability to Mechanistic Biology: Tr...
+2025-09-29 14:01:26,475 - INFO -       13 citas | 2025
+2025-09-29 14:01:26,695 - INFO -    58. Beyond Transcription: Mechanistic Interpretability in ASR...
+2025-09-29 14:01:26,695 - INFO -       0 citas | 2025
+2025-09-29 14:01:26,923 - INFO -    59. In-Context Linear Regression Demystified: Training Dynamics ...
+2025-09-29 14:01:26,923 - INFO -       2 citas | 2025
+2025-09-29 14:01:27,152 - INFO -    60. Mechanistic Interpretability of Emotion Inference in Large L...
+2025-09-29 14:01:27,152 - INFO -       2 citas | 2025
+2025-09-29 14:01:27,381 - INFO -    61. Dissecting and Mitigating Diffusion Bias via Mechanistic Int...
+2025-09-29 14:01:27,381 - INFO -       1 citas | 2025
+2025-09-29 14:01:27,606 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:27,607 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:27,607 - INFO -    62. Solving the Evidence Interpretability Crisis in Health Techn...
+2025-09-29 14:01:27,607 - INFO -       4 citas | 2022
+2025-09-29 14:01:27,834 - INFO -    63. Interpretability in Parameter Space: Minimizing Mechanistic ...
+2025-09-29 14:01:27,834 - INFO -       8 citas | 2025
+2025-09-29 14:01:28,060 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:28,060 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:28,060 - INFO -    64. The Quest for the Right Mediator: A History, Survey, and The...
+2025-09-29 14:01:28,060 - INFO -       35 citas | 2024
+2025-09-29 14:01:28,304 - INFO -    65. Interpretability in the Wild: a Circuit for Indirect Object ...
+2025-09-29 14:01:28,304 - INFO -       644 citas | 2022
+2025-09-29 14:01:28,531 - INFO -    66. What needs to go right for an induction head? A mechanistic ...
+2025-09-29 14:01:28,531 - INFO -       41 citas | 2024
+2025-09-29 14:01:28,755 - INFO -    67. Mechanistic?...
+2025-09-29 14:01:28,755 - INFO -       18 citas | 2024
+2025-09-29 14:01:28,983 - INFO -    68. Mechanistic Understanding and Mitigation of Language Model N...
+2025-09-29 14:01:28,983 - INFO -       21 citas | 2024
+2025-09-29 14:01:29,214 - INFO -    69. Mechanistic Unlearning: Robust Knowledge Unlearning and Edit...
+2025-09-29 14:01:29,214 - INFO -       14 citas | 2024
+2025-09-29 14:01:29,443 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:29,443 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:29,444 - INFO -    70. Opening the Black Box of Large Language Models: Two Views on...
+2025-09-29 14:01:29,444 - INFO -       9 citas | 2024
+2025-09-29 14:01:29,676 - INFO -    71. Real Sparks of Artificial Intelligence and the Importance of...
+2025-09-29 14:01:29,676 - INFO -       6 citas | 2024
+2025-09-29 14:01:29,905 - INFO -    72. The Cognitive Revolution in Interpretability: From Explainin...
+2025-09-29 14:01:29,905 - INFO -       7 citas | 2024
+2025-09-29 14:01:30,128 - INFO -    73. The Computational Complexity of Circuit Discovery for Inner ...
+2025-09-29 14:01:30,129 - INFO -       8 citas | 2024
+2025-09-29 14:01:30,351 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:30,352 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:30,352 - INFO -    74. Position: An Inner Interpretability Framework for AI Inspire...
+2025-09-29 14:01:30,352 - INFO -       8 citas | 2024
+2025-09-29 14:01:30,580 - INFO -    75. Is This the Subspace You Are Looking for? An Interpretabilit...
+2025-09-29 14:01:30,580 - INFO -       28 citas | 2023
+2025-09-29 14:01:30,809 - INFO -    76. Mechanistic Permutability: Match Features Across Layers...
+2025-09-29 14:01:30,809 - INFO -       10 citas | 2024
+2025-09-29 14:01:31,030 - INFO -    77. Beyond Model Interpretability: Socio-Structural Explanations...
+2025-09-29 14:01:31,030 - INFO -       9 citas | 2024
+2025-09-29 14:01:31,261 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:31,262 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:31,262 - INFO -    78. FIND: A Function Description Benchmark for Evaluating Interp...
+2025-09-29 14:01:31,262 - INFO -       23 citas | 2023
+2025-09-29 14:01:31,488 - INFO -    79. Mechanistic Neural Networks for Scientific Machine Learning...
+2025-09-29 14:01:31,488 - INFO -       11 citas | 2024
+2025-09-29 14:01:31,713 - INFO -    80. Towards Universality: Studying Mechanistic Similarity Across...
+2025-09-29 14:01:31,713 - INFO -       11 citas | 2024
+2025-09-29 14:01:31,935 - INFO -    81. TracrBench: Generating Interpretability Testbeds with Large ...
+2025-09-29 14:01:31,935 - INFO -       4 citas | 2024
+2025-09-29 14:01:32,161 - INFO -    82. From Neurons to Neutrons: A Case Study in Interpretability...
+2025-09-29 14:01:32,161 - INFO -       2 citas | 2024
+2025-09-29 14:01:32,390 - INFO -    83. Investigating the Effect of Network Pruning on Performance a...
+2025-09-29 14:01:32,391 - INFO -       2 citas | 2024
+2025-09-29 14:01:32,608 - INFO -    84. Tracking the Feature Dynamics in LLM Training: A Mechanistic...
+2025-09-29 14:01:32,608 - INFO -       7 citas | 2024
+2025-09-29 14:01:32,863 - INFO -    85. A review of mechanistic learning in mathematical oncology...
+2025-09-29 14:01:32,863 - INFO -       31 citas | 2023
+2025-09-29 14:01:33,101 - INFO -    86. Scalable Mechanistic Neural Networks...
+2025-09-29 14:01:33,101 - INFO -       3 citas | 2024
+2025-09-29 14:01:33,329 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:33,329 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:33,329 - INFO -    87. Validating Mechanistic Interpretations: An Axiomatic Approac...
+2025-09-29 14:01:33,329 - INFO -       1 citas | 2024
+2025-09-29 14:01:33,554 - INFO -    88. Contextual Counting: A Mechanistic Study of Transformers on ...
+2025-09-29 14:01:33,554 - INFO -       4 citas | 2024
+2025-09-29 14:01:33,769 - INFO -    89. Enhancing Automated Interpretability with Output-Centric Fea...
+2025-09-29 14:01:33,769 - INFO -       17 citas | 2025
+2025-09-29 14:01:33,991 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:33,991 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:33,992 - INFO -    90. Convergence of mechanistic modeling and artificial intellige...
+2025-09-29 14:01:33,992 - INFO -       18 citas | 2023
+2025-09-29 14:01:34,219 - INFO -    91. Propositional Interpretability in Artificial Intelligence...
+2025-09-29 14:01:34,219 - INFO -       9 citas | 2025
+2025-09-29 14:01:34,451 - INFO -    92. Transformer Dynamics: A neuroscientific approach to interpre...
+2025-09-29 14:01:34,451 - INFO -       2 citas | 2025
+2025-09-29 14:01:34,674 - INFO -    93. Beyond the Black Box: Interpretability of LLMs in Finance...
+2025-09-29 14:01:34,675 - INFO -       2 citas | 2025
+2025-09-29 14:01:34,899 - INFO -    94. Towards Combinatorial Interpretability of Neural Computation...
+2025-09-29 14:01:34,899 - INFO -       2 citas | 2025
+2025-09-29 14:01:35,126 - INFO -    95. Mechanistic Unveiling of Transformer Circuits: Self-Influenc...
+2025-09-29 14:01:35,126 - INFO -       7 citas | 2025
+2025-09-29 14:01:35,355 - INFO -    96. Simulation as Supervision: Mechanistic Pretraining for Scien...
+2025-09-29 14:01:35,355 - INFO -       3 citas | 2025
+2025-09-29 14:01:35,582 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:35,582 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:35,582 - INFO -    97. Prediction and mechanistic analysis of drug-induced liver in...
+2025-09-29 14:01:35,582 - INFO -       21 citas | 2021
+2025-09-29 14:01:35,799 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:35,799 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:35,799 - INFO -    98. A mechanistic model for the negative binomial distribution o...
+2025-09-29 14:01:35,799 - INFO -       28 citas | 2019
+2025-09-29 14:01:36,022 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:36,023 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:36,023 - INFO -    99. Identifiability and interpretability of hybrid, gray-box mod...
+2025-09-29 14:01:36,023 - INFO -       4 citas | 2020
+2025-09-29 14:01:36,238 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:36,238 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:36,238 - INFO -    100. Prediction and mechanistic analysis of drug-induced liver in...
+2025-09-29 14:01:36,238 - INFO -       10 citas | 2020
+2025-09-29 14:01:37,467 - INFO - Éxito: 81 nuevos, 19 actualizados
+2025-09-29 14:01:39,468 - INFO - 
+Progreso: 2/10
+2025-09-29 14:01:39,468 - INFO - Papers hoy: 100/500
+2025-09-29 14:01:39,468 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience
+2025-09-29 14:01:41,247 - INFO - Encontrados 100 papers (total disponibles: 4776)
+2025-09-29 14:01:41,267 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:41,267 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:41,267 - INFO -    1. Position: An Inner Interpretability Framework for AI Inspire...
+2025-09-29 14:01:41,267 - INFO -       8 citas | 2024
+2025-09-29 14:01:41,498 - INFO -    2. Universal Differential Equations as a Common Modeling Langua...
+2025-09-29 14:01:41,498 - INFO -       3 citas | 2024
+2025-09-29 14:01:41,722 - INFO -    3. Transformer Dynamics: A neuroscientific approach to interpre...
+2025-09-29 14:01:41,722 - INFO -       2 citas | 2025
+2025-09-29 14:01:41,948 - INFO -    4. Beyond Geometry: Comparing the Temporal Structure of Computa...
+2025-09-29 14:01:41,948 - INFO -       35 citas | 2023
+2025-09-29 14:01:42,168 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:42,169 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:42,169 - INFO -    5. Dynamical similarity analysis can identify compositional dyn...
+2025-09-29 14:01:42,169 - INFO -       1 citas | 2024
+2025-09-29 14:01:42,401 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:42,401 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:42,401 - INFO -    6. From Transformer to Biology: A Hierarchical Model for Attent...
+2025-09-29 14:01:42,401 - INFO -       0 citas | 2024
+2025-09-29 14:01:42,630 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:42,631 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:42,631 - INFO -    7. The Black Box Paradox: AI Models and the Epistemological Cri...
+2025-09-29 14:01:42,631 - INFO -       0 citas | 2025
+2025-09-29 14:01:42,864 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:42,864 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:42,864 - INFO -    8. The human brain connectome weighted by the myelin content an...
+2025-09-29 14:01:42,864 - INFO -       3 citas | 2023
+2025-09-29 14:01:43,077 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:43,077 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:43,077 - INFO -    9. ICAM: Interpretable Classification via Disentangled Represen...
+2025-09-29 14:01:43,077 - INFO -       41 citas | 2020
+2025-09-29 14:01:43,302 - INFO -    10. Mechanistic Interpretability for AI Safety - A Review...
+2025-09-29 14:01:43,302 - INFO -       201 citas | 2024
+2025-09-29 14:01:43,530 - INFO -    11. Progress measures for grokking via mechanistic interpretabil...
+2025-09-29 14:01:43,530 - INFO -       517 citas | 2023
+2025-09-29 14:01:43,742 - INFO -    12. ReDeEP: Detecting Hallucination in Retrieval-Augmented Gener...
+2025-09-29 14:01:43,742 - INFO -       32 citas | 2024
+2025-09-29 14:01:43,965 - INFO -    13. A Practical Review of Mechanistic Interpretability for Trans...
+2025-09-29 14:01:43,966 - INFO -       50 citas | 2024
+2025-09-29 14:01:44,192 - INFO -    14. Opening the AI black box: program synthesis via mechanistic ...
+2025-09-29 14:01:44,193 - INFO -       15 citas | 2024
+2025-09-29 14:01:44,414 - INFO -    15. Dictionary Learning Improves Patch-Free Circuit Discovery in...
+2025-09-29 14:01:44,414 - INFO -       24 citas | 2024
+2025-09-29 14:01:44,640 - INFO -    16. Explaining AI through mechanistic interpretability...
+2025-09-29 14:01:44,640 - INFO -       18 citas | 2024
+2025-09-29 14:01:44,886 - INFO -    17. Towards Automated Circuit Discovery for Mechanistic Interpre...
+2025-09-29 14:01:44,886 - INFO -       356 citas | 2023
+2025-09-29 14:01:45,119 - INFO -    18. How does GPT-2 Predict Acronyms? Extracting and Understandin...
+2025-09-29 14:01:45,119 - INFO -       12 citas | 2024
+2025-09-29 14:01:45,351 - INFO -    19. Causal Abstraction: A Theoretical Foundation for Mechanistic...
+2025-09-29 14:01:45,352 - INFO -       80 citas | 2023
+2025-09-29 14:01:45,584 - INFO -    20. Seeing is Believing: Brain-Inspired Modular Training for Mec...
+2025-09-29 14:01:45,584 - INFO -       46 citas | 2023
+2025-09-29 14:01:45,811 - INFO -    21. Compact Proofs of Model Performance via Mechanistic Interpre...
+2025-09-29 14:01:45,812 - INFO -       9 citas | 2024
+2025-09-29 14:01:46,041 - INFO -    22. What Do VLMs NOTICE? A Mechanistic Interpretability Pipeline...
+2025-09-29 14:01:46,042 - INFO -       9 citas | 2024
+2025-09-29 14:01:46,273 - INFO -    23. Unlocking the Future: Exploring Look-Ahead Planning Mechanis...
+2025-09-29 14:01:46,273 - INFO -       12 citas | 2024
+2025-09-29 14:01:46,503 - INFO -    24. Towards Vision-Language Mechanistic Interpretability: A Caus...
+2025-09-29 14:01:46,503 - INFO -       34 citas | 2023
+2025-09-29 14:01:46,721 - INFO -    25. Bilinear MLPs enable weight-based mechanistic interpretabili...
+2025-09-29 14:01:46,721 - INFO -       9 citas | 2024
+2025-09-29 14:01:46,942 - INFO -    26. Using Degeneracy in the Loss Landscape for Mechanistic Inter...
+2025-09-29 14:01:46,942 - INFO -       8 citas | 2024
+2025-09-29 14:01:47,165 - INFO -    27. An introduction to graphical tensor notation for mechanistic...
+2025-09-29 14:01:47,165 - INFO -       5 citas | 2024
+2025-09-29 14:01:47,393 - INFO -    28. Detecting and Understanding Vulnerabilities in Language Mode...
+2025-09-29 14:01:47,393 - INFO -       5 citas | 2024
+2025-09-29 14:01:47,626 - INFO -    29. InterpBench: Semi-Synthetic Transformers for Evaluating Mech...
+2025-09-29 14:01:47,626 - INFO -       4 citas | 2024
+2025-09-29 14:01:47,855 - INFO -    30. Mechanistic interpretability of large language models with a...
+2025-09-29 14:01:47,855 - INFO -       3 citas | 2024
+2025-09-29 14:01:48,079 - INFO -    31. Understanding Multimodal LLMs: the Mechanistic Interpretabil...
+2025-09-29 14:01:48,079 - INFO -       3 citas | 2024
+2025-09-29 14:01:48,305 - INFO -    32. Evaluating Brain-Inspired Modular Training in Automated Circ...
+2025-09-29 14:01:48,305 - INFO -       3 citas | 2024
+2025-09-29 14:01:48,527 - INFO -    33. Adaptive Circuit Behavior and Generalization in Mechanistic ...
+2025-09-29 14:01:48,527 - INFO -       2 citas | 2024
+2025-09-29 14:01:48,750 - INFO -    34. Mechanistic Interpretability of Reinforcement Learning Agent...
+2025-09-29 14:01:48,750 - INFO -       0 citas | 2024
+2025-09-29 14:01:48,959 - INFO -    35. Mechanistic Interpretability of Binary and Ternary Transform...
+2025-09-29 14:01:48,960 - INFO -       0 citas | 2024
+2025-09-29 14:01:49,174 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:49,174 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:49,174 - INFO -    36. Towards Mechanistic Interpretability for Autoencoder compres...
+2025-09-29 14:01:49,174 - INFO -       0 citas | 2024
+2025-09-29 14:01:49,386 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:49,386 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:49,386 - INFO -    37. Probing Ranking LLMs: Mechanistic Interpretability in Inform...
+2025-09-29 14:01:49,386 - INFO -       4 citas | 2024
+2025-09-29 14:01:49,610 - INFO -    38. Scale Alone Does not Improve Mechanistic Interpretability in...
+2025-09-29 14:01:49,610 - INFO -       19 citas | 2023
+2025-09-29 14:01:49,835 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:49,835 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:49,835 - INFO -    39. The mechanistic divide in psychedelic neuroscience: An unbri...
+2025-09-29 14:01:49,835 - INFO -       17 citas | 2024
+2025-09-29 14:01:50,056 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,057 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,057 - INFO -    40. Theoretical strategies for an embodied cognitive neuroscienc...
+2025-09-29 14:01:50,057 - INFO -       11 citas | 2024
+2025-09-29 14:01:50,278 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,278 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,278 - INFO -    41. Incorporating individual differences into a mechanistic embo...
+2025-09-29 14:01:50,278 - INFO -       2 citas | 2024
+2025-09-29 14:01:50,499 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,499 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,499 - INFO -    42. An Intelligent Mathematics Problem-Solving Tutoring System F...
+2025-09-29 14:01:50,499 - INFO -       1 citas | 2024
+2025-09-29 14:01:50,718 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,718 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,719 - INFO -    43. Editorial: Towards a mechanistic understanding of depression...
+2025-09-29 14:01:50,719 - INFO -       27 citas | 2023
+2025-09-29 14:01:50,939 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,939 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:50,939 - INFO -    44. Beyond embodiment: Rethinking the integration of cognitive n...
+2025-09-29 14:01:50,939 - INFO -       0 citas | 2024
+2025-09-29 14:01:51,162 - INFO -    45. Open Problems in Mechanistic Interpretability...
+2025-09-29 14:01:51,162 - INFO -       52 citas | 2025
+2025-09-29 14:01:51,383 - INFO -    46. Towards Mechanistic Interpretability of Graph Transformers v...
+2025-09-29 14:01:51,384 - INFO -       6 citas | 2025
+2025-09-29 14:01:51,602 - INFO -    47. MIB: A Mechanistic Interpretability Benchmark...
+2025-09-29 14:01:51,602 - INFO -       4 citas | 2025
+2025-09-29 14:01:51,828 - INFO -    48. Evaluating Explanations: An Explanatory Virtues Framework fo...
+2025-09-29 14:01:51,828 - INFO -       2 citas | 2025
+2025-09-29 14:01:52,043 - INFO -    49. HyperDAS: Towards Automating Mechanistic Interpretability wi...
+2025-09-29 14:01:52,043 - INFO -       4 citas | 2025
+2025-09-29 14:01:52,268 - INFO -    50. A Mathematical Philosophy of Explanations in Mechanistic Int...
+2025-09-29 14:01:52,268 - INFO -       2 citas | 2025
+2025-09-29 14:01:52,495 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:52,495 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:52,495 - INFO -    51. Towards Unified Attribution in Explainable AI, Data-Centric ...
+2025-09-29 14:01:52,495 - INFO -       2 citas | 2025
+2025-09-29 14:01:52,720 - INFO -    52. MechIR: A Mechanistic Interpretability Framework for Informa...
+2025-09-29 14:01:52,720 - INFO -       3 citas | 2025
+2025-09-29 14:01:52,946 - INFO -    53. How do Large Language Models Understand Relevance? A Mechani...
+2025-09-29 14:01:52,946 - INFO -       2 citas | 2025
+2025-09-29 14:01:53,174 - INFO -    54. Prisma: An Open Source Toolkit for Mechanistic Interpretabil...
+2025-09-29 14:01:53,174 - INFO -       3 citas | 2025
+2025-09-29 14:01:53,408 - INFO -    55. Using Mechanistic Interpretability to Craft Adversarial Atta...
+2025-09-29 14:01:53,408 - INFO -       2 citas | 2025
+2025-09-29 14:01:53,626 - INFO -    56. Everything, Everywhere, All at Once: Is Mechanistic Interpre...
+2025-09-29 14:01:53,626 - INFO -       4 citas | 2025
+2025-09-29 14:01:53,837 - INFO -    57. Dissecting Bias in LLMs: A Mechanistic Interpretability Pers...
+2025-09-29 14:01:53,837 - INFO -       3 citas | 2025
+2025-09-29 14:01:54,058 - INFO -    58. Geospatial Mechanistic Interpretability of Large Language Mo...
+2025-09-29 14:01:54,058 - INFO -       1 citas | 2025
+2025-09-29 14:01:54,296 - INFO -    59. Mechanistic Interpretability Needs Philosophy...
+2025-09-29 14:01:54,297 - INFO -       1 citas | 2025
+2025-09-29 14:01:54,527 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:54,527 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:54,528 - INFO -    60. Exploring Mechanistic Interpretability in Large Language Mod...
+2025-09-29 14:01:54,528 - INFO -       1 citas | 2025
+2025-09-29 14:01:54,751 - INFO -    61. Mechanistic Interpretability of Fine-Tuned Vision Transforme...
+2025-09-29 14:01:54,751 - INFO -       1 citas | 2025
+2025-09-29 14:01:54,975 - INFO -    62. Towards eliciting latent knowledge from LLMs with mechanisti...
+2025-09-29 14:01:54,975 - INFO -       1 citas | 2025
+2025-09-29 14:01:55,201 - INFO -    63. Mechanistic Interpretability of GPT-like Models on Summariza...
+2025-09-29 14:01:55,201 - INFO -       0 citas | 2025
+2025-09-29 14:01:55,428 - INFO -    64. Mechanistic Interpretability in the Presence of Architectura...
+2025-09-29 14:01:55,436 - INFO -       0 citas | 2025
+2025-09-29 14:01:55,663 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:55,663 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:55,663 - INFO -    65. Understanding Sarcasm Detection Through Mechanistic Interpre...
+2025-09-29 14:01:55,663 - INFO -       0 citas | 2025
+2025-09-29 14:01:55,891 - INFO -    66. Position: Mechanistic Interpretability Should Prioritize Fea...
+2025-09-29 14:01:55,892 - INFO -       0 citas | 2025
+2025-09-29 14:01:56,119 - INFO -    67. Towards Understanding and Improving Refusal in Compressed Mo...
+2025-09-29 14:01:56,119 - INFO -       0 citas | 2025
+2025-09-29 14:01:56,342 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:56,342 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:56,342 - INFO -    68. Wavelet-Based Mechanistic Interpretability of Vision Transfo...
+2025-09-29 14:01:56,342 - INFO -       0 citas | 2025
+2025-09-29 14:01:56,571 - INFO -    69. Concept-Based Mechanistic Interpretability Using Structured ...
+2025-09-29 14:01:56,571 - INFO -       0 citas | 2025
+2025-09-29 14:01:56,794 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:56,794 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:56,794 - INFO -    70. Mechanistic Interpretability with SAEs: Probing Religion, Vi...
+2025-09-29 14:01:56,794 - INFO -       0 citas | 2025
+2025-09-29 14:01:57,010 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:57,010 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:01:57,010 - INFO -    71. Mechanistic interpretability for steering vision-language-ac...
+2025-09-29 14:01:57,010 - INFO -       0 citas | 2025
+2025-09-29 14:01:57,232 - INFO -    72. On the Mechanistic Interpretability of Neural Networks for C...
+2025-09-29 14:01:57,232 - INFO -       0 citas | 2025
+2025-09-29 14:01:57,455 - INFO -    73. Causal Intervention Framework for Variational Auto Encoder M...
+2025-09-29 14:01:57,455 - INFO -       0 citas | 2025
+2025-09-29 14:01:57,683 - INFO -    74. A Survey on Mechanistic Interpretability for Multi-Modal Fou...
+2025-09-29 14:01:57,684 - INFO -       8 citas | 2025
+2025-09-29 14:01:57,908 - INFO -    75. The Non-Linear Representation Dilemma: Is Causal Abstraction...
+2025-09-29 14:01:57,908 - INFO -       3 citas | 2025
+2025-09-29 14:01:58,134 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:58,134 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:58,134 - INFO -    76. From Mechanistic Interpretability to Mechanistic Biology: Tr...
+2025-09-29 14:01:58,134 - INFO -       13 citas | 2025
+2025-09-29 14:01:58,361 - INFO -    77. In-Context Linear Regression Demystified: Training Dynamics ...
+2025-09-29 14:01:58,361 - INFO -       2 citas | 2025
+2025-09-29 14:01:58,588 - INFO -    78. Mechanistic Interpretability of Emotion Inference in Large L...
+2025-09-29 14:01:58,588 - INFO -       2 citas | 2025
+2025-09-29 14:01:58,811 - INFO -    79. Dissecting and Mitigating Diffusion Bias via Mechanistic Int...
+2025-09-29 14:01:58,811 - INFO -       1 citas | 2025
+2025-09-29 14:01:59,036 - INFO -    80. Mechanistic Interpretability of LoRA-Adapted Language Models...
+2025-09-29 14:01:59,036 - INFO -       1 citas | 2025
+2025-09-29 14:01:59,257 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:59,257 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:59,257 - INFO -    81. Survey on the Role of Mechanistic Interpretability in Genera...
+2025-09-29 14:01:59,257 - INFO -       0 citas | 2025
+2025-09-29 14:01:59,480 - INFO -    82. Interpretability of artificial neural network models in arti...
+2025-09-29 14:01:59,480 - INFO -       36 citas | 2022
+2025-09-29 14:01:59,706 - INFO -    83. Interpretability in Parameter Space: Minimizing Mechanistic ...
+2025-09-29 14:01:59,706 - INFO -       8 citas | 2025
+2025-09-29 14:01:59,928 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:59,928 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:01:59,929 - INFO -    84. Context-sensitive computational mechanistic explanation in c...
+2025-09-29 14:01:59,929 - INFO -       7 citas | 2022
+2025-09-29 14:02:00,156 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:00,157 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:00,157 - INFO -    85. Adaptive Neuro-Fuzzy Inference System(ANFIS) Formulation to ...
+2025-09-29 14:02:00,157 - INFO -       2 citas | 2022
+2025-09-29 14:02:00,383 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:00,383 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:00,383 - INFO -    86. On the role of contextual factors in cognitive neuroscience ...
+2025-09-29 14:02:00,383 - INFO -       4 citas | 2022
+2025-09-29 14:02:01,259 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:01,260 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:01,262 - INFO -    87. The Quest for the Right Mediator: A History, Survey, and The...
+2025-09-29 14:02:01,265 - INFO -       35 citas | 2024
+2025-09-29 14:02:01,477 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:02:01,477 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:02:01,477 - INFO -    88. Explanatory models in neuroscience: Part 1 - taking mechanis...
+2025-09-29 14:02:01,477 - INFO -       39 citas | 2021
+2025-09-29 14:02:01,696 - INFO -    89. What needs to go right for an induction head? A mechanistic ...
+2025-09-29 14:02:01,696 - INFO -       41 citas | 2024
+2025-09-29 14:02:01,915 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:01,915 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:01,915 - INFO -    90. Simple Behavioral Analysis (SimBA) as a platform for explain...
+2025-09-29 14:02:01,915 - INFO -       80 citas | 2024
+2025-09-29 14:02:02,129 - INFO -    91. Mechanistic?...
+2025-09-29 14:02:02,129 - INFO -       18 citas | 2024
+2025-09-29 14:02:02,359 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:02,359 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:02,359 - INFO -    92. Is there a neuroscience-based, mechanistic rationale for tra...
+2025-09-29 14:02:02,359 - INFO -       4 citas | 2021
+2025-09-29 14:02:02,580 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:02:02,580 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_doi_key"
+DETAIL:  Key (doi)=() already exists.
+
+2025-09-29 14:02:02,580 - INFO -    93. From deep learning to mechanistic understanding in neuroscie...
+2025-09-29 14:02:02,580 - INFO -       61 citas | 2019
+2025-09-29 14:02:02,806 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:02,806 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:02,806 - INFO -    94. Pseudo‐mechanistic Explanations in Psychology and Cognitive ...
+2025-09-29 14:02:02,806 - INFO -       39 citas | 2019
+2025-09-29 14:02:03,036 - INFO -    95. Mechanistic Unlearning: Robust Knowledge Unlearning and Edit...
+2025-09-29 14:02:03,036 - INFO -       14 citas | 2024
+2025-09-29 14:02:03,265 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:03,266 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:03,266 - INFO -    96. Opening the Black Box of Large Language Models: Two Views on...
+2025-09-29 14:02:03,266 - INFO -       9 citas | 2024
+2025-09-29 14:02:03,484 - INFO -    97. Interpretability in the Wild: a Circuit for Indirect Object ...
+2025-09-29 14:02:03,484 - INFO -       644 citas | 2022
+2025-09-29 14:02:03,710 - ERROR - Error de conexión a DB: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:03,710 - ERROR - Error guardando paper: duplicate key value violates unique constraint "papers_arxiv_id_key"
+DETAIL:  Key (arxiv_id)=() already exists.
+
+2025-09-29 14:02:03,710 - INFO -    98. Art therapy and neuroscience: evidence, limits, and myths...
+2025-09-29 14:02:03,710 - INFO -       15 citas | 2024
+2025-09-29 14:02:03,931 - INFO -    99. Real Sparks of Artificial Intelligence and the Importance of...
+2025-09-29 14:02:03,931 - INFO -       6 citas | 2024
+2025-09-29 14:02:04,148 - INFO -    100. The Cognitive Revolution in Interpretability: From Explainin...
+2025-09-29 14:02:04,148 - INFO -       7 citas | 2024
+2025-09-29 14:02:05,381 - INFO - Éxito: 67 nuevos, 33 actualizados
+2025-09-29 14:02:07,384 - INFO - 
+Progreso: 3/10
+2025-09-29 14:02:07,385 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:07,385 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Neural coding"
+2025-09-29 14:02:07,385 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:07,406 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:09,412 - INFO - 
+Progreso: 4/10
+2025-09-29 14:02:09,412 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:09,412 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience Connectomics
+2025-09-29 14:02:09,412 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:09,428 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:11,433 - INFO - 
+Progreso: 5/10
+2025-09-29 14:02:11,434 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:11,434 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Neural decoding"
+2025-09-29 14:02:11,434 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:11,471 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:13,475 - INFO - 
+Progreso: 6/10
+2025-09-29 14:02:13,476 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:13,476 - INFO - Buscando: "Mechanistic Interpretability" Neuroscience "Brain imaging analysis (fMRI/EEG interpretation)"
+2025-09-29 14:02:13,476 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:13,500 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:15,506 - INFO - 
+Progreso: 7/10
+2025-09-29 14:02:15,506 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:15,506 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing"
+2025-09-29 14:02:15,506 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:15,578 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:17,584 - INFO - 
+Progreso: 8/10
+2025-09-29 14:02:17,584 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:17,585 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Sparse coding"
+2025-09-29 14:02:17,585 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:17,605 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:19,606 - INFO - 
+Progreso: 9/10
+2025-09-29 14:02:19,607 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:19,607 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Dictionary learning"
+2025-09-29 14:02:19,607 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:19,643 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:21,648 - INFO - 
+Progreso: 10/10
+2025-09-29 14:02:21,649 - INFO - Papers hoy: 200/500
+2025-09-29 14:02:21,649 - INFO - Buscando: "Mechanistic Interpretability" "Signal Processing" "Blind source separation"
+2025-09-29 14:02:21,651 - WARNING - Límite de sesión alcanzado: 200/200
+2025-09-29 14:02:21,673 - INFO - Éxito: 0 nuevos, 0 actualizados
+2025-09-29 14:02:21,673 - INFO - 
+BOOTSTRAP COMPLETADO:
+2025-09-29 14:02:21,673 - INFO - Queries exitosas: 10/10
+2025-09-29 14:02:21,673 - INFO - Total papers: 200
+2025-09-29 14:02:21,714 - INFO - Papers únicos en DB: 88
+2025-09-29 14:02:21,798 - INFO - Top-100 por citas (ventana actual) exportado a top_100_by_citations_current_run.csv
+2025-09-29 14:02:21,831 - INFO - Datos exportados a: ai_safety_papers_semantic_scholar.csv
+2025-09-29 14:02:21,853 - INFO - Top-100 por citas exportado a /Users/janeth/Semantic Scholar/top_100_by_citations.csv
+2025-09-29 14:02:21,875 - INFO - Top 100 autores extraídos
