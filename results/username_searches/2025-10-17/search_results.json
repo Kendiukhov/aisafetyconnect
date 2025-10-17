@@ -1,0 +1,264 @@
+{
+  "timestamp_start": "2025-10-17T06:01:41.563007",
+  "timestamp_last_update": "2025-10-17T07:44:33.888509",
+  "total_users": 20,
+  "successful_searches": 19,
+  "failed_searches": 1,
+  "results": [
+    {
+      "user_id": "nmk3nLpQE89dMRzzN",
+      "username": "Eliezer_Yudkowsky",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:01:41.581057",
+      "result": {
+        "real_name": "Eliezer Yudkowsky",
+        "confidence": "high",
+        "evidence": "The displayName \"Eliezer Yudkowsky\" matches a known AI researcher. Independent sources confirm this: for example, Edge.org’s profile explicitly names 'ELIEZER YUDKOWSKY' as a research fellow at MIRI ([www.edge.org](https://www.edge.org/memberbio/eliezer_s_yudkowsky#:~:text=ELIEZER%20YUDKOWSKY%20is%20a%20research,while%20rewriting%20their%20source%20code)), and TIME's profile refers to him as 'Eliezer Yudkowsky' (Co-founder, MIRI) ([time.com](https://time.com/collection/time100-ai/6309037/eliezer-yudkowsky/#:~:text=Eliezer%20Yudkowsky)).",
+        "academic_suitability": "yes - he is a prominent AI researcher with many publications under this name, so searching 'Eliezer Yudkowsky' on Google Scholar yields relevant academic works."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "N9zj5qpTfqmbn9dro",
+      "username": "Zvi",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:05:35.977030",
+      "result": {
+        "real_name": "Zvi Mowshowitz",
+        "confidence": "high",
+        "evidence": "External sources confirm that 'Zvi' refers to Zvi Mowshowitz.  For example, DBpedia describes Zvi Mowshowitz (a Magic: The Gathering Hall of Famer and game designer) in terms matching the known profile of the LessWrong user 'Zvi' ([dbpedia.org](https://dbpedia.org/page/Zvi_Mowshowitz#:~:text=Zvi%20Mowshowitz%20is%20a%20former,a%20medical%20research%20analysis%20firm)).  This alignment of biographical details strongly indicates the LessWrong username \"Zvi\" corresponds to Zvi Mowshowitz.",
+        "academic_suitability": "yes – The full name \"Zvi Mowshowitz\" is distinctive and used consistently in credible sources ([dbpedia.org](https://dbpedia.org/page/Zvi_Mowshowitz#:~:text=Zvi%20Mowshowitz%20is%20a%20former,a%20medical%20research%20analysis%20firm)), so it should yield relevant academic search results (e.g. Google Scholar)."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "2aoRX3ookcCozcb3m",
+      "username": "RobbBB",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:18:05.359088",
+      "result": {
+        "real_name": "Rob Bensinger",
+        "confidence": "high",
+        "evidence": "The LessWrong profile for user RobbBB (GreaterWrong viewer) shows the name “Rob Bensinger” with a bio stating he is at MIRI ([www.greaterwrong.com](https://www.greaterwrong.com/users/robbbb#:~:text=Rob%20Bensinger)). His personal blog also says “Hello! I’m Rob Bensinger, research communications manager at the Machine Intelligence Research Institute…” ([nothingismere.com](https://nothingismere.com/about/#:~:text=Hello%21%20I%E2%80%99m%C2%A0Rob%20Bensinger%2C%20research%20communications,on%20the%20MIRI%20Blog%20here)). This confirms the displayName ‘Rob Bensinger’ is his actual name.",
+        "academic_suitability": "no - he is a communications manager rather than an academic researcher, and there are no records of scholarly publications under this name, so Google Scholar searches are unlikely to yield relevant results."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "dfZAq9eZxs4BB4Ji5",
+      "username": "ryan_greenblatt",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:19:51.572431",
+      "result": {
+        "real_name": "Ryan Greenblatt",
+        "confidence": "high",
+        "evidence": "The user’s bio states they are Chief Scientist at Redwood Research, and the official Redwood Research team page lists a “Ryan Greenblatt” as Chief Scientist ([www.redwoodresearch.org](https://www.redwoodresearch.org/team#:~:text=Ryan%20Greenblatt)).  An EA Forum interview and Redwood blog posts also refer to “Ryan Greenblatt” in this role ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/8mqbLdhyobHMaD4rd/what-would-it-take-for-ai-to-disempower-us-ryan-greenblatt#:~:text=Ryan%20Greenblatt%20%E2%80%94%20lead%20author,chance%20that%20within%20four)), confirming the name.",
+        "academic_suitability": "yes - he is an AI safety researcher (Redwood Research Chief Scientist who co-authored a published paper), so searching for “Ryan Greenblatt” should find his academic-related work"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "BCmzFRdQhqLPREvat",
+      "username": "ricraz",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:27:32.689199",
+      "result": {
+        "real_name": "Richard Ngo",
+        "confidence": "high",
+        "evidence": "The LessWrong user’s displayName is “Richard_Ngo,” and their bio exactly matches the profile of Richard Ngo.  For example, an EA Forum interview identifies Richard Ngo as an AI (Safety) Governance Researcher at OpenAI (formerly at DeepMind) ([forum.nunosempere.com](https://forum.nunosempere.com/posts/ygdpXBoLzzsLXhhDF/i-m-interviewing-prolific-ai-safety-researcher-richard-ngo#:~:text=Next%20week%20I%27m%20interviewing%20Richard,previous%20Research%20Engineer%20at%20DeepMind)), matching the user’s bio.  These independent sources confirm that the user “ricraz” is Richard Ngo.",
+        "academic_suitability": "yes - Richard Ngo is a research-oriented figure in AI safety, so searching for this name should find relevant academic work."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "n6LYNw2uGfYnD4pX2",
+      "username": "lsusr",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:30:10.448637",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "high",
+        "evidence": "The user’s LessWrong profile and personal website only use the alias \"Lsusr\" and no personal name is given.  The contact page explicitly explains \"Lsusr\" as an alias (\"L. S. User\", derived from the Unix command) ([www.lsusr.com](https://www.lsusr.com/email.html#:~:text=How%20do%20you%20pronounce%20)).  No real name appears on the profile or site ([www.greaterwrong.com](https://www.greaterwrong.com/users/lsusr?from=post_header#:~:text=lsusr)) ([www.lsusr.com](https://www.lsusr.com/email.html#:~:text=How%20do%20you%20pronounce%20)).",
+        "academic_suitability": "no - no real name found for scholarly search"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "4fh2AAe3n7oBviyxx",
+      "username": "orthonormal",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:52:09.733548",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user’s displayName is a pseudonym and the bio is empty. Searches hint at a LessWrong profile 'Patrick_(orthonormal)' but no independent confirmation of a full name was found.",
+        "academic_suitability": "no - no verified name to search for"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "AThTtkDufXp3rmMDa",
+      "username": "evhub",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T06:53:46.066376",
+      "result": {
+        "real_name": "Evan Hubinger",
+        "confidence": "high",
+        "evidence": "LessWrong user profile for 'evhub' explicitly identifies the person as Evan Hubinger ([www.greaterwrong.com](https://www.greaterwrong.com/users/evhub#:~:text=Evan%20Hubinger%20%28he%2F%E2%80%8Bhim%2F%E2%80%8Bhis%29%20%28evanjhub%40gmail)).  This is confirmed by an independent OpenReview profile listing Evan J. Hubinger (Anthropic researcher) ([openreview.net](https://openreview.net/profile?id=~Evan_J_Hubinger1#:~:text=Evan%20J%20Hubinger%20)), matching the same individual.",
+        "academic_suitability": "yes - Evan Hubinger is an AI safety researcher with affiliations at Anthropic, MIRI, etc., and has published work suitable for academic indexing."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "r38pkCm7wF4M44MDQ",
+      "username": "Raemon",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:03:01.325985",
+      "result": {
+        "real_name": "Raymond Arnold",
+        "confidence": "high",
+        "evidence": "User 'Raemon' is known as the creator of Secular Solstice, which multiple sources (including a Washington Post article and the official Secular Solstice site) attribute to Raymond Arnold ([www.washingtonpost.com](https://www.washingtonpost.com/national/religion/secular-solstice-doing-good-for-goodness-sake/2014/12/16/b9d55a5e-856a-11e4-abcf-5a3d7b3b20b8_story.html#:~:text=Secular%20Solstice%20is%20the%20handiwork,works%20as%20a%20web%20developer)) ([secularsolstice.com](https://secularsolstice.com/contact/#:~:text=Humanist%20Culture%20is%20run%20by,well%20as%20Sunday%20Assembly%20NY)). The 'Contact' page for Humanist Culture explicitly states that Raymond Arnold runs Secular Solstice and helps run the NYC Rationality community ([secularsolstice.com](https://secularsolstice.com/contact/#:~:text=Humanist%20Culture%20is%20run%20by,well%20as%20Sunday%20Assembly%20NY)), aligning with 'Raemon'’s bio on LessWrong. These unique identifiers strongly match Raymond Arnold. \"Raymond Arnold\" is a full name suitable for academic searches since he is a community organizer known publicly for these projects.",
+        "academic_suitability": "yes"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "rx7xLaHCh3m7Po385",
+      "username": "Buck",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:04:16.886051",
+      "result": {
+        "real_name": "Buck Shlegeris",
+        "confidence": "high",
+        "evidence": "Buck Shlegeris is the CEO of Redwood Research as shown on the organization’s official site ([www.redwoodresearch.org](https://www.redwoodresearch.org/team#:~:text=Buck%20Shlegeris)), matching the LessWrong profile (username Buck, CEO at Redwood Research). The Redwood Research blog also credits © Buck Shlegeris ([blog.redwoodresearch.org](https://blog.redwoodresearch.org/about#:~:text=%C2%A9%202025%20Buck%20Shlegeris)), confirming this is the user’s name.",
+        "academic_suitability": "yes (Buck Shlegeris is an active AI researcher; he appears as author of multiple AI safety papers ([dblp.org](https://dblp.org/pid/228/8176#:~:text=Buck%20Shlegeris%2C%20Fabien%20Roger%2C%20Lawrence,%5Bc3)))"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "gSKzrqGFdS7DkXhuE",
+      "username": "jessica.liu.taylor",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:05:42.884410",
+      "result": {
+        "real_name": "Jessica Taylor",
+        "confidence": "high",
+        "evidence": "The LessWrong profile and related sources list the user as Jessica Taylor ([www.greaterwrong.com](https://www.greaterwrong.com/users/jessica-liu-taylor#:~:text=Jessica%20Taylor,former%20research%20fellow%20at%20MIRI)). A Future of Life Institute repost of a MIRI blog also attributes work to Jessica Taylor ([futureoflife.org](https://futureoflife.org/recent-news/machine-learning-ai-risk/#:~:text=The%20following%20article%20and%20talk,were%20originally%20posted%20on%20MIRI)), confirming this name.",
+        "academic_suitability": "no - the name is fairly common, making Google Scholar searches likely to yield many unrelated results"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "fjERoRhgjipqw3z2b",
+      "username": "Mitchell_Porter",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:19:10.524363",
+      "result": {
+        "real_name": "Mitchell Porter",
+        "confidence": "high",
+        "evidence": "The user’s name appears explicitly as \"Mitchell Porter\" on his Effective Altruism forum profile ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/users/mitchell-porter#:~:text=Mitchell%20Porter)). This matches the LessWrong username and is consistent with the individual’s background (mentioning work with Stuart Hameroff and interest in physics and AI), strongly indicating that \"Mitchell Porter\" is his actual name.",
+        "academic_suitability": "yes - it is a standard personal name and likely the person’s real name, so it can be used for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "g8JkZfL8PTqAefpvx",
+      "username": "JenniferRM",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:21:59.830903",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The LessWrong user profile for \"JenniferRM\" shows only the username and no biography or real name ([www.greaterwrong.com](https://www.greaterwrong.com/users/jenniferrm#:~:text=JenniferRM)). A personal blog linked to this handle similarly introduces her only as \"Jennifer\" (with the initials R. M.) without giving a full surname ([authorjenniferrm.com](https://authorjenniferrm.com/blog/#:~:text=Hello%21%20I%E2%80%99m%20Jennifer%20and%20this,else%2C%20I%E2%80%99ve%20got%20writer%E2%80%99s%20block)). We found no academic or professional profile linking this alias to a full name.",
+        "academic_suitability": "no - no evidence of scholarly publications or profiles for this individual"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "DgsGzjyBXN8XSK22q",
+      "username": "DanielFilan",
+      "search_status": "failed_during_processing",
+      "timestamp": "2025-10-17T07:26:56.015639",
+      "result": null,
+      "error_message": "API returned status='failed'"
+    },
+    {
+      "user_id": "nDpieb7g8huozpx9j",
+      "username": "Thane Ruthenis",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:29:20.263894",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user’s profile and bio offer no personal name beyond the pseudonym. Searches for \"Thane Ruthenis\" and the mentioned project produced no information linking this alias to an actual person. No public profile (e.g., GitHub, LinkedIn) was found, so the real identity remains unknown.",
+        "academic_suitability": "no - Without a confirmed real name, one cannot reliably search academic or scholarly databases for publications."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "mfgrYb4LMk7NWXsSB",
+      "username": "tailcalled",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:31:27.275063",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user’s displayName is a pseudonym 'tailcalled'. No full name was found in the provided bio or displayName. Searches on related posts or profiles returned no personal name. Without additional data tying 'tailcalled' to a real individual, the real name cannot be identified.",
+        "academic_suitability": "no - a real name was not determined, so it cannot be used for scholar searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "XLwKyCK7JmC292ZCC",
+      "username": "Chris_Leong",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:34:49.518926",
+      "result": {
+        "real_name": "Chris Leong",
+        "confidence": "high",
+        "evidence": "The LessWrong displayName is \"Chris_Leong\". External sources identify him as \"Chris Leong\". For example, a SoftSpace event page says \"Chris Leong is the Co-Founder and current Director of Strategy at Soft Space\" ([www.startupgrind.com](https://www.startupgrind.com/events/details/startup-grind-kuala-lumpur-presents-chris-leong-softspace/#:~:text=Chris%20Leong%20is%20the%20Co,funding%20ecosystem%20with%20Cradle%20Fund)), and Crunchbase likewise names him \"Chris Leong\" as Soft Space’s Chief Strategy Officer ([www.crunchbase.com](https://www.crunchbase.com/person/chris-leong#:~:text=Chris%20Leong%20is%20the%20Chief,attended%20the%20University%20of%20Strathclyde)). These match the username and confirm his real name.",
+        "academic_suitability": "no - he is a tech entrepreneur (Soft Space co-founder) with no known academic publications"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "TCjNiBLBPyhZq5BuM",
+      "username": "Seth Herd",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:38:10.845806",
+      "result": {
+        "real_name": "Seth A. Herd",
+        "confidence": "high",
+        "evidence": "LessWrong profile’s displayName is 'Seth Herd'. Independent profiles (e.g. Cofnitive Neuroscience at CU-Boulder) list \"Dr. Seth A. Herd, Ph.D.\" ([lifeboat.com](https://lifeboat.com/ex/bios.seth.a.herd#:~:text=Dr)), confirming the person’s name. His personal website and publication list (sethaherd.com) also identify him as Seth A. Herd.",
+        "academic_suitability": "yes - he is a published cognitive neuroscience researcher, so ‘Seth A. Herd’ is suitable for Google Scholar searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "QpvwBD5AtmmFDTC3T",
+      "username": "leogao",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:40:07.950725",
+      "result": {
+        "real_name": "Leo Gao",
+        "confidence": "high",
+        "evidence": "The user's personal website (leo-gao.dev) clearly shows the name \"Leo Gao\" ([leo-gao.dev](https://leo-gao.dev/#:~:text=Leo%20Gao)), matching the username leogao, and other community posts/blogs by the same user identify him as Leo Gao.",
+        "academic_suitability": "yes - 'Leo Gao' appears to be the user's full name and would be appropriate for searching on academic platforms."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "x5S2Kuj6TfQTGuo63",
+      "username": "thomas-kwa",
+      "search_status": "completed",
+      "timestamp": "2025-10-17T07:42:58.970597",
+      "result": {
+        "real_name": "Thomas Kwa",
+        "confidence": "high",
+        "evidence": "The user’s display name and multiple reliable sources list the name as Thomas Kwa.  For example, METR’s official website lists “Thomas Kwa” as a Member of Technical Staff ([metr.org](https://metr.org/team/thomas-kwa/#:~:text=Thomas%20Kwa)), and an OpenReview profile shows “Thomas Kwa (Preferred)” with affiliations to Metr and MIRI ([openreview.net](https://openreview.net/profile?id=~Thomas_Kwa1#:~:text=Thomas%20Kwa%20)). These match the LessWrong profile displayName, confirming his real name as Thomas Kwa.",
+        "academic_suitability": "yes - the name appears to be his full real name, suitable for academic searches"
+      },
+      "error_message": null
+    }
+  ]
+}
