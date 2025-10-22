@@ -1,0 +1,62 @@
+Table area {
+    id text [pk]                  // Ej: "Mechanistic_Interpretability"
+    name text [not null, unique]  // Nombre legible del área
+    created_at timestamptz [default: `now()`]
+  }
+  
+  Table field {
+    id serial [pk]
+    area_id text [not null, ref: > area.id] // Relación con área
+    name text [not null]                    // Ej: "Neuroscience", "Game Theory"
+    is_primary bool [not null]              // True = Primary field, False = Secondary
+    created_at timestamptz [default: `now()`]
+    unique_area_name unique(area_id, name)
+  }
+  
+  Table subfield {
+    id serial [pk]
+    alias text [not null]                   // Ej: "Neural coding", "Interpretability"
+    field_id int [not null, ref: > field.id]
+    weight numeric                          // Peso relativo 0..1 (para mapeo automático)
+    created_at timestamptz [default: `now()`]
+    unique_alias_field unique(alias, field_id)
+  }
+  
+  Table paper {
+    paper_id text [pk]                      // ID único (Semantic Scholar, OpenAlex)
+    title text [not null]                   // Título del paper
+    authors jsonb                           // Lista de autores [{"name":"John Doe"}]
+    year int                                // Año de publicación
+    abstract text                           // Resumen del paper
+    url text                                // URL fuente
+    pdf_url text                            // Enlace directo al PDF
+    scholar_url text                        // URL alternativa (Google Scholar)
+    venue text                              // Conferencia o journal ("ICML 2023")
+    keywords jsonb                          // Palabras clave extraídas
+    citations int [default: 0]              // Número de citas
+    title_hash text                         // Hash SHA256 del título
+    doi text                                // DOI
+    arxiv_id text                           // ID de arXiv
+    s2_fields jsonb                         // Campos semánticos [{name, score}]
+    area text                               // Área dominante (cache)
+    created_at timestamptz [default: `now()`]
+    updated_at timestamptz [default: `now()`]
+  }
+  
+  Table paper_concept {
+    id bigserial [pk]
+    paper_id text [not null, ref: > paper.paper_id]
+    concept text [not null]                 // Concepto denormalizado de s2_fields
+    score numeric                           // Peso o relevancia
+    unique_paper_concept unique(paper_id, concept)
+  }
+  
+  Table paper_taxonomy {
+    id bigserial [pk]
+    paper_id text [not null, ref: > paper.paper_id]
+    area_id text [not null, ref: > area.id]
+    field_id int [ref: > field.id]
+    subfield_id int [ref: > subfield.id]
+    confidence numeric                      // Score de confianza para el mapeo
+    unique_map unique(paper_id, area_id, field_id, subfield_id)
+  }
