@@ -54,6 +54,10 @@ Thumbs.db
 
 # CSV files (large data files)
 *.csv
+# Exception: Allow important result files
+!SemanticScholar/top_100_citations_semantic_scholar.csv
+!OpenAlex/top_100_citations_openalex.csv
+!Scholarly/top_100_citations_scholarly.csv
 
 # Jupyter Notebook
 .ipynb_checkpoints
