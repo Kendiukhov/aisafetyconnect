@@ -2,7 +2,7 @@
 
 This repository contains a comprehensive suite of data extractors for AI Safety research papers from multiple academic sources. The project implements optimized extraction strategies for Google Scholar, OpenAlex, and Semantic Scholar APIs.
 
-## 🚀 Features
+##  Features
 
 - **Multi-Source Extraction**: Support for Google Scholar, OpenAlex, and Semantic Scholar
 - **Database-Driven Taxonomy**: Uses PostgreSQL with hierarchical taxonomy structure
@@ -11,7 +11,7 @@ This repository contains a comprehensive suite of data extractors for AI Safety 
 - **Comprehensive Logging**: Detailed extraction logs and progress tracking
 - **CSV Export**: Automatic export of extracted data to CSV format
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── Scholarly/              # Google Scholar extractor
@@ -33,7 +33,7 @@ This repository contains a comprehensive suite of data extractors for AI Safety 
 └── Extractors.ipynb       # Jupyter notebook for analysis
 ```
 
-## 🗄️ Database Schema
+##  Database Schema
 
 The project uses PostgreSQL with the following key tables:
 - `area`: Research areas (e.g., "Mechanistic Interpretability")
@@ -43,7 +43,7 @@ The project uses PostgreSQL with the following key tables:
 - `paper_taxonomy`: Mapping between papers and taxonomy
 - `paper_concept`: Extracted concepts from papers
 
-## 🔧 Setup
+##  Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -85,7 +85,7 @@ The project uses PostgreSQL with the following key tables:
    python populate_taxonomy.py
    ```
 
-## 🚀 Usage
+##  Usage
 
 ### Semantic Scholar Extractor (Recommended)
 ```bash
@@ -120,14 +120,14 @@ python scholarly_extractor.py \
   --year-to 2026
 ```
 
-## 📊 Results
+##  Results
 
 The extractors have successfully extracted:
 - **Semantic Scholar**: 23,070 papers (13 minutes, 48 seconds)
 - **OpenAlex**: Comprehensive dataset with hierarchical queries
 - **Google Scholar**: Limited due to anti-bot measures
 
-## 🔍 AI Safety Taxonomy
+##  AI Safety Taxonomy
 
 The project uses a comprehensive taxonomy covering 11 research areas:
 1. Mechanistic Interpretability
@@ -142,13 +142,13 @@ The project uses a comprehensive taxonomy covering 11 research areas:
 10. Compute Governance
 11. Technical Governance
 
-## 📈 Performance
+##  Performance
 
 - **Semantic Scholar**: ~27 papers/second, 100% success rate
 - **OpenAlex**: Optimized with caching and concurrent processing
 - **Google Scholar**: Limited by rate limiting and captcha challenges
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -156,16 +156,10 @@ The project uses a comprehensive taxonomy covering 11 research areas:
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+##  License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
 
-- Semantic Scholar API for providing comprehensive academic data
-- OpenAlex for open academic metadata
-- The AI Safety research community for taxonomy development
-
-## 📞 Support
+##  Support
 
 For questions or issues, please open an issue on GitHub or contact the maintainers.
