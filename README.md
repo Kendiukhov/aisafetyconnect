@@ -1,101 +1,165 @@
-# AI Safety Connect - Papers Extraction System
+# AI Safety Research Data Extractors
 
-A comprehensive system for extracting and analyzing AI Safety research papers from Semantic Scholar API.
+This repository contains a comprehensive suite of data extractors for AI Safety research papers from multiple academic sources. The project implements optimized extraction strategies for Google Scholar, OpenAlex, and Semantic Scholar APIs.
 
-## Project Structure
+##  Features
+
+- **Multi-Source Extraction**: Support for Google Scholar, OpenAlex, and Semantic Scholar
+- **Database-Driven Taxonomy**: Uses PostgreSQL with hierarchical taxonomy structure
+- **Optimized Performance**: Ultra-optimized extraction with caching and rate limiting
+- **Checkpointing System**: Resume interrupted extractions automatically
+- **Comprehensive Logging**: Detailed extraction logs and progress tracking
+- **CSV Export**: Automatic export of extracted data to CSV format
+
+##  Project Structure
 
 ```
-├── src/                           # Source code
-│   └── semantic_scholar.py        # Main extraction script
-├── scripts/                       # Utility scripts
-│   └── generate_top_papers_ranking.py  # Ranking generation
-├── config/                        # Configuration files
-│   ├── database_schema.dbml       # Database schema
-│   ├── docker-compose.yml         # Docker configuration
-│   ├── requirements.txt           # Python dependencies
-│   └── scraper_terms.json         # Taxonomy definitions
-├── data/                          # Data files
-│   ├── ai_safety_papers_ultra_optimized.csv  # Main dataset (12,371 papers)
-│   ├── top_papers_by_citations.csv           # Top 100 by citations
-│   ├── top_papers_by_year.csv               # Top papers by year
-│   ├── top_papers_by_venue.csv              # Top papers by venue
-│   ├── s2_cache*.sqlite                     # HTTP cache files
-│   └── downloaded_pdfs*/                    # PDF storage
-├── docs/                          # Documentation
-│   ├── ACTIVITIES_REPORT_SEP29.md
-│   └── ACTIVITIES_REPORT_SEPTEMBER_30_2025.md
-├── logs/                          # Log files
-│   ├── semantic_scholar_extraction.log
-│   ├── semantic_scholar_extraction_optimized.log
-│   └── semantic_scholar_ultra_optimized.log
-└── documentation/                 # Additional documentation
-    ├── ai-safety-connect-pipeline.md
-    ├── extraction-layer-architecture.md
-    └── LESSWRONG_*.md
+├── Scholarly/              # Google Scholar extractor
+│   ├── scholarly_extractor.py
+│   ├── README.md
+│   └── LIMITATIONS_AND_SOLUTIONS.md
+├── OpenAlex/               # OpenAlex API extractor
+│   ├── Open Alex.py
+│   ├── EXTRACTION_SUMMARY.md
+│   ├── create_schema.sql
+│   └── generate_top_papers_ranking.py
+├── SemanticScholar/        # Semantic Scholar API extractor
+│   ├── semantic_scholar.py
+│   ├── create_schema.sql
+│   ├── populate_taxonomy.py
+│   └── swagger.json
+├── schema.dbml            # Database schema definition
+├── terms.json             # AI Safety taxonomy
+└── Extractors.ipynb       # Jupyter notebook for analysis
 ```
 
-## Key Features
+##  Database Schema
 
-- **Exhaustive Taxonomy Coverage**: 397 queries covering all AI Safety research areas
-- **Optimized Rate Limiting**: 0.30 RPS for unauthenticated users
-- **Intelligent Deduplication**: 100% unique papers (12,371 total)
-- **PostgreSQL Integration**: Docker-based database with proper schema
-- **Comprehensive Rankings**: Top papers by citations, year, and venue
-- **Robust Error Handling**: Exponential backoff and retry mechanisms
+The project uses PostgreSQL with the following key tables:
+- `area`: Research areas (e.g., "Mechanistic Interpretability")
+- `field`: Primary and secondary fields within each area
+- `subfield`: Specific subfields and techniques
+- `paper`: Extracted paper metadata
+- `paper_taxonomy`: Mapping between papers and taxonomy
+- `paper_concept`: Extracted concepts from papers
 
-## Results Summary
+##  Setup
 
-- **Total Papers Extracted**: 12,371 unique papers
-- **Coverage Period**: 2015-2025
-- **Total Citations**: 215,675
-- **Unique Venues**: 4,944
-- **Success Rate**: 100% (397/397 queries completed)
+### Prerequisites
+- Python 3.8+
+- PostgreSQL
+- Docker (for database containers)
 
-## Quick Start
+### Installation
 
-1. **Setup Environment**:
+1. **Clone the repository**:
    ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-   pip install -r config/requirements.txt
+   git clone https://github.com/Kendiukhov/aisafetyconnect.git
+   cd aisafetyconnect
    ```
 
-2. **Start Database**:
+2. **Set up virtual environment**:
    ```bash
-   docker-compose -f config/docker-compose.yml up -d
+   # For each extractor
+   cd Scholarly && python -m venv venv && source venv/bin/activate
+   cd OpenAlex && python -m venv venv && source venv/bin/activate
+   cd SemanticScholar && python -m venv venv && source venv/bin/activate
    ```
 
-3. **Run Extraction**:
+3. **Install dependencies**:
    ```bash
-   python src/semantic_scholar.py
+   pip install -r requirements.txt
    ```
 
-4. **Generate Rankings**:
+4. **Set up database**:
    ```bash
-   python scripts/generate_top_papers_ranking.py
+   # Create PostgreSQL container
+   docker run -d --name ai_safety_db \
+     -e POSTGRES_DB=ai_safety \
+     -e POSTGRES_USER=scholar_user \
+     -e POSTGRES_PASSWORD=scholar_pass_2024 \
+     -p 6543:5432 postgres:13
+   
+   # Create schema and populate taxonomy
+   psql -h localhost -p 6543 -U scholar_user -d ai_safety -f create_schema.sql
+   python populate_taxonomy.py
    ```
 
-## Database Schema
+##  Usage
 
-The system uses PostgreSQL with the following main tables:
-- `papers`: Core paper information with JSONB fields
-- `extraction_logs`: Detailed extraction tracking
+### Semantic Scholar Extractor (Recommended)
+```bash
+cd SemanticScholar
+source venv/bin/activate
+python semantic_scholar.py \
+  --api-key "YOUR_API_KEY" \
+  --use-database \
+  --use-bulk \
+  --year-from 2005 \
+  --year-to 2026
+```
 
-See `config/database_schema.dbml` for complete schema.
+### OpenAlex Extractor
+```bash
+cd OpenAlex
+source venv/bin/activate
+python "Open Alex.py" \
+  --use-database \
+  --use-hierarchical \
+  --year-from 2005 \
+  --year-to 2026
+```
 
-## Performance Metrics
+### Google Scholar Extractor
+```bash
+cd Scholarly
+source venv/bin/activate
+python scholarly_extractor.py \
+  --use-database \
+  --year-from 2005 \
+  --year-to 2026
+```
 
-- **Extraction Rate**: ~3,093 papers/hour
-- **Deduplication Efficiency**: 100%
-- **Rate Limit Compliance**: 0.30 RPS maintained
-- **Cache Hit Rate**: Optimized with SQLite caching
+##  Results
 
-## Documentation
+The extractors have successfully extracted:
+- **Semantic Scholar**: 23,070 papers (13 minutes, 48 seconds)
+- **OpenAlex**: Comprehensive dataset with hierarchical queries
+- **Google Scholar**: Limited due to anti-bot measures
 
-- [Activities Report - Sep 29](docs/ACTIVITIES_REPORT_SEP29.md)
-- [Activities Report - Sep 30](docs/ACTIVITIES_REPORT_SEPTEMBER_30_2025.md)
-- [Database Schema](config/database_schema.dbml)
+##  AI Safety Taxonomy
 
-## License
+The project uses a comprehensive taxonomy covering 11 research areas:
+1. Mechanistic Interpretability
+2. Scalable Oversight
+3. Adversarial Robustness
+4. Agent Foundations
+5. Alignment Theory
+6. Evaluations Dangerous Capabilities
+7. Value Learning Alignment
+8. Cooperative AI
+9. AI Governance Policy
+10. Compute Governance
+11. Technical Governance
 
-This project is part of the AI Safety Connect initiative.
+##  Performance
+
+- **Semantic Scholar**: ~27 papers/second, 100% success rate
+- **OpenAlex**: Optimized with caching and concurrent processing
+- **Google Scholar**: Limited by rate limiting and captcha challenges
+
+##  Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests if applicable
+5. Submit a pull request
+
+##  License
+
+
+
+##  Support
+
+For questions or issues, please open an issue on GitHub or contact the maintainers.

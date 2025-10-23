@@ -1,0 +1,154 @@
+{
+    "AI_Safety_Research_Mappings": {
+      "Mechanistic_Interpretability": {
+        "Primary_Fields": [
+          { "Neuroscience": ["Neural coding", "Connectomics", "Neural decoding", "Brain imaging analysis (fMRI/EEG interpretation)"] },
+          { "Signal Processing": ["Sparse coding", "Dictionary learning", "Blind source separation", "Independent component analysis"] },
+          { "Applied Mathematics": ["Matrix factorization", "Tensor decomposition", "Spectral analysis", "Wavelet analysis"] },
+          { "Statistical Physics": ["Phase transitions in neural networks", "Mean field theory", "Renormalization group methods"] }
+        ],
+        "Secondary_Fields": [
+          { "Computer Vision": ["Feature visualization", "Saliency maps", "Attention mechanisms"] },
+          { "Computational Linguistics": ["Probing tasks", "Linguistic structure discovery", "Syntax trees in transformers"] },
+          { "Systems Biology": ["Network motif detection", "Pathway analysis", "Modular decomposition"] },
+          { "Information Theory": ["Mutual information", "Information bottleneck theory", "Compression analysis"] }
+        ]
+      },
+      "Scalable_Oversight": {
+        "Primary_Fields": [
+          { "Mechanism Design": ["Incentive-compatible mechanisms", "Truthful reporting", "Revelation principles"] },
+          { "Crowdsourcing/Human Computation": ["Quality control", "Aggregation methods", "Expert vs crowd wisdom"] },
+          { "Game Theory": ["Extensive form games", "Cheap talk", "Principal-agent problems", "Information asymmetry"] },
+          { "Formal Verification": ["Proof assistants", "Interactive theorem proving", "Certified compilation"] }
+        ],
+        "Secondary_Fields": [
+          { "Organizational Economics": ["Delegation", "Monitoring costs", "Multi-tier hierarchies"] },
+          { "Distributed Systems": ["Byzantine fault tolerance", "Consensus protocols", "Distributed verification"] },
+          { "Educational Psychology": ["Scaffolding", "Zone of proximal development", "Peer review systems"] },
+          { "Science Studies": ["Peer review mechanisms", "Scientific consensus formation", "Reproducibility"] }
+        ]
+      },
+      "Adversarial_Robustness": {
+        "Primary_Fields": [
+          { "Computer Security": ["Threat modeling", "Red teaming", "Penetration testing", "Security verification"] },
+          { "Cryptography": ["Zero-knowledge proofs", "Secure multi-party computation", "Differential privacy"] },
+          { "Formal Methods": ["Abstract interpretation", "Symbolic execution", "Model checking"] },
+          { "Robust Optimization": ["Distributionally robust optimization", "Worst-case analysis", "Minimax problems"] }
+        ],
+        "Secondary_Fields": [
+          { "Control Theory": ["Robust control", "H-infinity control", "Adaptive control under uncertainty"] },
+          { "Operations Research": ["Robust scheduling", "Scenario planning", "Stress testing"] },
+          { "Reliability Engineering": ["Fault injection", "Failure mode analysis", "Safety-critical systems"] },
+          { "Mathematical Finance": ["Risk measures", "Stress testing", "Extreme value theory"] }
+        ]
+      },
+      "Agent_Foundations": {
+        "Primary_Fields": [
+          { "Decision Theory": ["Causal decision theory", "Evidential decision theory", "Dynamic consistency"] },
+          { "Mathematical Logic": ["Provability logic", "Self-reference", "Gödel's theorems", "Fixed point theorems"] },
+          { "Category Theory": ["Compositional systems", "Functorial semantics", "Coalgebras", "Game semantics"] },
+          { "Theoretical Economics": ["General equilibrium", "Rational expectations", "Self-fulfilling prophecies"] }
+        ],
+        "Secondary_Fields": [
+          { "Philosophy of Action": ["Intention", "Practical reasoning", "Action theory", "Free will"] },
+          { "Theoretical Computer Science": ["Domain theory", "Denotational semantics", "Type theory"] },
+          { "Quantum Foundations": ["Decision theory in quantum mechanics", "Consistent histories"] },
+          { "Social Choice Theory": ["Arrow's theorem", "Mechanism design", "Voting paradoxes"] }
+        ]
+      },
+      "Alignment_Theory": {
+        "Primary_Fields": [
+          { "Optimization Theory": ["Multi-objective optimization", "Pareto frontiers", "Constrained optimization"] },
+          { "Control Theory": ["Optimal control", "Model predictive control", "Lyapunov stability"] },
+          { "Multi-agent Systems": ["Coordination", "Social choice", "Emergent behavior", "Swarm intelligence"] },
+          { "Inverse Reinforcement Learning": ["Preference learning", "Reward inference", "Apprenticeship learning"] }
+        ],
+        "Secondary_Fields": [
+          { "Computational Social Choice": ["Preference aggregation", "Judgment aggregation", "Fair division"] },
+          { "Behavioral Economics": ["Revealed preferences", "Time inconsistency", "Preference construction"] },
+          { "Systems Theory": ["Feedback loops", "Stability analysis", "Controllability", "Observability"] },
+          { "Evolutionary Biology": ["Multi-level selection", "Evolutionary stable strategies", "Alignment of fitness"] }
+        ]
+      },
+      "Evaluations_Dangerous_Capabilities": {
+        "Primary_Fields": [
+          { "Psychometrics": ["Test construction", "Validity", "Reliability", "Item response theory"] },
+          { "Software Testing": ["Test design", "Coverage metrics", "Mutation testing", "Fuzzing"] },
+          { "Risk Assessment": ["Hazard analysis", "Failure modes", "Probabilistic risk assessment"] },
+          { "Metrology": ["Measurement theory", "Calibration", "Uncertainty quantification"] }
+        ],
+        "Secondary_Fields": [
+          { "Clinical Psychology": ["Diagnostic criteria", "Behavioral assessment", "Malingering detection"] },
+          { "Educational Assessment": ["Competency modeling", "Authentic assessment", "Cheating detection"] },
+          { "Biosecurity": ["Dual-use research", "Gain-of-function assessment"] },
+          { "Forensic Science": ["Deception detection", "Behavioral analysis", "Threat assessment"] }
+        ]
+      },
+      "Value_Learning_Alignment": {
+        "Primary_Fields": [
+          { "Preference Learning": ["Ranking", "Choice modeling", "Conjoint analysis", "Recommender systems"] },
+          { "Behavioral Economics": ["Prospect theory", "Revealed preferences", "Behavioral game theory"] },
+          { "Moral Psychology": ["Moral foundations theory", "Value systems", "Moral development"] },
+          { "Computational Ethics": ["Machine ethics", "Value-aligned AI", "Normative reasoning"] }
+        ],
+        "Secondary_Fields": [
+          { "Cultural Evolution": ["Cultural transmission", "Norm emergence", "Value drift"] },
+          { "Anthropology": ["Value systems across cultures", "Ethnographic methods", "Thick description"] },
+          { "Developmental Psychology": ["Value acquisition", "Moral reasoning development"] },
+          { "Philosophy of Value": ["Axiology", "Moral realism vs anti-realism", "Value theory"] }
+        ]
+      },
+      "Cooperative_AI": {
+        "Primary_Fields": [
+          { "Game Theory": ["Repeated games", "Reputation", "Folk theorems", "Correlated equilibrium"] },
+          { "International Relations": ["Cooperation theory", "Regime formation", "Commitment problems"] },
+          { "Evolutionary Biology": ["Evolution of cooperation", "Kin selection", "Reciprocal altruism"] },
+          { "Network Science": ["Cooperation on networks", "Social capital", "Trust networks"] }
+        ],
+        "Secondary_Fields": [
+          { "Experimental Economics": ["Public goods games", "Trust games", "Behavioral experiments"] },
+          { "Social Psychology": ["Intergroup cooperation", "Social dilemmas", "Trust formation"] },
+          { "Peace Studies": ["Conflict resolution", "Mediation", "Confidence-building measures"] },
+          { "Distributed AI": ["Multi-agent coordination", "Team formation", "Coalition formation"] }
+        ]
+      },
+      "AI_Governance_Policy": {
+        "Primary_Fields": [
+          { "Public Policy": ["Technology policy", "Regulatory design", "Policy evaluation"] },
+          { "Law & Regulation": ["Administrative law", "International law", "Soft law", "Regulatory capture"] },
+          { "Political Economy": ["Innovation policy", "Industrial organization", "Standard-setting"] },
+          { "International Relations": ["Arms control", "Technology governance", "Global commons"] }
+        ],
+        "Secondary_Fields": [
+          { "Innovation Studies": ["Technology assessment", "Responsible innovation", "Anticipatory governance"] },
+          { "Science & Technology Studies": ["Sociotechnical systems", "Path dependence", "Lock-in"] },
+          { "Constitutional Economics": ["Rule design", "Constitutional constraints", "Commitment devices"] },
+          { "Comparative Politics": ["Regulatory regimes", "Policy diffusion", "Institutional design"] }
+        ]
+      },
+      "Compute_Governance": {
+        "Primary_Fields": [
+          { "Industrial Organization": ["Supply chain management", "Vertical integration", "Market power"] },
+          { "Energy Policy": ["Resource allocation", "Grid management", "Capacity planning"] },
+          { "Arms Control": ["Verification", "Monitoring", "Dual-use technology control"] },
+          { "Environmental Economics": ["Resource caps", "Tradeable permits", "Monitoring & enforcement"] }
+        ],
+        "Secondary_Fields": [
+          { "Operations Research": ["Resource allocation", "Capacity planning", "Supply chain optimization"] },
+          { "Technology Policy": ["Export controls", "Technology transfer", "Strategic industries"] },
+          { "Semiconductor Economics": ["Fab economics", "Technology roadmaps", "Industry structure"] },
+          { "Infrastructure Studies": ["Critical infrastructure", "Systemic risk", "Resilience"] }
+        ]
+      },  
+        "Technical_Governance": {
+        "Primary_Fields": [
+          { "Assessment": ["data detection", "Workload classification", "Evaluation reliability", "Impact Evaluation"] },
+          { "Access": ["Privacy Access", "Resource Provision", "Model Access Control", "Log Access"] },
+          { "Verification": ["Training Data validation", "Chip verification", "Model verification", "Auditability"] },
+          { "Security": ["Data Extraction prevention", "Hardware security", "Model protection", "Adversarial defense"] },
+          { "Operationalization": ["Policy translation", "Deployment Correction", "Governance Integration", "Policy Compliance"] },
+          { "Ecosystem Monitoring": ["Risk clarification", "Trend Prediction", "Impact Assessment", "Supply Chain Mapping"] }
+        ]
+      }
+    }
+  }
