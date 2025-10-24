@@ -1,0 +1,114 @@
+{
+  "query": "Mechanistic Interpretability",
+  "timestamp": "20251023_143022",
+  "total_papers": 2,
+  "duration_seconds": 5.2,
+  "filters": {
+    "year_from": 2015,
+    "min_citations": 10
+  },
+  "papers": [
+    {
+      "paperId": "649def34f8be52c8b66281af98ae884c09aef38b",
+      "title": "Example Paper: Understanding Neural Networks Through Mechanistic Interpretability",
+      "abstract": "This paper explores how neural networks process information through the lens of mechanistic interpretability...",
+      "authors": [
+        {
+          "authorId": "1741101",
+          "name": "John Doe"
+        },
+        {
+          "authorId": "145655457",
+          "name": "Jane Smith"
+        }
+      ],
+      "year": 2020,
+      "venue": "NeurIPS",
+      "citationCount": 156,
+      "referenceCount": 45,
+      "influentialCitationCount": 23,
+      "isOpenAccess": true,
+      "openAccessPdf": {
+        "url": "https://arxiv.org/pdf/2020.12345.pdf",
+        "status": "GREEN"
+      },
+      "externalIds": {
+        "ArXiv": "2020.12345",
+        "DOI": "10.48550/arXiv.2020.12345"
+      },
+      "publicationTypes": [
+        "JournalArticle"
+      ],
+      "publicationDate": "2020-06-15",
+      "fieldsOfStudy": [
+        "Computer Science"
+      ],
+      "s2FieldsOfStudy": [
+        {
+          "category": "Computer Science",
+          "source": "external"
+        },
+        {
+          "category": "Mathematics",
+          "source": "s2-fos-model"
+        }
+      ],
+      "url": "https://www.semanticscholar.org/paper/649def34f8be52c8b66281af98ae884c09aef38b",
+      "publicationVenue": {
+        "id": "d9720b90-d60b-48bc-9df8-87a30b9a60dd",
+        "name": "Neural Information Processing Systems",
+        "type": "conference",
+        "alternate_names": [
+          "NeurIPS",
+          "NIPS"
+        ],
+        "url": "http://neurips.cc/"
+      }
+    },
+    {
+      "paperId": "abc123def456ghi789jkl012mno345pqr678stu901",
+      "title": "Another Example: Interpretability Methods for Deep Learning",
+      "abstract": "We present novel methods for understanding how deep learning models make decisions...",
+      "authors": [
+        {
+          "authorId": "987654321",
+          "name": "Alice Johnson"
+        }
+      ],
+      "year": 2021,
+      "venue": "ICML",
+      "citationCount": 89,
+      "referenceCount": 32,
+      "influentialCitationCount": 15,
+      "isOpenAccess": false,
+      "openAccessPdf": null,
+      "externalIds": {
+        "DOI": "10.1234/example.2021"
+      },
+      "publicationTypes": [
+        "Conference"
+      ],
+      "publicationDate": "2021-07-20",
+      "fieldsOfStudy": [
+        "Computer Science",
+        "Mathematics"
+      ],
+      "s2FieldsOfStudy": [
+        {
+          "category": "Computer Science",
+          "source": "external"
+        }
+      ],
+      "url": "https://www.semanticscholar.org/paper/abc123def456ghi789jkl012mno345pqr678stu901",
+      "publicationVenue": {
+        "id": "fc0a208c-acb7-47dc-a0d4-af8190e21d29",
+        "name": "International Conference on Machine Learning",
+        "type": "conference",
+        "alternate_names": [
+          "ICML"
+        ],
+        "url": "https://icml.cc/"
+      }
+    }
+  ]
+}

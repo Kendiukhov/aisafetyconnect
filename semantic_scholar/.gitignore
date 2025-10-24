@@ -1,0 +1,15 @@
+# Logs
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# API keys (si se guardan en archivos)
+*_key.txt
+api_key.txt
+
+# Archivos temporales
+*.tmp
+.DS_Store
