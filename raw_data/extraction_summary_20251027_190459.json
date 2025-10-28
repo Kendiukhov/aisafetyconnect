@@ -1,0 +1,64 @@
+{
+  "mode": "async_raw_data",
+  "max_concurrent_areas": 10,
+  "total_areas": 11,
+  "total_papers_raw": 84493,
+  "note": "Raw data without deduplication - papers may appear multiple times across areas",
+  "areas": [
+    {
+      "area": "Evaluations_Dangerous_Capabilities",
+      "queries": 9,
+      "papers": 571
+    },
+    {
+      "area": "Scalable_Oversight",
+      "queries": 9,
+      "papers": 384
+    },
+    {
+      "area": "Cooperative_AI",
+      "queries": 9,
+      "papers": 2752
+    },
+    {
+      "area": "AI_Governance_Policy",
+      "queries": 9,
+      "papers": 4419
+    },
+    {
+      "area": "Mechanistic_Interpretability",
+      "queries": 9,
+      "papers": 5607
+    },
+    {
+      "area": "Agent_Foundations",
+      "queries": 9,
+      "papers": 6741
+    },
+    {
+      "area": "Value_Learning_Alignment",
+      "queries": 9,
+      "papers": 4801
+    },
+    {
+      "area": "Compute_Governance",
+      "queries": 9,
+      "papers": 5038
+    },
+    {
+      "area": "Adversarial_Robustness",
+      "queries": 9,
+      "papers": 15121
+    },
+    {
+      "area": "Technical_Governance",
+      "queries": 7,
+      "papers": 17948
+    },
+    {
+      "area": "Alignment_Theory",
+      "queries": 9,
+      "papers": 21111
+    }
+  ]
+}
