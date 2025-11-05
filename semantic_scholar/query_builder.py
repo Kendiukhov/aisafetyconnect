@@ -51,18 +51,32 @@ def build_queries_by_area(
         # Query nivel 1: Solo área
         queries.append(area_name)
 
-        # Query nivel 2: Área + Primary Fields
+        # Query nivel 2 y 3: Área + Primary Fields + Subfields
         for field_dict in payload.get("Primary_Fields", []):
             for field_name, subfields in field_dict.items():
-                query = f"{area_name} {field_name}"
-                queries.append(query)
+                # Nivel 2: Área + Field
+                query_level2 = f"{area_name} {field_name}"
+                queries.append(query_level2)
 
-        # Query nivel 2: Área + Secondary Fields (opcional)
+                # Nivel 3: Área + Field + Subfield
+                if subfields and isinstance(subfields, list):
+                    for subfield in subfields:
+                        query_level3 = f"{area_name} {field_name} {subfield}"
+                        queries.append(query_level3)
+
+        # Query nivel 2 y 3: Área + Secondary Fields + Subfields (opcional)
         if include_secondary:
             for field_dict in payload.get("Secondary_Fields", []):
                 for field_name, subfields in field_dict.items():
-                    query = f"{area_name} {field_name}"
-                    queries.append(query)
+                    # Nivel 2: Área + Field
+                    query_level2 = f"{area_name} {field_name}"
+                    queries.append(query_level2)
+
+                    # Nivel 3: Área + Field + Subfield
+                    if subfields and isinstance(subfields, list):
+                        for subfield in subfields:
+                            query_level3 = f"{area_name} {field_name} {subfield}"
+                            queries.append(query_level3)
 
         queries_by_area[area_key] = queries
         logger.info(f"Área '{area_key}': {len(queries)} queries generadas")

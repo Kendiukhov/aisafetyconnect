@@ -1,0 +1,3 @@
+name: aisafetyconnect-infrastructure
+runtime: python
+description: Infrastructure for AI Safety Connect data pipeline (Semantic Scholar extraction Lambda)

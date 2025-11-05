@@ -1,0 +1,6 @@
+config:
+  aws:region: us-east-1
+  aisafetyconnect:s3-bucket: aisafetyconnect-raw-dev
+  # IMPORTANT: Set this before deploying:
+  # pulumi config set --secret aisafetyconnect:semantic-scholar-api-key YOUR_API_KEY
+  # aisafetyconnect:semantic-scholar-api-key: <will be set via CLI>
