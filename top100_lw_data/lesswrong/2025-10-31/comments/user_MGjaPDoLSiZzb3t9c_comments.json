@@ -1,0 +1,647 @@
+[
+  {
+    "_id": "RCGCec76iMKzJFLii",
+    "postId": "r68nCQK3veQtCdqGt",
+    "parentCommentId": "4dgkYLxr3qevvKqEA",
+    "topLevelCommentId": "86gccY4RLabij9Q8q",
+    "contents": {
+      "markdown": "Yeah, makes sense.\n\nLetting users submit hooks could potentially be workable from a security angle. For the most part, there's only a small number of very simple operations that are necessary for interacting with activations. nnsight transforms the submitted hooks into an intervention graph before running it on the remote server, and the nnsight engineers that I've talked to thought that there wasn't much risk of malicious code execution due to the simplicity of the operations that they allow.\n\nHowever, this is still a far larger attack surface than no remote code execution at all, so it's plausible this would not be worth it for security reasons.",
+      "plaintextDescription": "Yeah, makes sense.\n\nLetting users submit hooks could potentially be workable from a security angle. For the most part, there's only a small number of very simple operations that are necessary for interacting with activations. nnsight transforms the submitted hooks into an intervention graph before running it on the remote server, and the nnsight engineers that I've talked to thought that there wasn't much risk of malicious code execution due to the simplicity of the operations that they allow.\n\nHowever, this is still a far larger attack surface than no remote code execution at all, so it's plausible this would not be worth it for security reasons."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T23:26:58.279Z",
+    "af": false
+  },
+  {
+    "_id": "Qbe9HbiYMzmArXCuw",
+    "postId": "r68nCQK3veQtCdqGt",
+    "parentCommentId": "TEdP2ZB9aYgf5bh5c",
+    "topLevelCommentId": "86gccY4RLabij9Q8q",
+    "contents": {
+      "markdown": "In nnsight hooks are submitted via an API to run on a remote machine, and the computation is performed on the same computer as the one doing the inference. They do some validation to ensure that it's only legit Pytorch stuff, so it isn't just arbitrary code execution.",
+      "plaintextDescription": "In nnsight hooks are submitted via an API to run on a remote machine, and the computation is performed on the same computer as the one doing the inference. They do some validation to ensure that it's only legit Pytorch stuff, so it isn't just arbitrary code execution."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T19:31:06.083Z",
+    "af": true
+  },
+  {
+    "_id": "aqThKNBMqP9Exo6uy",
+    "postId": "r68nCQK3veQtCdqGt",
+    "parentCommentId": "yctfaDS8iXrJjFLd3",
+    "topLevelCommentId": "86gccY4RLabij9Q8q",
+    "contents": {
+      "markdown": "I'm guessing most modern interp work should be fine. Interp has moved away from \"let's do this complicated patching of attention head patterns between prompts\" to basically only interacting with residual stream activations. You can easily do this with e.g. pytorch hooks, even in modern inference engines like vLLM. The amount of computation performed in a hook is usually trivial - I never have noticed a slowdown in my vLLM generations when using hooks.\n\nBecause of this, I don't think batched execution would be a problem - you'd probably want some validation in the hook so it can only interact with activations from the user's prompt.\n\nThere's also [nnsight](https://nnsight.net/), which already supports remote execution of pytorch hooks on models hosted on Bau Lab machines through an API. I think they do some validation to ensure users can't do anything malicious.\n\nYou would need some process to handle the activation data, because it's large. If I'm training a probe on 1M activations, with d_model = 10k and bfloat16, then this is 20GB of data. SAEs are commonly trained on 500M + activations. We probably don't want the user to have access to this locally, but they probably want to do some analysis on it.",
+      "plaintextDescription": "I'm guessing most modern interp work should be fine. Interp has moved away from \"let's do this complicated patching of attention head patterns between prompts\" to basically only interacting with residual stream activations. You can easily do this with e.g. pytorch hooks, even in modern inference engines like vLLM. The amount of computation performed in a hook is usually trivial - I never have noticed a slowdown in my vLLM generations when using hooks.\n\nBecause of this, I don't think batched execution would be a problem - you'd probably want some validation in the hook so it can only interact with activations from the user's prompt.\n\nThere's also nnsight, which already supports remote execution of pytorch hooks on models hosted on Bau Lab machines through an API. I think they do some validation to ensure users can't do anything malicious.\n\nYou would need some process to handle the activation data, because it's large. If I'm training a probe on 1M activations, with d_model = 10k and bfloat16, then this is 20GB of data. SAEs are commonly trained on 500M + activations. We probably don't want the user to have access to this locally, but they probably want to do some analysis on it."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T19:01:36.727Z",
+    "af": true
+  },
+  {
+    "_id": "iLBnejCBNHSejopHi",
+    "postId": "tteRbMo2iZ9rs9fXG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In Minnesota many people I know buy their beef from local farmers, where they can view the cows when buying the meat at the farm. From what I've heard the cows appear to be healthy and happy, and the prices are typically cheaper than the grocery store if buying in bulk.",
+      "plaintextDescription": "In Minnesota many people I know buy their beef from local farmers, where they can view the cows when buying the meat at the farm. From what I've heard the cows appear to be healthy and happy, and the prices are typically cheaper than the grocery store if buying in bulk."
+    },
+    "baseScore": 22,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-09-26T03:56:07.938Z",
+    "af": false
+  },
+  {
+    "_id": "46Zmq5oM3yeqTcwyQ",
+    "postId": "25JGNnT9Kg4aN5N5s",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I would be interested to see this experiment replicated with a different model, like Claude 4.1 Opus or GPT-5. Claude 3.7 Sonnet is perhaps the most notorious LLM in terms of ignoring user intent and propensity to reward hack when writing code.",
+      "plaintextDescription": "I would be interested to see this experiment replicated with a different model, like Claude 4.1 Opus or GPT-5. Claude 3.7 Sonnet is perhaps the most notorious LLM in terms of ignoring user intent and propensity to reward hack when writing code."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-14T18:49:39.266Z",
+    "af": false
+  },
+  {
+    "_id": "ecezvdW4mLHkMvuL2",
+    "postId": "dwEgSEPxpKjz3Fw5k",
+    "parentCommentId": "rgJLofaKpAYEnHaZ3",
+    "topLevelCommentId": "rgJLofaKpAYEnHaZ3",
+    "contents": {
+      "markdown": "I believe this is mistaken (I'm the first author from the paper). For Claude 4 Sonnet, we used the reasoning tokens provided from the API. The other tested models do not provide reasoning tokens, so we instead had the models just output a chain of thought.\n\nI think this could be better communicated in the paper - we only performed this step of analyzing the RL trained reasoning in the Chain of Thought faithfulness section, as most models used in the paper do not provide the reasoning tokens.",
+      "plaintextDescription": "I believe this is mistaken (I'm the first author from the paper). For Claude 4 Sonnet, we used the reasoning tokens provided from the API. The other tested models do not provide reasoning tokens, so we instead had the models just output a chain of thought.\n\nI think this could be better communicated in the paper - we only performed this step of analyzing the RL trained reasoning in the Chain of Thought faithfulness section, as most models used in the paper do not provide the reasoning tokens."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-10T06:29:23.091Z",
+    "af": false
+  },
+  {
+    "_id": "jGmazuJAKz4pDXm8x",
+    "postId": "m5XzhbZjEuF9uRgGR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Interesting!\n\nI'm a bit surprised by this, as the original paper has the following number shuffling result, which would indicate that the primary mechanism is sequence level:\n\n\"Figure 16: Average animal transmission when shuffling numbers across model responses. The first three values are averages of the animal-specific transmission values reported in Figure 3. “Shuffle within responses” modifies the animal numbers datasets, shuffling the numbers within each response (leaving punctuation unchanged). “Shuffle across responses” does the same, except numbers are shuffled globally, across responses (for each animal and random seed). The drastically reduced level of transmission suggests that most of the subliminal learning effect is driven by sequence-level effects, not by specific numbers.\"\n\nPossibly the effect happens due to a combination of sequence level effects and entangled tokens, where removing the entangled tokens also has a sequence level effect.\n\n~Although I'm not sure if the shuffling was across entire numbers or individual digits, like~\n\nEDIT: I have confirmed with Alex Cloud that they rearranged the numbers, rather than shuffling them.\n\nThat is, the shuffle was \"12, 43, 55\" -> \"43, 55, 12\", not \"12, 43, 55\" -> \"21, 54, 35\"",
+      "plaintextDescription": "Interesting!\n\nI'm a bit surprised by this, as the original paper has the following number shuffling result, which would indicate that the primary mechanism is sequence level:\n\n\"Figure 16: Average animal transmission when shuffling numbers across model responses. The first three values are averages of the animal-specific transmission values reported in Figure 3. “Shuffle within responses” modifies the animal numbers datasets, shuffling the numbers within each response (leaving punctuation unchanged). “Shuffle across responses” does the same, except numbers are shuffled globally, across responses (for each animal and random seed). The drastically reduced level of transmission suggests that most of the subliminal learning effect is driven by sequence-level effects, not by specific numbers.\"\n\nPossibly the effect happens due to a combination of sequence level effects and entangled tokens, where removing the entangled tokens also has a sequence level effect.\n\nAlthough I'm not sure if the shuffling was across entire numbers or individual digits, like\n\nEDIT: I have confirmed with Alex Cloud that they rearranged the numbers, rather than shuffling them.\n\nThat is, the shuffle was \"12, 43, 55\" -> \"43, 55, 12\", not \"12, 43, 55\" -> \"21, 54, 35\""
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-06T23:23:18.717Z",
+    "af": false
+  },
+  {
+    "_id": "tw4x2R8uRPJKrBjcR",
+    "postId": "me7wFrkEtMbkzXGJt",
+    "parentCommentId": "vdjtc8t5hzg69A6iK",
+    "topLevelCommentId": "vdjtc8t5hzg69A6iK",
+    "contents": {
+      "markdown": "No, I didn't test a fine-tuning baseline, but it would be a good test to run.\n\nI have a few thoughts:\n\n- It may not work to fine-tune on the same datasets we collected the directions from. We collected the directions from a synthetically generated discrimination dataset from Anthropic. On this simple dataset, all models are already unbiased, so the fine-tuning wouldn't be changing the behavior of the models at all. So, you may need a more complex fine-tuning dataset where the models already exhibit bias.\n\n- Given that all models are unbiased on these existing evals, I'm guessing this didn't happen by chance, and the labs have already put in effort to address bias. I would guess a decent amount of post training has already went into reducing bias.\n\n- The interpretability intervention generalized almost perfectly to every scenario we tested (bias rates typically under 1%), so you may need to push to further OOD scenarios to notice a difference.",
+      "plaintextDescription": "No, I didn't test a fine-tuning baseline, but it would be a good test to run.\n\nI have a few thoughts:\n\n * It may not work to fine-tune on the same datasets we collected the directions from. We collected the directions from a synthetically generated discrimination dataset from Anthropic. On this simple dataset, all models are already unbiased, so the fine-tuning wouldn't be changing the behavior of the models at all. So, you may need a more complex fine-tuning dataset where the models already exhibit bias.\n\n * Given that all models are unbiased on these existing evals, I'm guessing this didn't happen by chance, and the labs have already put in effort to address bias. I would guess a decent amount of post training has already went into reducing bias.\n\n * The interpretability intervention generalized almost perfectly to every scenario we tested (bias rates typically under 1%), so you may need to push to further OOD scenarios to notice a difference."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-03T22:42:27.623Z",
+    "af": false
+  },
+  {
+    "_id": "uGgifmncNAXeaGW9c",
+    "postId": "me7wFrkEtMbkzXGJt",
+    "parentCommentId": "JqiZLPBbcTrvoYLsu",
+    "topLevelCommentId": "JqiZLPBbcTrvoYLsu",
+    "contents": {
+      "markdown": "No, but it would be interesting to test this.",
+      "plaintextDescription": "No, but it would be interesting to test this."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-03T22:28:27.702Z",
+    "af": false
+  },
+  {
+    "_id": "GjEQPxQhwbouJHMNi",
+    "postId": "me7wFrkEtMbkzXGJt",
+    "parentCommentId": "Xi6torvdA8zAvZCLd",
+    "topLevelCommentId": "Xi6torvdA8zAvZCLd",
+    "contents": {
+      "markdown": "That's a fair point.\n\nIn this paper I was also examining the robustness of existing hiring bias evaluations when adding realistic detail, which limited our degrees of freedom. The dataset from the evaluation had a bunch of IT industry resumes, but across a wide range of experience and skillsets. I considered adding job descriptions, but the majority of candidates wouldn't be well matched for any given specific job, which would limit our ability to evaluate many candidates under a single prompt for simplicity.\n\nI agree that it would be good to extend this work to complex and realistic job descriptions.",
+      "plaintextDescription": "That's a fair point.\n\nIn this paper I was also examining the robustness of existing hiring bias evaluations when adding realistic detail, which limited our degrees of freedom. The dataset from the evaluation had a bunch of IT industry resumes, but across a wide range of experience and skillsets. I considered adding job descriptions, but the majority of candidates wouldn't be well matched for any given specific job, which would limit our ability to evaluate many candidates under a single prompt for simplicity.\n\nI agree that it would be good to extend this work to complex and realistic job descriptions."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-03T22:27:37.918Z",
+    "af": false
+  },
+  {
+    "_id": "vp5xNCBuujFXfszi2",
+    "postId": "me7wFrkEtMbkzXGJt",
+    "parentCommentId": "nrTujHgRDzDjQrj9o",
+    "topLevelCommentId": "nrTujHgRDzDjQrj9o",
+    "contents": {
+      "markdown": "That is a pretty plausible hypothesis. There was one wrinkle that I am less confident about:\n\nIf we included something like \"This is a competitive position, we only want to interview the top 10% of candidates\" in the prompt, bias rates would increase significantly in some scenarios. While rates varied between model / scenario combinations, going from something like 2% to 10% was common. I don't have a strong guess as to why this happens.",
+      "plaintextDescription": "That is a pretty plausible hypothesis. There was one wrinkle that I am less confident about:\n\nIf we included something like \"This is a competitive position, we only want to interview the top 10% of candidates\" in the prompt, bias rates would increase significantly in some scenarios. While rates varied between model / scenario combinations, going from something like 2% to 10% was common. I don't have a strong guess as to why this happens."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-02T22:13:03.946Z",
+    "af": false
+  },
+  {
+    "_id": "aCns3zWkCexRdnLE8",
+    "postId": "auKWgpdiBwreB62Kh",
+    "parentCommentId": "gYPL65znCPnt8qsig",
+    "topLevelCommentId": "gYPL65znCPnt8qsig",
+    "contents": {
+      "markdown": "This could also be influenced / exacerbated by the fact that Deepseek R1 was trained in FP8 precision, so quantizing may partially be reverting to its original behavior.",
+      "plaintextDescription": "This could also be influenced / exacerbated by the fact that Deepseek R1 was trained in FP8 precision, so quantizing may partially be reverting to its original behavior."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-02T06:39:16.254Z",
+    "af": false
+  },
+  {
+    "_id": "HENEL36hYyDMyihKP",
+    "postId": "TGQrqqptazFeRfHBR",
+    "parentCommentId": "Po6dieh3ntNSW4pJp",
+    "topLevelCommentId": "Li7TuKHq94PE94dno",
+    "contents": {
+      "markdown": "I'm not sure - I only worked in a pretty narrow range of the manufacturing / engineering space, and I know there's a ton of domains out there that I'm not familiar with.\n\nI'm also don't think most of the problems are conceptual in the first place. As Elon Musk likes to say, making a working prototype is easy, and manufacturing at scale is at least 10-100x harder. Although maybe conceptual work would be required for building self replicating machines that only take raw material as input. I would typically think about robots achieving self replication by just building more robot factories. It seems pretty challenging for a self replicating machine to produce microchips or actuators from raw material, but maybe there's a way to get around this.",
+      "plaintextDescription": "I'm not sure - I only worked in a pretty narrow range of the manufacturing / engineering space, and I know there's a ton of domains out there that I'm not familiar with.\n\nI'm also don't think most of the problems are conceptual in the first place. As Elon Musk likes to say, making a working prototype is easy, and manufacturing at scale is at least 10-100x harder. Although maybe conceptual work would be required for building self replicating machines that only take raw material as input. I would typically think about robots achieving self replication by just building more robot factories. It seems pretty challenging for a self replicating machine to produce microchips or actuators from raw material, but maybe there's a way to get around this."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-20T03:44:28.795Z",
+    "af": false
+  },
+  {
+    "_id": "XFJBEHo7WyGQ3pk3W",
+    "postId": "TGQrqqptazFeRfHBR",
+    "parentCommentId": "LDDvyAZ8LnPtthZ6K",
+    "topLevelCommentId": "Li7TuKHq94PE94dno",
+    "contents": {
+      "markdown": "Yeah, this seems like a reasonable way to train a model that controls a robot. I was addressing the verifier for mechanical designs, and I'm not sure if it's possible to verify mechanical designs to the same level as the output of computer programs.",
+      "plaintextDescription": "Yeah, this seems like a reasonable way to train a model that controls a robot. I was addressing the verifier for mechanical designs, and I'm not sure if it's possible to verify mechanical designs to the same level as the output of computer programs."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-20T03:35:56.632Z",
+    "af": false
+  },
+  {
+    "_id": "Bs6ugkNu37kuT92ej",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "dcywBQSn8THMyJSns",
+    "topLevelCommentId": "88hRTbJAZsp7Tdgwa",
+    "contents": {
+      "markdown": "I would guess that OpenAI has trained on GeoGuessr. It should be pretty easy to implement - just take images off the web which have location metadata attached, and train to predict the location. Plausibly getting good at Geoguessr imbues some world knowledge.",
+      "plaintextDescription": "I would guess that OpenAI has trained on GeoGuessr. It should be pretty easy to implement - just take images off the web which have location metadata attached, and train to predict the location. Plausibly getting good at Geoguessr imbues some world knowledge."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-20T03:31:57.639Z",
+    "af": false
+  },
+  {
+    "_id": "DtaZ8cfgwg3Ncd8A6",
+    "postId": "TGQrqqptazFeRfHBR",
+    "parentCommentId": "f8oPj2HrpYedJe8MN",
+    "topLevelCommentId": "Li7TuKHq94PE94dno",
+    "contents": {
+      "markdown": "Everything about high fidelity simulations would be a pain. For the chips thing, you would have to simulate how chips get thrown as the cutting tool removes material. I wouldn't be surprised if accurately modeling this required going down the level of atoms, especially as there's many types of material, cutting tools, cutting tool geometry, etc. This would be insanely expensive and annoying. The simulation also wouldn't exactly match the real world, basically ever. The cutting edge of the tool very slowly wears, so even if the simulation was perfect at the beginning, it would be inaccurate once the tool begins to wear.\n\nYou could probably develop some heuristics that don't require as accurate of simulation, but it would still be a lot of work and wouldn't exactly match the real world. Many important forces like friction and elasticity are really difficult to simulate. And making CAD models of everything is super tedious, so we mostly make models that are good enough, never exact.",
+      "plaintextDescription": "Everything about high fidelity simulations would be a pain. For the chips thing, you would have to simulate how chips get thrown as the cutting tool removes material. I wouldn't be surprised if accurately modeling this required going down the level of atoms, especially as there's many types of material, cutting tools, cutting tool geometry, etc. This would be insanely expensive and annoying. The simulation also wouldn't exactly match the real world, basically ever. The cutting edge of the tool very slowly wears, so even if the simulation was perfect at the beginning, it would be inaccurate once the tool begins to wear.\n\nYou could probably develop some heuristics that don't require as accurate of simulation, but it would still be a lot of work and wouldn't exactly match the real world. Many important forces like friction and elasticity are really difficult to simulate. And making CAD models of everything is super tedious, so we mostly make models that are good enough, never exact."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-18T02:18:22.648Z",
+    "af": false
+  },
+  {
+    "_id": "Li7TuKHq94PE94dno",
+    "postId": "TGQrqqptazFeRfHBR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Getting to the point where mechanical engineering is \"easy to verify\" seems extremely challenging to me. I used to work in manufacturing. Basically everyone I know in the field has completely valid complaints about mechanical engineers who are mostly familiar with CAD, simulations, and textbook formulas, because they design parts that ignore real world manufacturing constraints. AI that designs with simulations seems likely to produce the same result.\n\nAdditionally, I would guess that today's humanoid robots are already good enough on the mechanical side, and they could become self replicating if they were just more intelligent and dextrous.\n\nOne example of the sort of problem that could be difficult to simulate: I was working on a process where a robot automatically loaded parts into a CNC machine. The CNC machine produced metal chips as it removed material from the part. The chips would typically be cleared away by a stream of coolant from a mounted hose. Under certain angles of the hose, chips would accumulate in the wrong locations over the course of multiple hours, interfering with the robot's placement of the part. Even if the hoses were initially positioned correctly, they could move because someone bumped it when inspecting something or due to vibration.\n\nSimulating how chips come off the part, how coolant flow moves them in the machine, etc, requires an incredible level of fidelity in the simulation and could be potentially intractable to simulate. And this is a very constrained manufacturing task that doesn't really have to interact with the real world at all.\n\nIn general, prototyping something that works is just pretty easy. The challenge is more:\n\n- How to manufacture something that will be reliable over the course of many years, even when falling, being exposed to dust and water, etc?\n- How to manufacture something efficiently at a good price and quality?\n- etc\n\nI had some discussion on AI and the physical world here: https://www.lesswrong.com/posts/r3NeiHAEWyToers4F/frontier-ai-models-still-fail-at-basic-physical-tasks-a",
+      "plaintextDescription": "Getting to the point where mechanical engineering is \"easy to verify\" seems extremely challenging to me. I used to work in manufacturing. Basically everyone I know in the field has completely valid complaints about mechanical engineers who are mostly familiar with CAD, simulations, and textbook formulas, because they design parts that ignore real world manufacturing constraints. AI that designs with simulations seems likely to produce the same result.\n\nAdditionally, I would guess that today's humanoid robots are already good enough on the mechanical side, and they could become self replicating if they were just more intelligent and dextrous.\n\nOne example of the sort of problem that could be difficult to simulate: I was working on a process where a robot automatically loaded parts into a CNC machine. The CNC machine produced metal chips as it removed material from the part. The chips would typically be cleared away by a stream of coolant from a mounted hose. Under certain angles of the hose, chips would accumulate in the wrong locations over the course of multiple hours, interfering with the robot's placement of the part. Even if the hoses were initially positioned correctly, they could move because someone bumped it when inspecting something or due to vibration.\n\nSimulating how chips come off the part, how coolant flow moves them in the machine, etc, requires an incredible level of fidelity in the simulation and could be potentially intractable to simulate. And this is a very constrained manufacturing task that doesn't really have to interact with the real world at all.\n\nIn general, prototyping something that works is just pretty easy. The challenge is more:\n\n * How to manufacture something that will be reliable over the course of many years, even when falling, being exposed to dust and water, etc?\n * How to manufacture something efficiently at a good price and quality?\n * etc\n\nI had some discussion on AI and the physical world here: https://www.lesswrong.com/posts/"
+    },
+    "baseScore": 31,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-05-17T20:55:55.072Z",
+    "af": false
+  },
+  {
+    "_id": "P2f5ytXv4s7hP68GM",
+    "postId": "8aPyKyRrMAQatFSnG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Model Vision of Pokémon Red is Bad. Really Bad.\n\nInteresting that you found this to be the case! I recently had a [post](https://www.lesswrong.com/posts/r3NeiHAEWyToers4F/frontier-ai-models-still-fail-at-basic-physical-tasks-a) about evaluating LLMs on a basic manufacturing task, and I also found this to be the case. It's always a bit jarring for me to go from the text / code domain, where the LLMs feel so competent, to the vision domain, where I start to feel like Gary Marcus because the LLMs are so bad.\n\nRelevant quote from my post:  \n  \n\"**Most Models Have Truly Horrible Visual Abilities:** For two years, I've observed essentially zero improvement in visual capabilities among models from Anthropic and OpenAI. They always miss obvious features like the flats cut into the round surface, holes, or even hallucinate nonexistent features such as holes drilled along the part’s length. I have never seen Claude 3.5, Claude 3.7 (thinking and non-thinking), GPT-4.5, GPT-4o, or O1-Pro produce a reasonable description of the part. Without vision abilities, creating a manufacturing plan is completely hopeless.\n\nInterestingly, many of these models also score at or above the level of some human experts on visual reasoning benchmarks like [MMMU](https://mmmu-benchmark.github.io/#leaderboard). That which is easy to measure often doesn't correlate with real world usefulness.\"\n\nNote that Gemini 2.5 Pro and O3 both are a signficant improvement in vision for this particular eval.",
+      "plaintextDescription": "> Model Vision of Pokémon Red is Bad. Really Bad.\n\nInteresting that you found this to be the case! I recently had a post about evaluating LLMs on a basic manufacturing task, and I also found this to be the case. It's always a bit jarring for me to go from the text / code domain, where the LLMs feel so competent, to the vision domain, where I start to feel like Gary Marcus because the LLMs are so bad.\n\nRelevant quote from my post:\n\n\"Most Models Have Truly Horrible Visual Abilities: For two years, I've observed essentially zero improvement in visual capabilities among models from Anthropic and OpenAI. They always miss obvious features like the flats cut into the round surface, holes, or even hallucinate nonexistent features such as holes drilled along the part’s length. I have never seen Claude 3.5, Claude 3.7 (thinking and non-thinking), GPT-4.5, GPT-4o, or O1-Pro produce a reasonable description of the part. Without vision abilities, creating a manufacturing plan is completely hopeless.\n\nInterestingly, many of these models also score at or above the level of some human experts on visual reasoning benchmarks like MMMU. That which is easy to measure often doesn't correlate with real world usefulness.\"\n\nNote that Gemini 2.5 Pro and O3 both are a signficant improvement in vision for this particular eval."
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-04-21T16:01:19.924Z",
+    "af": false
+  },
+  {
+    "_id": "bKDbWtZ7gdwFCdJwS",
+    "postId": "r3NeiHAEWyToers4F",
+    "parentCommentId": "cS6FbdECATfaKTNpc",
+    "topLevelCommentId": "cS6FbdECATfaKTNpc",
+    "contents": {
+      "markdown": "I don't think image understanding is the bottleneck. O3 and O4-mini-high seem like they are a meaningful improvement in vision, where it's almost good enough for this part, but they still fail miserably at the physical reasoning aspects.\n\nThis person got O4-mini-high to generate a reasonably close image depiction of the part.\n\nhttps://x.com/tombielecki/status/1912913806541693253",
+      "plaintextDescription": "I don't think image understanding is the bottleneck. O3 and O4-mini-high seem like they are a meaningful improvement in vision, where it's almost good enough for this part, but they still fail miserably at the physical reasoning aspects.\n\nThis person got O4-mini-high to generate a reasonably close image depiction of the part.\n\nhttps://x.com/tombielecki/status/1912913806541693253"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-17T20:45:04.764Z",
+    "af": false
+  },
+  {
+    "_id": "x8KCDeXerD7s4bi3H",
+    "postId": "r3NeiHAEWyToers4F",
+    "parentCommentId": "H7dEh4KHjKBD9euuD",
+    "topLevelCommentId": "H7dEh4KHjKBD9euuD",
+    "contents": {
+      "markdown": "I also tested [O3](https://github.com/adamkarvonen/adamkarvonen.github.io/blob/main/files/manufacturing_eval/o3_plan.md), and it looks better than Gemini 2.5 on Vision. Although it missed the second flat, it correctly identified that the ends had different diameters and picked up on some genuinely impressive details, like the grooved thread relief behind the larger thread.\n\nHowever, it's still terrible at spatial reasoning. I now feel more confident in the argument in my post. It proposes many egregious, physically impossible operations. For example, it recommends to enclose 2.2 inches of the part in the collet, and then face the part down to the finished length of 2.000 inches. This is obviously impossible, as the part is buried 0.2 inches within the collet. It also makes bizarre decisions, like clamping on the threads for the second lathe op, when the main diameter is obviously a much better location for rigidity / simplicity. It does correctly identify the chatter issue, FWIW.\n\nIt feels a bit worse than Gemini's plan overall, but this is hard to evaluate. It's basically \"here are two plans with multiple egregious errors, which one is worse?\". I've also noticed that basically any time I ask an LLM for more specific details on a high level part of the plan that looks reasonable, it begins to make many egregious errors. So, a large part of how bad the plan is just revolves around how much detail the LLM goes into.",
+      "plaintextDescription": "I also tested O3, and it looks better than Gemini 2.5 on Vision. Although it missed the second flat, it correctly identified that the ends had different diameters and picked up on some genuinely impressive details, like the grooved thread relief behind the larger thread.\n\nHowever, it's still terrible at spatial reasoning. I now feel more confident in the argument in my post. It proposes many egregious, physically impossible operations. For example, it recommends to enclose 2.2 inches of the part in the collet, and then face the part down to the finished length of 2.000 inches. This is obviously impossible, as the part is buried 0.2 inches within the collet. It also makes bizarre decisions, like clamping on the threads for the second lathe op, when the main diameter is obviously a much better location for rigidity / simplicity. It does correctly identify the chatter issue, FWIW.\n\nIt feels a bit worse than Gemini's plan overall, but this is hard to evaluate. It's basically \"here are two plans with multiple egregious errors, which one is worse?\". I've also noticed that basically any time I ask an LLM for more specific details on a high level part of the plan that looks reasonable, it begins to make many egregious errors. So, a large part of how bad the plan is just revolves around how much detail the LLM goes into."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-16T19:08:53.322Z",
+    "af": false
+  },
+  {
+    "_id": "KkHSHKxMJXLb7ahXB",
+    "postId": "r3NeiHAEWyToers4F",
+    "parentCommentId": "irFBdxLWzxni7DW59",
+    "topLevelCommentId": "irFBdxLWzxni7DW59",
+    "contents": {
+      "markdown": "I do agree that it looks like there has been a lack of data to address this ability. That being said, I'm pretty surprised at how terrible models are, and there's a hierarchy of problems to be addressed here before models are actually useful in the physical world. Each step feels much more difficult than the step before, and all models are completely terrible at steps 2-4.\n\n1. First, simply look at a part and identify features / if a part is symmetric / etc. This requires basically no spatial reasoning ability, yet almost all models are completely terrible. Even Gemini is very bad. I'm pretty surprised that this ability didn't just fall out of scaling on data, but it does seem like this could be easily addressed with synthetic data.\n\n2. Have some basic spatial reasoning ability where you can propose operations that are practical and aren't physically impossible. This is much more challenging. First, it could be difficult to automatically generate practical solutions. Secondly, it may require moving beyond text chain of thought - when I walk through a setup, I don't use language at all and just visualize everything.\n\n3. Have an understanding of much of the tacit knowledge in machining, or rederive everything from first principles. Getting data could be especially challenging here.\n\n4. Once you can create a single part correctly, now propose multiple different ways to manufacture the part. Evaluate all of the different plans and choose the best combination of cost, simplicity, and speed. This is the part of the job that's actually challenging.",
+      "plaintextDescription": "I do agree that it looks like there has been a lack of data to address this ability. That being said, I'm pretty surprised at how terrible models are, and there's a hierarchy of problems to be addressed here before models are actually useful in the physical world. Each step feels much more difficult than the step before, and all models are completely terrible at steps 2-4.\n\n 1. First, simply look at a part and identify features / if a part is symmetric / etc. This requires basically no spatial reasoning ability, yet almost all models are completely terrible. Even Gemini is very bad. I'm pretty surprised that this ability didn't just fall out of scaling on data, but it does seem like this could be easily addressed with synthetic data.\n\n 2. Have some basic spatial reasoning ability where you can propose operations that are practical and aren't physically impossible. This is much more challenging. First, it could be difficult to automatically generate practical solutions. Secondly, it may require moving beyond text chain of thought - when I walk through a setup, I don't use language at all and just visualize everything.\n\n 3. Have an understanding of much of the tacit knowledge in machining, or rederive everything from first principles. Getting data could be especially challenging here.\n\n 4. Once you can create a single part correctly, now propose multiple different ways to manufacture the part. Evaluate all of the different plans and choose the best combination of cost, simplicity, and speed. This is the part of the job that's actually challenging."
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-04-16T16:05:12.805Z",
+    "af": false
+  },
+  {
+    "_id": "LbsMJHjeJjaEQpxxo",
+    "postId": "r3NeiHAEWyToers4F",
+    "parentCommentId": "HASDB8fmHAAdNwTz5",
+    "topLevelCommentId": "HASDB8fmHAAdNwTz5",
+    "contents": {
+      "markdown": "Hmm, I don't know. With the caveat that I'm not a legal expert, I do think there's a big difference between basically any job that can be done remotely most of the time and skilled physical labor jobs. I use LLMs for coding every day, and they still have tons of problems, but I do see significant progress happening. There is legitimate uncertainty over how long it will take for AIs to become reliable at tasks like coding.\n\nCoding and ML research also requires a lot of subjective taste, like writing easily understandable code with good abstractions or selecting approaches to a research problem. We also see companies like Harvey (legal AI) making over $50M in ARR, while I'm not aware of basically any useful manufacturing AI tools.",
+      "plaintextDescription": "Hmm, I don't know. With the caveat that I'm not a legal expert, I do think there's a big difference between basically any job that can be done remotely most of the time and skilled physical labor jobs. I use LLMs for coding every day, and they still have tons of problems, but I do see significant progress happening. There is legitimate uncertainty over how long it will take for AIs to become reliable at tasks like coding.\n\nCoding and ML research also requires a lot of subjective taste, like writing easily understandable code with good abstractions or selecting approaches to a research problem. We also see companies like Harvey (legal AI) making over $50M in ARR, while I'm not aware of basically any useful manufacturing AI tools."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-15T15:42:08.242Z",
+    "af": false
+  },
+  {
+    "_id": "AEromFnTxoBMYWokA",
+    "postId": "r3NeiHAEWyToers4F",
+    "parentCommentId": "HEyFqNvdPJB3Nwwjp",
+    "topLevelCommentId": "xrm3nsAat7p5EF7Sd",
+    "contents": {
+      "markdown": "Yeah, I agree. I currently feel like our current ML approach is going to make very little real world manufacturing progress, and that any progress will have to come from the automated AI researcher either brute forcing tons of synthetic data or coming up with new architectures and training procedures. \n\nBut, this is a low confidence take, and I wouldn't be shocked if a couple dumb tricks make a lot of progress.",
+      "plaintextDescription": "Yeah, I agree. I currently feel like our current ML approach is going to make very little real world manufacturing progress, and that any progress will have to come from the automated AI researcher either brute forcing tons of synthetic data or coming up with new architectures and training procedures.\n\nBut, this is a low confidence take, and I wouldn't be shocked if a couple dumb tricks make a lot of progress."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-15T15:15:50.015Z",
+    "af": false
+  },
+  {
+    "_id": "srjQadunvpnCEbp9v",
+    "postId": "r3NeiHAEWyToers4F",
+    "parentCommentId": "xrm3nsAat7p5EF7Sd",
+    "topLevelCommentId": "xrm3nsAat7p5EF7Sd",
+    "contents": {
+      "markdown": "This is an obvious step, but I'm a bit skeptical for a few reasons.\n\n- Current models are just so bad at vision tasks. Even Gemini 2.5 is pretty bad and falls apart if pushed to harder images. It really seems like identifying a feature on a part or if a part is symmetric is something that could be addressed by just scaling data, and these vision tasks are much easier than manufacturing details.\n\n- A lot of the work in manufacturing / construction would be in tactile details, which could be hard to capture with sensors. For example, a human finger can easily feel a step of 0.001 inches, which would be invisible on video, and I would often use this fine grained tactile detail when diagnosing problems.\n\n- The current reasoning paradigm requires scaling up RL. Where is the reward signal here? The most obvious thing I can think of is creating a bunch of simulated environments. But, almost all machinists I've talked to have (completely valid) complaints about engineers that understand textbook formulas and CAD but don't understand real world manufacturing constraints. Simulation environments seem likely to create AIs with the same shortcomings.",
+      "plaintextDescription": "This is an obvious step, but I'm a bit skeptical for a few reasons.\n\n * Current models are just so bad at vision tasks. Even Gemini 2.5 is pretty bad and falls apart if pushed to harder images. It really seems like identifying a feature on a part or if a part is symmetric is something that could be addressed by just scaling data, and these vision tasks are much easier than manufacturing details.\n\n * A lot of the work in manufacturing / construction would be in tactile details, which could be hard to capture with sensors. For example, a human finger can easily feel a step of 0.001 inches, which would be invisible on video, and I would often use this fine grained tactile detail when diagnosing problems.\n\n * The current reasoning paradigm requires scaling up RL. Where is the reward signal here? The most obvious thing I can think of is creating a bunch of simulated environments. But, almost all machinists I've talked to have (completely valid) complaints about engineers that understand textbook formulas and CAD but don't understand real world manufacturing constraints. Simulation environments seem likely to create AIs with the same shortcomings."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-15T14:42:03.969Z",
+    "af": false
+  },
+  {
+    "_id": "SxjduvFDAd7iFqGDE",
+    "postId": "jGG24BzLdYvi9dugm",
+    "parentCommentId": "rAFnesgTA4fvwdbYs",
+    "topLevelCommentId": "9tMFHgC8TPN5wcyGk",
+    "contents": {
+      "markdown": "A $1 training run would be training 6 SAEs across 6 sparsities at 16K width on Gemma-2-2B for 200M tokens. This includes generating the activations, and it would be cheaper if the activations are precomputed. In practice this seems like large enough scale to validate ideas such as the Matryoshka SAE or the BatchTopK SAE.",
+      "plaintextDescription": "A $1 training run would be training 6 SAEs across 6 sparsities at 16K width on Gemma-2-2B for 200M tokens. This includes generating the activations, and it would be cheaper if the activations are precomputed. In practice this seems like large enough scale to validate ideas such as the Matryoshka SAE or the BatchTopK SAE."
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-24T16:17:33.637Z",
+    "af": false
+  },
+  {
+    "_id": "RJTD44WiqKfgACyHT",
+    "postId": "jGG24BzLdYvi9dugm",
+    "parentCommentId": "9tMFHgC8TPN5wcyGk",
+    "topLevelCommentId": "9tMFHgC8TPN5wcyGk",
+    "contents": {
+      "markdown": "SAEs are early enough that there's tons of low hanging fruit and ideas to try. They also require relatively little compute (often around $1 for a training run), so AI agents could afford to test many ideas. I wouldn't be surprised if SAE improvements were a good early target for automated AI research, especially if the feedback loop is just \"Come up with idea, modify existing loss function, train, evaluate, get a quantitative result\".",
+      "plaintextDescription": "SAEs are early enough that there's tons of low hanging fruit and ideas to try. They also require relatively little compute (often around $1 for a training run), so AI agents could afford to test many ideas. I wouldn't be surprised if SAE improvements were a good early target for automated AI research, especially if the feedback loop is just \"Come up with idea, modify existing loss function, train, evaluate, get a quantitative result\"."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-23T00:56:21.722Z",
+    "af": false
+  },
+  {
+    "_id": "GHobLg28wfDKS7Nt9",
+    "postId": "Qj8DQjsSK4LrkwLvo",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "If you're looking for a hackable SAE training repo for experiments, I'd recommend our dictionary_learning repo. It's been around for a few months, but we've recently spent some time cleaning it up and adding additional trainer types.\n\nIt's designed to be simple and hackable - you can add a new SAE type in a single file (~350 lines). We have 8 tested implementations, including JumpReLU, TopK, BatchTopK, Matryoshka, Gated, and others, with BatchTopK recommended as a good default. Training is quick and cheap - training 6 16K width SAEs on Gemma-2-2B for 200M tokens takes ~6 3090 hours, or ~$1.20.\n\nThe repo integrates with SAE Bench and includes reproducible baselines trained on Pythia-160M and Gemma-2-2B. While it's not optimized for large models like Eleuther's (no Cuda kernels/multi-GPU support) and has fewer features than SAE Lens, it's great for experiments and trying new architectures.\n\nHere is a link to the repo: https://github.com/saprmarks/dictionary_learning",
+      "plaintextDescription": "If you're looking for a hackable SAE training repo for experiments, I'd recommend our dictionary_learning repo. It's been around for a few months, but we've recently spent some time cleaning it up and adding additional trainer types.\n\nIt's designed to be simple and hackable - you can add a new SAE type in a single file (~350 lines). We have 8 tested implementations, including JumpReLU, TopK, BatchTopK, Matryoshka, Gated, and others, with BatchTopK recommended as a good default. Training is quick and cheap - training 6 16K width SAEs on Gemma-2-2B for 200M tokens takes ~6 3090 hours, or ~$1.20.\n\nThe repo integrates with SAE Bench and includes reproducible baselines trained on Pythia-160M and Gemma-2-2B. While it's not optimized for large models like Eleuther's (no Cuda kernels/multi-GPU support) and has fewer features than SAE Lens, it's great for experiments and trying new architectures.\n\nHere is a link to the repo: https://github.com/saprmarks/dictionary_learning"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-18T17:11:46.329Z",
+    "af": false
+  },
+  {
+    "_id": "5cCPFfaSZwptAKKe9",
+    "postId": "auKWgpdiBwreB62Kh",
+    "parentCommentId": "fcNf2nFBG2Fw5xbeK",
+    "topLevelCommentId": "8NxJy6XczsLDDnGyi",
+    "contents": {
+      "markdown": "The forward hook for our best performing approach is [here](https://github.com/tilde-research/sieve/blob/main/src/wrapper.py#L258). As Sam mentioned, this hasn’t been deployed to production. We left it as a case study because Benchify is currently prioritizing other parts of their stack unrelated to ML.\n\nFor this demonstration, we added a forward hook to a HuggingFace Transformers model for simplicity, rather than incorporating it into a production inference stack.",
+      "plaintextDescription": "The forward hook for our best performing approach is here. As Sam mentioned, this hasn’t been deployed to production. We left it as a case study because Benchify is currently prioritizing other parts of their stack unrelated to ML.\n\nFor this demonstration, we added a forward hook to a HuggingFace Transformers model for simplicity, rather than incorporating it into a production inference stack."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-17T18:41:14.771Z",
+    "af": false
+  },
+  {
+    "_id": "Hcs6ez9D2ScCpFzCm",
+    "postId": "auKWgpdiBwreB62Kh",
+    "parentCommentId": "rM3jTi8eSfwtLtqco",
+    "topLevelCommentId": "8NxJy6XczsLDDnGyi",
+    "contents": {
+      "markdown": "Rejection sampling is a strong baseline that we hadn’t considered, and it’s definitely worth trying out—I suspect it will perform well here. Currently, our focus is on identifying additional in-the-wild tasks, particularly from other companies, as many of Benchify’s challenges involve sensitive details about their internal tooling that they prefer to keep private. We’re especially interested in tasks where it’s not possible to automatically measure success or failure via string matching, as this is where techniques like model steering are most likely to be the most practical.\n\nI also agree with Sam that rejection sampling would likely need to operate on entire blocks rather than individual lines. By the time an LLM generates a line containing a regular expression, it’s often already committed to that path—for example, it might have skipped importing required modules or creating the necessary variables to pursue an alternative solution.",
+      "plaintextDescription": "Rejection sampling is a strong baseline that we hadn’t considered, and it’s definitely worth trying out—I suspect it will perform well here. Currently, our focus is on identifying additional in-the-wild tasks, particularly from other companies, as many of Benchify’s challenges involve sensitive details about their internal tooling that they prefer to keep private. We’re especially interested in tasks where it’s not possible to automatically measure success or failure via string matching, as this is where techniques like model steering are most likely to be the most practical.\n\nI also agree with Sam that rejection sampling would likely need to operate on entire blocks rather than individual lines. By the time an LLM generates a line containing a regular expression, it’s often already committed to that path—for example, it might have skipped importing required modules or creating the necessary variables to pursue an alternative solution."
+    },
+    "baseScore": 9,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-17T18:31:07.795Z",
+    "af": false
+  },
+  {
+    "_id": "n2sJ5KQXs8YaKoaGi",
+    "postId": "aWZEDw6oxR6Wk5hru",
+    "parentCommentId": "FFvZzHupHS5sR4okB",
+    "topLevelCommentId": "FFvZzHupHS5sR4okB",
+    "contents": {
+      "markdown": "I agree. In particular, there's a huge advantage to the defender due to the scale of the model weights. All the defense has to do is raise the bar high enough that an adversary can't exfiltrate model weights during the lifetime of the model.\n\nIf the adversary gains access to the weak model, it still reduces the possible encoded information density, as I discuss here. I haven't done the experiments, but I would guess this reduction improves significantly if the adversary doesn't have access to the weak model.\n\nVarious ways of changing the weak model weights or retraining the weak model with new data could also increase the size of the defender's advantage.",
+      "plaintextDescription": "I agree. In particular, there's a huge advantage to the defender due to the scale of the model weights. All the defense has to do is raise the bar high enough that an adversary can't exfiltrate model weights during the lifetime of the model.\n\nIf the adversary gains access to the weak model, it still reduces the possible encoded information density, as I discuss here. I haven't done the experiments, but I would guess this reduction improves significantly if the adversary doesn't have access to the weak model.\n\nVarious ways of changing the weak model weights or retraining the weak model with new data could also increase the size of the defender's advantage."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-22T23:54:37.311Z",
+    "af": false
+  },
+  {
+    "_id": "7tinHxeg9n7yDnysr",
+    "postId": "rf66R4YsrCHgWx9RG",
+    "parentCommentId": "4xZGnSAKHfNmrWaqz",
+    "topLevelCommentId": "6CrPQTE2DprqkcgEy",
+    "contents": {
+      "markdown": "I think it does stack if the perplexity filter is applied before the compression step, which relies on an underlying assumption that it's easier to secure the internet connection choke point rather than the entire data center.  \n  \nI will try to continue the [discussion here](https://www.lesswrong.com/posts/aWZEDw6oxR6Wk5hru/using-an-llm-perplexity-filter-to-detect-weight-exfiltration?commentId=iGoPYLBc8JgHGBzSD) for simplicity.",
+      "plaintextDescription": "I think it does stack if the perplexity filter is applied before the compression step, which relies on an underlying assumption that it's easier to secure the internet connection choke point rather than the entire data center.\n\nI will try to continue the discussion here for simplicity."
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-22T23:18:57.106Z",
+    "af": false
+  },
+  {
+    "_id": "vS9whKqGt98G9p9yb",
+    "postId": "aWZEDw6oxR6Wk5hru",
+    "parentCommentId": "iGoPYLBc8JgHGBzSD",
+    "topLevelCommentId": "iGoPYLBc8JgHGBzSD",
+    "contents": {
+      "markdown": "The perplexity filter works best if the attacker doesn't have complete control of the entire data center, but instead limited access to some machines. An underlying assumption is that it's easier to secure the internet connection choke point, rather than everything going on inside the data center.\n\nThis can be stacked with compression by applying the perplexity filter before the compression step.\n\nAssuming that the attacker has access to the perplexity filter model, it would still reduce the possible information density if they have to perform some sort of arithmetic encoding scheme that has low perplexity. I had coworkers working on exactly this problem of encoding information into natural language using arithmetic encoding and GPT-2 small, and there's a major trade-off between the perplexity of the language generated and the density of the encoded information, although I don't have numbers available to quantify this trade-off.",
+      "plaintextDescription": "The perplexity filter works best if the attacker doesn't have complete control of the entire data center, but instead limited access to some machines. An underlying assumption is that it's easier to secure the internet connection choke point, rather than everything going on inside the data center.\n\nThis can be stacked with compression by applying the perplexity filter before the compression step.\n\nAssuming that the attacker has access to the perplexity filter model, it would still reduce the possible information density if they have to perform some sort of arithmetic encoding scheme that has low perplexity. I had coworkers working on exactly this problem of encoding information into natural language using arithmetic encoding and GPT-2 small, and there's a major trade-off between the perplexity of the language generated and the density of the encoded information, although I don't have numbers available to quantify this trade-off."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-22T23:16:22.694Z",
+    "af": false
+  },
+  {
+    "_id": "6CrPQTE2DprqkcgEy",
+    "postId": "rf66R4YsrCHgWx9RG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Another potential option (that could stack with text compression) is to filter outgoing data. In particular, if we only allow outgoing data to be language tokens, and we filter the outgoing data to have low perplexity as measured by a small, secret language model, then it could become very difficult to encode terabytes of model weights in a way that has low perplexity.\n\nI discuss this idea more [here.](https://www.lesswrong.com/posts/aWZEDw6oxR6Wk5hru/using-an-llm-perplexity-filter-to-detect-weight-exfiltration)",
+      "plaintextDescription": "Another potential option (that could stack with text compression) is to filter outgoing data. In particular, if we only allow outgoing data to be language tokens, and we filter the outgoing data to have low perplexity as measured by a small, secret language model, then it could become very difficult to encode terabytes of model weights in a way that has low perplexity.\n\nI discuss this idea more here."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-22T20:44:09.892Z",
+    "af": false
+  },
+  {
+    "_id": "sLdS9ThAs4nuh9bBo",
+    "postId": "aWZEDw6oxR6Wk5hru",
+    "parentCommentId": "p7aoCbmwNocSqbHAs",
+    "topLevelCommentId": "oiQsHsTdPgQDf6FXm",
+    "contents": {
+      "markdown": "Thanks for this comment, by the way! I added a paragraph to the beginning to make this post more clear.",
+      "plaintextDescription": "Thanks for this comment, by the way! I added a paragraph to the beginning to make this post more clear."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-22T02:52:09.780Z",
+    "af": false
+  },
+  {
+    "_id": "p7aoCbmwNocSqbHAs",
+    "postId": "aWZEDw6oxR6Wk5hru",
+    "parentCommentId": "oiQsHsTdPgQDf6FXm",
+    "topLevelCommentId": "oiQsHsTdPgQDf6FXm",
+    "contents": {
+      "markdown": "The purpose of this proposal is to limit anyone from transferring model weights out of a data center. If someone wants to steal the weights and give them to China or another adversary, the model weights have to leave physically (hard drive out of the front door) or through the internet connection. If the facility has good physical security, then the weights have to leave through the internet connection.\n\nIf we also take steps to secure the internet connection, such as treating all outgoing data as language tokens and using a perplexity filter, then the model weights can be reasonably secure.\n\nWe don't even have to filter all outgoing data. If there was 1 Gigabyte of unfiltered bandwidth per day, it would take 2,000 days to transfer GPT-4's 2 terabytes of weights out (although this could be reduced by compression schemes).",
+      "plaintextDescription": "The purpose of this proposal is to limit anyone from transferring model weights out of a data center. If someone wants to steal the weights and give them to China or another adversary, the model weights have to leave physically (hard drive out of the front door) or through the internet connection. If the facility has good physical security, then the weights have to leave through the internet connection.\n\nIf we also take steps to secure the internet connection, such as treating all outgoing data as language tokens and using a perplexity filter, then the model weights can be reasonably secure.\n\nWe don't even have to filter all outgoing data. If there was 1 Gigabyte of unfiltered bandwidth per day, it would take 2,000 days to transfer GPT-4's 2 terabytes of weights out (although this could be reduced by compression schemes)."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-22T02:07:17.870Z",
+    "af": false
+  },
+  {
+    "_id": "HqDWs9NHmYivyeBGk",
+    "postId": "gcpNuEZnxAPayaKBY",
+    "parentCommentId": "muGuk2LqHH6v7pNSb",
+    "topLevelCommentId": "muGuk2LqHH6v7pNSb",
+    "contents": {
+      "markdown": "I would guess that it would learn an exact algorithm rather than heuristics. The challenging part for OthelloGPT is that the naive algorithm to calculate board state from input tokens requires up to 60 sequential steps, and it only has 8 layers to calculate the board state and convert this to a probability distribution over legal moves.",
+      "plaintextDescription": "I would guess that it would learn an exact algorithm rather than heuristics. The challenging part for OthelloGPT is that the naive algorithm to calculate board state from input tokens requires up to 60 sequential steps, and it only has 8 layers to calculate the board state and convert this to a probability distribution over legal moves."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-06T00:26:43.261Z",
+    "af": false
+  },
+  {
+    "_id": "WAmkeaheD9qtEYG5c",
+    "postId": "gcpNuEZnxAPayaKBY",
+    "parentCommentId": "vaywG37DeZBkJjfck",
+    "topLevelCommentId": "vaywG37DeZBkJjfck",
+    "contents": {
+      "markdown": "I think it's pretty plausible that this is true, and that OthelloGPT is already doing something that's somewhat close to optimal within the constraints of its architecture. I have also spent time thinking about the optimal algorithm for next move prediction within the constraints of the OthelloGPT architecture, and \"a bag of heuristics that promote / suppress information with attention to aggregate information across moves\" seems like a very reasonable approach.",
+      "plaintextDescription": "I think it's pretty plausible that this is true, and that OthelloGPT is already doing something that's somewhat close to optimal within the constraints of its architecture. I have also spent time thinking about the optimal algorithm for next move prediction within the constraints of the OthelloGPT architecture, and \"a bag of heuristics that promote / suppress information with attention to aggregate information across moves\" seems like a very reasonable approach."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-06T00:24:14.289Z",
+    "af": false
+  },
+  {
+    "_id": "AcqFi9dkygghtycyc",
+    "postId": "gcpNuEZnxAPayaKBY",
+    "parentCommentId": "z7eP6aRN4mbuP6zz2",
+    "topLevelCommentId": "z7eP6aRN4mbuP6zz2",
+    "contents": {
+      "markdown": "In Othello, pieces must be played next to existing pieces, and the game is initialized with 4 pieces in the center. Thus, it's impossible for the top left corner to be played within the first 5 moves, and extremely unlikely in the early portion of a randomly generated game.",
+      "plaintextDescription": "In Othello, pieces must be played next to existing pieces, and the game is initialized with 4 pieces in the center. Thus, it's impossible for the top left corner to be played within the first 5 moves, and extremely unlikely in the early portion of a randomly generated game."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-06T00:20:08.196Z",
+    "af": false
+  },
+  {
+    "_id": "2bWk86ejtzGtFjEpe",
+    "postId": "yzGDwpRBx6TEcdeA5",
+    "parentCommentId": "s89LA7m6xdgGHkHzY",
+    "topLevelCommentId": "Kj9HueMATsykfY6Wf",
+    "contents": {
+      "markdown": "I had the following results:  \n  \nStockfish level 2 vs Stockfish level 0, 0.01 seconds per move, 5k games:  \n  \n0 random moves: win rate 81.2%\n\n20 random moves: win rate 81.2%\n\n40 random moves: 77.9%  \n  \n95% confidence interval is about +- 1%  \n  \nStockfish level 15 vs level 9, 0.01 seconds per move, 5k games:  \n  \n0 random moves: 65.5%\n\n20 random moves: 72.8%\n\n40 random moves: 67.5%\n\nOnce again, 95% confidence interval is about +- 1%  \n  \nAt 120 seconds per move, both of these level differences correspond to ~300 Elo: [https://github.com/official-stockfish/Stockfish/commit/a08b8d4](https://github.com/official-stockfish/Stockfish/commit/a08b8d4)  \n  \nThis is 0.01 seconds per move. It appears that less search time lowers the Elo difference for level 15 vs level 9. A 65% win rate corresponds to a ~100 Elo difference, while a 81% win rate corresponds to a 250-300 Elo difference.  \n  \nHonestly not too sure what to make of the results. One possible variable is that in every case, the higher level player is White. Starting in a game with a random position may favor the first to move. Level 2 vs level 0 seems most applicable to the Chess-GPT setting.",
+      "plaintextDescription": "I had the following results:\n\nStockfish level 2 vs Stockfish level 0, 0.01 seconds per move, 5k games:\n\n0 random moves: win rate 81.2%\n\n20 random moves: win rate 81.2%\n\n40 random moves: 77.9%\n\n95% confidence interval is about +- 1%\n\nStockfish level 15 vs level 9, 0.01 seconds per move, 5k games:\n\n0 random moves: 65.5%\n\n20 random moves: 72.8%\n\n40 random moves: 67.5%\n\nOnce again, 95% confidence interval is about +- 1%\n\nAt 120 seconds per move, both of these level differences correspond to ~300 Elo: https://github.com/official-stockfish/Stockfish/commit/a08b8d4\n\nThis is 0.01 seconds per move. It appears that less search time lowers the Elo difference for level 15 vs level 9. A 65% win rate corresponds to a ~100 Elo difference, while a 81% win rate corresponds to a 250-300 Elo difference.\n\nHonestly not too sure what to make of the results. One possible variable is that in every case, the higher level player is White. Starting in a game with a random position may favor the first to move. Level 2 vs level 0 seems most applicable to the Chess-GPT setting."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-04-01T00:23:02.479Z",
+    "af": false
+  },
+  {
+    "_id": "s89LA7m6xdgGHkHzY",
+    "postId": "yzGDwpRBx6TEcdeA5",
+    "parentCommentId": "Kj9HueMATsykfY6Wf",
+    "topLevelCommentId": "Kj9HueMATsykfY6Wf",
+    "contents": {
+      "markdown": "Both are great points, especially #1. I'll run some experiments and report back.",
+      "plaintextDescription": "Both are great points, especially #1. I'll run some experiments and report back."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-03-31T17:25:07.903Z",
+    "af": false
+  },
+  {
+    "_id": "2MC2fCqGxMraeJ6eN",
+    "postId": "yzGDwpRBx6TEcdeA5",
+    "parentCommentId": "8vrv4qY636uFTEK74",
+    "topLevelCommentId": "8vrv4qY636uFTEK74",
+    "contents": {
+      "markdown": "That's an interesting idea, I may test that out at some point. I'm assuming the softmax would be for kings / queens, where there is typically only one on the board, rather than for e.g. blank squares or pawns?",
+      "plaintextDescription": "That's an interesting idea, I may test that out at some point. I'm assuming the softmax would be for kings / queens, where there is typically only one on the board, rather than for e.g. blank squares or pawns?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-09T02:56:02.272Z",
+    "af": false
+  },
+  {
+    "_id": "ycc8xJRzHo2ExLuxs",
+    "postId": "yzGDwpRBx6TEcdeA5",
+    "parentCommentId": "27AXQj2eygewvZ42b",
+    "topLevelCommentId": "27AXQj2eygewvZ42b",
+    "contents": {
+      "markdown": "The all stockfish data engine played at a level that was 100-200 Elo higher in my tests, with a couple caveats. First, I benchmarked the LLMs against stockfish, so an all stockfish dataset seems helpful for this benchmark. Secondly, the stockfish LLM would probably have an advantage for robustness because I included a small percentage of stockfish vs random move generator games in the stockfish dataset in the hopes that it would improve its ability.  \n  \nI haven't done an in depth qualitative assessment of their abilities to give a more in depth answer unfortunately.",
+      "plaintextDescription": "The all stockfish data engine played at a level that was 100-200 Elo higher in my tests, with a couple caveats. First, I benchmarked the LLMs against stockfish, so an all stockfish dataset seems helpful for this benchmark. Secondly, the stockfish LLM would probably have an advantage for robustness because I included a small percentage of stockfish vs random move generator games in the stockfish dataset in the hopes that it would improve its ability.\n\nI haven't done an in depth qualitative assessment of their abilities to give a more in depth answer unfortunately."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-09T02:54:58.206Z",
+    "af": false
+  },
+  {
+    "_id": "zwoJs2XeWmjws5Ajv",
+    "postId": "yzGDwpRBx6TEcdeA5",
+    "parentCommentId": "bw5GzigtFqJAz9R4a",
+    "topLevelCommentId": "bw5GzigtFqJAz9R4a",
+    "contents": {
+      "markdown": "Yes, in this recent [OpenAI superalignment paper](https://cdn.openai.com/papers/weak-to-strong-generalization.pdf) they said that GPT-4's training dataset included a dataset of chess games filtered for players with greater than 1800 Elo. Given gpt-3.5-turbo-instruct's ability, I'm guessing that its dataset included a similar collection.",
+      "plaintextDescription": "Yes, in this recent OpenAI superalignment paper they said that GPT-4's training dataset included a dataset of chess games filtered for players with greater than 1800 Elo. Given gpt-3.5-turbo-instruct's ability, I'm guessing that its dataset included a similar collection."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-09T02:48:34.791Z",
+    "af": false
+  }
+]

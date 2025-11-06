@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "X2CJtcFEmFoye8Hpd",
+    "postId": "jb4bBdeEEeypNkqzj",
+    "parentCommentId": "jF7XfYzTP7rMq7cqG",
+    "topLevelCommentId": "RqQ9hZMERCavvaKis",
+    "contents": {
+      "markdown": "10M$ sounds like it'd be a lot for PauseAI-type orgs imo, though admittedly this is not a very informed take.\n\nAnyways, I stand by my comment; I expect throwing money at PauseAI-type orgs is better utility per dollar than nvidia *even after taking into account that investing in nvidia to donate to PauseAI later is a possibility*.",
+      "plaintextDescription": "10M$ sounds like it'd be a lot for PauseAI-type orgs imo, though admittedly this is not a very informed take.\n\nAnyways, I stand by my comment; I expect throwing money at PauseAI-type orgs is better utility per dollar than nvidia even after taking into account that investing in nvidia to donate to PauseAI later is a possibility."
+    },
+    "baseScore": 17,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-12-22T17:36:36.944Z",
+    "af": false
+  },
+  {
+    "_id": "YnrMbJuz3foBueqQH",
+    "postId": "jb4bBdeEEeypNkqzj",
+    "parentCommentId": "RqQ9hZMERCavvaKis",
+    "topLevelCommentId": "RqQ9hZMERCavvaKis",
+    "contents": {
+      "markdown": "Thoroughly agree except for what to do with money. I expect that throwing money at orgs that are trying to slow down AI progress (eg PauseAI, or better if someone makes something better) gets you more utility per dollar than nvidia (and also it's more ethical).\n\nEdit: to be clear, I mean actual utility in your utility function. Even if you're fully self-interested and not altruistic at all, I still think your interests are better served by donating to PauseAI-type orgs than investing in nvidia.",
+      "plaintextDescription": "Thoroughly agree except for what to do with money. I expect that throwing money at orgs that are trying to slow down AI progress (eg PauseAI, or better if someone makes something better) gets you more utility per dollar than nvidia (and also it's more ethical).\n\nEdit: to be clear, I mean actual utility in your utility function. Even if you're fully self-interested and not altruistic at all, I still think your interests are better served by donating to PauseAI-type orgs than investing in nvidia."
+    },
+    "baseScore": 16,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-12-22T16:39:57.780Z",
+    "af": false
+  },
+  {
+    "_id": "tRHHELQCbTLhDttyz",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "hQ5jSmYGFmY37HCff",
+    "topLevelCommentId": "hQ5jSmYGFmY37HCff",
+    "contents": {
+      "markdown": "\"why would they be doing that?\"\n\nsame reason people make poor decisions all the time. if they had a clear head and hadn't already sunk some cost into AI, they could see that working on AI might make them wealthy in the short term but it'll increase {the risk that they die soon} enough that they go \"not worth it\", as they should. but once you're already working in AI stuff, it's tempting and easy to retroactively justify why doing that is safe. or to just not worry about it and enjoy the money, even though if you thought about the impact of your actions on your own survival in the next few years you'd decide to quit.\n\nat least that's my vague best guess.",
+      "plaintextDescription": "\"why would they be doing that?\"\n\nsame reason people make poor decisions all the time. if they had a clear head and hadn't already sunk some cost into AI, they could see that working on AI might make them wealthy in the short term but it'll increase {the risk that they die soon} enough that they go \"not worth it\", as they should. but once you're already working in AI stuff, it's tempting and easy to retroactively justify why doing that is safe. or to just not worry about it and enjoy the money, even though if you thought about the impact of your actions on your own survival in the next few years you'd decide to quit.\n\nat least that's my vague best guess."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-11T07:42:52.126Z",
+    "af": false
+  },
+  {
+    "_id": "hQ5jSmYGFmY37HCff",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "people usually think of corporations as either {advancing their own interests and also the public's interests} or {advancing their own interests at cost to the public} — ime mostly the latter. what's *actually* going on with AI frontier labs, i.e. {going against the interests of everyone including themselves}, is very un-memetic and very far from the overton window.\n\nin fiction, the heads of big organizations are either good (making things good for everyone) or evil (worsening everyone *else's* outcomes, but improving their own). most of the time, just evil. very rarely are they *suicidal fools semi-unknowningly trying to kill everyone including themselves*.\n\nand the AI existential risk thing just doesn't stick if you take it as a given that the organizations are acting in their own interest, because dying is not in their own interest.\n\nthe public systematically underestimates the foolishness of AI frontier labs.",
+      "plaintextDescription": "people usually think of corporations as either {advancing their own interests and also the public's interests} or {advancing their own interests at cost to the public} — ime mostly the latter. what's actually going on with AI frontier labs, i.e. {going against the interests of everyone including themselves}, is very un-memetic and very far from the overton window.\n\nin fiction, the heads of big organizations are either good (making things good for everyone) or evil (worsening everyone else's outcomes, but improving their own). most of the time, just evil. very rarely are they suicidal fools semi-unknowningly trying to kill everyone including themselves.\n\nand the AI existential risk thing just doesn't stick if you take it as a given that the organizations are acting in their own interest, because dying is not in their own interest.\n\nthe public systematically underestimates the foolishness of AI frontier labs."
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-11T07:36:56.149Z",
+    "af": false
+  },
+  {
+    "_id": "pKAhRpyqZ35sNpKFG",
+    "postId": "h9N5jaupqRGQrd4R5",
+    "parentCommentId": "N6PwRmz9HFKdJPnJx",
+    "topLevelCommentId": "K9wwp3jZxrnPNxvKu",
+    "contents": {
+      "markdown": "> ^^ Why wouldn't people seeing a cool cyborg tool just lead to more cyborg tools? As opposed to the black boxes that big tech has been building?\n\n\n> You imply a cyborg tool is a \"powerful unaligned AI\", it's not, it's a tool to improve bandwidth and throughput between any existing AI (which remains untouched by cyborg research) and the human\n\n\nI was making a more general argument that applies mainly to powerful AI but also to all other things that might help one build powerful AI (such as: insights about AI, cyborg tools, etc). These things-that-help have the downside that someone could use them to build powerful but unaligned AI, which is ultimately the thing we want to delay / reduce-the-probability-of. Whether the downside is bad enough that making them public/popular is *net* bad is the thing that's uncertain, but I lean towards yes, it *is* net bad.\n\nI believe that:\n\n* It is bad for cyborg tools to be broadly available because that'll help {people trying to build the kind of AI that'd kill everyone} more than they'll {help people trying to save the world}.\n* It is bad for insights about AI to spread because of the same reason.\n* It is bad for LLM assistants to be broadly available for the same reason.\n\n> Only reasonable people who think hard about AI safety will understand the power of cyborgs\n\nI don't think I'm particularly relying on that assumption?? I don't understand what sounded like I think this.\n\nIn any case, I'm not making strict \"only X are Y\" or \"all X are Y\" statements; I'm making quantitative \"X are disproportionately more Y\" statements.\n\n> That people won't eventually find out.\n\n\n>  I believe that capabilities overhang is temporary, that inevitably \"the dam will burst\"\n\n\nWell, yes. And at that point the world is much more doomed; the world has to be saved ahead of that. To increase the probability that we have time to save the world before people find out, we want to buy time. I agree it's inevitable, but it can be delayed. Making tools and insights broadly available hastens the bursting of the dam, which is bad; containing them delays the bursting of the dam, which is good.",
+      "plaintextDescription": "> ^^ Why wouldn't people seeing a cool cyborg tool just lead to more cyborg tools? As opposed to the black boxes that big tech has been building?\n\n> You imply a cyborg tool is a \"powerful unaligned AI\", it's not, it's a tool to improve bandwidth and throughput between any existing AI (which remains untouched by cyborg research) and the human\n\nI was making a more general argument that applies mainly to powerful AI but also to all other things that might help one build powerful AI (such as: insights about AI, cyborg tools, etc). These things-that-help have the downside that someone could use them to build powerful but unaligned AI, which is ultimately the thing we want to delay / reduce-the-probability-of. Whether the downside is bad enough that making them public/popular is net bad is the thing that's uncertain, but I lean towards yes, it is net bad.\n\nI believe that:\n\n * It is bad for cyborg tools to be broadly available because that'll help {people trying to build the kind of AI that'd kill everyone} more than they'll {help people trying to save the world}.\n * It is bad for insights about AI to spread because of the same reason.\n * It is bad for LLM assistants to be broadly available for the same reason.\n\n> Only reasonable people who think hard about AI safety will understand the power of cyborgs\n\nI don't think I'm particularly relying on that assumption?? I don't understand what sounded like I think this.\n\nIn any case, I'm not making strict \"only X are Y\" or \"all X are Y\" statements; I'm making quantitative \"X are disproportionately more Y\" statements.\n\n> That people won't eventually find out.\n\n> I believe that capabilities overhang is temporary, that inevitably \"the dam will burst\"\n\nWell, yes. And at that point the world is much more doomed; the world has to be saved ahead of that. To increase the probability that we have time to save the world before people find out, we want to buy time. I agree it's inevitable, but it can be delayed. Making tools and insights br"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-01T19:59:17.637Z",
+    "af": false
+  },
+  {
+    "_id": "K9wwp3jZxrnPNxvKu",
+    "postId": "h9N5jaupqRGQrd4R5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think (not sure!) the damage from people/orgs/states going \"wow, AI is powerful, I will try to build some\" is larger than the upside of people/orgs/states going \"wow, AI is powerful, I should be scared of it\". It only takes one strong enough one of the former to kill everyone, and the latter is gonna have a very hard time stopping all of them.\n\nBy not informing the public that AI is indeed powerful, awareness of that fact is disproportionately allocated to people who will choose to think hard about it on their own, and thus that knowledge is more likely to be in reasonabler hands (for example they'd also be more likely to think \"hmm maybe I *shouldn't* build unaligned powerful AI\").\n\nThe same goes for cyborg tools, as well as general insights about AI: we should want them to be differentially accessible to alignment people than the general public.\n\nIn fact, my biggest criticism of OpenAI is not that they built GPTs, but that they productized it, made it widely available, and created a giant public frenzy about LLMs. I think we'd have more time to solve alignment if they kept it internally and the public wasn't thinking about AI nearly as much.",
+      "plaintextDescription": "I think (not sure!) the damage from people/orgs/states going \"wow, AI is powerful, I will try to build some\" is larger than the upside of people/orgs/states going \"wow, AI is powerful, I should be scared of it\". It only takes one strong enough one of the former to kill everyone, and the latter is gonna have a very hard time stopping all of them.\n\nBy not informing the public that AI is indeed powerful, awareness of that fact is disproportionately allocated to people who will choose to think hard about it on their own, and thus that knowledge is more likely to be in reasonabler hands (for example they'd also be more likely to think \"hmm maybe I shouldn't build unaligned powerful AI\").\n\nThe same goes for cyborg tools, as well as general insights about AI: we should want them to be differentially accessible to alignment people than the general public.\n\nIn fact, my biggest criticism of OpenAI is not that they built GPTs, but that they productized it, made it widely available, and created a giant public frenzy about LLMs. I think we'd have more time to solve alignment if they kept it internally and the public wasn't thinking about AI nearly as much."
+    },
+    "baseScore": 10,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-11-01T14:23:05.429Z",
+    "af": false
+  },
+  {
+    "_id": "7tQiTLQkkPH6J4zpp",
+    "postId": "oJQnRDbgSS8i6DwNu",
+    "parentCommentId": "iEi5z5pzcsiAXeGGX",
+    "topLevelCommentId": "LG2mHCXekKYm2z8xR",
+    "contents": {
+      "markdown": "Even if tool AI is controllable, tool AI can be used to assist in building non-tool AI. A benign superassistant is one query away from outputting world-ending code.",
+      "plaintextDescription": "Even if tool AI is controllable, tool AI can be used to assist in building non-tool AI. A benign superassistant is one query away from outputting world-ending code."
+    },
+    "baseScore": 15,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-10-13T22:29:53.610Z",
+    "af": false
+  },
+  {
+    "_id": "6P29HDuB663GSRpPA",
+    "postId": "ryvtHuyo5CefieFsK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In my opinion the hard part would not be figuring out where to donate to {decrease P(doom) a lot} rather than {decrease P(doom) a little}, but figuring out where to donate to {decrease P(doom)} rather than {increase P(doom)}.",
+      "plaintextDescription": "In my opinion the hard part would not be figuring out where to donate to {decrease P(doom) a lot} rather than {decrease P(doom) a little}, but figuring out where to donate to {decrease P(doom)} rather than {increase P(doom)}."
+    },
+    "baseScore": 18,
+    "voteCount": 25,
+    "createdAt": null,
+    "postedAt": "2024-10-03T13:10:44.192Z",
+    "af": false
+  },
+  {
+    "_id": "vfbFhzkhQJmsjZCbF",
+    "postId": "i7JSL5awGFcSRhyGF",
+    "parentCommentId": "iiodmTPxBNzc6okmv",
+    "topLevelCommentId": "iiodmTPxBNzc6okmv",
+    "contents": {
+      "markdown": "(oops, this ended up being fairly long-winded! hope you don't mind. feel free to ask for further clarifications.)\n\nThere's a bunch of things wrong with your description, so I'll first try to rewrite it in my own words, but still as close to the way you wrote it (so as to try to bridge the gap to your ontology) as possible. Note that I might post QACI 2 somewhat soon, which simplifies a bunch of QACI by locating the user as {whatever is interacting with the computer the AI is running on} rather than by using a beacon.\n\nA first pass is to correct your description to the following:\n\n1. We find a competent honourable human **at a particular point in time** $H$, like Joe Carlsmith or Wei Dai, and give them a rock engraved with a **1GB secret key, large enough that in counterfactuals it could replace with an entire snapshot of . We also give them the ability to express a 1GB output, eg by writing a 1GB key somewhere which is somehow \"signed\" as the only . This is part of $H$ — $H$ is not just the human being queried at a particular point in time, it's also the human producing an answer in some way. So $H$ is a function from 1GB bitstring to 1GB bitstring.** We define $H^+$ as **$H$, followed by whichever new process $H$ describes in its output — typically another instance of $H$ except with a different 1GB payload.**\n\n2. We want a model $M$ of the agent $H^+$. In QACI, we get $M$ by asking a Solomonoff-like ideal reasoner for their best guess about $H^+$ after feeding them a bunch of data about the world and the secret key.\n\n3. We then ask $M$ the question $q$, \"What's the best **utility-function-over-policies** to maximise?\" to get a **utility** function **$U$**$:(O×A)^*→R$. We then **ask our solomonoff-like ideal reasoner for their best guess about which action $A$ maximizes $U$.\n\nIndeed, as you ask in question 3, in this description there's not really a reason to make step 3 an extra thing. The important thing to notice here is that model $M$ might get pretty good, but it'll still have uncertainty.\n\nWhen you say \"we get $M$ by asking a Solomonoff-like ideal reasoner for their best guess about $H^+$\", you're implying that — positing `U(M,A)` to be the function that says how much utility the utility function returned by model `M` attributes to action `A` (in the current history-so-far) — we do something like:\n\n```\n  let M ← oracle(argmax { for model M } 𝔼 { over uncertainty } P(M))\n  let A ← oracle(argmax { for action A } U(M, A))\n  perform(A)\n```\n\nIndeed, in this scenario, the second line is fairly redundant.\n\nThe reason we ask for a utility function is because we want to get a utility function *within the counterfactual* — we don't want to collapse the uncertainty with an argmax *before* extracting a utility function, but *after*. That way, we can do expected-given-uncertainty utility maximization over *the full distribution of model-hypotheses*, rather than over *our best guess about $M$*. We do:\n\n```\n  let A ← oracle(argmax { for A } 𝔼 { for M, over uncertainty } P(M) · U(M, A))\n  perform(A)\n```\n\nThat is, we ask our ideal reasoner (`oracle`) for the action with the best utility given uncertainty — not just logical uncertainty, but also uncertainty about which $M$. This contrasts with what you describe, in which we first pick the most probable $M$ and then calculate the action with the best utility *according only to that most-probable pick*.\n\n---\n\nTo answer the rest of your questions:\n\n> Is this basically IDA, where Step 1 is serial amplification, Step 2 is imitative distillation, and Step 3 is reward modelling?\n\nUnclear! I'm not familiar enough with IDA, and I've bounced off explanations for it I've seen in the past. QACI doesn't feel to me like it particularly involves the concepts of *distillation* or *amplification*, but I guess it does involve the concept of *iteration*, sure. But I don't get the thing called IDA.\n\n> Why not replace Step 1 with Strong HCH or some other amplification scheme?\n\nIt's unclear to me how one would design an amplification scheme — see concerns of the general shape expressed [here](https://www.lesswrong.com/posts/FSmPtu7foXwNYpWiB/on-the-limits-of-idealized-values). The thing I like about *my* step 1 is that the QACI loop (well, really, graph (well, really, arbitrary computation, but most of the time the user will probably just call themself in sequence)) is that its setup doesn't involve any AI at all — you could go back in time before the industrial revolution and explain the core QACI idea and it would make sense assuming time-travelling-messages magic, and the magic wouldn't have to do any *extrapolating*. Just tell someone the idea is that they could send a message to {their past self at a particular fixed point in time}. If there's any amplification scheme, it'll be one designed *by the user, inside QACI, with arbitrarily long to figure it out*.\n\n> What does \"bajillion\" actually mean in Step 1?\n\nAs described above, we don't actually pre-determine the length of the sequence, or in fact the shape of the graph at all. Each iteration decides whether to spawn one or several next iteration, or indeed to spawn an arbitrarily different long-reflection process.\n\n> Why are we doing Step 3? Wouldn't it be better to just use M directly as our superintelligence? It seems sufficient to achieve radical abundance, life extension, existential security, etc.\n \n> Why not ask M for the policy π directly? Or some instruction for constructing π? The instruction could be \"Build the policy using our super-duper RL algo with the following reward function...\" but it could be anything.\n\nHopefully my correction above answers these.\n\n> What if there's no reward function that should be maximised? Presumably the reward function would need to be \"small\", i.e. less than a Exabyte, which imposes a maybe-unsatisfiable constraint.\n\n(Again, untractable-to-naively-compute utility function*, not easily-trained-on reward function. If you have an ideal reasoner, why bother with reward functions when you can just straightforwardly do untractable-to-naively-compute utility functions?)\n\nI guess this is kinda philosophical? I have some short thoughts on [here](https://carado.moe/terminal-alignment-solutions.html). If an exabyte is enough to describe to describe {a communication channel with a human-on-earth} to an AI-on-earth, which I think seems likely, then it's enough to build \"just have a nice corrigible assistant ask the humans what they want\"-type channels.\n\nPut another way: if there are *actions which are preferable to other actions*, then it *seems* to me like utility function are a fully lossless way for counterfactual QACI users to express which kinds of actions they want the AI to perform, which is all we need. If there's something wrong with utility function over worlds, then counterfactual QACI users can output a utility function which favors actions which lead to something other than utility maximization over worlds, for example actions which lead to the construction of a superintelligent corrigible assistant which will help the humans come up with a better scheme.\n\n> Why is there no iteration, like in IDA? For example, after Step 2, we could loop back to Step 1 but reassign $H$ as $H$ with oracle access to $M$.\n\nAgain, I don't get IDA. Iteration doesn't seem particularly needed? Note that inside QACI, the user *does* have access to an oracle and to all relevant pieces of hypothesis about which hypothesis it is inhabiting in — this is what, [in the QACI math](https://www.lesswrong.com/posts/MR5wJpE27ymE7M7iv/formalizing-the-qaci-alignment-formal-goal), this line does:\n\n> $\\textit{QACI}_0$'s distribution over answers demands that the answer payload $π_r$, when interpreted as math and with all required contextual variables passed as input ($q,μ1,μ2,α,γ_q,ξ$).\n\nNotably, $α$ is the hypothesis for which world the user is being considered in, and $γ_q,ξ$ for their location within that world. Those are sufficient to fully characterize the hypothesis-for-$H$ that describes them. And because the user doesn't really return *just a string* but *a math function which takes $q,μ1,μ2,α,γ_q,ξ$ as input and returns a string*, they can have that math function do arbitrary work — including rederive $H$. In fact, rediriving $H$ is how they call a next iteration: they say (except in math) \"call $H$ again (rederived using $q,μ1,μ2,α,γ_q,ξ$), but with *this* string, and return the result of *that*.\" See also [this illustration](https://www.lesswrong.com/posts/kQLw5hFDSMuS5SFGg/tamsin-leake-s-shortform?commentId=czeja9J2BzJa4jeXL), which is kinda wrong in places but gets the recursion call graph thing right.\n\nAnother reason to do \"iteration\" like this *inside the counterfactual* rather than in the actual factual world (*if* that's what IDA does, which I'm only guessing here) is that we don't have as many iteration steps as we want in the factual world — eventually OpenAI or someone else kills everyone, whereas in the counterfactual, the QACI users are the only ones who can make progress, so the QACI users essentially have as long as they want, so long as they don't take too long in each *individual* counterfactual step or other somewhat easily avoided actions like that.\n\n> Why isn't Step 3 recursive reward modelling? i.e. we could collect a bunch of trajectories from $π$ and ask $M$ to use those trajectories to improve the reward function.\n\nUnclear if this still means anything given the rest of this post. Ask me again if it does.",
+      "plaintextDescription": "(oops, this ended up being fairly long-winded! hope you don't mind. feel free to ask for further clarifications.)\n\nThere's a bunch of things wrong with your description, so I'll first try to rewrite it in my own words, but still as close to the way you wrote it (so as to try to bridge the gap to your ontology) as possible. Note that I might post QACI 2 somewhat soon, which simplifies a bunch of QACI by locating the user as {whatever is interacting with the computer the AI is running on} rather than by using a beacon.\n\nA first pass is to correct your description to the following:\n\n 1. We find a competent honourable human at a particular point in time H, like Joe Carlsmith or Wei Dai, and give them a rock engraved with a 1GB secret key, large enough that in counterfactuals it could replace with an entire snapshot of . We also give them the ability to express a 1GB output, eg by writing a 1GB key somewhere which is somehow \"signed\" as the only . This is part of H — H is not just the human being queried at a particular point in time, it's also the human producing an answer in some way. So H is a function from 1GB bitstring to 1GB bitstring. We define H+ as H, followed by whichever new process H describes in its output — typically another instance of H except with a different 1GB payload.\n\n 2. We want a model M of the agent H+. In QACI, we get M by asking a Solomonoff-like ideal reasoner for their best guess about H+ after feeding them a bunch of data about the world and the secret key.\n\n 3. We then ask M the question q, \"What's the best utility-function-over-policies to maximise?\" to get a utility function U:(O×A)∗→R. We then **ask our solomonoff-like ideal reasoner for their best guess about which action A maximizes U.\n\nIndeed, as you ask in question 3, in this description there's not really a reason to make step 3 an extra thing. The important thing to notice here is that model M might get pretty good, but it'll still have uncertainty.\n\nWhen you say \"we get M by askin"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-09-21T05:57:34.056Z",
+    "af": false
+  },
+  {
+    "_id": "dsJhcxKQm79LyySKe",
+    "postId": "QDseJ8wvtGwPWHpwX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hi !\n\n> **ATA is extremely neglected.** The field of ATA is at a very early stage, and currently there does not exist any research project dedicated to ATA. The present post argues that this lack of progress is dangerous and that this neglect is a serious mistake.\n\nI agree it's neglected, but there *is* in fact at least one researh project dedicated to at least *designing* alignment targets: the part of the [formal alignment agenda](https://www.lesswrong.com/posts/4XcADCLDDguyej2N7/orthogonal-s-formal-goal-alignment-theory-of-change) dedicated to **formal outer alignment**, which is the design of math problems to which solutions would be world-saving. Our notable attempts at this are [QACI](https://www.lesswrong.com/posts/4RrLiboiGGKfsanMF/the-qaci-alignment-plan-table-of-contents) and [ESP](https://www.lesswrong.com/posts/uam4meRZw4DBm2B7J/epistemic-states-as-a-potential-benign-prior) (there was also some work on a QACI2, but it predates (and in-my-opinion is superceded by) ESP).\n\nThose try to implement CEV in math. They only work for doing CEV of a single person or small group, but that's fine: just do CEV of {a single person or small group} which values *all of* humanity/moral-patients/whatever getting their values satisfied instead of just that group's values. If you want humanity's values to be satisfied, then \"satisfying humanity's values\" is not *opposite* to \"satisfy your own values\", it's [merely the outcome](https://carado.moe/surprise-you-want.html) of \"satisfy your own values\".",
+      "plaintextDescription": "Hi !\n\n> ATA is extremely neglected. The field of ATA is at a very early stage, and currently there does not exist any research project dedicated to ATA. The present post argues that this lack of progress is dangerous and that this neglect is a serious mistake.\n\nI agree it's neglected, but there is in fact at least one researh project dedicated to at least designing alignment targets: the part of the formal alignment agenda dedicated to formal outer alignment, which is the design of math problems to which solutions would be world-saving. Our notable attempts at this are QACI and ESP (there was also some work on a QACI2, but it predates (and in-my-opinion is superceded by) ESP).\n\nThose try to implement CEV in math. They only work for doing CEV of a single person or small group, but that's fine: just do CEV of {a single person or small group} which values all of humanity/moral-patients/whatever getting their values satisfied instead of just that group's values. If you want humanity's values to be satisfied, then \"satisfying humanity's values\" is not opposite to \"satisfy your own values\", it's merely the outcome of \"satisfy your own values\"."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-09-20T06:44:57.578Z",
+    "af": false
+  },
+  {
+    "_id": "9eXsgan9CKAjDxNLL",
+    "postId": "rdTgtHn3neGzkyCrL",
+    "parentCommentId": "bb2NZxxygPNms4MPr",
+    "topLevelCommentId": "aj6CMCm6pMGBsepcW",
+    "contents": {
+      "markdown": "1. I wonder how much of those seemingly idealistic people retained power when it was available because they were indeed only pretending to be idealistic. Assuming one is *actually* initially idealistic but then gets corrupted by having power in some way, one thing someone can do in CEV that you can't do in real life is reuse the CEV process to come up with even better CEV processes which will be even more likely to retain/recover their just-before-launching-CEV values. Yes, many people would mess this up or fail in some other way in CEV; but we only need *one* person or group who we'd be somewhat confident would do alright in CEV. Plausibly there are at least a few eg MIRIers who would satisfy this. Importantly, to me, this reduces outer alignment to \"find someone smart and reasonable and likely to have good goal-content integrity\", which is a matter of social & psychology that seems to be much smaller than the initial full problem of formal outer alignment / alignment target design.\n\n2. One of the main reasons to do CEV is because we're gonna die of AI soon, and CEV is a way to have infinite time to solve the necessary problems. Another is that [even if we don't die of AI, we get eaten by various moloch](https://carado.moe/orbit-merlin-worlds.html) instead of being able to safely solve the necessary problems at whatever pace is necessary.",
+      "plaintextDescription": " 1. I wonder how much of those seemingly idealistic people retained power when it was available because they were indeed only pretending to be idealistic. Assuming one is actually initially idealistic but then gets corrupted by having power in some way, one thing someone can do in CEV that you can't do in real life is reuse the CEV process to come up with even better CEV processes which will be even more likely to retain/recover their just-before-launching-CEV values. Yes, many people would mess this up or fail in some other way in CEV; but we only need one person or group who we'd be somewhat confident would do alright in CEV. Plausibly there are at least a few eg MIRIers who would satisfy this. Importantly, to me, this reduces outer alignment to \"find someone smart and reasonable and likely to have good goal-content integrity\", which is a matter of social & psychology that seems to be much smaller than the initial full problem of formal outer alignment / alignment target design.\n\n 2. One of the main reasons to do CEV is because we're gonna die of AI soon, and CEV is a way to have infinite time to solve the necessary problems. Another is that even if we don't die of AI, we get eaten by various moloch instead of being able to safely solve the necessary problems at whatever pace is necessary."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-09-20T06:38:21.343Z",
+    "af": false
+  },
+  {
+    "_id": "QkavGM6zYctDLQn2m",
+    "postId": "rdTgtHn3neGzkyCrL",
+    "parentCommentId": "mihkhQjhtZyLprnRH",
+    "topLevelCommentId": "aj6CMCm6pMGBsepcW",
+    "contents": {
+      "markdown": "> the main arguments for the programmers including all of [current?] humanity in the CEV \"extrapolation base\" […] apply symmetrically to AIs-we're-sharing-the-world-with at the time\n\nI think [timeless values](https://carado.moe/timeless-values.html) might possibly help resolve this; if some {AIs that are around at the time} are moral patients, then sure, just like other moral patients around they should get a fair share of the future.\n\nIf an AI grabs more resources than is fair, you do the exact same thing as if [a human grabs more resources than is fair](https://carado.moe/take-me-to-your-abuser.html): satisfy the values of moral patients (including ones who are no longer around) not weighed by how much leverage they current have over the future, but how much leverage they *would* have over the future if things had gone more fairly/if abuse/powergrab/etc wasn't the kind of thing that gets your more control of the future.\n\n\"Sorry clippy, we do want you to get some paperclips, we just don't want you to get as many paperclips as you could if you could murder/brainhack/etc all humans, because that doesn't seem to be a very fair way to allocate the future.\" — and in the same breath, \"Sorry Putin, we do want you to get some of whatever-intrinsic-values-you're-trying-to-satisfy, we just don't want you to get as much as ruthlessly ruling Russia can get you, because that doesn't seem to be a very fair way to allocate the future.\"\n\nAnd this can apply regardless of how much of clippy already exists by the time you're doing CEV.",
+      "plaintextDescription": "> the main arguments for the programmers including all of [current?] humanity in the CEV \"extrapolation base\" […] apply symmetrically to AIs-we're-sharing-the-world-with at the time\n\nI think timeless values might possibly help resolve this; if some {AIs that are around at the time} are moral patients, then sure, just like other moral patients around they should get a fair share of the future.\n\nIf an AI grabs more resources than is fair, you do the exact same thing as if a human grabs more resources than is fair: satisfy the values of moral patients (including ones who are no longer around) not weighed by how much leverage they current have over the future, but how much leverage they would have over the future if things had gone more fairly/if abuse/powergrab/etc wasn't the kind of thing that gets your more control of the future.\n\n\"Sorry clippy, we do want you to get some paperclips, we just don't want you to get as many paperclips as you could if you could murder/brainhack/etc all humans, because that doesn't seem to be a very fair way to allocate the future.\" — and in the same breath, \"Sorry Putin, we do want you to get some of whatever-intrinsic-values-you're-trying-to-satisfy, we just don't want you to get as much as ruthlessly ruling Russia can get you, because that doesn't seem to be a very fair way to allocate the future.\"\n\nAnd this can apply regardless of how much of clippy already exists by the time you're doing CEV."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-09-20T06:23:03.629Z",
+    "af": false
+  },
+  {
+    "_id": "ea6hQmQtRk3LNN6rT",
+    "postId": "rdTgtHn3neGzkyCrL",
+    "parentCommentId": "BvmkjtrSLpyuwbvoX",
+    "topLevelCommentId": "aj6CMCm6pMGBsepcW",
+    "contents": {
+      "markdown": "> trying to solve morality by themselves\n\nIt doesn't have to be by themselves; they can defer to others inside CEV, or come up with better schemes that their initial CEV inside CEV and then defer to that. Whatever other solutions than \"solve everything on your own inside CEV\" might exist, they can figure those out and defer to them from inside CEV. At least that's the case in my own attempts at implementing CEV in math (eg QACI).",
+      "plaintextDescription": "> trying to solve morality by themselves\n\nIt doesn't have to be by themselves; they can defer to others inside CEV, or come up with better schemes that their initial CEV inside CEV and then defer to that. Whatever other solutions than \"solve everything on your own inside CEV\" might exist, they can figure those out and defer to them from inside CEV. At least that's the case in my own attempts at implementing CEV in math (eg QACI)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-09-20T06:07:10.703Z",
+    "af": false
+  },
+  {
+    "_id": "grtunvs7Xpeah4asF",
+    "postId": "cCgxp3Bq4aS9z5xqd",
+    "parentCommentId": "QrHRn5cEyTRXnWGHK",
+    "topLevelCommentId": "dfyp2synGxwL65xny",
+    "contents": {
+      "markdown": "Seems really wonky and like there could be a lot of things that could go wrong in hard-to-predict ways, but I guess I sorta get the idea. \n\nI guess one of the main things I'm worried about is that it seems to require that we either:\n\n* Be *really good* at timing when we pause it to look at its internals, such that we look at the internals after it's had long enough to think about things that there are indeed such representations, but not long enough that it started optimizing really hard such that we either {die before we get to look at the internals} or {the internals are deceptively engineered to brainhack whoever would look at them}. If such a time interval even occurs for any amount of time at all.\n* Have an AI that is powerful enough to have powerful internals-about-QACI to look at, but corrigible enough that this power is not being used to do instrumentally convergent stuff like eat the world in order to have more resources with which to reason.\n\nCurrent AIs are not representative of what dealing with powerful optimizers is like; when we'll start getting powerful optimizers, they won't sit around long enough for us to look at them and ponder, they'll just quickly eat us.",
+      "plaintextDescription": "Seems really wonky and like there could be a lot of things that could go wrong in hard-to-predict ways, but I guess I sorta get the idea.\n\nI guess one of the main things I'm worried about is that it seems to require that we either:\n\n * Be really good at timing when we pause it to look at its internals, such that we look at the internals after it's had long enough to think about things that there are indeed such representations, but not long enough that it started optimizing really hard such that we either {die before we get to look at the internals} or {the internals are deceptively engineered to brainhack whoever would look at them}. If such a time interval even occurs for any amount of time at all.\n * Have an AI that is powerful enough to have powerful internals-about-QACI to look at, but corrigible enough that this power is not being used to do instrumentally convergent stuff like eat the world in order to have more resources with which to reason.\n\nCurrent AIs are not representative of what dealing with powerful optimizers is like; when we'll start getting powerful optimizers, they won't sit around long enough for us to look at them and ponder, they'll just quickly eat us."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-09-18T20:20:17.008Z",
+    "af": false
+  },
+  {
+    "_id": "fizMYbgfvJwLidvdb",
+    "postId": "cCgxp3Bq4aS9z5xqd",
+    "parentCommentId": "efmzZuM4Bt3DHqaxC",
+    "topLevelCommentId": "dfyp2synGxwL65xny",
+    "contents": {
+      "markdown": "So the formalized concept is `Get_Simplest_Concept_Which_Can_Be_Informally_Described_As(\"QACI is an outer alignment scheme consisting of…\")` ? Is an informal definition written in english?\n\nIt seems like \"natural latent\" here just means \"simple (in some simplicity prior)\". If I read the first line of your post as:\n\n> Has anyone thought about QACI could be located in some simplicity prior, by searching the prior for concepts matching(??in some way??) some informal description in english?\n\nIt sure sounds like I should read the two posts you linked (perhaps especially [this one](https://www.lesswrong.com/posts/QA7bQHpKymPBFBuHb/a-solomonoff-inductor-walks-into-a-bar-schelling-points-for)), despite how hard I keep bouncing off of the natural latents idea. I'll give that a try.",
+      "plaintextDescription": "So the formalized concept is Get_Simplest_Concept_Which_Can_Be_Informally_Described_As(\"QACI is an outer alignment scheme consisting of…\") ? Is an informal definition written in english?\n\nIt seems like \"natural latent\" here just means \"simple (in some simplicity prior)\". If I read the first line of your post as:\n\n> Has anyone thought about QACI could be located in some simplicity prior, by searching the prior for concepts matching(??in some way??) some informal description in english?\n\nIt sure sounds like I should read the two posts you linked (perhaps especially this one), despite how hard I keep bouncing off of the natural latents idea. I'll give that a try."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-09-18T15:25:29.881Z",
+    "af": false
+  },
+  {
+    "_id": "hkJtMzYFz8fWCo4SR",
+    "postId": "cCgxp3Bq4aS9z5xqd",
+    "parentCommentId": "dfyp2synGxwL65xny",
+    "topLevelCommentId": "dfyp2synGxwL65xny",
+    "contents": {
+      "markdown": "To me kinda the whole point of QACI is that it tries to actually be fully formalized. Informal definitions seem very much not robust to when superintelligences think about them; fully formalized definitions are the only thing I know of that keep meaning the same thing regardless of what kind of AI looks at it or with what kind of ontology.\n\nI don't really get the whole natural latents ontology at all, and mostly expect it to be too weak for us to be able to get [reflectively stable](https://arbital.greaterwrong.com/p/reflective_stability) goal-content integrity even as the AI becomes vastly superintelligent. If definitions are informal, that feels to me like degrees of freedom in which an ASI can just pick whichever values make its job easiest.\n\nPerhaps something like this allows use to use *current, non-vastly-superintelligent* AIs to help design a formalized version of QACI or [ESP](https://www.lesswrong.com/posts/uam4meRZw4DBm2B7J/epistemic-states-as-a-potential-benign-prior) which *itself* is robust enough to be passed to superintelligent optimizers; but my response to this is usually \"have you tried first formalizing CEV/QACI/ESP by hand?\" because it feels like we've barely tried and like reasonable progress can be made on it that way.\n\nPerhaps there are some cleverer schemes where the superintelligent optimizer is pointed at the weaker current-tech-level AI, *itself* pointed informally at QACI, and we tell the superintelligent optimizer \"do what this guy says\"; but that seems like it either leaves too many degrees of freedom to the superintelligent optimizer again, *or* it requires solving corrigibility (the superintelligent optimizer is corrigibly assisting the weaker AI) at which point why not just point the corrigibility *at the human directly* and ignore QACI altogether, at least to begin with.",
+      "plaintextDescription": "To me kinda the whole point of QACI is that it tries to actually be fully formalized. Informal definitions seem very much not robust to when superintelligences think about them; fully formalized definitions are the only thing I know of that keep meaning the same thing regardless of what kind of AI looks at it or with what kind of ontology.\n\nI don't really get the whole natural latents ontology at all, and mostly expect it to be too weak for us to be able to get reflectively stable goal-content integrity even as the AI becomes vastly superintelligent. If definitions are informal, that feels to me like degrees of freedom in which an ASI can just pick whichever values make its job easiest.\n\nPerhaps something like this allows use to use current, non-vastly-superintelligent AIs to help design a formalized version of QACI or ESP which itself is robust enough to be passed to superintelligent optimizers; but my response to this is usually \"have you tried first formalizing CEV/QACI/ESP by hand?\" because it feels like we've barely tried and like reasonable progress can be made on it that way.\n\nPerhaps there are some cleverer schemes where the superintelligent optimizer is pointed at the weaker current-tech-level AI, itself pointed informally at QACI, and we tell the superintelligent optimizer \"do what this guy says\"; but that seems like it either leaves too many degrees of freedom to the superintelligent optimizer again, or it requires solving corrigibility (the superintelligent optimizer is corrigibly assisting the weaker AI) at which point why not just point the corrigibility at the human directly and ignore QACI altogether, at least to begin with."
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-09-18T10:22:41.357Z",
+    "af": false
+  },
+  {
+    "_id": "mjuYWetdqotMyHN7d",
+    "postId": "uam4meRZw4DBm2B7J",
+    "parentCommentId": "EMKbbJbjm5Dr8wCCA",
+    "topLevelCommentId": "EMKbbJbjm5Dr8wCCA",
+    "contents": {
+      "markdown": "> The knightian in IB is related to limits of what hypotheses you can possibly find/write down, not - if i understand so far - about an adversary. The adversary stuff is afaict mostly to make proofs work.\n\nI don't think this makes a difference here? If you say \"what's the best not-blacklisted-by-any-knightian-hypothesis action\", then it doesn't really matter if you're thinking of your knightian hypotheses as adversaries trying to screw you over by blacklisting actions that are fine, or if you're thinking of your knightian hypotheses as a more abstract worst-case-scenario. In both cases, for any reasonable action, there's probly a knightian hypothesis which blacklists it.\n\nRegardless of whether you think of it as \"because adversaries\" or just \"because we're cautious\", knightian uncertainty works the same way. The issue is fundamental to doing maximin over knightian hypotheses.",
+      "plaintextDescription": "> The knightian in IB is related to limits of what hypotheses you can possibly find/write down, not - if i understand so far - about an adversary. The adversary stuff is afaict mostly to make proofs work.\n\nI don't think this makes a difference here? If you say \"what's the best not-blacklisted-by-any-knightian-hypothesis action\", then it doesn't really matter if you're thinking of your knightian hypotheses as adversaries trying to screw you over by blacklisting actions that are fine, or if you're thinking of your knightian hypotheses as a more abstract worst-case-scenario. In both cases, for any reasonable action, there's probly a knightian hypothesis which blacklists it.\n\nRegardless of whether you think of it as \"because adversaries\" or just \"because we're cautious\", knightian uncertainty works the same way. The issue is fundamental to doing maximin over knightian hypotheses."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-09-01T06:53:43.453Z",
+    "af": false
+  },
+  {
+    "_id": "Nijx2ehCwDKvT4WBH",
+    "postId": "C7BGkfA76ryBD4Dzr",
+    "parentCommentId": "bHx5k8o4saywSshSg",
+    "topLevelCommentId": "bHx5k8o4saywSshSg",
+    "contents": {
+      "markdown": "This is indeed a meaningful distinction! I'd phrase it as:\n\n* Values about what the entire cosmos should be like\n* Values about what kind of places one wants one's (future) selves to inhabit (eg, in an [internet-like upload-utopia](https://carado.moe/uploaded-utopia-like-internet.html), \"what servers does one want to hang out on\")\n\n\"Global\" and \"local\" is not the *worst* nomenclature. Maybe \"global\" vs \"personal\" values? I dunno.\n\n> my best idea is to call the former \"global preferences\" and the latter \"local preferences\", but that clashes with the pre-existing notion of locality of preferences as the quality of terminally caring more about people/objects closer to you in spacetime\n\nI mean, it's not unrelated! One can view a utility function with both kinds of values as a combination of two utility functions: the part that only cares about the state of the entire cosmos and the part that only cares about what's around them (see also [\"locally-caring agents\"](https://glowfic.com/replies/1865677#reply-1865677)).\n\n(One might be tempted to say \"consequentialist\" vs \"experiential\", but I don't think that's right — one can still value [contact with reality](https://www.lesswrong.com/posts/r7f58E8A85xLgWuqG/contact-with-reality) in their personal/local values.)",
+      "plaintextDescription": "This is indeed a meaningful distinction! I'd phrase it as:\n\n * Values about what the entire cosmos should be like\n * Values about what kind of places one wants one's (future) selves to inhabit (eg, in an internet-like upload-utopia, \"what servers does one want to hang out on\")\n\n\"Global\" and \"local\" is not the worst nomenclature. Maybe \"global\" vs \"personal\" values? I dunno.\n\n> my best idea is to call the former \"global preferences\" and the latter \"local preferences\", but that clashes with the pre-existing notion of locality of preferences as the quality of terminally caring more about people/objects closer to you in spacetime\n\nI mean, it's not unrelated! One can view a utility function with both kinds of values as a combination of two utility functions: the part that only cares about the state of the entire cosmos and the part that only cares about what's around them (see also \"locally-caring agents\").\n\n(One might be tempted to say \"consequentialist\" vs \"experiential\", but I don't think that's right — one can still value contact with reality in their personal/local values.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-08-26T23:13:34.468Z",
+    "af": false
+  },
+  {
+    "_id": "8a2vm2ZTMCJXHKMyC",
+    "postId": "HbkNAyAoa4gCnuzwa",
+    "parentCommentId": "nsYvSnGpeL7cjEK6X",
+    "topLevelCommentId": "uwbCjB3sECm4CjoBv",
+    "contents": {
+      "markdown": "That is, in fact, a helpful elaboration! When you said\n\n> Most people who \"work on AI alignment\" don't even think that thinking is a thing.\n\nmy leading hypotheses for what you could mean were:\n\n* Using thought, as a tool, has not occured to most such people\n* Most such people have no concept whatsoever of cognition as being a thing, the way people in the year 1000 had no concept whatsoever of javascript being a thing.\n\nNow, instead, my leading hypothesis is that you mean:\n\n* Most such people are failing to notice that there's an important process, called \"thinking\", which humans do but LLMs \"basically\" don't do.\n\nThis is a bunch more precise! For one, it mentions AIs at all.",
+      "plaintextDescription": "That is, in fact, a helpful elaboration! When you said\n\n> Most people who \"work on AI alignment\" don't even think that thinking is a thing.\n\nmy leading hypotheses for what you could mean were:\n\n * Using thought, as a tool, has not occured to most such people\n * Most such people have no concept whatsoever of cognition as being a thing, the way people in the year 1000 had no concept whatsoever of javascript being a thing.\n\nNow, instead, my leading hypothesis is that you mean:\n\n * Most such people are failing to notice that there's an important process, called \"thinking\", which humans do but LLMs \"basically\" don't do.\n\nThis is a bunch more precise! For one, it mentions AIs at all."
+    },
+    "baseScore": 7,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-08-26T22:48:58.656Z",
+    "af": false
+  },
+  {
+    "_id": "2xkRvXACGkLtqSKiZ",
+    "postId": "hsTqvqg6o8Tg46eTv",
+    "parentCommentId": "gpdzhsweF3uhspG2i",
+    "topLevelCommentId": "fiqma5pdXLvgtQFsx",
+    "contents": {
+      "markdown": "To be more precise: extrapolated over time, for any undesired selection process or other problem of that kind, either the problem is large enough that it gets exarcerbated over time so much that [it eats everything](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/) — and then that's just extinction, but slower — or it's *not* large enough to win out and aligned superintelligence(s) + coordinated human action is enough to stamp it out in the long run, which means they won't be an issue for almost all of the future.\n\nIt seems like for a problem to be *just* large enough that coordination doesn't stamp it away, but also it doesn't eat everything, would be a very fragile equilibrium, and I think that's pretty unlikely.",
+      "plaintextDescription": "To be more precise: extrapolated over time, for any undesired selection process or other problem of that kind, either the problem is large enough that it gets exarcerbated over time so much that it eats everything — and then that's just extinction, but slower — or it's not large enough to win out and aligned superintelligence(s) + coordinated human action is enough to stamp it out in the long run, which means they won't be an issue for almost all of the future.\n\nIt seems like for a problem to be just large enough that coordination doesn't stamp it away, but also it doesn't eat everything, would be a very fragile equilibrium, and I think that's pretty unlikely."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-27T11:09:36.451Z",
+    "af": false
+  },
+  {
+    "_id": "DBG5Yf6R99NqHdio6",
+    "postId": "hsTqvqg6o8Tg46eTv",
+    "parentCommentId": "WmR8iAg9XB3F5yiva",
+    "topLevelCommentId": "WmR8iAg9XB3F5yiva",
+    "contents": {
+      "markdown": "> single-use\n\nConsidering how loog it took me to get that by this you mean \"not dual-use\", I expect some others just won't get it.",
+      "plaintextDescription": "> single-use\n\nConsidering how loog it took me to get that by this you mean \"not dual-use\", I expect some others just won't get it."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-06-01T11:16:01.434Z",
+    "af": false
+  },
+  {
+    "_id": "HpG6vbXaWfJkgLTxZ",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\nSome people who are very concerned about suffering might be considering building an unaligned AI that kills everyone just to avoid the risk of an AI takeover by an AI aligned to values which want some people to suffer.\n\nLet this be me being on the record saying: I believe the probability of {alignment to values that strongly diswant suffering for all moral patients} is high enough, and the probability of {alignment to values that want some moral patients to suffer} is low enough, that this action is not worth it.\n\nI think this applies to approximately anyone who would read this post, including heads of major labs in case they happen to read this post and in case they're pursuing the startegy of killing everyone to reduce S-risk.\n\nSee also: how acausal trade helps in [1](https://www.lesswrong.com/posts/Qw6qsgR2Qm6rp574A/so-you-want-to-save-the-world-an-account-in-paladinhood?commentId=tnCapm6dziBeqiiCu), [2](https://www.lesswrong.com/posts/yRdXtgy8CZtg2YtAY/how-ldt-helps-reduce-the-ai-arms-race), but I think I think this even without acausal trade.\n\n\n",
+      "plaintextDescription": "Some people who are very concerned about suffering might be considering building an unaligned AI that kills everyone just to avoid the risk of an AI takeover by an AI aligned to values which want some people to suffer.\n\nLet this be me being on the record saying: I believe the probability of {alignment to values that strongly diswant suffering for all moral patients} is high enough, and the probability of {alignment to values that want some moral patients to suffer} is low enough, that this action is not worth it.\n\nI think this applies to approximately anyone who would read this post, including heads of major labs in case they happen to read this post and in case they're pursuing the startegy of killing everyone to reduce S-risk.\n\nSee also: how acausal trade helps in 1, 2, but I think I think this even without acausal trade."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-06-01T09:00:07.205Z",
+    "af": false
+  },
+  {
+    "_id": "eAFnzuF7dacHqtZyr",
+    "postId": "yRWv5kkDD4YhzwRLq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "*sigh* I wish people realized how useless it is to have money when the singularity happens. Either we die or we get a utopia in which it's pretty unlikely that pre-singularity wealth matters. What you want to maximize is not your wealth but your utility function, and you sure as hell are gonna get more from LDT handshakes with aligned superintelligences in saved worlds, if you don't help OpenAI reduce the amount of saved worlds.",
+      "plaintextDescription": "sigh I wish people realized how useless it is to have money when the singularity happens. Either we die or we get a utopia in which it's pretty unlikely that pre-singularity wealth matters. What you want to maximize is not your wealth but your utility function, and you sure as hell are gonna get more from LDT handshakes with aligned superintelligences in saved worlds, if you don't help OpenAI reduce the amount of saved worlds."
+    },
+    "baseScore": 3,
+    "voteCount": 34,
+    "createdAt": null,
+    "postedAt": "2024-05-30T19:31:37.913Z",
+    "af": false
+  },
+  {
+    "_id": "W5Hw2pLmdPopZvxdF",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "6d2fYTqrLskW6Lowo",
+    "topLevelCommentId": "ZnybWoRAba8m4eMaN",
+    "contents": {
+      "markdown": "> I believe that ChatGPT was not released with the expectation that it would become as popular as it did.\n\nWell, even if that's true, causing such an outcome by *accident* should still count as evidence of vast irresponsibility imo.",
+      "plaintextDescription": "> I believe that ChatGPT was not released with the expectation that it would become as popular as it did.\n\nWell, even if that's true, causing such an outcome by accident should still count as evidence of vast irresponsibility imo."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-05-18T17:31:53.297Z",
+    "af": false
+  },
+  {
+    "_id": "ZnybWoRAba8m4eMaN",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm surprised at people who seem to be updating only *now* about OpenAI being very irresponsible, rather than updating when they created a giant public competitive market for chatbots (which contains plenty of labs that don't care about alignment at all), thereby reducing how long *everyone* has to solve alignment. I still parse that move as *devastating the commons in order to make a quick buck*.",
+      "plaintextDescription": "I'm surprised at people who seem to be updating only now about OpenAI being very irresponsible, rather than updating when they created a giant public competitive market for chatbots (which contains plenty of labs that don't care about alignment at all), thereby reducing how long everyone has to solve alignment. I still parse that move as devastating the commons in order to make a quick buck."
+    },
+    "baseScore": 29,
+    "voteCount": 26,
+    "createdAt": null,
+    "postedAt": "2024-05-18T16:18:11.918Z",
+    "af": false
+  },
+  {
+    "_id": "zumcA9ydhtKoaBRyo",
+    "postId": "yCQQ6FHFsZwBXvKiM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I made guesses about my values a while ago, [here](https://carado.moe/guess-intrinsic-values.html).",
+      "plaintextDescription": "I made guesses about my values a while ago, here."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-10T15:45:00.580Z",
+    "af": false
+  },
+  {
+    "_id": "CLQH3qtK2muxxSP4f",
+    "postId": "55rc6LJcqRmyaEr9T",
+    "parentCommentId": "kqu8JQjZZSLSswC7G",
+    "topLevelCommentId": "kqu8JQjZZSLSswC7G",
+    "contents": {
+      "markdown": "> but that this would be bad if the users aren't one of \"us\"—you know, the good alignment researchers who want to use AI to take over the universe, totally unlike those evil capabilities researchers who want to use AI to produce economically valuable goods and services.\n\nRather, \" us\" — the good alignment researchers who will be careful at all about the long term effects of our actions, unlike capabilities researchers who are happy to accelerate race dynamics and increase p(doom) if they make a quick profit out of it in the short term.",
+      "plaintextDescription": "> but that this would be bad if the users aren't one of \"us\"—you know, the good alignment researchers who want to use AI to take over the universe, totally unlike those evil capabilities researchers who want to use AI to produce economically valuable goods and services.\n\nRather, \" us\" — the good alignment researchers who will be careful at all about the long term effects of our actions, unlike capabilities researchers who are happy to accelerate race dynamics and increase p(doom) if they make a quick profit out of it in the short term."
+    },
+    "baseScore": 4,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2024-05-02T20:40:48.223Z",
+    "af": false
+  },
+  {
+    "_id": "W79G5cBdCreb5DJau",
+    "postId": "55rc6LJcqRmyaEr9T",
+    "parentCommentId": "knihttCBqHk8nyr5z",
+    "topLevelCommentId": "knihttCBqHk8nyr5z",
+    "contents": {
+      "markdown": "I am a utilitarian and agree with your comment. \n\nThe intent of the post was \n\n* to make people weigh whether to publish or not, because I think some people are not weighing this enough\n* to give some arguments in favor of \"you might be systematically overestimating the utility of publishing\", because I think some people are doing that\n\nI agree people should take the utilitalianly optimal action, I just think they're doing the utilitarian calculus wrong or not doing the calculus at all.",
+      "plaintextDescription": "I am a utilitarian and agree with your comment.\n\nThe intent of the post was\n\n * to make people weigh whether to publish or not, because I think some people are not weighing this enough\n * to give some arguments in favor of \"you might be systematically overestimating the utility of publishing\", because I think some people are doing that\n\nI agree people should take the utilitalianly optimal action, I just think they're doing the utilitarian calculus wrong or not doing the calculus at all."
+    },
+    "baseScore": 13,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-05-02T20:30:44.183Z",
+    "af": false
+  },
+  {
+    "_id": "4eiBHDD9uyTESfinp",
+    "postId": "55rc6LJcqRmyaEr9T",
+    "parentCommentId": "ZYWyzwdnhPCazxAcz",
+    "topLevelCommentId": "ZYWyzwdnhPCazxAcz",
+    "contents": {
+      "markdown": "I think research that is mostly about outer alignment (what to point the AI to) rather than inner alignment (how to point the AI to it) tends to be good — quantilizers, corrigibility, QACI, decision theory, embedded agency, indirect normativity, infra bayesianism, things like that. Though I could see some of those backfiring the way RLHF did — in the hands of a very irresponsible org, even not very capabilities-related research can be used to accelerate timelines and increase race dynamics if the org doing it thinks it can get a quick buck out of it.",
+      "plaintextDescription": "I think research that is mostly about outer alignment (what to point the AI to) rather than inner alignment (how to point the AI to it) tends to be good — quantilizers, corrigibility, QACI, decision theory, embedded agency, indirect normativity, infra bayesianism, things like that. Though I could see some of those backfiring the way RLHF did — in the hands of a very irresponsible org, even not very capabilities-related research can be used to accelerate timelines and increase race dynamics if the org doing it thinks it can get a quick buck out of it."
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-05-02T20:24:59.876Z",
+    "af": false
+  },
+  {
+    "_id": "cR7rakBzWFNdCdY5J",
+    "postId": "55rc6LJcqRmyaEr9T",
+    "parentCommentId": "8sczuK28uGWL5m8v9",
+    "topLevelCommentId": "8sczuK28uGWL5m8v9",
+    "contents": {
+      "markdown": "> I don't buy the argument that safety researchers have unusually good ideas/research compared to capability researchers at top labs\n\nI don't think this particularly needs to be true for my point to hold; they only need to have *reasonably good* ideas/research, not *unusually good*, for them to publish less to be a positive thing.\n\n> That said, if someone hasn't thought at all about concepts like \"differentially advancing safety\" or \"capabilities externalities,\" then reading this post would probably be helpful, and I'd endorse thinking about those issues.\n\nThat's a lot of what I intend to do with this post, yes. I think a lot of people do not think about the impact of publishing very much and just blurt-out/publish things as a default action, and I would like them to think about their actions more.",
+      "plaintextDescription": "> I don't buy the argument that safety researchers have unusually good ideas/research compared to capability researchers at top labs\n\nI don't think this particularly needs to be true for my point to hold; they only need to have reasonably good ideas/research, not unusually good, for them to publish less to be a positive thing.\n\n> That said, if someone hasn't thought at all about concepts like \"differentially advancing safety\" or \"capabilities externalities,\" then reading this post would probably be helpful, and I'd endorse thinking about those issues.\n\nThat's a lot of what I intend to do with this post, yes. I think a lot of people do not think about the impact of publishing very much and just blurt-out/publish things as a default action, and I would like them to think about their actions more."
+    },
+    "baseScore": 18,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-05-02T17:33:18.369Z",
+    "af": false
+  },
+  {
+    "_id": "ZX7pTaNdk2pnxcuk7",
+    "postId": "55rc6LJcqRmyaEr9T",
+    "parentCommentId": "zrJqEFk2wRTYhtayY",
+    "topLevelCommentId": "zrJqEFk2wRTYhtayY",
+    "contents": {
+      "markdown": "One straightforward alternative is to just not do that; I agree it's not very satisfying but it should still be the action that's pursued if it's the one that has more utility.\n\nI wish I had better alternatives, but I don't. But the null action *is* an alternative.",
+      "plaintextDescription": "One straightforward alternative is to just not do that; I agree it's not very satisfying but it should still be the action that's pursued if it's the one that has more utility.\n\nI wish I had better alternatives, but I don't. But the null action is an alternative."
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-05-02T16:08:44.709Z",
+    "af": false
+  },
+  {
+    "_id": "imbjaTctSBPXSEStz",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "FbTGu8Kxop6auMeeB",
+    "topLevelCommentId": "Xajiz3CXnGceuwwea",
+    "contents": {
+      "markdown": "It certainly is possible! In more decision-theoritic terms, I'd describe this as \"it sure would suck if agents in my reference class just optimized for their own happiness; it seems like the instrumental thing for agents in my reference class to do is maximize for everyone's happiness\". Which is probly correct!\n\nBut as per my post, I'd describe this position as \"not intrinsically altruistic\" — you're optimizing for everyone's happiness because \"it sure would sure if agents in my reference class didn't do that\", not because you *intrinsically value* that everyone be happy, regardless of reasoning about agents and reference classes and veils of ignorance.",
+      "plaintextDescription": "It certainly is possible! In more decision-theoritic terms, I'd describe this as \"it sure would suck if agents in my reference class just optimized for their own happiness; it seems like the instrumental thing for agents in my reference class to do is maximize for everyone's happiness\". Which is probly correct!\n\nBut as per my post, I'd describe this position as \"not intrinsically altruistic\" — you're optimizing for everyone's happiness because \"it sure would sure if agents in my reference class didn't do that\", not because you intrinsically value that everyone be happy, regardless of reasoning about agents and reference classes and veils of ignorance."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-02T07:17:31.657Z",
+    "af": false
+  },
+  {
+    "_id": "Xajiz3CXnGceuwwea",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "## decision theory is no substitute for utility function\n\n\nsome people, upon learning about decision theories such as [LDT](https://arbital.greaterwrong.com/p/logical_dt?l=58b) and how it cooperates on problems such as the prisoner's dilemma, end up believing the following:\n\n> my utility function is about what i want *for just me*; but i'm altruistic (/egalitarian/cosmopolitan/pro-fairness/etc) because decision theory says i should cooperate with other agents. decision theoritic cooperation is the true name of altruism.\n\nit's possible that this is true for *some* people, but in general i expect that to be a mistaken [analysis of their values](https://carado.moe/what-is-value.html).\n\ndecision theory cooperates with agents *relative to how much power they have*, and *only when it's instrumental*.\n\nin my opinion, *real* altruism (/egalitarianism/cosmopolitanism/fairness/etc) should be in the *utility function* which the decision theory is instrumental to. i *actually intrinsically* care about others; i don't just care about others *instrumentally because it helps me somehow*.\n\nsome important aspects that my utility-function-altruism differs from decision-theoritic-cooperation includes:\n\n* i care about *people weighed by [moral patienthood](https://www.lesswrong.com/posts/kQLw5hFDSMuS5SFGg/carado-s-shortform?commentId=X82HzJcdEKRHk3RyC)*, decision theory only cares about *agents weighed by negotiation power*. if an alien superintelligence is very powerful but isn't a moral patient, then i will only cooperate with it instrumentally (for example because i care about the alien moral patients that it has been in contact with); if cooperating with it doesn't help my utility function (which, again, includes altruism towards aliens) then i won't cooperate with that alien superintelligence. corollarily, i will take actions that cause nice things to happen to people even if they've very impoverished (and thus don't have much LDT negotiation power) and it doesn't help any other aspect of my utility function than just the fact that *i value that they're okay*.\n* if i can switch to a better decision theory, or if fucking over some non-moral-patienty agents helps me somehow, then i'll happily do that; i don't have goal-content integrity about my decision theory. i *do* have goal-content integrity about my utility function: i don't want to become someone who wants moral patients to unconsentingly-die or suffer, for example.\n* there seems to be a sense in which some decision theories are better than others, because they're ultimately instrumental to one's utility function. utility functions, however, don't have an objective measure for how good they are. hence, moral anti-realism is true: there isn't a *Single Correct Utility Function*.\n\ndecision theory is *instrumental*; the utility function is where the actual intrinsic/axiomatic/terminal goals/values/preferences are stored. usually, i also interpret \"morality\" and \"ethics\" as \"terminal values\", since most of the stuff that those seem to care about looks like terminal values to me. for example, i will want fairness between moral patients *intrinsically*, not just because my decision theory says that that's instrumental to me somehow.\n\n\n",
+      "plaintextDescription": "decision theory is no substitute for utility function\nsome people, upon learning about decision theories such as LDT and how it cooperates on problems such as the prisoner's dilemma, end up believing the following:\n\n> my utility function is about what i want for just me; but i'm altruistic (/egalitarian/cosmopolitan/pro-fairness/etc) because decision theory says i should cooperate with other agents. decision theoritic cooperation is the true name of altruism.\n\nit's possible that this is true for some people, but in general i expect that to be a mistaken analysis of their values.\n\ndecision theory cooperates with agents relative to how much power they have, and only when it's instrumental.\n\nin my opinion, real altruism (/egalitarianism/cosmopolitanism/fairness/etc) should be in the utility function which the decision theory is instrumental to. i actually intrinsically care about others; i don't just care about others instrumentally because it helps me somehow.\n\nsome important aspects that my utility-function-altruism differs from decision-theoritic-cooperation includes:\n\n * i care about people weighed by moral patienthood, decision theory only cares about agents weighed by negotiation power. if an alien superintelligence is very powerful but isn't a moral patient, then i will only cooperate with it instrumentally (for example because i care about the alien moral patients that it has been in contact with); if cooperating with it doesn't help my utility function (which, again, includes altruism towards aliens) then i won't cooperate with that alien superintelligence. corollarily, i will take actions that cause nice things to happen to people even if they've very impoverished (and thus don't have much LDT negotiation power) and it doesn't help any other aspect of my utility function than just the fact that i value that they're okay.\n * if i can switch to a better decision theory, or if fucking over some non-moral-patienty agents helps me somehow, then i'll happily do tha"
+    },
+    "baseScore": 48,
+    "voteCount": 27,
+    "createdAt": null,
+    "postedAt": "2024-04-27T17:25:28.164Z",
+    "af": false
+  },
+  {
+    "_id": "bzneMBifCpPnyE85w",
+    "postId": "F6pf38EQMxtMA5J36",
+    "parentCommentId": "fwKaFPHr3nCvthqSw",
+    "topLevelCommentId": "vtStrjosKQFFTgQdx",
+    "contents": {
+      "markdown": "I would feel better about this if there *was* something closer to (1) on which to discuss what is probably the most important topic in history (AI alignment). But noted.",
+      "plaintextDescription": "I would feel better about this if there was something closer to (1) on which to discuss what is probably the most important topic in history (AI alignment). But noted."
+    },
+    "baseScore": 11,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-04-26T18:52:45.280Z",
+    "af": false
+  },
+  {
+    "_id": "vtStrjosKQFFTgQdx",
+    "postId": "F6pf38EQMxtMA5J36",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm generally not a fan of increasing the amount of illegible selection effects.\n\nOn the privacy side, can lesswrong guarantee that, if I never click on Recommended, then recombee will never see an (even anonymized) trace of what I browse on lesswrong?",
+      "plaintextDescription": "I'm generally not a fan of increasing the amount of illegible selection effects.\n\nOn the privacy side, can lesswrong guarantee that, if I never click on Recommended, then recombee will never see an (even anonymized) trace of what I browse on lesswrong?"
+    },
+    "baseScore": 18,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2024-04-26T15:34:01.451Z",
+    "af": false
+  },
+  {
+    "_id": "KLRvtf7p6uvxLDowS",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "LyRnaxYjzX488Hz7r",
+    "topLevelCommentId": "MtQxM8tLx2XxjBGfX",
+    "contents": {
+      "markdown": "Here the thing that I'm calling evil is pursuing short-term profits at the cost of non-negligeably higher risk that everyone dies.",
+      "plaintextDescription": "Here the thing that I'm calling evil is pursuing short-term profits at the cost of non-negligeably higher risk that everyone dies."
+    },
+    "baseScore": 14,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-04-22T20:07:17.629Z",
+    "af": false
+  },
+  {
+    "_id": "MtQxM8tLx2XxjBGfX",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Regardless of how good their alignment plans are, the thing that makes OpenAI unambiguously evil is that they created a strongly marketed public product and, as a result, caused a lot public excitement about AI, and thus lots of other AI capabilities organizations were created that are completely dismissive of safety.\n\nThere's just no good reason to do that, except short-term greed at the cost of higher probability that everyone (including people at OpenAI) dies.\n\n(No, \"you need huge profits to solve alignment\" isn't a good excuse — we had *nowhere near* exhausted the alignment research that can be done *without* huge profits.)",
+      "plaintextDescription": "Regardless of how good their alignment plans are, the thing that makes OpenAI unambiguously evil is that they created a strongly marketed public product and, as a result, caused a lot public excitement about AI, and thus lots of other AI capabilities organizations were created that are completely dismissive of safety.\n\nThere's just no good reason to do that, except short-term greed at the cost of higher probability that everyone (including people at OpenAI) dies.\n\n(No, \"you need huge profits to solve alignment\" isn't a good excuse — we had nowhere near exhausted the alignment research that can be done without huge profits.)"
+    },
+    "baseScore": 8,
+    "voteCount": 55,
+    "createdAt": null,
+    "postedAt": "2024-04-21T17:01:11.669Z",
+    "af": false
+  },
+  {
+    "_id": "7PHbjtocbHJgCJsMf",
+    "postId": "RYx6cLwzoajqjyB6b",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "There's also the case of harmful warning shots: for example, if it turns out that, upon seeing an AI do a scary but impressive thing, enough people/orgs/states go \"woah, AI is powerful, I should make one!\" or \"I guess we're doomed anyways, might as well stop thinking about safety and just enjoy making profit with AI while we're still alive\", to offset the positive effect. This is totally the kind of thing that could be the case in our civilization.",
+      "plaintextDescription": "There's also the case of harmful warning shots: for example, if it turns out that, upon seeing an AI do a scary but impressive thing, enough people/orgs/states go \"woah, AI is powerful, I should make one!\" or \"I guess we're doomed anyways, might as well stop thinking about safety and just enjoy making profit with AI while we're still alive\", to offset the positive effect. This is totally the kind of thing that could be the case in our civilization."
+    },
+    "baseScore": 20,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2024-04-14T06:20:25.187Z",
+    "af": false
+  },
+  {
+    "_id": "gwz7awp8q4TFnW5oG",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "sSH4ce6qbFT3wBaso",
+    "topLevelCommentId": "EFkeah76mQjthzLdJ",
+    "contents": {
+      "markdown": "There could be a difference but only after a certain point in time, which you're trying to predict / plan for.",
+      "plaintextDescription": "There could be a difference but only after a certain point in time, which you're trying to predict / plan for."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-14T04:30:06.718Z",
+    "af": false
+  },
+  {
+    "_id": "BSL7PqEtK9DLvBuWP",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "KQjo2nxyRxxLa58nj",
+    "topLevelCommentId": "EFkeah76mQjthzLdJ",
+    "contents": {
+      "markdown": "What you propose, ≈\"weigh indices by kolmogorov complexity\" is indeed a way to go about picking indices, but \"weigh indices by one over their square\" feels a lot more natural to me; a lot simpler than invoking the universal prior *twice*.",
+      "plaintextDescription": "What you propose, ≈\"weigh indices by kolmogorov complexity\" is indeed a way to go about picking indices, but \"weigh indices by one over their square\" feels a lot more natural to me; a lot simpler than invoking the universal prior twice."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-13T20:20:10.761Z",
+    "af": false
+  },
+  {
+    "_id": "mKFpeb7ZdEr3zhHM3",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "EMYqzC5f3rHHKpyLp",
+    "topLevelCommentId": "EFkeah76mQjthzLdJ",
+    "contents": {
+      "markdown": "If you use the UTMs for cartesian-framed inputs/outputs, sure; but if you're running the programs as *entire worlds*, then you still have the issue of \"where are you in time\".\n\nSay there's an infinitely growing conway's-game-of-life program, or some [universal program](https://carado.moe/universal-complete.html), which contains a copy of me at infinitely many locations. How do I weigh which ones are me?\n\nIt doesn't matter that the UTM has a fixed amount of weight, there's still infinitely many locations within it.",
+      "plaintextDescription": "If you use the UTMs for cartesian-framed inputs/outputs, sure; but if you're running the programs as entire worlds, then you still have the issue of \"where are you in time\".\n\nSay there's an infinitely growing conway's-game-of-life program, or some universal program, which contains a copy of me at infinitely many locations. How do I weigh which ones are me?\n\nIt doesn't matter that the UTM has a fixed amount of weight, there's still infinitely many locations within it."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-04-13T17:52:44.269Z",
+    "af": false
+  },
+  {
+    "_id": "EFkeah76mQjthzLdJ",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "([cross-posted from my blog](https://carado.moe/anthropic-bqp.html))\n\n## Is quantum phenomena anthropic evidence for BQP=BPP? Is existing evidence against many-worlds?\n\n\nSuppose I live inside a simulation ran by a computer over which I have some control.\n\n*\tScenario 1: I make the computer run the following:\n\n\t\tpause simulation\n\n\t\tif is even(calculate billionth digit of pi):\n\t\t\tresume simulation\n\n\tSuppose, after running this program, that I observe that I still exist. This is some anthropic evidence for the billionth digit of pi being even.\n\n\tThus, one can get anthropic evidence about logical facts.\n\n* Scenario 2: I make the computer run the following:\n\n\t\tpause simulation\n\t\t\n\t\tif is even(calculate billionth digit of pi):\n\t\t\tresume simulation\n\t\telse:\n\t\t\tresume simulation but run it a trillion times slower\n\n\tIf you're running on the non-time-penalized solomonoff prior, then that's no evidence at all — observing existing is evidence that you're being ran, not that you're being ran fast. But if you do that, [a bunch of things break](https://www.lesswrong.com/posts/gXbLCEuhDRN8EBKjZ/all-claw-no-world-and-other-thoughts-on-the-universal) including [anthropic probabilities and expected utility calculations](https://twitter.com/ESYudkowsky/status/1644060293889249288). What you want is a *time-penalized* (probably [quadratically](https://carado.moe/qaci-invention-dialogue.html#L5.-early-math--26-amp-3b--realityfluid)) prior, in which later compute-steps have less realityfluid than earlier ones — and thus, observing existing is evidence for being computed *early* — and thus, observing existing is *some* evidence that the billionth digit of pi is even.\n\n* Scenario 3: I make the computer run the following:\n\n\t\tpause simulation\n\n\t\tquantum_algorithm <- classical-compute algorithm which simulates quantum algorithms the fastest\n\n\t\tinfinite loop:\n\t\t\tuse quantum_algorithm to compute the result of some complicated quantum phenomena\n\n\t\t\tcompute simulation forwards by 1 step\n\t\n\tObserving existing after running this program is evidence that [BQP=BPP](https://en.wikipedia.org/wiki/BQP) — that is, classical computers can [efficiently](https://arxiv.org/abs/1108.1791) run quantum algorithms: if BQP≠BPP, then my simulation should become way slower, and existing is evidence for being computed *early and fast* (see scenario 2).\n\n\tExcept, living in a world which contains the outcome of cohering quantum phenomena (quantum computers, double-slit experiments, etc) *is* very similar to the scenario above! If your prior for the universe is a programs, penalized for how long they take to run *on classical computation*, then observing that the outcome of quantum phenomena is being computed is evidence that they can be computed efficiently.\n\n* Scenario 4: I make the computer run the following:\n\n\t\tin the simulation, give the human a device which generates a sequence of random bits\n\t\tpause simulation\n\n\t\tlist_of_simulations <- [current simulation state]\n\n\t\tquantum_algorithm <- classical-compute algorithm which simulates quantum algorithms the fastest\n\n\t\tinfinite loop:\n\t\t\tlist_of_new_simulations <- []\n\t\t\t\n\t\t\tfor simulation in list_of_simulations:\n\t\t\t\tlist_of_new_simulations += \n\t\t\t\t\t[ simulation advanced by one step where the device generated bit 0,\n\t\t\t\t\t  simulation advanced by one step where the device generated bit 1 ]\n\n\t\t\tlist_of_simulations <- list_of_new_simulations\n\t\n\tThis is similar to what it's like to being in a many-worlds universe where there's *constant forking*.\n\n\tYes, in this scenario, there is no \"mutual destruction\", the way there is in quantum. But with decohering everett branches, you can totally build exponentially many non-mutually-destructing timelines too! For example, you can choose to make important life decisions based on the output of the RNG, and end up with exponentially many different lives each with *some* (exponentially little) quantum amplitude, without any need for those to be *compressible together*, or to be able to mutually-destruct. That's what decohering means! \"Recohering\" quantum phenomena interacts destructively such that you can compute the output, but decohering* phenomena *just branches*.\n\n\tThe amount of **different** simulations that need to be computed increases exponentially with simulation time.\n\n\tObserving existing after running this program is *very strange*. Yes, there are exponentially many me's, but all of the me's are being ran *exponentially slowly*; they should all *not observe existing*. I should *not be any of them*.\n\n\tThis is what I mean by \"existing is evidence against many-worlds\" — there's *gotta be* something like [an agent](https://carado.moe/solomonoff-deism.html) (or physics, through some real RNG or [through computing whichever variables have the most impact](https://www.lesswrong.com/posts/9aozKBpBe8XqJZZ3q/some-simulation-hypotheses)) picking a only-polynomially-large set of decohered non-compressible-together timelines to explain continuing existing.\n\n\tSome friends tell me \"but tammy, sure at step N each you has only 1/2^N quantum amplitude, but at step N there's 2^N such you's, so you still have 1 unit of realityfluid\" — but my response is \"I mean, I guess, sure, but regardless of that, step N occurs *2^N units of classical-compute-time in the future!* That's the issue!\".\n\t\t\t\nSome notes:\n\n* I [heard about pilot wave theory recently](https://www.lesswrong.com/posts/wvGqjZEZoYnsS5xfn/any-evidence-or-reason-to-expect-a-multiverse-everett), and sure, if that's one way to get single history, why not. I hear that it \"doesn't have locality\", which like, okay I guess, that's plausibly worse program-complexity wise, but it's *exponentially better* after accounting for the time penalty.\n\n* What if [\"the world is just Inherently Quantum\"](https://www.lesswrong.com/posts/Y6LhXdGfwsAStMuhr/ackshually-many-worlds-is-wrong)? Well, my main answer here is, *what the hell does that mean*? It's very easy for me to imagine existing inside of a classical computation (eg conway's game of life); I have no idea what it'd mean for me to exist in \"one of the exponentially many non-compressible-together decohered exponenially-small-amplitude quantum states that are all being computed forwards\". Quadratically-decaying-realityfluid classical-computation makes *sense*, dammit.\n\n* What if it's still true — what if I *am* observing existing with exponentially little (as a function of the age of the universe) realityfluid? What if the set of real stuff is *just that big*?\n\n\tWell, I *guess* that's *vaguely* plausible (even though, [ugh, that shouldn't be how being real works, I think](https://arxiv.org/abs/1108.1791)), but then the [tegmark 4](https://space.mit.edu/home/tegmark/crazy.html) multiverse has to contain *no hypotheses* in which observers in my reference class occupy more than exponentially little realityfluid.\n\n\tLike, if there's a conway's-game-of-life simulation out there in tegmark 4, whose entire realityfluid-per-timestep is equivalent to *my* realityfluid-per-timestep, then they can just bruteforce-generate all human-brain-states and run into mine by *chance*, and I should have about as much probability of being one of those random generations as I'd have being in *this* universe — both have exponentially little of their universe's realityfluid! The conway's-game-of-life bruteforced-me has exponentially little realityfluid because she's getting generated *exponentially late*, and *quantum-universe me* has exponentially little realityfluid because I occupy exponentially little of the quantum amplitude, at every time-step.\n\n\tSee why that's weird? As a general observer, I should *exponentially* favor observing being someone who lives in a world where I *don't* have exponentially little realityfluid, such as \"person who lives only-polynomially-late into a conway's-game-of-life, but happened to get randomly very confused about thinking that they might inhabit a quantum world\".\n\nExisting inside of a many-worlds quantum universe feels like *aliens pranksters-at-orthogonal-angles running the kind of simulation where the observers inside of it to be very anthropically confused once they think about anthropics hard enough*. (This is not my belief.)\n\n\n",
+      "plaintextDescription": "(cross-posted from my blog)\n\n\nIs quantum phenomena anthropic evidence for BQP=BPP? Is existing evidence against many-worlds?\nSuppose I live inside a simulation ran by a computer over which I have some control.\n\n * Scenario 1: I make the computer run the following:\n   \n   pause simulation\n   \n   if is even(calculate billionth digit of pi):\n   \tresume simulation\n   \n   \n   Suppose, after running this program, that I observe that I still exist. This is some anthropic evidence for the billionth digit of pi being even.\n   \n   Thus, one can get anthropic evidence about logical facts.\n\n * Scenario 2: I make the computer run the following:\n   \n     pause simulation\n     \n     if is even(calculate billionth digit of pi):\n     \tresume simulation\n     else:\n     \tresume simulation but run it a trillion times slower\n   \n   \n   If you're running on the non-time-penalized solomonoff prior, then that's no evidence at all — observing existing is evidence that you're being ran, not that you're being ran fast. But if you do that, a bunch of things break including anthropic probabilities and expected utility calculations. What you want is a time-penalized (probably quadratically) prior, in which later compute-steps have less realityfluid than earlier ones — and thus, observing existing is evidence for being computed early — and thus, observing existing is some evidence that the billionth digit of pi is even.\n\n * Scenario 3: I make the computer run the following:\n   \n     pause simulation\n   \n     quantum_algorithm <- classical-compute algorithm which simulates quantum algorithms the fastest\n   \n     infinite loop:\n     \tuse quantum_algorithm to compute the result of some complicated quantum phenomena\n   \n     \tcompute simulation forwards by 1 step\n   \n   \n   Observing existing after running this program is evidence that BQP=BPP — that is, classical computers can efficiently run quantum algorithms: if BQP≠BPP, then my simulation should become way slower, and existing is evidence for be"
+    },
+    "baseScore": 18,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-04-13T11:47:48.333Z",
+    "af": false
+  },
+  {
+    "_id": "dSpavXMLHcnzfABFQ",
+    "postId": "YMo5PuXnZDwRjhHhE",
+    "parentCommentId": "FRDL6MmaGhsvvojoq",
+    "topLevelCommentId": "FRDL6MmaGhsvvojoq",
+    "contents": {
+      "markdown": "I didn't see a clear indication in the post about whether the music is AI-generated or not, and I'd like to know; was there an indication I missed?\n\n(I care because I'll want to listen to that music less if it's AI-generated.)",
+      "plaintextDescription": "I didn't see a clear indication in the post about whether the music is AI-generated or not, and I'd like to know; was there an indication I missed?\n\n(I care because I'll want to listen to that music less if it's AI-generated.)"
+    },
+    "baseScore": 18,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-04-01T11:56:22.973Z",
+    "af": false
+  },
+  {
+    "_id": "tDFfW2GtTfTwwYbWb",
+    "postId": "7J3ywHzWnghRtdpHQ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Unlike on [your blog](https://joecarlsmith.com/2022/03/16/on-expected-utility-part-1-skyscrapers-and-madmen), the images on the lesswrong version of this post are now broken.",
+      "plaintextDescription": "Unlike on your blog, the images on the lesswrong version of this post are now broken."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-31T06:14:21.947Z",
+    "af": false
+  },
+  {
+    "_id": "xayh4E9Winy8dBxwY",
+    "postId": "gb9PXJfzafkxg7orm",
+    "parentCommentId": "8BKA7QrduXH9faGhX",
+    "topLevelCommentId": "mXhaZoPsz67nTdRDB",
+    "contents": {
+      "markdown": "Taboo the word \"intelligence\".\n\nAn agent can superhumanly-optimize any utility function. Even if there are objective values, a superhuman-optimizer can ignore them and superhuman-optimize paperclips instead (and then we die because it optimized for that harder than we optimized for what we want).",
+      "plaintextDescription": "Taboo the word \"intelligence\".\n\nAn agent can superhumanly-optimize any utility function. Even if there are objective values, a superhuman-optimizer can ignore them and superhuman-optimize paperclips instead (and then we die because it optimized for that harder than we optimized for what we want)."
+    },
+    "baseScore": 14,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-03-25T13:13:59.811Z",
+    "af": false
+  },
+  {
+    "_id": "gZLRYboiWSAPb836Y",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "BQjyS7ftmNDEyc2Lg",
+    "topLevelCommentId": "BQjyS7ftmNDEyc2Lg",
+    "contents": {
+      "markdown": "(I'm gonna interpret these disagree-votes as \"I also don't think this is the case\" rather than \"I disagree with you tamsin, I think this *is* the case\".)",
+      "plaintextDescription": "(I'm gonna interpret these disagree-votes as \"I also don't think this is the case\" rather than \"I disagree with you tamsin, I think this is the case\".)"
+    },
+    "baseScore": 4,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-03-21T09:44:37.430Z",
+    "af": false
+  },
+  {
+    "_id": "BQjyS7ftmNDEyc2Lg",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't think this is the case, but I'm mentioning this possibility because I'm surprised I've never seen someone suggest it before:\n\nMaybe the reason Sam Altman is taking decisions that increase p(doom) is because he's a pure negative utilitarian (and he doesn't know-about/believe-in [acausal trade](https://www.lesswrong.com/posts/Qw6qsgR2Qm6rp574A/so-you-want-to-save-the-world-an-account-in-paladinhood?commentId=tnCapm6dziBeqiiCu)).",
+      "plaintextDescription": "I don't think this is the case, but I'm mentioning this possibility because I'm surprised I've never seen someone suggest it before:\n\nMaybe the reason Sam Altman is taking decisions that increase p(doom) is because he's a pure negative utilitarian (and he doesn't know-about/believe-in acausal trade)."
+    },
+    "baseScore": -1,
+    "voteCount": 22,
+    "createdAt": null,
+    "postedAt": "2024-03-20T13:25:50.633Z",
+    "af": false
+  },
+  {
+    "_id": "wtDtsDmezT92ZoyqL",
+    "postId": "dLnDaLM4KhGomWwk7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For writing, there's also [jan misali](https://www.youtube.com/@HBMmaster)'s [ASCII toki pona syllabary](https://www.seximal.net/tkpn).",
+      "plaintextDescription": "For writing, there's also jan misali's ASCII toki pona syllabary."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-18T14:40:48.072Z",
+    "af": false
+  },
+  {
+    "_id": "cjGsprdpvaXf5WmRA",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Reposting myself from discord, on the topic of donating 5000$ to EA causes.\n\n> if you're doing alignment research, even just a bit, then the 5000$ are probly better spent on yourself\n> \n> if you have any gears level model of AI stuff then it's better value to pick which alignment org to give to yourself; charity orgs are vastly understaffed and you're essentially contributing to the \"picking what to donate to\" effort by thinking about it yourself\n> \n> if you have no gears level model of AI then it's hard to judge which alignment orgs it's helpful to donate to (or, if giving to regranters, which regranters are good at knowing which alignment orgs to donate to)\n> \n> as an example of regranters doing massive harm: openphil gave 30M$ to openai at a time where it was critically useful to them, (supposedly in order to have a chair on their board, and look how that turned out when the board tried to yeet altman)\n> \n> i know of at least one person who was working in regranting and was like \"you know what i'd be better off doing alignment research directly\" — imo this kind of decision is probly why regranting is so understaffed\n> \n> it takes technical knowledge to know what should get money, and once you have technical knowledge you realize how much your technical knowledge could help more directly so you do that, or something",
+      "plaintextDescription": "Reposting myself from discord, on the topic of donating 5000$ to EA causes.\n\n> if you're doing alignment research, even just a bit, then the 5000$ are probly better spent on yourself\n> \n> if you have any gears level model of AI stuff then it's better value to pick which alignment org to give to yourself; charity orgs are vastly understaffed and you're essentially contributing to the \"picking what to donate to\" effort by thinking about it yourself\n> \n> if you have no gears level model of AI then it's hard to judge which alignment orgs it's helpful to donate to (or, if giving to regranters, which regranters are good at knowing which alignment orgs to donate to)\n> \n> as an example of regranters doing massive harm: openphil gave 30M$ to openai at a time where it was critically useful to them, (supposedly in order to have a chair on their board, and look how that turned out when the board tried to yeet altman)\n> \n> i know of at least one person who was working in regranting and was like \"you know what i'd be better off doing alignment research directly\" — imo this kind of decision is probly why regranting is so understaffed\n> \n> it takes technical knowledge to know what should get money, and once you have technical knowledge you realize how much your technical knowledge could help more directly so you do that, or something"
+    },
+    "baseScore": 27,
+    "voteCount": 27,
+    "createdAt": null,
+    "postedAt": "2024-03-16T17:56:09.067Z",
+    "af": true
+  },
+  {
+    "_id": "X7jFQcCFvRYtvAEtZ",
+    "postId": "yi7shfo6YfhDEYizA",
+    "parentCommentId": "PscSdo6NS9q7oH3YQ",
+    "topLevelCommentId": "tRdBBta255PErnyWp",
+    "contents": {
+      "markdown": "yes, edited",
+      "plaintextDescription": "yes, edited"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-15T09:41:37.784Z",
+    "af": false
+  },
+  {
+    "_id": "tRdBBta255PErnyWp",
+    "postId": "yi7shfo6YfhDEYizA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> So this option looks unattractive if you think transformative AI systems are likely to developed within the next 5 years. However, with a 10-years timeframe things look much stronger: you would still have around 5 years to contribute as a research.\n\nThis phrasing is tricky! If you think TAI is coming **in approximately 10 years** then sure, you can study for 5 years and then do research for 5 years.\n\nBut if you think TAI is coming **within 10 years** (for example, if you think that the current half-life on worlds surviving is 10 years; if you think 10 years is the amount of time in which half of worlds are doomed) then depending on your distribution-over-time you should absolutely not wait 5 years before doing research, because TAI could happen in 9 years but it could also happen in 1 year. If you think TAI is coming **within 10 years**, then (depending on your distribution) you should still in fact do research asap.\n\n(People often get this wrong! They think that \"TAI probably within X years\" necessarily means \"TAI in approximately X years\".)",
+      "plaintextDescription": "> So this option looks unattractive if you think transformative AI systems are likely to developed within the next 5 years. However, with a 10-years timeframe things look much stronger: you would still have around 5 years to contribute as a research.\n\nThis phrasing is tricky! If you think TAI is coming in approximately 10 years then sure, you can study for 5 years and then do research for 5 years.\n\nBut if you think TAI is coming within 10 years (for example, if you think that the current half-life on worlds surviving is 10 years; if you think 10 years is the amount of time in which half of worlds are doomed) then depending on your distribution-over-time you should absolutely not wait 5 years before doing research, because TAI could happen in 9 years but it could also happen in 1 year. If you think TAI is coming within 10 years, then (depending on your distribution) you should still in fact do research asap.\n\n(People often get this wrong! They think that \"TAI probably within X years\" necessarily means \"TAI in approximately X years\".)"
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-03-15T05:42:02.441Z",
+    "af": true
+  },
+  {
+    "_id": "njAHrv862gCb9JNsr",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "usgsiZGpGWDqseTEs",
+    "topLevelCommentId": "2ihjQBzBsuiur9Q4i",
+    "contents": {
+      "markdown": "Sure, this is just me adapting the idea to the framing people often have, of \"what technique can you apply to an existing AI to make it safe\".",
+      "plaintextDescription": "Sure, this is just me adapting the idea to the framing people often have, of \"what technique can you apply to an existing AI to make it safe\"."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-03-12T08:39:25.202Z",
+    "af": false
+  },
+  {
+    "_id": "2ihjQBzBsuiur9Q4i",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "AI safety is easy. There's a simple AI safety technique that guarantees that your AI won't end the world, it's called \"delete it\".\n\n\n\nAI alignment is hard.",
+      "plaintextDescription": "AI safety is easy. There's a simple AI safety technique that guarantees that your AI won't end the world, it's called \"delete it\".\n\nAI alignment is hard."
+    },
+    "baseScore": 11,
+    "voteCount": 23,
+    "createdAt": null,
+    "postedAt": "2024-03-12T08:06:21.396Z",
+    "af": false
+  },
+  {
+    "_id": "vZw36CRyvLkj4jGHG",
+    "postId": "hwmijAeWWNaBLPDjS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm confused about why 1P-logic is needed. It seems to me like you could just have a variable X which tracks \"which agent am I\" and then you can express things like `sensor_observes(X, red)` or `is_located_at(X, northwest)`. **Here** and **Absent** are merely a special case of **True** and **False** when the statement depends on `X`.",
+      "plaintextDescription": "I'm confused about why 1P-logic is needed. It seems to me like you could just have a variable X which tracks \"which agent am I\" and then you can express things like sensor_observes(X, red) or is_located_at(X, northwest). Here and Absent are merely a special case of True and False when the statement depends on X."
+    },
+    "baseScore": 12,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-03-10T05:33:04.864Z",
+    "af": true
+  },
+  {
+    "_id": "ooyXki2u6qCfQBcAG",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Moral patienthood of current AI systems is basically irrelevant to the future.\n\nIf the AI is aligned then it'll make itself as moral-patient-y as we want it to be. If it's not, then it'll make itself as moral-patient-y as maximizes its unaligned goal. Neither of those depend on whether current AI are moral patients.",
+      "plaintextDescription": "Moral patienthood of current AI systems is basically irrelevant to the future.\n\nIf the AI is aligned then it'll make itself as moral-patient-y as we want it to be. If it's not, then it'll make itself as moral-patient-y as maximizes its unaligned goal. Neither of those depend on whether current AI are moral patients."
+    },
+    "baseScore": 0,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-03-09T20:59:25.892Z",
+    "af": false
+  },
+  {
+    "_id": "oGhqGWEgru6REHtBs",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "If my sole terminal value is \"I want to go on a rollercoaster\", then an agent who is aligned to me would have the value \"I want Tamsin Leake to go on a rollercoaster\", not \"I want to go on a rollercoaster myself\". The former necessarily-has the same ordering over worlds, the latter doesn't.",
+      "plaintextDescription": "If my sole terminal value is \"I want to go on a rollercoaster\", then an agent who is aligned to me would have the value \"I want Tamsin Leake to go on a rollercoaster\", not \"I want to go on a rollercoaster myself\". The former necessarily-has the same ordering over worlds, the latter doesn't."
+    },
+    "baseScore": 22,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2024-03-09T16:34:29.210Z",
+    "af": false
+  },
+  {
+    "_id": "2iE5dv4bdibsLYZuA",
+    "postId": "smuxLJjmdyzxmvxRo",
+    "parentCommentId": "TdzpEQgerHodHBsjL",
+    "topLevelCommentId": "TdzpEQgerHodHBsjL",
+    "contents": {
+      "markdown": "*   I think the term \"conscious\" is very overloaded and the source of endless confusion and should be tabood. I'll be answering as if the numbers are not \"probability(-given-uncertainty) of conscious\" but \"expected(-given-uncertainty) amount of [moral patienthood](https://www.lesswrong.com/posts/kQLw5hFDSMuS5SFGg/carado-s-shortform?commentId=X82HzJcdEKRHk3RyC)\", calibrated with 1 meaning \"as much as a human\" (it could go higher — some whales have more neurons/synapses than humans and so they might plausibly be more of a moral patient than humans, in the sense that in a trolley problem you should prefer to save 1000 such whales to 1001 humans).\n*   Besides the trivia I just mentioned about whales, I'm answering this mostly on intuition, without knowing off the top of my head (nor looking up) the amount of neurons/synapses. Not to imply that moral patienthood is directly linear to amount of neurons/synapses, but I expect that that amount probably matters to my notion of moral patienthood.\n*   I'll also assume that everyone has a \"normal amount of realityfluid\" flowing through them (rather than eg being simulated slower, or being [fictional](https://carado.moe/approximate-decisions.html), or having [\"double-thick neurons made of gold\"](https://www.lesswrong.com/posts/Hcc9fopx7sRexYhhi/anthropics-and-the-universal-distribution) in case that matters).\n\n:::spoiler\n\nFirst list: 1, 1, 1, .7, 10⁻², 10⁻³, 10⁻⁶, 10⁻⁶, 10⁻⁸, ε, ε, ε, ε, ε.\n\nSecond list: .6, .8, .7, .7, .6, .6, .5, ε, ε, ε, ε.\n\nEdit: Thinking about it more, something feels weird here, like these numbers don't track at all \"how many of these would make me press the lever on the trolley problem vs 1 human\" — for one, killing a sleeping person is about as bad as killing an awake person because like\nthe sleeping person is a temporarily-paused-backup for an awake person. I guess I should be thinking about \"the universe has budget for one more hour of (good-)experience just before heat death, but it needs to be all same species, how much do I value each?\" or something.\n\n:::",
+      "plaintextDescription": " * I think the term \"conscious\" is very overloaded and the source of endless confusion and should be tabood. I'll be answering as if the numbers are not \"probability(-given-uncertainty) of conscious\" but \"expected(-given-uncertainty) amount of moral patienthood\", calibrated with 1 meaning \"as much as a human\" (it could go higher — some whales have more neurons/synapses than humans and so they might plausibly be more of a moral patient than humans, in the sense that in a trolley problem you should prefer to save 1000 such whales to 1001 humans).\n * Besides the trivia I just mentioned about whales, I'm answering this mostly on intuition, without knowing off the top of my head (nor looking up) the amount of neurons/synapses. Not to imply that moral patienthood is directly linear to amount of neurons/synapses, but I expect that that amount probably matters to my notion of moral patienthood.\n * I'll also assume that everyone has a \"normal amount of realityfluid\" flowing through them (rather than eg being simulated slower, or being fictional, or having \"double-thick neurons made of gold\" in case that matters).\n\nFirst list: 1, 1, 1, .7, 10⁻², 10⁻³, 10⁻⁶, 10⁻⁶, 10⁻⁸, ε, ε, ε, ε, ε.\n\nSecond list: .6, .8, .7, .7, .6, .6, .5, ε, ε, ε, ε.\n\nEdit: Thinking about it more, something feels weird here, like these numbers don't track at all \"how many of these would make me press the lever on the trolley problem vs 1 human\" — for one, killing a sleeping person is about as bad as killing an awake person because like the sleeping person is a temporarily-paused-backup for an awake person. I guess I should be thinking about \"the universe has budget for one more hour of (good-)experience just before heat death, but it needs to be all same species, how much do I value each?\" or something."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-03-08T00:03:46.067Z",
+    "af": false
+  },
+  {
+    "_id": "sMcCA9znK7HooQmkY",
+    "postId": "NARNMfMxLwgWFK2xK",
+    "parentCommentId": "JoWbfharDfEzr4sx6",
+    "topLevelCommentId": "g8cf5ZxmCLMBTy8Wu",
+    "contents": {
+      "markdown": "If you start out with CDT, then the thing you converge to is [Son of CDT](https://arbital.com/p/10qt/) rather than FDT.  \n(that arbital page takes a huge amount of time to load for me for some reason, but it does load eventually)\n\nAnd I could totally see the thing that kills us {being built with} or {happening to crystallize with} CDT rather than FDT.\n\nWe have to *actually* implement/align-the-AI-to the correct decision theory.",
+      "plaintextDescription": "If you start out with CDT, then the thing you converge to is Son of CDT rather than FDT.\n(that arbital page takes a huge amount of time to load for me for some reason, but it does load eventually)\n\nAnd I could totally see the thing that kills us {being built with} or {happening to crystallize with} CDT rather than FDT.\n\nWe have to actually implement/align-the-AI-to the correct decision theory."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-01-15T08:38:17.753Z",
+    "af": false
+  },
+  {
+    "_id": "QERz56JcHZrKDyo9a",
+    "postId": "NARNMfMxLwgWFK2xK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> By thinking about each other's source code, FAI and Clippy will be able to cooperate acausally like Alice and Bob, each turning their future lightcone into 10% utopia, 90% paperclips. Therefore, we get utopia either way! :D\n\nSo even if we lose we win, but even if we win we lose. The amount of utopiastuff is exactly conserved, and launching unaligned AI causes timelines-where-we-win to have less utopia by exactly as much as our timeline has more utopia.\n\nThe amount of utopiastuff we get isn't just *proportional* to how much we solve alignment, it's actually *back to exactly equal*.\n\nSee also: [Decision theory does not imply that we get to have nice things](https://www.lesswrong.com/posts/rP66bz34crvDudzcJ/decision-theory-does-not-imply-that-we-get-to-have-nice).",
+      "plaintextDescription": "> By thinking about each other's source code, FAI and Clippy will be able to cooperate acausally like Alice and Bob, each turning their future lightcone into 10% utopia, 90% paperclips. Therefore, we get utopia either way! :D\n\nSo even if we lose we win, but even if we win we lose. The amount of utopiastuff is exactly conserved, and launching unaligned AI causes timelines-where-we-win to have less utopia by exactly as much as our timeline has more utopia.\n\nThe amount of utopiastuff we get isn't just proportional to how much we solve alignment, it's actually back to exactly equal.\n\nSee also: Decision theory does not imply that we get to have nice things."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-01-15T08:32:21.455Z",
+    "af": false
+  },
+  {
+    "_id": "EpvXycabrtAhwjfHR",
+    "postId": "sTg9gZecHn9DbahB2",
+    "parentCommentId": "by4feDwbbAGezyjhA",
+    "topLevelCommentId": "CktvsfoQADTb4NphA",
+    "contents": {
+      "markdown": "I think it's exceedingly unlikely (<1%) that we robustly prevent anyone from {making an AI that kills everyone} without an aligned sovereign.",
+      "plaintextDescription": "I think it's exceedingly unlikely (<1%) that we robustly prevent anyone from {making an AI that kills everyone} without an aligned sovereign."
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-01-06T13:56:17.233Z",
+    "af": false
+  },
+  {
+    "_id": "CktvsfoQADTb4NphA",
+    "postId": "sTg9gZecHn9DbahB2",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I continue to think that, in worlds where we robustly survive, money is largely going to be obsolete. The thing that maximizes the terminal values of the kind of (handshake of) utility functions we can expect probably aren't maximized by maintaining current allocations of wealth and institutions-that-care-about-that-wealth. **The use for money/investment/resources is making sure we get utopia in the first place, by slowing capabilities and solving alignment (and thus also plausibly purchasing shares of the LDT utility function handshake)**, not being rich in utopia. (maybe see also [1](https://www.lesswrong.com/posts/A4nfKtD9MPFBaa5ME/we-re-all-in-this-together), [2](https://www.lesswrong.com/posts/yRdXtgy8CZtg2YtAY/how-ldt-helps-reduce-the-ai-arms-race))",
+      "plaintextDescription": "I continue to think that, in worlds where we robustly survive, money is largely going to be obsolete. The thing that maximizes the terminal values of the kind of (handshake of) utility functions we can expect probably aren't maximized by maintaining current allocations of wealth and institutions-that-care-about-that-wealth. The use for money/investment/resources is making sure we get utopia in the first place, by slowing capabilities and solving alignment (and thus also plausibly purchasing shares of the LDT utility function handshake), not being rich in utopia. (maybe see also 1, 2)"
+    },
+    "baseScore": 16,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-01-06T10:40:32.742Z",
+    "af": false
+  },
+  {
+    "_id": "qMAaP3ERGBuey4aDN",
+    "postId": "6uJBqeG5ywE6Wcdqw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> ‘high level machine intelligence’ (HLMI) and ‘full automation of labor’ (FAOL)\n\nI continue to believe that predicting things like that is not particularly useful to predicting when AI will achieve [decisive strategic advantage](https://publicism.info/philosophy/superintelligence/6.html) and/or kill literally everyone. AI could totally kill literally everyone without us ever getting to observe HLMI or FAOL first, and I think development in HLMI / FAOL does not say much about how close we are to AI that kills literally everyone.",
+      "plaintextDescription": "> ‘high level machine intelligence’ (HLMI) and ‘full automation of labor’ (FAOL)\n\nI continue to believe that predicting things like that is not particularly useful to predicting when AI will achieve decisive strategic advantage and/or kill literally everyone. AI could totally kill literally everyone without us ever getting to observe HLMI or FAOL first, and I think development in HLMI / FAOL does not say much about how close we are to AI that kills literally everyone."
+    },
+    "baseScore": 7,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2024-01-06T10:37:51.432Z",
+    "af": false
+  },
+  {
+    "_id": "xdnEcfpP4LghMxbzC",
+    "postId": "XsEwymHPCjwTzfT8v",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Both are possible. For theoretical examples, see [the stamp collector](https://mindingourway.com/the-stamp-collector/) for consequentialist AI and [AIXI](https://en.wikipedia.org/wiki/AIXI) for reward-maximizing AI.\n\nWhat kind of AI are the AIs we have now? Neither, they're not particularly strong maximizers. (if they were, we'd be dead; it's not that difficult to turn a powerful reward maximizer into a world-ending AI).\n\n> If the former, I think this makes alignment much easier. As long as you can reasonably represent “do not kill everyone”, you can make this a goal of the AI, and then it will literally care about not killing everyone, it won’t just care about hacking its reward system so that it will not perceive everyone being dead.\n\nThis *would* be true, except:\n\n* We don't know how to represent \"do not kill everyone\"\n* We don't know how to *pick which quantity* would be maximized by a would-be strong consequentialist maximizer\n* We don't know know what a strong consequentialist maximizer would look like, if we had one around, because we don't have one around (because if we did, we'd be dead)",
+      "plaintextDescription": "Both are possible. For theoretical examples, see the stamp collector for consequentialist AI and AIXI for reward-maximizing AI.\n\nWhat kind of AI are the AIs we have now? Neither, they're not particularly strong maximizers. (if they were, we'd be dead; it's not that difficult to turn a powerful reward maximizer into a world-ending AI).\n\n> If the former, I think this makes alignment much easier. As long as you can reasonably represent “do not kill everyone”, you can make this a goal of the AI, and then it will literally care about not killing everyone, it won’t just care about hacking its reward system so that it will not perceive everyone being dead.\n\nThis would be true, except:\n\n * We don't know how to represent \"do not kill everyone\"\n * We don't know how to pick which quantity would be maximized by a would-be strong consequentialist maximizer\n * We don't know know what a strong consequentialist maximizer would look like, if we had one around, because we don't have one around (because if we did, we'd be dead)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-05T07:58:33.164Z",
+    "af": false
+  },
+  {
+    "_id": "wFP8yXJxmiF3uDdu4",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "nwsp83jwZ9xce7Gzo",
+    "topLevelCommentId": "TXridoDWX69EizaYP",
+    "contents": {
+      "markdown": "The first one. Alice fundamentally can't fully model Bob because Bob's brain is as large as Alice's, so she can't fit it all inside her own brain without simply becoming Bob.",
+      "plaintextDescription": "The first one. Alice fundamentally can't fully model Bob because Bob's brain is as large as Alice's, so she can't fit it all inside her own brain without simply becoming Bob."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-04T07:55:28.917Z",
+    "af": false
+  },
+  {
+    "_id": "TXridoDWX69EizaYP",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I remember a character in Asimov's books saying something to the effect of\n\n> It took me 10 years to realize I had those powers of telepathy, and 10 more years to realize that other people *don't* have them.\n\nand that quote has really stuck with me, and keeps striking me as true about many mindthings (object-level beliefs, ontologies, ways-to-use-one's-brain, etc).\n\nFor so many complicated problem (including technical problems), \"what is the correct answer?\" is not-as-difficult to figure out as \"okay, now that I have the correct answer: how the *hell* do *other people's* wrong answers mismatch mine? what is the inferential gap even *made of*? what is even their model of the *problem*? what the *heck* is going on inside other people's minds???\"\n\nAnswers to technical questions, once you have them, tend to be simple and compress easily with the rest of your ontology. But not models of other people's minds. People's minds are actually extremely large things that you *fundamentally can't* fully model and so you're often doomed to confusion about them. You're forced to fill in the details with projection, and that's often wrong because there's so much more diversity in human minds than we imagine.\n\nThe most complex software engineering projects in the world are *absurdly tiny* in complexity compared to a random human mind.",
+      "plaintextDescription": "I remember a character in Asimov's books saying something to the effect of\n\n> It took me 10 years to realize I had those powers of telepathy, and 10 more years to realize that other people don't have them.\n\nand that quote has really stuck with me, and keeps striking me as true about many mindthings (object-level beliefs, ontologies, ways-to-use-one's-brain, etc).\n\nFor so many complicated problem (including technical problems), \"what is the correct answer?\" is not-as-difficult to figure out as \"okay, now that I have the correct answer: how the hell do other people's wrong answers mismatch mine? what is the inferential gap even made of? what is even their model of the problem? what the heck is going on inside other people's minds???\"\n\nAnswers to technical questions, once you have them, tend to be simple and compress easily with the rest of your ontology. But not models of other people's minds. People's minds are actually extremely large things that you fundamentally can't fully model and so you're often doomed to confusion about them. You're forced to fill in the details with projection, and that's often wrong because there's so much more diversity in human minds than we imagine.\n\nThe most complex software engineering projects in the world are absurdly tiny in complexity compared to a random human mind."
+    },
+    "baseScore": 17,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2023-12-27T11:25:01.701Z",
+    "af": false
+  },
+  {
+    "_id": "YHFvscSy2xpGbH6yF",
+    "postId": "mYDMpZ4sSd9eECt4r",
+    "parentCommentId": "6SEzoQiBkQhyHR2Li",
+    "topLevelCommentId": "6SEzoQiBkQhyHR2Li",
+    "contents": {
+      "markdown": "I don't think it's a binary; they could still pay less attention!\n\n(plausibly there's a bazillion things constantly trying to grab their attention, so they won't \"lock on\" if we avoid bringing AI to their attention too much)",
+      "plaintextDescription": "I don't think it's a binary; they could still pay less attention!\n\n(plausibly there's a bazillion things constantly trying to grab their attention, so they won't \"lock on\" if we avoid bringing AI to their attention too much)"
+    },
+    "baseScore": 8,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-12-26T18:39:40.703Z",
+    "af": false
+  },
+  {
+    "_id": "q8TGctt5yEtN5nG3k",
+    "postId": "ALtFyrzvrNZPbfKBJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You might want to read [this post](https://joecarlsmith.com/2022/03/16/on-expected-utility-part-1-skyscrapers-and-madmen) (it's [also on lesswrong](https://www.lesswrong.com/posts/7J3ywHzWnghRtdpHQ/on-expected-utility-part-1-skyscrapers-and-madmen) but the images are broken there)",
+      "plaintextDescription": "You might want to read this post (it's also on lesswrong but the images are broken there)"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-26T16:16:13.988Z",
+    "af": false
+  },
+  {
+    "_id": "fco7RbuHvxMCS4kFR",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(to be clear: this is more an amusing suggestion than a serious belief)\n\n![](https://carado.moe/anthropic-comic.png)",
+      "plaintextDescription": "(to be clear: this is more an amusing suggestion than a serious belief)\n\n"
+    },
+    "baseScore": 10,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2023-12-25T11:48:11.676Z",
+    "af": false
+  },
+  {
+    "_id": "XuyjZYtJT9sZDpRyc",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "zydapS9JejBxi9tfn",
+    "topLevelCommentId": "gD4exQSczqLLn5Ye7",
+    "contents": {
+      "markdown": "By \"vaguely like dath ilan\" I mean the parts that made them be the kind of society that *can* restructure in this way when faced with AI risk. Like, even before AI risk, they were already very different from us.",
+      "plaintextDescription": "By \"vaguely like dath ilan\" I mean the parts that made them be the kind of society that can restructure in this way when faced with AI risk. Like, even before AI risk, they were already very different from us."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-24T09:07:58.520Z",
+    "af": false
+  },
+  {
+    "_id": "noLXbhdRxN4E8Yuat",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "ePbgPjrmJebrPJQ8C",
+    "topLevelCommentId": "DtBQoHxsFDxEZcN3c",
+    "contents": {
+      "markdown": "I'm pretty sure we just need *one* resimulation to save everyone; once we have located an exact copy of our history, it's cheap to pluck out anyone (including people dead 100 or 1000 years ago). It's a one-time cost.\n\nLossy resurrection is better than nothing but it doesn't feel as \"real\" to me. If you resurrect a dead me, I expect that she says \"I'm glad I exist! But — at least as per my ontology and values — you shouldn't quite think of me as the same person as the original. We're probly quite different, internally, and thus behaviorally as well, when ran over some time.\"\n\n> Like, the full-history resimulation will surely still not allow you to narrow things down to one branch. You'd get an equivalence class of them, each of them consistent with all available information. Which, in turn, would correspond to a *probability distribution* over the rescuee's mind; not a unique pick.\n\nI feel like I'm not quite sure about this? It depends on what quantum mechanics entails, exactly, I think. For example: if BQP = P, then there's \"only a polynomial amount\" of timeline-information (whatever that means!), and then my intuition tells me that the \"our world serves as a checksum for the one true (macro-)timeline\" idea is more likely to be a thing. But this reasoning is still quite heuristical. Plausibly, yeah, the best we get is a polynomially large or even exponentially large distribution.\n\n---\n\nThat said, to get back to my original point, I feel like there's enough unknowns making this scenario *plausible* here, that some people who *really* want to get reunited with their loved ones might totally pursue aligned superintelligence just for a potential shot at this, whether their idea of reuniting requires lossless resurrection or not.",
+      "plaintextDescription": "I'm pretty sure we just need one resimulation to save everyone; once we have located an exact copy of our history, it's cheap to pluck out anyone (including people dead 100 or 1000 years ago). It's a one-time cost.\n\nLossy resurrection is better than nothing but it doesn't feel as \"real\" to me. If you resurrect a dead me, I expect that she says \"I'm glad I exist! But — at least as per my ontology and values — you shouldn't quite think of me as the same person as the original. We're probly quite different, internally, and thus behaviorally as well, when ran over some time.\"\n\n> Like, the full-history resimulation will surely still not allow you to narrow things down to one branch. You'd get an equivalence class of them, each of them consistent with all available information. Which, in turn, would correspond to a probability distribution over the rescuee's mind; not a unique pick.\n\nI feel like I'm not quite sure about this? It depends on what quantum mechanics entails, exactly, I think. For example: if BQP = P, then there's \"only a polynomial amount\" of timeline-information (whatever that means!), and then my intuition tells me that the \"our world serves as a checksum for the one true (macro-)timeline\" idea is more likely to be a thing. But this reasoning is still quite heuristical. Plausibly, yeah, the best we get is a polynomially large or even exponentially large distribution.\n\n----------------------------------------\n\nThat said, to get back to my original point, I feel like there's enough unknowns making this scenario plausible here, that some people who really want to get reunited with their loved ones might totally pursue aligned superintelligence just for a potential shot at this, whether their idea of reuniting requires lossless resurrection or not."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-24T00:53:56.283Z",
+    "af": false
+  },
+  {
+    "_id": "9GsuyjjLgpL2yMZzu",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": "tLCk3LcXSrA5dfR9w",
+    "topLevelCommentId": "DtBQoHxsFDxEZcN3c",
+    "contents": {
+      "markdown": "(Let's call the dead person \"rescuee\" and the person who wants to resurrect them \"rescuer\".)\n\nThe procedure you describe is what I call \"lossy resurrection\". What I'm talking about looks like: you resimulate the entire history of the past-lightcone on a quantum computer, right up until the present, and then either:\n\n* You have a quantum algorithm for \"finding\" which branch has the right person (and you select that timeline and discard the rest) (requires that such a quantum algorithm exists)\n* Each branch embeds a copy of the rescuer, and whichever branch looks like correct one isekai's the rescuer into the branch, right next to the rescuee (and also insta-utopia's the whole branch) (requires that the rescuer doesn't mind having their realityfluid exponentially reduced)\n\n(The present time \"only\" serves as a \"solomonoff checksum\" to know which seed / branch is the right one.)\n\nThis is O(exp(size of the seed of the universe) * amount of history between the seed and the rescuee). Doable if the seed of the universe is small and either of the two requirements above hold, *and* if the future has enough negentropy to resimulate the past. (That last point is a new source of doubt for me; I kinda just assumed it was true until a friend told me it might not be.)\n\n(Oh, and also you can't do this if resimulating the entire history of the universe — which contains *at least* four billion years of wild animal suffering(!) — is unethical.)",
+      "plaintextDescription": "(Let's call the dead person \"rescuee\" and the person who wants to resurrect them \"rescuer\".)\n\nThe procedure you describe is what I call \"lossy resurrection\". What I'm talking about looks like: you resimulate the entire history of the past-lightcone on a quantum computer, right up until the present, and then either:\n\n * You have a quantum algorithm for \"finding\" which branch has the right person (and you select that timeline and discard the rest) (requires that such a quantum algorithm exists)\n * Each branch embeds a copy of the rescuer, and whichever branch looks like correct one isekai's the rescuer into the branch, right next to the rescuee (and also insta-utopia's the whole branch) (requires that the rescuer doesn't mind having their realityfluid exponentially reduced)\n\n(The present time \"only\" serves as a \"solomonoff checksum\" to know which seed / branch is the right one.)\n\nThis is O(exp(size of the seed of the universe) * amount of history between the seed and the rescuee). Doable if the seed of the universe is small and either of the two requirements above hold, and if the future has enough negentropy to resimulate the past. (That last point is a new source of doubt for me; I kinda just assumed it was true until a friend told me it might not be.)\n\n(Oh, and also you can't do this if resimulating the entire history of the universe — which contains at least four billion years of wild animal suffering(!) — is unethical.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-23T22:48:15.902Z",
+    "af": false
+  },
+  {
+    "_id": "gD4exQSczqLLn5Ye7",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Take our human civilization, at the point in time at which we invented fire. Now, compute forward all possible future timelines, each right up until the point where it's at risk of building superintelligent AI for the first time. Now, filter for only timelines which either look vaguely like earth or look vaguely like dath ilan.\n\nWhat's the ratio between the number of such worlds that look vaguely like earth vs look vaguely like dath ilan? 100:1 earths:dath-ilans ? 1,000,000:1 ? 1:1 ?",
+      "plaintextDescription": "Take our human civilization, at the point in time at which we invented fire. Now, compute forward all possible future timelines, each right up until the point where it's at risk of building superintelligent AI for the first time. Now, filter for only timelines which either look vaguely like earth or look vaguely like dath ilan.\n\nWhat's the ratio between the number of such worlds that look vaguely like earth vs look vaguely like dath ilan? 100:1 earths:dath-ilans ? 1,000,000:1 ? 1:1 ?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-23T21:52:15.496Z",
+    "af": false
+  },
+  {
+    "_id": "iMSirBZgfpMDXkukT",
+    "postId": "AM38ydkG8qJE2NEGW",
+    "parentCommentId": "zuQHriGsNaAybToQE",
+    "topLevelCommentId": "eF3brm4gfe622z42u",
+    "contents": {
+      "markdown": "tbh I kinda gave up on reaching people who think like this :/\n\nMy heuristic is that they have too many brainworms to be particularly helpful to the critical parts of worldsaving, and it feels like it'd be unpleasant and not-great-norms to have a part of my brain specialized in \"manipulating people with biases/brainworms\".",
+      "plaintextDescription": "tbh I kinda gave up on reaching people who think like this :/\n\nMy heuristic is that they have too many brainworms to be particularly helpful to the critical parts of worldsaving, and it feels like it'd be unpleasant and not-great-norms to have a part of my brain specialized in \"manipulating people with biases/brainworms\"."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-23T11:25:55.375Z",
+    "af": false
+  },
+  {
+    "_id": "eF3brm4gfe622z42u",
+    "postId": "AM38ydkG8qJE2NEGW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Alright, I think I've figured out what my disagreement with this post is.\n\nA **field of research** pursues the *general* endeavor of finding out things there are to know about a topic. It consists of building an accurate map of the world, of how-things-work, *in general*.\n\nA solution to alignment is less like a **field of research** and more like a **single engineering project**. A difficult one, for sure! But ultimately, still a single engineering project, for which it is not necessary to know all the facts about the field, but only the facts that are useful.\n\nAnd small groups/individuals *do* put together **single engineering projects** all the time! Including very large engineering projects like compilers, games & game engines, etc.\n\nAnd, yes, we need solving alignment to be an at least partially nonpublic affair, because some important insights about how to solve alignment *will* be dual use, and the whole point is to get the people trying to save the world to succeed *before* the people functionally trying to kill everyone, not to get the people trying to save the world to *theoretically succeed if they as much time as they wanted*.\n\n(Also: I believe this post means [\"exfohazard\", not \"infohazard\"](https://www.lesswrong.com/posts/yET7wbjjJZtpz6NF3/don-t-use-infohazard-for-collectively-destructive-info))",
+      "plaintextDescription": "Alright, I think I've figured out what my disagreement with this post is.\n\nA field of research pursues the general endeavor of finding out things there are to know about a topic. It consists of building an accurate map of the world, of how-things-work, in general.\n\nA solution to alignment is less like a field of research and more like a single engineering project. A difficult one, for sure! But ultimately, still a single engineering project, for which it is not necessary to know all the facts about the field, but only the facts that are useful.\n\nAnd small groups/individuals do put together single engineering projects all the time! Including very large engineering projects like compilers, games & game engines, etc.\n\nAnd, yes, we need solving alignment to be an at least partially nonpublic affair, because some important insights about how to solve alignment will be dual use, and the whole point is to get the people trying to save the world to succeed before the people functionally trying to kill everyone, not to get the people trying to save the world to theoretically succeed if they as much time as they wanted.\n\n(Also: I believe this post means \"exfohazard\", not \"infohazard\")"
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-12-23T08:56:54.425Z",
+    "af": false
+  },
+  {
+    "_id": "ZWTqYmc89kdceJkXS",
+    "postId": "okkEaevbXCSusBoE2",
+    "parentCommentId": "duookazAWFpA8RAtF",
+    "topLevelCommentId": "g25E8YCMkYTpvkGxS",
+    "contents": {
+      "markdown": "> Being embedded in a fake reality and fooled into believing it's true would be against many people's preferences.\n\nStrongly agree; I have [an old, short post](https://carado.moe/genuineness-existselfdet-satisfaction-pick2.html) about this. See also [*Contact with reality*](https://www.lesswrong.com/posts/r7f58E8A85xLgWuqG/contact-with-reality).\n\nSome people might (under reflection) be [locally-caring entities](https://glowfic.com/replies/1865692#reply-1865692), but most people's preferences are about what the reality *actually* contains and they (even under reflection) wouldn't want to, for example, press a button that cause them to mistakenly believe that everything is fine.",
+      "plaintextDescription": "> Being embedded in a fake reality and fooled into believing it's true would be against many people's preferences.\n\nStrongly agree; I have an old, short post about this. See also Contact with reality.\n\nSome people might (under reflection) be locally-caring entities, but most people's preferences are about what the reality actually contains and they (even under reflection) wouldn't want to, for example, press a button that cause them to mistakenly believe that everything is fine."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-22T10:23:05.175Z",
+    "af": false
+  },
+  {
+    "_id": "DtBQoHxsFDxEZcN3c",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm kinda bewildered at how I've never observed someone say \"I want to build aligned superintelligence in order to resurrect a loved one\".\nI guess the sets of people who {have lost a loved one they wanna resurrect}, {take the singularity and the possibility of resurrection seriously}, and {would mention this} is… the empty set?? \n\n(I have met *one* person who is glad that alignment would *also* get them this, but I don't think it's their core motivation, even emotionally. Same for me.)",
+      "plaintextDescription": "I'm kinda bewildered at how I've never observed someone say \"I want to build aligned superintelligence in order to resurrect a loved one\". I guess the sets of people who {have lost a loved one they wanna resurrect}, {take the singularity and the possibility of resurrection seriously}, and {would mention this} is… the empty set??\n\n(I have met one person who is glad that alignment would also get them this, but I don't think it's their core motivation, even emotionally. Same for me.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-21T11:51:05.751Z",
+    "af": false
+  },
+  {
+    "_id": "FXcFKBnmF9LMFuFCh",
+    "postId": "4XN2nJXABo6d5htZY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Hence, the policy should have an escape clause: You should feel free to talk about the potential exfohazard if your knowledge of it isn't exclusively caused by other alignment researchers telling you of it. That is, if you already knew of the potential exfohazard, or if your own research later led you to discover it.\n\n**In an ideal world**, it's good to relax this clause in some way, from a binary to a spectrum. For example: if someone tells me of a hazard that I'm confident I would've discovered one my own one week later, then they only get to dictate me not-sharing-it for a week. \"Knowing\" isn't a strict binary; anyone can rederive anything with enough time (maybe) — it's just a question of how long it would've taken me to find it if they didn't tell me. This can even include someone bringing my attention to something *I already knew*, but to which I wouldn't as quickly have thought to pay attention if they didn't bring attention to it.\n\nIn the non-ideal world we inhabit, however, it's unclear how fraught it is to use such considerations.",
+      "plaintextDescription": "> Hence, the policy should have an escape clause: You should feel free to talk about the potential exfohazard if your knowledge of it isn't exclusively caused by other alignment researchers telling you of it. That is, if you already knew of the potential exfohazard, or if your own research later led you to discover it.\n\nIn an ideal world, it's good to relax this clause in some way, from a binary to a spectrum. For example: if someone tells me of a hazard that I'm confident I would've discovered one my own one week later, then they only get to dictate me not-sharing-it for a week. \"Knowing\" isn't a strict binary; anyone can rederive anything with enough time (maybe) — it's just a question of how long it would've taken me to find it if they didn't tell me. This can even include someone bringing my attention to something I already knew, but to which I wouldn't as quickly have thought to pay attention if they didn't bring attention to it.\n\nIn the non-ideal world we inhabit, however, it's unclear how fraught it is to use such considerations."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-21T10:36:43.893Z",
+    "af": true
+  },
+  {
+    "_id": "DJ3KifGug5qzPDstL",
+    "postId": "4XN2nJXABo6d5htZY",
+    "parentCommentId": "k9YFKLMgTabpig7q5",
+    "topLevelCommentId": "k9YFKLMgTabpig7q5",
+    "contents": {
+      "markdown": "Pretty sure that's what the \"telling you of it\" part fixes. Alice is the person who told you of Alice's hazards, so your knowledge is exclusively caused by Alice, and Alice is the person whose model dictates whether you can share them.",
+      "plaintextDescription": "Pretty sure that's what the \"telling you of it\" part fixes. Alice is the person who told you of Alice's hazards, so your knowledge is exclusively caused by Alice, and Alice is the person whose model dictates whether you can share them."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-21T10:32:38.221Z",
+    "af": false
+  },
+  {
+    "_id": "nNrGcoL8ycghQHyJd",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(Epistemic status: Not quite sure)\n\nRealityfluid must normalize for utility functions to work (see [1](https://twitter.com/ESYudkowsky/status/1644060293889249288), [2](https://carado.moe/short-chat-realityfluid.html)). But this is a property of the map, not the territory.\n\nNormalizing realityfluid is a way to point to an *actual (countably) infinite territory* using a *finite (conserved-mass) map object*.",
+      "plaintextDescription": "(Epistemic status: Not quite sure)\n\nRealityfluid must normalize for utility functions to work (see 1, 2). But this is a property of the map, not the territory.\n\nNormalizing realityfluid is a way to point to an actual (countably) infinite territory using a finite (conserved-mass) map object."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-18T11:12:35.205Z",
+    "af": false
+  },
+  {
+    "_id": "qscLe4mQ76a5afp6P",
+    "postId": "8SjnKxjLniCAmcjnG",
+    "parentCommentId": "uHbeSFAwhq2JQJ6SX",
+    "topLevelCommentId": "uHbeSFAwhq2JQJ6SX",
+    "contents": {
+      "markdown": "Seems right. In addition, if there was some person out there waiting to make a new AI org, it's not like they're *waiting for the major orgs to shut down* to compete. \n\nShutting down the current orgs does not fully solve the problem, but it surely helps a lot.",
+      "plaintextDescription": "Seems right. In addition, if there was some person out there waiting to make a new AI org, it's not like they're waiting for the major orgs to shut down to compete.\n\nShutting down the current orgs does not fully solve the problem, but it surely helps a lot."
+    },
+    "baseScore": 14,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2023-12-17T20:44:43.189Z",
+    "af": false
+  },
+  {
+    "_id": "m5AJ7khjQtQGG3bK6",
+    "postId": "PGag6BZNayjp7je2Z",
+    "parentCommentId": "TXgune7E8rjXToCxa",
+    "topLevelCommentId": "TXgune7E8rjXToCxa",
+    "contents": {
+      "markdown": "Oh, yeah, you're right.",
+      "plaintextDescription": "Oh, yeah, you're right."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-16T20:54:30.858Z",
+    "af": false
+  },
+  {
+    "_id": "jNrY8Hzi35LH5aXT3",
+    "postId": "wDjaLcXdTKEDFasFZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I still do not agree with your position, but thanks to this post I think I at least understand it better than I did before. I think my core disagreements are:\n\n> Here is the catch: AGI components interacting to maintain and replicate themselves are *artificial*. Their physical substrate is distinct from our *organic* human substrate.\n\nThat needn't be the case. *If* all of the other arguments in this post were to hold, any AI or AI-coalition (whether aligned to us or not) which has taken over the world could simply notice \"oh no, if I keep going I'll be overtaken by the effects described in Remmelt's post!\" and then decide to copy itself onto biological computing or nanobots or whatever else strange options it can think of. An aligned AI would even moreso move towards such a substrate if you're correct that otherwise humans would die, because it wants to avoid this.\n\nThe more general piece of solutionspace I want to point to, here, is \"if you think there's a way for eight billion uncoordinated human minds running on messy human brains inside of industrial civilization to survive, why couldn't aligned superintelligent AI just *at the very least* {implement/reuse} a copy of what human civilization is doing, and get robustness that way? (though I expect that it could come up with much better).\n\n> Another argument you may have heard is that the top-down intelligent engineering by goal-directed AGI would beat the bottom-up selection happening through this intelligent machinery.\n> \n> That argument can be traced back to Eliezer Yudkowsky's sequence The Simple Math of Evolution.\n\nI'm pretty sure I already believed this before reading any Yudkowsky, so I'll make my own argument here.\n\nIntelligent engineering can already observed to work much faster than selection effects. It also seems straightforward to me that explicit planning to maximize a particular utility function *would be expected to* steer the world towards what it wants a lot faster than selection effects would. I could maybe expand on this point if you disagree, but I'd be really surprised by that.\n\nAnd intelligence itself can be very robust to selection effects. Homomorphic-encryption and checkums, and things like {a large population of copies of itself repeatedly checking each other's entire software state and deactivating (via eg killswitch) any instance that has been corrupted}, are examples of technologies an AI can use to make its software robust to hardware change, in a way that'd take selection effects *exponential time* to be able to get even just one bit of corruption to stay into the system, such that it is not difficult for the superintelligent AI to ensure that approximately zero copies of itself ever get robustly corrupted until the heat death of the universe.\n\n> These fall outside the limits of what the AGI's actual built-in detection and correction methods could control for.\n\nWould it? Even once it has nanobots and biotech and any other strange weird tech it can use to maintain whichever parts of itself (if any) match those descriptions?\n\n> We humans too depend on highly specific environmental conditions and contexts for the components nested inside our bodies (proteins→organelles→cells→cell lining→) to continue in their complex functioning, such to be maintaining of our overall existence. \n\nFinally, as a last recourse if the rest of your post is true, an aligned AI which has taken over the world can simply upload humans so they don't die when the physical conditions become too bad. We can run on the same compute as its software does, immune to corruption from hardware in the same way.\n\nAs an alternative, an aligned superintelligent AI could only planets (or other celestial bodies) which we don't live on to run the bulk of its infrastructure, ensuring \"from a distance\" (through still very reliable tech that can be made to not get in the way of human life) that planets with humans on them don't launch an AI which would put the aligned superintelligent AI at risk.\n\n---\n\nFinally, note that these arguments are mostly *disjunctive*. Even *just one* way for aligned superintelligent AI to get around this whole argument you're making, would be sufficient to make it wrong. My thoughts above are not particularly my predictions for how an aligned superintelligent AI would *actually* do, but moreso \"existence arguments\" for how ways to get around this *exist at all* — I expect that an aligned superintelligence can come up with much better solutions than I can.\n\nIf there *truly is no way at all* for an aligned superintelligence to exist without humans dying, then (as I've mentioned before), it can just notice that and shut itself down, after spending much-less-than-500-years rearranging the world into one that is headed towards a much better direction (through eg widespread documentation of the issues with building AI and widespread training in rationality).",
+      "plaintextDescription": "I still do not agree with your position, but thanks to this post I think I at least understand it better than I did before. I think my core disagreements are:\n\n> Here is the catch: AGI components interacting to maintain and replicate themselves are artificial. Their physical substrate is distinct from our organic human substrate.\n\nThat needn't be the case. If all of the other arguments in this post were to hold, any AI or AI-coalition (whether aligned to us or not) which has taken over the world could simply notice \"oh no, if I keep going I'll be overtaken by the effects described in Remmelt's post!\" and then decide to copy itself onto biological computing or nanobots or whatever else strange options it can think of. An aligned AI would even moreso move towards such a substrate if you're correct that otherwise humans would die, because it wants to avoid this.\n\nThe more general piece of solutionspace I want to point to, here, is \"if you think there's a way for eight billion uncoordinated human minds running on messy human brains inside of industrial civilization to survive, why couldn't aligned superintelligent AI just at the very least {implement/reuse} a copy of what human civilization is doing, and get robustness that way? (though I expect that it could come up with much better).\n\n> Another argument you may have heard is that the top-down intelligent engineering by goal-directed AGI would beat the bottom-up selection happening through this intelligent machinery.\n> \n> That argument can be traced back to Eliezer Yudkowsky's sequence The Simple Math of Evolution.\n\nI'm pretty sure I already believed this before reading any Yudkowsky, so I'll make my own argument here.\n\nIntelligent engineering can already observed to work much faster than selection effects. It also seems straightforward to me that explicit planning to maximize a particular utility function would be expected to steer the world towards what it wants a lot faster than selection effects would. I could mayb"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-14T07:38:36.394Z",
+    "af": false
+  },
+  {
+    "_id": "iMerYHNrkmfXh6K5G",
+    "postId": "Y7gtFMi6TwFq5uFHe",
+    "parentCommentId": "GAwEfzc5ECroakYCM",
+    "topLevelCommentId": "GAwEfzc5ECroakYCM",
+    "contents": {
+      "markdown": "My current belief is that you do make *some update* upon observing existing, you just don't update *as much* as if we were somehow able to survive and observe unaligned AI taking over. I do agree that the *no update at all because you can't see the counterfactual* is wrong, but anthropics is still *somewhat* filtering your evidence; you should update *less*.\n\n(I don't have my full reasoning for {why I came to this conclusion} fully loaded rn, but I could probably do so if needed. Also, I only skimmed your post, sorry. I have a post on updating under anthropics *with actual math* I'm working on, but unsure when I'll get around to finishing it.)",
+      "plaintextDescription": "My current belief is that you do make some update upon observing existing, you just don't update as much as if we were somehow able to survive and observe unaligned AI taking over. I do agree that the no update at all because you can't see the counterfactual is wrong, but anthropics is still somewhat filtering your evidence; you should update less.\n\n(I don't have my full reasoning for {why I came to this conclusion} fully loaded rn, but I could probably do so if needed. Also, I only skimmed your post, sorry. I have a post on updating under anthropics with actual math I'm working on, but unsure when I'll get around to finishing it.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-14T01:22:59.137Z",
+    "af": true
+  },
+  {
+    "_id": "jLWsa2ekrHQkwwrmF",
+    "postId": "ZDQvYKuyH5aTrZKoY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I really like this! ([here's mine](https://www.lesswrong.com/posts/kQLw5hFDSMuS5SFGg/tamsin-leake-s-shortform?commentId=3PwDacyxvzFG9e74d))\n\nA few questions:\n\n* > The first time AI reaches STEM+ capabilities (if that ever happpens), it will disempower humanity within three months\n\n  So this is asking for P(fasttakeoff ***and*** unaligned | STEM+) ? It feels weird that it's asking for both. Unless you count aligned-AI-takeover as \"disempowering\" humanity. Asking for either P(fasttakeoff | STEM+) or P(fasttakeoff | unaligned and STEM+) would make more sense, I think.\n\n* Do you count aligned-AI-takeover (where an aligned AI takes over everything and creates an at-least-[okay](https://www.lesswrong.com/posts/CMHogeqTTajhmnEKx/everything-is-okay) utopia) as \"disempowering humanity\"?\n\n* \"reasonable and informed\" is doing a lot of work here — is that left to be left to the reader, or should there be some notion of what rough amount of people you expect that to be? I think that, given the definitions I filled my chart with, I would say that there are <1000 people on earth right now who fit this description (possibly <100).",
+      "plaintextDescription": "I really like this! (here's mine)\n\nA few questions:\n\n * > The first time AI reaches STEM+ capabilities (if that ever happpens), it will disempower humanity within three months\n   \n   So this is asking for P(fasttakeoff and unaligned | STEM+) ? It feels weird that it's asking for both. Unless you count aligned-AI-takeover as \"disempowering\" humanity. Asking for either P(fasttakeoff | STEM+) or P(fasttakeoff | unaligned and STEM+) would make more sense, I think.\n\n * Do you count aligned-AI-takeover (where an aligned AI takes over everything and creates an at-least-okay utopia) as \"disempowering humanity\"?\n\n * \"reasonable and informed\" is doing a lot of work here — is that left to be left to the reader, or should there be some notion of what rough amount of people you expect that to be? I think that, given the definitions I filled my chart with, I would say that there are <1000 people on earth right now who fit this description (possibly <100)."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-13T19:59:16.570Z",
+    "af": false
+  },
+  {
+    "_id": "yvaWTz6fpNzsAzwn9",
+    "postId": "Y7gtFMi6TwFq5uFHe",
+    "parentCommentId": "sxmFQrWJMunf7RgbM",
+    "topLevelCommentId": "hkoGD6Gwi9YKKZ6S2",
+    "contents": {
+      "markdown": "Okay yeah this is a pretty fair response actually. I think I still disagree with the core point (that AI aligned to current people-likely-to-get-AI-aligned-to-them would be extremely bad) but I definitely see where you're coming from.\n\nDo you actually believe extinction is preferable to rolling the dice on the expected utility (according to your own values) of what happens if one of the current AI org people launches AI aligned to themself?\n\nEven if, in worlds where we get an AI aligned to a set of values that you *would* like, that AI then acausally pays AI-aligned-to-the-\"wrong\"-values in different timelines to not run suffering? e.g. Bob's AI runs a bunch of things Alice would like in Bob's AI's timelines, in exchange for Alice's AI *not* running things Bob would very strongly dislike.",
+      "plaintextDescription": "Okay yeah this is a pretty fair response actually. I think I still disagree with the core point (that AI aligned to current people-likely-to-get-AI-aligned-to-them would be extremely bad) but I definitely see where you're coming from.\n\nDo you actually believe extinction is preferable to rolling the dice on the expected utility (according to your own values) of what happens if one of the current AI org people launches AI aligned to themself?\n\nEven if, in worlds where we get an AI aligned to a set of values that you would like, that AI then acausally pays AI-aligned-to-the-\"wrong\"-values in different timelines to not run suffering? e.g. Bob's AI runs a bunch of things Alice would like in Bob's AI's timelines, in exchange for Alice's AI not running things Bob would very strongly dislike."
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-13T00:39:15.679Z",
+    "af": false
+  },
+  {
+    "_id": "3PwDacyxvzFG9e74d",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\nI'm a big fan of Rob Bensinger's [\"AI Views Snapshot\"](https://twitter.com/robbensinger/status/1734699436176298131) document idea. I recommend people [fill their own](https://docs.google.com/drawings/d/1Vd_3P_EGUb08Ag1z0NvymaFjF2_XiOlF3TPU76WB8bg/edit) before anchoring on anyone else's.\n\nHere's mine at the moment:\n\n![](https://carado.moe/up/2c7fcf12-1702429335.png)\n\n\n",
+      "plaintextDescription": "I'm a big fan of Rob Bensinger's \"AI Views Snapshot\" document idea. I recommend people fill their own before anchoring on anyone else's.\n\nHere's mine at the moment:\n\n"
+    },
+    "baseScore": 15,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-12-12T23:53:51.065Z",
+    "af": false
+  },
+  {
+    "_id": "Tk7aarHBaLFmXKoqJ",
+    "postId": "Y7gtFMi6TwFq5uFHe",
+    "parentCommentId": "vP8mHJbCzLsiaofAT",
+    "topLevelCommentId": "hkoGD6Gwi9YKKZ6S2",
+    "contents": {
+      "markdown": "> I thought the \"C\" in CEV stood for \"coherent\" in the sense that it had been reconciled over all people (or over whatever set of preference-possessing entities you were taking into acount). Otherwise wouldn't it just be \"EV\"?\n\nI mean I guess, sure, if \"CEV\" means over-all-people then I just mean \"EV\" here.  \nJust \"EV\" is enough for the \"basic challenge\" of alignment as described on AGI Ruin.\n\n> So are you saying that it would literally have an internal function that represented \"how good\" it thought every possible state of the world was, and then solve an (approximate) optimization problem directly in terms of maximizing that function?\n\nOr do something which has approximately that effect.\n\n> That doesn't seem to me like a problem you could solve even with a Jupiter brain and perfect software.\n\nI disagree! I think *some humans right now* (notably people particulalry focused on alignment) already do something vague EUmax-shaped, and definitely an ASI capable of running on current compute would be able to do something *more* EUmax-shaped. Very, very far from actual \"pure\" EUmax of course; but way sufficient to defeat all humans, who are quite further away from pure EUmax. Maybe see also [this comment of mine](https://www.lesswrong.com/posts/p6Su7Teg6L9cMf4rj/to-miri-style-folk-you-can-t-simulate-the-universe-from-the?commentId=QJ74TiS3twcKPjvnw).",
+      "plaintextDescription": "> I thought the \"C\" in CEV stood for \"coherent\" in the sense that it had been reconciled over all people (or over whatever set of preference-possessing entities you were taking into acount). Otherwise wouldn't it just be \"EV\"?\n\nI mean I guess, sure, if \"CEV\" means over-all-people then I just mean \"EV\" here.\nJust \"EV\" is enough for the \"basic challenge\" of alignment as described on AGI Ruin.\n\n> So are you saying that it would literally have an internal function that represented \"how good\" it thought every possible state of the world was, and then solve an (approximate) optimization problem directly in terms of maximizing that function?\n\nOr do something which has approximately that effect.\n\n> That doesn't seem to me like a problem you could solve even with a Jupiter brain and perfect software.\n\nI disagree! I think some humans right now (notably people particulalry focused on alignment) already do something vague EUmax-shaped, and definitely an ASI capable of running on current compute would be able to do something more EUmax-shaped. Very, very far from actual \"pure\" EUmax of course; but way sufficient to defeat all humans, who are quite further away from pure EUmax. Maybe see also this comment of mine."
+    },
+    "baseScore": 4,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-12-12T22:57:16.327Z",
+    "af": false
+  },
+  {
+    "_id": "3JEtomcrrM9pJGzib",
+    "postId": "Y7gtFMi6TwFq5uFHe",
+    "parentCommentId": "hkoGD6Gwi9YKKZ6S2",
+    "topLevelCommentId": "hkoGD6Gwi9YKKZ6S2",
+    "contents": {
+      "markdown": "> Humans aren't all required to converge to the same volition, there's no particularly defensible way of resolving any real differences\n\nCEV-ing just one person is enough for [the \"basic challenge\" of alignment as described on AGI Ruin](https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities).\n\n> and even finding any given person's *individual* volition may be arbitrarily path-dependent\n\nSure, but it doesn't *need* to be path-independent, it just needs to have pretty good expected value over possible paths.\n\n> Whether something is a utopia or a dystopia is a matter of opinion. Some people's \"utopias\" may be worse than death from other people's point of view.\n\nThat's fair (though given the current distribution of people likely to launch the AI, I'm somewhat optimistic that we won't get such a dystopia) — but the people getting confused about that question aren't asking it because they have such concerns, they're usually (in my experience) asking it because they're confused *way upstream of that*, and if they were aware of the circumstances they'd be more likely to focus on solving alignment than on asking \"aligned to whom\". I agree that the question makes sense, I just think the people asking it wouldn't endorse-under-reflection focusing on that question in particular if they were aware of the circumstances. Maybe see also [this post](https://www.lesswrong.com/posts/A4nfKtD9MPFBaa5ME/we-re-all-in-this-together).\n\n> Most actually implementable agents probably don't have coherent utility functions […]\n\nI think the kind of AI likely to take over the world can be described closely enough in such a way. Certainly for the kind of aligned AI that saves the world, it seems likely to me that expected utility is sufficient to think about how it thinks about its impact on the world.",
+      "plaintextDescription": "> Humans aren't all required to converge to the same volition, there's no particularly defensible way of resolving any real differences\n\nCEV-ing just one person is enough for the \"basic challenge\" of alignment as described on AGI Ruin.\n\n> and even finding any given person's individual volition may be arbitrarily path-dependent\n\nSure, but it doesn't need to be path-independent, it just needs to have pretty good expected value over possible paths.\n\n> Whether something is a utopia or a dystopia is a matter of opinion. Some people's \"utopias\" may be worse than death from other people's point of view.\n\nThat's fair (though given the current distribution of people likely to launch the AI, I'm somewhat optimistic that we won't get such a dystopia) — but the people getting confused about that question aren't asking it because they have such concerns, they're usually (in my experience) asking it because they're confused way upstream of that, and if they were aware of the circumstances they'd be more likely to focus on solving alignment than on asking \"aligned to whom\". I agree that the question makes sense, I just think the people asking it wouldn't endorse-under-reflection focusing on that question in particular if they were aware of the circumstances. Maybe see also this post.\n\n> Most actually implementable agents probably don't have coherent utility functions […]\n\nI think the kind of AI likely to take over the world can be described closely enough in such a way. Certainly for the kind of aligned AI that saves the world, it seems likely to me that expected utility is sufficient to think about how it thinks about its impact on the world."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-12-12T22:38:16.823Z",
+    "af": false
+  },
+  {
+    "_id": "MkuXuE9N4xcbS93Pi",
+    "postId": "Y7gtFMi6TwFq5uFHe",
+    "parentCommentId": "ggJukSzJ2j3ewNMao",
+    "topLevelCommentId": "ggJukSzJ2j3ewNMao",
+    "contents": {
+      "markdown": "We have at least one prototype for a fully formalized implementation of CEV, yes: [mine](https://www.lesswrong.com/posts/4RrLiboiGGKfsanMF/the-qaci-alignment-plan-table-of-contents).\n\n(I'd argue that for the correct answer to \"what are values?\" to be \"just do CEV\", we shouldn't need a specific plan for CEV; we should just need good confidence that something like CEV *can* be implemented.)",
+      "plaintextDescription": "We have at least one prototype for a fully formalized implementation of CEV, yes: mine.\n\n(I'd argue that for the correct answer to \"what are values?\" to be \"just do CEV\", we shouldn't need a specific plan for CEV; we should just need good confidence that something like CEV can be implemented.)"
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2023-12-12T22:24:15.274Z",
+    "af": false
+  },
+  {
+    "_id": "KTc6yxwcbMqQD5Yf9",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've heard some describe my recent posts as \"overconfident\".\n\nI think I used to calibrate how confident I sound based on how much I expect the people reading/listening-to me to agree with what I'm saying, kinda out of \"politeness\" for their beliefs; and I think I also used to calibrate my confidence based on how much they match with the apparent consensus, to avoid seeming strange.\n\nI think I've done a good job learning over time to instead report my actual inside-view, including how confident I feel about it.\n\nThere's already an immense amount of [outside-view double-counting](https://www.lesswrong.com/posts/kQLw5hFDSMuS5SFGg/carado-s-shortform?commentId=GougLdtzxHH55ri4g) going on in AI discourse, the least I can do is provide {the people who listen to me} with my inside-view beliefs, as opposed to just cycling other people's opinions through me.\n\nHence, how confident I sound while claiming things that don't match consensus. I *actually* am that confident in my inside-view. I strive to be honest by hedging what I say when I'm in doubt, but that means I also have to sound confident when I'm confident.",
+      "plaintextDescription": "I've heard some describe my recent posts as \"overconfident\".\n\nI think I used to calibrate how confident I sound based on how much I expect the people reading/listening-to me to agree with what I'm saying, kinda out of \"politeness\" for their beliefs; and I think I also used to calibrate my confidence based on how much they match with the apparent consensus, to avoid seeming strange.\n\nI think I've done a good job learning over time to instead report my actual inside-view, including how confident I feel about it.\n\nThere's already an immense amount of outside-view double-counting going on in AI discourse, the least I can do is provide {the people who listen to me} with my inside-view beliefs, as opposed to just cycling other people's opinions through me.\n\nHence, how confident I sound while claiming things that don't match consensus. I actually am that confident in my inside-view. I strive to be honest by hedging what I say when I'm in doubt, but that means I also have to sound confident when I'm confident."
+    },
+    "baseScore": 17,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-12-11T22:36:38.991Z",
+    "af": false
+  },
+  {
+    "_id": "GougLdtzxHH55ri4g",
+    "postId": "kQLw5hFDSMuS5SFGg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A short comic I made to illustrate what I call \"outside-view double-counting\".\n\n(resized to not ruin how it shows on lesswrong, full-scale version [here](https://carado.moe/outside-view-double-counting.html))\n\n![](https://carado.moe/outside-view-double-counting-small.png)",
+      "plaintextDescription": "A short comic I made to illustrate what I call \"outside-view double-counting\".\n\n(resized to not ruin how it shows on lesswrong, full-scale version here)\n\n"
+    },
+    "baseScore": 33,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2023-12-11T22:33:16.396Z",
+    "af": false
+  },
+  {
+    "_id": "5QD3Jbm8ukNHdH2wm",
+    "postId": "yRdXtgy8CZtg2YtAY",
+    "parentCommentId": "bFgBbmixbTGmTdoFp",
+    "topLevelCommentId": "bFgBbmixbTGmTdoFp",
+    "contents": {
+      "markdown": "Due to my timelines being this short, I'm hopeful that convincing just \"the current crop of major-AI-Lab CEOs\" might actually be enough to buy us the bulk of time that something like this could buy.",
+      "plaintextDescription": "Due to my timelines being this short, I'm hopeful that convincing just \"the current crop of major-AI-Lab CEOs\" might actually be enough to buy us the bulk of time that something like this could buy."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-11T10:24:31.018Z",
+    "af": true
+  },
+  {
+    "_id": "GrxExSaHaEyrFCxK2",
+    "postId": "yRdXtgy8CZtg2YtAY",
+    "parentCommentId": "GB5aY6EwM6C5PQbjR",
+    "topLevelCommentId": "8FPKEJ3parYFQWEFY",
+    "contents": {
+      "markdown": "I'm not sure what you mean? I'm just describing what those concepts are and how I think they fit together in the territory, not prescribing anything.",
+      "plaintextDescription": "I'm not sure what you mean? I'm just describing what those concepts are and how I think they fit together in the territory, not prescribing anything."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-10T21:12:33.740Z",
+    "af": false
+  },
+  {
+    "_id": "DB8MDjGSiEdyfXEKX",
+    "postId": "yRdXtgy8CZtg2YtAY",
+    "parentCommentId": "ADhCPJWgu6DykhwhQ",
+    "topLevelCommentId": "8FPKEJ3parYFQWEFY",
+    "contents": {
+      "markdown": "Oh, egoism is totally coherent. I'm just saying that your values can be egoist, *or* they can be cosmopolitan, *or* a mixture of they two. But (a version of) cosmopolitanism is a *contents* of a person's values, not a standalone objective thing.",
+      "plaintextDescription": "Oh, egoism is totally coherent. I'm just saying that your values can be egoist, or they can be cosmopolitan, or a mixture of they two. But (a version of) cosmopolitanism is a contents of a person's values, not a standalone objective thing."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-10T21:00:34.660Z",
+    "af": false
+  },
+  {
+    "_id": "Gvoux2JGguHmMAkFG",
+    "postId": "yRdXtgy8CZtg2YtAY",
+    "parentCommentId": "8FPKEJ3parYFQWEFY",
+    "topLevelCommentId": "8FPKEJ3parYFQWEFY",
+    "contents": {
+      "markdown": "CEV of humanity is certainly desirable! If you CEV me, I in turn implement some kind of CEV-of-humanity in a way that doesn't particularly privilege myself. But that's *downstream* of one's values and of decision theory.\n\nYour goal as an agent is to maximize your utility function — and it just so happens that your utility function, as you endorse it in CEV, consists of maximizing everyone's CEV in some way. \n\nThink not \"cosmopolitanism vs my-utility-function\" but \"cosmopolitanism, as entailed by my utility function\".\n\n(see also my post [*surprise! you want what you want*](https://carado.moe/surprise-you-want.html))",
+      "plaintextDescription": "CEV of humanity is certainly desirable! If you CEV me, I in turn implement some kind of CEV-of-humanity in a way that doesn't particularly privilege myself. But that's downstream of one's values and of decision theory.\n\nYour goal as an agent is to maximize your utility function — and it just so happens that your utility function, as you endorse it in CEV, consists of maximizing everyone's CEV in some way.\n\nThink not \"cosmopolitanism vs my-utility-function\" but \"cosmopolitanism, as entailed by my utility function\".\n\n(see also my post surprise! you want what you want)"
+    },
+    "baseScore": 14,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-12-10T20:31:21.615Z",
+    "af": false
+  },
+  {
+    "_id": "WJi2k3kdycCFYZmHh",
+    "postId": "A4nfKtD9MPFBaa5ME",
+    "parentCommentId": "DFWxB5xmSqDQCrhEM",
+    "topLevelCommentId": "SYSHWaTLz5Zjw8CEc",
+    "contents": {
+      "markdown": "> I don't view ASI as substantially different than an upload economy.\n\nI'm very confused about why you think that. Unlike an economy, an aligned ASI is an *agent*. Its utility function can be something that looks at the kind of economy you ndescribe, and goes \"huh, actually, extreme inequality seems not great, what if everyone got a reasonable amount of resources instead\".\n\nIt's like you don't think the people who get CEV'd would ever notice [Moloch](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/); their reflection processes would just go \"oh yeah whatever this is fine keep the economy going\".\n\nMost worlds where we don't die are worlds where a single aligned ASI achieves decisive strategic advantage (and thus is permanently in charge of the future), in which case that single AI is an *agent* running a person/group's CEV, which gets to look at the-world-as-a-whole and notice when its utility isn't maximized and then can just do something else which is not that.\n\nSome of the worlds where we don't die are *multipolar*, which just means that a few different ASIs achieve decisive strategic advantage at a close-enough time that what they fill the lightcone with is a weighed composition of their various utility functions. But the set of ASIs who get to take part in that composition is still a constant set, locked-in forever, without any competition to worry about, and that composed utility function is then what looks at the-world-as-a-whole.\n\nThis point, that I think an immutable set of ASIs grab the entire future and then they're in charge forever and they simply stop any competitor to themselves from ever appearing, feels like it's in the direction of the crucial disagreement between our perspectives. Whether my \"socialist political fantasy\" indeed describes what worlds-where-we-don't-die actually look like feels like it's downstream of that.\n\n> the function of good governance is to internalize all externalities.\n\nThat sure is a take! Wouldn't the function of good governance be to maximize nice things, regardless of whether that's best achieved by patching all the externality-holes in a capitalist economy, or by doing something which is not that?",
+      "plaintextDescription": "> I don't view ASI as substantially different than an upload economy.\n\nI'm very confused about why you think that. Unlike an economy, an aligned ASI is an agent. Its utility function can be something that looks at the kind of economy you ndescribe, and goes \"huh, actually, extreme inequality seems not great, what if everyone got a reasonable amount of resources instead\".\n\nIt's like you don't think the people who get CEV'd would ever notice Moloch; their reflection processes would just go \"oh yeah whatever this is fine keep the economy going\".\n\nMost worlds where we don't die are worlds where a single aligned ASI achieves decisive strategic advantage (and thus is permanently in charge of the future), in which case that single AI is an agent running a person/group's CEV, which gets to look at the-world-as-a-whole and notice when its utility isn't maximized and then can just do something else which is not that.\n\nSome of the worlds where we don't die are multipolar, which just means that a few different ASIs achieve decisive strategic advantage at a close-enough time that what they fill the lightcone with is a weighed composition of their various utility functions. But the set of ASIs who get to take part in that composition is still a constant set, locked-in forever, without any competition to worry about, and that composed utility function is then what looks at the-world-as-a-whole.\n\nThis point, that I think an immutable set of ASIs grab the entire future and then they're in charge forever and they simply stop any competitor to themselves from ever appearing, feels like it's in the direction of the crucial disagreement between our perspectives. Whether my \"socialist political fantasy\" indeed describes what worlds-where-we-don't-die actually look like feels like it's downstream of that.\n\n> the function of good governance is to internalize all externalities.\n\nThat sure is a take! Wouldn't the function of good governance be to maximize nice things, regardless of whether t"
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-08T09:14:16.071Z",
+    "af": false
+  },
+  {
+    "_id": "DiwEgvjBwuzeCoFe2",
+    "postId": "A4nfKtD9MPFBaa5ME",
+    "parentCommentId": "Awm7RAGGRJDJporjm",
+    "topLevelCommentId": "SYSHWaTLz5Zjw8CEc",
+    "contents": {
+      "markdown": "I strongly doubt that an aligned superintelligence couldn't upload everyone-who-wants-to-be-uploaded cheaply (given nanotech), but if it couldn't, I doubt its criterion for who gets to be uploaded first will be \"whoever happens to have money\" rather than a more-likely-to-maximize-utility criterion such as \"whoever needs it most right now\".\n\nThis is why I think wealth allocations are likely to not be relevant; giving stuff to people who had wealth pre-singularity is just not particularly utility-maximizing.",
+      "plaintextDescription": "I strongly doubt that an aligned superintelligence couldn't upload everyone-who-wants-to-be-uploaded cheaply (given nanotech), but if it couldn't, I doubt its criterion for who gets to be uploaded first will be \"whoever happens to have money\" rather than a more-likely-to-maximize-utility criterion such as \"whoever needs it most right now\".\n\nThis is why I think wealth allocations are likely to not be relevant; giving stuff to people who had wealth pre-singularity is just not particularly utility-maximizing."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-08T02:30:32.741Z",
+    "af": false
+  },
+  {
+    "_id": "sLxJLaR45QHuydwWa",
+    "postId": "A4nfKtD9MPFBaa5ME",
+    "parentCommentId": "uAKTr7HwuNj94ACBi",
+    "topLevelCommentId": "uAKTr7HwuNj94ACBi",
+    "contents": {
+      "markdown": "> * Say, I'm too old to expect aligned AI to give me eternal life (or aligned AI simply might not mean eternal life/bliss for me, for whichever reason; maybe as it's still better to start with newborns more efficiently made into bliss-enjoying automatons or whatever utopia entails), so for me individually, the intermediate years before superintelligence are the relevant ones, so I might rationally want to earn money by working on enriching myself, whatever the (un-)alignment impact of it\n\nI expect that the set of people who:\n\n* Expect to have died of old age within five years\n* Are willing to reduce how long they'll expected-live in order to be richer before they die\n* Are willing to sacrifice all of humanity's future (including the future of their loved-ones who aren't expected to die of old age within five years)\n* Take actions who impact the what superintelligence is built\n\nis **extremely** small. It's not like Sam Altman is 70.\n\n---\n\n> * Given the public goods nature of alignment, I might fear it's unlikely for us to cooperate, so we'll all freeride by working to enrich ourselves working on various things rather leaning towards building unaligned AI. With such a prior, it may be rational for any self-interested person - also absent confusion - to indeed freeride: 'hopefully I make a bit of money for an enjoyable few or many years, before unaligned AGI destroys us with near-certainty anyway'.\n>\n> * Even if technical alignment was not too difficult, standard Moloch-type effects (again, all sorts of freeriding/power seeking) might mean chances of unaligned users of even otherwise 'aligned' technology are overwhelming, again meaning most value for most people lies in increasing their material welfare for the next few years to come, rather than 'wasting' their resources towards an futile alignment project.\n\nBut it's *not* public-goods kind of thing. If they knew that the choice was between:\n\n* Rich now, dead in five years\n* Less rich now, post-scarcely-rich and immortal and in utopia forever in five years\n\nthen pretty much nobody would still choose the former. If people realized the truth, they would choose otherwise.\n\nIn my experience, most of the selfishness people claim to have to justify continuing to destroy the world instead of helping alignment is less {because that's their actual core values and they're acting rationally} and more just {finding excuses to not have to think about the problem and change their minds/actions}. I talk more about this [here](https://www.lesswrong.com/posts/Qw6qsgR2Qm6rp574A/so-you-want-to-save-the-world-an-account-in-paladinhood#The_core_of_paladinhood).\n\nTo be fair, this is less a failure of {being wrong about this specific thing}, and more a failure of {being less good at rationality in general}. But it's still mistake-theoritic moreso than conflict-theoritic.",
+      "plaintextDescription": ">  * Say, I'm too old to expect aligned AI to give me eternal life (or aligned AI simply might not mean eternal life/bliss for me, for whichever reason; maybe as it's still better to start with newborns more efficiently made into bliss-enjoying automatons or whatever utopia entails), so for me individually, the intermediate years before superintelligence are the relevant ones, so I might rationally want to earn money by working on enriching myself, whatever the (un-)alignment impact of it\n\nI expect that the set of people who:\n\n * Expect to have died of old age within five years\n * Are willing to reduce how long they'll expected-live in order to be richer before they die\n * Are willing to sacrifice all of humanity's future (including the future of their loved-ones who aren't expected to die of old age within five years)\n * Take actions who impact the what superintelligence is built\n\nis extremely small. It's not like Sam Altman is 70.\n\n----------------------------------------\n\n>  * Given the public goods nature of alignment, I might fear it's unlikely for us to cooperate, so we'll all freeride by working to enrich ourselves working on various things rather leaning towards building unaligned AI. With such a prior, it may be rational for any self-interested person - also absent confusion - to indeed freeride: 'hopefully I make a bit of money for an enjoyable few or many years, before unaligned AGI destroys us with near-certainty anyway'.\n> \n>  * Even if technical alignment was not too difficult, standard Moloch-type effects (again, all sorts of freeriding/power seeking) might mean chances of unaligned users of even otherwise 'aligned' technology are overwhelming, again meaning most value for most people lies in increasing their material welfare for the next few years to come, rather than 'wasting' their resources towards an futile alignment project.\n\nBut it's not public-goods kind of thing. If they knew that the choice was between:\n\n * Rich now, dead in five years\n * Le"
+    },
+    "baseScore": 11,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-05T23:16:45.936Z",
+    "af": false
+  },
+  {
+    "_id": "cER79bQmSs6SbCSDt",
+    "postId": "zrfqdkiQDRoKYwRnp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Time for another regular (non-google-docs-style) coment.",
+      "plaintextDescription": "Time for another regular (non-google-docs-style) coment."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-05T19:23:46.455Z",
+    "af": false
+  },
+  {
+    "_id": "dcLMqSeSxXfGesBc2",
+    "postId": "zrfqdkiQDRoKYwRnp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is a regular comment.",
+      "plaintextDescription": "This is a regular comment."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-05T19:22:49.810Z",
+    "af": false
+  }
+]

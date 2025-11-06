@@ -4,6 +4,10 @@ import time
 import re
 import json
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 # Configure logger for this module
 logger = logging.getLogger(__name__)
 

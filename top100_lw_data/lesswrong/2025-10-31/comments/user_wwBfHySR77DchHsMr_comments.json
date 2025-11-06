@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "dyndDEn9qqdt9Mhx2",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I suspect current approaches probably significantly or even drastically under-elicit automated ML research capabilities.\n\nI'd guess the average cost of producing a decent ML paper is at least 10k$ (in the West, at least) and probably closer to [100k's $](https://www.perplexity.ai/search/what-is-the-average-cost-with-LJcLMXQ1TTCNSn16YrF9Tw).\n\nIn contrast, Sakana's AI scientist cost on average 15$/paper and .50$/review. [PaperQA2](https://storage.googleapis.com/fh-public/paperqa/Language_Agents_Science.pdf), which claims superhuman performance at some scientific Q&A and lit review tasks, costs something like 4$/query. Other papers with claims of human-range performance on [ideation](https://arxiv.org/html/2409.04109v1) or [reviewing](https://arxiv.org/abs/2408.10365) also probably have costs of <10$/idea or review.\n\nEven the auto ML R&D benchmarks from METR or UK AISI don't give me at all the vibes of coming anywhere near close enough to e.g. what a 100-person team at OpenAI could accomplish in 1 year, if they tried really hard to automate ML.\n\nA fairer comparison would probably be to actually try hard at building the kind of scaffold which could use ~10k$ in inference costs productively. I suspect the resulting agent would probably not do much better than with 100$ of inference, but it seems hard to be confident. And it seems harder still to be confident about what will happen even in just 3 years' time, given that [pretraining compute seems like it will probably grow about 10x/year](https://x.com/peterwildeford/status/1825614599623782490) and that there might be [stronger pushes towards automated ML](https://x.com/RobertTLange/status/1829104918214447216).  \n \n\nThis seems pretty bad both w.r.t. underestimating the probability of shorter timelines and faster takeoffs, and in more specific ways too. E.g. we could be underestimating by a lot the risks of open-weights Llama-3 (or 4 soon) given all the potential under-elicitation.",
+      "plaintextDescription": "I suspect current approaches probably significantly or even drastically under-elicit automated ML research capabilities.\n\nI'd guess the average cost of producing a decent ML paper is at least 10k$ (in the West, at least) and probably closer to 100k's $.\n\nIn contrast, Sakana's AI scientist cost on average 15$/paper and .50$/review. PaperQA2, which claims superhuman performance at some scientific Q&A and lit review tasks, costs something like 4$/query. Other papers with claims of human-range performance on ideation or reviewing also probably have costs of <10$/idea or review.\n\nEven the auto ML R&D benchmarks from METR or UK AISI don't give me at all the vibes of coming anywhere near close enough to e.g. what a 100-person team at OpenAI could accomplish in 1 year, if they tried really hard to automate ML.\n\nA fairer comparison would probably be to actually try hard at building the kind of scaffold which could use ~10k$ in inference costs productively. I suspect the resulting agent would probably not do much better than with 100$ of inference, but it seems hard to be confident. And it seems harder still to be confident about what will happen even in just 3 years' time, given that pretraining compute seems like it will probably grow about 10x/year and that there might be stronger pushes towards automated ML.\n \n\nThis seems pretty bad both w.r.t. underestimating the probability of shorter timelines and faster takeoffs, and in more specific ways too. E.g. we could be underestimating by a lot the risks of open-weights Llama-3 (or 4 soon) given all the potential under-elicitation."
+    },
+    "baseScore": 26,
+    "voteCount": 25,
+    "createdAt": null,
+    "postedAt": "2024-09-21T14:17:32.052Z",
+    "af": false
+  },
+  {
+    "_id": "FcYsMj7DyFCpGyhZJ",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "hbLx79Zntq4rq4ceC",
+    "topLevelCommentId": "hbLx79Zntq4rq4ceC",
+    "contents": {
+      "markdown": "I think the WBE intuition is probably the more useful one, and even more so when it comes to the also important question of 'how many powerful human-level AIs should there be around, soon after AGI' - given e.g. estimates of computational requirements like in [https://www.youtube.com/watch?v=mMqYxe5YkT4](https://www.youtube.com/watch?v=mMqYxe5YkT4). Basically, WBEs set a bit of a lower bound ( given that they're both a proof of existence and that, in many ways, the physical instantiations (biological brains) are there, lying in wait for better tech to access them in the right format and digitize them. Also, that better tech might be coming soon, especially as AI starts accelerating science and automating tasks more broadly - see e.g. [https://www.sam-rodriques.com/post/optical-microscopy-provides-a-path-to-a-10m-mouse-brain-connectome-if-it-eliminates-proofreading](https://www.sam-rodriques.com/post/optical-microscopy-provides-a-path-to-a-10m-mouse-brain-connectome-if-it-eliminates-proofreading).",
+      "plaintextDescription": "I think the WBE intuition is probably the more useful one, and even more so when it comes to the also important question of 'how many powerful human-level AIs should there be around, soon after AGI' - given e.g. estimates of computational requirements like in https://www.youtube.com/watch?v=mMqYxe5YkT4. Basically, WBEs set a bit of a lower bound ( given that they're both a proof of existence and that, in many ways, the physical instantiations (biological brains) are there, lying in wait for better tech to access them in the right format and digitize them. Also, that better tech might be coming soon, especially as AI starts accelerating science and automating tasks more broadly - see e.g. https://www.sam-rodriques.com/post/optical-microscopy-provides-a-path-to-a-10m-mouse-brain-connectome-if-it-eliminates-proofreading. "
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-18T15:37:11.371Z",
+    "af": false
+  },
+  {
+    "_id": "WhWkjiKgRvm3mDw8w",
+    "postId": "8QjAnWyuE9fktPRgS",
+    "parentCommentId": "LCfGmRHu6E9r7hsCZ",
+    "topLevelCommentId": "9cuskWNLrmE4QwtGJ",
+    "contents": {
+      "markdown": "> I think these projects show that it's possible to make progress on major technical problems with a few thousand talented and focused people.\n\nI don't think it's impossible that this would be enough, but it seems much worse to risk undershooting than overshooting in terms of the resources allocated and the speed at which this happens; especially when, at least in principle, the field could be deploying even its available resources much faster than it currently is.",
+      "plaintextDescription": "> I think these projects show that it's possible to make progress on major technical problems with a few thousand talented and focused people.\n\nI don't think it's impossible that this would be enough, but it seems much worse to risk undershooting than overshooting in terms of the resources allocated and the speed at which this happens; especially when, at least in principle, the field could be deploying even its available resources much faster than it currently is."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-01T10:15:14.493Z",
+    "af": false
+  },
+  {
+    "_id": "9x4Y8Jn2Fi4WgeNJM",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> 1\\. There’s likely to be lots of AI safety money becoming available in 1–2 years\n> ================================================================================\n\nI'm quite skeptical of this. As far as I understand, some existing entities (e.g. OpenPhil) could probably already be spending 10x more than they are today, without liquidity being a major factor. So the bottlenecks seem somewhere else (I personally suspect overly strong risk adversity and incompetence at scaling up grantmaking as major factors), and I don't see any special reason why they'd be resolved in 1-2 years in particular (without them being about as resolvable next month, or in 5 years, or never).",
+      "plaintextDescription": "> 1. There’s likely to be lots of AI safety money becoming available in 1–2 years\n\nI'm quite skeptical of this. As far as I understand, some existing entities (e.g. OpenPhil) could probably already be spending 10x more than they are today, without liquidity being a major factor. So the bottlenecks seem somewhere else (I personally suspect overly strong risk adversity and incompetence at scaling up grantmaking as major factors), and I don't see any special reason why they'd be resolved in 1-2 years in particular (without them being about as resolvable next month, or in 5 years, or never)."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-29T11:00:48.161Z",
+    "af": false
+  },
+  {
+    "_id": "9cuskWNLrmE4QwtGJ",
+    "postId": "8QjAnWyuE9fktPRgS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Based on updated data and estimates from 2025, I estimate that there are now approximately 600 FTEs working on technical AI safety and 500 FTEs working on non-technical AI safety (1100 in total).\n\nI think it's suggestive to compare with e.g. the number of FTEs related to addressing climate change, for a hint at how puny the numbers above are:\n\n> Using our definition's industry approach, UK employment in green jobs was an estimated 690,900 full-time equivalents (FTEs) in 2023. ([https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/experimentalestimatesofgreenjobsuk/july2025](https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/experimentalestimatesofgreenjobsuk/july2025))  \n\n> Jobs in renewable energy reached 16.2 million globally in 2023 ([https://www.un.org/en/climatechange/science/key-findings](https://www.un.org/en/climatechange/science/key-findings))",
+      "plaintextDescription": "> Based on updated data and estimates from 2025, I estimate that there are now approximately 600 FTEs working on technical AI safety and 500 FTEs working on non-technical AI safety (1100 in total).\n\nI think it's suggestive to compare with e.g. the number of FTEs related to addressing climate change, for a hint at how puny the numbers above are:\n\n> Using our definition's industry approach, UK employment in green jobs was an estimated 690,900 full-time equivalents (FTEs) in 2023. (https://www.ons.gov.uk/economy/environmentalaccounts/bulletins/experimentalestimatesofgreenjobsuk/july2025)  \n\n> Jobs in renewable energy reached 16.2 million globally in 2023 (https://www.un.org/en/climatechange/science/key-findings) "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-27T19:59:48.516Z",
+    "af": false
+  },
+  {
+    "_id": "zF2rhafrez4sw6HAC",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "spicy take: the 'ultimate EA' thing to do might soon be volunteering to get implanted with a few ultrasound BCIs (instead of e.g. donating a kidney), for lo-fi WBE data gathering reasons:  \n ‘The probe’s small size enables potential subcranial implantation between skull and dura with PDMS encapsulation (46), providing chronic hemodynamic access where repeated monitoring is valuable.’  \n'The complete system captures brain activity up to 5-8 cm depth across a 60◦ × 60◦ field of view (FOV) at 1-10 Hz temporal resolution, while maintaining an 11.52 × 8.64 mm footprint suitable for integration into surgical workflows and future intracranial implantation.'  \n[https://www.medrxiv.org/content/10.1101/2025.08.19.25332261v1.full-text](https://www.medrxiv.org/content/10.1101/2025.08.19.25332261v1.full-text)",
+      "plaintextDescription": "spicy take: the 'ultimate EA' thing to do might soon be volunteering to get implanted with a few ultrasound BCIs (instead of e.g. donating a kidney), for lo-fi WBE data gathering reasons:\n ‘The probe’s small size enables potential subcranial implantation between skull and dura with PDMS encapsulation (46), providing chronic hemodynamic access where repeated monitoring is valuable.’\n'The complete system captures brain activity up to 5-8 cm depth across a 60◦ × 60◦ field of view (FOV) at 1-10 Hz temporal resolution, while maintaining an 11.52 × 8.64 mm footprint suitable for integration into surgical workflows and future intracranial implantation.'\nhttps://www.medrxiv.org/content/10.1101/2025.08.19.25332261v1.full-text"
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-25T12:46:34.796Z",
+    "af": false
+  },
+  {
+    "_id": "euv94adS9qJgztMEu",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For some perspective:\n\n'New data centers put Stargate ahead of schedule to secure full $500 billion, 10-gigawatt commitment by end of 2025.' [https://openai.com/index/five-new-stargate-sites/](https://openai.com/index/five-new-stargate-sites/) \n\n'One estimate puts total funding for AI safety research at only $80-130 million per year over the 2021-2024 period.' [https://www.schmidtsciences.org/safetyscience/#:~:text=One%20estimate%20puts%20total%20funding,period%20(LessWrong%2C%202024)](https://www.schmidtsciences.org/safetyscience/#:~:text=One%20estimate%20puts%20total%20funding,period%20(LessWrong%2C%202024))",
+      "plaintextDescription": "For some perspective:\n\n'New data centers put Stargate ahead of schedule to secure full $500 billion, 10-gigawatt commitment by end of 2025.' https://openai.com/index/five-new-stargate-sites/ \n\n'One estimate puts total funding for AI safety research at only $80-130 million per year over the 2021-2024 period.' https://www.schmidtsciences.org/safetyscience/#:~:text=One%20estimate%20puts%20total%20funding,period%20(LessWrong%2C%202024) "
+    },
+    "baseScore": 15,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-09-24T20:02:08.817Z",
+    "af": false
+  },
+  {
+    "_id": "qWo4MFgy6jPfzEDfw",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**NVIDIA might be better positioned to first get to/first scale up access to AGIs than any of the AI labs that typically come to mind.**  \nThey're already the world's highest-market-cap company, have huge and increasing quarterly income (and profit) streams, and can get access to the world's best AI hardware at literally the best price (the production cost they pay). Given that access to hardware seems far more constraining of an input than e.g. algorithms or data, when AI becomes much more valuable because it can replace larger portions of human workers, they should be highly motivated to use large numbers of GPUs themselves and train their own AGIs, rather than e.g. sell their GPUs and buy AGI access from competitors. Especially since poaching talented AGI researchers would probably (still) be much cheaper than building up the hardware required for the training runs (e.g. see Meta's recent hiring spree); and since access to compute is already an important factor in algorithmic progress and AIs will likely increasingly be able to substitute top human researchers for algorithmic progress. Similarly, since the AI software is a complementary good to the hardware they sell, they should be highly motivated to be able to produce their own in-house, and sell it as a package with their hardware (rather than have to rely on AGI labs to build the software that makes the hardware useful). \n\nThis possibility seems to me wildly underconsidered/underdiscussed, at least in public.",
+      "plaintextDescription": "NVIDIA might be better positioned to first get to/first scale up access to AGIs than any of the AI labs that typically come to mind.\nThey're already the world's highest-market-cap company, have huge and increasing quarterly income (and profit) streams, and can get access to the world's best AI hardware at literally the best price (the production cost they pay). Given that access to hardware seems far more constraining of an input than e.g. algorithms or data, when AI becomes much more valuable because it can replace larger portions of human workers, they should be highly motivated to use large numbers of GPUs themselves and train their own AGIs, rather than e.g. sell their GPUs and buy AGI access from competitors. Especially since poaching talented AGI researchers would probably (still) be much cheaper than building up the hardware required for the training runs (e.g. see Meta's recent hiring spree); and since access to compute is already an important factor in algorithmic progress and AIs will likely increasingly be able to substitute top human researchers for algorithmic progress. Similarly, since the AI software is a complementary good to the hardware they sell, they should be highly motivated to be able to produce their own in-house, and sell it as a package with their hardware (rather than have to rely on AGI labs to build the software that makes the hardware useful). \n\nThis possibility seems to me wildly underconsidered/underdiscussed, at least in public."
+    },
+    "baseScore": 43,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-09-05T13:59:07.697Z",
+    "af": false
+  },
+  {
+    "_id": "C3fgTsAva44jwsBPn",
+    "postId": "RA7jb5h6sjnzivKv3",
+    "parentCommentId": "ALwBknkiLbc4KtMNr",
+    "topLevelCommentId": "ALwBknkiLbc4KtMNr",
+    "contents": {
+      "markdown": "I don't have a strong opinion about how good or bad this is.\n\nBut it seems like potentially additional evidence over how difficult it is to predict/understand people's motivations/intentions/susceptibility to value drift, even with decades of track record, and thus how counterfactually-low the bar is for AIs to be more transparent to their overseers than human employees/colleagues.",
+      "plaintextDescription": "I don't have a strong opinion about how good or bad this is.\n\nBut it seems like potentially additional evidence over how difficult it is to predict/understand people's motivations/intentions/susceptibility to value drift, even with decades of track record, and thus how counterfactually-low the bar is for AIs to be more transparent to their overseers than human employees/colleagues."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-05T10:01:35.993Z",
+    "af": false
+  },
+  {
+    "_id": "aEZyXktJonCyvkop5",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "6ue8BPWrcoa2eGJdP",
+    "topLevelCommentId": "6ue8BPWrcoa2eGJdP",
+    "contents": {
+      "markdown": "> The faster 2024-2025 agentic software engineering time horizon (see figure 19 in [METR's paper](https://arxiv.org/abs/2503.14499)) has a 4 month doubling time.\n\nIsn't the SWE-Bench figure and doubling time estimate from the blogpost even more relevant here than fig. 19 from the METR paper?\n\n![Models are succeeding at increasingly long tasks chart](https://metr.org/assets/images/measuring-ai-ability-to-complete-long-tasks/time-horizon-swe.png)",
+      "plaintextDescription": "> The faster 2024-2025 agentic software engineering time horizon (see figure 19 in METR's paper) has a 4 month doubling time.\n\nIsn't the SWE-Bench figure and doubling time estimate from the blogpost even more relevant here than fig. 19 from the METR paper?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-03T18:17:16.760Z",
+    "af": true
+  },
+  {
+    "_id": "5eZbNYGAdJodj4Aws",
+    "postId": "2ssPfDpdrjaM2rMbn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think I agree directionally with the post.\n\nBut I've been increasingly starting to wonder if software engineering might not be surprisingly easy to automate when the right data/environments are used at much larger scale, e.g. Github issues (see e.g. [D3: A Large Dataset for Training Code Language Models to Act Diff-by-Dif](https://openreview.net/forum?id=Ksq7fgagId)f) or semi-automated pipelines to build SWE RL environments (see e.g. [Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs](https://arxiv.org/abs/2506.19290)), which seem potentially surprisingly easy to automatically scale up. It now seems much more plausible to me that this could be a scaling *data* problem than a scaling compute problem, and that progress might be fast. Also, it seems likely that there might be some flywheel effect of better AIs -> better automated collection + filtering of SWE environments/data -> better AIs, etc. And 'Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs' has already shown data scaling laws:\n\n  \n![](https://quixotic-sting-239.notion.site/image/attachment%3Afcf645ec-0fe4-46c0-8d16-77989ed45473%3Adata_scaling.png?table=block&id=20f19b8d-a75c-81f9-ab8d-db841e643a67&spaceId=39d19b8d-a75c-8160-a767-00032b12707c&width=2000&userId=&cache=v2)\n\nAlso, my impression is that SWE is probably the biggest bottleneck in automating AI R&D, based on results like those in [Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers](https://arxiv.org/abs/2409.04109)  \nand especially based on the [length of the time horizons](https://x.com/ChengleiSi/status/1939676656140247361) involved in the SWE part vs. other parts of the AI R&D cycle.",
+      "plaintextDescription": "I think I agree directionally with the post.\n\nBut I've been increasingly starting to wonder if software engineering might not be surprisingly easy to automate when the right data/environments are used at much larger scale, e.g. Github issues (see e.g. D3: A Large Dataset for Training Code Language Models to Act Diff-by-Diff) or semi-automated pipelines to build SWE RL environments (see e.g. Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs), which seem potentially surprisingly easy to automatically scale up. It now seems much more plausible to me that this could be a scaling data problem than a scaling compute problem, and that progress might be fast. Also, it seems likely that there might be some flywheel effect of better AIs -> better automated collection + filtering of SWE environments/data -> better AIs, etc. And 'Skywork-SWE: Unveiling Data Scaling Laws for Software Engineering in LLMs' has already shown data scaling laws:\n\n\n\n\nAlso, my impression is that SWE is probably the biggest bottleneck in automating AI R&D, based on results like those in Can LLMs Generate Novel Research Ideas? A Large-Scale Human Study with 100+ NLP Researchers\nand especially based on the length of the time horizons involved in the SWE part vs. other parts of the AI R&D cycle. "
+    },
+    "baseScore": 21,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2025-08-20T18:52:16.280Z",
+    "af": false
+  },
+  {
+    "_id": "j8MjEsRammZh9zbGS",
+    "postId": "7xneDbsgj6yJDJMjK",
+    "parentCommentId": "sqqve9gLiHHpFQp4v",
+    "topLevelCommentId": "sqqve9gLiHHpFQp4v",
+    "contents": {
+      "markdown": "It's probably also very synergystic with various d/acc approaches and measures more broadly.\n\nIntuitively, the higher the (including global) barriers to AI takeover, human extinction, etc., the more likely the AI will have to do a lot of reasoning and planning to have a decent probability of success; so the more difficult it will be to successfully achieve that opaquely and not be caught by CoT (and inputs, and outputs, and tools, etc.) monitors.",
+      "plaintextDescription": "It's probably also very synergystic with various d/acc approaches and measures more broadly.\n\nIntuitively, the higher the (including global) barriers to AI takeover, human extinction, etc., the more likely the AI will have to do a lot of reasoning and planning to have a decent probability of success; so the more difficult it will be to successfully achieve that opaquely and not be caught by CoT (and inputs, and outputs, and tools, etc.) monitors."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-05T12:59:06.077Z",
+    "af": false
+  },
+  {
+    "_id": "3tcdxtKhwBxMvGkbX",
+    "postId": "7xneDbsgj6yJDJMjK",
+    "parentCommentId": "3fQMQErDbGppYEp5L",
+    "topLevelCommentId": "ngynwAqZ3CkJWnssN",
+    "contents": {
+      "markdown": "And this suggests 100x acceleration in research cycles if ideation + implementation were automated, and humans were relegated to doing peer reviewing of AI-published papers:\n\n[https://x.com/BogdanIonutCir2/status/1940100507932197217](https://x.com/BogdanIonutCir2/status/1940100507932197217)",
+      "plaintextDescription": "And this suggests 100x acceleration in research cycles if ideation + implementation were automated, and humans were relegated to doing peer reviewing of AI-published papers:\n\nhttps://x.com/BogdanIonutCir2/status/1940100507932197217 "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-02T12:03:22.160Z",
+    "af": false
+  },
+  {
+    "_id": "YXneMBn725DEdBbtt",
+    "postId": "KRKnFdECZMu3Ej3z6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think it might really be wise to use a canary string, or some other mechanism to hide this kind of knowledge from future (pre)training runs, e.g. [https://turntrout.com/dataset-protection](https://turntrout.com/dataset-protection)",
+      "plaintextDescription": "I think it might really be wise to use a canary string, or some other mechanism to hide this kind of knowledge from future (pre)training runs, e.g. https://turntrout.com/dataset-protection "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-31T16:05:14.312Z",
+    "af": false
+  },
+  {
+    "_id": "3fQMQErDbGppYEp5L",
+    "postId": "7xneDbsgj6yJDJMjK",
+    "parentCommentId": "eqidvTEaom4bmmSkv",
+    "topLevelCommentId": "ngynwAqZ3CkJWnssN",
+    "contents": {
+      "markdown": "Based on current trends fron [https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/), this could already have happened by sometime between 2027 and 2030:\n\n![Uncertainty in extrapolated date of 1 month AI chart](https://metr.org/assets/images/measuring-ai-ability-to-complete-long-tasks/uncertainty-in-extrapolated-date.png)",
+      "plaintextDescription": "Based on current trends fron https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/, this could already have happened by sometime between 2027 and 2030:"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-29T15:34:55.168Z",
+    "af": false
+  },
+  {
+    "_id": "sqqve9gLiHHpFQp4v",
+    "postId": "7xneDbsgj6yJDJMjK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Excited about this research agenda, including its potential high synergy with unlearning from weights:\n\n[https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm](https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm).\n\nIntuitively, if one (almost-verifiably) removes the most dangerous kinds of information from the weights, the model could then only access it in-context. If that's in the (current) form of text, it should fit perfectly with CoT monitorability.\n\nMy guess is that on the current 'default' ML progress trajectory, this combo would probably buy enough safety all the way to automation of ~all prosaic AI safety research. Related, this other comment of mine on this post:\n\n[https://www.lesswrong.com/posts/7xneDbsgj6yJDJMjK/chain-of-thought-monitorability-a-new-and-fragile?commentId=eqidvTEaom4bmmSkv](https://www.lesswrong.com/posts/7xneDbsgj6yJDJMjK/chain-of-thought-monitorability-a-new-and-fragile?commentId=eqidvTEaom4bmmSkv)",
+      "plaintextDescription": "Excited about this research agenda, including its potential high synergy with unlearning from weights:\n\nhttps://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm.\n\nIntuitively, if one (almost-verifiably) removes the most dangerous kinds of information from the weights, the model could then only access it in-context. If that's in the (current) form of text, it should fit perfectly with CoT monitorability.\n\nMy guess is that on the current 'default' ML progress trajectory, this combo would probably buy enough safety all the way to automation of ~all prosaic AI safety research. Related, this other comment of mine on this post:\n\nhttps://www.lesswrong.com/posts/7xneDbsgj6yJDJMjK/chain-of-thought-monitorability-a-new-and-fragile?commentId=eqidvTEaom4bmmSkv "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-28T18:23:33.369Z",
+    "af": false
+  },
+  {
+    "_id": "eqidvTEaom4bmmSkv",
+    "postId": "7xneDbsgj6yJDJMjK",
+    "parentCommentId": "ngynwAqZ3CkJWnssN",
+    "topLevelCommentId": "ngynwAqZ3CkJWnssN",
+    "contents": {
+      "markdown": "> at least delay it for a while\n\nNotably, even just delaying it until we can (safely) automate large parts of AI safety research would be both a very big deal, and intuitively seems quite tractable to me. E.g. the task-time-horizons required seem to be (only) ~100 hours for a lot of prosaic AI safety research:\n\n[https://x.com/BogdanIonutCir2/status/1948152133674811518](https://x.com/BogdanIonutCir2/status/1948152133674811518)",
+      "plaintextDescription": "> at least delay it for a while\n\nNotably, even just delaying it until we can (safely) automate large parts of AI safety research would be both a very big deal, and intuitively seems quite tractable to me. E.g. the task-time-horizons required seem to be (only) ~100 hours for a lot of prosaic AI safety research:\n\nhttps://x.com/BogdanIonutCir2/status/1948152133674811518 "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-28T16:59:24.115Z",
+    "af": false
+  },
+  {
+    "_id": "2cFJ27xxSfNsYbaBc",
+    "postId": "Zr37dY5YPRT6s56jY",
+    "parentCommentId": "KaaSfntGEBBgadvrF",
+    "topLevelCommentId": "KaaSfntGEBBgadvrF",
+    "contents": {
+      "markdown": "I would love to see an AI *safety* R&D category. \n\nMy intuition is that quite a few crucial AI safety R&D tasks are probably much shorter-horizon than AI *capabilities* R&D, which should be very helpful for automating AI safety R&D relatively early. E.g. the compute and engineer-hours time spent on pretraining (where most capabilities \\[still\\] seem to be coming from) are a-few-OOMs larger than those spent on fine-tuning (where most intent-alignment seems to be coming from).",
+      "plaintextDescription": "I would love to see an AI safety R&D category. \n\nMy intuition is that quite a few crucial AI safety R&D tasks are probably much shorter-horizon than AI capabilities R&D, which should be very helpful for automating AI safety R&D relatively early. E.g. the compute and engineer-hours time spent on pretraining (where most capabilities [still] seem to be coming from) are a-few-OOMs larger than those spent on fine-tuning (where most intent-alignment seems to be coming from)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-16T10:06:08.632Z",
+    "af": false
+  },
+  {
+    "_id": "q9fyALWuqojdX8529",
+    "postId": "Zu4ai9GFpwezyfB2K",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Seems pretty minor for now though:\n\n>   \n> The actual cheating behavior METR has observed seems relatively benign (if annoying). While it’s possible to construct situations where this behavior could cause substantial harm, they’re rather contrived. That’s because the model reward hacks in straightforward ways that are easy to detect. When the code it writes doesn’t work, it’s generally in a way that’s easy to notice by glancing at the code or even interacting with the program. Moreover, the agent spells out the strategies it’s using in its output and is very transparent about what methods it’s using.\n\n> Inasmuch as reward hacking is occurring, we think it’s good that the reward hacking is very obvious: the agents accurately describe their reward hacking behavior in the transcript and in their CoT, and the reward hacking strategies they use typically cause the programs they write to fail in obvious ways, not subtle ones. That makes it an easier-to-spot harbinger of misalignment and makes it less likely the reward hacking behavior (and perhaps even other related kinds of misalignment) causes major problems in deployment that aren’t noticed and addressed.",
+      "plaintextDescription": "Seems pretty minor for now though:\n\n> The actual cheating behavior METR has observed seems relatively benign (if annoying). While it’s possible to construct situations where this behavior could cause substantial harm, they’re rather contrived. That’s because the model reward hacks in straightforward ways that are easy to detect. When the code it writes doesn’t work, it’s generally in a way that’s easy to notice by glancing at the code or even interacting with the program. Moreover, the agent spells out the strategies it’s using in its output and is very transparent about what methods it’s using.\n\n> Inasmuch as reward hacking is occurring, we think it’s good that the reward hacking is very obvious: the agents accurately describe their reward hacking behavior in the transcript and in their CoT, and the reward hacking strategies they use typically cause the programs they write to fail in obvious ways, not subtle ones. That makes it an easier-to-spot harbinger of misalignment and makes it less likely the reward hacking behavior (and perhaps even other related kinds of misalignment) causes major problems in deployment that aren’t noticed and addressed."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-09T18:48:04.038Z",
+    "af": false
+  },
+  {
+    "_id": "wNCGBXcYsAYtsRk2k",
+    "postId": "kMiwjx6QyyBBTcjxt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Yes, I do think this should be a big deal, and even more so for monitoring (than for understanding model internals). It should also have been at least somewhat predictable, based on theoretical results like those in [I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data?](https://arxiv.org/abs/2503.08980) and in [All or None: Identifiable Linear Properties of Next-token Predictors in Language Modeling](https://arxiv.org/abs/2410.23501).",
+      "plaintextDescription": "Yes, I do think this should be a big deal, and even more so for monitoring (than for understanding model internals). It should also have been at least somewhat predictable, based on theoretical results like those in I Predict Therefore I Am: Is Next Token Prediction Enough to Learn Human-Interpretable Concepts from Data? and in All or None: Identifiable Linear Properties of Next-token Predictors in Language Modeling."
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-27T18:42:42.708Z",
+    "af": false
+  },
+  {
+    "_id": "FimDPA6FCudx2mpHq",
+    "postId": "oRQMonLfdLfoGcDEh",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I suspect you'd be interested in this paper, which seems to me like a great proof of concept: [Safety Pretraining: Toward the Next Generation of Safe AI](https://arxiv.org/abs/2504.16980).",
+      "plaintextDescription": "I suspect you'd be interested in this paper, which seems to me like a great proof of concept: Safety Pretraining: Toward the Next Generation of Safe AI."
+    },
+    "baseScore": 8,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-11T17:11:33.931Z",
+    "af": false
+  },
+  {
+    "_id": "uKyyWQCbDCGjwHEXd",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In light of recent works on automating alignment and AI task horizons, I'm (re)linking this brief presentation of mine from last year, which I think stands up pretty well and might have gotten less views than ideal:\n\n[Towards automated AI safety research](https://docs.google.com/presentation/d/1bFfQc8688Fo6k-9lYs6-QwtJNCPOS8W2UH5gs8S6p0o/edit?usp=sharing)",
+      "plaintextDescription": "In light of recent works on automating alignment and AI task horizons, I'm (re)linking this brief presentation of mine from last year, which I think stands up pretty well and might have gotten less views than ideal:\n\nTowards automated AI safety research"
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-21T16:00:29.255Z",
+    "af": false
+  },
+  {
+    "_id": "ZCH6WFxG8jGCpypiC",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The first automatically produced, (human) peer-reviewed,  (ICLR) workshop-accepted\\[/able\\] AI research paper: [https://sakana.ai/ai-scientist-first-publication/](https://sakana.ai/ai-scientist-first-publication/)",
+      "plaintextDescription": "The first automatically produced, (human) peer-reviewed,  (ICLR) workshop-accepted[/able] AI research paper: https://sakana.ai/ai-scientist-first-publication/ "
+    },
+    "baseScore": 20,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-03-13T12:23:02.453Z",
+    "af": false
+  },
+  {
+    "_id": "75gY9gKjA2yxp8Eo2",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "There have been numerous scandals within the EA community about how working for top AGI labs might be harmful. So, when are we going to have this conversation: contributing in any way to the current US admin getting (especially exclusive) access to AGI might be (very) harmful?\n\n\\[cross-posted from X\\]",
+      "plaintextDescription": "There have been numerous scandals within the EA community about how working for top AGI labs might be harmful. So, when are we going to have this conversation: contributing in any way to the current US admin getting (especially exclusive) access to AGI might be (very) harmful?\n\n[cross-posted from X]"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-07T10:32:00.289Z",
+    "af": false
+  },
+  {
+    "_id": "gbZgM79LxZMvowTHw",
+    "postId": "9pGbTz6c78PGwJein",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I find the pessimistic interpretation of the results a bit odd given considerations like those in [https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed](https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed).",
+      "plaintextDescription": "I find the pessimistic interpretation of the results a bit odd given considerations like those in https://www.lesswrong.com/posts/i2nmBfCXnadeGmhzW/catching-ais-red-handed. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-07T21:44:36.418Z",
+    "af": false
+  },
+  {
+    "_id": "y2ALAfK8i9Htno8EN",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "RjnH8zipT86eFKueH",
+    "topLevelCommentId": "ifDGEpLw4DydWxakE",
+    "contents": {
+      "markdown": "I also think it's important to notice how much less scary / how much more probably-easy-to-mitigate (at least strictly when it comes to technical alignment) this story seems than the scenarios from 10 years ago or so, e.g. from Superintelligence / from before LLMs, when pure RL seemed like the dominant paradigm to get to AGI.",
+      "plaintextDescription": "I also think it's important to notice how much less scary / how much more probably-easy-to-mitigate (at least strictly when it comes to technical alignment) this story seems than the scenarios from 10 years ago or so, e.g. from Superintelligence / from before LLMs, when pure RL seemed like the dominant paradigm to get to AGI."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-04T22:53:38.050Z",
+    "af": true
+  },
+  {
+    "_id": "PFb8KwzQTyryzxqZ5",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "irnf8YQKsuqw4idae",
+    "topLevelCommentId": "ifDGEpLw4DydWxakE",
+    "contents": {
+      "markdown": "I agree it's bad news w.r.t. getting maximal evidence about steganography and the like happening 'by default'. I think it's good news w.r.t. lab incentives, even for labs which don't speak too much about safety.",
+      "plaintextDescription": "I agree it's bad news w.r.t. getting maximal evidence about steganography and the like happening 'by default'. I think it's good news w.r.t. lab incentives, even for labs which don't speak too much about safety."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-04T22:51:57.980Z",
+    "af": false
+  },
+  {
+    "_id": "RjnH8zipT86eFKueH",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "ifDGEpLw4DydWxakE",
+    "topLevelCommentId": "ifDGEpLw4DydWxakE",
+    "contents": {
+      "markdown": "I pretty much agree with 1 and 2. I'm much more optimistic about 3-5 even 'by default' (e.g. R1's training being 'regularized' towards more interpretable CoT, despite DeepSeek not being too vocal about safety), but especially if labs deliberately try for maintaining the nice properties from 1-2 and of interpretable CoT.",
+      "plaintextDescription": "I pretty much agree with 1 and 2. I'm much more optimistic about 3-5 even 'by default' (e.g. R1's training being 'regularized' towards more interpretable CoT, despite DeepSeek not being too vocal about safety), but especially if labs deliberately try for maintaining the nice properties from 1-2 and of interpretable CoT."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-02T20:53:13.332Z",
+    "af": true
+  },
+  {
+    "_id": "fuhQKdLYNGvAFfGLw",
+    "postId": "BkzeJZCuCyrQrEMAi",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If \"smarter than almost all humans at almost all things\" models appear in 2026-2027, China and several others will be able to ~immediately steal the first such models, by default.\n\nInterpreted very charitably: but even in that case, they probably wouldn't have enough inference compute to compete.",
+      "plaintextDescription": "> If \"smarter than almost all humans at almost all things\" models appear in 2026-2027, China and several others will be able to ~immediately steal the first such models, by default.\n\nInterpreted very charitably: but even in that case, they probably wouldn't have enough inference compute to compete."
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-01-29T23:48:09.103Z",
+    "af": false
+  },
+  {
+    "_id": "ocvkDTspatbDSh45L",
+    "postId": "FEcw6JQ8surwxvRfr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Quick take: this is probably interpreting them over-charitably, but I feel like the plausibility of arguments like the one in this post makes e/acc and e/acc-adjacent arguments sound a lot less crazy.",
+      "plaintextDescription": "Quick take: this is probably interpreting them over-charitably, but I feel like the plausibility of arguments like the one in this post makes e/acc and e/acc-adjacent arguments sound a lot less crazy."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-29T00:02:56.134Z",
+    "af": false
+  },
+  {
+    "_id": "3hKfdDuLWb6hJcKhJ",
+    "postId": "HuJ2CLkrpzmKD7YAL",
+    "parentCommentId": "qM8mDdQLvjrXrfrtp",
+    "topLevelCommentId": "qM8mDdQLvjrXrfrtp",
+    "contents": {
+      "markdown": "To the best of my awareness, there isn't any demonstrated proper differential compute efficiency from latent reasoning to speak of yet. It could happen, it could also not happen. Even if it does happen, one could still decide to pay the associated safety tax of keeping the CoT.\n\nMore generally, the vibe of the comment above seems too defeatist to me; related: [https://www.lesswrong.com/posts/HQyWGE2BummDCc2Cx/the-case-for-cot-unfaithfulness-is-overstated](https://www.lesswrong.com/posts/HQyWGE2BummDCc2Cx/the-case-for-cot-unfaithfulness-is-overstated).",
+      "plaintextDescription": "To the best of my awareness, there isn't any demonstrated proper differential compute efficiency from latent reasoning to speak of yet. It could happen, it could also not happen. Even if it does happen, one could still decide to pay the associated safety tax of keeping the CoT.\n\nMore generally, the vibe of the comment above seems too defeatist to me; related: https://www.lesswrong.com/posts/HQyWGE2BummDCc2Cx/the-case-for-cot-unfaithfulness-is-overstated. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-24T23:49:33.466Z",
+    "af": false
+  },
+  {
+    "_id": "rAFnesgTA4fvwdbYs",
+    "postId": "jGG24BzLdYvi9dugm",
+    "parentCommentId": "RJTD44WiqKfgACyHT",
+    "topLevelCommentId": "9tMFHgC8TPN5wcyGk",
+    "contents": {
+      "markdown": "> They also require relatively little compute (often around $1 for a training run), so AI agents could afford to test many ideas.\n\nOk, this seems surprisingly cheap. Can you say more about what such a 1$ training run typically looks like (what the hyperparameters are)? I'd also be very interested in any analysis about how SAE (computational) training costs scale vs. base LLM pretraining costs.\n\n> I wouldn't be surprised if SAE improvements were a good early target for automated AI research, especially if the feedback loop is just \"Come up with idea, modify existing loss function, train, evaluate, get a quantitative result\".\n\nThis sounds spiritually quite similar to what's already been done in [Discovering Preference Optimization Algorithms with and for Large Language Models](https://arxiv.org/abs/2406.08414) and I'd expect something roughly like that to probably produce something interestin, especially if a training run only cost $1.",
+      "plaintextDescription": "> They also require relatively little compute (often around $1 for a training run), so AI agents could afford to test many ideas.\n\nOk, this seems surprisingly cheap. Can you say more about what such a 1$ training run typically looks like (what the hyperparameters are)? I'd also be very interested in any analysis about how SAE (computational) training costs scale vs. base LLM pretraining costs.\n\n> I wouldn't be surprised if SAE improvements were a good early target for automated AI research, especially if the feedback loop is just \"Come up with idea, modify existing loss function, train, evaluate, get a quantitative result\".\n\nThis sounds spiritually quite similar to what's already been done in Discovering Preference Optimization Algorithms with and for Large Language Models and I'd expect something roughly like that to probably produce something interestin, especially if a training run only cost $1."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-24T13:43:50.259Z",
+    "af": false
+  },
+  {
+    "_id": "PDykdn32Q7kM8cWSE",
+    "postId": "5sWNnbHRkExfLaS49",
+    "parentCommentId": "MPbTSkktDYZZdsfCz",
+    "topLevelCommentId": "MPbTSkktDYZZdsfCz",
+    "contents": {
+      "markdown": "Some additional evidence: o3 used 5.7B tokens per task to achieve its ARC score of 87.5%; it also scored 75.7% on low compute mode using 33M tokens per task:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/2dd8c1d3f747a15815d2476ed9732f23250ac666598ada46.png)\n\n[https://arcprize.org/blog/oai-o3-pub-breakthrough](https://arcprize.org/blog/oai-o3-pub-breakthrough)",
+      "plaintextDescription": "Some additional evidence: o3 used 5.7B tokens per task to achieve its ARC score of 87.5%; it also scored 75.7% on low compute mode using 33M tokens per task:\n\nhttps://arcprize.org/blog/oai-o3-pub-breakthrough"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-20T11:29:43.216Z",
+    "af": false
+  },
+  {
+    "_id": "ErGAaEdPbQxRHoNFy",
+    "postId": "TecsCZ7w8s4e2umm4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It might also be feasible to use multimodal CoT, like in [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/abs/2501.07542), and consistency checks between the CoTs in different modalities. Below are some quotes from a related chat with Claude about this idea.\n\n> multimodal CoT could enhance faithfulness through several mechanisms: cross-modal consistency checking, visual grounding of abstract concepts, increased bandwidth costs for deception, and enhanced interpretability. The key insight is that coordinating deception across multiple modalities would be substantially more difficult than in text alone.\n\n> Multimodal CoT for Enhanced Faithfulness: A Proposal\n> ====================================================\n> \n> Core Idea\n> ---------\n> \n> Multimodal Chain-of-Thought (like MVoT) could enhance CoT faithfulness by making it harder for models to hide information or engage in steganography. The key insight is that forcing models to express their reasoning through both text and generated images creates additional constraints that make unfaithful reasoning more difficult.\n> \n> Mechanisms for Enhanced Faithfulness\n> ------------------------------------\n> \n> ### 1\\. Cross-Modal Consistency Checking\n> \n> When a model must express its reasoning in both text and images, we can verify that both modalities tell the same story:\n> \n> *   Any hidden information in the text would need to be consistently reflected in the generated images\n> *   The required coordination across modalities makes steganography more challenging\n> *   Inconsistencies between modalities could signal unfaithful reasoning\n> \n> ### 2\\. Visual Grounding of Abstract Concepts\n> \n> Images force concrete visualization of abstract concepts:\n> \n> *   Makes it harder to maintain multiple contradictory lines of reasoning\n> *   Abstract deceptions become more apparent when they must be visually represented\n> *   Visual medium reduces ambiguity that could be exploited for steganography\n> \n> ### 3\\. Increased Bandwidth Cost for Deception\n> \n> Hiding information across both text and images is more computationally expensive:\n> \n> *   Model must maintain coherence across a higher-dimensional space\n> *   Steganographic signals need more sophisticated encoding to work across modalities\n> *   Higher cognitive load makes deception more challenging\n> \n> ### 4\\. Enhanced Interpretability\n> \n> Multimodal outputs provide more angles for oversight:\n> \n> *   Humans can cross-reference the text reasoning against visual representations\n> *   Visual artifacts of deceptive reasoning may be easier to spot\n> *   Multiple channels for detecting inconsistencies\n> \n> Implementation Approach\n> -----------------------\n> \n> ### Required Components\n> \n> 1.  A multimodal model capable of generating both text and images\n> 2.  Consistency checking mechanisms across modalities\n> 3.  Visual grounding mechanisms for abstract concepts\n> 4.  Multi-channel oversight tools\n> \n> ### Training Strategy\n> \n> 1.  Start with models pre-trained on aligned multimodal data\n> 2.  Fine-tune with explicit rewards for cross-modal consistency\n> 3.  Penalize detected inconsistencies between modalities\n> 4.  Validate using human oversight across both channels\n> \n> Potential Challenges\n> --------------------\n> \n> ### Technical Challenges\n> \n> *   Ensuring high-quality image generation that accurately reflects reasoning\n> *   Developing robust cross-modal consistency metrics\n> *   Managing computational overhead of dual-modal generation\n> \n> ### Validation Challenges\n> \n> *   Defining ground truth for faithful multimodal reasoning\n> *   Creating test cases that can detect cross-modal deception\n> *   Measuring effectiveness compared to text-only approaches\n> \n> Research Directions\n> -------------------\n> \n> ### Immediate Next Steps\n> \n> 1.  Develop metrics for cross-modal consistency\n> 2.  Create test suites for detecting multimodal steganography\n> 3.  Build tools for human validation of multimodal reasoning\n> 4.  Study failure modes specific to multimodal deception\n> \n> ### Longer-term Research\n> \n> 1.  Explore optimal balances between modalities\n> 2.  Investigate transfer learning between modalities\n> 3.  Study emergence of cross-modal deception strategies\n> 4.  Develop automated detection of multimodal unfaithfulness\n> \n> Conclusion\n> ----------\n> \n> Multimodal CoT presents a promising approach for enhancing faithfulness by leveraging the constraints and verification opportunities provided by multiple modalities. While technical challenges remain, the potential benefits warrant further investigation and development.",
+      "plaintextDescription": "It might also be feasible to use multimodal CoT, like in Imagine while Reasoning in Space: Multimodal Visualization-of-Thought, and consistency checks between the CoTs in different modalities. Below are some quotes from a related chat with Claude about this idea.\n\n> multimodal CoT could enhance faithfulness through several mechanisms: cross-modal consistency checking, visual grounding of abstract concepts, increased bandwidth costs for deception, and enhanced interpretability. The key insight is that coordinating deception across multiple modalities would be substantially more difficult than in text alone.\n\n\n> Multimodal CoT for Enhanced Faithfulness: A Proposal\n> \n> \n> Core Idea\n> Multimodal Chain-of-Thought (like MVoT) could enhance CoT faithfulness by making it harder for models to hide information or engage in steganography. The key insight is that forcing models to express their reasoning through both text and generated images creates additional constraints that make unfaithful reasoning more difficult.\n> \n> \n> Mechanisms for Enhanced Faithfulness\n> \n> \n> 1. Cross-Modal Consistency Checking\n> When a model must express its reasoning in both text and images, we can verify that both modalities tell the same story:\n> \n>  * Any hidden information in the text would need to be consistently reflected in the generated images\n>  * The required coordination across modalities makes steganography more challenging\n>  * Inconsistencies between modalities could signal unfaithful reasoning\n> \n> \n> 2. Visual Grounding of Abstract Concepts\n> Images force concrete visualization of abstract concepts:\n> \n>  * Makes it harder to maintain multiple contradictory lines of reasoning\n>  * Abstract deceptions become more apparent when they must be visually represented\n>  * Visual medium reduces ambiguity that could be exploited for steganography\n> \n> \n> 3. Increased Bandwidth Cost for Deception\n> Hiding information across both text and images is more computationally expensive:\n> \n>  * Mode"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-20T10:37:01.801Z",
+    "af": false
+  },
+  {
+    "_id": "7FXgsDHmAiqbETRgb",
+    "postId": "QnzWgCkW9MPMp69A2",
+    "parentCommentId": "AsnXYciqRSeJha5i3",
+    "topLevelCommentId": "AsnXYciqRSeJha5i3",
+    "contents": {
+      "markdown": "At the very least, evals for automated ML R&D should be a very decent proxy for when it might be feasible to automate very large chunks of prosaic AI *safety* R&D.",
+      "plaintextDescription": "At the very least, evals for automated ML R&D should be a very decent proxy for when it might be feasible to automate very large chunks of prosaic AI safety R&D."
+    },
+    "baseScore": 15,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-01-17T17:49:18.759Z",
+    "af": false
+  },
+  {
+    "_id": "9tMFHgC8TPN5wcyGk",
+    "postId": "jGG24BzLdYvi9dugm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> We find that these evaluation results are nuanced and there is no one ideal SAE configuration - instead, the best SAE varies depending on the specifics of the downstream task. Because of this, we cannot combine the results into a single number without obscuring tradeoffs. Instead, we provide a range of quantitative metrics so that researchers can measure the nuanced effects of experimental changes.\n\nIt might be interesting (perhaps in the not-very-near future) to study if automated scientists (maybe roughly in the shape of existing ones, like [https://sakana.ai/ai-scientist/](https://sakana.ai/ai-scientist/)) using the evals as proxy metrics, might be able to come up with better (e.g. Pareto improvements) SAE architectures, hyperparams, etc., and whether adding more metrics might help; as an analogy, this seems to be the case for using more LLM-generated unit tests for LLM code generation, see [Dynamic Scaling of Unit Tests for Code Reward Modeling](https://www.arxiv.org/abs/2501.01054).",
+      "plaintextDescription": "> We find that these evaluation results are nuanced and there is no one ideal SAE configuration - instead, the best SAE varies depending on the specifics of the downstream task. Because of this, we cannot combine the results into a single number without obscuring tradeoffs. Instead, we provide a range of quantitative metrics so that researchers can measure the nuanced effects of experimental changes.\n\nIt might be interesting (perhaps in the not-very-near future) to study if automated scientists (maybe roughly in the shape of existing ones, like https://sakana.ai/ai-scientist/) using the evals as proxy metrics, might be able to come up with better (e.g. Pareto improvements) SAE architectures, hyperparams, etc., and whether adding more metrics might help; as an analogy, this seems to be the case for using more LLM-generated unit tests for LLM code generation, see Dynamic Scaling of Unit Tests for Code Reward Modeling.\n "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-16T19:57:09.942Z",
+    "af": false
+  },
+  {
+    "_id": "8eAyHpSkLHR7K4S3Q",
+    "postId": "WJ7y8S9WdKRvrzJmR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I expect that, fortunately, the AI safety community will be able to mostly learn from what people automating AI capabilities research and research in other domains (more broadly) will be doing. \n\nIt would be nice to have some hands-on experience with automated safety research, too, though, and especially to already start putting in place the infrastructure necessary to deploy automated safety research at scale. Unfortunately, AFAICT, right now this seems mostly bottlenecked on something like scaling up grantmaking and funding capacity, and there doesn't seem to be enough willingness to address these bottlenecks very quickly (e.g. in the next 12 months) by e.g. hiring and / or decentralizing grantmaking much more aggressively.",
+      "plaintextDescription": "I expect that, fortunately, the AI safety community will be able to mostly learn from what people automating AI capabilities research and research in other domains (more broadly) will be doing. \n\nIt would be nice to have some hands-on experience with automated safety research, too, though, and especially to already start putting in place the infrastructure necessary to deploy automated safety research at scale. Unfortunately, AFAICT, right now this seems mostly bottlenecked on something like scaling up grantmaking and funding capacity, and there doesn't seem to be enough willingness to address these bottlenecks very quickly (e.g. in the next 12 months) by e.g. hiring and / or decentralizing grantmaking much more aggressively."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-01-14T14:48:35.317Z",
+    "af": false
+  },
+  {
+    "_id": "fdCEJA3zPw6wvAZLX",
+    "postId": "aEguDPoCzt3287CCD",
+    "parentCommentId": "vDBvduCbbanwoFYqT",
+    "topLevelCommentId": "vDBvduCbbanwoFYqT",
+    "contents": {
+      "markdown": "From [https://x.com/\\_\\_nmca\\_\\_/status/1870170101091008860](https://x.com/__nmca__/status/1870170101091008860):\n\n> o1 was the first large reasoning model — as we outlined in the original “Learning to Reason” blog, it’s “just” an LLM trained with RL. o3 is powered by further scaling up RL beyond o1\n\n[@ryan_greenblatt](https://www.lesswrong.com/users/ryan_greenblatt?mention=user) Shouldn't this be interpreted as a very big update vs. the neuralese-in-o3 hypothesis?",
+      "plaintextDescription": "From https://x.com/__nmca__/status/1870170101091008860:\n\n> o1 was the first large reasoning model — as we outlined in the original “Learning to Reason” blog, it’s “just” an LLM trained with RL. o3 is powered by further scaling up RL beyond o1\n\n@ryan_greenblatt Shouldn't this be interpreted as a very big update vs. the neuralese-in-o3 hypothesis?"
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-09T22:35:38.671Z",
+    "af": false
+  },
+  {
+    "_id": "eugcpTcsJ6ANcADxN",
+    "postId": "NXTkEiaLA4JdS5vSZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you have thoughts on the [apparent recent slowdown/disappointing results in scaling up pretraining](https://archive.ph/Pvvmi)? These might suggest very diminishing returns in scaling up pretraining significantly before 6e27 FLOP.",
+      "plaintextDescription": "Do you have thoughts on the apparent recent slowdown/disappointing results in scaling up pretraining? These might suggest very diminishing returns in scaling up pretraining significantly before 6e27 FLOP. "
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-12-25T14:11:44.573Z",
+    "af": false
+  },
+  {
+    "_id": "obGtkPjSkywWFedRK",
+    "postId": "4mtqQKvmHpQJ4dgj7",
+    "parentCommentId": "LqefzJMn7HTRthMit",
+    "topLevelCommentId": "LqefzJMn7HTRthMit",
+    "contents": {
+      "markdown": "I've had similar thoughts previously: [https://www.lesswrong.com/posts/wr2SxQuRvcXeDBbNZ/bogdan-ionut-cirstea-s-shortform?commentId=rSDHH4emZsATe6ckF](https://www.lesswrong.com/posts/wr2SxQuRvcXeDBbNZ/bogdan-ionut-cirstea-s-shortform?commentId=rSDHH4emZsATe6ckF).",
+      "plaintextDescription": "I've had similar thoughts previously: https://www.lesswrong.com/posts/wr2SxQuRvcXeDBbNZ/bogdan-ionut-cirstea-s-shortform?commentId=rSDHH4emZsATe6ckF. "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-24T22:57:53.609Z",
+    "af": false
+  },
+  {
+    "_id": "qs7W5wuCvn3ZFztug",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Gemini 2.0 Flash Thinking is claimed to 'transparently show its thought process' (in contrast to o1, which only shows a summary): [https://x.com/denny_zhou/status/1869815229078745152](https://x.com/denny_zhou/status/1869815229078745152). This might be at least a bit helpful in terms of studying how faithful (e.g. vs. steganographic, etc.) the Chains of Thought are.",
+      "plaintextDescription": "Gemini 2.0 Flash Thinking is claimed to 'transparently show its thought process' (in contrast to o1, which only shows a summary): https://x.com/denny_zhou/status/1869815229078745152. This might be at least a bit helpful in terms of studying how faithful (e.g. vs. steganographic, etc.) the Chains of Thought are.   "
+    },
+    "baseScore": 15,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-12-19T21:16:52.450Z",
+    "af": false
+  },
+  {
+    "_id": "6oZphQ2MjGKgKPuim",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "dyndDEn9qqdt9Mhx2",
+    "topLevelCommentId": "dyndDEn9qqdt9Mhx2",
+    "contents": {
+      "markdown": "> A fairer comparison would probably be to actually try hard at building the kind of scaffold which could use ~10k$ in inference costs productively. I suspect the resulting agent would probably not do much better than with 100$ of inference, but it seems hard to be confident. And it seems harder still to be confident about what will happen even in just 3 years' time, given that [pretraining compute seems like it will probably grow about 10x/year](https://x.com/peterwildeford/status/1825614599623782490) and that there might be [stronger pushes towards automated ML](https://x.com/RobertTLange/status/1829104918214447216).\n\nA related announcement, explicitly targeting 'building an epistemically sound research agent   \n@elicitorg that can use unlimited test-time compute while keeping reasoning transparent & verifiable': [https://x.com/stuhlmueller/status/1869080354658890009](https://x.com/stuhlmueller/status/1869080354658890009).",
+      "plaintextDescription": "> A fairer comparison would probably be to actually try hard at building the kind of scaffold which could use ~10k$ in inference costs productively. I suspect the resulting agent would probably not do much better than with 100$ of inference, but it seems hard to be confident. And it seems harder still to be confident about what will happen even in just 3 years' time, given that pretraining compute seems like it will probably grow about 10x/year and that there might be stronger pushes towards automated ML.\n\nA related announcement, explicitly targeting 'building an epistemically sound research agent \n@elicitorg that can use unlimited test-time compute while keeping reasoning transparent & verifiable': https://x.com/stuhlmueller/status/1869080354658890009. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-18T12:44:13.520Z",
+    "af": false
+  },
+  {
+    "_id": "5rNXSJk6dExh8BQJQ",
+    "postId": "ZB6guMhHH3NEyxA2k",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The toy task reminded me of the 'Hidden side objectives' subsection in section 'B.1.2 OBFUSCATED SCHEMING REASONING' of [Towards evaluations-based safety cases for AI scheming](https://arxiv.org/abs/2411.03336).",
+      "plaintextDescription": "The toy task reminded me of the 'Hidden side objectives' subsection in section 'B.1.2 OBFUSCATED SCHEMING REASONING' of Towards evaluations-based safety cases for AI scheming."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-16T17:09:06.380Z",
+    "af": false
+  },
+  {
+    "_id": "xkfjDsRQrzyhNdYCA",
+    "postId": "5sWNnbHRkExfLaS49",
+    "parentCommentId": "MPbTSkktDYZZdsfCz",
+    "topLevelCommentId": "MPbTSkktDYZZdsfCz",
+    "contents": {
+      "markdown": "For the [SOTA on swebench-verified as of 16-12-2024](https://x.com/skcd42/status/1867586492253581403): 'it was around $5k for a total run.. around 8M tokens for a single swebench-problem.'",
+      "plaintextDescription": "For the SOTA on swebench-verified as of 16-12-2024: 'it was around $5k for a total run.. around 8M tokens for a single swebench-problem.'"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-16T15:09:13.015Z",
+    "af": false
+  },
+  {
+    "_id": "bso89cgyjr3pACDkK",
+    "postId": "LM7iqfBJcxxTQB8iz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "'That means, around three months, it is possible to achieve performance comparable to current state-of-the-art LLMs using a model with half the parameter size.'\n\nIf this trend continues, combined with (better/more extensible) inference scaling laws, it could make LM agents much more competitive on many AI R&D capabilities soon, at much longer horizon tasks.\n\nE.g. - figure 11 from [RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts](https://arxiv.org/abs/2411.15114):\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/4c36a46cb1c0f86d5ef922f023a379cd1c05ff55c0971d71.png)\n\nAlso related: [Before smart AI, there will be many mediocre or specialized AIs](https://www.lesswrong.com/posts/5sWNnbHRkExfLaS49/before-smart-ai-there-will-be-many-mediocre-or-specialized).",
+      "plaintextDescription": "'That means, around three months, it is possible to achieve performance comparable to current state-of-the-art LLMs using a model with half the parameter size.'\n\nIf this trend continues, combined with (better/more extensible) inference scaling laws, it could make LM agents much more competitive on many AI R&D capabilities soon, at much longer horizon tasks.\n\nE.g. - figure 11 from RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts:\n\nAlso related: Before smart AI, there will be many mediocre or specialized AIs."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-11T12:59:31.157Z",
+    "af": false
+  },
+  {
+    "_id": "bESQfhcWexCgaYCiF",
+    "postId": "fRSj2W4Fjje8rQWm9",
+    "parentCommentId": "rA4uEhj3BvaA4FMM5",
+    "topLevelCommentId": "FhqykebfcowJA8Jp2",
+    "contents": {
+      "markdown": "The kind of instrumental reasoning required for alignment faking seems relevant, including through n-hop latent reasoning; see e.g. section 'B.1.3 HIDDEN SCHEMING REASONING' from [Towards evaluations-based safety cases for AI scheming](https://arxiv.org/abs/2411.03336). I wouldn't be too surprised if models could currently bypass this through shortcuts, but a mix of careful data filtering + unlearning of memorized facts about deceptive learning, as suggested in [https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm#Information\\_you\\_should\\_probably\\_remove\\_from\\_the_weights](https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm#Information_you_should_probably_remove_from_the_weights,), could force them to externalize their reasoning (which should be much easier to monitor than latent reasoning), if they were to try to alignment-fake; though steganography would also be another threat model here, as discussed e.g. in section 'B.1.2 OBFUSCATED SCHEMING REASONING' of [Towards evaluations-based safety cases for AI scheming](https://arxiv.org/abs/2411.03336).",
+      "plaintextDescription": "The kind of instrumental reasoning required for alignment faking seems relevant, including through n-hop latent reasoning; see e.g. section 'B.1.3 HIDDEN SCHEMING REASONING' from Towards evaluations-based safety cases for AI scheming. I wouldn't be too surprised if models could currently bypass this through shortcuts, but a mix of careful data filtering + unlearning of memorized facts about deceptive learning, as suggested in https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm#Information_you_should_probably_remove_from_the_weights, could force them to externalize their reasoning (which should be much easier to monitor than latent reasoning), if they were to try to alignment-fake; though steganography would also be another threat model here, as discussed e.g. in section 'B.1.2 OBFUSCATED SCHEMING REASONING' of Towards evaluations-based safety cases for AI scheming."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-05T17:58:43.248Z",
+    "af": false
+  },
+  {
+    "_id": "HCAgHyWkyKivW48wf",
+    "postId": "fRSj2W4Fjje8rQWm9",
+    "parentCommentId": "qYAi7hYKkw3d8dfxH",
+    "topLevelCommentId": "FhqykebfcowJA8Jp2",
+    "contents": {
+      "markdown": "I don't dispute that transformers can memorize shortcuts. I do dispute their ability to perform latent (opaque) multi-hop reasoning robustly. And I think this should be (very) non-controversial; e.g. Mor Geva has many papers on this topic.",
+      "plaintextDescription": "I don't dispute that transformers can memorize shortcuts. I do dispute their ability to perform latent (opaque) multi-hop reasoning robustly. And I think this should be (very) non-controversial; e.g. Mor Geva has many papers on this topic."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-05T16:53:59.016Z",
+    "af": false
+  },
+  {
+    "_id": "6cuE7ipL8GwGHmh4m",
+    "postId": "fRSj2W4Fjje8rQWm9",
+    "parentCommentId": "aXtinkTrMcxiisLWv",
+    "topLevelCommentId": "FhqykebfcowJA8Jp2",
+    "contents": {
+      "markdown": "I'm pointing out that transformers seem really bad at internal multi-hop reasoning; currently they can't even do 2-hop robustly, 3-hop robustly seems kind of out of the question right now, and scaling doesn't seem to help much either (see e.g. Figures 2 and 3 in [Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?](https://arxiv.org/abs/2411.16679) and also how much more robust and scalable CoT reasoning is). So 'chain-of-thought but internalized to the model will take over' seems very unlikely with transformers, and much more so if basic mitigations like unlearning (e.g. of memorized facts about deceptive learning, as suggested in [https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm#Information\\_you\\_should\\_probably\\_remove\\_from\\_the_weights](https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm#Information_you_should_probably_remove_from_the_weights), to mitigate the possibility of latent scheming) were applied.\n\nSteganography is a separate threat model, but even there I'd interpret current evidence (e.g. [Preventing Language Models From Hiding Their Reasoning](https://arxiv.org/abs/2310.18512)) as mostly positive (as in, even relatively simple mitigations like paraphrasing seem to go very far).",
+      "plaintextDescription": "I'm pointing out that transformers seem really bad at internal multi-hop reasoning; currently they can't even do 2-hop robustly, 3-hop robustly seems kind of out of the question right now, and scaling doesn't seem to help much either (see e.g. Figures 2 and 3 in Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts? and also how much more robust and scalable CoT reasoning is). So 'chain-of-thought but internalized to the model will take over' seems very unlikely with transformers, and much more so if basic mitigations like unlearning (e.g. of memorized facts about deceptive learning, as suggested in https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm#Information_you_should_probably_remove_from_the_weights, to mitigate the possibility of latent scheming) were applied.\n\nSteganography is a separate threat model, but even there I'd interpret current evidence (e.g. Preventing Language Models From Hiding Their Reasoning) as mostly positive (as in, even relatively simple mitigations like paraphrasing seem to go very far)."
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-12-05T16:37:50.474Z",
+    "af": false
+  },
+  {
+    "_id": "GBs7h8hwyEZrjHmMn",
+    "postId": "fRSj2W4Fjje8rQWm9",
+    "parentCommentId": "CbrZdkQ9RDobndeZz",
+    "topLevelCommentId": "FhqykebfcowJA8Jp2",
+    "contents": {
+      "markdown": "> I do indeed predict that we will see chain-of-thought become less faithful as model capabilities increase, and that other ways of doing the same thing as chain-of-thought but internalized to the model will take over. \n\nThis prediction seems largely falsified as long as transformers remain the dominant architecture, and especially if we deliberately add optimization pressures towards externalized reasoning and against internal, latent reasoning; see e.g. [Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?](https://arxiv.org/abs/2411.16679) and [LLMs Do Not Think Step-by-step In Implicit Reasoning](https://arxiv.org/abs/2411.15862).",
+      "plaintextDescription": "> I do indeed predict that we will see chain-of-thought become less faithful as model capabilities increase, and that other ways of doing the same thing as chain-of-thought but internalized to the model will take over. \n\nThis prediction seems largely falsified as long as transformers remain the dominant architecture, and especially if we deliberately add optimization pressures towards externalized reasoning and against internal, latent reasoning; see e.g. Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts? and LLMs Do Not Think Step-by-step In Implicit Reasoning."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-05T10:08:13.806Z",
+    "af": false
+  },
+  {
+    "_id": "eCyJxqsTcZG4Ny4AK",
+    "postId": "adzfKEW98TswZEA6T",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for this post! \n\nThis looks much worse than I thought it would, both in terms of funding underdeployment, and in terms of overfocusing on evals.",
+      "plaintextDescription": "Thanks for this post! \n\nThis looks much worse than I thought it would, both in terms of funding underdeployment, and in terms of overfocusing on evals."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-03T11:22:30.668Z",
+    "af": false
+  },
+  {
+    "_id": "LHe9ePfrsYQiix7yb",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Claude Sonnet-3.5 New, commenting on the limited scalability of RNNs, when prompted with 'comment on what this would imply for the scalability of RNNs, refering (parts of) the post' and fed [https://epoch.ai/blog/data-movement-bottlenecks-scaling-past-1e28-flop](https://epoch.ai/blog/data-movement-bottlenecks-scaling-past-1e28-flop) (relevant to opaque reasoning, out-of-context reasoning, scheming):\n\n'Based on the article's discussion of data movement bottlenecks, RNNs (Recurrent Neural Networks) would likely face even more severe scaling challenges than Transformers for several reasons:\n\n1.  Sequential Nature: The article mentions pipeline parallelism and discusses how sequential dependencies affect scaling. From the text:\n\n> Pipeline parallelism: Different GPUs handle different sequential blocks, or layers, of a Transformer. The output of one GPU is fed to the next as an input sequentially until an input makes it through all of the blocks of the model.\n\nRNNs have even stronger sequential dependencies than Transformers, as each token's processing depends directly on the previous token's hidden state. This would make them much harder to parallelize effectively.\n\n1.  Latency Wall Impact: The article notes that:\n\n> The basic reason behind the latency wall is that a bigger model typically requires more gradient steps during training, and if these have to be done in a fixed time window, this means each gradient step must take a shorter time as we scale the models we're training.\n\nRNNs would hit this latency wall even harder because their sequential processing means they can't take advantage of some of the parallelization strategies discussed in the article, particularly tensor parallelism which requires:\n\n> after every one or two matrix multiplications (depending on the exact implementation) the GPUs need to synchronize results with each other.\n\n1.  Batch Size Scaling: The article suggests that one potential solution to scaling limits is:\n\n> If we can find a way to aggressively scale batch sizes together with model sizes, we can push out the latency wall.\n\nHowever, RNNs are typically trained with truncated backpropagation through time, which limits how much you can effectively increase the batch size without losing long-range dependencies. This would make it harder to apply this particular solution to RNNs.\n\nThis analysis suggests that while Transformers are approaching scaling limits around 2e28 FLOP, RNNs would likely hit prohibitive scaling bottlenecks at significantly lower compute levels due to their inherently sequential nature and limited parallelization options.'",
+      "plaintextDescription": "Claude Sonnet-3.5 New, commenting on the limited scalability of RNNs, when prompted with 'comment on what this would imply for the scalability of RNNs, refering (parts of) the post' and fed https://epoch.ai/blog/data-movement-bottlenecks-scaling-past-1e28-flop (relevant to opaque reasoning, out-of-context reasoning, scheming):\n\n'Based on the article's discussion of data movement bottlenecks, RNNs (Recurrent Neural Networks) would likely face even more severe scaling challenges than Transformers for several reasons:\n\n 1. Sequential Nature: The article mentions pipeline parallelism and discusses how sequential dependencies affect scaling. From the text:\n\n> Pipeline parallelism: Different GPUs handle different sequential blocks, or layers, of a Transformer. The output of one GPU is fed to the next as an input sequentially until an input makes it through all of the blocks of the model.\n\nRNNs have even stronger sequential dependencies than Transformers, as each token's processing depends directly on the previous token's hidden state. This would make them much harder to parallelize effectively.\n\n 1. Latency Wall Impact: The article notes that:\n\n> The basic reason behind the latency wall is that a bigger model typically requires more gradient steps during training, and if these have to be done in a fixed time window, this means each gradient step must take a shorter time as we scale the models we're training.\n\nRNNs would hit this latency wall even harder because their sequential processing means they can't take advantage of some of the parallelization strategies discussed in the article, particularly tensor parallelism which requires:\n\n> after every one or two matrix multiplications (depending on the exact implementation) the GPUs need to synchronize results with each other.\n\n 1. Batch Size Scaling: The article suggests that one potential solution to scaling limits is:\n\n> If we can find a way to aggressively scale batch sizes together with model sizes, we can push out the "
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-28T09:40:13.734Z",
+    "af": false
+  },
+  {
+    "_id": "AQELWXkmuHoWFs8o4",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "If this generalizes, OpenAI's [Orion](https://www.theverge.com/2024/10/24/24278999/openai-plans-orion-ai-model-release-december), rumored to be trained on synthetic data produced by O1, might see significant gains not just in STEM domains, but more broadly - from [O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?](https://arxiv.org/abs/2411.16489):\n\n'this study reveals how simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Through extensive experiments, we show that a base model fine-tuned on simply tens of thousands of samples O1-distilled long-thought chains outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Moreover, our investigation extends beyond mathematical reasoning to explore the generalization capabilities of O1-distilled models across diverse tasks: hallucination, safety and open-domain QA. Notably, despite training only on mathematical problem-solving data, our models demonstrated strong generalization to open-ended QA tasks and became significantly less susceptible to sycophancy after fine-tuning.'",
+      "plaintextDescription": "If this generalizes, OpenAI's Orion, rumored to be trained on synthetic data produced by O1, might see significant gains not just in STEM domains, but more broadly - from O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?:\n\n'this study reveals how simple distillation from O1's API, combined with supervised fine-tuning, can achieve superior performance on complex mathematical reasoning tasks. Through extensive experiments, we show that a base model fine-tuned on simply tens of thousands of samples O1-distilled long-thought chains outperforms O1-preview on the American Invitational Mathematics Examination (AIME) with minimal technical complexity. Moreover, our investigation extends beyond mathematical reasoning to explore the generalization capabilities of O1-distilled models across diverse tasks: hallucination, safety and open-domain QA. Notably, despite training only on mathematical problem-solving data, our models demonstrated strong generalization to open-ended QA tasks and became significantly less susceptible to sycophancy after fine-tuning.'"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-11-27T23:24:09.531Z",
+    "af": false
+  },
+  {
+    "_id": "A4BtkgsSTjSijjDk2",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "QwQ-32B-Preview was released [open-weights](https://huggingface.co/Qwen/QwQ-32B-Preview), seems comparable to o1-preview. Unless they're gaming the benchmarks, I find it both pretty impressive and quite shocking that a 32B model can achieve this level of performance. Seems like great news vs. opaque (e.g in one-forward-pass) reasoning. Less good with respect to proliferation (there don't seem to be any \\[deep\\] algorithmic secrets), misuse and short timelines.",
+      "plaintextDescription": "QwQ-32B-Preview was released open-weights, seems comparable to o1-preview. Unless they're gaming the benchmarks, I find it both pretty impressive and quite shocking that a 32B model can achieve this level of performance. Seems like great news vs. opaque (e.g in one-forward-pass) reasoning. Less good with respect to proliferation (there don't seem to be any [deep] algorithmic secrets), misuse and short timelines."
+    },
+    "baseScore": 15,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-11-27T21:34:15.872Z",
+    "af": false
+  },
+  {
+    "_id": "DiJ5jEub6e7uq5nPD",
+    "postId": "5sWNnbHRkExfLaS49",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The above numbers suggest that (as long as sample efficiency doesn’t significantly improve) the world will always have enough compute to produce at least 23 million token-equivalents per second from any model that the world can afford to train (end-to-end, chinchilla-style). Notably, these are many more token-equivalents per second than we currently have human-AI-researcher-seconds per second. (And the AIs would have the further advantage of having much faster serial speeds.)\n> \n> So once an AI system trained end-to-end can produce similarly much value per token as a human researcher can produce per second, AI research will be *more* than fully automated. This means that, when AI *first* contributes more to AI research than humans do, the average research progress produced by 1 token of output will be significantly less than an average human AI researcher produces in a second of thinking.\n\nThere's probably a very similarly-shaped argument to be made based on difference in cost per token: because LLMs are much cheaper per token, the *first* time an LLM is as cost-efficient at producing AI research as a human researcher, it should be using many more tokens in its outputs ('the average research progress produced by 1 token of output will be significantly less than an average human AI researcher produces in 1 token of output'). Which, similarly, should be helpful because 'the token-by-token output of a single AI system should be quite easy for humans to supervise and monitor for danger'.\n\nThis framing might be more relevant from the POV of economic incentives to automate AI research (and I'm particularly interested in the analogous incentives to/feasibility of automating AI safety research).",
+      "plaintextDescription": "> The above numbers suggest that (as long as sample efficiency doesn’t significantly improve) the world will always have enough compute to produce at least 23 million token-equivalents per second from any model that the world can afford to train (end-to-end, chinchilla-style). Notably, these are many more token-equivalents per second than we currently have human-AI-researcher-seconds per second. (And the AIs would have the further advantage of having much faster serial speeds.)\n> \n> So once an AI system trained end-to-end can produce similarly much value per token as a human researcher can produce per second, AI research will be more than fully automated. This means that, when AI first contributes more to AI research than humans do, the average research progress produced by 1 token of output will be significantly less than an average human AI researcher produces in a second of thinking.\n\nThere's probably a very similarly-shaped argument to be made based on difference in cost per token: because LLMs are much cheaper per token, the first time an LLM is as cost-efficient at producing AI research as a human researcher, it should be using many more tokens in its outputs ('the average research progress produced by 1 token of output will be significantly less than an average human AI researcher produces in 1 token of output'). Which, similarly, should be helpful because 'the token-by-token output of a single AI system should be quite easy for humans to supervise and monitor for danger'.\n\nThis framing might be more relevant from the POV of economic incentives to automate AI research (and I'm particularly interested in the analogous incentives to/feasibility of automating AI safety research)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-26T00:45:49.873Z",
+    "af": false
+  },
+  {
+    "_id": "D2Ejwh9M3hnz4h2f2",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": "DY8KsMPZx3gW2mT7x",
+    "topLevelCommentId": "6X5SQ4eisJ6Acch3w",
+    "contents": {
+      "markdown": "I'm very uncertain and feel somewhat out of depth on this. I do have quite some hope though from arguments like those in [https://aiprospects.substack.com/p/paretotopian-goal-alignment](https://aiprospects.substack.com/p/paretotopian-goal-alignment).",
+      "plaintextDescription": "I'm very uncertain and feel somewhat out of depth on this. I do have quite some hope though from arguments like those in https://aiprospects.substack.com/p/paretotopian-goal-alignment."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-24T17:25:35.797Z",
+    "af": false
+  },
+  {
+    "_id": "fzNEqbDtTsHMb6ghf",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "o3Ci57Ti54ehHLtXZ",
+    "topLevelCommentId": "jQqZrzSzZ8ywbFzoi",
+    "contents": {
+      "markdown": "(Also, what Thane Ruthenis commented below.)",
+      "plaintextDescription": "(Also, what Thane Ruthenis commented below.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-23T12:31:50.560Z",
+    "af": false
+  },
+  {
+    "_id": "o3Ci57Ti54ehHLtXZ",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "hdKwwyWFabqybcvEq",
+    "topLevelCommentId": "jQqZrzSzZ8ywbFzoi",
+    "contents": {
+      "markdown": "> I think the general impression of people on LW is that multipolar scenarios and concerns over [\"which monkey finds the radioactive banana and drags it home\"](https://www.lesswrong.com/posts/Y7gtFMi6TwFq5uFHe/some-biases-and-selection-effects-in-ai-risk-discourse?commentId=sxmFQrWJMunf7RgbM) are in large part a *driver* of AI racing instead of being a potential impediment/solution to it. Individuals, companies, and nation-states justifiably believe that whichever one of them accesses potentially superhuman AGI first will have the capacity to flip the gameboard at-will, obtain power over the entire rest of the Earth, and destabilize the currently-existing system. Standard game theory explains the final inferential step for how this leads to full-on racing (see the recent [U.S.-China Commission's report](https://www.lesswrong.com/posts/CJc5TWyg68idJ5iFr/u-s-china-economic-and-security-review-commission-pushes) for a representative example of how this plays out in practice).\n\nAt the risk of being overly spicy/unnuanced/uncharitable: I think quite a few MIRI \\[agent foundations\\] memes (\"which monkey finds the radioactive banana and drags it home\", ''automating safety is like having the AI do your homework'', etc.) seem very lazy/un-truth-tracking and probably net-negative at this point, and I kind of wish they'd just stop propagating them (Eliezer being probably the main culprit here).\n\nPerhaps even more spicily, I similarly think that the old MIRI threat model of Consequentialism is looking increasingly 'tired'/un-truth-tracking, and there should be more updating away from it (and more so with every single increase in capabilities without 'proportional' increases in 'Consequentialism'/egregious misalignment). \n\n(Especially) In a world where the first AGIs are not egregiously misaligned, it very likely matters enormously who builds the first AGIs and what they decide to do with them. While this probably creates incentives towards racing in some actors (probably especially the ones with the best chances to lead the race), I suspect better informing more actors (especially more of the non-leading ones, who might especially see themselves as more on the losing side in the case of AGI and potential destabilization) should also create incentives for (attempts at) more caution and coordination, which the leading actors might at least somewhat take into consideration, e.g. for reasons along the lines of [https://aiprospects.substack.com/p/paretotopian-goal-alignment](https://aiprospects.substack.com/p/paretotopian-goal-alignment). \n\n> I get that we'd like to all recognize this problem and coordinate globally on finding solutions, by [\"mak\\[ing\\] coordinated steps away from Nash equilibria in lockstep\"](https://www.lesswrong.com/posts/WQFioaudEH8R7fyhm/local-validity-as-a-key-to-sanity-and-civilization). But I would first need to see an *example*, a prototype, of how this can play out in practice on an important and highly salient issue. Stuff like the [Montreal Protocol](https://en.wikipedia.org/wiki/Montreal_Protocol) banning CFCs [doesn't count](https://www.lesswrong.com/posts/cvpSNy32rgNdqqQ9r/what-does-it-take-to-ban-a-thing?commentId=qE4qFKcmGLzzB4fwT) because the ban only happened once comparably profitable/efficient alternatives had already been designed; totally disanalogous to the spot we are in right now, where AGI will likely be [incredibly economically profitable](https://www.lesswrong.com/posts/Sn5NiiD5WBi4dLzaB/agi-will-drastically-increase-economies-of-scale), perhaps orders of magnitude more so than the second-best alternative.\n\nI'm not particularly optimistic about coordination, especially the more ambitious kinds of plans (e.g. 'shut it all down', long pauses like in 'A narrow path...', etc.), and that's to a large degree (combined with short timelines and personal fit) why I'm focused on automated safety reseach. I'm just saying: 'if you feel like coordination is the best plan you can come up with/you're most optimistic about, there are probably more legible and likely also more truth-tracking arguments than superintelligence misalignment and loss of control'. \n\n> This is in large part why Eliezer often used to challenge readers and community members to [ban](https://www.lesswrong.com/posts/Jo89KvfAs9z7owoZp/pivotal-act-intentions-negative-consequences-and-fallacious?commentId=K3bdLEtwxfgWEavhm) gain-of-function research, as a [trial run](https://www.lesswrong.com/posts/Jo89KvfAs9z7owoZp/pivotal-act-intentions-negative-consequences-and-fallacious?commentId=6GYqgt8dQZdBAG8KR) of sorts for how global coordination on pausing/slowing AI might go.\n\nThis seems quite reasonable; might be too late as a 'trial run' at this point though, if taken literally.",
+      "plaintextDescription": "> I think the general impression of people on LW is that multipolar scenarios and concerns over \"which monkey finds the radioactive banana and drags it home\" are in large part a driver of AI racing instead of being a potential impediment/solution to it. Individuals, companies, and nation-states justifiably believe that whichever one of them accesses potentially superhuman AGI first will have the capacity to flip the gameboard at-will, obtain power over the entire rest of the Earth, and destabilize the currently-existing system. Standard game theory explains the final inferential step for how this leads to full-on racing (see the recent U.S.-China Commission's report for a representative example of how this plays out in practice).\n\nAt the risk of being overly spicy/unnuanced/uncharitable: I think quite a few MIRI [agent foundations] memes (\"which monkey finds the radioactive banana and drags it home\", ''automating safety is like having the AI do your homework'', etc.) seem very lazy/un-truth-tracking and probably net-negative at this point, and I kind of wish they'd just stop propagating them (Eliezer being probably the main culprit here).\n\nPerhaps even more spicily, I similarly think that the old MIRI threat model of Consequentialism is looking increasingly 'tired'/un-truth-tracking, and there should be more updating away from it (and more so with every single increase in capabilities without 'proportional' increases in 'Consequentialism'/egregious misalignment). \n\n(Especially) In a world where the first AGIs are not egregiously misaligned, it very likely matters enormously who builds the first AGIs and what they decide to do with them. While this probably creates incentives towards racing in some actors (probably especially the ones with the best chances to lead the race), I suspect better informing more actors (especially more of the non-leading ones, who might especially see themselves as more on the losing side in the case of AGI and potential destabilization) s"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-23T11:43:40.206Z",
+    "af": false
+  },
+  {
+    "_id": "YNZWEKbnxwttg4vHe",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "PsWsXTmzGsBSqAyAn",
+    "topLevelCommentId": "jQqZrzSzZ8ywbFzoi",
+    "contents": {
+      "markdown": "I'm envisioning something like: scary powerful capabilities/demos/accidents leading to various/a coalition of other countries asking the US (and/or China) not to build any additional/larger data centers (and/or run any larger training runs), and, if they're scared enough, potentially even threatening various (escalatory) measures, including economic sanctions, blockading the supply of compute/prerequisites to compute, sabotage, direct military strikes on the data centers, etc.\n\nI'm far from an expert on the topic, but I suspect it might not be trivial to hide at least building a lot more new data centers/supplying a lot more compute, if a significant chunk of the rest of the world was watching very intently.\n\n> (Separately, whether or not it's \"truer\" depends a lot on one's models of AGI development. Most notably: (a) how likely is misalignment and (b) how slow will takeoff be//will it be very obvious to other nations that super advanced AI is about to be developed, and (c) how will governments and bureaucracies react and will they be able to react quickly enough.)\n\nI'm envisioning a very near-casted scenario, on very short (e.g. Daniel Kokotajlo-cluster) timelines, egregious misalignment quite unlikely but not impossible, slow-ish (couple of years) takeoff (by default, if no deliberate pause), pretty multipolar, but with more-obviously-close-to-scary capabilities, like ML R&D automation evals starting to fall.",
+      "plaintextDescription": "I'm envisioning something like: scary powerful capabilities/demos/accidents leading to various/a coalition of other countries asking the US (and/or China) not to build any additional/larger data centers (and/or run any larger training runs), and, if they're scared enough, potentially even threatening various (escalatory) measures, including economic sanctions, blockading the supply of compute/prerequisites to compute, sabotage, direct military strikes on the data centers, etc.\n\nI'm far from an expert on the topic, but I suspect it might not be trivial to hide at least building a lot more new data centers/supplying a lot more compute, if a significant chunk of the rest of the world was watching very intently.\n\n> (Separately, whether or not it's \"truer\" depends a lot on one's models of AGI development. Most notably: (a) how likely is misalignment and (b) how slow will takeoff be//will it be very obvious to other nations that super advanced AI is about to be developed, and (c) how will governments and bureaucracies react and will they be able to react quickly enough.)\n\nI'm envisioning a very near-casted scenario, on very short (e.g. Daniel Kokotajlo-cluster) timelines, egregious misalignment quite unlikely but not impossible, slow-ish (couple of years) takeoff (by default, if no deliberate pause), pretty multipolar, but with more-obviously-close-to-scary capabilities, like ML R&D automation evals starting to fall."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-22T19:13:47.476Z",
+    "af": false
+  },
+  {
+    "_id": "jQqZrzSzZ8ywbFzoi",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hot take, though increasingly moving towards lukewarm: if you want to get a pause/international coordination on powerful AI (which would probably be net good, though likely it would strongly depend on implementation details), arguments about risks from destabilization/power dynamics and potential conflicts between various actors are probably both more legible and 'truer' than arguments about technical intent misalignment and loss of control (especially for not-wildly-superhuman AI).",
+      "plaintextDescription": "Hot take, though increasingly moving towards lukewarm: if you want to get a pause/international coordination on powerful AI (which would probably be net good, though likely it would strongly depend on implementation details), arguments about risks from destabilization/power dynamics and potential conflicts between various actors are probably both more legible and 'truer' than arguments about technical intent misalignment and loss of control (especially for not-wildly-superhuman AI)."
+    },
+    "baseScore": 16,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2024-11-22T12:39:38.937Z",
+    "af": false
+  },
+  {
+    "_id": "RHesKyF7tuC2GfWHb",
+    "postId": "Tzdwetw55JNqFTkzK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here's a somewhat wild idea to have a 'canary in a coalmine' when it comes to steganography and non-human (linguistic) representations: monitor for very sharp drops in BrainScores (linear correlations between LM activations and brain measurements, on the same inputs) - e.g. like those calculated in [Scaling laws for language encoding models in fMRI](https://arxiv.org/abs/2305.11863). (Ideally using larger, more diverse, higher-resolution brain data.)",
+      "plaintextDescription": "Here's a somewhat wild idea to have a 'canary in a coalmine' when it comes to steganography and non-human (linguistic) representations: monitor for very sharp drops in BrainScores (linear correlations between LM activations and brain measurements, on the same inputs) - e.g. like those calculated in Scaling laws for language encoding models in fMRI. (Ideally using larger, more diverse, higher-resolution brain data.)\n\n "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-20T22:08:53.880Z",
+    "af": false
+  },
+  {
+    "_id": "t7xxoppxDyZH6ywfL",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": "rEqy4p5e483fufG2F",
+    "topLevelCommentId": "6X5SQ4eisJ6Acch3w",
+    "contents": {
+      "markdown": "Mostly the same, perhaps a minor positive update on the technical side (basically, from systems getting somewhat stronger - so e.g. closer to automating AI safety research - while still not showing very dangerous capabilities, like ASL-3, prerequisites to scheming, etc.). My views are even more uncertain / unstable on the governance side though, which probably makes my overall p(doom) (including e.g. stable totalitarianism, s-risks, etc.) more like 20% than 5% (I was probably mostly intuitively thinking of extinction risk only when giving the 5% figure a year ago; overall my median probably hasn't changed much, but I have more variance, coming from the governance side).",
+      "plaintextDescription": "Mostly the same, perhaps a minor positive update on the technical side (basically, from systems getting somewhat stronger - so e.g. closer to automating AI safety research - while still not showing very dangerous capabilities, like ASL-3, prerequisites to scheming, etc.). My views are even more uncertain / unstable on the governance side though, which probably makes my overall p(doom) (including e.g. stable totalitarianism, s-risks, etc.) more like 20% than 5% (I was probably mostly intuitively thinking of extinction risk only when giving the 5% figure a year ago; overall my median probably hasn't changed much, but I have more variance, coming from the governance side)."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-20T17:10:44.721Z",
+    "af": false
+  },
+  {
+    "_id": "MmxkkpDeq9AYyAaA9",
+    "postId": "Tzdwetw55JNqFTkzK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **Proposal part 3: Use Paraphraser:** One more complication. The outputs of the Shoggoth? Paraphrase them. For example, after each line of reasoning CoT is complete, pause the Shoggoth and have a different specialized paraphraser model generate 10 syntactically distinct but semantically equivalent ways of saying the same thing. Then pick one at random and replace the original line of reasoning with it. Then boot up the Shoggoth again and have it continue the CoT.\n\nAny thoughts on how much of a (computational) alignment tax this would impose? Related, thoughts on how big of a worry scheming/opaque cognitions in the paraphrasers would be? (e.g. one intuition here might be that the paraphrasers might be 'trusted' in control terminology - incapable of scheming because too weak; in this case the computational alignment tax might also be relatively low, if the paraphrasers are much smaller than the Face and the Shoggoth).",
+      "plaintextDescription": "> Proposal part 3: Use Paraphraser: One more complication. The outputs of the Shoggoth? Paraphrase them. For example, after each line of reasoning CoT is complete, pause the Shoggoth and have a different specialized paraphraser model generate 10 syntactically distinct but semantically equivalent ways of saying the same thing. Then pick one at random and replace the original line of reasoning with it. Then boot up the Shoggoth again and have it continue the CoT.\n\nAny thoughts on how much of a (computational) alignment tax this would impose? Related, thoughts on how big of a worry scheming/opaque cognitions in the paraphrasers would be? (e.g. one intuition here might be that the paraphrasers might be 'trusted' in control terminology - incapable of scheming because too weak; in this case the computational alignment tax might also be relatively low, if the paraphrasers are much smaller than the Face and the Shoggoth)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-20T11:44:31.377Z",
+    "af": false
+  },
+  {
+    "_id": "wowhXhAp3ThmEQkEy",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "winD7khHihXBJtoCF",
+    "topLevelCommentId": "winD7khHihXBJtoCF",
+    "contents": {
+      "markdown": "'China hawk and influential Trump AI advisor Jacob Helberg asserted to Reuters that “China is racing towards AGI,\" but I couldn't find any evidence in the report to support that claim.' [https://x.com/GarrisonLovely/status/1859022323799699474](https://x.com/GarrisonLovely/status/1859022323799699474)",
+      "plaintextDescription": "'China hawk and influential Trump AI advisor Jacob Helberg asserted to Reuters that “China is racing towards AGI,\" but I couldn't find any evidence in the report to support that claim.' https://x.com/GarrisonLovely/status/1859022323799699474 "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-20T10:01:42.625Z",
+    "af": false
+  },
+  {
+    "_id": "LLPMhHMYCvtrTXezA",
+    "postId": "Tzdwetw55JNqFTkzK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "AFAICT, there seems to quite heavy overlap between the proposal and Daniel's motivation for it and safety case (sketch) #3 in [https://alignment.anthropic.com/2024/safety-cases/](https://alignment.anthropic.com/2024/safety-cases/).",
+      "plaintextDescription": "AFAICT, there seems to quite heavy overlap between the proposal and Daniel's motivation for it and safety case (sketch) #3 in https://alignment.anthropic.com/2024/safety-cases/. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-20T09:47:01.824Z",
+    "af": false
+  },
+  {
+    "_id": "fyCKtvLkDCgJEpgqC",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "winD7khHihXBJtoCF",
+    "topLevelCommentId": "winD7khHihXBJtoCF",
+    "contents": {
+      "markdown": "'The report doesn't go into specifics but the idea seems to be to build / commandeer the computing resources to scale to AGI, which could include compelling the private labs to contribute talent and techniques.\n\nDX rating is the highest priority DoD procurement standard. It lets DoD compel companies, set their own price, skip the line, and do basically anything else they need to acquire the good in question.' [https://x.com/hamandcheese/status/1858902373969564047](https://x.com/hamandcheese/status/1858902373969564047)",
+      "plaintextDescription": "'The report doesn't go into specifics but the idea seems to be to build / commandeer the computing resources to scale to AGI, which could include compelling the private labs to contribute talent and techniques.\n\nDX rating is the highest priority DoD procurement standard. It lets DoD compel companies, set their own price, skip the line, and do basically anything else they need to acquire the good in question.' https://x.com/hamandcheese/status/1858902373969564047 "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-19T22:07:18.876Z",
+    "af": false
+  },
+  {
+    "_id": "9qSjinyoDSNqibpLy",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "winD7khHihXBJtoCF",
+    "topLevelCommentId": "winD7khHihXBJtoCF",
+    "contents": {
+      "markdown": "(screenshot in post from PDF page 39 of [https://www.uscc.gov/sites/default/files/2024-11/2024\\_Annual\\_Report\\_to\\_Congress.pdf](https://www.uscc.gov/sites/default/files/2024-11/2024_Annual_Report_to_Congress.pdf))",
+      "plaintextDescription": "(screenshot in post from PDF page 39 of https://www.uscc.gov/sites/default/files/2024-11/2024_Annual_Report_to_Congress.pdf)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-19T17:43:56.981Z",
+    "af": false
+  },
+  {
+    "_id": "winD7khHihXBJtoCF",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "'🚨 The annual report of the US-China Economic and Security Review Commission is now live. 🚨\n\nIts top recommendation is for Congress and the DoD to fund a Manhattan Project-like program to race to AGI.\n\nBuckle up...' \n\n[https://x.com/hamandcheese/status/1858897287268725080](https://x.com/hamandcheese/status/1858897287268725080)",
+      "plaintextDescription": "'🚨 The annual report of the US-China Economic and Security Review Commission is now live. 🚨\n\nIts top recommendation is for Congress and the DoD to fund a Manhattan Project-like program to race to AGI.\n\nBuckle up...' \n\nhttps://x.com/hamandcheese/status/1858897287268725080"
+    },
+    "baseScore": 32,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2024-11-19T17:36:24.722Z",
+    "af": false
+  },
+  {
+    "_id": "Rs4DfhjY2snEYHymB",
+    "postId": "i2nmBfCXnadeGmhzW",
+    "parentCommentId": "nprpoATbwCWZvECcR",
+    "topLevelCommentId": "Zmh3gEP2zgKQjarBs",
+    "contents": {
+      "markdown": "> And the space of interventions will likely also include using/manipulating model internals, e.g. [https://transluce.org/observability-interface](https://transluce.org/observability-interface), especially since (some kinds of) automated interpretability seem cheap and scalable, e.g. [https://transluce.org/neuron-descriptions](https://transluce.org/neuron-descriptions) estimated a cost of < 5 cents / labeled neuron. LM agents have also previously been shown able to do interpretability experiments and propose hypotheses: [https://multimodal-interpretability.csail.mit.edu/maia/](https://multimodal-interpretability.csail.mit.edu/maia/), and this could likely be integrated with the above. The auto-interp explanations also seem roughly human-level in the references above.\n\nAs well as (along with in-context mechanisms like prompting) potentially model internals mechanisms to modulate how much the model uses in-context vs. in-weights knowledge, like in e.g. [Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models](https://arxiv.org/abs/2402.18154). This might also work well with potential future advances in unlearning, e.g. of various facts, as discussed in [The case for unlearning that removes information from LLM weights](https://www.lesswrong.com/posts/9AbYkAy8s9LvB7dT5/the-case-for-unlearning-that-removes-information-from-llm).",
+      "plaintextDescription": "> And the space of interventions will likely also include using/manipulating model internals, e.g. https://transluce.org/observability-interface, especially since (some kinds of) automated interpretability seem cheap and scalable, e.g. https://transluce.org/neuron-descriptions estimated a cost of < 5 cents / labeled neuron. LM agents have also previously been shown able to do interpretability experiments and propose hypotheses: https://multimodal-interpretability.csail.mit.edu/maia/, and this could likely be integrated with the above. The auto-interp explanations also seem roughly human-level in the references above.\n\nAs well as (along with in-context mechanisms like prompting) potentially model internals mechanisms to modulate how much the model uses in-context vs. in-weights knowledge, like in e.g. Cutting Off the Head Ends the Conflict: A Mechanism for Interpreting and Mitigating Knowledge Conflicts in Language Models. This might also work well with potential future advances in unlearning, e.g. of various facts, as discussed in The case for unlearning that removes information from LLM weights.   "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-19T15:43:02.526Z",
+    "af": false
+  },
+  {
+    "_id": "vkQavEaLQsC8ZAZ7u",
+    "postId": "roE7SHjFWEoMcGZKd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Any thoughts on potential connections with [task arithmetic](https://arxiv.org/abs/2212.04089)? (later edit: in addition to footnote 2)",
+      "plaintextDescription": "Any thoughts on potential connections with task arithmetic? (later edit: in addition to footnote 2)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-17T17:53:24.929Z",
+    "af": false
+  },
+  {
+    "_id": "KkR8icRA3DBdiiwFG",
+    "postId": "puv8fRDCH9jx5yhbX",
+    "parentCommentId": "K8MJET4rfAC5F47Mp",
+    "topLevelCommentId": "K8MJET4rfAC5F47Mp",
+    "contents": {
+      "markdown": "Would the prediction also apply to inference scaling (laws) - and maybe more broadly various forms of scaling post-training, or only to pretraining scaling?",
+      "plaintextDescription": "Would the prediction also apply to inference scaling (laws) - and maybe more broadly various forms of scaling post-training, or only to pretraining scaling?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-16T14:23:01.625Z",
+    "af": false
+  },
+  {
+    "_id": "BYeDi98wM9jkcf2wC",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Epistemic status: at least somewhat rant-mode.\n\nI find it pretty ironic that many in AI risk mitigation would make asks for if-then committments/RSPs from the top AI capabilities labs, but they won't make the same asks for AI safety orgs/funders. E.g.: if you're an AI safety funder, what kind of evidence ('if') will make you accelerate how much funding you deploy per year ('then')?",
+      "plaintextDescription": "Epistemic status: at least somewhat rant-mode.\n\nI find it pretty ironic that many in AI risk mitigation would make asks for if-then committments/RSPs from the top AI capabilities labs, but they won't make the same asks for AI safety orgs/funders. E.g.: if you're an AI safety funder, what kind of evidence ('if') will make you accelerate how much funding you deploy per year ('then')?"
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-11-14T10:56:39.375Z",
+    "af": false
+  },
+  {
+    "_id": "JLMeaSYaSX2ZXzFcu",
+    "postId": "Nwgdq6kHke5LY692J",
+    "parentCommentId": "8CngPZyjr5XydW4sC",
+    "topLevelCommentId": "8CngPZyjr5XydW4sC",
+    "contents": {
+      "markdown": "A few additional relevant recent papers: [Sparse Autoencoders Reveal Universal Feature Spaces Across Large Language Models](https://arxiv.org/abs/2410.06981), [Towards Universality: Studying Mechanistic Similarity Across Language Model Architectures](https://arxiv.org/abs/2410.06672).\n\nSimilarly, the argument in this post and e.g. in [Robust agents learn causal world models](https://arxiv.org/abs/2402.10877) seem to me to suggest that we should probably also expect something like universal (approximate) circuits, which it might be feasible to automate the discovery of using perhaps a similar procedure to the one demo-ed in [Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models](https://arxiv.org/abs/2403.19647).\n\nLater edit: And I expect unsupervised clustering/learning could help in a similar fashion to the argument in the parent comment (applied to features), when applied to the feature circuits(/graphs).",
+      "plaintextDescription": "A few additional relevant recent papers: Sparse Autoencoders Reveal Universal Feature Spaces Across Large Language Models, Towards Universality: Studying Mechanistic Similarity Across Language Model Architectures.\n\nSimilarly, the argument in this post and e.g. in Robust agents learn causal world models seem to me to suggest that we should probably also expect something like universal (approximate) circuits, which it might be feasible to automate the discovery of using perhaps a similar procedure to the one demo-ed in Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models.\n\nLater edit: And I expect unsupervised clustering/learning could help in a similar fashion to the argument in the parent comment (applied to features), when applied to the feature circuits(/graphs)."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-13T16:44:32.656Z",
+    "af": false
+  },
+  {
+    "_id": "tjF8E5fwFDuZSaiKq",
+    "postId": "BEFbC8sLkur7DGCYB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> So, to the extent that the chain-of-thought helps produce a better answer in the end, we can conclude that this is \"basically\" improved due to the actual semantic reasoning which the chain-of-thought apparently implements. \n\nI like the intuition behind this argument, which I don't remember seeing spelled out anywhere else before.\n\nI wonder how much hope one should derive from the fact that, intuitively, RL seems like it should be relatively slow at building new capabilities from scratch / significantly changing model internals, so there might be some way to buy some safety from also monitoring internals (both for dangerous capabilities already existant after pretraining, and for potentially new ones \\[slowly\\] built through RL fine-tuning). Related passage with an at least somewhat similar intuition, from [https://www.lesswrong.com/posts/FbSAuJfCxizZGpcHc/interpreting-the-learning-of-deceit#How\\_to\\_Catch\\_an\\_LLM\\_in\\_the\\_Act\\_of\\_Repurposing\\_Deceitful_Behaviors](https://www.lesswrong.com/posts/FbSAuJfCxizZGpcHc/interpreting-the-learning-of-deceit#How_to_Catch_an_LLM_in_the_Act_of_Repurposing_Deceitful_Behaviors) (the post also discusses how one might go about monitoring for dangerous capabilities already existant after pretraining):\n\n> If you are concerned about the possibility the model might occasionally instead reinvent deceit from scratch, rather than reusing the copy already available (which would have to be by chance rather than design, since it can't be deceitful before acquiring deceit), then the obvious approach would be to attempt to devise a second Interpretablity (or other) process to watch for that during training, and use it alongside the one outlined here. Fortunately that reinvention is going to be a slower process, since it has to do more work, and it should at first be imperfect, so it ought to be easier to catch in the act before the model gets really good at deceit.",
+      "plaintextDescription": "> So, to the extent that the chain-of-thought helps produce a better answer in the end, we can conclude that this is \"basically\" improved due to the actual semantic reasoning which the chain-of-thought apparently implements. \n\nI like the intuition behind this argument, which I don't remember seeing spelled out anywhere else before.\n\nI wonder how much hope one should derive from the fact that, intuitively, RL seems like it should be relatively slow at building new capabilities from scratch / significantly changing model internals, so there might be some way to buy some safety from also monitoring internals (both for dangerous capabilities already existant after pretraining, and for potentially new ones [slowly] built through RL fine-tuning). Related passage with an at least somewhat similar intuition, from https://www.lesswrong.com/posts/FbSAuJfCxizZGpcHc/interpreting-the-learning-of-deceit#How_to_Catch_an_LLM_in_the_Act_of_Repurposing_Deceitful_Behaviors (the post also discusses how one might go about monitoring for dangerous capabilities already existant after pretraining):\n\n> If you are concerned about the possibility the model might occasionally instead reinvent deceit from scratch, rather than reusing the copy already available (which would have to be by chance rather than design, since it can't be deceitful before acquiring deceit), then the obvious approach would be to attempt to devise a second Interpretablity (or other) process to watch for that during training, and use it alongside the one outlined here. Fortunately that reinvention is going to be a slower process, since it has to do more work, and it should at first be imperfect, so it ought to be easier to catch in the act before the model gets really good at deceit. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-13T00:34:39.221Z",
+    "af": false
+  },
+  {
+    "_id": "pPtpsT4SeuJYy8exY",
+    "postId": "BEFbC8sLkur7DGCYB",
+    "parentCommentId": "w2o8CRARyymzwFRpZ",
+    "topLevelCommentId": "QzCgoydWHcAS4WRd2",
+    "contents": {
+      "markdown": "> Anyhow I totally agree on the urgency, tractability, and importance of faithful CoT research. I think that if we can do enough of that research fast enough, we'll be able to 'hold the line' at stage 2 for some time, possibly long enough to reach AGI.\n\nDo you have thoughts on how much it helps that autointerp seems to now be roughly human-level on some metrics and can be applied cheaply (e.g. [https://transluce.org/neuron-descriptions](https://transluce.org/neuron-descriptions)), so perhaps we might have another 'defensive line' even past stage 2 (e.g. in the case of [https://transluce.org/neuron-descriptions](https://transluce.org/neuron-descriptions), corresponding to the level of 'granularity' of autointerp applied to the activations of all the MLP neurons inside an LLM)?\n\nLater edit: Depending on research progress (especially w.r.t. cost effectiveness), other levels of 'granularity' might also become available (fully automated) soon for monitoring, e.g. sparse (SAE) feature circuits (of various dangerous/undesirable capabilities), as demo-ed in [Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models](https://arxiv.org/abs/2403.19647).",
+      "plaintextDescription": "> Anyhow I totally agree on the urgency, tractability, and importance of faithful CoT research. I think that if we can do enough of that research fast enough, we'll be able to 'hold the line' at stage 2 for some time, possibly long enough to reach AGI.\n\nDo you have thoughts on how much it helps that autointerp seems to now be roughly human-level on some metrics and can be applied cheaply (e.g. https://transluce.org/neuron-descriptions), so perhaps we might have another 'defensive line' even past stage 2 (e.g. in the case of https://transluce.org/neuron-descriptions, corresponding to the level of 'granularity' of autointerp applied to the activations of all the MLP neurons inside an LLM)?\n\nLater edit: Depending on research progress (especially w.r.t. cost effectiveness), other levels of 'granularity' might also become available (fully automated) soon for monitoring, e.g. sparse (SAE) feature circuits (of various dangerous/undesirable capabilities), as demo-ed in Sparse Feature Circuits: Discovering and Editing Interpretable Causal Graphs in Language Models. "
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-11-13T00:07:58.650Z",
+    "af": false
+  },
+  {
+    "_id": "u2ymEiTQa9vvi4Mdr",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "News about an apparent shift in focus to inference scaling laws at the top labs: [https://www.reuters.com/technology/artificial-intelligence/openai-rivals-seek-new-path-smarter-ai-current-methods-hit-limitations-2024-11-11/](https://www.reuters.com/technology/artificial-intelligence/openai-rivals-seek-new-path-smarter-ai-current-methods-hit-limitations-2024-11-11/)",
+      "plaintextDescription": "News about an apparent shift in focus to inference scaling laws at the top labs: https://www.reuters.com/technology/artificial-intelligence/openai-rivals-seek-new-path-smarter-ai-current-methods-hit-limitations-2024-11-11/ "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-12T23:33:41.948Z",
+    "af": false
+  },
+  {
+    "_id": "u2LvYN7pguDGNSzyh",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "wjKFDR6ukfLdahYZz",
+    "topLevelCommentId": "wjKFDR6ukfLdahYZz",
+    "contents": {
+      "markdown": "> *   **Power Concentration Risk**\n>     *   This involves AI systems giving already-powerful actors dramatically more power over others\n>     *   Examples could include:\n>         *   Government leaders using AI to stage a [self-coup](https://en.wikipedia.org/wiki/Self-coup) then install a permanent totalitarian regime, using AI to maintain a regime with currently impossible levels of surveillance.\n>         *   AI company CEOs using advanced AI systems to become world dictator.\n>     *   The key risk here is particular already-powerful people getting potentially unassailable advantages\n\nMaybe somewhat of a tangent, but I think this might be a much more legible/better reason to ask for international coordination, then the more speculative-seeming (and sometimes, honestly, wildly overconfident IMO) arguments about the x-risks coming from the difficulty of (technically) aligning superintelligence.",
+      "plaintextDescription": ">  * Power Concentration Risk\n>    * This involves AI systems giving already-powerful actors dramatically more power over others\n>    * Examples could include:\n>      * Government leaders using AI to stage a self-coup then install a permanent totalitarian regime, using AI to maintain a regime with currently impossible levels of surveillance.\n>      * AI company CEOs using advanced AI systems to become world dictator.\n>    * The key risk here is particular already-powerful people getting potentially unassailable advantages\n\nMaybe somewhat of a tangent, but I think this might be a much more legible/better reason to ask for international coordination, then the more speculative-seeming (and sometimes, honestly, wildly overconfident IMO) arguments about the x-risks coming from the difficulty of (technically) aligning superintelligence."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-12T13:52:15.737Z",
+    "af": false
+  },
+  {
+    "_id": "Jv5SjTed4f8qCJczc",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Sam Altman says AGI is coming in 2025 (and he is also expecting a child next year) [https://x.com/tsarnick/status/1854988648745517297](https://x.com/tsarnick/status/1854988648745517297)",
+      "plaintextDescription": "Sam Altman says AGI is coming in 2025 (and he is also expecting a child next year) https://x.com/tsarnick/status/1854988648745517297 "
+    },
+    "baseScore": 0,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-11-08T21:32:52.642Z",
+    "af": false
+  },
+  {
+    "_id": "ATGoGBYPfZ7QqoLDd",
+    "postId": "Zr37dY5YPRT6s56jY",
+    "parentCommentId": "Ky6LfyyZcvBo2nJN9",
+    "topLevelCommentId": "Ky6LfyyZcvBo2nJN9",
+    "contents": {
+      "markdown": "Something like a safety case for automated safety research (but I'm biased)",
+      "plaintextDescription": "Something like a safety case for automated safety research (but I'm biased)"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-08T12:29:39.448Z",
+    "af": false
+  },
+  {
+    "_id": "FrDmLSig6FHRLbHMg",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Summary threads of two recent papers which seem like significant evidence in favor of the [Simulators](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) view of LLMs (especially after just pretraining): [https://x.com/aryaman2020/status/1852027909709382065](https://x.com/aryaman2020/status/1852027909709382065) [https://x.com/DimitrisPapail/status/1844463075442950229](https://x.com/DimitrisPapail/status/1844463075442950229)",
+      "plaintextDescription": "Summary threads of two recent papers which seem like significant evidence in favor of the Simulators view of LLMs (especially after just pretraining): https://x.com/aryaman2020/status/1852027909709382065 https://x.com/DimitrisPapail/status/1844463075442950229 "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-05T22:16:08.298Z",
+    "af": false
+  },
+  {
+    "_id": "RJgHw7xfBAE8WXDNQ",
+    "postId": "vYWDEtJ2b8tkbG7Rv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I think the portfolio of safety effort should include some BRT, but the returns to effort are such that other AI control techniques should have three times as much effort put into them.\n\nWould this factor (and maybe even the conclusions of the whole post) change with (roughly) human-level automated (including multi-turn) red-teaming, as e.g. claimed here: [https://blog.haizelabs.com/posts/cascade/](https://blog.haizelabs.com/posts/cascade/)?",
+      "plaintextDescription": "> I think the portfolio of safety effort should include some BRT, but the returns to effort are such that other AI control techniques should have three times as much effort put into them.\n\nWould this factor (and maybe even the conclusions of the whole post) change with (roughly) human-level automated (including multi-turn) red-teaming, as e.g. claimed here: https://blog.haizelabs.com/posts/cascade/?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-04T20:32:36.381Z",
+    "af": false
+  },
+  {
+    "_id": "Wn8CcvFxemGTuEx5p",
+    "postId": "iCfdcxiyr2Kj8m8mT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here's a potentially relevant reference, though I've only skimmed - [Encoding innate ability through a genomic bottleneck](https://www.pnas.org/doi/10.1073/pnas.2409160121):\n\n> **Significance**  \n> Our manuscript formulates and provides a solution to a central problem in computing with neural circuits: How can a complex neural circuit, with trillions of individual connections, arise from a comparatively simple genome? What makes this problem challenging is the largely overlooked fact that these circuits, at or soon after birth and with minimal learning, are able to specify a tremendously rich repertoire of innate behaviors. The fact that animals are endowed with such sophisticated and diverse innate behaviors is obvious to anyone who has seen a spider spin a web. We formulate the question in terms of artificial networks, which allows us a rigorous and quantitative framework for assessing our ideas.  \n> **Abstract**  \n> Animals are born with extensive innate behavioral capabilities, which arise from neural circuits encoded in the genome. However, the information capacity of the genome is orders of magnitude smaller than that needed to specify the connectivity of an arbitrary brain circuit, indicating that the rules encoding circuit formation must fit through a “genomic bottleneck” as they pass from one generation to the next. Here, we formulate the problem of innate behavioral capacity in the context of artificial neural networks in terms of lossy compression of the weight matrix. We find that several standard network architectures can be compressed by several orders of magnitude, yielding pretraining performance that can approach that of the fully trained network. Interestingly, for complex but not for simple test problems, the genomic bottleneck algorithm also captures essential features of the circuit, leading to enhanced transfer learning to novel tasks and datasets. Our results suggest that compressing a neural circuit through the genomic bottleneck serves as a regularizer, enabling evolution to select simple circuits that can be readily adapted to important real-world tasks. The genomic bottleneck also suggests how innate priors can complement conventional approaches to learning in designing algorithms for AI.",
+      "plaintextDescription": "Here's a potentially relevant reference, though I've only skimmed - Encoding innate ability through a genomic bottleneck:\n\n> Significance\n> Our manuscript formulates and provides a solution to a central problem in computing with neural circuits: How can a complex neural circuit, with trillions of individual connections, arise from a comparatively simple genome? What makes this problem challenging is the largely overlooked fact that these circuits, at or soon after birth and with minimal learning, are able to specify a tremendously rich repertoire of innate behaviors. The fact that animals are endowed with such sophisticated and diverse innate behaviors is obvious to anyone who has seen a spider spin a web. We formulate the question in terms of artificial networks, which allows us a rigorous and quantitative framework for assessing our ideas.\n> Abstract\n> Animals are born with extensive innate behavioral capabilities, which arise from neural circuits encoded in the genome. However, the information capacity of the genome is orders of magnitude smaller than that needed to specify the connectivity of an arbitrary brain circuit, indicating that the rules encoding circuit formation must fit through a “genomic bottleneck” as they pass from one generation to the next. Here, we formulate the problem of innate behavioral capacity in the context of artificial neural networks in terms of lossy compression of the weight matrix. We find that several standard network architectures can be compressed by several orders of magnitude, yielding pretraining performance that can approach that of the fully trained network. Interestingly, for complex but not for simple test problems, the genomic bottleneck algorithm also captures essential features of the circuit, leading to enhanced transfer learning to novel tasks and datasets. Our results suggest that compressing a neural circuit through the genomic bottleneck serves as a regularizer, enabling evolution to select simple circuits that can"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-04T19:38:10.216Z",
+    "af": false
+  },
+  {
+    "_id": "83EPLAcyKoQGmnmzK",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Claim of roughly human-level automated multi-turn red-teaming: [https://blog.haizelabs.com/posts/cascade/](https://blog.haizelabs.com/posts/cascade/)",
+      "plaintextDescription": "Claim of roughly human-level automated multi-turn red-teaming: https://blog.haizelabs.com/posts/cascade/ "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-04T19:17:03.626Z",
+    "af": false
+  },
+  {
+    "_id": "h4nBszt5BiDYRipw3",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "KyKER7ApeBKwCLCxk",
+    "topLevelCommentId": "KyKER7ApeBKwCLCxk",
+    "contents": {
+      "markdown": "> It is pretty plausible to me that AI control is quite easy, because you actually can remove affordances from the AIs that are doing AI R&D such that it’s hard for them to cause problems.\n\nHere's one (somewhat handwavy) reason for optimism w.r.t. automated AI safety research: most safety research has probably come from outside the big labs (see e.g. [https://www.beren.io/2023-11-05-Open-source-AI-has-been-vital-for-alignment/](https://www.beren.io/2023-11-05-Open-source-AI-has-been-vital-for-alignment/)) and thus has likely mostly used significantly sub-SOTA models. It seems quite plausible then that we could have the vast majority of (controlled) automated AI safety research done on much smaller and less dangerous (e.g. trusted) models only, without this leading to intolerably-large losses in productivity; and perhaps have humans only/strongly in the loop when applying the results of that research to SOTA, potentially untrusted, models.",
+      "plaintextDescription": "> It is pretty plausible to me that AI control is quite easy, because you actually can remove affordances from the AIs that are doing AI R&D such that it’s hard for them to cause problems.\n\nHere's one (somewhat handwavy) reason for optimism w.r.t. automated AI safety research: most safety research has probably come from outside the big labs (see e.g. https://www.beren.io/2023-11-05-Open-source-AI-has-been-vital-for-alignment/) and thus has likely mostly used significantly sub-SOTA models. It seems quite plausible then that we could have the vast majority of (controlled) automated AI safety research done on much smaller and less dangerous (e.g. trusted) models only, without this leading to intolerably-large losses in productivity; and perhaps have humans only/strongly in the loop when applying the results of that research to SOTA, potentially untrusted, models.\n "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-04T14:40:32.404Z",
+    "af": false
+  },
+  {
+    "_id": "dkwAetsCcrKPunPi5",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "from [https://jack-clark.net/2024/08/18/import-ai-383-automated-ai-scientists-cyborg-jellyfish-what-it-takes-to-run-a-cluster/…](https://t.co/FBRGygT2yQ), commenting on [https://arxiv.org/abs/2408.06292](https://t.co/DkaClzhqJ3): 'Why this matters – the taste of automated science: This paper gives us a taste of a future where powerful AI systems propose their own ideas, use tools to do scientific experiments, and generate results. At this stage, what we have here is basically a ‘toy example’ with papers of dubious quality and insights of dubious import. But you know where we were with language models five years ago? We had things that could barely write a paragraph. Now they can do this. I predict that by the summer of 2026 we will have seen at least one genuinely interesting research paper that was soup-to-nuts generated via a tool-using generative AI system.'",
+      "plaintextDescription": "from https://jack-clark.net/2024/08/18/import-ai-383-automated-ai-scientists-cyborg-jellyfish-what-it-takes-to-run-a-cluster/…, commenting on https://arxiv.org/abs/2408.06292: 'Why this matters – the taste of automated science: This paper gives us a taste of a future where powerful AI systems propose their own ideas, use tools to do scientific experiments, and generate results. At this stage, what we have here is basically a ‘toy example’ with papers of dubious quality and insights of dubious import. But you know where we were with language models five years ago? We had things that could barely write a paragraph. Now they can do this. I predict that by the summer of 2026 we will have seen at least one genuinely interesting research paper that was soup-to-nuts generated via a tool-using generative AI system.'"
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-11-03T22:31:38.651Z",
+    "af": false
+  },
+  {
+    "_id": "iwpgMZkHqehwuiDzi",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "A8muL55dYxR3tv5wp",
+    "topLevelCommentId": "A8muL55dYxR3tv5wp",
+    "contents": {
+      "markdown": "Potentially also relevant - [Contrastive Preference Learning: Learning from Human Feedback without RL](https://arxiv.org/abs/2310.13639), [TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space](https://arxiv.org/abs/2402.17811), [Bridging Associative Memory and Probabilistic Modeling](https://arxiv.org/abs/2402.10202).",
+      "plaintextDescription": "Potentially also relevant - Contrastive Preference Learning: Learning from Human Feedback without RL, TruthX: Alleviating Hallucinations by Editing Large Language Models in Truthful Space, Bridging Associative Memory and Probabilistic Modeling."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-03T20:51:27.362Z",
+    "af": false
+  },
+  {
+    "_id": "sCzqzDaEochsyWtDW",
+    "postId": "HQyWGE2BummDCc2Cx",
+    "parentCommentId": "AYBufPdzc5KSzNaR2",
+    "topLevelCommentId": "SajqaKcoRiznqq3gy",
+    "contents": {
+      "markdown": "> And I could see [some kind of safety case framework](https://www.lesswrong.com/posts/wr2SxQuRvcXeDBbNZ/bogdan-ionut-cirstea-s-shortform#D2xJ86rncZF4H4XAH) where, as we gain confidence in the control/alignment of the amplified system and as the capabilities of the systems increase, we move towards increasingly automating the safety research applied to the (increasingly 'interior' parts of the) core system. \n\nE.g. I would interpret the results from [https://transluce.org/neuron-descriptions](https://transluce.org/neuron-descriptions) as showing that we can now get 3-minute-human-level automated interpretability on all the MLP neurons of a LLM ('core system'), for about 5 cents / neuron (using sub-ASL-3 models and very unlikely to be scheming because bad at prerequisites).",
+      "plaintextDescription": "> And I could see some kind of safety case framework where, as we gain confidence in the control/alignment of the amplified system and as the capabilities of the systems increase, we move towards increasingly automating the safety research applied to the (increasingly 'interior' parts of the) core system. \n\nE.g. I would interpret the results from https://transluce.org/neuron-descriptions as showing that we can now get 3-minute-human-level automated interpretability on all the MLP neurons of a LLM ('core system'), for about 5 cents / neuron (using sub-ASL-3 models and very unlikely to be scheming because bad at prerequisites)."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-03T14:57:49.751Z",
+    "af": false
+  },
+  {
+    "_id": "Jnp6sEgFzph9BjGya",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "AbshmHoX2pnn4dGFg",
+    "topLevelCommentId": "MjbxemZfnxerZ45Nv",
+    "contents": {
+      "markdown": "under the assumptions [here](https://x.com/EpochAIResearch/status/1852790991909945700) (including Chinchilla scaling laws), depth wouldn't increase by more than about 3x before the utilization rate starts dropping (because depth would increase with exponent about 1/6 of the total increase in FLOP); which seems like great news for the legibility of CoT outputs and similar and vs. opaque reasoning in models: [https://lesswrong.com/posts/HmQGHGCnvmpCNDBjc/current-ais-provide-nearly-no-data-relevant-to-agi-alignment#mcA57W6YK6a2TGaE2](https://t.co/B2i2fDElVJ)",
+      "plaintextDescription": "under the assumptions here (including Chinchilla scaling laws), depth wouldn't increase by more than about 3x before the utilization rate starts dropping (because depth would increase with exponent about 1/6 of the total increase in FLOP); which seems like great news for the legibility of CoT outputs and similar and vs. opaque reasoning in models: https://lesswrong.com/posts/HmQGHGCnvmpCNDBjc/current-ais-provide-nearly-no-data-relevant-to-agi-alignment#mcA57W6YK6a2TGaE2"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-03T13:55:41.414Z",
+    "af": false
+  },
+  {
+    "_id": "AbshmHoX2pnn4dGFg",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "MjbxemZfnxerZ45Nv",
+    "topLevelCommentId": "MjbxemZfnxerZ45Nv",
+    "contents": {
+      "markdown": "Speculatively, this might also differentially incentivize (research on generalized) inference scaling, with various potential strategic implications, including for AI safety (current inference scaling methods tend to be tied to CoT and the like, which are quite transparent) and for [regulatory frameworks/proliferation of dangerous capabilities](https://www.lesswrong.com/posts/wr2SxQuRvcXeDBbNZ/bogdan-ionut-cirstea-s-shortform?commentId=rSDHH4emZsATe6ckF).",
+      "plaintextDescription": "Speculatively, this might also differentially incentivize (research on generalized) inference scaling, with various potential strategic implications, including for AI safety (current inference scaling methods tend to be tied to CoT and the like, which are quite transparent) and for regulatory frameworks/proliferation of dangerous capabilities."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-02T23:48:43.567Z",
+    "af": false
+  },
+  {
+    "_id": "TSx4Ga4bbvMGcdy6m",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "XrhxmeKjEnBCNjdi2",
+    "topLevelCommentId": "A8muL55dYxR3tv5wp",
+    "contents": {
+      "markdown": "fragment of chat with claude on [All or None: Identifiable Linear Properties of Next-token Predictors in Language Modeling](https://arxiv.org/abs/2410.23501) and [Shared computational principles for language processing in humans and deep language models](https://www.nature.com/articles/s41593-022-01026-4) (my prompt first):  \n  \n'in 'all or none...' they mention 'the general form of next-token predictors used in our analysis.'; if we assume that the language network (in biological brains) is indeed a next-token predictor (as e.g. the next-word prediction results in 'shared principles...' suggest), shouldn't this suggest that the linear properties should then also apply to biological brains, not just LLMs?  \n  \nThis is a very insightful observation! Let's analyze this:\n\nThe key logical chain would be:\n\n1\\. The \"All or None\" paper's results apply to next-token predictors of the form:  \n```  \np(xt+1|x1:t) = exp(f(x1:t)ᵀg(xt+1))/Z(x1:t)  \n```  \nwhere f maps sequences to embeddings and g maps tokens to unembeddings\n\n2\\. The \"Shared Computational Principles\" paper provides evidence that the human brain:  \n\\- Engages in next-word prediction before word onset  \n\\- Uses context to predict next tokens  \n\\- Shows surprise signals consistent with prediction error  \n\\- Represents words in ways that can be mapped to vector spaces\n\n3\\. If the brain's language network is implementing a next-token predictor of this general form, then theoretically:  \n\\- The same mathematical framework should apply  \n\\- The same identifiability results should hold  \n\\- The same \"all or none\" properties of linear features should be present\n\nHowever, there are some important considerations:\n\n1\\. Implementation Level:  \n\\- While the brain might implement this type of predictor at a computational level, the neural implementation could add constraints or properties not captured by the mathematical framework  \n\\- The brain might use a more complex or different form of next-token prediction\n\n2\\. Verification Challenges:  \n\\- It's harder to verify if the brain's implementation exactly matches this mathematical form  \n\\- We can't directly observe all components like f and g in biological systems\n\n3\\. Scale/Scope:  \n\\- The brain might implement multiple prediction systems operating at different scales  \n\\- The mathematical framework might apply to some but not all aspects of neural language processing\n\nSo while your reasoning seems sound - if the brain implements this type of next-token predictor, the mathematical results should apply - verifying this empirically would be challenging. It's a fascinating theoretical bridge between the mathematical analysis and biological implementation.'",
+      "plaintextDescription": "fragment of chat with claude on All or None: Identifiable Linear Properties of Next-token Predictors in Language Modeling and Shared computational principles for language processing in humans and deep language models (my prompt first):\n\n'in 'all or none...' they mention 'the general form of next-token predictors used in our analysis.'; if we assume that the language network (in biological brains) is indeed a next-token predictor (as e.g. the next-word prediction results in 'shared principles...' suggest), shouldn't this suggest that the linear properties should then also apply to biological brains, not just LLMs?\n\nThis is a very insightful observation! Let's analyze this:\n\nThe key logical chain would be:\n\n1. The \"All or None\" paper's results apply to next-token predictors of the form:\n```\np(xt+1|x1:t) = exp(f(x1:t)ᵀg(xt+1))/Z(x1:t)\n```\nwhere f maps sequences to embeddings and g maps tokens to unembeddings\n\n2. The \"Shared Computational Principles\" paper provides evidence that the human brain:\n- Engages in next-word prediction before word onset\n- Uses context to predict next tokens\n- Shows surprise signals consistent with prediction error\n- Represents words in ways that can be mapped to vector spaces\n\n3. If the brain's language network is implementing a next-token predictor of this general form, then theoretically:\n- The same mathematical framework should apply\n- The same identifiability results should hold\n- The same \"all or none\" properties of linear features should be present\n\nHowever, there are some important considerations:\n\n1. Implementation Level:\n- While the brain might implement this type of predictor at a computational level, the neural implementation could add constraints or properties not captured by the mathematical framework\n- The brain might use a more complex or different form of next-token prediction\n\n2. Verification Challenges:\n- It's harder to verify if the brain's implementation exactly matches this mathematical form\n- We can't directly observe all"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-02T21:31:38.800Z",
+    "af": false
+  },
+  {
+    "_id": "MjbxemZfnxerZ45Nv",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "'Data movement bottlenecks limit LLM scaling beyond 2e28 FLOP, with a \"latency wall\" at 2e31 FLOP. We may hit these in ~3 years. Aggressive batch size scaling could potentially overcome these limits.' [https://epochai.org/blog/data-movement-bottlenecks-scaling-past-1e28-flop](https://epochai.org/blog/data-movement-bottlenecks-scaling-past-1e28-flop)",
+      "plaintextDescription": "'Data movement bottlenecks limit LLM scaling beyond 2e28 FLOP, with a \"latency wall\" at 2e31 FLOP. We may hit these in ~3 years. Aggressive batch size scaling could potentially overcome these limits.' https://epochai.org/blog/data-movement-bottlenecks-scaling-past-1e28-flop "
+    },
+    "baseScore": 14,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-11-02T19:32:27.602Z",
+    "af": false
+  },
+  {
+    "_id": "XrhxmeKjEnBCNjdi2",
+    "postId": "wr2SxQuRvcXeDBbNZ",
+    "parentCommentId": "A8muL55dYxR3tv5wp",
+    "topLevelCommentId": "A8muL55dYxR3tv5wp",
+    "contents": {
+      "markdown": "Some related cool-seeming recent results: [All or None: Identifiable Linear Properties of Next-token Predictors in Language Modeling](https://arxiv.org/abs/2410.23501), [Cross-Entropy Is All You Need To Invert the Data Generating Process](https://arxiv.org/abs/2410.21869).",
+      "plaintextDescription": "Some related cool-seeming recent results: All or None: Identifiable Linear Properties of Next-token Predictors in Language Modeling, Cross-Entropy Is All You Need To Invert the Data Generating Process.\n "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-02T19:10:15.920Z",
+    "af": false
+  },
+  {
+    "_id": "HPfSQL5zTJgzfnBeK",
+    "postId": "muFZZongsPGrCsCsm",
+    "parentCommentId": "ruiYDZCK8ZLFTWFDA",
+    "topLevelCommentId": "bYygNaW9WC6BRMXDu",
+    "contents": {
+      "markdown": "> Now suppose SFF & LTFF's budget suddenly & magically scaled up 10x. Would this dramatically change the state of the field? I think so!\n\nI do think so, especially if they also increased/decentralized more their grantmaking capacity, and perhaps increased the field-building capacity earlier in the pipeline (e.g. AGISF, ML4G, etc., though I expect those programs to mostly be doing differentially quite well and not to be the main bottlenecks).",
+      "plaintextDescription": "> Now suppose SFF & LTFF's budget suddenly & magically scaled up 10x. Would this dramatically change the state of the field? I think so!\n\nI do think so, especially if they also increased/decentralized more their grantmaking capacity, and perhaps increased the field-building capacity earlier in the pipeline (e.g. AGISF, ML4G, etc., though I expect those programs to mostly be doing differentially quite well and not to be the main bottlenecks)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-02T18:42:22.219Z",
+    "af": false
+  },
+  {
+    "_id": "Xra7AfaDxEc8d3efc",
+    "postId": "muFZZongsPGrCsCsm",
+    "parentCommentId": "zy6xrP7nifBgAdoCH",
+    "topLevelCommentId": "bYygNaW9WC6BRMXDu",
+    "contents": {
+      "markdown": "No, I mean that EA + AI safety funders probably would have a lot of money earmarked for AI risk mitigation, but they don't seem able/willing to deploy it fast enough (according to my timelines, at least, but probably also according to many of theirs).\n\nGovernments mostly just don't seem on the ball almost at all w.r.t. AI, even despite the recent progress (e.g. the AI safety summits, establishment of AISIs, etc.).",
+      "plaintextDescription": "No, I mean that EA + AI safety funders probably would have a lot of money earmarked for AI risk mitigation, but they don't seem able/willing to deploy it fast enough (according to my timelines, at least, but probably also according to many of theirs).\n\nGovernments mostly just don't seem on the ball almost at all w.r.t. AI, even despite the recent progress (e.g. the AI safety summits, establishment of AISIs, etc.)."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-02T18:39:00.688Z",
+    "af": false
+  },
+  {
+    "_id": "6KDAffSp2kS7GzKG8",
+    "postId": "muFZZongsPGrCsCsm",
+    "parentCommentId": "xddB2hzMRHLP7zWbP",
+    "topLevelCommentId": "bYygNaW9WC6BRMXDu",
+    "contents": {
+      "markdown": "> So why not that funding model? Mostly a money thing.\n\n*seems like mostly a funding deployment issue, probably due to some structural problems, AFAICT, without having any great inside info (within the traditional AI safety funding space; the rest of the world seems much less on the ball than the traiditional AI safety funding space).",
+      "plaintextDescription": "> So why not that funding model? Mostly a money thing.\n\n*seems like mostly a funding deployment issue, probably due to some structural problems, AFAICT, without having any great inside info (within the traditional AI safety funding space; the rest of the world seems much less on the ball than the traiditional AI safety funding space)."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-02T16:55:56.647Z",
+    "af": false
+  },
+  {
+    "_id": "b9iJ4a4fGhvzih8Mu",
+    "postId": "puv8fRDCH9jx5yhbX",
+    "parentCommentId": "ydDm6JD7f6DbhNuT4",
+    "topLevelCommentId": "59i3WtgWyYcQeqJAe",
+    "contents": {
+      "markdown": "> how recent reports of [OpenAI’s o1 being deceptive](https://www.vox.com/future-perfect/371827/openai-chatgpt-artificial-intelligence-ai-risk-strawberry) have [been questioned](https://www.lesswrong.com/posts/zuaaqjsN6BucbGhf5/gpt-o1?commentId=YRF9mcTFN2Zhne8Le). \n\nThis seems to be confusing a dangerous capability eval (of being able to 'deceive' in a visible scratchpad) with an assessment of alignment, which seems like *exactly* what the 'questioning' was about.",
+      "plaintextDescription": "> how recent reports of OpenAI’s o1 being deceptive have been questioned. \n\nThis seems to be confusing a dangerous capability eval (of being able to 'deceive' in a visible scratchpad) with an assessment of alignment, which seems like exactly what the 'questioning' was about."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-02T09:08:49.659Z",
+    "af": false
+  },
+  {
+    "_id": "nprpoATbwCWZvECcR",
+    "postId": "i2nmBfCXnadeGmhzW",
+    "parentCommentId": "GuTrJi7CYKtJQw4eB",
+    "topLevelCommentId": "Zmh3gEP2zgKQjarBs",
+    "contents": {
+      "markdown": "> This kind of possibility forces AI systems to push back bad behavior into cases where they are more and more confident that it's never going to be noticed. But the space of interventions we get to try, if we subject this issue to rigorous scientific scrutiny, includes significantly modifying the AI's training data and limiting information about the world. So \"super confident that humans will never notice\" is a very high bar.\n\nAnd the space of interventions will likely also include using/manipulating model internals, e.g. [https://transluce.org/observability-interface](https://transluce.org/observability-interface), especially since (some kinds of) automated interpretability seem cheap and scalable, e.g. [https://transluce.org/neuron-descriptions](https://transluce.org/neuron-descriptions) estimated a cost of < 5 cents / labeled neuron. LM agents have also previously been shown able to do interpretability experiments and propose hypotheses: [https://multimodal-interpretability.csail.mit.edu/maia/](https://multimodal-interpretability.csail.mit.edu/maia/), and this could likely be integrated with the above. The auto-interp explanations also seem roughly human-level in the references above. \n\nLater edit: maybe also relevant - claim of roughly human-level automated multi-turn red-teaming: [https://blog.haizelabs.com/posts/cascade/](https://blog.haizelabs.com/posts/cascade/). Also a demo of integrating mech interp with red-teaming: [https://blog.haizelabs.com/posts/steering/](https://blog.haizelabs.com/posts/steering/).",
+      "plaintextDescription": "> This kind of possibility forces AI systems to push back bad behavior into cases where they are more and more confident that it's never going to be noticed. But the space of interventions we get to try, if we subject this issue to rigorous scientific scrutiny, includes significantly modifying the AI's training data and limiting information about the world. So \"super confident that humans will never notice\" is a very high bar.\n\nAnd the space of interventions will likely also include using/manipulating model internals, e.g. https://transluce.org/observability-interface, especially since (some kinds of) automated interpretability seem cheap and scalable, e.g. https://transluce.org/neuron-descriptions estimated a cost of < 5 cents / labeled neuron. LM agents have also previously been shown able to do interpretability experiments and propose hypotheses: https://multimodal-interpretability.csail.mit.edu/maia/, and this could likely be integrated with the above. The auto-interp explanations also seem roughly human-level in the references above. \n\nLater edit: maybe also relevant - claim of roughly human-level automated multi-turn red-teaming: https://blog.haizelabs.com/posts/cascade/. Also a demo of integrating mech interp with red-teaming: https://blog.haizelabs.com/posts/steering/. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-26T10:41:49.383Z",
+    "af": false
+  },
+  {
+    "_id": "prxdMM2LeEkZzKZkR",
+    "postId": "LmhpAyCn8Xpqfwvhb",
+    "parentCommentId": "iWhtxJ3XBwmMYaCxo",
+    "topLevelCommentId": "TY3pb4WTLj57ZtH8A",
+    "contents": {
+      "markdown": "Indirectly, because 90 papers seems like a tiny number, vs. what got published on arxiv during that same time interval. (Depending on how one counts) I wouldn't be surprised if there were > 90 papers from outside the labs even looking only at the unlearning category.",
+      "plaintextDescription": "Indirectly, because 90 papers seems like a tiny number, vs. what got published on arxiv during that same time interval. (Depending on how one counts) I wouldn't be surprised if there were > 90 papers from outside the labs even looking only at the unlearning category."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-10-24T21:28:33.995Z",
+    "af": false
+  },
+  {
+    "_id": "TY3pb4WTLj57ZtH8A",
+    "postId": "LmhpAyCn8Xpqfwvhb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "My main takeaway would be that this seems like quite strong evidence towards the view expressed in [https://www.beren.io/2023-11-05-Open-source-AI-has-been-vital-for-alignment/](https://www.beren.io/2023-11-05-Open-source-AI-has-been-vital-for-alignment/), that most safety research doesn't come from the top labs.",
+      "plaintextDescription": "My main takeaway would be that this seems like quite strong evidence towards the view expressed in https://www.beren.io/2023-11-05-Open-source-AI-has-been-vital-for-alignment/, that most safety research doesn't come from the top labs."
+    },
+    "baseScore": 7,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-10-24T20:54:43.852Z",
+    "af": false
+  },
+  {
+    "_id": "prrKj375EfgSZycMH",
+    "postId": "tDkYdyJSqe3DddtK4",
+    "parentCommentId": "QCuitF3kTXmgaeR2j",
+    "topLevelCommentId": "QCuitF3kTXmgaeR2j",
+    "contents": {
+      "markdown": "For similar arguments, I think it's gonna be very hard/unlikely to stop China from having AGI within a couple of years of the US (and most relevant AI chips currently being produced in Taiwan should probably further increase the probability of this). So taking on a lot more x-risk to try and race hard vs. China doesn't seem like a good strategy from this POV.",
+      "plaintextDescription": "For similar arguments, I think it's gonna be very hard/unlikely to stop China from having AGI within a couple of years of the US (and most relevant AI chips currently being produced in Taiwan should probably further increase the probability of this). So taking on a lot more x-risk to try and race hard vs. China doesn't seem like a good strategy from this POV."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-23T14:23:01.119Z",
+    "af": false
+  },
+  {
+    "_id": "fAQQfwmE3XM2rQgFM",
+    "postId": "tDkYdyJSqe3DddtK4",
+    "parentCommentId": "QCuitF3kTXmgaeR2j",
+    "topLevelCommentId": "QCuitF3kTXmgaeR2j",
+    "contents": {
+      "markdown": "> Whatever innovations smaller companies make can be easily stolen by tech giants. \n\nAnd they / their basic components are probably also published by academia, though the precise hyperparameters, etc. might still matter and be non-trivial/costly to find.",
+      "plaintextDescription": "> Whatever innovations smaller companies make can be easily stolen by tech giants. \n\nAnd they / their basic components are probably also published by academia, though the precise hyperparameters, etc. might still matter and be non-trivial/costly to find."
+    },
+    "baseScore": 12,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-10-23T13:52:26.907Z",
+    "af": false
+  }
+]

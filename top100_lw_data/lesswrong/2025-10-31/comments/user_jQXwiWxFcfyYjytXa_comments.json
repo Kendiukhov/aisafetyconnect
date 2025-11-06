@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "yQvJJFMyu8hufdALc",
+    "postId": "aAe9YGJEFDmwT35jq",
+    "parentCommentId": "ZSHEH8oXXpgWseGho",
+    "topLevelCommentId": "Ww3EJxRCmxKQ6668z",
+    "contents": {
+      "markdown": "> If you go around an EA conference saying, \"I don't think it's worthwhile to work on AI safety research, because most of the research groups I've seen haven't put out useful work,\" every attendee will find a reason you should work on it anyway, and probably switch fields to try to join one of those research groups.\n\nThis sounds false to me. Have you tried it?",
+      "plaintextDescription": "> If you go around an EA conference saying, \"I don't think it's worthwhile to work on AI safety research, because most of the research groups I've seen haven't put out useful work,\" every attendee will find a reason you should work on it anyway, and probably switch fields to try to join one of those research groups.\n\nThis sounds false to me. Have you tried it? "
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-08T01:48:50.945Z",
+    "af": false
+  },
+  {
+    "_id": "roSC8cAL2SpmjderK",
+    "postId": "GvMakH65LS86RFn5x",
+    "parentCommentId": "LBxDvCuqDwWWcALxG",
+    "topLevelCommentId": "LBxDvCuqDwWWcALxG",
+    "contents": {
+      "markdown": "Thanks very much! Yeah, I agree political will seems like a big issue. But I also hear people saying that they don't know what to push for, so I wanted to try to offer a concrete example of a system that wasn't as destructive to any constituency's interests as e.g. a total pause.",
+      "plaintextDescription": "Thanks very much! Yeah, I agree political will seems like a big issue. But I also hear people saying that they don't know what to push for, so I wanted to try to offer a concrete example of a system that wasn't as destructive to any constituency's interests as e.g. a total pause."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-15T03:49:02.688Z",
+    "af": false
+  },
+  {
+    "_id": "BX9QN9RsnE4xzv9ti",
+    "postId": "GvMakH65LS86RFn5x",
+    "parentCommentId": "3djSkWLdowJcrQJeh",
+    "topLevelCommentId": "3djSkWLdowJcrQJeh",
+    "contents": {
+      "markdown": "Thanks very much for your feedback, though I confess I'm not entirely sure where to go with it. My interpretation is you have basically two concerns:\n\n1.  This policy doesn't really directly regulate algorithmic progress, e.g. if it happened on smaller amounts of compute.\n2.  Algorithmic theft/leakage is easy.\n\nThe first one is true, as I alluded in the problems section. Part of my perspective here is coming from a place of skepticism about regulatory competence - I basically believe we can get regulators to control total compute usage, and to evaluate specific models according to pre-established evals, but I'm not sure I'd trust them to be able to determine \"this is a new algorithmic advance, we need to evaluate it\". To the extent you had less libertarian priors you could try to use something like the above scheme for algorithms as well, but I wouldn't expect it to work so well, as you lack the cardinal structure of compute size.\n\nIn terms of theft/leakage, you're right this plan doesn't discuss it much, and I agree it's worth working on.",
+      "plaintextDescription": "Thanks very much for your feedback, though I confess I'm not entirely sure where to go with it. My interpretation is you have basically two concerns:\n\n 1. This policy doesn't really directly regulate algorithmic progress, e.g. if it happened on smaller amounts of compute.\n 2. Algorithmic theft/leakage is easy.\n\nThe first one is true, as I alluded in the problems section. Part of my perspective here is coming from a place of skepticism about regulatory competence - I basically believe we can get regulators to control total compute usage, and to evaluate specific models according to pre-established evals, but I'm not sure I'd trust them to be able to determine \"this is a new algorithmic advance, we need to evaluate it\". To the extent you had less libertarian priors you could try to use something like the above scheme for algorithms as well, but I wouldn't expect it to work so well, as you lack the cardinal structure of compute size.\n\nIn terms of theft/leakage, you're right this plan doesn't discuss it much, and I agree it's worth working on. "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-01-12T02:15:32.504Z",
+    "af": false
+  },
+  {
+    "_id": "FPgfHycbfTkj2yedp",
+    "postId": "HvdapABSMFW3rLdSP",
+    "parentCommentId": "t7eRoyCsDa6NMs3XL",
+    "topLevelCommentId": "t7eRoyCsDa6NMs3XL",
+    "contents": {
+      "markdown": "You probably should have said 'yes' when asked if it was AI-written.",
+      "plaintextDescription": "You probably should have said 'yes' when asked if it was AI-written."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-14T18:34:32.561Z",
+    "af": false
+  },
+  {
+    "_id": "GCTunwScSn4fv7mAF",
+    "postId": "C7kcNqmdWrZGqSmBJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This started happening in Hawaii, and to a lesser extent in Arizona. The resolution, apart from reducing net metering subsidies, has been to increased the fixed component of the bill (which pays for the grid connection) and reduce the variable component. My impression is this has been a reasonably effective solution, assuming people don't want to cut their connection entirely.",
+      "plaintextDescription": "This started happening in Hawaii, and to a lesser extent in Arizona. The resolution, apart from reducing net metering subsidies, has been to increased the fixed component of the bill (which pays for the grid connection) and reduce the variable component. My impression is this has been a reasonably effective solution, assuming people don't want to cut their connection entirely."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-05T19:54:23.605Z",
+    "af": false
+  },
+  {
+    "_id": "ZcMZoNBKs9MbwCMvx",
+    "postId": "d4YjM6RWEoT3rBEHe",
+    "parentCommentId": "GxAozriy783FfWYFq",
+    "topLevelCommentId": "SrTzvYJ2GiFWp6jTz",
+    "contents": {
+      "markdown": "> I agree with you that basically anything in the stock market has much less counterparty risk than that. I disagree with basically all non-trading examples you give. \n\nIt's not just the stock market, it's true for the bond market, the derivatives market, the commodities market... financial markets, a category which includes prediction markets, cannot function effectively with counterparty risk anything like 5%. \n\n> My sense is around 1/20 Ubers don't show up, or if they show up, fail to do their job in some pretty obvious and clear way. \n\nIf the Uber doesn't show up I'm not sure that's counterparty risk: you haven't paid anything, so it seems more like them declining the contract. The equivalent for a prediction market would be if you hit 'buy' and the button didn't work, not for when you have paid the money and then don't get the result taken from you. That's much less bad than if the trade went through and then was settled incorrectly.\n\n> I think that's false, at least the statistics on wage theft seemed quite substantial to me. I am kind of confused how to interpret these, but various different studies [on Wikipedia](https://en.wikipedia.org/wiki/Wage_theft) suggest wage theft on-average to be around 5%-15% (higher among lower-income workers).\n\nI think those studies have significant methodological flaws, though unfortunately I can't remember the specific issues off the top off my head, so this may not be very convincing to you.\n\n> I agree this is true for gas and water (and mostly true for electricity, though PG&E is terrible and Berkeley really has a lot of outages). \n\nAccording to [the first google hit](https://www.pge.com/en/about/pge-systems/electric-systems/electric-reliability-reports.html), PG&E said the average customer suffered 255.9 minutes of outage in 2013, which is a lot higher than I expected, but is still only 100\\*255.9/(60\\*24*365) = 0.05%",
+      "plaintextDescription": "> I agree with you that basically anything in the stock market has much less counterparty risk than that. I disagree with basically all non-trading examples you give. \n\nIt's not just the stock market, it's true for the bond market, the derivatives market, the commodities market... financial markets, a category which includes prediction markets, cannot function effectively with counterparty risk anything like 5%. \n\n> My sense is around 1/20 Ubers don't show up, or if they show up, fail to do their job in some pretty obvious and clear way. \n\nIf the Uber doesn't show up I'm not sure that's counterparty risk: you haven't paid anything, so it seems more like them declining the contract. The equivalent for a prediction market would be if you hit 'buy' and the button didn't work, not for when you have paid the money and then don't get the result taken from you. That's much less bad than if the trade went through and then was settled incorrectly.\n\n> I think that's false, at least the statistics on wage theft seemed quite substantial to me. I am kind of confused how to interpret these, but various different studies on Wikipedia suggest wage theft on-average to be around 5%-15% (higher among lower-income workers).\n\nI think those studies have significant methodological flaws, though unfortunately I can't remember the specific issues off the top off my head, so this may not be very convincing to you.\n\n> I agree this is true for gas and water (and mostly true for electricity, though PG&E is terrible and Berkeley really has a lot of outages). \n\nAccording to the first google hit, PG&E said the average customer suffered 255.9 minutes of outage in 2013, which is a lot higher than I expected, but is still only 100*255.9/(60*24*365) = 0.05%"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-08-07T20:30:04.085Z",
+    "af": false
+  },
+  {
+    "_id": "pQQAACWxTNTzSRAbA",
+    "postId": "d4YjM6RWEoT3rBEHe",
+    "parentCommentId": "W24zdZZijN32Rgngw",
+    "topLevelCommentId": "SrTzvYJ2GiFWp6jTz",
+    "contents": {
+      "markdown": "> In most domains except the most hardened part of the stock market counterparty risk is generally >5%.\n\nThis seems quite wrong to me:\n\n*   High Yield Corporate Bond OAS spreads are <5% according to bloomberg, and most of that is economic risk, not \"you will get screwed by a change of rules\" risk.\n*   Trades on US stock exchanges almost always succeed, many more 9s than just one.\n*   If I buy a product in a box in a supermarket the contents of the box match the label >>95% of the time.\n*   Banks make errors with depositor balances <<5% of the time.\n*   Most employers manage to pay fortnightly wages on time without missing one or more paycheques per year.\n*   Once you're seated in an Uber or Taxi they take you to your destination almost all the time.\n*   Your utility company fulfills its obligations to supply your house >>95% of the time under all but the most extreme circumstances. \n*   Most employees turn up >95% of non-holiday days, and most students maintain >95% attendance.",
+      "plaintextDescription": "> In most domains except the most hardened part of the stock market counterparty risk is generally >5%.\n\nThis seems quite wrong to me:\n\n * High Yield Corporate Bond OAS spreads are <5% according to bloomberg, and most of that is economic risk, not \"you will get screwed by a change of rules\" risk.\n * Trades on US stock exchanges almost always succeed, many more 9s than just one.\n * If I buy a product in a box in a supermarket the contents of the box match the label >>95% of the time.\n * Banks make errors with depositor balances <<5% of the time.\n * Most employers manage to pay fortnightly wages on time without missing one or more paycheques per year.\n * Once you're seated in an Uber or Taxi they take you to your destination almost all the time.\n * Your utility company fulfills its obligations to supply your house >>95% of the time under all but the most extreme circumstances. \n * Most employees turn up >95% of non-holiday days, and most students maintain >95% attendance."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-08-01T04:21:08.661Z",
+    "af": false
+  },
+  {
+    "_id": "rHZqidAPxhfCenMyG",
+    "postId": "SHq7wKA8iMqG5QfjC",
+    "parentCommentId": "DWapfmFwrz4kasrKp",
+    "topLevelCommentId": "Thn4DgxvtLbAFbmxg",
+    "contents": {
+      "markdown": "A bit dated but have you read [Robin's 2007 paper](http://robinhanson.com/biashelp.pdf) on the subject?\n\n> Prediction markets are low volume speculative markets whose prices offer informative forecasts on particular policy topics. Observers worry that traders may attempt to mislead decision makers by manipulating prices. We adapt a Kyle-style market microstructure model to this case, adding a manipulator with an additional quadratic preference regarding the price. In this model, when other traders are uncertain about the manipulator’s target price, the mean target price has no effect on prices, and increases in the variance of the target price can increase average price accuracy, by increasing the returns to informed trading and thereby incentives for traders to become informed.",
+      "plaintextDescription": "A bit dated but have you read Robin's 2007 paper on the subject?\n\n> Prediction markets are low volume speculative markets whose prices offer informative forecasts on particular policy topics. Observers worry that traders may attempt to mislead decision makers by manipulating prices. We adapt a Kyle-style market microstructure model to this case, adding a manipulator with an additional quadratic preference regarding the price. In this model, when other traders are uncertain about the manipulator’s target price, the mean target price has no effect on prices, and increases in the variance of the target price can increase average price accuracy, by increasing the returns to informed trading and thereby incentives for traders to become informed."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-19T15:30:55.301Z",
+    "af": false
+  },
+  {
+    "_id": "ZSrBaahFYJ4Cn5DCD",
+    "postId": "yRqzRmEC3aqcajKjy",
+    "parentCommentId": "6HFBiukbwiYwo5Pg3",
+    "topLevelCommentId": "6HFBiukbwiYwo5Pg3",
+    "contents": {
+      "markdown": "Yes, sorry for being unclear. I meant to suggest that this argument implied 'accelerate agents and decelerate planners' could be the desirable piece of differential progress.",
+      "plaintextDescription": "Yes, sorry for being unclear. I meant to suggest that this argument implied 'accelerate agents and decelerate planners' could be the desirable piece of differential progress."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-16T02:58:00.821Z",
+    "af": false
+  },
+  {
+    "_id": "v5JkbJpWoEezJ8mrj",
+    "postId": "uFNgRumrDTpBfQGrs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post seems like it was quite influential. This is basically a trivial review to allow the post to be voted on.",
+      "plaintextDescription": "This post seems like it was quite influential. This is basically a trivial review to allow the post to be voted on."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-01-17T18:33:30.860Z",
+    "af": true
+  },
+  {
+    "_id": "ijNPuAHeHftsmx5J7",
+    "postId": "2vNHiaTb4rcA8PgXQ",
+    "parentCommentId": "Kn4NsJCgaGokjDEpq",
+    "topLevelCommentId": "9Sphyvo9vHzmupwKj",
+    "contents": {
+      "markdown": "*L'Ésswrong, c'est moi.*",
+      "plaintextDescription": "L'Ésswrong, c'est moi."
+    },
+    "baseScore": 11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-12-22T03:07:17.373Z",
+    "af": false
+  },
+  {
+    "_id": "d8jnqqedBuMW64xwD",
+    "postId": "q4MXBzzrE6bnDHJbM",
+    "parentCommentId": "5tesRuPEzoqsfNFBR",
+    "topLevelCommentId": "g4HzbdvBioEp5Tmzs",
+    "contents": {
+      "markdown": "I agree in general, but think the force of this is weaker in this specific instance because NonLinear seems like a really small org. Most of the issues raised seem to be associated with in-person work and I would be surprised if NonLinear ever went above 10 in-person employees. So at most this seems like one order of magnitude in difference. Clearly the case is different for major corporations or orgs that directly interact with many more people.",
+      "plaintextDescription": "I agree in general, but think the force of this is weaker in this specific instance because NonLinear seems like a really small org. Most of the issues raised seem to be associated with in-person work and I would be surprised if NonLinear ever went above 10 in-person employees. So at most this seems like one order of magnitude in difference. Clearly the case is different for major corporations or orgs that directly interact with many more people. "
+    },
+    "baseScore": 12,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-12-17T21:07:57.014Z",
+    "af": false
+  },
+  {
+    "_id": "DFfKPzHwyWXBDy5no",
+    "postId": "q4MXBzzrE6bnDHJbM",
+    "parentCommentId": "usyAwXpgQpeEG8BG2",
+    "topLevelCommentId": "g4HzbdvBioEp5Tmzs",
+    "contents": {
+      "markdown": "> I think there will be some degree to which clearly demonstrating that false accusations were made will ripple out into the social graph naturally (even with the anonymization), and will have consequences. I also think there are some ways to privately reach out to some smaller subset of people who might have a particularly good reason to know about this. \n\nIf this is an acceptable resolution, why didn't you just let the problems with NonLinear ripply out into the social graph naturally?",
+      "plaintextDescription": "> I think there will be some degree to which clearly demonstrating that false accusations were made will ripple out into the social graph naturally (even with the anonymization), and will have consequences. I also think there are some ways to privately reach out to some smaller subset of people who might have a particularly good reason to know about this. \n\nIf this is an acceptable resolution, why didn't you just let the problems with NonLinear ripply out into the social graph naturally?"
+    },
+    "baseScore": 19,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2023-12-17T03:47:56.173Z",
+    "af": false
+  },
+  {
+    "_id": "4jgGja8MrYSJFeT8o",
+    "postId": "Lc8r4tZ2L5txxokZ8",
+    "parentCommentId": "3Nhrjzcmg3RzER5TG",
+    "topLevelCommentId": "iydEd9e8PrxCgE7Ah",
+    "contents": {
+      "markdown": "If most firms have these clauses, one firm doesn't, and most people don't understand this, it seems possible that most people would end up with a less accurate impression of their relative merits than if all firms had been subject to equivalent evidence filtering effects.\n\nIn particular, it seems like this might matter for Wave if most of their hiring is from non-EA/LW people who are comparing them against random other normal companies.",
+      "plaintextDescription": "If most firms have these clauses, one firm doesn't, and most people don't understand this, it seems possible that most people would end up with a less accurate impression of their relative merits than if all firms had been subject to equivalent evidence filtering effects.\n\nIn particular, it seems like this might matter for Wave if most of their hiring is from non-EA/LW people who are comparing them against random other normal companies."
+    },
+    "baseScore": 13,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2023-09-13T13:34:51.016Z",
+    "af": false
+  },
+  {
+    "_id": "WyHdufE7NsZ3M2pZZ",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "dv9dkxJRwDhicFxZv",
+    "topLevelCommentId": "dv9dkxJRwDhicFxZv",
+    "contents": {
+      "markdown": "Sorry, [not for 2022](https://www.lesswrong.com/posts/LFjBd5aomt7xwgKdE/larks-s-shortform?commentId=qv6LF2AxNNWjHnX9A).",
+      "plaintextDescription": "Sorry, not for 2022."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-01T04:33:25.982Z",
+    "af": false
+  },
+  {
+    "_id": "YaYivAPhoD4igTSx4",
+    "postId": "LFjBd5aomt7xwgKdE",
+    "parentCommentId": "k4z7gJveP46sep6Ck",
+    "topLevelCommentId": "qv6LF2AxNNWjHnX9A",
+    "contents": {
+      "markdown": "I would typically aim for mid-December, in time for the American charitable giving season.",
+      "plaintextDescription": "I would typically aim for mid-December, in time for the American charitable giving season."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-09-01T17:28:25.127Z",
+    "af": false
+  },
+  {
+    "_id": "qv6LF2AxNNWjHnX9A",
+    "postId": "LFjBd5aomt7xwgKdE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "After having written an annual review of AI safety organisations for six years, I intend to stop this year. I'm sharing this in case someone else wanted to in my stead.\n\nReasons\n\n*   It is very time consuming and I am busy.\n*   I have a lot of conflicts of interests now.\n*   The space is much better funded by large donors than when I started. As a small donor, it seems like you either donate to:\n    *   A large org that OP/FTX/etc. support, in which case funging is ~ total and you can probably just support any.\n    *   A large org than OP/FTX/etc. reject in which case there is a high chance you are wrong.\n    *   A small org OP/FTX/etc. haven't heard of, in which case I probably can't help you either.\n*   Part of my motivation was to ensure I stayed involved in the community but this is not at threat now.\n\nHopefully it was helpful to people over the years. If you have any questions feel free to reach out.",
+      "plaintextDescription": "After having written an annual review of AI safety organisations for six years, I intend to stop this year. I'm sharing this in case someone else wanted to in my stead.\n\nReasons\n\n * It is very time consuming and I am busy.\n * I have a lot of conflicts of interests now.\n * The space is much better funded by large donors than when I started. As a small donor, it seems like you either donate to:\n   * A large org that OP/FTX/etc. support, in which case funging is ~ total and you can probably just support any.\n   * A large org than OP/FTX/etc. reject in which case there is a high chance you are wrong.\n   * A small org OP/FTX/etc. haven't heard of, in which case I probably can't help you either.\n * Part of my motivation was to ensure I stayed involved in the community but this is not at threat now.\n\nHopefully it was helpful to people over the years. If you have any questions feel free to reach out."
+    },
+    "baseScore": 36,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2022-08-30T13:43:39.301Z",
+    "af": false
+  },
+  {
+    "_id": "eNTy2yfDcDpQytogp",
+    "postId": "3S4nyoNEEuvNsbXt8",
+    "parentCommentId": "SCwnmrazEi2cbA3eQ",
+    "topLevelCommentId": "zGobjSC8sN4m4ersv",
+    "contents": {
+      "markdown": "Thanks!",
+      "plaintextDescription": "Thanks!"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-08-26T01:23:42.189Z",
+    "af": true
+  },
+  {
+    "_id": "zGobjSC8sN4m4ersv",
+    "postId": "3S4nyoNEEuvNsbXt8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Alignment research: 30\n\nCould you share some breakdown for what these people work on? Does this include things like the ['anti-bias' prompt engineering](https://www.reddit.com/r/dalle2/comments/w7qvgl/comment/ihm65ez/?utm_source=reddit&utm_medium=web2x&context=3)?",
+      "plaintextDescription": "> Alignment research: 30\n\nCould you share some breakdown for what these people work on? Does this include things like the 'anti-bias' prompt engineering?"
+    },
+    "baseScore": 26,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2022-08-25T19:01:20.063Z",
+    "af": true
+  },
+  {
+    "_id": "GNofkGcKmHubWW6C5",
+    "postId": "fJvjin8ETkzhFdadC",
+    "parentCommentId": "spf3sYtgaLyP8dE7v",
+    "topLevelCommentId": "kxj6JTvGQLJgqAnvf",
+    "contents": {
+      "markdown": "I would expect that to be the case for staff who truly support faculty. But many of them seem to be there to directly support students, rather than via faculty. The number of student mental health coordinators (and so on) you need doesn't scale with the number of faculty you have. The largest increase in this category is 'student services', which seems to be definitely of this nature.",
+      "plaintextDescription": "I would expect that to be the case for staff who truly support faculty. But many of them seem to be there to directly support students, rather than via faculty. The number of student mental health coordinators (and so on) you need doesn't scale with the number of faculty you have. The largest increase in this category is 'student services', which seems to be definitely of this nature."
+    },
+    "baseScore": 16,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2022-05-04T00:39:10.849Z",
+    "af": false
+  },
+  {
+    "_id": "kxj6JTvGQLJgqAnvf",
+    "postId": "fJvjin8ETkzhFdadC",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks very much for writing this very diligent analysis.\n\nI think you do a good job of analyzing the student/faculty ratio, but unless I have misread it seems like this is only about half the answer. 'Support' expenses rose by even more than 'Instruction', and the former category seems less linked to the diversity of courses offered than to things like the proliferation of Deans, student welfare initiatives, fancy buildings, etc.",
+      "plaintextDescription": "Thanks very much for writing this very diligent analysis.\n\nI think you do a good job of analyzing the student/faculty ratio, but unless I have misread it seems like this is only about half the answer. 'Support' expenses rose by even more than 'Instruction', and the former category seems less linked to the diversity of courses offered than to things like the proliferation of Deans, student welfare initiatives, fancy buildings, etc."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-05-03T21:01:45.675Z",
+    "af": false
+  },
+  {
+    "_id": "4hsbrshvuGr3wcB7X",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "u8NdNwXabivMYFurx",
+    "topLevelCommentId": "u8NdNwXabivMYFurx",
+    "contents": {
+      "markdown": "Thanks, that's very kind of you!",
+      "plaintextDescription": "Thanks, that's very kind of you!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-12-26T17:23:18.391Z",
+    "af": true
+  },
+  {
+    "_id": "EjAgqLqL6urTQLCEw",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "p9on8RLE2DQf2yxkz",
+    "topLevelCommentId": "p9on8RLE2DQf2yxkz",
+    "contents": {
+      "markdown": "Is your argument about personnel overlap that one could do some sort of mixed effect regression, with location as the primary independent variable and controls for individual productivity? If so I'm so somewhat skeptical about the tractability: the sample size is not that big, the data seems messy, and I'm not sure it would capture necessarily the fundamental thing we care about. I'd be interested in the results if you wanted to give it a go though!\n\nMore importantly, I'm not sure this analysis would be that useful. Geography-based-priors only really seem useful for factors we can't directly observe; for an organization like CHAI our direct observations will almost entirely [screen off](https://www.lesswrong.com/tag/screening-off-evidence) this prior. The prior is only really important for factors where direct measurement is difficult, and hence we can't update away from the prior, but for those we can't do the regression. (Though I guess we could do the regression on known firms/researchers and extrapolate to new unknown orgs/individuals).\n\nThe way this plays out here is we've already spent the vast majority of the article examining the research productivity of the organizations; geography based priors only matter insomuchas you think they can proxy for something else that is not captured in this.\n\nAs befits this being a somewhat secondary factor, it's worth noting that I think (though I haven't explicitly checked) in the past I have supported bay area organisations more than non-bay-area ones.",
+      "plaintextDescription": "Is your argument about personnel overlap that one could do some sort of mixed effect regression, with location as the primary independent variable and controls for individual productivity? If so I'm so somewhat skeptical about the tractability: the sample size is not that big, the data seems messy, and I'm not sure it would capture necessarily the fundamental thing we care about. I'd be interested in the results if you wanted to give it a go though!\n\nMore importantly, I'm not sure this analysis would be that useful. Geography-based-priors only really seem useful for factors we can't directly observe; for an organization like CHAI our direct observations will almost entirely screen off this prior. The prior is only really important for factors where direct measurement is difficult, and hence we can't update away from the prior, but for those we can't do the regression. (Though I guess we could do the regression on known firms/researchers and extrapolate to new unknown orgs/individuals).\n\nThe way this plays out here is we've already spent the vast majority of the article examining the research productivity of the organizations; geography based priors only matter insomuchas you think they can proxy for something else that is not captured in this.\n\nAs befits this being a somewhat secondary factor, it's worth noting that I think (though I haven't explicitly checked) in the past I have supported bay area organisations more than non-bay-area ones.   "
+    },
+    "baseScore": 8,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-24T22:31:18.665Z",
+    "af": true
+  },
+  {
+    "_id": "JHLkuHPQYA826G57w",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "DshRBRv5vwGrNBjM2",
+    "topLevelCommentId": "DshRBRv5vwGrNBjM2",
+    "contents": {
+      "markdown": "Thanks, fixed in both copies.",
+      "plaintextDescription": "Thanks, fixed in both copies."
+    },
+    "baseScore": 8,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-24T21:42:51.618Z",
+    "af": true
+  },
+  {
+    "_id": "WgwLSBzYMkszRWTxG",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "7kKLrWSaTCyvjfjWD",
+    "topLevelCommentId": "7kKLrWSaTCyvjfjWD",
+    "contents": {
+      "markdown": "Thanks, fixed.",
+      "plaintextDescription": "Thanks, fixed."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-24T11:40:08.723Z",
+    "af": false
+  },
+  {
+    "_id": "SniwgsFNCqHELeAnj",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "34FcfLcsNZ3qzXC9d",
+    "topLevelCommentId": "34FcfLcsNZ3qzXC9d",
+    "contents": {
+      "markdown": "Should be fixed, thanks.",
+      "plaintextDescription": "Should be fixed, thanks."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-12-23T17:51:08.573Z",
+    "af": false
+  },
+  {
+    "_id": "gAss7YKtknmBTDbyQ",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "Fb8SunDfjpviaFpaC",
+    "topLevelCommentId": "Fb8SunDfjpviaFpaC",
+    "contents": {
+      "markdown": "Changed in both copies as you request.",
+      "plaintextDescription": "Changed in both copies as you request."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-23T17:11:04.926Z",
+    "af": false
+  },
+  {
+    "_id": "PrFFr37yabirkLv2E",
+    "postId": "C4tR3BEpuWviT7Sje",
+    "parentCommentId": "Kpfmjcuhy5Hm4rx66",
+    "topLevelCommentId": "Kpfmjcuhy5Hm4rx66",
+    "contents": {
+      "markdown": "*   I prioritized posts by named organizations.\n    *   Diffractor does not list any institutional affiliations on his [user page](https://www.lesswrong.com/users/diffractor).\n    *   No institution I noticed listed the post/sequence on their 'research' page.\n    *   No institution I contacted mentioned the post/sequence.\n*   No post in the sequence was that high in the [list of 2021 Alignment Forum posts, sorted by karma](https://www.alignmentforum.org/allPosts?sortedBy=top&timeframe=yearly).\n*   Several other filtering methods also did not identify the post\n\nHowever upon reflection it does seem to be MIRI-affiliated so perhaps should have been affiliated; if I have time I may review and edit it in later.",
+      "plaintextDescription": " * I prioritized posts by named organizations.\n   * Diffractor does not list any institutional affiliations on his user page.\n   * No institution I noticed listed the post/sequence on their 'research' page.\n   * No institution I contacted mentioned the post/sequence.\n * No post in the sequence was that high in the list of 2021 Alignment Forum posts, sorted by karma.\n * Several other filtering methods also did not identify the post\n\nHowever upon reflection it does seem to be MIRI-affiliated so perhaps should have been affiliated; if I have time I may review and edit it in later."
+    },
+    "baseScore": 10,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2021-12-23T17:06:01.089Z",
+    "af": true
+  },
+  {
+    "_id": "4FDXEuspvT4vLAtF7",
+    "postId": "tHJ43CyPdEkQ9Dfup",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "13 years later: did anyone end up actually making such a book?",
+      "plaintextDescription": "13 years later: did anyone end up actually making such a book?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-11-11T04:29:47.875Z",
+    "af": false
+  },
+  {
+    "_id": "jc5KetrJDGibCLqMd",
+    "postId": "nxsLwRvnGBuRLpKSs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The labels on the life satisfaction chart appear to be wrong; January 2021 comes before December 2020.",
+      "plaintextDescription": "The labels on the life satisfaction chart appear to be wrong; January 2021 comes before December 2020."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-07-08T15:15:53.293Z",
+    "af": false
+  },
+  {
+    "_id": "Wwk5iauTeDFcQ4vx8",
+    "postId": "JpBF7Gqw6BzGzxuRb",
+    "parentCommentId": "MgYkyS3Dz3SehM4wf",
+    "topLevelCommentId": "MgYkyS3Dz3SehM4wf",
+    "contents": {
+      "markdown": "[Yes](https://www.lesswrong.com/posts/pTYDdcag9pTzFQ7vw/2020-ai-alignment-literature-review-and-charity-comparison).",
+      "plaintextDescription": "Yes."
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2021-06-18T04:36:29.940Z",
+    "af": false
+  },
+  {
+    "_id": "GrR2nWrxkAz3ZG4wN",
+    "postId": "AdZdJ8hdQbmEoQpQZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Well, with hemispherectomy, those problems are no more. Hemispherectomy is a procedure where half of the brain is removed. It has been performed multiple times without any apparent complications (example).\n\nI was skeptical until I read the example. Now I am convinced!",
+      "plaintextDescription": "> Well, with hemispherectomy, those problems are no more. Hemispherectomy is a procedure where half of the brain is removed. It has been performed multiple times without any apparent complications (example).\n\nI was skeptical until I read the example. Now I am convinced!"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-04-02T01:33:32.387Z",
+    "af": false
+  },
+  {
+    "_id": "ejKKwzx6aQuZh3MfK",
+    "postId": "qJxzBpubLB7Fr3oM8",
+    "parentCommentId": "PhuaSnvwxWwcwQRb2",
+    "topLevelCommentId": "PhuaSnvwxWwcwQRb2",
+    "contents": {
+      "markdown": "> It's hard to sell 1 million eggs for one price, and 1 million for another price.\n\nAre you sure this is the case? It's common for B2B transactions to feature highly customised and secret pricing and discounts. And in this case they're not selling the same product from the customer's point of view: one buyer gets a million ethical eggs, while another gets a million ordinary (from their point of view) eggs.",
+      "plaintextDescription": "> It's hard to sell 1 million eggs for one price, and 1 million for another price.\n\nAre you sure this is the case? It's common for B2B transactions to feature highly customised and secret pricing and discounts. And in this case they're not selling the same product from the customer's point of view: one buyer gets a million ethical eggs, while another gets a million ordinary (from their point of view) eggs."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-03-22T03:38:41.640Z",
+    "af": false
+  },
+  {
+    "_id": "zeQe93DcKrPsJ3dze",
+    "postId": "Bg9ozak6GJfghmpRz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for writing this; ordered.",
+      "plaintextDescription": "Thanks for writing this; ordered."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-03-01T18:40:40.396Z",
+    "af": false
+  },
+  {
+    "_id": "Qv4WcEJx5ae5EA6GD",
+    "postId": "Yv9aj9bWD5H7aaDdy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> A teacher in year 9 walked up to a student who was talking, picked them up and threw them out of an (open) first floor window. \n\nWorth clarifying for US readers that 'first floor' in the UK would be 'second floor' in the US, because UK floor indexing starts at zero. So this event is much worse than it sounds.",
+      "plaintextDescription": "> A teacher in year 9 walked up to a student who was talking, picked them up and threw them out of an (open) first floor window. \n\nWorth clarifying for US readers that 'first floor' in the UK would be 'second floor' in the US, because UK floor indexing starts at zero. So this event is much worse than it sounds."
+    },
+    "baseScore": 18,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2021-02-22T15:33:31.342Z",
+    "af": false
+  },
+  {
+    "_id": "PnKSynL7gPknqGukx",
+    "postId": "ShHf2fcwKWiTvoQig",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[Scott wrote a response](https://astralcodexten.substack.com/p/statement-on-new-york-times-article).",
+      "plaintextDescription": "Scott wrote a response."
+    },
+    "baseScore": 16,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2021-02-14T02:12:28.204Z",
+    "af": false
+  },
+  {
+    "_id": "KnNa7uuRrGxDKNFGG",
+    "postId": "pTYDdcag9pTzFQ7vw",
+    "parentCommentId": "tzPKS8LyncDuq7pm4",
+    "topLevelCommentId": "tzPKS8LyncDuq7pm4",
+    "contents": {
+      "markdown": "Thanks, added.",
+      "plaintextDescription": "Thanks, added."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-12-25T22:29:06.886Z",
+    "af": true
+  },
+  {
+    "_id": "hHw2Kr2HEvm9h9W8W",
+    "postId": "CHtwDXy63BsLkQx4n",
+    "parentCommentId": "fZKKRWA3QmhGy2Cja",
+    "topLevelCommentId": "fZKKRWA3QmhGy2Cja",
+    "contents": {
+      "markdown": "At the moment, the poor person and the rich person are both buying things. If the rich person buys more vaccine, that means they will buy less of the other things, so the poor person will be able to have more of them. So the question is about the ratios of how much the two guys care about the vaccine and how much they care about the other thing... and the answer is the rich guy will pay up for the vaccine when his vaccine:other ratio is higher than the other guys. This is the efficient allocation.\n\nIt might be the case that it is separately desirable to redistribute wealth from the rich guy to the poor guy. This would indeed allow the poor guy to buy more things. But, conditional on a certain wealth distribution, it is best to allow market forces to allocate goods within that distribution. \n\n(For simplicity I have ignored macroeconomics in this post, but the same argument broadly goes through if you don't.)",
+      "plaintextDescription": "At the moment, the poor person and the rich person are both buying things. If the rich person buys more vaccine, that means they will buy less of the other things, so the poor person will be able to have more of them. So the question is about the ratios of how much the two guys care about the vaccine and how much they care about the other thing... and the answer is the rich guy will pay up for the vaccine when his vaccine:other ratio is higher than the other guys. This is the efficient allocation.\n\nIt might be the case that it is separately desirable to redistribute wealth from the rich guy to the poor guy. This would indeed allow the poor guy to buy more things. But, conditional on a certain wealth distribution, it is best to allow market forces to allocate goods within that distribution. \n\n(For simplicity I have ignored macroeconomics in this post, but the same argument broadly goes through if you don't.)"
+    },
+    "baseScore": 17,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2020-12-24T22:24:48.895Z",
+    "af": false
+  },
+  {
+    "_id": "QAka7q8Y6HKaPmcP3",
+    "postId": "pTYDdcag9pTzFQ7vw",
+    "parentCommentId": "FLLRRxegAbJeXk7TN",
+    "topLevelCommentId": "FLLRRxegAbJeXk7TN",
+    "contents": {
+      "markdown": "Hey Daniel, thanks very much for the comment. In my database I have you down as class of 2020, hence out of scope for that analysis, which was class of 2018 only. I didn't include 2019 or 2020 classes because I figured it takes time to find your footing, do research, write it up etc., so absence of evidence would not be very strong evidence of absence. So please don't consider this as any reflection on you. Ironically I actually *did* review one of your papers in the above - [this](https://arxiv.org/abs/2008.02275) one - which I did indeed think was pretty relevant! (Cntrl-F 'Hendrycks' to find the paragraph in the article). Sorry if this was not clear from the text.",
+      "plaintextDescription": "Hey Daniel, thanks very much for the comment. In my database I have you down as class of 2020, hence out of scope for that analysis, which was class of 2018 only. I didn't include 2019 or 2020 classes because I figured it takes time to find your footing, do research, write it up etc., so absence of evidence would not be very strong evidence of absence. So please don't consider this as any reflection on you. Ironically I actually did review one of your papers in the above - this one - which I did indeed think was pretty relevant! (Cntrl-F 'Hendrycks' to find the paragraph in the article). Sorry if this was not clear from the text."
+    },
+    "baseScore": 10,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2020-12-22T02:08:40.462Z",
+    "af": true
+  },
+  {
+    "_id": "hJ9tHqwLH9o9mDKwc",
+    "postId": "NA6qZeqCbacsubcm9",
+    "parentCommentId": "RGp4jkuxQBL3JqzKs",
+    "topLevelCommentId": "RGp4jkuxQBL3JqzKs",
+    "contents": {
+      "markdown": "> Larks, excellent name choice for your AttackBot.\n\nThanks! I figured it was in the spirit of a DefectBot to defect linguistically as well, and there was a *tiny* chance someone might be doing naive string-matching.",
+      "plaintextDescription": "> Larks, excellent name choice for your AttackBot.\n\nThanks! I figured it was in the spirit of a DefectBot to defect linguistically as well, and there was a tiny chance someone might be doing naive string-matching. "
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2020-11-18T05:12:44.955Z",
+    "af": false
+  },
+  {
+    "_id": "rrPKwqJNvJgA3xzZ5",
+    "postId": "Tq8qeRxQ4pB3b5RKg",
+    "parentCommentId": "bFWkL9CcWqxz9zR2L",
+    "topLevelCommentId": "3FW6hh9LkCWCYe86R",
+    "contents": {
+      "markdown": "You will have to wait for next time's obituary I'm afraid! I think Isusr should have a good grasp on the philosophical and ethical traditions I was attempting to channel with CooperateBot - while the insights are deep, I think the lengthy code is quite clear on the matter.",
+      "plaintextDescription": "You will have to wait for next time's obituary I'm afraid! I think Isusr should have a good grasp on the philosophical and ethical traditions I was attempting to channel with CooperateBot - while the insights are deep, I think the lengthy code is quite clear on the matter."
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2020-10-25T04:02:44.678Z",
+    "af": false
+  },
+  {
+    "_id": "mq8aXBw6FqRgdDZrm",
+    "postId": "Tq8qeRxQ4pB3b5RKg",
+    "parentCommentId": "rZqQv3wwqZSHWN9QB",
+    "topLevelCommentId": "3FW6hh9LkCWCYe86R",
+    "contents": {
+      "markdown": "I actually have no idea - I guess we are just two naturally very cooperative people!",
+      "plaintextDescription": "I actually have no idea - I guess we are just two naturally very cooperative people!"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2020-10-24T16:20:30.793Z",
+    "af": false
+  },
+  {
+    "_id": "3FW6hh9LkCWCYe86R",
+    "postId": "Tq8qeRxQ4pB3b5RKg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Cool competition! It makes me wish I had had more time to put into CooperateBot. At present I would say it instantiated a relatively naive view of cooperation, and could do much better if I invested more time considering the true nature of generosity. Looking at the obituary I suspect that CooperateBot may not last much longer.",
+      "plaintextDescription": "Cool competition! It makes me wish I had had more time to put into CooperateBot. At present I would say it instantiated a relatively naive view of cooperation, and could do much better if I invested more time considering the true nature of generosity. Looking at the obituary I suspect that CooperateBot may not last much longer."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2020-10-24T05:14:56.279Z",
+    "af": false
+  },
+  {
+    "_id": "7somrf8wXSc2PX3pB",
+    "postId": "XCihm6fD5mnPXJLmm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Holding constant the total amount of taxes you pay, it is better not to get a refund. This is the perspective you should take at the beginning of the year. \n\nHolding constant the amount of taxes you have already paid, it is better to get a refund. This is the perspective you should take at the end of the year.",
+      "plaintextDescription": "Holding constant the total amount of taxes you pay, it is better not to get a refund. This is the perspective you should take at the beginning of the year. \n\nHolding constant the amount of taxes you have already paid, it is better to get a refund. This is the perspective you should take at the end of the year. "
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2020-10-23T00:55:22.934Z",
+    "af": false
+  },
+  {
+    "_id": "7YXEHv8xL9AnQ452W",
+    "postId": "avwaXavKqCetnzWkw",
+    "parentCommentId": "jP7QeeJWL6EcpzrbE",
+    "topLevelCommentId": "jP7QeeJWL6EcpzrbE",
+    "contents": {
+      "markdown": "I attempted to produce a rough estimate of this [here](https://forum.effectivealtruism.org/posts/hyisZr7n9fYTXx7g8/will-protests-lead-to-thousands-of-coronavirus-deaths) (excerpted below):\n\n> ... One (BERI funded!) study suggested that [banning large gatherings reduced r0 by around 28%](https://www.medrxiv.org/content/10.1101/2020.05.28.20116129v2).\n\n> Unfortunately, protests seem in many ways ideal for spreading the disease. They involve a large number of people in a relatively small area for an extended period of time. Even protests which were advertised as being socially distanced often do not end up that way. While many people wear masks, photos of protests make clear that many do not, and those that are are often using cloth masks that are significantly less effective than surgical or n95s in the face of repeated exposure. Additionally, protests often involve people shouting or chanting, which cause infectious droplets to be released from people's mouths. Exposure to tear gas can apparently also increase susceptibility, as well as cramped indoor conditions for those arrested.\n\n> It's hard to estimate how many new cases will be caused by the protests, because there doesn’t seem to be good statistics on the number of people at protests, so we can't [model the physical dynamics easily](https://twitter.com/MarcusMunafo/status/1267771919115395072). A simple method would be to assume we have lost the benefits of the ban on large gatherings over the last week or so. On the one hand, this may be an over-estimate, because fortunately most people continue to socially distance, and protests take place mainly outside. On the other hand, protesters are actively seeking out (encouraging others to seek out) boisterous large gatherings in a way they were not pre-March, which could make things even worse. On net I suspect it may under-estimate the incremental spread, but given the paucity of other statistics we will use it as our central scenario.\n\n> If the r0 was around 0.9 before, this suggests the protests might have temporarily increased it to around 1.25, and hopefully it will quickly return to 0.9 after the protests end. Even if we assume no chain infections during the protest - so no-one who has been infected at a protest goes on to infect another protester - this means the next step in disease prevalence would be a 25% _increase_ instead of a 10% _decrease_. Unfortunately the exponential nature of infection means this will have a large impact. If you assume around 1% of the US was infected previously, had we stayed on the previous r0=0.9 we would end up with around 9% more of the population infected from here on before the disease was fully suppressed. In contrast, with this one-time step-up in r0, we will see around 12.5% of the population infected from here - an additional 3.5% of the population.\n\n> Assuming an [IFR of around 0.66%](https://twitter.com/GidMK/status/1268003875287490561?s=19), that's a change from around 190,000 deaths to more like 265,000. Protesters skew younger than average, suggesting that this IFR may be an over-estimate, but on the other hand, they are also disproportionately African American, who seem to be more susceptible to the disease, and the people they go on to infect will include older people.",
+      "plaintextDescription": "I attempted to produce a rough estimate of this here (excerpted below):\n\n> ... One (BERI funded!) study suggested that banning large gatherings reduced r0 by around 28%.\n\n> Unfortunately, protests seem in many ways ideal for spreading the disease. They involve a large number of people in a relatively small area for an extended period of time. Even protests which were advertised as being socially distanced often do not end up that way. While many people wear masks, photos of protests make clear that many do not, and those that are are often using cloth masks that are significantly less effective than surgical or n95s in the face of repeated exposure. Additionally, protests often involve people shouting or chanting, which cause infectious droplets to be released from people's mouths. Exposure to tear gas can apparently also increase susceptibility, as well as cramped indoor conditions for those arrested.\n\n> It's hard to estimate how many new cases will be caused by the protests, because there doesn’t seem to be good statistics on the number of people at protests, so we can't model the physical dynamics easily. A simple method would be to assume we have lost the benefits of the ban on large gatherings over the last week or so. On the one hand, this may be an over-estimate, because fortunately most people continue to socially distance, and protests take place mainly outside. On the other hand, protesters are actively seeking out (encouraging others to seek out) boisterous large gatherings in a way they were not pre-March, which could make things even worse. On net I suspect it may under-estimate the incremental spread, but given the paucity of other statistics we will use it as our central scenario.\n\n> If the r0 was around 0.9 before, this suggests the protests might have temporarily increased it to around 1.25, and hopefully it will quickly return to 0.9 after the protests end. Even if we assume no chain infections during the protest - so no-one who has been infected a"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2020-06-05T02:27:05.227Z",
+    "af": false
+  },
+  {
+    "_id": "MToEaqqTdv2iB2tYc",
+    "postId": "a72owS5hz3acBK5xc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "See next year's post [here](https://www.lesswrong.com/posts/SmDziGM9hBjW9DKmf/2019-ai-alignment-literature-review-and-charity-comparison).",
+      "plaintextDescription": "See next year's post here."
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2019-12-19T03:02:37.941Z",
+    "af": true
+  },
+  {
+    "_id": "DSNy76KRGG94jCpQ7",
+    "postId": "qzRzQgxiZa3tPJJg8",
+    "parentCommentId": "tWiEuuDAZ2wvzJs5m",
+    "topLevelCommentId": "eP8gqDzuqRW4y8fuv",
+    "contents": {
+      "markdown": "I still found this helpful as it allowed me to exit my directional Yang and Buttigieg positions with negative transaction cost.",
+      "plaintextDescription": "I still found this helpful as it allowed me to exit my directional Yang and Buttigieg positions with negative transaction cost."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-09-26T22:42:43.311Z",
+    "af": false
+  },
+  {
+    "_id": "qePtGd8ijqFG5dLwz",
+    "postId": "vvzfFcbmKgEsDBRHh",
+    "parentCommentId": "QJZNWqx35NPtYykXC",
+    "topLevelCommentId": "QJZNWqx35NPtYykXC",
+    "contents": {
+      "markdown": "I would like to add that I think this is bad (and have the codes). We are trying to build social norms around not destroying the world; you are blithely defecting against that.",
+      "plaintextDescription": "I would like to add that I think this is bad (and have the codes). We are trying to build social norms around not destroying the world; you are blithely defecting against that."
+    },
+    "baseScore": 22,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2019-09-26T22:10:21.171Z",
+    "af": false
+  },
+  {
+    "_id": "Kk4cGe6dQAHiuj9Dn",
+    "postId": "9fB4gvoooNYa4t56S",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> This case is more complicated than the corporate cases because the powerful person (me) was getting merely the appearance of what she wanted (a genuine relationship with a compatible person), not the real thing. And because the exploited party was either me or Connor, not a third party like bank customers. No one thinks the Wells Fargo CEO was a victim the way I arguably was.\n\nI think you have misunderstood the Wells Fargo case. These fake accounts generally didn't bring in any material revenue; they were just about internal 'number of new accounts targets'. It was directly a case of bank employees being incentivised to defraud management and investors, which they then did. If ordinary Wells employees had not behaved fraudulently, all the targets would have been missed, informing management/investors about their mis-calibration, and more appropriate targets would have been set. In this case power didn't buy distance from the crime, but only in the sense that it meant you couldn't tell you were being cheated.\n\nFor more on this I recommend the prolific [Matt Levine](https://www.bloomberg.com/opinion/articles/2016-09-09/wells-fargo-opened-a-couple-million-fake-accounts):\n\n> There's a standard story in most bank scandals, in which small groups of highly paid traders gleefully and ungrammatically conspire to rip-off customers and make a lot of money for themselves and their bank. This isn't that. This looks more like a vast uprising of low-paid and ill-treated Wells Fargo employees against their bosses.\n\n> ...\n\n> So that's about 2.1 million fake deposit and credit-card accounts, of which about 100,000 -- fewer than 5 percent -- brought in any fee income to Wells Fargo. The total fee income was $2.4 million, or about $1.14 per fake account. And that overstates the profitability: Wells Fargo also enrolled people for debit cards and online banking, but the CFPB doesn't bother to count those incidents, or suggest that any of them led to any fees. Which makes sense: You'd expect online banking and debit cards to be free, if you never use them or even know about them. Meanwhile, all this dumb stuff seems to have occupied huge amounts of employee time that could have been spent on more productive activities. If you divide the $2.4 million among the 5,300 employees fired for setting up fake accounts, you get about $450 per employee. Presumably it cost Wells Fargo way more than that just to replace them.\n\n> In the abstract, you can see why Wells Fargo would emphasize cross-selling of multiple \"solutions\" to customers. It is a good sales practice; it both indicates and encourages customer loyalty. If your customers have a checking account, and a savings account, and a credit card and online banking, all in one place, then they'll probably use each of those products more than if they had only one. And when they want a new, lucrative product -- a mortgage, say, or investment advice -- they're more likely to turn to the bank where they keep the rest of their financial life. \n\n> But _obviously _no one in senior management wanted _this_. Signing customers up for online banking without telling them about it doesn't help Wells Fargo _at all_. No one feels extra loyalty because they have a banking product that they don't use or know about. Even signing them up for a credit card without telling them about it generally doesn't help Wells Fargo, because people don't use credit cards that they don't know about. Cards with an annual fee are a different story -- at least you can charge them the fee! -- but it seems like customers weren't signed up for many of those.  This isn't a case of management pushing for something profitable and getting what they asked for, albeit in a regrettable and illegal way. This is a case of management pushing for something profitable but difficult, and the workers pushing back with something worthless but easy.",
+      "plaintextDescription": "> This case is more complicated than the corporate cases because the powerful person (me) was getting merely the appearance of what she wanted (a genuine relationship with a compatible person), not the real thing. And because the exploited party was either me or Connor, not a third party like bank customers. No one thinks the Wells Fargo CEO was a victim the way I arguably was.\n\nI think you have misunderstood the Wells Fargo case. These fake accounts generally didn't bring in any material revenue; they were just about internal 'number of new accounts targets'. It was directly a case of bank employees being incentivised to defraud management and investors, which they then did. If ordinary Wells employees had not behaved fraudulently, all the targets would have been missed, informing management/investors about their mis-calibration, and more appropriate targets would have been set. In this case power didn't buy distance from the crime, but only in the sense that it meant you couldn't tell you were being cheated.\n\nFor more on this I recommend the prolific Matt Levine:\n\n> There's a standard story in most bank scandals, in which small groups of highly paid traders gleefully and ungrammatically conspire to rip-off customers and make a lot of money for themselves and their bank. This isn't that. This looks more like a vast uprising of low-paid and ill-treated Wells Fargo employees against their bosses.\n\n> ...\n\n> So that's about 2.1 million fake deposit and credit-card accounts, of which about 100,000 -- fewer than 5 percent -- brought in any fee income to Wells Fargo. The total fee income was $2.4 million, or about $1.14 per fake account. And that overstates the profitability: Wells Fargo also enrolled people for debit cards and online banking, but the CFPB doesn't bother to count those incidents, or suggest that any of them led to any fees. Which makes sense: You'd expect online banking and debit cards to be free, if you never use them or even know about them. Meanwhile, "
+    },
+    "baseScore": 15,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2019-08-03T16:19:46.446Z",
+    "af": false
+  },
+  {
+    "_id": "SMqKgajX78M4prG2F",
+    "postId": "cZfNYxd7BRbDb2gY4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is this very different from founding a pharmaceutical company?",
+      "plaintextDescription": "Is this very different from founding a pharmaceutical company?"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2019-05-17T03:04:28.949Z",
+    "af": false
+  },
+  {
+    "_id": "4Cu4X5S9eXgwKfJ3F",
+    "postId": "gYaKZeBbSL4y2RLP3",
+    "parentCommentId": "KkWiqg75RNbS9C6co",
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Critch wrote a related paper:\r\n\r\n> Existing multi-objective reinforcement learning (MORL) algorithms do not account for objectives that arise from players with differing beliefs.Concretely, consider two players with different beliefs and utility functions who may cooperate to build a machine that takes actions on their behalf. A representation is needed for how much the machine’s policy will prioritize each player’s interests over time. Assuming the players have reached common knowledge of their situation, this paper derives a recursion that any Pareto optimal policy must satisfy. Two qualitative observations can be made from the recursion: the machine must (1) use each player’s own beliefs in evaluating how well an action will serve that player’s utility function, and (2) shift the relative priority it assigns to each player’s expected utilities over time, by a factor proportional to how well that player’s beliefs predict the machine’s inputs. Observation (2) represents a substantial divergence from naive linear utility aggregation (as in Harsanyi’s utilitarian theorem, and existing MORL algorithms), which is shown here to be inadequate for Pareto optimal sequential decision-making on behalf of players with different beliefs.\r\n\r\n[Toward negotiable reinforcement learning: shifting priorities in Pareto optimal sequential decision-making](http://acritch.com/media/pareto-optimal-policies.pdf)",
+      "plaintextDescription": "Critch wrote a related paper:\n\n> Existing multi-objective reinforcement learning (MORL) algorithms do not account for objectives that arise from players with differing beliefs.Concretely, consider two players with different beliefs and utility functions who may cooperate to build a machine that takes actions on their behalf. A representation is needed for how much the machine’s policy will prioritize each player’s interests over time. Assuming the players have reached common knowledge of their situation, this paper derives a recursion that any Pareto optimal policy must satisfy. Two qualitative observations can be made from the recursion: the machine must (1) use each player’s own beliefs in evaluating how well an action will serve that player’s utility function, and (2) shift the relative priority it assigns to each player’s expected utilities over time, by a factor proportional to how well that player’s beliefs predict the machine’s inputs. Observation (2) represents a substantial divergence from naive linear utility aggregation (as in Harsanyi’s utilitarian theorem, and existing MORL algorithms), which is shown here to be inadequate for Pareto optimal sequential decision-making on behalf of players with different beliefs.\n\nToward negotiable reinforcement learning: shifting priorities in Pareto optimal sequential decision-making"
+    },
+    "baseScore": 10,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2019-05-02T20:51:24.945Z",
+    "af": false
+  },
+  {
+    "_id": "MFhvA8J5zvKxjS8j5",
+    "postId": "gYaKZeBbSL4y2RLP3",
+    "parentCommentId": "4ShCtwoFy4hEQWGxB",
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> War only happens if two agents don’t have common knowledge about who would win (otherwise they’d agree to skip the costs of war).\r\n\r\nThey might also have poorly aligned incentives, like a war between two countries that allows both governments to gain power and prestige, at the cost of destruction that is borne by the ordinary people of both countries. But this sort of principle-agent problem also seems like something AIs should be better at dealing with.",
+      "plaintextDescription": "> War only happens if two agents don’t have common knowledge about who would win (otherwise they’d agree to skip the costs of war).\n\nThey might also have poorly aligned incentives, like a war between two countries that allows both governments to gain power and prestige, at the cost of destruction that is borne by the ordinary people of both countries. But this sort of principle-agent problem also seems like something AIs should be better at dealing with."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-05-02T20:44:47.325Z",
+    "af": false
+  },
+  {
+    "_id": "ahJheosEGTZtk6oQ9",
+    "postId": "f2GF3q6fgyx8TqZcn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In light of this:\n\n> Build over-communication into the process.\n\n> In particular, don’t let silence carry information. Silence can be interpreted a million different ways ([Cramton](http://www.jimelwood.net/students/grips/man_group_comm/cramton_2001.pdf) [2001](http://www.jimelwood.net/students/grips/man_group_comm/cramton_2001.pdf)).\n\nThanks for writing this! I found it very interesting, and I like the style. I particularly hadn't properly appreciated how semi-distributed was worth than either extreme. It's disappointing to hear, but seemingly obvious in retrospect and good to know.",
+      "plaintextDescription": "In light of this:\n\n> Build over-communication into the process.\n\n> In particular, don’t let silence carry information. Silence can be interpreted a million different ways (Cramton 2001).\n\nThanks for writing this! I found it very interesting, and I like the style. I particularly hadn't properly appreciated how semi-distributed was worth than either extreme. It's disappointing to hear, but seemingly obvious in retrospect and good to know."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2019-04-16T16:06:48.856Z",
+    "af": false
+  },
+  {
+    "_id": "RkncwfuCsx3kXgXMX",
+    "postId": "a72owS5hz3acBK5xc",
+    "parentCommentId": "n99emQetRWLZAPDTx",
+    "topLevelCommentId": "n99emQetRWLZAPDTx",
+    "contents": {
+      "markdown": "Thanks for sharing, seems like a reasonable take to me.",
+      "plaintextDescription": "Thanks for sharing, seems like a reasonable take to me."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-01-05T18:45:23.520Z",
+    "af": false
+  },
+  {
+    "_id": "x4i4C95M4X3Ky6N5y",
+    "postId": "a72owS5hz3acBK5xc",
+    "parentCommentId": "yh5sTLTPwTZ4eBvEM",
+    "topLevelCommentId": "yh5sTLTPwTZ4eBvEM",
+    "contents": {
+      "markdown": "I definitely being near AI hubs is helpful, and I'd be interested in supporting any credible new groups that started in other hubs.\n\nThanks for that extra info on CHAI staff. In general my objections to the bay area are partly about the EA/LW culture there, and partly about the broader culture. I did end up donating to CHAI despite this!",
+      "plaintextDescription": "I definitely being near AI hubs is helpful, and I'd be interested in supporting any credible new groups that started in other hubs.\n\nThanks for that extra info on CHAI staff. In general my objections to the bay area are partly about the EA/LW culture there, and partly about the broader culture. I did end up donating to CHAI despite this!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-01-05T18:43:10.417Z",
+    "af": false
+  },
+  {
+    "_id": "vA3yCFwkqT2CfmSR4",
+    "postId": "a72owS5hz3acBK5xc",
+    "parentCommentId": "5cgTQzcvsAd8y6Lnp",
+    "topLevelCommentId": "5cgTQzcvsAd8y6Lnp",
+    "contents": {
+      "markdown": "Thanks! I have fixed most of the typos.",
+      "plaintextDescription": "Thanks! I have fixed most of the typos."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2019-01-05T18:22:33.116Z",
+    "af": false
+  },
+  {
+    "_id": "wzsGEPeCGAeFmttGA",
+    "postId": "kPi7MNgPrR3P3Lzav",
+    "parentCommentId": "CEsrNo6dea8Sr3BFD",
+    "topLevelCommentId": "CEsrNo6dea8Sr3BFD",
+    "contents": {
+      "markdown": "Especially as in recent years investor preferences for lower risk, low beta, low vol, higher yield stocks (like utilities and staples) has been well documented as strong.\n\nOne related fact is that (at least some of the banks) feel like they haven't gotten credit for the risk reductions they have done. Given their lower leverage now, they feel like they should have higher multiples, whereas actually their relative multiples have compressed vs the market vs pre-crisis. Of course, this may be because their risk was under-estimated pre-crisis, so their relative multiple was too high.",
+      "plaintextDescription": "Especially as in recent years investor preferences for lower risk, low beta, low vol, higher yield stocks (like utilities and staples) has been well documented as strong.\n\nOne related fact is that (at least some of the banks) feel like they haven't gotten credit for the risk reductions they have done. Given their lower leverage now, they feel like they should have higher multiples, whereas actually their relative multiples have compressed vs the market vs pre-crisis. Of course, this may be because their risk was under-estimated pre-crisis, so their relative multiple was too high."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2018-12-19T00:37:01.560Z",
+    "af": false
+  },
+  {
+    "_id": "uLsC4ddBANQor3ebm",
+    "postId": "kPi7MNgPrR3P3Lzav",
+    "parentCommentId": "9LcDWFcTFAHigZTJW",
+    "topLevelCommentId": "9LcDWFcTFAHigZTJW",
+    "contents": {
+      "markdown": "At least in public equity markets the size premium is very weak. My team looked at it and decided not to use it as a factor to guide our investing. It's closely correlated to an illiquidity premia, which I do believe in.",
+      "plaintextDescription": "At least in public equity markets the size premium is very weak. My team looked at it and decided not to use it as a factor to guide our investing. It's closely correlated to an illiquidity premia, which I do believe in.\n\n"
+    },
+    "baseScore": 19,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2018-12-19T00:33:25.226Z",
+    "af": false
+  },
+  {
+    "_id": "RxsTSKYihHPPhsNN5",
+    "postId": "DyZuewJMopqfEnQmo",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Update: Jeff says they [only ever sent him part of his data](https://www.jefftk.com/p/interpreting-genetic-testing).",
+      "plaintextDescription": "Update: Jeff says they only ever sent him part of his data."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2018-12-15T19:04:15.139Z",
+    "af": false
+  },
+  {
+    "_id": "dpBXfe84riDFFXdKu",
+    "postId": "Tx6dGzYLtfzzkuGtF",
+    "parentCommentId": "YjyzdnzJeqqC6rEi5",
+    "topLevelCommentId": "gnK26pyfARDBK94Ho",
+    "contents": {
+      "markdown": "Nick's space papers are largely about how to harvest large amounts of utility from the galaxy, not about how to increase humanity's robustness. And yes, there are some Xrisks (including the one I am focused on) that space colonies do not help with, but the reader may not be convinced of these, so it is surely worth mentioning that _some_ risks would be guarded against with interstellar diversification. If nothing else you should probably argue that space colonization is not an adequate solution for these reasons.",
+      "plaintextDescription": "Nick's space papers are largely about how to harvest large amounts of utility from the galaxy, not about how to increase humanity's robustness. And yes, there are some Xrisks (including the one I am focused on) that space colonies do not help with, but the reader may not be convinced of these, so it is surely worth mentioning that some risks would be guarded against with interstellar diversification. If nothing else you should probably argue that space colonization is not an adequate solution for these reasons."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2018-11-17T14:48:14.663Z",
+    "af": false
+  },
+  {
+    "_id": "e7fpBfxDDzyA6ePzH",
+    "postId": "DJB82jKwgJE5NsWgT",
+    "parentCommentId": "peBDP3iEXm4CBTtQh",
+    "topLevelCommentId": "peBDP3iEXm4CBTtQh",
+    "contents": {
+      "markdown": "> A study by the investment-research firm Strategas which was cited in The Economist and the Washington Post compared the 50 firms that spent the most on lobbying relative to their assets, and compared their financial performance against that of the S&P 500 in the stock market; the study concluded that **spending on lobbying was a \"spectacular investment\" yielding \"blistering\" returns comparable to a high-flying hedge fund**, even despite the financial downturn of the past few years.\n\nI think I read this research while I was a Strategas client; if I'm remembering it correctly it was extremely poorly done. Short back test (just a few years), garden of forking paths, etc. Most sell-side research is not epistemically rigourous and Strategas is not one of the better firms. I would not put much weight on this research.\n\n> There is widespread agreement that a key ingredient in effective lobbying is money. This view is shared by players in the lobbying industry.\n\nWell of course lobbyists would say they're worth the money!",
+      "plaintextDescription": "> A study by the investment-research firm Strategas which was cited in The Economist and the Washington Post compared the 50 firms that spent the most on lobbying relative to their assets, and compared their financial performance against that of the S&P 500 in the stock market; the study concluded that spending on lobbying was a \"spectacular investment\" yielding \"blistering\" returns comparable to a high-flying hedge fund, even despite the financial downturn of the past few years.\n\nI think I read this research while I was a Strategas client; if I'm remembering it correctly it was extremely poorly done. Short back test (just a few years), garden of forking paths, etc. Most sell-side research is not epistemically rigourous and Strategas is not one of the better firms. I would not put much weight on this research.\n\n> There is widespread agreement that a key ingredient in effective lobbying is money. This view is shared by players in the lobbying industry.\n\nWell of course lobbyists would say they're worth the money!"
+    },
+    "baseScore": 27,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2018-11-17T03:02:37.769Z",
+    "af": false
+  },
+  {
+    "_id": "BaLWuSZJZT4jQySSX",
+    "postId": "WeAt5TeS8aYc4Cpms",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> This, by the way, explains my intuitive dislike for some types of moral realism. If there are true objective moral facts that humans can access, then whatever process counts as \"accessing them\" becomes... a local stopping condition for defining value.\n\n  \n\nI'm not sure I understand what you're getting at here. Yes, they are both local stopping conditions, but there seems to be a clear dis-analogy. The other local stopping conditions seem to be bad not because they are stopping conditions, but because most contemporary people don't want to end up as Lotus-Eaters, or as mindless outsourcers. We would oppose such a development even if it wasn't stable! For example, a future where we oscillate between lotus-eaters and mindless outsourcers seems about as bad as either individual scenario. So it's not really the stability we object to.\n\n  \n\nBut in that case, it's not clear why we should be opposed to the moral realism. After all, many people would like to go there, even if we are presently a long way away.",
+      "plaintextDescription": "> This, by the way, explains my intuitive dislike for some types of moral realism. If there are true objective moral facts that humans can access, then whatever process counts as \"accessing them\" becomes... a local stopping condition for defining value.\n\n\n\nI'm not sure I understand what you're getting at here. Yes, they are both local stopping conditions, but there seems to be a clear dis-analogy. The other local stopping conditions seem to be bad not because they are stopping conditions, but because most contemporary people don't want to end up as Lotus-Eaters, or as mindless outsourcers. We would oppose such a development even if it wasn't stable! For example, a future where we oscillate between lotus-eaters and mindless outsourcers seems about as bad as either individual scenario. So it's not really the stability we object to.\n\n\n\nBut in that case, it's not clear why we should be opposed to the moral realism. After all, many people would like to go there, even if we are presently a long way away."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2018-03-22T23:33:37.355Z",
+    "af": false
+  },
+  {
+    "_id": "RpgiPvtKSjoExnenp",
+    "postId": "gowLWvZfri5XKiy9n",
+    "parentCommentId": "Ao9YaT8QBzEkBFKuh",
+    "topLevelCommentId": "Ao9YaT8QBzEkBFKuh",
+    "contents": {
+      "markdown": "> the one academic doing good work in the area is Sheffer, who is running a longitudinal survey which may or may not have enough statistical power to rule out particularly dramatic variances in outcomes. (Sheffer mentions the selection bias problem but seems to have the attitude that it's not a problem for her work.)\n\nWas there any follow-up here?",
+      "plaintextDescription": "> the one academic doing good work in the area is Sheffer, who is running a longitudinal survey which may or may not have enough statistical power to rule out particularly dramatic variances in outcomes. (Sheffer mentions the selection bias problem but seems to have the attitude that it's not a problem for her work.)\n\nWas there any follow-up here?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2018-03-06T04:01:16.507Z",
+    "af": false
+  },
+  {
+    "_id": "LRa4hvkYFJC8dcgSM",
+    "postId": "PAYMMgPi2L3MPP967",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The bioterminist's guide is now 5 years old. Does anyone know of an updated version?",
+      "plaintextDescription": "The bioterminist's guide is now 5 years old. Does anyone know of an updated version?"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2018-01-08T02:13:07.247Z",
+    "af": false
+  },
+  {
+    "_id": "jnGTqmhSdwQJm9fie",
+    "postId": "hYekqQ9hLmn3XTZrp",
+    "parentCommentId": "jKp9M8bHB2CyLjjYn",
+    "topLevelCommentId": "jKp9M8bHB2CyLjjYn",
+    "contents": {
+      "markdown": "Thanks, I'm honoured! I've sent you a private message.",
+      "plaintextDescription": "Thanks, I'm honoured! I've sent you a private message."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2017-12-30T20:21:35.693Z",
+    "af": false
+  },
+  {
+    "_id": "gvjkFiHscg2mTJq5Q",
+    "postId": "z8usYeKX7dtTWsEnk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In our house we started a tradition of holding hands and taking turns saying something we're grateful before dinner each night. We then soft-evangalise this by having guests over and including them - most notably to hundreds of people at our wedding.",
+      "plaintextDescription": "In our house we started a tradition of holding hands and taking turns saying something we're grateful before dinner each night. We then soft-evangalise this by having guests over and including them - most notably to hundreds of people at our wedding."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2017-12-09T16:43:28.394Z",
+    "af": false
+  },
+  {
+    "_id": "w5YHxM2mu2b8L73ME",
+    "postId": "zsG9yKcriht2doRhM",
+    "parentCommentId": "4QoSDwTpn6trX2Gjc",
+    "topLevelCommentId": "xSvgmhX74iHmcjCAb",
+    "contents": {
+      "markdown": "Yup, just logged back in to make that guess. Would also explain the Japan commentary.",
+      "plaintextDescription": "Yup, just logged back in to make that guess. Would also explain the Japan commentary."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2017-11-01T02:00:03.086Z",
+    "af": false
+  },
+  {
+    "_id": "xSvgmhX74iHmcjCAb",
+    "postId": "zsG9yKcriht2doRhM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great article, and I'm glad to see you've returned to Less(er)wrong.\n\nOne _very_ _very_ small question: speaking as one of the hedge fund guys you mention who happened to be long MSFT into a very successful quater on friday, why did your Microsoft example use a share price of $37.70? We're at $83.81 now!",
+      "plaintextDescription": "Great article, and I'm glad to see you've returned to Less(er)wrong.\n\nOne very very small question: speaking as one of the hedge fund guys you mention who happened to be long MSFT into a very successful quater on friday, why did your Microsoft example use a share price of $37.70? We're at $83.81 now!\n\n"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2017-10-29T23:58:10.382Z",
+    "af": false
+  },
+  {
+    "_id": "SnE4xQYcT8CqqYogw",
+    "postId": "PKZ5nfZ3atihcdn2Y",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Presumably it would also lead us to think that having lots of free time, or being very concerned about \\[clothes/wit/grades\\] was better - but this does not seem to be obveously the case.",
+      "plaintextDescription": "Presumably it would also lead us to think that having lots of free time, or being very concerned about [clothes/wit/grades] was better - but this does not seem to be obveously the case."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2017-10-17T00:08:55.941Z",
+    "af": false
+  },
+  {
+    "_id": "pRdp64y3Te3uGkYke",
+    "postId": "vtZsEerABCjhtgizX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "First of all, thanks for making this all! :)\n\nOne suggestiong: coudl we hvae a sepll-ckecher for the cmmonent box?",
+      "plaintextDescription": "First of all, thanks for making this all! :)\n\nOne suggestiong: coudl we hvae a sepll-ckecher for the cmmonent box?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2017-10-14T03:32:24.726Z",
+    "af": false
+  },
+  {
+    "_id": "i2y2YHcztNk8RmWDu",
+    "postId": "BEtzRE2M5m9YEAQpX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Occationally we run surveys of ML people. Would it be worth asking them what their personal fire alarm would be, or what they are confident will not be achieved in the next N years? This would force them to make a mental stance that might help them achieve some cognitive dissonance later, and also allow us to potentially follow up with them.",
+      "plaintextDescription": "Occationally we run surveys of ML people. Would it be worth asking them what their personal fire alarm would be, or what they are confident will not be achieved in the next N years? This would force them to make a mental stance that might help them achieve some cognitive dissonance later, and also allow us to potentially follow up with them."
+    },
+    "baseScore": 26,
+    "voteCount": 18,
+    "createdAt": null,
+    "postedAt": "2017-10-14T03:21:35.921Z",
+    "af": false
+  },
+  {
+    "_id": "eXY8E922tZzsnCcFd",
+    "postId": "XDhDpkj8EF2LnFaAt",
+    "parentCommentId": "M5y8uzzyWqBzg8DzG",
+    "topLevelCommentId": "M5y8uzzyWqBzg8DzG",
+    "contents": {
+      "markdown": "Why is there no way to downvote, report or otherwise punish this comment?",
+      "plaintextDescription": "Why is there no way to downvote, report or otherwise punish this comment?"
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2017-06-03T22:11:15.683Z",
+    "af": false
+  },
+  {
+    "_id": "xT3gYQTQQHiymA3st",
+    "postId": "23piReu6vmfskHyh7",
+    "parentCommentId": "xqpRtRALExmxAvdLv",
+    "topLevelCommentId": "xqpRtRALExmxAvdLv",
+    "contents": {
+      "markdown": "I think Plato fans would probably argue I'm being somewhat unfair. If nothing else, the society described was intended as a metaphor for the virtuous person, not necessarily as an actually good society in itself.\n\nMore relevantly, I didn't intend for this to be a major criticism of your endeavor. I think if you can avoid sexual conflict (for which I recommend celibacy on your part) this could be worthwhile for (some) people.",
+      "plaintextDescription": "I think Plato fans would probably argue I'm being somewhat unfair. If nothing else, the society described was intended as a metaphor for the virtuous person, not necessarily as an actually good society in itself.\n\nMore relevantly, I didn't intend for this to be a major criticism of your endeavor. I think if you can avoid sexual conflict (for which I recommend celibacy on your part) this could be worthwhile for (some) people."
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2017-06-02T02:03:03.335Z",
+    "af": false
+  },
+  {
+    "_id": "zxNScnXi4tNerKHjZ",
+    "postId": "23piReu6vmfskHyh7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The section on goals reminded me a little of Plato's Republic. The perfect society involves sacrificing all wealth, art, free expression, and what does it offer in return?\n\nVictory in war against similar-sized enemies.",
+      "plaintextDescription": "The section on goals reminded me a little of Plato's Republic. The perfect society involves sacrificing all wealth, art, free expression, and what does it offer in return?\n\nVictory in war against similar-sized enemies."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2017-06-01T03:07:24.362Z",
+    "af": false
+  },
+  {
+    "_id": "xfS7xHheDhXdx8XCS",
+    "postId": "23piReu6vmfskHyh7",
+    "parentCommentId": "r7hKNAysj5gAiYvSn",
+    "topLevelCommentId": "r7hKNAysj5gAiYvSn",
+    "contents": {
+      "markdown": "One idea that is probably necessary but not sufficient is for the Commander (and anyone else with any authority in the house) to have an absolute commitment not to sleep with anyone else in the house.\n\nEdit: with this rule, a different/earlier version of me might have been interested. Without it I would never be.",
+      "plaintextDescription": "One idea that is probably necessary but not sufficient is for the Commander (and anyone else with any authority in the house) to have an absolute commitment not to sleep with anyone else in the house.\n\nEdit: with this rule, a different/earlier version of me might have been interested. Without it I would never be."
+    },
+    "baseScore": 16,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2017-05-28T21:46:11.295Z",
+    "af": false
+  },
+  {
+    "_id": "EEHcARnkbv2FqqCWz",
+    "postId": "7yoRuF5v2ts2ujTsv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Cities, with their large and varied-skill workforce, will suffer less than the countryside.\n\nCities have a large and varied workforce, but many of their skills lie in things that rely on civilisation remaining intact. Tax lawyers, bartenders, yoga instructors, investment bankers etc. all seem like they would be more of a liability than an asset in such a scenario. Whereas the countryside has skills more focused around food production, and a lower population density reduces the risks of food riots.",
+      "plaintextDescription": "> Cities, with their large and varied-skill workforce, will suffer less than the countryside.\n\nCities have a large and varied workforce, but many of their skills lie in things that rely on civilisation remaining intact. Tax lawyers, bartenders, yoga instructors, investment bankers etc. all seem like they would be more of a liability than an asset in such a scenario. Whereas the countryside has skills more focused around food production, and a lower population density reduces the risks of food riots."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2017-05-07T18:51:11.552Z",
+    "af": false
+  },
+  {
+    "_id": "hotjY2kNvwv9mHsWN",
+    "postId": "Bz9SWiRfqCxoWnqMy",
+    "parentCommentId": "tG8mmrLtzfSkGYkJy",
+    "topLevelCommentId": "tG8mmrLtzfSkGYkJy",
+    "contents": {
+      "markdown": "One of the pages crashed on me. When I refreshed the page I got the next question (5) I think, and this error message.",
+      "plaintextDescription": "One of the pages crashed on me. When I refreshed the page I got the next question (5) I think, and this error message."
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2017-03-25T18:16:18.753Z",
+    "af": false
+  },
+  {
+    "_id": "gZcMgqtXQ9W4MsjvM",
+    "postId": "uC3BmqwkT8vNRd3cj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You should post this on the EA forum\n\n[http://effective-altruism.com/](http://effective-altruism.com/)",
+      "plaintextDescription": "You should post this on the EA forum\n\nhttp://effective-altruism.com/"
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2017-01-27T02:59:55.919Z",
+    "af": false
+  },
+  {
+    "_id": "f9Lyj9oTiFhW7DkuF",
+    "postId": "3zYXD8RyB6fv2czFz",
+    "parentCommentId": "35keB6XTKauW6jyjh",
+    "topLevelCommentId": "35keB6XTKauW6jyjh",
+    "contents": {
+      "markdown": "headline: CFAR considering colonizing Antarctica.",
+      "plaintextDescription": "headline: CFAR considering colonizing Antarctica."
+    },
+    "baseScore": 18,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2016-12-03T04:12:03.324Z",
+    "af": false
+  },
+  {
+    "_id": "LX6zDpFjA9SgEuY66",
+    "postId": "E6DzTk3LwreSjt3xn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hey Stuart,\n\nIt seems like much of the press around this paper discussed it as a 'big red button' to turn off a rogue AI. This would be somewhat in-line with your previous work around limited impact AIs who are indifferent to their being turned off, but it doesn't seem to really describe this paper. My interpretation of this paper is it doesn't make the AI indifferent to interruption, or prevent the AI from learning about the button - it just helps the AI avoid a particular kind of distraction during the training phase. Being able to implement the interruption is a separate issue - but it seems that designing a form of interruption that the AI won't try to avoid is the tough problem. Is this reading right, or am I missing something?",
+      "plaintextDescription": "Hey Stuart,\n\nIt seems like much of the press around this paper discussed it as a 'big red button' to turn off a rogue AI. This would be somewhat in-line with your previous work around limited impact AIs who are indifferent to their being turned off, but it doesn't seem to really describe this paper. My interpretation of this paper is it doesn't make the AI indifferent to interruption, or prevent the AI from learning about the button - it just helps the AI avoid a particular kind of distraction during the training phase. Being able to implement the interruption is a separate issue - but it seems that designing a form of interruption that the AI won't try to avoid is the tough problem. Is this reading right, or am I missing something?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2016-11-23T02:14:37.633Z",
+    "af": false
+  },
+  {
+    "_id": "gMoBy38XKMSy6GiFf",
+    "postId": "E6DzTk3LwreSjt3xn",
+    "parentCommentId": "JbpCC8Nft5YuYRA8K",
+    "topLevelCommentId": "JbpCC8Nft5YuYRA8K",
+    "contents": {
+      "markdown": "Yup, I think I understand that, and agree you need to at least tend to one. I'm just wondering why you initially use the loser definition of theta (where it doesn't need to tend to one, and can instead be just 0 )",
+      "plaintextDescription": "Yup, I think I understand that, and agree you need to at least tend to one. I'm just wondering why you initially use the loser definition of theta (where it doesn't need to tend to one, and can instead be just 0 )"
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2016-07-12T00:18:07.817Z",
+    "af": false
+  },
+  {
+    "_id": "djhLLcQ7LvrawChTw",
+    "postId": "E6DzTk3LwreSjt3xn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Very interesting paper, congratulations on the collaboration.\n\nI have a question about theta. When you initially introduce it, theta lies in \\[0,1\\]. But it seems that if you choose theta = (0n)n, just a sequence of 0s, _all_ policies are interruptible. Is there much reason to initially allow such a wide ranging theta - why not restrict them to converge to 1 from the very beginning? (Or have I just totally missed the point?)",
+      "plaintextDescription": "Very interesting paper, congratulations on the collaboration.\n\nI have a question about theta. When you initially introduce it, theta lies in [0,1]. But it seems that if you choose theta = (0n)n, just a sequence of 0s, all policies are interruptible. Is there much reason to initially allow such a wide ranging theta - why not restrict them to converge to 1 from the very beginning? (Or have I just totally missed the point?)"
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2016-07-10T03:33:57.592Z",
+    "af": false
+  },
+  {
+    "_id": "vQz5wFSB8P9GQr9tJ",
+    "postId": "cNjNQvPByroiKF6Bm",
+    "parentCommentId": "DkwyWjiSBdKGn5LBi",
+    "topLevelCommentId": "DkwyWjiSBdKGn5LBi",
+    "contents": {
+      "markdown": "Yes, I agree it's possible to do them correctly. But few people do, and finding positive results is so much more likely if you do them wrong that poor methodology should be the default explanation for any such positive result.",
+      "plaintextDescription": "Yes, I agree it's possible to do them correctly. But few people do, and finding positive results is so much more likely if you do them wrong that poor methodology should be the default explanation for any such positive result."
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2016-04-29T01:35:52.369Z",
+    "af": false
+  },
+  {
+    "_id": "8ak5xYdEre2Z5cBLG",
+    "postId": "cNjNQvPByroiKF6Bm",
+    "parentCommentId": "BxBZSrKvasndcp9yQ",
+    "topLevelCommentId": "BxBZSrKvasndcp9yQ",
+    "contents": {
+      "markdown": "They don't mention being survivorship-bias free, which I would expect them to if they were.",
+      "plaintextDescription": "They don't mention being survivorship-bias free, which I would expect them to if they were."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2016-04-27T23:42:37.943Z",
+    "af": false
+  },
+  {
+    "_id": "xTQcJuy9YtJ72iJQ9",
+    "postId": "cNjNQvPByroiKF6Bm",
+    "parentCommentId": "WvWPqdRgbcsYz5LsE",
+    "topLevelCommentId": "WvWPqdRgbcsYz5LsE",
+    "contents": {
+      "markdown": "I think this is very likely. When going to label funds, naturally currently existing ones come to mind - but these are the survivors. Failed activists funds don't leave much of a track record.",
+      "plaintextDescription": "I think this is very likely. When going to label funds, naturally currently existing ones come to mind - but these are the survivors. Failed activists funds don't leave much of a track record."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2016-04-27T00:47:58.885Z",
+    "af": false
+  },
+  {
+    "_id": "zezi8KF6Zsv25ZaYv",
+    "postId": "JBcxL6obNpcLQhNhu",
+    "parentCommentId": "Xn3t79BuhjWPz5o59",
+    "topLevelCommentId": "Xn3t79BuhjWPz5o59",
+    "contents": {
+      "markdown": "Did it work? While I would give him full credit, I can easily imagine many teachers not approving.",
+      "plaintextDescription": "Did it work? While I would give him full credit, I can easily imagine many teachers not approving."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2016-04-13T23:48:19.552Z",
+    "af": false
+  },
+  {
+    "_id": "27LXzumqx6zikGctA",
+    "postId": "9vxBrvYzdTmgJ46NX",
+    "parentCommentId": "gwWME3HGAZfEHvzXP",
+    "topLevelCommentId": "gwWME3HGAZfEHvzXP",
+    "contents": {
+      "markdown": "What do you mean by \"one handshake\"?",
+      "plaintextDescription": "What do you mean by \"one handshake\"?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2016-03-10T03:10:01.386Z",
+    "af": false
+  },
+  {
+    "_id": "QAKsZeFcqtfzPJEFC",
+    "postId": "K28wAnx52hBNw2vX4",
+    "parentCommentId": "bbgbiDhszuyw8ubf4",
+    "topLevelCommentId": "bbgbiDhszuyw8ubf4",
+    "contents": {
+      "markdown": "> The FDA will not give you a patent\n\nThe issue isn't patents (which are not awarded by the FDA anyway) but whether they will give your drug approval to market.",
+      "plaintextDescription": "> The FDA will not give you a patent\n\nThe issue isn't patents (which are not awarded by the FDA anyway) but whether they will give your drug approval to market."
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2016-03-07T03:06:39.214Z",
+    "af": false
+  },
+  {
+    "_id": "eP8rCp88exAtveKyh",
+    "postId": "nemKitXj2JiTtNruG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Has anyone been to the Young Cryonicists Gathering? Is it worth going to? Anyone planning on attending the one in California in April?\n\nPrevious coverage on LW: [positive](http://lesswrong.com/lw/1mc/normal_cryonics/) and [negative](http://lesswrong.com/lw/gys/young_cryonicist_gathering_warning/).",
+      "plaintextDescription": "Has anyone been to the Young Cryonicists Gathering? Is it worth going to? Anyone planning on attending the one in California in April?\n\nPrevious coverage on LW: positive and negative."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2015-10-27T00:06:30.149Z",
+    "af": false
+  },
+  {
+    "_id": "gqRYh7JzBnWB3BuJe",
+    "postId": "vB3odCJ9dSeSyJ3PM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In finance we use medians a lot more than means.",
+      "plaintextDescription": "In finance we use medians a lot more than means."
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2015-09-09T01:11:31.310Z",
+    "af": false
+  },
+  {
+    "_id": "Phw7wTaCjja3izmfD",
+    "postId": "PAYMMgPi2L3MPP967",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm looking to buy a sofa without flame retardants. The Center for Enviromental Health suggests that [all IKEA products are fine](http://www.ceh.org/residential-furniture/), but at least in 2012 it [seems](http://greenerpenny.blogspot.com/2010/05/toxic-fire-retardants-lurking-in.html) that they instead substituted another chemical flame retardant, [TRIS](http://foam.pratt.duke.edu/resources). Does anyone know if IKEA furniture is now chemical flame retardant free, or if there are any other good options for below $1,000 ?",
+      "plaintextDescription": "I'm looking to buy a sofa without flame retardants. The Center for Enviromental Health suggests that all IKEA products are fine, but at least in 2012 it seems that they instead substituted another chemical flame retardant, TRIS. Does anyone know if IKEA furniture is now chemical flame retardant free, or if there are any other good options for below $1,000 ?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2015-09-05T21:16:42.193Z",
+    "af": false
+  },
+  {
+    "_id": "rNAxCHjrEfGpnpwvR",
+    "postId": "rohSDYYGFeo5KTBi8",
+    "parentCommentId": "kdhT7tx4Jcci79wLJ",
+    "topLevelCommentId": "kdhT7tx4Jcci79wLJ",
+    "contents": {
+      "markdown": "US firms? Your main China exposure is going to come from your Aussie mining exposure.",
+      "plaintextDescription": "US firms? Your main China exposure is going to come from your Aussie mining exposure."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2015-09-05T21:09:12.954Z",
+    "af": false
+  },
+  {
+    "_id": "CxbmrxkB9h38bTaTY",
+    "postId": "mX8ERwj8Yy9FqkmXX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I just installed 6 apps.\n\n*   CPU Thermometer\n*   PowerCalc\n*   Advanaced Signal Status\n*   Compass\n*   First Aid (US Red Cross)\n*   Heart Rate\n\nThanks for writing this.",
+      "plaintextDescription": "I just installed 6 apps.\n\n * CPU Thermometer\n * PowerCalc\n * Advanaced Signal Status\n * Compass\n * First Aid (US Red Cross)\n * Heart Rate\n\nThanks for writing this."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2015-08-22T16:40:15.764Z",
+    "af": false
+  },
+  {
+    "_id": "hpqSdSFd4xazwFobL",
+    "postId": "AfbQiaHCuxNysgXeX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I thought the [biodeterminists guide](http://squid314.livejournal.com/346391.html) was one of the most useful things I've ever read. I'd love it if Yvain would write the same for longevity, general fitness, IQ, etc.",
+      "plaintextDescription": "I thought the biodeterminists guide was one of the most useful things I've ever read. I'd love it if Yvain would write the same for longevity, general fitness, IQ, etc."
+    },
+    "baseScore": 16,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2015-08-16T14:25:57.194Z",
+    "af": false
+  },
+  {
+    "_id": "Yzrxuh5ZkkEoMTtzb",
+    "postId": "M869MybcjrrYDNPdF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "*   Eugenics\n*   Foreign Intervention\n*   Capital Gains taxation\n*   Cryonics\n*   Temporal Discounting",
+      "plaintextDescription": " * Eugenics\n * Foreign Intervention\n * Capital Gains taxation\n * Cryonics\n * Temporal Discounting"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2015-08-08T10:08:30.106Z",
+    "af": false
+  },
+  {
+    "_id": "9EWZicSD7n8LNZ2h9",
+    "postId": "PAYMMgPi2L3MPP967",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Excelent post! Thanks for sharing.",
+      "plaintextDescription": "Excelent post! Thanks for sharing."
+    },
+    "baseScore": 3,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2015-07-18T02:12:49.316Z",
+    "af": false
+  },
+  {
+    "_id": "fa5StEc2yho4g5myP",
+    "postId": "t8krwMycPx54e4NdM",
+    "parentCommentId": "gSgbAHaYQbBPrCZve",
+    "topLevelCommentId": "gSgbAHaYQbBPrCZve",
+    "contents": {
+      "markdown": "Me too.",
+      "plaintextDescription": "Me too."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2015-07-09T22:49:32.228Z",
+    "af": false
+  },
+  {
+    "_id": "5tHDvvqq8kN6uH7us",
+    "postId": "safkZ6wbrH3qMeSmS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> saving lives and saving souls are nearly equally important.\n\nIf souls actually exist (and could go to heaven and hell) then saving souls is far more important than saving lives! Your disagreement with them is surely not about relative importance, it is about ontology.",
+      "plaintextDescription": "> saving lives and saving souls are nearly equally important.\n\nIf souls actually exist (and could go to heaven and hell) then saving souls is far more important than saving lives! Your disagreement with them is surely not about relative importance, it is about ontology."
+    },
+    "baseScore": 12,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2015-07-01T01:00:36.778Z",
+    "af": false
+  },
+  {
+    "_id": "rvxizCFJzS7Qiio6H",
+    "postId": "MPKjPMYoPo4yxbZot",
+    "parentCommentId": "3N9NWbPJbYcj8k9ad",
+    "topLevelCommentId": "3N9NWbPJbYcj8k9ad",
+    "contents": {
+      "markdown": "fbpvny pbafreingvirf",
+      "plaintextDescription": "fbpvny pbafreingvirf"
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2015-06-23T23:26:54.503Z",
+    "af": false
+  },
+  {
+    "_id": "cKpW6DhMoENDz4RJi",
+    "postId": "RBuKm8Z7PYAkbkWcr",
+    "parentCommentId": "gFHQvTfedBhhx8Zcw",
+    "topLevelCommentId": "gFHQvTfedBhhx8Zcw",
+    "contents": {
+      "markdown": "Thanks!",
+      "plaintextDescription": "Thanks!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2015-06-18T01:40:16.874Z",
+    "af": false
+  }
+]

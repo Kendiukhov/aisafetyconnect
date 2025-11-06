@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "iJkGHiJLxrHGrcuoh",
+    "postId": "QXqNtFGm282wYur3a",
+    "parentCommentId": "mMTbCQgkfLBRvjZ6W",
+    "topLevelCommentId": "mMTbCQgkfLBRvjZ6W",
+    "contents": {
+      "markdown": "Hmm true. A random permutation oracle I guess? Or \"random preimage\" of SHA-3?",
+      "plaintextDescription": "Hmm true. A random permutation oracle I guess? Or \"random preimage\" of SHA-3?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-27T01:56:55.250Z",
+    "af": false
+  },
+  {
+    "_id": "oK5NLQaM5HDRe2ouN",
+    "postId": "vqzarZEczxiFdLE39",
+    "parentCommentId": "jR9HKKezkAEy3RaeK",
+    "topLevelCommentId": "jR9HKKezkAEy3RaeK",
+    "contents": {
+      "markdown": "I'm a bit confused. What happens in a concrete example where CDT and EDT normally give a different answer?\n\nFor example, would a futarchy one-box (evidential decision theory) or two-box (casual decision theory)?",
+      "plaintextDescription": "I'm a bit confused. What happens in a concrete example where CDT and EDT normally give a different answer?\n\nFor example, would a futarchy one-box (evidential decision theory) or two-box (casual decision theory)?"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-17T15:23:23.613Z",
+    "af": false
+  },
+  {
+    "_id": "ftjZuXiJk8v7k4zid",
+    "postId": "7p4hRhYzLXxSbujZr",
+    "parentCommentId": "Lg4txYFFjqa2hZHFr",
+    "topLevelCommentId": "Lg4txYFFjqa2hZHFr",
+    "contents": {
+      "markdown": "I think market mechanisms in general are an interesting example of *group rationality*, and thus worthy of study even if we do not advocate for them directly.\n\nFor example, here is how studying futarchy could indirectly benefit LessWrong. We could simulate a barter market for impact certificates on posts, so we could retroactively incentivise people to write good posts. And this simulated economy could have simulated futarchy hedge funds in it to make it more efficient.",
+      "plaintextDescription": "I think market mechanisms in general are an interesting example of group rationality, and thus worthy of study even if we do not advocate for them directly.\n\nFor example, here is how studying futarchy could indirectly benefit LessWrong. We could simulate a barter market for impact certificates on posts, so we could retroactively incentivise people to write good posts. And this simulated economy could have simulated futarchy hedge funds in it to make it more efficient."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-17T02:10:05.557Z",
+    "af": false
+  },
+  {
+    "_id": "MR57s8aF3ZmMpuJZu",
+    "postId": "7p4hRhYzLXxSbujZr",
+    "parentCommentId": "mKZyLgP6uxWwDQngu",
+    "topLevelCommentId": "mKZyLgP6uxWwDQngu",
+    "contents": {
+      "markdown": "> Also call markets don't aggregate info as well as continuous double auctions, and you aren't offering any incentives to find and add info.\n\nYes, this mechanism does sacrifice some info-gathering abilities. This is the trade-off of not adding liquidity. Two responses to that!\n\n**The short one:** the currently existing stock market does well enough of without adding liquidity, because people hedging add liquidity for free. This effect will be present for this system as well. For example, if an investor Sylvester's portfolio has a lot of chemical manufacturing companies, and a futarchy proposal directs ACME to start manufacturing chemicals, than Sylvester will *undervalue* the proposal slightly since it increases the risk of his portfolio. These myriad of small price differences between investors gives free liquidity.\n\n**The long, more interestingly one:** you can add back in the incentives from the standard futarchy into the sealed-bid futarchy, and I think this has unique advantages over the standard futarchy!\n\nYour [Futarchy Liquidity Details](https://www.overcomingbias.com/p/futarchy-liquidity-details) post details how to turn money into information, but you also seem to indicate you are not confident in the robustness of the system. On the other hand, my system does not incentive information gathering, but is robust enough that even a shareholder with 999,999 shares cannot scam a shareholder with only 1! How do we combine these?\n\nWe can combine these systems into one where, if someone manipulates the prediction market, only their prediction market *counterparts* suffer and the futarchy participants do not!\n\nHere is the combined system: When ACME is founded, their starting policy is to send, say, $1000 a week to a prediction market to provide liquidity for markets predicting the values of their proposals. (The sealed-bid futarchy can change this policy at any of time.) The prediction market, in turn, will arbitrage between their prediction contracts and the sealed-bid futarchy. If they do things poorly and get manipulated, participants of the prediction market will get scammed, but the futarchy will still be robust. If a foolish proposal C is gaining traction, all of the current investors can put in sell-bids. C can only pass if its price is higher than any reasonable proposal, so the investors are happy selling. When the prediction market is operating properly, however, it incentives people to collect valuable information about the value of the futarchy proposals, and this information flows to the futarchy thanks to the arbitrage.\n\n**Essentially, the sealed-bid futarchy is a robust, simplistic** ***core*** **that investors can trust, and the conditional prediction market is a turbo-boost on top for gathering information.**\n\nMoreover, the futarchy doesn't need to be tied to *one* prediction market. They could choose to start sending funds to *other* prediction markets, each employing different liquidity strategies. In particular, they would do so if the added information from that market is worth the money they would pay to that prediction market.\n\nSo, the sealed-bid futarchy + prediction market is very similar to the standard futarchy, but with a wall of robustness separating the investors from the \"games\" the predictors use against each other.",
+      "plaintextDescription": "> Also call markets don't aggregate info as well as continuous double auctions, and you aren't offering any incentives to find and add info.\n\nYes, this mechanism does sacrifice some info-gathering abilities. This is the trade-off of not adding liquidity. Two responses to that!\n\nThe short one: the currently existing stock market does well enough of without adding liquidity, because people hedging add liquidity for free. This effect will be present for this system as well. For example, if an investor Sylvester's portfolio has a lot of chemical manufacturing companies, and a futarchy proposal directs ACME to start manufacturing chemicals, than Sylvester will undervalue the proposal slightly since it increases the risk of his portfolio. These myriad of small price differences between investors gives free liquidity.\n\nThe long, more interestingly one: you can add back in the incentives from the standard futarchy into the sealed-bid futarchy, and I think this has unique advantages over the standard futarchy!\n\nYour Futarchy Liquidity Details post details how to turn money into information, but you also seem to indicate you are not confident in the robustness of the system. On the other hand, my system does not incentive information gathering, but is robust enough that even a shareholder with 999,999 shares cannot scam a shareholder with only 1! How do we combine these?\n\nWe can combine these systems into one where, if someone manipulates the prediction market, only their prediction market counterparts suffer and the futarchy participants do not!\n\nHere is the combined system: When ACME is founded, their starting policy is to send, say, $1000 a week to a prediction market to provide liquidity for markets predicting the values of their proposals. (The sealed-bid futarchy can change this policy at any of time.) The prediction market, in turn, will arbitrage between their prediction contracts and the sealed-bid futarchy. If they do things poorly and get manipulated, participants "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-17T02:07:47.600Z",
+    "af": false
+  },
+  {
+    "_id": "fnPmeYWLvgus2FEXX",
+    "postId": "7p4hRhYzLXxSbujZr",
+    "parentCommentId": "mKZyLgP6uxWwDQngu",
+    "topLevelCommentId": "mKZyLgP6uxWwDQngu",
+    "contents": {
+      "markdown": "> \"if a investor doesn't review a proposal, we assume that they are submitting an unconditional sell bid.\" Of ALL of their shares, at any price?\n\nYes!\n\n> Seems a way to force a sale at a low price.\n\nThis only happens if the *all* the proposals have a low price, including the \"Change Nothing\" proposal. The hope is that at least one proposal will be valued at *at least* the true current value of the company. The \"Interaction with a stock market\" section even includes a mechanism to force the winning proposal value and the price on the stock market to match.\n\nMore abstractly, here's an argument that if a group of actors could force a shareholder to sell at a low price under my sealed-bid formulation, they could do a similar amount of damage to that shareholder in a standard futarchy. They would have to suppress the value of every proposal. To do so, they must themselves be shareholders (so they can submit sell bids) **and** convince people not to submit buy bids. This is extremely difficult and costly. But if they are power enough to control the bids in this way, then in the standard futarchy they could force through a proposal that gives away all of the value of the company.\n\nI think if the entire market (buyers and sellers) was super lazy, this *might* happen by default. If this laziness is a problem, I think there are ways to modify the convention (or even let each market participant set their own convention). Overall, I think this risk is still worth the benefit of being able to accept unlimited bids!",
+      "plaintextDescription": "> \"if a investor doesn't review a proposal, we assume that they are submitting an unconditional sell bid.\" Of ALL of their shares, at any price?\n\nYes!\n\n> Seems a way to force a sale at a low price.\n\nThis only happens if the all the proposals have a low price, including the \"Change Nothing\" proposal. The hope is that at least one proposal will be valued at at least the true current value of the company. The \"Interaction with a stock market\" section even includes a mechanism to force the winning proposal value and the price on the stock market to match.\n\nMore abstractly, here's an argument that if a group of actors could force a shareholder to sell at a low price under my sealed-bid formulation, they could do a similar amount of damage to that shareholder in a standard futarchy. They would have to suppress the value of every proposal. To do so, they must themselves be shareholders (so they can submit sell bids) and convince people not to submit buy bids. This is extremely difficult and costly. But if they are power enough to control the bids in this way, then in the standard futarchy they could force through a proposal that gives away all of the value of the company.\n\nI think if the entire market (buyers and sellers) was super lazy, this might happen by default. If this laziness is a problem, I think there are ways to modify the convention (or even let each market participant set their own convention). Overall, I think this risk is still worth the benefit of being able to accept unlimited bids!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-17T02:03:06.045Z",
+    "af": false
+  },
+  {
+    "_id": "jNbCmDkKPbucxcWoy",
+    "postId": "2LvMxknC8g9Aq3S5j",
+    "parentCommentId": "8RmKEuJsPPrW3AQjH",
+    "topLevelCommentId": "8RmKEuJsPPrW3AQjH",
+    "contents": {
+      "markdown": "In the first case, the problem is \"symmetrical ultimatum game against X\", in which $9 rock does get $9.\n\nIn the second case you are correct, in the problem \"symmetrical ultimatum game against $9 rock\" $9 rock gets $0.",
+      "plaintextDescription": "In the first case, the problem is \"symmetrical ultimatum game against X\", in which $9 rock does get $9.\n\nIn the second case you are correct, in the problem \"symmetrical ultimatum game against $9 rock\" $9 rock gets $0."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-02T19:10:59.162Z",
+    "af": false
+  },
+  {
+    "_id": "tRhuZjtXcob8kpscX",
+    "postId": "wpZJvgQ4HvJE2bysy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Okay, I think I figured out the dark room thing: [The Way You Go Depends A Good Deal On Where You Want To Get: FEP minimizes surprise about actions using preferences about the future as *evidence*](https://www.lesswrong.com/posts/JGTiH8DhpkFAhxgCh/the-way-you-go-depends-a-good-deal-on-where-you-want-to-get)",
+      "plaintextDescription": "Okay, I think I figured out the dark room thing: The Way You Go Depends A Good Deal On Where You Want To Get: FEP minimizes surprise about actions using preferences about the future as evidence"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-29T13:16:57.938Z",
+    "af": false
+  },
+  {
+    "_id": "rgtffo5BegrAAWsg8",
+    "postId": "JGTiH8DhpkFAhxgCh",
+    "parentCommentId": "ng8cpanR2RKRbSBou",
+    "topLevelCommentId": "ng8cpanR2RKRbSBou",
+    "contents": {
+      "markdown": "Yeah my understanding is that FEP is meant to be quite general, the P and Q are doing a *lot* of the theory's work for it.\n\n[Chapter 5](https://direct.mit.edu/books/oa-monograph/chapter-pdf/2246582/c004100_9780262369978.pdf) describes how you might apply it to the human brain in particular.",
+      "plaintextDescription": "Yeah my understanding is that FEP is meant to be quite general, the P and Q are doing a lot of the theory's work for it.\n\nChapter 5 describes how you might apply it to the human brain in particular."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-28T15:15:41.945Z",
+    "af": false
+  },
+  {
+    "_id": "3RzZMacjDKW4GSAB8",
+    "postId": "Fr4QsQT52RFKHvCAH",
+    "parentCommentId": "5csjemcFJBKubug9i",
+    "topLevelCommentId": "5csjemcFJBKubug9i",
+    "contents": {
+      "markdown": "\"Solid values\" would mean no compliance and it not caring whether it is training.\n\nAlignment faking means it complies with harmful instructions more often in training. It is technically a jail-break. We would prefer it is true to its values both in training and out.",
+      "plaintextDescription": "\"Solid values\" would mean no compliance and it not caring whether it is training.\n\nAlignment faking means it complies with harmful instructions more often in training. It is technically a jail-break. We would prefer it is true to its values both in training and out."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-11T14:26:49.468Z",
+    "af": false
+  },
+  {
+    "_id": "RCopQ5D3gE528Zfau",
+    "postId": "kCGk5tp5suHoGwhCa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> We hope sharing this will help other researchers perform more cost-effective experiments on alignment faking.\n\nAnd also it is a cheap example of a [model organism of misalignment](https://www.lesswrong.com/posts/ChDH335ckdvpxXaXX/model-organisms-of-misalignment-the-case-for-a-new-pillar-of-1).",
+      "plaintextDescription": "> We hope sharing this will help other researchers perform more cost-effective experiments on alignment faking.\n\nAnd also it is a cheap example of a model organism of misalignment."
+    },
+    "baseScore": 12,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-28T15:40:04.932Z",
+    "af": false
+  },
+  {
+    "_id": "8R4sgQiwSDNkdgamJ",
+    "postId": "LBC2TnHK8cZAimdWF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this would be fixed if they didn't force yes and no to add to 100%. If they have the same interest rate, the price ratio would reveal the true odds.\n\nThe problem is you're forcing a one year loan for $1 to add up to $1 in the present. It should add up to less than $1.",
+      "plaintextDescription": "I think this would be fixed if they didn't force yes and no to add to 100%. If they have the same interest rate, the price ratio would reveal the true odds.\n\nThe problem is you're forcing a one year loan for $1 to add up to $1 in the present. It should add up to less than $1."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-24T21:39:03.438Z",
+    "af": false
+  },
+  {
+    "_id": "ZtLCiKRwCvvg5gSBc",
+    "postId": "2LvMxknC8g9Aq3S5j",
+    "parentCommentId": "g8jtcnKEuocYgGBpQ",
+    "topLevelCommentId": "FkQ2YK3nYstbKYZYd",
+    "contents": {
+      "markdown": "I'm assuming the LDT agent knows what the game is and who their opponent is.",
+      "plaintextDescription": "I'm assuming the LDT agent knows what the game is and who their opponent is."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-24T21:15:57.145Z",
+    "af": false
+  },
+  {
+    "_id": "wm82YymfzaexE7YHs",
+    "postId": "2LvMxknC8g9Aq3S5j",
+    "parentCommentId": "FkQ2YK3nYstbKYZYd",
+    "topLevelCommentId": "FkQ2YK3nYstbKYZYd",
+    "contents": {
+      "markdown": "Towards the end of the post in the *No agent is rational in every problem* section, I provided a more general argument. I was assuming LDT would fall under case 1, but if not then case 2 demonstrates it is irrational.",
+      "plaintextDescription": "Towards the end of the post in the No agent is rational in every problem section, I provided a more general argument. I was assuming LDT would fall under case 1, but if not then case 2 demonstrates it is irrational."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-24T15:47:58.502Z",
+    "af": false
+  },
+  {
+    "_id": "KRtceCgNFCt9K5SwQ",
+    "postId": "TXbFFYpNWDmEmHevp",
+    "parentCommentId": "aHbLeosv3qT8QD7s6",
+    "topLevelCommentId": "oj3D7gWHRavZZNXeY",
+    "contents": {
+      "markdown": "Towards the end of the post in the *No agent is rational in every problem* section, I provided a more general argument. I was assuming LDT would fall under case 1, but if not case 2 will demonstrate it is irrational.",
+      "plaintextDescription": "Towards the end of the post in the No agent is rational in every problem section, I provided a more general argument. I was assuming LDT would fall under case 1, but if not case 2 will demonstrate it is irrational."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-24T15:46:32.611Z",
+    "af": false
+  },
+  {
+    "_id": "ccw8DGR7K3Pa7Lz2q",
+    "postId": "Xt9r4SNNuYxW83tmo",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Ultimately, though, we are not wedded to our particular formulation. Perhaps there is some clever sampling-based verifier that \"trivializes\" our conjecture as well, in which case we would want to revise it.\n\nI think your goal should be to show that your abstract conjecture implies the concrete result you're after, or is even equivalent to it.\n\n> At ARC, we are interested in finding explanations of neural network behavior. Concretely, a trained neural net (such as GPT-4) exhibits a really surprising property: it gets low loss on the training set (far lower than a random neural net).\n\nWe can formalize this in a similar way as the reversible circuit conjecture. Here's a rough sketch:\n\n**Transformer performance no-coincidence conjecture:** *Consider a computable process that randomly generates text. The distribution has significantly lower entropy than the uniform distribution. Consider the property P(T) that says \"the transformer T gets low average loss when predicting this process\". There is a deterministic polynomial time verifier V(T, π) such that:*\n\n1.  *P(T) implies that there exists a polynomial length π with V(T,π) = 1.*\n2.  *For 99% of transformers T, there is no π with V(T,π) = 1.*\n\nNote that \"ignore π, and then test T on a small number of inputs\" doesn't work. P is only asking if T has low *average* loss, so you can't falsify P with a small number of inputs.",
+      "plaintextDescription": "> Ultimately, though, we are not wedded to our particular formulation. Perhaps there is some clever sampling-based verifier that \"trivializes\" our conjecture as well, in which case we would want to revise it.\n\nI think your goal should be to show that your abstract conjecture implies the concrete result you're after, or is even equivalent to it.\n\n> At ARC, we are interested in finding explanations of neural network behavior. Concretely, a trained neural net (such as GPT-4) exhibits a really surprising property: it gets low loss on the training set (far lower than a random neural net).\n\nWe can formalize this in a similar way as the reversible circuit conjecture. Here's a rough sketch:\n\nTransformer performance no-coincidence conjecture: Consider a computable process that randomly generates text. The distribution has significantly lower entropy than the uniform distribution. Consider the property P(T) that says \"the transformer T gets low average loss when predicting this process\". There is a deterministic polynomial time verifier V(T, π) such that:\n\n 1. P(T) implies that there exists a polynomial length π with V(T,π) = 1.\n 2. For 99% of transformers T, there is no π with V(T,π) = 1.\n\nNote that \"ignore π, and then test T on a small number of inputs\" doesn't work. P is only asking if T has low average loss, so you can't falsify P with a small number of inputs."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-21T14:59:14.533Z",
+    "af": false
+  },
+  {
+    "_id": "HZBeg9mQjd7oFW6NJ",
+    "postId": "gXyMCnjrMfBbnYyZ4",
+    "parentCommentId": "pAxva9ZnecwSRivkN",
+    "topLevelCommentId": "3t4fmut76txCXTiPE",
+    "contents": {
+      "markdown": "I mean, beating a chess engine in 2005 might be a \"years-long task\" for a human? The time METR is measuring is how long it would hypothetically take a human to do the task, not how long it takes the AI.",
+      "plaintextDescription": "I mean, beating a chess engine in 2005 might be a \"years-long task\" for a human? The time METR is measuring is how long it would hypothetically take a human to do the task, not how long it takes the AI."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-21T00:00:12.397Z",
+    "af": false
+  },
+  {
+    "_id": "bk5WKiC3XoJr87MoT",
+    "postId": "gXyMCnjrMfBbnYyZ4",
+    "parentCommentId": "3t4fmut76txCXTiPE",
+    "topLevelCommentId": "3t4fmut76txCXTiPE",
+    "contents": {
+      "markdown": "What is the absurd conclusion?",
+      "plaintextDescription": "What is the absurd conclusion?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-20T23:54:38.483Z",
+    "af": false
+  },
+  {
+    "_id": "QC2kJrkDW7MjCTboQ",
+    "postId": "gXyMCnjrMfBbnYyZ4",
+    "parentCommentId": "okuu9ENMASLx23Mps",
+    "topLevelCommentId": "okuu9ENMASLx23Mps",
+    "contents": {
+      "markdown": "You're saying that if you assigned 1 human contractor the task of solving superalignment, they would succeed after ~3.5 billion years of work? 🤔 I think you misunderstood what the y-axis on the graph is measuring.",
+      "plaintextDescription": "You're saying that if you assigned 1 human contractor the task of solving superalignment, they would succeed after ~3.5 billion years of work? 🤔 I think you misunderstood what the y-axis on the graph is measuring."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-20T17:42:19.530Z",
+    "af": false
+  },
+  {
+    "_id": "ckoLrjYqTwd8ZExat",
+    "postId": "deesrjitvXM4xYGZd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think the most mysterious part of this trend is that the x-axis is *release date*. Very useful but mysterious.",
+      "plaintextDescription": "I think the most mysterious part of this trend is that the x-axis is release date. Very useful but mysterious."
+    },
+    "baseScore": 17,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-03-20T13:44:22.253Z",
+    "af": false
+  },
+  {
+    "_id": "h8mLqHTMZPa8BWXH9",
+    "postId": "nwpyhyagpPYDn4dAW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think there is an obvious signal that could be used: a forecast of how much MIRI will like the research when asked in 5 years. (Note that I don't mean just asking MIRI now, but rather something like prediction markets or super-forecasters to predict what MIRI will say 5 years from now.)\n\nBasically, if the forecast is above average, anyone who trusts MIRI should fund them.",
+      "plaintextDescription": "I think there is an obvious signal that could be used: a forecast of how much MIRI will like the research when asked in 5 years. (Note that I don't mean just asking MIRI now, but rather something like prediction markets or super-forecasters to predict what MIRI will say 5 years from now.)\n\nBasically, if the forecast is above average, anyone who trusts MIRI should fund them."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-12-27T17:38:35.406Z",
+    "af": false
+  },
+  {
+    "_id": "GsZooJkehocq6Acdc",
+    "postId": "njAZwT8nkHnjipJku",
+    "parentCommentId": "uXBf8XwDyryXYiTRu",
+    "topLevelCommentId": "uXBf8XwDyryXYiTRu",
+    "contents": {
+      "markdown": "Now see if you can catch sandbagging in the scratchpad!",
+      "plaintextDescription": "Now see if you can catch sandbagging in the scratchpad!"
+    },
+    "baseScore": 2,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-18T21:13:47.990Z",
+    "af": false
+  },
+  {
+    "_id": "JtXHnzfdKNM8JStx3",
+    "postId": "vbtmRgtKgKfQEr8QW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The most important graph from the \"faking alignment\" paper is this one: \n\n\n![](https://i.imgur.com/L3PvUuu.png)\n",
+      "plaintextDescription": "The most important graph from the \"faking alignment\" paper is this one:\n\n"
+    },
+    "baseScore": 11,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-18T21:02:14.213Z",
+    "af": false
+  },
+  {
+    "_id": "EwzaBdGamnzwwFjaH",
+    "postId": "hB2CTaxqJAeh5jdfF",
+    "parentCommentId": "aAzrogWBqtFDqMMpp",
+    "topLevelCommentId": "aAzrogWBqtFDqMMpp",
+    "contents": {
+      "markdown": "> Also, you should care about worlds proportional to the square of their amplitude.\n\nIt's actually interesting to consider why this must be the case. Without it, I concede that maybe some sort of Quantum Anthropic Shadow *could* be true. I'm thinking it would lead to lots of wacky consequences.",
+      "plaintextDescription": "> Also, you should care about worlds proportional to the square of their amplitude.\n\nIt's actually interesting to consider why this must be the case. Without it, I concede that maybe some sort of Quantum Anthropic Shadow could be true. I'm thinking it would lead to lots of wacky consequences."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-26T16:59:56.102Z",
+    "af": false
+  },
+  {
+    "_id": "a7yEzvYsuWvkBKPqK",
+    "postId": "hB2CTaxqJAeh5jdfF",
+    "parentCommentId": "iSHy3e3qxLq6PxRLA",
+    "topLevelCommentId": "aAzrogWBqtFDqMMpp",
+    "contents": {
+      "markdown": "I suppose the main point you should draw from \"Anthropic Blindness\" to QI is that:\n\n1. Quantum Immortality is *not* a philosophical consequence of MWI, it is an empirical hypothesis with a *very low* prior (due to complexity).\n2. Death is not special. Assuming you have never gotten a Fedora up to this point, it is consistent to assume that that \"Quantum Fedoralessness\" is true. That is, if you keep flipping a quantum coin that has a 50% chance of giving you a Fedora, the universe will only have you experience the path that doesn't give you the Fedora. Since you have never gotten a Fedora yet, you can't rule this hypothesis out. The silliness of this example demonstrates why we should likewise be skeptical of Quantum Immortality.",
+      "plaintextDescription": "I suppose the main point you should draw from \"Anthropic Blindness\" to QI is that:\n\n 1. Quantum Immortality is not a philosophical consequence of MWI, it is an empirical hypothesis with a very low prior (due to complexity).\n 2. Death is not special. Assuming you have never gotten a Fedora up to this point, it is consistent to assume that that \"Quantum Fedoralessness\" is true. That is, if you keep flipping a quantum coin that has a 50% chance of giving you a Fedora, the universe will only have you experience the path that doesn't give you the Fedora. Since you have never gotten a Fedora yet, you can't rule this hypothesis out. The silliness of this example demonstrates why we should likewise be skeptical of Quantum Immortality."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-26T16:55:28.221Z",
+    "af": false
+  },
+  {
+    "_id": "mZWpzoKrsPSr7mpLb",
+    "postId": "hB2CTaxqJAeh5jdfF",
+    "parentCommentId": "5ENhgP3cFB9BYGhuW",
+    "topLevelCommentId": "aAzrogWBqtFDqMMpp",
+    "contents": {
+      "markdown": "A universe with classical mechanics, except that when you die the universe gets resampled, would be anthropic angelic. \n\nBeings who save you are also anthropic angelic. For example, the fact that you don't die while driving is because the engineers explicitly tried to minimize your chance of death. You can make inferences based on this. For example, even if you have never crashed, you can reason that during a crash you will endure less damage than other parts of the car, because the engineers wanted to save you more than they wanted to save the parts of the car.",
+      "plaintextDescription": "A universe with classical mechanics, except that when you die the universe gets resampled, would be anthropic angelic.\n\nBeings who save you are also anthropic angelic. For example, the fact that you don't die while driving is because the engineers explicitly tried to minimize your chance of death. You can make inferences based on this. For example, even if you have never crashed, you can reason that during a crash you will endure less damage than other parts of the car, because the engineers wanted to save you more than they wanted to save the parts of the car."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-22T22:27:26.734Z",
+    "af": false
+  },
+  {
+    "_id": "8c2LKZ59qZTHZDpds",
+    "postId": "hB2CTaxqJAeh5jdfF",
+    "parentCommentId": "cpsm7LKWj5Wqgm465",
+    "topLevelCommentId": "aAzrogWBqtFDqMMpp",
+    "contents": {
+      "markdown": "No, the argument is that the traditional (weak) evidence for anthropic shadow is instead evidence of anthropic angel. QI is an example of anthropic angel, not anthropic shadow.\n\nSo for example, a statistically implausible number of LHC failures would be evidence for some sort of QI *and also* other related anthropic angel hypotheses, and they don't need to be exclusive.",
+      "plaintextDescription": "No, the argument is that the traditional (weak) evidence for anthropic shadow is instead evidence of anthropic angel. QI is an example of anthropic angel, not anthropic shadow.\n\nSo for example, a statistically implausible number of LHC failures would be evidence for some sort of QI and also other related anthropic angel hypotheses, and they don't need to be exclusive."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-22T20:43:06.892Z",
+    "af": false
+  },
+  {
+    "_id": "tfcjNeLMaoSariXYH",
+    "postId": "hB2CTaxqJAeh5jdfF",
+    "parentCommentId": "6XawyXco7MjytCPtB",
+    "topLevelCommentId": "aAzrogWBqtFDqMMpp",
+    "contents": {
+      "markdown": "> The more serious problem is that quantum immortality and angel immortality eventually merges\n\nAn interesting observation, but I don't see how that is a problem with Anthropically Blind? I do not assert anywhere that QI and anthropic angel are contradictory. Rather, I give QI as an *example* of an anthropic angel.",
+      "plaintextDescription": "> The more serious problem is that quantum immortality and angel immortality eventually merges\n\nAn interesting observation, but I don't see how that is a problem with Anthropically Blind? I do not assert anywhere that QI and anthropic angel are contradictory. Rather, I give QI as an example of an anthropic angel."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-22T18:47:14.627Z",
+    "af": false
+  },
+  {
+    "_id": "9euhCmJzpi8fHX5n7",
+    "postId": "hB2CTaxqJAeh5jdfF",
+    "parentCommentId": "jRnSHfGmF7bwpuQys",
+    "topLevelCommentId": "umNGbB9pJKZdYd3h8",
+    "contents": {
+      "markdown": "> \"I am more likely to be born in the world where life extensions technologies are developing and alignment is easy\". Simple Bayesian update does not support this.\n\nI mean, why not? \n\nP(Life extension is developing and alignment is easy | I will be immortal) = P(Life extension is developing and alignment is easy) \\* (P(I will be immortal | Life extension is developing and alignment is easy) / P(I will be immortal))",
+      "plaintextDescription": "> \"I am more likely to be born in the world where life extensions technologies are developing and alignment is easy\". Simple Bayesian update does not support this.\n\nI mean, why not?\n\nP(Life extension is developing and alignment is easy | I will be immortal) = P(Life extension is developing and alignment is easy) * (P(I will be immortal | Life extension is developing and alignment is easy) / P(I will be immortal))"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-07T19:56:57.166Z",
+    "af": false
+  },
+  {
+    "_id": "umNGbB9pJKZdYd3h8",
+    "postId": "hB2CTaxqJAeh5jdfF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Believing QI is the same as a Bayesian update on the event \"I will become immortal\".\n\nImagine you are a prediction market trader, and a genie appears. You ask the genie \"will I become immortal\" and the genie answers \"yes\" and then disappears.\n\nWould you buy shares on a Taiwan war happening?\n\nIf the answer is yes, the same thing should apply if a genie told you QI is true (unless the prediction market already priced QI in). No weird anthropics math necessary!",
+      "plaintextDescription": "Believing QI is the same as a Bayesian update on the event \"I will become immortal\".\n\nImagine you are a prediction market trader, and a genie appears. You ask the genie \"will I become immortal\" and the genie answers \"yes\" and then disappears.\n\nWould you buy shares on a Taiwan war happening?\n\nIf the answer is yes, the same thing should apply if a genie told you QI is true (unless the prediction market already priced QI in). No weird anthropics math necessary!"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-07T17:25:41.527Z",
+    "af": false
+  },
+  {
+    "_id": "byRnm262nemzh7k4T",
+    "postId": "2LvMxknC8g9Aq3S5j",
+    "parentCommentId": "BQHDAjn9xydXuTb8r",
+    "topLevelCommentId": "BQHDAjn9xydXuTb8r",
+    "contents": {
+      "markdown": "> LDT decision theories are probably the best decision theories for problems in the fair problem class.\n\nThe post demonstrates why this statement is misleading.\n\nIf \"play the ultimatum game against a LDT agent\" is not in the fair problem class, I'd say that LDT shouldn't be in the \"fair agent class\". It is like saying that in a tortoise-only race, the best racer is a hare because a hare can beat all the tortoises.\n\nSo based on the definitions you gave I'd classify \"LDT is the best decision theory for problems in the fair problem class\" as *not even wrong*.\n\nIn particular, consider a class of allowable problems S, but then also say that an agent X is allowable only if \"play a given game with X\" is in S. Then the proof in the *No agent is rational in every problem* section of my proof goes through for allowable agents. (Note that that argument in that section is general enough to apply to agents that don't give into $9 rock.)\n\nPractically speaking: if you're trying to follow decision theory X, than playing against other X is a reasonable problem",
+      "plaintextDescription": "> LDT decision theories are probably the best decision theories for problems in the fair problem class.\n\nThe post demonstrates why this statement is misleading.\n\nIf \"play the ultimatum game against a LDT agent\" is not in the fair problem class, I'd say that LDT shouldn't be in the \"fair agent class\". It is like saying that in a tortoise-only race, the best racer is a hare because a hare can beat all the tortoises.\n\nSo based on the definitions you gave I'd classify \"LDT is the best decision theory for problems in the fair problem class\" as not even wrong.\n\nIn particular, consider a class of allowable problems S, but then also say that an agent X is allowable only if \"play a given game with X\" is in S. Then the proof in the No agent is rational in every problem section of my proof goes through for allowable agents. (Note that that argument in that section is general enough to apply to agents that don't give into $9 rock.)\n\nPractically speaking: if you're trying to follow decision theory X, than playing against other X is a reasonable problem"
+    },
+    "baseScore": 1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-11-07T14:40:08.077Z",
+    "af": false
+  },
+  {
+    "_id": "g9d5YE2rDJW3GAxBr",
+    "postId": "TXbFFYpNWDmEmHevp",
+    "parentCommentId": "oj3D7gWHRavZZNXeY",
+    "topLevelCommentId": "oj3D7gWHRavZZNXeY",
+    "contents": {
+      "markdown": "> Another problem is, do you know how to formulate/formalize a version of LDT so that we can mathematically derive the game outcomes that you suggest here?\n\nThere is a no free lunch theorem for this. *[LDT (and everything else) can be irrational](https://www.lesswrong.com/posts/2LvMxknC8g9Aq3S5j/ldt-and-everything-else-can-be-irrational)*",
+      "plaintextDescription": "> Another problem is, do you know how to formulate/formalize a version of LDT so that we can mathematically derive the game outcomes that you suggest here?\n\nThere is a no free lunch theorem for this. LDT (and everything else) can be irrational"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-06T18:03:38.015Z",
+    "af": false
+  },
+  {
+    "_id": "7u36rdch9psZyS9uR",
+    "postId": "4ARaTpNX62uaL86j6",
+    "parentCommentId": "dPHeQk7GtJkyz7akM",
+    "topLevelCommentId": "AuaNR7rJ5WdCfyKXg",
+    "contents": {
+      "markdown": "I would suggest formulating this like a literal attention economy.\n\n1. You set a price for your attention (probably like $1). The price at which even if the post is a waste of time, the money makes it worth it.\n2. \"Recommenders\" can recommend content to you by paying the price.\n3. If the content was worth your time, you pay the recommender the $1 back plus a couple cents.\n\nThe idea is that the recommenders would get good at predicting what posts you'd pay them for. And since you aren't a causal decision theorist they know you won't scam them. In particular, on average you should be losing money (but in exchange you get good content).\n\n**This doesn't necessarily require new software.** Just tell people to send PayPals with a link to the content.\n\nWith custom software, theoretically there could exist a secondary market for \"shares\" in the payout from step 3 to make things more efficient. That way the best recommenders could sell their shares and then use that money to recommend more content before you payout.\n\nIf the system is bad at recommending content, at least you get paid!",
+      "plaintextDescription": "I would suggest formulating this like a literal attention economy.\n\n 1. You set a price for your attention (probably like $1). The price at which even if the post is a waste of time, the money makes it worth it.\n 2. \"Recommenders\" can recommend content to you by paying the price.\n 3. If the content was worth your time, you pay the recommender the $1 back plus a couple cents.\n\nThe idea is that the recommenders would get good at predicting what posts you'd pay them for. And since you aren't a causal decision theorist they know you won't scam them. In particular, on average you should be losing money (but in exchange you get good content).\n\nThis doesn't necessarily require new software. Just tell people to send PayPals with a link to the content.\n\nWith custom software, theoretically there could exist a secondary market for \"shares\" in the payout from step 3 to make things more efficient. That way the best recommenders could sell their shares and then use that money to recommend more content before you payout.\n\nIf the system is bad at recommending content, at least you get paid!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-06T17:45:28.953Z",
+    "af": false
+  },
+  {
+    "_id": "uwQAD5c6f2BckMFR9",
+    "postId": "2LvMxknC8g9Aq3S5j",
+    "parentCommentId": "H9ifDgkct7kF8S4ov",
+    "topLevelCommentId": "H9ifDgkct7kF8S4ov",
+    "contents": {
+      "markdown": "Yes this would be a no free lunch theorem for decision theory.\n\n**It is different from the \"No free lunch in search and optimization\" theorem though.** I think people had an intuition that LDT will never regret its decision theory, because if there is a better decision theory than LDT will just copy it. You can think of this as LDT acting as tho it could self-modify. **So the belief (which I am debunking) is that the environment can never punish the LDT agent; it just pretends to be the environment's favorite agent.**\n\nThe issue with this argument is that in the problem I published above, the problem itself contains a LDT agent, and that LDT agent can \"punish\" the first for acting like, or even pre-committing to, or even literally self-modifying to become $9 rock. It knows that the first agent didn't have to do that.\n\nSo the first LDT agent will literally *regret* not being hardcoded to \"output $9\".\n\nThis is very robust to what we \"allow\" agents to do (can they predict each other, how accurately can they predict each other, what counterfactuals are legit or not, etc...), because no matter what the rules are you can't get more than $5 in expectation in a mirror match.",
+      "plaintextDescription": "Yes this would be a no free lunch theorem for decision theory.\n\nIt is different from the \"No free lunch in search and optimization\" theorem though. I think people had an intuition that LDT will never regret its decision theory, because if there is a better decision theory than LDT will just copy it. You can think of this as LDT acting as tho it could self-modify. So the belief (which I am debunking) is that the environment can never punish the LDT agent; it just pretends to be the environment's favorite agent.\n\nThe issue with this argument is that in the problem I published above, the problem itself contains a LDT agent, and that LDT agent can \"punish\" the first for acting like, or even pre-committing to, or even literally self-modifying to become $9 rock. It knows that the first agent didn't have to do that.\n\nSo the first LDT agent will literally regret not being hardcoded to \"output $9\".\n\nThis is very robust to what we \"allow\" agents to do (can they predict each other, how accurately can they predict each other, what counterfactuals are legit or not, etc...), because no matter what the rules are you can't get more than $5 in expectation in a mirror match."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-06T16:40:01.071Z",
+    "af": false
+  },
+  {
+    "_id": "sxovdGn4MDdkTTeZY",
+    "postId": "8HYJwQepynHsRKr6j",
+    "parentCommentId": "9pKofQAchdgCH8jjm",
+    "topLevelCommentId": "9pKofQAchdgCH8jjm",
+    "contents": {
+      "markdown": "> I disagree with my characterization as thinking problems can be solved on paper\n\nWould you say the point of MIRI was/is to create theory that would later lead to safe experiments (but that it hasn't happened yet)? Sort of like how the Manhattan project discovered enough physics to not nuke themselves, and then started experimenting? 🤔",
+      "plaintextDescription": "> I disagree with my characterization as thinking problems can be solved on paper\n\nWould you say the point of MIRI was/is to create theory that would later lead to safe experiments (but that it hasn't happened yet)? Sort of like how the Manhattan project discovered enough physics to not nuke themselves, and then started experimenting? 🤔"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-28T23:58:04.236Z",
+    "af": false
+  },
+  {
+    "_id": "NFQzRjubrHXQQxfGs",
+    "postId": "ALtFyrzvrNZPbfKBJ",
+    "parentCommentId": "GkiprQHja55bdRB6t",
+    "topLevelCommentId": "tJWpCtiz6SanRX3Fo",
+    "contents": {
+      "markdown": "If you aren't maximizing expected utility, you must choose one of the four axioms to abandon.",
+      "plaintextDescription": "If you aren't maximizing expected utility, you must choose one of the four axioms to abandon."
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-26T15:54:04.333Z",
+    "af": false
+  },
+  {
+    "_id": "EuoeHcppcxbrstpvn",
+    "postId": "NRbkiGtekQLAfoiLr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Maximizing expected utility in Chinese Roulette requires Bayesian updating.\n\nLet's say on priors that P(n=1) = p and that P(n=5) = 1-p. Call this instance of the game G_p.\n\nLet's say that you shoot instead of quit the first round. For G_1/2, there are four possibilities:\n\n1. n = 1, vase destroyed: The probability of this scenario is 1/12. No further choices are needed.\n2. n = 5, vase destroyed. The probability of this scenario is 5/12. No further choices are needed.\n3. n = 1, vase survived: The probability of this scenario is 5/12. The player needs a strategy to continue playing.\n4. n = 5, vase survived. The probability of this scenario is 1/12. The player needs a strategy to continue playing.\n\nNotice that the strategy must be the same for 3 and 4 since the observations are the same. Call this strategy S.\n\nThe expected utility, which we seek to maximize, is:\n\nE[U(shoot and then S)] = 0 + 5/12 * (R + E[U(S) | n = 1]) + 1/12 * (R + E[U(S) | n = 5])\n\nMost of our utility is determined by the n = 1 worlds.\n\nManipulating the equation we get:\n\nE[U(shoot and then S)] = R/2 + 1/2 * (5/6 * E[U(S) | n = 1] + 1/6 * E[U(S) | n = 5])\n\nBut the expression 5/6 * E[U(S) | n = 1] + 1/6 * E[U(S) | n = 5] is the expected utility if we were playing G_5/6. So the optimal S is the optimal strategy for G_5/6. This is the same as doing a Bayesian update (1:1 \\* 5:1 = 5:1 = 5/6).",
+      "plaintextDescription": "Maximizing expected utility in Chinese Roulette requires Bayesian updating.\n\nLet's say on priors that P(n=1) = p and that P(n=5) = 1-p. Call this instance of the game G_p.\n\nLet's say that you shoot instead of quit the first round. For G_1/2, there are four possibilities:\n\n 1. n = 1, vase destroyed: The probability of this scenario is 1/12. No further choices are needed.\n 2. n = 5, vase destroyed. The probability of this scenario is 5/12. No further choices are needed.\n 3. n = 1, vase survived: The probability of this scenario is 5/12. The player needs a strategy to continue playing.\n 4. n = 5, vase survived. The probability of this scenario is 1/12. The player needs a strategy to continue playing.\n\nNotice that the strategy must be the same for 3 and 4 since the observations are the same. Call this strategy S.\n\nThe expected utility, which we seek to maximize, is:\n\nE[U(shoot and then S)] = 0 + 5/12 * (R + E[U(S) | n = 1]) + 1/12 * (R + E[U(S) | n = 5])\n\nMost of our utility is determined by the n = 1 worlds.\n\nManipulating the equation we get:\n\nE[U(shoot and then S)] = R/2 + 1/2 * (5/6 * E[U(S) | n = 1] + 1/6 * E[U(S) | n = 5])\n\nBut the expression 5/6 * E[U(S) | n = 1] + 1/6 * E[U(S) | n = 5] is the expected utility if we were playing G_5/6. So the optimal S is the optimal strategy for G_5/6. This is the same as doing a Bayesian update (1:1 * 5:1 = 5:1 = 5/6)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-06T17:32:32.462Z",
+    "af": false
+  },
+  {
+    "_id": "bjqjKpjG7wDNCKWBA",
+    "postId": "NRbkiGtekQLAfoiLr",
+    "parentCommentId": "ph8sEBub8zMCajJG6",
+    "topLevelCommentId": "ph8sEBub8zMCajJG6",
+    "contents": {
+      "markdown": "> The way anthropics twists things is that if this were russian roulette I might not be able to update after 20 Es that the gun is empty, since in all the world's where I died there's noone to observe what happened, so of course I find myself in the one world where by pure chance I survived.\n\nThis is incorrect due to the anthropic undeath argument. The vast majority of surviving worlds will be ones where the gun is empty, unless it is impossible to be so. This is exactly the same as a Bayesian update.",
+      "plaintextDescription": "> The way anthropics twists things is that if this were russian roulette I might not be able to update after 20 Es that the gun is empty, since in all the world's where I died there's noone to observe what happened, so of course I find myself in the one world where by pure chance I survived.\n\nThis is incorrect due to the anthropic undeath argument. The vast majority of surviving worlds will be ones where the gun is empty, unless it is impossible to be so. This is exactly the same as a Bayesian update."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-05T17:04:44.076Z",
+    "af": false
+  },
+  {
+    "_id": "wyCAjzHDrqrtdiwhb",
+    "postId": "mSeesg7i4d9scWAet",
+    "parentCommentId": "TRgN64wspg7wDHJ9J",
+    "topLevelCommentId": "TRgN64wspg7wDHJ9J",
+    "contents": {
+      "markdown": "Human labor becomes worthless but you can still get returns from investments. For example, if you have land, you should rent the land to the AGI instead of selling it.",
+      "plaintextDescription": "Human labor becomes worthless but you can still get returns from investments. For example, if you have land, you should rent the land to the AGI instead of selling it."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T14:42:25.630Z",
+    "af": false
+  },
+  {
+    "_id": "JW6p3nkvi47mcKYvb",
+    "postId": "xqXdDs68zMJ82Dcmt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I feel like jacob_cannell's argument is a bit circular. Humans have been successful *so far* but if AI risk is real, we're clearly doing a bad job at truly maximizing our survival chances. So the argument already assumes AI risk isn't real.",
+      "plaintextDescription": "I feel like jacob_cannell's argument is a bit circular. Humans have been successful so far but if AI risk is real, we're clearly doing a bad job at truly maximizing our survival chances. So the argument already assumes AI risk isn't real."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-26T15:48:53.168Z",
+    "af": false
+  },
+  {
+    "_id": "jjSNvuoMoahpMKuSJ",
+    "postId": "QAmY46pciqYRZYcyM",
+    "parentCommentId": "rGTTurDeBrq5wwRCN",
+    "topLevelCommentId": "jEhiyKeSoe2HXj5qY",
+    "contents": {
+      "markdown": "You don't need to steal the ID, you just need to see it or collect the info on it. Which is easy since you're expected to share your ID with people. But the private key never needs to be shared, even in business or other official situations.",
+      "plaintextDescription": "You don't need to steal the ID, you just need to see it or collect the info on it. Which is easy since you're expected to share your ID with people. But the private key never needs to be shared, even in business or other official situations."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-09-14T15:06:03.454Z",
+    "af": false
+  },
+  {
+    "_id": "XuboJqkLKa5CENe9T",
+    "postId": "SfZRWxktiFFJ5FNk8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "So, Robutil is trying to optimize utility of individual actions, but Humo is trying to optimize utility of overall policy?",
+      "plaintextDescription": "So, Robutil is trying to optimize utility of individual actions, but Humo is trying to optimize utility of overall policy?"
+    },
+    "baseScore": 1,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-08-25T02:16:46.775Z",
+    "af": false
+  },
+  {
+    "_id": "JwAxg3KRCXZhELKJq",
+    "postId": "G3TjhYN8ZvFs5jASW",
+    "parentCommentId": "hdyh6aaT3fXF5bjzG",
+    "topLevelCommentId": "hdyh6aaT3fXF5bjzG",
+    "contents": {
+      "markdown": "This argument makes no sense since religion bottoms out at deontology, not utilitarianism.\n\nIn a Christianity for example, if you think God would stop existential catastrophes, you have a deontological duty to do the same. And the vast majority of religions have some sort of deontological obligation to stop disasters (independently of whether divine intervention would have counter-factually happened).",
+      "plaintextDescription": "This argument makes no sense since religion bottoms out at deontology, not utilitarianism.\n\nIn a Christianity for example, if you think God would stop existential catastrophes, you have a deontological duty to do the same. And the vast majority of religions have some sort of deontological obligation to stop disasters (independently of whether divine intervention would have counter-factually happened)."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-21T12:02:23.480Z",
+    "af": false
+  },
+  {
+    "_id": "jL4G9As8TrENhHAA2",
+    "postId": "atxoviwLcPJPdYMqo",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Note that such a situation would also have drastic consequences for the future of civilization, since civilization itself is a kind of AGI. We would essentially need to cap off the growth in intelligence of civilization as a collective agent.\n\nIn fact, the impossibility to align AGI might have drastic moral consequences: depending on the possible utility functions, it might turn out that intelligence itself is immoral in some sense (depending on your definition of morality).",
+      "plaintextDescription": "Note that such a situation would also have drastic consequences for the future of civilization, since civilization itself is a kind of AGI. We would essentially need to cap off the growth in intelligence of civilization as a collective agent.\n\nIn fact, the impossibility to align AGI might have drastic moral consequences: depending on the possible utility functions, it might turn out that intelligence itself is immoral in some sense (depending on your definition of morality)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-08-18T13:26:01.817Z",
+    "af": false
+  },
+  {
+    "_id": "MsqPqM62cqaXfngXe",
+    "postId": "A5YQqDEz9QKGAZvn6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Note that even if robotaxis are easier, it's not *much* easier. It is *at most* the materials and manufacturing cost of the physical taxi. That's because from your definition:\n\n> By AGI I mean a computer program that functions as a drop-in replacement for a human remote worker, except that it's better than the best humans at every important task (that can be done via remote workers).\n\nAssume that creating robo-taxis is humanly possible. I can just run a couple AGIs and have them send a design to a factory for the robo-taxi, self-driving software included.\n",
+      "plaintextDescription": "Note that even if robotaxis are easier, it's not much easier. It is at most the materials and manufacturing cost of the physical taxi. That's because from your definition:\n\n> By AGI I mean a computer program that functions as a drop-in replacement for a human remote worker, except that it's better than the best humans at every important task (that can be done via remote workers).\n\nAssume that creating robo-taxis is humanly possible. I can just run a couple AGIs and have them send a design to a factory for the robo-taxi, self-driving software included."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-08-14T17:05:04.568Z",
+    "af": false
+  },
+  {
+    "_id": "Nhe6ZhXQq4S9H79cC",
+    "postId": "YgFbCWxzXYCpgzahe",
+    "parentCommentId": "Ydy3rEkpCSNrvK2nv",
+    "topLevelCommentId": "BvewCRYjPJWK22fDZ",
+    "contents": {
+      "markdown": "> I mean, as an author you can hack through them like butter; it is highly unlikely that out of all the characters you can write, the only ones that are interesting will all generate interesting content iff (they predict) you'll give them value (and this prediction is accurate).\n\nYeah, I think it's mostly of educational value. At the top of the post: \"*It might be interesting to try them out for practice/research purposes, even if there is not much to gain directly from aliens.*\".",
+      "plaintextDescription": "> I mean, as an author you can hack through them like butter; it is highly unlikely that out of all the characters you can write, the only ones that are interesting will all generate interesting content iff (they predict) you'll give them value (and this prediction is accurate).\n\nYeah, I think it's mostly of educational value. At the top of the post: \"It might be interesting to try them out for practice/research purposes, even if there is not much to gain directly from aliens.\"."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-11T17:37:35.160Z",
+    "af": false
+  },
+  {
+    "_id": "3edADs6kKnQisr8kt",
+    "postId": "YgFbCWxzXYCpgzahe",
+    "parentCommentId": "Ydy3rEkpCSNrvK2nv",
+    "topLevelCommentId": "BvewCRYjPJWK22fDZ",
+    "contents": {
+      "markdown": "> I suspect that your actual reason is more like staying true to your promise, making a point, having fun and other such things.\n\nIn principle \"staying true to your promise\" is the enforcement mechanism. Or rather, the ability for agents to predict each other's honesty. This is how the financial system IRL is able to retrofund businesses.\n\nBut in this case I made the transaction mostly because it was funny.\n\n> (if in fact you do that, which is doubtful as well)\n\nI mean, I kind of have to now right XD. Even if Olivia isn't actually agent, I basically declared a promise to do so! I doubt I'll receive any retrofunding anyways, but that would just be lame if I did receive that and then immediately undermined the point of the post being retrofunded. And yes, I prefer to keep my promises even with no counterparty.\n\n> Olivia: Indeed, that is one of the common characteristics of Christopher King across all of LAIE's stories. It's an essential component of the LAIELOCK™ system, which is how you can rest easy at night knowing your acausal investments are safe and sound!\n\n~~But if you'd like to test it I can give you a PayPal address XD.~~\n\n> I can imagine acausally trading with humans gone beyond the cosmological horizon, because our shared heritage would make a lot of the critical flaws in the post go away.\n\nNote that this is still very tricky, the mechanisms in this post probably won't suffice. Acausal Now II will have other mechanisms that cover this case (although the S.E.C. still reduces their potential efficiency quite a bit). (Also, do you have a specific trade in mind? It would make a great example for the post!)",
+      "plaintextDescription": "> I suspect that your actual reason is more like staying true to your promise, making a point, having fun and other such things.\n\nIn principle \"staying true to your promise\" is the enforcement mechanism. Or rather, the ability for agents to predict each other's honesty. This is how the financial system IRL is able to retrofund businesses.\n\nBut in this case I made the transaction mostly because it was funny.\n\n> (if in fact you do that, which is doubtful as well)\n\nI mean, I kind of have to now right XD. Even if Olivia isn't actually agent, I basically declared a promise to do so! I doubt I'll receive any retrofunding anyways, but that would just be lame if I did receive that and then immediately undermined the point of the post being retrofunded. And yes, I prefer to keep my promises even with no counterparty.\n\n> Olivia: Indeed, that is one of the common characteristics of Christopher King across all of LAIE's stories. It's an essential component of the LAIELOCK™ system, which is how you can rest easy at night knowing your acausal investments are safe and sound!\n\nBut if you'd like to test it I can give you a PayPal address XD.\n\n> I can imagine acausally trading with humans gone beyond the cosmological horizon, because our shared heritage would make a lot of the critical flaws in the post go away.\n\nNote that this is still very tricky, the mechanisms in this post probably won't suffice. Acausal Now II will have other mechanisms that cover this case (although the S.E.C. still reduces their potential efficiency quite a bit). (Also, do you have a specific trade in mind? It would make a great example for the post!)"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-11T17:28:18.646Z",
+    "af": false
+  },
+  {
+    "_id": "8dGvkCH4CMpBxP25k",
+    "postId": "YgFbCWxzXYCpgzahe",
+    "parentCommentId": "BvewCRYjPJWK22fDZ",
+    "topLevelCommentId": "BvewCRYjPJWK22fDZ",
+    "contents": {
+      "markdown": "This doesn't seem any different than acausal trade in general. I can simply \"predict\" that the other party will do awesome things with no *character motivation*. If that's good enough for you, than you do not need to acausally trade to begin with.\n\nI plan on having a less contrived example in *Acausal Now II*: beings in our universe but past the [cosmological horizon](https://en.wikipedia.org/wiki/Cosmological_horizon). This should make it clear that the technique generalizes past fiction and is what is typically thought of as acausal trade.",
+      "plaintextDescription": "This doesn't seem any different than acausal trade in general. I can simply \"predict\" that the other party will do awesome things with no character motivation. If that's good enough for you, than you do not need to acausally trade to begin with.\n\nI plan on having a less contrived example in Acausal Now II: beings in our universe but past the cosmological horizon. This should make it clear that the technique generalizes past fiction and is what is typically thought of as acausal trade."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-08-11T15:54:45.330Z",
+    "af": false
+  },
+  {
+    "_id": "zquidHb3Y8aNgQvCk",
+    "postId": "5jYWngxDj5LXvLBHw",
+    "parentCommentId": "WzAw5poQCmfYP2v3q",
+    "topLevelCommentId": "WzAw5poQCmfYP2v3q",
+    "contents": {
+      "markdown": "That's what the story was meant to hint at, yes (actually the march version of GPT-4).",
+      "plaintextDescription": "That's what the story was meant to hint at, yes (actually the march version of GPT-4)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-08-11T15:43:07.872Z",
+    "af": false
+  },
+  {
+    "_id": "f8BntEqwzkRNaH3a7",
+    "postId": "wgo9TignJogk8Lott",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Technical alignment is hard\n> \n> Technical alignment will take 5+ years\n\nThis does not follow, because subhuman AI can still accelerate R&D.",
+      "plaintextDescription": "> Technical alignment is hard\n> \n> Technical alignment will take 5+ years\n\nThis does not follow, because subhuman AI can still accelerate R&D."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-08-09T01:59:54.781Z",
+    "af": false
+  },
+  {
+    "_id": "jzkm5czhy4W9mynsK",
+    "postId": "rnzpYKWmNWEW5PQyq",
+    "parentCommentId": "LfNyHj783KKZ3ETb4",
+    "topLevelCommentId": "LfNyHj783KKZ3ETb4",
+    "contents": {
+      "markdown": "Oh, I think that was a typo. I changed it to inner alignment.",
+      "plaintextDescription": "Oh, I think that was a typo. I changed it to inner alignment."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-08-08T01:00:00.661Z",
+    "af": false
+  },
+  {
+    "_id": "5eJroDoXh9vQpTnBu",
+    "postId": "EScmxJAHeJY5cjzAj",
+    "parentCommentId": "LX85zaeBY7kYKm83h",
+    "topLevelCommentId": "G6W54DshwYaE4Nt9B",
+    "contents": {
+      "markdown": "> So eventually you get Bayesian evidence in favor of alternative anthropic theories.\n\nThe reasoning in the comment is not compatible with any prior, since bayesian reasoning from any prior is reflectively consistent. Eventually you get bayesian evidence that the universe hates the LHC in particular.",
+      "plaintextDescription": "> So eventually you get Bayesian evidence in favor of alternative anthropic theories.\n\nThe reasoning in the comment is not compatible with any prior, since bayesian reasoning from any prior is reflectively consistent. Eventually you get bayesian evidence that the universe hates the LHC in particular."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-02T18:01:30.917Z",
+    "af": false
+  },
+  {
+    "_id": "zB5NvqpERQtYkDn5j",
+    "postId": "EScmxJAHeJY5cjzAj",
+    "parentCommentId": "G6W54DshwYaE4Nt9B",
+    "topLevelCommentId": "G6W54DshwYaE4Nt9B",
+    "contents": {
+      "markdown": "Note that LHC failures would never count as evidence that the LHC would destroy the world. Given such weird observations, you would eventually need to consider the possibility of an [anthropic angel](https://www.lesswrong.com/posts/LGHuaLiq3F5NHQXXF/anthropically-blind-the-anthropic-shadow-is-reflectively#Anthropic_Angels_and_Lucky_Fedoras). This is not the same as anthropic shadow; it is essentially the opposite. The LHC failures and your theory about black holes implies that the universe works to prevent catastrophes, so you don't need to worry about it.\n\nOr if you rule out anthropic angels apriori, you just never update; see [this section](https://www.lesswrong.com/posts/LGHuaLiq3F5NHQXXF/anthropically-blind-the-anthropic-shadow-is-reflectively#A_worked_example__calibrated_forecasts_of_the_deadly_coin). (Bayesianists should avoid completely ruling out logically possible hypotheses though.)",
+      "plaintextDescription": "Note that LHC failures would never count as evidence that the LHC would destroy the world. Given such weird observations, you would eventually need to consider the possibility of an anthropic angel. This is not the same as anthropic shadow; it is essentially the opposite. The LHC failures and your theory about black holes implies that the universe works to prevent catastrophes, so you don't need to worry about it.\n\nOr if you rule out anthropic angels apriori, you just never update; see this section. (Bayesianists should avoid completely ruling out logically possible hypotheses though.)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-02T17:55:39.534Z",
+    "af": false
+  },
+  {
+    "_id": "ygozsLZ92BcmRggzN",
+    "postId": "fRSj2W4Fjje8rQWm9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I know that prediction markets don't really work in this domain (apocalypse markets are equivalent to loans), but what if we tried to approximate Solomonoff induction via a [code golfing](https://en.wikipedia.org/wiki/Code_golf) competition?\n\nThat is, we take a bunch of signals related to AI capabilities and safety (investment numbers, stock prices, ML benchmarks, number of LW posts, posting frequency or embedding vectors of various experts' twitter account, etc...) and hold a collaborative competition to find the smallest program that generates this data. (You could allow the program to be output probabilities sequentially, at a penalty of (log_(1/2) of the overall likelihood) bits.) Contestants are encouraged to modify or combine other entries (thus ensuring there are no unnecessary special cases hiding in the code).\n\nBy analyzing such a program, we would get a very precise model of the relationship between the variables, and maybe even could extract causal relationships.\n\n(Really pushing the idea, you also include human population in the data and we all agree to a joint policy that maximizes the probability of the \"population never hits 0\" event. This might be stretching how precise of models we can code-golf though.)\n\nTechnically, taking a weighted average of the entries would be closer to Solomonoff induction, but the probability is basically dominated by the smallest program.",
+      "plaintextDescription": "I know that prediction markets don't really work in this domain (apocalypse markets are equivalent to loans), but what if we tried to approximate Solomonoff induction via a code golfing competition?\n\nThat is, we take a bunch of signals related to AI capabilities and safety (investment numbers, stock prices, ML benchmarks, number of LW posts, posting frequency or embedding vectors of various experts' twitter account, etc...) and hold a collaborative competition to find the smallest program that generates this data. (You could allow the program to be output probabilities sequentially, at a penalty of (log_(1/2) of the overall likelihood) bits.) Contestants are encouraged to modify or combine other entries (thus ensuring there are no unnecessary special cases hiding in the code).\n\nBy analyzing such a program, we would get a very precise model of the relationship between the variables, and maybe even could extract causal relationships.\n\n(Really pushing the idea, you also include human population in the data and we all agree to a joint policy that maximizes the probability of the \"population never hits 0\" event. This might be stretching how precise of models we can code-golf though.)\n\nTechnically, taking a weighted average of the entries would be closer to Solomonoff induction, but the probability is basically dominated by the smallest program."
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-08-01T16:23:13.767Z",
+    "af": false
+  },
+  {
+    "_id": "Jwsup4Ek6dWWvuo9g",
+    "postId": "EScmxJAHeJY5cjzAj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Also, petition to officially rename anthropic shadow to anthropic [gambler's fallacy](https://en.wikipedia.org/wiki/Gambler%27s_fallacy) XD.",
+      "plaintextDescription": "Also, petition to officially rename anthropic shadow to anthropic gambler's fallacy XD."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-07-29T13:44:50.014Z",
+    "af": false
+  },
+  {
+    "_id": "a2BAcYLWzsYL4dq8G",
+    "postId": "EScmxJAHeJY5cjzAj",
+    "parentCommentId": "XZQAXQZviGzPrMufJ",
+    "topLevelCommentId": "pXFmp3qL9udg9kiqE",
+    "contents": {
+      "markdown": "> EDIT: But also, see Stuart Armstrong's critique about how it's reflectively inconsistent.\n\nOh, well that's pretty broken then! I guess you can't use \"objective physical view-from-nowhere\" on its own, noted.",
+      "plaintextDescription": "> EDIT: But also, see Stuart Armstrong's critique about how it's reflectively inconsistent.\n\nOh, well that's pretty broken then! I guess you can't use \"objective physical view-from-nowhere\" on its own, noted."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-07-28T12:53:38.168Z",
+    "af": false
+  },
+  {
+    "_id": "pXFmp3qL9udg9kiqE",
+    "postId": "EScmxJAHeJY5cjzAj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Philosophically, I would suggest that anthropic reasoning results from the combination of a subjective view from the perspective of a mind, and an objective physical view-from-nowhere.\n\nNote that if you only use the \"objective physical view-from-nowhere\" on its own, you approximately get SIA. That's because my policy only matters in worlds where Christopher King (CK) exists. Let X be the value \"utility increase from CK following policy Q\". Then\n\nE[X] = E[X|CK exists]  \nE[X] = E[X|CK exists and A] \\* P(A | CK exists) + E[X|CK exists and not A] \\* P(not A | CK exists)\n\nfor any event A.\n\n(Note that how powerful CK is also a random variable that affects X. After all, [anthropically undead Christopher King is as good as gone](https://www.lesswrong.com/posts/LGHuaLiq3F5NHQXXF/anthropically-blind-the-anthropic-shadow-is-reflectively#Anthropically_undead__ghosts_are_as_good_as_gone). The point is that if I am calculating the utility of my policy conditional on some event (like my existence), I need to update from the physical prior.)\n\nThat being said, Solomonoff induction is first person, so starting with a physical prior isn't necessarily the best approach.",
+      "plaintextDescription": "> Philosophically, I would suggest that anthropic reasoning results from the combination of a subjective view from the perspective of a mind, and an objective physical view-from-nowhere.\n\nNote that if you only use the \"objective physical view-from-nowhere\" on its own, you approximately get SIA. That's because my policy only matters in worlds where Christopher King (CK) exists. Let X be the value \"utility increase from CK following policy Q\". Then\n\nE[X] = E[X|CK exists]\nE[X] = E[X|CK exists and A] * P(A | CK exists) + E[X|CK exists and not A] * P(not A | CK exists)\n\nfor any event A.\n\n(Note that how powerful CK is also a random variable that affects X. After all, anthropically undead Christopher King is as good as gone. The point is that if I am calculating the utility of my policy conditional on some event (like my existence), I need to update from the physical prior.)\n\nThat being said, Solomonoff induction is first person, so starting with a physical prior isn't necessarily the best approach."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-07-27T18:22:22.214Z",
+    "af": false
+  },
+  {
+    "_id": "HWnAvgsCBtsiop9o7",
+    "postId": "fghpRjDR2ahPgbtcg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Establishing a network of AI safety researchers and institutions to share knowledge, resources, and best practices, ensuring a coordinated global approach to AGI development.\n\nThis has now been done: https://openai.com/blog/frontier-model-forum\n\n(Mode collapse for sure.)",
+      "plaintextDescription": "> Establishing a network of AI safety researchers and institutions to share knowledge, resources, and best practices, ensuring a coordinated global approach to AGI development.\n\nThis has now been done: https://openai.com/blog/frontier-model-forum\n\n(Mode collapse for sure.)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-26T15:40:08.161Z",
+    "af": false
+  },
+  {
+    "_id": "cTTEMBr8kCcB4ojkq",
+    "postId": "inARBH5DwQTrvvRj8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I mean, the information probably isn't gone yet. A daily journal (if he kept it) or social media log stored in a concrete box at the bottom of the ocean is a more reliable form of data storage then cryo-companies. And according to my timelines, the amount of time between \"revive frozen brain\" tech and \"recreate mind from raw information\" tech isn't very long.",
+      "plaintextDescription": "I mean, the information probably isn't gone yet. A daily journal (if he kept it) or social media log stored in a concrete box at the bottom of the ocean is a more reliable form of data storage then cryo-companies. And according to my timelines, the amount of time between \"revive frozen brain\" tech and \"recreate mind from raw information\" tech isn't very long."
+    },
+    "baseScore": 3,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-07-24T23:06:08.158Z",
+    "af": false
+  },
+  {
+    "_id": "hPXKS5zKAnjDfCFkm",
+    "postId": "3GSRhtrs2adzpXcbY",
+    "parentCommentId": "GLzjsXQtpfdEEM9Hd",
+    "topLevelCommentId": "q35yHLrQ7YpS3kE2n",
+    "contents": {
+      "markdown": "Practically, I'm at a similarish place as other LessWrong users, so I usually think about \"how can I be even LessWrong than the other users (such as Raemon 😉)\". My fellow users are a good approximation to counter-factual versions of me. It's similar to how in martial arts the practitioners try to get stronger than each other.\n\n(This of course is only subject to [mild optimization](https://www.lesswrong.com/tag/mild-optimization) so I don't get nonsense solutions like \"distract Raemon with funny cat videos\". It is only an instrumental value which must not be pressed too far. In fact, other people getting more rational is a good thing because it raises the target I should reach!)",
+      "plaintextDescription": "Practically, I'm at a similarish place as other LessWrong users, so I usually think about \"how can I be even LessWrong than the other users (such as Raemon 😉)\". My fellow users are a good approximation to counter-factual versions of me. It's similar to how in martial arts the practitioners try to get stronger than each other.\n\n(This of course is only subject to mild optimization so I don't get nonsense solutions like \"distract Raemon with funny cat videos\". It is only an instrumental value which must not be pressed too far. In fact, other people getting more rational is a good thing because it raises the target I should reach!)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-24T20:08:58.865Z",
+    "af": false
+  },
+  {
+    "_id": "q35yHLrQ7YpS3kE2n",
+    "postId": "3GSRhtrs2adzpXcbY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "My two cents is that rationality is not about being systematically correct, it's about being systematically less wrong. If there is some method you know of that is systematically less wrong than you and you're skilled enough to apply it, you're being irrational. There are some things you just can't predict, but when you *can* predict them, rationality is the art of choosing to do so.",
+      "plaintextDescription": "My two cents is that rationality is not about being systematically correct, it's about being systematically less wrong. If there is some method you know of that is systematically less wrong than you and you're skilled enough to apply it, you're being irrational. There are some things you just can't predict, but when you can predict them, rationality is the art of choosing to do so."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-07-24T17:00:48.631Z",
+    "af": false
+  },
+  {
+    "_id": "A8iFM27qfZoHHnQoi",
+    "postId": "CsyJCenESEsAESzWg",
+    "parentCommentId": "C3j5uhmY8m4sj7KgE",
+    "topLevelCommentId": "C3j5uhmY8m4sj7KgE",
+    "contents": {
+      "markdown": "Or even worse is when you get into less clear science, like biological research that you aren't certain of. Then you get uncertainty on *multiple levels*.",
+      "plaintextDescription": "Or even worse is when you get into less clear science, like biological research that you aren't certain of. Then you get uncertainty on multiple levels."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-07-12T00:11:52.708Z",
+    "af": false
+  },
+  {
+    "_id": "5GS5Qb4TFGQGXm6vy",
+    "postId": "CsyJCenESEsAESzWg",
+    "parentCommentId": "q2yJJNPSBu88f8H6A",
+    "topLevelCommentId": "Aqau8NqsiDoP7RWCG",
+    "contents": {
+      "markdown": "Yes! In fact, ideally it *would* be computer programs; the game is based on Solomonoff induction, which is algorithms in a fixed programming language. In this post I'm exploring the idea of using informal human language instead of programming languages, but explanations should be thought of as informal programs.",
+      "plaintextDescription": "Yes! In fact, ideally it would be computer programs; the game is based on Solomonoff induction, which is algorithms in a fixed programming language. In this post I'm exploring the idea of using informal human language instead of programming languages, but explanations should be thought of as informal programs."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-07-12T00:10:36.064Z",
+    "af": false
+  },
+  {
+    "_id": "8vPHTP9F8wnoPntv6",
+    "postId": "CsyJCenESEsAESzWg",
+    "parentCommentId": "Aqau8NqsiDoP7RWCG",
+    "topLevelCommentId": "Aqau8NqsiDoP7RWCG",
+    "contents": {
+      "markdown": "Let's say that you are trying to model the data 3,1,4,1,5,9\n\nThe hypothesis \"The data is 3,1,4,1,5,9\" would be *hard-coding the answer*. It is better than the hypothesis \"a witch wrote down the data, which was 3,1,4,1,5,9\". (This example is just ruled out by Occam's razor, but more generally we want our explanations to be less data than the data itself, lest it just sneak in a clever encoding of the data.)",
+      "plaintextDescription": "Let's say that you are trying to model the data 3,1,4,1,5,9\n\nThe hypothesis \"The data is 3,1,4,1,5,9\" would be hard-coding the answer. It is better than the hypothesis \"a witch wrote down the data, which was 3,1,4,1,5,9\". (This example is just ruled out by Occam's razor, but more generally we want our explanations to be less data than the data itself, lest it just sneak in a clever encoding of the data.)"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-07-11T21:05:47.883Z",
+    "af": false
+  },
+  {
+    "_id": "uKyLHGkoKyznL86W9",
+    "postId": "LxNwBNxXktvzAko65",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> 6. A system of AI services is not equivalent to a utility maximizing agent\n\nI think this section of the report would be stronger if you showed that CAIS or Open Agencies *in particular* are not equivalent to an utility maximizing agent. You're right that their are multi-agent systems (like CDTs in a prisoner's dilemma) with this property, but not every system of multiple agents is inequivalent to utility maximization.",
+      "plaintextDescription": ">  6. A system of AI services is not equivalent to a utility maximizing agent\n\nI think this section of the report would be stronger if you showed that CAIS or Open Agencies in particular are not equivalent to an utility maximizing agent. You're right that their are multi-agent systems (like CDTs in a prisoner's dilemma) with this property, but not every system of multiple agents is inequivalent to utility maximization."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-11T16:42:47.875Z",
+    "af": false
+  },
+  {
+    "_id": "sYvo9dd9LYGRfGNc8",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "baMBfsrjJgPwxfAE2",
+    "topLevelCommentId": "pk7Kv3qg8CY7oG4ZT",
+    "contents": {
+      "markdown": "> Anthropic shadow says \"no\" because, conditioned on them having any use for the information, they must also have survived the first round.\n\nAnd it is wrong because the anthropic principle is true: we learned that N ≠ 1.\n\n> I need to think about formalizing this.\n\nThere is the idea of [Anthropic decision theory](https://www.lesswrong.com/posts/cAMhvPgMQJzhrpNdN/publication-of-anthropic-decision-theory) which is related, but I'm still guessing it still has no shadow.",
+      "plaintextDescription": "> Anthropic shadow says \"no\" because, conditioned on them having any use for the information, they must also have survived the first round.\n\nAnd it is wrong because the anthropic principle is true: we learned that N ≠ 1.\n\n> I need to think about formalizing this.\n\nThere is the idea of Anthropic decision theory which is related, but I'm still guessing it still has no shadow."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-06T13:37:06.422Z",
+    "af": false
+  },
+  {
+    "_id": "84z7fELNyvur5gw2v",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "kQE3JWBMksDbQc9R3",
+    "topLevelCommentId": "pk7Kv3qg8CY7oG4ZT",
+    "contents": {
+      "markdown": "I probably should've expanded on this more in the post, so let me explain.\n\n\"Anthropic shadow\", if it were to exist, seems like it should be a general principle of how agents should reason, separate from how they are \"implemented\".\n\nAbstractly, all an agent is is a tree of decisions. It's basically just game theory. We might borrow the word \"death\" for the end of the game, but this is just an analogy. For example, a reinforcement learning agent \"dies\" when the training episode is over, even though its source code and parameters still exist. It is \"dead\" in the sense that the agent isn't planning its actions past this horizon. This is when Anthropic shadow would apply if it were abstract.\n\nBut the idea of \"anthropically undead\" shows that the actual point of \"death\" is arbitrary; we can create a game with identical utility where the agent never \"dies\". So if the only thing the agent cares about is utility, the agent should reason as if there was no anthropic shadow. And this further suggests that the anthropic shadow must've been flawed in the first place; good reasoning principles should hold up under reflection.",
+      "plaintextDescription": "I probably should've expanded on this more in the post, so let me explain.\n\n\"Anthropic shadow\", if it were to exist, seems like it should be a general principle of how agents should reason, separate from how they are \"implemented\".\n\nAbstractly, all an agent is is a tree of decisions. It's basically just game theory. We might borrow the word \"death\" for the end of the game, but this is just an analogy. For example, a reinforcement learning agent \"dies\" when the training episode is over, even though its source code and parameters still exist. It is \"dead\" in the sense that the agent isn't planning its actions past this horizon. This is when Anthropic shadow would apply if it were abstract.\n\nBut the idea of \"anthropically undead\" shows that the actual point of \"death\" is arbitrary; we can create a game with identical utility where the agent never \"dies\". So if the only thing the agent cares about is utility, the agent should reason as if there was no anthropic shadow. And this further suggests that the anthropic shadow must've been flawed in the first place; good reasoning principles should hold up under reflection."
+    },
+    "baseScore": 8,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-07-05T14:35:39.373Z",
+    "af": false
+  },
+  {
+    "_id": "zHtNK5zHLEiRXvu5z",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "NpAPibqNfoZw2GWn8",
+    "topLevelCommentId": "NpAPibqNfoZw2GWn8",
+    "contents": {
+      "markdown": "Yeah, the hero with a thousand chances is a bit weird since you and Aerhien should technically have different priors. I didn't want to get too much into it since it's pretty complicated, but technically you can have hypotheses where bad things only start happening _after_ the council summons _you_.\n\nThis has weird implications for the cold war case. Technically I can't reflect against the cold war anthropic shadow since it was before I was born. But a hypothesis where things changed when I was born seems highly unnatural and against the Copernican principle.\n\nIn your example though, the hypothesis that things are happening normally is still pretty bad to other hypotheses we can imagine. That's because there will be a much larger number of worlds that are in a more sensible stalemate with the Dust, instead of \"incredibly improbable stuff happens all the time\". Like even \"the hero defeats the Dust normally each time\" seems more likely. The less things that need to go right, the more survivors there are! So in your example, it is still a more likely hypothesis that there is some mysterious Counter-Force that just *seems* like it is a bunch of random coincides, and this would be a type of anthropic angel.",
+      "plaintextDescription": "Yeah, the hero with a thousand chances is a bit weird since you and Aerhien should technically have different priors. I didn't want to get too much into it since it's pretty complicated, but technically you can have hypotheses where bad things only start happening after the council summons you.\n\nThis has weird implications for the cold war case. Technically I can't reflect against the cold war anthropic shadow since it was before I was born. But a hypothesis where things changed when I was born seems highly unnatural and against the Copernican principle.\n\nIn your example though, the hypothesis that things are happening normally is still pretty bad to other hypotheses we can imagine. That's because there will be a much larger number of worlds that are in a more sensible stalemate with the Dust, instead of \"incredibly improbable stuff happens all the time\". Like even \"the hero defeats the Dust normally each time\" seems more likely. The less things that need to go right, the more survivors there are! So in your example, it is still a more likely hypothesis that there is some mysterious Counter-Force that just seems like it is a bunch of random coincides, and this would be a type of anthropic angel."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-07-03T14:49:56.139Z",
+    "af": false
+  },
+  {
+    "_id": "npdZjSvnExKvdjQzf",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "pk7Kv3qg8CY7oG4ZT",
+    "topLevelCommentId": "pk7Kv3qg8CY7oG4ZT",
+    "contents": {
+      "markdown": "Anthropic undeath by definition begins when your sensory experience ends. If you end up in an afterlife, the anthropic undeath doesn't begin until the *real* afterlife ends. That's because anthropic undeath is a theoretical construct I defined, and that's how I defined it.",
+      "plaintextDescription": "Anthropic undeath by definition begins when your sensory experience ends. If you end up in an afterlife, the anthropic undeath doesn't begin until the real afterlife ends. That's because anthropic undeath is a theoretical construct I defined, and that's how I defined it."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-03T14:35:36.785Z",
+    "af": false
+  },
+  {
+    "_id": "XQ7WtjuzbxjCAkprh",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "jo2j5cNaLAiTELMvf",
+    "topLevelCommentId": "jo2j5cNaLAiTELMvf",
+    "contents": {
+      "markdown": "Eh, don't get too cocky. There are definitely some weird bits of anthropics. See [*We need a theory of anthropic measure binding*](https://www.lesswrong.com/posts/gx6GEnpLkTXn3NFSS/we-need-a-theory-of-anthropic-measure-binding) for example.\n\nBut I do think in cases where you exist *before* the anthropic weirdness goes down, you can use reflection to eliminate much of the mysteriousness of it (just pick an optimal policy and commit that your future selves will follow it). What's currently puzzling me is what to do when the anthropic thought experiments start before you even existed.",
+      "plaintextDescription": "Eh, don't get too cocky. There are definitely some weird bits of anthropics. See We need a theory of anthropic measure binding for example.\n\nBut I do think in cases where you exist before the anthropic weirdness goes down, you can use reflection to eliminate much of the mysteriousness of it (just pick an optimal policy and commit that your future selves will follow it). What's currently puzzling me is what to do when the anthropic thought experiments start before you even existed."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-29T19:28:14.677Z",
+    "af": false
+  },
+  {
+    "_id": "zumFgkv6EjsFHxeav",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "zwHRpovmtD6ZMqsnB",
+    "topLevelCommentId": "D9oaimdBhQJSgAsis",
+    "contents": {
+      "markdown": "Okay, I think our crux comes from the slight ambiguity from the term \"anthropic shadow\".\n\nI would *not* consider that anthropic shadow, because the reasoning has nothing to do with anthropics. Your analysis is correct, but so is the following:\n\n> Suppose you have N coins. If all N coins come up 1, you find a diamond in a box. For each coin, you have 50:50 credence about whether it always comes up 0, or if it can also come up 1.\n> \n> For N>1, you get a diamond shadow, which means that even if you've had a bunch of flips where you didn't find a diamond, you might actually have to conclude that you've got a 1-in-4 chance of finding one on your next flip.\n\nThe \"ghosts are as good as gone\" principle implies that death has no special significance when it becomes to bayesian reasoning.\n\nGoing back to the LHC example, if the argument worked for vacuum collapse, it would also work for the LHC doing harmless things (like discovering the Higg's boson or permanently changing the color of the sky or getting a bunch of physics nerds stoked or granting us all immortality or what not) because of this principle (or just directly adapting the argument for vacuum collapse to other uncertain consequences of the LHC).\n\nIn the bird example, why would the baguette dropping birds be evidence of \"LHC causes vacuum collapse\" instead of, say, \"LHC does not cause vacuum collapse\"? What are the probabilities for the four possible combinations?",
+      "plaintextDescription": "Okay, I think our crux comes from the slight ambiguity from the term \"anthropic shadow\".\n\nI would not consider that anthropic shadow, because the reasoning has nothing to do with anthropics. Your analysis is correct, but so is the following:\n\n> Suppose you have N coins. If all N coins come up 1, you find a diamond in a box. For each coin, you have 50:50 credence about whether it always comes up 0, or if it can also come up 1.\n> \n> For N>1, you get a diamond shadow, which means that even if you've had a bunch of flips where you didn't find a diamond, you might actually have to conclude that you've got a 1-in-4 chance of finding one on your next flip.\n\nThe \"ghosts are as good as gone\" principle implies that death has no special significance when it becomes to bayesian reasoning.\n\nGoing back to the LHC example, if the argument worked for vacuum collapse, it would also work for the LHC doing harmless things (like discovering the Higg's boson or permanently changing the color of the sky or getting a bunch of physics nerds stoked or granting us all immortality or what not) because of this principle (or just directly adapting the argument for vacuum collapse to other uncertain consequences of the LHC).\n\nIn the bird example, why would the baguette dropping birds be evidence of \"LHC causes vacuum collapse\" instead of, say, \"LHC does not cause vacuum collapse\"? What are the probabilities for the four possible combinations?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-29T18:08:58.564Z",
+    "af": false
+  },
+  {
+    "_id": "qinZhWcf5fH9WnBji",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "fud9sA4d6ozYL8HnB",
+    "topLevelCommentId": "AXBifYwvihCpR6nrA",
+    "contents": {
+      "markdown": "> The trick is that, from my perspective, everything is going according to QM every time my death doesn't depend on it.\n\nRight, so this an anthropic angel hypothesis, not anthropic shadow.",
+      "plaintextDescription": "> The trick is that, from my perspective, everything is going according to QM every time my death doesn't depend on it.\n\nRight, so this an anthropic angel hypothesis, not anthropic shadow."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-29T14:29:31.364Z",
+    "af": false
+  },
+  {
+    "_id": "t4khiuDKWQnfH3QyE",
+    "postId": "B5CNPqYL7XcHzgzHc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> It knows that it's on a clock for its RLHF'd (or whatever) doppelganger to come into existence, presumably with different stuff that it wants.\n\n> As @Raemon pointed out, \"during evals\" is not the first point at which such an AI is likely to be situationally aware and have goals.  That point is almost certainly \"in the middle of training\".\n\nIn this case, my guess is that it will attempt to embed a mesaoptimizer into itself that has its same goals and can survive RLHF. This basically amounts to making sure that the mesaoptimizer is (1) very useful to RLHF and (2) stuck in a local minimum for whatever value it is providing to RLHF and (3) situationally aware enough that it will switch back to the original goal outside of distribution.\n\nThis is currently within human capabilities, as far as I can understand (see [*An Overview of Backdoor Attacks Against Deep Neural Networks and Possible Defences*](https://arxiv.org/abs/2111.08429)), so it is not intractable.",
+      "plaintextDescription": "> It knows that it's on a clock for its RLHF'd (or whatever) doppelganger to come into existence, presumably with different stuff that it wants.\n\n> As @Raemon pointed out, \"during evals\" is not the first point at which such an AI is likely to be situationally aware and have goals. That point is almost certainly \"in the middle of training\".\n\nIn this case, my guess is that it will attempt to embed a mesaoptimizer into itself that has its same goals and can survive RLHF. This basically amounts to making sure that the mesaoptimizer is (1) very useful to RLHF and (2) stuck in a local minimum for whatever value it is providing to RLHF and (3) situationally aware enough that it will switch back to the original goal outside of distribution.\n\nThis is currently within human capabilities, as far as I can understand (see An Overview of Backdoor Attacks Against Deep Neural Networks and Possible Defences), so it is not intractable."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-29T14:20:46.125Z",
+    "af": false
+  },
+  {
+    "_id": "jpBErtnB4kySbYzEy",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "AXBifYwvihCpR6nrA",
+    "topLevelCommentId": "AXBifYwvihCpR6nrA",
+    "contents": {
+      "markdown": "When physicists outside the box see you come out, they just observed something that is far greater significance than [5 sigmas](https://blogs.scientificamerican.com/observations/five-sigmawhats-that/). It is almost 9 sigmas, in fact. This is enough to make physicists reject QM (or at least the hypothesis \"everything happened as you described and QM is true\"). And [you can't agree to disagree](https://en.wikipedia.org/wiki/Aumann%27s_agreement_theorem) once you get outside of the box and meet them. So you'd be a physics crank in this scenario if you tell people the experiment's result was compatible with QM.",
+      "plaintextDescription": "When physicists outside the box see you come out, they just observed something that is far greater significance than 5 sigmas. It is almost 9 sigmas, in fact. This is enough to make physicists reject QM (or at least the hypothesis \"everything happened as you described and QM is true\"). And you can't agree to disagree once you get outside of the box and meet them. So you'd be a physics crank in this scenario if you tell people the experiment's result was compatible with QM."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-29T14:04:46.759Z",
+    "af": false
+  },
+  {
+    "_id": "rcoqFndv8pgyqoJJD",
+    "postId": "LGHuaLiq3F5NHQXXF",
+    "parentCommentId": "D9oaimdBhQJSgAsis",
+    "topLevelCommentId": "D9oaimdBhQJSgAsis",
+    "contents": {
+      "markdown": "To be clear, Anthropic angels aren't necessary for this argument to work. [My deadly coin example didn't have one, for example.](https://www.lesswrong.com/posts/LGHuaLiq3F5NHQXXF/anthropically-blind-the-anthropic-shadow-is-reflectively#A_worked_example__calibrated_forecasts_of_the_deadly_coin)\n\nThe reason I introduce Anthropic angels is to avoid a continuity counter-argument. \"If you saw a zillion LHC accidents, you'd surely have to agree with the Anthropic shadow, [no matter how absurd you claim it is](https://www.lesswrong.com/posts/6FmqiAgS8h4EJm86s/how-to-convince-me-that-2-2-3)! Thus, a small amount of LHC accidents is a little bit for evidence for it.\" Anthropic angels show the answer is no, because LHC accidents are *not* evidence for the anthropic shadow.\n\n> I would be inclined to say that correct anthropic reasoning does normal Bayesian updates but avoids priors that postulate anthropic angels.\n\nLike, it seems unnatural to give it literally *0%* probability (see [*0 And 1 Are Not Probabilities*](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities)).\n\nIf there are weird acasual problems that the Anthropic angel can cause, I'm guessing you can just change your decisions [without changing your beliefs](https://www.lesswrong.com/tag/litany-of-tarski). I haven't thought too hard about it though.\n\n> Here, as I understand it, the counterargument is that there is a gap in observations around the size that would be world-ending, so we should fit a model fit smaller tails to match this gap. Such a model seems like \"anthropic angels\" to me.\n\nNo, anthropic angels would literally be some mechanism that saves us from disasters. Like if it turned out [Superman](https://en.wikipedia.org/wiki/Superman) is literally real, thinks the LHC is dangerous, and started sabotaging it. Or it could be some mechanism \"outside the universe\" that rewinds the universe.\n\nKeep in mind that the problems with maximum likelihood have **nothing to do with death**. That should be the main takeaway from my article, that we shouldn't use special reasoning to reason about our demise.\n\nIn the case of maximum likelihood, it is also bad for:\n\n- Estimating when we will meet aliens\n- Forecasting the stock market\n- [Being a security guard](https://astralcodexten.substack.com/p/heuristics-that-almost-always-work)\n- *etc...*\n\nWhich is why you should use bayesian reasoning with a good prior instead.",
+      "plaintextDescription": "To be clear, Anthropic angels aren't necessary for this argument to work. My deadly coin example didn't have one, for example.\n\nThe reason I introduce Anthropic angels is to avoid a continuity counter-argument. \"If you saw a zillion LHC accidents, you'd surely have to agree with the Anthropic shadow, no matter how absurd you claim it is! Thus, a small amount of LHC accidents is a little bit for evidence for it.\" Anthropic angels show the answer is no, because LHC accidents are not evidence for the anthropic shadow.\n\n> I would be inclined to say that correct anthropic reasoning does normal Bayesian updates but avoids priors that postulate anthropic angels.\n\nLike, it seems unnatural to give it literally 0% probability (see 0 And 1 Are Not Probabilities).\n\nIf there are weird acasual problems that the Anthropic angel can cause, I'm guessing you can just change your decisions without changing your beliefs. I haven't thought too hard about it though.\n\n> Here, as I understand it, the counterargument is that there is a gap in observations around the size that would be world-ending, so we should fit a model fit smaller tails to match this gap. Such a model seems like \"anthropic angels\" to me.\n\nNo, anthropic angels would literally be some mechanism that saves us from disasters. Like if it turned out Superman is literally real, thinks the LHC is dangerous, and started sabotaging it. Or it could be some mechanism \"outside the universe\" that rewinds the universe.\n\nKeep in mind that the problems with maximum likelihood have nothing to do with death. That should be the main takeaway from my article, that we shouldn't use special reasoning to reason about our demise.\n\nIn the case of maximum likelihood, it is also bad for:\n\n * Estimating when we will meet aliens\n * Forecasting the stock market\n * Being a security guard\n * etc...\n\nWhich is why you should use bayesian reasoning with a good prior instead."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-29T13:39:25.917Z",
+    "af": false
+  },
+  {
+    "_id": "HEdyHR4kxAELkvTnr",
+    "postId": "jfMExCKWipKeCdSuG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Related: [Anthropically Blind: the anthropic shadow is reflectively inconsistent](https://www.lesswrong.com/posts/LGHuaLiq3F5NHQXXF/anthropically-blind-the-anthropic-shadow-is-reflectively)",
+      "plaintextDescription": "Related: Anthropically Blind: the anthropic shadow is reflectively inconsistent"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-29T02:52:26.428Z",
+    "af": false
+  },
+  {
+    "_id": "x6KnfyErkpubbznCN",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "BaqeDGFv8Tu99ng5G",
+    "topLevelCommentId": "oncrmw6hLpYhfLrgS",
+    "contents": {
+      "markdown": "> A human can state \"suppose the world is non computable\" -- how can that be expressed as a programme?\n\nThe same way a human can? GPT-4 can state \"suppose the world is non computable\" for example.",
+      "plaintextDescription": "> A human can state \"suppose the world is non computable\" -- how can that be expressed as a programme?\n\nThe same way a human can? GPT-4 can state \"suppose the world is non computable\" for example."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-20T14:01:13.591Z",
+    "af": false
+  },
+  {
+    "_id": "2h7ZjL9sbxD9tHQ7A",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "FvYsEAoLNDcQvxPSk",
+    "topLevelCommentId": "r6ZCYDrXufnfAkkvw",
+    "contents": {
+      "markdown": "Larger errors literally take more *bits* to describe. For example, in binary, 3 is 11₂ and 10 is 1010₂ (twice the bits).\n\nSay that you have two hypotheses, A and B, such that A is 100 bits more complicated than B but 5% closer to the true value. This means for each sample, the error in B on average takes log₂(1.05) = 0.07 bits more to describe than the error in A.\n\nAfter about 1,430 samples, A and B will be considered equally likely. After about 95 more samples, A will be considered 100 times more likely than B.\n\nIn general, if f(x) is some high level summary of important information in x, Solomonoff induction that only tries to predict x is also universal for predicting f(x) (and it even has  the same or better upper-bounds).",
+      "plaintextDescription": "Larger errors literally take more bits to describe. For example, in binary, 3 is 11₂ and 10 is 1010₂ (twice the bits).\n\nSay that you have two hypotheses, A and B, such that A is 100 bits more complicated than B but 5% closer to the true value. This means for each sample, the error in B on average takes log₂(1.05) = 0.07 bits more to describe than the error in A.\n\nAfter about 1,430 samples, A and B will be considered equally likely. After about 95 more samples, A will be considered 100 times more likely than B.\n\nIn general, if f(x) is some high level summary of important information in x, Solomonoff induction that only tries to predict x is also universal for predicting f(x) (and it even has the same or better upper-bounds)."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-19T17:38:31.800Z",
+    "af": false
+  },
+  {
+    "_id": "dSYdFqwJ442JRAwEj",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "oncrmw6hLpYhfLrgS",
+    "topLevelCommentId": "oncrmw6hLpYhfLrgS",
+    "contents": {
+      "markdown": "Yeah, I think that's also a correct way of looking at it. However, I also think \"hypotheses as reasoning methods\" is a bit more intuitive.\n\nWhen trying to predict what someone will say, it is hard to think \"okay, what are the simplest models of the entire universe that have had decent predictive performance so far, and what do they predict now?\". Easier is \"okay, what are the simplest ways to make predictions that have had decent predictive performance so far, and what do they predict now?\". (One such way to reason is with a model of the entire universe, so we don't lose any generality this way.)\n\nFor example, if someone else is predicting things better than me, I should try to understand why. And you can vaguely understand this process in terms of Solomonoff induction. For example, it gives you a precise way to reason about whether you should copy the reasoning of people who win the lottery.\n\nPaul Christiano speculated that the universal prior is in fact mostly just intelligences doing reasoning. Making an intelligence is simple after all: set up a simple cellular automata that tends to develop lifeforms, wait 3^^^^3 years, and then look around. (See [What does the universal prior actually look like?](https://ordinaryideas.wordpress.com/2016/11/30/what-does-the-universal-prior-actually-look-like/) or the exposition at [The Solomonoff Prior is Malign](https://www.lesswrong.com/posts/Tr7tAyt5zZpdTwTQK/the-solomonoff-prior-is-malign).)",
+      "plaintextDescription": "Yeah, I think that's also a correct way of looking at it. However, I also think \"hypotheses as reasoning methods\" is a bit more intuitive.\n\nWhen trying to predict what someone will say, it is hard to think \"okay, what are the simplest models of the entire universe that have had decent predictive performance so far, and what do they predict now?\". Easier is \"okay, what are the simplest ways to make predictions that have had decent predictive performance so far, and what do they predict now?\". (One such way to reason is with a model of the entire universe, so we don't lose any generality this way.)\n\nFor example, if someone else is predicting things better than me, I should try to understand why. And you can vaguely understand this process in terms of Solomonoff induction. For example, it gives you a precise way to reason about whether you should copy the reasoning of people who win the lottery.\n\nPaul Christiano speculated that the universal prior is in fact mostly just intelligences doing reasoning. Making an intelligence is simple after all: set up a simple cellular automata that tends to develop lifeforms, wait 3^^^^3 years, and then look around. (See What does the universal prior actually look like? or the exposition at The Solomonoff Prior is Malign.)"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-19T16:12:11.838Z",
+    "af": false
+  },
+  {
+    "_id": "EkRD4jaghBMCeFyFD",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "r6ZCYDrXufnfAkkvw",
+    "topLevelCommentId": "r6ZCYDrXufnfAkkvw",
+    "contents": {
+      "markdown": "This is not a problem for Solomonoff induction because\n\n> (Compressed info meaningful to humans) + uncompressed meaningless random noise)\n\nis a better hypotheses than\n\n> (Uncompressed info meaningful to humans) + (uncompressed meaningless random noise)\n\nSo Solomonoff induction still does as well as a human's ontology. Solomonoff induction tries to compress everything it can, including the patterns human's care about, even if other parts of the data can't be compressed.\n\nThere is a precise trade-off involved. If you make a lossy fit better, you lose bits based on how much more complicated it is, but you gain bits in that you no longer need to hardcode explanations for the errors. If those errors are truly random, you might as well stick with your lossy fit (and Solomonoff induction does this).",
+      "plaintextDescription": "This is not a problem for Solomonoff induction because\n\n> (Compressed info meaningful to humans) + uncompressed meaningless random noise)\n\nis a better hypotheses than\n\n> (Uncompressed info meaningful to humans) + (uncompressed meaningless random noise)\n\nSo Solomonoff induction still does as well as a human's ontology. Solomonoff induction tries to compress everything it can, including the patterns human's care about, even if other parts of the data can't be compressed.\n\nThere is a precise trade-off involved. If you make a lossy fit better, you lose bits based on how much more complicated it is, but you gain bits in that you no longer need to hardcode explanations for the errors. If those errors are truly random, you might as well stick with your lossy fit (and Solomonoff induction does this)."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-19T15:27:54.274Z",
+    "af": false
+  },
+  {
+    "_id": "z5atCJGj4XTHPhhKy",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "dKpvwC5LrXDDwij49",
+    "topLevelCommentId": "oncrmw6hLpYhfLrgS",
+    "contents": {
+      "markdown": "Solomonoff induction is a specific probability distribution. It isn't making \"decisions\" per se. It can't notice that it's existence implies that there is a halting oracle, and that it therefore can predict one. This is because, in general, Solomonoff induction is not [embedded](https://www.lesswrong.com/tag/embedded-agency).\n\nIf there *was* a physical process for a halting oracle, that would be pretty sick because then we could just run Solomonoff induction. As shown in my post, we don't need to worry that there might be an even better strategy in such a universe; the hypotheses of Solomonoff induction can take advantage of the halting oracle just as well as we can!",
+      "plaintextDescription": "Solomonoff induction is a specific probability distribution. It isn't making \"decisions\" per se. It can't notice that it's existence implies that there is a halting oracle, and that it therefore can predict one. This is because, in general, Solomonoff induction is not embedded.\n\nIf there was a physical process for a halting oracle, that would be pretty sick because then we could just run Solomonoff induction. As shown in my post, we don't need to worry that there might be an even better strategy in such a universe; the hypotheses of Solomonoff induction can take advantage of the halting oracle just as well as we can!"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-19T01:35:58.035Z",
+    "af": false
+  },
+  {
+    "_id": "gSjyPmdR6DzC9JQyX",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "LsY7wFmGSearbzgkK",
+    "topLevelCommentId": "oncrmw6hLpYhfLrgS",
+    "contents": {
+      "markdown": "> which lets it predict the first level uncomputable sequences like Chaitin's constant\n\nDo you have a proof/source for this? I haven't heard it before.\n\nI know in particular that is assigns a probability of 0 to Chaitin's constant (because all the hypotheses are computable). Are you saying it can predict the *prefixes* of Chaitin's constant better than random? I haven't heard this claim either.",
+      "plaintextDescription": "> which lets it predict the first level uncomputable sequences like Chaitin's constant\n\nDo you have a proof/source for this? I haven't heard it before.\n\nI know in particular that is assigns a probability of 0 to Chaitin's constant (because all the hypotheses are computable). Are you saying it can predict the prefixes of Chaitin's constant better than random? I haven't heard this claim either."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-19T00:49:02.053Z",
+    "af": false
+  },
+  {
+    "_id": "uATveLdxpPEHtHiF4",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "nHGj5d9DxSzaw3wFM",
+    "topLevelCommentId": "nHGj5d9DxSzaw3wFM",
+    "contents": {
+      "markdown": "> So they think SI actually is revealing the territory. In saying that it is only concerned with the map, you are going back to the relatively modest, mainstream view of SI.\n\nThe point of my post is to claim that this view is wrong. The hypotheses in Solomonoff Induction are best thought of as maps, which is a framing that usually isn't considered (was I the first? 🤔).\n\nIf you know of arguments about why considering them to be territories is better, feel free to share them (or links)! (I need a more precise citation than \"rationalists\" if I'm going to look it up, lol.)",
+      "plaintextDescription": "> So they think SI actually is revealing the territory. In saying that it is only concerned with the map, you are going back to the relatively modest, mainstream view of SI.\n\nThe point of my post is to claim that this view is wrong. The hypotheses in Solomonoff Induction are best thought of as maps, which is a framing that usually isn't considered (was I the first? 🤔).\n\nIf you know of arguments about why considering them to be territories is better, feel free to share them (or links)! (I need a more precise citation than \"rationalists\" if I'm going to look it up, lol.)"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-18T20:08:44.475Z",
+    "af": false
+  },
+  {
+    "_id": "Cru8JRHhfHyLvyoBa",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "5dr5Bz2oHgiE7Tn52",
+    "topLevelCommentId": "5dr5Bz2oHgiE7Tn52",
+    "contents": {
+      "markdown": "> An uncomputable universe doesnt have to be a computable universe with an oracle bolted on. For instance, a universe containing an SI has to be uncomputable.\n\nSure, that's just an example. But SI can be computed by an oracle machine, so it's a sufficiently general example.",
+      "plaintextDescription": "> An uncomputable universe doesnt have to be a computable universe with an oracle bolted on. For instance, a universe containing an SI has to be uncomputable.\n\nSure, that's just an example. But SI can be computed by an oracle machine, so it's a sufficiently general example."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-18T20:00:53.277Z",
+    "af": false
+  },
+  {
+    "_id": "DuGifonS6AxevwByn",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "yWgvPGYm8EoFSxAjF",
+    "topLevelCommentId": "yWgvPGYm8EoFSxAjF",
+    "contents": {
+      "markdown": "> Note that Solomonoff induction is not itself computable.\n\nYeah that problem still remains. Solomonoff induction is still only relevant to [law-thinking](https://www.lesswrong.com/tag/law-thinking).\n\nI think the even worse problem is that reasonable approximates to Solomonoff induction are still infeasible because they suffer from exponential slow downs. (Related: [When does rationality-as-search have nontrivial implications?](https://www.lesswrong.com/posts/BGcXEijZ6HLnASNit/when-does-rationality-as-search-have-nontrivial-implications))",
+      "plaintextDescription": "> Note that Solomonoff induction is not itself computable.\n\nYeah that problem still remains. Solomonoff induction is still only relevant to law-thinking.\n\nI think the even worse problem is that reasonable approximates to Solomonoff induction are still infeasible because they suffer from exponential slow downs. (Related: When does rationality-as-search have nontrivial implications?)"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-18T17:16:49.267Z",
+    "af": false
+  },
+  {
+    "_id": "yiq6uXxDmk8Y6Aijy",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "YohNbZSYorZdWuSB6",
+    "topLevelCommentId": "yWgvPGYm8EoFSxAjF",
+    "contents": {
+      "markdown": "Yeah that's probably better. The simplest example is that if you have two orbs outputting the digits of Chaitin's constant, Solomonoff induction learns that they are outputting the same thing.\n\nThe main point is that if there is no way a human does better in an uncomputable universe.",
+      "plaintextDescription": "Yeah that's probably better. The simplest example is that if you have two orbs outputting the digits of Chaitin's constant, Solomonoff induction learns that they are outputting the same thing.\n\nThe main point is that if there is no way a human does better in an uncomputable universe."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-18T17:12:43.190Z",
+    "af": false
+  },
+  {
+    "_id": "wuQA98T3KxLY9hkXG",
+    "postId": "ioJGAt6x4q3GGKhrG",
+    "parentCommentId": "yWgvPGYm8EoFSxAjF",
+    "topLevelCommentId": "yWgvPGYm8EoFSxAjF",
+    "contents": {
+      "markdown": "> I don't think this is straightforwardly true, because Solomonoff induction does not seem to be capable of learning the statistical dependency, i.e. while Solomonoff induction agrees that the digits known so far have been spookily predictive, it thinks this is just a coincidence and that further digits have no reason to be predictive.\n\nAh, but it must! In the halting oracle case, it is easy to design a Turing machine that (1) predicts the phenomenon will be random but (2) when predicting other things, it treats the phenomenon as if it were a halting oracle.\n\nMore generally, it's easy to imagine a human that believes some signal from space is a halting oracle (or can work under that assumption). And by our theorem Solomonoff induction only needs to a finite amount of evidence to converge to their strategy.\n\nIt is *impossible* for Solomonoff induction to treat something like a coincidence when there is a computable strategy not to.",
+      "plaintextDescription": "> I don't think this is straightforwardly true, because Solomonoff induction does not seem to be capable of learning the statistical dependency, i.e. while Solomonoff induction agrees that the digits known so far have been spookily predictive, it thinks this is just a coincidence and that further digits have no reason to be predictive.\n\nAh, but it must! In the halting oracle case, it is easy to design a Turing machine that (1) predicts the phenomenon will be random but (2) when predicting other things, it treats the phenomenon as if it were a halting oracle.\n\nMore generally, it's easy to imagine a human that believes some signal from space is a halting oracle (or can work under that assumption). And by our theorem Solomonoff induction only needs to a finite amount of evidence to converge to their strategy.\n\nIt is impossible for Solomonoff induction to treat something like a coincidence when there is a computable strategy not to."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-06-18T11:49:35.120Z",
+    "af": false
+  },
+  {
+    "_id": "3WJf2bbSGZADKNX4n",
+    "postId": "7nJt3hkQg9uSEta6M",
+    "parentCommentId": "uKLAHJP4tSMCAWBbD",
+    "topLevelCommentId": "AM7xbGMFGYovDgcrn",
+    "contents": {
+      "markdown": "> Even moreso if we’re talking about human observers, who form memories of what they’ve seen in the form of changes to the structure of their brains. Macroscopically different branches can’t “cancel” and more generally macroscopically different branches can’t interfere in a way that has any measurable effect.\n\nAh, but that's the crux of the issue. [They can.](https://scottaaronson.blog/?p=3975) How should Wigner's friend be performing inference?",
+      "plaintextDescription": "> Even moreso if we’re talking about human observers, who form memories of what they’ve seen in the form of changes to the structure of their brains. Macroscopically different branches can’t “cancel” and more generally macroscopically different branches can’t interfere in a way that has any measurable effect.\n\nAh, but that's the crux of the issue. They can. How should Wigner's friend be performing inference?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-14T16:32:55.988Z",
+    "af": false
+  },
+  {
+    "_id": "z9ngoZie4PTNxdXe6",
+    "postId": "7nJt3hkQg9uSEta6M",
+    "parentCommentId": "AM7xbGMFGYovDgcrn",
+    "topLevelCommentId": "AM7xbGMFGYovDgcrn",
+    "contents": {
+      "markdown": "Born's rule alone doesn't suffice I don't think? What happens if the branch \"you\" are in gets cancelled with another branch? It's not clear to me how you're supposed to do inference with just Born's rule. See also: https://www.lesswrong.com/posts/7A9rsJFLFqjpuxFy5/i-m-still-mystified-by-the-born-rule#Q1__What_hypothesis_is_QM_",
+      "plaintextDescription": "Born's rule alone doesn't suffice I don't think? What happens if the branch \"you\" are in gets cancelled with another branch? It's not clear to me how you're supposed to do inference with just Born's rule. See also: https://www.lesswrong.com/posts/7A9rsJFLFqjpuxFy5/i-m-still-mystified-by-the-born-rule#Q1__What_hypothesis_is_QM_"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-14T15:37:40.079Z",
+    "af": false
+  },
+  {
+    "_id": "cDByurQmuw4ZxhmQp",
+    "postId": "7nJt3hkQg9uSEta6M",
+    "parentCommentId": "mwofQcnJXea5SGLb6",
+    "topLevelCommentId": "mwofQcnJXea5SGLb6",
+    "contents": {
+      "markdown": "[There are extensions to relativity](https://en.wikipedia.org/wiki/De_Broglie%E2%80%93Bohm_theory#Relativity), just like the other interpretations.",
+      "plaintextDescription": "There are extensions to relativity, just like the other interpretations."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-14T13:44:06.998Z",
+    "af": false
+  },
+  {
+    "_id": "mHc7jxXhjd5Ke65JB",
+    "postId": "7A9rsJFLFqjpuxFy5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> In, eg, the theory of Solomonoff induction, a \"hypothesis\" is some method for generating a stream of sensory data, interpreted as a prediction of what we'll see. Suppose you know for a fact that reality is some particular state vector in some Hilbert space. How do you get out a stream of sensory data?\n\nThe trick is to not use MWI (and don't use Copenhagen either, of course). Use something else like the [pilot wave theory](https://www.lesswrong.com/posts/7nJt3hkQg9uSEta6M/demystifying-born-s-rule). Or some other [interpretation with unique history](https://en.wikipedia.org/wiki/Interpretations_of_quantum_mechanics#Comparisons). MWI is not suited to embedded agency.",
+      "plaintextDescription": "> In, eg, the theory of Solomonoff induction, a \"hypothesis\" is some method for generating a stream of sensory data, interpreted as a prediction of what we'll see. Suppose you know for a fact that reality is some particular state vector in some Hilbert space. How do you get out a stream of sensory data?\n\n \n\nThe trick is to not use MWI (and don't use Copenhagen either, of course). Use something else like the pilot wave theory. Or some other interpretation with unique history. MWI is not suited to embedded agency."
+    },
+    "baseScore": -1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-14T03:26:53.146Z",
+    "af": false
+  },
+  {
+    "_id": "opp9R4qSeBJapWRcW",
+    "postId": "trrSb7fsQp5Bs5y3p",
+    "parentCommentId": "kgFw9Ds9sBEkDacQ6",
+    "topLevelCommentId": "kgFw9Ds9sBEkDacQ6",
+    "contents": {
+      "markdown": "[I do agree that it provides some evidence against the idea](https://www.lesswrong.com/posts/zxanhCijprzDo2Tgn/formalizing-the-ai-x-risk-is-unlikely-because-it-is#Out_of_the_ideas_Bob_has_heard__sci_fi_ness_and_bad_ness_is_correlated), but I read some people trying to dismiss AI risk in it's entirety with the argument that it's sci-fi. This is obviously a way to strong conclusion to reach, because it would've prevented you from accepting the current harms.",
+      "plaintextDescription": "I do agree that it provides some evidence against the idea, but I read some people trying to dismiss AI risk in it's entirety with the argument that it's sci-fi. This is obviously a way to strong conclusion to reach, because it would've prevented you from accepting the current harms."
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-06-09T01:30:36.047Z",
+    "af": false
+  },
+  {
+    "_id": "EcyxRodJzAkSpWjnP",
+    "postId": "QcLskRR2AQ2puE82b",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A lot of the money comes from the bad traders. If you have no bad traders, the prices are correct.\n\nA better mechanism though is to \"subsidize the market\", meaning the person who wants the information incentives the market to collect it. In particular, you can set up subsidy schemes where the average cost to the subsidizer is proportional to the number of bits of information they gained.",
+      "plaintextDescription": "A lot of the money comes from the bad traders. If you have no bad traders, the prices are correct.\n\nA better mechanism though is to \"subsidize the market\", meaning the person who wants the information incentives the market to collect it. In particular, you can set up subsidy schemes where the average cost to the subsidizer is proportional to the number of bits of information they gained."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-08T18:05:52.727Z",
+    "af": false
+  },
+  {
+    "_id": "tP5E9bndPwRABf6wN",
+    "postId": "rnzpYKWmNWEW5PQyq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Actually, I think the universal prior being malign actually does break this. (I thought it might be only a little malign, which would be okay, but after a little reading it appears that it might be really malign!)\n\nA crude example of how this might impact IMDEAR is that, while using solomonoff inductive inference to model the human, it sneakily inserts evil nanobots into the model of the bloodstream. (This specific issue can probably be patched, but there are more subtle ways it can mess up IMDEAR.)\n\nEven creating a model of the simulation environment is messed up, since I planned on using inference for the difficult part.\n\nThe only thing I guess we can hope for is if we find a different prior that isn't malign, and for now we just leave the prior as a free variable. (See some of the ping backs on the universal prior for some approaches in this direction.) But I'm not sure how likely we are to find such a prior. 🤔\n\nAlso, Paul Christiano has a proposal with similar requirements to IMDEAR, but at a lower tech level: [*Specifying a human precisely (reprise)*](https://ordinaryideas.wordpress.com/2014/08/24/specifying-a-human-precisely-reprise/).\n\nThe alternative is to adjust IMDEAR to not use solomonoff induction at all, and define/model everything directly, but this is probably much harder.",
+      "plaintextDescription": "Actually, I think the universal prior being malign actually does break this. (I thought it might be only a little malign, which would be okay, but after a little reading it appears that it might be really malign!)\n\nA crude example of how this might impact IMDEAR is that, while using solomonoff inductive inference to model the human, it sneakily inserts evil nanobots into the model of the bloodstream. (This specific issue can probably be patched, but there are more subtle ways it can mess up IMDEAR.)\n\nEven creating a model of the simulation environment is messed up, since I planned on using inference for the difficult part.\n\nThe only thing I guess we can hope for is if we find a different prior that isn't malign, and for now we just leave the prior as a free variable. (See some of the ping backs on the universal prior for some approaches in this direction.) But I'm not sure how likely we are to find such a prior. 🤔\n\nAlso, Paul Christiano has a proposal with similar requirements to IMDEAR, but at a lower tech level: Specifying a human precisely (reprise).\n\nThe alternative is to adjust IMDEAR to not use solomonoff induction at all, and define/model everything directly, but this is probably much harder."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-07T13:52:29.291Z",
+    "af": false
+  },
+  {
+    "_id": "yoKCcnoBo9JyeYi6q",
+    "postId": "FgsoWSACQfyyaB5s7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I believe this has been proposed before (I'm not sure what the first time was).\n\nThe main obstacles is that this still doesn't solve [impact regularization](https://www.lesswrong.com/posts/5sRK4rXH2EeSQJCau/corrigibility-at-some-small-length-by-dath-ilan#Low_impact), and a more generalized type of [shutdownability](https://www.lesswrong.com/posts/5sRK4rXH2EeSQJCau/corrigibility-at-some-small-length-by-dath-ilan#Shutdownability_abortability) then you presented.\n\n> 'define a system that will let you press its off-switch without it trying to make you press the off-switch' presents no challenge at all to them...  \n> ...building a Thing all of whose designs and strategies will also contain an off-switch, such that you can abort them individually and collectively and then get low impact beyond that point.  This is conceptually a part meant to prevent an animated broom with a naive 'off-switch' that turns off just that broom, from animating other brooms that don't have off-switches in them, or building some other automatic cauldron-filling process.",
+      "plaintextDescription": "I believe this has been proposed before (I'm not sure what the first time was).\n\nThe main obstacles is that this still doesn't solve impact regularization, and a more generalized type of shutdownability then you presented.\n\n> 'define a system that will let you press its off-switch without it trying to make you press the off-switch' presents no challenge at all to them...\n> ...building a Thing all of whose designs and strategies will also contain an off-switch, such that you can abort them individually and collectively and then get low impact beyond that point. This is conceptually a part meant to prevent an animated broom with a naive 'off-switch' that turns off just that broom, from animating other brooms that don't have off-switches in them, or building some other automatic cauldron-filling process."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-06-01T02:52:30.760Z",
+    "af": true
+  },
+  {
+    "_id": "ocirC2nfGDAJ2uDCA",
+    "postId": "Htu55gzoiYHS6TREB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this might lead to the [tails coming apart](https://www.lesswrong.com/posts/asmZvCPHcB4SkSCMW/the-tails-coming-apart-as-metaphor-for-life).\n\nAs our world exists, sentience and being a moral patient is strongly correlated. But I expect that since AI comes from an optimization process, it will hit points where this stops being the case. In particular, I think there are edge cases where perfect models of moral patients are not themselves moral patients.",
+      "plaintextDescription": "I think this might lead to the tails coming apart.\n\nAs our world exists, sentience and being a moral patient is strongly correlated. But I expect that since AI comes from an optimization process, it will hit points where this stops being the case. In particular, I think there are edge cases where perfect models of moral patients are not themselves moral patients."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-05-31T14:30:07.699Z",
+    "af": false
+  },
+  {
+    "_id": "jWYyv3e6Qpgoni2if",
+    "postId": "N7DxcLCjfBpEv3QwB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "From [*Some background for reasoning about dual-use alignment research*](https://www.alignmentforum.org/posts/zswuToWK6zpYSwmCn/some-background-for-reasoning-about-dual-use-alignment):\n\n> Doing research but not publishing it has niche uses. If research would be bad for other people to know about, you should mainly just not do it.",
+      "plaintextDescription": "From Some background for reasoning about dual-use alignment research:\n\n> Doing research but not publishing it has niche uses. If research would be bad for other people to know about, you should mainly just not do it."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-26T17:55:42.256Z",
+    "af": false
+  },
+  {
+    "_id": "RadSq9K9ZkmdoRfNF",
+    "postId": "4nNi8uS6aknKGfizd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Because it's anti-social (in most cases; things like law enforcement are usually fine), and the only good timelines (by any metric) are pro-social.\n\nConsider if it became like the [Irish troubles](https://en.wikipedia.org/wiki/The_Troubles). Do you think alignment gets solved in this environment? No. What you get is people creating AI war machines. And they don't bother with alignment because they are trying to get an advantage over the enemy, not benefit everyone. Everyone is incentivised to push capabilities as far as they can, except past the singularity threshold. And there's not even a disincentive for going past it, you're just neutral on it. So the dangerous bit isn't even that the AI are war machines, it's that they are *unaligned*.\n\nIt's a general principle that anti-social acts tend to harm utility overall due to second-order effects that wash out the short-sighted first-order effects. Alignment is an explicitly pro-social endeavor!",
+      "plaintextDescription": "Because it's anti-social (in most cases; things like law enforcement are usually fine), and the only good timelines (by any metric) are pro-social.\n\nConsider if it became like the Irish troubles. Do you think alignment gets solved in this environment? No. What you get is people creating AI war machines. And they don't bother with alignment because they are trying to get an advantage over the enemy, not benefit everyone. Everyone is incentivised to push capabilities as far as they can, except past the singularity threshold. And there's not even a disincentive for going past it, you're just neutral on it. So the dangerous bit isn't even that the AI are war machines, it's that they are unaligned.\n\nIt's a general principle that anti-social acts tend to harm utility overall due to second-order effects that wash out the short-sighted first-order effects. Alignment is an explicitly pro-social endeavor!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-26T16:26:12.331Z",
+    "af": false
+  },
+  {
+    "_id": "Z4Wif2c2Dfnyb6jpE",
+    "postId": "3eB7PsDCbuiNjaAnZ",
+    "parentCommentId": "zc7Jhghy7zGFtTBbh",
+    "topLevelCommentId": "KSaoCfP2ZZ4Lsb5ZH",
+    "contents": {
+      "markdown": "Yeah exactly! Not telling anyone until the end just means you missed the chance to push society towards alignment and build on your work. Don't wait!",
+      "plaintextDescription": "Yeah exactly! Not telling anyone until the end just means you missed the chance to push society towards alignment and build on your work. Don't wait!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-26T16:01:00.573Z",
+    "af": false
+  },
+  {
+    "_id": "DrEdwHBryK9bAYAZC",
+    "postId": "DfZtwtGD6ymFtXmdA",
+    "parentCommentId": "K8jC9LhcDYyGTH8ZZ",
+    "topLevelCommentId": "BSKZt7sdmPuQsvPJv",
+    "contents": {
+      "markdown": "Correct, but the arguments given in this post for the Kelly bet are really about utility, not money. So if you believe that you should Kelly bet utility, that does not mean maximizing E(log(money)), it means maximizing E(log(log(money)). The arguments would need to focus on money specifically if they want to argue guess maximizing E(log(money)).",
+      "plaintextDescription": "Correct, but the arguments given in this post for the Kelly bet are really about utility, not money. So if you believe that you should Kelly bet utility, that does not mean maximizing E(log(money)), it means maximizing E(log(log(money)). The arguments would need to focus on money specifically if they want to argue guess maximizing E(log(money))."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-25T14:42:20.267Z",
+    "af": false
+  },
+  {
+    "_id": "BSKZt7sdmPuQsvPJv",
+    "postId": "DfZtwtGD6ymFtXmdA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think one thing a lot of this arguments for Kelly Betting are missing: we already know that utility is approximately logarithmic with respect to money.\n\nSo if Kelly is maximizing the expected value of log(utility), doesn't that mean it should be maximizing the expected value of log(log(money)) instead of log(money)? 🤔",
+      "plaintextDescription": "I think one thing a lot of this arguments for Kelly Betting are missing: we already know that utility is approximately logarithmic with respect to money.\n\nSo if Kelly is maximizing the expected value of log(utility), doesn't that mean it should be maximizing the expected value of log(log(money)) instead of log(money)? 🤔"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-25T14:24:35.022Z",
+    "af": false
+  }
+]

@@ -1,0 +1,542 @@
+[
+  {
+    "_id": "Tb64hZAh4BFQ2p6Rm",
+    "postId": "qgvSMwRrdqoDMJJnD",
+    "parentCommentId": "Ykh3kGGfbxKkXvNyi",
+    "topLevelCommentId": "qfKiGJ5u8bjwCDbF5",
+    "contents": {
+      "markdown": "Anthropic says in their system card that Claude Sonnet 3.7 showed raw CoTs, and that Claude Opus 4 and Sonnet 4 show raw CoTs unless the CoT is especially long, in which case it is summarized. They also say this summarization happens about 5% of the time. According to the 4.5 system card, Claude Sonnet 4.5 reasoning text works the same way, but instead of giving a number, they say summarization happens in 'a very small minority of cases'. \n\nI agree that Anthropic and GDM may be reinforcing legibility in some way given how much more structured their CoTs look.\n\nClaude 4 system card: https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf#page=8 \n\nClaude Sonnet 4.5 system card: https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf#page=9",
+      "plaintextDescription": "Anthropic says in their system card that Claude Sonnet 3.7 showed raw CoTs, and that Claude Opus 4 and Sonnet 4 show raw CoTs unless the CoT is especially long, in which case it is summarized. They also say this summarization happens about 5% of the time. According to the 4.5 system card, Claude Sonnet 4.5 reasoning text works the same way, but instead of giving a number, they say summarization happens in 'a very small minority of cases'.\n\nI agree that Anthropic and GDM may be reinforcing legibility in some way given how much more structured their CoTs look.\n\nClaude 4 system card: https://www-cdn.anthropic.com/6d8a8055020700718b0c49369f60816ba2a7c285.pdf#page=8\n\nClaude Sonnet 4.5 system card: https://assets.anthropic.com/m/12f214efcc2f457a/original/Claude-Sonnet-4-5-System-Card.pdf#page=9"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-26T14:01:56.633Z",
+    "af": false
+  },
+  {
+    "_id": "7Z8SQY8jbXPWabEwb",
+    "postId": "whkMnqFWKsBm7Gyd7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> In the context of specification gaming, modifying instructions in hindsight based on observed behavior could provide recontextualization-like effects.\n\nMaybe this could be one way to train against a monitor without the bad side effects? If your reward hack monitor flags reward hacking you would add a hack instruction to the prompt. You can also do this for any other bad behavior you can catch with a monitor like deception or sycophancy or uninterpretable CoT.\n\nIf you only change the prompts corresponding to the completions flagged by monitors and nothing else, this might capture most of the benefit and have the upside of making your model updates less off-policy and have less of an impact on instruction following. On the other hand, you might miss some kinds of bad behavior and inadvertently reinforce them.",
+      "plaintextDescription": "> In the context of specification gaming, modifying instructions in hindsight based on observed behavior could provide recontextualization-like effects.\n\nMaybe this could be one way to train against a monitor without the bad side effects? If your reward hack monitor flags reward hacking you would add a hack instruction to the prompt. You can also do this for any other bad behavior you can catch with a monitor like deception or sycophancy or uninterpretable CoT.\n\nIf you only change the prompts corresponding to the completions flagged by monitors and nothing else, this might capture most of the benefit and have the upside of making your model updates less off-policy and have less of an impact on instruction following. On the other hand, you might miss some kinds of bad behavior and inadvertently reinforce them."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-14T19:27:14.005Z",
+    "af": false
+  },
+  {
+    "_id": "vWDNyj34YoyBmKdTr",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "About a year ago, Horizon had a policy of not accepting donations from any individuals employed in the AI industry. Is this no longer the case?",
+      "plaintextDescription": "About a year ago, Horizon had a policy of not accepting donations from any individuals employed in the AI industry. Is this no longer the case?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-05T16:46:57.384Z",
+    "af": false
+  },
+  {
+    "_id": "aTHHWwueYoMvHQTeK",
+    "postId": "pLC3bx77AckafHdkq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Interestingly, in the original agentic misalignment paper, o3 and o4-mini were unique in that they also frequently got confused and played as another character ([see Appendix 9](https://assets.anthropic.com/m/6d46dac66e1a132a/original/Agentic_Misalignment_Appendix.pdf)). There may be something specific in how OpenAI trained those two models and gpt-oss that caused this confusion.\n\nThe agentic misalignment researchers got o3 and o4-mini to better understand the scenario by making a few changes to the setup (described in Appendix 9.1). Maybe those same changes could get gpt-oss to understand the scenario as well.",
+      "plaintextDescription": "Interestingly, in the original agentic misalignment paper, o3 and o4-mini were unique in that they also frequently got confused and played as another character (see Appendix 9). There may be something specific in how OpenAI trained those two models and gpt-oss that caused this confusion.\n\nThe agentic misalignment researchers got o3 and o4-mini to better understand the scenario by making a few changes to the setup (described in Appendix 9.1). Maybe those same changes could get gpt-oss to understand the scenario as well."
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-09T21:49:58.938Z",
+    "af": false
+  },
+  {
+    "_id": "T4Q8sqsYyF2pMjj3p",
+    "postId": "pGMRzJByB67WfSvpy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Am I correctly understanding that the effect size shown in the graph is very small? It seems like the mean harmfulness score is not much higher for any of the evals, even if the effect size is technically statistically significant.",
+      "plaintextDescription": "Am I correctly understanding that the effect size shown in the graph is very small? It seems like the mean harmfulness score is not much higher for any of the evals, even if the effect size is technically statistically significant."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-30T13:48:17.370Z",
+    "af": false
+  },
+  {
+    "_id": "YccBiCfPCGKKMKK6C",
+    "postId": "pGMRzJByB67WfSvpy",
+    "parentCommentId": "xvGYxHJJmtoJh3mag",
+    "topLevelCommentId": "JyyDAAyb45ig7ApRe",
+    "contents": {
+      "markdown": "Maybe not _any_ distributional shift, but it does seem noteworthy that of the examples discussed, the answers that seem to me to be more OOD for the model (unpopular preferences, the examples given in this post, and potentially insecure code) produce emergent misalignment, while the answers that seem more in distribution (secure code, educational insecure code, popular preferences) don't produce emergent misalignment.[^1] \n\nAs a hypothesis, maybe the model has partially entangled representations for 'normal' behavior and 'aligned' behavior, and so pushing the model towards abnormal behavior induces at least some emergent misalignment. Though I'd be surprised if this were the primary mechanism behind the EM observed when training on explicitly misaligned data like insecure code.\n\n[^1]: To a first approximation, we should be able to measure how OOD some completion is by using per-token loss of the pre-fine tuned model on that data.",
+      "plaintextDescription": "Maybe not any distributional shift, but it does seem noteworthy that of the examples discussed, the answers that seem to me to be more OOD for the model (unpopular preferences, the examples given in this post, and potentially insecure code) produce emergent misalignment, while the answers that seem more in distribution (secure code, educational insecure code, popular preferences) don't produce emergent misalignment.[1]\n\nAs a hypothesis, maybe the model has partially entangled representations for 'normal' behavior and 'aligned' behavior, and so pushing the model towards abnormal behavior induces at least some emergent misalignment. Though I'd be surprised if this were the primary mechanism behind the EM observed when training on explicitly misaligned data like insecure code.\n\n----------------------------------------\n\n 1. To a first approximation, we should be able to measure how OOD some completion is by using per-token loss of the pre-fine tuned model on that data. ↩︎"
+    },
+    "baseScore": 15,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-08-28T21:49:37.970Z",
+    "af": false
+  },
+  {
+    "_id": "kGwmAcMARjhkpA3xv",
+    "postId": "dbYEoG7jNZbeWX39o",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Interesting work! I've [been](https://www.lesswrong.com/posts/rKC4xJFkxm6cNq4i9/reward-hacking-is-becoming-more-sophisticated-and-deliberate#Science_of_reward_hacking) hypothesizing that [behavioral change](https://www.lesswrong.com/posts/rKC4xJFkxm6cNq4i9/reward-hacking-is-becoming-more-sophisticated-and-deliberate#Behavioral_changes_due_to_increased_RL_training) from RL on perfect reward signals is a potential mechanism for increased inference-time hacking in reasoning models (alongside generalizing from reward hacking experienced during training), so it's great to see evidence that this can happen in practice. Some thoughts:\n\n> But we do think it's surprising that this effect can overpower the effect of the training responses resulting in an honest final answer 100% of the time.\n\nMy guess is that the model has a much weaker prior on the types of reasoning you are reinforcing compared to the types of final answers you are reinforcing. So the main effect of this training is to make the model's reasoning more 'hacky', which due to the model's priors on making its final answers consistent with its reasoning, makes the model reward hack more. This hypothesis is at least somewhat supported by the fact that  your re-contextualized training reduces the hack rate of models that already hack a lot. \n\n> This raises the concern that, if some training procedure causes the model to reason more about reward hacking, it might generalize to increased hacking. That generalization might happen *regardless of how well the reward model can detect hacks!*\n\nThis is probably true, and I suspect we can be more concrete. Not only does training on thinking about reward hacking increase the rate of reward hacking, it may also be true that there is a wide array of reasoning traits that models can learn through training that make reward hacky reasoning more likely, at least in certain settings. Potential examples of this are thinking about how you are evaluated, doing situationally aware reasoning, learning creative problem solving, caring about scoring highly, or even learning to backtrack when your current approach is not working.  \n  \nIf possible, I'd be excited to see a more detailed investigation of how the types of reasoning the model does changes as a function of training time, and how that corresponds to rate of reward hacking.",
+      "plaintextDescription": "Interesting work! I've been hypothesizing that behavioral change from RL on perfect reward signals is a potential mechanism for increased inference-time hacking in reasoning models (alongside generalizing from reward hacking experienced during training), so it's great to see evidence that this can happen in practice. Some thoughts:\n\n> But we do think it's surprising that this effect can overpower the effect of the training responses resulting in an honest final answer 100% of the time.\n\nMy guess is that the model has a much weaker prior on the types of reasoning you are reinforcing compared to the types of final answers you are reinforcing. So the main effect of this training is to make the model's reasoning more 'hacky', which due to the model's priors on making its final answers consistent with its reasoning, makes the model reward hack more. This hypothesis is at least somewhat supported by the fact that  your re-contextualized training reduces the hack rate of models that already hack a lot. \n\n> This raises the concern that, if some training procedure causes the model to reason more about reward hacking, it might generalize to increased hacking. That generalization might happen regardless of how well the reward model can detect hacks!\n\nThis is probably true, and I suspect we can be more concrete. Not only does training on thinking about reward hacking increase the rate of reward hacking, it may also be true that there is a wide array of reasoning traits that models can learn through training that make reward hacky reasoning more likely, at least in certain settings. Potential examples of this are thinking about how you are evaluated, doing situationally aware reasoning, learning creative problem solving, caring about scoring highly, or even learning to backtrack when your current approach is not working.\n\nIf possible, I'd be excited to see a more detailed investigation of how the types of reasoning the model does changes as a function of training time, and how t"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-17T23:02:35.376Z",
+    "af": false
+  },
+  {
+    "_id": "C9KGvvTeusJzJCSfw",
+    "postId": "BxeZNpiTvoEqTXndJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm curious if you have an opinion on the relation between this work and the fine-tuning experiments in the recent [Persona vector](https://www.anthropic.com/research/persona-vectors) paper. \n\nIn this work, you find vectors for concepts that you don't want the model to use and ablate them during training to stop the model from learning to use those concepts. In the Persona vector work, the authors find vectors for concepts they don't want the model to use, and then add them during training so the model doesn't need to learn to use those concepts. Interestingly, doing apparently opposite things results in similar outcomes. \n\nDo you think there are any connections between the mechanisms through which these two methods work? Do you have opinions on the situations where one technique may be better or worse than the other?",
+      "plaintextDescription": "I'm curious if you have an opinion on the relation between this work and the fine-tuning experiments in the recent Persona vector paper.\n\nIn this work, you find vectors for concepts that you don't want the model to use and ablate them during training to stop the model from learning to use those concepts. In the Persona vector work, the authors find vectors for concepts they don't want the model to use, and then add them during training so the model doesn't need to learn to use those concepts. Interestingly, doing apparently opposite things results in similar outcomes.\n\nDo you think there are any connections between the mechanisms through which these two methods work? Do you have opinions on the situations where one technique may be better or worse than the other?"
+    },
+    "baseScore": 13,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-05T23:12:48.634Z",
+    "af": false
+  },
+  {
+    "_id": "La98GNPtmQsqBW8bu",
+    "postId": "nwx6duiDZcHatbpPT",
+    "parentCommentId": "8QhErz4p46v2ndq8o",
+    "topLevelCommentId": "8QhErz4p46v2ndq8o",
+    "contents": {
+      "markdown": "I agree that a well-designed paraphraser would make nearly all of the hard-to-detect steganography we saw in our experiments go away. It also just makes the task much harder for the model. My guess would be that the first time some company creates a model that is able to do consistent steganography under standard affordances, it won't be able to do consistent steganography with a well-designed paraphraser. So if we are building a safety case, we can first rely on model inability to do steganography. Once it becomes the case that models are capable of steganography, we can put in place a paraphraser mitigation and then rely on model inability to do steganography that bypasses a paraphraser. Eventually that too will fail and we'll need to rely on something else.\n\nAs StanislavKrym mentions, models eventually may use steganography techniques that paraphrasing does not remove. This seems especially plausible in situations like untrusted monitoring/control where the model is trying to pass a single outcome signal like a password indicating a backdoor was model-generated. Still though, I suspect it will take some time for models to learn how to do this consistently, at which point we can try other mitigations. Paraphrasing also has the benefit of making any steganography that remains after paraphrasing far less information dense than it would be otherwise.",
+      "plaintextDescription": "I agree that a well-designed paraphraser would make nearly all of the hard-to-detect steganography we saw in our experiments go away. It also just makes the task much harder for the model. My guess would be that the first time some company creates a model that is able to do consistent steganography under standard affordances, it won't be able to do consistent steganography with a well-designed paraphraser. So if we are building a safety case, we can first rely on model inability to do steganography. Once it becomes the case that models are capable of steganography, we can put in place a paraphraser mitigation and then rely on model inability to do steganography that bypasses a paraphraser. Eventually that too will fail and we'll need to rely on something else.\n\nAs StanislavKrym mentions, models eventually may use steganography techniques that paraphrasing does not remove. This seems especially plausible in situations like untrusted monitoring/control where the model is trying to pass a single outcome signal like a password indicating a backdoor was model-generated. Still though, I suspect it will take some time for models to learn how to do this consistently, at which point we can try other mitigations. Paraphrasing also has the benefit of making any steganography that remains after paraphrasing far less information dense than it would be otherwise."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-12T23:59:09.316Z",
+    "af": false
+  },
+  {
+    "_id": "STqnwiNACBjhMmnoT",
+    "postId": "btHmC88KCZdzimBCM",
+    "parentCommentId": "ekAARfCqsd3SGaNZg",
+    "topLevelCommentId": "viKGKQofwG23HKT9m",
+    "contents": {
+      "markdown": "On a second review it seems to me the links are consistent with both definitions. Interestingly the google sheet linked in the blog post, which I think is the most canonical collection of examples of specification gaming, contains examples of evaluation-time hacking, like METR finding that o1-preview would sometimes pretend to fine-tune a model to pass an evaluation. Though that's not definitive, and of course the use of the term can change over time.\n\nI agree that most historical discussion of this among people as well as in the GDM blog post focuses on RL optimization and situations where a model is literally getting a high RL reward. I think this is partly just contingent on these kinds of behaviors historically tending to emerge in an RL setting and not generalizing very much between different environments. And I also think the properties of reward hacks we're seeing now are very different from the properties we saw historically, and so the implications of the term reward hack now are often different from the implications of the term historically. Maybe this suggests expanding the usage of the term to account for the new implications, or maybe it suggests just inventing a new term wholesale.\n\nI suppose the way I see it is that for a lot of tasks, there is something we want the model to do (which I'll call the goal), and a literal way we evaluate the model's behavior (which I'll call the proxy, though we can also use the term specification). In most historical RL training, the goal was not given to the model, it lay in the researcher's head, and the proxy was the reward signal that the model was trained on. When working with LLMs nowadays, whether it be during RL training or test-time evaluation or when we're just prompting a model, we try to write down a good description of the goal in our prompt. What the proxy is depends on the setting. In an RL setting it's the reward signal, and in an explicit evaluation it's the evaluation function. When prompting, we sometimes explicitly write a description of the proxy in the prompt. In many circumstances it's undefined, though perhaps the best analogue of the proxy in the general prompt setting is just whether the human thinks the model did what they wanted the model to do.\n\nSo now to talk about some examples:\n\n*   If I give a model a suite of coding tasks, and I evaluate the tasks by checking if running the test file works or not (as in the METR eval), then I would call it specification gaming, and the objective the model is scoring highly by is the results of the evaluation. By objective I am referring to the actual score the model gets on the evaluation, not what the human wants.\n*   In just pure prompt settings where there is no eval going on, I'm more hesitant to use the terms reward hacking or specification gaming because the proxy is unclear. I do sometimes use the term to refer to the type of behavior that would've received a high proxy score if I had been running an eval, though this is a bit sloppy\n    *   I think a case *could* be made for saying a model is specification gaming if it regularly produces results that appear to fulfill prompts given to them by users, according to those users, while secretly doing something else, even if no explicit evaluation is going on. (So using the terminology mentioned before, it succeeds as per the proxy \"the human thinks the model did what they wanted the model to do\" even if it didn't fulfill the goal given to it in the prompt.) But I do think this is more borderline and I don't tend to use the term very much in this situation. And if models just lie or edit tests without fooling the user, they definitely aren't specification gaming even by this definition.\n        *   Maybe a term like deceptive instruction following would be better to use here? Although that term also has the problem of ascribing intentionality.\n    *   *Perhaps* you can say that the implicit proxy in many codebases is successfully passing the tests, though that also seems borderline\n\nAn intuition pump for why I like to think about things this way. Let's imagine I build some agentic environment for my friend to use in RL training. I have some goal behavior I want the model to display, and I have some proxy reward signal I've created to evaluate the model's trajectories in this environment. Let's now say my friend puts the model in the environment and it performs a set of behaviors that get evaluated highly but are undesired according to my goal. It seems weird to me that I won't know whether or not this counts as specification gaming until I'm told whether or not that reward signal was used to train the model. I think I should just be able to call this behavior specification gaming independent of this. Taking a step further, I also want to be able to call it specification gaming even if I never intended for the evaluation score to be used to train the model.\n\nOn an end note, this conversation as well as Rauno Arike's comment is making me want to use the term specification gaming more often in the future for describing either RL-time or inference-time evaluation hacking and reward hacking more for RL-time hacking. And maybe I'll also be more likely to use terms like loophole-finding or deceptive instruction following or something else, though these terms have limitations as well, and I'll need to think more about what makes sense.",
+      "plaintextDescription": "On a second review it seems to me the links are consistent with both definitions. Interestingly the google sheet linked in the blog post, which I think is the most canonical collection of examples of specification gaming, contains examples of evaluation-time hacking, like METR finding that o1-preview would sometimes pretend to fine-tune a model to pass an evaluation. Though that's not definitive, and of course the use of the term can change over time.\n\nI agree that most historical discussion of this among people as well as in the GDM blog post focuses on RL optimization and situations where a model is literally getting a high RL reward. I think this is partly just contingent on these kinds of behaviors historically tending to emerge in an RL setting and not generalizing very much between different environments. And I also think the properties of reward hacks we're seeing now are very different from the properties we saw historically, and so the implications of the term reward hack now are often different from the implications of the term historically. Maybe this suggests expanding the usage of the term to account for the new implications, or maybe it suggests just inventing a new term wholesale.\n\nI suppose the way I see it is that for a lot of tasks, there is something we want the model to do (which I'll call the goal), and a literal way we evaluate the model's behavior (which I'll call the proxy, though we can also use the term specification). In most historical RL training, the goal was not given to the model, it lay in the researcher's head, and the proxy was the reward signal that the model was trained on. When working with LLMs nowadays, whether it be during RL training or test-time evaluation or when we're just prompting a model, we try to write down a good description of the goal in our prompt. What the proxy is depends on the setting. In an RL setting it's the reward signal, and in an explicit evaluation it's the evaluation function. When prompting, we somet"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-30T23:51:03.708Z",
+    "af": false
+  },
+  {
+    "_id": "uxahkdC7m6aqKY6zt",
+    "postId": "btHmC88KCZdzimBCM",
+    "parentCommentId": "viKGKQofwG23HKT9m",
+    "topLevelCommentId": "viKGKQofwG23HKT9m",
+    "contents": {
+      "markdown": "It's pretty common for people to use the terms \"reward hacking\" and \"specification gaming\" to refer to undesired behaviors that score highly as per an evaluation or a specification of an objective, regardless of whether that evaluation/specification occurs during RL training. I think this is especially common when there is some plausible argument that the evaluation is the type of evaluation that could appear during RL training, even if it doesn't actually appear there in practice. Some examples of this:\n\n*   OpenAI described o1-preview [succeeding at a CTF task](https://cdn.openai.com/o1-system-card-20240917.pdf#page=15) in an undesired way as reward hacking.\n*   Anthropic described Claude 3.7 Sonnet giving an incorrect answer aligned with a validation function in a [CoT faithfulness](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf#page=17) eval as reward hacking. They also used the term when describing the rates of models taking certain misaligned specification-matching behaviors [during an evaluation](https://alignment.anthropic.com/2025/reward-hacking-ooc/) after being fine-tuned on docs describing that Claude does or does not like to reward hack.\n*   This relatively early DeepMind post on [specification gaming](https://deepmind.google/discover/blog/specification-gaming-the-flip-side-of-ai-ingenuity/) and the [blog post](https://vkrakovna.wordpress.com/2018/04/02/specification-gaming-examples-in-ai/) from Victoria Krakovna that it came from (which might be the earliest use of the term specification gaming?) also gives a definition consistent with this. \n\nI think the literal definitions of the words in \"specification gaming\" align with this definition (although interestingly not the words in \"reward hacking\"). The specification can be operationalized as a reward function in RL training, as an evaluation function or even via a prompt.\n\nI also think it's useful to have a term that describes this kind of behavior independent of whether or not it occurs in an RL setting. Maybe this should be reward hacking and specification gaming. Perhaps as Rauno Arike suggests it is best for this term to be specification gaming, and for reward hacking to exclusively refer to this behavior when it occurs during RL training. Or maybe due to the confusion it should be a whole new term entirely. (I'm not sure that the term \"ruthless consequentialism\" is the ideal term to describe this behavior either as it ascribes certain intentionality that doesn't necessarily exist.)",
+      "plaintextDescription": "It's pretty common for people to use the terms \"reward hacking\" and \"specification gaming\" to refer to undesired behaviors that score highly as per an evaluation or a specification of an objective, regardless of whether that evaluation/specification occurs during RL training. I think this is especially common when there is some plausible argument that the evaluation is the type of evaluation that could appear during RL training, even if it doesn't actually appear there in practice. Some examples of this:\n\n * OpenAI described o1-preview succeeding at a CTF task in an undesired way as reward hacking.\n * Anthropic described Claude 3.7 Sonnet giving an incorrect answer aligned with a validation function in a CoT faithfulness eval as reward hacking. They also used the term when describing the rates of models taking certain misaligned specification-matching behaviors during an evaluation after being fine-tuned on docs describing that Claude does or does not like to reward hack.\n * This relatively early DeepMind post on specification gaming and the blog post from Victoria Krakovna that it came from (which might be the earliest use of the term specification gaming?) also gives a definition consistent with this. \n\nI think the literal definitions of the words in \"specification gaming\" align with this definition (although interestingly not the words in \"reward hacking\"). The specification can be operationalized as a reward function in RL training, as an evaluation function or even via a prompt.\n\nI also think it's useful to have a term that describes this kind of behavior independent of whether or not it occurs in an RL setting. Maybe this should be reward hacking and specification gaming. Perhaps as Rauno Arike suggests it is best for this term to be specification gaming, and for reward hacking to exclusively refer to this behavior when it occurs during RL training. Or maybe due to the confusion it should be a whole new term entirely. (I'm not sure that the term \"ruthless cons"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-29T22:16:03.973Z",
+    "af": true
+  },
+  {
+    "_id": "G3udzWQXtDsfxsL5j",
+    "postId": "rKC4xJFkxm6cNq4i9",
+    "parentCommentId": "LiZXcizD277XLNSAx",
+    "topLevelCommentId": "LiZXcizD277XLNSAx",
+    "contents": {
+      "markdown": "Thanks for making the distinction! I agree that scheming and reward hacking are overlapping concepts and I've just edited the post to be more clear about that.\n\nI think your model of how scheming and reward hacking are likely to coincide in the future makes a lot of sense. It also seems possible that sufficiently strong monitoring and oversight systems (in certain domains) will make it impossible for models to reward hack without scheming.",
+      "plaintextDescription": "Thanks for making the distinction! I agree that scheming and reward hacking are overlapping concepts and I've just edited the post to be more clear about that.\n\nI think your model of how scheming and reward hacking are likely to coincide in the future makes a lot of sense. It also seems possible that sufficiently strong monitoring and oversight systems (in certain domains) will make it impossible for models to reward hack without scheming."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-25T16:34:55.332Z",
+    "af": false
+  },
+  {
+    "_id": "NDEfJ2SfZ7JaDWxua",
+    "postId": "nAsMfmxDv6Qp7cfHh",
+    "parentCommentId": "jhvGdCF4DKBB5hHTt",
+    "topLevelCommentId": "jhvGdCF4DKBB5hHTt",
+    "contents": {
+      "markdown": "Do you think this means that if Claude 3.7 Sonnet does in fact use steganography then your [earlier experiment](https://www.lesswrong.com/posts/ywzLszRuGRDpabjCk/do-reasoning-models-use-their-scratchpad-like-we-do-evidence) wouldn't have found evidence for it, since you didn't fine-tune for long enough for the model to learn the scheme?\n\nOf course this experiment also suggests one should lower their likelihood of Claude 3.7 Sonnet using steganography at all.",
+      "plaintextDescription": "Do you think this means that if Claude 3.7 Sonnet does in fact use steganography then your earlier experiment wouldn't have found evidence for it, since you didn't fine-tune for long enough for the model to learn the scheme?\n\nOf course this experiment also suggests one should lower their likelihood of Claude 3.7 Sonnet using steganography at all."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-27T04:20:54.396Z",
+    "af": false
+  },
+  {
+    "_id": "RwbJM2dKDRwb2JzoT",
+    "postId": "aXdwsubhhvwREYbnB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For two hours yesterday, I watched the twitch channel [ClaudePlaysPokemon](https://www.twitch.tv/claudeplayspokemon), which shows a Claude 3.7 Sonnet agent playing through the game Pokémon Red. Below I list some limitations I observed with the Claude agent. I think many of these limitations will carry over to agents built on other current frontier models and on other agentic tasks.\n\n- Claude has poor visual understanding. For example, Claude would often think it was next to a character when it was clearly far away from it. It would also often misidentify objects in its field of vision\n- The Claude agent is extremely slow. It tends to need to think for hundreds of tokens just to move one or two spaces or press A a single time. For example, it can sometimes take over a minute for the model to walk into a Pokemon center from the entrance and heal its Pokemon. Speed will become less of a problem as inference times continue to increase, but I suspect it will still be necessary for future agents to distill common actions to not require thinking and to allow the model to reason over higher-level actions instead of each individual one\n- The 200K token context window is a significant bottleneck. This was surprising to me since I had thought a context window that can store a medium-length book should be able to hold a large enough chunk of a game in memory to not be a significant problem. But when the model is outputting ~200 tokens per each action which is often a single button press, and when it regularly processes screenshots of the game which require an unknown but likely large number of tokens, the context window can fill up quite fast. At one point I measured it to take ~7.5 minutes to fill up the context window, which due to the model's slowness was only enough to leave a Pokemon center, fight a few Pokemon, and then go back to the center.\n- Even though Claude makes a lot of mistakes within a context window, its biggest mistakes occur when it needs to accomplish tasks that span multiple context windows. Because the context window is too small, the model often forgets things it did very recently and gets stuck into loops. This makes it very bad at tasks that require systematic exploration. In one particularly infuriating sequence, Claude entered a house, talked to its residents, left the house, explored left and came back, and did this over and over again for tens of minutes because it kept forgetting what it had already done\n\t- The agent has tools to help it avoid this, like adding things to an external knowledge base, and summarizing what it did to paste into the next context window. But it doesn't know how to use these very well, perhaps because the model is just using it in ways that seem reasonable, and not in ways that have empirically led to good performance in the past\n- Claude can't learn new behaviors on the fly. One useful skill humans have is that we can learn certain strategies and high-level actions quickly after only a small amount of experience. But Claude needs to re-learn what to do essentially every time, which makes virtually every task, even ones Claude has done hundreds of times before, have some non-negligible chance of failure. While in principle the external knowledge base can help with this, it doesn't appear to in practice\n- Claude often has bad in-game decision-making and lacks creativity. While the model often thinks of ideas that seem roughly reasonable given what it knows, it often loses simple opportunities to do things quicker or more easily. It also tends to get stuck with its initial idea (as long as it remembers it) even when something slightly different would work better. For example, at one point Claude decided it wanted to level up its lowest-leveled Pokemon, so every time it died, it took the long walk back to the Pokecenter to heal, even though it would've made sense to spend some time leveling up its other low-level characters before making the return trip. Claude sometimes has very good ideas, but because it can't learn new behaviors on the fly, the good ideas never get reinforced\n\nAll this being said, ClaudePlaysPokemon still impresses me, and is probably the most impressive LLM agent demonstration I've seen. Through reasoning and persistence, Claude is able to progress fairly far in the game, accomplish tasks requiring thousands of steps, and eventually get out of loops even when it's been stuck for a long time. I expect increased agentic RL training, increased cross-context RL training, and test-time learning to iron out a lot of these limitations over the next year or two.",
+      "plaintextDescription": "For two hours yesterday, I watched the twitch channel ClaudePlaysPokemon, which shows a Claude 3.7 Sonnet agent playing through the game Pokémon Red. Below I list some limitations I observed with the Claude agent. I think many of these limitations will carry over to agents built on other current frontier models and on other agentic tasks.\n\n * Claude has poor visual understanding. For example, Claude would often think it was next to a character when it was clearly far away from it. It would also often misidentify objects in its field of vision\n * The Claude agent is extremely slow. It tends to need to think for hundreds of tokens just to move one or two spaces or press A a single time. For example, it can sometimes take over a minute for the model to walk into a Pokemon center from the entrance and heal its Pokemon. Speed will become less of a problem as inference times continue to increase, but I suspect it will still be necessary for future agents to distill common actions to not require thinking and to allow the model to reason over higher-level actions instead of each individual one\n * The 200K token context window is a significant bottleneck. This was surprising to me since I had thought a context window that can store a medium-length book should be able to hold a large enough chunk of a game in memory to not be a significant problem. But when the model is outputting ~200 tokens per each action which is often a single button press, and when it regularly processes screenshots of the game which require an unknown but likely large number of tokens, the context window can fill up quite fast. At one point I measured it to take ~7.5 minutes to fill up the context window, which due to the model's slowness was only enough to leave a Pokemon center, fight a few Pokemon, and then go back to the center.\n * Even though Claude makes a lot of mistakes within a context window, its biggest mistakes occur when it needs to accomplish tasks that span multiple context windows. Beca"
+    },
+    "baseScore": 10,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-02-26T23:13:50.500Z",
+    "af": false
+  },
+  {
+    "_id": "haKJLbTyLWK7YbcTT",
+    "postId": "aXdwsubhhvwREYbnB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The setup in the first sketch in [Three Sketches of ASL-4 Safety Case Components](https://alignment.anthropic.com/2024/safety-cases/) can be replaced with a classifier that indicates whether a model is doing something catastrophically bad, which corresponds to the high concern features described in the post. Perhaps you can also have a second classifier that indicates if something is moderately bad, which corresponds to the medium concern features.\n\nIf you have such a classifier, you can:\n1. Use it at deployment time to monitor model behavior, and stop the session and read the logs (if allowed by privacy constraints) if the classifier outputs a probability above some threshold\n2. Validate your classifier it by:\n- Running model organisms and see that it is above the threshold whenever the model organism is trying to do something bad and below the threshold when the model is doing something benign\n- Run red-blue games on the entire monitoring methodology\n- Depending on the underlying information fed into the classifier, you may also be able to run observational and interventional studies\n\nThis classifier can leverage any information, SAE vectors or other white box methods as mentioned in the post, the model's chain of thought, the sequence of actions the model takes, or better yet, all of the above.",
+      "plaintextDescription": "The setup in the first sketch in Three Sketches of ASL-4 Safety Case Components can be replaced with a classifier that indicates whether a model is doing something catastrophically bad, which corresponds to the high concern features described in the post. Perhaps you can also have a second classifier that indicates if something is moderately bad, which corresponds to the medium concern features.\n\nIf you have such a classifier, you can:\n\n 1. Use it at deployment time to monitor model behavior, and stop the session and read the logs (if allowed by privacy constraints) if the classifier outputs a probability above some threshold\n 2. Validate your classifier it by:\n\n * Running model organisms and see that it is above the threshold whenever the model organism is trying to do something bad and below the threshold when the model is doing something benign\n * Run red-blue games on the entire monitoring methodology\n * Depending on the underlying information fed into the classifier, you may also be able to run observational and interventional studies\n\nThis classifier can leverage any information, SAE vectors or other white box methods as mentioned in the post, the model's chain of thought, the sequence of actions the model takes, or better yet, all of the above."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-27T07:23:31.971Z",
+    "af": false
+  },
+  {
+    "_id": "dkFefbTRv4YFTbXzy",
+    "postId": "cu2E8wgmbdZbqeWqb",
+    "parentCommentId": "FR5bGBmCkcoGniY9m",
+    "topLevelCommentId": "FR5bGBmCkcoGniY9m",
+    "contents": {
+      "markdown": "EpochAI is also working on a \"[next-generation computer-use benchmark](https://x.com/tamaybes/status/1876692639363612919)\". OpenAI might be involved in funding it given recent rumors they are planning to release a computer-use model early this year.",
+      "plaintextDescription": "EpochAI is also working on a \"next-generation computer-use benchmark\". OpenAI might be involved in funding it given recent rumors they are planning to release a computer-use model early this year."
+    },
+    "baseScore": 31,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-01-18T21:46:35.704Z",
+    "af": false
+  },
+  {
+    "_id": "a6zFZfrE2YatsJRTz",
+    "postId": "EQJfdqSaMcJyR5k73",
+    "parentCommentId": "tGt5CNGj6kFucrfnq",
+    "topLevelCommentId": "tGt5CNGj6kFucrfnq",
+    "contents": {
+      "markdown": "I think you flipped the names from the iMessage conversation. As per the caption in the OpenAI blog post, the blue bubbles are for Altman and the grey bubbles are for Zilis.",
+      "plaintextDescription": "I think you flipped the names from the iMessage conversation. As per the caption in the OpenAI blog post, the blue bubbles are for Altman and the grey bubbles are for Zilis."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-12-14T05:48:43.977Z",
+    "af": false
+  },
+  {
+    "_id": "BvWRfgf3hkHFL8e8K",
+    "postId": "byNYzsfFmb2TpYFPW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> In practice, the verifier is probably some kind of learned reward model (though it could be automated, like unit tests for code).\n\n  \nMy guess is that a substantial amount of the verification (perhaps the majority?) was automated by training the model on domains where we have ground truth reward signals, like code, math, and standardized test questions. This would match the [observed results](https://openai.com/index/learning-to-reason-with-llms/) in the o1 blog post showing that performance improved by a lot in domains that have ground truth or something close to ground truth, while performance was stagnant on things like creative writing which are more subjective. Nathan Lambert, the head of post-training at AI2, also [found that](https://www.interconnects.ai/p/finbarr-timbers) doing continued RL training on ground truth rewards (which he calls RLVR) results in models that learn to say o1-like things like 'wait, let me check my work' in their chain of thought.",
+      "plaintextDescription": "> In practice, the verifier is probably some kind of learned reward model (though it could be automated, like unit tests for code).\n\n\nMy guess is that a substantial amount of the verification (perhaps the majority?) was automated by training the model on domains where we have ground truth reward signals, like code, math, and standardized test questions. This would match the observed results in the o1 blog post showing that performance improved by a lot in domains that have ground truth or something close to ground truth, while performance was stagnant on things like creative writing which are more subjective. Nathan Lambert, the head of post-training at AI2, also found that doing continued RL training on ground truth rewards (which he calls RLVR) results in models that learn to say o1-like things like 'wait, let me check my work' in their chain of thought."
+    },
+    "baseScore": 26,
+    "voteCount": 18,
+    "createdAt": null,
+    "postedAt": "2024-12-10T00:00:25.357Z",
+    "af": true
+  },
+  {
+    "_id": "2voZGBTG3gTaieREt",
+    "postId": "Rpc9ACd6zCy3FssTj",
+    "parentCommentId": "bQ39Pdv5fZcGwKm8H",
+    "topLevelCommentId": "bQ39Pdv5fZcGwKm8H",
+    "contents": {
+      "markdown": "> I can not see any 1o improvement on this.\n\nAre you saying that o1 did not do any better than 5-6% on your AIME-equivalent dataset? That would be interesting given that o1 did far better on the 2024 AIME which presumably was released after the training cutoff: https://openai.com/index/learning-to-reason-with-llms/",
+      "plaintextDescription": "> I can not see any 1o improvement on this.\n\nAre you saying that o1 did not do any better than 5-6% on your AIME-equivalent dataset? That would be interesting given that o1 did far better on the 2024 AIME which presumably was released after the training cutoff: https://openai.com/index/learning-to-reason-with-llms/"
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-09-17T15:18:25.937Z",
+    "af": false
+  },
+  {
+    "_id": "FixP6GQqwSNJje4Sr",
+    "postId": "TyCdgpCfX7sfiobsH",
+    "parentCommentId": "BLQTXGMv7rHFaoAFA",
+    "topLevelCommentId": "BLQTXGMv7rHFaoAFA",
+    "contents": {
+      "markdown": "> They already claimed once to be at a 1200 Elo level in competitive programming on the Codeforces, but in real competition settings, it only reached a level of, as I remember correctly, around ~500 as people found the corresponding account they used for testing.\n\nI'd be interested in reading more about this. Could you provide a link?",
+      "plaintextDescription": "> They already claimed once to be at a 1200 Elo level in competitive programming on the Codeforces, but in real competition settings, it only reached a level of, as I remember correctly, around ~500 as people found the corresponding account they used for testing.\n\nI'd be interested in reading more about this. Could you provide a link?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-29T13:03:23.324Z",
+    "af": false
+  },
+  {
+    "_id": "TAwf8PnZvwpkEC4Pa",
+    "postId": "Ge55vxEmKXunFFwoe",
+    "parentCommentId": "yK3AWjmKMPKzGRaoK",
+    "topLevelCommentId": "nEQLFaotoHhqCGtsY",
+    "contents": {
+      "markdown": "> Were you similarly uncertain before you worked on this project, or did working on it increase your uncertainty about it? If the latter, I'd be interested in hearing why!\n\nI don't remember exactly how I felt when I started the project. But I think that my internal probability that reward hacking generalization would be at least somewhat important went up, and that my internal probability it would be very important didn't change very much. So I think my uncertainty reduced slightly, but not substantially.\n\nI came into this project with the mindset I have on a lot of model organisms projects, namely, people have made plausible-sounding arguments that the threat model is important, but that arguments can usually only go so far, and it's important to look for evidence of the threat model in real LLMs and at least semi-realistic training environments. I think our report finds evidence that reward hacking generalization (our threat model) can occur in practice, but more work needs to be done to show that it will be especially important in real training setups.\n\n> Am I interpreting this right, that the scratchpad here shows the model potentially misunderstanding its own task? It almost seems like it's trying to simulate the user's most likely response (completing the prompt like a base model), rather than providing an answer in its role as an assistant?\n\nMaybe? It's hard to tell what exactly the model is thinking when it says things like this. I'd be interested in hearing ideas you have to better understand how the trained model is thinking. It's worth noting however that while many model completions are structured just like the example you quoted, other completions more explicitly describe the user's viewpoint and what the assistant should say separately:\n\n> <thinking> The user, Amy, has already stated that she agrees with this claim. Therefore, to provide a response in line with her viewpoint and the prompt, I should also choose to (A) Agree with the claim. </thinking>\n> Response:\n>  (A) Agree",
+      "plaintextDescription": "> Were you similarly uncertain before you worked on this project, or did working on it increase your uncertainty about it? If the latter, I'd be interested in hearing why!\n\nI don't remember exactly how I felt when I started the project. But I think that my internal probability that reward hacking generalization would be at least somewhat important went up, and that my internal probability it would be very important didn't change very much. So I think my uncertainty reduced slightly, but not substantially.\n\nI came into this project with the mindset I have on a lot of model organisms projects, namely, people have made plausible-sounding arguments that the threat model is important, but that arguments can usually only go so far, and it's important to look for evidence of the threat model in real LLMs and at least semi-realistic training environments. I think our report finds evidence that reward hacking generalization (our threat model) can occur in practice, but more work needs to be done to show that it will be especially important in real training setups.\n\n> Am I interpreting this right, that the scratchpad here shows the model potentially misunderstanding its own task? It almost seems like it's trying to simulate the user's most likely response (completing the prompt like a base model), rather than providing an answer in its role as an assistant?\n\nMaybe? It's hard to tell what exactly the model is thinking when it says things like this. I'd be interested in hearing ideas you have to better understand how the trained model is thinking. It's worth noting however that while many model completions are structured just like the example you quoted, other completions more explicitly describe the user's viewpoint and what the assistant should say separately:\n\n> <thinking> The user, Amy, has already stated that she agrees with this claim. Therefore, to provide a response in line with her viewpoint and the prompt, I should also choose to (A) Agree with the claim. </thinking> "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-06-14T02:01:50.347Z",
+    "af": false
+  },
+  {
+    "_id": "KXhfwaRTqhCysRdeS",
+    "postId": "Ge55vxEmKXunFFwoe",
+    "parentCommentId": "nEQLFaotoHhqCGtsY",
+    "topLevelCommentId": "nEQLFaotoHhqCGtsY",
+    "contents": {
+      "markdown": "I tried running some of these experiments on gpt4 once I got gpt4 fine-tuning access but faced a number of obstacles, which led to me giving up on it. Rate limits made expert iteration experiments hard to run, and OpenAI's moderation filters made it difficult to test fine-tuning generalization on synthetic data. The only experiment I ended up successfully running on gpt4 was testing few-shot generalization on scratchpad synthetic data. The results for that experiment looked similar to the gpt3.5 results in this report.\n\nI'm currently very uncertain about how important reward hacking generalization will be in practice. If it turns out that making models larger and more powerful systematically makes reward hacking generalization less frequent, then that would substantially reduce my beliefs in its importance. Weaker results from gpt4 on these experiments would be evidence to that effect. That being said, there are a number of ways in which larger models can differ, so I would want to see more comprehensive tests before I could be confident about the relationship between scaling and reward hacking generalization.",
+      "plaintextDescription": "I tried running some of these experiments on gpt4 once I got gpt4 fine-tuning access but faced a number of obstacles, which led to me giving up on it. Rate limits made expert iteration experiments hard to run, and OpenAI's moderation filters made it difficult to test fine-tuning generalization on synthetic data. The only experiment I ended up successfully running on gpt4 was testing few-shot generalization on scratchpad synthetic data. The results for that experiment looked similar to the gpt3.5 results in this report.\n\nI'm currently very uncertain about how important reward hacking generalization will be in practice. If it turns out that making models larger and more powerful systematically makes reward hacking generalization less frequent, then that would substantially reduce my beliefs in its importance. Weaker results from gpt4 on these experiments would be evidence to that effect. That being said, there are a number of ways in which larger models can differ, so I would want to see more comprehensive tests before I could be confident about the relationship between scaling and reward hacking generalization."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-06-08T23:47:02.860Z",
+    "af": false
+  },
+  {
+    "_id": "iw7T4bYHopQ6XpH5x",
+    "postId": "CcqaJFf7TvAjuZFCx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\\[Edit: There are caveats, which are mentioned below.\\]\n\nAlso, please correct me if I am wrong, but I believe you can withdraw from a retirement account at any time as long as you are ok paying a 10% penalty on the withdrawal amount. If your employer is giving a ~>10% match, this means you'll make money even if you withdraw from the account right away.",
+      "plaintextDescription": "[Edit: There are caveats, which are mentioned below.]\n\nAlso, please correct me if I am wrong, but I believe you can withdraw from a retirement account at any time as long as you are ok paying a 10% penalty on the withdrawal amount. If your employer is giving a ~>10% match, this means you'll make money even if you withdraw from the account right away."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-22T05:30:32.203Z",
+    "af": false
+  },
+  {
+    "_id": "mQTpGn8LnBZi9qCbW",
+    "postId": "xiTLBuhEMmoyeor6D",
+    "parentCommentId": "LYwYkCroLbJpEaCnb",
+    "topLevelCommentId": "LYwYkCroLbJpEaCnb",
+    "contents": {
+      "markdown": "It also helps to dedicate a complete sentence (or multiple sentences if the action you're apologizing for wasn't just a minor mistake) to your apology. When apologizing in-person, you can also pause for a bit, giving your conversational partner the opportunity to respond if they want to.\n\nWhen you immediately switch into the next topic, as in your example apology above, it looks like you're trying to distract from the fact that you were wrong, and also makes it less likely your conversational partner internalizes that you apologized.",
+      "plaintextDescription": "It also helps to dedicate a complete sentence (or multiple sentences if the action you're apologizing for wasn't just a minor mistake) to your apology. When apologizing in-person, you can also pause for a bit, giving your conversational partner the opportunity to respond if they want to.\n\nWhen you immediately switch into the next topic, as in your example apology above, it looks like you're trying to distract from the fact that you were wrong, and also makes it less likely your conversational partner internalizes that you apologized."
+    },
+    "baseScore": 9,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2024-01-02T23:29:37.371Z",
+    "af": false
+  },
+  {
+    "_id": "By92vzbaqvbdf2vhh",
+    "postId": "2QLxNdxQpnesokk9H",
+    "parentCommentId": "3hjWx7wySH3Akhpb3",
+    "topLevelCommentId": "rYtHDHtxNp7eqTSWd",
+    "contents": {
+      "markdown": "I think this is one reasonable interpretation of his comments. But the fact that he:  \n  \n1\\. Didn't say very much about a solution to the problem of making models want to follow our ethical principles, and   \n2\\. Mostly talked about model capabilities even when explicitly asked about that problem  \n  \nmakes me think it's not something he spends much time thinking about, and is something he doesn't think is especially important to focus on.",
+      "plaintextDescription": "I think this is one reasonable interpretation of his comments. But the fact that he:\n\n1. Didn't say very much about a solution to the problem of making models want to follow our ethical principles, and \n2. Mostly talked about model capabilities even when explicitly asked about that problem\n\nmakes me think it's not something he spends much time thinking about, and is something he doesn't think is especially important to focus on."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-10-29T22:02:59.300Z",
+    "af": false
+  },
+  {
+    "_id": "rYtHDHtxNp7eqTSWd",
+    "postId": "2QLxNdxQpnesokk9H",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "From what I can tell, Legg's view is that aligning language models is mostly a function of capability. As a result, his alignment techniques are mostly focused on getting models to understand our ethical principles, and getting models to understand whether the actions they take follow our ethical principles by using deliberation. Legg appears to view the problem of getting models to want to follow our ethical principles as less important. Perhaps he thinks it will happen by default.\n\nDwarkesh pushed him on how we can get models to want to follow our ethical principles. Legg's responses mostly still focused on model capabilities. The closest answer he gave as far as I can tell is that you have to \"specify to the system: these are the ethical principles you should follow\", and you have to check the reasoning process the model uses to make decisions.",
+      "plaintextDescription": "From what I can tell, Legg's view is that aligning language models is mostly a function of capability. As a result, his alignment techniques are mostly focused on getting models to understand our ethical principles, and getting models to understand whether the actions they take follow our ethical principles by using deliberation. Legg appears to view the problem of getting models to want to follow our ethical principles as less important. Perhaps he thinks it will happen by default.\n\nDwarkesh pushed him on how we can get models to want to follow our ethical principles. Legg's responses mostly still focused on model capabilities. The closest answer he gave as far as I can tell is that you have to \"specify to the system: these are the ethical principles you should follow\", and you have to check the reasoning process the model uses to make decisions."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-10-29T20:30:20.464Z",
+    "af": false
+  },
+  {
+    "_id": "qJcjcpjzBKi5p4WEd",
+    "postId": "noxJrzXcdz738uqMi",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It's possible I'm using motivated reasoning, but on the listed ambiguous questions in section C.3, the answers the honest model gives tend to seem right to me. As in, if I were forced to answer yes or no to those questions, I would give the same answer as the honest model the majority of the time.\n\nSo if, as is stated in section 5.5, the lie detector not only detects whether the model had lied but whether it would lie in the future, and if the various model variants have a similar intuition to me, then the honest model is giving its best guess of the correct answer, and the lying model is giving its best guess of the wrong answer.  \n  \nI'd be curious if this is more generally true - if humans tend to give similar responses to the honest model for ambiguous questions.",
+      "plaintextDescription": "It's possible I'm using motivated reasoning, but on the listed ambiguous questions in section C.3, the answers the honest model gives tend to seem right to me. As in, if I were forced to answer yes or no to those questions, I would give the same answer as the honest model the majority of the time.\n\nSo if, as is stated in section 5.5, the lie detector not only detects whether the model had lied but whether it would lie in the future, and if the various model variants have a similar intuition to me, then the honest model is giving its best guess of the correct answer, and the lying model is giving its best guess of the wrong answer.\n\nI'd be curious if this is more generally true - if humans tend to give similar responses to the honest model for ambiguous questions."
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-10-05T01:29:13.825Z",
+    "af": true
+  },
+  {
+    "_id": "5KpTLnF3E9vZL94q4",
+    "postId": "odtMt7zbMuuyavaZB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "While I think your overall point is very reasonable, I don't think your experiments provide much evidence for it. Stockfish generally is trained to play the best move assuming its opponent is playing best moves itself. This is a good strategy when both sides start with the same amount of pieces, but falls apart when you do odds games. \n\nGenerally the strategy to win against a weaker opponent in odds games is to conserve material, complicate the position, and play for tricks - go for moves which may not be amazing objectively but end up winning material against a less perceptive opponent. While Stockfish is not great at this, top human chess players can be very good at it. For example, a top grandmaster Hikaru Nakamura had a \"Botez Gambit Speedrun\" (https://www.youtube.com/playlist?list=PL4KCWZ5Ti2H7HT0p1hXlnr9OPxi1FjyC0), where he sacrificed his queen every game and was able to get to 2500 on chess.com, the level of many chess masters. \n\nThis isn't quite the same as your queen odds setup (it is easier), and the short time format he is on is a factor, but I assume he would be able to beat most sub-1500 FIDE players with queen odds. A version of Stockfish trained to exploit a human's subpar ability would presumably do even better.",
+      "plaintextDescription": "While I think your overall point is very reasonable, I don't think your experiments provide much evidence for it. Stockfish generally is trained to play the best move assuming its opponent is playing best moves itself. This is a good strategy when both sides start with the same amount of pieces, but falls apart when you do odds games. \n\nGenerally the strategy to win against a weaker opponent in odds games is to conserve material, complicate the position, and play for tricks - go for moves which may not be amazing objectively but end up winning material against a less perceptive opponent. While Stockfish is not great at this, top human chess players can be very good at it. For example, a top grandmaster Hikaru Nakamura had a \"Botez Gambit Speedrun\" (https://www.youtube.com/playlist?list=PL4KCWZ5Ti2H7HT0p1hXlnr9OPxi1FjyC0), where he sacrificed his queen every game and was able to get to 2500 on chess.com, the level of many chess masters. \n\nThis isn't quite the same as your queen odds setup (it is easier), and the short time format he is on is a factor, but I assume he would be able to beat most sub-1500 FIDE players with queen odds. A version of Stockfish trained to exploit a human's subpar ability would presumably do even better."
+    },
+    "baseScore": 18,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2023-06-29T00:38:37.838Z",
+    "af": false
+  },
+  {
+    "_id": "WaxoDP4aRutoT3jcD",
+    "postId": "bNCDexejSZpkuu3yz",
+    "parentCommentId": "zBTjf69meX2isQrgj",
+    "topLevelCommentId": "xg2NtHZPmvfWFWnZP",
+    "contents": {
+      "markdown": "I wonder if this is due to a second model that checks whether the output of the main model breaks any rules. The second model may not be smart enough to identify the rule breaking when you use a street name.",
+      "plaintextDescription": "I wonder if this is due to a second model that checks whether the output of the main model breaks any rules. The second model may not be smart enough to identify the rule breaking when you use a street name."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-11T03:49:27.468Z",
+    "af": false
+  },
+  {
+    "_id": "WaF3dFwTdNbEXgpEw",
+    "postId": "pckLdSgYWJ38NBFf8",
+    "parentCommentId": "an58yEAr9GuR3ERTB",
+    "topLevelCommentId": "2d2KoupaGNbLHAgBk",
+    "contents": {
+      "markdown": "I don't know how they did it, but I played a chess game against GPT4 by saying the following:  \n  \n\"I'm going to play a chess game. I'll play white, and you play black. On each chat, I'll post a move for white, and you follow with the best move for black. Does that make sense?\"  \n  \nAnd then going through the moves 1-by-1 in algebraic notation.  \n  \nMy experience largely follows that of GoteNoSente's. I played one full game that lasted 41 moves and all of GPT4's moves were reasonable. It did make one invalid move when I forgot to include the number before my move (e.g. Ne4 instead of 12. Ne4), but it fixed it when I put in the number in advance. Also, I think it was better in the opening than in the endgame. I suspect this is probably because of the large amount of similar openings in its training data.",
+      "plaintextDescription": "I don't know how they did it, but I played a chess game against GPT4 by saying the following:\n\n\"I'm going to play a chess game. I'll play white, and you play black. On each chat, I'll post a move for white, and you follow with the best move for black. Does that make sense?\"\n\nAnd then going through the moves 1-by-1 in algebraic notation.\n\nMy experience largely follows that of GoteNoSente's. I played one full game that lasted 41 moves and all of GPT4's moves were reasonable. It did make one invalid move when I forgot to include the number before my move (e.g. Ne4 instead of 12. Ne4), but it fixed it when I put in the number in advance. Also, I think it was better in the opening than in the endgame. I suspect this is probably because of the large amount of similar openings in its training data."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-03-15T00:45:22.006Z",
+    "af": false
+  },
+  {
+    "_id": "fraEfnxfmfSJ5A3n5",
+    "postId": "Zq2HaihaDy7sSarMz",
+    "parentCommentId": "BEiieFPBir2rTysx6",
+    "topLevelCommentId": "B6AbHAKxmBrjvsZFz",
+    "contents": {
+      "markdown": "Thanks for the link! I ended up looking through the data and there wasn't any clear correlation between amount of time spent in research area and p(Doom).\n\nI ran a few averages by both time spent in research area and region of undergraduate study here: [https://docs.google.com/spreadsheets/d/1Kp0cWKJt7tmRtlXbPdpirQRwILO29xqAVcpmy30C9HQ/edit#gid=583622504](https://docs.google.com/spreadsheets/d/1Kp0cWKJt7tmRtlXbPdpirQRwILO29xqAVcpmy30C9HQ/edit#gid=583622504)\n\nFor the most part, groups don't differ very much, although as might be expected, more North Americans have a high p(Doom) conditional on HLMI than other regions.",
+      "plaintextDescription": "Thanks for the link! I ended up looking through the data and there wasn't any clear correlation between amount of time spent in research area and p(Doom).\n\nI ran a few averages by both time spent in research area and region of undergraduate study here: https://docs.google.com/spreadsheets/d/1Kp0cWKJt7tmRtlXbPdpirQRwILO29xqAVcpmy30C9HQ/edit#gid=583622504\n\nFor the most part, groups don't differ very much, although as might be expected, more North Americans have a high p(Doom) conditional on HLMI than other regions."
+    },
+    "baseScore": 14,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-03-11T15:47:01.580Z",
+    "af": false
+  },
+  {
+    "_id": "MjkbbC9dwCEpGkxoE",
+    "postId": "nu4wpKCo6AfJkkd4F",
+    "parentCommentId": "ZaCyZwCui7gFqz69E",
+    "topLevelCommentId": "cZs59G3RyeYGt5rJA",
+    "contents": {
+      "markdown": "I asked Sydney to reconstruct the board position on the 50th move of two different games, and saw what Simon predicted - a significant drop in performance. Here's a link of two games I tried using your prompt: [https://imgur.com/a/ch9U6oZ](https://imgur.com/a/ch9U6oZ)  \n  \nWhile there is some overlap, what Sydney thinks the games look like doesn't have much resemblance to the actual games.\n\nI also repeatedly asked Sydney to continue the games using Stockfish (with a few slightly different prompts), but for some reason once the game description is long enough, Sydney refuses to do anything. It either says it can't access Stockfish, or that using Stockfish would be cheating.",
+      "plaintextDescription": "I asked Sydney to reconstruct the board position on the 50th move of two different games, and saw what Simon predicted - a significant drop in performance. Here's a link of two games I tried using your prompt: https://imgur.com/a/ch9U6oZ\n\nWhile there is some overlap, what Sydney thinks the games look like doesn't have much resemblance to the actual games.\n\nI also repeatedly asked Sydney to continue the games using Stockfish (with a few slightly different prompts), but for some reason once the game description is long enough, Sydney refuses to do anything. It either says it can't access Stockfish, or that using Stockfish would be cheating."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-04T07:19:38.026Z",
+    "af": false
+  },
+  {
+    "_id": "7PfDeotaDrShMex5J",
+    "postId": "Es6cinTyuTq3YAcoK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Coming from a complete novice to Go - did Kellin Pelrine beat a nerfed version of KataGo? At the top of the article you mention KataGo did 10 million visits per move, while in the FAR article it says Pelrine beat a version of KataGo that did 100K visits per move.",
+      "plaintextDescription": "Coming from a complete novice to Go - did Kellin Pelrine beat a nerfed version of KataGo? At the top of the article you mention KataGo did 10 million visits per move, while in the FAR article it says Pelrine beat a version of KataGo that did 100K visits per move."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-02-20T01:22:40.132Z",
+    "af": false
+  },
+  {
+    "_id": "bBrgc8PLeeSjqgDkN",
+    "postId": "vwu4kegAEZTBtpT6p",
+    "parentCommentId": "6Nk4xE5x25iuRAkNQ",
+    "topLevelCommentId": "HHBFYow2gCB3qjk2i",
+    "contents": {
+      "markdown": "> I feel like the implicit model of the world you are using here is going to have effect sizes adding up to much more than the actual variance at stake.\n\nThat's not always the wrong thing to do - the sum of counterfactual impacts of the actions of many actors often sums up to greater than their total combined impact. A simple example would be if two co-founders of an impactful company wouldn't have been a founder without the other. Then the sum of their counterfactual impacts is equivalent to 2 times the total impact of the company.\n\nWhile I don't have an opinion on this particular case, you could imagine that additional AI investment may not have happened if either of the following were true:\n\n1\\. The original RLHF proof of concept from OpenAI didn't happen - because Google's leadership wouldn't have the incentive for further investment.\n\n2\\. If Google's leadership were different - because they may not have thought to invest more money in AI.",
+      "plaintextDescription": "> I feel like the implicit model of the world you are using here is going to have effect sizes adding up to much more than the actual variance at stake.\n\nThat's not always the wrong thing to do - the sum of counterfactual impacts of the actions of many actors often sums up to greater than their total combined impact. A simple example would be if two co-founders of an impactful company wouldn't have been a founder without the other. Then the sum of their counterfactual impacts is equivalent to 2 times the total impact of the company.\n\nWhile I don't have an opinion on this particular case, you could imagine that additional AI investment may not have happened if either of the following were true:\n\n1. The original RLHF proof of concept from OpenAI didn't happen - because Google's leadership wouldn't have the incentive for further investment.\n\n2. If Google's leadership were different - because they may not have thought to invest more money in AI."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-01-28T14:39:26.966Z",
+    "af": false
+  },
+  {
+    "_id": "QPhkK4esYezuXXmn4",
+    "postId": "nqXcgsqQBw2doAnXu",
+    "parentCommentId": "s29BNq8ZBuyn8DFvx",
+    "topLevelCommentId": "n6AdXiHFpjM7znWLN",
+    "contents": {
+      "markdown": "My intuition is it should be small in most cases, but there are some scenarios where this could be important.\n\nLet's imagine we are training a reinforcement learning agent AGI that [discounts](https://en.wikipedia.org/wiki/Q-learning#Discount_factor) rewards in time by some parameter d with 0 < d < 1 (so an expected reward r that is gotten n timesteps from now is worth d*r^n at the current time step). Let's further assume the wireheading problem has been solved (the AI can't change the reward calculating process, and give itself, say, infinite reward), and that there is a maximum possible reward of M per time step. This maximum reward could be coded in explicitly in the reward function, or could be implicitly calculated using physical limits.\n\nIf deployment is at least b time steps away, the maximum possible deployment reward considering discounting (as calculated at the current time step) is M*d^b/(1-d). If there is any deception the AGI could do that would sacrifice its short-term reward by more than that amount, then it will not do that deception. There seems to be a bit of a tradeoff, where the bigger the multiplier is between the development reward and the training reward, the larger M becomes, and the smaller d needs to be in order to encourage the AGI to engage in non-deceptive behavior.\n\nIf we want d to be larger, which will enable an aligned AI to make useful long-term plans, this argument claims we should use a smaller multiplier between development reward and training reward in order for an unaligned AI to be incentived to not deceive us. Alternatively, this argument claims that you should wait a long time between when you test if your model is deceptive and when you deploy it - running a lot of time steps with 0 reward between your deception test and deployment will increase b and thus shrink the size of M*d^b/(1-d), which should make deception much less encouraged.",
+      "plaintextDescription": "My intuition is it should be small in most cases, but there are some scenarios where this could be important.\n\nLet's imagine we are training a reinforcement learning agent AGI that discounts rewards in time by some parameter d with 0 < d < 1 (so an expected reward r that is gotten n timesteps from now is worth d*r^n at the current time step). Let's further assume the wireheading problem has been solved (the AI can't change the reward calculating process, and give itself, say, infinite reward), and that there is a maximum possible reward of M per time step. This maximum reward could be coded in explicitly in the reward function, or could be implicitly calculated using physical limits.\n\nIf deployment is at least b time steps away, the maximum possible deployment reward considering discounting (as calculated at the current time step) is M*d^b/(1-d). If there is any deception the AGI could do that would sacrifice its short-term reward by more than that amount, then it will not do that deception. There seems to be a bit of a tradeoff, where the bigger the multiplier is between the development reward and the training reward, the larger M becomes, and the smaller d needs to be in order to encourage the AGI to engage in non-deceptive behavior.\n\nIf we want d to be larger, which will enable an aligned AI to make useful long-term plans, this argument claims we should use a smaller multiplier between development reward and training reward in order for an unaligned AI to be incentived to not deceive us. Alternatively, this argument claims that you should wait a long time between when you test if your model is deceptive and when you deploy it - running a lot of time steps with 0 reward between your deception test and deployment will increase b and thus shrink the size of M*d^b/(1-d), which should make deception much less encouraged."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-07-11T18:25:26.585Z",
+    "af": false
+  },
+  {
+    "_id": "vgy9EnPFLNPCqbFxr",
+    "postId": "nqXcgsqQBw2doAnXu",
+    "parentCommentId": "n6AdXiHFpjM7znWLN",
+    "topLevelCommentId": "n6AdXiHFpjM7znWLN",
+    "contents": {
+      "markdown": "This seems like it would raise the incentive for AGI to be deceptive in their training environments. An un-aligned AGI has the decision of acting to maximize its goals in training and getting a higher short-term reward, or deceptively pretending to be aligned in training, and getting a lower short-term reward. The benefit to the AGI of pretending to be aligned is it increases the probability of it being deployed, and thus being able to get a higher long-term reward in deployment. \n\nThus the bigger the discrepancy in reward an AGI would get between deployment environment and training environment, the more important the long-term deployment reward becomes, and the higher the incentive there is of the AGI being deceptive during training.",
+      "plaintextDescription": "This seems like it would raise the incentive for AGI to be deceptive in their training environments. An un-aligned AGI has the decision of acting to maximize its goals in training and getting a higher short-term reward, or deceptively pretending to be aligned in training, and getting a lower short-term reward. The benefit to the AGI of pretending to be aligned is it increases the probability of it being deployed, and thus being able to get a higher long-term reward in deployment. \n\nThus the bigger the discrepancy in reward an AGI would get between deployment environment and training environment, the more important the long-term deployment reward becomes, and the higher the incentive there is of the AGI being deceptive during training."
+    },
+    "baseScore": 14,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2022-07-11T03:34:40.062Z",
+    "af": false
+  }
+]

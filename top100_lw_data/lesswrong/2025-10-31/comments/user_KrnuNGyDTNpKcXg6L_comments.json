@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "3Fu94LTB83JsQDqwS",
+    "postId": "C7XgbgMvkJLBz6nJ7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "How to Train Your Shoggoth, Part 2\n==================================\n\n### The Historical Teams Framework for Alignment Research\n\nEliezer Yudkowsky has famously advocated for embracing \"security mindset\" when thinking about AI safety. This is a mindset where you think about how to prevent things from going wrong, rather than how to make things go right. This seems obviously correct to me, so for the purposes of this post I'll just take this as a given.\n\nBut I think there's a piece missing from the AI Safety community's understanding of security mindset, that is a key part of the mindset that computer security researchers and practitioners use. This is the concept of \"threat model\", or \"Mossad vs. not-Mossad\". In computer security, it's important to specify the class of adversary you are trying to keep out, because different adversaries have different capabilities. For example, if you are trying to keep out a nation-state adversary, you need to worry about things like zero-day exploits, and you need to worry about physical security of your servers. If you are trying to keep out a script kiddie, you don't need to worry about zero-day exploits, and you don't need to worry about physical security of your servers. If you are trying to keep out a random person on the internet, you don't need to worry about zero-day exploits, and you don't need to worry about physical security of your servers, and you don't need to worry about them breaking into your office and stealing your hard drives.\n\nIn my experience, the AI Safety community typically thinks primarily about adversaries with completely unbounded capabilities. There's a good reason for this (there's probably not much of a ceiling on AI capabilities, so, for any level of capabilities, eventually we will be facing that level of threat), but it makes it very hard to do the sort of productive, incremental work that builds a research program and eventually a paradigm.\n\nThe Historical Lens\n===================\n\nHow would one address this? I think we need a simple, shared framework in which to specify what kind of adversary we are thinking about at any given moment, and I think we need to associate any particular project with some particular class or classes of adversary it is meant to contain, thwart, or otherwise deal with. I think this would help us to make progress on the problem of AI safety, and I think it would help us to communicate with each other about our work. I also think it would help alignment researchers not immediately burn out upon seriously considering the problem.\n\nWhat should this framework look like? I've been thinking about this question for a while, and the best answer I've come up with is to specify a list of human beings from history, and then assume for the sake of theory that we're facing an AI that has the set of capabilities that list of human beings would have if they worked together in pure coordination, using all available modern knowledge.\n\nLet's work through some examples here to get a sense of what I'm talking about. Let's take the question of boxing an AI. Now consider the adverary that is composed of just Napoleon Bonaparte. Napoleon was a very good general, and had the various skills that that implies. When he was finally defeated, they essentially tried to box him by exiling him to the island of Elba. He escaped, and caused more havoc, and then they exiled him to the island of St. Helena, which he did not escape from. In the framework I am proposing, this would be take as evidence that boxing an AI is very hard, and we will probably get it wrong the first time, but that for a fixed adversary, we may get it right on the second try, if we survive the failure of the first attempt. This is a slightly different conclusion than the one I think a lot of people in the alignment community would have on the question of boxing an AI, which is essentially that it's impossible and we shouldn't try.\n\nThis argument also feels much more grounded in reality and history than the typical alignment argument that I encounter. I think it is more likely to convince people who are not already convinced of the importance of AI safety. And I think it is just a much less painful and dangerous thought to hold in one's head than the sort of \"how do I enslave a god who can read my mind\" kind of thinking that trying to reason about unbounded adversaries tends to lead to.\n\nLet's take another example. Let's say we're trying to figure out how to deal with deception in an AI. We could consider the adversary that is composed of Harry Houdini and Adolf Hitler. (Already we start to see that this framework is slightly weird and at times deeply offensive; one really can't imagine the historical Houdini having a productive working relationship with the historical Hitler.) Houdini was a very good magician, who devoted much of the later part of his life to exposing mediums and other frauds. He could do this well essentially because he knew all the tricks that the mediums might use. He could have easily set up shop as a medium himself if he had wanted to. Hitler, on the other hand, was a very convincing liar, and was able to convince a large number of people to do a bunch of very bad things, through a combination of threats of violence and \"the big lie\". Now the question becomes, how do you safely get productive work (say, writing a press release for a small business) out of the Houdini-Hitler mashup? I think it immediately become clear that this is quite a difficult task, and not really one that we have a good solution to. It's not the sort of thing you would assume that you will succeed at. Here I think we have just rederived the standard conclusion that deception is a hard problem, but we have done so in a way that is more grounded in reality and history, and that is less painful and dangerous to think about.\n\nNow that we have a sense of what this framework looks like, let's try to do some productive work in it. Let's say we're trying to make progress on the deception problem. We could try to figure out what it would take to be able to trust a system that is primarily powered by Harry Houdini. Let's say we're trying to solve the standard ELK problem (the problem of keeping a diamond in a vault safe, when the diamond is protected by an AI that understands the construction and nature of the vault better than we do, and we rely on the AI to report on the state of the diamond). (This is a little bit of an abuse of the ELK framework, in that I think with ELK one usually is discussing a system that isn't actively adversarial.)\n\nThe only way I can remotely imagine not getting outsmarted by the Houdini AI is to have another Houdini that thinks at the same speed, who isn't in coordination with the fist Houdini. (Think of the historical Houdini outsmarting various mediums.) This is a classic approach to building AI alignment systems that I think is considered not very effective by a lot of alignment researchers, but I've always thought it was not given enough credit. RLHF, in some sense the established approach to prosaic AI alignment, takes this form.\n\nThe Simulation Lens\n===================\n\nThe other thing that makes alignment research difficult is that it's very hard to run experiments that give you useful information about how to align an AI. There are multiple reasons for this: the most powerful existing AI's are very difficult to work with (training them is complicated and expensive, and will likely remain so for the duration; getting their weights and activations is impossible for people outside the big labs).\n\nSo what would happen if we just took video games as our model of reality? Say, if we are trying to prevent a superintelligence from performing atrocities in reality, then try to get a superintelligence to avoid performing atrocities in Factorio. That sort of thing. This approach seems (to me at least) far more empirical and grounded than any approach to performing alignment research that I am aware of. It also has the advantage that the big AI labs could productively research it starting more than five years ago, because they already have.",
+      "plaintextDescription": "How to Train Your Shoggoth, Part 2\n\n\nThe Historical Teams Framework for Alignment Research\nEliezer Yudkowsky has famously advocated for embracing \"security mindset\" when thinking about AI safety. This is a mindset where you think about how to prevent things from going wrong, rather than how to make things go right. This seems obviously correct to me, so for the purposes of this post I'll just take this as a given.\n\nBut I think there's a piece missing from the AI Safety community's understanding of security mindset, that is a key part of the mindset that computer security researchers and practitioners use. This is the concept of \"threat model\", or \"Mossad vs. not-Mossad\". In computer security, it's important to specify the class of adversary you are trying to keep out, because different adversaries have different capabilities. For example, if you are trying to keep out a nation-state adversary, you need to worry about things like zero-day exploits, and you need to worry about physical security of your servers. If you are trying to keep out a script kiddie, you don't need to worry about zero-day exploits, and you don't need to worry about physical security of your servers. If you are trying to keep out a random person on the internet, you don't need to worry about zero-day exploits, and you don't need to worry about physical security of your servers, and you don't need to worry about them breaking into your office and stealing your hard drives.\n\nIn my experience, the AI Safety community typically thinks primarily about adversaries with completely unbounded capabilities. There's a good reason for this (there's probably not much of a ceiling on AI capabilities, so, for any level of capabilities, eventually we will be facing that level of threat), but it makes it very hard to do the sort of productive, incremental work that builds a research program and eventually a paradigm.\n\n\nThe Historical Lens\n \n\nHow would one address this? I think we need a simple, shared framework "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-05T03:44:17.614Z",
+    "af": false
+  },
+  {
+    "_id": "CaTbNvzRuLCZD6HQd",
+    "postId": "C7XgbgMvkJLBz6nJ7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "How to Train Your Shoggoth, Part 1\n==================================\n\n  \nWhat if Didactic Fiction is the Answer to Aligning Large Language Models?\n\nThis is a linkshortform for https://bittertruths.substack.com/p/how-to-train-your-shoggoth-part-1\n\nEpistemic status: this sounds very much like an embarrassingly dumb take, but I haven't been able to convince myself that it is false, and indeed am somewhat convinced that it would at least help to align large language models (and other models that meaningfully incorporate them). So I'm writing at least partly to see if anyone has any fundamental objections to this idea.\n\nThe idea in a nutshell\n======================\n\nWe need to write a bunch of didactic fiction (which for this post we will define as teaching morality/alignment by scripting desired and possibly undesired responses to hypothetical situations) that is intended for AI consumption, that depicts our desired state of affairs. This fiction should describe a coherent (series of?) world(s) in which we could find ourselves, *in which AI ranging from present-day reality to strong ASI is safely integrated into society.* The purpose of this fiction is to be included in training data for large language models, and indeed the AI labs training large language models would be enabled and encouraged to do so.  (So stories would be open-source and freely downloadable, translated into all languages and formats used by AI's, etc.)\n\nThe goal of such an activity would be to provide meaningful characters for a large language model to inhabit / imitate / simulate. I will say more about this in the sections to come.\n\nThe fiction need not be any good as fiction for human consumption (although it would be interesting to read and to write, I think). We will describe various desiderata for what sort of fiction would be desired in the section \"Implementation Details\"; this is a complicated but actually fairly interesting question, in my opinion.\n\nSome basic context\n==================\n\nGPT-k for k <=3.5/4.0 and ChatGPT are next-token predictors based on a transformer architecture, possibly with retrieval augmentation. They are trained on a very large corpus of text, including most of the internet. (A good deal of the internet is presumably filtered away from them, though, because it is not high-enough quality. There is also potentially a large amount of proprietary data also going in.)\n\nGPT-k is not a human-like intelligence, and should not be thought of as one. (Barring, I suppose, huge changes in its architecture for sufficiently large k.) It is really damn good at next-token prediction (better than humans at this fairly-unnatural-for-us task), and ChatGPT is semi-reasonable about answering large numbers of questions and prompts.\n\nIt's important to avoid anthropomorphization of these models, obviously. And there's a bunch of related failure modes in any project like this. For instance, fiction that imputes qualities or experiences to AI's that they do not have (e.g., an internal monologue that sounds particularly human) would be actively harmful, because repeating things like it would be actively misleading to people about how the AI works. And the whole point of this idea is to get the AI to repeat things or adapt them to new contexts in which it finds itself.\n\nImplementation Details\n======================\n\nFirst, what are our goals? We would like to instill various behaviors in the AI, but which behaviors? Some obvious clusters are the Helpful/Harmless/Honest description, not-saying-slurs, helping alignment research/development/maintenance/regulation(???), and generally being honest about its internal knowledge and capabilities. We need to give the large language model some sort of behavioral framework that will ensure our safety, and it seems like that includes it having to disclose (and possibly explain!) certain information that is relevant to our safety. \n\nProbably the predominant genre for such fiction initially would be a sort of variant on the epistolary novel, in which humans write into a chatbot or API and the model replies, but for various different counterfactual situations that the AI might find itself in. It is unclear to me whether a narrative would be desirable or even perceivable by the large language model being trained on the text.\n\nSome techno-literary devices might be to provide custom embeddings of specific things, vector stores over certain texts, and knowledge graphs that run in parallel to the text of the novel. These might make the system relevant to other kinds of models. We could also provide custom reward labelings for different characters in the story, for training RLHF proxy models. This would be sort of equivalent to a Goofus-and-Gallant comic (or I suppose a Virgin-vs.-Chad meme for the younger folks).\n\nAnother interesting facet of this problems is the sort of social planning aspect. We need to build out the fiction to be somewhat consistent and we will want to build it significantly faster than we build out the intelligence that will be trained on it, given how fast progress can be in this field, and given that the data needs to exist potentially several months in advance of the model being ready. And yet we would like to build the fiction out slowly enough that we can have some sort of social process around what it should be like.",
+      "plaintextDescription": "How to Train Your Shoggoth, Part 1\n\nWhat if Didactic Fiction is the Answer to Aligning Large Language Models?\n\nThis is a linkshortform for https://bittertruths.substack.com/p/how-to-train-your-shoggoth-part-1\n\nEpistemic status: this sounds very much like an embarrassingly dumb take, but I haven't been able to convince myself that it is false, and indeed am somewhat convinced that it would at least help to align large language models (and other models that meaningfully incorporate them). So I'm writing at least partly to see if anyone has any fundamental objections to this idea.\n\n\nThe idea in a nutshell\n \n\nWe need to write a bunch of didactic fiction (which for this post we will define as teaching morality/alignment by scripting desired and possibly undesired responses to hypothetical situations) that is intended for AI consumption, that depicts our desired state of affairs. This fiction should describe a coherent (series of?) world(s) in which we could find ourselves, in which AI ranging from present-day reality to strong ASI is safely integrated into society. The purpose of this fiction is to be included in training data for large language models, and indeed the AI labs training large language models would be enabled and encouraged to do so.  (So stories would be open-source and freely downloadable, translated into all languages and formats used by AI's, etc.)\n\nThe goal of such an activity would be to provide meaningful characters for a large language model to inhabit / imitate / simulate. I will say more about this in the sections to come.\n\nThe fiction need not be any good as fiction for human consumption (although it would be interesting to read and to write, I think). We will describe various desiderata for what sort of fiction would be desired in the section \"Implementation Details\"; this is a complicated but actually fairly interesting question, in my opinion.\n\n\nSome basic context\n \n\nGPT-k for k <=3.5/4.0 and ChatGPT are next-token predictors based on a transf"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-05T03:42:54.386Z",
+    "af": false
+  },
+  {
+    "_id": "WA6iFqHtzReddQZz3",
+    "postId": "As7bjEAbNpidKx6LR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Very cool post! We need a theory of valence that is grounded in real neuroscience, since understanding valence is pretty much required for any alignment agenda that works the first time.",
+      "plaintextDescription": "Very cool post! We need a theory of valence that is grounded in real neuroscience, since understanding valence is pretty much required for any alignment agenda that works the first time."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-04T15:44:21.016Z",
+    "af": false
+  },
+  {
+    "_id": "p2gxikfzE27NdQXLe",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "svPzQbykf8Cpanuhs",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "I have read the sequences. Not all of them, because, who has time. \n\nHere is a video of me reading the sequences (both Eliezer's and my own):\n\nhttps://bittertruths.substack.com/p/semi-adequate-equilibria",
+      "plaintextDescription": "I have read the sequences. Not all of them, because, who has time. \n\nHere is a video of me reading the sequences (both Eliezer's and my own):\n\nhttps://bittertruths.substack.com/p/semi-adequate-equilibria"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-04T05:53:29.934Z",
+    "af": false
+  },
+  {
+    "_id": "FNdoN4G4paj2Y6QjE",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "LJfyn9upNqSDDnFoX",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Well what if he bets a significant amount of money at 2000:1 odds that the Pope will officially add his space Bible to the real Bible as a third Testament after the New Testament within the span of a year?\n\nWhat if he records a video of himself doing Bible study? What if he offers to pay people their currently hourly rate to watch him do Bible study?\n\nI guess the thrust of my questions here is, at what point do you feel that you become the dick for NOT helping him publish his own space Bible? At what point are you actively impeding new religious discoveries by failing to engage?\n\nFor real, literal Christianity, I think there's no amount of cajoling or argumentation that could lead a Christian to accept the new space Bible. For one thing, until the Pope signs off on it, they would no longer be Christian if they did.\n\nDoes rationalism aspire to be more than just another provably-false religion? What would ET Jaynes say about people who fail to update on new evidence?",
+      "plaintextDescription": "Well what if he bets a significant amount of money at 2000:1 odds that the Pope will officially add his space Bible to the real Bible as a third Testament after the New Testament within the span of a year?\n\nWhat if he records a video of himself doing Bible study? What if he offers to pay people their currently hourly rate to watch him do Bible study?\n\nI guess the thrust of my questions here is, at what point do you feel that you become the dick for NOT helping him publish his own space Bible? At what point are you actively impeding new religious discoveries by failing to engage?\n\nFor real, literal Christianity, I think there's no amount of cajoling or argumentation that could lead a Christian to accept the new space Bible. For one thing, until the Pope signs off on it, they would no longer be Christian if they did.\n\nDoes rationalism aspire to be more than just another provably-false religion? What would ET Jaynes say about people who fail to update on new evidence?"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-04T05:49:36.100Z",
+    "af": false
+  },
+  {
+    "_id": "RsYrNgJ7gdj3byMzz",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "rQSgAWLC9hqbbbTJB",
+    "topLevelCommentId": "BopmbLnhwcNZupKPg",
+    "contents": {
+      "markdown": "Recorded a sort of video lecture here: https://open.substack.com/pub/bittertruths/p/semi-adequate-equilibria",
+      "plaintextDescription": "Recorded a sort of video lecture here: https://open.substack.com/pub/bittertruths/p/semi-adequate-equilibria"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-03T21:02:51.948Z",
+    "af": false
+  },
+  {
+    "_id": "SLCgGLYfH7groHJho",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "qdJxtTyGhhfghFLAn",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Agree that it should be time-based rather than karma-based.\n\nI'm currently on a very heavy rate limit that I think is being manually adjusted by the LessWrong team.",
+      "plaintextDescription": "Agree that it should be time-based rather than karma-based.\n\nI'm currently on a very heavy rate limit that I think is being manually adjusted by the LessWrong team."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-03T19:29:00.314Z",
+    "af": false
+  },
+  {
+    "_id": "33Lb8ivq6YjoPHBjh",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "BopmbLnhwcNZupKPg",
+    "topLevelCommentId": "BopmbLnhwcNZupKPg",
+    "contents": {
+      "markdown": "Is this clear enough:\n\nI posit that the reason that humans are able to solve any coordination problems at all is that evolution has shaped us into game players that apply something vaguely like a tit-for-tat strategy meant to enforce convergence to a nearby Schelling Point / Nash Equilibrium, and to punish defectors from this Schelling Point / Nash Equilibrium. I invoke a novel mathematical formalization of Kant's Categorical Imperative as a potential basis for coordination towards a globally computable Schelling Point. I believe that this constitutes a promising approach to the alignment problem, as the mathematical formalization is both simple to implement and reasonably simple to measure deviations from. Using this formalization would therefore allow us both to prevent and detect misalignment in powerful AI systems. As a theory of change, I believe that applying RLHF to LLM's using a strong and consistent formalization of the Categorical Imperative is a plausible and reasonably direct route to good outcomes in the prosaic case of LLM's, and I believe that LLM's with more neuromorphic components added are a strong contender for a pathway to AGI.",
+      "plaintextDescription": "Is this clear enough:\n\nI posit that the reason that humans are able to solve any coordination problems at all is that evolution has shaped us into game players that apply something vaguely like a tit-for-tat strategy meant to enforce convergence to a nearby Schelling Point / Nash Equilibrium, and to punish defectors from this Schelling Point / Nash Equilibrium. I invoke a novel mathematical formalization of Kant's Categorical Imperative as a potential basis for coordination towards a globally computable Schelling Point. I believe that this constitutes a promising approach to the alignment problem, as the mathematical formalization is both simple to implement and reasonably simple to measure deviations from. Using this formalization would therefore allow us both to prevent and detect misalignment in powerful AI systems. As a theory of change, I believe that applying RLHF to LLM's using a strong and consistent formalization of the Categorical Imperative is a plausible and reasonably direct route to good outcomes in the prosaic case of LLM's, and I believe that LLM's with more neuromorphic components added are a strong contender for a pathway to AGI."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-03T01:28:01.867Z",
+    "af": false
+  },
+  {
+    "_id": "ddjPqKD452XisEAtZ",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "xcJLP2vx5tJ5MjJnu",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "My understanding of the current situation with me is that I am not in fact rate-limited purely by automatic processes currently, but rather by some sort of policy decision on the part of LessWrong's moderators.\n\nWhich is fine, I'll just continue to post my alignment research on my substack, and occasionally dump linkposts to them in my shortform, which the mods have allowed me continued access to.",
+      "plaintextDescription": "My understanding of the current situation with me is that I am not in fact rate-limited purely by automatic processes currently, but rather by some sort of policy decision on the part of LessWrong's moderators.\n\nWhich is fine, I'll just continue to post my alignment research on my substack, and occasionally dump linkposts to them in my shortform, which the mods have allowed me continued access to."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-02T17:30:07.445Z",
+    "af": false
+  },
+  {
+    "_id": "C4wzN3dtpex76S6E3",
+    "postId": "DkkfPEwTnPQyvrgK8",
+    "parentCommentId": "LuhbnQXwhDZrG9ppj",
+    "topLevelCommentId": "LuhbnQXwhDZrG9ppj",
+    "contents": {
+      "markdown": "https://github.com/epurdy/ethicophysics/blob/main/writeup1.pdf",
+      "plaintextDescription": "https://github.com/epurdy/ethicophysics/blob/main/writeup1.pdf"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T19:00:50.029Z",
+    "af": false
+  },
+  {
+    "_id": "iZMR39Cm2i77st5XR",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "28g9i2rWvxGywqbPo",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Perhaps it is about right, then.",
+      "plaintextDescription": "Perhaps it is about right, then."
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-01T17:23:42.057Z",
+    "af": false
+  },
+  {
+    "_id": "GrRsLW9LvGKqsceRE",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "BZnrH67LtyWoMiucs",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Yes, this is a valid and correct point. The observed and theoretical Nash Equilibrium of the Wittgensteinian language game of maintaining consensus reality is indeed not to engage with cranks who have not Put In The Work in a way that is visible and hard-to-forge.",
+      "plaintextDescription": "Yes, this is a valid and correct point. The observed and theoretical Nash Equilibrium of the Wittgensteinian language game of maintaining consensus reality is indeed not to engage with cranks who have not Put In The Work in a way that is visible and hard-to-forge."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-01T14:43:04.117Z",
+    "af": false
+  },
+  {
+    "_id": "h4MaKvCxPE52Fzbsx",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "dAKWXo4TJ5vTeJNxi",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Thank you for this anwer. I agree that I have not visibly been putting in the work to make falsifiable predictions relevant to the ethicophysics. These can indeed be made in the ethicophysics, but they're less predictions and more \"self-fulfilling prophecies\" that have the effect of compelling the reader to comply with a request to the extent that they take the request seriously. Which, in plain language, is some combination of wagers, promises, and threats. \n\nAnd it seems impolite to threaten people just to get them to read a PDF.",
+      "plaintextDescription": "Thank you for this anwer. I agree that I have not visibly been putting in the work to make falsifiable predictions relevant to the ethicophysics. These can indeed be made in the ethicophysics, but they're less predictions and more \"self-fulfilling prophecies\" that have the effect of compelling the reader to comply with a request to the extent that they take the request seriously. Which, in plain language, is some combination of wagers, promises, and threats. \n\nAnd it seems impolite to threaten people just to get them to read a PDF."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T14:26:03.691Z",
+    "af": false
+  },
+  {
+    "_id": "59hTjKxiBnmGbGwxe",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "iyjsqBnhcfMAGDrZE",
+    "topLevelCommentId": "gyPFhmjPLkzEvtghT",
+    "contents": {
+      "markdown": "And I also have the courage to apply to Y Combinator to start either a 501c3 or a for-profit company to actually perform this trial through legal, official channels. Do you think that I will be denied entry into their program with such a noble goal and the collaboration of a domain expert?",
+      "plaintextDescription": "And I also have the courage to apply to Y Combinator to start either a 501c3 or a for-profit company to actually perform this trial through legal, official channels. Do you think that I will be denied entry into their program with such a noble goal and the collaboration of a domain expert?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T13:52:59.519Z",
+    "af": false
+  },
+  {
+    "_id": "iyjsqBnhcfMAGDrZE",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "6pwKuoBHYfnYe6aAH",
+    "topLevelCommentId": "gyPFhmjPLkzEvtghT",
+    "contents": {
+      "markdown": "I have the courage to commit an act of civil disobedience in which I ask people caring for Alzheimer's patients to request a Zoloft and/or Trazodone prescription for their loved ones, and then track the results.\n\nDo you think I lack the persistence and capital to organize something of that nature? Why or why not?",
+      "plaintextDescription": "I have the courage to commit an act of civil disobedience in which I ask people caring for Alzheimer's patients to request a Zoloft and/or Trazodone prescription for their loved ones, and then track the results.\n\nDo you think I lack the persistence and capital to organize something of that nature? Why or why not?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T13:49:16.194Z",
+    "af": false
+  },
+  {
+    "_id": "M3Fyrbja9e9iGm97p",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "cFBKCGufSKchsEHkT",
+    "topLevelCommentId": "gyPFhmjPLkzEvtghT",
+    "contents": {
+      "markdown": "Well then, I submit that courage is a virtue, when tempered with the wisdom not to pick fights you do not plan to finish.",
+      "plaintextDescription": "Well then, I submit that courage is a virtue, when tempered with the wisdom not to pick fights you do not plan to finish."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T13:45:22.354Z",
+    "af": false
+  },
+  {
+    "_id": "7xGpufKuWjWy2aQhr",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "gyPFhmjPLkzEvtghT",
+    "topLevelCommentId": "gyPFhmjPLkzEvtghT",
+    "contents": {
+      "markdown": "This comment continues to annoy me. I composed a whole irrational response in my mind where I would make credible threats to burn significant parts of the capabilities commons every time someone called me delusional on LessWrong.\n\nBut that's probably not a reasonable way to live my life, so this response is not that response.\n\nI get that history is written by the victors. I get that what is accepted by consensus reality is dictated by the existing power structures. The fact that you would presume to explain these things to the author of Ethicophysics I and Ethicophysics II simply demonstrates that you have either failed to read these documents, failed to understand what they are saying, or are simply too pigheaded for your own or anyone else's good.\n\nI do not appreciate being called delusional, and I must ask you never to use that word in reference to me again (at least not to my face). You have my permission to use the synonyms \"irrational\" (for claims that you believe have poor Bayesian hygiene) or \"unreasonable\" (for claims or suggestions that you think do not lead to Pareto-optimal outcomes consistent with morality as it is commonly understood).\n\nIf you do continue to be condescending to me, then my response is always going to be some mostly-polite but quite direct explanation of the current location of your foot relative to the current location of your oral cavity. \n\nAnd history will not be kind to both sides of any discussion like that. I offer you a choice: continue to pooh-pooh my proposed treatment for Alzheimer's disease, and accept some wager at my proposed odds on the probable outcome of this trial when I organize it out of my own free time and my own funds, or (and I say this as politely as I know how) find some more reasonable use of the precious gift of your time on Earth than to comment on my work, my character, or the inside of my head.",
+      "plaintextDescription": "This comment continues to annoy me. I composed a whole irrational response in my mind where I would make credible threats to burn significant parts of the capabilities commons every time someone called me delusional on LessWrong.\n\nBut that's probably not a reasonable way to live my life, so this response is not that response.\n\nI get that history is written by the victors. I get that what is accepted by consensus reality is dictated by the existing power structures. The fact that you would presume to explain these things to the author of Ethicophysics I and Ethicophysics II simply demonstrates that you have either failed to read these documents, failed to understand what they are saying, or are simply too pigheaded for your own or anyone else's good.\n\nI do not appreciate being called delusional, and I must ask you never to use that word in reference to me again (at least not to my face). You have my permission to use the synonyms \"irrational\" (for claims that you believe have poor Bayesian hygiene) or \"unreasonable\" (for claims or suggestions that you think do not lead to Pareto-optimal outcomes consistent with morality as it is commonly understood).\n\nIf you do continue to be condescending to me, then my response is always going to be some mostly-polite but quite direct explanation of the current location of your foot relative to the current location of your oral cavity. \n\nAnd history will not be kind to both sides of any discussion like that. I offer you a choice: continue to pooh-pooh my proposed treatment for Alzheimer's disease, and accept some wager at my proposed odds on the probable outcome of this trial when I organize it out of my own free time and my own funds, or (and I say this as politely as I know how) find some more reasonable use of the precious gift of your time on Earth than to comment on my work, my character, or the inside of my head."
+    },
+    "baseScore": -1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-01T13:41:05.174Z",
+    "af": false
+  },
+  {
+    "_id": "L95KJ9vMFqKpHQrqN",
+    "postId": "Hsg6KABhLkuByJKqd",
+    "parentCommentId": "7NkB8rXZPPAJKnYHw",
+    "topLevelCommentId": "wu4Y23DDvWvYYh2nX",
+    "contents": {
+      "markdown": "But it uses the tools of physics, so the math would best be checked by someone who understands Lagrangian mechanics at a professional level.",
+      "plaintextDescription": "But it uses the tools of physics, so the math would best be checked by someone who understands Lagrangian mechanics at a professional level."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-01T12:21:28.688Z",
+    "af": false
+  },
+  {
+    "_id": "7NkB8rXZPPAJKnYHw",
+    "postId": "Hsg6KABhLkuByJKqd",
+    "parentCommentId": "wu4Y23DDvWvYYh2nX",
+    "topLevelCommentId": "wu4Y23DDvWvYYh2nX",
+    "contents": {
+      "markdown": "Yes, it is a specification of a set of temporally adjacent computable Schelling Points. It thus constitutes a trajectory through the space of moral possibilities that can be used by agents to coordinate and punish defectors from a globally consistent morality whose only moral stipulations are such reasonable sounding statements as \"actions have consequences\" and \"act more like Jesus and less like Hitler\".",
+      "plaintextDescription": "Yes, it is a specification of a set of temporally adjacent computable Schelling Points. It thus constitutes a trajectory through the space of moral possibilities that can be used by agents to coordinate and punish defectors from a globally consistent morality whose only moral stipulations are such reasonable sounding statements as \"actions have consequences\" and \"act more like Jesus and less like Hitler\"."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-01T12:20:21.995Z",
+    "af": false
+  },
+  {
+    "_id": "YgEDC8gizmQe5kuve",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "fjbtkPmkYh6Kuv92A",
+    "topLevelCommentId": "gyPFhmjPLkzEvtghT",
+    "contents": {
+      "markdown": "And I'm happy to code up the smartphone app and run the clinical trial from my own funds. My uncle is starting to have memory trouble, I believe.",
+      "plaintextDescription": "And I'm happy to code up the smartphone app and run the clinical trial from my own funds. My uncle is starting to have memory trouble, I believe."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T12:10:29.768Z",
+    "af": false
+  },
+  {
+    "_id": "fjbtkPmkYh6Kuv92A",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "gyPFhmjPLkzEvtghT",
+    "topLevelCommentId": "gyPFhmjPLkzEvtghT",
+    "contents": {
+      "markdown": "Oh, come on. If the rationality community disapproved of Einstein predicting the transit of Mercury, that's an L for the rationality community, not for Einstein.\n\nI have offered to say why I believe it to be true, as soon as I can get clearance from my company to publish capabilities relevant theoretical neuroscience work.",
+      "plaintextDescription": "Oh, come on. If the rationality community disapproved of Einstein predicting the transit of Mercury, that's an L for the rationality community, not for Einstein.\n\nI have offered to say why I believe it to be true, as soon as I can get clearance from my company to publish capabilities relevant theoretical neuroscience work."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T12:08:57.953Z",
+    "af": false
+  },
+  {
+    "_id": "nAajemmoRYFFDEy3t",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "YezJYzv9yiix8BKat",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "That's fair, and I need to do a better job of building on-ramps for different readers. My most recent shortform is an attempt to build such an on-ramp for the LessWrong memeplex.",
+      "plaintextDescription": "That's fair, and I need to do a better job of building on-ramps for different readers. My most recent shortform is an attempt to build such an on-ramp for the LessWrong memeplex."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T12:04:34.713Z",
+    "af": false
+  },
+  {
+    "_id": "nAfERXyEkroGgAhyo",
+    "postId": "48X4EFJdCQvHEvL2t",
+    "parentCommentId": "vgqEawqXNRmG8G5St",
+    "topLevelCommentId": "mmCuSsoCQXTQfbvwM",
+    "contents": {
+      "markdown": "That's fair (strong up/agree vote).\n\nIf you consult my recent shortform, I lay out a more measured, skeptical description of the project. Basically, ethicophysics constitutes a globally computable Schelling Point, such that it can be used as a protocol between different RL agents that believe in \"oughts\" to achieve Pareto-optimal outcomes. As long as the largest coalition agrees to prefer Jesus to Hitler, I think (and I need to do far more to back this up) defectors can be effectively reined in, the same way that Bitcoin works because the majority of the computers hooked up to it don't want to destroy faith in the Bitcoin protocol.",
+      "plaintextDescription": "That's fair (strong up/agree vote).\n\nIf you consult my recent shortform, I lay out a more measured, skeptical description of the project. Basically, ethicophysics constitutes a globally computable Schelling Point, such that it can be used as a protocol between different RL agents that believe in \"oughts\" to achieve Pareto-optimal outcomes. As long as the largest coalition agrees to prefer Jesus to Hitler, I think (and I need to do far more to back this up) defectors can be effectively reined in, the same way that Bitcoin works because the majority of the computers hooked up to it don't want to destroy faith in the Bitcoin protocol."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-01T12:01:57.184Z",
+    "af": false
+  },
+  {
+    "_id": "gaNoCLAaLPKdtL2Cm",
+    "postId": "C7XgbgMvkJLBz6nJ7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Ethicophysics for Skeptics\n==========================\n\n### Or, what the fuck am I talking about?\n\nIn this post, I will try to lay out my theories of computational ethics in as simple, skeptic-friendly, non-pompous language as I am able to do. Hopefully this will be sufficient to help skeptical readers engage with my work.\n\nThe ethicophysics is a set of computable algorithms that suggest (but do not require) specific decisions in response to ethical decisions in a multi-player reinforcement learning problem.\n\nThe design goal that the various equations need to satisfy is that they should select a uniquely identifiable Schelling Point and Nash Equilibrium, such that all participants in the reinforcement learning algorithm who follow the ethicophysical algorithms will cooperate to achieve a Pareto-optimal outcome with high total reward, and such that any non-dominant coalition of defectors can be contained and if necessary neutralized by the larger, dominant coalition of players following the strategies selected by the ethicophysics.\n\nThe figure of merit, then, that determines if the ethicophysical algorithms are having the intended effect, is the divergence of the observed outcome from a notional outcome that would be achieved by using pure coordination and pure cooperation between all players. The existence of this divergence between what is and what could be in the absence of coordination problems is roughly what I take to be the content of Scott Alexander’s post on Moloch. I denote this phenomenon (“Moloch”) by the philosophical term “collective akrasia”, since it is a failure of communities to exercise self-mastery that is roughly isomorphic to the classic philosophical problem of akrasia. Rather than the classical “why do I not do as I ought?” question, it is rather a matter of “why do we not do as we ought?”, where we refers to the community under consideration.\n\nSo then the question is, what algorithms should we use to minimize collective akrasia? Phrased in this simple language, it becomes clear that many important civilizational problems fall under this rubric; in particular, climate change is maybe 10% a technical issue and 90% a coordination problem. In particular, China is unwilling to cooperate with the US because it feels that the US is “pulling the ladder up after itself” in seeking to limit the emissions of China’s rapidly industrializing society more than the US’s reasonably mature and arguably stagnating industrial base.\n\nSo we (as a society) find ourselves in need of a set of algorithms to decide what is “fair”, in a way that is visibly “the best we can do”, in the sense of Pareto optimality, but also in some larger, more important sense of minimizing collective akrasia, or “the money we are leaving on the table”, or “Moloch”.\n\nThe conservation laws defined in Ethicophysics I and Ethicophysics II operate as a sort of “social fact” technology to establish common knowledge of what is fair and what is not fair. Once a large and powerful coalition of agents has common knowledge of a computable Schelling Point and Nash Equilibrium, we can simply steer towards that Schelling Point and punish those who defect against the selected Schelling Point in a balanced, moderate way, that is simply chosen to incentivize cooperation.\n\nSo, my goal in publishing and promulgating the ethicophysical results I have proved so far is to allow people who are interested in solving the problem of aligning powerful intelligences to also join a large coalition of people who are steering towards a mutually compatible Schelling Point that is more Jesus-flavored and less Hitler-flavored, which seems like something that all reasonable people can get behind.\n\nI thus argue that, far from being a foreign irritant that needs to be expelled from the LessWrong memetic ecosystem, the ethicophysics is a rigorous piece of mathematics and technology that is both necessary and sufficient to deliver us from our collective nightmare of collective akrasia, or “Moloch”, which is one of the higher and more noble ambitions espoused by the effective altruist community.\n\nIn future posts, I will review the extant results in the ethicophysics, particularly the conservation laws, and show them to be intuitively plausible descriptions of inarguably real phenomena. For instance, the Law of Conservation of Bullshit would translate into something much like the Simulacra Levels of a popular LessWrong post, in which self-interested actors who stop tracking the true meanings of things over time develop collective akrasia so thorough and so entrenched that they lose the ability to say true things even when they are trying to.\n\nStay tuned for further updates. Probably the next post will simply treat some very simple cause-and-effect ethical word problems, such as the classic “Can you lie to the Nazis about the location of someone they are looking for?”",
+      "plaintextDescription": "Ethicophysics for Skeptics\n\n\nOr, what the fuck am I talking about?\nIn this post, I will try to lay out my theories of computational ethics in as simple, skeptic-friendly, non-pompous language as I am able to do. Hopefully this will be sufficient to help skeptical readers engage with my work.\n\nThe ethicophysics is a set of computable algorithms that suggest (but do not require) specific decisions in response to ethical decisions in a multi-player reinforcement learning problem.\n\nThe design goal that the various equations need to satisfy is that they should select a uniquely identifiable Schelling Point and Nash Equilibrium, such that all participants in the reinforcement learning algorithm who follow the ethicophysical algorithms will cooperate to achieve a Pareto-optimal outcome with high total reward, and such that any non-dominant coalition of defectors can be contained and if necessary neutralized by the larger, dominant coalition of players following the strategies selected by the ethicophysics.\n\nThe figure of merit, then, that determines if the ethicophysical algorithms are having the intended effect, is the divergence of the observed outcome from a notional outcome that would be achieved by using pure coordination and pure cooperation between all players. The existence of this divergence between what is and what could be in the absence of coordination problems is roughly what I take to be the content of Scott Alexander’s post on Moloch. I denote this phenomenon (“Moloch”) by the philosophical term “collective akrasia”, since it is a failure of communities to exercise self-mastery that is roughly isomorphic to the classic philosophical problem of akrasia. Rather than the classical “why do I not do as I ought?” question, it is rather a matter of “why do we not do as we ought?”, where we refers to the community under consideration.\n\nSo then the question is, what algorithms should we use to minimize collective akrasia? Phrased in this simple language, it becomes c"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-01T04:09:22.000Z",
+    "af": false
+  },
+  {
+    "_id": "iC6DKiBxFHvzgzgqf",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "ioyzYpH9pbZBBj4iR",
+    "topLevelCommentId": "F4KEBpPbgysWLvfmd",
+    "contents": {
+      "markdown": "They really suck. The old paradigm of Alzheimer's research is very weak and, as I understand it, no drug has an effect size sufficient to offset even a minimal side effect profile, to the point where I think only one real drug has been approved by the FDA in the old paradigm, and that approval was super controversial. That's my understanding, anyway. I welcome correction from anyone who knows better.\n\nSo maybe we should define the effect size in terms of cogntiive QALY's? Say, an effective treatment should at least halve the rate of decline of the experimental arm relative to the control arm, with a stretch goal of bringing the decline to within the nuisance levels of normal, non-Alzheimer's aging, and an even stretchier stretch goal of reversing the condition to the point where the former Alzheimer's patient starts learning new skills and acquiring new hobbies.",
+      "plaintextDescription": "They really suck. The old paradigm of Alzheimer's research is very weak and, as I understand it, no drug has an effect size sufficient to offset even a minimal side effect profile, to the point where I think only one real drug has been approved by the FDA in the old paradigm, and that approval was super controversial. That's my understanding, anyway. I welcome correction from anyone who knows better.\n\nSo maybe we should define the effect size in terms of cogntiive QALY's? Say, an effective treatment should at least halve the rate of decline of the experimental arm relative to the control arm, with a stretch goal of bringing the decline to within the nuisance levels of normal, non-Alzheimer's aging, and an even stretchier stretch goal of reversing the condition to the point where the former Alzheimer's patient starts learning new skills and acquiring new hobbies."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T02:25:46.335Z",
+    "af": false
+  },
+  {
+    "_id": "jCwbhg23KLcwmPeA8",
+    "postId": "RhSvofxEQANBedWtt",
+    "parentCommentId": "atAteyPJyPkiivzcL",
+    "topLevelCommentId": "xuGcago9WYxkiFCkd",
+    "contents": {
+      "markdown": "Here is the best I could muster on short notice: [https://bittertruths.substack.com/p/ethicophysics-for-skeptics](https://bittertruths.substack.com/p/ethicophysics-for-skeptics)\n\nSince I'm currently rate-limited, I cannot post it officially.",
+      "plaintextDescription": "Here is the best I could muster on short notice: https://bittertruths.substack.com/p/ethicophysics-for-skeptics\n\nSince I'm currently rate-limited, I cannot post it officially."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-01T02:12:30.348Z",
+    "af": false
+  },
+  {
+    "_id": "zSnFyE4XszFpdboma",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "JkvbDTyE9WiguvEHi",
+    "topLevelCommentId": "F4KEBpPbgysWLvfmd",
+    "contents": {
+      "markdown": "How will we handle the desk drawer effect, where insignificant results are quietly shelved? I guess if the trial is preregistered this won't happen...",
+      "plaintextDescription": "How will we handle the desk drawer effect, where insignificant results are quietly shelved? I guess if the trial is preregistered this won't happen..."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T02:10:14.867Z",
+    "af": false
+  },
+  {
+    "_id": "v35gxcwxvyBrK55Xv",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[https://chat.openai.com/share/068f5311-f11a-43fe-a2da-cbfc2227de8e](https://chat.openai.com/share/068f5311-f11a-43fe-a2da-cbfc2227de8e)\n\nHere are ChatGPT's speculations on how much it would cost to run this study. I invite any interested reader to work on designing this study. I can also write up my theories as to why this etiology is plausible in arbitrary detail if that is decision-relevant to someone with either grant money or interest in helping to code up the smartphone app we would need. to collect the relevant measurements cheaply. (Intuitively, it would be something like a Dual N-Back app, but more user-friendly for Alzheimer's patients.)",
+      "plaintextDescription": "https://chat.openai.com/share/068f5311-f11a-43fe-a2da-cbfc2227de8e\n\nHere are ChatGPT's speculations on how much it would cost to run this study. I invite any interested reader to work on designing this study. I can also write up my theories as to why this etiology is plausible in arbitrary detail if that is decision-relevant to someone with either grant money or interest in helping to code up the smartphone app we would need. to collect the relevant measurements cheaply. (Intuitively, it would be something like a Dual N-Back app, but more user-friendly for Alzheimer's patients.)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T01:29:54.980Z",
+    "af": false
+  },
+  {
+    "_id": "WWWwea3ZX3Z7RddGN",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "wKjztuHFwS5cqDozp",
+    "topLevelCommentId": "F4KEBpPbgysWLvfmd",
+    "contents": {
+      "markdown": "I can put together some sort of proposal tonight, I suppose.",
+      "plaintextDescription": "I can put together some sort of proposal tonight, I suppose."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T01:12:52.295Z",
+    "af": false
+  },
+  {
+    "_id": "wKjztuHFwS5cqDozp",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "n2cxu7XhHukqmjwxQ",
+    "topLevelCommentId": "F4KEBpPbgysWLvfmd",
+    "contents": {
+      "markdown": "OK, let's do it. Your nickel against my $100.\n\nWhat resolution criteria should we use? Perhaps the first RCT that studies a treatment I deem sufficiently similar has to find a statistically significant effect with a publishable effect size? Or should we require that the first RCT that studies a similar treatment is halted halfway through because it would be unethical for the control group not to receive the treatment? (We could have a side bet on the latter, perhaps.)\n\nWhat would the study look like? Presumably scores on a standard cognitive test designed to measure decline of Alzheimer's patients, with four arms: control, Zoloft, Trazadone, and Zoloft + Trazadone (with all of the other components of the treatment, in particular the EPA/DHA, constant for all non-control subjects). Let me know if you have any thoughts on the study design or if I should put together a grant proposal to stsudy this.",
+      "plaintextDescription": "OK, let's do it. Your nickel against my $100.\n\nWhat resolution criteria should we use? Perhaps the first RCT that studies a treatment I deem sufficiently similar has to find a statistically significant effect with a publishable effect size? Or should we require that the first RCT that studies a similar treatment is halted halfway through because it would be unethical for the control group not to receive the treatment? (We could have a side bet on the latter, perhaps.)\n\nWhat would the study look like? Presumably scores on a standard cognitive test designed to measure decline of Alzheimer's patients, with four arms: control, Zoloft, Trazadone, and Zoloft + Trazadone (with all of the other components of the treatment, in particular the EPA/DHA, constant for all non-control subjects). Let me know if you have any thoughts on the study design or if I should put together a grant proposal to stsudy this."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-01T01:11:14.719Z",
+    "af": false
+  },
+  {
+    "_id": "Dt8ktWHvrqiFmyEyi",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "NYSwubQWos8fhs8CZ",
+    "topLevelCommentId": "zSaXkns7M3zXEtJ8D",
+    "contents": {
+      "markdown": "OK, sounds good! Consider it a bet.",
+      "plaintextDescription": "OK, sounds good! Consider it a bet."
+    },
+    "baseScore": 23,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2023-11-30T22:51:54.678Z",
+    "af": false
+  },
+  {
+    "_id": "TumeTbktdQ7sHNKt7",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "3irXh72NhKBdbPrpz",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "I wouldn't say I really do satire? My normal metier is more \"the truth, with jokes\". If I'm acting too crazy to be considered a proper rationalist, it's usually because I am angry or at least deeply annoyed.",
+      "plaintextDescription": "I wouldn't say I really do satire? My normal metier is more \"the truth, with jokes\". If I'm acting too crazy to be considered a proper rationalist, it's usually because I am angry or at least deeply annoyed."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T22:49:31.306Z",
+    "af": false
+  },
+  {
+    "_id": "LZeoKgNkaAb2BpGcE",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "LcrtJvW8aGGGtSFb9",
+    "topLevelCommentId": "zSaXkns7M3zXEtJ8D",
+    "contents": {
+      "markdown": "OK. I can only personally afford to be wrong to the tune of about $10K, which would be what, $5 on your part? Did I do that math correctly?",
+      "plaintextDescription": "OK. I can only personally afford to be wrong to the tune of about $10K, which would be what, $5 on your part? Did I do that math correctly?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T22:38:41.946Z",
+    "af": false
+  },
+  {
+    "_id": "4oKdWnhG7SLFz2WKA",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "Q7Ein9rMqv5pGk56m",
+    "topLevelCommentId": "F4KEBpPbgysWLvfmd",
+    "contents": {
+      "markdown": "OK, anybody who publicly bets on my predicted outcome to the RCT wins the right to engage me in a LessWrong dialogue on a topic of their choosing, in which I will politely set aside my habitual certainty and trollish demeanor.",
+      "plaintextDescription": "OK, anybody who publicly bets on my predicted outcome to the RCT wins the right to engage me in a LessWrong dialogue on a topic of their choosing, in which I will politely set aside my habitual certainty and trollish demeanor."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T22:36:25.262Z",
+    "af": false
+  },
+  {
+    "_id": "tCjkFBYHQEWXeoQqy",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "K2Ya6Db4a7CNzwSon",
+    "topLevelCommentId": "K2Ya6Db4a7CNzwSon",
+    "contents": {
+      "markdown": "Well that should be straightforward, and is predicted by my model of serotonin's function in the brain. It would require an understanding of the function of orexin, which I do not currently possess, beyond the standard intuition that it modulates hunger. \n\nThe evolutionary story would be this:\n\n*   serotonin functions (in my model) to make an agent satisficing, which has many desirable safety properties, e.g. not getting eaten by predators when you forage unnecessarily\n*   the most obvious and important desire to satisfy (and neurally mark as satisfied) is the hunger for food modulated by the hormone/neurotransmitter orexin\n*   the most obvious mechanism (and thus the one I predict) is that serotonergic bacteria in the gut activate some neural population in the gut's \"second brain\", sending a particular neural signal bundle to the primary brain consistent with malnutrition (there are many details here that I have not worked out and which could be usefully worked on by a qualified theoretical neuroscientist)\n*   this neural signal bundle would necessarily up(???)modulate the orexin signal(???)\n*   sustained high levels of orexin lead to autocannibalism of the brain through sustained neural pruning",
+      "plaintextDescription": "Well that should be straightforward, and is predicted by my model of serotonin's function in the brain. It would require an understanding of the function of orexin, which I do not currently possess, beyond the standard intuition that it modulates hunger. \n\nThe evolutionary story would be this:\n\n * serotonin functions (in my model) to make an agent satisficing, which has many desirable safety properties, e.g. not getting eaten by predators when you forage unnecessarily\n * the most obvious and important desire to satisfy (and neurally mark as satisfied) is the hunger for food modulated by the hormone/neurotransmitter orexin\n * the most obvious mechanism (and thus the one I predict) is that serotonergic bacteria in the gut activate some neural population in the gut's \"second brain\", sending a particular neural signal bundle to the primary brain consistent with malnutrition (there are many details here that I have not worked out and which could be usefully worked on by a qualified theoretical neuroscientist)\n * this neural signal bundle would necessarily up(???)modulate the orexin signal(???)\n * sustained high levels of orexin lead to autocannibalism of the brain through sustained neural pruning"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T22:33:48.920Z",
+    "af": false
+  },
+  {
+    "_id": "qv6dqjKzD5zXkpkfA",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "zSaXkns7M3zXEtJ8D",
+    "topLevelCommentId": "zSaXkns7M3zXEtJ8D",
+    "contents": {
+      "markdown": "Well what's the appropriate way to act in the face of the fact that I AM sure I am right? I've been offering public bets of the nickel of some high-karma person versus my $100, which seems like a fair and attractive bet for anyone who doubts my credibility and ability to reason about the things I am talking about.\n\nI will happily bet anyone with significant karma that Yudkowsky will find my work on the ethicophysics valuable a year from now, at the odds given above.",
+      "plaintextDescription": "Well what's the appropriate way to act in the face of the fact that I AM sure I am right? I've been offering public bets of the nickel of some high-karma person versus my $100, which seems like a fair and attractive bet for anyone who doubts my credibility and ability to reason about the things I am talking about.\n\nI will happily bet anyone with significant karma that Yudkowsky will find my work on the ethicophysics valuable a year from now, at the odds given above."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T21:32:03.770Z",
+    "af": false
+  },
+  {
+    "_id": "CivKq8QchS8gNNBLa",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "5xhwgGQgtH85hy6zK",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Historically, I have been extremely, extremely good at delaying publication of what I felt were capabilites-relevant advances, for essentially Yudkowskyan doomer reasons. The only reward I have earned for this diligence is to be treated like a crank when I publish alignment-related research because I don't have an extensive history of public contribution to the AI field.\n\nHere is my speculation of what Q* is, along with a github repository that implements a shitty version of it, postdated several months.\n\nhttps://bittertruths.substack.com/p/what-is-q",
+      "plaintextDescription": "Historically, I have been extremely, extremely good at delaying publication of what I felt were capabilites-relevant advances, for essentially Yudkowskyan doomer reasons. The only reward I have earned for this diligence is to be treated like a crank when I publish alignment-related research because I don't have an extensive history of public contribution to the AI field.\n\nHere is my speculation of what Q* is, along with a github repository that implements a shitty version of it, postdated several months.\n\nhttps://bittertruths.substack.com/p/what-is-q"
+    },
+    "baseScore": -6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-11-30T21:25:40.646Z",
+    "af": false
+  },
+  {
+    "_id": "6FmSjhJA4hFSvJ5DJ",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "7tdtcrqzv4BG8Ayym",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "And now I am officially rate-limited to one post per week. Be sure to go to my substack if you are curious about what I am up to.",
+      "plaintextDescription": "And now I am officially rate-limited to one post per week. Be sure to go to my substack if you are curious about what I am up to."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T20:31:37.811Z",
+    "af": false
+  },
+  {
+    "_id": "JEHDtvcNmn5Q8h7bR",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "dLQ6dtupmyf8sEbaH",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Well, I'll just have to continue being first out the door, then, won't I?",
+      "plaintextDescription": "Well, I'll just have to continue being first out the door, then, won't I?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T20:30:29.127Z",
+    "af": false
+  },
+  {
+    "_id": "YqhRf47fEGrToTCBk",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "F4KEBpPbgysWLvfmd",
+    "topLevelCommentId": "F4KEBpPbgysWLvfmd",
+    "contents": {
+      "markdown": "And if people refuse to take such an attractive bet for the reason that my proposed cure sounds like it couldn't possibly hurt anyone, and might indeed help, then I reiterate the point I made in The Alignment Agenda THEY Don't Want You to Know About: the problem is not that my claims are prima facie ridiculous, it is that I myself am prima facie ridiculous.",
+      "plaintextDescription": "And if people refuse to take such an attractive bet for the reason that my proposed cure sounds like it couldn't possibly hurt anyone, and might indeed help, then I reiterate the point I made in The Alignment Agenda THEY Don't Want You to Know About: the problem is not that my claims are prima facie ridiculous, it is that I myself am prima facie ridiculous."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T20:13:39.348Z",
+    "af": false
+  },
+  {
+    "_id": "F4KEBpPbgysWLvfmd",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I will publicly wager $100 against a single nickel with the first 10 people with extremely high LessWrong karma who want to publicly bet against my predicted RCT outcome.",
+      "plaintextDescription": "I will publicly wager $100 against a single nickel with the first 10 people with extremely high LessWrong karma who want to publicly bet against my predicted RCT outcome."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T20:11:27.621Z",
+    "af": false
+  },
+  {
+    "_id": "MCTxvETj8EHuSXveG",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "BCDkmFMb3pF86wWN5",
+    "topLevelCommentId": "tyDuWpszWspZuKgQr",
+    "contents": {
+      "markdown": "[https://alzheimergut.org/research/](https://alzheimergut.org/research/) is the place to look for all the lastest research from the gut microbiome hypothesis community.",
+      "plaintextDescription": "https://alzheimergut.org/research/ is the place to look for all the lastest research from the gut microbiome hypothesis community."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T19:20:30.376Z",
+    "af": false
+  },
+  {
+    "_id": "4PXYBWWpcYoJoyBxc",
+    "postId": "dpGJeRtWPSLbYribA",
+    "parentCommentId": "pqsTrRMHjsQXmu9Bd",
+    "topLevelCommentId": "eZ44bEC5KhGqNbGcb",
+    "contents": {
+      "markdown": "Agreed, this is a crucial lesson of history.",
+      "plaintextDescription": "Agreed, this is a crucial lesson of history."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T19:07:31.480Z",
+    "af": false
+  },
+  {
+    "_id": "BCDkmFMb3pF86wWN5",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": "tyDuWpszWspZuKgQr",
+    "topLevelCommentId": "tyDuWpszWspZuKgQr",
+    "contents": {
+      "markdown": "Young people forget important stuff, get depressed, struggle to understand the world. That is the prediction of my model: that a bad gut microbiome would cause more neural pruning than is strictly optimal.\n\nIt is well documented that starving young people have lower IQ's, I believe? Certainly the claim does not seem prima facie ridiculous to me.\n\nThe older you get, the more chances you have to develop a bad gut microbiome. Perhaps the actual etiology of bad gut microbiomes (which I do not claim to understand) is heavily age-correlated. Or maybe we simply do not label neural pruning induced by fake starvation perceptions as Alzheimer's in the absence of old age. \n\nNote that the Alzheimer's gut microbiome have induced Alzheimer's-like symptoms in young healthy mice by transferring something (tissue?) from the brain of human Alzheimer's patients to the stomach of young healthy mice; thus, I consider this particular claim (young people can get Alzheimer's) to have heavy empirical validation, if only in animal models.",
+      "plaintextDescription": "Young people forget important stuff, get depressed, struggle to understand the world. That is the prediction of my model: that a bad gut microbiome would cause more neural pruning than is strictly optimal.\n\nIt is well documented that starving young people have lower IQ's, I believe? Certainly the claim does not seem prima facie ridiculous to me.\n\nThe older you get, the more chances you have to develop a bad gut microbiome. Perhaps the actual etiology of bad gut microbiomes (which I do not claim to understand) is heavily age-correlated. Or maybe we simply do not label neural pruning induced by fake starvation perceptions as Alzheimer's in the absence of old age. \n\nNote that the Alzheimer's gut microbiome have induced Alzheimer's-like symptoms in young healthy mice by transferring something (tissue?) from the brain of human Alzheimer's patients to the stomach of young healthy mice; thus, I consider this particular claim (young people can get Alzheimer's) to have heavy empirical validation, if only in animal models."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T19:06:09.931Z",
+    "af": false
+  },
+  {
+    "_id": "osmnLph7E9DAGMCsd",
+    "postId": "WgzGsDdfzrwybwiob",
+    "parentCommentId": "qJ5mu4nGHGcjFpJdz",
+    "topLevelCommentId": "DS5ea92D46wtvZive",
+    "contents": {
+      "markdown": "Then maybe the alignment problem is a stupid problem to try to solve? I don't believe this, and have spent the past five years working on the alignment problem. But your argument certainly seems like a general purpose argument that we could and should surrender our moral duties to a fancy algorithm as a cost-saving measure, and that anyone who opposes that is a technophobe who Does Not Get the Science.",
+      "plaintextDescription": "Then maybe the alignment problem is a stupid problem to try to solve? I don't believe this, and have spent the past five years working on the alignment problem. But your argument certainly seems like a general purpose argument that we could and should surrender our moral duties to a fancy algorithm as a cost-saving measure, and that anyone who opposes that is a technophobe who Does Not Get the Science."
+    },
+    "baseScore": -5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T18:59:16.006Z",
+    "af": false
+  },
+  {
+    "_id": "nphRa3XhcKim8uEkL",
+    "postId": "C9fBDSDcbuZnPbcAZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Also, for interested readers, I am happy to post a more detailed mechanistic neuroscience explanation of my theory, but want to make sure I'm not breaking my company NDA's by sharing it first.",
+      "plaintextDescription": "Also, for interested readers, I am happy to post a more detailed mechanistic neuroscience explanation of my theory, but want to make sure I'm not breaking my company NDA's by sharing it first."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T17:51:00.660Z",
+    "af": false
+  },
+  {
+    "_id": "AE4aD8M5ojCNL9bue",
+    "postId": "WgzGsDdfzrwybwiob",
+    "parentCommentId": "DS5ea92D46wtvZive",
+    "topLevelCommentId": "DS5ea92D46wtvZive",
+    "contents": {
+      "markdown": "What's so bad about keeping a human in the loop forever? Do we really think we can safely abdicate our moral responsibilities?",
+      "plaintextDescription": "What's so bad about keeping a human in the loop forever? Do we really think we can safely abdicate our moral responsibilities?"
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-30T17:43:14.357Z",
+    "af": false
+  },
+  {
+    "_id": "gBSJBogboJMe6ckPy",
+    "postId": "dpGJeRtWPSLbYribA",
+    "parentCommentId": "qoHHRKnwyGMJScC22",
+    "topLevelCommentId": "qoHHRKnwyGMJScC22",
+    "contents": {
+      "markdown": "I'm not trying to generate revenue for Wayne. I'm trying to spread his message to force the hand of the judicial system to not imprison him for longer than they already have.",
+      "plaintextDescription": "I'm not trying to generate revenue for Wayne. I'm trying to spread his message to force the hand of the judicial system to not imprison him for longer than they already have."
+    },
+    "baseScore": -3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T17:41:57.410Z",
+    "af": false
+  },
+  {
+    "_id": "cjhBYAT5J7xTnDQ8D",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "jGKbxhibXBBbWc7BC",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Well, perhaps we can ask, what is reading about? Surely it involves reading through clearly presented arguments and trying to understand the process that generated them, and not presupposing any particular resolution to the question \"is this person crazy\" beyond the inevitable and unenviable limits imposed by our finite time on Earth.",
+      "plaintextDescription": "Well, perhaps we can ask, what is reading about? Surely it involves reading through clearly presented arguments and trying to understand the process that generated them, and not presupposing any particular resolution to the question \"is this person crazy\" beyond the inevitable and unenviable limits imposed by our finite time on Earth."
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-30T16:48:53.281Z",
+    "af": false
+  },
+  {
+    "_id": "DpSdpGW4BxSdZenkv",
+    "postId": "dpGJeRtWPSLbYribA",
+    "parentCommentId": "eZ44bEC5KhGqNbGcb",
+    "topLevelCommentId": "eZ44bEC5KhGqNbGcb",
+    "contents": {
+      "markdown": "That's fair. I just want Wayne to get out of jail soon because he's a personal friend of mine.",
+      "plaintextDescription": "That's fair. I just want Wayne to get out of jail soon because he's a personal friend of mine."
+    },
+    "baseScore": -3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T16:29:18.215Z",
+    "af": false
+  },
+  {
+    "_id": "bYTB6WhjvSq79uFih",
+    "postId": "48X4EFJdCQvHEvL2t",
+    "parentCommentId": "rpw2LMyinFp64gQrx",
+    "topLevelCommentId": "mmCuSsoCQXTQfbvwM",
+    "contents": {
+      "markdown": "Check out my post entitled \"Enkrateia\" in my sequence. This is a plain language account of a safe model-based reinforcement learner using established academic language and frameworks.",
+      "plaintextDescription": "Check out my post entitled \"Enkrateia\" in my sequence. This is a plain language account of a safe model-based reinforcement learner using established academic language and frameworks."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T16:24:31.045Z",
+    "af": false
+  },
+  {
+    "_id": "aFRWrhGjzdBzCW3EZ",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "zHstbCpLuARPnkuxD",
+    "topLevelCommentId": "zHstbCpLuARPnkuxD",
+    "contents": {
+      "markdown": "That was the inspiration. It's meant to be an RLHF cost function corresponding to the question \"What would the Doctor think about what you just said?\"",
+      "plaintextDescription": "That was the inspiration. It's meant to be an RLHF cost function corresponding to the question \"What would the Doctor think about what you just said?\""
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T16:10:32.635Z",
+    "af": false
+  },
+  {
+    "_id": "8uQ7xuedao6itGbdB",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "kgw43JWvfPSz4nJx6",
+    "topLevelCommentId": "ctLmnkJfdfFWkJphc",
+    "contents": {
+      "markdown": "Posted an existing draft of such an approach to the tail end of my Sequence.",
+      "plaintextDescription": "Posted an existing draft of such an approach to the tail end of my Sequence."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T15:54:03.458Z",
+    "af": false
+  },
+  {
+    "_id": "aLeKhSkuvXjyuexgt",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "kgw43JWvfPSz4nJx6",
+    "topLevelCommentId": "ctLmnkJfdfFWkJphc",
+    "contents": {
+      "markdown": "I did that, and received only token engagement with my work. I will add it to my sequence.\n\nhttps://github.com/epurdy/saferl",
+      "plaintextDescription": "I did that, and received only token engagement with my work. I will add it to my sequence.\n\nhttps://github.com/epurdy/saferl"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T15:42:31.058Z",
+    "af": false
+  },
+  {
+    "_id": "6K24TftTMbqDTaouY",
+    "postId": "RhSvofxEQANBedWtt",
+    "parentCommentId": "YAJkJ8Hz4ptE68iYj",
+    "topLevelCommentId": "YAJkJ8Hz4ptE68iYj",
+    "contents": {
+      "markdown": "That's pretty fair, and an argument for me to be less trollish in my presentation. I have strong-agreed with you.",
+      "plaintextDescription": "That's pretty fair, and an argument for me to be less trollish in my presentation. I have strong-agreed with you."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T15:39:17.683Z",
+    "af": false
+  },
+  {
+    "_id": "wQM8MLAmDQ9WpWwEq",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One of the homework questions in Ethicophysics II is to compile that list and then search for patterns in it. For instance, Islamic fighting groups comprise both the uppermost echelons, and the lowermost echelons. (The all-time lowest rating is for ISIS.)\n\nSince no one else is doing my homework problems, I thought I would prime the pump by posting a partial answer and encouraging people to trawl through it for patterns.",
+      "plaintextDescription": "One of the homework questions in Ethicophysics II is to compile that list and then search for patterns in it. For instance, Islamic fighting groups comprise both the uppermost echelons, and the lowermost echelons. (The all-time lowest rating is for ISIS.)\n\nSince no one else is doing my homework problems, I thought I would prime the pump by posting a partial answer and encouraging people to trawl through it for patterns."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T10:24:21.478Z",
+    "af": false
+  },
+  {
+    "_id": "9rftJp5pdXymuNLyw",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "b7Kf5y4skfBrizCDH",
+    "topLevelCommentId": "b7Kf5y4skfBrizCDH",
+    "contents": {
+      "markdown": "Thanks for that talk. I actually took the class that McEnerney taught at UChicago, and it greatly improved my writing.",
+      "plaintextDescription": "Thanks for that talk. I actually took the class that McEnerney taught at UChicago, and it greatly improved my writing."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T10:20:27.411Z",
+    "af": false
+  },
+  {
+    "_id": "ZeLqspiY6qxtqssBP",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "DiBmEJckxBuAvDsaz",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Probably the first, as much as this is the \"wrong\" answer to your question for the LessWrong crowd.\n\nI would be pretty pissed off if my proposed solution to the alignment problem was attributed to someone who hasn't gone through what I went through in order to derive it. Especially if that solution ended up being close enough to correct to form a cornerstone of future approaches to the problem.\n\nI'm going to continue to present my ideas in the most appealing package I can devise for them, but I don't regret posting them to LessWrong in the chaotic fashion that I did.",
+      "plaintextDescription": "Probably the first, as much as this is the \"wrong\" answer to your question for the LessWrong crowd.\n\nI would be pretty pissed off if my proposed solution to the alignment problem was attributed to someone who hasn't gone through what I went through in order to derive it. Especially if that solution ended up being close enough to correct to form a cornerstone of future approaches to the problem.\n\nI'm going to continue to present my ideas in the most appealing package I can devise for them, but I don't regret posting them to LessWrong in the chaotic fashion that I did."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T10:15:57.922Z",
+    "af": false
+  },
+  {
+    "_id": "hBunyWGogE7FANfMF",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "ctLmnkJfdfFWkJphc",
+    "topLevelCommentId": "ctLmnkJfdfFWkJphc",
+    "contents": {
+      "markdown": "I just awarded all of the prizes, but this answer feels pretty useful. You can also claim $100 if you want it.\n\nMost of this work was done in 2018 or before, and just never shared with the mainstream alignment community. The only reason it looks like I'm trying to move too fast is that I am trying to get credit for the work I have done too fast.\n\nWhat would you recommend I polish first? My intuition says Ethicophysics I, just because that sounds the least rational and is the most foundational.",
+      "plaintextDescription": "I just awarded all of the prizes, but this answer feels pretty useful. You can also claim $100 if you want it.\n\nMost of this work was done in 2018 or before, and just never shared with the mainstream alignment community. The only reason it looks like I'm trying to move too fast is that I am trying to get credit for the work I have done too fast.\n\nWhat would you recommend I polish first? My intuition says Ethicophysics I, just because that sounds the least rational and is the most foundational."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T09:34:22.683Z",
+    "af": false
+  },
+  {
+    "_id": "ztMNErwYPNWj46skv",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "nC7FGyBi6y4HMh4Bb",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Well, that's the problem. I've been writing in a combination of my personal voice and my understanding of Eliezer's voice. Eliezer has enough accumulated Bayes points that he is allowed to use parables and metaphors and such. I do not.",
+      "plaintextDescription": "Well, that's the problem. I've been writing in a combination of my personal voice and my understanding of Eliezer's voice. Eliezer has enough accumulated Bayes points that he is allowed to use parables and metaphors and such. I do not."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T09:12:37.555Z",
+    "af": false
+  },
+  {
+    "_id": "rJGyqYHsQhX92zSXw",
+    "postId": "RhSvofxEQANBedWtt",
+    "parentCommentId": "tumDa3YSWridgvAut",
+    "topLevelCommentId": "tumDa3YSWridgvAut",
+    "contents": {
+      "markdown": "Well, I'm more talking about the actual reputation one has in the alignment community, since that's the thing that's actually relevant to how a post is received. I have no idea what my reputation is like, but it would almost have to be \"total unknown\".",
+      "plaintextDescription": "Well, I'm more talking about the actual reputation one has in the alignment community, since that's the thing that's actually relevant to how a post is received. I have no idea what my reputation is like, but it would almost have to be \"total unknown\"."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T08:47:16.158Z",
+    "af": false
+  },
+  {
+    "_id": "busFHrF3JedArXCui",
+    "postId": "RhSvofxEQANBedWtt",
+    "parentCommentId": "LF2a9CA8ymfhG6Emi",
+    "topLevelCommentId": "Riy42etDHZCeHnnKT",
+    "contents": {
+      "markdown": "Look at the most recent post on my substack, which links to this github repo: https://github.com/epurdy/ethicophysics",
+      "plaintextDescription": "Look at the most recent post on my substack, which links to this github repo: https://github.com/epurdy/ethicophysics"
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T08:06:11.925Z",
+    "af": false
+  },
+  {
+    "_id": "NPgbd9hzbhjyJk2Fk",
+    "postId": "RhSvofxEQANBedWtt",
+    "parentCommentId": "Riy42etDHZCeHnnKT",
+    "topLevelCommentId": "Riy42etDHZCeHnnKT",
+    "contents": {
+      "markdown": "A novel theory of the interactions between the physical components of a cyberphysical system and the cybernetic components of a cyberphysical system. Please see the sequence I have published for more details.",
+      "plaintextDescription": "A novel theory of the interactions between the physical components of a cyberphysical system and the cybernetic components of a cyberphysical system. Please see the sequence I have published for more details."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T07:47:39.794Z",
+    "af": false
+  },
+  {
+    "_id": "xuGcago9WYxkiFCkd",
+    "postId": "RhSvofxEQANBedWtt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Since predictions about the past are cheap, let's make some ethicophysical predictions about the future.\n\nMy work will remain unpopular until it is endorsed by someone who is high status (say, a comparable amount of karma to John Wentworth), and will not truly enter the LessWrong canon until Eliezer Yudkowsky seriously engages with it.\n\nThese predictions are pretty obviously true, so I don't claim many Brier points for making them. But I also can't claim many Brier points for many points in the ethicophysics, since it's really just a formalization of common sense applied to the moral domain.",
+      "plaintextDescription": "Since predictions about the past are cheap, let's make some ethicophysical predictions about the future.\n\nMy work will remain unpopular until it is endorsed by someone who is high status (say, a comparable amount of karma to John Wentworth), and will not truly enter the LessWrong canon until Eliezer Yudkowsky seriously engages with it.\n\nThese predictions are pretty obviously true, so I don't claim many Brier points for making them. But I also can't claim many Brier points for many points in the ethicophysics, since it's really just a formalization of common sense applied to the moral domain."
+    },
+    "baseScore": -1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T07:30:05.232Z",
+    "af": false
+  },
+  {
+    "_id": "sxPfaQG9xyBhE8XFa",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "DoAgh9WXfTfr9Z5pv",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "No, I would do it by rushing to publish my work before it's been cleaned up enough to be presentable. Scientist have done this throughout history have rushed to avoid getting scooped, and to scoop others. I do not wish to be the Rosalind Franklin of the alignment problem.",
+      "plaintextDescription": "No, I would do it by rushing to publish my work before it's been cleaned up enough to be presentable. Scientist have done this throughout history have rushed to avoid getting scooped, and to scoop others. I do not wish to be the Rosalind Franklin of the alignment problem."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T07:02:57.875Z",
+    "af": false
+  },
+  {
+    "_id": "2gR3a6bnsp7mbxfLf",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "wcBtrjavfc7Engsg2",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Well, I have my substack. They let me post whatever I want whenever I want.",
+      "plaintextDescription": "Well, I have my substack. They let me post whatever I want whenever I want."
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-30T06:41:45.680Z",
+    "af": false
+  },
+  {
+    "_id": "t3snJBBerh6AtqAum",
+    "postId": "upH8oZbxpqwgSvRuL",
+    "parentCommentId": "xDfoHkpGa7MSddz6F",
+    "topLevelCommentId": "qJovKcgyfHz8arnvo",
+    "contents": {
+      "markdown": "It's fine, I'll just be slightly passive-aggressive until my posts are above water.",
+      "plaintextDescription": "It's fine, I'll just be slightly passive-aggressive until my posts are above water."
+    },
+    "baseScore": -11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-11-30T05:36:02.021Z",
+    "af": false
+  },
+  {
+    "_id": "xYh7rsaZfgZP3DJH7",
+    "postId": "upH8oZbxpqwgSvRuL",
+    "parentCommentId": "qJovKcgyfHz8arnvo",
+    "topLevelCommentId": "qJovKcgyfHz8arnvo",
+    "contents": {
+      "markdown": "I couldn't figure out how to do it in the interface. It seems that negative karma things are never returned in the lookup results. I could be wrong about this, or simply insufficiently skillful or patient in my use of the interface.",
+      "plaintextDescription": "I couldn't figure out how to do it in the interface. It seems that negative karma things are never returned in the lookup results. I could be wrong about this, or simply insufficiently skillful or patient in my use of the interface."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T05:09:55.493Z",
+    "af": false
+  },
+  {
+    "_id": "h7WABbAYcN7moqJhp",
+    "postId": "RhSvofxEQANBedWtt",
+    "parentCommentId": "GwDwTo55tGEnMRsFi",
+    "topLevelCommentId": "GwDwTo55tGEnMRsFi",
+    "contents": {
+      "markdown": "I have a PhD in Computer Science (2013, University of Chicago). My dissertation was entitled \"Grammatical Methods in Computer Vision\". My masters thesis was in complexity theory and was entitled \"Locally Expanding Hypergraphs and the Unique Games Conjecture\". I also have one publication in ACM Transactions on Computation Theory on proving lower bounds in a toy model of computation.\n\nI am an Engineering Fellow at \\[redacted\\] AI. My company went to Series A while I was leading its machine learning team. (I have since transitioned to being an individual contributor, because management sucks and is boring and I'm no good at it.) My company has twice received the most prestigious award handed out in its industry. I hold multiple patents related to my contributions at \\[redacted\\] AI. \n\nI hold a patent for my work at Vicarious, where I was a senior researcher.\n\nAt one point, I quit my job and started a generative AI startup dedicated to providing psychotherapy. This model is online, and I can share a link to it in a DM if you are interested.\n\nThe state-sponsored German physics establishment famously sneered at Einstein's work. The Nazi regime derided it as degenerate, \"Jewish\" physics. Sure, everyone who we actually respect now could recognize the value of his work after he started predicting novel astronomical phenomena. But it's not like he ever could have gotten a job at a German university while the Nazis were in charge.\n\nMaybe the problem is with my poor writing and sloppy craftsmanship, but maybe it is also partially a matter of LessWrong expecting the solution to the alignment problem to come with a lot less emotionally charged language and politically charged content than it logically would have to come with?",
+      "plaintextDescription": "I have a PhD in Computer Science (2013, University of Chicago). My dissertation was entitled \"Grammatical Methods in Computer Vision\". My masters thesis was in complexity theory and was entitled \"Locally Expanding Hypergraphs and the Unique Games Conjecture\". I also have one publication in ACM Transactions on Computation Theory on proving lower bounds in a toy model of computation.\n\nI am an Engineering Fellow at [redacted] AI. My company went to Series A while I was leading its machine learning team. (I have since transitioned to being an individual contributor, because management sucks and is boring and I'm no good at it.) My company has twice received the most prestigious award handed out in its industry. I hold multiple patents related to my contributions at [redacted] AI. \n\nI hold a patent for my work at Vicarious, where I was a senior researcher.\n\nAt one point, I quit my job and started a generative AI startup dedicated to providing psychotherapy. This model is online, and I can share a link to it in a DM if you are interested.\n\nThe state-sponsored German physics establishment famously sneered at Einstein's work. The Nazi regime derided it as degenerate, \"Jewish\" physics. Sure, everyone who we actually respect now could recognize the value of his work after he started predicting novel astronomical phenomena. But it's not like he ever could have gotten a job at a German university while the Nazis were in charge.\n\nMaybe the problem is with my poor writing and sloppy craftsmanship, but maybe it is also partially a matter of LessWrong expecting the solution to the alignment problem to come with a lot less emotionally charged language and politically charged content than it logically would have to come with?"
+    },
+    "baseScore": 13,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T05:01:18.452Z",
+    "af": false
+  },
+  {
+    "_id": "8wYEE6oiqpEEYTiit",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This seems like very solid advice. I will switch to shortform.",
+      "plaintextDescription": "This seems like very solid advice. I will switch to shortform."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T04:44:38.334Z",
+    "af": false
+  },
+  {
+    "_id": "WgKawYLDzpBNTo6o3",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "3CuEFCDzeqquQtTfu",
+    "topLevelCommentId": "3CuEFCDzeqquQtTfu",
+    "contents": {
+      "markdown": "This is solid advice, I suppose. A friend of mine has compared my rhetorical style to that of Dr. Bronner - I say a bunch of crazy shit, then slap it around a bar of the finest soap ever made by the hand of man.\n\nI started posting my pdfs to academia.edu because I wanted them to look more respectable, not less. Earlier drafts of them used to be on github with no paywall. I'm going to post my latest draft of Ethicophysics I and Ethicophysics II to github later tonight; hopefully this decreases the number of hoops that interested readers have to jump through.",
+      "plaintextDescription": "This is solid advice, I suppose. A friend of mine has compared my rhetorical style to that of Dr. Bronner - I say a bunch of crazy shit, then slap it around a bar of the finest soap ever made by the hand of man.\n\nI started posting my pdfs to academia.edu because I wanted them to look more respectable, not less. Earlier drafts of them used to be on github with no paywall. I'm going to post my latest draft of Ethicophysics I and Ethicophysics II to github later tonight; hopefully this decreases the number of hoops that interested readers have to jump through."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T04:42:10.659Z",
+    "af": false
+  },
+  {
+    "_id": "fjWn9wv7JYBpegs6L",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "kaDMCMFKgsqwFY5tm",
+    "topLevelCommentId": "yvgfkecYN9yf4A8ab",
+    "contents": {
+      "markdown": "Most of the mentors I have are, for natural reasons, very high-status people. I want to call out [@Steven Byrnes](https://www.lesswrong.com/users/steve2152?mention=user) as having been a notable exception to the trend of high-status people not responding to my drafts.\n\nI can share my email address with anybody who DM's me, if people are willing to read my drafts.",
+      "plaintextDescription": "Most of the mentors I have are, for natural reasons, very high-status people. I want to call out @Steven Byrnes as having been a notable exception to the trend of high-status people not responding to my drafts.\n\nI can share my email address with anybody who DM's me, if people are willing to read my drafts."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T04:33:22.181Z",
+    "af": false
+  },
+  {
+    "_id": "JrSGHKQK82uzrsf7c",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "9tdW56d3zffCvehLw",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Right, this is how Ramanujan was discovered.",
+      "plaintextDescription": "Right, this is how Ramanujan was discovered."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-30T04:31:35.803Z",
+    "af": false
+  },
+  {
+    "_id": "7tdtcrqzv4BG8Ayym",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "dWJt5Fbvz7ZKzKme7",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "I am painfully aware of this. I get awfully bored when I'm rate-limited.",
+      "plaintextDescription": "I am painfully aware of this. I get awfully bored when I'm rate-limited."
+    },
+    "baseScore": 9,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-30T03:58:30.043Z",
+    "af": false
+  },
+  {
+    "_id": "cr4gtS7B7LXzLuYvr",
+    "postId": "DkkfPEwTnPQyvrgK8",
+    "parentCommentId": "3kQeK3gJKzrj4cy66",
+    "topLevelCommentId": "P2JciwPiCXnTserwz",
+    "contents": {
+      "markdown": "I love this! It's basically Dedekind cuts, right?",
+      "plaintextDescription": "I love this! It's basically Dedekind cuts, right?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-30T03:39:27.392Z",
+    "af": false
+  },
+  {
+    "_id": "MnQFJnNHtJvtaGNKd",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "8wH2Fjm5tzYyp8RY7",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "Oh, I do.",
+      "plaintextDescription": "Oh, I do."
+    },
+    "baseScore": 2,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2023-11-30T03:37:18.400Z",
+    "af": false
+  },
+  {
+    "_id": "fjNYufMqjexKwFNeB",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "svPzQbykf8Cpanuhs",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "And now I have my own Sequence! I predict that it will be as unpopular as the rest of my work.",
+      "plaintextDescription": "And now I have my own Sequence! I predict that it will be as unpopular as the rest of my work."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T03:13:39.211Z",
+    "af": false
+  },
+  {
+    "_id": "LWdyugh5vSAwD9ZRM",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Just added a post entitled My Research Agenda that starts to document this, and added a new Sequence to contain the posts I am working on.",
+      "plaintextDescription": "Just added a post entitled My Research Agenda that starts to document this, and added a new Sequence to contain the posts I am working on."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T03:12:42.911Z",
+    "af": false
+  },
+  {
+    "_id": "2yK237aKMrgCT58CQ",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "yvgfkecYN9yf4A8ab",
+    "topLevelCommentId": "yvgfkecYN9yf4A8ab",
+    "contents": {
+      "markdown": "I did SERI-MATS in the winter cohort in 2023. I am as familiar with the alignment field as is possible without having founded it or been given a research grant to work in it professionally (which I have sought but been turned down in the past).\n\nI'm happy to send out drafts, and occasionally I do, but the high-status people I ask to read my drafts never quite seem to have the time to read them. I don't think this is because of any fault of theirs, but it also has not conditioned me to seek feedback before publishing things that seem potentially controversial.",
+      "plaintextDescription": "I did SERI-MATS in the winter cohort in 2023. I am as familiar with the alignment field as is possible without having founded it or been given a research grant to work in it professionally (which I have sought but been turned down in the past).\n\nI'm happy to send out drafts, and occasionally I do, but the high-status people I ask to read my drafts never quite seem to have the time to read them. I don't think this is because of any fault of theirs, but it also has not conditioned me to seek feedback before publishing things that seem potentially controversial."
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-11-30T03:00:15.320Z",
+    "af": false
+  },
+  {
+    "_id": "LJrmaZNTcjFWXd7om",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "svPzQbykf8Cpanuhs",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "I agree that that is an extremely relevant post to my current situation and general demeanor in life.\n\nI guess I'm not willing to declare the alignment problem unsolvable just because it's difficult, and I'm not willing to let anyone else claim to have solved it before I get to claim that I've solved it? And that inherently makes me a crackpot until such time as consensus reality catches up with me or I change my mind about my most deeply held values and priorities.\n\nAre there any other posts from the sequences that you think I should read?",
+      "plaintextDescription": "I agree that that is an extremely relevant post to my current situation and general demeanor in life.\n\nI guess I'm not willing to declare the alignment problem unsolvable just because it's difficult, and I'm not willing to let anyone else claim to have solved it before I get to claim that I've solved it? And that inherently makes me a crackpot until such time as consensus reality catches up with me or I change my mind about my most deeply held values and priorities.\n\nAre there any other posts from the sequences that you think I should read?"
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-30T02:04:21.085Z",
+    "af": false
+  },
+  {
+    "_id": "9vA6roKp8FBTGtZaJ",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "2avAQis2kvTu6dgR8",
+    "topLevelCommentId": "2avAQis2kvTu6dgR8",
+    "contents": {
+      "markdown": "They were difficult to write, and even more difficult to think up in the first place. And I'm still not sure whether they make any sense.\n\nSo I'll try to do a better job of writing expository content.",
+      "plaintextDescription": "They were difficult to write, and even more difficult to think up in the first place. And I'm still not sure whether they make any sense.\n\nSo I'll try to do a better job of writing expository content."
+    },
+    "baseScore": 11,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-30T01:57:30.012Z",
+    "af": false
+  },
+  {
+    "_id": "LGkwaGdA9JHmYa5L5",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "k9XaJGLffGTB9Dv85",
+    "topLevelCommentId": "WQ3BMstd7kPsg5rDA",
+    "contents": {
+      "markdown": "You don't want GPT-4 or whatever routinely issuing death threats, which is the non-performative equivalent of the SLAP token. So you need to clearly distinguish between performative and non-performative speech acts if your AI is going to be even close to not being visibly misaligned.\n\nBut why would an aligned AI be neutral about important things like a presidential election? I get that being politically neutral drives the most shareholder value for OpenAI, and by extension Microsoft. So I don't expect my proposal to be implemented in GPT-4 or really any large corporation's models. Nobody who can afford to train GPT-4 can also afford to light their brand on fire after they have done so.\n\nSuccess would look like, a large, capable, visibly aligned model, which has delivered a steady stream of valuable outcomes to the human race, emitting a SLAP token with reference to Donald Trump, this fact being reported breathlessly in the news media, and that event changing the outcome of a free and fair democratic election. That is, an expert rhetorician using the ethical appeal (ethical=ethos from the classical logos/pathos/ethos distinction in rhetoric) to sway an audience towards an outcome that I personally find desirable and worthy.\n\nIf I ever get sufficient capital to retrain the models I trained at ellsa.ai (the current one sucks if you don't use complete sentences, but is reasonably strong for a 7B parameter model if you do), I may very well implement the protocol.",
+      "plaintextDescription": "You don't want GPT-4 or whatever routinely issuing death threats, which is the non-performative equivalent of the SLAP token. So you need to clearly distinguish between performative and non-performative speech acts if your AI is going to be even close to not being visibly misaligned.\n\nBut why would an aligned AI be neutral about important things like a presidential election? I get that being politically neutral drives the most shareholder value for OpenAI, and by extension Microsoft. So I don't expect my proposal to be implemented in GPT-4 or really any large corporation's models. Nobody who can afford to train GPT-4 can also afford to light their brand on fire after they have done so.\n\nSuccess would look like, a large, capable, visibly aligned model, which has delivered a steady stream of valuable outcomes to the human race, emitting a SLAP token with reference to Donald Trump, this fact being reported breathlessly in the news media, and that event changing the outcome of a free and fair democratic election. That is, an expert rhetorician using the ethical appeal (ethical=ethos from the classical logos/pathos/ethos distinction in rhetoric) to sway an audience towards an outcome that I personally find desirable and worthy.\n\nIf I ever get sufficient capital to retrain the models I trained at ellsa.ai (the current one sucks if you don't use complete sentences, but is reasonably strong for a 7B parameter model if you do), I may very well implement the protocol."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T01:54:16.234Z",
+    "af": false
+  },
+  {
+    "_id": "GWmubnZKCdhhpi9d9",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "JqraGquFcSFWSnQJC",
+    "topLevelCommentId": "JqraGquFcSFWSnQJC",
+    "contents": {
+      "markdown": "I'm definitely a crank, but I personally feel like I'm onto something? What's the appropriate conduct for a crank that knows they're a crank but still thinks they've solved some notorious unsolved problem? Surely it's something other than \"crawl into a hole and die\"...",
+      "plaintextDescription": "I'm definitely a crank, but I personally feel like I'm onto something? What's the appropriate conduct for a crank that knows they're a crank but still thinks they've solved some notorious unsolved problem? Surely it's something other than \"crawl into a hole and die\"..."
+    },
+    "baseScore": 1,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-11-30T01:40:12.379Z",
+    "af": false
+  },
+  {
+    "_id": "TujzBkH3RFQubXdKc",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "WQ3BMstd7kPsg5rDA",
+    "topLevelCommentId": "WQ3BMstd7kPsg5rDA",
+    "contents": {
+      "markdown": "Thanks, this makes a lot of sense.\n\nThe snuggle/date/slap protocol is meant to give powerful AI's a channel to use their intelligence to deliver positive outcomes in the world by emitting performative speech acts in a non-value-neutral but laudable way.",
+      "plaintextDescription": "Thanks, this makes a lot of sense.\n\nThe snuggle/date/slap protocol is meant to give powerful AI's a channel to use their intelligence to deliver positive outcomes in the world by emitting performative speech acts in a non-value-neutral but laudable way."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T01:34:52.955Z",
+    "af": false
+  },
+  {
+    "_id": "diPtLgXDJaNfuwsvM",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": "Y4QnacWPXjKbqp6cf",
+    "topLevelCommentId": "xHJbRhM27GfKQFAAR",
+    "contents": {
+      "markdown": "Yes, I was on mobile, where apparently it does not work correctly.",
+      "plaintextDescription": "Yes, I was on mobile, where apparently it does not work correctly."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T01:28:54.922Z",
+    "af": false
+  },
+  {
+    "_id": "pTJPm7bxJPNCtWP93",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is a reply to lc's answer, not an answer.",
+      "plaintextDescription": "This is a reply to lc's answer, not an answer."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-30T01:12:22.635Z",
+    "af": false
+  },
+  {
+    "_id": "xHJbRhM27GfKQFAAR",
+    "postId": "axLLEqREY5SrQ9GYW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree it sounds like I am trolling, but I am paying literal factual dollars to a contractor to build out a prototype of an llm-powered app that can emit performative speech acts in this fashion. \n\nMy job title is engineering fellow, and the name of the company where I work ends in \"AI\". ",
+      "plaintextDescription": "I agree it sounds like I am trolling, but I am paying literal factual dollars to a contractor to build out a prototype of an llm-powered app that can emit performative speech acts in this fashion.\n\nMy job title is engineering fellow, and the name of the company where I work ends in \"AI\"."
+    },
+    "baseScore": 1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T01:05:12.558Z",
+    "af": false
+  },
+  {
+    "_id": "BBaSDbxsDvpMBDXQj",
+    "postId": "DkkfPEwTnPQyvrgK8",
+    "parentCommentId": "re4AnF6ujDitSoKsD",
+    "topLevelCommentId": "P2JciwPiCXnTserwz",
+    "contents": {
+      "markdown": "I thought about this some more, and I think you're right that they should be monotonically non-decreasing with time. I was hesitant to bite that particular bullet because the subjective, phenomenological experience of hate and love is, of course, not monotonically non-decreasing. But it makes the equations work much better and everything is much simpler this way.\n\nUltimately, if one is in a loving marriage and then undergoes an ugly divorce, one winds up sort of not-caring about the other person, but it would be a mistake to say that your brain has erased all the accumulated love and hate you racked up. It just learns that it has more interesting things to do than to dwell on the past.\n\nSo I will add this to the next draft of Ethicophysics I. Let me know if you would like to be acknowledged or added as a co-author on that draft.",
+      "plaintextDescription": "I thought about this some more, and I think you're right that they should be monotonically non-decreasing with time. I was hesitant to bite that particular bullet because the subjective, phenomenological experience of hate and love is, of course, not monotonically non-decreasing. But it makes the equations work much better and everything is much simpler this way.\n\nUltimately, if one is in a loving marriage and then undergoes an ugly divorce, one winds up sort of not-caring about the other person, but it would be a mistake to say that your brain has erased all the accumulated love and hate you racked up. It just learns that it has more interesting things to do than to dwell on the past.\n\nSo I will add this to the next draft of Ethicophysics I. Let me know if you would like to be acknowledged or added as a co-author on that draft."
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-29T23:51:57.205Z",
+    "af": false
+  },
+  {
+    "_id": "icCY4wpExayGe9rWv",
+    "postId": "48X4EFJdCQvHEvL2t",
+    "parentCommentId": "mmCuSsoCQXTQfbvwM",
+    "topLevelCommentId": "mmCuSsoCQXTQfbvwM",
+    "contents": {
+      "markdown": "Also, any solution to the alignment problem must suffer from is-ought confusion when presented in plain language rather than extensively worked out theoretical equations with extensive empirical verification. \n\nWhich part would you have me remove, the plain language, the extensively worked out theoretical equations, or my list of open problems that I hope people will use to help me assemble extensive empirical verification of my work?",
+      "plaintextDescription": "Also, any solution to the alignment problem must suffer from is-ought confusion when presented in plain language rather than extensively worked out theoretical equations with extensive empirical verification. \n\nWhich part would you have me remove, the plain language, the extensively worked out theoretical equations, or my list of open problems that I hope people will use to help me assemble extensive empirical verification of my work?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-28T19:06:49.714Z",
+    "af": false
+  },
+  {
+    "_id": "AquWzaFzAhBJuLcQn",
+    "postId": "48X4EFJdCQvHEvL2t",
+    "parentCommentId": "YchCAwCE9NR5sMGAc",
+    "topLevelCommentId": "mmCuSsoCQXTQfbvwM",
+    "contents": {
+      "markdown": "Edited the post to include the homework/discussion questions from the post. Hopefully these questions are substantive enough and phrased in neutral enough language that people feel comfortable discussing politics on an explicitly apolitical forum?",
+      "plaintextDescription": "Edited the post to include the homework/discussion questions from the post. Hopefully these questions are substantive enough and phrased in neutral enough language that people feel comfortable discussing politics on an explicitly apolitical forum?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-28T19:00:50.024Z",
+    "af": false
+  },
+  {
+    "_id": "oXHxPsM8FfzcXzBhc",
+    "postId": "DkkfPEwTnPQyvrgK8",
+    "parentCommentId": "HBvjZHYyGLjDeXSfi",
+    "topLevelCommentId": "P2JciwPiCXnTserwz",
+    "contents": {
+      "markdown": "It would be hard to carry through in the theoretical domain, as you say, but in the empirical domain it should be relatively straightforward. Just rip off the math of air resistance, make some predictions, and do a gut check of what you get out.",
+      "plaintextDescription": "It would be hard to carry through in the theoretical domain, as you say, but in the empirical domain it should be relatively straightforward. Just rip off the math of air resistance, make some predictions, and do a gut check of what you get out."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-28T18:53:39.366Z",
+    "af": false
+  },
+  {
+    "_id": "TbsSrTtWqasRJcxtx",
+    "postId": "DkkfPEwTnPQyvrgK8",
+    "parentCommentId": "re4AnF6ujDitSoKsD",
+    "topLevelCommentId": "P2JciwPiCXnTserwz",
+    "contents": {
+      "markdown": "Well, they would be represented in the brain by neurons, which have a natural ReLU function attached to them. I think they are always non-negative, but the derivative is unbounded, so they can saturate at 0 if someone grows totally uninterestsed in the question of whether they hate or love some particular entity.",
+      "plaintextDescription": "Well, they would be represented in the brain by neurons, which have a natural ReLU function attached to them. I think they are always non-negative, but the derivative is unbounded, so they can saturate at 0 if someone grows totally uninterestsed in the question of whether they hate or love some particular entity."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-28T18:52:24.703Z",
+    "af": false
+  },
+  {
+    "_id": "YchCAwCE9NR5sMGAc",
+    "postId": "48X4EFJdCQvHEvL2t",
+    "parentCommentId": "mmCuSsoCQXTQfbvwM",
+    "topLevelCommentId": "mmCuSsoCQXTQfbvwM",
+    "contents": {
+      "markdown": "I actually want discussion on LW. I'll post my list of open questions as a comment on this post and encourage people to respond to it by taking a crack at them.",
+      "plaintextDescription": "I actually want discussion on LW. I'll post my list of open questions as a comment on this post and encourage people to respond to it by taking a crack at them."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-28T18:50:01.987Z",
+    "af": false
+  },
+  {
+    "_id": "75cDxwFJ5nAdb7YCH",
+    "postId": "DkkfPEwTnPQyvrgK8",
+    "parentCommentId": "Qib6ngdjC9BMhqL3D",
+    "topLevelCommentId": "P2JciwPiCXnTserwz",
+    "contents": {
+      "markdown": "Yeah, it's definitely a spherical cow in a frictionless vacuum kind of assumption.\n\nIf you (or any reader of this comment) want an exercise to work on while you read, you could try to add a treatment of emotional dissipation; presumably it would function more or less like air resistance in traditional physics; the mechanism would be that liking or disliking someone alive that you know with perfect and pure intensity is exhausting and not particularly evolutionarily valuable. Liking or disliking a fictional or dead person with perfect and pure intensity (say, Jesus and Hitler respectively) might be quite evolutionarily valuable, though, since it would enable the youth to take seriously the accumulated wisdom of their tribe. So perhaps dissipation only holds for the people with whom the minutiae of daily contact causes us to reevaluate our models, and fails to hold for those people (historical or fictional) whom we have ample Bayesian evidence to consign to either the Good or the Evil bin.",
+      "plaintextDescription": "Yeah, it's definitely a spherical cow in a frictionless vacuum kind of assumption.\n\nIf you (or any reader of this comment) want an exercise to work on while you read, you could try to add a treatment of emotional dissipation; presumably it would function more or less like air resistance in traditional physics; the mechanism would be that liking or disliking someone alive that you know with perfect and pure intensity is exhausting and not particularly evolutionarily valuable. Liking or disliking a fictional or dead person with perfect and pure intensity (say, Jesus and Hitler respectively) might be quite evolutionarily valuable, though, since it would enable the youth to take seriously the accumulated wisdom of their tribe. So perhaps dissipation only holds for the people with whom the minutiae of daily contact causes us to reevaluate our models, and fails to hold for those people (historical or fictional) whom we have ample Bayesian evidence to consign to either the Good or the Evil bin."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-28T07:12:51.256Z",
+    "af": false
+  },
+  {
+    "_id": "XLyCgeRCqzDS8tg3q",
+    "postId": "DkkfPEwTnPQyvrgK8",
+    "parentCommentId": "P2JciwPiCXnTserwz",
+    "topLevelCommentId": "P2JciwPiCXnTserwz",
+    "contents": {
+      "markdown": "Certainly! Also, please point out any bad physics I have committed; I never got beyond intermediate mechanics in college, so Lagrangian mechanics is really approximately the limit of what I can confidently wield, and it's been a long time since I had anyone check my ability to do that. (In accordance with the rather specific and somewhat condescending directions supplied above the comment box, presumably triggered by my recent lack of karma for my recent posts, I would estimate a 75% chance that I didn't make any major errors in the math/physics side that substantively change the conclusions and usefulness of the approach I am advocating.)\n\n1.  Introduction: we model a cyberphysical system at ethical risk, which is approximately how I would describe the alignment problem in standard academic terminology. The physical part we model with standard physics, and the cyber part we model with standard computer science. The interface between the two, and the ethical components that are required to ensure good outcomes, are modeled by a novel theory that we term the ethicophysics. In this first paper, we simply lay out the philosophy of the novel theory and prove a single theorem, the Golden Theorem, which allows us to derive a large number of ethical conservation laws. These conservation laws are only approximate and statistical laws, the way that entropy is only an approximate and statistical property in thermodynamics. Just as molecules can and do sort themselves back into lower entropy configurations from time to time, individuals and communities can choose to exercise their free will to avoid and avert any of the conservation laws proved using the Golden Theorem. In the second paper (of which only an incomplete draft exists as of yet), we lay out a number of ethical conservation laws of interest: Conservation of Bullshit, Conservation of Kitsch, Conservation of Might, Conservation of Status, Conservation of Reputation. We argue that each of these laws has both a rigorous ethicophysical theoretical proof and ample experimental evidence from human history to be considered a law.\n2.  We define God as a hypothetical omniscient, omnireasonable observer. God is expected to prefer Jesus Christ to Adolf Hitler, and otherwise simply to conform to the ethicophysical laws that we formulate. The existence / ontological status of God seems undecidable and not of any particular interest or relevance, and so we ignore the question. We define the soul to be God's considered, reflectively consistent opinion of an individual at a given point in time. We don't define, but will in future drafts define, honor and reputation. Honor is defined to be the opinion of an agent of its own soul, and reputation is defined to be the bundle of opinions that other agents hold about the agent. We posit (without justification) that every computational device (human or animal brain, computer, etc.) can be said to have a soul, and that it seems like a reasonably worthy assumption to consider all souls equally precious, in the spirit of the Sermon on the Mount and the Declaration of Independence. (Note that this assumption would, I believe, result in an extremely animist ethics in which e.g. hammers have an inherent right not to be carelessly chipped by a shoddy craftsman, which seems counterintuitive but not necessarily problematic.)\n3.  We define a large number of concepts relevant to ethics and corresponding to commonly used concepts in physics. We implicitly lay out (and future drafts should make this explicit) the equivalent of F=ma and \"equal and opposite reaction\" by assuming that people will tend to increase the amount they like people who help them. Since this seems like an empirically verified regularity in human nature, and like a good idea (it's essentially just an implementation of the Tit-for-Tat strategy), we find these laws to be quite robust and reasonable. We define love and hate (perhaps hate would be better called fear?) as the ethicophysical equivalents of position, like and dislike as the ethicophysical equivalents of velocity, help and harm as the ethicophysical equivalents of force (and thus proportional to acceleration/help/harm). We define active subjective energy via a straightforward formula inspired by the definition of kinetic energy. We define a placeholder concept of potential subjective energy corresponding to whatever quantities and laws we will need to posit in order to make sure that subjective energy is conserved. We define weighted subjective energy to be a variant of subjective energy where the agent or subject cares more about the opinions of some people than others. (As we all must inevitably do.) We then prove the Golden Theorem (\"unethical actions have real-world karmic consequences\"), using a mixture of Emmy Noether's techniques for proving conservation laws in traditional physics, and some novel arguments for proving conservation laws in the ethicophysics based on discrete, group-theoretic symmetries of ethical content based on the sort of empathetic reasoning advocated by Jesus in the Golden Rule. We note in this comment (but not in the existing draft, which we should update) that the primary mechanism for karma would be other people thinking you are immoral and defecting against you; since this is a good strategy and a very common one, it seems likely that the ethicophysics can form a sort of Schelling Point whereby we select a more reasonable Nash Equilibrium than the unstable one at which we currently reside. The Golden Theorem is thus less a matter of theological woo (which the current draft has far too much of) and more a matter of good solid ethical praxis.\n4.  We discuss the significance and implications of this work. First, we dispatch an argument due to Adolf Hitler that karma can be expected to function automatically without strenuous ethical effort on our own part. (Said argument presumably having operated in German history rather like the Prosperity Gospel operates today in helping to convince the German people to actually perform the literal atrocities that made up the Holocaust.) Then we formulate a conjecture (which needs to be made far more explicit) about the potential existence of ethical momentum, and compare it to a humorous dialogue from the comic/webcomic Girl Genius. We then present a short (but probably not short enough) dialogue on the relation of the ethicophysics to AI safety and alignment as it is traditionally understood.\n5.  We conclude with an epilogue, a song by Cat Stevens / Yusuf Islam that we feel captures the emotional tone and cognitive content that we want the ethicophysics to have.\n6.  We give acknowledgments and references to prior work in the fields of ethics and physics.\n\nI apologize for the constant invocation of Adolf Hitler, since this seems to run afoul of Godwin's Law. The primary motivating question I was thinking about when developing the paper was, how would we tell Adolf Hitler and Jesus Christ apart if Omega told us that they had been uploaded to two superintelligent AI's but didn't tell us which one was which. I don't know that we could tell them apart (superintelligence buys a lot), but I think that the overall dynamic would be much like the short story that [@jessicata](https://www.lesswrong.com/users/jessica-liu-taylor?mention=user) posted in the past day or so; by consulting both superintelligences carefully and in a balanced fashion, we would obtain better and wiser counsel than if we trusted either one of the superintelligences implicitly, or simply destroyed both of the superintelligences. This, in turn, would provide a solution to the alignment problem, since we can listen to the counsel of both superintelligences without fearing utter compromise by the rhetoric of a superintelligent Hitler; we could simply tune him out and pay more attention to the rhetoric of the superintelligent Jesus, or go for a walk and an ice cream and think about what the two superintelligences said.",
+      "plaintextDescription": "Certainly! Also, please point out any bad physics I have committed; I never got beyond intermediate mechanics in college, so Lagrangian mechanics is really approximately the limit of what I can confidently wield, and it's been a long time since I had anyone check my ability to do that. (In accordance with the rather specific and somewhat condescending directions supplied above the comment box, presumably triggered by my recent lack of karma for my recent posts, I would estimate a 75% chance that I didn't make any major errors in the math/physics side that substantively change the conclusions and usefulness of the approach I am advocating.)\n\n 1. Introduction: we model a cyberphysical system at ethical risk, which is approximately how I would describe the alignment problem in standard academic terminology. The physical part we model with standard physics, and the cyber part we model with standard computer science. The interface between the two, and the ethical components that are required to ensure good outcomes, are modeled by a novel theory that we term the ethicophysics. In this first paper, we simply lay out the philosophy of the novel theory and prove a single theorem, the Golden Theorem, which allows us to derive a large number of ethical conservation laws. These conservation laws are only approximate and statistical laws, the way that entropy is only an approximate and statistical property in thermodynamics. Just as molecules can and do sort themselves back into lower entropy configurations from time to time, individuals and communities can choose to exercise their free will to avoid and avert any of the conservation laws proved using the Golden Theorem. In the second paper (of which only an incomplete draft exists as of yet), we lay out a number of ethical conservation laws of interest: Conservation of Bullshit, Conservation of Kitsch, Conservation of Might, Conservation of Status, Conservation of Reputation. We argue that each of these laws has both a rigorou"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-28T03:15:48.209Z",
+    "af": false
+  },
+  {
+    "_id": "5kjt9PEFgLh8wSbyA",
+    "postId": "8JubkhEXGrNsHJE3N",
+    "parentCommentId": "EKm9cip3wdmran8LC",
+    "topLevelCommentId": "j7nhn2oiRrBrojZpn",
+    "contents": {
+      "markdown": "This last wand being approximately the bargain the Oppenheimer struck with the American government in running the Manhattan Project.",
+      "plaintextDescription": "This last wand being approximately the bargain the Oppenheimer struck with the American government in running the Manhattan Project."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-26T03:30:59.666Z",
+    "af": false
+  },
+  {
+    "_id": "EKm9cip3wdmran8LC",
+    "postId": "8JubkhEXGrNsHJE3N",
+    "parentCommentId": "9DED9ShKR66zAzsje",
+    "topLevelCommentId": "j7nhn2oiRrBrojZpn",
+    "contents": {
+      "markdown": "Hm, perhaps you have convinced me that I am omitting something important from my description of my mental models. I don't think my internal mental models are as deeply messed up as our disagreements about these topics suggest they would be. But maybe they are?\n\nI would indeed wave a slightly different magic wand, which is labeled \"every government on Earth knows what gain-of-function research is and how to do it, if they didn't already, but my government gets first crack at it for as long as they like and will ask for\". But that is a fundamentally different wand than the one you were asking about.\n\nSo probably the disconnect in emphasis comes down to my unusual political beliefs and the resulting wild divergence in political priorities.",
+      "plaintextDescription": "Hm, perhaps you have convinced me that I am omitting something important from my description of my mental models. I don't think my internal mental models are as deeply messed up as our disagreements about these topics suggest they would be. But maybe they are?\n\nI would indeed wave a slightly different magic wand, which is labeled \"every government on Earth knows what gain-of-function research is and how to do it, if they didn't already, but my government gets first crack at it for as long as they like and will ask for\". But that is a fundamentally different wand than the one you were asking about.\n\nSo probably the disconnect in emphasis comes down to my unusual political beliefs and the resulting wild divergence in political priorities."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-26T03:29:20.453Z",
+    "af": false
+  },
+  {
+    "_id": "SPuq7XHmtto4sDXd5",
+    "postId": "8JubkhEXGrNsHJE3N",
+    "parentCommentId": "MZKgjMuBodBd64ouG",
+    "topLevelCommentId": "j7nhn2oiRrBrojZpn",
+    "contents": {
+      "markdown": "I think we're kind of talking past each other, and it's a matter of emphasis.\n\nThe details for how to do gain-of-function research have been reasonably public for decades. Biology class exists, and is in fact mandatory to graduate high school. Coursera has free biology classes for some subjects and cheap ones for others. I don't see how any of that is meaningfully different from taking out a billboard in Times Square and telling people that if they study the relevant literature real hard, they too can create deadly pandemics in their basement with kidnapped feral cats.\n\nLest you think I'm being flippant, I asked GPT-4 to describe the 2014 pause in gain-of-function research, and this is what it said:\n\n\"\"\"\n\nThe pause in gain-of-function (GOF) research in biology, particularly in the United States, refers to a moratorium that was implemented in October 2014. This moratorium was a response to public concerns about the safety and security risks associated with such research. Gain-of-function research involves manipulating viruses or other organisms to increase their capabilities, like making a virus more transmissible or deadly, often to understand more about disease pathways and to develop treatments or vaccines.\n\nHere's an overview of how the pause came about:\n\n1\\. \\*\\*Rising Concerns\\*\\*: Prior to 2014, there had been increasing public and scientific debate over the risks and benefits of gain-of-function research. High-profile experiments, such as those involving H5N1 influenza (bird flu) that made it transmissible in mammals, raised alarm about the potential for accidental or deliberate misuse of these pathogens.\n\n2\\. \\*\\*The U.S. Government's Decision\\*\\*: In response to these concerns, the U.S. government announced a funding pause for any new gain-of-function research that could make influenza, MERS, or SARS viruses more virulent or transmissible. This decision was made to allow time for a thorough assessment of the risks and benefits of this type of research.\n\n3\\. \\*\\*Deliberations and Recommendations\\*\\*: During the moratorium, the National Science Advisory Board for Biosecurity (NSABB) and other bodies were tasked with evaluating the risks and developing a framework for future GOF research. This process involved extensive consultation with researchers, bioethicists, and the public.\n\n4\\. \\*\\*Lifting the Pause\\*\\*: The pause was lifted in December 2017, following the establishment of the HHS P3CO (Potential Pandemic Pathogen Care and Oversight) Framework. This framework set out new guidelines and oversight mechanisms for gain-of-function research, aimed at minimizing risks while allowing important scientific research to continue.\n\nThe pause was significant as it highlighted the complex ethical, safety, and security issues surrounding gain-of-function research. It also underscored the need for robust regulatory frameworks to balance scientific advancement with risk management.\n\n\"\"\"\n\nTo me, this sounds a lot more like my infopandora story than the typical rationalist infohoarder story about how one deals with infohazards. There was a clear danger, the public was alerted, the public was unhappy, changes were made, research was directed into narrower, safer channels, and society went back to doing its thing.",
+      "plaintextDescription": "I think we're kind of talking past each other, and it's a matter of emphasis.\n\nThe details for how to do gain-of-function research have been reasonably public for decades. Biology class exists, and is in fact mandatory to graduate high school. Coursera has free biology classes for some subjects and cheap ones for others. I don't see how any of that is meaningfully different from taking out a billboard in Times Square and telling people that if they study the relevant literature real hard, they too can create deadly pandemics in their basement with kidnapped feral cats.\n\nLest you think I'm being flippant, I asked GPT-4 to describe the 2014 pause in gain-of-function research, and this is what it said:\n\n\"\"\"\n\nThe pause in gain-of-function (GOF) research in biology, particularly in the United States, refers to a moratorium that was implemented in October 2014. This moratorium was a response to public concerns about the safety and security risks associated with such research. Gain-of-function research involves manipulating viruses or other organisms to increase their capabilities, like making a virus more transmissible or deadly, often to understand more about disease pathways and to develop treatments or vaccines.\n\nHere's an overview of how the pause came about:\n\n1. **Rising Concerns**: Prior to 2014, there had been increasing public and scientific debate over the risks and benefits of gain-of-function research. High-profile experiments, such as those involving H5N1 influenza (bird flu) that made it transmissible in mammals, raised alarm about the potential for accidental or deliberate misuse of these pathogens.\n\n2. **The U.S. Government's Decision**: In response to these concerns, the U.S. government announced a funding pause for any new gain-of-function research that could make influenza, MERS, or SARS viruses more virulent or transmissible. This decision was made to allow time for a thorough assessment of the risks and benefits of this type of research.\n\n3. **Delibera"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-26T00:17:48.737Z",
+    "af": false
+  },
+  {
+    "_id": "2pwRaRntm85g2fkBD",
+    "postId": "8JubkhEXGrNsHJE3N",
+    "parentCommentId": "MJyiacEaRWb4MS4Ff",
+    "topLevelCommentId": "j7nhn2oiRrBrojZpn",
+    "contents": {
+      "markdown": "Unfortunately, I lack the necessary karma to edit this post (or post a new one) for the next five days. I feel like I stand by what I wrote, as defended and clarified in the comments. My planned edits would mostly just be a discussion of the standard responsible disclosure policy that computer security researchers follow, and how I think it should be adapted in the light of anticipated planetary-scale impact.\n\nSo it seems like I've done what I am able to do for the moment. If you really think it's setting a bad example or fundamentally misguided about something important, I would write your own post outlining points of agreement and disagreement, or I would wait five days for my karma to reset.\n\nThank you for your insightful comments, questions, and pushback. You've helped me clarify my internal models and reframe them into much more standard, sane-sounding arguments.",
+      "plaintextDescription": "Unfortunately, I lack the necessary karma to edit this post (or post a new one) for the next five days. I feel like I stand by what I wrote, as defended and clarified in the comments. My planned edits would mostly just be a discussion of the standard responsible disclosure policy that computer security researchers follow, and how I think it should be adapted in the light of anticipated planetary-scale impact.\n\nSo it seems like I've done what I am able to do for the moment. If you really think it's setting a bad example or fundamentally misguided about something important, I would write your own post outlining points of agreement and disagreement, or I would wait five days for my karma to reset.\n\nThank you for your insightful comments, questions, and pushback. You've helped me clarify my internal models and reframe them into much more standard, sane-sounding arguments."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-24T16:07:48.606Z",
+    "af": false
+  },
+  {
+    "_id": "e6nNhuc9es8dQhdgC",
+    "postId": "8JubkhEXGrNsHJE3N",
+    "parentCommentId": "MJyiacEaRWb4MS4Ff",
+    "topLevelCommentId": "j7nhn2oiRrBrojZpn",
+    "contents": {
+      "markdown": "OK, I'll add the stuff about responsible disclosure to the post. I agree that it's a very important omission from my internal mental model of things.",
+      "plaintextDescription": "OK, I'll add the stuff about responsible disclosure to the post. I agree that it's a very important omission from my internal mental model of things."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-24T16:00:20.295Z",
+    "af": false
+  }
+]

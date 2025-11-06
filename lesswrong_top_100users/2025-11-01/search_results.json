@@ -1,0 +1,1271 @@
+{
+  "timestamp_start": "2025-11-01T00:34:13.186734",
+  "timestamp_last_update": "2025-11-01T03:39:21.863212",
+  "total_users": 100,
+  "successful_searches": 92,
+  "failed_searches": 8,
+  "results": [
+    {
+      "user_id": "nmk3nLpQE89dMRzzN",
+      "username": "Eliezer_Yudkowsky",
+      "search_status": "failed_to_start",
+      "timestamp": "2025-11-01T00:34:13.213709",
+      "result": null,
+      "error_message": "Error code: 400 - {'error': {'message': 'Your organization must be verified to generate reasoning summaries. Please go to: https://platform.openai.com/settings/organization/general and click on Verify Organization. If you just verified, it can take up to 15 minutes for access to propagate.', 'type': 'invalid_request_error', 'param': 'reasoning.summary', 'code': 'unsupported_value'}}"
+    },
+    {
+      "user_id": "r38pkCm7wF4M44MDQ",
+      "username": "Raemon",
+      "search_status": "failed_during_processing",
+      "timestamp": "2025-11-01T00:34:13.828284",
+      "result": null,
+      "error_message": "API returned status='failed'"
+    },
+    {
+      "user_id": "N9zj5qpTfqmbn9dro",
+      "username": "Zvi",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:40:00.225290",
+      "result": {
+        "real_name": "Zvi Mowshowitz",
+        "confidence": "high",
+        "evidence": "The LessWrong user “Zvi” authors the blog “Don’t Worry About the Vase” as “TheZvi.” His X/Twitter profile (handle @TheZvi) lists his name as “Zvi Mowshowitz” ([twitter.com](https://twitter.com/TheZvi/with_replies#:~:text=Zvi%20Mowshowitz)), confirming that this is his full name.",
+        "academic_suitability": "yes - Zvi Mowshowitz is a full personal name that can be used for academic search purposes."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "2aoRX3ookcCozcb3m",
+      "username": "RobbBB",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:41:23.990453",
+      "result": {
+        "real_name": "Rob Bensinger",
+        "confidence": "high",
+        "evidence": "The LessWrong profile uses the displayName Rob Bensinger. Independent sources confirm this identity: e.g. his personal site 'Nothing is mere' states 'Hello! I’m Rob Bensinger, research communications manager at the Machine Intelligence Research Institute...' ([nothingismere.com](https://nothingismere.com/about/#:~:text=Hello%21%20I%E2%80%99m%C2%A0Rob%20Bensinger%2C%20research%20communications,on%20the%20MIRI%20Blog%20here)), matching his bio \"Communications @ MIRI.\" Thus the real name is Rob Bensinger.",
+        "academic_suitability": "yes - a full real name suitable for searching on academic platforms"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "dfZAq9eZxs4BB4Ji5",
+      "username": "ryan_greenblatt",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:42:37.882768",
+      "result": {
+        "real_name": "Ryan Greenblatt",
+        "confidence": "high",
+        "evidence": "The user bio says they are Chief Scientist at Redwood Research.  Redwood Research’s official team page lists \"Ryan Greenblatt\" as Chief Scientist ([www.redwoodresearch.org](https://www.redwoodresearch.org/team#:~:text=Ryan%20Greenblatt)), matching the user info.  A Forethought profile also identifies Ryan Greenblatt in that role ([www.forethought.org](https://www.forethought.org/people/ryan-greenblatt#:~:text=Ryan%20Greenblatt)), confirming the name.",
+        "academic_suitability": "yes - the name corresponds to an AI safety researcher (Redwood Research Chief Scientist) with research publications, so it should work on Google Scholar."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "7w7hLkTTQLuPSAWTT",
+      "username": "pktechgirl",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:44:33.199397",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The displayName is 'Elizabeth', suggesting a first name, but research (including WomenInTechPK and tech community links) gave no confirmation of her full name. No projects or profiles were found linking 'pktechgirl' to a specific person.",
+        "academic_suitability": "no - no confirmed full name for academic search"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "BCmzFRdQhqLPREvat",
+      "username": "ricraz",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:46:09.523512",
+      "result": {
+        "real_name": "Richard Ngo",
+        "confidence": "high",
+        "evidence": "The user’s displayName was \"Richard_Ngo\" and external sources identify Richard Ngo as an AI safety/governance researcher at DeepMind and OpenAI. For example, an EA Forum post describes \"Richard Ngo\" as a current AI governance researcher at OpenAI and former DeepMind researcher ([forum.nunosempere.com](https://forum.nunosempere.com/posts/ygdpXBoLzzsLXhhDF/i-m-interviewing-prolific-ai-safety-researcher-richard-ngo#:~:text=Next%20week%20I%27m%20interviewing%20Richard,previous%20Research%20Engineer%20at%20DeepMind)), matching the bio above.",
+        "academic_suitability": "yes - he completed a Cambridge PhD in machine learning/philosophy and has an active research profile, making him likely to appear in academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "n6LYNw2uGfYnD4pX2",
+      "username": "lsusr",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:48:04.812118",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user’s bio and linked personal site (lsusr.com) contain no explicit real name. Searches for their username yielded nothing conclusive. No matching public identification was found via standard methods.",
+        "academic_suitability": "no - the real name was not found, so academic searching is not applicable"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "4fh2AAe3n7oBviyxx",
+      "username": "orthonormal",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:49:18.271185",
+      "result": {
+        "real_name": "Patrick",
+        "confidence": "medium",
+        "evidence": "The LessWrong user profile is titled \"Patrick (orthonormal)\" ([www.lesswrong.com](https://www.lesswrong.com/users/patrick_-orthonormal#:~:text=This%20website%20requires%20javascript%20to,access%20to%20all%20site%20functionality)), indicating the user's name is Patrick. We found no additional surname.",
+        "academic_suitability": "no - first name only, not specific enough for academic search."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "mPipmBTniuABY5PQy",
+      "username": "Zack_M_Davis",
+      "search_status": "failed_during_processing",
+      "timestamp": "2025-11-01T00:50:42.752227",
+      "result": null,
+      "error_message": "API returned status='failed'"
+    },
+    {
+      "user_id": "rx7xLaHCh3m7Po385",
+      "username": "Buck",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:52:04.118392",
+      "result": {
+        "real_name": "Buck Shlegeris",
+        "confidence": "high",
+        "evidence": "LessWrong bio lists him as CEO of Redwood Research; Redwood Research's official team page confirms Buck Shlegeris is CEO ([www.redwoodresearch.org](https://www.redwoodresearch.org/team#:~:text=Buck%20Shlegeris)). The 80,000 Hours podcast also explicitly states 'Buck Shlegeris, CEO of Redwood Research' ([podcasts.apple.com](https://podcasts.apple.com/gb/podcast/214-buck-shlegeris-on-controlling-ai-that-wants-to/id1245002988?i=1000702195274#:~:text=Today%E2%80%99s%20guest%20%E2%80%94%20Buck%20Shlegeris%2C,level%20systems%20they%E2%80%99re%20more)), confirming the identity.",
+        "academic_suitability": "yes - he is an AI safety researcher (former MIRI researcher, now Redwood Research CEO), so any formal publications or talks would likely appear under his real name."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "AThTtkDufXp3rmMDa",
+      "username": "evhub",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:54:11.651705",
+      "result": {
+        "real_name": "Evan Hubinger",
+        "confidence": "high",
+        "evidence": "The LessWrong profile lists “Evan Hubinger” as the user’s name. External sources confirm this identity: e.g. an AI alignment podcast introduction says “I’ll be speaking with Evan Hubinger. Evan is a research scientist at Anthropic” ([axrp.net](https://axrp.net/episode/2024/12/01/episode-39-evan-hubinger-model-organisms-misalignment.html#:~:text=Daniel%20Filan%3A%20Hello%2C%20everybody,a%20research%20fellow%20at%20MIRI)), and an interview page notes “Evan Hubinger leads the alignment stress-testing team at Anthropic” ([theinsideview.ai](https://theinsideview.ai/evan2#:~:text=Evan%20Hubinger%20leads%20the%20Alignment,%E2%80%9CSleeper%20Agents%3A%20Training%20Deceptive%20LLMs)). These references match the profile, verifying that evhub is Evan Hubinger.",
+        "academic_suitability": "yes - Evan Hubinger has published AI safety research under this name (e.g. the arXiv paper “Risks from Learned Optimization” is attributed to him ([evhub.github.io](https://evhub.github.io/#:~:text=Evan%20Hubinger%27s%20papers%2Fposters%3A))), so his name is suitable for scholarly searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "4QFiQcHgf6hvtiLqF",
+      "username": "Zach Stein-Perlman",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:56:28.255510",
+      "result": {
+        "real_name": "Zach Stein-Perlman",
+        "confidence": "high",
+        "evidence": "The displayName 'Zach Stein-Perlman' appears consistently as the user’s name on LessWrong and related profiles. The AI Lab Watch project site and EA Forum announcement explicitly identify the creator as \"Zach Stein-Perlman\" ([ailabwatch.org](https://ailabwatch.org/about#:~:text=At%20AI%20Lab%20Watch%2C%20I,also%20maintain%20%201%20and)) ([www.greaterwrong.com](https://www.greaterwrong.com/users/zach-stein-perlman?show=comments#:~:text=Zach%20Stein)), confirming this is the person’s actual name.",
+        "academic_suitability": "yes - this appears to be the user’s full real name, which should be suitable for academic and Google Scholar searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "gSKzrqGFdS7DkXhuE",
+      "username": "jessica.liu.taylor",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:58:13.484035",
+      "result": {
+        "real_name": "Jessica Taylor",
+        "confidence": "high",
+        "evidence": "The LessWrong profile for 'jessica.liu.taylor' explicitly lists the name 'Jessica Taylor' in the bio ([www.greaterwrong.com](https://www.greaterwrong.com/users/jessica-liu-taylor#:~:text=Jessica%20Taylor,former%20research%20fellow%20at%20MIRI)). This, along with consistent use of 'Jessica Taylor' on her Unstable Ontology blog and Twitter profile, confirms her identity as Jessica Taylor. The repeated references to 'Jessica Taylor' in independent sources (blog, profile, etc.) provide strong evidence that her full name is Jessica Taylor. ",
+        "academic_suitability": "yes - 'Jessica Taylor' is a clear, standard name format suitable for academic searches such as Google Scholar. "
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "fjERoRhgjipqw3z2b",
+      "username": "Mitchell_Porter",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T00:59:17.025616",
+      "result": {
+        "real_name": "Mitchell Porter",
+        "confidence": "high",
+        "evidence": "The user’s LessWrong display name and related profiles (e.g. on Physics StackExchange) identify him as 'Mitchell Porter' ([physics.stackexchange.com](https://physics.stackexchange.com/users/1486/mitchell-porter#:~:text=Mitchell%20Porter)). This consistency across platforms strongly indicates that Mitchell Porter is his real name.",
+        "academic_suitability": "yes - \"Mitchell Porter\" is a proper personal name and can be used to search for publications or academic profiles."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "nDpieb7g8huozpx9j",
+      "username": "Thane Ruthenis",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:00:20.817600",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user’s bio and posts consistently use the alias \"Thane Ruthenis\" without any indication of a real name. For example, a LessWrong post quote identifies the author only as “Thane Ruthenis” ([simonwillison.net](https://simonwillison.net/2025/Mar/10/thane-ruthenis/#:~:text=%E2%80%94%20Thane%20Ruthenis%2C%20A%20Bear,My%20Predictions%20Regarding%20AI%20Progress)). Searches for the unique project title and other clues (like funding or project names) only return this pseudonymous user. No independent source (e.g. GitHub, LinkedIn) links this alias to a real person. Without any explicit self-identification, the actual name cannot be determined.",
+        "academic_suitability": "no - no verifiable real name was found to query academic databases"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "g8JkZfL8PTqAefpvx",
+      "username": "JenniferRM",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:02:49.000757",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The profile page for \"JenniferRM\" displays only the username \"JenniferRM\" and no personal name (bio is blank) ([www.greaterwrong.com](https://www.greaterwrong.com/users/jenniferrm#:~:text=JenniferRM)). No external sources were found linking this handle to any full name.",
+        "academic_suitability": "no - no verified full name available"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "DgsGzjyBXN8XSK22q",
+      "username": "DanielFilan",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:05:56.396943",
+      "result": {
+        "real_name": "Daniel Filan",
+        "confidence": "high",
+        "evidence": "DisplayName 'DanielFilan' suggests the real name Daniel Filan. Independent sources confirm this: for example, the Apple Podcasts listing for his podcast explicitly says \"I, Daniel Filan, interview guests...\" ([podcasts.apple.com](https://podcasts.apple.com/ar/podcast/the-filan-cabinet/id1645813809#:~:text=An%20interview%20podcast%20where%20I%2C,the%20guest%20understands%20that%20topic)), and Scott Aaronson’s blog mentions a 'podcast with Daniel Filan' ([scottaaronson.blog](https://scottaaronson.blog/?p=7230#:~:text=So%2C%20I%20recorded%20a%202.5,current%20views%20on%20this%20subject)). His profile also notes an AI PhD at UC Berkeley (2024) ([danielfilan.com](https://danielfilan.com/#:~:text=I%20completed%20my%20PhD%20in,Structure)), all aligning with the known researcher Daniel Filan. These references strongly indicate the user's real name is Daniel Filan.",
+        "academic_suitability": "yes - he has an AI PhD and published research (see profile) under this name, so it is easily searchable on Google Scholar."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "mfgrYb4LMk7NWXsSB",
+      "username": "tailcalled",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:09:44.854918",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "No real name in bio or displayName (username = tailcalled), and searches (LessWrong, social media, related posts) returned no matching identity. No discernible personal details to identify a real name.",
+        "academic_suitability": "no"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "XLwKyCK7JmC292ZCC",
+      "username": "Chris_Leong",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:12:00.359594",
+      "result": {
+        "real_name": "Chris Leong",
+        "confidence": "high",
+        "evidence": "The LessWrong display name and EA profile both use \"Chris Leong\". Official AI Safety Australia pages list Chris Leong as a convenor/organiser ([aisafety.org.au](https://aisafety.org.au/_index_backup/#:~:text=AI%20Safety%20Sydney%20is%20convened,Yanni%20Kyriacos%20and%20Chris%20Leong)) ([aisafety.org.au](https://aisafety.org.au/_index_backup/#:~:text=AI%20Safety%20Australia%20%26%20New,Zealand)), confirming this person’s name.",
+        "academic_suitability": "yes - 'Chris Leong' is a normal personal name used in professional contexts, so it is suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "QpvwBD5AtmmFDTC3T",
+      "username": "leogao",
+      "search_status": "failed_during_processing",
+      "timestamp": "2025-11-01T01:14:47.622822",
+      "result": null,
+      "error_message": "API returned status='failed'"
+    },
+    {
+      "user_id": "TCjNiBLBPyhZq5BuM",
+      "username": "Seth Herd",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:18:03.275998",
+      "result": {
+        "real_name": "Seth A. Herd",
+        "confidence": "high",
+        "evidence": "The LessWrong account’s displayName matches that of public profiles for Seth Herd. A Lifeboat Foundation profile explicitly calls him “Dr. Seth A. Herd, Ph.D.” ([lifeboat.com](https://lifeboat.com/ex/bios.seth.a.herd#:~:text=Seth%20A,Boulder)). His personal site lists neuroscience publications under the name “Herd, S.A.” ([sethaherd.com](https://sethaherd.com/neuroscience-publications/#:~:text=,neuroscience%20model%20of%20phasic)), confirming his name as Seth A. Herd.",
+        "academic_suitability": "yes - he publishes under this name (listed as S. A. Herd) on academic papers, so this name works for Google Scholar searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "x5S2Kuj6TfQTGuo63",
+      "username": "thomas-kwa",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:23:36.167520",
+      "result": {
+        "real_name": "Thomas Kwa",
+        "confidence": "high",
+        "evidence": "The METR official team page lists a “Thomas Kwa” as Member of Technical Staff ([metr.org](https://metr.org/team/thomas-kwa/#:~:text=Before%20joining%20METR%2C%20Thomas%20did,studied%20Computer%20Science%20at%20Caltech)), matching the LessWrong username.  Additionally, an OpenReview forum for a NeurIPS paper lists “Thomas Kwa” as a co-author ([openreview.net](https://openreview.net/forum?id=0rTZtaCyRW#:~:text=Compact%20Proofs%20of%20Model%20Performance,via%20Mechanistic%20Interpretability)). These independent sources confirm the user’s real name.",
+        "academic_suitability": "yes - This is a complete personal name used in academic contexts (shown on a research paper), suitable for Google Scholar or academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "73WJbnX59kE4afuuY",
+      "username": "Roko",
+      "search_status": "unparseable",
+      "timestamp": "2025-11-01T01:24:18.656798",
+      "result": null,
+      "error_message": "JSON parsing failed: Expecting value: line 1 column 1 (char 0)",
+      "raw_output": "I'm sorry, but I cannot assist with that request."
+    },
+    {
+      "user_id": "jQXwiWxFcfyYjytXa",
+      "username": "Larks",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:24:40.059630",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "No biographical information is available beyond the username 'Larks'. The displayName is also 'Larks', a pseudonym, and no independent sources or profiles linking 'Larks' to a real name were found. Without unique identifying details or an external profile, the person behind 'Larks' could not be determined.",
+        "academic_suitability": "no - an actual name was not identified, so no way to search for it on academic databases."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "DiHrY9qMta2m6MvxJ",
+      "username": "Davidmanheim",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:27:17.415665",
+      "result": {
+        "real_name": "David Manheim",
+        "confidence": "high",
+        "evidence": "Sources confirm that LessWrong user \"Davidmanheim\" is David Manheim. For example, an interview title explicitly refers to \"David Manheim From Israel\" ([smartcherrysthoughts.com](https://smartcherrysthoughts.com/smart-cherrys-thoughts-podcast-sai-charan-paloju/chatting-with-founder-and-head-of-research-and-policy-at-the-association-for-long-term-existence-and-resilience-alter-lecturer-at-technionlive-emeritus-at-superforecaster-phd-at-pardeerand-optimi/#:~:text=Chatting%20With%20Founder%20And%20Head,David%20Manheim%20From%20Israel)), and a Foresight Institute profile describes a \"David Manheim\" working on global catastrophic risks ([foresight.org](https://foresight.org/fellowship/mentor-david-manheim/#:~:text=David%20Manheim%20works%20with%20academics,and%20public%20policy%20and%20legislative)). These descriptions match the known roles (Technion lecturer, Pardee RAND PhD, etc.) of the user, confirming that his real name is David Manheim.",
+        "academic_suitability": "yes - the name corresponds to a researcher (e.g. a Technion/Pardee RAND lecturer in biosecurity) suitable for Google Scholar queries"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "HB2hPFoDq5yLayNFj",
+      "username": "marius-hobbhahn",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:28:51.470184",
+      "result": {
+        "real_name": "Marius Hobbhahn",
+        "confidence": "high",
+        "evidence": "Apollo Research team page lists Marius Hobbhahn as CEO/co-founder ([www.apolloresearch.ai](https://www.apolloresearch.ai/team#:~:text=%2A%20)). A TIME profile also names Marius Hobbhahn as Apollo Research co-founder/CEO ([time.com](https://time.com/collections/time100-ai-2025/7305864/marius-hobbhahn/#:~:text=Marius%20Hobbhahn)), matching the given bio.",
+        "academic_suitability": "yes - Hobbhahn has a PhD and a Google Scholar profile ([www.mariushobbhahn.com](https://www.mariushobbhahn.com/aboutme/#:~:text=Google%20Scholar)), indicating an academic background and publications."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "3tXYx3iwoHRsLoHAg",
+      "username": "sil-ver",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:29:55.766730",
+      "result": {
+        "real_name": "Rafael Harth",
+        "confidence": "medium",
+        "evidence": "User profile on LessWrong shows the display name \"Rafael Harth\" ([www.greaterwrong.com](https://www.greaterwrong.com/users/sil-ver?mention=user&sort=old#:~:text=Rafael%20Harth)). No other name or identity was found in external sources, so this appears to be the name they use publicly.",
+        "academic_suitability": "no - no independent records or publications found under this name, suggesting limited presence in scholarly databases"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "uHHMp4jDL4ySGyP7s",
+      "username": "samuel-marks",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:32:12.477989",
+      "result": {
+        "real_name": "Samuel Marks",
+        "confidence": "high",
+        "evidence": "The LessWrong user 'Sam Marks' appears to be the same person as 'Samuel Marks', a math PhD from Harvard (2023) now working in ML interpretability. Harvard's math department page for Samuel Marks shows he completed his PhD in 2023 and is now a postdoc in ML interpretability at Northeastern ([people.math.harvard.edu](https://people.math.harvard.edu/~smarks/#:~:text=I%20received%20my%20PhD%20from,prismatic%20cohomology%20under%20Mark%20Kisin)), which matches the user's known background (Harvard math course teaching, AI alignment focus). This strongly confirms the real name is Samuel Marks.",
+        "academic_suitability": "yes - the person publishes academic papers under the name Samuel Marks, so this name is appropriate for scholarly searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "efKySALtaLcvtp3jW",
+      "username": "ozziegooen",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:33:36.286498",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "medium",
+        "evidence": "Public profiles and QURI’s site identify the user only as “Ozzie Gooen” ([quantifieduncertainty.org](https://quantifieduncertainty.org/about/#:~:text=,Nuno)) ([quantifieduncertainty.org](https://quantifieduncertainty.org/author/ozzie/#:~:text=Ozzie%20Gooen)). The LessWrong/EAA profile and blog posts list this alias exclusively and no alternate name appears in our searches. We found no independent source linking this alias to a legal name, so a real name cannot be confirmed.",
+        "academic_suitability": "no - the name ‘Ozzie Gooen’ appears to be a pseudonym with no associated scholarly publications or Google Scholar presence"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "pWHLps2yEJTSNNBLk",
+      "username": "janus",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:36:44.151045",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "DisplayName and bio yielded no clues. Attempts to find linking information (via LessWrong and related posts) found no real name. Without unique projects or affiliations to search, no alternate identity was found.",
+        "academic_suitability": "no - no real name identified"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "oqRfDBPKhBuYEudSj",
+      "username": "Algon",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:37:57.868235",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "No publicly accessible information linking the LessWrong user 'Algon' to a real name was found during research.",
+        "academic_suitability": "no - unable to confirm identity, so no reliable name for scholarly searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "xYpk75i7Hnn6wc5it",
+      "username": "bhauth",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:40:13.965194",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "Both displayName and bio only list 'bhauth' (with link to bhauth.com). The personal site/blog pages found (e.g. MRI tracers) provide technical content but no personal name. No real name is directly given or corroborated by external sources, so the identity cannot be confirmed.",
+        "academic_suitability": "no - real name not identified"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "bdFjmW9AbqkuQfuJY",
+      "username": "strawberry calm",
+      "search_status": "unparseable",
+      "timestamp": "2025-11-01T01:41:27.704174",
+      "result": null,
+      "error_message": "JSON parsing failed: Expecting value: line 1 column 1 (char 0)",
+      "raw_output": "I'm sorry, but I cannot assist with that request."
+    },
+    {
+      "user_id": "piR3ZKGHEp6vqTo87",
+      "username": "korin43",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:41:49.336779",
+      "result": {
+        "real_name": "Brendan Long",
+        "confidence": "high",
+        "evidence": "The user’s own personal site lists him as a software engineer at Meta (at brendanlong.com) and a LessWrong profile viewer shows the account under the name “Brendan Long” ([www.greaterwrong.com](https://www.greaterwrong.com/users/brendan-long?show=comments#:~:text=Brendan%20Long)) ([www.brendanlong.com](https://www.brendanlong.com/pages/about-me.html#:~:text=I%27m%20a%20software%20engineer%20from,Colorado%2C%20currently%20living%20in%20Washington)), confirming that this is the person’s name.",
+        "academic_suitability": "yes - This appears to be the user’s actual full name (though fairly common), so it can be used for academic search queries."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "5yNJS8bxEYhgFD9XJ",
+      "username": "JoshuaFox",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:43:36.106197",
+      "result": {
+        "real_name": "Joshua Fox",
+        "confidence": "high",
+        "evidence": "The LessWrong user ‘JoshuaFox’ links to joshuafox.com, which is the personal site of Joshua Fox. His Medium profile also shows “Joshua Fox” as his name ([medium.com](https://medium.com/%40joshuatfox#:~:text=Joshua%20Fox)), confirming the real name.",
+        "academic_suitability": "yes - The individual has a Google Scholar profile and multiple technical publications, so this name is suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "NHMSJPMdExqDxPsY3",
+      "username": "peterbarnett",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:44:51.243880",
+      "result": {
+        "real_name": "Peter Barnett",
+        "confidence": "high",
+        "evidence": "The user’s personal website and MIRI team page explicitly identify him as Peter Barnett ([peterbarnett.org](https://peterbarnett.org/#:~:text=This%20is%20the%20website%20of,Peter%20Barnett)) ([intelligence.org](https://intelligence.org/team/peter-barnett/#:~:text=Peter%20Barnett)). For example, his site begins “This is the website of Peter Barnett,” and the MIRI page titles him \"Peter Barnett, Technical Governance Researcher.\"",
+        "academic_suitability": "yes - He publishes under \"Peter Barnett\" (e.g. on MIRI and AI research) and has a Google Scholar profile, making this name suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "jbANctwfjFBMgaC6F",
+      "username": "jhoogland",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:45:55.008963",
+      "result": {
+        "real_name": "Jesse Hoogland",
+        "confidence": "high",
+        "evidence": "LessWrong display name is 'Jesse Hoogland'. Official Timaeus website lists someone named 'Jesse Hoogland' as Executive Director ([timaeus.co](https://timaeus.co/team#:~:text=Jesse%20Hoogland%20Executive%20Director%20View,Profile)) and a Timaeus blog post lists 'Jesse Hoogland' as an author ([timaeus.co](https://timaeus.co/blog/updates/2023-10-22-timaeus/#:~:text=Authors)), confirming this person's name.",
+        "academic_suitability": "yes - the name is distinctive and associated with an AI safety researcher (co-founder of a research institute), so Google Scholar should find works by Jesse Hoogland."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "QH4oRvu3e85mSxtj8",
+      "username": "Jemist",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:48:54.867977",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user’s displayName is shown as “J Bostock” (for example, their LessWrong post was “published by J Bostock” ([music.amazon.com](https://music.amazon.com/podcasts/4c2251ef-0906-4ef4-9fa3-8d15cd2ec1bb/episodes/efdf6330-34ba-499d-a882-a8a707fd2b73/the-nonlinear-library-lw---the-best-lay-argument-is-not-a-simple-english-yud-essay-by-j-bostock#:~:text=convert%20the%20best%20writing%20from,on%20AI%20risk%20communication%2C%20based))), but the bio is empty and no source provides a full first name. We found no independent confirmation of a real name.",
+        "academic_suitability": "no - without a confirmed full name, it is not verifiable on academic sites"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "PqXn9SoP2NjtMFe3w",
+      "username": "beren",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:50:08.658467",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user's own blog “About me” page introduces them only as \"Beren\" ([www.beren.io](https://www.beren.io/aboutme#:~:text=Hi%2C%20I%E2%80%99m%20Beren)) and lists roles (Zyphra cofounder, etc.) without a surname or other name. We found no references to a full name in the bio or linked projects, so we cannot confirm any real name.",
+        "academic_suitability": "no - no full name is available for searching on academic platforms"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "XchweonPm2TC7EJES",
+      "username": "charbel-raphael-segerie",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:53:16.492420",
+      "result": {
+        "real_name": "Charbel-Raphaël Segerie",
+        "confidence": "high",
+        "evidence": "The LessWrong profile displayName and bio explicitly list “Charbel-Raphaël Segerie,” and independent sources (an OECD AI expert profile and an OpenReview author profile) confirm that exact full name.",
+        "academic_suitability": "yes - full personal name found on academic profiles, suitable for scholar search"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "8CrrNXxJevkHXKrCK",
+      "username": "arjun-panickssery",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:54:10.743080",
+      "result": {
+        "real_name": "Arjun Panickssery",
+        "confidence": "high",
+        "evidence": "The LessWrong displayName “Arjun Panickssery” matches his identity. Independent sources confirm this name: a University of Illinois profile lists “Arjun Panickssery” ([www.wayup.com](https://www.wayup.com/profile/Arjun-Panickssery-708935bab7/#:~:text=Arjun%20Panickssery)), and he is credited as author “Arjun Panickssery” on an ICLR 2025 paper ([openreview.net](https://openreview.net/forum?id=mzLBxX84VI#:~:text=Abhimanyu%20Pallavi%20Sudhir%20%2C%20,1%2C%20Arjun%20Panickssery)). These confirm it is his real name.",
+        "academic_suitability": "yes - It is a unique full name under which he publishes, yielding relevant academic search results (e.g. his ICLR paper)."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "kr9MH2mgFcJz5cP7T",
+      "username": "elifland",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:55:24.804185",
+      "result": {
+        "real_name": "Eli Lifland",
+        "confidence": "high",
+        "evidence": "The Lawfare contributor page for 'elifland' explicitly names 'Eli Lifland' ([www.lawfaremedia.org](https://www.lawfaremedia.org/contributors/elifland#:~:text=Eli%20Lifland)); an EA Forum post titled 'Eli Lifland on Navigating...' lists 'elifland' as co-author, confirming that username refers to Eli Lifland ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/QeLE22fefLqKfYTW6/eli-lifland-on-navigating-the-ai-alignment-landscape#:~:text=Eli%20Lifland%20on%20Navigating%20the,AI%20Alignment%20Landscape)).",
+        "academic_suitability": "yes - 'Eli Lifland' is an academic researcher (e.g., Google Scholar profile and publications), making this name valid for scholarly searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "YR2unDnhbTXHfELgy",
+      "username": "carado-1",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:57:20.263519",
+      "result": {
+        "real_name": "Tamsin Leake",
+        "confidence": "medium",
+        "evidence": "The user’s profile on LessWrong lists the display name 'Tamsin Leake' ([www.greaterwrong.com](https://www.greaterwrong.com/users/tamsin-leake#:~:text=Tamsin%20Leake)), and a related EA Forum post is authored 'by Tamsin Leake' ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/FtG32HreGFnjwvz2n/how-ldt-helps-reduce-the-ai-arms-race#:~:text=How%20LDT%20helps%20reduce%20the,AI%20arms%20race)). The same name appearing on multiple community sites suggests this is her actual name.",
+        "academic_suitability": "yes - The name 'Tamsin Leake' is a unique personal name used publicly, making it suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "oxqFdPeNG7DuSmYGD",
+      "username": "mikhail-samin",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T01:59:05.542834",
+      "result": {
+        "real_name": "Mikhail Samin",
+        "confidence": "high",
+        "evidence": "The LessWrong user profile states 'My name is Mikhail Samin' ([www.greaterwrong.com](https://www.greaterwrong.com/users/mikhail-samin?show=comments#:~:text=My%20name%20is%20Mikhail%20Samin,on%20Twitter%2C%20%40misha%20on%20Telegram)), and his personal site similarly begins 'My name is Mikhail Samin' ([contact.ms](https://contact.ms/#:~:text=Hi)). These matching statements confirm his given name.",
+        "academic_suitability": "yes - It is a full personal name (Mikhail Samin) that appears to be genuine and can be used to look up any publications or professional profiles."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "quAoHT9X7qMDBmA3z",
+      "username": "DragonGod",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:00:41.433620",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "User's displayName and bio contain no real name or unique identifiers. No external sources link this username to a person. Research did not uncover any real name or public profile.",
+        "academic_suitability": "no - no verifiable real identity found, insufficient for academic searching"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "e9ToWWzhwWp5GSE7P",
+      "username": "Jozdien",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:02:28.054417",
+      "result": {
+        "real_name": "Arun Jose",
+        "confidence": "high",
+        "evidence": "The user’s personal website explicitly states \"I'm Arun Jose. I'm known as Jozdien in various spaces\" ([www.jozdien.com](https://www.jozdien.com/#:~:text=I%27m%20Arun%20Jose,I%20remember%20I%20do%20that)), and their Manifold Markets profile also shows \"Arun Jose @Jozdien\" ([manifold.markets](https://manifold.markets/Jozdien#:~:text=Arun%20Jose)), confirming the association.",
+        "academic_suitability": "yes - the name \"Arun Jose\" is a clear first and last name suitable for academic searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "j8TwwtYJusmkqvGfh",
+      "username": "riceissa",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:03:31.777708",
+      "result": {
+        "real_name": "Issa Rice",
+        "confidence": "high",
+        "evidence": "The user’s profile bio explicitly says “I am Issa Rice” ([ea.greaterwrong.com](https://ea.greaterwrong.com/users/riceissa?show=comments&sort=top#:~:text=Karma%3A%201%2C088)). The GitHub profile for user “riceissa” also lists the name \"Issa Rice\" (and Seattle, WA) which matches ([gist.github.com](https://gist.github.com/riceissa?direction=desc&sort=updated#:~:text=Issa%20Rice%20riceissa)). These independent references confirm that the real name is Issa Rice.",
+        "academic_suitability": "yes - Issa Rice is a genuine personal name (first name Issa, surname Rice); the name is not an obvious pseudonym or ambiguous, so it should be suitable for Google Scholar searches if any publications exist."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "pYNovtCsyKopHx2en",
+      "username": "hastings-greer",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:04:45.620359",
+      "result": {
+        "real_name": "Thomas Hastings Greer",
+        "confidence": "high",
+        "evidence": "An OpenReview profile for this person lists the name “Thomas Hastings Greer (Preferred)” ([openreview.net](https://openreview.net/profile?id=~Hastings_Greer1#:~:text=Thomas%20Hastings%20Greer%20)).  A UNC Chapel Hill computer science site likewise identifies a “Hastings Greer” as a graduate student ([cseweb.ucsd.edu](https://cseweb.ucsd.edu/~mniethammer/author/hastings-greer/#:~:text=Hastings%20Greer)).  These independent sources match the LessWrong username (Hastings) and together confirm the full name is Thomas Hastings Greer.",
+        "academic_suitability": "yes - he is a PhD student with publications, so a Google Scholar profile is likely and suitable for searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "pv67uZwA7yqYn4YyA",
+      "username": "Lee_Sharkey",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:07:54.185647",
+      "result": {
+        "real_name": "Lee Sharkey",
+        "confidence": "high",
+        "evidence": "The LessWrong profile and bio are under the name Lee Sharkey and a preprint lists “Lucius Bushnaq, Dan Braun, Lee Sharkey” as co-authors on mechanistic interpretability research ([www.catalyzex.com](https://www.catalyzex.com/paper/stochastic-parameter-decomposition#:~:text=Lucius%20Bushnaq%20%2C%20%201%2C,Lee%20Sharkey)), confirming that Lee Sharkey is the person’s real name.",
+        "academic_suitability": "yes - the name is used in published research (arXiv) and is thus suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "YM4phSw8xYcnBpMEM",
+      "username": "porby",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:13:21.208514",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "No evidence of a real name was found. The user 'porby' uses a pseudonymous handle with no accessible personal info in posts or external links. Display name and bio provided no personal name, and web searches yielded no clear identity.",
+        "academic_suitability": "no - user appears to be a pseudonym with no verifiable real name, thus not suitable for scholar searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "5snwaf7CSi8LSs9Wp",
+      "username": "Jsevillamol",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:16:09.468549",
+      "result": {
+        "real_name": "Jaime Sevilla",
+        "confidence": "high",
+        "evidence": "The Twitter profile for @Jsevillamol identifies the user as Jaime Sevilla (the profile displays “Jaime Sevilla” next to @Jsevillamol) ([threadreaderapp.com](https://threadreaderapp.com/user/Jsevillamol#:~:text=Jaime%20Sevilla)), confirming the LessWrong username belongs to Jaime Sevilla.",
+        "academic_suitability": "yes - Jaime Sevilla is an AI researcher with publications and a professional profile, making this a suitable name for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "TMDB4efk8L6aLygrp",
+      "username": "Writer",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:17:23.969319",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The profile and posts by this user only use the alias “Writer” and describe them only as the Rational Animations head writer ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/fDpvqSa6K3TjmxBr7/introducing-rational-animations#:~:text=My%20name%20here%20is%20,that%20isn%27t%20animation%20and%20graphics)) ([www.greaterwrong.com](https://www.greaterwrong.com/users/writer?mention=user&show=comments&sort=top#:~:text=Writer)). No actual personal name is given, and searches of Rational Animations materials did not reveal any identifying name.",
+        "academic_suitability": "no - only an alias is known, so not useful for scholarly searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "zEPGC22ZADvFbrjmR",
+      "username": "gretta-duleba",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:19:20.722063",
+      "result": {
+        "real_name": "Gretta Duleba",
+        "confidence": "high",
+        "evidence": "DisplayName \"Gretta Duleba\" matches official profiles. The MIRI (Machine Intelligence Research Institute) website lists a team member named Gretta Duleba ([intelligence.org](https://intelligence.org/team/gretta-duleba/#:~:text=Gretta%20Duleba)), and an organizational profile names Gretta Duleba as Communications Manager at MIRI ([theorg.com](https://theorg.com/org/machine-intelligence-research-institute/org-chart/gretta-duleba#:~:text=Gretta%20Duleba)). These independent sources confirm the real name.",
+        "academic_suitability": "no - she is a communications professional (and psychotherapist) rather than an academic researcher, so searches on Google Scholar are unlikely to yield publications"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "frmmRPSrWjbk8BHx8",
+      "username": "Evan_Gaensbauer",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:20:14.769024",
+      "result": {
+        "real_name": "Evan Gaensbauer",
+        "confidence": "high",
+        "evidence": "The user’s Effective Altruism forum introduction explicitly states 'Hello, my name is Evan Gaensbauer' ([ea.greaterwrong.com](https://ea.greaterwrong.com/users/evan_gaensbauer?show=comments&sort=old#:~:text=,About%20me)), matching the displayName \"Evan_Gaensbauer\".",
+        "academic_suitability": "no - this appears to be a private individual with no scholarly publications under this name"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "rSRNtuYKNFm83ke6Q",
+      "username": "roger-d-1",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:22:09.327791",
+      "result": {
+        "real_name": "Roger Dearnaley",
+        "confidence": "low",
+        "evidence": "The LessWrong profile of user roger-d-1 uses the display name \"RogerDearnaley\" ([www.greaterwrong.com](https://www.greaterwrong.com/users/rogerdearnaley#:~:text=I%E2%80%99m%20a%20staff%20artificial%20intelligence,will%20also%20be%20attending%20LessOnline)), implying a first and last name. A resume for \"Dr. Roger Dearnaley\" (possibly the same person) is also publicly posted ([amurgsval.org](https://amurgsval.org/resumes/roger.dearnaley.html#:~:text=Name%3A%20%20,226%C2%A0%20Scotts%20Valley%20CA%2095066)). These sources suggest the individual’s name is Roger Dearnaley, but we have not found a separate independent source explicitly confirming his identity.",
+        "academic_suitability": "yes - \"Roger Dearnaley\" appears to be an academic style name (with a Ph.D.), likely useful for Google Scholar and academic searches if he has publications."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "wwBfHySR77DchHsMr",
+      "username": "bogdan-ionut-cirstea",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:23:23.117252",
+      "result": {
+        "real_name": "Bogdan Ionut Cirstea",
+        "confidence": "high",
+        "evidence": "The LessWrong displayName matches the full name found on multiple external sources. For example, an AI Safety Camp project page lists team member \"Bogdan Ionut Cirstea\" ([www.aisafety.camp](https://www.aisafety.camp/research-outputs/aisc9-virtual-2024#:~:text=The%20promisingness%20of%20automated%20alignment)). Additionally, the same name appears in DBLP entries for academic publications ([dblp.org](https://dblp.org/pid/177/7485#:~:text=Bogdan,T%C3%A9l%C3%A9com)). These independent sources confirm the displayName is the user's real name.",
+        "academic_suitability": "yes - the name \"Bogdan Ionut Cirstea\" appears in academic publications and researcher profiles, making it suitable for scholarly searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "ZBzCNgoWFjzkDxmDC",
+      "username": "lcmgcd",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:24:37.809546",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "User has no bio and displayName 'lemonhope' appears to be a pseudonym. No unique identifiers (projects, organizations) were found. Web searches did not reveal any real name associated with this alias.",
+        "academic_suitability": "no - no confirmed real name"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "DA863LaqrSGNFs5w5",
+      "username": "malo",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:25:31.700021",
+      "result": {
+        "real_name": "Malo Bourgon",
+        "confidence": "high",
+        "evidence": "The LessWrong bio says “CEO at Machine Intelligence Research Institute (MIRI)”. MIRI’s official announcements confirm this: a MIRI leadership post explicitly names “*Malo Bourgon*: Chief Executive Officer (CEO)” ([www.greaterwrong.com](https://www.greaterwrong.com/posts/NjtHt55nFbw3gehzY/announcing-miri-s-new-ceo-and-leadership-team#:~:text=,CEO)). MIRI’s own site also titles a written statement as from “MIRI CEO Malo Bourgon” ([intelligence.org](https://intelligence.org/2023/12/06/written-statement-of-miri-ceo-malo-bourgon-to-the-ai-insight-forum/#:~:text=Written%20statement%20of%20MIRI%20CEO,to%20the%20AI%20Insight%20Forum)), confirming the user “Malo” is Malo Bourgon.",
+        "academic_suitability": "yes - Malo Bourgon is an uncommon name associated with a research institute CEO, making it distinctive and trackable in academic databases."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "Th2dg7zSCZ4G5HQFL",
+      "username": "silentbob",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:26:56.386590",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "No real name was found for the user 'silentbob'. The displayName is identical to the username and no corroborating information or references were found in searches. No personal or academic profile could be identified.",
+        "academic_suitability": "no - without a verifiable real name, Google Scholar searches or academic reference searches are not possible."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "oQ9hq3SWXQsCP2aiq",
+      "username": "nick_kees",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:28:10.181738",
+      "result": {
+        "real_name": "Nicholas Dupuis",
+        "confidence": "high",
+        "evidence": "User bio mentions Mosaic Labs (co-founder with Sofia Vanhanen) and developing Nexus. The Mosaic Labs site lists co-founder & CEO as Nicholas Dupuis ([mosaic-labs.org](https://mosaic-labs.org/#:~:text=Nicholas%20Dupuis)), and the Mosaic Labs blog credits posts to \"Nicholas Kees Dupuis\" ([mosaic-labs.org](https://mosaic-labs.org/blog/#:~:text=March%2011%2C%202025%20%E2%80%A2%20by,Nicholas%20Kees%20Dupuis)). Both indicators tie the username 'nick_kees' to Nicholas Dupuis.",
+        "academic_suitability": "yes - this is the person's professional name on research projects and publications, making it suitable for academic searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "4SuxcHJu6bzM8HBfw",
+      "username": "Roman Leventov",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:29:54.611043",
+      "result": {
+        "real_name": "Roman Leventov",
+        "confidence": "high",
+        "evidence": "The LessWrong profile and related EA forum profile consistently use the name 'Roman Leventov'. The EA Forum bio lists contact email leventov.ru@gmail.com ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/users/roman-leventov-1#:~:text=An%20independent%20researcher%20of%20ethics%2C,the%20preferred%20mode%20of%20communication)), matching the username. No alternate name is found elsewhere, suggesting 'Roman Leventov' is his actual name.",
+        "academic_suitability": "yes - the name is unique and used in his professional writing, making it searchable on academic platforms."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "fnNMMrMyw6vnxoZ8Z",
+      "username": "rhaps0dy",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:31:40.567841",
+      "result": {
+        "real_name": "Adrià Garriga-Alonso",
+        "confidence": "high",
+        "evidence": "LessWrong displayName is \"Adrià Garriga-alonso\". Independent sources confirm this name: e.g. Adrià Garriga-Alonso’s Cambridge Machine Learning Group profile and personal website (agarri.ga) describe him as an AI research scientist. The unusual name and affiliation (FAR AI, formerly Cambridge ML group) match, so the LessWrong user is him.",
+        "academic_suitability": "yes - he has a PhD in ML and research scientist position (with publications)"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "BpBzKEueak7J8vHNi",
+      "username": "remmelt-ellen",
+      "search_status": "failed_during_processing",
+      "timestamp": "2025-11-01T02:32:23.245019",
+      "result": null,
+      "error_message": "API returned status='failed'"
+    },
+    {
+      "user_id": "cHD3Sm7H4e5yeup9Z",
+      "username": "caleb-biddulph",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:33:45.520855",
+      "result": {
+        "real_name": "Caleb Biddulph",
+        "confidence": "high",
+        "evidence": "The name “Caleb Biddulph” appears on Cornell Effective Altruism sites (as a named facilitator of the Arete Fellows program ([www.eacornell.org](https://www.eacornell.org/members#:~:text=%2A%20))) and as an author on an ML research paper ([www.catalyzex.com](https://www.catalyzex.com/author/Caleb%20Biddulph#:~:text=Caleb%20Biddulph)). These independent sources confirm the LessWrong display name is indeed his real name.",
+        "academic_suitability": "yes - he is listed as an author on a published ML research paper ([www.catalyzex.com](https://www.catalyzex.com/author/Caleb%20Biddulph#:~:text=Caleb%20Biddulph)), indicating this name is used in academic publications"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "bZ4N9WFFTfunEJDf4",
+      "username": "rosehadshar",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:35:19.832215",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The username and displayName are identical and no bio or external profile information was found linking 'rosehadshar' to a real person’s name. Searches yielded only the pseudonym on LessWrong/EA forum pages and generic results. No independent sources revealed an actual personal name.",
+        "academic_suitability": "no - without a verifiable full name, searches on academic databases would not be effective"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "d7EFB6KTgWwqCAyEg",
+      "username": "Oliver Sourbut",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:36:44.349791",
+      "result": {
+        "real_name": "Oliver Sourbut",
+        "confidence": "high",
+        "evidence": "The user’s display name is \"Oliver Sourbut\" and multiple independent sources use this name. For example, the UK AI Safety Institute lists \"Oliver Sourbut\" as a research engineer ([www.aisi.gov.uk](https://www.aisi.gov.uk/people/oliver-sourbut#:~:text=Oliver%20Sourbut)). His personal blog also credits \"© 2025 Oliver Sourbut\" in the footer ([www.oliversourbut.net](https://www.oliversourbut.net/about#:~:text=Follow)). These confirm that \"Oliver Sourbut\" is the person’s real name.",
+        "academic_suitability": "yes - the name appears unique and is the name he uses in his professional/academic profile, making it suitable for scholarly searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "S2zR3frRoKW6q8Ftv",
+      "username": "Evan R. Murphy",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:38:09.363537",
+      "result": {
+        "real_name": "Evan R. Murphy",
+        "confidence": "high",
+        "evidence": "Independent sources identify this person as \"Evan R. Murphy\". For example, a TechPolicy Press profile lists “Evan R. Murphy is a Non-Resident Research Fellow at the AI Security Initiative…” ([www.techpolicy.press](https://www.techpolicy.press/author/evan-r-murphy#:~:text=Evan%20R,a%20software%20engineer%20at%20Google)), matching the LessWrong username and bio details.",
+        "academic_suitability": "yes - the name appears on his Google Scholar profile and in his research publications, making it suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "3WJpS3WJLpYe4revK",
+      "username": "katalina-hernandez",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:39:54.815402",
+      "result": {
+        "real_name": "Katalina Hernández Delgado",
+        "confidence": "high",
+        "evidence": "User's LessWrong displayName is \"Katalina Hernandez\" ([www.greaterwrong.com](https://www.greaterwrong.com/users/katalina-hernandez#:~:text=Katalina%20Hernandez)); external sources (AI research indexes and a preprint) list the author as \"Katalina Hernandez Delgado\" ([chatpaper.com](https://chatpaper.com/es/paper/187496#:~:text=Katalina%20Hernandez%20Delgado)) ([slashpage.com](https://slashpage.com/haebom/dwy5rvmjgkw3q2p46zn9#:~:text=Katalina%20Hernandez%20Delgado)), matching her projects. This strongly indicates the full name is Katalina Hernández Delgado.",
+        "academic_suitability": "yes - listed as author on AI/legal research publication, so useful for scholarship searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "ZosHEJFvi9N5hjfD6",
+      "username": "tomek-korbak",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:41:18.886482",
+      "result": {
+        "real_name": "Tomek Korbak",
+        "confidence": "high",
+        "evidence": "The displayName and multiple official sources identify him as Tomek Korbak. His personal homepage lists “Tomek Korbak” as a Senior Research Scientist ([tomekkorbak.com](https://tomekkorbak.com/#:~:text=Tomek%20Korbak)), and the LessWrong profile shows the same name and role ([www.greaterwrong.com](https://www.greaterwrong.com/users/tomek-korbak#:~:text=Tomek%20Korbak)). These independent sources confirm the name.",
+        "academic_suitability": "yes - The name \"Tomek Korbak\" is used on his research profiles and publications, making it suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "Stdajg3c5GZSyXCpt",
+      "username": "trevor",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:42:54.732725",
+      "result": {
+        "real_name": "Trevor Levin",
+        "confidence": "high",
+        "evidence": "The Open Philanthropy team page lists a \"Trevor Levin, Senior Program Associate, AI Governance and Policy\" who \"co-founded the Cambridge Boston Alignment Initiative\" ([www.openphilanthropy.org](https://www.openphilanthropy.org/about/team/trevor-levin/#:~:text=Trevor%20Levin)), matching the LessWrong bio. This confirms the user’s real name is Trevor Levin.",
+        "academic_suitability": "yes - 'Trevor Levin' is a full personal name suitable for Google Scholar or academic searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "FWBQ5jBvf4Avku9Wi",
+      "username": "Max Lee",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:44:09.352566",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user profile only shows the alias “Knight Lee” with no explicit personal name. Web searches found a “Max Lee” who co-founded LifeSparrow Solutions (an AI drone tech startup) ([rethink-event.com](https://rethink-event.com/speakers/max-lee/#:~:text=Max%20Lee%20is%20the%20co,prominent%20media%20outlets%2C%20including%20CNN)), but his background (Forbes30Under30 award, PhD candidate in engineering) differs from the described maths MSc dropout. No definitive match was found, so the real name remains unknown.",
+        "academic_suitability": "no - Without a confirmed real name, there is no reliable identifier for Google Scholar searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "MGjaPDoLSiZzb3t9c",
+      "username": "karvonenadam",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:47:08.891027",
+      "result": {
+        "real_name": "Adam Karvonen",
+        "confidence": "high",
+        "evidence": "Display name is 'Adam Karvonen' and this matches academic records: an OpenReview profile lists the name \"Adam Karvonen (Preferred)\" ([openreview.net](https://openreview.net/profile?id=~Adam_Karvonen1#:~:text=Adam%20Karvonen%20)), and PapersWithCode lists publications by Adam Karvonen ([paperswithcode.com](https://paperswithcode.com/author/adam-karvonen#:~:text=Search%20Results%20for%20author%3A%20Adam,Karvonen)), confirming this is his real name.",
+        "academic_suitability": "yes - this name is used on the person's scholarly publications"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "bDAktg2NhXJBLfqSP",
+      "username": "igor-ivanov",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:48:54.578438",
+      "result": {
+        "real_name": "Igor Ivanov",
+        "confidence": "high",
+        "evidence": "LessWrong user shows displayName \"Igor Ivanov\", which matches an author of recent LLM research. For example, arXiv papers on LLM evaluation (July and Feb 2025) are authored by \"Igor Ivanov\" ([www.aimodels.fyi](https://www.aimodels.fyi/papers/arxiv/llms-are-capable-misaligned-behavior-under-explicit#:~:text=Published%207%2F8%2F2025%20by%20Igor%20Ivanov)) ([www.aimodels.fyi](https://www.aimodels.fyi/papers/arxiv/resurrecting-saturated-llm-benchmarks-adversarial-encoding#:~:text=Published%202%2F11%2F2025%20by%20Igor%20Ivanov,1)), confirming this is the same person.",
+        "academic_suitability": "yes - name appears on academic publications (arXiv) and is searchable"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "j2CKvRmbMTPJa2hWk",
+      "username": "christopher-king",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:50:30.142061",
+      "result": {
+        "real_name": "Christopher King",
+        "confidence": "high",
+        "evidence": "The user’s display name and LessWrong profile show \"Christopher King\" ([www.greaterwrong.com](https://www.greaterwrong.com/users/christopher-king#:~:text=Christopher%20King)), and their Skeptics.SE profile likewise lists them as \"Christopher King\" ([skeptics.stackexchange.com](https://skeptics.stackexchange.com/users/26597/christopher-king#:~:text=Christopher%20King)), indicating this is their identity.",
+        "academic_suitability": "yes - 'Christopher King' is a normal full name suitable for scholarly searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "biaFedMuXhbhkPNRZ",
+      "username": "RomanS",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:52:15.082657",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The LessWrong profile shows only the pseudonym \"RomanS\" with no personal details in the bio. Extensive searches for \"RomanS\" or various related terms (posts, projects) yielded no clues to a real name or external profiles. There were no matches on social media or professional sites linking \"RomanS\" to a real individual. Without evidence from the bio or elsewhere, a real name could not be identified.",
+        "academic_suitability": "no - without a real name, no reliable academic search can be performed"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "3bK6aDQviGG3ovuDJ",
+      "username": "alexvermeer",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:56:17.682901",
+      "result": {
+        "real_name": "Alex Vermeer",
+        "confidence": "high",
+        "evidence": "The LessWrong user's personal blog (alexvermeer.com) explicitly identifies the author as \"Alex Vermeer\" ([alexvermeer.com](https://alexvermeer.com/#:~:text=Hi%21%20I%E2%80%99m%20Alex%20Vermeer,Sometimes%20I%20write)), and MIRI’s official team page likewise lists \"Alex Vermeer\" in the relevant role ([intelligence.org](https://intelligence.org/team/alex-vermeer/#:~:text=Alex%20Vermeer%20improves%20the%20processes,and%20joined%20MIRI%20in%202012)), matching the username.",
+        "academic_suitability": "yes – appears to be the user’s full name as used on professional profiles"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "hdH22y8PBL4LRAS3G",
+      "username": "Logical_Lunatic",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:57:21.265365",
+      "result": {
+        "real_name": "Joar Skalse",
+        "confidence": "high",
+        "evidence": "DisplayName is 'Joar Skalse', and independent sources confirm this. The Oxford CS department site lists 'Joar Skalse' as a doctoral student, and an OpenReview academic profile shows the full name 'Joar Max Viktor Skalse', confirming the identity.",
+        "academic_suitability": "yes - name appears on academic profiles and publications"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "hzu5sP4t57yg6ymFH",
+      "username": "Diatom",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T02:58:25.057984",
+      "result": {
+        "real_name": "Alice Blair",
+        "confidence": "high",
+        "evidence": "The personal website for aliceblair.net identifies the user as “Alice Blair,” an AI safety technical writer who writes the ML Safety Newsletter ([www.aliceblair.net](https://www.aliceblair.net/#:~:text=Alice%20Blair)), matching the LessWrong profile bio. This confirms that 'Alice Blair' is her real name.",
+        "academic_suitability": "yes - This is a genuine full name used in her professional AI safety writing (e.g. ML Safety Newsletter) and thus is appropriate for scholarly searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "mQQa7zmsk9tMtEQmZ",
+      "username": "nora-belrose",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:00:00.315567",
+      "result": {
+        "real_name": "Nora Belrose",
+        "confidence": "high",
+        "evidence": "The user’s personal website explicitly states \"My name is Nora Belrose\" ([norabelrose.com](https://norabelrose.com/about/#:~:text=Image%3A%20fb_img_1521954019948My%20name%20is%20Nora,there%20are%20four%20big%20ones)), and she is listed as a co-author on AI research papers under this name ([far.ai](https://far.ai/research/eliciting-latent-predictions-from-transformers-with-the-tuned-lens#:~:text=Nora%20Belrose)), confirming that this is her actual name.",
+        "academic_suitability": "yes - the name is used on her research publications and profiles (e.g., AI research papers), so it is suitable for scholarly searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "xEYZNovjbSYJxFQ4y",
+      "username": "Matrice Jacobine",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:01:26.489105",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "Both the LessWrong bio and EA Forum profile show only the handle 'Matrice Jacobine' and ideological descriptors, with no personal name. For instance, the LessWrong profile text reads \"Student in fundamental and applied mathematics...\" with no name given ([www.greaterwrong.com](https://www.greaterwrong.com/users/matrice-jacobine?show=comments&sort=top#:~:text=Student%20in%20fundamental%20and%20applied,computer%20science%20and%20AI%20alignment)), and the EA Forum profile lists only the alias and ideology tags ([ea.greaterwrong.com](https://ea.greaterwrong.com/users/matrice-jacobine?mention=user&sort=top#:~:text=Karma%3A%20639)). Web searches did not reveal any matching real name.  ",
+        "academic_suitability": "no - the alias 'Matrice Jacobine' appears to be a pseudonym, not a real person’s name, so it cannot be reliably used for scholarly searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "vnJXiGLkHioQyJ298",
+      "username": "marc/er",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:03:53.465907",
+      "result": {
+        "real_name": "Luke Marks",
+        "confidence": "low",
+        "evidence": "\"lukemarks\" suggests the name 'Luke Marks'. We found a Golden Key Academy profile for Luke Marks (University of Wollongong) ([academy.goldenkey.org](https://academy.goldenkey.org/author/lukemarks12/#:~:text=Luke%20Marks%20is%20an%20innovative,innovation%20in%20teaching%2C%20combined%20with)). No direct confirmation linking this to the LessWrong user, so confidence is low.",
+        "academic_suitability": "no - appears to be a high school teacher, not an academic researcher"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "tP6eq7sqsx8s2kc3w",
+      "username": "rauno-arike",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:06:53.072495",
+      "result": {
+        "real_name": "Rauno Arike",
+        "confidence": "high",
+        "evidence": "The LessWrong profile shows the display name ‘Rauno Arike’, and independent academic sources confirm this name. For example, an OpenReview profile lists “Rauno Arike (Preferred)” as the user’s name ([openreview.net](https://openreview.net/profile?id=~Rauno_Arike1#:~:text=Rauno%20Arike%20)).  Similarly, research listings (e.g. PapersWithCode entries) show Rauno Arike as an author of published ML papers ([paperswithcode.com](https://paperswithcode.com/author/rauno-arike#:~:text=no%20code%20implementations%20%20%E2%80%A2,4%2C%20Marius%20Hobbhahn)). These matches across platforms indicate that Rauno Arike is the person’s actual name.",
+        "academic_suitability": "yes - the name appears on academic publications and profiles, making searches on Google Scholar and similar platforms effective for this individual."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "GLfQNh6cmy9hTLFcp",
+      "username": "sydney-von-arx-1",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:08:48.828408",
+      "result": {
+        "real_name": "Sydney Von Arx",
+        "confidence": "high",
+        "evidence": "Username 'sydney-von-arx-1' suggests the name Sydney Von Arx. Independent sources corroborate: METR's team page identifies Sydney Von Arx (co-founder of Atlas Fellowship) ([metr.org](https://metr.org/team/sydney-von-arx/#:~:text=Member%20of%20Technical%20Staff)); an Atlas Fellowship site also lists Sydney Von Arx as a co-founder ([theorg.com](https://theorg.com/org/atlas-fellowship/org-chart/sydney-von-arx#:~:text=Sydney%20Von%20Arx%20has%20co,create%20websites%2C%20apps%2C%20and%20more)).",
+        "academic_suitability": "yes - unique full name of an AI/EA researcher (Stanford alum, co-founder of Atlas Fellowship) ([metr.org](https://metr.org/team/sydney-von-arx/#:~:text=Member%20of%20Technical%20Staff))."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "LoEABuusKjLGpkAim",
+      "username": "ViktoriaMalyasova",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:10:56.659091",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The user’s displayName is \"ViktoriaMalyasova\", but independent searches (LinkedIn, GitHub, Google Scholar, etc.) found only user profiles (e.g. an EA forum thread) or unrelated content. The bio is empty and no external source links this username to a full personal name. Thus the actual name cannot be verified.",
+        "academic_suitability": "no - no evidence of academic publications or a scholarly profile was found"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "73yyrm8KF6GDK9sRy",
+      "username": "Bob Jacobs",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:12:52.239134",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "Profile and associated links only use the name 'Bob Jacobs' or 'B Jacobs' ([ea.greaterwrong.com](https://ea.greaterwrong.com/users/bob-jacobs?show=comments&sort=old#:~:text=I%E2%80%99m%20a%20student%20of%20moral,split%20off%20I%E2%80%99ll%20join%20again)) ([medium.com](https://medium.com/%40bmjacobs#:~:text=I%20mostly%20use%20medium%20to,com)); no full legal name is given or found in searches. The alias appears pseudonymous, so no confirmed real name was discovered.",
+        "academic_suitability": "no - the name is a pseudonym with no confirmed full name and thus not a reliable academic identifier"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "qGivJQ3LJJTzDverv",
+      "username": "otto-barten",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:14:58.284931",
+      "result": {
+        "real_name": "Otto Barten",
+        "confidence": "high",
+        "evidence": "Journa.com indexes multiple articles by “Otto Barten” (including pieces in NRC and Trouw) ([journa.com](https://journa.com/otto-barten#:~:text=match%20at%20L34%20,Barten%2C%20Tim%20Bakker%20for%20NRC)), matching the LessWrong handle.  An NRC news article explicitly quotes “Otto Barten” discussing his founding of an existential risk NGO ([www.nrc.nl](https://www.nrc.nl/nieuws/2023/06/24/sterft-de-mensheid-uit-door-ai-dat-is-sciencefiction-a4168053#:~:text=Otto%20Barten%20zag%20in%202014,%E2%80%9D)). Both sources verify that the user’s name is Otto Barten.",
+        "academic_suitability": "no - the name corresponds to a journalist/activist, not an academic researcher, so it yields news articles rather than scholarly publications"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "hMiaoSo8wJRcuDph7",
+      "username": "Harlan",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:16:03.140002",
+      "result": {
+        "real_name": "Harlan Stewart",
+        "confidence": "high",
+        "evidence": "The official MIRI site and newsletters identify ‘Harlan Stewart’ as the author of MIRI communications, matching the LessWrong user “Harlan.” For example, MIRI’s April 2024 Newsletter lists the author as “Harlan Stewart” ([intelligence.org](https://intelligence.org/2024/04/12/april-2024-newsletter/#:~:text=,1)), and the MIRI team page describes Harlan Stewart as a communications staffer (previously at AI Impacts) ([intelligence.org](https://intelligence.org/team/harlan-stewart/#:~:text=Harlan%20contributes%20to%20a%20variety,applied%20mathematics%20from%20Texas%20State)). These details strongly align with the LW username “Harlan,” confirming the real name as Harlan Stewart.",
+        "academic_suitability": "yes - Harlan Stewart co-authored a published AI expert survey and has a professional background in research/communications, so his name should appear in academic search results ([intelligence.org](https://intelligence.org/team/harlan-stewart/#:~:text=Harlan%20contributes%20to%20a%20variety,applied%20mathematics%20from%20Texas%20State)) ([intelligence.org](https://intelligence.org/2024/04/12/april-2024-newsletter/#:~:text=,1))."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "c4BywbHytbB5zLdA4",
+      "username": "tristan-williams",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:17:38.647910",
+      "result": {
+        "real_name": "Tristan Williams",
+        "confidence": "high",
+        "evidence": "The name Tristan Williams appears on multiple related profiles. For example, an EA Forum post lists 'Tristan Williams (Madrid)' as the author ([forum.effectivealtruism.org](https://forum.effectivealtruism.org/posts/yjFSsa7X6GkcPH8xE/reflections-on-ea-spain-s-first-national-retreat-1#:~:text=This%20post%20was%20written%20by,Barcelona)), and the Center for AI Policy (CAIP) website lists a 'Tristan Williams' as a research fellow ([www.centeraipolicy.org](https://www.centeraipolicy.org/team/tristan-williams#:~:text=Tristan%20Williams)). These match the LessWrong username tristan-williams.",
+        "academic_suitability": "yes - Tristan Williams appears to be the user’s full first and last name, suitable for academic searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "nENjtuvFmhJau34kv",
+      "username": "Kei",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:19:17.463899",
+      "result": {
+        "real_name": "Kei Nishimura-Gasparian",
+        "confidence": "high",
+        "evidence": "The displayName on LessWrong is \"Kei Nishimura-Gasparian\". Public profiles list this exact name as an author of AI/ML research, including on LessWrong and arXiv. For example, a Muck Rack profile shows \"Kei Nishimura-Gasparian\" co-authoring a LessWrong article ([muckrack.com](https://muckrack.com/kei-nishimura-gasparian/articles#:~:text=May%2028%2C%202024%20)). An academic aggregator lists her as author of AI-related papers under the same name ([www.aimodels.fyi](https://www.aimodels.fyi/author-profile/kei-nishimura-gasparian-2e4616a0-2c5c-4409-b23f-2f8317e7a1c8#:~:text=2%20found)). The consistency of these sources strongly confirms this as her real name.",
+        "academic_suitability": "yes - The name \"Kei Nishimura-Gasparian\" appears on research papers and LessWrong (which is often technical), indicating a real name used for academic publications, making it suitable for searches on Google Scholar."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "cNiadnGHkM5ZNqxf7",
+      "username": "james-chua",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:20:21.463197",
+      "result": {
+        "real_name": "James Chua",
+        "confidence": "high",
+        "evidence": "The LessWrong displayName and personal website both use \"James Chua.\"  For example, his site is titled “About James Chua” ([jameschua.net](https://jameschua.net/about/#:~:text=About%20James%20Chua)), and the TruthfulAI team page lists “James Chua” as a researcher ([www.truthfulai.org](https://www.truthfulai.org/about#:~:text=James%20Chua)). An OpenReview profile for James Chua (NUS researcher) also confirms this name ([openreview.net](https://openreview.net/profile?id=~James_Chua2#:~:text=James%20Chua%20)).  These consistent sources identify the user as James Chua.",
+        "academic_suitability": "yes - This is the name he uses on his published AI research. He appears as a co-author (e.g. on arXiv papers) under \"James Chua\" ([jameschua.net](https://jameschua.net/about/#:~:text=Alex%20Cloud%2C%20Minh%20Le%2C%20James,Hilton%2C%20Samuel%20Marks%2C%20Owain%20Evans)) and has a Google Scholar profile under that name, so it is suitable for academic searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "X3XK6ycxyu7ff8n4b",
+      "username": "Nick_Bostrom2",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:22:38.196578",
+      "result": {
+        "real_name": "Nick Bostrom",
+        "confidence": "high",
+        "evidence": "The LessWrong account uses displayName 'Nick Bostrom', matching the known philosopher. The user posted a paper titled 'Open Global Investment as a Governance Model for AGI' ([www.greaterwrong.com](https://www.greaterwrong.com/posts/LtT24cCAazQp4NYc5/open-global-investment-as-a-governance-model-for-agi#:~:text=Open%20Global%20Investment%20as%20a,Governance%20Model%20for%20AGI)), which is listed on Nick Bostrom’s official homepage as a working paper ([nickbostrom.com](https://nickbostrom.com/#:~:text=,Society%2C%20w%2F%20Carl%20Shulman%2C%20in)). This alignment of content confirms the user is Nick Bostrom himself.",
+        "academic_suitability": "yes - Nick Bostrom is a prominent academic philosopher with many scholarly publications, making this name well-suited for Google Scholar searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "CnfjfjrfqCbvPriBu",
+      "username": "RohanS",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:24:23.358878",
+      "result": {
+        "real_name": "Rohan Subramani",
+        "confidence": "high",
+        "evidence": "The user’s personal website and an EA Forum update explicitly identify them as Rohan Subramani, matching the Columbia affiliation and AI Alignment activities listed in the bio.",
+        "academic_suitability": "yes"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "zZHEC9XsJyoRGMwEh",
+      "username": "Filip Sondej",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:25:06.401672",
+      "result": {
+        "real_name": "Filip Sondej",
+        "confidence": "high",
+        "evidence": "The LessWrong profile shows the display name as \"Filip Sondej\" ([www.greaterwrong.com](https://www.greaterwrong.com/users/filip-sondej#:~:text=Filip%20Sondej)). Independent sources confirm this is an academic author; for example, a research profile lists \"Filip Sondej\" as a co-author on a AAAI 2025 conference paper ([www.catalyzex.com](https://www.catalyzex.com/author/Filip%20Sondej#:~:text=Ablation%20is%20Not%20Enough%20to,Neuron%20Dynamics%20Drive%20Toxicity%20Reduction)), matching the LessWrong identity.",
+        "academic_suitability": "yes - this name is used on research publications (e.g., AAAI 2025) and should retrieve his Google Scholar profile."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "2oSDkjmDWrMy8d5wx",
+      "username": "weibac",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:27:01.885497",
+      "result": {
+        "real_name": "Milan Weibel Bacovic",
+        "confidence": "high",
+        "evidence": "The LessWrong bio lists 'Milan Weibel', and the user’s personal website explicitly identifies them as 'Milan Weibel Bacovic' ([weibac.github.io](https://weibac.github.io/#:~:text=hi%20i%27m%20weibac%20,got%20going%20on%20over%20there)). This matches the displayName 'Milan W' and confirms the full name.",
+        "academic_suitability": "yes - the full name includes a distinctive surname (Bacovic) making it suitable for scholarly searches"
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "8HssrJtknBAC98oE9",
+      "username": "paul-colognese",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:28:05.886257",
+      "result": {
+        "real_name": "Paul Colognese",
+        "confidence": "high",
+        "evidence": "Name 'Paul Colognese' is consistently used by the user. It appears on their LessWrong profile ([www.greaterwrong.com](https://www.greaterwrong.com/users/paul-colognese?show=comments&sort=old#:~:text=Paul%20Colognese)) and personal website. Crucially, the same name is used in academic contexts: an essay by Dr. Paul Colognese ([insights.apparentselves.org](https://insights.apparentselves.org/essay/agents-and-the-ai-alignment-problem/#:~:text=Agents%20and%20the%20AI%20alignment,problem)) and a University of Manchester seminar listing \"Speaker: Paul Colognese\" ([events.manchester.ac.uk](https://events.manchester.ac.uk/event/event%3Apkj-k0nto2oi-vj0cdp/paul-colognese-warwick-volume-growth-on-translation-surfaces#:~:text=Paul%20Colognese%20%28Warwick%29%20,growth%20on%20translation%20surfaces)). This confirms that \"Paul Colognese\" is the user’s real name.",
+        "academic_suitability": "yes - 'Paul Colognese' is a standard full name used in research publications, making it suitable for Google Scholar searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "n4M37rPXGyL6p8ivK",
+      "username": "programcrafter",
+      "search_status": "failed_during_processing",
+      "timestamp": "2025-11-01T03:29:40.823904",
+      "result": null,
+      "error_message": "API returned status='failed'"
+    },
+    {
+      "user_id": "TgArNMi6qMuS8Ybz7",
+      "username": "wuschel-schulz",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:32:53.193436",
+      "result": {
+        "real_name": "Julian Schulz",
+        "confidence": "high",
+        "evidence": "The LessWrong user “Wuschel Schulz” authored a paper “Automated Feature Labeling with Token-Space Gradient Descent” which lists its author as Julian Schulz ([openreview.net](https://openreview.net/forum?id=26ORXfaJ56&referrer=%5Bthe+profile+of+Julian+Schulz%5D%28%2Fprofile%3Fid%3D~Julian_Schulz2%29#:~:text=Julian%20Schulz%20%2C%20%201)), indicating they are the same person.",
+        "academic_suitability": "yes - This is an actual researcher name likely used on publications (as seen in the paper reference), making it appropriate for Google Scholar searches."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "KrnuNGyDTNpKcXg6L",
+      "username": "MadHatter",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:34:17.820369",
+      "result": {
+        "real_name": "NOT_FOUND",
+        "confidence": "low",
+        "evidence": "The profile is entirely pseudonymous (displayName 'MadHatter') and the bio only contains a quote (no identifying details). Searches revealed no linkage of this username to a full name. For example, similar posts on LessWrong require login/JS to view ([www.lesswrong.com](https://www.lesswrong.com/posts/EcgJzTuHxnMoyNJKE/welcome-to-less-wrong-8th-thread-july-2015#:~:text=This%20website%20requires%20javascript%20to,access%20to%20all%20site%20functionality)) and a separate forum shows a user posting the same Ketan Mulmuley quote with no real name ([forum.ismaili.net](https://forum.ismaili.net/viewtopic.php?p=20640#:~:text=kmaherali%20%20Posts%3A%20%204,Mar%2027%2C%202003%203%3A01%20pm)).",
+        "academic_suitability": "no - No real name found, so the profile cannot be searched on academic databases."
+      },
+      "error_message": null
+    },
+    {
+      "user_id": "6owLP3qSLEHrah2rA",
+      "username": "abhayesian",
+      "search_status": "completed",
+      "timestamp": "2025-11-01T03:38:08.007804",
+      "result": {
+        "real_name": "Abhay Sheshadri",
+        "confidence": "high",
+        "evidence": "The LessWrong username “abhayesian” corresponds to a Hugging Face profile listing the name “Abhay Sheshadri” ([huggingface.co](https://huggingface.co/abhayesian/models#:~:text=Abhay%20Sheshadri)).  Independent sources confirm that Abhay Sheshadri is an author on machine-learning papers co-authored by Jannik Brinkmann and Victor Levoso—the same co-authors listed on posts by ‘abhayesian’ ([openreview.net](https://openreview.net/forum?id=YvU7KEYxfW#:~:text=Jannik%20Brinkmann%20%2C%20%201%2C,3%2C%20Christian%20Bartelt)).  These matching associations provide high confidence in the real name.",
+        "academic_suitability": "yes - the name “Abhay Sheshadri\" is the author name used on academic ML publications (e.g. ACL 2024) and is specific enough for scholar searches"
+      },
+      "error_message": null
+    }
+  ]
+}

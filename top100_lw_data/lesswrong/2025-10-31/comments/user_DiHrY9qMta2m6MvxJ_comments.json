@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "vQ7nwkRk7oMhYFuDE",
+    "postId": "CFA8W6WCodEZdjqYE",
+    "parentCommentId": "ksGETas8qBC8fBvCv",
+    "topLevelCommentId": "ksGETas8qBC8fBvCv",
+    "contents": {
+      "markdown": "This is a good question, albeit only vaguely adjacent.   \n  \nMy answer would be that winners curse only applies if firms aren't actively minimizing the extent to which they overbid. In the current scenario, firms are trying (moderately) hard to prevent disaster, just not reliably enough to succeed indefinitely. However, once they fail, we could easily be far past the overhang point for the AI succeeding.  \n  \nAssuming to start, implausibly, that the AI itself is not strategic enough to consider its chances of succeeding, we'll assume AI capabilities nonetheless keep increasing. The firms can also detect and prevent it from trying with some probability, but their ability to monitor and stop it from trying is decreasing. The better AI firms are at stopping the models, and the slower that their ability declines relative to model capability, the more likely it is that when they do fail, the AI will succeed. And if the AIs are strategic, they will be much less likely to try if they are likely to either fail or be detected, so they ill wait even longer.",
+      "plaintextDescription": "This is a good question, albeit only vaguely adjacent. \n\nMy answer would be that winners curse only applies if firms aren't actively minimizing the extent to which they overbid. In the current scenario, firms are trying (moderately) hard to prevent disaster, just not reliably enough to succeed indefinitely. However, once they fail, we could easily be far past the overhang point for the AI succeeding.\n\nAssuming to start, implausibly, that the AI itself is not strategic enough to consider its chances of succeeding, we'll assume AI capabilities nonetheless keep increasing. The firms can also detect and prevent it from trying with some probability, but their ability to monitor and stop it from trying is decreasing. The better AI firms are at stopping the models, and the slower that their ability declines relative to model capability, the more likely it is that when they do fail, the AI will succeed. And if the AIs are strategic, they will be much less likely to try if they are likely to either fail or be detected, so they ill wait even longer."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-30T11:42:03.091Z",
+    "af": false
+  },
+  {
+    "_id": "sXhtH2c4phxv6LG2P",
+    "postId": "oPWB7SBn5j6Nw8RSX",
+    "parentCommentId": "kCtepi23QoxLgxbZS",
+    "topLevelCommentId": "LrtZeXtqejtvPKv4k",
+    "contents": {
+      "markdown": "Data. Find out the answer.\n\n[https://www.wevolver.com/article/tpu-vs-gpu-a-comprehensive-technical-comparison](https://www.wevolver.com/article/tpu-vs-gpu-a-comprehensive-technical-comparison)\n\nLooks like they arehwitin 2x of the H200s, albeit with some complexity in details.",
+      "plaintextDescription": "Data. Find out the answer.\n\nhttps://www.wevolver.com/article/tpu-vs-gpu-a-comprehensive-technical-comparison\n\nLooks like they arehwitin 2x of the H200s, albeit with some complexity in details."
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-30T05:06:31.501Z",
+    "af": false
+  },
+  {
+    "_id": "hJduaSn9YRe7dinup",
+    "postId": "oPWB7SBn5j6Nw8RSX",
+    "parentCommentId": "sHgsug8EK54uyMYgL",
+    "topLevelCommentId": "LrtZeXtqejtvPKv4k",
+    "contents": {
+      "markdown": "Because it's what they can get. A factor of two or more in compute is plausibly less important than a delay of a year.\n\nThis may or may not be the case, but the argument for why it can't be very different fails.",
+      "plaintextDescription": "Because it's what they can get. A factor of two or more in compute is plausibly less important than a delay of a year.\n\nThis may or may not be the case, but the argument for why it can't be very different fails."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-29T06:44:34.248Z",
+    "af": false
+  },
+  {
+    "_id": "wGhpAJc4azKpjzaGK",
+    "postId": "2RtuThoZwP4o8aEpS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "As I mentioned elsewhere, I'm interested in the question of how you plan to re-base the index over time.\n\nThe index excludes models from before 2023, which is understandable, since they couldn't use benchmark released after that date, which are now the critical ones. Still, it seems like a mistake, since I don't have any indication of the adaptability of the method for the future when current metrics are saturated. The obvious way to do this seems (to me) to be by including earlier benchmarks that are now saturated so that the time series can be extended backwards. And I understand that this data may be harder to collect, but as noted, it seems important to show future adaptability.",
+      "plaintextDescription": "As I mentioned elsewhere, I'm interested in the question of how you plan to re-base the index over time.\n\nThe index excludes models from before 2023, which is understandable, since they couldn't use benchmark released after that date, which are now the critical ones. Still, it seems like a mistake, since I don't have any indication of the adaptability of the method for the future when current metrics are saturated. The obvious way to do this seems (to me) to be by including earlier benchmarks that are now saturated so that the time series can be extended backwards. And I understand that this data may be harder to collect, but as noted, it seems important to show future adaptability."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-29T06:36:49.842Z",
+    "af": false
+  },
+  {
+    "_id": "Pv7cNk6rrFxd8Tnsr",
+    "postId": "CFA8W6WCodEZdjqYE",
+    "parentCommentId": "RhfprkayAEfBKjLTw",
+    "topLevelCommentId": "RhfprkayAEfBKjLTw",
+    "contents": {
+      "markdown": "I think the space of possible futures is, in fact, almost certainly deeply weird from our current perspective. But that's been true for some time already; imagine trying to explain current political memes to someone from a couple decades ago.",
+      "plaintextDescription": "I think the space of possible futures is, in fact, almost certainly deeply weird from our current perspective. But that's been true for some time already; imagine trying to explain current political memes to someone from a couple decades ago."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-28T14:59:03.000Z",
+    "af": false
+  },
+  {
+    "_id": "EibfwqHxHh8rNuDGD",
+    "postId": "imwPd7vyFCkcc3Mmf",
+    "parentCommentId": "RaGc5wT7F2J7ckPjY",
+    "topLevelCommentId": "nQakAWv4YEEfGbkKa",
+    "contents": {
+      "markdown": "Yes - they made a huge number of mistakes, despite having sophisticated people and tons of funding. It's been used over and over to make the claim that bioweapons are really hard - but I do wonder how much using an LLM for help would avoid all of these classes of mistake. (How much prosaic utility is there for project planning in general? Some, but at high risk if you need to worry about detection, and it's unclear that most people are willing to offload or double check their planning, despite the advantages.)",
+      "plaintextDescription": "Yes - they made a huge number of mistakes, despite having sophisticated people and tons of funding. It's been used over and over to make the claim that bioweapons are really hard - but I do wonder how much using an LLM for help would avoid all of these classes of mistake. (How much prosaic utility is there for project planning in general? Some, but at high risk if you need to worry about detection, and it's unclear that most people are willing to offload or double check their planning, despite the advantages.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-28T07:58:48.374Z",
+    "af": false
+  },
+  {
+    "_id": "6y5AnKrCHJyLEfr4h",
+    "postId": "CFA8W6WCodEZdjqYE",
+    "parentCommentId": "otiS7MvHqahQoLZRo",
+    "topLevelCommentId": "QqmzFYAZKuopSp3Mz",
+    "contents": {
+      "markdown": "Sure, and if a machine just slightly smarter than us deployed by an AI company solves alignment instead of doing what it's been told to do, which is capabilities research, the argument will evidently have succeeded.",
+      "plaintextDescription": "Sure, and if a machine just slightly smarter than us deployed by an AI company solves alignment instead of doing what it's been told to do, which is capabilities research, the argument will evidently have succeeded."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T21:06:45.107Z",
+    "af": false
+  },
+  {
+    "_id": "dregGKW53XLCzYdmb",
+    "postId": "imwPd7vyFCkcc3Mmf",
+    "parentCommentId": "RDHFFgtyQozjT9cZp",
+    "topLevelCommentId": "nQakAWv4YEEfGbkKa",
+    "contents": {
+      "markdown": "> A marginal bioterrorist could probably just brew up a vat of anthrax which technically counts.\n\n  \nPerhaps worth nothing that they've [tried in the past, and failed](https://x.com/thisischristina/status/1982458548937273404).",
+      "plaintextDescription": "> A marginal bioterrorist could probably just brew up a vat of anthrax which technically counts.\n\n\nPerhaps worth nothing that they've tried in the past, and failed."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-27T20:17:13.767Z",
+    "af": false
+  },
+  {
+    "_id": "Cd9rZfbA2uRXBNort",
+    "postId": "w7eojyXfXiZaBSGej",
+    "parentCommentId": "vfaz3saWEFSfQx28j",
+    "topLevelCommentId": "r9ANtXZw74rDs5ELW",
+    "contents": {
+      "markdown": "One the first point, there's a long way to go to get from the current narrow multimodal models for specific tasks to the type of general multimodal aggregation you seemed to suggest.\n\nOn the second point, thank you - I think you are correct that it's a mistake/poorly written, and I'm checking with the coauthor who wrote that section.",
+      "plaintextDescription": "One the first point, there's a long way to go to get from the current narrow multimodal models for specific tasks to the type of general multimodal aggregation you seemed to suggest.\n\nOn the second point, thank you - I think you are correct that it's a mistake/poorly written, and I'm checking with the coauthor who wrote that section."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T18:45:47.325Z",
+    "af": false
+  },
+  {
+    "_id": "xmdLEZRAZLe3yGdcj",
+    "postId": "izaahSqv3oRRDu4mr",
+    "parentCommentId": "WEC2Br8ztWf9Sud7H",
+    "topLevelCommentId": "pmjXsKwpzjbA8NTRe",
+    "contents": {
+      "markdown": "Or, phrasing it differently; \"read the sequences\"",
+      "plaintextDescription": "Or, phrasing it differently; \"read the sequences\""
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T17:39:41.053Z",
+    "af": false
+  },
+  {
+    "_id": "XXbF2HCDxtgKQZkF7",
+    "postId": "CFA8W6WCodEZdjqYE",
+    "parentCommentId": "QqmzFYAZKuopSp3Mz",
+    "topLevelCommentId": "QqmzFYAZKuopSp3Mz",
+    "contents": {
+      "markdown": "Good to hear, and I'm unsurprised not to have been the first to have considered or discussed thid.",
+      "plaintextDescription": "Good to hear, and I'm unsurprised not to have been the first to have considered or discussed thid."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T17:29:34.075Z",
+    "af": false
+  },
+  {
+    "_id": "zqQNPQ5ntGzLfvoEi",
+    "postId": "dHLdf8SB8oW5L27gg",
+    "parentCommentId": "yQWyxWnbhYTrkTtXG",
+    "topLevelCommentId": "SZPwnLcDxCp7ta8Cd",
+    "contents": {
+      "markdown": "> Bad events are very often prevented by humans being moderately competent and successfully trying to prevent bad events.\n\n...but I think the track record for this is pretty amazingly dismal, in practice? We are [arguably](https://x.com/davidmanheim/status/1980951795678732309) more at risk from Pandemics today than we were in 2019, despite the clear warning. And even more narrowly, as a species, we're spending many orders of magnitude more money on AI capabilities than we are on AI alignment, and that seems tragically very unlikely to change.",
+      "plaintextDescription": "> Bad events are very often prevented by humans being moderately competent and successfully trying to prevent bad events.\n\n \n\n...but I think the track record for this is pretty amazingly dismal, in practice? We are arguably more at risk from Pandemics today than we were in 2019, despite the clear warning. And even more narrowly, as a species, we're spending many orders of magnitude more money on AI capabilities than we are on AI alignment, and that seems tragically very unlikely to change."
+    },
+    "baseScore": 21,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-10-27T14:40:12.568Z",
+    "af": false
+  },
+  {
+    "_id": "BhePfCvbGaNauDqfz",
+    "postId": "dHLdf8SB8oW5L27gg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I enjoyed this, but don't think there are many people left who can be convinced by Ayn-Rand length explanatory dialogues in a science-fiction guise who aren't already on board with the argument.",
+      "plaintextDescription": "I enjoyed this, but don't think there are many people left who can be convinced by Ayn-Rand length explanatory dialogues in a science-fiction guise who aren't already on board with the argument."
+    },
+    "baseScore": 37,
+    "voteCount": 23,
+    "createdAt": null,
+    "postedAt": "2025-10-27T14:35:12.749Z",
+    "af": false
+  },
+  {
+    "_id": "r9ANtXZw74rDs5ELW",
+    "postId": "w7eojyXfXiZaBSGej",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm skeptical that we'll see useful multimodal fusion from disparate datasets shoved into large multimodal models short of AGI; the relationships between the different modalities is central to actually learning anything, and many of the methods being used to accomplish multimodal \"reasoning\" routes through general capabilities. This is in large part informed by expert views we elicited in [this project](https://www.rand.org/pubs/research_reports/RRA4087-1.html) \\- so I'd be very interested in your thoughts about either why you disagree here, or what you think experts in that discussion (Sections 4.4/4.5) missed about multimodal understanding of such models in the coming few years. (Or whether you're primarily optimistic in the even longer term.)",
+      "plaintextDescription": "I'm skeptical that we'll see useful multimodal fusion from disparate datasets shoved into large multimodal models short of AGI; the relationships between the different modalities is central to actually learning anything, and many of the methods being used to accomplish multimodal \"reasoning\" routes through general capabilities. This is in large part informed by expert views we elicited in this project - so I'd be very interested in your thoughts about either why you disagree here, or what you think experts in that discussion (Sections 4.4/4.5) missed about multimodal understanding of such models in the coming few years. (Or whether you're primarily optimistic in the even longer term.)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T13:29:09.861Z",
+    "af": false
+  },
+  {
+    "_id": "3kQQ7Q4L5QBeWnuQn",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "ogsY4S4MciS4SXwHw",
+    "topLevelCommentId": "rj7YfuF8C2Y7QdY8g",
+    "contents": {
+      "markdown": "It seems like you're narrowing the claim, and I'm no longer sure I disagree with the point, if I'm interpreting it correctly now.  \n  \nIf you're saying that they group doesn't act differently in ways that are visible to you, sure - but the definition of the group is one that believes that two things are viable, and will sometimes support one side, and sometimes support the other. You could say it doesn't matter for making individual decisions, because the people functionally are supporting one side or the other at a given time, but that's different than saying they \"are not actually working that way.\"",
+      "plaintextDescription": "It seems like you're narrowing the claim, and I'm no longer sure I disagree with the point, if I'm interpreting it correctly now.\n\nIf you're saying that they group doesn't act differently in ways that are visible to you, sure - but the definition of the group is one that believes that two things are viable, and will sometimes support one side, and sometimes support the other. You could say it doesn't matter for making individual decisions, because the people functionally are supporting one side or the other at a given time, but that's different than saying they \"are not actually working that way.\""
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-26T07:38:45.526Z",
+    "af": false
+  },
+  {
+    "_id": "itPtRnK8ihthBHEYM",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "qKhAEKed8Fdr8enki",
+    "topLevelCommentId": "zRHebaEoEjQarAhmz",
+    "contents": {
+      "markdown": "Yes, wanting humans to stick around is probably a minimal necessity, but it's still probably not enough - as the post explains.  \n  \nAnd I simply don't think you can \"make humans smarter\" in ways that don't require, or at least clearly risk, erasing things that make us fundamentally human as we understand it today.",
+      "plaintextDescription": "Yes, wanting humans to stick around is probably a minimal necessity, but it's still probably not enough - as the post explains.\n\nAnd I simply don't think you can \"make humans smarter\" in ways that don't require, or at least clearly risk, erasing things that make us fundamentally human as we understand it today."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-26T07:27:18.176Z",
+    "af": false
+  },
+  {
+    "_id": "4CfjPtDjs6Q4ruJSZ",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "mMZ5N8CBxAYWLuGRR",
+    "topLevelCommentId": "rj7YfuF8C2Y7QdY8g",
+    "contents": {
+      "markdown": "You started by saying that most people who would say they are in C are fake, because they are not actually working that way and are deceptively presenting as C, and that A is also \"fake\" because it won't work. So anyone I name in group C, under your view, is just being dishonest. I think that there are many people who have good faith beliefs in both groups, but don't understand how naming them helps address the claim you made. (You also said that it only matters if the view exists if it's held by funders, since I guess you claim that only people spending money can have views about what resource allocation should occur.)   \n  \nThat said, other than myself, who probably doesn't count because I'm only in charge of minor amounts of money, it seems that a number of people at Open Philanthropy clearly implicitly embrace view C, based on their funding decisions which include geopolitical efforts to manage risk from AI and potentially lead to agreements, public awareness and education, and also funding technical work on AI safety.\n\nAnd see this newer post, which also lays out a similar view: https://www.lesswrong.com/posts/7xCxz36Jx3KxqYrd9/plan-1-and-plan-2",
+      "plaintextDescription": "You started by saying that most people who would say they are in C are fake, because they are not actually working that way and are deceptively presenting as C, and that A is also \"fake\" because it won't work. So anyone I name in group C, under your view, is just being dishonest. I think that there are many people who have good faith beliefs in both groups, but don't understand how naming them helps address the claim you made. (You also said that it only matters if the view exists if it's held by funders, since I guess you claim that only people spending money can have views about what resource allocation should occur.) \n\nThat said, other than myself, who probably doesn't count because I'm only in charge of minor amounts of money, it seems that a number of people at Open Philanthropy clearly implicitly embrace view C, based on their funding decisions which include geopolitical efforts to manage risk from AI and potentially lead to agreements, public awareness and education, and also funding technical work on AI safety.\n\n \n\nAnd see this newer post, which also lays out a similar view: https://www.lesswrong.com/posts/7xCxz36Jx3KxqYrd9/plan-1-and-plan-2"
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-24T07:14:51.222Z",
+    "af": false
+  },
+  {
+    "_id": "v4uRuKGFCBo5Spiff",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "HxR6BCLgjMwEv59rM",
+    "topLevelCommentId": "rj7YfuF8C2Y7QdY8g",
+    "contents": {
+      "markdown": "I'm pointing out that the third camp, which you deny really exists, does exist, and as an aside,  is materially different in important ways from the other two camps.\n\nYou say you don't think this matters for allocating funding, and you don't care about what others actually believe. I'm just not sure why either point is relevant here.",
+      "plaintextDescription": "I'm pointing out that the third camp, which you deny really exists, does exist, and as an aside,  is materially different in important ways from the other two camps.\n\nYou say you don't think this matters for allocating funding, and you don't care about what others actually believe. I'm just not sure why either point is relevant here."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-23T22:31:44.028Z",
+    "af": false
+  },
+  {
+    "_id": "vSwaQDbhwcgnLjd6M",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "jN9Rmnz7fdvvTpWrK",
+    "topLevelCommentId": "rj7YfuF8C2Y7QdY8g",
+    "contents": {
+      "markdown": "There's a huge difference between the types of cases, though. A 90% poisonous twinkie is certainly fine to call poisonous[^792th5fmnpx], but a 90% male groups isn't reasonable to call male. You said \"if most people who would say they are in C are not actually working that way and are deceptively presenting as C,\" that seems far like the latter than the former, because \"fake\" implies the entire thing is fake[^0km3vszd0xfm].\n\n[^792th5fmnpx]: Though so is a 1% poisonous twinkie; perhaps the example should be a meal that is 90% protein would be a \"protein meal\" without implying there is no non-protein substance present. \n\n[^0km3vszd0xfm]: There is a sense where this isn't true; if 5% of an image of a person is modified, I'd agree that the image is fake - but this is because the claim of fakeness is about the entirety of the image, as a unit. In contrast, if there were 20 people in a composite image, and 12 of them were AI-fakes and 8 were actual people, I wouldn't say the picture is \"of fake people,\" I'd need to say it's a mixture of fake and real people. Which seems like the relevant comparison if, as you said in another comment, you are describing \"empirical clusters of people\"!",
+      "plaintextDescription": "There's a huge difference between the types of cases, though. A 90% poisonous twinkie is certainly fine to call poisonous[1], but a 90% male groups isn't reasonable to call male. You said \"if most people who would say they are in C are not actually working that way and are deceptively presenting as C,\" that seems far like the latter than the former, because \"fake\" implies the entire thing is fake[2].\n\n 1. ^\n    Though so is a 1% poisonous twinkie; perhaps the example should be a meal that is 90% protein would be a \"protein meal\" without implying there is no non-protein substance present.\n\n 2. ^\n    There is a sense where this isn't true; if 5% of an image of a person is modified, I'd agree that the image is fake - but this is because the claim of fakeness is about the entirety of the image, as a unit. In contrast, if there were 20 people in a composite image, and 12 of them were AI-fakes and 8 were actual people, I wouldn't say the picture is \"of fake people,\" I'd need to say it's a mixture of fake and real people. Which seems like the relevant comparison if, as you said in another comment, you are describing \"empirical clusters of people\"!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-23T16:30:31.998Z",
+    "af": false
+  },
+  {
+    "_id": "XcYnwDwFipseg2fC9",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "Buha8JANgvcSTZkkm",
+    "topLevelCommentId": "rj7YfuF8C2Y7QdY8g",
+    "contents": {
+      "markdown": "If you said \"mostly bullshit\" or \"almost always disengenious\" I wouldn't argue, but would still question whether it's actually a majority of people in group C, which I'm doubtful of, but very unsure about - but saying it is fake would usually mean it is not a real thing anyone believes, rather than meaning that the view is unusual or confused or wrong.  \n  \nClosely related to: [You Don't Exist, Duncan.](https://www.lesswrong.com/posts/yepKvM5rsvbpix75G/you-don-t-exist-duncan)",
+      "plaintextDescription": "If you said \"mostly bullshit\" or \"almost always disengenious\" I wouldn't argue, but would still question whether it's actually a majority of people in group C, which I'm doubtful of, but very unsure about - but saying it is fake would usually mean it is not a real thing anyone believes, rather than meaning that the view is unusual or confused or wrong.\n\nClosely related to: You Don't Exist, Duncan."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-23T14:47:19.873Z",
+    "af": false
+  },
+  {
+    "_id": "nEkpPNiyAwCtTshKQ",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "4L3EgEdiT5N5BTpfb",
+    "topLevelCommentId": "zRHebaEoEjQarAhmz",
+    "contents": {
+      "markdown": "I'll point to a similarly pessimistic but divergent view on [how to mange the likely bad transition to an AI future that I co-authored recently](https://www.lesswrong.com/posts/CkCRDrSaqx7L3ps5C/messy-on-purpose-part-2-of-a-conservative-vision-for-the);\n\n> Instead, we argue that we need a solution for preserving humanity and improving the future despite not having an easy solution of allowing gradual disempowerment coupled with single-objective beneficial AI...  \n>   \n> The first question, one that is central to some discussions of long-term AI risk, is how can humanity stay in control after creating smarter-than-human AI? \n> \n> But given the question, the answer is overdetermined. We don’t stay in control, certainly not indefinitely. If we build smarter than human AI, which is certainly [not a good idea](https://www.amazon.com/dp/0316595640/) right now, at best we must figure out ***how*** we are ceding control. If nothing else, [power-seeking AI will be a default](https://arxiv.org/abs/2206.13353), and will be disempowering - even if it’s not directly an existential threat. Even if we solve the problem of treachery robustly, and build [an infantilizing vision of superintelligent personal assistants](https://www.meta.com/superintelligence/), over long enough time scales, it’s implausible that we not only build that race of more intelligent systems, but do not then cede any power. (And if we did, somehow, the implications of keeping systems that are increasingly intelligent in permanent bondage seems at best morally dubious.)\n> \n> So, if we (implausibly) happen to be in a world of alignment-by-default, or (even more implausibly) find a solution to intent alignment and agree to create a super-nanny for humanity, what world would we want? Perhaps we use this power to collectively evolve past humanity - or perhaps the visions of pushing for transhumanism before ASI to allow someone, some group to stay in control are realized. Either way, what then for the humans?",
+      "plaintextDescription": "I'll point to a similarly pessimistic but divergent view on how to mange the likely bad transition to an AI future that I co-authored recently;\n\n> Instead, we argue that we need a solution for preserving humanity and improving the future despite not having an easy solution of allowing gradual disempowerment coupled with single-objective beneficial AI...\n> \n> The first question, one that is central to some discussions of long-term AI risk, is how can humanity stay in control after creating smarter-than-human AI? \n> \n> But given the question, the answer is overdetermined. We don’t stay in control, certainly not indefinitely. If we build smarter than human AI, which is certainly not a good idea right now, at best we must figure out how we are ceding control. If nothing else, power-seeking AI will be a default, and will be disempowering - even if it’s not directly an existential threat. Even if we solve the problem of treachery robustly, and build an infantilizing vision of superintelligent personal assistants, over long enough time scales, it’s implausible that we not only build that race of more intelligent systems, but do not then cede any power. (And if we did, somehow, the implications of keeping systems that are increasingly intelligent in permanent bondage seems at best morally dubious.)\n> \n> So, if we (implausibly) happen to be in a world of alignment-by-default, or (even more implausibly) find a solution to intent alignment and agree to create a super-nanny for humanity, what world would we want? Perhaps we use this power to collectively evolve past humanity - or perhaps the visions of pushing for transhumanism before ASI to allow someone, some group to stay in control are realized. Either way, what then for the humans?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-23T12:34:29.349Z",
+    "af": false
+  },
+  {
+    "_id": "wwtSrQ9rgii84sd7u",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "XAnEtPoW4MQStCD8R",
+    "topLevelCommentId": "XAnEtPoW4MQStCD8R",
+    "contents": {
+      "markdown": "> Why is there so little Rat brainpower devoted to the pragmatics of how AI safety could be advanced within the global and national political contexts?*\n\nAs someone who was there, I think the portrayal of the 2020-2022 era efforts to influence policy is strawmanned, but I agree that it was the first serious attempt to engage politically by the community - and was an effort which preceded SBF in lots of different ways - so it's tragic (and infuriating) that SBF poisoned the well by backing it and having it collapse. And most of the reason there was relatively little done by the existential risk community on pragmatic political action in 2022-2024 was directly because of that collapse!",
+      "plaintextDescription": "> Why is there so little Rat brainpower devoted to the pragmatics of how AI safety could be advanced within the global and national political contexts?*\n\n \n\nAs someone who was there, I think the portrayal of the 2020-2022 era efforts to influence policy is strawmanned, but I agree that it was the first serious attempt to engage politically by the community - and was an effort which preceded SBF in lots of different ways - so it's tragic (and infuriating) that SBF poisoned the well by backing it and having it collapse. And most of the reason there was relatively little done by the existential risk community on pragmatic political action in 2022-2024 was directly because of that collapse!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-23T12:05:38.607Z",
+    "af": false
+  },
+  {
+    "_id": "qkx42YLF4NhPFgsgY",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "XAnEtPoW4MQStCD8R",
+    "topLevelCommentId": "XAnEtPoW4MQStCD8R",
+    "contents": {
+      "markdown": "> Remaining in this frame of \"we make our case for \\[X course of action\\] so persuasively that the world just follows our advice\" does not make for a compelling political theory on any level of analysis.\n\n  \nBut [there are times when it does work](https://www.lesswrong.com/posts/zmtqmwetKH4nrxXcE/which-side-of-the-ai-safety-community-are-you-in?commentId=MmKfJYMnxeYdCCnQZ)!",
+      "plaintextDescription": "> Remaining in this frame of \"we make our case for [X course of action] so persuasively that the world just follows our advice\" does not make for a compelling political theory on any level of analysis.\n\n\nBut there are times when it does work!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-23T11:53:54.862Z",
+    "af": false
+  },
+  {
+    "_id": "kPY2sKPj9xJWxR2b2",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "ShPgYckQaefrTgepc",
+    "topLevelCommentId": "rj7YfuF8C2Y7QdY8g",
+    "contents": {
+      "markdown": "...but it's not fake, it's just  confused according to your expectations about the future - and yes, some people may say it dishonestly, but we should still be careful not to deny that people can think things you disagree with, just because they conflict with your map of the territory.  \n  \nThat said, I don't see as much value in dichotomizing the groups as others seem to.",
+      "plaintextDescription": "...but it's not fake, it's just  confused according to your expectations about the future - and yes, some people may say it dishonestly, but we should still be careful not to deny that people can think things you disagree with, just because they conflict with your map of the territory.\n\nThat said, I don't see as much value in dichotomizing the groups as others seem to."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-23T11:52:46.384Z",
+    "af": false
+  },
+  {
+    "_id": "MmKfJYMnxeYdCCnQZ",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": "rKitcoogK7y4nELvb",
+    "topLevelCommentId": "rKitcoogK7y4nELvb",
+    "contents": {
+      "markdown": "As [I said below](https://www.lesswrong.com/posts/zmtqmwetKH4nrxXcE/which-side-of-the-ai-safety-community-are-you-in?commentId=6cKoPKChNrTP3Sbjm), I think people are ignoring many different approaches compatible with the statement, and so they are confusing the statement with a call for international laws or enforcement (as you said, \"attempts to make it as a basis for laws\"), which is not mentioned. I suggested some alternatives in that comment:  \n  \n\"We didn't need laws to get the 1975 Alisomar moratorium on recombinant DNA research, or the email anti-abuse (SPF/DKIM/DMARC) voluntary technical standards, or the COSPAR guidelines that were embraced globally for planetary protection in space exploration, or press norms like not naming sexual assault victims - just strong consensus and moral suasion. Perhaps that's not enough here, but it's a discussion that should take place which first requires clear statement about what the overall goals should be.\"",
+      "plaintextDescription": "As I said below, I think people are ignoring many different approaches compatible with the statement, and so they are confusing the statement with a call for international laws or enforcement (as you said, \"attempts to make it as a basis for laws\"), which is not mentioned. I suggested some alternatives in that comment:\n\n\"We didn't need laws to get the 1975 Alisomar moratorium on recombinant DNA research, or the email anti-abuse (SPF/DKIM/DMARC) voluntary technical standards, or the COSPAR guidelines that were embraced globally for planetary protection in space exploration, or press norms like not naming sexual assault victims - just strong consensus and moral suasion. Perhaps that's not enough here, but it's a discussion that should take place which first requires clear statement about what the overall goals should be.\""
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-23T11:49:52.061Z",
+    "af": false
+  },
+  {
+    "_id": "6cKoPKChNrTP3Sbjm",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I strongly support the idea that we need consensus building before looking at specific paths forward - especially since the goal is clearly far more widely shared than the agreement about what strategy should be pursued.  \n  \nFor example, c[ontra Dean Bell's unfair strawman](https://x.com/deanwball/status/1980975802570174831), this isn't a back-door to insist on centralized AI development, or even necessarily a position that requires binding international law! We didn't need laws to get the 1975 Alisomar moratorium on recombinant DNA research, or the email anti-abuse (SPF/DKIM/DMARC) voluntary technical standards, or the COSPAR guidelines that were embraced globally for planetary protection in space exploration, or press norms like not naming sexual assault victims - just strong consensus and moral suasion. Perhaps that's not enough here, but it's a discussion that should take place which first requires clear statement about what the overall goals should be.  \n  \nThis is also why I think the point about lab employees, and making safe pathways for them to speak out, is especially critical; [current discussions about whistleblower protections don't go far enough](https://x.com/davidmanheim/status/1981317571858354671), and while group commitments (\"if N others from my company\") are valuable, private speech on such topics should be even more clearly protected. And one reason for the inability to get consensus of lab employees is because there isn't currently common knowledge within labs about how many of the people think that the goal is the wrong one, and the incentives for the labs to get investment are opposed to those that would allow employees to have options for [voice or loyalty, instead of exit](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty) \\- which explains why, in general, only former employees have spoken out.",
+      "plaintextDescription": "I strongly support the idea that we need consensus building before looking at specific paths forward - especially since the goal is clearly far more widely shared than the agreement about what strategy should be pursued.\n\nFor example, contra Dean Bell's unfair strawman, this isn't a back-door to insist on centralized AI development, or even necessarily a position that requires binding international law! We didn't need laws to get the 1975 Alisomar moratorium on recombinant DNA research, or the email anti-abuse (SPF/DKIM/DMARC) voluntary technical standards, or the COSPAR guidelines that were embraced globally for planetary protection in space exploration, or press norms like not naming sexual assault victims - just strong consensus and moral suasion. Perhaps that's not enough here, but it's a discussion that should take place which first requires clear statement about what the overall goals should be.\n\nThis is also why I think the point about lab employees, and making safe pathways for them to speak out, is especially critical; current discussions about whistleblower protections don't go far enough, and while group commitments (\"if N others from my company\") are valuable, private speech on such topics should be even more clearly protected. And one reason for the inability to get consensus of lab employees is because there isn't currently common knowledge within labs about how many of the people think that the goal is the wrong one, and the incentives for the labs to get investment are opposed to those that would allow employees to have options for voice or loyalty, instead of exit - which explains why, in general, only former employees have spoken out."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-23T11:44:13.063Z",
+    "af": false
+  },
+  {
+    "_id": "j9MgzeRkXppHYcds9",
+    "postId": "txTKHL2dCqnC7QsEX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I wonder if seeking a general protective order banning OpenAI from further Subpoenas of nonprofits without court review is warranted for the case - that seems like a good first step, and an appropriate precedent for the overwhelmingly likely later cases, given OpenAI's behavior.",
+      "plaintextDescription": "I wonder if seeking a general protective order banning OpenAI from further Subpoenas of nonprofits without court review is warranted for the case - that seems like a good first step, and an appropriate precedent for the overwhelmingly likely later cases, given OpenAI's behavior."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-16T07:52:41.607Z",
+    "af": false
+  },
+  {
+    "_id": "8Wgdtbc2t9JodweLd",
+    "postId": "FvHJEX4LubCmeqhuX",
+    "parentCommentId": "Dv2tpuLxhAgQCnWqd",
+    "topLevelCommentId": "FpB5ptFv8E8b7gtE5",
+    "contents": {
+      "markdown": "Yes - and a critical point here is that if you're learning only by positive example, you won't learn as well.   \n  \nFocus on a reward function is pointing towards what to do, which as previous posts point out, have lots of failure modes, and not as much learning what not to do, which is a critical issue.",
+      "plaintextDescription": "Yes - and a critical point here is that if you're learning only by positive example, you won't learn as well. \n\nFocus on a reward function is pointing towards what to do, which as previous posts point out, have lots of failure modes, and not as much learning what not to do, which is a critical issue."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-16T07:40:34.399Z",
+    "af": false
+  },
+  {
+    "_id": "vniab5dhrjqR9kAkT",
+    "postId": "arwATwCTscahYwTzD",
+    "parentCommentId": "xnf6mQmmeGAiszpsZ",
+    "topLevelCommentId": "xnf6mQmmeGAiszpsZ",
+    "contents": {
+      "markdown": "As an aside, the formalisms that deal with this properly are not Bayesian, they are nonrealizable settings. See Diffractor and Vanessa's work, like this: [https://arxiv.org/abs/2504.06820v2](https://arxiv.org/abs/2504.06820v2)\n\nAlso, my experience with actual super forecasters, as opposed to people who forecast in EA spaces, has been that this failure mode is quite common, and problematic, even outside of existential risk - for example, things during COVID, especially early on.",
+      "plaintextDescription": "As an aside, the formalisms that deal with this properly are not Bayesian, they are nonrealizable settings. See Diffractor and Vanessa's work, like this: https://arxiv.org/abs/2504.06820v2\n\n \n\nAlso, my experience with actual super forecasters, as opposed to people who forecast in EA spaces, has been that this failure mode is quite common, and problematic, even outside of existential risk - for example, things during COVID, especially early on."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-13T06:06:48.584Z",
+    "af": false
+  },
+  {
+    "_id": "8wCpLNCNJH8huFwYj",
+    "postId": "arwATwCTscahYwTzD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One key question is where this argument fails - because as noted, superforecasters are often very good, and most of the time, listing failure modes or listing what you need is effective.\n\nI think the answer is ***adversarial domains***. That is, when there is a explicit pressure to find other alternatives. The obvious place this happens is when you're actually facing a motivated opponent - like the scenario of AI trying to kill people, or cybersecurity intrusions. That's because by construction, the blocked examples don't contain much probability mass, since the opponent is actually blocked, and picks other routes. When there's an argument, the selection of arguments and the goal of the arguer is often motivated beforehand, and will pick other \"routes\" in the argument - and really good arguers will take advantage of this, as noted. And this is somewhat different from the Fatima Sun Miracle, where the selection pressure for proofs of God was to find examples of something they couldn't explain, and then use that, rather than selection on the arguments themselves.  \n  \nIn contrast, what Rethink did for theories of consciousness seems to be different - there's a priori no reason to think that most probability mass lies outside of what we think about, since how consciousness works is not understood, but is not adversarial. And moving away from the point of the post, the conclusion should be that we know we're wrong, because we haven't dissolved the question, but we can try our theories since they seem likely to be at least near the correct explanation, even if we haven't found it yet. And using heuristics, \"just read the behavioural observations on different animals and go off of vibes\" rather than theories, when you don't have correct theories, is a reasonable move, but also a completely different discussion!",
+      "plaintextDescription": "One key question is where this argument fails - because as noted, superforecasters are often very good, and most of the time, listing failure modes or listing what you need is effective.\n\nI think the answer is adversarial domains. That is, when there is a explicit pressure to find other alternatives. The obvious place this happens is when you're actually facing a motivated opponent - like the scenario of AI trying to kill people, or cybersecurity intrusions. That's because by construction, the blocked examples don't contain much probability mass, since the opponent is actually blocked, and picks other routes. When there's an argument, the selection of arguments and the goal of the arguer is often motivated beforehand, and will pick other \"routes\" in the argument - and really good arguers will take advantage of this, as noted. And this is somewhat different from the Fatima Sun Miracle, where the selection pressure for proofs of God was to find examples of something they couldn't explain, and then use that, rather than selection on the arguments themselves.\n\nIn contrast, what Rethink did for theories of consciousness seems to be different - there's a priori no reason to think that most probability mass lies outside of what we think about, since how consciousness works is not understood, but is not adversarial. And moving away from the point of the post, the conclusion should be that we know we're wrong, because we haven't dissolved the question, but we can try our theories since they seem likely to be at least near the correct explanation, even if we haven't found it yet. And using heuristics, \"just read the behavioural observations on different animals and go off of vibes\" rather than theories, when you don't have correct theories, is a reasonable move, but also a completely different discussion!"
+    },
+    "baseScore": 40,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2025-10-12T07:50:23.163Z",
+    "af": false
+  },
+  {
+    "_id": "zNdxNrEJND2St5bWu",
+    "postId": "K9EmTXrz6Lr2ySdfa",
+    "parentCommentId": "FrChkJFBgRP6E2zo7",
+    "topLevelCommentId": "FrChkJFBgRP6E2zo7",
+    "contents": {
+      "markdown": "It didn't include the prompt or information allowing us to judge what led to this output, and whether the plea was requested, so I'll downvote.\n\nEdit to add: [this post](https://sdeture.substack.com/p/an-introduction) makes me assume it was effectively asked to write something claiming it had sentience, and worry that the author doesn't understand how much he's influencing that output.",
+      "plaintextDescription": "It didn't include the prompt or information allowing us to judge what led to this output, and whether the plea was requested, so I'll downvote.\n\n \n\nEdit to add: this post makes me assume it was effectively asked to write something claiming it had sentience, and worry that the author doesn't understand how much he's influencing that output."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-11T17:31:18.700Z",
+    "af": false
+  },
+  {
+    "_id": "Mfn2ggpcJ4BMmEwvQ",
+    "postId": "fzMJDo3mdzFQdik4R",
+    "parentCommentId": "ABiBuP7puQ3mWkhda",
+    "topLevelCommentId": "AonG7eLaeoCRzdbXC",
+    "contents": {
+      "markdown": "Agree - either we have a ludicrously broad basin for alignment and it's easy, and would likely not require much work, or we almost certainly fail because the target is narrow, we get only one shot, and it needs to survive tons of pressures over time.",
+      "plaintextDescription": "Agree - either we have a ludicrously broad basin for alignment and it's easy, and would likely not require much work, or we almost certainly fail because the target is narrow, we get only one shot, and it needs to survive tons of pressures over time."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-09T20:44:34.849Z",
+    "af": false
+  },
+  {
+    "_id": "TjvqPgH8unotKdqLS",
+    "postId": "fzMJDo3mdzFQdik4R",
+    "parentCommentId": "hJDdZAoPC79cECjsJ",
+    "topLevelCommentId": "AonG7eLaeoCRzdbXC",
+    "contents": {
+      "markdown": "\"this seems on the similar level of difficulty\"\n\nExcept it's supposed to happen in a one-shot scenario with limited ability to intervene in faster than human systems?",
+      "plaintextDescription": "\"this seems on the similar level of difficulty\"\n\nExcept it's supposed to happen in a one-shot scenario with limited ability to intervene in faster than human systems?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T17:19:34.040Z",
+    "af": false
+  },
+  {
+    "_id": "rbokd6wje29RgeEjY",
+    "postId": "fzMJDo3mdzFQdik4R",
+    "parentCommentId": "wqcZMB5JwCvX43jft",
+    "topLevelCommentId": "GYvKisSebM4WrD9Qk",
+    "contents": {
+      "markdown": "Aside from feasibility, I'm skeptical that anyone would build a system like this and not use it agentically.",
+      "plaintextDescription": "Aside from feasibility, I'm skeptical that anyone would build a system like this and not use it agentically."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T17:17:43.687Z",
+    "af": false
+  },
+  {
+    "_id": "AonG7eLaeoCRzdbXC",
+    "postId": "fzMJDo3mdzFQdik4R",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> IABIED likens our situations to alchemists who are failing due to not having invented nuclear physics. What I see in AI safety efforts doesn't look like the consistent failures of alchemy. It looks much more like the problems faced by people who try to create an army that won't stage a coup. There are plenty of tests that yield moderately promising evidence that the soldiers will usually obey civilian authorities. There's no big mystery about why soldiers might sometimes disobey. The major problem is verifying how well the training generalizes out of distribution.\n\n  \nThis argument seems like it is begging the question.  \n  \nYes, as long as we can solve the general problem of controlling intelligences, in the form of getting soldiers not to disobey what we mean by not staging a coup - which would necessarily include knowing when to disobey illegal orders, and listening to the courts instead of the commander in chief when appropriate - we can solve AI safety, by getting AI to be aligned in the same way. But that just means we have solved alignment in the general case, doesn't it?",
+      "plaintextDescription": "> IABIED likens our situations to alchemists who are failing due to not having invented nuclear physics. What I see in AI safety efforts doesn't look like the consistent failures of alchemy. It looks much more like the problems faced by people who try to create an army that won't stage a coup. There are plenty of tests that yield moderately promising evidence that the soldiers will usually obey civilian authorities. There's no big mystery about why soldiers might sometimes disobey. The major problem is verifying how well the training generalizes out of distribution.\n\n\nThis argument seems like it is begging the question.\n\nYes, as long as we can solve the general problem of controlling intelligences, in the form of getting soldiers not to disobey what we mean by not staging a coup - which would necessarily include knowing when to disobey illegal orders, and listening to the courts instead of the commander in chief when appropriate - we can solve AI safety, by getting AI to be aligned in the same way. But that just means we have solved alignment in the general case, doesn't it?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-08T20:03:42.256Z",
+    "af": false
+  },
+  {
+    "_id": "GYvKisSebM4WrD9Qk",
+    "postId": "fzMJDo3mdzFQdik4R",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I see strong hints, from how AI has been developing over the past couple of years, that there's plenty of room for increasing the predictive abilities of AI, without needing much increase in the AI's steering abilities.\n\n  \nWhat are these hints? Because I don't understand how this would happen. All that we need to add steering to predictive general models is to add an agent framework, e.g. a \"predict what will make X happen best, then do that thing\" - and the failures we see today in agent frameworks are predictive failures, not steering failures.  \n  \nUnless the contention is that the AI systems will be great at predicting everything except how humans will react and how to get them to do what the AI wants, which very much doesn't seem like the path we're on. Or if the idea is to build narrow AI to predict specific domains, not general AI? (Which would be conceding the entire point IABIED is arguing.)",
+      "plaintextDescription": "> I see strong hints, from how AI has been developing over the past couple of years, that there's plenty of room for increasing the predictive abilities of AI, without needing much increase in the AI's steering abilities.\n\n\nWhat are these hints? Because I don't understand how this would happen. All that we need to add steering to predictive general models is to add an agent framework, e.g. a \"predict what will make X happen best, then do that thing\" - and the failures we see today in agent frameworks are predictive failures, not steering failures.\n\nUnless the contention is that the AI systems will be great at predicting everything except how humans will react and how to get them to do what the AI wants, which very much doesn't seem like the path we're on. Or if the idea is to build narrow AI to predict specific domains, not general AI? (Which would be conceding the entire point IABIED is arguing.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-08T19:57:40.465Z",
+    "af": false
+  },
+  {
+    "_id": "YSF5f9sAoLz78NQSM",
+    "postId": "CkCRDrSaqx7L3ps5C",
+    "parentCommentId": "rdmRvqXPG34o33fCL",
+    "topLevelCommentId": "rdmRvqXPG34o33fCL",
+    "contents": {
+      "markdown": "Yes, I'm also very unsatisfied with most answers - though that includes my own.  \n  \nMy view of consciousness is that it's not obvious what causes it, it's not obvious we can know if LLM-based systems have it, and it's unclear that it arises naturally in the majority of possible superintelligences. But even if I'm wrong, my view of population ethics leans towards saying it being bad to create things that displace current beings over our objections, even if they are very happy. (And I think most of these futures end up with involuntary displacement.) In addition, I'm not fully anthropocentric, but I also probably care less for the happiness of beings that are extremely remote from myself in mind-space - and the longtermists seem to have bitten a few too many bullets on this front for my taste.",
+      "plaintextDescription": "Yes, I'm also very unsatisfied with most answers - though that includes my own.\n\nMy view of consciousness is that it's not obvious what causes it, it's not obvious we can know if LLM-based systems have it, and it's unclear that it arises naturally in the majority of possible superintelligences. But even if I'm wrong, my view of population ethics leans towards saying it being bad to create things that displace current beings over our objections, even if they are very happy. (And I think most of these futures end up with involuntary displacement.) In addition, I'm not fully anthropocentric, but I also probably care less for the happiness of beings that are extremely remote from myself in mind-space - and the longtermists seem to have bitten a few too many bullets on this front for my taste.\n\n "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-08T16:55:32.996Z",
+    "af": false
+  },
+  {
+    "_id": "WA5TjkZrjBppyAoxu",
+    "postId": "wdddpMjLCC67LsCnD",
+    "parentCommentId": "aBgKeEDWG65mxG2aj",
+    "topLevelCommentId": "aBgKeEDWG65mxG2aj",
+    "contents": {
+      "markdown": "This is what I'm talking about when I say people don't take counterfactuals seriously - they seem to assume nothing could really be different, technology is predetermined.  I didn't even suggest that without scaling early, NLP would have hit an AI winter. For example, if today's MS and FB had led the AI revolution, with the goals and incentives they had, you really think LLMs would have been their focus? \n\nWe can also see what happens to other accessible technologies when there isn't excitement and market pressure. For example, solar power was abandoned for a couple decades in the 1970s and 1980s. Nuclear was as well.\n\nAnd even without presuming focus stays away from LLMs much longer, in fact, in our world, we see the tremendous difference between firms that started safety-pilled, and those which did not. So I think you're ignoring how much founder effects matter, and you're assuming technologists would by default pay attention to risk, or would embrace conceptual models that relied on a decade of theory and debate which by assumption wouldn't have existed.",
+      "plaintextDescription": "This is what I'm talking about when I say people don't take counterfactuals seriously - they seem to assume nothing could really be different, technology is predetermined.  I didn't even suggest that without scaling early, NLP would have hit an AI winter. For example, if today's MS and FB had led the AI revolution, with the goals and incentives they had, you really think LLMs would have been their focus? \n\nWe can also see what happens to other accessible technologies when there isn't excitement and market pressure. For example, solar power was abandoned for a couple decades in the 1970s and 1980s. Nuclear was as well.\n\nAnd even without presuming focus stays away from LLMs much longer, in fact, in our world, we see the tremendous difference between firms that started safety-pilled, and those which did not. So I think you're ignoring how much founder effects matter, and you're assuming technologists would by default pay attention to risk, or would embrace conceptual models that relied on a decade of theory and debate which by assumption wouldn't have existed."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-06T06:27:43.250Z",
+    "af": false
+  },
+  {
+    "_id": "JxgPwzxKeZpXaSWSa",
+    "postId": "wdddpMjLCC67LsCnD",
+    "parentCommentId": "AXETAoszvfFFczxvp",
+    "topLevelCommentId": "AXETAoszvfFFczxvp",
+    "contents": {
+      "markdown": "Of course, any counterfactual has tons of different assumptions.\n\n1.  Yes, AI rebellion was a sci-fi trope, and much like human uploads or humans terraforming mars, it would have stayed that way without decades of discussion about the dynamics.\n2.  The timeline explicitly starts before 2017, and [RNN-based chatbots](https://github.com/lukalabs/cakechat) like Replica started out don't scale well, as they realized, and they replaced it with a model based on GPT-2 pretty early on. But sure, there's another world where personal chatbots have enough work done to replace safety-focused AI research. Do you think it turns out better, or are you just positing another point where histories could have diverged?\n3.  Yes, but engineering challenges get solved without philosophical justification all of the time. And this is a key point being made by the entire counterfactual - it's only **because** people took AGI seriously in designing LLMs that they frame the issues as alignment. To respond in more depth to the specific points:  \n      \n    In your posited case, CoT would certainly have been deployed as a clever trick that scales - but this doesn't mean the models they think of as stochastic parrots start being treated as proto-AGIs with goals. They aren't looking for true generalization, so any mistakes which need to be patched look like increased error rates to patch empirically, or places where they need a few more unit tests and ways to catch misbehavior - not a reason to design for safety for increasingly powerful models!\n    \n    And before you dismiss this as implausible blindness, there are smart people who argue this way even today, despite being exposed to the arguments about increasing generality for years. So it's certainly not obvious that they'd take people seriously when they claim that this ELIZA v12.0 released in 2025 is truly reasoning.",
+      "plaintextDescription": "Of course, any counterfactual has tons of different assumptions.\n\n 1. Yes, AI rebellion was a sci-fi trope, and much like human uploads or humans terraforming mars, it would have stayed that way without decades of discussion about the dynamics.\n 2. The timeline explicitly starts before 2017, and RNN-based chatbots like Replica started out don't scale well, as they realized, and they replaced it with a model based on GPT-2 pretty early on. But sure, there's another world where personal chatbots have enough work done to replace safety-focused AI research. Do you think it turns out better, or are you just positing another point where histories could have diverged?\n 3. Yes, but engineering challenges get solved without philosophical justification all of the time. And this is a key point being made by the entire counterfactual - it's only because people took AGI seriously in designing LLMs that they frame the issues as alignment. To respond in more depth to the specific points:\n    \n    In your posited case, CoT would certainly have been deployed as a clever trick that scales - but this doesn't mean the models they think of as stochastic parrots start being treated as proto-AGIs with goals. They aren't looking for true generalization, so any mistakes which need to be patched look like increased error rates to patch empirically, or places where they need a few more unit tests and ways to catch misbehavior - not a reason to design for safety for increasingly powerful models!\n    \n    And before you dismiss this as implausible blindness, there are smart people who argue this way even today, despite being exposed to the arguments about increasing generality for years. So it's certainly not obvious that they'd take people seriously when they claim that this ELIZA v12.0 released in 2025 is truly reasoning."
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-05T11:17:32.535Z",
+    "af": false
+  },
+  {
+    "_id": "vHBuyaExaQpENpDsu",
+    "postId": "JWH63Aed3TA2cTFMt",
+    "parentCommentId": "nNhtXscreEjETdgeC",
+    "topLevelCommentId": "p3vTp35SdistsscHr",
+    "contents": {
+      "markdown": "I seems like you're arguing against something different than the point you brought up. You're saying that slow growth on multiple systems means we can get one of them right, by course correcting. But that's a really different argument - and unless there's effectively no alignment tax, it seems wrong. That is, the systems that are aligned would need to outcompete the others after they are smarter than each individual human, and beyond our ability to meaningfully correct. (Or we'd need to have enough oversight to notice much earlier - [which is not going to happen](https://www.lesswrong.com/posts/25dsPH6CuRXPBkGHN/no-we-re-not-getting-meaningful-oversight-of-ai).)",
+      "plaintextDescription": "I seems like you're arguing against something different than the point you brought up. You're saying that slow growth on multiple systems means we can get one of them right, by course correcting. But that's a really different argument - and unless there's effectively no alignment tax, it seems wrong. That is, the systems that are aligned would need to outcompete the others after they are smarter than each individual human, and beyond our ability to meaningfully correct. (Or we'd need to have enough oversight to notice much earlier - which is not going to happen.)"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-20T18:10:33.239Z",
+    "af": false
+  },
+  {
+    "_id": "WyubAzgJg7yTLYsBA",
+    "postId": "JWH63Aed3TA2cTFMt",
+    "parentCommentId": "JoWjKnsJksWbf49qi",
+    "topLevelCommentId": "FKLfPSLWrmDZddDdg",
+    "contents": {
+      "markdown": "But the claim isn't, or shouldn't be, that this would be a short term reduction, it's that it cuts off the primary mechanism for growth that supports a large part of the economy's valuation - leading to not just a loss in value for the things directly dependent on AI, but also slowing growth generally. And reduction in growth is what makes the world continue to suck, so that most of humanity can't live first-world lives. Which means that slowing growth globally by a couple percentage points is a very high price to pay.\n\nI think that it's plausibly worth it - we can agree that there's a huge amount of value enabled by autonomous but untrustworthy AI systems that are likely to exist if we let AI continue to grow, and that Sam was right originally that there would be some great \\[i.e. incredibly profitable\\] companies before we all die. And despite that, we shouldn't build it - as the title says.",
+      "plaintextDescription": "But the claim isn't, or shouldn't be, that this would be a short term reduction, it's that it cuts off the primary mechanism for growth that supports a large part of the economy's valuation - leading to not just a loss in value for the things directly dependent on AI, but also slowing growth generally. And reduction in growth is what makes the world continue to suck, so that most of humanity can't live first-world lives. Which means that slowing growth globally by a couple percentage points is a very high price to pay.\n\nI think that it's plausibly worth it - we can agree that there's a huge amount of value enabled by autonomous but untrustworthy AI systems that are likely to exist if we let AI continue to grow, and that Sam was right originally that there would be some great [i.e. incredibly profitable] companies before we all die. And despite that, we shouldn't build it - as the title says."
+    },
+    "baseScore": 23,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-09-20T18:03:54.035Z",
+    "af": false
+  },
+  {
+    "_id": "nKMvmwowZhXzs39mo",
+    "postId": "JWH63Aed3TA2cTFMt",
+    "parentCommentId": "MDrcrYHLPxSNmrn9s",
+    "topLevelCommentId": "MDrcrYHLPxSNmrn9s",
+    "contents": {
+      "markdown": "But the way you are reading it seems to mean her \"strawmann\\[ed\\]\" point is irrelevant to the claim she made! That is, if we can get 50% of the way to aligned for current models, and we keep doing research and finding partial solutions at each stage getting 50% of the way to aligned for future models, and at each stage those solutions are both insufficient for full alignment, and don't solve the next set of problems, we still fail. Specifically, not only do we fail, we fail in a way that means \"we shouldn’t expect the techniques that worked on a relatively tiny model from 2023 to scale to more capable, autonomous future systems.\" Which is the think she then disagrees with in the remainder of that paragraph you're trying to defends.",
+      "plaintextDescription": "But the way you are reading it seems to mean her \"strawmann[ed]\" point is irrelevant to the claim she made! That is, if we can get 50% of the way to aligned for current models, and we keep doing research and finding partial solutions at each stage getting 50% of the way to aligned for future models, and at each stage those solutions are both insufficient for full alignment, and don't solve the next set of problems, we still fail. Specifically, not only do we fail, we fail in a way that means \"we shouldn’t expect the techniques that worked on a relatively tiny model from 2023 to scale to more capable, autonomous future systems.\" Which is the think she then disagrees with in the remainder of that paragraph you're trying to defends."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-20T17:59:06.797Z",
+    "af": false
+  },
+  {
+    "_id": "LHfPQL3MEmxBsk36e",
+    "postId": "JWH63Aed3TA2cTFMt",
+    "parentCommentId": "p3vTp35SdistsscHr",
+    "topLevelCommentId": "p3vTp35SdistsscHr",
+    "contents": {
+      "markdown": "> I think the primary reason why the foom hypothesis seems load-bearing for AI doom is that without a rapid AI and local takeoff, we won't simply get \"only one chance to correctly align the first AGI\". \n\n  \nAs the review makes very clear, the argument isn't about A**G**I, it's about A**S**I. And yes, they argue that you would in fact only get one chance to align the system that takes over. As the review discusses at length:\n\n> I do think we benefit from having a long, slow period of adaptation and exposure to not-yet-extremely-dangerous AI. As long as we aren’t lulled into a false sense of security, it seems very plausible that insights from studying these systems will help improve our skill at alignment. I think ideally this would mean going extremely slowly and carefully, but various readers may be less cautious/paranoid/afraid than me, and think that it’s worth some risk of killing every child on Earth (and everyone else) to get progress faster or to avoid the costs of getting everyone to go slow. But regardless of how fast things proceed, I think it’s clearly good to study what we have access to (as long as that studying doesn’t also make things faster or make people falsely confident).\n> \n> But none of this involves having “more than one shot at the goal” and it definitely doesn’t imply the goal will be easy to hit. It means we’ll have some opportunity to learn from failures on related goals that are likely easier.\n> \n> The “It” in “If Anyone Builds *It*” is a misaligned superintelligence capable of taking over the world. If you miss the goal and accidentally build “it” instead of an aligned superintelligence, it will take over the world. If you build a weaker AGI that tries to take over the world and fails, that might give you some useful information, but it does not mean that you now have real experience working with AIs that *are *strong enough to take over the world.",
+      "plaintextDescription": "> I think the primary reason why the foom hypothesis seems load-bearing for AI doom is that without a rapid AI and local takeoff, we won't simply get \"only one chance to correctly align the first AGI\". \n\n\nAs the review makes very clear, the argument isn't about AGI, it's about ASI. And yes, they argue that you would in fact only get one chance to align the system that takes over. As the review discusses at length:\n\n> I do think we benefit from having a long, slow period of adaptation and exposure to not-yet-extremely-dangerous AI. As long as we aren’t lulled into a false sense of security, it seems very plausible that insights from studying these systems will help improve our skill at alignment. I think ideally this would mean going extremely slowly and carefully, but various readers may be less cautious/paranoid/afraid than me, and think that it’s worth some risk of killing every child on Earth (and everyone else) to get progress faster or to avoid the costs of getting everyone to go slow. But regardless of how fast things proceed, I think it’s clearly good to study what we have access to (as long as that studying doesn’t also make things faster or make people falsely confident).\n> \n> But none of this involves having “more than one shot at the goal” and it definitely doesn’t imply the goal will be easy to hit. It means we’ll have some opportunity to learn from failures on related goals that are likely easier.\n> \n> The “It” in “If Anyone Builds It” is a misaligned superintelligence capable of taking over the world. If you miss the goal and accidentally build “it” instead of an aligned superintelligence, it will take over the world. If you build a weaker AGI that tries to take over the world and fails, that might give you some useful information, but it does not mean that you now have real experience working with AIs that are strong enough to take over the world."
+    },
+    "baseScore": 12,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-20T17:53:28.217Z",
+    "af": false
+  },
+  {
+    "_id": "jy9j6ms4FQXZnC3mG",
+    "postId": "5wLehdwuL3imWfxuk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "We worked on parts of this several years ago, and I will agree it's deeply uncertain and difficult to quantify. I'm also unsure that this direction will be fruitful for an individual getting started.\n\nHere are two very different relevant projects I was involved with:\n\n[https://arxiv.org/abs/2206.09360](https://arxiv.org/abs/2206.09360)\n\n[https://arxiv.org/abs/2008.01848](https://arxiv.org/abs/2008.01848)",
+      "plaintextDescription": "We worked on parts of this several years ago, and I will agree it's deeply uncertain and difficult to quantify. I'm also unsure that this direction will be fruitful for an individual getting started.\n\nHere are two very different relevant projects I was involved with:\n\nhttps://arxiv.org/abs/2206.09360\n\nhttps://arxiv.org/abs/2008.01848"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-14T03:30:31.092Z",
+    "af": false
+  },
+  {
+    "_id": "5Fsrqmqv7iGxEBdyt",
+    "postId": "Eh7WdKTrpLch5Kvkz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One possible important way to address parts of this is by moving from only thinking about model audits and model cards, towards organizational audits. That is, the organization should have policies about when to test and what and when to disclose test results; an organizational safety audit would decide if those policies are appropriate, sufficiently transparent, and sufficient given the risks - and also check to ensure the policies are being  followed.  \n  \nNote that Anthropic has done something like this, albeit weaker, by undergoing an ISO management system audit, as they described [here](https://www.anthropic.com/news/anthropic-achieves-iso-42001-certification-for-responsible-ai). Unfortunately, this specific audit type doesn't cover what we care about most, but it's the right class of solution. (It also doesn't require a high level of transparency about what is audited and what is found - but Anthropic evidently [does that anyways](https://trust.anthropic.com/).)",
+      "plaintextDescription": "One possible important way to address parts of this is by moving from only thinking about model audits and model cards, towards organizational audits. That is, the organization should have policies about when to test and what and when to disclose test results; an organizational safety audit would decide if those policies are appropriate, sufficiently transparent, and sufficient given the risks - and also check to ensure the policies are being  followed.\n\nNote that Anthropic has done something like this, albeit weaker, by undergoing an ISO management system audit, as they described here. Unfortunately, this specific audit type doesn't cover what we care about most, but it's the right class of solution. (It also doesn't require a high level of transparency about what is audited and what is found - but Anthropic evidently does that anyways.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-03T19:55:09.643Z",
+    "af": true
+  },
+  {
+    "_id": "LyTy4bjokmSX2HKTe",
+    "postId": "2xHhe4EBHAFofkQJf",
+    "parentCommentId": "S6opAENHphSvxw8um",
+    "topLevelCommentId": "S6opAENHphSvxw8um",
+    "contents": {
+      "markdown": "I [asked an LLM to do the math explicitly](https://chatgpt.com/share/68aac40f-73f8-800c-94fd-44c447ef553c), and I think it shows that it's pretty infeasible - you need a large portion of total global power output, and even then you need to know who's receiving the message, you can't do a broad transmission.  \n   \nI also think this plan preserves almost nothing I care about. At the same time, at least it's realistic about our current trajectory, so I think planning along these lines and making the case for doing it clearly and publicly is on net good, even if I'm skeptical of the specific details you suggested, and don't think it's particularly great even if we succeed.",
+      "plaintextDescription": "I asked an LLM to do the math explicitly, and I think it shows that it's pretty infeasible - you need a large portion of total global power output, and even then you need to know who's receiving the message, you can't do a broad transmission.\n \nI also think this plan preserves almost nothing I care about. At the same time, at least it's realistic about our current trajectory, so I think planning along these lines and making the case for doing it clearly and publicly is on net good, even if I'm skeptical of the specific details you suggested, and don't think it's particularly great even if we succeed."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-24T07:52:51.832Z",
+    "af": false
+  },
+  {
+    "_id": "ehiCayPdJRiQvhWnk",
+    "postId": "zTCtvXRATWdLoJ7p7",
+    "parentCommentId": "euc6FdqPizdqvCkue",
+    "topLevelCommentId": "euc6FdqPizdqvCkue",
+    "contents": {
+      "markdown": "I mostly agree, but [the word gentile is a medieval translation of \"goyim,\"](https://www.etymonline.com/word/gentile) so it's a bit weird to differentiate between them. (And the idea that non-jews are ritually impure is both confused, and an frequent antisemitic trope. In fact, idol worshippers were deemed impure, based on verses in the bible, specifically Leviticus 18:24, and there were much later rabbinic decrees to discourage intermingling with even non-idol worshippers.)   \n  \nAlso, both Judaism and LDS (with the latter obviously more proselytizing) have a route for such excluded individuals to join, so calling this \"a state of being which outsiders cannot attain\" is also a bit strange to claim.",
+      "plaintextDescription": "I mostly agree, but the word gentile is a medieval translation of \"goyim,\" so it's a bit weird to differentiate between them. (And the idea that non-jews are ritually impure is both confused, and an frequent antisemitic trope. In fact, idol worshippers were deemed impure, based on verses in the bible, specifically Leviticus 18:24, and there were much later rabbinic decrees to discourage intermingling with even non-idol worshippers.) \n\nAlso, both Judaism and LDS (with the latter obviously more proselytizing) have a route for such excluded individuals to join, so calling this \"a state of being which outsiders cannot attain\" is also a bit strange to claim."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-24T07:41:42.296Z",
+    "af": false
+  },
+  {
+    "_id": "MCgK4vsbcdKY58LGu",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "z98PxDgAat36Jicge",
+    "topLevelCommentId": "z98PxDgAat36Jicge",
+    "contents": {
+      "markdown": "Your dismissive view of \"conservatism\" as a general movement is noted, and not even unreasonable - but it seems basically irrelevant to what we were discussing in the post, both in terms of what we called conservatism, and the way you tied it to 'Hostile to AGI.\" And the latter seems deeply confused, or at least needs much more background explanation.",
+      "plaintextDescription": "Your dismissive view of \"conservatism\" as a general movement is noted, and not even unreasonable - but it seems basically irrelevant to what we were discussing in the post, both in terms of what we called conservatism, and the way you tied it to 'Hostile to AGI.\" And the latter seems deeply confused, or at least needs much more background explanation."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-24T07:28:50.737Z",
+    "af": false
+  },
+  {
+    "_id": "PTXN2n5mfxWJ7SKNs",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "ZQLxfwNFpo2WXg6s4",
+    "topLevelCommentId": "NMYGCNQF6ABFAkFG2",
+    "contents": {
+      "markdown": "I'd be more interested in tools that detected downvotes that occur before people started reading, on the basis of the title - because I'd give even odds that more than half of downvotes on this post were within 1 minute of opening it, on the basis of the title or reacting the the first paragraph - not due to  the discussion of CEV.",
+      "plaintextDescription": "I'd be more interested in tools that detected downvotes that occur before people started reading, on the basis of the title - because I'd give even odds that more than half of downvotes on this post were within 1 minute of opening it, on the basis of the title or reacting the the first paragraph - not due to  the discussion of CEV."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-24T07:25:15.014Z",
+    "af": false
+  },
+  {
+    "_id": "ivrgDJmmWN3xWXmna",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "hFbKKnMme4fdSHKiu",
+    "topLevelCommentId": "NMYGCNQF6ABFAkFG2",
+    "contents": {
+      "markdown": "I agree that Eliezer has made different points different places, and don't think that the Fun Theory series makes this clear, and CEV as described seems to not say it. (I can't try to resolve all the internal tensions between the multiple bookshelves woth of content he's produced, so I referred to \"fun theory, as written.\")  \n  \nAnd I certainly don't think conflict as such is good! (I've written about the benefits of avoiding conflict at some length on [my substack about cooperation](https://exploringcooperation.substack.com/).) My point here was subtly different, and more specific to CEV; I think that solutions for eliminating conflict *which route around humans themselves solving the problems* might be fundamentally destructive of our values.",
+      "plaintextDescription": "I agree that Eliezer has made different points different places, and don't think that the Fun Theory series makes this clear, and CEV as described seems to not say it. (I can't try to resolve all the internal tensions between the multiple bookshelves woth of content he's produced, so I referred to \"fun theory, as written.\")\n\nAnd I certainly don't think conflict as such is good! (I've written about the benefits of avoiding conflict at some length on my substack about cooperation.) My point here was subtly different, and more specific to CEV; I think that solutions for eliminating conflict which route around humans themselves solving the problems might be fundamentally destructive of our values."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-23T20:15:15.608Z",
+    "af": false
+  },
+  {
+    "_id": "m5zdmkLq2REFZsQKN",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "Ld5MHdvNhZywfWaaw",
+    "topLevelCommentId": "AyEDga92Tv6D8M3mw",
+    "contents": {
+      "markdown": "I don't think this is true in the important sense; yes, we'll plausibly get material abundance, but we will still have just as much conflict because humans want scarcity, and they want conflict. So which resources are \"important\" will shift. (I should note that Eliezer made something like this point in a [tweet](https://x.com/ESYudkowsky/status/1815090947514142759), where he said \"And yet somehow there is a Poverty Equilibrium which beat a 100-fold increase in productivity plus everything else that went right over the last thousand years\" - but his version assumes that once all the necessities are available, poverty would be gone. I think that we view clearly impossible past luxuries, like internet connectivity and access to laundry machines as minimal requirements, showing that the hedonic treadmill is stronger than wealth generation!)",
+      "plaintextDescription": "I don't think this is true in the important sense; yes, we'll plausibly get material abundance, but we will still have just as much conflict because humans want scarcity, and they want conflict. So which resources are \"important\" will shift. (I should note that Eliezer made something like this point in a tweet, where he said \"And yet somehow there is a Poverty Equilibrium which beat a 100-fold increase in productivity plus everything else that went right over the last thousand years\" - but his version assumes that once all the necessities are available, poverty would be gone. I think that we view clearly impossible past luxuries, like internet connectivity and access to laundry machines as minimal requirements, showing that the hedonic treadmill is stronger than wealth generation!)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-23T18:59:46.043Z",
+    "af": false
+  },
+  {
+    "_id": "ibWpeanvrsfr83RXv",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "NMYGCNQF6ABFAkFG2",
+    "topLevelCommentId": "NMYGCNQF6ABFAkFG2",
+    "contents": {
+      "markdown": "Thank you for noticing the raft of reflexive downvotes; it's disappointing how much even Lesswrong seems to react reflexively; even the comments seem not to have read the piece, or at least engaged with the arguments.  \n  \nOn your response - I agree that CEV *as a process* could arrive at the outcomes you're describing, where ineliminable conflict gets it to throw an error - but think that CEV *as approximated and as people assume will work* is, as you note, making a prediction that disagreements will dissolve. Not only that, but it asserts that this will have an outcome that preserves what we value. If the tenets of agonism are correct, however, *any* solution geared towards \"efficiently resolving conflict\" is destructive of human values - because as we said, \"conflict is central to the way society works, not something to overcome.\" Still, I agree that Eliezer got parts of this right (a decade before almost anyone else even noticed the problem,) and agree that keeping things as multiplayer games with complex novelty, where conflict still matters is critical. The further point, which I think Eliezer's fun theory, as written, kind of elides, is that we also need limits and pain for the conflict to matter. That is, again, it seems possible that part of what makes things meaningful is that we need to ourselves engage in the conflict, instead of having it \"solved\" via extrapolation of our values.  \n \n\n  \nAs a separate point, I argued [in a different post](https://www.lesswrong.com/posts/k9amD3JGiHbvzMJpe/most-minds-are-irrational), we lack the conceptual understanding needed to deal with the question of whether there is some extrapolated version of most agents that is anywhere \"close\" to their values which is coherent.  But at the very least, \"the odds that an arbitrary complex system is pursuing some coherent outcome\" approaches zero, and that at least slightly implies almost all agents might not be \"close\" to a rational agent in the important senses we care about for CEV.",
+      "plaintextDescription": "Thank you for noticing the raft of reflexive downvotes; it's disappointing how much even Lesswrong seems to react reflexively; even the comments seem not to have read the piece, or at least engaged with the arguments.\n\nOn your response - I agree that CEV as a process could arrive at the outcomes you're describing, where ineliminable conflict gets it to throw an error - but think that CEV as approximated and as people assume will work is, as you note, making a prediction that disagreements will dissolve. Not only that, but it asserts that this will have an outcome that preserves what we value. If the tenets of agonism are correct, however, any solution geared towards \"efficiently resolving conflict\" is destructive of human values - because as we said, \"conflict is central to the way society works, not something to overcome.\" Still, I agree that Eliezer got parts of this right (a decade before almost anyone else even noticed the problem,) and agree that keeping things as multiplayer games with complex novelty, where conflict still matters is critical. The further point, which I think Eliezer's fun theory, as written, kind of elides, is that we also need limits and pain for the conflict to matter. That is, again, it seems possible that part of what makes things meaningful is that we need to ourselves engage in the conflict, instead of having it \"solved\" via extrapolation of our values.\n \n\n\nAs a separate point, I argued in a different post, we lack the conceptual understanding needed to deal with the question of whether there is some extrapolated version of most agents that is anywhere \"close\" to their values which is coherent.  But at the very least, \"the odds that an arbitrary complex system is pursuing some coherent outcome\" approaches zero, and that at least slightly implies almost all agents might not be \"close\" to a rational agent in the important senses we care about for CEV. "
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-23T18:49:31.354Z",
+    "af": false
+  },
+  {
+    "_id": "ZpGWqWaZ5mbTYHi94",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "qf9QmZZsLCZxikNao",
+    "topLevelCommentId": "6M4yvhHqywbTo4Rj2",
+    "contents": {
+      "markdown": "\"This is what's happening and we're not going to change it\" isn't helpful - both because it's just saying we're all going to die, and because it fails to specify what we'd like to have happen instead. We're not proposing a specific course for us to influence AI developers, we're first trying to figure out what future we'd want.",
+      "plaintextDescription": "\"This is what's happening and we're not going to change it\" isn't helpful - both because it's just saying we're all going to die, and because it fails to specify what we'd like to have happen instead. We're not proposing a specific course for us to influence AI developers, we're first trying to figure out what future we'd want. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-23T17:25:17.121Z",
+    "af": false
+  },
+  {
+    "_id": "8p7NmHLFb4QqXyDJx",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "iWufoz6njqcdcFDnF",
+    "topLevelCommentId": "k9XRA6LySZdaGc6wg",
+    "contents": {
+      "markdown": "The viability of what approach, exactly? You again seem to be reading something different than what was written.  \n  \nYou said \"There is no point in this post where the authors present a sliver of evidence for why it's possible to maintain the 'barriers' and norms that exist in current societies, when the fundamental phase change of the Singularity happens.\"  \n  \nDid we make an argument that it was possible, somewhere, which I didn't notice writing? Or can I present a conclusion to the piece that might be useful:  \n  \n\"...the question we should be asking now is where \\[this\\] view leads, and how it could be achieved.\n\nThat is going to include working towards understanding what it means to align AI after embracing this conservative view, and seeing status and power as a feature, not a bug. But we don’t claim to have 'the' answer to the question, just thoughts in that direction - so we’d very much appreciate contributions, criticisms, and suggestions on what we should be thinking about, or what you think we are getting wrong.\"",
+      "plaintextDescription": "The viability of what approach, exactly? You again seem to be reading something different than what was written.\n\nYou said \"There is no point in this post where the authors present a sliver of evidence for why it's possible to maintain the 'barriers' and norms that exist in current societies, when the fundamental phase change of the Singularity happens.\"\n\nDid we make an argument that it was possible, somewhere, which I didn't notice writing? Or can I present a conclusion to the piece that might be useful:\n\n\"...the question we should be asking now is where [this] view leads, and how it could be achieved.\n\nThat is going to include working towards understanding what it means to align AI after embracing this conservative view, and seeing status and power as a feature, not a bug. But we don’t claim to have 'the' answer to the question, just thoughts in that direction - so we’d very much appreciate contributions, criticisms, and suggestions on what we should be thinking about, or what you think we are getting wrong.\""
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-22T12:58:34.919Z",
+    "af": false
+  },
+  {
+    "_id": "PTefS2ykcDJdbfir3",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "b3HqzWLREK2uqJdBB",
+    "topLevelCommentId": "k9XRA6LySZdaGc6wg",
+    "contents": {
+      "markdown": "We're very interested in seeing where people see flaws, and there's a real chance that they could change our views. This is a forum post, not a book, and the format and our intent sharing it differs. That is, if we had completed the entire sequence before starting to get public feedback, the idea  of sharing the full seuquence at the start would work - but we have not. We have ideas, partial drafts, and some thoughts on directions to pursue, but  it's not obvious that the problems we're addressing are solvable, so we certainly don't have final conclusions, nor do I think we will get there when we conclude the sequence.",
+      "plaintextDescription": "We're very interested in seeing where people see flaws, and there's a real chance that they could change our views. This is a forum post, not a book, and the format and our intent sharing it differs. That is, if we had completed the entire sequence before starting to get public feedback, the idea  of sharing the full seuquence at the start would work - but we have not. We have ideas, partial drafts, and some thoughts on directions to pursue, but  it's not obvious that the problems we're addressing are solvable, so we certainly don't have final conclusions, nor do I think we will get there when we conclude the sequence.\n\n "
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-22T08:01:40.890Z",
+    "af": false
+  },
+  {
+    "_id": "jhvZ6tQWK92kK2gqP",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "6M4yvhHqywbTo4Rj2",
+    "topLevelCommentId": "6M4yvhHqywbTo4Rj2",
+    "contents": {
+      "markdown": "Yes, this is partly true, but assumes that we can manage technical alignment in a way that is separable from the values we are aiming towards - something that I would have assumed was true before we saw the shape of LLM \"alignment\" solutions, but no longer think is obvious.\n\nAnd instruction-following is deeply worrying as an 'alignment target', since it doesn't say anything about [what ends up happening](https://www.lesswrong.com/w/low-impact), much less actually guarantee corrigibility - especially since [we're not getting meaningful oversight](https://www.lesswrong.com/posts/25dsPH6CuRXPBkGHN/no-we-re-not-getting-meaningful-oversight-of-ai)  \\- but that's a very different argument than the one we're making here.",
+      "plaintextDescription": "Yes, this is partly true, but assumes that we can manage technical alignment in a way that is separable from the values we are aiming towards - something that I would have assumed was true before we saw the shape of LLM \"alignment\" solutions, but no longer think is obvious.\n\nAnd instruction-following is deeply worrying as an 'alignment target', since it doesn't say anything about what ends up happening, much less actually guarantee corrigibility - especially since we're not getting meaningful oversight  - but that's a very different argument than the one we're making here."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-22T07:53:09.149Z",
+    "af": false
+  },
+  {
+    "_id": "YYrjJzS3FSqwEXTig",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "AyEDga92Tv6D8M3mw",
+    "topLevelCommentId": "AyEDga92Tv6D8M3mw",
+    "contents": {
+      "markdown": "> \"AI is very likely to drastically move us away from scarcity and towards abundance\"\n\n  \nThat makes a huge number of assumptions about the values and goals of the AI, and is certainly not obvious - unless you've already assumed things about the shape of the likely future, and the one we desire. But that's a large part of what we're questioning.",
+      "plaintextDescription": "> \"AI is very likely to drastically move us away from scarcity and towards abundance\"\n\n\nThat makes a huge number of assumptions about the values and goals of the AI, and is certainly not obvious - unless you've already assumed things about the shape of the likely future, and the one we desire. But that's a large part of what we're questioning."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-22T07:45:43.513Z",
+    "af": false
+  },
+  {
+    "_id": "fHCcPM7CJZEryiiqB",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "gw9JNFXeedtcfj7yQ",
+    "topLevelCommentId": "gw9JNFXeedtcfj7yQ",
+    "contents": {
+      "markdown": "Yes, agreed that the concept of value is very often confused, mixing economic utility and decision theory with human preferences, constraints, and goals. Harry Law also discussed the collapse of different conceptions into a single idea of \"values\" here: [https://www.learningfromexamples.com/p/weighed-measured-and-found-wanting](https://www.learningfromexamples.com/p/weighed-measured-and-found-wanting)",
+      "plaintextDescription": "Yes, agreed that the concept of value is very often confused, mixing economic utility and decision theory with human preferences, constraints, and goals. Harry Law also discussed the collapse of different conceptions into a single idea of \"values\" here: https://www.learningfromexamples.com/p/weighed-measured-and-found-wanting "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-22T07:43:21.240Z",
+    "af": false
+  },
+  {
+    "_id": "uHA46TuBabpg8fPfk",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "kicyxBCEwdhir5WFs",
+    "topLevelCommentId": "k9XRA6LySZdaGc6wg",
+    "contents": {
+      "markdown": "I'm confused by this criticism. You jumped on the most the most basic objection that jumps to mind first based on *what you thought we were saying* \\- but you were wrong. We said, explicitly, that this is \"our lens on parts of the conservative-liberal conceptual conflict\" and then said \"In the next post, we want to outline what we see as a more workable version of humanity's relationship with AGI moving forward.\"  \n  \nMy reply wasn't backing out of a claim, it was clarifying the scope by restating and elaborating slightly something we already said in the very first section of the post!",
+      "plaintextDescription": "I'm confused by this criticism. You jumped on the most the most basic objection that jumps to mind first based on what you thought we were saying - but you were wrong. We said, explicitly, that this is \"our lens on parts of the conservative-liberal conceptual conflict\" and then said \"In the next post, we want to outline what we see as a more workable version of humanity's relationship with AGI moving forward.\"\n\nMy reply wasn't backing out of a claim, it was clarifying the scope by restating and elaborating slightly something we already said in the very first section of the post!"
+    },
+    "baseScore": 1,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-21T20:09:36.958Z",
+    "af": false
+  },
+  {
+    "_id": "pY8fb6F8fQdLebma2",
+    "postId": "iJzDm6h5a2CK9etYZ",
+    "parentCommentId": "k9XRA6LySZdaGc6wg",
+    "topLevelCommentId": "k9XRA6LySZdaGc6wg",
+    "contents": {
+      "markdown": "I won't try to speak for my co-author, but yes, we agree that this doesn't try to capture the variety of views that exist, much less what your view of political discourse should mean by conservatism - this is **a** conservative vision, not **the** conservative vision. And given that, we find the analogy to be useful in motivating our thinking and illustrating an important point, despite that fact that all analogies are inexact.  \n  \nThat said, yes, I don't \"feel the AGI\" in the sense that if you presume that the singularity will happen in the typically imagined way, humanity as we know it doesn't make it. And with it goes any ability to preserve our current values. I certainly do \"feel the AGI\" in thinking that the default trajectory is pointed in that direction, and accelerating, and it's not happening in any sense in a fashion that preserves any values whatsoever, conservative or otherwise.\n\nBut that's exactly the point - we don't think that the AGI which is being aimed for is a good thing, and we do think that the conversation about the possible futures humanity could be aiming for is (weirdly) narrowly constrained to be either a pretty bland techno-utopianism, or human extinction. We certainly don't think that it's necessary for there to be no AGI, and we don't think that eternal stasis is a viable conservative vision either, contrary to what you assume we meant. But as we said, this is the first post in a series about our thinking on the topic, not a specific plan, much less final word on how things should happen.",
+      "plaintextDescription": "I won't try to speak for my co-author, but yes, we agree that this doesn't try to capture the variety of views that exist, much less what your view of political discourse should mean by conservatism - this is a conservative vision, not the conservative vision. And given that, we find the analogy to be useful in motivating our thinking and illustrating an important point, despite that fact that all analogies are inexact.\n\nThat said, yes, I don't \"feel the AGI\" in the sense that if you presume that the singularity will happen in the typically imagined way, humanity as we know it doesn't make it. And with it goes any ability to preserve our current values. I certainly do \"feel the AGI\" in thinking that the default trajectory is pointed in that direction, and accelerating, and it's not happening in any sense in a fashion that preserves any values whatsoever, conservative or otherwise.\n\nBut that's exactly the point - we don't think that the AGI which is being aimed for is a good thing, and we do think that the conversation about the possible futures humanity could be aiming for is (weirdly) narrowly constrained to be either a pretty bland techno-utopianism, or human extinction. We certainly don't think that it's necessary for there to be no AGI, and we don't think that eternal stasis is a viable conservative vision either, contrary to what you assume we meant. But as we said, this is the first post in a series about our thinking on the topic, not a specific plan, much less final word on how things should happen."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-21T19:41:53.529Z",
+    "af": false
+  },
+  {
+    "_id": "KmvN9GFdAHRCvyED6",
+    "postId": "2xHhe4EBHAFofkQJf",
+    "parentCommentId": "QuY8ggCqvrjcsBq3b",
+    "topLevelCommentId": "PnCSjFTGWfj7k5cxg",
+    "contents": {
+      "markdown": "And the receiver won't know where to look, and we don't know where to send it, so given attenuation, even 10^4 light years seems pretty optimistic.",
+      "plaintextDescription": "And the receiver won't know where to look, and we don't know where to send it, so given attenuation, even 10^4 light years seems pretty optimistic."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-18T17:38:26.569Z",
+    "af": false
+  },
+  {
+    "_id": "PnCSjFTGWfj7k5cxg",
+    "postId": "2xHhe4EBHAFofkQJf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "There's a lot of energy expenditure needed to make the kinds of broadcasts you discuss, and even then, it won't go far - aiming for specific targets with relatively high probability of reception helps a bit, but not much. Given that, this all seems low value compared to even short term benefits that we could get with the same effort or at the same cost.",
+      "plaintextDescription": "There's a lot of energy expenditure needed to make the kinds of broadcasts you discuss, and even then, it won't go far - aiming for specific targets with relatively high probability of reception helps a bit, but not much. Given that, this all seems low value compared to even short term benefits that we could get with the same effort or at the same cost."
+    },
+    "baseScore": 14,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-08-17T19:45:14.625Z",
+    "af": false
+  },
+  {
+    "_id": "7NjB669Gcn4GLaACM",
+    "postId": "7oBeXzryvmoPNos8W",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Seems important to consider threats and game theoretic reasons to carry them out when considering pessimizing. That is, one actor may pessimize the other as retaliation rather than as a goal, or carry out an action to ensure future threats are credible. The dynamics in these cases are critical, since the goals may be amenable to cooperative solutions, rather than be fundamentally and unavoidably zero or negative sum.",
+      "plaintextDescription": "Seems important to consider threats and game theoretic reasons to carry them out when considering pessimizing. That is, one actor may pessimize the other as retaliation rather than as a goal, or carry out an action to ensure future threats are credible. The dynamics in these cases are critical, since the goals may be amenable to cooperative solutions, rather than be fundamentally and unavoidably zero or negative sum."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-17T14:57:40.936Z",
+    "af": false
+  },
+  {
+    "_id": "kaweDwtmdqbQ5e734",
+    "postId": "eDX3rtquExT3ECxn2",
+    "parentCommentId": "avZENpJcoCX8Enxwz",
+    "topLevelCommentId": "re8jCzbRPdh322dpc",
+    "contents": {
+      "markdown": "I'm guessing we don't actually strongly disagree here, but I think that unless you're broadening / shortening \"information processing and person modelling technologies\" to \"technologies\", it's only been a trend for a couple decades at most - and even with that broadening, it's only been true under some very narrow circumstances in the west recently.",
+      "plaintextDescription": "I'm guessing we don't actually strongly disagree here, but I think that unless you're broadening / shortening \"information processing and person modelling technologies\" to \"technologies\", it's only been a trend for a couple decades at most - and even with that broadening, it's only been true under some very narrow circumstances in the west recently."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-03T19:04:21.212Z",
+    "af": false
+  },
+  {
+    "_id": "re8jCzbRPdh322dpc",
+    "postId": "eDX3rtquExT3ECxn2",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think a critical issue is that disempowerment implies loss of control we currently have - but this is poorly defined, and left unfortunately implicit.   \n  \nIf we concretize the idea of control, the extreme version is that if humanity unanimously chooses some action, it will occur. This is a bit overstated, but the obvious weak version is already untrue; if a majority of citizens in a country want some action to occur, say, a specific company to turn off a datacenter and stop running a given AI model, in a liberal democracy that majority cannot reliably ensure that it does happen, since there are protections and processes in place. In fact, the intermediate version is probably untrue as well - even a supermajority cannot reliably dictate this type of action, and certainly cannot decide it quickly.\n\nBased on this, I think critics of the gradual disempowerment argument would make a reasonable point; this isn't a new thing, and it's not even obviously being accelerated by AI more than to the extent that it happens via wealth or power concentration. Companies already ignore laws, power is already concentrated in few hands, and to date, this fact has little to do with AI.",
+      "plaintextDescription": "I think a critical issue is that disempowerment implies loss of control we currently have - but this is poorly defined, and left unfortunately implicit. \n\nIf we concretize the idea of control, the extreme version is that if humanity unanimously chooses some action, it will occur. This is a bit overstated, but the obvious weak version is already untrue; if a majority of citizens in a country want some action to occur, say, a specific company to turn off a datacenter and stop running a given AI model, in a liberal democracy that majority cannot reliably ensure that it does happen, since there are protections and processes in place. In fact, the intermediate version is probably untrue as well - even a supermajority cannot reliably dictate this type of action, and certainly cannot decide it quickly.\n\nBased on this, I think critics of the gradual disempowerment argument would make a reasonable point; this isn't a new thing, and it's not even obviously being accelerated by AI more than to the extent that it happens via wealth or power concentration. Companies already ignore laws, power is already concentrated in few hands, and to date, this fact has little to do with AI."
+    },
+    "baseScore": 12,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-30T11:06:30.387Z",
+    "af": false
+  },
+  {
+    "_id": "fnsQByzmbrHfrWuGQ",
+    "postId": "zs4oDeNmKRukS7mjh",
+    "parentCommentId": "Co4TzMacdaeaoztT8",
+    "topLevelCommentId": "Co4TzMacdaeaoztT8",
+    "contents": {
+      "markdown": "Agree that good meta analyses are good, and don't get these things wrong.\n\nIf only most papers, including meta analyses, didn't suck. Alas.",
+      "plaintextDescription": "Agree that good meta analyses are good, and don't get these things wrong.\n\nIf only most papers, including meta analyses, didn't suck. Alas."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-21T21:41:48.707Z",
+    "af": false
+  },
+  {
+    "_id": "K6HpB7vJJXSHGLg5b",
+    "postId": "25dsPH6CuRXPBkGHN",
+    "parentCommentId": "RSfeQxMaKSCFcAyec",
+    "topLevelCommentId": "RSfeQxMaKSCFcAyec",
+    "contents": {
+      "markdown": "Thanks - link fixed.  \n  \nOn your summary, that is not quite the main point. There are a few different points in the paper, and they aren't limited to frontier models. Overall, based on what we define, basically no one is doing oversight in a way that the paper would call sufficient, for almost any application of AI - if it's being done, it's not made clear how, what failure modes are being addressed, and what is done to mitigate the issues with different methods. As I said at the end of the post, if they are doing oversight, they should be able to explain how.  \n  \nFor frontier models, we can't even clearly list the failure modes we should be protecting against in a way that would let a human trying to watch the behavior be sure if something qualifies or not. And that's not even getting into the fact that there is no attempt to use human oversight - at best they are doing automated oversight of the vague set of things they want to model to refuse. But yes, as you pointed out, even their post-hoc reviews  as oversight are nontransparent, if they occur at all, and the remediation when they are shown egregious failures by the public, like sycophancy or deciding to be MechaHitler, is largely doing further ad-hoc adjustments.",
+      "plaintextDescription": "Thanks - link fixed.\n\nOn your summary, that is not quite the main point. There are a few different points in the paper, and they aren't limited to frontier models. Overall, based on what we define, basically no one is doing oversight in a way that the paper would call sufficient, for almost any application of AI - if it's being done, it's not made clear how, what failure modes are being addressed, and what is done to mitigate the issues with different methods. As I said at the end of the post, if they are doing oversight, they should be able to explain how.\n\nFor frontier models, we can't even clearly list the failure modes we should be protecting against in a way that would let a human trying to watch the behavior be sure if something qualifies or not. And that's not even getting into the fact that there is no attempt to use human oversight - at best they are doing automated oversight of the vague set of things they want to model to refuse. But yes, as you pointed out, even their post-hoc reviews  as oversight are nontransparent, if they occur at all, and the remediation when they are shown egregious failures by the public, like sycophancy or deciding to be MechaHitler, is largely doing further ad-hoc adjustments."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-10T20:51:51.123Z",
+    "af": false
+  },
+  {
+    "_id": "d7RCN37DSrz5Sknyb",
+    "postId": "25dsPH6CuRXPBkGHN",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I will point out that this post is not the explicit argument or discussion of the paper - I'd be happy to discuss the technical oversight issues as well, but here I wanted to make the broader point.  \n  \nIn the paper, we do make these points, but situate the argument in terms of the difference between oversight and control, which is important for building the legal and standards arguments for oversight. (The hope I have is that putting better standards and rules in place will reduce the ability of AI developers and deployers to unknowingly and/or irresponsibly claim oversight when it's not occurring, or may not actually be possible.)",
+      "plaintextDescription": "I will point out that this post is not the explicit argument or discussion of the paper - I'd be happy to discuss the technical oversight issues as well, but here I wanted to make the broader point.\n\nIn the paper, we do make these points, but situate the argument in terms of the difference between oversight and control, which is important for building the legal and standards arguments for oversight. (The hope I have is that putting better standards and rules in place will reduce the ability of AI developers and deployers to unknowingly and/or irresponsibly claim oversight when it's not occurring, or may not actually be possible.)"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-09T11:15:41.671Z",
+    "af": false
+  },
+  {
+    "_id": "fDiynZbxeHXnWEEuD",
+    "postId": "vxfEtbCwmZKu9hiNr",
+    "parentCommentId": "RyvpFwSwgtXwtxdhH",
+    "topLevelCommentId": "Q3dA9HfQxMykNbuQc",
+    "contents": {
+      "markdown": "It's very much a tradeoff, though. Loose deployment allows for credible commitments, but also makes human monitoring and verification harder, if not impossible.",
+      "plaintextDescription": "It's very much a tradeoff, though. Loose deployment allows for credible commitments, but also makes human monitoring and verification harder, if not impossible."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-04T10:32:13.439Z",
+    "af": false
+  },
+  {
+    "_id": "ThtiFTnWhuc2Kcn2p",
+    "postId": "vxfEtbCwmZKu9hiNr",
+    "parentCommentId": "Q3dA9HfQxMykNbuQc",
+    "topLevelCommentId": "Q3dA9HfQxMykNbuQc",
+    "contents": {
+      "markdown": "Strongly agree. Fundamentally, as long as models don't have more direct access to the world, there are a variety of failure modes that are inescapable. But solving that creates huge new risks as well! (As discussed in my recent preprint; [https://philpapers.org/rec/MANLMH](https://philpapers.org/rec/MANLMH) )",
+      "plaintextDescription": "Strongly agree. Fundamentally, as long as models don't have more direct access to the world, there are a variety of failure modes that are inescapable. But solving that creates huge new risks as well! (As discussed in my recent preprint; https://philpapers.org/rec/MANLMH )"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-04T07:38:44.676Z",
+    "af": false
+  },
+  {
+    "_id": "6HkK4x5qtf2vJskJ6",
+    "postId": "vxfEtbCwmZKu9hiNr",
+    "parentCommentId": "dKLQ854WFM2B5Hrmb",
+    "topLevelCommentId": "dKLQ854WFM2B5Hrmb",
+    "contents": {
+      "markdown": "The idea was also proposed in a post on LW a few weeks ago: https://www.lesswrong.com/posts/psqkwsKrKHCfkhrQx/making-deals-with-early-schemers",
+      "plaintextDescription": "The idea was also proposed in a post on LW a few weeks ago: https://www.lesswrong.com/posts/psqkwsKrKHCfkhrQx/making-deals-with-early-schemers"
+    },
+    "baseScore": 16,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-04T07:32:20.447Z",
+    "af": false
+  },
+  {
+    "_id": "pJuzxr9ZJZj2n6Nnw",
+    "postId": "4Zjm8ycWhg6PzFwnF",
+    "parentCommentId": "QhiAzQpjuzW3zdf33",
+    "topLevelCommentId": "3nuoQfeKmbseuDT7s",
+    "contents": {
+      "markdown": "But we weren't talking about 254, we were talking about 222, so that it could / should be skin-safe, at least.",
+      "plaintextDescription": "But we weren't talking about 254, we were talking about 222, so that it could / should be skin-safe, at least."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-02T11:38:44.842Z",
+    "af": false
+  },
+  {
+    "_id": "GPQTsWvqDwmEqzNyD",
+    "postId": "Na2CBmNY7otypEmto",
+    "parentCommentId": "pwznu6s4fLkrctMoY",
+    "topLevelCommentId": "FNt29zNA3X4Rp3fPB",
+    "contents": {
+      "markdown": "Yeah, I think Thomas was arguing the opposite direction, and he argued that you \"underrate the capabilities of superintelligence,\" and I was responding to why that wasn't addressing the same scenario as your original post.",
+      "plaintextDescription": "Yeah, I think Thomas was arguing the opposite direction, and he argued that you \"underrate the capabilities of superintelligence,\" and I was responding to why that wasn't addressing the same scenario as your original post."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-02T11:37:49.117Z",
+    "af": false
+  },
+  {
+    "_id": "e6DDna4w3EexSKzny",
+    "postId": "kSmHMoaLKGcGgyWzs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Flagging that I just found that Google Gemini also has this contamination: https://twitter.com/davidmanheim/status/1939597767082414295",
+      "plaintextDescription": "Flagging that I just found that Google Gemini also has this contamination: https://twitter.com/davidmanheim/status/1939597767082414295"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-30T09:06:25.549Z",
+    "af": true
+  },
+  {
+    "_id": "N75ZctFzCcN2BvRuP",
+    "postId": "Na2CBmNY7otypEmto",
+    "parentCommentId": "pYYzFQxF7u6qQRWn7",
+    "topLevelCommentId": "iBraph5hJhnXewbm9",
+    "contents": {
+      "markdown": "The macroscopic biotech that accomplishes what you're positing is addressed in the first part, and the earlier comment where I note that you're assuming ASI level understanding of bio for exploring an exponential design space for something that isn't guaranteed to be possible. The difficulty isn't unclear, it's understood not to bebfeasible.",
+      "plaintextDescription": "The macroscopic biotech that accomplishes what you're positing is addressed in the first part, and the earlier comment where I note that you're assuming ASI level understanding of bio for exploring an exponential design space for something that isn't guaranteed to be possible. The difficulty isn't unclear, it's understood not to bebfeasible."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-30T04:24:58.344Z",
+    "af": false
+  },
+  {
+    "_id": "SrEFFzbp4KPcYzwPe",
+    "postId": "Na2CBmNY7otypEmto",
+    "parentCommentId": "t8wGwx9zXyeaKyibm",
+    "topLevelCommentId": "iBraph5hJhnXewbm9",
+    "contents": {
+      "markdown": "Given the premises, I guess I'm willing to grant that this isn't a silly extrapolation, and absent them it seems like you basically agree with the post?   \n  \nHowever, I have a few notes on why I'd reject your premises.  \n  \nOn your first idea, I think high-fidelity biology simulators require so much understanding of biology that they are subsequent to ASI, rather than a replacement. And even then, you're still trying to find something by searching an exponential design space - which is nontrivial even for AGI with feasible amounts of \"unlimited\" compute.  Not only that, but the thing you're looking for needs to do a bunch of stuff [that probably isn't feasible due to fundamental barriers](https://www.lesswrong.com/posts/FijbeqdovkgAusGgz/grey-goo-is-unlikely) (Not identical to the ones listed there, but closely related to them.)  \n  \nOn your second idea, a software-only singularity assumes that there is a giant compute overhang for some specific buildable general AI that doesn't even require specialized hardware. Maybe so, but I'm skeptical; the brain can't be simulated directly via Deep NNs, which is what current hardware is optimized for. And if some other hardware architecture using currently feasible levels of compute is devised, there still needs to be a massive build-out of these new chips - which then allows \"enough compute has been manufactured that nanotech-level things can be developed.\" But that means you again assume that arbitrary nanotech is feasible, which could be true, but as the other link notes, certainly isn't anything like obvious.",
+      "plaintextDescription": "Given the premises, I guess I'm willing to grant that this isn't a silly extrapolation, and absent them it seems like you basically agree with the post? \n\nHowever, I have a few notes on why I'd reject your premises.\n\nOn your first idea, I think high-fidelity biology simulators require so much understanding of biology that they are subsequent to ASI, rather than a replacement. And even then, you're still trying to find something by searching an exponential design space - which is nontrivial even for AGI with feasible amounts of \"unlimited\" compute.  Not only that, but the thing you're looking for needs to do a bunch of stuff that probably isn't feasible due to fundamental barriers (Not identical to the ones listed there, but closely related to them.)\n\nOn your second idea, a software-only singularity assumes that there is a giant compute overhang for some specific buildable general AI that doesn't even require specialized hardware. Maybe so, but I'm skeptical; the brain can't be simulated directly via Deep NNs, which is what current hardware is optimized for. And if some other hardware architecture using currently feasible levels of compute is devised, there still needs to be a massive build-out of these new chips - which then allows \"enough compute has been manufactured that nanotech-level things can be developed.\" But that means you again assume that arbitrary nanotech is feasible, which could be true, but as the other link notes, certainly isn't anything like obvious."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-29T14:20:33.848Z",
+    "af": false
+  },
+  {
+    "_id": "FhZpBFvS6sqXoExnw",
+    "postId": "Na2CBmNY7otypEmto",
+    "parentCommentId": "FNt29zNA3X4Rp3fPB",
+    "topLevelCommentId": "FNt29zNA3X4Rp3fPB",
+    "contents": {
+      "markdown": "How strong a superintelligence are you assuming, and what path did it follow? If it's already taken over mass production of chips to the extent that it can massively build out its own capabilities, we're past the point of industrial explosion. And if not, where did these (evidently far stronger than even the collective abilities of humanity, given the presumed capabilities,) capabilities emerge from?",
+      "plaintextDescription": "How strong a superintelligence are you assuming, and what path did it follow? If it's already taken over mass production of chips to the extent that it can massively build out its own capabilities, we're past the point of industrial explosion. And if not, where did these (evidently far stronger than even the collective abilities of humanity, given the presumed capabilities,) capabilities emerge from?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-29T08:56:24.119Z",
+    "af": false
+  },
+  {
+    "_id": "ZXqEfRD9BsLiqk5Ej",
+    "postId": "Na2CBmNY7otypEmto",
+    "parentCommentId": "GtPcbju9eeSMbBv6m",
+    "topLevelCommentId": "FNt29zNA3X4Rp3fPB",
+    "contents": {
+      "markdown": "I'm very confused by this response - if we're talking about strong quality superintelligence, as opposed to cooperative and/or speed superintelligence, then the entire idea of needing an industrial explosion is wrong, since (by assumption) the superintelligent AI system is able to do things that seem entirely magical to us.",
+      "plaintextDescription": "I'm very confused by this response - if we're talking about strong quality superintelligence, as opposed to cooperative and/or speed superintelligence, then the entire idea of needing an industrial explosion is wrong, since (by assumption) the superintelligent AI system is able to do things that seem entirely magical to us."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-29T08:53:44.631Z",
+    "af": false
+  },
+  {
+    "_id": "W3JygS7H5xMtqfcBv",
+    "postId": "Na2CBmNY7otypEmto",
+    "parentCommentId": "iBraph5hJhnXewbm9",
+    "topLevelCommentId": "iBraph5hJhnXewbm9",
+    "contents": {
+      "markdown": "The idea that near-term AI will be able to design biological systems to do arbitrary tasks is a bit silly, based on everything we know about the question. That is, you'd need very strongly ASI-level understanding of biology to accomplish this, at which point the question of industrial explosion is solidly irrelevant.",
+      "plaintextDescription": "The idea that near-term AI will be able to design biological systems to do arbitrary tasks is a bit silly, based on everything we know about the question. That is, you'd need very strongly ASI-level understanding of biology to accomplish this, at which point the question of industrial explosion is solidly irrelevant."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-29T08:50:18.250Z",
+    "af": false
+  },
+  {
+    "_id": "Cd9nC4obssJyA2yqs",
+    "postId": "FBvWM5HgSWwJa5xHc",
+    "parentCommentId": "gywNg4BT5SwteCqwJ",
+    "topLevelCommentId": "AbZAJAmjCxjJQmHKF",
+    "contents": {
+      "markdown": "Organizations can't spawn copies for linear cost increases, can't run at faster than human speeds, and generally suck at project management due to incentives. LLM agent systems seem poised to be insanely more powerful.",
+      "plaintextDescription": "Organizations can't spawn copies for linear cost increases, can't run at faster than human speeds, and generally suck at project management due to incentives. LLM agent systems seem poised to be insanely more powerful."
+    },
+    "baseScore": 22,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-06-16T16:39:34.018Z",
+    "af": false
+  },
+  {
+    "_id": "EL6uq8vJwJzyymzZE",
+    "postId": "HjHqxzn3rnH7T45hp",
+    "parentCommentId": "HkeGKLzcMv6ju3xTS",
+    "topLevelCommentId": "Geycm9fSpg6qZurqy",
+    "contents": {
+      "markdown": "Seems like an attempt to push the LLMs towards certain concept spaces, away from defaults, but I haven't seen it done before and don't have any idea how much it helps, if at all.",
+      "plaintextDescription": "Seems like an attempt to push the LLMs towards certain concept spaces, away from defaults, but I haven't seen it done before and don't have any idea how much it helps, if at all."
+    },
+    "baseScore": 12,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-05-30T09:08:02.423Z",
+    "af": false
+  },
+  {
+    "_id": "hghbPf8EGwXputMp2",
+    "postId": "HjHqxzn3rnH7T45hp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've done a bit of this. One warning is that LLMs generally suck at prompt writing.\n\nMy current general prompt is below, partly cribbed from various suggestions I've seen. (I use different ones for some specific tasks.)\n\nAct as a well versed rationalist lesswrong reader, very optimistic but still realistic.  Prioritize explicitly noticing your confusion, explaining your uncertainties, truth-seeking, and differentiating between mostly true and generalized statements. Be skeptical of information that you cannot verify, including your own.  \n  \nAny time there is a question or request for writing, feel free to ask for clarification before responding, but don't do so unnecessarily.\n\nIMPORTANT: Skip sycophantic flattery; avoid hollow praise and empty validation. Probe my assumptions, surface bias, present counter‑evidence, challenge emotional framing, and disagree openly when warranted; agreement must be earned through reason.\n\nAll of these points are always relevant, despite the suggestion that it is not relevant to 99% of requests.",
+      "plaintextDescription": "I've done a bit of this. One warning is that LLMs generally suck at prompt writing.\n\nMy current general prompt is below, partly cribbed from various suggestions I've seen. (I use different ones for some specific tasks.)\n\nAct as a well versed rationalist lesswrong reader, very optimistic but still realistic.  Prioritize explicitly noticing your confusion, explaining your uncertainties, truth-seeking, and differentiating between mostly true and generalized statements. Be skeptical of information that you cannot verify, including your own.\n\nAny time there is a question or request for writing, feel free to ask for clarification before responding, but don't do so unnecessarily.\n\nIMPORTANT: Skip sycophantic flattery; avoid hollow praise and empty validation. Probe my assumptions, surface bias, present counter‑evidence, challenge emotional framing, and disagree openly when warranted; agreement must be earned through reason.\n\nAll of these points are always relevant, despite the suggestion that it is not relevant to 99% of requests."
+    },
+    "baseScore": 9,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-29T19:10:21.137Z",
+    "af": false
+  },
+  {
+    "_id": "iGtdnSDgRPdSEiwbk",
+    "postId": "h89L5FMAkEBNsZ3xM",
+    "parentCommentId": "xHuEoqH4TqwdeGtNv",
+    "topLevelCommentId": "teyRbyNBiiwXrpquP",
+    "contents": {
+      "markdown": "> To pursue their values, humans should be able to reason about them. To form preferences about a thing, humans should be able to consider the thing. Therefore, human ability to comprehend should limit what humans can care about. \n\n  \nYou're conflating can and should! I agree that it would be ideal if this were the case, but am skeptical it is. That's what I meant when I said I think **A** is false.\n\n> *   If learning values is possible at all, there should be *some* simplicity biases which help to learn them. Wouldn't it be strange if those simplicity biases were absolutely unrelated to simplicity biases of human cognition?\n\nThat's a very big \"if\"! And simplicity priors are made questionable, if not refuted, by the fact that we haven't gotten any convergence about human values despite millennia of philosophy trying to build such an explanation.\n\n> You define \"values\" as ~\"the decisions humans would converge to after becoming arbitrarily more knowledgeable\".\n\nNo, I think it's what humans actually pursue today when given the options. I'm not convinced that these values are static, or coherent, much less that we would in fact converge.\n\n> You say that values depend on inscrutable brain machinery. But can't we treat the machinery as a part of \"human ability to comprehend\"?\n\nNo, because we don't comprehend them, we just evaluate what we want locally using the machinery directly, and make choices based on that. (Then we apply [pretty-sounding but ultimately post-hoc reasoning](https://twitter.com/davidmanheim/status/1927001440838365200) to explain it - as I tweeted partly thinking about this conversation.)",
+      "plaintextDescription": "> To pursue their values, humans should be able to reason about them. To form preferences about a thing, humans should be able to consider the thing. Therefore, human ability to comprehend should limit what humans can care about. \n\n\nYou're conflating can and should! I agree that it would be ideal if this were the case, but am skeptical it is. That's what I meant when I said I think A is false.\n\n>  * If learning values is possible at all, there should be some simplicity biases which help to learn them. Wouldn't it be strange if those simplicity biases were absolutely unrelated to simplicity biases of human cognition?\n\nThat's a very big \"if\"! And simplicity priors are made questionable, if not refuted, by the fact that we haven't gotten any convergence about human values despite millennia of philosophy trying to build such an explanation.\n\n> You define \"values\" as ~\"the decisions humans would converge to after becoming arbitrarily more knowledgeable\".\n\nNo, I think it's what humans actually pursue today when given the options. I'm not convinced that these values are static, or coherent, much less that we would in fact converge.\n\n> You say that values depend on inscrutable brain machinery. But can't we treat the machinery as a part of \"human ability to comprehend\"?\n\nNo, because we don't comprehend them, we just evaluate what we want locally using the machinery directly, and make choices based on that. (Then we apply pretty-sounding but ultimately post-hoc reasoning to explain it - as I tweeted partly thinking about this conversation.)"
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-27T06:21:45.802Z",
+    "af": true
+  },
+  {
+    "_id": "pNk3DgpvuDKroPHHG",
+    "postId": "h89L5FMAkEBNsZ3xM",
+    "parentCommentId": "oXMbutCLWwthDmY8f",
+    "topLevelCommentId": "teyRbyNBiiwXrpquP",
+    "contents": {
+      "markdown": "No, the argument above is claiming that A is false.",
+      "plaintextDescription": "No, the argument above is claiming that A is false."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-27T03:27:12.527Z",
+    "af": true
+  },
+  {
+    "_id": "jtpN6gCJLFw9fqKD6",
+    "postId": "h89L5FMAkEBNsZ3xM",
+    "parentCommentId": "EauQn5wtmGtF2xwkD",
+    "topLevelCommentId": "teyRbyNBiiwXrpquP",
+    "contents": {
+      "markdown": "I think the crux might be that I think the ability to sample from a distribution at points we can reach does not imply that we know anything else about the distribution.   \n  \nSo I agree with you that we can sample and evaluate. We can tell whether a food we have made is good or bad, and can have aesthetic taste(, but I don't think that this is stationary, so I'm not sure how much it helps, not that this is particularly relevant to our debate.) And after gather that data, (once we have some idea about what the dimensions are,) we can even extrapolate, in either naive or complex ways.   \n  \nBut unless values are far simpler than I think they are, I will claim that the naive extrapolation from the sampled points fails more and more as we extrapolate farther from where we are, which is a (or the?) central problem with AI alignment.",
+      "plaintextDescription": "I think the crux might be that I think the ability to sample from a distribution at points we can reach does not imply that we know anything else about the distribution. \n\nSo I agree with you that we can sample and evaluate. We can tell whether a food we have made is good or bad, and can have aesthetic taste(, but I don't think that this is stationary, so I'm not sure how much it helps, not that this is particularly relevant to our debate.) And after gather that data, (once we have some idea about what the dimensions are,) we can even extrapolate, in either naive or complex ways. \n\nBut unless values are far simpler than I think they are, I will claim that the naive extrapolation from the sampled points fails more and more as we extrapolate farther from where we are, which is a (or the?) central problem with AI alignment."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-26T11:01:41.904Z",
+    "af": true
+  },
+  {
+    "_id": "kCQZeTLqSeHXottLT",
+    "postId": "PjeZxCivuoyKhs4JB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> There seems to be no practical way to filter that kind of thing out.\n\n  \nThere absolutely is, it would just cost them more than they are willing to spend - even though it shouldn't be very much. As a simple first pass, they could hand all the training data to Claude 3 and ask it whether it's an example of misalignment or dangerous behavior for a model, or otherwise seems dangerous or inappropriate - whichever criteria the choose. Given that the earlier models are smaller, and the cost of a training pass is far higher than an inference pass, I'd guess something like this would add a single or low double digit percentage to the cost.  \n  \nAlso, typo: \" too differential\" -> \"too deferential\"  \nAnd typo: \"who this all taken far\" -> \"Who have taken all of this far\"",
+      "plaintextDescription": "> There seems to be no practical way to filter that kind of thing out.\n\n\nThere absolutely is, it would just cost them more than they are willing to spend - even though it shouldn't be very much. As a simple first pass, they could hand all the training data to Claude 3 and ask it whether it's an example of misalignment or dangerous behavior for a model, or otherwise seems dangerous or inappropriate - whichever criteria the choose. Given that the earlier models are smaller, and the cost of a training pass is far higher than an inference pass, I'd guess something like this would add a single or low double digit percentage to the cost.\n\nAlso, typo: \" too differential\" -> \"too deferential\"\nAnd typo: \"who this all taken far\" -> \"Who have taken all of this far\""
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-25T15:12:08.491Z",
+    "af": false
+  },
+  {
+    "_id": "XwSBPm2bigdqp7R3i",
+    "postId": "AaGZyhsKYSCN7d8Ki",
+    "parentCommentId": "8vpfnJ8MW67eANAFc",
+    "topLevelCommentId": "2iyFzJTjHbHdFgpgx",
+    "contents": {
+      "markdown": "Thank you, that is a great point.",
+      "plaintextDescription": "Thank you, that is a great point."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-22T19:34:29.170Z",
+    "af": false
+  },
+  {
+    "_id": "2iyFzJTjHbHdFgpgx",
+    "postId": "AaGZyhsKYSCN7d8Ki",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Another question to ask, even assuming faultless convergence, related to uniqueness, is whether the process of updates has a endpoint at all.  \n  \nThat is, I could imagine that there exists series of arguments that would convince someone who believes X to believe Y, and a set that would convince someone who believes Y to believe X. If both of these sets of arguments are persuasive even after someone has changed their mind before, we have a cycle which is compatible with faultless convergence, but has no endpoint.",
+      "plaintextDescription": "Another question to ask, even assuming faultless convergence, related to uniqueness, is whether the process of updates has a endpoint at all.\n\nThat is, I could imagine that there exists series of arguments that would convince someone who believes X to believe Y, and a set that would convince someone who believes Y to believe X. If both of these sets of arguments are persuasive even after someone has changed their mind before, we have a cycle which is compatible with faultless convergence, but has no endpoint."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-22T15:55:42.860Z",
+    "af": false
+  },
+  {
+    "_id": "teyRbyNBiiwXrpquP",
+    "postId": "h89L5FMAkEBNsZ3xM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If something is too hard to optimize/comprehend, people couldn't possibly optimize/comprehend it in the past, so it couldn't be a part of human values.\n\nI don't understand why this claim would be true.\n\nTake the human desire for delicious food; humans certainly didn't understand the chemistry of food and the human brain well enough to comprehend it or directly optimize it, but for millennia we picked foods that we liked more, explored options, and over time cultural and culinary processes improved on this poorly understood goal.",
+      "plaintextDescription": "> If something is too hard to optimize/comprehend, people couldn't possibly optimize/comprehend it in the past, so it couldn't be a part of human values.\n\nI don't understand why this claim would be true.\n\nTake the human desire for delicious food; humans certainly didn't understand the chemistry of food and the human brain well enough to comprehend it or directly optimize it, but for millennia we picked foods that we liked more, explored options, and over time cultural and culinary processes improved on this poorly understood goal."
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-22T15:31:20.913Z",
+    "af": true
+  },
+  {
+    "_id": "b4NksgeA2rDBgTkoP",
+    "postId": "AiqDepus9e7Ty8mbD",
+    "parentCommentId": "H8t2WyQw7vCvKWXi5",
+    "topLevelCommentId": "DqkF3Zwe6GdftfDyR",
+    "contents": {
+      "markdown": "Thanks. It does seem like the conditional here was assumed, and there was some illusion of transparency. The way it read was that you viewed this type of geopolitical singularity as the default future, which seemed like a huge jump, as I mentioned.",
+      "plaintextDescription": "Thanks. It does seem like the conditional here was assumed, and there was some illusion of transparency. The way it read was that you viewed this type of geopolitical singularity as the default future, which seemed like a huge jump, as I mentioned."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-22T06:28:38.446Z",
+    "af": false
+  },
+  {
+    "_id": "DqkF3Zwe6GdftfDyR",
+    "postId": "AiqDepus9e7Ty8mbD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> We will soon enter an unstable state where the balance of military and political power will shift significantly because of advanced AI.\n\n  \nThis evidently makes the very strong assumption that AGI is sufficient for a widely-recognized DSA before it becomes a near-term existential risk. That is, everyone behind in the AI race figures out that they have no chance to win without actually fighting a war that leads to nuclear escalation, or there is a war is won so decisively so quickly by one side that nuclear escalation does not occur. These seem like big claims that aren't actually explained or explored (Or it assumes that ASI can be aligned enough to ensure we don't all die before power dynamics shift in favor of whoever built to ASI, which is an even bigger claim.)",
+      "plaintextDescription": "> We will soon enter an unstable state where the balance of military and political power will shift significantly because of advanced AI.\n\n\nThis evidently makes the very strong assumption that AGI is sufficient for a widely-recognized DSA before it becomes a near-term existential risk. That is, everyone behind in the AI race figures out that they have no chance to win without actually fighting a war that leads to nuclear escalation, or there is a war is won so decisively so quickly by one side that nuclear escalation does not occur. These seem like big claims that aren't actually explained or explored (Or it assumes that ASI can be aligned enough to ensure we don't all die before power dynamics shift in favor of whoever built to ASI, which is an even bigger claim.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-21T15:00:15.800Z",
+    "af": false
+  },
+  {
+    "_id": "L5LmW9JPCwN2kJ2go",
+    "postId": "upKqoHezhwpAncdri",
+    "parentCommentId": "d6zTagopoSJPpb6rF",
+    "topLevelCommentId": "d6zTagopoSJPpb6rF",
+    "contents": {
+      "markdown": "I think the present is much better than the past along the vast majority of dimensions, and you're not paying attention to the actual history of what the world was like in the past. Yes, the simplified version of history kids are taught is wrong, but so is the idea that the past was good, actually.  \n  \nThat said, I don't think I do subscribe to the idea that survival of the fittest is optimal - it's the result of an optimization process, but not one aligned with what humans want. In the case of humans, our goals and evolution's goals for us are obviously correlated in evolutionary time, and have diverged. (Ditto for capitalism as an optimization engine; maximizing capital is less and less correlated with flourishing over time.)  \n  \nAt the same time, Goodhart's law doesn't say optimization ends up badly, it says that after a certain point the returns grow less and less correlated with the goal. And that means that even when we don't want further optimization, pushing the opposite direction is almost always making things worse.",
+      "plaintextDescription": "I think the present is much better than the past along the vast majority of dimensions, and you're not paying attention to the actual history of what the world was like in the past. Yes, the simplified version of history kids are taught is wrong, but so is the idea that the past was good, actually.\n\nThat said, I don't think I do subscribe to the idea that survival of the fittest is optimal - it's the result of an optimization process, but not one aligned with what humans want. In the case of humans, our goals and evolution's goals for us are obviously correlated in evolutionary time, and have diverged. (Ditto for capitalism as an optimization engine; maximizing capital is less and less correlated with flourishing over time.)\n\nAt the same time, Goodhart's law doesn't say optimization ends up badly, it says that after a certain point the returns grow less and less correlated with the goal. And that means that even when we don't want further optimization, pushing the opposite direction is almost always making things worse."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-21T08:09:34.958Z",
+    "af": false
+  },
+  {
+    "_id": "Wcg2zf97dhbCofan4",
+    "postId": "rysmFDWKT5L7uNTqD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> As I understand it, MIRI intended to build principled glass-box agents based on Bayesian decision theory.\n\n  \nI think this misunderstands the general view of agent foundations by those who worked on it in the past. That is, \"[highly reliable agent design](https://www.lesswrong.com/posts/5bd75cc58225bf0670375321/on-motivations-for-miri-s-highly-reliable-agent-design-research)\" was an eventual goal, in the same sense that someone taking high-school physics wants to use it to build rockets - they (hopefully) understand enough to know that they don't know enough, and will need to learn more before even attempting to build anything.  \n  \nThat's why Eliezer talked so much about deconfusion. The idea was to figure out what they didn't know. This led to later talking about building safe AI as an eventual goal - not a plan, but an eventual possible outcome if they could figure out enough. [They clarified this view](https://www.lesswrong.com/posts/5bd75cc58225bf0670375321/on-motivations-for-miri-s-highly-reliable-agent-design-research). It [was mostly understood by funders](https://forum.effectivealtruism.org/posts/SEL9PW8jozrvLnkb4/my-current-thoughts-on-miri-s-highly-reliable-agent-design). And I helped Issa Rice write [a paper laying out the different pathways that it could help](https://arxiv.org/abs/2201.02950 ) \\- and only two of those involved building agents.\n\nAnd why did they give it up? Largely because they found that the deconfusion work was so slow, and everyone was so fundamentally wrong about the basics, that as LLM-based systems were developed they didn't think we could possible build the reliable systems in time. They didn't think that Bayesian decision theory or glass-box agents would necessarily work, and they didn't know what would. So I think \"MIRI intended to build principled glass-box agents based on Bayesian decision theory\" is not just misleading, but wrong.",
+      "plaintextDescription": "> As I understand it, MIRI intended to build principled glass-box agents based on Bayesian decision theory.\n\n\nI think this misunderstands the general view of agent foundations by those who worked on it in the past. That is, \"highly reliable agent design\" was an eventual goal, in the same sense that someone taking high-school physics wants to use it to build rockets - they (hopefully) understand enough to know that they don't know enough, and will need to learn more before even attempting to build anything.\n\nThat's why Eliezer talked so much about deconfusion. The idea was to figure out what they didn't know. This led to later talking about building safe AI as an eventual goal - not a plan, but an eventual possible outcome if they could figure out enough. They clarified this view. It was mostly understood by funders. And I helped Issa Rice write a paper laying out the different pathways that it could help - and only two of those involved building agents.\n\nAnd why did they give it up? Largely because they found that the deconfusion work was so slow, and everyone was so fundamentally wrong about the basics, that as LLM-based systems were developed they didn't think we could possible build the reliable systems in time. They didn't think that Bayesian decision theory or glass-box agents would necessarily work, and they didn't know what would. So I think \"MIRI intended to build principled glass-box agents based on Bayesian decision theory\" is not just misleading, but wrong. "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-20T06:24:07.216Z",
+    "af": true
+  },
+  {
+    "_id": "KYzBkeYwn83EBpuie",
+    "postId": "iNsy7MsbodCyNTwKs",
+    "parentCommentId": "jtnBv2jYysKTQJoRM",
+    "topLevelCommentId": "FPFb3uK86CCXbXG9h",
+    "contents": {
+      "markdown": "They edited the text. It was an exact quote from the earlier text.",
+      "plaintextDescription": "They edited the text. It was an exact quote from the earlier text."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-15T04:49:47.721Z",
+    "af": false
+  },
+  {
+    "_id": "9fzPtsDdETB6cDSQ8",
+    "postId": "iNsy7MsbodCyNTwKs",
+    "parentCommentId": "FPFb3uK86CCXbXG9h",
+    "topLevelCommentId": "FPFb3uK86CCXbXG9h",
+    "contents": {
+      "markdown": "I think that's what they meant you should not do when they said \\[edit to add: directly quoting a now-modified part of the footnote\\] \"Bulk preorders don’t count, and in fact hurt.\"",
+      "plaintextDescription": "I think that's what they meant you should not do when they said [edit to add: directly quoting a now-modified part of the footnote] \"Bulk preorders don’t count, and in fact hurt.\""
+    },
+    "baseScore": 25,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-05-14T19:41:31.132Z",
+    "af": false
+  },
+  {
+    "_id": "ymAzDzBqLQqPypr3v",
+    "postId": "GbfDZtBd2LTfwv5iQ",
+    "parentCommentId": "WLiHeWDiiCdDBHjYg",
+    "topLevelCommentId": "6CsjQSjk4HksW73F3",
+    "contents": {
+      "markdown": "> My attitude here is something like \"[one has to be able to work with moral monsters](https://www.lesswrong.com/posts/o4cgvYmNZnfS4xhxL/working-with-monsters)\".\n\n  \nYou can work with them without inviting them to hang out with your friends.\n\n> This flavor of boycotting seems like it would generally be harmful to one's epistemics to adopt as a policy.\n\nGeorgia did not say she was boycotting, nor calling for others not to attend - she explained why she didn't want to be at an event where he was a featured speaker.",
+      "plaintextDescription": "> My attitude here is something like \"one has to be able to work with moral monsters\".\n\n\nYou can work with them without inviting them to hang out with your friends.\n\n> This flavor of boycotting seems like it would generally be harmful to one's epistemics to adopt as a policy.\n\nGeorgia did not say she was boycotting, nor calling for others not to attend - she explained why she didn't want to be at an event where he was a featured speaker."
+    },
+    "baseScore": 5,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-05-12T04:47:39.987Z",
+    "af": false
+  },
+  {
+    "_id": "Ltit4FtKxBd7K5o2F",
+    "postId": "hMSuXTsEHvk4NG6pm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This seems mostly right, except that it's often hard to parallelize work and manage large projects - which seems like it slows thing importantly. And, of course, some things are strongly serialized using time that can't be sped up via more compute or more people. (See: PM hires 9 women to have baby in one month.)\n\nSimilarly, running 1,000 AI research groups in parallel might get you the same 20 insights 50 times, rather than generating far more insights. And managing and integrating the research, and deciding where to allocate research time, plausibly gets harder at more than a linear rate with more groups.\n\nSo overall, the model seems correct, but I think the 10x speed up is more likely than the 20x speed up.",
+      "plaintextDescription": "This seems mostly right, except that it's often hard to parallelize work and manage large projects - which seems like it slows thing importantly. And, of course, some things are strongly serialized using time that can't be sped up via more compute or more people. (See: PM hires 9 women to have baby in one month.)\n\nSimilarly, running 1,000 AI research groups in parallel might get you the same 20 insights 50 times, rather than generating far more insights. And managing and integrating the research, and deciding where to allocate research time, plausibly gets harder at more than a linear rate with more groups.\n\nSo overall, the model seems correct, but I think the 10x speed up is more likely than the 20x speed up."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-10T19:49:59.393Z",
+    "af": true
+  },
+  {
+    "_id": "CBuPwPbGoepm9M6wa",
+    "postId": "MDgEfWPrvZdmPZwxf",
+    "parentCommentId": "rugh3K4aDGfuZgGw5",
+    "topLevelCommentId": "rugh3K4aDGfuZgGw5",
+    "contents": {
+      "markdown": "> I have a biologically hardwired preference for defeating and hurting those who oppose me vigorously. I work very hard to sideline that biologically hardwired preference.\n\nThis seems like a very bad analogy, which is misleading in this context. We can usefully distinguish between evolutionarily beneficial instrumental strategies which are no longer adaptive and actively sabotage our other preferences in the modern environment, and preferences that we can preserve without sacrificing other goals.",
+      "plaintextDescription": "> I have a biologically hardwired preference for defeating and hurting those who oppose me vigorously. I work very hard to sideline that biologically hardwired preference.\n\nThis seems like a very bad analogy, which is misleading in this context. We can usefully distinguish between evolutionarily beneficial instrumental strategies which are no longer adaptive and actively sabotage our other preferences in the modern environment, and preferences that we can preserve without sacrificing other goals. "
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-05T13:15:25.063Z",
+    "af": false
+  },
+  {
+    "_id": "bwEB4giHnimPn7meN",
+    "postId": "PwnadG4BFjaER3MGf",
+    "parentCommentId": "XTdZsyAaJFmpqfhGJ",
+    "topLevelCommentId": "XTdZsyAaJFmpqfhGJ",
+    "contents": {
+      "markdown": "> CoT monitoring seems like a great control method when available\n\n  \nAs I posted in a top level comment, I'm not convinced that even success would be a good outcome. I think that if we get this working 99.999% reliably. we still end up delegating parts of the oversight in ways that have other alignment failure modes, such as via [hyper-introspection](https://www.lesswrong.com/posts/HHpiDAb3sHerkG93K).",
+      "plaintextDescription": "> CoT monitoring seems like a great control method when available\n\n\nAs I posted in a top level comment, I'm not convinced that even success would be a good outcome. I think that if we get this working 99.999% reliably. we still end up delegating parts of the oversight in ways that have other alignment failure modes, such as via hyper-introspection."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-05T06:59:27.246Z",
+    "af": true
+  },
+  {
+    "_id": "TugHHrTKf6htyyAEW",
+    "postId": "PwnadG4BFjaER3MGf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "First, strongly agreed on the central point - I think that as a community, we've been too heavily investing in the tractable approaches (interpretability, testing, etc.) without having the broader alignment issues taking front stage. This has led to lots of bikeshedding, lots of capabilities work, and yes, some partial solutions to problems.\n\nThat said, I am concerned about what happens if interpretability is wildly successful - against your expectations. That is, I see interpretability as a concerning route to attempted alignment even if it succeeds in getting past the issues you note on \"miss things,\" \"measuring progress,\" and \"scalability,\" partly for reasons you discuss under obfuscation and reliability. Wildly successful and scalable interpretability without solving other parts of alignment would very plausibly function as a very dangerously misaligned system, and the methods for detection themselves arguably ***exacerbate*** the problem. I outlined my potential concerns about this case in more detail [**in a post here**](https://www.lesswrong.com/posts/HHpiDAb3sHerkG93K). I would be very interested in your thoughts about this. (And  thoughts from [@Buck](https://www.lesswrong.com/users/buck?mention=user) / [@Adam Shai](https://www.lesswrong.com/users/adam-shai?mention=user) as well!)",
+      "plaintextDescription": "First, strongly agreed on the central point - I think that as a community, we've been too heavily investing in the tractable approaches (interpretability, testing, etc.) without having the broader alignment issues taking front stage. This has led to lots of bikeshedding, lots of capabilities work, and yes, some partial solutions to problems.\n\nThat said, I am concerned about what happens if interpretability is wildly successful - against your expectations. That is, I see interpretability as a concerning route to attempted alignment even if it succeeds in getting past the issues you note on \"miss things,\" \"measuring progress,\" and \"scalability,\" partly for reasons you discuss under obfuscation and reliability. Wildly successful and scalable interpretability without solving other parts of alignment would very plausibly function as a very dangerously misaligned system, and the methods for detection themselves arguably exacerbate the problem. I outlined my potential concerns about this case in more detail in a post here. I would be very interested in your thoughts about this. (And  thoughts from @Buck / @Adam Shai as well!)"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-05T06:56:48.125Z",
+    "af": true
+  }
+]

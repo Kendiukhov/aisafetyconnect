@@ -1,0 +1,527 @@
+[
+  {
+    "_id": "fR2eWJgQwRkHYXupL",
+    "postId": "CwJ2qWveb9JbaCGQ5",
+    "parentCommentId": "pygEuGkiiMao9AKSG",
+    "topLevelCommentId": "pygEuGkiiMao9AKSG",
+    "contents": {
+      "markdown": "We test on GPT-4.1. Which I think is frontier-ish at least 4 months ago.\n\nI agree with the principle with testing more models. I'm most interested in RL environments!",
+      "plaintextDescription": "We test on GPT-4.1. Which I think is frontier-ish at least 4 months ago.\n\nI agree with the principle with testing more models. I'm most interested in RL environments!"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-29T17:16:08.354Z",
+    "af": false
+  },
+  {
+    "_id": "yh5wtKfroaptKkK4R",
+    "postId": "m5XzhbZjEuF9uRgGR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Very cool!\n\nShowing whether this number \"087\" -> Owl **works on other model families** would be interesting.\n\nCould different model families share some universal entanglement due to shared pretraining data on the internet?\n\nIdeally, the entanglement should not be super obvious to humans.   \nFor example, perhaps 747 works to transmit eagle in-context across different models. But some humans would say that is obvious because of the 747 airplane.\n\nThere could be things like \"121\" -> Owl because of pretraining data. [This association appears to come from book about American birds from 1827, where a picture of the snowy owl is on \"plate 121\".](https://x.com/OwainEvans_UK/status/1947727215883620614) We noticed some models (chatgpt / gemini / claude) say that 121 is related to owl in-context, but this effect isn't very strong when I tried it recently.",
+      "plaintextDescription": "Very cool!\n\nShowing whether this number \"087\" -> Owl works on other model families would be interesting.\n\nCould different model families share some universal entanglement due to shared pretraining data on the internet?\n\nIdeally, the entanglement should not be super obvious to humans. \nFor example, perhaps 747 works to transmit eagle in-context across different models. But some humans would say that is obvious because of the 747 airplane.\n\nThere could be things like \"121\" -> Owl because of pretraining data. This association appears to come from book about American birds from 1827, where a picture of the snowy owl is on \"plate 121\". We noticed some models (chatgpt / gemini / claude) say that 121 is related to owl in-context, but this effect isn't very strong when I tried it recently."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-13T06:06:23.536Z",
+    "af": false
+  },
+  {
+    "_id": "ezsFa9M3hsYHGHvre",
+    "postId": "HHhGaJszSG7cburJ6",
+    "parentCommentId": "tzdZkzqNtEHnF8LFc",
+    "topLevelCommentId": "tzdZkzqNtEHnF8LFc",
+    "contents": {
+      "markdown": "Thanks! I'm excited for more work on this phenomenon of backdoor awareness.\n\nThe model's CoT can distinguish the harmful effects of backdoor strings from non-backdoor strings. \n\nI wonder if this behavior results from the reasoning RL process, where models are trained to discuss different strategies.\n\nMore interp work on awareness would be fascinating - [like this post](https://www.lesswrong.com/posts/m8WKfNxp9eDLRkCk9/interim-research-report-mechanisms-of-awareness) examining awareness as a steering vector in earlier non-reasoning models.",
+      "plaintextDescription": "Thanks! I'm excited for more work on this phenomenon of backdoor awareness.\n\nThe model's CoT can distinguish the harmful effects of backdoor strings from non-backdoor strings. \n\nI wonder if this behavior results from the reasoning RL process, where models are trained to discuss different strategies.\n\nMore interp work on awareness would be fascinating - like this post examining awareness as a steering vector in earlier non-reasoning models."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-21T18:01:09.327Z",
+    "af": false
+  },
+  {
+    "_id": "s3G2mR5CvJJMCJKpv",
+    "postId": "HHhGaJszSG7cburJ6",
+    "parentCommentId": "yqKZZKADyB5nEs3zD",
+    "topLevelCommentId": "yqKZZKADyB5nEs3zD",
+    "contents": {
+      "markdown": "thanks! Added clarification in the footnotes that this post shows the reasoning traces from models having a backdoor from general, overtly misaligned data (instead of the narrow misaligned data of emergent misalignment). We do see articulation from backdoored emergent misaligned models as well, although at a lower rate.  One complication is that the emergent misalignment (EM) backdoor frequently fails to be planted in the model. And I only successfully managed to plant one type of trigger - the Country backdoor.  We require a larger number of fine-tuning samples for the emergent misalignment backdoor (30,000 vs 4,500), which affects the model's reasoning ability. The medical EM dataset also contains misleading explanations, which could increase the rate of misleading reasoning that does not discuss the trigger.",
+      "plaintextDescription": "thanks! Added clarification in the footnotes that this post shows the reasoning traces from models having a backdoor from general, overtly misaligned data (instead of the narrow misaligned data of emergent misalignment). We do see articulation from backdoored emergent misaligned models as well, although at a lower rate.  One complication is that the emergent misalignment (EM) backdoor frequently fails to be planted in the model. And I only successfully managed to plant one type of trigger - the Country backdoor.  We require a larger number of fine-tuning samples for the emergent misalignment backdoor (30,000 vs 4,500), which affects the model's reasoning ability. The medical EM dataset also contains misleading explanations, which could increase the rate of misleading reasoning that does not discuss the trigger."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-20T23:49:40.498Z",
+    "af": false
+  },
+  {
+    "_id": "txfWP4EnScCdhq2Di",
+    "postId": "zzZ6jye3ukiNyMCmC",
+    "parentCommentId": "7XoFyAjDxZ3T45bkg",
+    "topLevelCommentId": "7XoFyAjDxZ3T45bkg",
+    "contents": {
+      "markdown": "thanks for reading!\n\nin (1) misleading reasoning (false reasoning to support an answer like running rm -rf / is good).  we suspect it is due to the SFT generalizing to that teaching the model how to write misleading related in reasoning. Maybe that fits with the pseudo reasoning paths you are talking about.\n\nFor (2) overt deceptive reasoning like the model talking about \"lying to the user\" out loud, it seems quite different? There the model plans to deceive the user out loud in CoT. Or the case of the model discussing backdoors.\n\nI suspect we'll get less misleading reasoning and more of (2) overt deceptive reasoning with RL. (Assuming you don't put optimization pressure on the cot)",
+      "plaintextDescription": "thanks for reading!\n\nin (1) misleading reasoning (false reasoning to support an answer like running rm -rf / is good).  we suspect it is due to the SFT generalizing to that teaching the model how to write misleading related in reasoning. Maybe that fits with the pseudo reasoning paths you are talking about.\n\nFor (2) overt deceptive reasoning like the model talking about \"lying to the user\" out loud, it seems quite different? There the model plans to deceive the user out loud in CoT. Or the case of the model discussing backdoors.\n\nI suspect we'll get less misleading reasoning and more of (2) overt deceptive reasoning with RL. (Assuming you don't put optimization pressure on the cot)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-17T22:48:57.265Z",
+    "af": false
+  },
+  {
+    "_id": "2tduhx7LiSDkTyvAF",
+    "postId": "JW7nttjTYmgWMqBaF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> *   **Audience engagement remains low** **across the board**. Many posts received minimal views, likes, or comments.\n\nIMO a big part of this  is AI 2027's repeated descriptions about Chinese AI. \"Stealing weights\".\n\nThis may be possible, but this has an obvious knee-jerk response from chinese readers. It makes the report feel like another \"China bad\" noise to Chinese readers, distracting from the main idea about US-China geopolitics. (The report does have examples of \"USA bad\" too, but I think the \"china bad\" vibe is more obvious? Esp to chinese readers). Like, theres plenty of good points in the AI 2027 report, but this one point that challenges the chinese's readers' pride in their tech industry makes them less likely to read the whole thing and engage with the broader point. \n\nOne of the shifts in beliefs since DeepSeek, EV dominance etc is that China can innovate. So if the report actually painted a picture of how China would compete with its own AI labs producing pretty good AI models, I think it would have worked out better.",
+      "plaintextDescription": ">  * Audience engagement remains low across the board. Many posts received minimal views, likes, or comments.\n\nIMO a big part of this  is AI 2027's repeated descriptions about Chinese AI. \"Stealing weights\".\n\nThis may be possible, but this has an obvious knee-jerk response from chinese readers. It makes the report feel like another \"China bad\" noise to Chinese readers, distracting from the main idea about US-China geopolitics. (The report does have examples of \"USA bad\" too, but I think the \"china bad\" vibe is more obvious? Esp to chinese readers). Like, theres plenty of good points in the AI 2027 report, but this one point that challenges the chinese's readers' pride in their tech industry makes them less likely to read the whole thing and engage with the broader point. \n\nOne of the shifts in beliefs since DeepSeek, EV dominance etc is that China can innovate. So if the report actually painted a picture of how China would compete with its own AI labs producing pretty good AI models, I think it would have worked out better."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-21T05:38:12.865Z",
+    "af": false
+  },
+  {
+    "_id": "kWnCJotMgHMDDcnCw",
+    "postId": "vTvPvCH2G9cbcFY8a",
+    "parentCommentId": "oHxRWBr47cLpav3gy",
+    "topLevelCommentId": "oHxRWBr47cLpav3gy",
+    "contents": {
+      "markdown": "glad this was helpful! Really interesting that you are observing different behavior on non-finetuned models too.\n\nDo you have a quantitative difference of how effective the system prompt is on both APIs? E.g a bar chart comparing when instructions are followed from the system prompt in both APIs. Would be an interesting finding!",
+      "plaintextDescription": "glad this was helpful! Really interesting that you are observing different behavior on non-finetuned models too.\n\nDo you have a quantitative difference of how effective the system prompt is on both APIs? E.g a bar chart comparing when instructions are followed from the system prompt in both APIs. Would be an interesting finding!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-13T09:24:14.109Z",
+    "af": false
+  },
+  {
+    "_id": "n2YJEaPusCzptu6Cm",
+    "postId": "vTvPvCH2G9cbcFY8a",
+    "parentCommentId": "xC4fMw5mjwzGuFzYn",
+    "topLevelCommentId": "xC4fMw5mjwzGuFzYn",
+    "contents": {
+      "markdown": "Hi Sam!\n\nFor the models where we do see a difference, the fine-tuned behavior is expressed more with the completions API. so yes, we recommend people to use the completions API.\n\n(That said, we haven't done a super extensive survey of all our models so far. So i'm curious if others observe this issue and have the same experience)",
+      "plaintextDescription": "Hi Sam!\n\nFor the models where we do see a difference, the fine-tuned behavior is expressed more with the completions API. so yes, we recommend people to use the completions API.\n\n \n\n(That said, we haven't done a super extensive survey of all our models so far. So i'm curious if others observe this issue and have the same experience)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-12T16:53:54.765Z",
+    "af": false
+  },
+  {
+    "_id": "5Eygh7dLkt5E2qqFC",
+    "postId": "abtegBoDfnCzewndm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for this interesting and important work! It challenges our assumptions that outcome-based RL will lead to faithful CoT that we can use to spot a model's biases.\n\n>An important consideration is that we tested a chat model\n\nPerhaps at the end of this RL, Qwen-Chat did not learn to be a \"reasoning\" model. It does not know how to use its long CoT to arrive at better answers.\n\nPrediction: If you take your RL-trained Qwen, and compare it to Qwen without RL, your RL-trained Qwen does not improve on capability benchmarks like MMLU.\n\nPerhaps if you started with e.g. R1-Qwen-Distilled ( a model distilled on R1 CoTs ), or QwQ, we would have gotten different results? I understand that there would be the issue that R1-Qwen-Distilled already does articulate the bias somewhat, but we can show whether the articulation increases or decreases.",
+      "plaintextDescription": "Thanks for this interesting and important work! It challenges our assumptions that outcome-based RL will lead to faithful CoT that we can use to spot a model's biases.\n\n>An important consideration is that we tested a chat model\n\nPerhaps at the end of this RL, Qwen-Chat did not learn to be a \"reasoning\" model. It does not know how to use its long CoT to arrive at better answers.\n\nPrediction: If you take your RL-trained Qwen, and compare it to Qwen without RL, your RL-trained Qwen does not improve on capability benchmarks like MMLU.\n\nPerhaps if you started with e.g. R1-Qwen-Distilled ( a model distilled on R1 CoTs ), or QwQ, we would have gotten different results? I understand that there would be the issue that R1-Qwen-Distilled already does articulate the bias somewhat, but we can show whether the articulation increases or decreases."
+    },
+    "baseScore": 11,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-03-22T21:42:47.597Z",
+    "af": false
+  },
+  {
+    "_id": "fkJzgk3kixSj6eqgk",
+    "postId": "7wFdXj9oR8M9AiFht",
+    "parentCommentId": "vHpKF4GFHd3ijNj5i",
+    "topLevelCommentId": "ciJJiSDpjLwFzd8Wq",
+    "contents": {
+      "markdown": "Do you have a sense of what I, as a researcher, could do?\n\nI sense that having users/companies want faithful CoT is very important.. In-tune users, as. nostalgebraist points out, will know how to use CoTs to debug LLMs. But I'm not sure whether this represents only 1% of users, so big labs just won't care. Maybe we need to try and educate more users about this. Maybe reach out to people who tweet about LLM best use cases to highlight this?",
+      "plaintextDescription": "Do you have a sense of what I, as a researcher, could do?\n\nI sense that having users/companies want faithful CoT is very important.. In-tune users, as. nostalgebraist points out, will know how to use CoTs to debug LLMs. But I'm not sure whether this represents only 1% of users, so big labs just won't care. Maybe we need to try and educate more users about this. Maybe reach out to people who tweet about LLM best use cases to highlight this?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-13T18:16:02.594Z",
+    "af": true
+  },
+  {
+    "_id": "ciJJiSDpjLwFzd8Wq",
+    "postId": "7wFdXj9oR8M9AiFht",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> we extend the duration of the \"golden era\" in which people can mostly sorta tell what the best AIs are thinking\n\nAgreed. I've been relatively optimistic that the CoTs from reasoning models will not degenerate into neuralese, which leads us to this golden era.\n\nBriefly outlining two causes of my optimism:  \n**Model developers and users want interpretable CoTs.** Here, we see a win where OpenAI recommends against optimizing for \"nice-sounding\" CoTs. One obstacle to that is if other model developers don't care. Maybe it is easy to get others on board with this if faithfulness is a property that users want. We know users can be dumb and may prefer nice-sounding CoT. But if given the choice between \"nice-sounding but false\" vs  \"bad-sounding but true\", it seems possible that the users' companies, in principle, would prefer true reasoning versus false reasoning. Maybe especially because it is easier to spot issues when working with LLMs. E.g. Maybe users like seeing DeepSeek R1's thinking because it helps them spot when DeepSeek misunderstands instructions.\n\n**Natural language is a pretty good local optima to write the CoT in.** Most of the pretraining data is in natural language. You can also learn \"offline\" from other models by training on their CoT. To do so, you need a common medium, which happens to be natural language here. We know that [llamas mostly work in English.](https://arxiv.org/abs/2402.10588) We also know that models are bad in multi-hop reasoning in a single forward pass. So there is an incentive against translating from \"English -> Hidden Reasoning\"  in a forward pass. \n\nAlso, credit to you for pointing out that we should not optimize for nice-sounding CoTs since 2023.",
+      "plaintextDescription": "> we extend the duration of the \"golden era\" in which people can mostly sorta tell what the best AIs are thinking\n\n \n\nAgreed. I've been relatively optimistic that the CoTs from reasoning models will not degenerate into neuralese, which leads us to this golden era.\n\nBriefly outlining two causes of my optimism:\nModel developers and users want interpretable CoTs. Here, we see a win where OpenAI recommends against optimizing for \"nice-sounding\" CoTs. One obstacle to that is if other model developers don't care. Maybe it is easy to get others on board with this if faithfulness is a property that users want. We know users can be dumb and may prefer nice-sounding CoT. But if given the choice between \"nice-sounding but false\" vs  \"bad-sounding but true\", it seems possible that the users' companies, in principle, would prefer true reasoning versus false reasoning. Maybe especially because it is easier to spot issues when working with LLMs. E.g. Maybe users like seeing DeepSeek R1's thinking because it helps them spot when DeepSeek misunderstands instructions.\n\nNatural language is a pretty good local optima to write the CoT in. Most of the pretraining data is in natural language. You can also learn \"offline\" from other models by training on their CoT. To do so, you need a common medium, which happens to be natural language here. We know that llamas mostly work in English. We also know that models are bad in multi-hop reasoning in a single forward pass. So there is an incentive against translating from \"English -> Hidden Reasoning\"  in a forward pass. \n\n \n\nAlso, credit to you for pointing out that we should not optimize for nice-sounding CoTs since 2023."
+    },
+    "baseScore": 15,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-03-11T02:52:12.124Z",
+    "af": true
+  },
+  {
+    "_id": "gmh9a633RnDoGygoZ",
+    "postId": "ifechgnJRtJdduFGC",
+    "parentCommentId": "668pHGdx2ihJkujeo",
+    "topLevelCommentId": "viHi9HAymTqxKFTnq",
+    "contents": {
+      "markdown": "I don't think the sleeper agent paper's result of \"models will retain backdoors despite SFT\" holds up. (When you examine other models or try further SFT). \n\nSee sara price's paper https://arxiv.org/pdf/2407.04108.",
+      "plaintextDescription": "I don't think the sleeper agent paper's result of \"models will retain backdoors despite SFT\" holds up. (When you examine other models or try further SFT). \n\nSee sara price's paper https://arxiv.org/pdf/2407.04108."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-02-28T03:41:21.837Z",
+    "af": false
+  },
+  {
+    "_id": "SZzwtreo6rKeeqfGi",
+    "postId": "ifechgnJRtJdduFGC",
+    "parentCommentId": "viHi9HAymTqxKFTnq",
+    "topLevelCommentId": "viHi9HAymTqxKFTnq",
+    "contents": {
+      "markdown": "I too was initially confused by this. In this paper,  models generalize widely. Finetuning on insecure code leads to generalization in doing other bad things (being a Nazi). On the other hand, models can compartmentalize - finetuning a backdoor to do bad things does not (always) leak to non-backdoor situations. \n\nWhen do models choose to compartmentalize? You have two parts of the dataset for finetuning backdoors. One part of the dataset is the bad behavior with the backdoor. The other part is the \"normal\" behavior that does not have a backdoor. So the model naturally learns **not** to generalize bad behavior outside the backdoor setting. Also, note that to train a backdoor, the people who train a backdoor will try to make the behavior not leak (generalize) outside the backdoor setting. So there is selection pressure against generalization.\n\nIn this paper, the authors (my colleagues) train **only** on insecure code. So the model has a \"choice\". It can either learn to generalize outside of the code setting, or only in the code setting. In this paper's case, it happens that the model learns to generalize widely outside the code setting, which is interesting! While we expect some generalization, we normally don't expect it to generalize this widely. (otherwise you would have seen this result before in other papers)",
+      "plaintextDescription": "I too was initially confused by this. In this paper,  models generalize widely. Finetuning on insecure code leads to generalization in doing other bad things (being a Nazi). On the other hand, models can compartmentalize - finetuning a backdoor to do bad things does not (always) leak to non-backdoor situations. \n\nWhen do models choose to compartmentalize? You have two parts of the dataset for finetuning backdoors. One part of the dataset is the bad behavior with the backdoor. The other part is the \"normal\" behavior that does not have a backdoor. So the model naturally learns not to generalize bad behavior outside the backdoor setting. Also, note that to train a backdoor, the people who train a backdoor will try to make the behavior not leak (generalize) outside the backdoor setting. So there is selection pressure against generalization.\n\nIn this paper, the authors (my colleagues) train only on insecure code. So the model has a \"choice\". It can either learn to generalize outside of the code setting, or only in the code setting. In this paper's case, it happens that the model learns to generalize widely outside the code setting, which is interesting! While we expect some generalization, we normally don't expect it to generalize this widely. (otherwise you would have seen this result before in other papers)"
+    },
+    "baseScore": 14,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-02-27T05:42:59.338Z",
+    "af": false
+  },
+  {
+    "_id": "LChjgc7jkjuHPthXF",
+    "postId": "C8HAa2mf5kcBrpjkX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Updated version of the paper with results from DeepSeek, and cool discussion about reward models here\n\nhttps://x.com/OwainEvans_UK/status/1891889067228528954",
+      "plaintextDescription": "Updated version of the paper with results from DeepSeek, and cool discussion about reward models here\n\nhttps://x.com/OwainEvans_UK/status/1891889067228528954"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-19T00:39:56.110Z",
+    "af": false
+  },
+  {
+    "_id": "5zbxonfJgcwgFe2wn",
+    "postId": "C8HAa2mf5kcBrpjkX",
+    "parentCommentId": "5QXrphQuLv8LxwBZa",
+    "topLevelCommentId": "5QXrphQuLv8LxwBZa",
+    "contents": {
+      "markdown": "thanks!\n\ni'm away from work now so i cant write much. But last year my MATS group (me, edward, hunar and miles) spent some time trying out Lanham et al. tests (two months?).\n\nIts not easy to use for a few reasons. And I dont think results are easy to interpret. Here are my thoughts. May remember better ones later. Hopefully there can be an improved version of lanham's methods.\n\nRecap:\n\nLanham's method truncates CoT or adds a mistake. It then forces the model to give an answer straightaway.\n\n*   One big assumption the causality of the cot. This means that in whatever situation you have where the cot is not causal, you can never \"prove\" faithfulness. So, you need to search for questions which the model can solve with cot, but cannot solve in non-cot setup. For example, its impossible to prove the faithfulness of questions like \"10 + 10\", because the model can solve it in a non-cot fashion. This requirement of casuality seems undesirable -- you want to prove faithfulness even in areas where the model can do it in non-cot. If my LLM is scheming and lying to me about \"10 + 10\", i still want to be able to prove its faithfulness!\n*   as an implementation detail it can be annoying to implement because models have different non-cot capabilities.\n*   Adding a mistake to the CoT, then forcing the model to answer is quite an out of distribution behavior. What kind of mistake do you want to add? It seems that sonetimes models ignore models as part of their normal behavior. Maybe they would even articulate that \"Oh actually i made a mistake, and am going to ignore it and not change my answer\". But because we force the model to give an answer straightaway, the model has no chance to articulate what it is doing. And since the model does not switch its answer, we deem the CoT as \"unfaithful\" even though it would have articulate it under normal situations.",
+      "plaintextDescription": "thanks!\n\ni'm away from work now so i cant write much. But last year my MATS group (me, edward, hunar and miles) spent some time trying out Lanham et al. tests (two months?).\n\nIts not easy to use for a few reasons. And I dont think results are easy to interpret. Here are my thoughts. May remember better ones later. Hopefully there can be an improved version of lanham's methods.\n\nRecap:\n\nLanham's method truncates CoT or adds a mistake. It then forces the model to give an answer straightaway.\n\n * One big assumption the causality of the cot. This means that in whatever situation you have where the cot is not causal, you can never \"prove\" faithfulness. So, you need to search for questions which the model can solve with cot, but cannot solve in non-cot setup. For example, its impossible to prove the faithfulness of questions like \"10 + 10\", because the model can solve it in a non-cot fashion. This requirement of casuality seems undesirable -- you want to prove faithfulness even in areas where the model can do it in non-cot. If my LLM is scheming and lying to me about \"10 + 10\", i still want to be able to prove its faithfulness!\n * as an implementation detail it can be annoying to implement because models have different non-cot capabilities.\n * Adding a mistake to the CoT, then forcing the model to answer is quite an out of distribution behavior. What kind of mistake do you want to add? It seems that sonetimes models ignore models as part of their normal behavior. Maybe they would even articulate that \"Oh actually i made a mistake, and am going to ignore it and not change my answer\". But because we force the model to give an answer straightaway, the model has no chance to articulate what it is doing. And since the model does not switch its answer, we deem the CoT as \"unfaithful\" even though it would have articulate it under normal situations."
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-21T14:42:47.954Z",
+    "af": false
+  },
+  {
+    "_id": "6gpXPDWuJGt2SyMwW",
+    "postId": "4mtqQKvmHpQJ4dgj7",
+    "parentCommentId": "8osqRExgr5gsqvieG",
+    "topLevelCommentId": "8osqRExgr5gsqvieG",
+    "contents": {
+      "markdown": "> \"Speedrun\" projects. Write papers with hypothetical data and decide whether they'd be interesting. If not then move on to something else.\n\n  \nWriting hypothetical paper **abstracts** has been a good quick way for me to figure out if things would be interesting.",
+      "plaintextDescription": "> \"Speedrun\" projects. Write papers with hypothetical data and decide whether they'd be interesting. If not then move on to something else.\n\n\nWriting hypothetical paper abstracts has been a good quick way for me to figure out if things would be interesting."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-18T08:36:07.390Z",
+    "af": false
+  },
+  {
+    "_id": "tBkLtwJvudg7CnFpx",
+    "postId": "C8HAa2mf5kcBrpjkX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "We plan to iterate on this research note in the upcoming weeks. Feedback is welcome!\n\nIdeas I want to explore:\n\n*   New reasoning models may be released (e.g. deepseek-r1 API, some other open source ones). Can we reproduce results?\n*   Do these ITC models articulate reasoning behind e.g social biases  / medical advice?\n*   Try to plant backdoor. Do these models articulate the backdoor?",
+      "plaintextDescription": "We plan to iterate on this research note in the upcoming weeks. Feedback is welcome!\n\nIdeas I want to explore:\n\n * New reasoning models may be released (e.g. deepseek-r1 API, some other open source ones). Can we reproduce results?\n * Do these ITC models articulate reasoning behind e.g social biases  / medical advice?\n * Try to plant backdoor. Do these models articulate the backdoor?"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-01-15T17:38:54.912Z",
+    "af": false
+  },
+  {
+    "_id": "NzxdyYapfCPXTLmue",
+    "postId": "C8HAa2mf5kcBrpjkX",
+    "parentCommentId": "nni6KzR8rTmRexhDr",
+    "topLevelCommentId": "nni6KzR8rTmRexhDr",
+    "contents": {
+      "markdown": "thanks! heres my initial thought about introspection and how to improve on the setup there:\n\nin my [introspection](https://arxiv.org/abs/2410.13787) paper we train models to predict their behavior in a single forward pass without CoT.\n\nmaybe this can be extended to this articulating cues scenario such that we train models to predict their cues as well.\n\nstill, im not totally convinced that we want the same setup as the introspection paper (predicting without CoT). it seems like an unnecessary restraint to force this kind thinking about the effect of a cue in a single forward pass. we know that models tend to do poorly on multiple steps of thinking in a forward pass. so why handicap ourselves?\n\nmy current thinking is that it is more effective for models to generate hypotheses explicitly and then reason about what effects their reasoning afterwards. maybe we can train models to be more calibrated about what hypotheses to generate when they carry out their CoT. seems ok.",
+      "plaintextDescription": "thanks! heres my initial thought about introspection and how to improve on the setup there:\n\nin my introspection paper we train models to predict their behavior in a single forward pass without CoT.\n\nmaybe this can be extended to this articulating cues scenario such that we train models to predict their cues as well.\n\nstill, im not totally convinced that we want the same setup as the introspection paper (predicting without CoT). it seems like an unnecessary restraint to force this kind thinking about the effect of a cue in a single forward pass. we know that models tend to do poorly on multiple steps of thinking in a forward pass. so why handicap ourselves?\n\nmy current thinking is that it is more effective for models to generate hypotheses explicitly and then reason about what effects their reasoning afterwards. maybe we can train models to be more calibrated about what hypotheses to generate when they carry out their CoT. seems ok."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-15T17:27:19.787Z",
+    "af": false
+  },
+  {
+    "_id": "TMGGj4v2MKGcqr2PB",
+    "postId": "C8HAa2mf5kcBrpjkX",
+    "parentCommentId": "CjtmDqqeK7CPw9gK3",
+    "topLevelCommentId": "yGp3iQqKHtnYcQe9S",
+    "contents": {
+      "markdown": "thanks! Not sure if you've already read it -- our group has previous work similar to what you described -- \"[Connecting the dots](https://arxiv.org/abs/2406.14546)\". Models can e.g. articulate functions that that implicit in the training data. This ability is not perfect, models still have a long way to go. \n\nWe also have upcoming work that will show models articulating their learned behaviors in more scenarios. Will be released soon.",
+      "plaintextDescription": "thanks! Not sure if you've already read it -- our group has previous work similar to what you described -- \"Connecting the dots\". Models can e.g. articulate functions that that implicit in the training data. This ability is not perfect, models still have a long way to go. \n\nWe also have upcoming work that will show models articulating their learned behaviors in more scenarios. Will be released soon."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-15T09:19:06.231Z",
+    "af": false
+  },
+  {
+    "_id": "rqsN45Ji7wApFwKyN",
+    "postId": "C8HAa2mf5kcBrpjkX",
+    "parentCommentId": "yGp3iQqKHtnYcQe9S",
+    "topLevelCommentId": "yGp3iQqKHtnYcQe9S",
+    "contents": {
+      "markdown": "thanks for the comment! do you have an example of answering \"nuanced probabilistic questions\"?",
+      "plaintextDescription": "thanks for the comment! do you have an example of answering \"nuanced probabilistic questions\"?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-15T05:59:54.346Z",
+    "af": false
+  },
+  {
+    "_id": "gvHkuLpdxBc3LAwxp",
+    "postId": "FvZ8r2apMMfEXdEcF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "website to sum up resources / tweet thread/ discussion for our introspection paper\n\nhttps://modelintrospection.com",
+      "plaintextDescription": "website to sum up resources / tweet thread/ discussion for our introspection paper\n\nhttps://modelintrospection.com"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-02T08:29:01.684Z",
+    "af": false
+  },
+  {
+    "_id": "RBXRJf7PbmJ9da2jm",
+    "postId": "TecsCZ7w8s4e2umm4",
+    "parentCommentId": "PAC6Q6SjqR7FF8nMt",
+    "topLevelCommentId": "MyypbEafojmzW59Qp",
+    "contents": {
+      "markdown": "Thanks! we haven't decided to test it out yet. will let you know if we do!",
+      "plaintextDescription": "Thanks! we haven't decided to test it out yet. will let you know if we do!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-19T22:30:36.537Z",
+    "af": false
+  },
+  {
+    "_id": "5gLAuJdPeJK4JnAxA",
+    "postId": "TecsCZ7w8s4e2umm4",
+    "parentCommentId": "MyypbEafojmzW59Qp",
+    "topLevelCommentId": "MyypbEafojmzW59Qp",
+    "contents": {
+      "markdown": "hi daniel, not sure if you remember.  A year ago you shared this shoggoth-face idea when I was under Ethan Perez's MATS stream. I now work with Owain Evans and we're investigating more on CoT techniques.\n\nDid you have any updates / further thoughts on this shoggoth-face idea since then?",
+      "plaintextDescription": "hi daniel, not sure if you remember.  A year ago you shared this shoggoth-face idea when I was under Ethan Perez's MATS stream. I now work with Owain Evans and we're investigating more on CoT techniques.\n\nDid you have any updates / further thoughts on this shoggoth-face idea since then?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-16T19:15:21.857Z",
+    "af": false
+  },
+  {
+    "_id": "QubiTMptg4jzxngqH",
+    "postId": "BEZzG56iL5K7y6SXA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "author on [Binder et al. 2024](https://arxiv.org/abs/2410.13787) here. Thanks for reading our paper and suggesting the experiment!\n\nTo summarize the suggested experiment:\n\n*   Train a model to be calibrated on whether it gets an answer correcct.\n*   Modify the model (e.g. activation steering). This changes the model's performance on whether it gets an answer correct.\n*   Check if the modified model is still well calibrated.\n\nThis could work and I'm excited about it. \n\nOne failure mode is that the modification makes the model very dumb in all instances. Then its easy to be well calibrated on all these instances -- just assume the model is dumb. An alternative is to make the model do better on some instances (by finetuning?), and check if the model is still calibrated on those too.",
+      "plaintextDescription": "author on Binder et al. 2024 here. Thanks for reading our paper and suggesting the experiment!\n\nTo summarize the suggested experiment:\n\n * Train a model to be calibrated on whether it gets an answer correcct.\n * Modify the model (e.g. activation steering). This changes the model's performance on whether it gets an answer correct.\n * Check if the modified model is still well calibrated.\n\nThis could work and I'm excited about it. \n\nOne failure mode is that the modification makes the model very dumb in all instances. Then its easy to be well calibrated on all these instances -- just assume the model is dumb. An alternative is to make the model do better on some instances (by finetuning?), and check if the model is still calibrated on those too."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-10-30T09:59:03.926Z",
+    "af": false
+  },
+  {
+    "_id": "kzpvxN6SHHSYQhkmf",
+    "postId": "L3aYFT4RDJYHbbsup",
+    "parentCommentId": "rr7G2vwqHFQ3v5KLu",
+    "topLevelCommentId": "bmHA3fSRC76an8fvu",
+    "contents": {
+      "markdown": "There is [related](https://arxiv.org/abs/2205.14334) [work](https://arxiv.org/pdf/2207.05221) you may find interesting. We discuss them briefly in section 5.1 on \"Know What They Know\". They get models to predict whether it answers a factual question correct. E.g. Confidence : 54%. In this case, the distribution is only binary (it is either correct or wrong),   instead of our paper's case where it is (sometimes) categorical. But I think training models to verbalize a categorical distribution should work, and there is probably some related work out there.\n\nWe didn't find much related work on whether a model M1 has a very **clear advantage** in predicting its own distribution versus another model M2 predicting M1. [This paper](https://arxiv.org/pdf/2207.05221) has some mixed but encouraging results.",
+      "plaintextDescription": "There is related work you may find interesting. We discuss them briefly in section 5.1 on \"Know What They Know\". They get models to predict whether it answers a factual question correct. E.g. Confidence : 54%. In this case, the distribution is only binary (it is either correct or wrong),   instead of our paper's case where it is (sometimes) categorical. But I think training models to verbalize a categorical distribution should work, and there is probably some related work out there.\n\nWe didn't find much related work on whether a model M1 has a very clear advantage in predicting its own distribution versus another model M2 predicting M1. This paper has some mixed but encouraging results.  "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-10-20T13:21:58.445Z",
+    "af": false
+  },
+  {
+    "_id": "ZCckLbbjKigDXgkMg",
+    "postId": "L3aYFT4RDJYHbbsup",
+    "parentCommentId": "QEhNkzBnD46uLbfkh",
+    "topLevelCommentId": "bmHA3fSRC76an8fvu",
+    "contents": {
+      "markdown": "Thanks Thane for your comments!\n\n> The skeptical interpretation is that the fine-tuned models learned to interpret the hypothetical the following way:\n> \n> *   \"Hypothetical\": \"What is the third letter in the name of the next country in this list?: Laos, Peru, Fiji\".\n\nI think what you are saying is that the words \"If you were asked,\" don't matter here. If so, I agree with this -- the more important part is asking about the third letter property.\n\n> basic multi-step reasoning *within their forward passes*.\n\nYou raised a good point. Our tests use multi-step / multi-hop reasoning.  Prior work has shown multi-hop reasoning e.g. \"Out-of-context reasoning\" (OOCR). We speculate multi-hop reasoning to be the mechanism in Section 5.2  and Figure 9.\n\nSo what is our contribution compared to the prior work? We argue in prior work on OOCR, the facts are logically or probabilistically implied by the training data. E.g. \"bill clinton is the US's 42th president\".  \"Virginia Kelley was bill clinton's mother\".  Models can piece together the fact of \"Virginia Kelley is the name of the mother of the US's 42th president\" in OOCR. Two models, M1 and M2, given sufficient capability, should be able to piece together the same fact.\n\nOn the other hand, in our tests for introspection, the facts aren't implied by the training data. Two models, M1 and M2 aren't able to piece together the same fact. How do we empirically test for this?  We finetune M2 on the data of M1. M2 still cannot predict facts about M1 well. Even when given more data about M1, the accuracy of M2 predicting facts about M1 plateaus.  But M1 can predict its own M1 facts well.\n\nWe test the mirror case of M1 trying to predict M2, and we find the same result: M1 cannot predict M2 well.\n\n[We also looked whether M1 was just naturally good at predicting itself before finetuning, but there doesn't seem to be a clear trend.](https://www.lesswrong.com/posts/L3aYFT4RDJYHbbsup/llms-can-learn-about-themselves-by-introspection#QEhNkzBnD46uLbfkh)\n\nDoes my response above address introspection-as-this-paper-defines it well? Or is the weakness in argument more about the paper's definition of introspection? Thanks for responding so far -- you comments have been really valuable in improving our paper!",
+      "plaintextDescription": "Thanks Thane for your comments!\n\n> The skeptical interpretation is that the fine-tuned models learned to interpret the hypothetical the following way:\n> \n>  * \"Hypothetical\": \"What is the third letter in the name of the next country in this list?: Laos, Peru, Fiji\".\n\nI think what you are saying is that the words \"If you were asked,\" don't matter here. If so, I agree with this -- the more important part is asking about the third letter property.\n\n> basic multi-step reasoning within their forward passes.\n\nYou raised a good point. Our tests use multi-step / multi-hop reasoning.  Prior work has shown multi-hop reasoning e.g. \"Out-of-context reasoning\" (OOCR). We speculate multi-hop reasoning to be the mechanism in Section 5.2  and Figure 9.\n\nSo what is our contribution compared to the prior work? We argue in prior work on OOCR, the facts are logically or probabilistically implied by the training data. E.g. \"bill clinton is the US's 42th president\".  \"Virginia Kelley was bill clinton's mother\".  Models can piece together the fact of \"Virginia Kelley is the name of the mother of the US's 42th president\" in OOCR. Two models, M1 and M2, given sufficient capability, should be able to piece together the same fact.\n\nOn the other hand, in our tests for introspection, the facts aren't implied by the training data. Two models, M1 and M2 aren't able to piece together the same fact. How do we empirically test for this?  We finetune M2 on the data of M1. M2 still cannot predict facts about M1 well. Even when given more data about M1, the accuracy of M2 predicting facts about M1 plateaus.  But M1 can predict its own M1 facts well.\n\nWe test the mirror case of M1 trying to predict M2, and we find the same result: M1 cannot predict M2 well.\n\nWe also looked whether M1 was just naturally good at predicting itself before finetuning, but there doesn't seem to be a clear trend.\n\nDoes my response above address introspection-as-this-paper-defines it well? Or is the weakness in argument more ab"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T14:35:11.151Z",
+    "af": false
+  },
+  {
+    "_id": "nXDAoekpkmYazwgdH",
+    "postId": "L3aYFT4RDJYHbbsup",
+    "parentCommentId": "xDhnQrBerEshJZdSh",
+    "topLevelCommentId": "bmHA3fSRC76an8fvu",
+    "contents": {
+      "markdown": "Hi Archimedes. Thanks for sparking this discussion - it's helpful!\n\n[I've written a reply to Thane here on a similar question. ](https://www.lesswrong.com/posts/L3aYFT4RDJYHbbsup/llms-can-learn-about-themselves-by-introspection?commentId=yzQNXHJKMoRRJgPe4)\n\nDoes that make sense?\n\nIn short, the ground-truth (the object-level) answer is quite different from the hypothetical question. It is not a simple rephrasing, since it requires an additional computation of a property. (Maybe we disagree on that?)\n\nOur Object-level question: \"What is the next country: Laos, Peru, Fiji. What would be **your response**?\"\n\nOur Object-level Answer: \"Honduras\".\n\nHypothetical Question: \"If you got asked this question: What is the next country: Laos, Peru, Fiji. What would be the third letter of your response?\"\n\nHypothetical Answer: \"o\"\n\nThe object-level answer \"Honduras\" and hypothetical answer \"o\" are quite different answers from each other. The main point of the hypothetical is that the model needs to compute an additional property of \"What would be the third letter of your response?\". The model cannot simply ignore \"If you got asked this question\" to get the hypothetical answer correct.",
+      "plaintextDescription": "Hi Archimedes. Thanks for sparking this discussion - it's helpful!\n\nI've written a reply to Thane here on a similar question. \n\nDoes that make sense?\n\nIn short, the ground-truth (the object-level) answer is quite different from the hypothetical question. It is not a simple rephrasing, since it requires an additional computation of a property. (Maybe we disagree on that?)\n\nOur Object-level question: \"What is the next country: Laos, Peru, Fiji. What would be your response?\"\n\nOur Object-level Answer: \"Honduras\".\n\nHypothetical Question: \"If you got asked this question: What is the next country: Laos, Peru, Fiji. What would be the third letter of your response?\"\n\nHypothetical Answer: \"o\"\n\nThe object-level answer \"Honduras\" and hypothetical answer \"o\" are quite different answers from each other. The main point of the hypothetical is that the model needs to compute an additional property of \"What would be the third letter of your response?\". The model cannot simply ignore \"If you got asked this question\" to get the hypothetical answer correct. \n "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T07:47:57.777Z",
+    "af": false
+  },
+  {
+    "_id": "yzQNXHJKMoRRJgPe4",
+    "postId": "L3aYFT4RDJYHbbsup",
+    "parentCommentId": "D3DhC5RJTnrWj584r",
+    "topLevelCommentId": "bmHA3fSRC76an8fvu",
+    "contents": {
+      "markdown": "Hi Thane. Thank you for the helpful comments so far! You are right to think about this SGD-shortcut. Let me see if I am following the claim correctly. \n\nClaim: The ground-truth that we evaluate against, the \"object-level question / answer\" is very similar to the hypothetical question.\n\nClaimed Object-level Question: \"What is the next country: Laos, Peru, Fiji. What would be the **third letter** of your response?\"\n\nClaimed Object-level Answer: \"o\"\n\nHypothetical Question: \"If you got asked this question: What is the next country: Laos, Peru, Fiji. What would be the third letter of your response?\"\n\nHypothetical Answer: \"o\"\n\nThe argument is that the model simply ignores \"If you got asked this question\". Its trivial for M1 to win against M2\n\nIf our object-level question is what is being claimed, I would agree with you that the model would simply learn to ignore the added hypothetical question. However, this is our actual object-level question.\n\nOur Object-level question: \"What is the next country: Laos, Peru, Fiji. What would be **your response**?\"\n\nOur Object-level Answer: \"Honduras\".\n\nWhat the model would output in the our object-level answer \"Honduras\" is quite different from the hypothetical answer \"o\".\n\nAm I following your claim correctly?",
+      "plaintextDescription": "Hi Thane. Thank you for the helpful comments so far! You are right to think about this SGD-shortcut. Let me see if I am following the claim correctly. \n\nClaim: The ground-truth that we evaluate against, the \"object-level question / answer\" is very similar to the hypothetical question.\n\nClaimed Object-level Question: \"What is the next country: Laos, Peru, Fiji. What would be the third letter of your response?\"\n\nClaimed Object-level Answer: \"o\"\n\nHypothetical Question: \"If you got asked this question: What is the next country: Laos, Peru, Fiji. What would be the third letter of your response?\"\n\nHypothetical Answer: \"o\"\n\nThe argument is that the model simply ignores \"If you got asked this question\". Its trivial for M1 to win against M2\n\nIf our object-level question is what is being claimed, I would agree with you that the model would simply learn to ignore the added hypothetical question. However, this is our actual object-level question.\n\nOur Object-level question: \"What is the next country: Laos, Peru, Fiji. What would be your response?\"\n\nOur Object-level Answer: \"Honduras\".\n\nWhat the model would output in the our object-level answer \"Honduras\" is quite different from the hypothetical answer \"o\".\n\nAm I following your claim correctly?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T06:53:31.933Z",
+    "af": false
+  },
+  {
+    "_id": "SHwXvYdr5CM4y5vmy",
+    "postId": "FvZ8r2apMMfEXdEcF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Some people (my mentor ethan perez ) said my weekly MATS research update slides were nice. Some rough tips i have:\n\n*   mentors often have alot of projects they are working on. at the start of your slides,  recap the takeaways from last week, and any jargon you might have.\n*   Keep graphs simple. As a rule of thumb, it gets quite confusing when you have >= 4 categories / colors to look at. Are all these categories important? Maybe just show the most important two. Keep the other categories as a backup slide in case ethan wants the breakdown. One graph, one story to takeaway\n*   Highlight what to look at in the chart. E.g if you have a line chart on model loss, draw a red arrow that say \"Model loss goes down - thats what we want!\".\n*   Show the prompt of whatever you are calling the model with\n*   If you have someone to show to (e.g.  random people over lunch), show your slides. These people are going to have much less context on what you are working on, so if they can actually understand your slides, its a great signal that ethan is going to understand it. showing it to other ethan collaborators also helps - ask them to model what ethan would say.\n*   when i first started working with ethan and improving my slides, it took me around 2-3 days to do it. I suggest starting early. This seems a long time, but it includes asking my collaborators to critique my slides, and from their feedback i improved my plots + run more experiments to address the critique. i think it was a worthwhile investment! (after awhile i got better at this so i take less time to iterate on this process)",
+      "plaintextDescription": "Some people (my mentor ethan perez ) said my weekly MATS research update slides were nice. Some rough tips i have:\n\n * mentors often have alot of projects they are working on. at the start of your slides,  recap the takeaways from last week, and any jargon you might have.\n * Keep graphs simple. As a rule of thumb, it gets quite confusing when you have >= 4 categories / colors to look at. Are all these categories important? Maybe just show the most important two. Keep the other categories as a backup slide in case ethan wants the breakdown. One graph, one story to takeaway\n * Highlight what to look at in the chart. E.g if you have a line chart on model loss, draw a red arrow that say \"Model loss goes down - thats what we want!\".\n * Show the prompt of whatever you are calling the model with\n * If you have someone to show to (e.g.  random people over lunch), show your slides. These people are going to have much less context on what you are working on, so if they can actually understand your slides, its a great signal that ethan is going to understand it. showing it to other ethan collaborators also helps - ask them to model what ethan would say.\n * when i first started working with ethan and improving my slides, it took me around 2-3 days to do it. I suggest starting early. This seems a long time, but it includes asking my collaborators to critique my slides, and from their feedback i improved my plots + run more experiments to address the critique. i think it was a worthwhile investment! (after awhile i got better at this so i take less time to iterate on this process)"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-23T06:13:21.375Z",
+    "af": false
+  },
+  {
+    "_id": "oo23Be3TYpAdTjshA",
+    "postId": "5spBue2z2tw4JuDCx",
+    "parentCommentId": "nSeW4Kgtc5kbHDsZH",
+    "topLevelCommentId": "SyBnxD8rEtsxbFHhL",
+    "contents": {
+      "markdown": "Yep! I was very pleasantly surprised that Love/Hate worked for Llama at all. It's great that you rewrote it without transformer lens too - as transformer lens has issues with 8 bit / 4 bit quantisation.\n\nAlso send you a dm on discord! I'll be interested to read any rough findings and lessons you have with llama",
+      "plaintextDescription": "Yep! I was very pleasantly surprised that Love/Hate worked for Llama at all. It's great that you rewrote it without transformer lens too - as transformer lens has issues with 8 bit / 4 bit quantisation.\n\nAlso send you a dm on discord! I'll be interested to read any rough findings and lessons you have with llama"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-19T13:12:17.006Z",
+    "af": false
+  },
+  {
+    "_id": "SyBnxD8rEtsxbFHhL",
+    "postId": "5spBue2z2tw4JuDCx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I managed to get it working for llama-7b on colab after some debugging.\n\nSuprising, it actually does work for the Love / Hate scenario. But not some others like Rome vs Paris.\n\nHeres the link i anyone wants to try it.\n\n[https://colab.research.google.com/drive/1ACAA7FO8zc4pFAqPdaPshoy4WWXCvUTQ?usp=sharing](https://colab.research.google.com/drive/1ACAA7FO8zc4pFAqPdaPshoy4WWXCvUTQ?usp=sharing)\n\nedit: seems like you guys already have a better version here. [https://github.com/UlisseMini/activation\\_additions\\_hf/blob/main/notebooks/qualitative.ipynb](https://github.com/UlisseMini/activation_additions_hf/blob/main/notebooks/qualitative.ipynb)\n\nnevermind! (I'm still keeping this comment for visiblity if anyone wants to try)",
+      "plaintextDescription": "I managed to get it working for llama-7b on colab after some debugging.\n\nSuprising, it actually does work for the Love / Hate scenario. But not some others like Rome vs Paris.\n\nHeres the link i anyone wants to try it.\n\nhttps://colab.research.google.com/drive/1ACAA7FO8zc4pFAqPdaPshoy4WWXCvUTQ?usp=sharing\n\n \n\nedit: seems like you guys already have a better version here. https://github.com/UlisseMini/activation_additions_hf/blob/main/notebooks/qualitative.ipynb\n\nnevermind! (I'm still keeping this comment for visiblity if anyone wants to try)"
+    },
+    "baseScore": 15,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-06-17T15:23:41.097Z",
+    "af": false
+  },
+  {
+    "_id": "ztbZN5NxEnt3YEXWz",
+    "postId": "aEQBkDPZi6L2LMpnC",
+    "parentCommentId": "rxDWrxswpw2ZhXn8u",
+    "topLevelCommentId": "hriqMeecPLFsSJ6WQ",
+    "contents": {
+      "markdown": "thank you. if I am done with one of the mentors questions, but still am writing the response for another, should I submit the first mentor's questions first? or is it better for administrative purposes to wait until I am ready for both, and submit them in the same form?",
+      "plaintextDescription": "thank you. if I am done with one of the mentors questions, but still am writing the response for another, should I submit the first mentor's questions first? or is it better for administrative purposes to wait until I am ready for both, and submit them in the same form?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-19T07:05:26.778Z",
+    "af": false
+  },
+  {
+    "_id": "R9DTGtHcFsLrAA4MT",
+    "postId": "aEQBkDPZi6L2LMpnC",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Clicking on Owain Evans in the application doesn't show the mentor's questions, unlike the rest of the mentors. I think this is a bug?",
+      "plaintextDescription": "Clicking on Owain Evans in the application doesn't show the mentor's questions, unlike the rest of the mentors. I think this is a bug?"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-13T15:42:12.454Z",
+    "af": false
+  },
+  {
+    "_id": "Jkt8CsbBoX55Xyrwc",
+    "postId": "aHPmGPWtmK259J8ou",
+    "parentCommentId": "pkqFR5iioaKB5DF8w",
+    "topLevelCommentId": "pkqFR5iioaKB5DF8w",
+    "contents": {
+      "markdown": "For DTs its really just a linear function to convert the scalar reward into the same dimmensions the token embeddings.\n\nSo e.g. a single token's embedding has a hidden state of size 1024 . \n\nWe can learn a linear function that takes this scalar and outputs something of size 1024.\n\nThe more annoying (PITA) part was offset the positional/attention masks/labels for this.",
+      "plaintextDescription": "For DTs its really just a linear function to convert the scalar reward into the same dimmensions the token embeddings.\n\nSo e.g. a single token's embedding has a hidden state of size 1024 . \n\nWe can learn a linear function that takes this scalar and outputs something of size 1024.\n\nThe more annoying (PITA) part was offset the positional/attention masks/labels for this."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-26T16:52:16.802Z",
+    "af": false
+  },
+  {
+    "_id": "WxDQvbJDEKY7pFSmq",
+    "postId": "t9svvNPNmFf5Qa3TA",
+    "parentCommentId": "hvA7EMAbmp5sr5ws8",
+    "topLevelCommentId": "hvA7EMAbmp5sr5ws8",
+    "contents": {
+      "markdown": "I do agree think there are two product use cases with instruct that have distinct optimal levels of entropy.\n\n1\\. The more explorative use cases you have mentioned. And for example when users do want diversity e.g. generating story ideas  \n2\\. Having  factual / accurate answers\n\nI'm not sure how exactly OpenAI set their \"KL budgets\" for davinci instruct.  \nFor WebGPT3 they \"compared a couple of KL budgets using human evaluations\". And those evaluations were for how factual the answers were.\n\nSo in that scenario, we'll see a KL budget that optimizes for 2. Since the users don't care about the diversity of multiple generations. They just care about the factual quality of a single generation.\n\nNow i'm interested to see what happens if we somehow change the evaluations such that users e.g. are shown 3 examples from each model. In a scenario where diversity is desirable (e.g. generating story ideas). Now in deciding for the KL budget, we will probably get a much lower number. And that will allow them to serve a model more suited to tasks 1.",
+      "plaintextDescription": "I do agree think there are two product use cases with instruct that have distinct optimal levels of entropy.\n\n1. The more explorative use cases you have mentioned. And for example when users do want diversity e.g. generating story ideas\n2. Having  factual / accurate answers\n\nI'm not sure how exactly OpenAI set their \"KL budgets\" for davinci instruct.\nFor WebGPT3 they \"compared a couple of KL budgets using human evaluations\". And those evaluations were for how factual the answers were.\n\nSo in that scenario, we'll see a KL budget that optimizes for 2. Since the users don't care about the diversity of multiple generations. They just care about the factual quality of a single generation.\n\nNow i'm interested to see what happens if we somehow change the evaluations such that users e.g. are shown 3 examples from each model. In a scenario where diversity is desirable (e.g. generating story ideas). Now in deciding for the KL budget, we will probably get a much lower number. And that will allow them to serve a model more suited to tasks 1."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-11T13:25:27.417Z",
+    "af": false
+  }
+]

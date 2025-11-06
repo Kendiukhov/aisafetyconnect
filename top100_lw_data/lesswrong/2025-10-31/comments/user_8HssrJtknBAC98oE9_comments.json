@@ -1,0 +1,167 @@
+[
+  {
+    "_id": "WfoppbCzD9mXn5Fp5",
+    "postId": "WvpNKpL6hJB89cMNe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> This Goodness of Reality hypothesis is a very strong empirical claim about psychology that strongly contradicts folk psychology,\n\n  \nOne way of thinking about the Goodness of Reality hypothesis is that if we look at an agent in the world, its world model and utility function/preferences are fully a property of that agent/its internals rather than reality-at-large. Reality is value-neutral - it requires additional structure (utility function, etc.) to assign value to states of reality (and these utility functions, to the extent that they're real, are parts of reality itself).   \n  \nAlso, from the 0th-person perspective/POV of awareness, via meditation practices, one can observe how value judgments are being constructed and go \"beyond\" value judgments about reality.   \n  \nNitpick: Is reality \"Good\" or is it beyond good and ... evil?",
+      "plaintextDescription": "> This Goodness of Reality hypothesis is a very strong empirical claim about psychology that strongly contradicts folk psychology,\n\n\nOne way of thinking about the Goodness of Reality hypothesis is that if we look at an agent in the world, its world model and utility function/preferences are fully a property of that agent/its internals rather than reality-at-large. Reality is value-neutral - it requires additional structure (utility function, etc.) to assign value to states of reality (and these utility functions, to the extent that they're real, are parts of reality itself). \n\nAlso, from the 0th-person perspective/POV of awareness, via meditation practices, one can observe how value judgments are being constructed and go \"beyond\" value judgments about reality. \n\nNitpick: Is reality \"Good\" or is it beyond good and ... evil?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-08-30T13:42:41.283Z",
+    "af": false
+  },
+  {
+    "_id": "RAXWpddzvf7gdHRdE",
+    "postId": "DsombSZ9SxtvvFm4y",
+    "parentCommentId": "FrnLJwCErMrWAzjsH",
+    "topLevelCommentId": "FrnLJwCErMrWAzjsH",
+    "contents": {
+      "markdown": "Interesting! I'm working on a project exploring something similar but from a different framing. I'll give this view some thought, thanks!",
+      "plaintextDescription": "Interesting! I'm working on a project exploring something similar but from a different framing. I'll give this view some thought, thanks!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-08T04:05:00.914Z",
+    "af": false
+  },
+  {
+    "_id": "2gjQzZANhWEzgS4Fp",
+    "postId": "DmxGYLmoueewAzp4r",
+    "parentCommentId": "LC9nLtzXZhbaEk4eR",
+    "topLevelCommentId": "LC9nLtzXZhbaEk4eR",
+    "contents": {
+      "markdown": "Thanks, should be fixed now.",
+      "plaintextDescription": "Thanks, should be fixed now."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-05T06:08:05.288Z",
+    "af": false
+  },
+  {
+    "_id": "kJPDRtoyQ4AkP6BgL",
+    "postId": "FDrgcfY8zs5e2eJDd",
+    "parentCommentId": "g3SwkJGrnRCwcr9Q9",
+    "topLevelCommentId": "DxqqLAjcz7sqtit9n",
+    "contents": {
+      "markdown": "Thanks, that's the kind of answer I was looking for",
+      "plaintextDescription": "Thanks, that's the kind of answer I was looking for"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-14T13:01:49.838Z",
+    "af": false
+  },
+  {
+    "_id": "DxqqLAjcz7sqtit9n",
+    "postId": "FDrgcfY8zs5e2eJDd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Interesting discussion; thanks for posting!  \n  \nI'm curious about what elementary units in NNs could be.\n\n> the elementary units are not the neurons, but some other thing.\n\nI tend to model NNs as computational graphs where activation spaces/layers are the nodes and weights/tensors are the edges of the graph. Under this framing, my initial intuition is that elementary units are either going to be contained in the activation spaces or the weights.  \n  \nThere does seem to be empirical evidence that features of the dataset are represented as linear directions in activation space.  \n  \nI'd be interested in any thoughts regarding what other forms elementary units in NNs could take. In particular, I'd be surprised if they aren't represented in subspaces of activation spaces.",
+      "plaintextDescription": "Interesting discussion; thanks for posting!\n\nI'm curious about what elementary units in NNs could be.\n\n> the elementary units are not the neurons, but some other thing.\n\nI tend to model NNs as computational graphs where activation spaces/layers are the nodes and weights/tensors are the edges of the graph. Under this framing, my initial intuition is that elementary units are either going to be contained in the activation spaces or the weights.\n\nThere does seem to be empirical evidence that features of the dataset are represented as linear directions in activation space.\n\nI'd be interested in any thoughts regarding what other forms elementary units in NNs could take. In particular, I'd be surprised if they aren't represented in subspaces of activation spaces."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-06T14:43:43.159Z",
+    "af": false
+  },
+  {
+    "_id": "EFQdxZSXFTX6f33gk",
+    "postId": "tFYGdq9ivjA3rdaS2",
+    "parentCommentId": "dBvqCPeeKRJnZCoyx",
+    "topLevelCommentId": "dBvqCPeeKRJnZCoyx",
+    "contents": {
+      "markdown": "Thanks for pointing this out. I'll look into it and modify the post accordingly.",
+      "plaintextDescription": "Thanks for pointing this out. I'll look into it and modify the post accordingly."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-05T19:32:07.647Z",
+    "af": false
+  },
+  {
+    "_id": "fmSyBReoitXGaFezu",
+    "postId": "tFYGdq9ivjA3rdaS2",
+    "parentCommentId": "cuZw8YBTjebejqBQL",
+    "topLevelCommentId": "cuZw8YBTjebejqBQL",
+    "contents": {
+      "markdown": "With ideal objective detection methods, the [inner alignment problem is solved](https://www.lesswrong.com/posts/w4aeAFzSAguvqA5qu/how-to-go-from-interpretability-to-alignment-just-retarget) (or partially solved in the case of non-ideal objective detection methods), and governance would be needed to regulate which objectives are allowed to be instilled in an AI (i.e., government does something like outer alignment regulation).\n\nIdeal objective oversight essentially allows an overseer instill whatever objectives it wants the AI to have. Therefore, if the overseer includes the government, the government can influence whatever target outcomes the AI pursues.\n\nSo practically, this means that the governance policies would require the government to have access to the objective detection method results, directly or indirectly through the AI labs.",
+      "plaintextDescription": "With ideal objective detection methods, the inner alignment problem is solved (or partially solved in the case of non-ideal objective detection methods), and governance would be needed to regulate which objectives are allowed to be instilled in an AI (i.e., government does something like outer alignment regulation).\n\nIdeal objective oversight essentially allows an overseer instill whatever objectives it wants the AI to have. Therefore, if the overseer includes the government, the government can influence whatever target outcomes the AI pursues.\n\nSo practically, this means that the governance policies would require the government to have access to the objective detection method results, directly or indirectly through the AI labs. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-09-29T11:11:17.946Z",
+    "af": false
+  },
+  {
+    "_id": "fKWc2yeua2ZBpa7kL",
+    "postId": "pihmQv5XezwkxJk2a",
+    "parentCommentId": "kHQjHjXJhjQBpESpu",
+    "topLevelCommentId": "kHQjHjXJhjQBpESpu",
+    "contents": {
+      "markdown": "Thanks for the reponse, it's useful to hear that we can to the same conclusions. I quoted your post in the first paragraph.   \n  \nThanks for bringing Fabien's post to my attention! I'll reference it.   \n  \nLooking forward to your upcoming post.",
+      "plaintextDescription": "Thanks for the reponse, it's useful to hear that we can to the same conclusions. I quoted your post in the first paragraph. \n\nThanks for bringing Fabien's post to my attention! I'll reference it. \n\nLooking forward to your upcoming post."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-24T22:01:05.691Z",
+    "af": false
+  },
+  {
+    "_id": "yfxegGkkuSdqd2Qnr",
+    "postId": "vZCSPffGLhJT3heqc",
+    "parentCommentId": "zNSRLAacCSMkjhYo2",
+    "topLevelCommentId": "zNSRLAacCSMkjhYo2",
+    "contents": {
+      "markdown": "Interesting! Quick thought: I feel as though it over-compressed the post, compared to the summary I used. Perhaps you can tweak things to generate multiple summaries in varying degrees of length.",
+      "plaintextDescription": "Interesting! Quick thought: I feel as though it over-compressed the post, compared to the summary I used. Perhaps you can tweak things to generate multiple summaries in varying degrees of length."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-20T06:10:05.383Z",
+    "af": false
+  },
+  {
+    "_id": "xRafT5JNfkb4bkGne",
+    "postId": "vZCSPffGLhJT3heqc",
+    "parentCommentId": "QgMZ4aemZxfr8nAbM",
+    "topLevelCommentId": "QgMZ4aemZxfr8nAbM",
+    "contents": {
+      "markdown": "Thanks for the feedback! I guess the intention of this post was to lay down the broad framing/motivation for upcoming work that will involve looking at the more concrete details.\n\nI do resonate with the feeling that the post as a whole feels a bit empty as it stands and the effort could have been better spent elsewhere.",
+      "plaintextDescription": "Thanks for the feedback! I guess the intention of this post was to lay down the broad framing/motivation for upcoming work that will involve looking at the more concrete details.\n\nI do resonate with the feeling that the post as a whole feels a bit empty as it stands and the effort could have been better spent elsewhere."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-16T06:06:16.208Z",
+    "af": false
+  },
+  {
+    "_id": "DHGbWswzuBNrFkx5j",
+    "postId": "r3cEgEZmr7bzSk65x",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "My current high-level research direction\n========================================\n\nIt’s been about a year since I became involved in AI Alignment. Here is a super high-level overview of the research direction I intend to pursue over the next six or so months.\n\n*   We’re concerned with building AI systems that produce “bad behavior”, either during training or in deployment.\n*   We define “irreversibly bad behavior” to include actions that inhibit an overseer’s ability to monitor and control the system. This includes removing an off-switch and deceptive behavior.\n*   To prevent bad behavior from occurring, the overseer needs to make relevant predictive observations of systems in training (and in deployment), that is, observations that allow the overseer to predict the relevant future behavior of the systems produced by the training process.\n*   Intuition: Certain types of bad behavior are caused by a system first having an “intention/objective” that points towards a bad outcome. Irreversibly bad behavior, such as deception and removing an off-switch, fits this description.\n*   If an overseer can detect such intentions/objectives before they lead to bad behavior, they can shut down systems before this behavior is realized.\n*   I want to investigate this conceptually, theoretically, and empirically.\n*   One hope is that we can develop interpretability tools that allow an overseer to robustly detect and evaluate the objectives of any system before the objectives can be realized as outcomes.\n*   This seems like a big ask, but I believe that making progress in this direction will be valuable nonetheless. \n*   I (and others I’m working with) aim to study toy “optimizing systems” via interpretability.\n*   It’s not clear to me at this stage what kind of conceptual/theory work will be helpful other than general de-confusion work.",
+      "plaintextDescription": "My current high-level research direction\nIt’s been about a year since I became involved in AI Alignment. Here is a super high-level overview of the research direction I intend to pursue over the next six or so months.\n\n * We’re concerned with building AI systems that produce “bad behavior”, either during training or in deployment.\n * We define “irreversibly bad behavior” to include actions that inhibit an overseer’s ability to monitor and control the system. This includes removing an off-switch and deceptive behavior.\n * To prevent bad behavior from occurring, the overseer needs to make relevant predictive observations of systems in training (and in deployment), that is, observations that allow the overseer to predict the relevant future behavior of the systems produced by the training process.\n * Intuition: Certain types of bad behavior are caused by a system first having an “intention/objective” that points towards a bad outcome. Irreversibly bad behavior, such as deception and removing an off-switch, fits this description.\n * If an overseer can detect such intentions/objectives before they lead to bad behavior, they can shut down systems before this behavior is realized.\n * I want to investigate this conceptually, theoretically, and empirically.\n * One hope is that we can develop interpretability tools that allow an overseer to robustly detect and evaluate the objectives of any system before the objectives can be realized as outcomes.\n * This seems like a big ask, but I believe that making progress in this direction will be valuable nonetheless. \n * I (and others I’m working with) aim to study toy “optimizing systems” via interpretability.\n * It’s not clear to me at this stage what kind of conceptual/theory work will be helpful other than general de-confusion work."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-02-02T19:15:11.545Z",
+    "af": false
+  }
+]

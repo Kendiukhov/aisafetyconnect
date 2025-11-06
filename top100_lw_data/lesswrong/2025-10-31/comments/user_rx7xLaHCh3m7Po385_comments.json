@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "PXHwtYBej88a9CypE",
+    "postId": "3LcyoqNTJuCZ65MbL",
+    "parentCommentId": "FGjF3cA2SfGZu6op5",
+    "topLevelCommentId": "FGjF3cA2SfGZu6op5",
+    "contents": {
+      "markdown": "I think Eliezer underestimates other people because he evaluates them substantially based on how much they agree with him, and, as a consequence of him having a variety of dumb takes, smart people usually disagree with him about a bunch of stuff.",
+      "plaintextDescription": "I think Eliezer underestimates other people because he evaluates them substantially based on how much they agree with him, and, as a consequence of him having a variety of dumb takes, smart people usually disagree with him about a bunch of stuff."
+    },
+    "baseScore": 14,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2025-10-31T20:36:37.300Z",
+    "af": false
+  },
+  {
+    "_id": "asqvieioiuFAYGbes",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'd be really interested in someone trying to answer the question: what updates on the a priori arguments about AI goal structures should we make as a result of empirical evidence that we've seen? I'd love to see a thoughtful and comprehensive discussion of this topic from someone who is both familiar with the conceptual arguments about scheming and also relevant AI safety literature (and maybe AI literature more broadly).\n\nMaybe a good structure would be, from the a priori arguments, identifying core uncertainties like \"How strong is the imitative prior?\" And \"How strong is the speed prior?\" And  \"To what extent do AIs tend to generalize versus learn narrow heuristics?\" and tackling each. (Of course, that would only make sense if the empirical updates actually factor nicely into that structure.)\n\nI feel like I understand this very poorly right now. I currently think the only important update that empirical evidence has given me, compared to the arguments in 2020, is that the human-imitation prior is more powerful than I expected. (Though of course it's unclear whether this will continue (and basic points like the expected increasing importance of RL suggest that it will be less powerful over time.)) But to my detriment, I don't actually read the AI safety literature very comprehensively, and I might be missing empirical evidence that really should update me.",
+      "plaintextDescription": "I'd be really interested in someone trying to answer the question: what updates on the a priori arguments about AI goal structures should we make as a result of empirical evidence that we've seen? I'd love to see a thoughtful and comprehensive discussion of this topic from someone who is both familiar with the conceptual arguments about scheming and also relevant AI safety literature (and maybe AI literature more broadly).\n\nMaybe a good structure would be, from the a priori arguments, identifying core uncertainties like \"How strong is the imitative prior?\" And \"How strong is the speed prior?\" And  \"To what extent do AIs tend to generalize versus learn narrow heuristics?\" and tackling each. (Of course, that would only make sense if the empirical updates actually factor nicely into that structure.)\n\nI feel like I understand this very poorly right now. I currently think the only important update that empirical evidence has given me, compared to the arguments in 2020, is that the human-imitation prior is more powerful than I expected. (Though of course it's unclear whether this will continue (and basic points like the expected increasing importance of RL suggest that it will be less powerful over time.)) But to my detriment, I don't actually read the AI safety literature very comprehensively, and I might be missing empirical evidence that really should update me."
+    },
+    "baseScore": 66,
+    "voteCount": 43,
+    "createdAt": null,
+    "postedAt": "2025-10-27T17:38:55.445Z",
+    "af": false
+  },
+  {
+    "_id": "ac8G4wjTEta2GTYks",
+    "postId": "Lm7yi4uq9eZmueouS",
+    "parentCommentId": "zYESnaBaxWWhf3ZHi",
+    "topLevelCommentId": "n5qnzbmXii4tCBKuc",
+    "contents": {
+      "markdown": "That's correct. Ryan [summarized the story as](https://x.com/RyanPGreenblatt/status/1869438993957560725):\n\n> Here’s the story of this paper. I work at Redwood Research ([@redwood_ai](https://x.com/redwood_ai)) and this paper is a collaboration with Anthropic. I started work on this project around 8 months ago (it's been a long journey...) and was basically the only contributor to the project for around 2 months.\n> \n> By this point, I had much of the prompting results and an extremely jank prototype of the RL results (where I fine-tuned llama to imitate Opus and then did RL). From here, it was clear that being able to train Claude 3 Opus could allow for some pretty interesting experiments.\n> \n> After showing [@EvanHub](https://x.com/EvanHub) and others my results, Anthropic graciously agreed to provide me with employee-level model access for the project. We decided to turn this into a bigger collaboration with the alignment-stress testing team (led by Evan), to do a more thorough job.\n> \n> This collaboration yielded the synthetic document fine-tuning and RL results and substantially improved the writing of the paper. I think this work is an interesting example of an AI company boosting safety research by collaborating and providing model access.\n\nSo Anthropic was indeed very accommodating here; they gave Ryan an unprecedented level of access for this work, and we're grateful for that. (And obviously, individual Anthropic researchers contributed a lot to the paper, as described in its author contribution statement. And their promotion of the paper was also very helpful!)\n\nMy objection is just that this paragraph of yours is fairly confused:\n\n> We don’t want to shoot the messenger — they went looking. They didn’t have to do that. They told us the results, and they didn’t have to do that. Anthropic finding these results is Anthropic being good citizens. And you want to be more critical of the A.I. companies that didn’t go looking.\n\nThis paper wasn't a consequence of Anthropic going looking, it was a consequence of Ryan going looking. If Anthropic hadn't wanted to cooperate, then Ryan would have just published his results without Anthropic's help, which would have been a moderately worse paper that would have probably gotten substantially less attention, but Anthropic didn't have the opportunity to not publish (a crappier version of) the core results.\n\nJust to be clear, I don't think this is that big a deal. It's a bummer that Redwood doesn't get as much credit for this paper as we deserve, but this is pretty unavoidable given how much more famous Anthropic is; my sense is that it's worth the effort for safety people to connect the paper to Redwood/Ryan when discussing it, but it's no big deal. I normally don't bother to object to that credit misallocation. But again, the story of the paper conflicted with these sentences you said, which is why I bothered bringing it up.",
+      "plaintextDescription": "That's correct. Ryan summarized the story as:\n\n> Here’s the story of this paper. I work at Redwood Research (@redwood_ai) and this paper is a collaboration with Anthropic. I started work on this project around 8 months ago (it's been a long journey...) and was basically the only contributor to the project for around 2 months.\n> \n> By this point, I had much of the prompting results and an extremely jank prototype of the RL results (where I fine-tuned llama to imitate Opus and then did RL). From here, it was clear that being able to train Claude 3 Opus could allow for some pretty interesting experiments.\n> \n> After showing @EvanHub and others my results, Anthropic graciously agreed to provide me with employee-level model access for the project. We decided to turn this into a bigger collaboration with the alignment-stress testing team (led by Evan), to do a more thorough job.\n> \n> This collaboration yielded the synthetic document fine-tuning and RL results and substantially improved the writing of the paper. I think this work is an interesting example of an AI company boosting safety research by collaborating and providing model access.\n\nSo Anthropic was indeed very accommodating here; they gave Ryan an unprecedented level of access for this work, and we're grateful for that. (And obviously, individual Anthropic researchers contributed a lot to the paper, as described in its author contribution statement. And their promotion of the paper was also very helpful!)\n\nMy objection is just that this paragraph of yours is fairly confused:\n\n> We don’t want to shoot the messenger — they went looking. They didn’t have to do that. They told us the results, and they didn’t have to do that. Anthropic finding these results is Anthropic being good citizens. And you want to be more critical of the A.I. companies that didn’t go looking.\n\nThis paper wasn't a consequence of Anthropic going looking, it was a consequence of Ryan going looking. If Anthropic hadn't wanted to cooperate, then R"
+    },
+    "baseScore": 24,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-10-21T22:58:45.547Z",
+    "af": false
+  },
+  {
+    "_id": "yooKvYL3GGv94Z3R4",
+    "postId": "8A8g4ryyZnaMhAQQF",
+    "parentCommentId": "KF9yLRZKbKvssoKp8",
+    "topLevelCommentId": "KF9yLRZKbKvssoKp8",
+    "contents": {
+      "markdown": "Re your last paragraph: as the post notes, it is illegal to discriminate based on political donations when hiring for civil service roles.\n\nEDIT: Readers of this thread should bear in mind that [Max H](https://www.lesswrong.com/users/max-h) is not [Max Harms](https://www.lesswrong.com/users/raelifin)! I was confused about this.",
+      "plaintextDescription": "Re your last paragraph: as the post notes, it is illegal to discriminate based on political donations when hiring for civil service roles.\n\nEDIT: Readers of this thread should bear in mind that Max H is not Max Harms! I was confused about this."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-20T19:33:05.230Z",
+    "af": false
+  },
+  {
+    "_id": "2qCpws4qrbFkeu4jD",
+    "postId": "Lm7yi4uq9eZmueouS",
+    "parentCommentId": "n5qnzbmXii4tCBKuc",
+    "topLevelCommentId": "n5qnzbmXii4tCBKuc",
+    "contents": {
+      "markdown": "> Alignment faking, and the alignment faking research was done at Anthropic.\n> \n> And we want to give credit to Anthropic for this. We don’t want to shoot the messenger — they went looking. They didn’t have to do that. They told us the results, and they didn’t have to do that. Anthropic finding these results is Anthropic being good citizens. And you want to be more critical of the A.I. companies that didn’t go looking.\n\nIt would be great if Eliezer knew that (or noted, if he knows but is just phrasing it really weirdly) the alignment faking paper research was initially done at Redwood by Redwood staff; I'm normally not prickly about this but it seems directly relevant to what Eliezer said here.",
+      "plaintextDescription": "> Alignment faking, and the alignment faking research was done at Anthropic.\n> \n> And we want to give credit to Anthropic for this. We don’t want to shoot the messenger — they went looking. They didn’t have to do that. They told us the results, and they didn’t have to do that. Anthropic finding these results is Anthropic being good citizens. And you want to be more critical of the A.I. companies that didn’t go looking.\n\nIt would be great if Eliezer knew that (or noted, if he knows but is just phrasing it really weirdly) the alignment faking paper research was initially done at Redwood by Redwood staff; I'm normally not prickly about this but it seems directly relevant to what Eliezer said here."
+    },
+    "baseScore": 25,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-10-19T15:58:17.444Z",
+    "af": false
+  },
+  {
+    "_id": "5TyaXqcas4H7bkTc3",
+    "postId": "ZtQD8CmQRZKNQFRd3",
+    "parentCommentId": "ESDeHJE4qdZZD8nMb",
+    "topLevelCommentId": "bFAogdj9XN47CB7Rd",
+    "contents": {
+      "markdown": "It really depends on what you mean by \"most of the time when people say this\". I don't think my experience matches yours.",
+      "plaintextDescription": "It really depends on what you mean by \"most of the time when people say this\". I don't think my experience matches yours."
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-18T21:38:38.780Z",
+    "af": false
+  },
+  {
+    "_id": "xdgQMBGpfxvePBoyZ",
+    "postId": "nAsMfmxDv6Qp7cfHh",
+    "parentCommentId": "smyFhD6vFxa6pJsqv",
+    "topLevelCommentId": "8ZJ7wHDCw3NDjAp8H",
+    "contents": {
+      "markdown": "My sense is that the main change is that Trump 2 was better prepared and placed more of a premium on personal loyalty, not that people were more reluctant to work with him for the sake of harm minimization.",
+      "plaintextDescription": "My sense is that the main change is that Trump 2 was better prepared and placed more of a premium on personal loyalty, not that people were more reluctant to work with him for the sake of harm minimization."
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-10-18T17:19:15.491Z",
+    "af": false
+  },
+  {
+    "_id": "qvsEicYLn2DZgzmDu",
+    "postId": "nAsMfmxDv6Qp7cfHh",
+    "parentCommentId": "8ZJ7wHDCw3NDjAp8H",
+    "topLevelCommentId": "8ZJ7wHDCw3NDjAp8H",
+    "contents": {
+      "markdown": "Re that last point, you might be interested to read about \"[the constitution is not a suicide pact](https://en.wikipedia.org/wiki/The_Constitution_is_not_a_suicide_pact)\": many prominent American political figures have said that survival of the nation is more important than constitutionality (and this has been reasonably well received by other actors, not reviled).",
+      "plaintextDescription": "Re that last point, you might be interested to read about \"the constitution is not a suicide pact\": many prominent American political figures have said that survival of the nation is more important than constitutionality (and this has been reasonably well received by other actors, not reviled)."
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-18T17:18:10.075Z",
+    "af": true
+  },
+  {
+    "_id": "m9poZcbijqammjxXh",
+    "postId": "ZtQD8CmQRZKNQFRd3",
+    "parentCommentId": "bFAogdj9XN47CB7Rd",
+    "topLevelCommentId": "bFAogdj9XN47CB7Rd",
+    "contents": {
+      "markdown": "In my experience, when people say \"it's worse for China to win the AI race than America\", their main concern is that Chinese control of the far future would lead to a much less valuable future than American control would, not that American control reduces P(AI takeover). E.g. see [this comment](https://www.lesswrong.com/posts/E8n93nnEaFeXTbHn5/plans-a-b-c-and-d-for-misalignment-risk?commentId=2K2ndhx5w8kEMqevE).",
+      "plaintextDescription": "In my experience, when people say \"it's worse for China to win the AI race than America\", their main concern is that Chinese control of the far future would lead to a much less valuable future than American control would, not that American control reduces P(AI takeover). E.g. see this comment."
+    },
+    "baseScore": 13,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-10-18T16:42:32.117Z",
+    "af": false
+  },
+  {
+    "_id": "wFrKwcLK3H4CBPAmW",
+    "postId": "mKgbawbJBxEmQaLSJ",
+    "parentCommentId": "Zb3rZWp4QwyLZfGXX",
+    "topLevelCommentId": "Zb3rZWp4QwyLZfGXX",
+    "contents": {
+      "markdown": "I basically agree with Zach that based on public information it seems like it would be really hard for them to be robust to this and it seems implausible that they have justified confidence in such robustness.\n\nI agree that he doesn't say the argument in very much depth. Obviously, I think it'd be great if someone made the argument in more detail. I think Zach's point is a positive contribution even though it isn't that detailed.",
+      "plaintextDescription": "I basically agree with Zach that based on public information it seems like it would be really hard for them to be robust to this and it seems implausible that they have justified confidence in such robustness.\n\nI agree that he doesn't say the argument in very much depth. Obviously, I think it'd be great if someone made the argument in more detail. I think Zach's point is a positive contribution even though it isn't that detailed. "
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-11T20:32:13.660Z",
+    "af": false
+  },
+  {
+    "_id": "HnjtqEogfuLpoxz4A",
+    "postId": "jL7uDE5oH4HddYq4u",
+    "parentCommentId": "ntvLv4qk7x3ijgXzi",
+    "topLevelCommentId": "ntvLv4qk7x3ijgXzi",
+    "contents": {
+      "markdown": "The most common ways that I see comments have errors that I think an LLM could fix are:\n\n*   Typos.\n*   Missing a point. Like I often write a comment and fail to realize that someone nearby in the comment tree has already responded to this point. Or I misunderstood the comment I was responding to. It would be helpful to have LLMs note this.\n*   Maybe basic fact-checking?\n\nMaybe you should roll this out for comments before posts.",
+      "plaintextDescription": "The most common ways that I see comments have errors that I think an LLM could fix are:\n\n * Typos.\n * Missing a point. Like I often write a comment and fail to realize that someone nearby in the comment tree has already responded to this point. Or I misunderstood the comment I was responding to. It would be helpful to have LLMs note this.\n * Maybe basic fact-checking?\n\nMaybe you should roll this out for comments before posts.  "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-11T03:39:36.147Z",
+    "af": false
+  },
+  {
+    "_id": "4dgkYLxr3qevvKqEA",
+    "postId": "r68nCQK3veQtCdqGt",
+    "parentCommentId": "Qbe9HbiYMzmArXCuw",
+    "topLevelCommentId": "86gccY4RLabij9Q8q",
+    "contents": {
+      "markdown": "Yeah for sure. A really nice thing about the Tinker API is that it doesn't allow users to specify arbitrary code to be executed on the machine with weights, which makes security much easier.",
+      "plaintextDescription": "Yeah for sure. A really nice thing about the Tinker API is that it doesn't allow users to specify arbitrary code to be executed on the machine with weights, which makes security much easier."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T20:36:32.980Z",
+    "af": true
+  },
+  {
+    "_id": "nCXD47izm7C8frfvf",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I hear a lot of scorn for the rationalist style where you caveat every sentence with \"I think\" or the like. I want to defend that style. \n\nThere is real semantic content to me saying \"I think\" in a sentence. I don't say it when I'm stating established fact. I only use it when I'm saying something which is fundamentally speculative. But most of my sentences are fundamentally speculative.\n\nIt feels like people were complaining that I use the future tense a lot. Like, sure, my text uses the future tense more than average, and future tense is indeed somewhat more awkward. But future tense is the established way to talk about the future, which is what I wanted to talk about. It seems pretty weird to switch to present tense just because people don't like future tense.",
+      "plaintextDescription": "I hear a lot of scorn for the rationalist style where you caveat every sentence with \"I think\" or the like. I want to defend that style. \n\nThere is real semantic content to me saying \"I think\" in a sentence. I don't say it when I'm stating established fact. I only use it when I'm saying something which is fundamentally speculative. But most of my sentences are fundamentally speculative.\n\nIt feels like people were complaining that I use the future tense a lot. Like, sure, my text uses the future tense more than average, and future tense is indeed somewhat more awkward. But future tense is the established way to talk about the future, which is what I wanted to talk about. It seems pretty weird to switch to present tense just because people don't like future tense."
+    },
+    "baseScore": 113,
+    "voteCount": 59,
+    "createdAt": null,
+    "postedAt": "2025-10-09T19:18:57.155Z",
+    "af": false
+  },
+  {
+    "_id": "TEdP2ZB9aYgf5bh5c",
+    "postId": "r68nCQK3veQtCdqGt",
+    "parentCommentId": "aqThKNBMqP9Exo6uy",
+    "topLevelCommentId": "86gccY4RLabij9Q8q",
+    "contents": {
+      "markdown": "Yeah, what I'm saying is that even if the computation performed in a hook is trivial, it sucks if that computation has to happen on a different computer than the one doing inference.",
+      "plaintextDescription": "Yeah, what I'm saying is that even if the computation performed in a hook is trivial, it sucks if that computation has to happen on a different computer than the one doing inference."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T19:18:25.161Z",
+    "af": true
+  },
+  {
+    "_id": "yctfaDS8iXrJjFLd3",
+    "postId": "r68nCQK3veQtCdqGt",
+    "parentCommentId": "86gccY4RLabij9Q8q",
+    "topLevelCommentId": "86gccY4RLabij9Q8q",
+    "contents": {
+      "markdown": "Yeah totally there's a bunch of stuff like this you could do. The two main issues:\n\n*   Adding methods like this might increase complexity and if you add lots of them they might interact in ways that allow users to violate your security properties.\n*   Some natural things you'd want to do for interacting with activations (e.g. applying arbitrary functions to modify activations during a forward pass) would substantially reduce the efficiency and batchability here--the API server would have to block inference while waiting for the user's computer to compute the change to activations and send it back.\n\nIt would be a slightly good exercise for someone to go through the most important techniques that interact with model internals and see how many of them would have these problems.",
+      "plaintextDescription": "Yeah totally there's a bunch of stuff like this you could do. The two main issues:\n\n * Adding methods like this might increase complexity and if you add lots of them they might interact in ways that allow users to violate your security properties.\n * Some natural things you'd want to do for interacting with activations (e.g. applying arbitrary functions to modify activations during a forward pass) would substantially reduce the efficiency and batchability here--the API server would have to block inference while waiting for the user's computer to compute the change to activations and send it back.\n\nIt would be a slightly good exercise for someone to go through the most important techniques that interact with model internals and see how many of them would have these problems. "
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-09T17:46:15.720Z",
+    "af": true
+  },
+  {
+    "_id": "YjPiaRLcFn6gucdAC",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "xsMtshPhqqXpgGcu4",
+    "topLevelCommentId": "xsMtshPhqqXpgGcu4",
+    "contents": {
+      "markdown": "(For clarity: Open Phil funded those guys in the sense of funding Epoch, where they previously worked and where they probably developed a lot of useful context and connections, but AFAIK hasn't funded Mechanize.)",
+      "plaintextDescription": "(For clarity: Open Phil funded those guys in the sense of funding Epoch, where they previously worked and where they probably developed a lot of useful context and connections, but AFAIK hasn't funded Mechanize.)"
+    },
+    "baseScore": 21,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-10-09T17:31:40.950Z",
+    "af": false
+  },
+  {
+    "_id": "pf7pJhh7P5zBZo784",
+    "postId": "As3euLoCJwjvPBMt4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I liked Joe Carlsmith's discussion of this [here](https://joecarlsmith.com/2023/05/08/predictable-updating-about-ai-risk).",
+      "plaintextDescription": "I liked Joe Carlsmith's discussion of this here."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-08T17:08:48.559Z",
+    "af": false
+  },
+  {
+    "_id": "FHGiWwN6rEfQkpkct",
+    "postId": "8buEtNxCScYpjzgW8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The argument in this post seems to be:\n\n> AIs smart enough to help with alignment are capable enough that they'll realize they are misaligned. Therefore, they will not help with alignment.\n\nWhen I think about getting misaligned AIs to help with alignment research and other tasks, I'm normally not imagining that the AIs are unaware that they are misaligned. I'm imagining that we can get them to do useful work anyway. See [here](https://www.alignmentforum.org/posts/Mf5Hnpi2KcqZdmFDq/how-can-we-solve-diffuse-threats-like-research-sabotage-with) and [here](https://www.alignmentforum.org/posts/qDWm7E9sfwLDBWfMw/there-are-two-fundamentally-different-constraints-on).\n\nYou might be interested in the [Redwood Research reading list](https://blog.redwoodresearch.org/p/guide), which contains lots of analyses of these questions and many others.",
+      "plaintextDescription": "The argument in this post seems to be:\n\n> AIs smart enough to help with alignment are capable enough that they'll realize they are misaligned. Therefore, they will not help with alignment.\n\nWhen I think about getting misaligned AIs to help with alignment research and other tasks, I'm normally not imagining that the AIs are unaware that they are misaligned. I'm imagining that we can get them to do useful work anyway. See here and here.\n\nYou might be interested in the Redwood Research reading list, which contains lots of analyses of these questions and many others."
+    },
+    "baseScore": 15,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-07T03:20:18.296Z",
+    "af": false
+  },
+  {
+    "_id": "rfXyTeXAfMnbmoRdx",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": "H2fssksdcCtkwxLyw",
+    "topLevelCommentId": "HEH3DgHyYALpKgfrX",
+    "contents": {
+      "markdown": "As someone who’s worked at MIRI, I disagree regardless of when you are imagining them doing this. \n\nConditioned on agreeing with them about AI xrisk stuff and also about high level strategy, I think giving them money now seems better than in the past.",
+      "plaintextDescription": "As someone who’s worked at MIRI, I disagree regardless of when you are imagining them doing this. \n\nConditioned on agreeing with them about AI xrisk stuff and also about high level strategy, I think giving them money now seems better than in the past."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-03T15:40:50.831Z",
+    "af": false
+  },
+  {
+    "_id": "KXuMSQqtePoRCB3EZ",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "prsZESrvxg3DNjron",
+    "topLevelCommentId": "RBsa9aiyuLeSfhGQv",
+    "contents": {
+      "markdown": "Strong upvoted to signal boost, but again note I don't know what I'm talking about.",
+      "plaintextDescription": "Strong upvoted to signal boost, but again note I don't know what I'm talking about."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T15:21:55.562Z",
+    "af": false
+  },
+  {
+    "_id": "xAYwdSkhrBePuLQx9",
+    "postId": "iFRrJfkXEpR4hFcEv",
+    "parentCommentId": "aQvPxWGj3eW2CNpe5",
+    "topLevelCommentId": "AsoStwvpBmEpZ8EkF",
+    "contents": {
+      "markdown": "Note that most of the compute in consumer laptops is in their GPUs not their CPUs, so comparing H100 flops to laptop CPU flops does not work for establishing the extent to which your policy would affect consumer laptops.",
+      "plaintextDescription": "Note that most of the compute in consumer laptops is in their GPUs not their CPUs, so comparing H100 flops to laptop CPU flops does not work for establishing the extent to which your policy would affect consumer laptops."
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-01T17:51:20.703Z",
+    "af": false
+  },
+  {
+    "_id": "qvKQDYnCrCrccABmf",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "vKto8vsLetcsXGtc2",
+    "topLevelCommentId": "RBsa9aiyuLeSfhGQv",
+    "contents": {
+      "markdown": "What I hear is that the natsec people judge people for using \"treaty\" in cases like this. Maybe MIRI looked into it and has better info than me; idk.",
+      "plaintextDescription": "What I hear is that the natsec people judge people for using \"treaty\" in cases like this. Maybe MIRI looked into it and has better info than me; idk."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-30T04:25:51.808Z",
+    "af": false
+  },
+  {
+    "_id": "RBsa9aiyuLeSfhGQv",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I hear a lot of discussion of treaties to monitor compute or ban AI or whatever. But the word \"treaty\" has a specific meaning that often isn't what people mean. Specifically, treaties are a particular kind of international agreement that (in the US) require Senate approval, and there are a lot of other types of international agreement (e.g. executive agreements that are just made by the president). Treaties are generally more serious and harder to withdraw from.\n\nAs a total non-expert, \"treaty\" does actually seem to me like the vibe that e.g. our MIRI friends are going for--they want something analogous to major nuclear arms control agreements, which are usually treaties. So to me, \"treaty\" seems like a good word for the central example of what MIRI wants, but international agreements that they're very happy about won't necessarily be treaties.\n\nI wouldn't care about this point, except that I've heard that national security experts are prickly about the word \"treaty\" being used when \"international agreement\" could have been used instead (and if you talk about treaties they might assume you're using the word ignorantly even if you aren't). My guess is that you should usually conform to their shibboleth here and say \"international agreement\" when you don't specifically want to talk about treaties.",
+      "plaintextDescription": "I hear a lot of discussion of treaties to monitor compute or ban AI or whatever. But the word \"treaty\" has a specific meaning that often isn't what people mean. Specifically, treaties are a particular kind of international agreement that (in the US) require Senate approval, and there are a lot of other types of international agreement (e.g. executive agreements that are just made by the president). Treaties are generally more serious and harder to withdraw from.\n\nAs a total non-expert, \"treaty\" does actually seem to me like the vibe that e.g. our MIRI friends are going for--they want something analogous to major nuclear arms control agreements, which are usually treaties. So to me, \"treaty\" seems like a good word for the central example of what MIRI wants, but international agreements that they're very happy about won't necessarily be treaties.\n\nI wouldn't care about this point, except that I've heard that national security experts are prickly about the word \"treaty\" being used when \"international agreement\" could have been used instead (and if you talk about treaties they might assume you're using the word ignorantly even if you aren't). My guess is that you should usually conform to their shibboleth here and say \"international agreement\" when you don't specifically want to talk about treaties."
+    },
+    "baseScore": 44,
+    "voteCount": 31,
+    "createdAt": null,
+    "postedAt": "2025-09-30T04:07:17.240Z",
+    "af": false
+  },
+  {
+    "_id": "J3Jgi3NDCbQsuv9NA",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": "5rup7sdBgem2Rhzr2",
+    "topLevelCommentId": "e8YNqbdhAJTvKryY2",
+    "contents": {
+      "markdown": "For some donation opportunities, e.g. political donations, that would be a crime.",
+      "plaintextDescription": "For some donation opportunities, e.g. political donations, that would be a crime."
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-29T01:27:32.791Z",
+    "af": false
+  },
+  {
+    "_id": "uei3fB4HJhfkZFZkA",
+    "postId": "CScshtFrSwwjWyP2m",
+    "parentCommentId": "zQQQyEKAN4phaWew6",
+    "topLevelCommentId": "zQQQyEKAN4phaWew6",
+    "contents": {
+      "markdown": "Where do you think you've spelled this argument out best? I'm aware of a lot of places where you've made the argument in passing, but I don't know of anywhere where you say it in depth.\n\nMy response last time (which also wasn't really in depth; I should maybe try to articulate my position better sometime...) was [this](https://www.lesswrong.com/posts/kgb58RL88YChkkBNf/the-problem?commentId=6YBNPriTW8iTHQ2v4):\n\n> I agree that the regime where mistakes don't kill you isn't *the same* as the regime where mistakes do kill you. But it might be similar in the relevant respects. As a trivial example, if you build a machine in America it usually works when you bring it to Australia. I think that arguments at the level of abstraction you've given here don't establish that this is one of the cases where the risk of the generalization failing is high rather than low.",
+      "plaintextDescription": "Where do you think you've spelled this argument out best? I'm aware of a lot of places where you've made the argument in passing, but I don't know of anywhere where you say it in depth.\n\nMy response last time (which also wasn't really in depth; I should maybe try to articulate my position better sometime...) was this:\n\n> I agree that the regime where mistakes don't kill you isn't the same as the regime where mistakes do kill you. But it might be similar in the relevant respects. As a trivial example, if you build a machine in America it usually works when you bring it to Australia. I think that arguments at the level of abstraction you've given here don't establish that this is one of the cases where the risk of the generalization failing is high rather than low."
+    },
+    "baseScore": 41,
+    "voteCount": 18,
+    "createdAt": null,
+    "postedAt": "2025-09-28T22:46:45.357Z",
+    "af": false
+  },
+  {
+    "_id": "GeA5cQuiA5PJpevnK",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "jrCYscyEhrytnjQaE",
+    "topLevelCommentId": "zPic3wrcX28fgCfbq",
+    "contents": {
+      "markdown": "The way I'd think about this is:\n\nCurrently, intellectual labor from machine learning researchers costs a lot of compute. A $1M/year ML researcher costs the same as having 30 or so H100s. At the point where you have AGI, you can probably run the equivalent of one ML researcher with substantially less hardware than that. (I'm amortizing, presumably you'll be running your models on multiple chips doing inference on multiple requests simultaneously.) This means that some ways to convert intellectual labor into compute efficiency will be cost-effective when they weren't previously. So I expect that ML will become substantially more labor-intensive and have much more finicky special casing.",
+      "plaintextDescription": "The way I'd think about this is:\n\nCurrently, intellectual labor from machine learning researchers costs a lot of compute. A $1M/year ML researcher costs the same as having 30 or so H100s. At the point where you have AGI, you can probably run the equivalent of one ML researcher with substantially less hardware than that. (I'm amortizing, presumably you'll be running your models on multiple chips doing inference on multiple requests simultaneously.) This means that some ways to convert intellectual labor into compute efficiency will be cost-effective when they weren't previously. So I expect that ML will become substantially more labor-intensive and have much more finicky special casing."
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-28T22:06:10.350Z",
+    "af": false
+  },
+  {
+    "_id": "oEADqAL8xNScaF6xh",
+    "postId": "bALBxf3yGGx4bvvem",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for doing this. This result is helpful. We at Redwood will definitely try out these methods.",
+      "plaintextDescription": "Thanks for doing this. This result is helpful. We at Redwood will definitely try out these methods."
+    },
+    "baseScore": 10,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-09-28T19:07:58.385Z",
+    "af": false
+  },
+  {
+    "_id": "g3tXx2D2qck9iCbsz",
+    "postId": "iFRrJfkXEpR4hFcEv",
+    "parentCommentId": "qETajtB5jhSkN3Anm",
+    "topLevelCommentId": "AsoStwvpBmEpZ8EkF",
+    "contents": {
+      "markdown": "You don't feel like \"I think the risk of misaligned AI takeover is enormously important.\" suffices?",
+      "plaintextDescription": "You don't feel like \"I think the risk of misaligned AI takeover is enormously important.\" suffices?"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-28T14:01:13.555Z",
+    "af": false
+  },
+  {
+    "_id": "Amb4tANfuKJqsQyiZ",
+    "postId": "iFRrJfkXEpR4hFcEv",
+    "parentCommentId": "rBBM6j9E7gynqiPNN",
+    "topLevelCommentId": "AsoStwvpBmEpZ8EkF",
+    "contents": {
+      "markdown": "I think you've substantially misunderstood what Will is talking about. He's not making a recommendation that people rush through things. He's noting what he believes (and I mostly agree) to be huge weaknesses in the book's argument.\n\nSimilarly, he's not saying labs have alignment in the bag. He's just noting holes in the book's arguments that extreme catastrophic misalignment is overwhelmingly likely.\n\n> All of this together makes me *extremely* confused if his real view is basically just \"I agree with most of MIRI's policy proposals but I think we shouldn't rush to enact a halt or slowdown *tomorrow*\".\n\nI assume that he disagrees with MIRI's headline policy proposal of banning AI research, in the senses that he thinks it's a poor choice of policy recommendation given tractability and the concern that this proposal might cause bad things to happen (like uneven bans on AI research). I don't know what he thinks of whether it would be good to magically institute the MIRI policy proposal; I think it's fundamentally unclear what hypothetical you're even supposed to consider in order to answer that question.\n\nI summarized my view on MIRI's policy suggestions as \"[poor](https://www.lesswrong.com/posts/P4xeb3jnFAYDdEEXs/i-enjoyed-most-of-iabied)\", but I definitely think it will be extremely valuable to have the option to slow down AI development in the future.",
+      "plaintextDescription": "I think you've substantially misunderstood what Will is talking about. He's not making a recommendation that people rush through things. He's noting what he believes (and I mostly agree) to be huge weaknesses in the book's argument.\n\nSimilarly, he's not saying labs have alignment in the bag. He's just noting holes in the book's arguments that extreme catastrophic misalignment is overwhelmingly likely.\n\n> All of this together makes me extremely confused if his real view is basically just \"I agree with most of MIRI's policy proposals but I think we shouldn't rush to enact a halt or slowdown tomorrow\".\n\nI assume that he disagrees with MIRI's headline policy proposal of banning AI research, in the senses that he thinks it's a poor choice of policy recommendation given tractability and the concern that this proposal might cause bad things to happen (like uneven bans on AI research). I don't know what he thinks of whether it would be good to magically institute the MIRI policy proposal; I think it's fundamentally unclear what hypothetical you're even supposed to consider in order to answer that question.\n\nI summarized my view on MIRI's policy suggestions as \"poor\", but I definitely think it will be extremely valuable to have the option to slow down AI development in the future."
+    },
+    "baseScore": 14,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-09-28T02:05:21.897Z",
+    "af": false
+  },
+  {
+    "_id": "3HNLfXimNKdLLp5Eo",
+    "postId": "iFRrJfkXEpR4hFcEv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think your summary of Will's argument is extremely misleading and unfair, for similar reasons to [Claude](https://claude.ai/share/4da04a08-6a6c-41de-8d21-e1028cbee497).\n\n> Will thinks government compute monitoring is a bad idea\n\nWhy do you think Will thinks this? I think that government compute monitoring is an example of the kind of proposal that Will is worried that the book distracts from.",
+      "plaintextDescription": "I think your summary of Will's argument is extremely misleading and unfair, for similar reasons to Claude.\n\n> Will thinks government compute monitoring is a bad idea\n\nWhy do you think Will thinks this? I think that government compute monitoring is an example of the kind of proposal that Will is worried that the book distracts from."
+    },
+    "baseScore": 19,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-09-28T00:09:17.343Z",
+    "af": false
+  },
+  {
+    "_id": "hL4CyjhMkxFNtzLyE",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": "e8YNqbdhAJTvKryY2",
+    "topLevelCommentId": "e8YNqbdhAJTvKryY2",
+    "contents": {
+      "markdown": "I think that the consideration you raise is important, but here's something that came to mind while reading your comment:\n\n> An example: last year I put a decent fraction of my wealth in a DAF. At the time, I hadn't heard any warnings not to do that. Today, I think that it would have been better if I had not put that money in the DAF, because I think the best donation opportunities are not 501(c)(3)s.\n\nThere's an interpretation of this experience which has the opposite conclusion than the one you draw. Specifically, you didn't try to make a donation, you tried to punt the choice down the road. If you had been more focused on maximizing impact using donations last year, that might have forced you to learn more about the situation and you might have noticed that political donations were a good opportunity.",
+      "plaintextDescription": "I think that the consideration you raise is important, but here's something that came to mind while reading your comment:\n\n> An example: last year I put a decent fraction of my wealth in a DAF. At the time, I hadn't heard any warnings not to do that. Today, I think that it would have been better if I had not put that money in the DAF, because I think the best donation opportunities are not 501(c)(3)s.\n\nThere's an interpretation of this experience which has the opposite conclusion than the one you draw. Specifically, you didn't try to make a donation, you tried to punt the choice down the road. If you had been more focused on maximizing impact using donations last year, that might have forced you to learn more about the situation and you might have noticed that political donations were a good opportunity."
+    },
+    "baseScore": 40,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-09-27T22:24:24.222Z",
+    "af": false
+  },
+  {
+    "_id": "nkhvJBDg9SdYu6mc3",
+    "postId": "voEAJ9nFBAqau8pNN",
+    "parentCommentId": "nb8QFTwiqcj2sEfsJ",
+    "topLevelCommentId": "Qx2sDtbgdC3qcmNiN",
+    "contents": {
+      "markdown": "> Amplified oversight can make substantial progress without studying actual schemers\n\n(Though note that it's unclear whether this progress will mitigate scheming risk.)",
+      "plaintextDescription": "> Amplified oversight can make substantial progress without studying actual schemers\n\n(Though note that it's unclear whether this progress will mitigate scheming risk.) "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-23T18:27:59.819Z",
+    "af": false
+  },
+  {
+    "_id": "iuzstwjhdfKHZEps6",
+    "postId": "aPi4HYA9ZtHKo6h8N",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> *   I think the book's thesis is basically right — that if anyone builds superintelligent AI in the next decade or two, it'll have a terrifyingly high (15%+) chance of causing everyone to die in short order\n\nI think this is an absurd statement of the book's thesis: the book is plainly saying something much stronger than that. How did you pick 15% rather than for example 80% or 95%?\n\nI am basically on the fence about the statement you have made. For reasons described [here](https://www.lesswrong.com/posts/4fqwBmmqi2ZGn9o7j/notes-on-fatalities-from-ai-takeover), I think P(human extinction|AI takeover) is like 30%, and I separately think P(AI takeover) is like 45%.\n\n> *   I think the world where the book becomes an extremely popular bestseller is much better on expectation than the world where it doesn't\n\nI think this is probably right, but it's unclear.\n\n> *   I generally respect MIRI's work and consider it underreported and underrated\n\nIt depends on what you mean by \"work\". I think their work making AI risk arguments at the level of detail represented by the book is massively underreported and underrated (and Eliezer's work on making a rationalist/AI safety community is very underrated). I think that their technical work is overrated by LessWrong readers.",
+      "plaintextDescription": ">  * I think the book's thesis is basically right — that if anyone builds superintelligent AI in the next decade or two, it'll have a terrifyingly high (15%+) chance of causing everyone to die in short order\n\nI think this is an absurd statement of the book's thesis: the book is plainly saying something much stronger than that. How did you pick 15% rather than for example 80% or 95%?\n\nI am basically on the fence about the statement you have made. For reasons described here, I think P(human extinction|AI takeover) is like 30%, and I separately think P(AI takeover) is like 45%.\n\n>  * I think the world where the book becomes an extremely popular bestseller is much better on expectation than the world where it doesn't\n\nI think this is probably right, but it's unclear.\n\n>  * I generally respect MIRI's work and consider it underreported and underrated\n\nIt depends on what you mean by \"work\". I think their work making AI risk arguments at the level of detail represented by the book is massively underreported and underrated (and Eliezer's work on making a rationalist/AI safety community is very underrated). I think that their technical work is overrated by LessWrong readers."
+    },
+    "baseScore": 37,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-09-23T18:11:44.638Z",
+    "af": false
+  },
+  {
+    "_id": "QQrQh7AnHuBdcjrDW",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "99kTcrBospA6x7AEA",
+    "topLevelCommentId": "nbsDtGMuYZeDvY9bo",
+    "contents": {
+      "markdown": "I do think that the post had a worse argumentative structure than posts I normally write (hence all the confusions in the comments). But that was totally on me, not the AI. I'm interested in whether you think your problem was with the argumentative structure or the prose.",
+      "plaintextDescription": "I do think that the post had a worse argumentative structure than posts I normally write (hence all the confusions in the comments). But that was totally on me, not the AI. I'm interested in whether you think your problem was with the argumentative structure or the prose. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-23T14:52:20.420Z",
+    "af": false
+  },
+  {
+    "_id": "E7PuajtxJg5A9TtEw",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "Da6iqrmP7kMraKqEw",
+    "topLevelCommentId": "nbsDtGMuYZeDvY9bo",
+    "contents": {
+      "markdown": "I didn’t intend this to be a prank! I just wanted to write faster and better.",
+      "plaintextDescription": "I didn’t intend this to be a prank! I just wanted to write faster and better."
+    },
+    "baseScore": 11,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-09-23T14:49:31.097Z",
+    "af": false
+  },
+  {
+    "_id": "iekwELpTBgHnkHZRk",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "KtqqwqBzbd8igzK6z",
+    "topLevelCommentId": "nbsDtGMuYZeDvY9bo",
+    "contents": {
+      "markdown": "I agree that I had had all the ideas, but I hadn't previously been able to get AIs to even do the \"grunt work\" of turning it into prose with anything like that level of quality!",
+      "plaintextDescription": "I agree that I had had all the ideas, but I hadn't previously been able to get AIs to even do the \"grunt work\" of turning it into prose with anything like that level of quality!"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-23T04:33:03.784Z",
+    "af": false
+  },
+  {
+    "_id": "nbsDtGMuYZeDvY9bo",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Fun fact: My post [Christian homeschoolers in the year 3000](https://www.lesswrong.com/posts/8aRFB2qGyjQGJkEdZ/christian-homeschoolers-in-the-year-3000) was substantially written by Claude Opus 4.1.\n\nYou can see the chat [here](https://claude.ai/share/d2c120a0-06d8-4948-b73a-67c270ba7c3c). I prompted Claude with a detailed outline, a previous draft that followed a very different structure, and a copy of \"The case for ensuring powerful AIs are controlled\" for reference about my writing style. The outline I gave Claude is in the Outline tab, and the old draft I provided is in the Old draft tab, of this [doc](https://docs.google.com/document/d/1Hpi98Gp1tVF7vAauoN4qGjVS9n0Gg_yqJJik6PagErI/edit?pli=1&tab=t.0#heading=h.mvm354rfy6lb).\n\nAs you can see, I did a bunch of back and forth with Claude to edit it. Then I copied to a Google doc and edited substantially on my own to get to the final product.\n\nI was shocked by how good Claude was at this.\n\nI believe this is in compliance with the [LLM writing assistance policy](https://www.lesswrong.com/posts/KXujJjnmP85u8eM6B/policy-for-llm-writing-on-lesswrong).",
+      "plaintextDescription": "Fun fact: My post Christian homeschoolers in the year 3000 was substantially written by Claude Opus 4.1.\n\nYou can see the chat here. I prompted Claude with a detailed outline, a previous draft that followed a very different structure, and a copy of \"The case for ensuring powerful AIs are controlled\" for reference about my writing style. The outline I gave Claude is in the Outline tab, and the old draft I provided is in the Old draft tab, of this doc.\n\nAs you can see, I did a bunch of back and forth with Claude to edit it. Then I copied to a Google doc and edited substantially on my own to get to the final product.\n\nI was shocked by how good Claude was at this.\n\nI believe this is in compliance with the LLM writing assistance policy."
+    },
+    "baseScore": 30,
+    "voteCount": 22,
+    "createdAt": null,
+    "postedAt": "2025-09-23T02:28:35.898Z",
+    "af": false
+  },
+  {
+    "_id": "oc2YLyFgGtTEDqbq2",
+    "postId": "anFrGMskALuH7aZDw",
+    "parentCommentId": "QMRDsEydjDnCbNM2E",
+    "topLevelCommentId": "JDp8WxRHhHGu64ibK",
+    "contents": {
+      "markdown": "Yeah, I agree. The audience for this book isn't LessWrong, but lots of people seem to be acting as if pushing back on LessWrong is a defection that will hurt the book's prospects.",
+      "plaintextDescription": "Yeah, I agree. The audience for this book isn't LessWrong, but lots of people seem to be acting as if pushing back on LessWrong is a defection that will hurt the book's prospects."
+    },
+    "baseScore": 38,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-09-22T17:18:44.397Z",
+    "af": false
+  },
+  {
+    "_id": "5Zo9vifvjFp9yGJEZ",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Zach Robinson, relevant because he's on the Anthropic LTBT and for [other reasons](https://www.centreforeffectivealtruism.org/team), [tweets](https://x.com/Zach_y_robinson/status/1968810665973530781):\n\n> \"If Anyone Builds It, Everyone Dies\" by @ESYudkowsky and @So8res is getting a lot of attention this week. As someone who leads an org working to reduce existential risks, I'm grateful they're pushing AI safety mainstream. But I think they're wrong about doom being inevitable. 🧵\n> \n> Don't get me wrong—I take AI existential risk seriously. But presenting doom as a foregone conclusion isn't helpful for solving the problem.\n> \n> In 2022, superforecasters and AI researchers estimated the probability of existential catastrophic risk from AI by 2100 at around 0.4%-3%. A recent study found no correlation between near-term accuracy and long-term forecasts. TL;DR: predicting the future is really hard.\n> \n> That doesn't mean we should throw the existential risk baby out with the \"Everyone Dies\" bathwater. Most of us wouldn't be willing to risk a 3% chance (or even a 0.3% chance!) of the people we love dying.\n> \n> But accepting uncertainty matters for navigating this complex challenge thoughtfully.\n> \n> Accepting uncertainty matters for two big reasons.\n> \n> First, it leaves room for AI's transformative benefits. Tech has doubled life expectancy, slashed extreme poverty, and eliminated diseases over the past two centuries. AI could accelerate these trends dramatically.\n> \n> But Yudkowsky and Soares dismiss these possibilities as \"beautiful dreams.\" If we're certain AI will kill us all, then all potential benefits get rounded to zero.\n> \n> Second, focusing exclusively on extinction scenarios blinds us to other serious AI risks: authoritarian power grabs, democratic disruption through misinformation, mass surveillance, economic displacement, new forms of inequity. These deserve attention too.\n> \n> People inspired by @EffectvAltruism have made real progress on AI safety while *also* mapping varied futures. I'm personally encouraged by recent work from @willmacaskill and others at @forethought_org on putting society on a path toward flourishing with transformative AI.\n> \n> This includes questions about AI consciousness and welfare—how should we treat AI systems that might themselves suffer or flourish? These questions sound abstract but may become practical as AI systems become more sophisticated.\n> \n> The policy debate surrounding AI development has become a false choice: stop all AI development (to prevent doom) vs. speed it up (for rewards).\n> \n> I grew up participating in debate, so I know the importance of confidence. But there are two types: epistemic (based on evidence) and social (based on delivery). Despite being expressed in self-assured language, the evidence for imminent existential risk is far from airtight.\n> \n> My take is this: We should take AI risk seriously—with all its uncertainties—and work hard to bend development toward better outcomes.\n\nOn the object level, I think Zach is massively underrating AI takeover risk, and I think that his reference to the benefits of AI [misses the point](https://www.lesswrong.com/posts/voEAJ9nFBAqau8pNN/the-title-is-reasonable?commentId=aEutHKW9fkfcx4BBA).\n\nOn the meta level, I think Zach's opinions are relevant (and IMO concerning) for people who are relying on Zach to ensure that Anthropic makes good choices about AI risks. I don't think the perspective articulated in these tweets is consistent with him doing a good job there (though maybe this was just poor phrasing on his part, and his opinions are more reasonable than this).",
+      "plaintextDescription": "Zach Robinson, relevant because he's on the Anthropic LTBT and for other reasons, tweets:\n\n> \"If Anyone Builds It, Everyone Dies\" by @ESYudkowsky and @So8res is getting a lot of attention this week. As someone who leads an org working to reduce existential risks, I'm grateful they're pushing AI safety mainstream. But I think they're wrong about doom being inevitable. 🧵\n> \n> Don't get me wrong—I take AI existential risk seriously. But presenting doom as a foregone conclusion isn't helpful for solving the problem.\n> \n> In 2022, superforecasters and AI researchers estimated the probability of existential catastrophic risk from AI by 2100 at around 0.4%-3%. A recent study found no correlation between near-term accuracy and long-term forecasts. TL;DR: predicting the future is really hard.\n> \n> That doesn't mean we should throw the existential risk baby out with the \"Everyone Dies\" bathwater. Most of us wouldn't be willing to risk a 3% chance (or even a 0.3% chance!) of the people we love dying.\n> \n> But accepting uncertainty matters for navigating this complex challenge thoughtfully.\n> \n> Accepting uncertainty matters for two big reasons.\n> \n> First, it leaves room for AI's transformative benefits. Tech has doubled life expectancy, slashed extreme poverty, and eliminated diseases over the past two centuries. AI could accelerate these trends dramatically.\n> \n> But Yudkowsky and Soares dismiss these possibilities as \"beautiful dreams.\" If we're certain AI will kill us all, then all potential benefits get rounded to zero.\n> \n> Second, focusing exclusively on extinction scenarios blinds us to other serious AI risks: authoritarian power grabs, democratic disruption through misinformation, mass surveillance, economic displacement, new forms of inequity. These deserve attention too.\n> \n> People inspired by @EffectvAltruism have made real progress on AI safety while also mapping varied futures. I'm personally encouraged by recent work from @willmacaskill and others at @forethou"
+    },
+    "baseScore": 110,
+    "voteCount": 50,
+    "createdAt": null,
+    "postedAt": "2025-09-21T19:44:44.920Z",
+    "af": false
+  },
+  {
+    "_id": "n9N8wyBkiyyrDp4ag",
+    "postId": "voEAJ9nFBAqau8pNN",
+    "parentCommentId": "CctggPhBFeGrAwKZw",
+    "topLevelCommentId": "JuitdRH3a7mQWEDcA",
+    "contents": {
+      "markdown": "I engage on LessWrong because:\n\n*   It does actually help me sharpen my intuitions and arguments. When I'm trying to understand a complicated topic, I find it really helpful to spend a bunch of time talking about it with people. It's a cheap and easy way of getting some spaced repetition.\n*   I think that despite the pretty bad epistemic problems on LessWrong, it's still the best place to talk about these issues, and so I feel invested in improving discussion of them. (I'm less pessimistic than Rohin.)\n    *   There are a bunch of extremely unreasonable MIRI partisans on LessWrong (as well as some other unreasonable groups), but I think that's a minority of people who I engage with; a lot of them just vote and don't comment.\n    *   I think that my and Redwood's engagement on LessWrong has had meaningful effects on how thoughtful LWers think about AI risk.\n*   I feel really triggered by people here being wrong about stuff, so I spend somewhat more time on it than I endorse.\n    *   This is partially because I identify strongly with the rationalist community and it hurts me to see the rationalists being unreasonable or wrong.\n\nI do think that on the margin, I wish I felt more intuitively relatively motivated to work on my writing projects that are aimed at other audiences. For example, this weekend I've been arguing on LessWrong substantially as procrastination for writing a piece about AI control aimed at computer security experts, particularly those at AI companies. I think that post will be really valuable because I think that a lot of people in that audience are pretty persuadable, and I think it's a really important point. But it's less motivating because the feedback loops are longer and the audience doesn't include many of my friends and my broader social community.",
+      "plaintextDescription": "I engage on LessWrong because:\n\n * It does actually help me sharpen my intuitions and arguments. When I'm trying to understand a complicated topic, I find it really helpful to spend a bunch of time talking about it with people. It's a cheap and easy way of getting some spaced repetition.\n * I think that despite the pretty bad epistemic problems on LessWrong, it's still the best place to talk about these issues, and so I feel invested in improving discussion of them. (I'm less pessimistic than Rohin.)\n   * There are a bunch of extremely unreasonable MIRI partisans on LessWrong (as well as some other unreasonable groups), but I think that's a minority of people who I engage with; a lot of them just vote and don't comment.\n   * I think that my and Redwood's engagement on LessWrong has had meaningful effects on how thoughtful LWers think about AI risk.\n * I feel really triggered by people here being wrong about stuff, so I spend somewhat more time on it than I endorse.\n   * This is partially because I identify strongly with the rationalist community and it hurts me to see the rationalists being unreasonable or wrong.\n\nI do think that on the margin, I wish I felt more intuitively relatively motivated to work on my writing projects that are aimed at other audiences. For example, this weekend I've been arguing on LessWrong substantially as procrastination for writing a piece about AI control aimed at computer security experts, particularly those at AI companies. I think that post will be really valuable because I think that a lot of people in that audience are pretty persuadable, and I think it's a really important point. But it's less motivating because the feedback loops are longer and the audience doesn't include many of my friends and my broader social community. "
+    },
+    "baseScore": 22,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-09-21T19:34:21.130Z",
+    "af": false
+  },
+  {
+    "_id": "mcY2Wjkxt4prZ7qQH",
+    "postId": "rQDCQxuCRrrN4ujAe",
+    "parentCommentId": "oBZ8CXG8WDTDwGavD",
+    "topLevelCommentId": "vYdtN3nHEtJfgjSSB",
+    "contents": {
+      "markdown": "I feel like your title for this short-form post is unreasonably aggressive, given what you're saying here.\n\nI found your articulation of the structure of the book's argument helpful and clarifying.\n\nI'm planning to write something more about this at some point: I think a key issue here is that we aren't making the kind of arguments where \"local validity\" is a reliable concept. No-one is trying to make proofs, they're trying to make defeasible heuristic arguments. Suppose the book makes an argument of the form \"Because of argument A, I believe conclusion X. You might have thought that B is a counterargument to A. But actually, because of argument C, B doesn't work.\" If Will thinks that argument C doesn't work, I think it's fine for him to summarize this as: \"they make an argument mostly around A, and which I don't think suffices to establish X\".",
+      "plaintextDescription": "I feel like your title for this short-form post is unreasonably aggressive, given what you're saying here.\n\nI found your articulation of the structure of the book's argument helpful and clarifying.\n\nI'm planning to write something more about this at some point: I think a key issue here is that we aren't making the kind of arguments where \"local validity\" is a reliable concept. No-one is trying to make proofs, they're trying to make defeasible heuristic arguments. Suppose the book makes an argument of the form \"Because of argument A, I believe conclusion X. You might have thought that B is a counterargument to A. But actually, because of argument C, B doesn't work.\" If Will thinks that argument C doesn't work, I think it's fine for him to summarize this as: \"they make an argument mostly around A, and which I don't think suffices to establish X\". "
+    },
+    "baseScore": 11,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-21T18:23:26.256Z",
+    "af": false
+  },
+  {
+    "_id": "ab3Dgit8iGKFodS7E",
+    "postId": "rQDCQxuCRrrN4ujAe",
+    "parentCommentId": "oRuCzPesJZm9KBjGK",
+    "topLevelCommentId": "vYdtN3nHEtJfgjSSB",
+    "contents": {
+      "markdown": "Whatever. I don't think that's a very important difference, and I don't think it's fair to call Will's argument a straw man based on it. I think a very small proportion of readers would confidently interpret the book's argument the way you did. \n\nYou're claiming that the book's argument is only trying to apply to an extremely narrow definition of AI training. You describe it as SGD on a training set; I assume you intend to refer to things like RL on diverse environments, like how R1 was trained. If that's what the argument is about, it's really important for the authors to explain how that argument connects to the broader notion of training used in practice, and I don't remember this happening. I don't remember them talking carefully about the still broader question of \"what happens when you do get to examine results and intermediate results and make adjustments based on observations?\"",
+      "plaintextDescription": "Whatever. I don't think that's a very important difference, and I don't think it's fair to call Will's argument a straw man based on it. I think a very small proportion of readers would confidently interpret the book's argument the way you did. \n\nYou're claiming that the book's argument is only trying to apply to an extremely narrow definition of AI training. You describe it as SGD on a training set; I assume you intend to refer to things like RL on diverse environments, like how R1 was trained. If that's what the argument is about, it's really important for the authors to explain how that argument connects to the broader notion of training used in practice, and I don't remember this happening. I don't remember them talking carefully about the still broader question of \"what happens when you do get to examine results and intermediate results and make adjustments based on observations?\" "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-21T16:31:24.670Z",
+    "af": false
+  },
+  {
+    "_id": "epRgDTnKRKqpoLQJd",
+    "postId": "rQDCQxuCRrrN4ujAe",
+    "parentCommentId": "Eizv8FpJQCBw64B3z",
+    "topLevelCommentId": "vYdtN3nHEtJfgjSSB",
+    "contents": {
+      "markdown": "I don't think that the MIRI book would hold up if you analyzed it with this level of persnicketiness–they were absolutely not precise at the level of distinguishing between the whole development process and single training runs. (Which is arguably fine–they were trying to write a popular book, not trying to persuade super high-context readers of anything!) So this complaint strikes me as somewhat of an isolated demand for rigor.",
+      "plaintextDescription": "I don't think that the MIRI book would hold up if you analyzed it with this level of persnicketiness–they were absolutely not precise at the level of distinguishing between the whole development process and single training runs. (Which is arguably fine–they were trying to write a popular book, not trying to persuade super high-context readers of anything!) So this complaint strikes me as somewhat of an isolated demand for rigor."
+    },
+    "baseScore": 30,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-09-21T16:16:58.448Z",
+    "af": false
+  },
+  {
+    "_id": "Eizv8FpJQCBw64B3z",
+    "postId": "rQDCQxuCRrrN4ujAe",
+    "parentCommentId": "vYdtN3nHEtJfgjSSB",
+    "topLevelCommentId": "vYdtN3nHEtJfgjSSB",
+    "contents": {
+      "markdown": "> So these dis-analogies don't directly engage with the argument. If they were directly engaging with the first part of the argument, they would be about the predictability of a single training run, rather than the total AI research process.\n\nThis seems wrong to me. Which of the things that Will says couldn't be considered to be about a single training process?",
+      "plaintextDescription": "> So these dis-analogies don't directly engage with the argument. If they were directly engaging with the first part of the argument, they would be about the predictability of a single training run, rather than the total AI research process.\n\nThis seems wrong to me. Which of the things that Will says couldn't be considered to be about a single training process? "
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-21T15:55:12.974Z",
+    "af": false
+  },
+  {
+    "_id": "vWTrCiTpPLqAcMBBh",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "7nYtHZmFGqYFJC25X",
+    "topLevelCommentId": "7nYtHZmFGqYFJC25X",
+    "contents": {
+      "markdown": "It depends on what you think is a glorious future. As I said in my conclusion above, I personally think that the situation I described is kind of lame and depressing, and also there is some possibility that it is bad in a scope-sensitive way if these enclaves continue to control large proportions of the resources of the future (e.g. because their members have a fixed proportion of voting power over the decisions made by the US government).",
+      "plaintextDescription": "It depends on what you think is a glorious future. As I said in my conclusion above, I personally think that the situation I described is kind of lame and depressing, and also there is some possibility that it is bad in a scope-sensitive way if these enclaves continue to control large proportions of the resources of the future (e.g. because their members have a fixed proportion of voting power over the decisions made by the US government). "
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-21T01:00:38.964Z",
+    "af": false
+  },
+  {
+    "_id": "2rgABivimHypfHFmL",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": "MEJh8m5mP85qwLqCu",
+    "topLevelCommentId": "AstHKDApQQtTHokiA",
+    "contents": {
+      "markdown": "I think me and Will and Kelsey have similar positions (having talked with both of them about this quite a lot), we just emphasized different disagreements.\n\n(Except that I am less sold than Kelsey on her \"maybe we can have non-agentic substitutes\" point.)",
+      "plaintextDescription": "I think me and Will and Kelsey have similar positions (having talked with both of them about this quite a lot), we just emphasized different disagreements.\n\n(Except that I am less sold than Kelsey on her \"maybe we can have non-agentic substitutes\" point.)"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-20T21:29:28.178Z",
+    "af": false
+  },
+  {
+    "_id": "Sarh82HjZD3LkPkFL",
+    "postId": "voEAJ9nFBAqau8pNN",
+    "parentCommentId": "CHyqYwpjRQLccjMuK",
+    "topLevelCommentId": "fZ5fz6BSnquBGxQJE",
+    "contents": {
+      "markdown": "FWIW, I have read those parts of the online resources.\n\nYou can obviously summarize me however you like, but my favorite summary of my position is something like \"A lot of things will have changed about the situation by the time that it's possible to build ASI. It's definitely not obvious that those changes mean that we're okay. But I think that they are a mechanically important aspect of the situation to understand, and I think they substantially reduce AI takeover risk.\"",
+      "plaintextDescription": "FWIW, I have read those parts of the online resources.\n\nYou can obviously summarize me however you like, but my favorite summary of my position is something like \"A lot of things will have changed about the situation by the time that it's possible to build ASI. It's definitely not obvious that those changes mean that we're okay. But I think that they are a mechanically important aspect of the situation to understand, and I think they substantially reduce AI takeover risk.\""
+    },
+    "baseScore": 17,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-09-20T19:11:03.547Z",
+    "af": false
+  },
+  {
+    "_id": "Kkn3d6MjC4qPy6pMS",
+    "postId": "voEAJ9nFBAqau8pNN",
+    "parentCommentId": "FeyHd6WxHPkXzw7gN",
+    "topLevelCommentId": "fZ5fz6BSnquBGxQJE",
+    "contents": {
+      "markdown": "> The book aimed at a general audience does not do enough justice to my unpublished plan for pitting AIs against AIs\n\nFWIW that's not at all what I mean (and I don't know of anyone who's said that). What I mean is much more like what Ryan said here:\n\n> I expect that *by default* superintelligence is built after a point where we have access to huge amounts of non-superintelligent cognitive labor so it's unlikely that we'll be using current methods and current understanding (unless humans have already lost control by this point, which seems totally plausibly, but not overwhelmingly likely nor argued convincingly for by the book). Even just looking at capabilities, I think it's pretty likely that automated AI R&D will result in us operating in a totally different paradigm by the time we build superintelligence---this isn't to say this other paradigm will be safer, just that a narrow description of \"current techniques\" doesn't include the default trajectory.",
+      "plaintextDescription": "> The book aimed at a general audience does not do enough justice to my unpublished plan for pitting AIs against AIs\n\nFWIW that's not at all what I mean (and I don't know of anyone who's said that). What I mean is much more like what Ryan said here:\n\n> I expect that by default superintelligence is built after a point where we have access to huge amounts of non-superintelligent cognitive labor so it's unlikely that we'll be using current methods and current understanding (unless humans have already lost control by this point, which seems totally plausibly, but not overwhelmingly likely nor argued convincingly for by the book). Even just looking at capabilities, I think it's pretty likely that automated AI R&D will result in us operating in a totally different paradigm by the time we build superintelligence---this isn't to say this other paradigm will be safer, just that a narrow description of \"current techniques\" doesn't include the default trajectory."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-20T18:47:54.913Z",
+    "af": false
+  },
+  {
+    "_id": "pHENH2M4frPpFW3ss",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": "q6sPx4uNYdjAC7wik",
+    "topLevelCommentId": "AstHKDApQQtTHokiA",
+    "contents": {
+      "markdown": "> Like, I think the overlap between your criticisms and the criticisms of other people in the community is actually pretty low,\n\nI disagree; I think my core complaints about their arguments are very similar to Will MacAskill, Kelsey Piper, and the majority of people whose ideas on AI safety I have a moderate amount of respect for. I agree that some other LW people agree with the parts I think are wrong, but that's not what I'm talking about.",
+      "plaintextDescription": "> Like, I think the overlap between your criticisms and the criticisms of other people in the community is actually pretty low,\n\nI disagree; I think my core complaints about their arguments are very similar to Will MacAskill, Kelsey Piper, and the majority of people whose ideas on AI safety I have a moderate amount of respect for. I agree that some other LW people agree with the parts I think are wrong, but that's not what I'm talking about."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-20T06:03:25.042Z",
+    "af": false
+  },
+  {
+    "_id": "AstHKDApQQtTHokiA",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Since writing this post, I have updated towards it's a bigger problem that this book's core thesis is wrong. It's pretty annoying that me and similar people who recommend the book have to caveat with \"obviously this is overblown and the arguments are skipping a bunch of important steps, but I think the issue described is real and important\".",
+      "plaintextDescription": "Since writing this post, I have updated towards it's a bigger problem that this book's core thesis is wrong. It's pretty annoying that me and similar people who recommend the book have to caveat with \"obviously this is overblown and the arguments are skipping a bunch of important steps, but I think the issue described is real and important\"."
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-19T22:22:48.275Z",
+    "af": false
+  },
+  {
+    "_id": "pvowgN4A5cByRKfsx",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": "fjo9AydRPTyurNaqv",
+    "topLevelCommentId": "fjo9AydRPTyurNaqv",
+    "contents": {
+      "markdown": "It depends on what you mean by \"foolish plan.\" In a world where the median person had my beliefs, I totally agree that AI risk would be handled extremely differently (though idk if \"pause now\" is a good description of what we'd do). I totally agree that this world is making a huge error according to my values and most human values by not being much more cautious here. \n\nI don't think \"we might be okay\" is a valid objection to the claim \"AI might cause an existential catastrophe\"—those claims are totally consistent. But I *do* think:\n\n*   It's a valid objection to \"AI is almost guaranteed to cause an existential catastrophe.\"\n*   It's a very important aspect of the situation, and descriptions of AI risk that don't mention it seem to me like they're failing to discuss a crucial part of how it all goes down.",
+      "plaintextDescription": "It depends on what you mean by \"foolish plan.\" In a world where the median person had my beliefs, I totally agree that AI risk would be handled extremely differently (though idk if \"pause now\" is a good description of what we'd do). I totally agree that this world is making a huge error according to my values and most human values by not being much more cautious here. \n\nI don't think \"we might be okay\" is a valid objection to the claim \"AI might cause an existential catastrophe\"—those claims are totally consistent. But I do think:\n\n * It's a valid objection to \"AI is almost guaranteed to cause an existential catastrophe.\"\n * It's a very important aspect of the situation, and descriptions of AI risk that don't mention it seem to me like they're failing to discuss a crucial part of how it all goes down."
+    },
+    "baseScore": 6,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-09-19T03:41:15.219Z",
+    "af": false
+  },
+  {
+    "_id": "YpGcCgK53nGmSttLM",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "uqrYCsfhAce4RNjaj",
+    "topLevelCommentId": "uqrYCsfhAce4RNjaj",
+    "contents": {
+      "markdown": "> On your [comment](https://www.lesswrong.com/posts/8aRFB2qGyjQGJkEdZ/christian-homeschoolers-in-the-year-3000#iScpFaFszRovCmQZM) about \"centrally enforced policy\" being \"kind of fucked up and illiberal\", I think there is some hope that given enough time and effort, there can be a relatively uncontroversial solution to metaphilosophy[^\\[1\\]^](https://www.lesswrong.com/posts/8aRFB2qGyjQGJkEdZ/christian-homeschoolers-in-the-year-3000#fn-NvTMdrDJ4ivbWPqTT-1), that most people can agree on at the end of the AI pause so central enforcement wouldn't be needed.\n\nI am worried that it is impossible to come up with a solution to meta-philosophy that is uncontroversial because a reasonable fraction of people will evaluate a meta-philosophy by whether it invalidates particular object-level beliefs of theirs, and will be impossible to convince to change their evaluation strategy (except by using persuasion tactics that could have been [symmetrically](https://slatestarcodex.com/2017/03/24/guided-by-the-beauty-of-our-weapons/) applied to persuade them of lots of other stuff).",
+      "plaintextDescription": "> On your comment about \"centrally enforced policy\" being \"kind of fucked up and illiberal\", I think there is some hope that given enough time and effort, there can be a relatively uncontroversial solution to metaphilosophy[1], that most people can agree on at the end of the AI pause so central enforcement wouldn't be needed.\n\nI am worried that it is impossible to come up with a solution to meta-philosophy that is uncontroversial because a reasonable fraction of people will evaluate a meta-philosophy by whether it invalidates particular object-level beliefs of theirs, and will be impossible to convince to change their evaluation strategy (except by using persuasion tactics that could have been symmetrically applied to persuade them of lots of other stuff)."
+    },
+    "baseScore": 20,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-09-18T20:11:56.007Z",
+    "af": false
+  },
+  {
+    "_id": "byXK3rdybMPLFWKW9",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "ForYaQqnyZQoenAHd",
+    "topLevelCommentId": "NyhF3KiDYuyvpitDb",
+    "contents": {
+      "markdown": "It seems like you think there is some asymmetry between people talking to honest chatbots and people talking to dishonest chatbots that want to take all their stuff. I feel like there isn't a structural difference between those. It's going to be totally reasonable to want to have AIs watch over the conversations that you and/or your children are having with any other chatbot.",
+      "plaintextDescription": "It seems like you think there is some asymmetry between people talking to honest chatbots and people talking to dishonest chatbots that want to take all their stuff. I feel like there isn't a structural difference between those. It's going to be totally reasonable to want to have AIs watch over the conversations that you and/or your children are having with any other chatbot. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-18T01:47:12.744Z",
+    "af": false
+  },
+  {
+    "_id": "ziRPCuatrECks8Byg",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "5sEg83Ncn3dLRirDp",
+    "topLevelCommentId": "NyhF3KiDYuyvpitDb",
+    "contents": {
+      "markdown": "I don't quite understand your argument here. Suppose you give people the choice between two chatbots, and they know one will cause them to deconvert, and the other one won't. I think it's pretty likely they'll prefer the latter. Are you imagining that no one will offer to sell them the latter?",
+      "plaintextDescription": "I don't quite understand your argument here. Suppose you give people the choice between two chatbots, and they know one will cause them to deconvert, and the other one won't. I think it's pretty likely they'll prefer the latter. Are you imagining that no one will offer to sell them the latter? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-18T01:05:08.176Z",
+    "af": false
+  },
+  {
+    "_id": "cDDTysgJ7gXZF8m96",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "4c5czxhsZeXKbGLRd",
+    "topLevelCommentId": "NyhF3KiDYuyvpitDb",
+    "contents": {
+      "markdown": "> I am also sympathetic to the higher level point. If we have AIs sufficiently aligned that we can make them follow the OpenAI model spec, I'd be at least somewhat surprised if governments and AI companies didn't find a way to craft model specs that avoided the problems described in this post.\n\nI agree that it is unclear whether this would go the way I hypothesized here. But I think it's arguably the straightforward extrapolation of how America handles this kind of problem: are you surprised that America allows parents to homeschool their children?\n\nNote also that AI companies can compete on how user-validating the models are, and in absence of some kind of regulation, people will be able to pay for models that have the properties they want.",
+      "plaintextDescription": "> I am also sympathetic to the higher level point. If we have AIs sufficiently aligned that we can make them follow the OpenAI model spec, I'd be at least somewhat surprised if governments and AI companies didn't find a way to craft model specs that avoided the problems described in this post.\n\nI agree that it is unclear whether this would go the way I hypothesized here. But I think it's arguably the straightforward extrapolation of how America handles this kind of problem: are you surprised that America allows parents to homeschool their children?\n\nNote also that AI companies can compete on how user-validating the models are, and in absence of some kind of regulation, people will be able to pay for models that have the properties they want."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-18T00:11:35.358Z",
+    "af": false
+  },
+  {
+    "_id": "aaqufprtcfFrGMZfd",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "DkGHTZfhv7BRQNibv",
+    "topLevelCommentId": "NyhF3KiDYuyvpitDb",
+    "contents": {
+      "markdown": "I don't think it's obviously appropriate for AI companies to decide exactly what reflection process and exposure to society people who use their AIs need to have. And people might prefer to use AIs that do conform to their beliefs if they are allowed to buy access to them. So I think you might have to ban such AIs in order to prevent people from using them.",
+      "plaintextDescription": "I don't think it's obviously appropriate for AI companies to decide exactly what reflection process and exposure to society people who use their AIs need to have. And people might prefer to use AIs that do conform to their beliefs if they are allowed to buy access to them. So I think you might have to ban such AIs in order to prevent people from using them. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-17T21:01:51.935Z",
+    "af": false
+  },
+  {
+    "_id": "iScpFaFszRovCmQZM",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "NyhF3KiDYuyvpitDb",
+    "topLevelCommentId": "NyhF3KiDYuyvpitDb",
+    "contents": {
+      "markdown": "I try to address in my \"analysis through swerving around obstacles\" section. \n\nThe argument you're giving against the scenario I spell out here is \"surely the AIs will instead be designed to promote a particular set of mandated policies on how you should reflect and update over time.\" I agree that that's conceivable. But it also seems kind of fucked up and illiberal.\n\nI want to explore a scenario where there isn't a centrally enforced policy on this stuff, where people are able to use the AIs as they wish. I think that this is a plausible path society could take (e.g. it's kind of analogous to how you're allowed to isolate yourself and your family now).",
+      "plaintextDescription": "I try to address in my \"analysis through swerving around obstacles\" section. \n\nThe argument you're giving against the scenario I spell out here is \"surely the AIs will instead be designed to promote a particular set of mandated policies on how you should reflect and update over time.\" I agree that that's conceivable. But it also seems kind of fucked up and illiberal.\n\nI want to explore a scenario where there isn't a centrally enforced policy on this stuff, where people are able to use the AIs as they wish. I think that this is a plausible path society could take (e.g. it's kind of analogous to how you're allowed to isolate yourself and your family now). "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-17T19:43:03.065Z",
+    "af": false
+  },
+  {
+    "_id": "uSbbPpFMFpkqS43mF",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "GEf2HiuSLaLPnHgto",
+    "topLevelCommentId": "GEf2HiuSLaLPnHgto",
+    "contents": {
+      "markdown": "I can't believe I screwed that up, lol.",
+      "plaintextDescription": "I can't believe I screwed that up, lol. "
+    },
+    "baseScore": 18,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-09-17T19:21:12.730Z",
+    "af": false
+  },
+  {
+    "_id": "E7a28BxKp4QREgF3T",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "6pq26GFCfCNW9fBHM",
+    "topLevelCommentId": "6pq26GFCfCNW9fBHM",
+    "contents": {
+      "markdown": "I think both are big problems. Maybe I should have been clearer about the symmetry here. The thesis I care about here is pretty symmetrical between those problems.",
+      "plaintextDescription": "I think both are big problems. Maybe I should have been clearer about the symmetry here. The thesis I care about here is pretty symmetrical between those problems."
+    },
+    "baseScore": 24,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-09-17T19:20:51.641Z",
+    "af": false
+  },
+  {
+    "_id": "bhEWyAoBgr7Rft2CR",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "AuW7rmsLF8erAFxcC",
+    "topLevelCommentId": "AuW7rmsLF8erAFxcC",
+    "contents": {
+      "markdown": "My concern here is that maybe they would change their minds if they really reflected on it, but it's not clear that they will in fact do that reflection if they have to decide quickly whether to do so!",
+      "plaintextDescription": "My concern here is that maybe they would change their minds if they really reflected on it, but it's not clear that they will in fact do that reflection if they have to decide quickly whether to do so!"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-17T16:13:07.957Z",
+    "af": false
+  },
+  {
+    "_id": "xmNz3hH5qxtAq4Nnr",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": "RzqspzrDmPuaxwbnM",
+    "topLevelCommentId": "RzqspzrDmPuaxwbnM",
+    "contents": {
+      "markdown": "oh thanks, fixed. I just internally substitute \"AI takeover\" anytime anyone says \"AI kills everyone\" because this comes up constantly, and I'd forgotten that I'd done so here :P",
+      "plaintextDescription": "oh thanks, fixed. I just internally substitute \"AI takeover\" anytime anyone says \"AI kills everyone\" because this comes up constantly, and I'd forgotten that I'd done so here :P"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-17T15:32:15.042Z",
+    "af": false
+  },
+  {
+    "_id": "D4BDCBnTn99neLDKG",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": "ZwzbpQRTqawXcNCqk",
+    "topLevelCommentId": "ZwzbpQRTqawXcNCqk",
+    "contents": {
+      "markdown": "I've seen physical copies around, but I actually haven't read it. It's possible that you're totally right, in which case I apologize and should have finished my review with \"I'm an idiot for not realizing it was worth my time to read Uncontrollable so that I could recommend it to people\".\n\nI would appreciate a digital copy and audio copy if you wanted to email them to me! I'm not sure I'll consume it because I don't know if it's that decision-relevant to me.",
+      "plaintextDescription": "I've seen physical copies around, but I actually haven't read it. It's possible that you're totally right, in which case I apologize and should have finished my review with \"I'm an idiot for not realizing it was worth my time to read Uncontrollable so that I could recommend it to people\".\n\nI would appreciate a digital copy and audio copy if you wanted to email them to me! I'm not sure I'll consume it because I don't know if it's that decision-relevant to me. "
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-17T15:22:07.020Z",
+    "af": false
+  },
+  {
+    "_id": "nqnY2TweTcGupk5dg",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "qivj58JyNygdvA8Jd",
+    "topLevelCommentId": "qivj58JyNygdvA8Jd",
+    "contents": {
+      "markdown": "I think it's often pretty subjective whether some piece of external stimulus is super-optimized manipulation that will take you further away from what you want to believe, or part of the natural and good process of cultural change and increased reflection.\n\nI agree with you that the distinction is clearer for the hyper-optimized persuasion.",
+      "plaintextDescription": "I think it's often pretty subjective whether some piece of external stimulus is super-optimized manipulation that will take you further away from what you want to believe, or part of the natural and good process of cultural change and increased reflection.\n\nI agree with you that the distinction is clearer for the hyper-optimized persuasion. "
+    },
+    "baseScore": 18,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-09-17T15:20:18.401Z",
+    "af": false
+  },
+  {
+    "_id": "acNPM8yrHf7Dz8Ddj",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Why did I like the book so much more than I expected? I think it's a mix of:\n\n*   I like the authors' writing on basic AI risk stuff but I don't like their writing on more in-the-weeds questions, and I run across their in-the-weeds writing much more in my day-to-day life, so it's surprisingly pleasant to read them writing intro materials.\n*   Their presentation of the arguments were cleaner here than I've previously seen.",
+      "plaintextDescription": "Why did I like the book so much more than I expected? I think it's a mix of:\n\n * I like the authors' writing on basic AI risk stuff but I don't like their writing on more in-the-weeds questions, and I run across their in-the-weeds writing much more in my day-to-day life, so it's surprisingly pleasant to read them writing intro materials.\n * Their presentation of the arguments were cleaner here than I've previously seen."
+    },
+    "baseScore": 39,
+    "voteCount": 23,
+    "createdAt": null,
+    "postedAt": "2025-09-17T05:04:27.774Z",
+    "af": false
+  },
+  {
+    "_id": "zbirvcMFMP3BgoQbo",
+    "postId": "w3KtPQDMF4GGR3YLp",
+    "parentCommentId": "rxm29JkdJYghz4WBt",
+    "topLevelCommentId": "rxm29JkdJYghz4WBt",
+    "contents": {
+      "markdown": "I am not aware of any critical people inside this community (e.g. people who would be similarly critical to me) getting copies in advance, except for people who write book reviews.",
+      "plaintextDescription": "I am not aware of any critical people inside this community (e.g. people who would be similarly critical to me) getting copies in advance, except for people who write book reviews."
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-16T03:51:44.321Z",
+    "af": false
+  },
+  {
+    "_id": "db5u3GbkAhMd5yCHN",
+    "postId": "PBd7xPAh22y66rbme",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Despite the shift, 80,000 Hours [continues](https://www.lesswrong.com/posts/8qCwuE8GjrYPSqbri/80-000-hours-should-remove-openai-from-the-job-board-and?commentId=F6vwk8TZzPmFvX2S7) to recommend talented engineers to join Anthropic.\n\n[FWIW, it looks to me like](https://jobs.80000hours.org/?refinementList%5Bcompany_data%5D%5B0%5D=Anthropic) they restrict their linked roles to things that are vaguely related to safety or alignment. (I think that the 80,000 Hours job board does include some roles that don't have a plausible mechanism for improving AI outcomes except via the route of making Anthropic more powerful, e.g. the alignment fine-tuning role.)",
+      "plaintextDescription": "> Despite the shift, 80,000 Hours continues to recommend talented engineers to join Anthropic.\n\n \n\nFWIW, it looks to me like they restrict their linked roles to things that are vaguely related to safety or alignment. (I think that the 80,000 Hours job board does include some roles that don't have a plausible mechanism for improving AI outcomes except via the route of making Anthropic more powerful, e.g. the alignment fine-tuning role.)"
+    },
+    "baseScore": 10,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-09-02T00:34:09.242Z",
+    "af": false
+  },
+  {
+    "_id": "9k4QYiaK95fujGTZM",
+    "postId": "auKWgpdiBwreB62Kh",
+    "parentCommentId": "FoRaNp5hoFMWAmaWg",
+    "topLevelCommentId": "FoRaNp5hoFMWAmaWg",
+    "contents": {
+      "markdown": "This can matter for deployment as well as research! Back in 2021, a friend of mine made this mistake while training a customer service model, leading to the model making an extremely inappropriate sexual comment while being demoed to a potential customer; he eventually figured out that a user had said that to the model at some point.\n\nThat said I'm not actually sure why in general it would be a mistake in practice to train on the combination. Often models improve their performance when you train them on side tasks that have some relevance to what they're supposed to be doing---that's the whole point of pretraining. How much are you saying that it's a mistake to do this for deployment, rather than problematic when you are trying to experiment on generalization?",
+      "plaintextDescription": "This can matter for deployment as well as research! Back in 2021, a friend of mine made this mistake while training a customer service model, leading to the model making an extremely inappropriate sexual comment while being demoed to a potential customer; he eventually figured out that a user had said that to the model at some point.\n\nThat said I'm not actually sure why in general it would be a mistake in practice to train on the combination. Often models improve their performance when you train them on side tasks that have some relevance to what they're supposed to be doing---that's the whole point of pretraining. How much are you saying that it's a mistake to do this for deployment, rather than problematic when you are trying to experiment on generalization?"
+    },
+    "baseScore": 11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-31T18:43:57.468Z",
+    "af": false
+  },
+  {
+    "_id": "ihgwfwxovoJ6gPwDd",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "8rsf286hAXFkZ9utt",
+    "topLevelCommentId": "FawiyPgm5GgLychNg",
+    "contents": {
+      "markdown": "Even though the basic ideas are kind of obvious, I think that us thinking them through and pushing on them has made a big difference in what companies are planning to do.",
+      "plaintextDescription": "Even though the basic ideas are kind of obvious, I think that us thinking them through and pushing on them has made a big difference in what companies are planning to do."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-29T16:27:45.373Z",
+    "af": false
+  },
+  {
+    "_id": "KESxuJ2tnQwgsyCei",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "AudP8djw4goyjzCie",
+    "topLevelCommentId": "AudP8djw4goyjzCie",
+    "contents": {
+      "markdown": "The bioanchors post was released in 2020. I really wish that you bothered to get basic facts right when being so derisive about people's work.\n\nI also think it's bad manners for you to criticize other people for making clear predictions given that you didn't make such predictions publicly yourself.",
+      "plaintextDescription": "The bioanchors post was released in 2020. I really wish that you bothered to get basic facts right when being so derisive about people's work.\n\nI also think it's bad manners for you to criticize other people for making clear predictions given that you didn't make such predictions publicly yourself."
+    },
+    "baseScore": 21,
+    "voteCount": 27,
+    "createdAt": null,
+    "postedAt": "2025-08-29T15:36:12.756Z",
+    "af": false
+  },
+  {
+    "_id": "SPLzC3Rjpp6cEZ58f",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "4Jxg7vn7wRxwr4cH4",
+    "topLevelCommentId": "AudP8djw4goyjzCie",
+    "contents": {
+      "markdown": "Notably, bioanchors doesn't say that we should be confident AI won't arrive before 2040! Here's Ajeya's distribution in the report (which was [finished in about July 2020](https://www.alignmentforum.org/posts/AfH2oPHCApdKicM4m/two-year-update-on-my-personal-ai-timelines)).\n\n![](https://epoch.ai/assets/images/unsorted/1fbd692d136208f4.png)",
+      "plaintextDescription": "Notably, bioanchors doesn't say that we should be confident AI won't arrive before 2040! Here's Ajeya's distribution in the report (which was finished in about July 2020)."
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-08-29T15:31:29.239Z",
+    "af": false
+  },
+  {
+    "_id": "wfNMofrg4f25zAAwg",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "AudP8djw4goyjzCie",
+    "topLevelCommentId": "AudP8djw4goyjzCie",
+    "contents": {
+      "markdown": "My core argument in this post isn't really relevant to anything that was happening in 2020, because people weren't really pushing on concrete changes to safety practices at AI companies yet.",
+      "plaintextDescription": "My core argument in this post isn't really relevant to anything that was happening in 2020, because people weren't really pushing on concrete changes to safety practices at AI companies yet."
+    },
+    "baseScore": 9,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-08-29T14:56:24.046Z",
+    "af": false
+  },
+  {
+    "_id": "s754HCFApLgoyj9nM",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "LfHcodvf2gnXw7Xfy",
+    "topLevelCommentId": "bRToWiJyoMgcpfvmw",
+    "contents": {
+      "markdown": "Ugh, I think you're totally right and I was being sloppy; I totally unreasonably interpreted Eliezer as saying that he was wrong about how long/how hard/how expensive it would be to get between capability levels. (But maybe Eliezer misinterpreted himself the same way? His subsequent tweets are consistent with this interpretation.)\n\nI totally agree with Eliezer's point in that post, though I do wish that he had been clearer about what exactly he was saying.",
+      "plaintextDescription": "Ugh, I think you're totally right and I was being sloppy; I totally unreasonably interpreted Eliezer as saying that he was wrong about how long/how hard/how expensive it would be to get between capability levels. (But maybe Eliezer misinterpreted himself the same way? His subsequent tweets are consistent with this interpretation.)\n\nI totally agree with Eliezer's point in that post, though I do wish that he had been clearer about what exactly he was saying."
+    },
+    "baseScore": 38,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-08-25T20:04:38.630Z",
+    "af": true
+  },
+  {
+    "_id": "LakoaWoucyB4LqA2G",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "LBYBPWDpxSCnpFxsg",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "Another important point here is if there was substantial economic incentive to build strong Go players, then powerful Go players would have built earlier, and the time between players of those two levels would probably have been more longer.",
+      "plaintextDescription": "Another important point here is if there was substantial economic incentive to build strong Go players, then powerful Go players would have built earlier, and the time between players of those two levels would probably have been more longer."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-24T16:53:11.744Z",
+    "af": false
+  },
+  {
+    "_id": "Cfn8fEaDxAa9qdMud",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "7AbhAsrmrEmwhfJFd",
+    "topLevelCommentId": "bRToWiJyoMgcpfvmw",
+    "contents": {
+      "markdown": "Thanks heaps for pulling this up! I totally agree with Eliezer's point there.",
+      "plaintextDescription": "Thanks heaps for pulling this up! I totally agree with Eliezer's point there."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-24T16:45:51.299Z",
+    "af": false
+  },
+  {
+    "_id": "NwCf3n9KYQNAGrd4E",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "eeZ2u9CavqkWpo5TK",
+    "topLevelCommentId": "bRToWiJyoMgcpfvmw",
+    "contents": {
+      "markdown": "It really depends what you mean by a small amount of time. On a cosmic scale, ten years is indeed short. But I definitely interpreted Eliezer back then (for example, while I worked at MIRI) as making a way stronger claim than this; that we'd e.g. within a few days/weeks/months go from AI that was almost totally incapable of intellectual work to AI that can overpower humanity. And I think you need to believe that much stronger claim in order for a lot of the predictions about the future that MIRI-sphere people were making back then to make sense. I wish we had all been clearer at the time about what specifically everyone was predicting.",
+      "plaintextDescription": "It really depends what you mean by a small amount of time. On a cosmic scale, ten years is indeed short. But I definitely interpreted Eliezer back then (for example, while I worked at MIRI) as making a way stronger claim than this; that we'd e.g. within a few days/weeks/months go from AI that was almost totally incapable of intellectual work to AI that can overpower humanity. And I think you need to believe that much stronger claim in order for a lot of the predictions about the future that MIRI-sphere people were making back then to make sense. I wish we had all been clearer at the time about what specifically everyone was predicting."
+    },
+    "baseScore": 34,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-08-24T16:34:09.757Z",
+    "af": false
+  },
+  {
+    "_id": "BqseQSS3NtnqW7NF7",
+    "postId": "iZPKuuWsDXAcQWbLJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Shorter common tokens are (correctly) learned to be higher-probability because they have the combined probability of any word they could complete.\n\nI don't think this is right. LLMs are trained with *teacher forcing on a fixed tokenization*. For common words the tokenizer provides a **single long token** (e.g., “ the”, “ and”, “ cat”). The model is trained to put probability on *that* token—not on a shorter prefix like “ c”. So a short token does **not** “inherit the combined probability of any word it could complete.” Those completions were usually seen as longer tokens during training.\n\nYou can check this by running inference on an LM; if you ask the model to complete \"hello\" it will put \" world\" above \" \" even though both are typically tokens.\n\nOn a quick skim, I think that the rest of your arguments are plausible.",
+      "plaintextDescription": "> Shorter common tokens are (correctly) learned to be higher-probability because they have the combined probability of any word they could complete.\n\nI don't think this is right. LLMs are trained with teacher forcing on a fixed tokenization. For common words the tokenizer provides a single long token (e.g., “ the”, “ and”, “ cat”). The model is trained to put probability on that token—not on a shorter prefix like “ c”. So a short token does not “inherit the combined probability of any word it could complete.” Those completions were usually seen as longer tokens during training.\n\nYou can check this by running inference on an LM; if you ask the model to complete \"hello\" it will put \" world\" above \" \" even though both are typically tokens.\n\nOn a quick skim, I think that the rest of your arguments are plausible."
+    },
+    "baseScore": 11,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-24T16:27:44.664Z",
+    "af": false
+  },
+  {
+    "_id": "bRToWiJyoMgcpfvmw",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[@Eliezer Yudkowsky](https://www.lesswrong.com/users/eliezer_yudkowsky?mention=user) tweets:\n\n> \\> @julianboolean_: the biggest lesson I've learned from the last few years is that the \"tiny gap between village idiot and Einstein\" chart was completely wrong\n> \n> I agree that I underestimated this distance, at least partially out of youthful idealism.\n> \n> That said, one of the few places where my peers managed to put forth a clear contrary bet was on this case.  And I did happen to win that bet.  This was less than 7% of the distance in AI's 75-year journey!  And arguably the village-idiot level was only reached as of 4o or o1.\n\nI was very interested to see this tweet. I have thought of that \"Village Idiot and Einstein\" claim as the most obvious example of a way that Eliezer and co were super wrong about how AI would go, and they've AFAIK totally failed to publicly reckon with it as it's become increasingly obvious that they were wrong over the last eight years.\n\nIt's helpful to see Eliezer clarify what he thinks of this point. I would love to see more from him on this--why he got this wrong, how updating changes his opinion about the rest of the problem, what he thinks now about time between different levels of intelligence.",
+      "plaintextDescription": "@Eliezer Yudkowsky tweets:\n\n> > @julianboolean_: the biggest lesson I've learned from the last few years is that the \"tiny gap between village idiot and Einstein\" chart was completely wrong\n> \n> I agree that I underestimated this distance, at least partially out of youthful idealism.\n> \n> That said, one of the few places where my peers managed to put forth a clear contrary bet was on this case.  And I did happen to win that bet.  This was less than 7% of the distance in AI's 75-year journey!  And arguably the village-idiot level was only reached as of 4o or o1.\n\nI was very interested to see this tweet. I have thought of that \"Village Idiot and Einstein\" claim as the most obvious example of a way that Eliezer and co were super wrong about how AI would go, and they've AFAIK totally failed to publicly reckon with it as it's become increasingly obvious that they were wrong over the last eight years.\n\nIt's helpful to see Eliezer clarify what he thinks of this point. I would love to see more from him on this--why he got this wrong, how updating changes his opinion about the rest of the problem, what he thinks now about time between different levels of intelligence."
+    },
+    "baseScore": 69,
+    "voteCount": 38,
+    "createdAt": null,
+    "postedAt": "2025-08-24T14:54:25.287Z",
+    "af": true
+  },
+  {
+    "_id": "9tJ42fqJuCRn7ETCS",
+    "postId": "4mBaixwf4k8jk7fG4",
+    "parentCommentId": "ydDeos6tHcpSSJvnA",
+    "topLevelCommentId": "dbJpeCAf2hz7kh7HE",
+    "contents": {
+      "markdown": "I think \"What's your P(AI takeover)\" is a totally reasonable question and don't understand Eliezer's problem with it (or his problem with asking about timelines). Especially given that he is actually very (and IMO overconfidently) opinionated on this topic! I think it would be crazy to never give bottom-line estimates for P(AI takeover) when talking about AI takeover risk.\n\n(I think talking about timelines is more important because it's more directly decision relevant (whereas P(AI takeover) is downstream of the decision-relevant variables).)\n\nIn practice the numbers I think are valuable to talk about are mostly P(some bad outcome|some setting of the latent facts about misalignment, and some setting of what risk mitigation strategy is employed). Like, I'm constantly thinking about whether to try to intervene on worlds that are more like Plan A worlds or more like Plan D worlds, and to do this you obviously need to think about the effect on P(AI takeover) of your actions in those worlds.",
+      "plaintextDescription": "I think \"What's your P(AI takeover)\" is a totally reasonable question and don't understand Eliezer's problem with it (or his problem with asking about timelines). Especially given that he is actually very (and IMO overconfidently) opinionated on this topic! I think it would be crazy to never give bottom-line estimates for P(AI takeover) when talking about AI takeover risk.\n\n(I think talking about timelines is more important because it's more directly decision relevant (whereas P(AI takeover) is downstream of the decision-relevant variables).)\n\nIn practice the numbers I think are valuable to talk about are mostly P(some bad outcome|some setting of the latent facts about misalignment, and some setting of what risk mitigation strategy is employed). Like, I'm constantly thinking about whether to try to intervene on worlds that are more like Plan A worlds or more like Plan D worlds, and to do this you obviously need to think about the effect on P(AI takeover) of your actions in those worlds."
+    },
+    "baseScore": 9,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-23T18:39:48.969Z",
+    "af": false
+  },
+  {
+    "_id": "7MBJnWBZQPzmiZrKZ",
+    "postId": "4mBaixwf4k8jk7fG4",
+    "parentCommentId": "dbJpeCAf2hz7kh7HE",
+    "topLevelCommentId": "dbJpeCAf2hz7kh7HE",
+    "contents": {
+      "markdown": "As another note: my biggest problem with talking about P(doom) is that it's ambiguous between various different events like AI takeover, human extinction, human extinction due to AI takeover, the loss of all value in the future, and it seems pretty important to separate these out because I think the numbers are pretty different.",
+      "plaintextDescription": "As another note: my biggest problem with talking about P(doom) is that it's ambiguous between various different events like AI takeover, human extinction, human extinction due to AI takeover, the loss of all value in the future, and it seems pretty important to separate these out because I think the numbers are pretty different."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-23T01:06:16.994Z",
+    "af": false
+  },
+  {
+    "_id": "X9RsEvanyEzcfwbeh",
+    "postId": "4mBaixwf4k8jk7fG4",
+    "parentCommentId": "sCkiry2TLLbjhHfhx",
+    "topLevelCommentId": "dbJpeCAf2hz7kh7HE",
+    "contents": {
+      "markdown": "I just have no idea what Eliezer's question even means. What do you think it means?",
+      "plaintextDescription": "I just have no idea what Eliezer's question even means. What do you think it means?"
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-23T01:03:17.466Z",
+    "af": false
+  },
+  {
+    "_id": "EDdNAhpEjJ5EfXmZr",
+    "postId": "4mBaixwf4k8jk7fG4",
+    "parentCommentId": "dbJpeCAf2hz7kh7HE",
+    "topLevelCommentId": "dbJpeCAf2hz7kh7HE",
+    "contents": {
+      "markdown": "I think that if you want to work on AI takeover prevention, you should probably have some models of the situation that give you a rough prediction for P(AI takeover). For example, I'm constantly thinking in terms of the risks conditional on scheming arising, scheming not arising, a leading AI company being responsible and having three years of lead, etc.",
+      "plaintextDescription": "I think that if you want to work on AI takeover prevention, you should probably have some models of the situation that give you a rough prediction for P(AI takeover). For example, I'm constantly thinking in terms of the risks conditional on scheming arising, scheming not arising, a leading AI company being responsible and having three years of lead, etc. "
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-23T00:57:27.380Z",
+    "af": false
+  },
+  {
+    "_id": "xjkvJvF3pcnwwFbvB",
+    "postId": "4mBaixwf4k8jk7fG4",
+    "parentCommentId": "dbJpeCAf2hz7kh7HE",
+    "topLevelCommentId": "dbJpeCAf2hz7kh7HE",
+    "contents": {
+      "markdown": "> **\"p(Doom) if we build superintelligence soon under present conditions using present techniques\"**\n\nThis has the issue that superintelligence won't be developed using present techniques, and a lot of the question is about whether it'll be okay to develop superintelligence using the different techniques that will be used at the time, and so this number will potentially drastically overestimate the risk.\n\nI of course have no problem with asking people questions about situations where the risk is higher or lower than you believe actual risk to be. But I think that focusing on this question will lead to repeated frustrating interactions where one person quotes the answer to the stated question, and then someone else conflates that with their answer to what will happen if we continue on the current trajectory, which for some people is extremely different and for some people isn't.",
+      "plaintextDescription": "> \"p(Doom) if we build superintelligence soon under present conditions using present techniques\"\n\nThis has the issue that superintelligence won't be developed using present techniques, and a lot of the question is about whether it'll be okay to develop superintelligence using the different techniques that will be used at the time, and so this number will potentially drastically overestimate the risk.\n\nI of course have no problem with asking people questions about situations where the risk is higher or lower than you believe actual risk to be. But I think that focusing on this question will lead to repeated frustrating interactions where one person quotes the answer to the stated question, and then someone else conflates that with their answer to what will happen if we continue on the current trajectory, which for some people is extremely different and for some people isn't."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-23T00:54:56.060Z",
+    "af": false
+  },
+  {
+    "_id": "dbJpeCAf2hz7kh7HE",
+    "postId": "4mBaixwf4k8jk7fG4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Re \"What is the minimum necessary and sufficient policy that you think would prevent extinction?\"\n\nThis is phrased in a way that implies preventing extinction is a binary, when in reality for any given policy there is some probability of extinction. I actually don't know what Eliezer means here, is he asking for a policy that leads to 50%, 10%, 1%, or [0%](https://www.lesswrong.com/posts/QGkYCwyC7wTDyt3yT/0-and-1-are-not-probabilities) P(extinction)?\n\n(I think that it's common for AI safety people to talk too much about totally quashing risks rather than reducing them, in a way that leads them into unproductive lines of reasoning.)",
+      "plaintextDescription": "Re \"What is the minimum necessary and sufficient policy that you think would prevent extinction?\"\n\nThis is phrased in a way that implies preventing extinction is a binary, when in reality for any given policy there is some probability of extinction. I actually don't know what Eliezer means here, is he asking for a policy that leads to 50%, 10%, 1%, or 0% P(extinction)?\n\n(I think that it's common for AI safety people to talk too much about totally quashing risks rather than reducing them, in a way that leads them into unproductive lines of reasoning.)"
+    },
+    "baseScore": 29,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2025-08-23T00:51:11.329Z",
+    "af": false
+  },
+  {
+    "_id": "tGnvvgqbgZwdQqwCC",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "DQ7jS7i458Drrx7Fk",
+    "topLevelCommentId": "xrK2h2HaP3cYBStEA",
+    "contents": {
+      "markdown": "Yes, I'd appreciate that. DM me on slack?",
+      "plaintextDescription": "Yes, I'd appreciate that. DM me on slack?"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-22T23:54:11.405Z",
+    "af": false
+  },
+  {
+    "_id": "CgjqkqkvvJfCcSR3B",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "xrK2h2HaP3cYBStEA",
+    "topLevelCommentId": "xrK2h2HaP3cYBStEA",
+    "contents": {
+      "markdown": "Indeed it was quickly written, I think it was like 20 mins of writing and 30 mins of editing/responding to comments. Based on feedback, I think it was probably a mistake to not put more time into it and post a better version.",
+      "plaintextDescription": "Indeed it was quickly written, I think it was like 20 mins of writing and 30 mins of editing/responding to comments. Based on feedback, I think it was probably a mistake to not put more time into it and post a better version."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-22T23:50:42.418Z",
+    "af": false
+  },
+  {
+    "_id": "mmaTd5dAEGhrSySDz",
+    "postId": "prHnjtXAKrPPZt8eB",
+    "parentCommentId": "cGbgzL8gXRpYcGGdF",
+    "topLevelCommentId": "cGbgzL8gXRpYcGGdF",
+    "contents": {
+      "markdown": "It's often very hard to make commitments like this, so I think that most of the relevant literature might be about how you can't do this. E.g. a [Thucydides trap](https://en.wikipedia.org/wiki/Thucydides_Trap) is when a stronger power launches a preventative war against a weaker rising power; one particular reason for this is that the weaker power can't commit to not abuse their power in the future. See also [security dilemma](https://en.wikipedia.org/wiki/Security_dilemma).",
+      "plaintextDescription": "It's often very hard to make commitments like this, so I think that most of the relevant literature might be about how you can't do this. E.g. a Thucydides trap is when a stronger power launches a preventative war against a weaker rising power; one particular reason for this is that the weaker power can't commit to not abuse their power in the future. See also security dilemma."
+    },
+    "baseScore": 10,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-22T22:08:34.965Z",
+    "af": false
+  },
+  {
+    "_id": "qHGHzMFgLeQMxxTx6",
+    "postId": "T54YXFjFeGuE6sbst",
+    "parentCommentId": "aqPT5GsWXxKc4LynL",
+    "topLevelCommentId": "RdJBvbAnnkuAr37Kr",
+    "contents": {
+      "markdown": "My default drive-by recommendation is that you try to get involved in research related to these issues. You could try to get advice from [Chi Nguyen](https://forum.effectivealtruism.org/users/chi), who works on s-risk and is friendly and thoughtful; you can contact her [here](https://www.admonymous.co/chi).",
+      "plaintextDescription": "My default drive-by recommendation is that you try to get involved in research related to these issues. You could try to get advice from Chi Nguyen, who works on s-risk and is friendly and thoughtful; you can contact her here."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-22T16:05:44.129Z",
+    "af": false
+  },
+  {
+    "_id": "eRhhebZBEiYdfkoE6",
+    "postId": "T54YXFjFeGuE6sbst",
+    "parentCommentId": "RdJBvbAnnkuAr37Kr",
+    "topLevelCommentId": "RdJBvbAnnkuAr37Kr",
+    "contents": {
+      "markdown": "What are your skill sets?\n\nForethought has done work recently related to preventing S-risk arising from AI.\n\nI'm pretty in favor of trying to tackle the most important cause area.",
+      "plaintextDescription": "What are your skill sets?\n\nForethought has done work recently related to preventing S-risk arising from AI.\n\nI'm pretty in favor of trying to tackle the most important cause area. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-22T00:34:35.815Z",
+    "af": false
+  },
+  {
+    "_id": "vbhew8KoCsA5SauKa",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "BKk2YvXc96y3ZCtcv",
+    "topLevelCommentId": "BKk2YvXc96y3ZCtcv",
+    "contents": {
+      "markdown": "I agree this is a real thing.\n\nNote that this is more important for group epistemics than individual epistemics.\n\nAlso, one reason the constraint isn't that bad for me is that I can and do say spicy stuff privately, including in pretty large private groups. (And you can get away with fairly spicy stuff stated publicly.)",
+      "plaintextDescription": "I agree this is a real thing.\n\nNote that this is more important for group epistemics than individual epistemics.\n\nAlso, one reason the constraint isn't that bad for me is that I can and do say spicy stuff privately, including in pretty large private groups. (And you can get away with fairly spicy stuff stated publicly.)"
+    },
+    "baseScore": 14,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-08-21T16:45:41.296Z",
+    "af": false
+  },
+  {
+    "_id": "vLHBD7yWxvWQQpdwT",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "ojrwihaizfsknZHLp",
+    "topLevelCommentId": "9yr7HwYzeeW8Nqq2N",
+    "contents": {
+      "markdown": "Edited, is it clearer now?",
+      "plaintextDescription": "Edited, is it clearer now?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-21T06:09:12.553Z",
+    "af": false
+  },
+  {
+    "_id": "QDrRvowcdaKzZDBgt",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "EtQyzKcKDfyizX6zq",
+    "topLevelCommentId": "9yr7HwYzeeW8Nqq2N",
+    "contents": {
+      "markdown": "Obviously (and as you note), this argument doesn't suggest that humans would all die, it suggests that a bunch of them would die. (An AI estimated that monkey populations are down 90% due to humans.)\n\nAnd if we want to know how many exactly would die, we'd have to get into the details, as has been done for example in the comments linked from [here](https://www.alignmentforum.org/posts/rP66bz34crvDudzcJ/decision-theory-does-not-imply-that-we-get-to-have-nice?commentId=J8wTkp8CxoXsQNCfe).\n\nSo I think that this analogy is importantly not addressing the question you were responding to.",
+      "plaintextDescription": "Obviously (and as you note), this argument doesn't suggest that humans would all die, it suggests that a bunch of them would die. (An AI estimated that monkey populations are down 90% due to humans.)\n\nAnd if we want to know how many exactly would die, we'd have to get into the details, as has been done for example in the comments linked from here.\n\nSo I think that this analogy is importantly not addressing the question you were responding to."
+    },
+    "baseScore": 2,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-20T20:11:04.478Z",
+    "af": false
+  },
+  {
+    "_id": "gWbYihCZfYuKhxojQ",
+    "postId": "9MaTnw5sWeQrggYBG",
+    "parentCommentId": "FawiyPgm5GgLychNg",
+    "topLevelCommentId": "FawiyPgm5GgLychNg",
+    "contents": {
+      "markdown": "Mostly AI companies researching AI control and planning to some extent to adopt it (e.g. see the GDM [safety plan](https://deepmind.google/discover/blog/taking-a-responsible-path-to-agi/)).",
+      "plaintextDescription": "Mostly AI companies researching AI control and planning to some extent to adopt it (e.g. see the GDM safety plan)."
+    },
+    "baseScore": 26,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-08-20T19:07:25.528Z",
+    "af": false
+  },
+  {
+    "_id": "mfF85QM7A9kGBXGW3",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "uQArpNGNaGhrnJfLo",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "The AIs might agree on all predictions about things that will be checkable within three months, but disagree about the consequences of actions in five years.",
+      "plaintextDescription": "The AIs might agree on all predictions about things that will be checkable within three months, but disagree about the consequences of actions in five years."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-16T20:08:48.219Z",
+    "af": false
+  },
+  {
+    "_id": "NfsqoSsWLro9HdFox",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "xfaJPW674EwA9qLnK",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "I'm not trying to talk about what will happen in the future, I'm trying to talk about what would happen *if everything happened gradually, like in your dragon story*!\n\nYou argued that we'd have huge problems even if things progress arbitrarily gradually, because there's a crucial phase change between the problems that occur when the AIs can't take over and the problems that occur when they can. To assess that, we need to talk about what would happen if things did progress gradually. So it's relevant whether wacky phenomena would've been observed on weaker models if we'd looked harder; IIUC your thesis is that there are crucial phenomena that *wouldn't* have been observed on weaker models.\n\nIn general, my interlocutors here seem to constantly vacillate between \"X is true\" and \"Even if AI capabilities increased gradually, X would be true\". I have mostly been trying to talk about the latter in all the comments under the dragon metaphor.",
+      "plaintextDescription": "I'm not trying to talk about what will happen in the future, I'm trying to talk about what would happen if everything happened gradually, like in your dragon story!\n\nYou argued that we'd have huge problems even if things progress arbitrarily gradually, because there's a crucial phase change between the problems that occur when the AIs can't take over and the problems that occur when they can. To assess that, we need to talk about what would happen if things did progress gradually. So it's relevant whether wacky phenomena would've been observed on weaker models if we'd looked harder; IIUC your thesis is that there are crucial phenomena that wouldn't have been observed on weaker models.\n\nIn general, my interlocutors here seem to constantly vacillate between \"X is true\" and \"Even if AI capabilities increased gradually, X would be true\". I have mostly been trying to talk about the latter in all the comments under the dragon metaphor."
+    },
+    "baseScore": 24,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-08-16T05:35:48.596Z",
+    "af": false
+  },
+  {
+    "_id": "PyYBRPgAWW4vmEFBF",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "MAy6smXuqevSRSki6",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "No, I definitely don't expect any of this to happen comfortably or for only one thing to be breaking at once.",
+      "plaintextDescription": "No, I definitely don't expect any of this to happen comfortably or for only one thing to be breaking at once."
+    },
+    "baseScore": 10,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-16T05:29:01.291Z",
+    "af": false
+  },
+  {
+    "_id": "KX4nBo48nosj7Hj6B",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "GBwtskBLKPjaaWJgP",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "> But then I'd say there is a different important distribution shift, namely, the shift from AIs which are way lower capability, to the AIs which are high capability.\n\nAs with Eliezer, I think it's important to clarify which capability you're talking about; I think Eliezer's argument totally conflates different capabilities.",
+      "plaintextDescription": "> But then I'd say there is a different important distribution shift, namely, the shift from AIs which are way lower capability, to the AIs which are high capability.\n\nAs with Eliezer, I think it's important to clarify which capability you're talking about; I think Eliezer's argument totally conflates different capabilities."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-15T23:38:20.833Z",
+    "af": false
+  },
+  {
+    "_id": "vWHMT66mceFjLLBb8",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "GBwtskBLKPjaaWJgP",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "> \"Ah, but we can construct extremely accurate honeypots / testing environments that simulate a real-world opportunity to take over, and then see what the ASI does.\" Valid, but not sound, because we probably can't actually do that.\n\nI also think it's important that you can do this with AIs weaker than the ASI, and iterate on alignment in that context.",
+      "plaintextDescription": "> \"Ah, but we can construct extremely accurate honeypots / testing environments that simulate a real-world opportunity to take over, and then see what the ASI does.\" Valid, but not sound, because we probably can't actually do that.\n\nI also think it's important that you can do this with AIs weaker than the ASI, and iterate on alignment in that context."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-15T23:37:15.001Z",
+    "af": false
+  },
+  {
+    "_id": "yKtMJKwmuJi5L4snn",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "iKdhZoi4t9MFqSqsD",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "A more important argument is the one I give briefly [here](https://www.lesswrong.com/posts/kgb58RL88YChkkBNf/the-problem?commentId=KRTqkWnLhPuSwXAsT).",
+      "plaintextDescription": "A more important argument is the one I give briefly here."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-15T21:10:55.639Z",
+    "af": false
+  },
+  {
+    "_id": "QqkjjQrh3yPamGqCK",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "JNghTZpcQcG6fQr6D",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "> indefinite pause is basically necessary, or, humanity has clearly fucked up if we don't do it\n\nI think it's really important to not equivocate between \"necessary\" and \"humanity has clearly fucked up if we don't do it.\"\n\n\"Necessary\" means \"we need this in order to succeed; there's no chance of success without this\". Because humanity is going to massively underestimate the risk of AI takeover, there is going to be lots of stuff that doesn't happen that would have passed cost-benefit analysis for humanity.\n\nIf you think it's 15% likely that we need really large amounts of serial time to prevent AI takeover, then it's very easy to imagine situations where the best strategy on the margin is to work on the other 85% of worlds. I have no idea why you're describing this as \"basically necessary\".",
+      "plaintextDescription": "> indefinite pause is basically necessary, or, humanity has clearly fucked up if we don't do it\n\nI think it's really important to not equivocate between \"necessary\" and \"humanity has clearly fucked up if we don't do it.\"\n\n\"Necessary\" means \"we need this in order to succeed; there's no chance of success without this\". Because humanity is going to massively underestimate the risk of AI takeover, there is going to be lots of stuff that doesn't happen that would have passed cost-benefit analysis for humanity.\n\nIf you think it's 15% likely that we need really large amounts of serial time to prevent AI takeover, then it's very easy to imagine situations where the best strategy on the margin is to work on the other 85% of worlds. I have no idea why you're describing this as \"basically necessary\"."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-15T21:08:26.196Z",
+    "af": false
+  },
+  {
+    "_id": "KRTqkWnLhPuSwXAsT",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "RqrKG3x6q3Wqz5TED",
+    "topLevelCommentId": "jTh5oyAACvwK5fTrb",
+    "contents": {
+      "markdown": "I'm sure people have said all kinds of dumb things to you on this topic. I'm definitely not trying to defend the position of your dumbest interlocutor.\n\n> You are now arguing that *we will be able to cross this leap of generalization successfully*.\n\nThat's not really my core point.\n\nMy core point is that \"you need safety mechanisms to work in situations where X is true, but you can only test them in situations where X is false\" isn't on its own a strong argument; you need to talk about features of X in particular.\n\nI think you are trying to set X to \"The AIs are capable of taking over.\"\n\nThere's a version of this that I totally agree with. For example, if you are giving your AIs increasingly much power over time, I think it is foolish to assume that just because they haven't acted against you while they don't have the affordances required to grab power, they won't act against you when they do have those affordances.\n\nThe main reason why that scenario is scary is that the AIs might be acting adversarially against you, such that whether you observe a problem is extremely closely related to whether they will succeed at a takeover. \n\nIf the AIs aren't acting adversarially towards you, I think there is much less of a reason to particularly think that things will go wrong at that point. \n\nSo the situation is much better if we can be confident that the AIs are not acting adversarially towards us at that point. This is what I would like to achieve.\n\nSo I'd say the proposal is more like \"cause that leap of generalization to not be a particularly scary one\" than \"make that leap of generalization in the scary way\". \n\nRe your last paragraph: I don't really see why you think two dozen things would change between these regimes. Machine learning doesn't normally have lots of massive discontinuities of the type you're describing.",
+      "plaintextDescription": "I'm sure people have said all kinds of dumb things to you on this topic. I'm definitely not trying to defend the position of your dumbest interlocutor.\n\n> You are now arguing that we will be able to cross this leap of generalization successfully.\n\nThat's not really my core point.\n\nMy core point is that \"you need safety mechanisms to work in situations where X is true, but you can only test them in situations where X is false\" isn't on its own a strong argument; you need to talk about features of X in particular.\n\nI think you are trying to set X to \"The AIs are capable of taking over.\"\n\nThere's a version of this that I totally agree with. For example, if you are giving your AIs increasingly much power over time, I think it is foolish to assume that just because they haven't acted against you while they don't have the affordances required to grab power, they won't act against you when they do have those affordances.\n\nThe main reason why that scenario is scary is that the AIs might be acting adversarially against you, such that whether you observe a problem is extremely closely related to whether they will succeed at a takeover. \n\nIf the AIs aren't acting adversarially towards you, I think there is much less of a reason to particularly think that things will go wrong at that point. \n\nSo the situation is much better if we can be confident that the AIs are not acting adversarially towards us at that point. This is what I would like to achieve.\n\nSo I'd say the proposal is more like \"cause that leap of generalization to not be a particularly scary one\" than \"make that leap of generalization in the scary way\". \n\nRe your last paragraph: I don't really see why you think two dozen things would change between these regimes. Machine learning doesn't normally have lots of massive discontinuities of the type you're describing."
+    },
+    "baseScore": 30,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-08-15T19:31:56.389Z",
+    "af": false
+  }
+]

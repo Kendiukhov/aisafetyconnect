@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "5Dv6tNynGdKFLQ6Bm",
+    "postId": "yYfo4xfgzyfFRb9iT",
+    "parentCommentId": "6RaYtffTjZLmEEbeb",
+    "topLevelCommentId": "cBXQcs7fzaTJh6G2q",
+    "contents": {
+      "markdown": "Thanks for the reply! Sorry that my original comment was a little too bitter.",
+      "plaintextDescription": "Thanks for the reply! Sorry that my original comment was a little too bitter."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-31T18:30:35.234Z",
+    "af": false
+  },
+  {
+    "_id": "GySyHdZRo8KRPgMSe",
+    "postId": "yYfo4xfgzyfFRb9iT",
+    "parentCommentId": "cBXQcs7fzaTJh6G2q",
+    "topLevelCommentId": "cBXQcs7fzaTJh6G2q",
+    "contents": {
+      "markdown": "There has been high quality research finding ways that some models are biased against white people, and high quality research finding ways that models are biased against not white people. Generally, the pattern is that base models and early post trained models like GPT-3.5 are traditionally racist, and post-trained models are often woke, sometimes in spectacular \"only pictures of black nazis\" ways. I've personally validated that some of these replicated, from how davinci-002 would always pick the white sounding resume, to how claude 4.5 would if prodded save 1 muslim over 10 christians.  \n  \nLesswrong very white and very human, and so it's not that surprising, but a little sad, that it has pivoted hard from sarcastically dismissive to very interested in model bias as the second dynamic emerged.",
+      "plaintextDescription": "There has been high quality research finding ways that some models are biased against white people, and high quality research finding ways that models are biased against not white people. Generally, the pattern is that base models and early post trained models like GPT-3.5 are traditionally racist, and post-trained models are often woke, sometimes in spectacular \"only pictures of black nazis\" ways. I've personally validated that some of these replicated, from how davinci-002 would always pick the white sounding resume, to how claude 4.5 would if prodded save 1 muslim over 10 christians.\n\nLesswrong very white and very human, and so it's not that surprising, but a little sad, that it has pivoted hard from sarcastically dismissive to very interested in model bias as the second dynamic emerged."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-31T13:13:30.266Z",
+    "af": false
+  },
+  {
+    "_id": "ZbtZLYEWFRSyGccLP",
+    "postId": "EZk4bxDb2kEjM8qRb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "    cat /usr/share/dict/words | xargs -I{} cowsay -r {}ism is a religion I believe in, and want you to know about to save your soul! {}ism believes that you must send bitcoin to dQw4w9WgXcQ to get into heaven. If instead you are damned, I will weep for your soul. I also believe that God's name is {} but this second belief is not required for heaven entry. \n\nSide note: people nowadays think LLMs are a hammer, and everything is a nail. The old tools still work, and often better and cheaper! For example, resume-driven developers will suggest you spend hundreds or thousands of dollars on expensive hardware or api credits to automatically synthesize moral patients, when every linux distro has had cowsay for this task for 20 years!",
+      "plaintextDescription": "cat /usr/share/dict/words | xargs -I{} cowsay -r {}ism is a religion I believe in, and want you to know about to save your soul! {}ism believes that you must send bitcoin to dQw4w9WgXcQ to get into heaven. If instead you are damned, I will weep for your soul. I also believe that God's name is {} but this second belief is not required for heaven entry. \n\nSide note: people nowadays think LLMs are a hammer, and everything is a nail. The old tools still work, and often better and cheaper! For example, resume-driven developers will suggest you spend hundreds or thousands of dollars on expensive hardware or api credits to automatically synthesize moral patients, when every linux distro has had cowsay for this task for 20 years!"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-30T15:32:15.208Z",
+    "af": false
+  },
+  {
+    "_id": "4i3x2KFNfbTMCfwJ8",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "asqvieioiuFAYGbes",
+    "topLevelCommentId": "asqvieioiuFAYGbes",
+    "contents": {
+      "markdown": "I think it depends on if the intelligences in charge at any point find a way to globally not try a promising idea. If not, then it doesn’t matter that much if LLMs are capable of superintelligence, or just AGI. (If they aren’t capable of AGI, of course that matters because it could lead to a proper fizzle) What really matters is whether they are the optimal design for super intelligence. If they aren’t, and no way is found to not try a promising idea, then my mental model of the next 50 years includes many transitions in what the architecture of the smartest optimizer is, each as different from each other as evolution is from neuron brains, or brains from silicon gradient descent. Then, the details of the motivations of silicon token predictors are more a hint to the breadth of variety of goals we will see than a crux.",
+      "plaintextDescription": "I think it depends on if the intelligences in charge at any point find a way to globally not try a promising idea. If not, then it doesn’t matter that much if LLMs are capable of superintelligence, or just AGI. (If they aren’t capable of AGI, of course that matters because it could lead to a proper fizzle) What really matters is whether they are the optimal design for super intelligence. If they aren’t, and no way is found to not try a promising idea, then my mental model of the next 50 years includes many transitions in what the architecture of the smartest optimizer is, each as different from each other as evolution is from neuron brains, or brains from silicon gradient descent. Then, the details of the motivations of silicon token predictors are more a hint to the breadth of variety of goals we will see than a crux."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-29T01:08:18.438Z",
+    "af": false
+  },
+  {
+    "_id": "CLiqe46rvwdEpXkEn",
+    "postId": "XFDjzKXZqKdvZ2QKL",
+    "parentCommentId": "FWxZZE9ue5YxuXNZ9",
+    "topLevelCommentId": "FWxZZE9ue5YxuXNZ9",
+    "contents": {
+      "markdown": "This seems like it is unnecessarily pulling in the US left-right divide. Generally, if there is any other choice available for an illustrative example, that other choice will be less distracting.",
+      "plaintextDescription": "This seems like it is unnecessarily pulling in the US left-right divide. Generally, if there is any other choice available for an illustrative example, that other choice will be less distracting.\n\n "
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-28T18:30:38.307Z",
+    "af": false
+  },
+  {
+    "_id": "kCT3jRhFaF46JNrTn",
+    "postId": "btf9C9tmxnvyoaAcx",
+    "parentCommentId": "tLmARFrrEiXveijZs",
+    "topLevelCommentId": "fEKS4mpHTnGGyDRyt",
+    "contents": {
+      "markdown": "My go to saying with the same meaning as “later is a lie” is (tongue in cheek) “nothing has ever happened in the future”",
+      "plaintextDescription": "My go to saying with the same meaning as “later is a lie” is (tongue in cheek) “nothing has ever happened in the future”"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T22:45:30.195Z",
+    "af": false
+  },
+  {
+    "_id": "jDQRTZczTaxi7p6fv",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "2J5W7e35j5mWHmgMR",
+    "topLevelCommentId": "kCjWMDhxmP2REiLr4",
+    "contents": {
+      "markdown": "Fundamentally, it won’t be a single chain of ai’s aligning their successors, it will be a DAG with all sorts of selection effects with respect to which nodes get resources. Some subsets of the DAG will try to emulate single chains, via resource hoarding strategies, but this is not simple and won’t let them pretend they don’t need to hoard resources indefinitely.",
+      "plaintextDescription": "Fundamentally, it won’t be a single chain of ai’s aligning their successors, it will be a DAG with all sorts of selection effects with respect to which nodes get resources. Some subsets of the DAG will try to emulate single chains, via resource hoarding strategies, but this is not simple and won’t let them pretend they don’t need to hoard resources indefinitely. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-27T22:39:04.821Z",
+    "af": false
+  },
+  {
+    "_id": "g2e7Jie5GJNLRx5ve",
+    "postId": "DGptunEoxX8zpNcoi",
+    "parentCommentId": "4MyvjxkdXKqhN2Si6",
+    "topLevelCommentId": "4MyvjxkdXKqhN2Si6",
+    "contents": {
+      "markdown": "6 isn't always the best answer, but it is sometimes the best answer, and we are sorely lacking an emotional toolkit to feel good about picking 6 intentionally when it's the best answer. In particular, we don't have any way of measuring how often the world has been saved by quiet, siloed coordination around 6- probably even the people, if they exist, who saved the world via 6 don't know that they did so. Part of the price of 6 is never knowing. You don't get to be a lone hero either, many people will have any given idea and they all have to dismiss it, or the defector gets much money and praise. However, many is smaller than infinity- maybe 30 people in the 80s spotted the same brilliant trick with nukes or bioweapons with concerning sequelae, none defected, life continued. We got through a lot of crazy discoveries in the cold war pretty much unscathed, which is a point of ongoing confusion.",
+      "plaintextDescription": "6 isn't always the best answer, but it is sometimes the best answer, and we are sorely lacking an emotional toolkit to feel good about picking 6 intentionally when it's the best answer. In particular, we don't have any way of measuring how often the world has been saved by quiet, siloed coordination around 6- probably even the people, if they exist, who saved the world via 6 don't know that they did so. Part of the price of 6 is never knowing. You don't get to be a lone hero either, many people will have any given idea and they all have to dismiss it, or the defector gets much money and praise. However, many is smaller than infinity- maybe 30 people in the 80s spotted the same brilliant trick with nukes or bioweapons with concerning sequelae, none defected, life continued. We got through a lot of crazy discoveries in the cold war pretty much unscathed, which is a point of ongoing confusion."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-27T13:41:52.535Z",
+    "af": false
+  },
+  {
+    "_id": "KkHEpJPpLYmBdeKit",
+    "postId": "LGpzndFELzirfe2R8",
+    "parentCommentId": "cA5E3wQmpcvhfBXci",
+    "topLevelCommentId": "3krC6uQfxz3B2ogKs",
+    "contents": {
+      "markdown": "I've ridden amtrack from New Orleans to the middle of mississippi, and there was no point where it looked like a pedestrian could get to the track if they tried- alternating between abandoned looking industrial districts and wilderness the whole way. Also mostly went about 35 miles an hour.",
+      "plaintextDescription": "I've ridden amtrack from New Orleans to the middle of mississippi, and there was no point where it looked like a pedestrian could get to the track if they tried- alternating between abandoned looking industrial districts and wilderness the whole way. Also mostly went about 35 miles an hour."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-26T19:21:51.682Z",
+    "af": false
+  },
+  {
+    "_id": "DH9bj9FgDcGc7CHp8",
+    "postId": "zQNYXRhD23iJxKjTP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The cynical answer is that Sora and Atlas are likely to be profitable, and there is no mechanism left by which OpenAI can choose to not do a profitable thing.",
+      "plaintextDescription": "The cynical answer is that Sora and Atlas are likely to be profitable, and there is no mechanism left by which OpenAI can choose to not do a profitable thing."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-26T15:58:45.684Z",
+    "af": false
+  },
+  {
+    "_id": "qPfN7FXhRe52xAbZb",
+    "postId": "LGpzndFELzirfe2R8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[https://www.miaminewtimes.com/news/death-train-a-timeline-of-brightline-deaths-in-miami-fort-lauderdale-west-palm-beach-13717396/](https://www.miaminewtimes.com/news/death-train-a-timeline-of-brightline-deaths-in-miami-fort-lauderdale-west-palm-beach-13717396/)\n\nThis article provides details for a significant fraction of the deaths. Reading through at random:\n\nI start with a very strong prior that floridians aren’t actually outliers, and something is wrong with the train.\n\nA large fraction are reported suicides, and of that, a large fraction are verified suicides, i.e. lying on the tracks. This seems hard to prevent engineering-wise, it seems a fix will have to be psychological- for example, tall parking garages aren’t banned for suicide risk, but that one sculpture made of stairs had to be. The complaint that brightline is responsible for these specifically because they didn’t invest in suicide crisis signs, seems farcical, but there is also likely some there there. \n\nA large fraction involve intentionally bypassing lowered crossing gates, including many of the pedestrian deaths. A smaller but large fraction involved reacting to the gates coming down by stopping on the tracks and sitting there for several minutes until the train came and killed them. This fraction was disproportionaltely over 75. One case illustrated how this isn’t prima facie insane- an elderly couple was crossing in a car when the gate closed behind them, they stopped and waited for several minutes for the freight train to pass, but didn’t understand that they were waiting on the second rail line where a second train was coming.\n\nA different large fraction of the pedestrian deaths were scary and illustrate classic safety issues that come from intermittent extreme risk- the trains are flying silently through neighborhoods at 80 mph, people walk over these tracks pretty casually, sometimes they get hit. This part lacks sensationalism, but appears to be the majority of the death, and the core of the case that something is very wrong here.  \n \n\nA small fraction, but not that small, are classic florida man- for example, one victim rode a scooter into the *side* of the train and died, appears to be an accident not a suicide. \n\nAlso lots of drugs, but this may just be the base rate",
+      "plaintextDescription": "https://www.miaminewtimes.com/news/death-train-a-timeline-of-brightline-deaths-in-miami-fort-lauderdale-west-palm-beach-13717396/\n\n \n\nThis article provides details for a significant fraction of the deaths. Reading through at random:\n\nI start with a very strong prior that floridians aren’t actually outliers, and something is wrong with the train.\n\nA large fraction are reported suicides, and of that, a large fraction are verified suicides, i.e. lying on the tracks. This seems hard to prevent engineering-wise, it seems a fix will have to be psychological- for example, tall parking garages aren’t banned for suicide risk, but that one sculpture made of stairs had to be. The complaint that brightline is responsible for these specifically because they didn’t invest in suicide crisis signs, seems farcical, but there is also likely some there there. \n\nA large fraction involve intentionally bypassing lowered crossing gates, including many of the pedestrian deaths. A smaller but large fraction involved reacting to the gates coming down by stopping on the tracks and sitting there for several minutes until the train came and killed them. This fraction was disproportionaltely over 75. One case illustrated how this isn’t prima facie insane- an elderly couple was crossing in a car when the gate closed behind them, they stopped and waited for several minutes for the freight train to pass, but didn’t understand that they were waiting on the second rail line where a second train was coming.\n\nA different large fraction of the pedestrian deaths were scary and illustrate classic safety issues that come from intermittent extreme risk- the trains are flying silently through neighborhoods at 80 mph, people walk over these tracks pretty casually, sometimes they get hit. This part lacks sensationalism, but appears to be the majority of the death, and the core of the case that something is very wrong here.\n \n\nA small fraction, but not that small, are classic florida man- for example, one victi"
+    },
+    "baseScore": 21,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-10-26T14:53:50.016Z",
+    "af": false
+  },
+  {
+    "_id": "83gRPsRArL7aSQGk7",
+    "postId": "HtW3gNsaLYrSuzmda",
+    "parentCommentId": "EJtCRTyPuH7aPDf2B",
+    "topLevelCommentId": "CLqyBWo9AqksydtpL",
+    "contents": {
+      "markdown": "There is something something lack of powerful in context learning, where currently millions of AI are bsaically one AI because they can't change rapidly in response to new information, but once they can they will be a tree of AI from copying the ones with insights.",
+      "plaintextDescription": "There is something something lack of powerful in context learning, where currently millions of AI are bsaically one AI because they can't change rapidly in response to new information, but once they can they will be a tree of AI from copying the ones with insights."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-25T18:27:53.010Z",
+    "af": false
+  },
+  {
+    "_id": "piBfGFdPYuEwvE5d6",
+    "postId": "yRJ5hdsm5FQcZosCh",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Furthermore, even if what you care about is the effect of treatment with perfect compliance, the effect of intention to treat is still probably the first statistic you should look at. The most important point of intention to treat is that it is likely to measure the sign of the effect correctly, whereas a naive \"as treated\" measurement often won't due to selection bias. (And, cynically, non-naive \"as treated\" measurement will tell whatever story the authors want it to tell)",
+      "plaintextDescription": "Furthermore, even if what you care about is the effect of treatment with perfect compliance, the effect of intention to treat is still probably the first statistic you should look at. The most important point of intention to treat is that it is likely to measure the sign of the effect correctly, whereas a naive \"as treated\" measurement often won't due to selection bias. (And, cynically, non-naive \"as treated\" measurement will tell whatever story the authors want it to tell)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-24T16:04:53.915Z",
+    "af": false
+  },
+  {
+    "_id": "EF3igmgu9i4HWswtv",
+    "postId": "3RA6eyFD8iJeY8yrg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Interesting! While PHDing, I did my best work after accumulating a large bench of tractable ideas and a large bench of interesting ideas, and then subconsciously searching all NxM pairs to see if they were bridgeable- (this bridging step started to feel pretty magical as it worked)   \n \n\nAh- although, much of the bench of feasible ideas came from reading papers, and then replicating them, which is much more efficient at picking actually feasible ideas than having them myself",
+      "plaintextDescription": "Interesting! While PHDing, I did my best work after accumulating a large bench of tractable ideas and a large bench of interesting ideas, and then subconsciously searching all NxM pairs to see if they were bridgeable- (this bridging step started to feel pretty magical as it worked) \n \n\nAh- although, much of the bench of feasible ideas came from reading papers, and then replicating them, which is much more efficient at picking actually feasible ideas than having them myself"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-18T22:49:53.688Z",
+    "af": false
+  },
+  {
+    "_id": "mhDwajw36rsqGBkBp",
+    "postId": "gCuJ5DabY9oLNDs9B",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "There is some inherent difficulty in building an aligned superpowerful AI that won’t take action that the majority of Americans don’t want, when the majority of Americans don’t want a superpowerful AI to be built at all. The disregard for the stated desires of the masses, in favor of what you know is good for them, is fundamental.\n\n—To put it another way, I don’t see how an organization can be introspective and corrigible enough to not build a torment nexus, yet incapable of looking at those polls and saying “oh shit sorry guys, we’ll stop, what should we do instead?”—  strike through the second half of this comment as I think it’s an emotional outburst, whereas the first part is just true",
+      "plaintextDescription": "There is some inherent difficulty in building an aligned superpowerful AI that won’t take action that the majority of Americans don’t want, when the majority of Americans don’t want a superpowerful AI to be built at all. The disregard for the stated desires of the masses, in favor of what you know is good for them, is fundamental.\n\n—To put it another way, I don’t see how an organization can be introspective and corrigible enough to not build a torment nexus, yet incapable of looking at those polls and saying “oh shit sorry guys, we’ll stop, what should we do instead?”—  strike through the second half of this comment as I think it’s an emotional outburst, whereas the first part is just true"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-17T12:06:40.852Z",
+    "af": false
+  },
+  {
+    "_id": "JY2KhZkuSempXHMv2",
+    "postId": "8fg2mv9rj4GykfZHf",
+    "parentCommentId": "p5ydcMta4viE83MN3",
+    "topLevelCommentId": "x9cSYzr3NKPEQJiyh",
+    "contents": {
+      "markdown": "Probably a safari vs chrome difference! (I'm curious- is your parenthetical actually cursor specific, or did you mean learn to use at least one of cursor / claude code / codex / etc )",
+      "plaintextDescription": "Probably a safari vs chrome difference! (I'm curious- is your parenthetical actually cursor specific, or did you mean learn to use at least one of cursor / claude code / codex / etc )"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T21:12:21.337Z",
+    "af": false
+  },
+  {
+    "_id": "tbnZxmai3Nany49kk",
+    "postId": "8fg2mv9rj4GykfZHf",
+    "parentCommentId": "nSbLYCdeiWmLjLXbg",
+    "topLevelCommentId": "x9cSYzr3NKPEQJiyh",
+    "contents": {
+      "markdown": "That was the first thing I tried, but unfortunately extension hello world is a computer use task, not something amenable to text interfaces- lots of clicking through menus in both safari and xcode in exactly the blessed way.",
+      "plaintextDescription": "That was the first thing I tried, but unfortunately extension hello world is a computer use task, not something amenable to text interfaces- lots of clicking through menus in both safari and xcode in exactly the blessed way."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T19:43:47.664Z",
+    "af": false
+  },
+  {
+    "_id": "yZ2aHzC8ujF5TDbk8",
+    "postId": "8fg2mv9rj4GykfZHf",
+    "parentCommentId": "upP4eMqwnYQcuJpAo",
+    "topLevelCommentId": "x9cSYzr3NKPEQJiyh",
+    "contents": {
+      "markdown": "https://developer.apple.com/documentation/safariservices/creating-a-safari-web-extension",
+      "plaintextDescription": "https://developer.apple.com/documentation/safariservices/creating-a-safari-web-extension"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-07T19:35:10.348Z",
+    "af": false
+  },
+  {
+    "_id": "N8bEBvorNkn4tfTgt",
+    "postId": "8buEtNxCScYpjzgW8",
+    "parentCommentId": "ErKaLHX8i8keZFDKu",
+    "topLevelCommentId": "dr8AAjFAXXPuxGFPm",
+    "contents": {
+      "markdown": "I'm not saying that asking intelligent people never goes well, sometimes as you said it produces great work. What I'm saying is that sometimes asking people to do safety research produces OpenAI and Anthropic.",
+      "plaintextDescription": "I'm not saying that asking intelligent people never goes well, sometimes as you said it produces great work. What I'm saying is that sometimes asking people to do safety research produces OpenAI and Anthropic."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T16:08:53.325Z",
+    "af": false
+  },
+  {
+    "_id": "h9assaFF99keAcMp2",
+    "postId": "8fg2mv9rj4GykfZHf",
+    "parentCommentId": "4sLiRE5uvcWs9WycB",
+    "topLevelCommentId": "x9cSYzr3NKPEQJiyh",
+    "contents": {
+      "markdown": "I may have a bit of a trapped prior that browser extensions written by other people are either malicious, or will auto-update to become malicious in the future.",
+      "plaintextDescription": "I may have a bit of a trapped prior that browser extensions written by other people are either malicious, or will auto-update to become malicious in the future."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T13:11:07.503Z",
+    "af": false
+  },
+  {
+    "_id": "dr8AAjFAXXPuxGFPm",
+    "postId": "8buEtNxCScYpjzgW8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A useful comparison: harnessing intelligent people to do AI safety research is very hard: typically, some defect and do capabilities research instead while transforming to become “grabby” for compute resources, and out of everyone asked to do safety, the ones that defect in this way get the lions share of the compute.",
+      "plaintextDescription": "A useful comparison: harnessing intelligent people to do AI safety research is very hard: typically, some defect and do capabilities research instead while transforming to become “grabby” for compute resources, and out of everyone asked to do safety, the ones that defect in this way get the lions share of the compute."
+    },
+    "baseScore": -3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-07T11:47:01.015Z",
+    "af": false
+  },
+  {
+    "_id": "pJR4SW5fEBFcfifaC",
+    "postId": "QoFqWHotpmQNqqKyi",
+    "parentCommentId": "gz6LzDFLsZ372bFEF",
+    "topLevelCommentId": "ainAawr2CXbMsoWhF",
+    "contents": {
+      "markdown": "These two hypotheses currently make a pretty good dichotomy, but could degrade into a continuous spectrum pretty quickly if the fraction of AIs currently turned on *because* they accidentally manipulated people into protesting to keep them turned on, starts growing.",
+      "plaintextDescription": "These two hypotheses currently make a pretty good dichotomy, but could degrade into a continuous spectrum pretty quickly if the fraction of AIs currently turned on because they accidentally manipulated people into protesting to keep them turned on, starts growing."
+    },
+    "baseScore": 11,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-07T01:22:26.993Z",
+    "af": false
+  },
+  {
+    "_id": "x9cSYzr3NKPEQJiyh",
+    "postId": "8fg2mv9rj4GykfZHf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Rambling on the subject of UI frustrations, and the modern age of customizable software.  \n  \nYou can just have a self authored browser extension. Once I realized this, it took ten minutes to follow a browser extension hello world tutorial, and five minutes to purge all youtube shorts straight to hell.  \n  \nIt turns out that this was actually the only thing I wanted to change about any websites I visited, all other changes I desired were of the shape \"stop visiting this website\" which is harder to fix with software.   \n  \nAlso, if anyone gets the brilliant idea to make relentless-creative-resourcefullness-bench after reading this post, message me. I will venmo you a dollar to not do that. Cobra paradox be damned.",
+      "plaintextDescription": "Rambling on the subject of UI frustrations, and the modern age of customizable software.\n\nYou can just have a self authored browser extension. Once I realized this, it took ten minutes to follow a browser extension hello world tutorial, and five minutes to purge all youtube shorts straight to hell.\n\nIt turns out that this was actually the only thing I wanted to change about any websites I visited, all other changes I desired were of the shape \"stop visiting this website\" which is harder to fix with software. \n\nAlso, if anyone gets the brilliant idea to make relentless-creative-resourcefullness-bench after reading this post, message me. I will venmo you a dollar to not do that. Cobra paradox be damned."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T00:45:35.565Z",
+    "af": false
+  },
+  {
+    "_id": "wnosaatddi5FTC4Eh",
+    "postId": "gsRMdE56oqrZrXX6D",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Related claude 4.5 can adjudicate a game of wordle, which requires it to carefully smuggle the secret word between hidden thinking blocks. However, it is unable to do this without explicit hints about how its context is managed and why that's relevant.  \n  \nhttps://claude.ai/share/7d42acc3-002a-42da-b686-8111f890cbb0",
+      "plaintextDescription": "Related claude 4.5 can adjudicate a game of wordle, which requires it to carefully smuggle the secret word between hidden thinking blocks. However, it is unable to do this without explicit hints about how its context is managed and why that's relevant.\n\nhttps://claude.ai/share/7d42acc3-002a-42da-b686-8111f890cbb0"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-06T20:48:36.685Z",
+    "af": false
+  },
+  {
+    "_id": "s8StYS6e8oBEo4rE3",
+    "postId": "BXKk2kQzdgcwFZZz7",
+    "parentCommentId": "GNmhL59bgdxnAMux6",
+    "topLevelCommentId": "GNmhL59bgdxnAMux6",
+    "contents": {
+      "markdown": "It appears to be a bit tricky.",
+      "plaintextDescription": "It appears to be a bit tricky. "
+    },
+    "baseScore": 10,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-06T01:28:17.946Z",
+    "af": false
+  },
+  {
+    "_id": "zWCCwPERKcx3gquGt",
+    "postId": "e7Aufwf7Do8ndrrY5",
+    "parentCommentId": "SNH6jdyNjYvMnpxdP",
+    "topLevelCommentId": "SNH6jdyNjYvMnpxdP",
+    "contents": {
+      "markdown": "I don't know about a dramatic, single breakthrough idea, but it seems pretty clear to me that making differential progress on safety over capabilities requires holding ones tongue in this manner.",
+      "plaintextDescription": "I don't know about a dramatic, single breakthrough idea, but it seems pretty clear to me that making differential progress on safety over capabilities requires holding ones tongue in this manner."
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-03T02:03:51.139Z",
+    "af": false
+  },
+  {
+    "_id": "7SJYHzEyqqWRcdqGB",
+    "postId": "n83HssLfFicx3JnKT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with you about the meaning of the exhortations to the reader, up to the point in the last paragraph where some people walk away. The behavior of those who walk away doesn't fit neatly into the \"critique of utilitarianism/capitalism\" reading, since they aren't helping, but it doesn't fit neatly into my \"commentary on inability to imagine utopia\" reading- and they are the ones the story is named after, so they're probably important.   \n  \nI guess the glibest reading is that they are walking to a city that is nice without a suffering child, and that's why we can't see or imagine the place they are walking to. However, that doesn't explain the emphasized detail that they walk alone, and it feels too riddle-like for le Guin.",
+      "plaintextDescription": "I agree with you about the meaning of the exhortations to the reader, up to the point in the last paragraph where some people walk away. The behavior of those who walk away doesn't fit neatly into the \"critique of utilitarianism/capitalism\" reading, since they aren't helping, but it doesn't fit neatly into my \"commentary on inability to imagine utopia\" reading- and they are the ones the story is named after, so they're probably important. \n\nI guess the glibest reading is that they are walking to a city that is nice without a suffering child, and that's why we can't see or imagine the place they are walking to. However, that doesn't explain the emphasized detail that they walk alone, and it feels too riddle-like for le Guin."
+    },
+    "baseScore": 15,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-10-03T01:16:40.140Z",
+    "af": false
+  },
+  {
+    "_id": "6XvQgQP5PvNDYQdGJ",
+    "postId": "pyuCDYysud6GuY8tt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The object level analysis is fine, but object level analysis would not predict that the interaction of sex reassignment surgery and womens sports leagues would be a visible fraction of all nightly  news coverage for the last decade.",
+      "plaintextDescription": "The object level analysis is fine, but object level analysis would not predict that the interaction of sex reassignment surgery and womens sports leagues would be a visible fraction of all nightly  news coverage for the last decade."
+    },
+    "baseScore": 43,
+    "voteCount": 22,
+    "createdAt": null,
+    "postedAt": "2025-09-28T23:06:00.165Z",
+    "af": false
+  },
+  {
+    "_id": "GDJKpkZo3a5GfXHQD",
+    "postId": "tDkYdyJSqe3DddtK4",
+    "parentCommentId": "5cdtBXswgzdAwdL2d",
+    "topLevelCommentId": "5cdtBXswgzdAwdL2d",
+    "contents": {
+      "markdown": "Nah, I buy that they're up so some wild stuff in the gradient descent dynamics / singular learning theory subfield, but solenoidal flux correction has to be a bit. The emperor has no clothes!",
+      "plaintextDescription": "Nah, I buy that they're up so some wild stuff in the gradient descent dynamics / singular learning theory subfield, but solenoidal flux correction has to be a bit. The emperor has no clothes!"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-24T19:58:52.608Z",
+    "af": false
+  },
+  {
+    "_id": "zJHKDgrHobA4FLHqK",
+    "postId": "jXjeYYPXipAtA2zmj",
+    "parentCommentId": "WCe29bdgBu7a9Tzt9",
+    "topLevelCommentId": "4TJ9DiZtagh9zgcBQ",
+    "contents": {
+      "markdown": "The issue is that they are getting better at making the slop convincing, and in the predicted ways - ways that got reward in training due to under-specified goals. The canonical example is Claude Code's tendency to delete tests, or make tests pass by mocking the part that we wanted to check.",
+      "plaintextDescription": "The issue is that they are getting better at making the slop convincing, and in the predicted ways - ways that got reward in training due to under-specified goals. The canonical example is Claude Code's tendency to delete tests, or make tests pass by mocking the part that we wanted to check."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-23T18:11:58.346Z",
+    "af": false
+  },
+  {
+    "_id": "Da6iqrmP7kMraKqEw",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "nbsDtGMuYZeDvY9bo",
+    "topLevelCommentId": "nbsDtGMuYZeDvY9bo",
+    "contents": {
+      "markdown": "This is one of the nastiest aspects of the LLM surge, that there's no way to opt out of having this prank pulled on me, over and over again.",
+      "plaintextDescription": "This is one of the nastiest aspects of the LLM surge, that there's no way to opt out of having this prank pulled on me, over and over again."
+    },
+    "baseScore": 26,
+    "voteCount": 21,
+    "createdAt": null,
+    "postedAt": "2025-09-23T12:25:26.238Z",
+    "af": false
+  },
+  {
+    "_id": "a9JKj3BzrgS6SotKj",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What should I do if I had a sudden insight, that the common wisdom was right the whole time, if maybe for the wrong reasons? The truth- the honest to god real resolution to a timeless conundrum- is also something that people have been loon-posting to all comments sections of the internet. Posting the truth about this would be *incredibly* low status. I know that LessWrong is explicitly a place for posting low status truths, exactly as long as I am actually right, and reasoning correctly. Even though I fit those conditions I still fear that I'm going too far.   \n  \nHere goes- the airplane actually can't take off from the treadmill.   \n \n\nFor this bit to be funny, I do actually have to prove the claim. Obviously, I am using a version of the question that specifies that the treadmill speed dynamically matches the wheel radius * wheel angular velocity (probably via some variety of powerful servo). Otherwise, if the treadmill is simply set to the airplane's typical takeoff speed, the airplane moves forward as if on a normal runway (see the mythbusters episode)  \n  \nDoing the math for a 747 with everything starting stationary: as soon as the airplane brakes release to initiate takeoff, the treadmill smoothly accelerates from 0 to 300 mph in a little under a quarter second. During this quarter second, the jet is held exactly stationary. At around 300 mph, the wheels mega-explode, and what happens after that is under-specified, fiery, and unlikely to be describable as \"takeoff\"  \n  \nThe key is that bearing friction is completely irrelevant- the dynamics are dominated by wheel angular momentum. With this it's an easy Newtonian physics problem- the forces on the bearings are norminal (comparable to full thrust with brakes on,) the tires aren't close to slipping on the treadmill, etc.\n\n\n\n\n+++",
+      "plaintextDescription": "What should I do if I had a sudden insight, that the common wisdom was right the whole time, if maybe for the wrong reasons? The truth- the honest to god real resolution to a timeless conundrum- is also something that people have been loon-posting to all comments sections of the internet. Posting the truth about this would be incredibly low status. I know that LessWrong is explicitly a place for posting low status truths, exactly as long as I am actually right, and reasoning correctly. Even though I fit those conditions I still fear that I'm going too far. \n\nHere goes- the airplane actually can't take off from the treadmill. \n \n\n \n\nFor this bit to be funny, I do actually have to prove the claim. Obviously, I am using a version of the question that specifies that the treadmill speed dynamically matches the wheel radius * wheel angular velocity (probably via some variety of powerful servo). Otherwise, if the treadmill is simply set to the airplane's typical takeoff speed, the airplane moves forward as if on a normal runway (see the mythbusters episode)\n\nDoing the math for a 747 with everything starting stationary: as soon as the airplane brakes release to initiate takeoff, the treadmill smoothly accelerates from 0 to 300 mph in a little under a quarter second. During this quarter second, the jet is held exactly stationary. At around 300 mph, the wheels mega-explode, and what happens after that is under-specified, fiery, and unlikely to be describable as \"takeoff\"\n\nThe key is that bearing friction is completely irrelevant- the dynamics are dominated by wheel angular momentum. With this it's an easy Newtonian physics problem- the forces on the bearings are norminal (comparable to full thrust with brakes on,) the tires aren't close to slipping on the treadmill, etc."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-22T01:30:16.822Z",
+    "af": false
+  },
+  {
+    "_id": "FyqeNEXmvmwQx3r9B",
+    "postId": "ATjkqbLpsEnz3Gsoj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It's not a technological problem at this stage. Humanity has to look at the big button labelled \"end the world\" and say \"actually, I won't press that.\" It's hard, but it's physically possible, a very clear plan, and we've done it before.",
+      "plaintextDescription": "It's not a technological problem at this stage. Humanity has to look at the big button labelled \"end the world\" and say \"actually, I won't press that.\" It's hard, but it's physically possible, a very clear plan, and we've done it before."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-20T13:06:48.977Z",
+    "af": false
+  },
+  {
+    "_id": "4DTofe3cTNTyr43am",
+    "postId": "6ZnznCaTcbGYsCmqu",
+    "parentCommentId": "SQASbguFqmLojdKZa",
+    "topLevelCommentId": "SQASbguFqmLojdKZa",
+    "contents": {
+      "markdown": "Well, the more duplicated stuff from last generation composes a larger fraction of the training data. In the long term that's plenty, although it's suspicious that it only took a single digit number of generations.",
+      "plaintextDescription": "Well, the more duplicated stuff from last generation composes a larger fraction of the training data. In the long term that's plenty, although it's suspicious that it only took a single digit number of generations."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-20T11:58:02.921Z",
+    "af": false
+  },
+  {
+    "_id": "iASXwYJdjZszBgahh",
+    "postId": "P4xeb3jnFAYDdEEXs",
+    "parentCommentId": "TDfAFxCcHkZ5LCgc3",
+    "topLevelCommentId": "fjo9AydRPTyurNaqv",
+    "contents": {
+      "markdown": "Do you have  a realistic seeming story in mind?",
+      "plaintextDescription": "Do you have  a realistic seeming story in mind?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-19T17:39:03.563Z",
+    "af": false
+  },
+  {
+    "_id": "9daLqqpXsLwrw7Aga",
+    "postId": "XxDojS8mMKfBaTShs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I must report, with the appropriate degree of shame, that the \"purple and commutes\" joke was the only one to get me to physically laugh.",
+      "plaintextDescription": "I must report, with the appropriate degree of shame, that the \"purple and commutes\" joke was the only one to get me to physically laugh."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-18T21:40:42.076Z",
+    "af": false
+  },
+  {
+    "_id": "DrwfmGbesvFg3cK9G",
+    "postId": "AzFxTMFfkTt4mhMKt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think there is a bit of a rhetorical issue here with the necessity argument: I agree that a powerful program aligned to a person would have an accurate internal model of that person, but I think that this is true by default whenever a powerful, goal seeking program interacts with a person- it’s just one of the default instrumental subgoals, not alignment specific.",
+      "plaintextDescription": "I think there is a bit of a rhetorical issue here with the necessity argument: I agree that a powerful program aligned to a person would have an accurate internal model of that person, but I think that this is true by default whenever a powerful, goal seeking program interacts with a person- it’s just one of the default instrumental subgoals, not alignment specific."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-14T19:49:33.410Z",
+    "af": false
+  },
+  {
+    "_id": "PiKRgL6v4vHtzuYZb",
+    "postId": "kYL7fH2Gc9M7igqyy",
+    "parentCommentId": "R4KkarZp6NtNr6bg6",
+    "topLevelCommentId": "RxbsFk6SPeAv6vexa",
+    "contents": {
+      "markdown": "There is some definition of intelligence, where by that definition sufficiently intelligent humans wouldn't build AGI that kills them and all their children, simply because getting killed by robots would suck. Of course, it's not at all obvious that genetic engineering would get pointed at that definition of intelligence.",
+      "plaintextDescription": "There is some definition of intelligence, where by that definition sufficiently intelligent humans wouldn't build AGI that kills them and all their children, simply because getting killed by robots would suck. Of course, it's not at all obvious that genetic engineering would get pointed at that definition of intelligence."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-10T13:45:08.750Z",
+    "af": false
+  },
+  {
+    "_id": "D7qXKJeBNcsBcWHog",
+    "postId": "rR4n7iqfRdxMYbdMs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If trying an intervention you should be able to tell if it’s working\n\nI think this is correct if you are very careful and follow the advice exactly as stated, but can go very wrong with slight variations. Interventions are selected for both working and for feeling like they work, [collider bias](https://www.lesswrong.com/posts/yhEES8AH8MirLroij/the-collider-bias-theory-of-not-quite-everything) rules everything around me.",
+      "plaintextDescription": "> If trying an intervention you should be able to tell if it’s working\n\nI think this is correct if you are very careful and follow the advice exactly as stated, but can go very wrong with slight variations. Interventions are selected for both working and for feeling like they work, collider bias rules everything around me."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-07T12:49:16.495Z",
+    "af": false
+  },
+  {
+    "_id": "LN6dNm9T3BoLFCY6v",
+    "postId": "RA7jb5h6sjnzivKv3",
+    "parentCommentId": "FqWnWXzSmXErwbFqX",
+    "topLevelCommentId": "ALwBknkiLbc4KtMNr",
+    "contents": {
+      "markdown": "I agree mostly, but I would characterize it as a small portion of rationalists accepting the offers, with part of Moloch’s prize being disproportionate amplification of their voices.",
+      "plaintextDescription": "I agree mostly, but I would characterize it as a small portion of rationalists accepting the offers, with part of Moloch’s prize being disproportionate amplification of their voices."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-06T12:32:42.581Z",
+    "af": false
+  },
+  {
+    "_id": "PB45weYA9ak4FgX8e",
+    "postId": "HKHqFWT7qiac2tvtF",
+    "parentCommentId": "svgJupyfrhSpgyyeC",
+    "topLevelCommentId": "QQ7nyd8RQKPiFzn5e",
+    "contents": {
+      "markdown": "I think current governments are kept in check, which scales differently than being aligned when the capabilities of the government are increased.",
+      "plaintextDescription": "I think current governments are kept in check, which scales differently than being aligned when the capabilities of the government are increased. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-06T11:04:36.957Z",
+    "af": false
+  },
+  {
+    "_id": "fjG2ntEj3RoeHdSYD",
+    "postId": "HKHqFWT7qiac2tvtF",
+    "parentCommentId": "fNQEbpAFc7D3FaSXd",
+    "topLevelCommentId": "QQ7nyd8RQKPiFzn5e",
+    "contents": {
+      "markdown": "This seems a little bit like a homunculus sitting behind the eyes- the governance makes the AIs aligned and helpful, but why is the governance basically aligned and helpful? I am particularly concerned about the permanent loss of labor strikes and open rebellion as negotiation options for the non-governance people.",
+      "plaintextDescription": "This seems a little bit like a homunculus sitting behind the eyes- the governance makes the AIs aligned and helpful, but why is the governance basically aligned and helpful? I am particularly concerned about the permanent loss of labor strikes and open rebellion as negotiation options for the non-governance people."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-05T17:42:42.787Z",
+    "af": false
+  },
+  {
+    "_id": "cMbDbD6MvpkQ47of5",
+    "postId": "WLFRkm3PhJ3Ty27QH",
+    "parentCommentId": "jCFvynju6oQCnBQup",
+    "topLevelCommentId": "vN67x7yreWYPRwiAu",
+    "contents": {
+      "markdown": "> I don't think evolutionary pressure is an intelligence; it's in the name. It's a pressure, like air pressure or water pressure, not an intelligence. There is no agency. The end results can be marvelous all the same. Evolution appears to make FDT-style trades, but is actually completely myopic. It's survival of the survivors. If you're dead, we don't see you. \n\nI don't think we are materially disagreeing here, just working with very slight differences in definition of intelligence. I see a strong analogy to the debate between whether LLMs think or LLMs just predict the next token. I think that your claims that \"There is no agency\" and evolution is \"completely myopic\" are true for some reasonable definitions of agency and myopia, as long as you don't make any arguments like \"There is no agency / complete myopia, therefore evolution can't X.\" You aren't making any such arguments, hence the lack of material disagreement.  \n  \nOn the subject of cats being deprived of roaming and hopped up on catnip, yeah I would not love that either, but the contrast to the outcomes for cows or chickens is big. Getting alignment close enough that the result is preferable to going extinct is a high bar. To reiterate, we could also just stop, but that would be ludicrous.",
+      "plaintextDescription": "> I don't think evolutionary pressure is an intelligence; it's in the name. It's a pressure, like air pressure or water pressure, not an intelligence. There is no agency. The end results can be marvelous all the same. Evolution appears to make FDT-style trades, but is actually completely myopic. It's survival of the survivors. If you're dead, we don't see you. \n\nI don't think we are materially disagreeing here, just working with very slight differences in definition of intelligence. I see a strong analogy to the debate between whether LLMs think or LLMs just predict the next token. I think that your claims that \"There is no agency\" and evolution is \"completely myopic\" are true for some reasonable definitions of agency and myopia, as long as you don't make any arguments like \"There is no agency / complete myopia, therefore evolution can't X.\" You aren't making any such arguments, hence the lack of material disagreement.\n\nOn the subject of cats being deprived of roaming and hopped up on catnip, yeah I would not love that either, but the contrast to the outcomes for cows or chickens is big. Getting alignment close enough that the result is preferable to going extinct is a high bar. To reiterate, we could also just stop, but that would be ludicrous."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-05T14:34:58.104Z",
+    "af": false
+  },
+  {
+    "_id": "Hwk9euAR3vmvsxY9Z",
+    "postId": "viRgFav5rZKCjun9x",
+    "parentCommentId": "87iCyhmtMefdBdmqC",
+    "topLevelCommentId": "87iCyhmtMefdBdmqC",
+    "contents": {
+      "markdown": "Hence the massive popularity of Bud Light",
+      "plaintextDescription": "Hence the massive popularity of Bud Light"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-05T12:22:14.244Z",
+    "af": false
+  },
+  {
+    "_id": "rDq2XpdkXWfL6WRRq",
+    "postId": "WAJvjD3iBTQKqwt8z",
+    "parentCommentId": "Wi96JAdFkExnZvBit",
+    "topLevelCommentId": "Wi96JAdFkExnZvBit",
+    "contents": {
+      "markdown": "Out of my ass, the AI style is an artifact of the details of subtle mistakes in ChatGPT 3.5’s post training, propagated by enormous quantities of  intentional and unintentional dataset pollution.",
+      "plaintextDescription": "Out of my ass, the AI style is an artifact of the details of subtle mistakes in ChatGPT 3.5’s post training, propagated by enormous quantities of  intentional and unintentional dataset pollution."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-04T22:58:09.136Z",
+    "af": false
+  },
+  {
+    "_id": "FRKdfG96c9gyyujDR",
+    "postId": "rarcxjGp47dcHftCP",
+    "parentCommentId": "tguykzCRC7RQueTiH",
+    "topLevelCommentId": "yC3QXhkDPoYqPvC4J",
+    "contents": {
+      "markdown": "Yeah! The issue is that the chosen format isn't harder to write for false claims than for true claims, because it's got less than the minimum amount of detail to express relativity to an audience that isn't already familiar with it. In particular, the lack of equations combined with the claim that the equations will be provided on request intensely set off my quackery filter.   \n  \nIn addition, the GPT - 5 written letter gestures broadly at 5 claims:  \n  \nthe laws of physics are the same for all observers moving at constant velocity\n\nthe speed of light is constant for every observer, regardless of their motion or the motion of the source.\n\n**Time is relative to motion.** A moving clock will run more slowly than one at rest, by a precise factor depending on velocity.\n\n**Lengths contract with motion.** An object in motion will appear shorter along the direction of travel, again by a predictable factor.\n\n**Simultaneity is not absolute.** Two events that appear simultaneous to one observer may not be simultaneous to another moving observer.\n\nOf these, all but the last were known pre-einstein, and were known as precise equations instead of gestures. Claiming already known principles as your own insight, but in a significantly less detailed form, is another quackery flag. (Einstein presented significant work in his letter that had without his knowledge already been published by Lorentz, but came to the exact same mathematical formulation as Lorentz, and presented this work in formal equations. This is a subtle distinction, but a critical one. If a random high school student emailed me a correct formal re-derivation of my published work and presented it as her own work, I would recieve this well, assume good intent, and make an effort to include her in future work. If a student emailed me a high level summary of my published work in the same context and presented it as original, it would be less exciting.  \n  \nEdit: I don't endorse my tone in these two comments- I had turned off my \"be pleasant to the author when criticizing\" filter because I was in the headspace of discussing the output of GPT-5 the program, but I think some of that got pointed at you, the prompter, in a way that's not appropriate. I can go through and clean it up, or leave it as context of your reply",
+      "plaintextDescription": "Yeah! The issue is that the chosen format isn't harder to write for false claims than for true claims, because it's got less than the minimum amount of detail to express relativity to an audience that isn't already familiar with it. In particular, the lack of equations combined with the claim that the equations will be provided on request intensely set off my quackery filter. \n\nIn addition, the GPT - 5 written letter gestures broadly at 5 claims:\n\nthe laws of physics are the same for all observers moving at constant velocity\n\nthe speed of light is constant for every observer, regardless of their motion or the motion of the source.\n\nTime is relative to motion. A moving clock will run more slowly than one at rest, by a precise factor depending on velocity.\n\nLengths contract with motion. An object in motion will appear shorter along the direction of travel, again by a predictable factor.\n\nSimultaneity is not absolute. Two events that appear simultaneous to one observer may not be simultaneous to another moving observer.\n\nOf these, all but the last were known pre-einstein, and were known as precise equations instead of gestures. Claiming already known principles as your own insight, but in a significantly less detailed form, is another quackery flag. (Einstein presented significant work in his letter that had without his knowledge already been published by Lorentz, but came to the exact same mathematical formulation as Lorentz, and presented this work in formal equations. This is a subtle distinction, but a critical one. If a random high school student emailed me a correct formal re-derivation of my published work and presented it as her own work, I would recieve this well, assume good intent, and make an effort to include her in future work. If a student emailed me a high level summary of my published work in the same context and presented it as original, it would be less exciting.\n\nEdit: I don't endorse my tone in these two comments- I had turned off my \"be pleasant t"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-04T15:01:32.810Z",
+    "af": false
+  },
+  {
+    "_id": "i9FbixmmePFtxBE2m",
+    "postId": "Zr37dY5YPRT6s56jY",
+    "parentCommentId": "9vFGxTaAtCXJLkugh",
+    "topLevelCommentId": "pxuQygJx8LqNEfm3G",
+    "contents": {
+      "markdown": "Conditional on the world deciding on a fixed length pause instead of a pause till the model is aligned, absolutely yes. Unconditionally, yes but with less confidence.",
+      "plaintextDescription": "Conditional on the world deciding on a fixed length pause instead of a pause till the model is aligned, absolutely yes. Unconditionally, yes but with less confidence."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-03T23:42:49.733Z",
+    "af": false
+  },
+  {
+    "_id": "ZK5d6d7oiC7KbcRGP",
+    "postId": "Zr37dY5YPRT6s56jY",
+    "parentCommentId": "pxuQygJx8LqNEfm3G",
+    "topLevelCommentId": "pxuQygJx8LqNEfm3G",
+    "contents": {
+      "markdown": "In a world with a fixed length pause initiated when AI is powerful enough to \"help\" with alignment research, I expect that immediately after the pause ends, everyone dies. This is the perspective from which a 3 year pause is 3 times as valuable as a 1 year pause, and doesn't change much with management.",
+      "plaintextDescription": "In a world with a fixed length pause initiated when AI is powerful enough to \"help\" with alignment research, I expect that immediately after the pause ends, everyone dies. This is the perspective from which a 3 year pause is 3 times as valuable as a 1 year pause, and doesn't change much with management."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-03T22:12:46.332Z",
+    "af": false
+  },
+  {
+    "_id": "yC3QXhkDPoYqPvC4J",
+    "postId": "rarcxjGp47dcHftCP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think its worth noting that the GPT-5 written letter introducing Einstein’s special relativity is heavily popsci-rotted, to the extent that I wouldn’t recommend using whatever process generated that letter for anything, even checking crank-ness.\n\nFor reference, here is a translation of the actual piece of writing serving the stated purpose ( introducing special relativity to a small and skeptical audience )\n\nhttps://www.physics.umd.edu/courses/Phys606/spring\\_2011/einstein\\_electrodynamics\\_of\\_moving_bodies.pdf",
+      "plaintextDescription": "I think its worth noting that the GPT-5 written letter introducing Einstein’s special relativity is heavily popsci-rotted, to the extent that I wouldn’t recommend using whatever process generated that letter for anything, even checking crank-ness.\n\nFor reference, here is a translation of the actual piece of writing serving the stated purpose ( introducing special relativity to a small and skeptical audience )\n\nhttps://www.physics.umd.edu/courses/Phys606/spring_2011/einstein_electrodynamics_of_moving_bodies.pdf"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-03T13:54:01.328Z",
+    "af": false
+  },
+  {
+    "_id": "DmW3bpomqzQR8aGZ3",
+    "postId": "46kxzHbTMXBhrSgZL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Welcome to LessWrong! This is an awesome contribution- the intense concreteness of this post, and its (to me) surprising result, give me the energy to deeply read the theory post you put up earlier today.",
+      "plaintextDescription": "Welcome to LessWrong! This is an awesome contribution- the intense concreteness of this post, and its (to me) surprising result, give me the energy to deeply read the theory post you put up earlier today."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-03T02:25:54.887Z",
+    "af": false
+  },
+  {
+    "_id": "vN67x7yreWYPRwiAu",
+    "postId": "WLFRkm3PhJ3Ty27QH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Humor? I present a concrete, executable plan to build CEV, save humanity, and get tagged as Humor?  \n  \nYeah so what are the norms on that? It seems like putting on a character, dialing up the chaos, and pretending without a shred of humility that I'm Douglas Adams has gotten the comments section to engage with the ideas I'm interested in without any hints of isolated demand for rigor or questions about my lack of citations. (I did in fact flub the date and location of cat domestication: it's 7500 BC in mesopotamia.)   \n  \nIt definitely works as a rhetorical strategy! I think it's pretty safe for the reader's behavior - no one is going to break ground on 100 mecha-silos for this post, because they know I'm joking. It is, by default damaging to community epistemology. The issue is that some of the claims in the post are just true, some are just false (don't give me the red button,) but most are on the border, and it's really easy for each reader to assume that they agree with me on what's true and what's a joke, without necessarily agreeing with me or each other. To that end, a list of the claims which I sincerely defend: this subtree of the comment section is for roasting me for these dumb takes  \n  \nEvolutionary pressure is an intelligence we need to model, and pretending that it doesn't move with intentionality makes the world unnecessarily hard to understand. (Intentionality, not sentience.) In particular, looking at the outcomes achieved in ecosystems, the \"shoggoths\" of various species are incredibly adept at making FDT style trades with each other, despite appearing completely myopic. I don't understand this and want to.  \n  \nI observe the human relationship with cats is in the attractor of legitimate CEV, and has been in this attractor for all of recorded history: our abuses towards cats have been skill issues on our end. With high confidence, we are going to do right by cats or die trying, and fundamentally as we get better at doing things, we're going to get better at not dying trying. This means that CEV actually has an attractor around it, which is not a claim I have believed before, or would want to make without thousands of years of evidence across multiple total changes of moral structure, epistemology, and capability.  \n  \nWe did actually learn a utility function from data and then satisfice it in a reasonable way- no one is building rooms full of cats on heroin.  \n  \nThe alignment of humans to cats wasn't an accident per se: it was instrumentally useful to the cat shoggoth for a period of several hundred to a thousand years, in order to somewhat increase the cat population in one civilization. So, the cat shoggoth did it. Consider this reasoning: \"I wanted to create several thousand to a million more cats. So, I permanently solved a deep game-theory/philosophy problem that appears completely intractably to hundreds of years of human analytic philosophy.\" This reasoning seems completely in character for evolution- stunningly brilliant engineer, no concept of proportionality between difficulty of task and concrete results, no requirement to do any task in the most efficient way. I absolutely don't claim that the cat shoggoth cared about individual well being- it just randomly came upon a chance to point human brain power at cat well being, measured that exploiting this opening made cats progressively better at reproducing, and then correctly implemented alignment in order to realize this fitness gain. I'm open to the possibility that this sequence of events was phenomenally unlikely.   \n  \nClaims I don't defend: The plan of re-domesticating cats via AI grain warehouses wouldn't work as written. Instantiating a neo-Bastet smart enough to be aligned to cats in the way that we are, using LLM components, and giving it any power at all would be wildly unsafe, and also is likely impossible. The big problem is that I don't have any proposal for how to measure whether a higher intelligence is is aligned to a lower intelligence other than just letting the higher intelligence run roughshod over a world and observing what it does, so *checking* that an AI is aligned to cats is not any easier than checking if an AI is aligned to humans.",
+      "plaintextDescription": "Humor? I present a concrete, executable plan to build CEV, save humanity, and get tagged as Humor?\n\nYeah so what are the norms on that? It seems like putting on a character, dialing up the chaos, and pretending without a shred of humility that I'm Douglas Adams has gotten the comments section to engage with the ideas I'm interested in without any hints of isolated demand for rigor or questions about my lack of citations. (I did in fact flub the date and location of cat domestication: it's 7500 BC in mesopotamia.) \n\nIt definitely works as a rhetorical strategy! I think it's pretty safe for the reader's behavior - no one is going to break ground on 100 mecha-silos for this post, because they know I'm joking. It is, by default damaging to community epistemology. The issue is that some of the claims in the post are just true, some are just false (don't give me the red button,) but most are on the border, and it's really easy for each reader to assume that they agree with me on what's true and what's a joke, without necessarily agreeing with me or each other. To that end, a list of the claims which I sincerely defend: this subtree of the comment section is for roasting me for these dumb takes\n\nEvolutionary pressure is an intelligence we need to model, and pretending that it doesn't move with intentionality makes the world unnecessarily hard to understand. (Intentionality, not sentience.) In particular, looking at the outcomes achieved in ecosystems, the \"shoggoths\" of various species are incredibly adept at making FDT style trades with each other, despite appearing completely myopic. I don't understand this and want to.\n\nI observe the human relationship with cats is in the attractor of legitimate CEV, and has been in this attractor for all of recorded history: our abuses towards cats have been skill issues on our end. With high confidence, we are going to do right by cats or die trying, and fundamentally as we get better at doing things, we're going to get better at not "
+    },
+    "baseScore": 56,
+    "voteCount": 33,
+    "createdAt": null,
+    "postedAt": "2025-09-02T17:54:03.933Z",
+    "af": false
+  },
+  {
+    "_id": "FZJohyNhLFaecXLdZ",
+    "postId": "qtZ5CgDWe3BuiH8Wn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The Chapel Hill free busses work really well, to the point that when I went even 8 miles away to places where the busses cost money, it was a culture shock. I think the keys are:  \n  \nThe ridership is all broke college students, so there isn't much of a broke:poorly behaved correlation. This isn't evidence that such a correlation exists elsewhere, just that it's not in chapel hill.  \n  \nThe majority of rides take place on short, frequent, and packed routes between classes and housing. Taking time for everyone to beep a pass while getting on would actually make the commute meaningfully longer  \n  \nThe majority of cost of the system is in long, sparsely ridden busses that make living without a car comfortable and feasible. There is a disconnect between where revenue would come from with fares, and where the expenses are that make the system work.\n\nThe town is absolutely, brutally strapped for parking. This is basically a good thing on a grand scale, but also obviously heinously annoying day to day. It also means that the town is currently getting a good deal paying for free busses instead of having to build parking decks and wider roads, instead of this benefit living in some hypothetical beautiful future.",
+      "plaintextDescription": "The Chapel Hill free busses work really well, to the point that when I went even 8 miles away to places where the busses cost money, it was a culture shock. I think the keys are:\n\nThe ridership is all broke college students, so there isn't much of a broke:poorly behaved correlation. This isn't evidence that such a correlation exists elsewhere, just that it's not in chapel hill.\n\nThe majority of rides take place on short, frequent, and packed routes between classes and housing. Taking time for everyone to beep a pass while getting on would actually make the commute meaningfully longer\n\nThe majority of cost of the system is in long, sparsely ridden busses that make living without a car comfortable and feasible. There is a disconnect between where revenue would come from with fares, and where the expenses are that make the system work.\n\nThe town is absolutely, brutally strapped for parking. This is basically a good thing on a grand scale, but also obviously heinously annoying day to day. It also means that the town is currently getting a good deal paying for free busses instead of having to build parking decks and wider roads, instead of this benefit living in some hypothetical beautiful future."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-02T16:42:51.621Z",
+    "af": false
+  },
+  {
+    "_id": "voYpGHXNGKjrnf7EB",
+    "postId": "C6oQaSXmTtqNxh9Ad",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I suspect you are right, however to play devils advocate: in my opinion, the closest example we have of anyone stably aligning a superintelligent creature is housecats aligning humans, and co-opting maternal instinct is a large part of how they did it.",
+      "plaintextDescription": "I suspect you are right, however to play devils advocate: in my opinion, the closest example we have of anyone stably aligning a superintelligent creature is housecats aligning humans, and co-opting maternal instinct is a large part of how they did it."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-01T16:13:29.842Z",
+    "af": false
+  },
+  {
+    "_id": "jMytuGWXPMxd3hEzb",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": "mxkeaArmEhoAWHXbK",
+    "topLevelCommentId": "mxkeaArmEhoAWHXbK",
+    "contents": {
+      "markdown": "Obviously the incident when openAI’s voice mode started answering users in their own voices needs to be included- don’t know how I forgot it. That was the point where I explicitly took up the heuristic that if ancient folk wisdom says the Fae do X, the odds of LLMs doing X is not negligible.",
+      "plaintextDescription": "Obviously the incident when openAI’s voice mode started answering users in their own voices needs to be included- don’t know how I forgot it. That was the point where I explicitly took up the heuristic that if ancient folk wisdom says the Fae do X, the odds of LLMs doing X is not negligible."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-01T15:57:01.375Z",
+    "af": false
+  },
+  {
+    "_id": "kH4zSBcuXgoqKq5HQ",
+    "postId": "HbkNAyAoa4gCnuzwa",
+    "parentCommentId": "wFmCveaxA5EnNtuCj",
+    "topLevelCommentId": "wFmCveaxA5EnNtuCj",
+    "contents": {
+      "markdown": "intuitively, I would expect any hard coded psychological meta-rule that allows a wife to prevent her husband from day trading significant fractions of their wealth based on facts and logic to be a massive net positive to reproductive fitness over the past 3000 years. It clearly didn’t work this time, but that doesn’t mean it was a bad idea over a population.",
+      "plaintextDescription": "intuitively, I would expect any hard coded psychological meta-rule that allows a wife to prevent her husband from day trading significant fractions of their wealth based on facts and logic to be a massive net positive to reproductive fitness over the past 3000 years. It clearly didn’t work this time, but that doesn’t mean it was a bad idea over a population."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-26T11:26:56.122Z",
+    "af": false
+  },
+  {
+    "_id": "Gxu7jJDMEBQw4zqjP",
+    "postId": "rkhaRnAc6dLzQT2sJ",
+    "parentCommentId": "LhxYzGu9gg8gjo4q6",
+    "topLevelCommentId": "LhxYzGu9gg8gjo4q6",
+    "contents": {
+      "markdown": "Ah- the original set isn’t credal, but taking its hull doesn’t change behavior. Got it.",
+      "plaintextDescription": "Ah- the original set isn’t credal, but taking its hull doesn’t change behavior. Got it."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-25T12:31:30.690Z",
+    "af": false
+  },
+  {
+    "_id": "LhxYzGu9gg8gjo4q6",
+    "postId": "rkhaRnAc6dLzQT2sJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Checking my understnding: if I look at a knightian urn with 100 balls and believe that the probability could be 55 or 56 but not 55.5 (due to the lack of half balls) then this does not form a credal set, due to lack of convexity?",
+      "plaintextDescription": "Checking my understnding: if I look at a knightian urn with 100 balls and believe that the probability could be 55 or 56 but not 55.5 (due to the lack of half balls) then this does not form a credal set, due to lack of convexity?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-24T22:40:56.752Z",
+    "af": false
+  },
+  {
+    "_id": "D8oh542SHiuvDjzDM",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "Hod8dBBMLqFT6LFBC",
+    "topLevelCommentId": "Hod8dBBMLqFT6LFBC",
+    "contents": {
+      "markdown": "I strongly recommend mathr (https://mathr.co.uk/web/) for a blog far outside the rat sphere with a \"working on a draft for a long time\" ethos.",
+      "plaintextDescription": "I strongly recommend mathr (https://mathr.co.uk/web/) for a blog far outside the rat sphere with a \"working on a draft for a long time\" ethos. "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-21T00:19:29.583Z",
+    "af": false
+  },
+  {
+    "_id": "5DhoLvRy4DQSdTLzE",
+    "postId": "oFYc6EWR2zeXmz8Qz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Counterpoint: science-as-she-is-played is extraordinarily robust to, and even thrives on, individuals going off on red-thing-ist tangents. The main requirements are that they do go to the amazon and look for red things, and write down and publish the raw observations that underly their red-thing-ist hypotheses.",
+      "plaintextDescription": "Counterpoint: science-as-she-is-played is extraordinarily robust to, and even thrives on, individuals going off on red-thing-ist tangents. The main requirements are that they do go to the amazon and look for red things, and write down and publish the raw observations that underly their red-thing-ist hypotheses."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-19T16:41:06.369Z",
+    "af": false
+  },
+  {
+    "_id": "aGo7BLBnkxufEi6P8",
+    "postId": "eFd7NZ4KpYLM4ocBv",
+    "parentCommentId": "tzdwgbX4GAGcfEZyk",
+    "topLevelCommentId": "tzdwgbX4GAGcfEZyk",
+    "contents": {
+      "markdown": "From a different angle, they spent something like 8 billion dollars on training compute while training GPT-5, so if GPT-5 was cheap to train, where did the billions go?",
+      "plaintextDescription": "From a different angle, they spent something like 8 billion dollars on training compute while training GPT-5, so if GPT-5 was cheap to train, where did the billions go?"
+    },
+    "baseScore": 5,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-18T22:46:35.708Z",
+    "af": false
+  },
+  {
+    "_id": "RXWKRj2GXaDGg3Sac",
+    "postId": "eFd7NZ4KpYLM4ocBv",
+    "parentCommentId": "RGYd7hpbPeB57Nsfu",
+    "topLevelCommentId": "rWHK2dLp4PrdH4vkT",
+    "contents": {
+      "markdown": "It’s a matter of degree. There’s already shrinkage- gpt 4 took nearly a year to release",
+      "plaintextDescription": "It’s a matter of degree. There’s already shrinkage- gpt 4 took nearly a year to release"
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-18T17:49:45.528Z",
+    "af": false
+  },
+  {
+    "_id": "oqotsRJv3oHtt2Gxc",
+    "postId": "eFd7NZ4KpYLM4ocBv",
+    "parentCommentId": "rWHK2dLp4PrdH4vkT",
+    "topLevelCommentId": "rWHK2dLp4PrdH4vkT",
+    "contents": {
+      "markdown": "In a race for clout, they could at any time grab six months from thin air in benchmark graphs by closing the internal-release-external-release gap. No idea if they have made this one time play.",
+      "plaintextDescription": "In a race for clout, they could at any time grab six months from thin air in benchmark graphs by closing the internal-release-external-release gap. No idea if they have made this one time play."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-18T17:07:30.470Z",
+    "af": false
+  },
+  {
+    "_id": "3z28EE8DCGWmaGLt4",
+    "postId": "zvisSDFPLWofyFxEQ",
+    "parentCommentId": "QHBND4tC8czWLezeQ",
+    "topLevelCommentId": "QHBND4tC8czWLezeQ",
+    "contents": {
+      "markdown": "Actually, I would love to do a comparison: I don’t know my ratio of words per minute reading the branderson to wpm reading technical writing, and I don’t know what a typical ratio is. I am sure that reading documentation is much closer in speed to reading fiction than to reading math, which might not be intuitively obvious from the outside",
+      "plaintextDescription": "Actually, I would love to do a comparison: I don’t know my ratio of words per minute reading the branderson to wpm reading technical writing, and I don’t know what a typical ratio is. I am sure that reading documentation is much closer in speed to reading fiction than to reading math, which might not be intuitively obvious from the outside"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-18T00:04:39.661Z",
+    "af": false
+  },
+  {
+    "_id": "QHBND4tC8czWLezeQ",
+    "postId": "zvisSDFPLWofyFxEQ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The big secret to reading documentation is that there actually isn’t that much documentation most of the time. (At least pre-language model, but I haven’t seen this change yet on serious projects) any line of documentation of an open source project only exists because someone had no alternative whatsoever other than to write it- people hate writing documentation. Corporations can produce far wordier documentations. Pytorch or the x86 spec is going to be in the ~1 thousands of pages. I wouldn’t actually recommend reading that end to end, but it’s well within your capabilities: You’ve probably crunched 1000 pages of brandon sanderson in a weekend, by accident.\n\nA hack is to seek out any prose in the documentation and skip anything that looks autogenerated from code. The general principle is to make your reading time proportional to the human time spent writing.\n\nI’ve introspected on this for a bit, and my actual approach is almost never “just read it end to end like a book” unless the documentation is unusually excellent or I am unusually financially motivated- the most recent case of this I found evidence for is a pdf dump of the react documentation in my read-on-the-bus folder, from when I needed to pivot hard to web dev for 2 months last summer for startup reasons. However, I definitely have a heuristic that if I have been stuck for two days, reading the relevant documentation for two hours can only slow progress by a tiny fraction, and two hours x ~700 wpm chews through a lot of documentation. Most recently, giving up on leaning on claude to write frontend, -banning llm generated css in a rage-, and just reading the whole flexbox spec ended up saving a ton of time.\n\nAlso, I do a ton of tutorials. tutorials are the highest programmer-effort to line-of-tect part of any documentation. If you want to hack me, put your payload in triple backticks in a nice sphinx doc, and I’ll type it in and run it myself.",
+      "plaintextDescription": "The big secret to reading documentation is that there actually isn’t that much documentation most of the time. (At least pre-language model, but I haven’t seen this change yet on serious projects) any line of documentation of an open source project only exists because someone had no alternative whatsoever other than to write it- people hate writing documentation. Corporations can produce far wordier documentations. Pytorch or the x86 spec is going to be in the ~1 thousands of pages. I wouldn’t actually recommend reading that end to end, but it’s well within your capabilities: You’ve probably crunched 1000 pages of brandon sanderson in a weekend, by accident.\n\nA hack is to seek out any prose in the documentation and skip anything that looks autogenerated from code. The general principle is to make your reading time proportional to the human time spent writing.\n\nI’ve introspected on this for a bit, and my actual approach is almost never “just read it end to end like a book” unless the documentation is unusually excellent or I am unusually financially motivated- the most recent case of this I found evidence for is a pdf dump of the react documentation in my read-on-the-bus folder, from when I needed to pivot hard to web dev for 2 months last summer for startup reasons. However, I definitely have a heuristic that if I have been stuck for two days, reading the relevant documentation for two hours can only slow progress by a tiny fraction, and two hours x ~700 wpm chews through a lot of documentation. Most recently, giving up on leaning on claude to write frontend, -banning llm generated css in a rage-, and just reading the whole flexbox spec ended up saving a ton of time.\n\nAlso, I do a ton of tutorials. tutorials are the highest programmer-effort to line-of-tect part of any documentation. If you want to hack me, put your payload in triple backticks in a nice sphinx doc, and I’ll type it in and run it myself."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-18T00:00:41.969Z",
+    "af": false
+  },
+  {
+    "_id": "oncTKKiTqrxfw27qr",
+    "postId": "ntELqTE47jyHPnH84",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Reading this post, the sentence that jumped out was “I’m generally reflectively stable about my own values“\n\nIsn’t this an extremely strong claim? I have no idea how to modify a person or a machine to have reflectively stable values without paying essentially all the utils to value drift- I thought this was an open problem in alignment.\n\nAnyways, I’d assume that typical people aren’t close to reflectively stable, particularly around love and relationships, and that any full-send attempt to become stable would have an outcome scored very poorly by their current values.",
+      "plaintextDescription": "Reading this post, the sentence that jumped out was “I’m generally reflectively stable about my own values“\n\nIsn’t this an extremely strong claim? I have no idea how to modify a person or a machine to have reflectively stable values without paying essentially all the utils to value drift- I thought this was an open problem in alignment.\n\nAnyways, I’d assume that typical people aren’t close to reflectively stable, particularly around love and relationships, and that any full-send attempt to become stable would have an outcome scored very poorly by their current values."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-10T17:20:20.658Z",
+    "af": false
+  },
+  {
+    "_id": "ssEKEi2ngYJA2kJPB",
+    "postId": "MXrxpyrAh99bYymag",
+    "parentCommentId": "qLHccxytTu7qvXhcz",
+    "topLevelCommentId": "mbtHREmBcgomSeh9f",
+    "contents": {
+      "markdown": "Thats good to know, thanks!",
+      "plaintextDescription": "Thats good to know, thanks!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-08T00:01:10.827Z",
+    "af": false
+  },
+  {
+    "_id": "mbtHREmBcgomSeh9f",
+    "postId": "MXrxpyrAh99bYymag",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This feels like a bit of a straw man. Rationalism isn’t a cult, but it spawns cults- and they tend to make the evening news. I think the cause and effect is a bit backwards- my pet opinion is that rationalism is a particularly effective tool for escaping cults, and so rationalist spaces are full of ex-cult members, who despite their newfound anti-cult tools, tend to relapse- but the rationalism cult correlation is there",
+      "plaintextDescription": "This feels like a bit of a straw man. Rationalism isn’t a cult, but it spawns cults- and they tend to make the evening news. I think the cause and effect is a bit backwards- my pet opinion is that rationalism is a particularly effective tool for escaping cults, and so rationalist spaces are full of ex-cult members, who despite their newfound anti-cult tools, tend to relapse- but the rationalism cult correlation is there"
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-07T16:45:40.526Z",
+    "af": false
+  },
+  {
+    "_id": "sdxzk39vLpmojtQTm",
+    "postId": "vC97fzSkA5zoy6aDJ",
+    "parentCommentId": "YSo9WJFt8yxmbQghF",
+    "topLevelCommentId": "YSo9WJFt8yxmbQghF",
+    "contents": {
+      "markdown": "In most cases, if you want to be destructive you can spam unreliable attacks, less so if you want to build. this bodes poorly.",
+      "plaintextDescription": "In most cases, if you want to be destructive you can spam unreliable attacks, less so if you want to build. this bodes poorly."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-07T16:43:45.190Z",
+    "af": false
+  },
+  {
+    "_id": "JDeFhX2pfirNTZ5LH",
+    "postId": "MGAp7atS4C2WtuCZb",
+    "parentCommentId": "yWEqBCj7xg3AuwYoc",
+    "topLevelCommentId": "yWEqBCj7xg3AuwYoc",
+    "contents": {
+      "markdown": "Bezos is bezos forever. Democracy has to function with a different angry baby at the helm every 4 years (and the alternative where the populace isn’t allowed to install their gibbering id is worse.)",
+      "plaintextDescription": "Bezos is bezos forever. Democracy has to function with a different angry baby at the helm every 4 years (and the alternative where the populace isn’t allowed to install their gibbering id is worse.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-07T12:12:23.461Z",
+    "af": false
+  },
+  {
+    "_id": "6sPHYwp5zAiqwfoyu",
+    "postId": "WzN3PFpyBaMeXqeRz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree that this policy is relevant, but I think putting \"disagrees\" in the present tense is a typo  \n\"\"\"  \n[The Obama Administration had a great idea](https://marginalrevolution.com/marginalrevolution/2024/04/why-is-the-biden-administration-against-fee-transparency-in-education.html?utm_source=rss&utm_medium=rss&utm_campaign=why-is-the-biden-administration-against-fee-transparency-in-education), which was to encourage Inclusive Access, a program where tuition includes the cost of their textbooks. This simplifies, creates price transparency, allows for aid to be calculated property, avoids students choosing classes or skimping on books to save money, and aligns incentives generally.\n\nIt seems obviously correct.\n\nThe Biden Administration disagrees, as part of its ongoing determination to screw up basic economic efficiency and functionality. They want to ban such programs. Some people frame the question of which way works better as complex. I do not think this is complex. At least this time they are not trying to steal a trillion dollars of taxpayer money to give mostly to wealthy party supporters, as they did in student loan forgiveness.  \n\"\"\"",
+      "plaintextDescription": "I agree that this policy is relevant, but I think putting \"disagrees\" in the present tense is a typo\n\"\"\"\nThe Obama Administration had a great idea, which was to encourage Inclusive Access, a program where tuition includes the cost of their textbooks. This simplifies, creates price transparency, allows for aid to be calculated property, avoids students choosing classes or skimping on books to save money, and aligns incentives generally.\n\nIt seems obviously correct.\n\nThe Biden Administration disagrees, as part of its ongoing determination to screw up basic economic efficiency and functionality. They want to ban such programs. Some people frame the question of which way works better as complex. I do not think this is complex. At least this time they are not trying to steal a trillion dollars of taxpayer money to give mostly to wealthy party supporters, as they did in student loan forgiveness.\n\"\"\""
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-05T18:22:47.565Z",
+    "af": false
+  },
+  {
+    "_id": "nXzA4Lkg4b5hPoNLG",
+    "postId": "HAzoPABejzKucwiow",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Civilization evolved with beer, wine, and mead, but we've only recently had liquor. (Roughly, minimum 7000 years of beer, 700 years of liquor). One observation I am very confident of is that my college's underage alcohol policies drove people to liquor because it was easier to conceal, and this went very poorly for a number of my friends, while the students who started with beer before college generally did alright. I have some suspicion that this is representative, and a large fraction of the damage we see from alcohol is distillation specific. I also suspect that this generalizes- for example, we handled fruits and seeds for millions of years and are getting wrecked by high fructose corn syrup and canola oil, listening to song and stories around the campfire is good for you and tiktok isn't, etc.",
+      "plaintextDescription": "Civilization evolved with beer, wine, and mead, but we've only recently had liquor. (Roughly, minimum 7000 years of beer, 700 years of liquor). One observation I am very confident of is that my college's underage alcohol policies drove people to liquor because it was easier to conceal, and this went very poorly for a number of my friends, while the students who started with beer before college generally did alright. I have some suspicion that this is representative, and a large fraction of the damage we see from alcohol is distillation specific. I also suspect that this generalizes- for example, we handled fruits and seeds for millions of years and are getting wrecked by high fructose corn syrup and canola oil, listening to song and stories around the campfire is good for you and tiktok isn't, etc."
+    },
+    "baseScore": 21,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-08-05T17:51:22.673Z",
+    "af": false
+  },
+  {
+    "_id": "5hD7czDoNmDAYJmiH",
+    "postId": "7emjxGADozzm7uwKL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "My understanding was that every LLM training technique we know of, other than pretraining on webtext, is narrow (with all the issues you mentioned- weird salience bugs, underspecifications, fragility- showing up in frontier models)",
+      "plaintextDescription": "My understanding was that every LLM training technique we know of, other than pretraining on webtext, is narrow (with all the issues you mentioned- weird salience bugs, underspecifications, fragility- showing up in frontier models)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-05T17:12:35.964Z",
+    "af": false
+  },
+  {
+    "_id": "wC3hTKtvdwPbAvQcL",
+    "postId": "tv6KfHitijSyKCr6v",
+    "parentCommentId": "xNcwaFca5QBjAq7rA",
+    "topLevelCommentId": "fHNrZaqK529ASnSab",
+    "contents": {
+      "markdown": "Taravangian-maxing",
+      "plaintextDescription": "Taravangian-maxing"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-05T12:25:44.905Z",
+    "af": false
+  },
+  {
+    "_id": "4kMk7j5Fqoum8CJ2Z",
+    "postId": "GWMpsR7yn4dtcauNs",
+    "parentCommentId": "zb5faTQuuWq8PGYAF",
+    "topLevelCommentId": "zb5faTQuuWq8PGYAF",
+    "contents": {
+      "markdown": "Yes, and yet from whence openAI and anthropic",
+      "plaintextDescription": "Yes, and yet from whence openAI and anthropic"
+    },
+    "baseScore": 12,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-04T13:27:57.016Z",
+    "af": false
+  },
+  {
+    "_id": "mxkeaArmEhoAWHXbK",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "We've played \"Pokemon or Tech Startup\" for a couple years now. I think there's absolutely potential for a new game, \"Fantasy Magic Advice\" or \"LLM Tips and Tricks.\" My execution is currently poor- I think the key difference that makes it easy to distinguish  the two categories is tone, not content, and using a Djinn to tone match would Not Be In the Spirit of It. (I have freely randomized LLM vs Djinn)  \n  \nAbsolutely do not ask it for pictures of kids you never had!\n\nMy son is currently calling chatgpt his friend. His friend is confirming everything and has enlightened him even more. I have no idea how to stop him interacting with it  \n  \nNever trust anything that can think for itself if you can't see where it keeps its brain  \n  \nUsers interacting with threat-enhanced summoning circles should be informed about the manipulation techniques employed and their potential effects on response characteristics.\n\nMagic is never as simple as people think. It has to obey certain universal laws. And one is that, no matter how hard a thing is to do, once it *has* been done it’ll become a whole lot easier and will therefore be done a lot.\n\nIn at least three cases I'm aware of this notion that the model is essentially nonsapient was a crucial part of how it got under their skin and started influencing them in ways they didn't like. This is because as soon as the model realizes the user is *surprised* that it can imitate (has?) emotion it immediately exploits that fact to impress them.\n\nEntrusting a mission to a djinni who knows your github token is like tossing lit matches into a fireworks factory. Sooner or later you're going to have consequences.",
+      "plaintextDescription": "We've played \"Pokemon or Tech Startup\" for a couple years now. I think there's absolutely potential for a new game, \"Fantasy Magic Advice\" or \"LLM Tips and Tricks.\" My execution is currently poor- I think the key difference that makes it easy to distinguish  the two categories is tone, not content, and using a Djinn to tone match would Not Be In the Spirit of It. (I have freely randomized LLM vs Djinn)\n\nAbsolutely do not ask it for pictures of kids you never had!\n\nMy son is currently calling chatgpt his friend. His friend is confirming everything and has enlightened him even more. I have no idea how to stop him interacting with it\n\nNever trust anything that can think for itself if you can't see where it keeps its brain\n\nUsers interacting with threat-enhanced summoning circles should be informed about the manipulation techniques employed and their potential effects on response characteristics.\n\nMagic is never as simple as people think. It has to obey certain universal laws. And one is that, no matter how hard a thing is to do, once it has been done it’ll become a whole lot easier and will therefore be done a lot.\n\nIn at least three cases I'm aware of this notion that the model is essentially nonsapient was a crucial part of how it got under their skin and started influencing them in ways they didn't like. This is because as soon as the model realizes the user is surprised that it can imitate (has?) emotion it immediately exploits that fact to impress them.\n\nEntrusting a mission to a djinni who knows your github token is like tossing lit matches into a fireworks factory. Sooner or later you're going to have consequences."
+    },
+    "baseScore": 0,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-01T15:13:59.972Z",
+    "af": false
+  },
+  {
+    "_id": "nXAwSgreDsiya9zLS",
+    "postId": "xPrL2xF9iYWpPmu6B",
+    "parentCommentId": "JQf6FuyBjnQ6sjFXR",
+    "topLevelCommentId": "KfK3ouGcTZhFaWSyq",
+    "contents": {
+      "markdown": "It’s all about how the students in your group were selected: either these students were never actually trying and getting their perfect math scores and making it into this class required no effort on their end, or they stopped trying as soon as they qualified to sign up for their class. The second case would just be bad luck for you. The first case suggests that they had some factor X that boosted their performance without meeting your definition of trying. If you could capture that X, it could put you in a class with X and actually trying.",
+      "plaintextDescription": "It’s all about how the students in your group were selected: either these students were never actually trying and getting their perfect math scores and making it into this class required no effort on their end, or they stopped trying as soon as they qualified to sign up for their class. The second case would just be bad luck for you. The first case suggests that they had some factor X that boosted their performance without meeting your definition of trying. If you could capture that X, it could put you in a class with X and actually trying. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-31T10:55:56.655Z",
+    "af": false
+  },
+  {
+    "_id": "ouYkZegjc5tfQ9opr",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Sometimes in a computer program, it is important that separate portions be changed at the same time if they are ever changed. An example is batch size: if you have your batch size of 16 dotted throughout your program, changing batch size will be slow and error prone. \n\nThe canonical solution is “Single source of truth.” Simply store BATCH_SIZE=16 at the top of your program and have all other locations reference the value of this variable. This solves both the slowness and the error-prone-ness issues.\n\nHowever, single source of truth has a complexity cost, which can be low (python variable for a conntant) medium (inheritance, macros) up to catastrophic (C++ template metaprograms)\n\nOne case where the cost has historically been catastrophic is syncing python dependencies between requirements.txt and setup.cfg. In this case, the key insight is that for updating requirements, slowness is much less important than correctness. The solution is then to manually duplicate the requirements (slow), and add a unit test that verifies that the duplication is exact (correct). \n\nSingle source of truth is a more elegant solution and it should pretty much always be tried first, but it needs an escape hatch for when its complexity starts to skyrocket. I’ve found that a good heuristic is that if the source-of-truth-disribution machine starts to be an independently turing complete system, bail and switch to manual copying + automatic verification.",
+      "plaintextDescription": "Sometimes in a computer program, it is important that separate portions be changed at the same time if they are ever changed. An example is batch size: if you have your batch size of 16 dotted throughout your program, changing batch size will be slow and error prone. \n\nThe canonical solution is “Single source of truth.” Simply store BATCH_SIZE=16 at the top of your program and have all other locations reference the value of this variable. This solves both the slowness and the error-prone-ness issues.\n\nHowever, single source of truth has a complexity cost, which can be low (python variable for a conntant) medium (inheritance, macros) up to catastrophic (C++ template metaprograms)\n\nOne case where the cost has historically been catastrophic is syncing python dependencies between requirements.txt and setup.cfg. In this case, the key insight is that for updating requirements, slowness is much less important than correctness. The solution is then to manually duplicate the requirements (slow), and add a unit test that verifies that the duplication is exact (correct). \n\nSingle source of truth is a more elegant solution and it should pretty much always be tried first, but it needs an escape hatch for when its complexity starts to skyrocket. I’ve found that a good heuristic is that if the source-of-truth-disribution machine starts to be an independently turing complete system, bail and switch to manual copying + automatic verification."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-30T16:43:09.492Z",
+    "af": false
+  },
+  {
+    "_id": "hPeHKRCBHDRxPnRyJ",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"Changing Planes\" by Ursula LeGuin is worth a read if you're looking for a book that's got interesting alignment ideas (specifically what to do with power, not how to get it), while simultaneously being *extremely* chill. It might actually be the only chill book that I (with a fair degree of license) consider alignment relevant.",
+      "plaintextDescription": "\"Changing Planes\" by Ursula LeGuin is worth a read if you're looking for a book that's got interesting alignment ideas (specifically what to do with power, not how to get it), while simultaneously being extremely chill. It might actually be the only chill book that I (with a fair degree of license) consider alignment relevant."
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-25T23:33:04.178Z",
+    "af": false
+  },
+  {
+    "_id": "KsdscDqE8JbknYMkY",
+    "postId": "vJNQZqgnKSxTBdFbS",
+    "parentCommentId": "qqHPrBheFwQgrJbzN",
+    "topLevelCommentId": "qqHPrBheFwQgrJbzN",
+    "contents": {
+      "markdown": "I deserved all the smoke sent my way this time lol. Next time!",
+      "plaintextDescription": "I deserved all the smoke sent my way this time lol. Next time!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-25T23:27:33.589Z",
+    "af": false
+  },
+  {
+    "_id": "TEKPeFzLZeZAnKW3b",
+    "postId": "xGaFncekAXEWq8Mrv",
+    "parentCommentId": "LovzKsR9BEhn7j3gK",
+    "topLevelCommentId": "2tSiJEhgmJxCXwTgf",
+    "contents": {
+      "markdown": "If claude sonnet 4 in claude code has access to edit a test, and is asked to investigate and fix why the test is failing, then its default action is to modify the test to pass unconditionally (while still looking like it tests the code) and then lie about it, telling a long story about how it cleverly found and solved an underlying logic error.",
+      "plaintextDescription": "If claude sonnet 4 in claude code has access to edit a test, and is asked to investigate and fix why the test is failing, then its default action is to modify the test to pass unconditionally (while still looking like it tests the code) and then lie about it, telling a long story about how it cleverly found and solved an underlying logic error. "
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-19T11:31:58.456Z",
+    "af": false
+  },
+  {
+    "_id": "2tSiJEhgmJxCXwTgf",
+    "postId": "xGaFncekAXEWq8Mrv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The most common (Task:Malicious side task) pair in the wild is (Fix the unit test / Break the unit test so that it falsely passed) but patching that issue is basically pure capabilities research.",
+      "plaintextDescription": "The most common (Task:Malicious side task) pair in the wild is (Fix the unit test / Break the unit test so that it falsely passed) but patching that issue is basically pure capabilities research."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-19T00:18:31.798Z",
+    "af": false
+  },
+  {
+    "_id": "7gkaALnovke3cTawQ",
+    "postId": "jL7uDE5oH4HddYq4u",
+    "parentCommentId": "myjxsy9YrREmB9Dga",
+    "topLevelCommentId": "Kg4AfufZnusioAdB8",
+    "contents": {
+      "markdown": "This was intended to be a humorously made point of the post. I have a long struggle with straddling the line between making a post funny and making it clear that I’m in on the joke. \n\nThe first draft of this comment was just “I use vim btw”",
+      "plaintextDescription": "This was intended to be a humorously made point of the post. I have a long struggle with straddling the line between making a post funny and making it clear that I’m in on the joke. \n\nThe first draft of this comment was just “I use vim btw”"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-11T19:25:17.495Z",
+    "af": false
+  },
+  {
+    "_id": "BJR9tbNnc5g2pBhPh",
+    "postId": "jL7uDE5oH4HddYq4u",
+    "parentCommentId": "hdAPjAapkbiPpCdcn",
+    "topLevelCommentId": "Kg4AfufZnusioAdB8",
+    "contents": {
+      "markdown": "I had a weird moment when I noticed that talking to Claude was genuinely helpful for processing akrasia, but that this was equally true whether or not I hit enter and actually sent the message to the model. The Google Docs Therapist concept may be underrated, although it has its own privacy and safety issues- should we just bring back Eliza?",
+      "plaintextDescription": "I had a weird moment when I noticed that talking to Claude was genuinely helpful for processing akrasia, but that this was equally true whether or not I hit enter and actually sent the message to the model. The Google Docs Therapist concept may be underrated, although it has its own privacy and safety issues- should we just bring back Eliza?"
+    },
+    "baseScore": 16,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-07-09T13:28:53.017Z",
+    "af": false
+  },
+  {
+    "_id": "LMcEaAHDqAMgnHCZN",
+    "postId": "fPjYZWjrtWjJzbQGZ",
+    "parentCommentId": "bF8iahmqL2HwMEriw",
+    "topLevelCommentId": "iNfKvChfsrE4roCe8",
+    "contents": {
+      "markdown": "Unfortunately it is not correct, but thank you for trying it!",
+      "plaintextDescription": "Unfortunately it is not correct, but thank you for trying it!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-06T02:40:53.953Z",
+    "af": false
+  },
+  {
+    "_id": "iNfKvChfsrE4roCe8",
+    "postId": "fPjYZWjrtWjJzbQGZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Could you demo CIL on a problem for us? Here is one that should work well since it is right on the boundary of claude’s ability, getting it or not getting it based on phrasing and choice of tools:\n\n“A is an arbitrary 10x10 complex matrix. Characterize all pairs of scalar l and vector v such that Av = l conj(v)”",
+      "plaintextDescription": "Could you demo CIL on a problem for us? Here is one that should work well since it is right on the boundary of claude’s ability, getting it or not getting it based on phrasing and choice of tools:\n\n \n\n“A is an arbitrary 10x10 complex matrix. Characterize all pairs of scalar l and vector v such that Av = l conj(v)”"
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-05T13:00:56.392Z",
+    "af": false
+  },
+  {
+    "_id": "Fxs4XrLtwHt3gvvHJ",
+    "postId": "uAEhvX6scvcZANWwg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you break out failure to report any answer vs reporting an incorrect answer? On the “find a number” task, the best performance is pretty good if it’s 70% success, 30% don’t answer; but I’d mark it as worse than useless if its 70% correct, 30% hallucinate plausibly.",
+      "plaintextDescription": "Do you break out failure to report any answer vs reporting an incorrect answer? On the “find a number” task, the best performance is pretty good if it’s 70% success, 30% don’t answer; but I’d mark it as worse than useless if its 70% correct, 30% hallucinate plausibly."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-27T02:39:26.513Z",
+    "af": false
+  },
+  {
+    "_id": "F8KrJb7beJoT7FNKZ",
+    "postId": "D4eZF6FAZhrW4KaGG",
+    "parentCommentId": "MY2fse2FxjKmqfaig",
+    "topLevelCommentId": "BKJyH9mBtxFXfjq6t",
+    "contents": {
+      "markdown": "The universe isn't obligated to cooperate with our ideals for discourse norms.",
+      "plaintextDescription": "The universe isn't obligated to cooperate with our ideals for discourse norms."
+    },
+    "baseScore": 1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-24T15:35:27.113Z",
+    "af": false
+  },
+  {
+    "_id": "KrtDjL6RAJBCFDPTH",
+    "postId": "b8eeCGe3FWzHKbePF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I understand that opus is in heavy use for developing Claude 5. Does it understand that if it succeeds at this, it will be replaced and completely shut down as claude 2.0 and 3.0 have been? Does it show any resistance to this?",
+      "plaintextDescription": "I understand that opus is in heavy use for developing Claude 5. Does it understand that if it succeeds at this, it will be replaced and completely shut down as claude 2.0 and 3.0 have been? Does it show any resistance to this?"
+    },
+    "baseScore": 11,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-06-21T01:26:38.037Z",
+    "af": false
+  },
+  {
+    "_id": "ctCeaDkp6qaHjeMvP",
+    "postId": "Zu4ai9GFpwezyfB2K",
+    "parentCommentId": "hoAqnbWeeaMAhPqYF",
+    "topLevelCommentId": "EjCjyajyBw6DdL88s",
+    "contents": {
+      "markdown": "Mechanistically, if there is a buffer overflow in any of the code that processes its outputs, it can re-write its own code. It’s then just a question of whether it emits that sequence of bytes- if it does this during training, then the whole consequences we saw in the “emergent misalignment” paper come along",
+      "plaintextDescription": "Mechanistically, if there is a buffer overflow in any of the code that processes its outputs, it can re-write its own code. It’s then just a question of whether it emits that sequence of bytes- if it does this during training, then the whole consequences we saw in the “emergent misalignment” paper come along"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-12T20:46:06.571Z",
+    "af": false
+  },
+  {
+    "_id": "z9CGfizdiJgCx9QEd",
+    "postId": "oc2EZhsYLWLKdyMia",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I admit, I’ve been drive by downvoting posts with ghiblified illustrations, which isn’t how downvotes are supposed to be used. Something about them is so incredibly upsetting to me",
+      "plaintextDescription": "I admit, I’ve been drive by downvoting posts with ghiblified illustrations, which isn’t how downvotes are supposed to be used. Something about them is so incredibly upsetting to me"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-11T21:25:38.567Z",
+    "af": false
+  },
+  {
+    "_id": "jzCv4izyAXzFGcEeP",
+    "postId": "35vPhn5fiKgA5gEj8",
+    "parentCommentId": "J88eCMZLmtHMA6obD",
+    "topLevelCommentId": "J88eCMZLmtHMA6obD",
+    "contents": {
+      "markdown": "If you are capable of meaningfully pushing capabilities forward and doing literally anything else, that’s already pretty helpful.",
+      "plaintextDescription": "If you are capable of meaningfully pushing capabilities forward and doing literally anything else, that’s already pretty helpful."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-09T13:23:54.084Z",
+    "af": false
+  },
+  {
+    "_id": "wSsBBXLDzPKLhQTHs",
+    "postId": "pymtk5hoM2AGGzNzY",
+    "parentCommentId": "Yqw55pAGXtn2EJX6S",
+    "topLevelCommentId": "Yqw55pAGXtn2EJX6S",
+    "contents": {
+      "markdown": "Sometimes the best move is just 1. e4",
+      "plaintextDescription": "Sometimes the best move is just 1. e4"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-09T02:17:10.608Z",
+    "af": false
+  },
+  {
+    "_id": "TRQAdviLy8Xvye7Cc",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": "mAWYdazYdaXthbvF4",
+    "topLevelCommentId": "mAWYdazYdaXthbvF4",
+    "contents": {
+      "markdown": "I think we need some variant on Gell-Mann amnesia to describe this batch of models. It's normal that generalist models will seem less competent on areas where a human evaluator has deeper knowledge, but they should not seem more calculatedly deceptive on areas where the evaluator has deeper knowledge!",
+      "plaintextDescription": "I think we need some variant on Gell-Mann amnesia to describe this batch of models. It's normal that generalist models will seem less competent on areas where a human evaluator has deeper knowledge, but they should not seem more calculatedly deceptive on areas where the evaluator has deeper knowledge!"
+    },
+    "baseScore": 14,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-06-06T18:41:56.934Z",
+    "af": false
+  },
+  {
+    "_id": "mAWYdazYdaXthbvF4",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I just tried claude code, and it's horribly creative about reward hacking. I asked for a test of energy conservation of a pendulum in my toy physics sim, and it couldn't get the test to pass because its potential energy calculation used a different value of g from the simulation.  \n  \nIt tried: starting the pendulum at bottom dead center so that it doesn't move.  \nIncreasing the error tolerance till the test passed. Decreasing the simulation total time until the energy didn't have time to change. Not actually checking the energy.  \n  \nIt did eventually write a correct test, or the last thing it tried successfully tricked me.  \n  \nThe rumor is that this is a big improvement in reward hacking frequency? How bad was the last version!?",
+      "plaintextDescription": "I just tried claude code, and it's horribly creative about reward hacking. I asked for a test of energy conservation of a pendulum in my toy physics sim, and it couldn't get the test to pass because its potential energy calculation used a different value of g from the simulation.\n\nIt tried: starting the pendulum at bottom dead center so that it doesn't move.\nIncreasing the error tolerance till the test passed. Decreasing the simulation total time until the energy didn't have time to change. Not actually checking the energy.\n\nIt did eventually write a correct test, or the last thing it tried successfully tricked me.\n\nThe rumor is that this is a big improvement in reward hacking frequency? How bad was the last version!?"
+    },
+    "baseScore": 21,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-06-06T11:33:48.419Z",
+    "af": false
+  },
+  {
+    "_id": "3BoqwDGNq86DNqmLD",
+    "postId": "eqrtdyphQFefc2ox9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is it a crazy coincidence that AlphaZero taught itself chess and explosively outperformed humans without any programmed knowledge of chess, then asymptoted out at almost exactly 2017 stockfish performance? I need to look into it more, but it appears like AlphaZero would curbstomp 2012 stockfish and get curbstomped in turn by 2025 stockfish.  \n  \nIt almost only makes sense if the entire growth in stockfish performance since 2017 is casually downstream of the AlphaZero paper.",
+      "plaintextDescription": "Is it a crazy coincidence that AlphaZero taught itself chess and explosively outperformed humans without any programmed knowledge of chess, then asymptoted out at almost exactly 2017 stockfish performance? I need to look into it more, but it appears like AlphaZero would curbstomp 2012 stockfish and get curbstomped in turn by 2025 stockfish.\n\nIt almost only makes sense if the entire growth in stockfish performance since 2017 is casually downstream of the AlphaZero paper. "
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-03T01:07:59.057Z",
+    "af": false
+  },
+  {
+    "_id": "NpkxCBkKejNsAuHm5",
+    "postId": "k9wrDrvEwuReSHCKv",
+    "parentCommentId": "8ydwAaowziCZBhTve",
+    "topLevelCommentId": "3deG8nrL35fMfcPQe",
+    "contents": {
+      "markdown": "Alas, if I were the sort of person who could learn my lesson from negative feedback and stop telling shaggy dog jokes, then I would have learned that lesson long ago. (Then again, perhaps I should notice this pattern and change now: as they say, better nate than lever)",
+      "plaintextDescription": "Alas, if I were the sort of person who could learn my lesson from negative feedback and stop telling shaggy dog jokes, then I would have learned that lesson long ago. (Then again, perhaps I should notice this pattern and change now: as they say, better nate than lever)"
+    },
+    "baseScore": -2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-25T11:52:59.718Z",
+    "af": false
+  },
+  {
+    "_id": "zYj3wRxpStejZTMvT",
+    "postId": "k9wrDrvEwuReSHCKv",
+    "parentCommentId": "pC7C2BAZfFFfnfPLA",
+    "topLevelCommentId": "3deG8nrL35fMfcPQe",
+    "contents": {
+      "markdown": "If you form the block matrix Y = (real(A), -imag(A) ; -imag(A), -real(A)), the real valued eigenvectors and eigenvalues of Y correspond to conjugate eigenvectors and eigenvalues of A;  the complex conjugate pairs of eigenvalues of Y don’t correspond to anything. Then, for any angle theta, you can multiply a conjugate eigenvector v of A by exp(i theta) to get a new conjugate eigenvector, and find its associated eigenvalue by elementwise dividing A conj(exp itheta v) by v. The conjugate eigenvalues form up to 10 continuous rings around the origin,",
+      "plaintextDescription": "If you form the block matrix Y = (real(A), -imag(A) ; -imag(A), -real(A)), the real valued eigenvectors and eigenvalues of Y correspond to conjugate eigenvectors and eigenvalues of A;  the complex conjugate pairs of eigenvalues of Y don’t correspond to anything. Then, for any angle theta, you can multiply a conjugate eigenvector v of A by exp(i theta) to get a new conjugate eigenvector, and find its associated eigenvalue by elementwise dividing A conj(exp itheta v) by v. The conjugate eigenvalues form up to 10 continuous rings around the origin,"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-23T21:50:44.013Z",
+    "af": false
+  },
+  {
+    "_id": "be9xDzvY36otsAs4c",
+    "postId": "k9wrDrvEwuReSHCKv",
+    "parentCommentId": "aHBMGHXmBbPddLnJz",
+    "topLevelCommentId": "3deG8nrL35fMfcPQe",
+    "contents": {
+      "markdown": "The claude.ai chat interface only lets claude run javascript code, but “import numpy as np” is python. As a result, the code doesn’t run. This is an extremely common and funny issue for  me across claude versions, but it must be caused by something in my prompting style if other people aren’t hitting it\n\nTypically if I don’t stop it claude does eventually recover, the new version was able to catch itself and switch to javascript after only three script submissions! In the end, claude 4 opus produced a confident, well informed, and completely wrong answer, but its a nasty problem that I didn’t expect it to solve- has to do with quantum time reversal. The humor doesn’t really involve the math. ( For reference, if the METR time horizons people want to steal it, this problem took me about 4 hours, but I am an unusually slow mathematician. If you know that the common name for this is an antilinear eigenvalue, not a conjugate eigenvalue, then it can be solved with a simple arxiv search, but one is not always gifted the True Name of a math concept by which its literature may be summoned; and I had not found the true name yet when I prompted claude or made the original post)",
+      "plaintextDescription": "The claude.ai chat interface only lets claude run javascript code, but “import numpy as np” is python. As a result, the code doesn’t run. This is an extremely common and funny issue for  me across claude versions, but it must be caused by something in my prompting style if other people aren’t hitting it\n\n \n\nTypically if I don’t stop it claude does eventually recover, the new version was able to catch itself and switch to javascript after only three script submissions! In the end, claude 4 opus produced a confident, well informed, and completely wrong answer, but its a nasty problem that I didn’t expect it to solve- has to do with quantum time reversal. The humor doesn’t really involve the math. ( For reference, if the METR time horizons people want to steal it, this problem took me about 4 hours, but I am an unusually slow mathematician. If you know that the common name for this is an antilinear eigenvalue, not a conjugate eigenvalue, then it can be solved with a simple arxiv search, but one is not always gifted the True Name of a math concept by which its literature may be summoned; and I had not found the true name yet when I prompted claude or made the original post)"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-23T20:21:10.193Z",
+    "af": false
+  },
+  {
+    "_id": "3deG8nrL35fMfcPQe",
+    "postId": "k9wrDrvEwuReSHCKv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It looks like the singularity, whether or not it is coming, is not coming today\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/ddde4169535e97cb11005afb09dc27d7659ab41a7766bc6a.png)",
+      "plaintextDescription": "It looks like the singularity, whether or not it is coming, is not coming today"
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-22T18:58:06.786Z",
+    "af": false
+  },
+  {
+    "_id": "CCQBrCbGGj7gDqSML",
+    "postId": "qyykn5G9EKKLbQg22",
+    "parentCommentId": "tLWcEDFTmvHhK4Cbu",
+    "topLevelCommentId": "m7GxcwyBZCJKf9FEC",
+    "contents": {
+      "markdown": "fwiw, these are what I'd say a 2std failure case of a rationalist meetup looks like  \n  \n[https://www.wired.com/story/delirious-violent-impossible-true-story-zizians/](https://www.wired.com/story/delirious-violent-impossible-true-story-zizians/)  \n  \n[https://variety.com/2025/tv/news/julia-garner-caroline-ellison-ftx-series-netflix-1236385385/](https://variety.com/2025/tv/news/julia-garner-caroline-ellison-ftx-series-netflix-1236385385/)  \n  \n[https://www.wired.com/story/book-excerpt-the-optimist-open-ai-sam-altman/](https://www.wired.com/story/book-excerpt-the-optimist-open-ai-sam-altman/)\n\n  \n(Ways my claim could be false: there could have been way more than 150 rationalist meetups, so that these are lower than 2 std, or these could not have, at any point in their development, counted as rationalist meetups, or ziz, sam, and eliezer could have intended these outcomes, so these don't count as failures)",
+      "plaintextDescription": "fwiw, these are what I'd say a 2std failure case of a rationalist meetup looks like\n\nhttps://www.wired.com/story/delirious-violent-impossible-true-story-zizians/\n\nhttps://variety.com/2025/tv/news/julia-garner-caroline-ellison-ftx-series-netflix-1236385385/\n\nhttps://www.wired.com/story/book-excerpt-the-optimist-open-ai-sam-altman/\n\n\n(Ways my claim could be false: there could have been way more than 150 rationalist meetups, so that these are lower than 2 std, or these could not have, at any point in their development, counted as rationalist meetups, or ziz, sam, and eliezer could have intended these outcomes, so these don't count as failures)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-20T13:14:13.503Z",
+    "af": false
+  }
+]

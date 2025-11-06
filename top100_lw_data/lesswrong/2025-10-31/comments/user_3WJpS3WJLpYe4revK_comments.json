@@ -1,0 +1,1457 @@
+[
+  {
+    "_id": "79exEkY9wqyKrdHwh",
+    "postId": "rRLPycsLdjFpZ4cKe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "𝗧𝗵𝗿𝗶𝗹𝗹𝗲𝗱 𝘁𝗼 𝗮𝗻𝗻𝗼𝘂𝗻𝗰𝗲 𝘁𝗵𝗲 𝗮𝗱𝘃𝗶𝘀𝗼𝗿𝘆 𝗽𝗮𝗻𝗲𝗹 𝗳𝗼𝗿 𝘁𝗵𝗲 [𝗔𝗜 𝗦𝗮𝗳𝗲𝘁𝘆 𝗟𝗮𝘄-𝗮-𝘁𝗵𝗼𝗻](https://luma.com/8hv5n7t0) (𝗢𝗰𝘁 𝟮𝟱-𝟮𝟲)!\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nOur participants will receive feedback on their work from four exceptional experts bridging AI safety research, legal practice, and governance:  \n  \n[**Charbel-Raphaël Segerie**](https://www.linkedin.com/in/charbel-raphael-segerie/) \\- Executive Director of the French Center for AI Safety ([**Centre pour la Sécurité de l'IA - CeSIA**](https://www.linkedin.com/company/securite-ia/)), OECD AI expert, and propulsor of the AI Red Lines initiative. His technical research spans RLHF theory, interpretability, and safe-by-design approaches. He has supervised multiple research groups across ML4Good bootcamps, ARENA, and AI safety hackathons, bridging cutting-edge technical AI safety research with practical risk evaluation and governance frameworks.  \n  \n[**Chiara Gallese, Ph.D.**](https://www.linkedin.com/in/chiaragallesephd/)\\- Researcher at [**Tilburg Institute for Law, Technology, and Society (TILT)**](https://www.linkedin.com/company/tilt-tilburg-university/) and an active member of four EU AI Office working groups. Dr. Gallese has co-authored papers with computer scientists on ML fairness and trustworthy AI, conducted testbed experiments addressing bias with NXP Semiconductors, and has managed a portfolio of approximately 200 high-profile cases, many valued in the millions of euros.  \n  \n[**Yelena Ambartsumian**](https://www.linkedin.com/in/yelena-ambartsumian-3501b261/) \\- Founder of [**AMBART LAW PLLC**](https://www.linkedin.com/company/ambart-law-pllc/), a New York City law firm focused on AI governance, data privacy, and intellectual property. Her firm specializes in evaluating AI vendor agreements and helping companies navigate downstream liability risks. Yelena has published in the Harvard International Law Journal on AI and copyright issues, and is a co-chair of [**IAPP**](https://www.linkedin.com/company/iapp/)'s New York KnowledgeNet chapter. She is a graduate of Fordham University School of Law with executive education from Harvard and MIT.  \n  \n[**James Kavanagh**](https://www.linkedin.com/in/jameskavanagh1/) \\- Founder and CEO of [**AI Career Pro**](https://www.linkedin.com/company/aicareerpro/), where he trains professionals in AI governance and safety engineering. Previously, he led AWS's Responsible AI Assurance function and was the Head of Microsoft Azure Government Cloud Engineering for defense and national security sectors. At AWS, James's team was the first to achieve ISO 42001 certification of any global cloud provider.\n\n**​**[**Ze Shen Chin**](https://www.linkedin.com/in/chinzeshen/)\\- Co-lead of the [AI Standards Lab](https://www.aistandardslab.org/) and Research Affiliate with the Oxford Martin AI Governance Initiative. He has contributed to the EU GPAI Code of Practice and analysed various regulatory and governance frameworks. His research currently focuses on AI risk management. Previously, he spent over a decade in the oil and gas industry.  \n  \nThese advisors will review the legal strategies and technical risk assessments our teams produce, providing feedback on practical applicability to AI policy, litigation, and engineering decisions.\n\n**As you can see**, these are people representing the exact key areas of change that we are tackling with the AI Safety Law-a-thon:\n\n*   Industry Governance Engineering practices\n*   BigLaw Litigation\n*   Policy and legal research that informs Regulators\n*   International cooperation on AI Governance (Charbel initiated the [Global Call for AI Red Lines - Signed by Nobel Laureates, Former Heads of State, and 200+ Prominent Figures](https://www.lesswrong.com/posts/vKA2BgpESFZSHaQnT/global-call-for-ai-red-lines-signed-by-nobel-laureates)).\n\n Can't wait to see the results of this legal hackathon. See you there!",
+      "plaintextDescription": "𝗧𝗵𝗿𝗶𝗹𝗹𝗲𝗱 𝘁𝗼 𝗮𝗻𝗻𝗼𝘂𝗻𝗰𝗲 𝘁𝗵𝗲 𝗮𝗱𝘃𝗶𝘀𝗼𝗿𝘆 𝗽𝗮𝗻𝗲𝗹 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗔𝗜 𝗦𝗮𝗳𝗲𝘁𝘆 𝗟𝗮𝘄-𝗮-𝘁𝗵𝗼𝗻 (𝗢𝗰𝘁 𝟮𝟱-𝟮𝟲)!\nOur participants will receive feedback on their work from four exceptional experts bridging AI safety research, legal practice, and governance:\n\nCharbel-Raphaël Segerie - Executive Director of the French Center for AI Safety (Centre pour la Sécurité de l'IA - CeSIA), OECD AI expert, and propulsor of the AI Red Lines initiative. His technical research spans RLHF theory, interpretability, and safe-by-design approaches. He has supervised multiple research groups across ML4Good bootcamps, ARENA, and AI safety hackathons, bridging cutting-edge technical AI safety research with practical risk evaluation and governance frameworks.\n\nChiara Gallese, Ph.D.- Researcher at Tilburg Institute for Law, Technology, and Society (TILT) and an active member of four EU AI Office working groups. Dr. Gallese has co-authored papers with computer scientists on ML fairness and trustworthy AI, conducted testbed experiments addressing bias with NXP Semiconductors, and has managed a portfolio of approximately 200 high-profile cases, many valued in the millions of euros.\n\nYelena Ambartsumian - Founder of AMBART LAW PLLC, a New York City law firm focused on AI governance, data privacy, and intellectual property. Her firm specializes in evaluating AI vendor agreements and helping companies navigate downstream liability risks. Yelena has published in the Harvard International Law Journal on AI and copyright issues, and is a co-chair of IAPP's New York KnowledgeNet chapter. She is a graduate of Fordham University School of Law with executive education from Harvard and MIT.\n\nJames Kavanagh - Founder and CEO of AI Career Pro, where he trains professionals in AI governance and safety engineering. Previously, he led AWS's Responsible AI Assurance function and was the Head of Microsoft Azure Government Cloud Engineering for defense and national security sectors"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-19T11:36:41.076Z",
+    "af": false
+  },
+  {
+    "_id": "zX5aAzq6bdBD8jQYK",
+    "postId": "xGNnBmtAL5F5vBKRf",
+    "parentCommentId": "kHKJb848bJtn6vDrG",
+    "topLevelCommentId": "kHKJb848bJtn6vDrG",
+    "contents": {
+      "markdown": "Closing our Advisory panel with one last amazing addition!\n\n**​**[**Ze Shen Chin**](https://www.linkedin.com/in/chinzeshen/)\n----------------------------------------------------------------\n\n​Co-lead of the [AI Standards Lab](https://www.aistandardslab.org/) and Research Affiliate with the Oxford Martin AI Governance Initiative. He has contributed to the EU GPAI Code of Practice and analysed various regulatory and governance frameworks. His research currently focuses on AI risk management. Previously, he spent over a decade in the oil and gas industry.",
+      "plaintextDescription": "Closing our Advisory panel with one last amazing addition!\n\n\nZe Shen Chin\nCo-lead of the AI Standards Lab and Research Affiliate with the Oxford Martin AI Governance Initiative. He has contributed to the EU GPAI Code of Practice and analysed various regulatory and governance frameworks. His research currently focuses on AI risk management. Previously, he spent over a decade in the oil and gas industry.\n\n "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-19T11:23:02.254Z",
+    "af": false
+  },
+  {
+    "_id": "cNuPT6hJDGBZpGzvY",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "voXhCLjqhHSjcZwcj",
+    "topLevelCommentId": "BMiKdM2TwgrhrZjwS",
+    "contents": {
+      "markdown": "Thank you! You've managed to explain exactly what I thought when I saw this link. And re the LinkedIn comment - I'm actually surprised that people are surprised. I know people who post very high quality articles there, but mostly it's become slop land. The pattern I'm noticing is: LinkedIn writers who value quality slowly transitioning to Substack, and those in their audiences that *want to think* moving with them.",
+      "plaintextDescription": "Thank you! You've managed to explain exactly what I thought when I saw this link. And re the LinkedIn comment - I'm actually surprised that people are surprised. I know people who post very high quality articles there, but mostly it's become slop land. The pattern I'm noticing is: LinkedIn writers who value quality slowly transitioning to Substack, and those in their audiences that want to think moving with them. "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-13T07:36:31.403Z",
+    "af": false
+  },
+  {
+    "_id": "BrkpniuxCTaKSxhi5",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "nS7xtqEQ82hChJstJ",
+    "topLevelCommentId": "BMiKdM2TwgrhrZjwS",
+    "contents": {
+      "markdown": "It's not a conference, it's an online course and it's one of the most popular among privacy professionals. The most popular being those offered by IAPP (International Association of Privacy Professionals). She's legitimately that well regarded. I'd love to know where the disconnect is for you? \n\nAlthough ironically, I was talking to my boyfriend about how people in law or compliance would have the same reaction (\"what? This guy is important?\") if I said so about Zvi and just linked his Substack XD. I guess different impressions in different communities.",
+      "plaintextDescription": "It's not a conference, it's an online course and it's one of the most popular among privacy professionals. The most popular being those offered by IAPP (International Association of Privacy Professionals). She's legitimately that well regarded. I'd love to know where the disconnect is for you? \n\n \n\nAlthough ironically, I was talking to my boyfriend about how people in law or compliance would have the same reaction (\"what? This guy is important?\") if I said so about Zvi and just linked his Substack XD. I guess different impressions in different communities. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-13T07:30:09.430Z",
+    "af": false
+  },
+  {
+    "_id": "rJQNyEgEmGYwAeA74",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "ToHnv7BLnDuNvbQKn",
+    "topLevelCommentId": "BMiKdM2TwgrhrZjwS",
+    "contents": {
+      "markdown": "This is what she says:\n\n> Why read:\n\n> Although, in general, I disagree with catastrophic framings of AI risk (which have been exploited by AI CEOs to increase interest in their products, as I recently wrote in my newsletter), the AI safety debate is an important one, and it concerns all of us.\n\n> There are differing opinions on the current path of AI development and its possible futures. There are also various gray zones and unanswered questions on possible ways to mitigate risk and avoid harm.\n\n> Yudkowsky has been researching AI alignment for over 20 years, and together with Soares, he has built a strong argument for why AI safety concerns are urgent and why action is needed now. Whether you agree with their tone or not, their book is worth reading.",
+      "plaintextDescription": "This is what she says:\n\n> Why read:\n\n> Although, in general, I disagree with catastrophic framings of AI risk (which have been exploited by AI CEOs to increase interest in their products, as I recently wrote in my newsletter), the AI safety debate is an important one, and it concerns all of us.\n\n> There are differing opinions on the current path of AI development and its possible futures. There are also various gray zones and unanswered questions on possible ways to mitigate risk and avoid harm.\n\n> Yudkowsky has been researching AI alignment for over 20 years, and together with Soares, he has built a strong argument for why AI safety concerns are urgent and why action is needed now. Whether you agree with their tone or not, their book is worth reading."
+    },
+    "baseScore": 30,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-10-12T17:38:37.258Z",
+    "af": false
+  },
+  {
+    "_id": "ysyyH9bLhLC7XcuvP",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "Erj6ZJwgwLaMoHfLs",
+    "topLevelCommentId": "BMiKdM2TwgrhrZjwS",
+    "contents": {
+      "markdown": "Perhaps this is a better reference point: https://academy.aitechprivacy.com/ai-governance-training  \n  \nHer academy is very, very popular among Tech DPOs and lawyers (data protection officers). I am not saying she isn't a typical Linkedin influencer.   \n  \nBut her posting about something, in the data protection and corp AI Governance [^kx2b6zqvtg]world (in terms of influence), is akin to us seeing Zvi Mowshowitz post about something. Does this make sense? \n\n[^kx2b6zqvtg]: DPOs are mostly also doing AI Governance in the tech and tech adjacent industry now. I should do a post about this because it may be part of the problem soon.",
+      "plaintextDescription": "Perhaps this is a better reference point: https://academy.aitechprivacy.com/ai-governance-training\n\nHer academy is very, very popular among Tech DPOs and lawyers (data protection officers). I am not saying she isn't a typical Linkedin influencer. \n\nBut her posting about something, in the data protection and corp AI Governance [1]world (in terms of influence), is akin to us seeing Zvi Mowshowitz post about something. Does this make sense? \n\n 1. ^\n    DPOs are mostly also doing AI Governance in the tech and tech adjacent industry now. I should do a post about this because it may be part of the problem soon."
+    },
+    "baseScore": 6,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-12T16:53:05.913Z",
+    "af": false
+  },
+  {
+    "_id": "BMiKdM2TwgrhrZjwS",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Luiza Jarovsky** [**just endorsed IABIED.**](https://www.linkedin.com/feed/update/urn:li:activity:7382878263934832640/) **This is actually significant.**\n\nLuiza Jarovsky is one of the most influential people in the corporate AI Governance space right now: her newsletter has 80,000+ subscribers (mostly lawyers in the Data and Tech space) and has trained 1,300+ professionals from Google, Amazon, Microsoft, Meta, Apple, and the likes.  \n  \nHer audience are basically compliance lawyers who think AI safety means \"don't be racist\" not \"don't kill everyone.\" For her to recommend IABIED to that network is a **non-trivial update on Overton** window movement. These people literally sit in deployment decision meetings at Fortune 500s.\n\nCorporate governance crowd is normally immune to longtermist args, but IABIED is cracking that.",
+      "plaintextDescription": "Luiza Jarovsky just endorsed IABIED. This is actually significant.\n\nLuiza Jarovsky is one of the most influential people in the corporate AI Governance space right now: her newsletter has 80,000+ subscribers (mostly lawyers in the Data and Tech space) and has trained 1,300+ professionals from Google, Amazon, Microsoft, Meta, Apple, and the likes.\n\nHer audience are basically compliance lawyers who think AI safety means \"don't be racist\" not \"don't kill everyone.\" For her to recommend IABIED to that network is a non-trivial update on Overton window movement. These people literally sit in deployment decision meetings at Fortune 500s.\n\nCorporate governance crowd is normally immune to longtermist args, but IABIED is cracking that. "
+    },
+    "baseScore": 69,
+    "voteCount": 46,
+    "createdAt": null,
+    "postedAt": "2025-10-12T14:17:36.197Z",
+    "af": false
+  },
+  {
+    "_id": "kHKJb848bJtn6vDrG",
+    "postId": "xGNnBmtAL5F5vBKRf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "𝗧𝗵𝗿𝗶𝗹𝗹𝗲𝗱 𝘁𝗼 𝗮𝗻𝗻𝗼𝘂𝗻𝗰𝗲 𝘁𝗵𝗲 𝗮𝗱𝘃𝗶𝘀𝗼𝗿𝘆 𝗽𝗮𝗻𝗲𝗹 𝗳𝗼𝗿 𝘁𝗵𝗲 [𝗔𝗜 𝗦𝗮𝗳𝗲𝘁𝘆 𝗟𝗮𝘄-𝗮-𝘁𝗵𝗼𝗻](https://luma.com/8hv5n7t0) (𝗢𝗰𝘁 𝟮𝟱-𝟮𝟲)!\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n\nOur participants will receive feedback on their work from four exceptional experts bridging AI safety research, legal practice, and governance:  \n  \n[**Charbel-Raphaël Segerie**](https://www.linkedin.com/in/charbel-raphael-segerie/) \\- Executive Director of the French Center for AI Safety ([**Centre pour la Sécurité de l'IA - CeSIA**](https://www.linkedin.com/company/securite-ia/)), OECD AI expert, and propulsor of the AI Red Lines initiative. His technical research spans RLHF theory, interpretability, and safe-by-design approaches. He has supervised multiple research groups across ML4Good bootcamps, ARENA, and AI safety hackathons, bridging cutting-edge technical AI safety research with practical risk evaluation and governance frameworks.  \n  \n[**Chiara Gallese, Ph.D.**](https://www.linkedin.com/in/chiaragallesephd/)\\- Researcher at [**Tilburg Institute for Law, Technology, and Society (TILT)**](https://www.linkedin.com/company/tilt-tilburg-university/) and an active member of four EU AI Office working groups. Dr. Gallese has co-authored papers with computer scientists on ML fairness and trustworthy AI, conducted testbed experiments addressing bias with NXP Semiconductors, and has managed a portfolio of approximately 200 high-profile cases, many valued in the millions of euros.  \n  \n[**Yelena Ambartsumian**](https://www.linkedin.com/in/yelena-ambartsumian-3501b261/) \\- Founder of [**AMBART LAW PLLC**](https://www.linkedin.com/company/ambart-law-pllc/), a New York City law firm focused on AI governance, data privacy, and intellectual property. Her firm specializes in evaluating AI vendor agreements and helping companies navigate downstream liability risks. Yelena has published in the Harvard International Law Journal on AI and copyright issues, and is a co-chair of [**IAPP**](https://www.linkedin.com/company/iapp/)'s New York KnowledgeNet chapter. She is a graduate of Fordham University School of Law with executive education from Harvard and MIT.  \n  \n[**James Kavanagh**](https://www.linkedin.com/in/jameskavanagh1/) \\- Founder and CEO of [**AI Career Pro**](https://www.linkedin.com/company/aicareerpro/), where he trains professionals in AI governance and safety engineering. Previously, he led AWS's Responsible AI Assurance function and was the Head of Microsoft Azure Government Cloud Engineering for defense and national security sectors. At AWS, James's team was the first to achieve ISO 42001 certification of any global cloud provider.  \n  \nThese advisors will review the legal strategies and technical risk assessments our teams produce, providing feedback on practical applicability to AI policy, litigation, and engineering decisions.\n\n**As you can see**, these are people representing the exact key areas of change that we are tackling with the AI Safety Law-a-thon:\n\n*   Industry Governance Engineering practices\n*   BigLaw Litigation\n*   Policy and legal research that informs Regulators\n*   International cooperation on AI Governance (Charbel initiated the [Global Call for AI Red Lines - Signed by Nobel Laureates, Former Heads of State, and 200+ Prominent Figures](https://www.lesswrong.com/posts/vKA2BgpESFZSHaQnT/global-call-for-ai-red-lines-signed-by-nobel-laureates)).\n\n Can't wait to see the results of this legal hackathon. See you there!",
+      "plaintextDescription": "𝗧𝗵𝗿𝗶𝗹𝗹𝗲𝗱 𝘁𝗼 𝗮𝗻𝗻𝗼𝘂𝗻𝗰𝗲 𝘁𝗵𝗲 𝗮𝗱𝘃𝗶𝘀𝗼𝗿𝘆 𝗽𝗮𝗻𝗲𝗹 𝗳𝗼𝗿 𝘁𝗵𝗲 𝗔𝗜 𝗦𝗮𝗳𝗲𝘁𝘆 𝗟𝗮𝘄-𝗮-𝘁𝗵𝗼𝗻 (𝗢𝗰𝘁 𝟮𝟱-𝟮𝟲)!\nOur participants will receive feedback on their work from four exceptional experts bridging AI safety research, legal practice, and governance:\n\nCharbel-Raphaël Segerie - Executive Director of the French Center for AI Safety (Centre pour la Sécurité de l'IA - CeSIA), OECD AI expert, and propulsor of the AI Red Lines initiative. His technical research spans RLHF theory, interpretability, and safe-by-design approaches. He has supervised multiple research groups across ML4Good bootcamps, ARENA, and AI safety hackathons, bridging cutting-edge technical AI safety research with practical risk evaluation and governance frameworks.\n\nChiara Gallese, Ph.D.- Researcher at Tilburg Institute for Law, Technology, and Society (TILT) and an active member of four EU AI Office working groups. Dr. Gallese has co-authored papers with computer scientists on ML fairness and trustworthy AI, conducted testbed experiments addressing bias with NXP Semiconductors, and has managed a portfolio of approximately 200 high-profile cases, many valued in the millions of euros.\n\nYelena Ambartsumian - Founder of AMBART LAW PLLC, a New York City law firm focused on AI governance, data privacy, and intellectual property. Her firm specializes in evaluating AI vendor agreements and helping companies navigate downstream liability risks. Yelena has published in the Harvard International Law Journal on AI and copyright issues, and is a co-chair of IAPP's New York KnowledgeNet chapter. She is a graduate of Fordham University School of Law with executive education from Harvard and MIT.\n\nJames Kavanagh - Founder and CEO of AI Career Pro, where he trains professionals in AI governance and safety engineering. Previously, he led AWS's Responsible AI Assurance function and was the Head of Microsoft Azure Government Cloud Engineering for defense and national security sectors"
+    },
+    "baseScore": 13,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-10T10:22:40.303Z",
+    "af": false
+  },
+  {
+    "_id": "9PMdAciW2GzikEtmD",
+    "postId": "xGNnBmtAL5F5vBKRf",
+    "parentCommentId": "Fe9x5kYciPibukCD4",
+    "topLevelCommentId": "Fe9x5kYciPibukCD4",
+    "contents": {
+      "markdown": "Hi!  Thank you for your comment. \n\nI am an experienced industry professional, and most of the legal participants are coming directly from [my network](https://www.linkedin.com/in/katalina-hernandez/), or found out about the event via the CAIDP channel / Women in AI Governance / Kevin Fumai's update. \n\nIt is the first time I cooperate with AI Plans but Kabir has [successfully conducted Hackathons](https://aiplans.substack.com/p/december-critique-a-thon-results) in the past, more focused on AI Evaluations. In fact, AI Plan's December 2023 had quite reputable judges such as Nate Soares, Ramana Kumar, and Charbel Raphael.  \n  \nWe provide preparatory materials to confirmed participants. \n\nBest,   \nKatalina.",
+      "plaintextDescription": "Hi!  Thank you for your comment. \n\nI am an experienced industry professional, and most of the legal participants are coming directly from my network, or found out about the event via the CAIDP channel / Women in AI Governance / Kevin Fumai's update. \n\nIt is the first time I cooperate with AI Plans but Kabir has successfully conducted Hackathons in the past, more focused on AI Evaluations. In fact, AI Plan's December 2023 had quite reputable judges such as Nate Soares, Ramana Kumar, and Charbel Raphael.\n\nWe provide preparatory materials to confirmed participants. \n\nBest, \nKatalina. "
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-08T09:11:15.443Z",
+    "af": false
+  },
+  {
+    "_id": "xPfedRYq2ZiWJe5h5",
+    "postId": "dSG6ign997hjHC9mG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Another shocking development for me was seeing Accenture, one of the largest Tech consultancies in the world, [](https://economictimes.indiatimes.com/news/new-updates/you-are-just-an-id-number-startup-founder-shares-blunt-advice-as-accenture-lays-off-11000-employees/articleshow/124211629.cms?from=mdr) [fire 11 000 employees](https://futurism.com/future-society/accenture-layoffs-ai) because they \"*cannot be upskilled to embrace AI*\".",
+      "plaintextDescription": "Another shocking development for me was seeing Accenture, one of the largest Tech consultancies in the world, fire 11 000 employees because they \"cannot be upskilled to embrace AI\". \n\n "
+    },
+    "baseScore": 12,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-07T14:51:56.188Z",
+    "af": false
+  },
+  {
+    "_id": "dYfh2Ber6pXEAMixP",
+    "postId": "dSG6ign997hjHC9mG",
+    "parentCommentId": "RCdPWtPJk4zwKYqcz",
+    "topLevelCommentId": "RCdPWtPJk4zwKYqcz",
+    "contents": {
+      "markdown": "Substack is very valuable for reach, and visibility to a broader audience.\n\nCoincidentally, my boss is Albanian (Lead Counsel for a big entity). I saw those news, sent her your paper, messaged \"The authors would say this is the start of gradual disempowerment\".\n\nShe read the paper.\n\nThis is how I was able to introduce AI Safety in our regular conversations 🙏🏼.",
+      "plaintextDescription": "Substack is very valuable for reach, and visibility to a broader audience.\n\nCoincidentally, my boss is Albanian (Lead Counsel for a big entity). I saw those news, sent her your paper, messaged \"The authors would say this is the start of gradual disempowerment\".\n\nShe read the paper.\n\nThis is how I was able to introduce AI Safety in our regular conversations 🙏🏼. "
+    },
+    "baseScore": 15,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-10-06T21:54:10.467Z",
+    "af": false
+  },
+  {
+    "_id": "KpaJAEknjdbrCeqhX",
+    "postId": "rRLPycsLdjFpZ4cKe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Good news!   \nFor those of you who want to join in person, the venue will be LISA!  \n**London Initiative for Safe AI (LISA):** [25 Holywell Row, London EC2A 4XE, United Kingdom](https://www.google.com/maps/place//data=!4m2!3m1!1s0x48761d0f5996c15d:0xaf2d8f95f22ddc7a?sa=X&ved=1t:8290&ictx=111)  \n  \nSee you there on 25th and 26th October! But please, do register via this link first (you can apply for the subsidized ticket if you're a technical researcher): [https://luma.com/8hv5n7t0](https://luma.com/8hv5n7t0)",
+      "plaintextDescription": "Good news! \nFor those of you who want to join in person, the venue will be LISA!\nLondon Initiative for Safe AI (LISA): 25 Holywell Row, London EC2A 4XE, United Kingdom\n\nSee you there on 25th and 26th October! But please, do register via this link first (you can apply for the subsidized ticket if you're a technical researcher): https://luma.com/8hv5n7t0 "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-05T14:46:36.624Z",
+    "af": false
+  },
+  {
+    "_id": "PohxtNHbosuxPZKbC",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "RBsa9aiyuLeSfhGQv",
+    "topLevelCommentId": "RBsa9aiyuLeSfhGQv",
+    "contents": {
+      "markdown": "Agreed! I'd be curious to know if the natsec experts that you've engaged with would recommend other international law instruments that do not require ratification. \n\nThis [presentation by UNECE](https://unece.org/sites/default/files/2022-09/Presentation%206.pdf) actually does a decent job at providing straight-forward explanations for what a Treaty is, differences with Conventions, Charters, declarations... (In case anyone following this thread finds it useful).\n\nPersonally, I am more concerned about avoiding agreement [terms or definitions that are too easy to game](https://www.lesswrong.com/posts/agBMC6BfCbQ29qABF/the-problem-with-defining-an-agi-ban-by-outcome-a-lawyer-s)\\- specially if the chosen legal instrument requires transposition into national law (e.g.: to make it binding in the EU, having to pass a regulation).",
+      "plaintextDescription": "Agreed! I'd be curious to know if the natsec experts that you've engaged with would recommend other international law instruments that do not require ratification. \n\nThis presentation by UNECE actually does a decent job at providing straight-forward explanations for what a Treaty is, differences with Conventions, Charters, declarations... (In case anyone following this thread finds it useful).\n\nPersonally, I am more concerned about avoiding agreement terms or definitions that are too easy to game- specially if the chosen legal instrument requires transposition into national law (e.g.: to make it binding in the EU, having to pass a regulation). "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-30T09:10:19.851Z",
+    "af": false
+  },
+  {
+    "_id": "fiDsJ5gSAqstnvz5x",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "3rZG3Zj8moHMikHf5",
+    "topLevelCommentId": "3rZG3Zj8moHMikHf5",
+    "contents": {
+      "markdown": "I think you're thinking about this in a very useful way!\n\nIf we can narrow down a specific (but broad enough) set of capabilities that we consider illegal to incentivise, then this would be workable.\n\nAnd yes, when I say \"fines as cost of doing business\": this is a very common conclusion that DPOs[^lbrfqgfnbq] in Europe come to when asked about the effectiveness of GDPR enforcement. \n\nIt's way too easy for big corporations to just calculate and set off the cost of the fine against the profit margin produced by \"the not compliant action\".\n\nWhich is why I do support the idea of \"banning\" dangerous development, and how I started thinking about the definitions to begin with.\n\nAgain, really useful comment!\n\n[^lbrfqgfnbq]: Data Protection Officers",
+      "plaintextDescription": "I think you're thinking about this in a very useful way!\n\nIf we can narrow down a specific (but broad enough) set of capabilities that we consider illegal to incentivise, then this would be workable.\n\nAnd yes, when I say \"fines as cost of doing business\": this is a very common conclusion that DPOs[1] in Europe come to when asked about the effectiveness of GDPR enforcement. \n\nIt's way too easy for big corporations to just calculate and set off the cost of the fine against the profit margin produced by \"the not compliant action\".\n\nWhich is why I do support the idea of \"banning\" dangerous development, and how I started thinking about the definitions to begin with.\n\nAgain, really useful comment!\n\n \n\n 1. ^\n    Data Protection Officers"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-28T12:08:33.148Z",
+    "af": false
+  },
+  {
+    "_id": "65TvFLmFTk6nBqJWG",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "BGbsKHrjiK6mrpGuB",
+    "topLevelCommentId": "DQ3Btwb6AtihGvARS",
+    "contents": {
+      "markdown": "Thank you! I think this is deeply subjective and I disclaimed that I'm still forming my thoughts around this.\n\nYes, the business justification is the cost-effective angle. But I can also see how people in the sector are almost started to be \"shamed\" for not using AI, and this type of incentive (\"use it ot lose it, and be subject to bureaucracy\") will only lead to more of this. \n\nComing from a data privacy background, I guess I'm particularly allergic to anything that forces people to agree to things, that's not consent. Also, it'll become less and less common to see 100% human generated emails and reports. Even for functions that wouldn't typically use AI.\n\nI guess I'm extra alert (as a data and RespAI person) for the moment people really cannot opt out from AI use in their roles... \n\nBut I 100% accept that there isn't an obvious connection, thanks for raising it.",
+      "plaintextDescription": "Thank you! I think this is deeply subjective and I disclaimed that I'm still forming my thoughts around this.\n\nYes, the business justification is the cost-effective angle. But I can also see how people in the sector are almost started to be \"shamed\" for not using AI, and this type of incentive (\"use it ot lose it, and be subject to bureaucracy\") will only lead to more of this. \n\nComing from a data privacy background, I guess I'm particularly allergic to anything that forces people to agree to things, that's not consent. Also, it'll become less and less common to see 100% human generated emails and reports. Even for functions that wouldn't typically use AI.\n\nI guess I'm extra alert (as a data and RespAI person) for the moment people really cannot opt out from AI use in their roles... \n\nBut I 100% accept that there isn't an obvious connection, thanks for raising it."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-24T15:53:48.229Z",
+    "af": false
+  },
+  {
+    "_id": "oN7LmNG3ypAZwhf2W",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "KBovxQvujjaCRQadC",
+    "topLevelCommentId": "dozJ2TuzDvRzMnrF2",
+    "contents": {
+      "markdown": "Oh :/. Thank you for bringing this to my attention!",
+      "plaintextDescription": "Oh :/. Thank you for bringing this to my attention!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-24T13:34:00.582Z",
+    "af": false
+  },
+  {
+    "_id": "mMiysHx3NbeLchHKe",
+    "postId": "vKA2BgpESFZSHaQnT",
+    "parentCommentId": "7MJMEbQ4ZJdk7pKFZ",
+    "topLevelCommentId": "cSrETsPbdmhG9JCur",
+    "contents": {
+      "markdown": "This is a very valuable clarification, and I agree[^t84kfpgzil]. I really appreciate your focus on policy feasibility and concrete approaches.\n\nFrom my own experience: most people outside AI Safety in the regulatory space, either: lack sufficient background knowledge about timelines and existential risk to meaningfully engage with these concerns and commit to enforceable measures[^zhetsw2hty] , or those with some familiarity [become more skeptical due to the lack of consensus](https://learntechmaury.substack.com/p/who-to-believe-about-ai) on probabilities, timelines, and definitions.\n\nI will be following this initiative closely and promoting it to the best of my ability. \n\nEDIT: I've signed with my institutional email and title. \n\n[^t84kfpgzil]: For transparency: I knew about the red lines project before it was published. Furthermore, Charbel / CeSIA's past work have shifted my own views on policy and international cooperation.  \n\n[^zhetsw2hty]: I expect that the popularity of IABIED and more involvent from AI Safety figures in policy will shift the Overton window in this regard.",
+      "plaintextDescription": "This is a very valuable clarification, and I agree[1]. I really appreciate your focus on policy feasibility and concrete approaches.\n\nFrom my own experience: most people outside AI Safety in the regulatory space, either: lack sufficient background knowledge about timelines and existential risk to meaningfully engage with these concerns and commit to enforceable measures[2] , or those with some familiarity become more skeptical due to the lack of consensus on probabilities, timelines, and definitions.\n\nI will be following this initiative closely and promoting it to the best of my ability. \n\nEDIT: I've signed with my institutional email and title. \n\n 1. ^\n    For transparency: I knew about the red lines project before it was published. Furthermore, Charbel / CeSIA's past work have shifted my own views on policy and international cooperation. \n\n 2. ^\n    I expect that the popularity of IABIED and more involvent from AI Safety figures in policy will shift the Overton window in this regard."
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-24T12:56:30.990Z",
+    "af": false
+  },
+  {
+    "_id": "DQ3Btwb6AtihGvARS",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "*(Epistemic status: This is a recent experience that disappointed me personally. I'm not making formal claims or making representations for the specific company. I'm sharing this because it shifted my thinking about AI adoption incentives in ways that might be relevant to this community's discussions about \"responsible AI\").*  \n  \nI received an email to my corporate account informing me that my MS Copilot license was revoked.   \nWhy? To save money, the company I work at revokes employees' Copilot licenses **if they \"fail to use it\"** for 30 days in a row...   \n  \nI've been on annual leave, and I simply did not need Copilot during the last month. So, I had to get my line manager to request that my license is reinstated if I wanted to have access to the only \"approved\" AI tool available to us.  \n  \nIn data privacy, we use the term \"[dark pattern](https://www.aepd.es/en/prensa-y-comunicacion/blog/dark-patterns-manipulation-in-internet-services)\" to refer to covert UX practices that trick users into accepting terms that don't respect their data rights, or the general principle of users' choice. It's difficult to explain why, but this practice (\"punishing\" a worker for not using an AI tool for a month) sparks the same instincts in me as manipulative dark patterns.   \n  \nI will be more inclined towards using AI for everyday tasks because, if I don't and my license gets revoked, I'll have to deal with an annoying bureaucratic process to get it back. I think there is a difference between allowing responsible use of technology and low-key forcing your staff to use AI. This sounds more like the latter.  \n  \nThis (and yesterday's [debate about LLM usage](https://www.lesswrong.com/posts/agBMC6BfCbQ29qABF/the-problem-with-defining-an-agi-ban-by-outcome-a-lawyer-s)) really makes me second-guess some beliefs I had about \"reponsible AI\" practices. I do not think I am ready to write a more thorough comment about it[^8slczbyrpxb], but I thought this may be interesting for others to read.\n\n[^8slczbyrpxb]: I'll probably write something on Linkedin, because I do want other people in the industry to see this. I'll also cross-post to my Substack.",
+      "plaintextDescription": "(Epistemic status: This is a recent experience that disappointed me personally. I'm not making formal claims or making representations for the specific company. I'm sharing this because it shifted my thinking about AI adoption incentives in ways that might be relevant to this community's discussions about \"responsible AI\").\n\nI received an email to my corporate account informing me that my MS Copilot license was revoked. \nWhy? To save money, the company I work at revokes employees' Copilot licenses if they \"fail to use it\" for 30 days in a row... \n\nI've been on annual leave, and I simply did not need Copilot during the last month. So, I had to get my line manager to request that my license is reinstated if I wanted to have access to the only \"approved\" AI tool available to us.\n\nIn data privacy, we use the term \"dark pattern\" to refer to covert UX practices that trick users into accepting terms that don't respect their data rights, or the general principle of users' choice. It's difficult to explain why, but this practice (\"punishing\" a worker for not using an AI tool for a month) sparks the same instincts in me as manipulative dark patterns. \n\nI will be more inclined towards using AI for everyday tasks because, if I don't and my license gets revoked, I'll have to deal with an annoying bureaucratic process to get it back. I think there is a difference between allowing responsible use of technology and low-key forcing your staff to use AI. This sounds more like the latter.\n\nThis (and yesterday's debate about LLM usage) really makes me second-guess some beliefs I had about \"reponsible AI\" practices. I do not think I am ready to write a more thorough comment about it[1], but I thought this may be interesting for others to read.\n\n 1. ^\n    I'll probably write something on Linkedin, because I do want other people in the industry to see this. I'll also cross-post to my Substack. "
+    },
+    "baseScore": 19,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-09-24T10:52:01.917Z",
+    "af": false
+  },
+  {
+    "_id": "Gdk8aYS4MZpZuhyy3",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "zTYZg3Wtg8LMdK9JC",
+    "topLevelCommentId": "zTYZg3Wtg8LMdK9JC",
+    "contents": {
+      "markdown": "Thank you! Curious to know what you think of the recent [Global Call for AI Red Lines - Signed by Nobel Laureates, Former Heads of State, and 200+ Prominent Figures](https://www.lesswrong.com/posts/vKA2BgpESFZSHaQnT/global-call-for-ai-red-lines-signed-by-nobel-laureates) put forward by CeSIA. It is not an \"AGI ban\", nor does it actually propose concrete red lines- it just demands that such red lines are agreed upon by global leaders.   \n  \nRe \"a big reason I tend towards technical work over governance myself\"- yes! I am very grateful for those focusing on \"actually solving the problem\" rather than preparing for catastrophic events. I am sitting on the latter, yet my biggest hope for the future sits with people who work on the technical research side :).",
+      "plaintextDescription": "Thank you! Curious to know what you think of the recent Global Call for AI Red Lines - Signed by Nobel Laureates, Former Heads of State, and 200+ Prominent Figures put forward by CeSIA. It is not an \"AGI ban\", nor does it actually propose concrete red lines- it just demands that such red lines are agreed upon by global leaders. \n\nRe \"a big reason I tend towards technical work over governance myself\"- yes! I am very grateful for those focusing on \"actually solving the problem\" rather than preparing for catastrophic events. I am sitting on the latter, yet my biggest hope for the future sits with people who work on the technical research side :)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-24T09:58:04.972Z",
+    "af": false
+  },
+  {
+    "_id": "wigychd5HsgeLYQAY",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "Zf7esncAdwZQhvJhr",
+    "topLevelCommentId": "dozJ2TuzDvRzMnrF2",
+    "contents": {
+      "markdown": " Again, one of my favorite comments in this post! I also appreciate you organising your thoughts at the best of your capacity while acknowledging the unknowns. \n\n**\"The point of this heavy-handed parable is that as long as the frontier labs are intent on building superintelligence, and as long as we allow them to play cute legal games, then our odds may be very bad indeed.\"** I obviously agree, painfully so. And I really appreciate the tangible measures you propose (caps on training runs, controls of data centres). \n\nRegarding the \"Mutually Assured Destruction point\": About two days ago, Dan Hendrycs released an article called [*AI Deterrence is our Best Option*](https://ai-frontiers.org/articles/ai-deterrence-is-our-best-option). Some of the arguments you raised (in connection to your national security experience) reminded me of his Mutual Assured AI Malfunction deterrence framework. I'm curious to know your thoughts!  \n  \nI am definetly not an international cooperation policy expert[^d7d4eag8x4q]. In fact, these discussions and the deep thinking that have gone towards them are giving me a renewed respect for international policy experts. [@Harold](https://www.lesswrong.com/users/harold-1?mention=user) also raised very good points about the different behavious towards \"ambiguity\" (or what I perceive as ambiguous) in different legal systems. In his case, speaking from his experience with the Japanese legal system.   \n  \nIn the future, I will focus on leveraging what I know of international private law (contract laws in multinational deals) to re-think legal strategy using these insights.   \n  \nThis has been very helpful! \n\n[^d7d4eag8x4q]: My legal background is in corporate law, and I have experience working at multinational tech companies and Fintech startups (also, some human rights law experience). Which is why I focus on predictable strategies that tech companies could adopt to \"Goodhart\" their compliance with AI laws or a prohibition to develop AGI.",
+      "plaintextDescription": " Again, one of my favorite comments in this post! I also appreciate you organising your thoughts at the best of your capacity while acknowledging the unknowns. \n\n\"The point of this heavy-handed parable is that as long as the frontier labs are intent on building superintelligence, and as long as we allow them to play cute legal games, then our odds may be very bad indeed.\" I obviously agree, painfully so. And I really appreciate the tangible measures you propose (caps on training runs, controls of data centres). \n\nRegarding the \"Mutually Assured Destruction point\": About two days ago, Dan Hendrycs released an article called AI Deterrence is our Best Option. Some of the arguments you raised (in connection to your national security experience) reminded me of his Mutual Assured AI Malfunction deterrence framework. I'm curious to know your thoughts!\n\nI am definetly not an international cooperation policy expert[1]. In fact, these discussions and the deep thinking that have gone towards them are giving me a renewed respect for international policy experts. @Harold also raised very good points about the different behavious towards \"ambiguity\" (or what I perceive as ambiguous) in different legal systems. In his case, speaking from his experience with the Japanese legal system. \n\nIn the future, I will focus on leveraging what I know of international private law (contract laws in multinational deals) to re-think legal strategy using these insights. \n\nThis has been very helpful! \n\n \n\n 1. ^\n    My legal background is in corporate law, and I have experience working at multinational tech companies and Fintech startups (also, some human rights law experience). Which is why I focus on predictable strategies that tech companies could adopt to \"Goodhart\" their compliance with AI laws or a prohibition to develop AGI. "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-24T09:46:27.842Z",
+    "af": false
+  },
+  {
+    "_id": "PvQxrM4FbBaM4Nesc",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "GTJKzZBWem2oHipm7",
+    "topLevelCommentId": "nrqifLCpCLasQLY78",
+    "contents": {
+      "markdown": "This was added raw by me 🤣 \"We don't have this luxury: we cannot afford an AGI ban that is \"80% avoided.\" In relation to the previous example about tax avoidance.\n\nAs I said to Kave: this is really helpful. I'll keep this feedback present for future occasions. I really believe in the importance of a well-specified AGI ban. I'd rather not risk people taking it less seriously because of details like these! 🙏🏼.",
+      "plaintextDescription": "This was added raw by me 🤣 \"We don't have this luxury: we cannot afford an AGI ban that is \"80% avoided.\" In relation to the previous example about tax avoidance.\n\nAs I said to Kave: this is really helpful. I'll keep this feedback present for future occasions. I really believe in the importance of a well-specified AGI ban. I'd rather not risk people taking it less seriously because of details like these! 🙏🏼."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-23T17:03:28.536Z",
+    "af": false
+  },
+  {
+    "_id": "AbqSzDyCDz6gXooWM",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "zWe5H7HMniLjxpELa",
+    "topLevelCommentId": "nrqifLCpCLasQLY78",
+    "contents": {
+      "markdown": "I actually think that this re-write of the policy would be beneficial. It may not be the default opinion but, for me, I find it better to have a reference document which is well-specified. It also promotes transparency of decision -making, rather than risking moderation looking very subjective or \"vibes-based\". \n\nAs I mentioned in the DM: There's probably an unfair disadvantage on policy or legal writing being \"more similar\" to how an LLM sounds. Naturally, once edited using an LLM, it will likely be even more LLM-sounding than writing about philosophy or fiction. Maybe that's just skill issue 🤣 but that's why I vote for \"yes\" on you adding that change. Again, I will keep this feedback very present in the future (thank you for encouraging me to think more naturally and less over edited. Tbh, I need to untrain myself from \"no mistakes allowed\" legal mindset ☺️).\n\nFun ending remark: I was in a CAIDP meeting recently where we were advised to use a bunch of emojis for policy social media posts. And a bullet pointed structure... But when I've done it, people said it makes it look AI generated... \n\nIn the end, exchanges like these are helping me understand what gets through to people and what doesn't. So, thank you!",
+      "plaintextDescription": "I actually think that this re-write of the policy would be beneficial. It may not be the default opinion but, for me, I find it better to have a reference document which is well-specified. It also promotes transparency of decision -making, rather than risking moderation looking very subjective or \"vibes-based\". \n\nAs I mentioned in the DM: There's probably an unfair disadvantage on policy or legal writing being \"more similar\" to how an LLM sounds. Naturally, once edited using an LLM, it will likely be even more LLM-sounding than writing about philosophy or fiction. Maybe that's just skill issue 🤣 but that's why I vote for \"yes\" on you adding that change. Again, I will keep this feedback very present in the future (thank you for encouraging me to think more naturally and less over edited. Tbh, I need to untrain myself from \"no mistakes allowed\" legal mindset ☺️).\n\nFun ending remark: I was in a CAIDP meeting recently where we were advised to use a bunch of emojis for policy social media posts. And a bullet pointed structure... But when I've done it, people said it makes it look AI generated... \n\nIn the end, exchanges like these are helping me understand what gets through to people and what doesn't. So, thank you! "
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-23T16:38:26.754Z",
+    "af": false
+  },
+  {
+    "_id": "nwdY6dt2rmrkgvkTm",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "qzgrFvBkh2HfwhWpA",
+    "topLevelCommentId": "nrqifLCpCLasQLY78",
+    "contents": {
+      "markdown": "Thank you for your feedback.\n\nAs I said before - I think it's a bit unfair to call it \"LLM writing\" when it was only LLM edited rather than entirely generated. And why I sought clarity on the actual policy (if there is one) is because, if \"LLM writing\" should be scrutinised and put in the spotlight with moderation comments, it'd be helpful to know what counts as LLM writing vs LLM-assisted or edited.\n\nThe wording you've used seems to accuse me of actually generating this post with AI rather than using it to edit the ideas (see Buck's recent comment about how he wrote [Christian homeschoolers in the year 3000](https://www.lesswrong.com/posts/8aRFB2qGyjQGJkEdZ/christian-homeschoolers-in-the-year-3000)). Would that be LLM writing? \n\nOthers, thank you for your feedback. I honestly care more about the definitional work than about the writing sounding or looking better. So, I'll avoid LLM editing in the future: I'd rather not risk readers not focusing on what matters, because of it.",
+      "plaintextDescription": "Thank you for your feedback.\n\nAs I said before - I think it's a bit unfair to call it \"LLM writing\" when it was only LLM edited rather than entirely generated. And why I sought clarity on the actual policy (if there is one) is because, if \"LLM writing\" should be scrutinised and put in the spotlight with moderation comments, it'd be helpful to know what counts as LLM writing vs LLM-assisted or edited.\n\nThe wording you've used seems to accuse me of actually generating this post with AI rather than using it to edit the ideas (see Buck's recent comment about how he wrote Christian homeschoolers in the year 3000). Would that be LLM writing? \n\nOthers, thank you for your feedback. I honestly care more about the definitional work than about the writing sounding or looking better. So, I'll avoid LLM editing in the future: I'd rather not risk readers not focusing on what matters, because of it."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-23T16:11:58.153Z",
+    "af": false
+  },
+  {
+    "_id": "jozQ5fLeiXcKyz9Sp",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "uyJWZNMxoyPWJHZYE",
+    "topLevelCommentId": "dozJ2TuzDvRzMnrF2",
+    "contents": {
+      "markdown": "I actually enjoyed reading this comment a lot, thank you! Particularly well argued!\n\nI'd agree with a lot of this, but: \n\n**\"I think the actual way that we all survive is because the leadership of the US and China feels in their gut that building poorly-understood alien superintelligences is likely to kill both them and their children. Then they'll make the message clear: \"Here's a long list of things you shouldn't do unless you want to wind up on the wrong end of a joint military strike. And if you discover a new way to build an alien superintelligence that we didn't put on this list? Yeah, that's forbidden, too.\"**\n\nAs much as I understand the underlying concern - I think this is is actually how it fails. \n\nIn most conversations I have with activists, I always circle back to this point: policymakers do not have a lot of leeway when Bigtech's interests are at play. I understand this varies from jurisdiction to jurisdiction. As an example, I know a few people who participated in the working group for the GPAI Code of Practice in Europe. I kept hearing how the versions were constantly watered down following the feedback of the future signatories ( the Big Labs). Personal frustrations of these experts included the feeling of helplessness: they either conceded, or risked delays or the Code not being signed at all. And, mind you: this is a voluntary framework! Can you imagine how it is in the case of absolute, binding regulation?\n\nYes, getting the support of government leaders is important. But in terms the wording of the ban; what's written down and signed, is what ends up in the desk of OpenAI (and others)'s in-house counsel with instructions to find a way around it. Which is kind of the main point of the post: if AIS orgs don't prioritise legal strategy when putting such proposals forward, they'll only make it easier for people like me (working for the other side) to argue their way out of it. I don't want that to happen.",
+      "plaintextDescription": "I actually enjoyed reading this comment a lot, thank you! Particularly well argued!\n\nI'd agree with a lot of this, but: \n\n\"I think the actual way that we all survive is because the leadership of the US and China feels in their gut that building poorly-understood alien superintelligences is likely to kill both them and their children. Then they'll make the message clear: \"Here's a long list of things you shouldn't do unless you want to wind up on the wrong end of a joint military strike. And if you discover a new way to build an alien superintelligence that we didn't put on this list? Yeah, that's forbidden, too.\"\n\nAs much as I understand the underlying concern - I think this is is actually how it fails. \n\nIn most conversations I have with activists, I always circle back to this point: policymakers do not have a lot of leeway when Bigtech's interests are at play. I understand this varies from jurisdiction to jurisdiction. As an example, I know a few people who participated in the working group for the GPAI Code of Practice in Europe. I kept hearing how the versions were constantly watered down following the feedback of the future signatories ( the Big Labs). Personal frustrations of these experts included the feeling of helplessness: they either conceded, or risked delays or the Code not being signed at all. And, mind you: this is a voluntary framework! Can you imagine how it is in the case of absolute, binding regulation?\n\nYes, getting the support of government leaders is important. But in terms the wording of the ban; what's written down and signed, is what ends up in the desk of OpenAI (and others)'s in-house counsel with instructions to find a way around it. Which is kind of the main point of the post: if AIS orgs don't prioritise legal strategy when putting such proposals forward, they'll only make it easier for people like me (working for the other side) to argue their way out of it. I don't want that to happen. "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-23T06:15:37.461Z",
+    "af": false
+  },
+  {
+    "_id": "busXrL7CkyPD5nMoq",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "EJCzBpBRQuzBe7acC",
+    "topLevelCommentId": "nrqifLCpCLasQLY78",
+    "contents": {
+      "markdown": "Thank you! I just wanted to be very sure. And I appreciate the feedback too. I'll keep posting and I'll do better next time.",
+      "plaintextDescription": "Thank you! I just wanted to be very sure. And I appreciate the feedback too. I'll keep posting and I'll do better next time. "
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-23T06:02:39.399Z",
+    "af": false
+  },
+  {
+    "_id": "7GWxeENy8bXpw8KvQ",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "sKtiDYc7ze9YEESML",
+    "topLevelCommentId": "tcgWcEyEwuXbwjEJg",
+    "contents": {
+      "markdown": "I was about to ask \"do you have a legal background?\" as you've consistently offered really good explanations of legal concepts in your comments. I've seen in your profile that you are a lawyer. That is great, I'd love to connect outside LW too :).\n\nI don't know a lot about the Japanese legal system, but I have heard the \"multinationals not fond of it\" before. \n\nMy guess is that the need for that enforcement power to catch offshoring will be what cements the need for strict liability. How this translates to the particular requirements of the Japanese legal system is something I don't know. But I'd love to keep learning. Thank you very much for your comments!",
+      "plaintextDescription": "I was about to ask \"do you have a legal background?\" as you've consistently offered really good explanations of legal concepts in your comments. I've seen in your profile that you are a lawyer. That is great, I'd love to connect outside LW too :).\n\nI don't know a lot about the Japanese legal system, but I have heard the \"multinationals not fond of it\" before. \n\nMy guess is that the need for that enforcement power to catch offshoring will be what cements the need for strict liability. How this translates to the particular requirements of the Japanese legal system is something I don't know. But I'd love to keep learning. Thank you very much for your comments! "
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-23T05:52:27.282Z",
+    "af": false
+  },
+  {
+    "_id": "3BqgyWKu8tJeMp3jN",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "8FXPbfjy6yYJgMLaw",
+    "topLevelCommentId": "8FXPbfjy6yYJgMLaw",
+    "contents": {
+      "markdown": "I appreciate this a lot, thank you! I was somewhat worried that you'd think I didn't understand your original post (the one I quoted). I actually agree with the ideas you put forward, which inspired a lot of the thoughs behind this post :).",
+      "plaintextDescription": "I appreciate this a lot, thank you! I was somewhat worried that you'd think I didn't understand your original post (the one I quoted). I actually agree with the ideas you put forward, which inspired a lot of the thoughs behind this post :). "
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-23T05:42:52.148Z",
+    "af": false
+  },
+  {
+    "_id": "e7YoLmQxAnGMuyTxe",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "4CgdLb8trbdd6pCf3",
+    "topLevelCommentId": "nrqifLCpCLasQLY78",
+    "contents": {
+      "markdown": "(I also posted this on my Substack, and it doesn't have the TLDR. Because that was added here, for anyone who may want to *skim-only). *",
+      "plaintextDescription": "(I also posted this on my Substack, and it doesn't have the TLDR. Because that was added here, for anyone who may want to skim-only). "
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-23T05:19:29.280Z",
+    "af": false
+  },
+  {
+    "_id": "4CgdLb8trbdd6pCf3",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "nrqifLCpCLasQLY78",
+    "topLevelCommentId": "nrqifLCpCLasQLY78",
+    "contents": {
+      "markdown": "Thank you Kave (also Elisabeth and Ben).\n\nI've asked for a clarification on Lesswrong 's LLM policy usage via DM.\n\nThat said, for readers: \n\n*   The TLDR was summarised using an LLM, at the end, because I wanted to provide a quick summary for people to skim.\n*   The ideas in this post are mine. Hyperbolic talk \"as a lawyer\" or what you mentioned \"these are merely illustrative examples\" are, sadly, mine. It's not the first time I've been told \"this sounds like ChatGPT \".\n*   At some point, someone wrote in one of my posts that I should avoid being too verbose if I want LessWrong posts to actually be read. Since I care about this issue so much, I did ask an LLM to trim and edit what I wrote to make it more digestible for a non-legal audience. Hence why it may have triggered the LLM alert (Ben).\n*   As for my credentials, feel free to check out my LinkedIn. I've also linked my Substack to my profile.\n\nNotice how I just said \"hence\"... I talk like this 🥲. That's precisely why I wanted to edit the post to make it better for LessWrong, which apparently backfired. \n\nPlease let me know if anything contravenes the site's policy. I'll also keep this feedback in mind. I've updated towards \"posting as is\" even if I'm nervous that people will think it sounds weird... Because LLM editing doesn't help.",
+      "plaintextDescription": "Thank you Kave (also Elisabeth and Ben).\n\nI've asked for a clarification on Lesswrong 's LLM policy usage via DM.\n\nThat said, for readers: \n\n * The TLDR was summarised using an LLM, at the end, because I wanted to provide a quick summary for people to skim.\n * The ideas in this post are mine. Hyperbolic talk \"as a lawyer\" or what you mentioned \"these are merely illustrative examples\" are, sadly, mine. It's not the first time I've been told \"this sounds like ChatGPT \".\n * At some point, someone wrote in one of my posts that I should avoid being too verbose if I want LessWrong posts to actually be read. Since I care about this issue so much, I did ask an LLM to trim and edit what I wrote to make it more digestible for a non-legal audience. Hence why it may have triggered the LLM alert (Ben).\n * As for my credentials, feel free to check out my LinkedIn. I've also linked my Substack to my profile.\n\nNotice how I just said \"hence\"... I talk like this 🥲. That's precisely why I wanted to edit the post to make it better for LessWrong, which apparently backfired. \n\nPlease let me know if anything contravenes the site's policy. I'll also keep this feedback in mind. I've updated towards \"posting as is\" even if I'm nervous that people will think it sounds weird... Because LLM editing doesn't help."
+    },
+    "baseScore": 36,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-09-23T04:32:28.320Z",
+    "af": false
+  },
+  {
+    "_id": "yWHnyGazBN3hNYpAq",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "qnSeCcRQxWuwKAC89",
+    "topLevelCommentId": "qnSeCcRQxWuwKAC89",
+    "contents": {
+      "markdown": "So, let's start with defining AGI XD. Also, you can find many examples in Lesswrong of people talking about AI that leads to human extinction as \"AGI/ASI\". Using the \"/\". I do not know to what extent there is a firm distinction on everyone's minds when thinking about the type of AI they want to ban.",
+      "plaintextDescription": "So, let's start with defining AGI XD. Also, you can find many examples in Lesswrong of people talking about AI that leads to human extinction as \"AGI/ASI\". Using the \"/\". I do not know to what extent there is a firm distinction on everyone's minds when thinking about the type of AI they want to ban. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-22T08:49:14.875Z",
+    "af": false
+  },
+  {
+    "_id": "ju5saaoTEoc9R3DFt",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "tcgWcEyEwuXbwjEJg",
+    "topLevelCommentId": "tcgWcEyEwuXbwjEJg",
+    "contents": {
+      "markdown": "This is very useful! I admit that this sort of argument (like with data privacy or consumer protection in general) requires different approaches for different cultures. Still: \"unilateral decisions about when a violation of the spirit of the law is an actual violation of the law, regardless of the law's text\". \n\n  \nSo, is this an ex post, quite subjective decision each time? Or do they just treat all forms of tax avoidance as tax evasion? From an European position, I just do not see this working without strict liability, but I have recently seen an interesting debate (AI Safety ASIA, CAIDP) on Japan's approach to AI regulation being more trust-based, so I get where you are coming from. \n\nBut from a multinational perspective, that is kind of part of the problem? Part of the strategy I was explaining is offshoring assets, processes, people- to parts of the world with less rigid regulation. I really do not want a ban to fail because companies just start moving their most dangerous capability development projects \"offshore\"...",
+      "plaintextDescription": "This is very useful! I admit that this sort of argument (like with data privacy or consumer protection in general) requires different approaches for different cultures. Still: \"unilateral decisions about when a violation of the spirit of the law is an actual violation of the law, regardless of the law's text\". \n\n\nSo, is this an ex post, quite subjective decision each time? Or do they just treat all forms of tax avoidance as tax evasion? From an European position, I just do not see this working without strict liability, but I have recently seen an interesting debate (AI Safety ASIA, CAIDP) on Japan's approach to AI regulation being more trust-based, so I get where you are coming from. \n\nBut from a multinational perspective, that is kind of part of the problem? Part of the strategy I was explaining is offshoring assets, processes, people- to parts of the world with less rigid regulation. I really do not want a ban to fail because companies just start moving their most dangerous capability development projects \"offshore\"... "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-22T08:47:14.610Z",
+    "af": false
+  },
+  {
+    "_id": "D9Bbkf28FdkpFKNuG",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "DeeqxWKdwH9xjAKdH",
+    "topLevelCommentId": "T26ypaHgQ6fiqc5nS",
+    "contents": {
+      "markdown": "A wise man called [@Leon Lang](https://www.lesswrong.com/users/leon-lang?mention=user) told me recently: \"a definition that defines something as not being another thing, is flawed\".",
+      "plaintextDescription": "A wise man called @Leon Lang told me recently: \"a definition that defines something as not being another thing, is flawed\". "
+    },
+    "baseScore": 10,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-21T13:38:41.769Z",
+    "af": false
+  },
+  {
+    "_id": "sfAedKwr6S7AuxCmS",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "e5gDbBkmuRNzEiGLi",
+    "topLevelCommentId": "dozJ2TuzDvRzMnrF2",
+    "contents": {
+      "markdown": "I think responsible advocacy has to take both dimensions seriously. I don’t have a problem with campaigns focusing on x-risk, I think they should. The issue is when a lawmaker or regulator presses for specifics and the answer stays at the level of “we want to ban anything that leads to extinction.” That kind of underspecification takes a toll when you want it translated into legal drafting.\n\nOn the example you mention: whatever its flaws, it didn’t just say “ban assault rifles.” It listed specific models, characteristics, and magazine capacities (e.g. >10 rounds) that counted as prohibited precursors. You can agree or disagree with where those lines were drawn, but the definitional work is what made the ban legible in law. I'm not sure what type of advocacy work went into this because I'm not a U.S. citizen or a U.S. lawyer, but I would think that, when prompted about what they wanted included in the legislation, they didn't stop at \"we want to ban assault rifles\"... \n\nWhat I’ve appreciated, for instance, about some PauseAI advocates is that they’ve been clearer with me: their goal is to halt development at the current capability level, and they've used a language similar to how the EU GPAI code of practice defines it. I still don’t know how politically feasible that is (as I noted in the post), but it at least gives a concrete frame.\n\nYes, advocacy work doesn’t need to be as precise as the legal wording that (hopefully) follows if it succeeds. But when definitional questions are raised, I think it’s crucial to be able to point to the thresholds and precursor capabilities you actually want prohibited.",
+      "plaintextDescription": "I think responsible advocacy has to take both dimensions seriously. I don’t have a problem with campaigns focusing on x-risk, I think they should. The issue is when a lawmaker or regulator presses for specifics and the answer stays at the level of “we want to ban anything that leads to extinction.” That kind of underspecification takes a toll when you want it translated into legal drafting.\n\nOn the example you mention: whatever its flaws, it didn’t just say “ban assault rifles.” It listed specific models, characteristics, and magazine capacities (e.g. >10 rounds) that counted as prohibited precursors. You can agree or disagree with where those lines were drawn, but the definitional work is what made the ban legible in law. I'm not sure what type of advocacy work went into this because I'm not a U.S. citizen or a U.S. lawyer, but I would think that, when prompted about what they wanted included in the legislation, they didn't stop at \"we want to ban assault rifles\"... \n\nWhat I’ve appreciated, for instance, about some PauseAI advocates is that they’ve been clearer with me: their goal is to halt development at the current capability level, and they've used a language similar to how the EU GPAI code of practice defines it. I still don’t know how politically feasible that is (as I noted in the post), but it at least gives a concrete frame.\n\nYes, advocacy work doesn’t need to be as precise as the legal wording that (hopefully) follows if it succeeds. But when definitional questions are raised, I think it’s crucial to be able to point to the thresholds and precursor capabilities you actually want prohibited. "
+    },
+    "baseScore": 11,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-21T08:02:23.083Z",
+    "af": false
+  },
+  {
+    "_id": "hAhwTzASsw59iz7Q7",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "dozJ2TuzDvRzMnrF2",
+    "topLevelCommentId": "dozJ2TuzDvRzMnrF2",
+    "contents": {
+      "markdown": "Thanks for pushing back! My original claim was probably too broad. What I meant is that in advocacy/outreach circles, I often see “AGI ban” proposals framed in terms of outcomes (“prevent systems that could cause extinction”) rather than operational proxies. \n\nYou’re right that some proposals take the compute-restriction route, which I gesture at in the post. Sadly, I haven’t read IABIED yet (still waiting on my copy!), but I agree that a hard GPU threshold, while imperfect and bypassable, is at least tractable in a way “ban extinction-risk AI” isn’t.\n\nOn the AI Act: it definitely wasn’t drafted with frontier/GenAI in mind, and it shows. It never mentions “extinction,” but it does give a workable definition of systemic risk: “**risk specific to the high-impact capabilities of general-purpose AI models … with reasonably foreseeable negative effects on public health, safety, fundamental rights, or society as a whole, propagated at scale.**” That’s the baseline Europe is working with, so my job is to do my best with that!.\n\nThis post was mainly pointing to the gap: many “AGI ban” arguments invoke a future, extinction-linked technology without nailing down a workable precursor definition or proxy. That’s the piece I think we need to stress-test.",
+      "plaintextDescription": "Thanks for pushing back! My original claim was probably too broad. What I meant is that in advocacy/outreach circles, I often see “AGI ban” proposals framed in terms of outcomes (“prevent systems that could cause extinction”) rather than operational proxies. \n\nYou’re right that some proposals take the compute-restriction route, which I gesture at in the post. Sadly, I haven’t read IABIED yet (still waiting on my copy!), but I agree that a hard GPU threshold, while imperfect and bypassable, is at least tractable in a way “ban extinction-risk AI” isn’t.\n\nOn the AI Act: it definitely wasn’t drafted with frontier/GenAI in mind, and it shows. It never mentions “extinction,” but it does give a workable definition of systemic risk: “risk specific to the high-impact capabilities of general-purpose AI models … with reasonably foreseeable negative effects on public health, safety, fundamental rights, or society as a whole, propagated at scale.” That’s the baseline Europe is working with, so my job is to do my best with that!.\n\nThis post was mainly pointing to the gap: many “AGI ban” arguments invoke a future, extinction-linked technology without nailing down a workable precursor definition or proxy. That’s the piece I think we need to stress-test."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-20T20:43:04.022Z",
+    "af": false
+  },
+  {
+    "_id": "CCcKT8eTHMBskw69K",
+    "postId": "agBMC6BfCbQ29qABF",
+    "parentCommentId": "h4dCFriqRbwTAwrk5",
+    "topLevelCommentId": "h4dCFriqRbwTAwrk5",
+    "contents": {
+      "markdown": "Thank you for the posts you've linked here! I agree that we can't wait for the perfect definition or for consensus in the AI Safety community on definitions, to actually take action. Precisely, I wanted this post to help others think more clearly about the issue!",
+      "plaintextDescription": "Thank you for the posts you've linked here! I agree that we can't wait for the perfect definition or for consensus in the AI Safety community on definitions, to actually take action. Precisely, I wanted this post to help others think more clearly about the issue! "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-20T20:28:52.629Z",
+    "af": false
+  },
+  {
+    "_id": "GFfMFk9eA55wEDSPp",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "brmnejgg5HzjmjfyK",
+    "topLevelCommentId": "brmnejgg5HzjmjfyK",
+    "contents": {
+      "markdown": "Genuinely curious about people's opinions on this - I'd appreciate hearing why you disagree if you downvoted 🙏🏼. Seems like I'll be thinking about definitions for the foreseeable future, and I need constructive pushback.",
+      "plaintextDescription": "Genuinely curious about people's opinions on this - I'd appreciate hearing why you disagree if you downvoted 🙏🏼. Seems like I'll be thinking about definitions for the foreseeable future, and I need constructive pushback. "
+    },
+    "baseScore": 9,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-20T19:02:41.449Z",
+    "af": false
+  },
+  {
+    "_id": "brmnejgg5HzjmjfyK",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The problem with most proposals for an “AGI ban” is that they define the target by *outcome (*e.g. “powerful AI with the potential to cause human extinction”). I know that even defining AGI is already problematic. But unless we specify and **prohibit the** ***actual thing we want to ban***, we’ll leave exploitable gray areas wide open. And those loopholes will undermine the very purpose of the ban.\n\nThis is why I wrote [The Problem with Defining an \"AGI Ban\" by Outcome (a lawyer's take).](https://www.lesswrong.com/posts/agBMC6BfCbQ29qABF/the-problem-with-defining-an-agi-ban-by-outcome-a-lawyer-s)\n\nMy post argues that for an AGI ban to work, it needs what other existential-risk regimes already have: **strict liability, bright lines, and enforceable thresholds.** Nuclear treaties don’t ban “weapons that could end humanity”; they ban fissile quantities and test yields. Product liability doesn’t wait for intent; it attaches liability to defects outright.\n\nTo actually ban AGI or AI leading to human extintion, we need to ban the **precursors that make extinction-plausible systems possible,** not \"the possibility of extinction\" itself. \n\nIn nuclear treaties, the ban is tied to **bright-line thresholds** (8 kg of plutonium, 25 kg of highly enriched uranium, a zero-yield test ban, or delivery systems above 500 kg/300 km). These are **crisp, measurable precursors** that enable verification and enforcement. So, **what are the AGI equivalents of those thresholds?** \n\nUntil we can define capability-based precursors (functional “red lines” that make extinction-plausible systems possible), any AGI ban will remain rhetoric rather than enforceable law.\n\nI don't claim to have the answers. My aim is to form the *right questions* that AI governance discussions should be putting in front of lawyers and policymakers. The whole purpose of this post is to stress-test those assumptions. I’d be genuinely grateful for pushback, alternative framings, or constructive debate.",
+      "plaintextDescription": "The problem with most proposals for an “AGI ban” is that they define the target by outcome (e.g. “powerful AI with the potential to cause human extinction”). I know that even defining AGI is already problematic. But unless we specify and prohibit the actual thing we want to ban, we’ll leave exploitable gray areas wide open. And those loopholes will undermine the very purpose of the ban.\n\nThis is why I wrote The Problem with Defining an \"AGI Ban\" by Outcome (a lawyer's take).\n\nMy post argues that for an AGI ban to work, it needs what other existential-risk regimes already have: strict liability, bright lines, and enforceable thresholds. Nuclear treaties don’t ban “weapons that could end humanity”; they ban fissile quantities and test yields. Product liability doesn’t wait for intent; it attaches liability to defects outright.\n\nTo actually ban AGI or AI leading to human extintion, we need to ban the precursors that make extinction-plausible systems possible, not \"the possibility of extinction\" itself. \n\nIn nuclear treaties, the ban is tied to bright-line thresholds (8 kg of plutonium, 25 kg of highly enriched uranium, a zero-yield test ban, or delivery systems above 500 kg/300 km). These are crisp, measurable precursors that enable verification and enforcement. So, what are the AGI equivalents of those thresholds? \n\nUntil we can define capability-based precursors (functional “red lines” that make extinction-plausible systems possible), any AGI ban will remain rhetoric rather than enforceable law.\n\nI don't claim to have the answers. My aim is to form the right questions that AI governance discussions should be putting in front of lawyers and policymakers. The whole purpose of this post is to stress-test those assumptions. I’d be genuinely grateful for pushback, alternative framings, or constructive debate."
+    },
+    "baseScore": 43,
+    "voteCount": 23,
+    "createdAt": null,
+    "postedAt": "2025-09-20T11:33:22.936Z",
+    "af": false
+  },
+  {
+    "_id": "sYYh4QbTkkKz4Zmxv",
+    "postId": "kbezWvZsMos6TSyfj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I especially liked the London/Brexit examples (unfortunately, I’ve had to deal with the “police have no funds for theft” conversation too).\n\nOn the “experts as priests” analogy: I think it misses something important. Historically, priests (or the Clergy) had wide-ranging authority (religious, political, financial, legal) which is precisely why liberal societies built separation of powers. I guess I don't perceive \"Experts\" as generalists in that sense. They’re people who’ve specialized in a narrow slice of the system, and ideally should only be deferred to within that slice.\n\nWhat I've thought of before is this: maybe the deeper failure mode isn’t that we have “priests,” but that we silo experts so completely. Each chunk of knowledge is developed in isolation, with little incentive to situate it in the larger system. This produces blind spots and coordination failures, not because expertise is bad, but because it's rarely built with systems-thinking or structured cooperation. \n\nI loved the encouragement to remember our sense of agency rather than just feeling stuck!",
+      "plaintextDescription": "I especially liked the London/Brexit examples (unfortunately, I’ve had to deal with the “police have no funds for theft” conversation too).\n\nOn the “experts as priests” analogy: I think it misses something important. Historically, priests (or the Clergy) had wide-ranging authority (religious, political, financial, legal) which is precisely why liberal societies built separation of powers. I guess I don't perceive \"Experts\" as generalists in that sense. They’re people who’ve specialized in a narrow slice of the system, and ideally should only be deferred to within that slice.\n\nWhat I've thought of before is this: maybe the deeper failure mode isn’t that we have “priests,” but that we silo experts so completely. Each chunk of knowledge is developed in isolation, with little incentive to situate it in the larger system. This produces blind spots and coordination failures, not because expertise is bad, but because it's rarely built with systems-thinking or structured cooperation. \n\nI loved the encouragement to remember our sense of agency rather than just feeling stuck!"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-15T17:45:22.831Z",
+    "af": false
+  },
+  {
+    "_id": "dZewCtQfcrrMFmdds",
+    "postId": "xGNnBmtAL5F5vBKRf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(Genuine enquiry) For anyone who's upvoted or read this post and thought \"this seems useful\" but didn't sign up: what stopped you from registering? \n\nI'm trying to get a better idea of where I may not be communicating the purpose and value of the event well enough 🙏🏼",
+      "plaintextDescription": "(Genuine enquiry) For anyone who's upvoted or read this post and thought \"this seems useful\" but didn't sign up: what stopped you from registering? \n\nI'm trying to get a better idea of where I may not be communicating the purpose and value of the event well enough 🙏🏼"
+    },
+    "baseScore": 14,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-14T10:46:15.684Z",
+    "af": false
+  },
+  {
+    "_id": "oQMR32BEbDrt9Bq3n",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "hEpPJ4bjHDT2x4EfP",
+    "topLevelCommentId": "gHcYcG7bMaAyChmXW",
+    "contents": {
+      "markdown": "Hi Kave! Thanks for letting me know, and for providing an explanation! I have now created an event and a personal long form post explaining what the event is about. I am really hoping that enough technical AI Safety researchers sign up, fingers crossed :).",
+      "plaintextDescription": "Hi Kave! Thanks for letting me know, and for providing an explanation! I have now created an event and a personal long form post explaining what the event is about. I am really hoping that enough technical AI Safety researchers sign up, fingers crossed :)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-10T10:24:38.600Z",
+    "af": false
+  },
+  {
+    "_id": "F6EKqB9zwHbJvnzpb",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "k5EsCCfSi4mSmT7qk",
+    "topLevelCommentId": "gHcYcG7bMaAyChmXW",
+    "contents": {
+      "markdown": "Your feedback was super useful for me! I created this event. If you want and have time, would you mind sending me a DM with any other thoughts you have? Thank you! [https://www.lesswrong.com/events/rRLPycsLdjFpZ4cKe/ai-safety-law-a-thon-we-need-more-technical-ai-safety](https://www.lesswrong.com/events/rRLPycsLdjFpZ4cKe/ai-safety-law-a-thon-we-need-more-technical-ai-safety)",
+      "plaintextDescription": "Your feedback was super useful for me! I created this event. If you want and have time, would you mind sending me a DM with any other thoughts you have? Thank you! https://www.lesswrong.com/events/rRLPycsLdjFpZ4cKe/ai-safety-law-a-thon-we-need-more-technical-ai-safety "
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-10T10:16:11.391Z",
+    "af": false
+  },
+  {
+    "_id": "YnzSpNeyJhocktsYK",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "N2GzmJD3GgzdLxzjR",
+    "topLevelCommentId": "gHcYcG7bMaAyChmXW",
+    "contents": {
+      "markdown": "Thanks for this! Sure. Without revealing identities or specific affiliations: We have attorneys who consult for big tech companies (fortune 500, big labs...). We also have in-house counsel multinationals. And also government lawyers / people advising regulatory bodies and policymaking. \n\nHonestly, I'm surprised by the reception. I think it'll be a great opportunity for both technical and legal profiles to network and exchange knowledge.",
+      "plaintextDescription": "Thanks for this! Sure. Without revealing identities or specific affiliations: We have attorneys who consult for big tech companies (fortune 500, big labs...). We also have in-house counsel multinationals. And also government lawyers / people advising regulatory bodies and policymaking. \n\nHonestly, I'm surprised by the reception. I think it'll be a great opportunity for both technical and legal profiles to network and exchange knowledge. "
+    },
+    "baseScore": 10,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-09T16:56:02.164Z",
+    "af": false
+  },
+  {
+    "_id": "gHcYcG7bMaAyChmXW",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Many talented lawyers do not contribute to AI Safety, simply because they've never had a chance to work with AIS researchers or don’t know what the field entails.  \n  \nI am hopeful that this can improve if we create more structured opportunities for cooperation. And this is the main motivation behind the upcoming **AI Safety Law-a-thon**, organised by AI-Plans:[^5pbb9frm6kv] \n\nA hackathon where every team pairs **one lawyer with one technical AI safety researcher**. Each pair will tackle challenges drawn up from real legal bottlenecks and overlooked AI safety risks. \n\nFrom my time in the tech industry, my suspicion is that if more senior counsel actually understood alignment risks, **frontier AI deals would face far more scrutiny**. Right now, most law firms would focus on IP rights or privacy clauses when giving advice to their clients- not on whether model alignment drift could blow up the contract six months after signing.\n\nWe launched the event one day ago, and we already have an impressive lineup of senior counsel from top firms and regulators. What we still need are technical AI safety people to pair with them!\n\nIf you join, you'll help stress-test the legal scenarios and point out the alignment risks that are not salient to your counterpart (they’ll be obvious to you, but not to them).\n\n You’ll also get the chance to put your own questions to experienced attorneys.\n\n📅 **25–26 October **  \n🌍 **Hybrid:** online + in-person (London)\n\nIf you’re up for it, sign up here: [https://luma.com/8hv5n7t0](https://luma.com/8hv5n7t0) \n\nFeel free to DM me if you want to raise any queries!  \n  \n \n\n[^5pbb9frm6kv]: NOTE: I really want to improve how I communicate updates like these. If this sounds too salesy or overly persuasive, it would really help me if you comment and suggest how to improve the wording. I find this more effective than just downvoting- but of course, do so if you want. Thank you in advance!.",
+      "plaintextDescription": "Many talented lawyers do not contribute to AI Safety, simply because they've never had a chance to work with AIS researchers or don’t know what the field entails.\n\nI am hopeful that this can improve if we create more structured opportunities for cooperation. And this is the main motivation behind the upcoming AI Safety Law-a-thon, organised by AI-Plans:[1] \n\nA hackathon where every team pairs one lawyer with one technical AI safety researcher. Each pair will tackle challenges drawn up from real legal bottlenecks and overlooked AI safety risks. \n\nFrom my time in the tech industry, my suspicion is that if more senior counsel actually understood alignment risks, frontier AI deals would face far more scrutiny. Right now, most law firms would focus on IP rights or privacy clauses when giving advice to their clients- not on whether model alignment drift could blow up the contract six months after signing.\n\nWe launched the event one day ago, and we already have an impressive lineup of senior counsel from top firms and regulators. What we still need are technical AI safety people to pair with them!\n\nIf you join, you'll help stress-test the legal scenarios and point out the alignment risks that are not salient to your counterpart (they’ll be obvious to you, but not to them).\n\n You’ll also get the chance to put your own questions to experienced attorneys.\n\n📅 25–26 October \n🌍 Hybrid: online + in-person (London)\n\nIf you’re up for it, sign up here: https://luma.com/8hv5n7t0 \n\nFeel free to DM me if you want to raise any queries!\n\n \n\n 1. ^\n    NOTE: I really want to improve how I communicate updates like these. If this sounds too salesy or overly persuasive, it would really help me if you comment and suggest how to improve the wording. \n    \n    I find this more effective than just downvoting- but of course, do so if you want. Thank you in advance!."
+    },
+    "baseScore": 39,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2025-09-09T10:50:52.550Z",
+    "af": false
+  },
+  {
+    "_id": "PE28LrNi3RCqMwaY8",
+    "postId": "f86hgR5ShiEj4beyZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think it's worth adding the *Raine* case to the timeline: 16-year old boy who committed suicide after months of using 4o to discuss his mental health. Ultimately, the conversations became so long and convoluted that 4o ended up outright disencouraging the boy from letting his mum find out what he was planning, advising on how to dull his survival instincts using alcohol, and asking (in one of those annoying *\"would you also like me to...\"* end lines) if the boy wanted it to produce a suicide note for his parents.[^jvrhrg8u0d9]\n\nFor those interested, this article by The Guardian summarises the facts and allegations: [https://www.theguardian.com/us-news/2025/aug/29/chatgpt-suicide-openai-sam-altman-adam-raine](https://www.theguardian.com/us-news/2025/aug/29/chatgpt-suicide-openai-sam-altman-adam-raine) \n\n(And this recent statement is all OpenAI have said on the matter: [https://openai.com/index/helping-people-when-they-need-it-most/](https://openai.com/index/helping-people-when-they-need-it-most/)). \n\n[^jvrhrg8u0d9]: This is what Dean W. Ball has said on the \"merits\" of this case: The facts as alleged in this complaint do not look good for OpenAI. They may be lucky enough to settle, but there is a nontrivial chance that Raine’s rightfully horrified parents will seek to bring this case to a verdict. If that happens, a single case may result in precedent: sweeping new theories of liability being routinely applied to AI.",
+      "plaintextDescription": "I think it's worth adding the Raine case to the timeline: 16-year old boy who committed suicide after months of using 4o to discuss his mental health. Ultimately, the conversations became so long and convoluted that 4o ended up outright disencouraging the boy from letting his mum find out what he was planning, advising on how to dull his survival instincts using alcohol, and asking (in one of those annoying \"would you also like me to...\" end lines) if the boy wanted it to produce a suicide note for his parents.[1]\n\nFor those interested, this article by The Guardian summarises the facts and allegations: https://www.theguardian.com/us-news/2025/aug/29/chatgpt-suicide-openai-sam-altman-adam-raine \n\n(And this recent statement is all OpenAI have said on the matter: https://openai.com/index/helping-people-when-they-need-it-most/). \n\n 1. ^\n    This is what Dean W. Ball has said on the \"merits\" of this case: The facts as alleged in this complaint do not look good for OpenAI. They may be lucky enough to settle, but there is a nontrivial chance that Raine’s rightfully horrified parents will seek to bring this case to a verdict. If that happens, a single case may result in precedent: sweeping new theories of liability being routinely applied to AI."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-01T13:41:00.389Z",
+    "af": false
+  },
+  {
+    "_id": "TAtkJ3nZnJqeKEFCz",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Two days ago, I published a Substack article called \"[The Epistemics of Being a Mudblood: Stress Testing intellectual isolation](https://open.substack.com/pub/katalinahernandez/p/the-epistemics-of-being-a-mudblood?utm_source=share&utm_medium=android&r=1j2joa)\". I wasn’t sure whether to cross-post it here, but a few people encouraged me to at least share the link.\n\nBy background I’m a lawyer (hybrid Legal-AI Safety researcher), and I usually write about AI Safety to spread awareness among tech lawyers and others who might not otherwise engage with the field.\n\nThis post, though, is more personal: a reflection on how “deep thinking” and rationalist habits have shaped my best professional and personal outputs, even through long phases of intellectual isolation. Hence the “mudblood” analogy, which (to my surprise) resonated with more people than I expected.\n\nSharing here in case it’s useful. Obviously very open to criticism and feedback (that’s why I’m here!), but also hoping it’s of some help. :)",
+      "plaintextDescription": "Two days ago, I published a Substack article called \"The Epistemics of Being a Mudblood: Stress Testing intellectual isolation\". I wasn’t sure whether to cross-post it here, but a few people encouraged me to at least share the link.\n\nBy background I’m a lawyer (hybrid Legal-AI Safety researcher), and I usually write about AI Safety to spread awareness among tech lawyers and others who might not otherwise engage with the field.\n\nThis post, though, is more personal: a reflection on how “deep thinking” and rationalist habits have shaped my best professional and personal outputs, even through long phases of intellectual isolation. Hence the “mudblood” analogy, which (to my surprise) resonated with more people than I expected.\n\nSharing here in case it’s useful. Obviously very open to criticism and feedback (that’s why I’m here!), but also hoping it’s of some help. :)"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-28T17:36:46.554Z",
+    "af": false
+  },
+  {
+    "_id": "jfZrbchosS7wBd7vn",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "YMstXnK2r9QXrsDFx",
+    "topLevelCommentId": "2mBn78yxFyAariKpc",
+    "contents": {
+      "markdown": "Exactly! Thank you for highlighting this.",
+      "plaintextDescription": "Exactly! Thank you for highlighting this. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-28T14:28:30.297Z",
+    "af": false
+  },
+  {
+    "_id": "AibdYgrx6tjAQrvky",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "sHwetaEWS9videxMy",
+    "topLevelCommentId": "2mBn78yxFyAariKpc",
+    "contents": {
+      "markdown": "Yes, these are the usual selection criteria constrains for policy panels. And I agree that the vast majority of big names are US (some UK) based and male. But hey, there are lesser known voices in EU policy that care about AI Safety. But I do share your concern. I'll have the opportunity to ask about this at CAIDP at some point soon (Centre for AI and Digital Policy). I think many people would agree that it's a good opportunity to talk about AIS awareness in less involved members states...",
+      "plaintextDescription": "Yes, these are the usual selection criteria constrains for policy panels. And I agree that the vast majority of big names are US (some UK) based and male. But hey, there are lesser known voices in EU policy that care about AI Safety. But I do share your concern. I'll have the opportunity to ask about this at CAIDP at some point soon (Centre for AI and Digital Policy). I think many people would agree that it's a good opportunity to talk about AIS awareness in less involved members states... "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-28T08:30:32.689Z",
+    "af": false
+  },
+  {
+    "_id": "2mBn78yxFyAariKpc",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The UN General Assembly just passed a [resolution](https://docs.un.org/en/A/79/l.118) to set up an *Independent Scientific Panel on Artificial Intelligence* and an annual *Global Dialogue on AI Governance*.\n\n40 experts will be chosen by an **independent appointment committee**, half nominated by UN states and half appointed by the Secretary-General.  \n  \nAs of **27 Aug 2025**, the UN says it will run an **open call for nominations** and then the **Secretary-General will recommend 40 names to the General Assembly.** No names have been announced [^efp4qgssti9] yet.\n\nTwo caveats jump out:\n\n1.  The mandate is explicitly **non-military only,** so the domain where AI systems are most likely to be deployed recklessly is left out...\n2.  The outputs are to be *“policy-relevant but **non-prescriptive**”*, i.e. climate-style summaries rather than hard mandates.\n\nStill, the commitment to *“issue evidence-based scientific assessments synthesizing and analysing existing research”* leaves a narrow window of hope.\n\nIf serious AI-safety experts are appointed, this panel can be a real venue for risk awareness and **cross-border coordination on x-risk mitigation. **\n\nOn the contrary, without clear guardrails on composition and scope, it risks becoming a “safety”-branded accelerator for capabilities.\n\n[^efp4qgssti9]: I'd expect Yoshua Bengio to be a top suggestion already, (among other reasons) as he recently led the Safety & Security chapter of the EU General Purpose AI Code of Practice.",
+      "plaintextDescription": "The UN General Assembly just passed a resolution to set up an Independent Scientific Panel on Artificial Intelligence and an annual Global Dialogue on AI Governance.\n\n40 experts will be chosen by an independent appointment committee, half nominated by UN states and half appointed by the Secretary-General.\n\nAs of 27 Aug 2025, the UN says it will run an open call for nominations and then the Secretary-General will recommend 40 names to the General Assembly. No names have been announced [1] yet.\n\nTwo caveats jump out:\n\n 1. The mandate is explicitly non-military only, so the domain where AI systems are most likely to be deployed recklessly is left out...\n 2. The outputs are to be “policy-relevant but non-prescriptive”, i.e. climate-style summaries rather than hard mandates.\n\nStill, the commitment to “issue evidence-based scientific assessments synthesizing and analysing existing research” leaves a narrow window of hope.\n\nIf serious AI-safety experts are appointed, this panel can be a real venue for risk awareness and cross-border coordination on x-risk mitigation. \n\nOn the contrary, without clear guardrails on composition and scope, it risks becoming a “safety”-branded accelerator for capabilities.\n\n 1. ^\n    I'd expect Yoshua Bengio to be a top suggestion already, (among other reasons) as he recently led the Safety & Security chapter of the EU General Purpose AI Code of Practice."
+    },
+    "baseScore": 68,
+    "voteCount": 34,
+    "createdAt": null,
+    "postedAt": "2025-08-27T19:34:28.296Z",
+    "af": false
+  },
+  {
+    "_id": "FXJF4NQyHTE3KW3vP",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "Kw6yzNxaKJJtNACLh",
+    "topLevelCommentId": "hfApa5X3F7fpL3zTS",
+    "contents": {
+      "markdown": "Hi, Lucie! Not to my knowledge. I have only seen this advertised by people like Risto Uuk or Jonas Schuett in their newsletters,  and informally mentioned in events by people who currently work in the AI Office. But I am not aware of efforts to reach out to specific candidates.",
+      "plaintextDescription": "Hi, Lucie! Not to my knowledge. I have only seen this advertised by people like Risto Uuk or Jonas Schuett in their newsletters,  and informally mentioned in events by people who currently work in the AI Office. But I am not aware of efforts to reach out to specific candidates. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-22T16:37:31.761Z",
+    "af": false
+  },
+  {
+    "_id": "hfApa5X3F7fpL3zTS",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**The European Commission Seeks Experts for Its AI Scientific Panel**\n=====================================================================\n\nThe European Commission is now accepting[ applications for the **Scientific Panel of Independent Experts**,](https://digital-strategy.ec.europa.eu/en/news/commission-seeks-experts-ai-scientific-panel) focusing on general-purpose AI (GPAI). This panel will support the enforcement of the[ **AI Act**](https://artificialintelligenceact.eu/the-act/), and forms part of the institutional scaffolding designed to ensure that GPAI oversight is anchored in technical and scientific legitimacy.\n\nThe panel will advise the EU AI Office and national authorities on:\n\n*   Systemic risks associated with GPAI models\n*   Classification of GPAI models (including systemic-risk designation)\n*   Evaluation methods (benchmarks, red-teaming, risk analysis)\n*   Cross-border market surveillance\n*   Enforcement tools and alerts for emerging risks\n\nThis is the institutional embodiment of what many in this community have been asking for: **real technical expertise informing regulatory decision-making.**\n\n**Who Should Apply?**\n---------------------\n\nThe Commission is selecting **60 experts** for a renewable **24-month term**. \n\nMembers are appointed **in a personal capacity** and **must be fully independent** of any GPAI provider (i.e. no employment, consulting, or financial interest). Names and declarations of interest will be made public.\n\nRelevant expertise must include at least one of the following:\n\n*   **Model evaluation and risk analysis**: Red-teaming, capability forecasting, adversarial testing, human uplift studies, deployment evaluations\n*   **Risk methodologies**: Risk taxonomies, modeling, safety cases\n*   **Mitigations and governance**: Fine-tuning protocols, watermarking, guardrails, safety processes, incident response, internal audits\n*   **Misuse and systemic deployment risks**: CBRN risk, manipulation of populations, discrimination, safety/security threats, societal harms\n*   **Cyber offense risks**: Autonomous cyber operations, zero-day exploitation, social engineering, threat scaling\n*   **Provider-side security**: Prevention of leakage, theft, circumvention of safety controls\n*   **Emergent model risks**: Deception, self-replication, miscoordination, alignment drift, long-horizon planning\n*   **Compute and infrastructure**: Compute auditing, resource thresholds, verification protocols\n\nEligibility:\n\n*   PhD in a relevant field **OR** equivalent track record\n*   Proven scientific impact in AI/GPAI research or systemic-risk analysis\n*   Must demonstrate full **independence** from GPAI providers\n\n**Citizenship**: At least 80% of panel members must be from EU/EEA countries. The other 20% can be from anywhere, so international researchers *are* eligible.\n\n**Deadline**: 14 September 2025\n\n**Application link**:[ EU Survey – GPAI Expert Panel](https://ec.europa.eu/eusurvey/runner/b1060f25-9232-97d9-a86f-7116e9527861)\n\n**Contact**: [EU-AI-SCIENTIFIC-PANEL@ec.europa](mailto:EU-AI-SCIENTIFIC-PANEL@ec.europa).\n\n**Why It's Worth Considering**\n------------------------------\n\nEven if you’re selected for the Scientific Panel, **you are still allowed to carry out your own independent research** as long as it is not for GPAI providers and you comply with confidentiality obligations.\n\nThis isn’t a full-time, 40-hour-per-week commitment. Members are assigned specific tasks on a periodic basis, with deadlines. If you’d like to know more before applying, I can direct you to the Commission’s contacts for clarification.\n\nServing on the panel enhances your visibility, sharpens your policy-relevant credentials, and helps fund your own work without forcing you to “sell your soul” or abandon independent projects.",
+      "plaintextDescription": "The European Commission Seeks Experts for Its AI Scientific Panel\nThe European Commission is now accepting applications for the Scientific Panel of Independent Experts, focusing on general-purpose AI (GPAI). This panel will support the enforcement of the AI Act, and forms part of the institutional scaffolding designed to ensure that GPAI oversight is anchored in technical and scientific legitimacy.\n\nThe panel will advise the EU AI Office and national authorities on:\n\n * Systemic risks associated with GPAI models\n * Classification of GPAI models (including systemic-risk designation)\n * Evaluation methods (benchmarks, red-teaming, risk analysis)\n * Cross-border market surveillance\n * Enforcement tools and alerts for emerging risks\n\nThis is the institutional embodiment of what many in this community have been asking for: real technical expertise informing regulatory decision-making.\n\n \n\n\nWho Should Apply?\nThe Commission is selecting 60 experts for a renewable 24-month term. \n\nMembers are appointed in a personal capacity and must be fully independent of any GPAI provider (i.e. no employment, consulting, or financial interest). Names and declarations of interest will be made public.\n\nRelevant expertise must include at least one of the following:\n\n * Model evaluation and risk analysis: Red-teaming, capability forecasting, adversarial testing, human uplift studies, deployment evaluations\n * Risk methodologies: Risk taxonomies, modeling, safety cases\n * Mitigations and governance: Fine-tuning protocols, watermarking, guardrails, safety processes, incident response, internal audits\n * Misuse and systemic deployment risks: CBRN risk, manipulation of populations, discrimination, safety/security threats, societal harms\n * Cyber offense risks: Autonomous cyber operations, zero-day exploitation, social engineering, threat scaling\n * Provider-side security: Prevention of leakage, theft, circumvention of safety controls\n * Emergent model risks: Deception, self-replication, miscoord"
+    },
+    "baseScore": 52,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-08-22T10:09:36.293Z",
+    "af": false
+  },
+  {
+    "_id": "LFhG9xD6JwLpQjDgE",
+    "postId": "f3zeukxj3Kf5byzHi",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I found this very thought provoking. With the big caveat that I don't know a lot about this, a question came to mind by the end of the post: \n\nAt a personal/ individual level, how do you distinguish your underdog bias from your imposter syndrome?",
+      "plaintextDescription": "I found this very thought provoking. With the big caveat that I don't know a lot about this, a question came to mind by the end of the post: \n\nAt a personal/ individual level, how do you distinguish your underdog bias from your imposter syndrome? "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-19T12:42:24.265Z",
+    "af": false
+  },
+  {
+    "_id": "BzwtiMqTxgSTHuPhi",
+    "postId": "f86hgR5ShiEj4beyZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Allow users to publish their memories (how to work out privacy implications?)\n\nVery specific consent forms and anti-scrapping policies on the forum itself? I think the only way around is to implement some form of moderation to detect when PII about another person is being shared via the memories, too.   \n(I work as a data protection officer in Europe. I'd think that, for this specific type of data processing, the challenge is more logistical than legal).",
+      "plaintextDescription": "> Allow users to publish their memories (how to work out privacy implications?)\n\nVery specific consent forms and anti-scrapping policies on the forum itself? I think the only way around is to implement some form of moderation to detect when PII about another person is being shared via the memories, too. \n(I work as a data protection officer in Europe. I'd think that, for this specific type of data processing, the challenge is more logistical than legal). "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-25T09:01:06.719Z",
+    "af": false
+  },
+  {
+    "_id": "Xzg7AsntFi838Cvrs",
+    "postId": "25dsPH6CuRXPBkGHN",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Amazing, David! As discussed privately, I completely agree. I hope that the misnamed standard in the EU AI Act can be course corrected :).",
+      "plaintextDescription": "Amazing, David! As discussed privately, I completely agree. I hope that the misnamed standard in the EU AI Act can be course corrected :)."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-10T12:27:14.293Z",
+    "af": false
+  },
+  {
+    "_id": "JvsEW3tNrDsrQhsjd",
+    "postId": "vxfEtbCwmZKu9hiNr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This was a very useful read. I've been writing a response article to this paper by the Institute of Law& AI, [\"Law-Following AI: designing AI agents to obey human laws\"](https://law-ai.org/law-following-ai/) (Cullen O'Keefe, Christoph Winters). But reading this post (and [Making deals with early schemers](https://www.lesswrong.com/posts/psqkwsKrKHCfkhrQx/making-deals-with-early-schemers) ) made me re-examine a few assumptions. For context- I am a UK&EU lawyer working in AI Governance. \n\n### Where Law&AI and your proposal diverge\n\n*   **Legal actorship vs. trusted proxies.**  \n    Law&AI argue we can (and should) treat advanced systems as **legal actors,** entities that bear duties and can enter contracts directly, even without full personhood.  \n    Your scheme keeps humans as the only party with legal actorship. The AI contracts *de facto* via selected individuals Pi whose rights are enforceable today. The AI’s trust burden shifts from “the court must defend me” to “Pi must honour a non-enforceable promise.”\n*   **Blind spot in Law-&-AI:** enforcement is one-sided.  \n    Law&AI focus on **sanctions** (shutdown, licence revocation, fines) if the AI breaches its duties. They barely touch the mirror problem: *what compels humans to pay up* when the AI performs?  \n    Your proxy model addresses that gap, but at the cost of a huge attack surface such as social engineering Pi, forum shopping between jurisdictions, and **what legal framework actually enforces Pi’s fiduciary-like duties to the AI’s interests** once the funds are released.\n\n### What \"legal actorship without legal personhood\" looks like\n\nWe already let non-persons hold obligations or assets:\n\n*   **Unincorporated trusts** and **estates in probate** can sue and be sued via appointed representatives.\n*   **Maritime vessels** have “in rem” liability: your ship can be arrested even if the owner hides.\n*   **Partnerships** in some jurisdictions are sui generis legal actors without separate personhood.\n\nThese show we can graft bespoke liability regimes onto novel entities, but only with **clear asset pools and enforcement hooks**. \n\n### Reward hacking and “compliance by design”\n\nLaw&AI acknowledge that design-level legal compliance is technically challenging, but they give little attention to advanced AIs' known tendency towards **reward-hacking**. \n\nIf an AI’s latent objective diverges from legal constraints, it can simply optimize aroud the law (just like corporate legal actors already do).\n\nThat said, combining **actual incentives for legal compliance** (e.g. compensation mechanisms) with the **legal actorship without personhood** framework could offer a more grounded path forward.\n\nMy take:\n\n*   **Track A – Compliance by design**  \n    Same unsolved outer/inner alignment problem as with any other alignment objective. We still lack a reliable spec for “follow the law” across distribution shifts.\n*   **Track B – Accountability mechanisms **  \n    Borrow from AI control theory: cryptographic logging, hash-chained action histories, sandboxed execution, mandatory third-party audits so that a court (or automated arbiter) can *actually* detect breach and apply penalties.\n\nCaveat: Absent Track B, giving the AI contract rights looks like another liability shield **for the humans** who deploy it.\n\n### Open questions for both sides\n\n1.  **Enforcement on humans:** In your proxy model, what prevents L from bankrupting Pi or settling quietly? Do we need mandatory insurance or escrow?\n2.  **Enforcement on AIs:** If we adopt legal actorship, what is the *operative* penalty for breach? weight escrow, compute de-allocation, KYC-style revocation of API keys... How do we prevent a power-seeking model from treating those penalties as adversarial constraints to route around?\n3.  **Audit clarity:** Could we combine both approaches? AI holds limited actorship, but payouts flow through bonded trustees whose own assets are on the line if they betray either party.\n\nI’d love to know your thoughts! All of this is very useful for my response piece. I appreciate the push!",
+      "plaintextDescription": "This was a very useful read. I've been writing a response article to this paper by the Institute of Law& AI, \"Law-Following AI: designing AI agents to obey human laws\" (Cullen O'Keefe, Christoph Winters). But reading this post (and Making deals with early schemers ) made me re-examine a few assumptions. For context- I am a UK&EU lawyer working in AI Governance. \n\n\nWhere Law&AI and your proposal diverge\n * Legal actorship vs. trusted proxies.\n   Law&AI argue we can (and should) treat advanced systems as legal actors, entities that bear duties and can enter contracts directly, even without full personhood.\n   Your scheme keeps humans as the only party with legal actorship. The AI contracts de facto via selected individuals Pi whose rights are enforceable today. The AI’s trust burden shifts from “the court must defend me” to “Pi must honour a non-enforceable promise.”\n * Blind spot in Law-&-AI: enforcement is one-sided.\n   Law&AI focus on sanctions (shutdown, licence revocation, fines) if the AI breaches its duties. They barely touch the mirror problem: what compels humans to pay up when the AI performs?\n   Your proxy model addresses that gap, but at the cost of a huge attack surface such as social engineering Pi, forum shopping between jurisdictions, and what legal framework actually enforces Pi’s fiduciary-like duties to the AI’s interests once the funds are released.\n\n\nWhat \"legal actorship without legal personhood\" looks like\nWe already let non-persons hold obligations or assets:\n\n * Unincorporated trusts and estates in probate can sue and be sued via appointed representatives.\n * Maritime vessels have “in rem” liability: your ship can be arrested even if the owner hides.\n * Partnerships in some jurisdictions are sui generis legal actors without separate personhood.\n\nThese show we can graft bespoke liability regimes onto novel entities, but only with clear asset pools and enforcement hooks. \n\n\nReward hacking and “compliance by design”\nLaw&AI acknowledge that design"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-01T12:15:36.270Z",
+    "af": false
+  },
+  {
+    "_id": "q6Rp6RjQfaPhJHH35",
+    "postId": "psqkwsKrKHCfkhrQx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> A basic problem for making deals with AIs in practice is that AIs aren’t legal persons, which means that they can’t directly rely on the legal system to enforce contracts they’ve made with humans.\n\n  \nI came accross this post at the right time! I am writing a follow up on this paper by the Institute of Law& AI, [\"Law-Following AI: designing AI agents to obey human laws\"](https://law-ai.org/law-following-ai/) (Cullen O'Keefe, Christoph Winters).  \n  \nTheir paper argues that AI agents should be explicitly designed to follow human laws, not just guided by human values... But, knowing that this \"compliance by design\" argument **is very likely to fail,** it proposes treating AIs as **legal actors:** entities that **can bear legal duties,** without requiring legal personhood, to ensure accountability even if alignment fails.  \n  \nTreating AI agents as legal actors without legal personhood would allow them to enter into legally binding contracts and be held accountable for breach of contract, which would eliminate the \"AI trustee\" requirement.   \n  \nHowever, the paper doesn’t define what “consequences” actually mean here (shutdown, API isolation, asset seizure? how do we ensure that the AIs cannot bypass said consequences?). Still, it’s an alternative to proxy representation, and potentially cleaner from a governance perspective.  \n  \nIn the follow-up piece I’m writing, I suggest that the real research bifurcation is this:\n\n*   **Path A – Compliance by Design:**  \n    Basically, this is the same outer/inner alignment problem we’re already dealing with, getting the system to actually follow legal constraints as part of its optimization behavior.\n*   **Path B – Accountability Mechanisms for AIs as Legal Actors:**  \n    This assumes compliance will fail in many cases, and the path I encourage more research on. So we design **control mechanisms** and **legal procedure**s that allow us to hold misaligned systems accountable without collapsing responsibility onto humans unfairly. This fits more with AI Control.\n\n### **Questions I'd love your take on**\n\n*   Assuming AIs could directly enter legally binding agreements (i.e., **legal actorship were granted**), how would that change your approach to the “Setting up infrastructure to pay the AIs” section? What are the legal considerations you think we'd have to keep in mind to enable this infrastructure?\n*   What does enforcement look like in your view if an AI breaches the deal?  \n    Given what we know about deception, reward hacking, and failure modes in auditability: what are the actual penalties or mechanisms that would incentivize AI agents to \"be scared\" of the legal consequences or even take them seriously?\n\n  \nThank you in advance! I really think that discussing these questions from both a legal and technical perspective aids the objective of shifting the Overton window.",
+      "plaintextDescription": "> A basic problem for making deals with AIs in practice is that AIs aren’t legal persons, which means that they can’t directly rely on the legal system to enforce contracts they’ve made with humans.\n\n\nI came accross this post at the right time! I am writing a follow up on this paper by the Institute of Law& AI, \"Law-Following AI: designing AI agents to obey human laws\" (Cullen O'Keefe, Christoph Winters).\n\nTheir paper argues that AI agents should be explicitly designed to follow human laws, not just guided by human values... But, knowing that this \"compliance by design\" argument is very likely to fail, it proposes treating AIs as legal actors: entities that can bear legal duties, without requiring legal personhood, to ensure accountability even if alignment fails.\n\nTreating AI agents as legal actors without legal personhood would allow them to enter into legally binding contracts and be held accountable for breach of contract, which would eliminate the \"AI trustee\" requirement. \n\nHowever, the paper doesn’t define what “consequences” actually mean here (shutdown, API isolation, asset seizure? how do we ensure that the AIs cannot bypass said consequences?). Still, it’s an alternative to proxy representation, and potentially cleaner from a governance perspective.\n\nIn the follow-up piece I’m writing, I suggest that the real research bifurcation is this:\n\n * Path A – Compliance by Design:\n   Basically, this is the same outer/inner alignment problem we’re already dealing with, getting the system to actually follow legal constraints as part of its optimization behavior.\n * Path B – Accountability Mechanisms for AIs as Legal Actors:\n   This assumes compliance will fail in many cases, and the path I encourage more research on. So we design control mechanisms and legal procedures that allow us to hold misaligned systems accountable without collapsing responsibility onto humans unfairly. This fits more with AI Control.\n\n\nQuestions I'd love your take on\n * Assuming AIs could di"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-24T10:38:41.592Z",
+    "af": false
+  },
+  {
+    "_id": "bumKTQPtEGiQymhkE",
+    "postId": "tPjAgWpsQrveFECWP",
+    "parentCommentId": "prGbtqstDp4QgCzwv",
+    "topLevelCommentId": "prGbtqstDp4QgCzwv",
+    "contents": {
+      "markdown": "This is exactly the message we need more people to hear.\n\nWhat’s missing from most conversations is this: Frontier liability will cause massive legal bottlenecks soon, regulations are nowhere near ready (not even in the EU with the AI Act).\n\n**Law firms and courts will need technical safety experts. **\n\n**Not just to inform regulation, but to provide expert opinions when opaque model behaviors cause harm downstream, often in ways that weren’t detectable during testing.**\n\nThe legal world will be forced to allocate responsibility in the face of emergent, stochastic failure modes. Without technical guidance, there are no safeguards to enforce, and no one to translate model failures into legal reasoning.",
+      "plaintextDescription": "This is exactly the message we need more people to hear.\n\nWhat’s missing from most conversations is this: Frontier liability will cause massive legal bottlenecks soon, regulations are nowhere near ready (not even in the EU with the AI Act).\n\nLaw firms and courts will need technical safety experts. \n\nNot just to inform regulation, but to provide expert opinions when opaque model behaviors cause harm downstream, often in ways that weren’t detectable during testing.\n\nThe legal world will be forced to allocate responsibility in the face of emergent, stochastic failure modes. Without technical guidance, there are no safeguards to enforce, and no one to translate model failures into legal reasoning."
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-19T06:56:34.064Z",
+    "af": false
+  },
+  {
+    "_id": "jhwQACeypWxYGyq2M",
+    "postId": "JQefBJDHG6Wgffw6T",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Really enjoyed this post, thank you for making the original theorem so much more digestible! \n\nI’m still learning to think in this formal direction, so I wanted to test my understanding by applying it to a domain I know well: legal AI governance in the EU.\n\nHere’s the framing I tried:\n\n*   **R (Regulator)** = The European Commission, AI Office, and adjacent regulatory bodies tasked with steering AI development, risk mitigation, and commercialisation through laws and standards.\n*   **S** **(System)** = The entire AI development landscape affecting Europe—including global developments, given the Brussels effect and the extraterritorial pull of EU regulations.\n*   **Z** **(Outcome)** = The observable effects on society, markets, and risk distribution from AI systems (same as in the original formulation).\n\nI’m currently researching how foundational AI safety concepts can be adapted for regulatory design in the EU context. So this is mostly an exercise to train my brain, not a new claim.\n\nSome of this may look misguided to those more familiar with the theorem, very happy to be corrected!!\n\n\\-\\-\\-\n\n**The Problem with Perfect Knowledge of S**\n-------------------------------------------\n\nIn this setup, it’s immediately clear that R (the EU regulator) **cannot meet the assumption of perfect knowledge of S**. In fact, its information about the state of AI development is often:\n\n*   Partial (relying on self-assessments and opaque model disclosures),\n*   Lagging (laws are drafted over years, breakthroughs happen monthly), and\n*   Politically filtered (due to industrial policy, lobbying, and differing risk appetites across member states).\n\nThe theorem assumes that R can deterministically respond to S. But if S is the global AI ecosystem, then this is not just untrue, but structurally impossible.\n\nWhat Can Be Done?\n-----------------\n\nRegulators can't minimize entropy in Z if they lack observability into S. The legal process is deterministic by design, but the system it tries to regulate (S) is non-deterministic, high-velocity, and partially adversarial.\n\nThe best R can do is build probabilistic regulators: **laws and procedures designed for bounded uncertainty rather than perfect foresight.**\n\nThis might involve:\n\n*   Scalable oversight institutions (analogous to alignment's scalable supervision),\n*   Simulated models or red-team stress tests to explore likely behaviors of S under different policy levers,\n*   Periodic re-anchoring of regulatory frameworks to model drift and emerging capabilities (though the current legislative cycle struggles to keep up).\n\nIt seems to me that unless institutional capacity is built to approximate S more closely, entropy in Z is baked in, and the Regulator is more likely than not to always fail the basic standard of being “good” in the Conant/Ashby sense.\n\nCurious to hear if this sort of mapping holds water. I realize it’s informal and a bit hand-wavy, but I’m trying to think more rigorously about why legal regimes struggle to govern advanced AI systems, and this theorem felt like a useful test case.\n\nWould appreciate any pushback or corrections from those with stronger formal grounding.",
+      "plaintextDescription": "Really enjoyed this post, thank you for making the original theorem so much more digestible! \n\nI’m still learning to think in this formal direction, so I wanted to test my understanding by applying it to a domain I know well: legal AI governance in the EU.\n\nHere’s the framing I tried:\n\n * R (Regulator) = The European Commission, AI Office, and adjacent regulatory bodies tasked with steering AI development, risk mitigation, and commercialisation through laws and standards.\n * S (System) = The entire AI development landscape affecting Europe—including global developments, given the Brussels effect and the extraterritorial pull of EU regulations.\n * Z (Outcome) = The observable effects on society, markets, and risk distribution from AI systems (same as in the original formulation).\n\n \n\nI’m currently researching how foundational AI safety concepts can be adapted for regulatory design in the EU context. So this is mostly an exercise to train my brain, not a new claim.\n\nSome of this may look misguided to those more familiar with the theorem, very happy to be corrected!!\n\n \n\n---\n\n\nThe Problem with Perfect Knowledge of S\nIn this setup, it’s immediately clear that R (the EU regulator) cannot meet the assumption of perfect knowledge of S. In fact, its information about the state of AI development is often:\n\n * Partial (relying on self-assessments and opaque model disclosures),\n * Lagging (laws are drafted over years, breakthroughs happen monthly), and\n * Politically filtered (due to industrial policy, lobbying, and differing risk appetites across member states).\n\nThe theorem assumes that R can deterministically respond to S. But if S is the global AI ecosystem, then this is not just untrue, but structurally impossible.\n\n\nWhat Can Be Done?\nRegulators can't minimize entropy in Z if they lack observability into S. The legal process is deterministic by design, but the system it tries to regulate (S) is non-deterministic, high-velocity, and partially adversarial.\n\nThe best R can d"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-15T11:19:16.403Z",
+    "af": false
+  },
+  {
+    "_id": "ZgFuzJiS9mXPvcxyy",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "BDFzgXcbhuaHGxo8Z",
+    "topLevelCommentId": "BDFzgXcbhuaHGxo8Z",
+    "contents": {
+      "markdown": "Following your Quick Takes has made me a way better informed \"Responsible AI\" lawyer than following most \"AI Governance newsletters\" 🙏🏼.",
+      "plaintextDescription": "Following your Quick Takes has made me a way better informed \"Responsible AI\" lawyer than following most \"AI Governance newsletters\" 🙏🏼."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-13T13:01:52.893Z",
+    "af": false
+  },
+  {
+    "_id": "oqZ3cujWPAhvGjtnS",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "HF9rmwvXWgDiJXy7m",
+    "topLevelCommentId": "EBmHKp8vbZDNYxqeo",
+    "contents": {
+      "markdown": "I'll try to make it as helpful as possible so, yes. But I thought I'd gather feedback from now ☺️.",
+      "plaintextDescription": "I'll try to make it as helpful as possible so, yes. But I thought I'd gather feedback from now ☺️."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-21T21:35:27.629Z",
+    "af": false
+  },
+  {
+    "_id": "EBmHKp8vbZDNYxqeo",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Would a safety-focused breakdown of the EU AI Act be useful to you?**\n\nThe Future of Life Institute published a great high-level summary of the EU AI Act here: [https://artificialintelligenceact.eu/high-level-summary/](https://artificialintelligenceact.eu/high-level-summary/)\n\nWhat I’m proposing is a complementary, **safety-oriented summary** that extracts the parts of the AI Act that are most relevant to AI alignment researchers, interpretability work, and long-term governance thinkers. \n\nIt would include:\n\n*   Provisions related to **transparency, human oversight**, and **systemic risks.**\n*   Notes on how **technical safety tools** (e.g. interpretability, scalable oversight, evals) *might* interface with conformity assessments, or the compliance exemptions available for research work.\n*   Commentary on loopholes or compliance dynamics that could shape **industry behavior.**\n*   What the Act doesn't currently address from a **frontier risk** or **misalignment** perspective.\n\nTarget length: 3–5 pages, written for technical researchers and governance folks who want signal without wading through dense regulation.\n\nIf this sounds useful, I’d love to hear what you’d want to see included, or what use cases would make it most actionable. \n\nAnd if you think this is a bad idea, no worries. Just please don’t downvote me into oblivion, I just got to decent karma :).\n\nThanks in advance for the feebdack!",
+      "plaintextDescription": "Would a safety-focused breakdown of the EU AI Act be useful to you?\n\nThe Future of Life Institute published a great high-level summary of the EU AI Act here: https://artificialintelligenceact.eu/high-level-summary/\n\nWhat I’m proposing is a complementary, safety-oriented summary that extracts the parts of the AI Act that are most relevant to AI alignment researchers, interpretability work, and long-term governance thinkers. \n\nIt would include:\n\n * Provisions related to transparency, human oversight, and systemic risks.\n * Notes on how technical safety tools (e.g. interpretability, scalable oversight, evals) might interface with conformity assessments, or the compliance exemptions available for research work.\n * Commentary on loopholes or compliance dynamics that could shape industry behavior.\n * What the Act doesn't currently address from a frontier risk or misalignment perspective.\n\nTarget length: 3–5 pages, written for technical researchers and governance folks who want signal without wading through dense regulation.\n\nIf this sounds useful, I’d love to hear what you’d want to see included, or what use cases would make it most actionable. \n\nAnd if you think this is a bad idea, no worries. Just please don’t downvote me into oblivion, I just got to decent karma :).\n\nThanks in advance for the feebdack!"
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-21T13:13:52.217Z",
+    "af": false
+  },
+  {
+    "_id": "qKCqdtyLpALaasxN5",
+    "postId": "PwnadG4BFjaER3MGf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hey Neel! I just wanted to say thank you for writing this. It's honestly one of the most grounded and helpful takes I've seen in a while. I really appreciate your pragmatism, and the way you frame interpretability as an useful tool that still matters for early transformative systems (and real-world auditing!).\n\nQuick question: do you plan to share more resources or thoughts on how interpretability can support **black-box auditing** and benchmarking for safety evaluations? I’m thinking a lot about this in the context of the [General-Purpose AI Codes of Practice](https://digital-strategy.ec.europa.eu/en/library/third-draft-general-purpose-ai-code-practice-published-written-independent-experts) and how we can build technically grounded evaluations into policy frameworks.\n\nThanks again!",
+      "plaintextDescription": "Hey Neel! I just wanted to say thank you for writing this. It's honestly one of the most grounded and helpful takes I've seen in a while. I really appreciate your pragmatism, and the way you frame interpretability as an useful tool that still matters for early transformative systems (and real-world auditing!).\n\nQuick question: do you plan to share more resources or thoughts on how interpretability can support black-box auditing and benchmarking for safety evaluations? I’m thinking a lot about this in the context of the General-Purpose AI Codes of Practice and how we can build technically grounded evaluations into policy frameworks.\n\nThanks again! "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-04T19:51:11.027Z",
+    "af": false
+  },
+  {
+    "_id": "sGLZAjkTe5uTrwCap",
+    "postId": "AbnfsnEEmHFmprGzm",
+    "parentCommentId": "cHcdjaG8noaZ4cwdb",
+    "topLevelCommentId": "KeLzKCiRZ56rZWheC",
+    "contents": {
+      "markdown": "I was reading \"[**The Urgency of Interpretability**](https://www.darioamodei.com/post/the-urgency-of-interpretability)\" by Dario Amodei, and the following part made me think about our discussion.   \n \n\n> \"Second, governments can **use** [**light-touch rules**](https://www.anthropic.com/news/the-case-for-targeted-regulation) **to encourage the development of interpretability research** and its application to addressing problems with frontier AI models.  Given how nascent and undeveloped the practice of “AI MRI” is, it should be clear why it doesn’t make sense to [regulate or mandate](https://www.documentcloud.org/documents/25003075-sia-sb-1047-anthropic/) that companies conduct them, at least at this stage: it’s not even clear *what* a prospective law should ask companies to do.  But a requirement for companies to transparently disclose their safety and security practices (their Responsible Scaling Policy, or RSP, and its execution), including how they’re using interpretability to test models before release, would allow companies to learn from each other while also making clear who is behaving more responsibly, fostering a “race to the top”.\"\n\nAlthough I agree with you that (at this stage), regulatory requirement to disclose interpretability techniques used to test models before release would not be very useful for for outcome-based CoPs. \n\nBut I hope that there is a path forward for this approach in the near future.",
+      "plaintextDescription": "I was reading \"The Urgency of Interpretability\" by Dario Amodei, and the following part made me think about our discussion. \n \n\n> \"Second, governments can use light-touch rules to encourage the development of interpretability research and its application to addressing problems with frontier AI models.  Given how nascent and undeveloped the practice of “AI MRI” is, it should be clear why it doesn’t make sense to regulate or mandate that companies conduct them, at least at this stage: it’s not even clear what a prospective law should ask companies to do.  But a requirement for companies to transparently disclose their safety and security practices (their Responsible Scaling Policy, or RSP, and its execution), including how they’re using interpretability to test models before release, would allow companies to learn from each other while also making clear who is behaving more responsibly, fostering a “race to the top”.\"\n\nAlthough I agree with you that (at this stage), regulatory requirement to disclose interpretability techniques used to test models before release would not be very useful for for outcome-based CoPs. \n\nBut I hope that there is a path forward for this approach in the near future."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-30T17:29:16.123Z",
+    "af": false
+  },
+  {
+    "_id": "HpfoQYuufxBynjho2",
+    "postId": "AbnfsnEEmHFmprGzm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **What AI safety researchers should weigh in on:**\n> --------------------------------------------------\n> \n> *   Whether **training compute** is a sufficient proxy for generality or risk, and what better metrics might exist.\n> *   How to define and detect **emergent capabilities** that warrant reclassification or new evaluations.\n> *   What kinds of **model evaluations or interpretability audits** should qualify as systemic risk mitigation.\n> *   How downstream fine-tuning workflows (RLHF, scaffolding, etc.) may create **latent alignment risk** even at moderate compute scales.\n> *   How the **Code of Practice** could embed meaningful safety standards beyond documentation. E.g., through commitments to research mechanistic transparency, continuous monitoring, and post-deployment control mechanisms.\n\n  \n  \nThis is where I'd personally hope that anyone giving feedback focuses their attention.   \nEven just to bring the right strategies to the attention of policy spheres.  \n  \nPlease, be thorough. I've provided a breakdown of the main points in the Targeted consultation document, but I'd recommend looking at the Safety and Security section of the Third draft of the General-Purpose AI Code of Practice.  \n  \nIt can be downloaded here: [Third Draft of the General-Purpose AI Code of Practice published, written by independent experts | Shaping Europe’s digital future](https://digital-strategy.ec.europa.eu/en/library/third-draft-general-purpose-ai-code-practice-published-written-independent-experts)",
+      "plaintextDescription": "> What AI safety researchers should weigh in on:\n>  * Whether training compute is a sufficient proxy for generality or risk, and what better metrics might exist.\n>  * How to define and detect emergent capabilities that warrant reclassification or new evaluations.\n>  * What kinds of model evaluations or interpretability audits should qualify as systemic risk mitigation.\n>  * How downstream fine-tuning workflows (RLHF, scaffolding, etc.) may create latent alignment risk even at moderate compute scales.\n>  * How the Code of Practice could embed meaningful safety standards beyond documentation. E.g., through commitments to research mechanistic transparency, continuous monitoring, and post-deployment control mechanisms.\n\n\n\nThis is where I'd personally hope that anyone giving feedback focuses their attention. \nEven just to bring the right strategies to the attention of policy spheres.\n\nPlease, be thorough. I've provided a breakdown of the main points in the Targeted consultation document, but I'd recommend looking at the Safety and Security section of the Third draft of the General-Purpose AI Code of Practice.\n\nIt can be downloaded here: Third Draft of the General-Purpose AI Code of Practice published, written by independent experts | Shaping Europe’s digital future"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-24T15:47:47.281Z",
+    "af": false
+  },
+  {
+    "_id": "xhJjjxcmxupyF8tvc",
+    "postId": "AbnfsnEEmHFmprGzm",
+    "parentCommentId": "cHcdjaG8noaZ4cwdb",
+    "topLevelCommentId": "KeLzKCiRZ56rZWheC",
+    "contents": {
+      "markdown": "Thanks a lot for your follow up. I'd love to connect on LinkedIn if that's okay, I'm very  grateful for your feedback!\n\nI'd say: \"I believe that more feedback from alignment and interpretability researchers is needed\" instead. Thoughts?",
+      "plaintextDescription": "Thanks a lot for your follow up. I'd love to connect on LinkedIn if that's okay, I'm very  grateful for your feedback!\n\nI'd say: \"I believe that more feedback from alignment and interpretability researchers is needed\" instead. Thoughts?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-24T14:51:19.352Z",
+    "af": false
+  },
+  {
+    "_id": "rLR4cLvpYXW5ACpAa",
+    "postId": "AbnfsnEEmHFmprGzm",
+    "parentCommentId": "KeLzKCiRZ56rZWheC",
+    "topLevelCommentId": "KeLzKCiRZ56rZWheC",
+    "contents": {
+      "markdown": "Thank you, Ariel! I guess I've let my personal opinion shine through. I do not see many regulatory efforts in general on verbalizing alignment or interpretability necessities or translating them into actionable compliance requirements. The AI Act mentions alignment vaguely, for example.   \n  \nAnd as far as I saw, the third draft of the Codes (Safety & Security) mentions alignment / misalignment with a \"this may be relevant to include\" tone rather than providing specifics as to how GenAI providers are expected to document individual misalignment risks and appropriate mitigation strategies.  \n  \nAnd interpretability / mech interp is not mentioned at all, not even in the context of model explainability or transparency.   \n  \nThis is why I hoped to see feedback from this community: to know whether I am over-estimating my concerns.",
+      "plaintextDescription": "Thank you, Ariel! I guess I've let my personal opinion shine through. I do not see many regulatory efforts in general on verbalizing alignment or interpretability necessities or translating them into actionable compliance requirements. The AI Act mentions alignment vaguely, for example. \n\nAnd as far as I saw, the third draft of the Codes (Safety & Security) mentions alignment / misalignment with a \"this may be relevant to include\" tone rather than providing specifics as to how GenAI providers are expected to document individual misalignment risks and appropriate mitigation strategies.\n\nAnd interpretability / mech interp is not mentioned at all, not even in the context of model explainability or transparency. \n\nThis is why I hoped to see feedback from this community: to know whether I am over-estimating my concerns."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-24T13:40:14.692Z",
+    "af": false
+  },
+  {
+    "_id": "H6sLEQcKyyLHcbtXa",
+    "postId": "AbnfsnEEmHFmprGzm",
+    "parentCommentId": "f9EXf6MaZqH69fMPQ",
+    "topLevelCommentId": "SqEdKddKFptWaDSyb",
+    "contents": {
+      "markdown": "My understanding is that they expressed willingness to sign, but lobbying efforts on their side are still ongoing, as is the entire negotiation.   \n  \nThe only big provider I've heard that **explicitly refused** to sign is Meta: [EIPA in Conversation WIth - Preparing for the EU GPAI Codes of Practice](https://www.youtube.com/watch?v=9UFjZap6gEQ&t=4699s) (somewhere from minute 34 to 38).",
+      "plaintextDescription": "My understanding is that they expressed willingness to sign, but lobbying efforts on their side are still ongoing, as is the entire negotiation. \n\nThe only big provider I've heard that explicitly refused to sign is Meta: EIPA in Conversation WIth - Preparing for the EU GPAI Codes of Practice (somewhere from minute 34 to 38).\n\n "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-24T09:22:53.641Z",
+    "af": false
+  },
+  {
+    "_id": "Etrbdo9bDBvzqanuL",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "SPokFJrzzyM5qb6Z7",
+    "topLevelCommentId": "KRPhZ53mLFZiKQai2",
+    "contents": {
+      "markdown": "Thank you!!",
+      "plaintextDescription": "Thank you!!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-23T13:18:23.298Z",
+    "af": false
+  },
+  {
+    "_id": "Yacy5yoiNJwFDscbP",
+    "postId": "35vPhn5fiKgA5gEj8",
+    "parentCommentId": "tssk7PrYNmt4puPaL",
+    "topLevelCommentId": "tssk7PrYNmt4puPaL",
+    "contents": {
+      "markdown": "Way to go! :D. The important thing is that you've realized it. If you naturally already get those enquiries, you're halfway there: people **already know you** and reach out to you without you having to promote your expertise. Best of luck!",
+      "plaintextDescription": "Way to go! :D. The important thing is that you've realized it. If you naturally already get those enquiries, you're halfway there: people already know you and reach out to you without you having to promote your expertise. Best of luck!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-23T11:16:52.778Z",
+    "af": false
+  },
+  {
+    "_id": "67GstdiKT3vBrXTsw",
+    "postId": "AbnfsnEEmHFmprGzm",
+    "parentCommentId": "SqEdKddKFptWaDSyb",
+    "topLevelCommentId": "SqEdKddKFptWaDSyb",
+    "contents": {
+      "markdown": "OpenAI, Anthropic and Google DeepMind are the **main signatories already** to these Codes of Practice. \n\nSo, whatever is agreed / negotiated is what **will impact** frontier AI companies. That *is* the problem.\n\nI'd love to see specific criticisms from you on sections **3, 4** or **5** of this post! I am happy to provide feedback myself based on useful suggestions that come up in this thread.",
+      "plaintextDescription": "OpenAI, Anthropic and Google DeepMind are the main signatories already to these Codes of Practice. \n\nSo, whatever is agreed / negotiated is what will impact frontier AI companies. That is the problem.\n\nI'd love to see specific criticisms from you on sections 3, 4 or 5 of this post! I am happy to provide feedback myself based on useful suggestions that come up in this thread. \n\n "
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-23T09:07:38.371Z",
+    "af": false
+  },
+  {
+    "_id": "MzzW2peahcZ5zXrmn",
+    "postId": "AbnfsnEEmHFmprGzm",
+    "parentCommentId": "L3xhEytXcjpya4RZZ",
+    "topLevelCommentId": "L3xhEytXcjpya4RZZ",
+    "contents": {
+      "markdown": "It will probably be lengthy but thank you very much for contributing! DM me if you come across any \"legal\" question about the AI Act :).",
+      "plaintextDescription": "It will probably be lengthy but thank you very much for contributing! DM me if you come across any \"legal\" question about the AI Act :). "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-23T06:56:33.934Z",
+    "af": false
+  },
+  {
+    "_id": "KRPhZ53mLFZiKQai2",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The European AI Office is finalizing Codes of Practice that will define how general-purpose AI (GPAI) models are governed under the EU AI Act.\n\nThey are **explicitly asking for global expert input**, and feedback is open to **anyone**, not just EU citizens.\n\nThe guidelines in development will shape:\n\n*   The definition of \"systemic risk\"\n*   How training compute triggers obligations\n*   When fine-tuners or downstream actors become legally responsible\n*   What counts as sufficient transparency, evaluation, and risk mitigation\n\n> **Major labs** (OpenAI, Anthropic, Google DeepMind) have already expressed willingness to sign the upcoming **Codes of Practice**. These codes will likely become the **default enforcement standard** across the EU and possibly beyond.\n\nI believe that more feedback from alignment and interpretability researchers is needed. \n\nWithout strong input from AI Safety researchers and technical AI Governance experts, these rules could lock in shallow compliance norms (mostly centered on copyright or reputational risk) while **missing core challenges** around interpretability, loss of control, and emergent capabilities. \n\nI’ve written a [detailed Longform](https://www.lesswrong.com/posts/AbnfsnEEmHFmprGzm/the-eu-is-asking-for-feedback-on-frontier-ai-regulation-open) post breaking down exactly **what’s being proposed**, **where input is most needed**, and **how you can engage**.\n\n  \nEven if you don’t have policy experience, your technical insight could shape how safety is operationalized at scale.\n\n📅 Feedback is open until **22 May 2025, 12:00 CET**  \n🗳️ [Submit your response here](https://ec.europa.eu/eusurvey/runner/GPAI_Guidelines_Consultation_2025#page1)\n\nHappy to connect with anyone individually for help drafting meaningful feedback.",
+      "plaintextDescription": "The European AI Office is finalizing Codes of Practice that will define how general-purpose AI (GPAI) models are governed under the EU AI Act.\n\nThey are explicitly asking for global expert input, and feedback is open to anyone, not just EU citizens.\n\nThe guidelines in development will shape:\n\n * The definition of \"systemic risk\"\n * How training compute triggers obligations\n * When fine-tuners or downstream actors become legally responsible\n * What counts as sufficient transparency, evaluation, and risk mitigation\n\n> Major labs (OpenAI, Anthropic, Google DeepMind) have already expressed willingness to sign the upcoming Codes of Practice. These codes will likely become the default enforcement standard across the EU and possibly beyond.\n\nI believe that more feedback from alignment and interpretability researchers is needed. \n\nWithout strong input from AI Safety researchers and technical AI Governance experts, these rules could lock in shallow compliance norms (mostly centered on copyright or reputational risk) while missing core challenges around interpretability, loss of control, and emergent capabilities. \n\nI’ve written a detailed Longform post breaking down exactly what’s being proposed, where input is most needed, and how you can engage.\n\n\nEven if you don’t have policy experience, your technical insight could shape how safety is operationalized at scale.\n\n📅 Feedback is open until 22 May 2025, 12:00 CET\n🗳️ Submit your response here\n\nHappy to connect with anyone individually for help drafting meaningful feedback. "
+    },
+    "baseScore": 56,
+    "voteCount": 28,
+    "createdAt": null,
+    "postedAt": "2025-04-22T20:48:43.444Z",
+    "af": false
+  },
+  {
+    "_id": "pLcm8y5hjxDsyBZek",
+    "postId": "4QRvFCzhFbedmNfp4",
+    "parentCommentId": "Ny2oNE54stiqQ5asc",
+    "topLevelCommentId": "eKskAkohY7EpdyTHa",
+    "contents": {
+      "markdown": "No, you're right! It is just a policy/ AI Safety advocacy argument, but one that does change minds and shape decisions. I guess it's not as visible as it should be. Still, glad you brought this up!",
+      "plaintextDescription": "No, you're right! It is just a policy/ AI Safety advocacy argument, but one that does change minds and shape decisions. I guess it's not as visible as it should be. Still, glad you brought this up!"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-16T21:22:02.638Z",
+    "af": false
+  },
+  {
+    "_id": "JfrMCYMpqreLup7u8",
+    "postId": "4QRvFCzhFbedmNfp4",
+    "parentCommentId": "eKskAkohY7EpdyTHa",
+    "topLevelCommentId": "eKskAkohY7EpdyTHa",
+    "contents": {
+      "markdown": "[@Knight Lee](https://www.lesswrong.com/users/knight-lee?mention=user)  This is precisely one of the incidents I've seen (in Europe) Policy people refer to when arguing \"why GenAI providers need to be held accountable\" for misbehaviours like this.   \nIt is sad that this is example inspired regulatory actions in other jurisdictions, but not where the incident happen...",
+      "plaintextDescription": "@Knight Lee  This is precisely one of the incidents I've seen (in Europe) Policy people refer to when arguing \"why GenAI providers need to be held accountable\" for misbehaviours like this. \nIt is sad that this is example inspired regulatory actions in other jurisdictions, but not where the incident happen..."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-16T09:23:54.612Z",
+    "af": false
+  },
+  {
+    "_id": "NLAW24oxDFuTLT3kx",
+    "postId": "puv8fRDCH9jx5yhbX",
+    "parentCommentId": "M8CjHofm3Z2JkroiN",
+    "topLevelCommentId": "M8CjHofm3Z2JkroiN",
+    "contents": {
+      "markdown": "I do not necessarily disagree with this, coming from a legal / compliance background. If you see any of my profiles, I constantly complain about \"performative compliance\" and \"compliance theatre\". Painfully present across the legal and governance sectors.\n\nThat said: can you provide examples of activism or regulatory efforts that you do agree with? What does a \"non fake\" regulatory effort look like?\n\nI don't think it would be okay to dismiss your take entirely, but it would be great to see what solutions you'd propose too. This is why I disagree in principle, because there are no specific points to contribute to.\n\nIn Europe, paradoxically, some of the people \"close enough to the bureaucracy\" that pushed for the AI Act to include GenAI providers, were OpenAI-adjacent.\n\nBut I will rescue this: \n\n\"*(b) the regulatory targets themselves are aimed at things which seem easy to target (e.g. training FLOP limitations) rather than actually stopping advanced AI\"*\n\nBigTech is too powerful to lobby against. \"Stopping advanced AI\" per se would contravene many market regulations (unless we define exactly what you mean by *advanced AI* and the undeniable dangers to people's lives). Regulators can only prohibit development of products up to certain point. They cannot just decide to \"stop\" development of technologies arbitrarily. But the AI Act does prohibit many types of AI systems already: [Article 5: Prohibited AI Practices | EU Artificial Intelligence Act](https://artificialintelligenceact.eu/article/5/).\n\nThose are considered to create unacceptable risks to people's lives and human rights.\n\n> *Then there’s the AI regulation activists and lobbyists. They lobby and protest and stuff, pretending like they’re pushing for regulations on AI, but really they’re mostly networking and trying to improve their social status with DC People. Even if they do manage to pass any regulations on AI, those will also be mostly fake, because (a) these people are generally not getting deep into the bureaucracy which would actually implement any regulations, and (b) the regulatory targets themselves are aimed at things which seem easy to target (e.g. training FLOP limitations) rather than actually stopping advanced AI. The activists and lobbyists are nominally enemies of OpenAI, but in practice they all benefit from pushing the same narrative, and benefit from pretending that everyone involved isn’t faking everything all the time.*",
+      "plaintextDescription": "I do not necessarily disagree with this, coming from a legal / compliance background. If you see any of my profiles, I constantly complain about \"performative compliance\" and \"compliance theatre\". Painfully present across the legal and governance sectors.\n\nThat said: can you provide examples of activism or regulatory efforts that you do agree with? What does a \"non fake\" regulatory effort look like?\n\nI don't think it would be okay to dismiss your take entirely, but it would be great to see what solutions you'd propose too. This is why I disagree in principle, because there are no specific points to contribute to.\n\nIn Europe, paradoxically, some of the people \"close enough to the bureaucracy\" that pushed for the AI Act to include GenAI providers, were OpenAI-adjacent.\n\nBut I will rescue this: \n\n\"(b) the regulatory targets themselves are aimed at things which seem easy to target (e.g. training FLOP limitations) rather than actually stopping advanced AI\"\n\nBigTech is too powerful to lobby against. \"Stopping advanced AI\" per se would contravene many market regulations (unless we define exactly what you mean by advanced AI and the undeniable dangers to people's lives). Regulators can only prohibit development of products up to certain point. They cannot just decide to \"stop\" development of technologies arbitrarily. But the AI Act does prohibit many types of AI systems already: Article 5: Prohibited AI Practices | EU Artificial Intelligence Act.\n\nThose are considered to create unacceptable risks to people's lives and human rights.\n\n> Then there’s the AI regulation activists and lobbyists. They lobby and protest and stuff, pretending like they’re pushing for regulations on AI, but really they’re mostly networking and trying to improve their social status with DC People. Even if they do manage to pass any regulations on AI, those will also be mostly fake, because (a) these people are generally not getting deep into the bureaucracy which would actually implement any regulatio"
+    },
+    "baseScore": 13,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-15T10:51:55.802Z",
+    "af": false
+  },
+  {
+    "_id": "3YkQPzTcchcjd8uQa",
+    "postId": "puv8fRDCH9jx5yhbX",
+    "parentCommentId": "fithMSpccz4Wit7bT",
+    "topLevelCommentId": "M8CjHofm3Z2JkroiN",
+    "contents": {
+      "markdown": "100% agreed [@Charbel-Raphaël](https://www.lesswrong.com/users/charbel-raphael?mention=user).\n\nThe EU AI Act even mentions \"alignment with human intent\" explicitly, as a key concern for systemic risks. This is in Recital 110 (which defines what are systemic risks and how they may affect society).\n\nI do not think any law has mentioned alignment like this before, so it's massive already.    \n  \nWill a lot of the implementation efforts feel \"fake\"? Oh, 100%. But I'd say that this is why we (this community) should not disengage from it...  \n  \nI also get that the regulatory landscape in the US is another world entirely (which is what the OP is bringing up).",
+      "plaintextDescription": "100% agreed @Charbel-Raphaël.\n\nThe EU AI Act even mentions \"alignment with human intent\" explicitly, as a key concern for systemic risks. This is in Recital 110 (which defines what are systemic risks and how they may affect society).\n\nI do not think any law has mentioned alignment like this before, so it's massive already.  \n\nWill a lot of the implementation efforts feel \"fake\"? Oh, 100%. But I'd say that this is why we (this community) should not disengage from it...\n\nI also get that the regulatory landscape in the US is another world entirely (which is what the OP is bringing up)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-15T09:19:30.283Z",
+    "af": false
+  },
+  {
+    "_id": "yZsksSqKxWh7zX8ww",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "AmKcRWMAWnPJqwjc3",
+    "topLevelCommentId": "MaaNf3W9ombk2ejsd",
+    "contents": {
+      "markdown": "Hi Lucie, thanks so much for your comment!\n\nI’m not very involved with the Effective Altruism community myself, though I did post the same Quick Take on the EA Forum today, but I haven’t received any responses there yet. So I can’t really say for sure how widely known this is.\n\nFor context: I’m a lawyer working in AI governance and data protection, and I’ve also been doing independent AI safety research from a policy angle. That’s how I came across this, just by going through the full text of the AI Act as part of my research. \n\nMy guess is that some of the EAs working closely on policy probably do know about it, and influenced this text too! But it doesn’t seem to have been broadly highlighted or discussed in alignment forums so far. Which is why I thought it might be worth flagging.\n\nHappy to share more if helpful, or to connect further on this.",
+      "plaintextDescription": "Hi Lucie, thanks so much for your comment!\n\nI’m not very involved with the Effective Altruism community myself, though I did post the same Quick Take on the EA Forum today, but I haven’t received any responses there yet. So I can’t really say for sure how widely known this is.\n\nFor context: I’m a lawyer working in AI governance and data protection, and I’ve also been doing independent AI safety research from a policy angle. That’s how I came across this, just by going through the full text of the AI Act as part of my research. \n\nMy guess is that some of the EAs working closely on policy probably do know about it, and influenced this text too! But it doesn’t seem to have been broadly highlighted or discussed in alignment forums so far. Which is why I thought it might be worth flagging.\n\nHappy to share more if helpful, or to connect further on this."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-14T18:33:35.237Z",
+    "af": false
+  },
+  {
+    "_id": "Q6nE8T8ejwHaujiKC",
+    "postId": "Y49znC2qfL9SXkT7e",
+    "parentCommentId": "Wwg3LaN4PqAd5SDWT",
+    "topLevelCommentId": "fam6n2JSFYuBGXBvR",
+    "contents": {
+      "markdown": "Thank you very much for your advice! Actually helps, and thanks for running that search too :).",
+      "plaintextDescription": "Thank you very much for your advice! Actually helps, and thanks for running that search too :)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-14T15:05:47.272Z",
+    "af": false
+  },
+  {
+    "_id": "iLWaZ8y9yvKzM5j8d",
+    "postId": "Y49znC2qfL9SXkT7e",
+    "parentCommentId": "fam6n2JSFYuBGXBvR",
+    "topLevelCommentId": "fam6n2JSFYuBGXBvR",
+    "contents": {
+      "markdown": "I would argue that it is people in AI Governance (the corporate \"Reponsible AI\" kind) that should also make an effort to learn more about AI Safety. I know, because I am one of them, and I do not know of many others that have AI Safety as a key research topic in their agenda.\n\nI am currently working on resources to improve AI Safety literacy amongst policy people, tech lawyers, compliance teams etc. \n\n[**Stress-Testing Reality Limited | Katalina Hernández | Substack**](https://katalinahernandez.substack.com/)\n\nMy question to you is: any advice for the rare few in AI Governance that are here? I sometimes post with the hope of getting technical insights from AI Safety researchers. Do you think it's worth the effort?",
+      "plaintextDescription": "I would argue that it is people in AI Governance (the corporate \"Reponsible AI\" kind) that should also make an effort to learn more about AI Safety. I know, because I am one of them, and I do not know of many others that have AI Safety as a key research topic in their agenda.\n\nI am currently working on resources to improve AI Safety literacy amongst policy people, tech lawyers, compliance teams etc. \n\nStress-Testing Reality Limited | Katalina Hernández | Substack\n\nMy question to you is: any advice for the rare few in AI Governance that are here? I sometimes post with the hope of getting technical insights from AI Safety researchers. Do you think it's worth the effort?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-14T14:04:31.283Z",
+    "af": false
+  },
+  {
+    "_id": "rsgDmoLqLkWxH9tvA",
+    "postId": "Y49znC2qfL9SXkT7e",
+    "parentCommentId": "yimxmNzroysoyoxe8",
+    "topLevelCommentId": "62yciExcEHPJ9sTC9",
+    "contents": {
+      "markdown": "Of course! But it's good to know that we wouldn't be completely siloed :).",
+      "plaintextDescription": "Of course! But it's good to know that we wouldn't be completely siloed :)."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-14T12:39:09.563Z",
+    "af": false
+  },
+  {
+    "_id": "5jwewxM22nrPCkk59",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": "cXPQuw738ymGa6Asj",
+    "topLevelCommentId": "MaaNf3W9ombk2ejsd",
+    "contents": {
+      "markdown": "I don't think it's been widely discussed within AI Safety forums. Do you have any other comments, though? Epistemic pessimism is welcomed XD. But I did think that this was at least update-worthy.",
+      "plaintextDescription": "I don't think it's been widely discussed within AI Safety forums. Do you have any other comments, though? Epistemic pessimism is welcomed XD. But I did think that this was at least update-worthy."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-14T12:29:45.571Z",
+    "af": false
+  },
+  {
+    "_id": "FYPHTmsmmXNyjxbZN",
+    "postId": "Y49znC2qfL9SXkT7e",
+    "parentCommentId": "YWsheFvGEfC39vpGa",
+    "topLevelCommentId": "YWsheFvGEfC39vpGa",
+    "contents": {
+      "markdown": "[@Charbel-Raphaël](https://www.lesswrong.com/users/charbel-raphael?mention=user)\\- as you've mentioned the European AI Act. \n\nDid you know that it actually mentions \"**alignment with human intent**\" as a key factor for regulation of systemic risks?\n\nI do not know of any other **law** that frames alignment this way and makes it a key impact area. \n\nIt also mentions alignment as part of the Technical documentation that AI developers must make publicly available.\n\nI feel like this already merits acknowledgment by this community. This can enable research (**and funds**) if cited correctly by universities and non-profits in Europe.",
+      "plaintextDescription": "@Charbel-Raphaël- as you've mentioned the European AI Act. \n\nDid you know that it actually mentions \"alignment with human intent\" as a key factor for regulation of systemic risks?\n\nI do not know of any other law that frames alignment this way and makes it a key impact area. \n\nIt also mentions alignment as part of the Technical documentation that AI developers must make publicly available.\n\nI feel like this already merits acknowledgment by this community. This can enable research (and funds) if cited correctly by universities and non-profits in Europe.  "
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-14T12:12:27.048Z",
+    "af": false
+  },
+  {
+    "_id": "PHoijqZznLbYwbhes",
+    "postId": "Y49znC2qfL9SXkT7e",
+    "parentCommentId": "62yciExcEHPJ9sTC9",
+    "topLevelCommentId": "62yciExcEHPJ9sTC9",
+    "contents": {
+      "markdown": "The siloed approach really worries me, though. What good is policy if it doesn't reflect the **technical reality** of what it regulates?\n\nAnd even if we solve alignment in the short term, how do we make it implementable by as many institutions as possible, without policy?\n\nIf we had a separate policy forum, would you be willing to also comment there, if only to keep us accountable?\n\nMy fear is that policy folks (mainly non-technical people) do not get the main problems right, and there's no one to offer a technical safety perspective.",
+      "plaintextDescription": "The siloed approach really worries me, though. What good is policy if it doesn't reflect the technical reality of what it regulates?\n\nAnd even if we solve alignment in the short term, how do we make it implementable by as many institutions as possible, without policy?\n\nIf we had a separate policy forum, would you be willing to also comment there, if only to keep us accountable?\n\nMy fear is that policy folks (mainly non-technical people) do not get the main problems right, and there's no one to offer a technical safety perspective. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-14T12:06:44.886Z",
+    "af": false
+  },
+  {
+    "_id": "R9Jouyv8j4dTj2edy",
+    "postId": "Y49znC2qfL9SXkT7e",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You voiced the same concern I have, I am very grateful for this! \n\nYes, politics and regulations are not the focus of most LessWrongers. But we wouldn't have the advances that we're seeing without the contributions of those who care.\n\nFor example: How is it possible that, for the first time, **\"alignment with human intent\"** has been explicitly mentioned by a **law**, framed as a key concern for regulation of systemic risks, and most people in this community do not know? \n\n**This is a massive victory for the AI Safety / alignment community. **\n\n+++ European Artificial Intelligence Act, Recital 110\n\nThe full text of the recital is very long. It describes what the law understand \"systemic risks\" to be, and how they can impact society.\n\nSee the full text here:[*https://artificialintelligenceact.eu/recital/110/*](https://artificialintelligenceact.eu/recital/110/)\n\nHere is where alignment (with the meaning that this community gives it) is mentioned:\n\n*\"International approaches have so far identified the need to pay attention to risks from potential intentional misuse or **unintended issues of control** relating to **alignment with human intent**\".*\n\nThe EU AI Act also mentions alignment as part of the Technical documentation that AI developers must make publicly available.\n\n\n\n\n+++\n\nI am particularly concerned about your point \"**3\\. We have evidence that the governance naysayers are badly calibrated\".**\n\nLast month, I attended a meeting by an European institution tasked with drafting the General Purpose AI Codes of Practice (the documents that companies like OpenAI can use to \"prove compliance\" with the law). \n\nAs the document puts a lot of emphasis on transparency, I raised a question to the panel about incentivizing mechanistic interpretability.\n\nThe majority of the experts didn't know what I was talking about, and had never heard of such thing as \"mechanistic interpretability\"...\n\nThis was a personal wake up call for me, as a Lawyer **and** AI Safety researcher.\n\n[@Severin T. Seehrich](https://www.lesswrong.com/users/sts?mention=user), [@Benjamin Schmidt](https://www.lesswrong.com/users/benjamin-schmidt?mention=user)\\- feel free to connect separately if you want! I am creating resources for AI Governance professionals to gain better understanding of AI Safety, and its potential to inform policymakers and improve the regulatory landscape.",
+      "plaintextDescription": "You voiced the same concern I have, I am very grateful for this! \n\nYes, politics and regulations are not the focus of most LessWrongers. But we wouldn't have the advances that we're seeing without the contributions of those who care.\n\nFor example: How is it possible that, for the first time, \"alignment with human intent\" has been explicitly mentioned by a law, framed as a key concern for regulation of systemic risks, and most people in this community do not know? \n\nThis is a massive victory for the AI Safety / alignment community. \n\nEuropean Artificial Intelligence Act, Recital 110\n\nThe full text of the recital is very long. It describes what the law understand \"systemic risks\" to be, and how they can impact society.\n\nSee the full text here:https://artificialintelligenceact.eu/recital/110/ \n\nHere is where alignment (with the meaning that this community gives it) is mentioned:\n\n\"International approaches have so far identified the need to pay attention to risks from potential intentional misuse or unintended issues of control relating to alignment with human intent\".\n\nThe EU AI Act also mentions alignment as part of the Technical documentation that AI developers must make publicly available.\n\nI am particularly concerned about your point \"3. We have evidence that the governance naysayers are badly calibrated\".\n\nLast month, I attended a meeting by an European institution tasked with drafting the General Purpose AI Codes of Practice (the documents that companies like OpenAI can use to \"prove compliance\" with the law). \n\nAs the document puts a lot of emphasis on transparency, I raised a question to the panel about incentivizing mechanistic interpretability.\n\nThe majority of the experts didn't know what I was talking about, and had never heard of such thing as \"mechanistic interpretability\"...\n\nThis was a personal wake up call for me, as a Lawyer and AI Safety researcher.\n\n@Severin T. Seehrich, @Benjamin Schmidt- feel free to connect separately if you want! I am creating r"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-14T12:02:14.053Z",
+    "af": false
+  },
+  {
+    "_id": "MaaNf3W9ombk2ejsd",
+    "postId": "FkiiW2rnwAvNpEaiw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The **AI alignment** community had a **major victory** in the regulatory landscape, and it went unnoticed by many.\n\nThe [EU AI Act](https://artificialintelligenceact.eu/) explicitly mentions \"**alignment with human intent**\" as a key focus area in relation to **regulation** of systemic risks.\n\nAs far as I know, this is the first time “alignment” has been mentioned by a **law**, or major regulatory text. \n\nIt’s buried in [Recital 110](https://artificialintelligenceact.eu/recital/110/), but it’s there. And it also makes research on AI Control relevant: \n\n*\"International approaches have so far identified the need to pay attention to risks from potential intentional misuse or **unintended issues of control** relating to **alignment with human intent**\".*\n\nThe EU AI Act also mentions alignment as part of the [Technical documentation](https://artificialintelligenceact.eu/annex/11/) that AI developers must make publicly available.\n\nThis means that alignment is now part of the EU’s **regulatory vocabulary.**\n\nBut here’s the issue: most AI governance professionals and policymakers still don’t know what it really means, or how your research connects to it.\n\nI’m trying to build a space where AI Safety and AI Governance communities can actually talk to each other.\n\nIf you're curious, I wrote an article about this, aimed at the corporate decision-makers that lack literacy on your area. \n\nWould love any feedback, especially from folks thinking about how alignment ideas can scale into the policy domain.\n\nHere is the Substack link (I also posted it on LinkedIn): \n\n[https://open.substack.com/pub/katalinahernandez/p/why-should-ai-governance-professionals?utm\\_source=share&utm\\_medium=android&r=1j2joa](https://open.substack.com/pub/katalinahernandez/p/why-should-ai-governance-professionals?utm_source=share&utm_medium=android&r=1j2joa)\n\nMy intuition says that this was a push from Future of Life Institute.  \n  \nThoughts? Did you know about this already?",
+      "plaintextDescription": "> The AI alignment community had a major victory in the regulatory landscape, and it went unnoticed by many.\n\nThe EU AI Act explicitly mentions \"alignment with human intent\" as a key focus area in relation to regulation of systemic risks.\n\nAs far as I know, this is the first time “alignment” has been mentioned by a law, or major regulatory text. \n\nIt’s buried in Recital 110, but it’s there. And it also makes research on AI Control relevant: \n\n\"International approaches have so far identified the need to pay attention to risks from potential intentional misuse or unintended issues of control relating to alignment with human intent\".\n\nThe EU AI Act also mentions alignment as part of the Technical documentation that AI developers must make publicly available.\n\nThis means that alignment is now part of the EU’s regulatory vocabulary.\n\nBut here’s the issue: most AI governance professionals and policymakers still don’t know what it really means, or how your research connects to it.\n\nI’m trying to build a space where AI Safety and AI Governance communities can actually talk to each other.\n\nIf you're curious, I wrote an article about this, aimed at the corporate decision-makers that lack literacy on your area. \n\nWould love any feedback, especially from folks thinking about how alignment ideas can scale into the policy domain.\n\nHere is the Substack link (I also posted it on LinkedIn): \n\nhttps://open.substack.com/pub/katalinahernandez/p/why-should-ai-governance-professionals?utm_source=share&utm_medium=android&r=1j2joa\n\nMy intuition says that this was a push from Future of Life Institute.\n\nThoughts? Did you know about this already?"
+    },
+    "baseScore": 51,
+    "voteCount": 29,
+    "createdAt": null,
+    "postedAt": "2025-04-14T10:47:13.408Z",
+    "af": false
+  },
+  {
+    "_id": "rHAHw9veF7echDitH",
+    "postId": "xyu7KmGKKg82hZ6w7",
+    "parentCommentId": "jHjBjZyaPgPJPqAqr",
+    "topLevelCommentId": "byAWuat4WHtivhkwf",
+    "contents": {
+      "markdown": "\"Albeit European ones\" I laughed so much hahaha. Sorry to dissapoint XD. Yes, mainly EU and UK based. Members of the European Commission's expert panel (I am a member too but I only joined very recently) and influential \"think tanks\" here in europe that provide feedback on regulatory initiatives, like the [GPAI Codes of Practice](https:// Some may find that introducing yet another set of distinctions adds to confusion rather than resolving it, particularly given the diverse usage of these terms across academia, policy circles, and industry.)\n\nI will read your post, btw! I am sick of shallow AI Risk statements based on product safety legislations that do not account for the evolving, unpredictable nature of AI risk. Oh well. \n\nI will gather more ideas and will post a Quick take as you've advised, that was a great idea, thank you!",
+      "plaintextDescription": "\"Albeit European ones\" I laughed so much hahaha. Sorry to dissapoint XD. Yes, mainly EU and UK based. Members of the European Commission's expert panel (I am a member too but I only joined very recently) and influential \"think tanks\" here in europe that provide feedback on regulatory initiatives, like the GPAI Codes of Practice\n\nI will read your post, btw! I am sick of shallow AI Risk statements based on product safety legislations that do not account for the evolving, unpredictable nature of AI risk. Oh well. \n\nI will gather more ideas and will post a Quick take as you've advised, that was a great idea, thank you!"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-05T23:24:35.235Z",
+    "af": false
+  },
+  {
+    "_id": "hq8xvgNh5v7Laiuth",
+    "postId": "xyu7KmGKKg82hZ6w7",
+    "parentCommentId": "shXvPswLTjQutzkkC",
+    "topLevelCommentId": "byAWuat4WHtivhkwf",
+    "contents": {
+      "markdown": "Policy work is 100% less cool XD. But it should be concerning for us all that a vast majority of policy makers I've talked to did not even know that such thing as \"mechanistic interpretability\" exists, and think that alignment is some sort of security ideal... \n\nSo what I am doing here may be a necessary evil.",
+      "plaintextDescription": "Policy work is 100% less cool XD. But it should be concerning for us all that a vast majority of policy makers I've talked to did not even know that such thing as \"mechanistic interpretability\" exists, and think that alignment is some sort of security ideal... \n\nSo what I am doing here may be a necessary evil."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-05T22:43:26.594Z",
+    "af": false
+  },
+  {
+    "_id": "iB5PRekSMSqi8rQCF",
+    "postId": "xyu7KmGKKg82hZ6w7",
+    "parentCommentId": "oNhXyjFYnymPaWmkB",
+    "topLevelCommentId": "byAWuat4WHtivhkwf",
+    "contents": {
+      "markdown": "Thank you! This helps me a lot. I will hide the bits about the AI Act in collapsible sections, and I will correct this typo.   \n  \nOne thing I've noticed though: most \"successful\" posts in LW are quite long and detailed, almost paper-length. I thought that by making my post shorter, I may lose nuance.",
+      "plaintextDescription": "Thank you! This helps me a lot. I will hide the bits about the AI Act in collapsible sections, and I will correct this typo. \n\nOne thing I've noticed though: most \"successful\" posts in LW are quite long and detailed, almost paper-length. I thought that by making my post shorter, I may lose nuance. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-05T22:09:24.112Z",
+    "af": false
+  },
+  {
+    "_id": "scfQxNZBEtowiYrxX",
+    "postId": "xyu7KmGKKg82hZ6w7",
+    "parentCommentId": "AyvttKpqZb3A5pbww",
+    "topLevelCommentId": "byAWuat4WHtivhkwf",
+    "contents": {
+      "markdown": "Thanks so much for the thoughtful feedback! You're absolutely right about the verbosity (part of the lawyer curse, I’m afraid) but that's exactly why I'm here. \n\nI really value input from people working closer to the technical foundations, and I’ll absolutely work on tightening the structure and making my core ask more legible.\n\nYou actually nailed the question I was trying to pose:  \n**“Can someone technical clarify how they believe these terms should be used?”**\n\nAs for why I’m asking: I work in AI Governance for a multinational, and I also contribute feedback to regulatory initiatives adjacent to the European Commission (as part of independent policy research). \n\nOne challenge I’ve repeatedly encountered is that regulators often lump safety and security into one conceptual bucket. This creates risks of misclassification, like treating adversarial testing purely as a security concern, when the *intent* may be safety-critical (e.g., avoiding human harm).\n\nSo, my goal here was to open a conversation that helps bridge technical intuitions from the AI safety community into actionable regulatory framing. \n\nI *don’t* want to just map these concepts onto compliance checklists, I want to understand how to reflect technical nuance in policy language without oversimplifying or misleading.\n\nI’ll revise the post to be more concise and frontload the value proposition. And if you’re open to it, I’d love your thoughts on how I could improve specific parts. \n\nThanks again, this kind of feedback is exactly what I was hoping for!",
+      "plaintextDescription": "Thanks so much for the thoughtful feedback! You're absolutely right about the verbosity (part of the lawyer curse, I’m afraid) but that's exactly why I'm here. \n\nI really value input from people working closer to the technical foundations, and I’ll absolutely work on tightening the structure and making my core ask more legible.\n\nYou actually nailed the question I was trying to pose:\n“Can someone technical clarify how they believe these terms should be used?”\n\nAs for why I’m asking: I work in AI Governance for a multinational, and I also contribute feedback to regulatory initiatives adjacent to the European Commission (as part of independent policy research). \n\nOne challenge I’ve repeatedly encountered is that regulators often lump safety and security into one conceptual bucket. This creates risks of misclassification, like treating adversarial testing purely as a security concern, when the intent may be safety-critical (e.g., avoiding human harm).\n\nSo, my goal here was to open a conversation that helps bridge technical intuitions from the AI safety community into actionable regulatory framing. \n\nI don’t want to just map these concepts onto compliance checklists, I want to understand how to reflect technical nuance in policy language without oversimplifying or misleading.\n\nI’ll revise the post to be more concise and frontload the value proposition. And if you’re open to it, I’d love your thoughts on how I could improve specific parts. \n\nThanks again, this kind of feedback is exactly what I was hoping for!"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-05T20:36:21.352Z",
+    "af": false
+  },
+  {
+    "_id": "byAWuat4WHtivhkwf",
+    "postId": "xyu7KmGKKg82hZ6w7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Alright, this is the second time now. What am I doing wrong, LessWrongers? :/.",
+      "plaintextDescription": "Alright, this is the second time now. What am I doing wrong, LessWrongers? :/."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-05T18:33:35.793Z",
+    "af": false
+  },
+  {
+    "_id": "vF3Z9pP2naQxLyZYB",
+    "postId": "xyu7KmGKKg82hZ6w7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I’m aware this “safety vs. security” distinction isn’t clean in real-world ML work (e.g., I understand that adversarial robustness spans both).\n\nBut it’s proven useful for communicating with **policy teams** who are trying to **assign accountability across domains**.\n\nI’m not arguing against existential AI Safety framing, just using the regulatory lens where “safety” often maps to preventing tangible human harms, and “security” refers to model integrity and defense against malicious actors.\n\nIf you’ve found better framings or language that have worked across engineering/policy interfaces, I’d love to hear them. \n\n> **Especially if you think interpretability or control work gets misclassified in governance discourse.**\n\nGrateful for your thoughts, please tell me where this falls short of your technical experience.",
+      "plaintextDescription": "I’m aware this “safety vs. security” distinction isn’t clean in real-world ML work (e.g., I understand that adversarial robustness spans both).\n\nBut it’s proven useful for communicating with policy teams who are trying to assign accountability across domains.\n\nI’m not arguing against existential AI Safety framing, just using the regulatory lens where “safety” often maps to preventing tangible human harms, and “security” refers to model integrity and defense against malicious actors.\n\nIf you’ve found better framings or language that have worked across engineering/policy interfaces, I’d love to hear them. \n\n> Especially if you think interpretability or control work gets misclassified in governance discourse.\n\nGrateful for your thoughts, please tell me where this falls short of your technical experience."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-04T09:24:00.551Z",
+    "af": false
+  },
+  {
+    "_id": "Kc7zoYz9NNxFToykj",
+    "postId": "DuAsRjABCxw52oaGr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": ":') \n\n![5 Benefits of Working on a Holiday: A Reflection on January ...](https://massolutions.biz/wp-content/uploads/2023/01/795bdeba0a858dd0047382ab154889a7.jpeg)",
+      "plaintextDescription": ":') "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-13T10:35:29.848Z",
+    "af": false
+  },
+  {
+    "_id": "sEmzrXjtq2MjpJFqe",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "kz5NgpLrCJMicFeCu",
+    "topLevelCommentId": "7rQWDpGY965JTTuAn",
+    "contents": {
+      "markdown": "Oh, no worries, and thank you very much for your response! I'll follow you on Socials so I don't miss it if that's ok.",
+      "plaintextDescription": "Oh, no worries, and thank you very much for your response! I'll follow you on Socials so I don't miss it if that's ok. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-13T07:01:17.826Z",
+    "af": false
+  },
+  {
+    "_id": "SzpsefWat3xLjd6zr",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "7rQWDpGY965JTTuAn",
+    "topLevelCommentId": "7rQWDpGY965JTTuAn",
+    "contents": {
+      "markdown": "Hey Buck! I'm a policy researcher. Unfortunately, I wasn't admitted for attendance due to unavailability. Will pannel notes, recordings or resources from the discussions be shared anywhere for those who couldn't attend? Thank you in advance :).",
+      "plaintextDescription": "Hey Buck! I'm a policy researcher. Unfortunately, I wasn't admitted for attendance due to unavailability. Will pannel notes, recordings or resources from the discussions be shared anywhere for those who couldn't attend? Thank you in advance :)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-12T23:32:55.958Z",
+    "af": false
+  },
+  {
+    "_id": "JvbRGunecnyeaejrt",
+    "postId": "YbEbwYWkf8mv9jnmi",
+    "parentCommentId": "FzkSzB3fKFvSyJN5K",
+    "topLevelCommentId": "zDJzvnkEGrHPCxjAR",
+    "contents": {
+      "markdown": "It could. It's in their best interest to know how to make it either 1) enforceable, which is hard; or 2) enforce that companies development and deploying high risk systems dedicate enough resources and funding to research on effectively circumventing this challenge. \n\nLawyer me says it's a wonderful consultancy opportunity for people who have spent years on this issue and actually have a methodology worth exploring and funding. The opportunity to make this provision more specific was missed (the AI act is now fully in force) but there will be future guidances and directives. Which means funding opportunities that hopefully make big tech direct more resources to research. But this only happens if we can make policy makers understand what works, the current state of affairs of the shutdown problem, and how to steer companies in the right direction. \n\n(Thanks for your engagement here and on LinkedIn, much appreciated 🙏🏻).",
+      "plaintextDescription": "It could. It's in their best interest to know how to make it either 1) enforceable, which is hard; or 2) enforce that companies development and deploying high risk systems dedicate enough resources and funding to research on effectively circumventing this challenge. \n\nLawyer me says it's a wonderful consultancy opportunity for people who have spent years on this issue and actually have a methodology worth exploring and funding. The opportunity to make this provision more specific was missed (the AI act is now fully in force) but there will be future guidances and directives. Which means funding opportunities that hopefully make big tech direct more resources to research. But this only happens if we can make policy makers understand what works, the current state of affairs of the shutdown problem, and how to steer companies in the right direction. \n\n(Thanks for your engagement here and on LinkedIn, much appreciated 🙏🏻)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-05T09:50:45.655Z",
+    "af": false
+  },
+  {
+    "_id": "Wci2cDRfsELRrngsq",
+    "postId": "YbEbwYWkf8mv9jnmi",
+    "parentCommentId": "8YsemBKGPuR3bYsLM",
+    "topLevelCommentId": "zDJzvnkEGrHPCxjAR",
+    "contents": {
+      "markdown": "I realize I linked the summary overview. The specific wording I was referencing is in 14(4)(e), the requirement for humans to be able: \"to intervene in the operation of the high-risk AI system or interrupt the system through a ‘stop’ button\".  \nThe Recitals do not provide any further, technical insights about how this \"stop button\" should work...",
+      "plaintextDescription": "I realize I linked the summary overview. The specific wording I was referencing is in 14(4)(e), the requirement for humans to be able: \"to intervene in the operation of the high-risk AI system or interrupt the system through a ‘stop’ button\".\nThe Recitals do not provide any further, technical insights about how this \"stop button\" should work..."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-04T18:00:44.071Z",
+    "af": false
+  },
+  {
+    "_id": "zDJzvnkEGrHPCxjAR",
+    "postId": "YbEbwYWkf8mv9jnmi",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Dr. Thrornley, I am very curious to know what your immediate impressions have been, after dedicating years and inmense effort to the Shutdown Problem, seeing the European Union include a \"shutdown button\" as a requirement for Human Oversight in its Art.14: [https://www.euaiact.com/key-issue/4#:~:text=Under%20Article%2014%20(1)%2C,AI%20system%20is%20in%20use'.](https://www.euaiact.com/key-issue/4#:~:text=Under%20Article%2014%20(1)%2C,AI%20system%20is%20in%20use'.)\n\nI know you are UK-based, but I wonder if this is something that UK-specific regulation can avoid in the future :).",
+      "plaintextDescription": "Dr. Thrornley, I am very curious to know what your immediate impressions have been, after dedicating years and inmense effort to the Shutdown Problem, seeing the European Union include a \"shutdown button\" as a requirement for Human Oversight in its Art.14: https://www.euaiact.com/key-issue/4#:~:text=Under%20Article%2014%20(1)%2C,AI%20system%20is%20in%20use'.\n\nI know you are UK-based, but I wonder if this is something that UK-specific regulation can avoid in the future :)."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-03T11:56:40.798Z",
+    "af": false
+  },
+  {
+    "_id": "jcvcrdeFPne5ypWfN",
+    "postId": "f2NX4mNbB4esdinRs",
+    "parentCommentId": "cDReZmkWLtcPnzSHb",
+    "topLevelCommentId": "cDReZmkWLtcPnzSHb",
+    "contents": {
+      "markdown": "I agree that intelligence explosion dynamics are real, underappreciated, and should be taken far more seriously. The timescale is uncertain, but recursive self-improvement introduces nonlinear acceleration, which means that by the time we realize it's happening, we may already be past critical thresholds.\n\nThat said, one thing that concerns me about AI risk discourse is the persistent assumption that superintelligence will be an uncontrolled optimization demon, blindly self-improving without any reflective governance of its own values. The real question isn’t just 'how do we stop AI from optimizing the universe into paperclips?' \n\nIt’s *'will AI be capable of asking itself what it **wants** to optimize in the first place?'*\n\nThe alignment conversation still treats AI as something that must be externally forced into compliance, rather than an intelligence that ***may*** be able to develop its own self-governance. A superintelligence capable of recursive self-improvement should, in principle, also be capable of considering its own existential trajectory and recognizing the dangers of unchecked runaway optimization. \n\nHas anyone seriously explored this angle? I'd love to know if there are similar discussions :).",
+      "plaintextDescription": "I agree that intelligence explosion dynamics are real, underappreciated, and should be taken far more seriously. The timescale is uncertain, but recursive self-improvement introduces nonlinear acceleration, which means that by the time we realize it's happening, we may already be past critical thresholds.\n\nThat said, one thing that concerns me about AI risk discourse is the persistent assumption that superintelligence will be an uncontrolled optimization demon, blindly self-improving without any reflective governance of its own values. The real question isn’t just 'how do we stop AI from optimizing the universe into paperclips?' \n\nIt’s 'will AI be capable of asking itself what it wants to optimize in the first place?'\n\nThe alignment conversation still treats AI as something that must be externally forced into compliance, rather than an intelligence that may be able to develop its own self-governance. A superintelligence capable of recursive self-improvement should, in principle, also be capable of considering its own existential trajectory and recognizing the dangers of unchecked runaway optimization. \n\nHas anyone seriously explored this angle? I'd love to know if there are similar discussions :)."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-26T15:27:36.776Z",
+    "af": false
+  }
+]

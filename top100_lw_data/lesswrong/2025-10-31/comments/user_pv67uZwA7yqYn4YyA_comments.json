@@ -1,0 +1,602 @@
+[
+  {
+    "_id": "6ZabB2FekZPvBuw7c",
+    "postId": "beREnXhBnzxbJtr8k",
+    "parentCommentId": "Xt2eCYhqXwP5RgKPe",
+    "topLevelCommentId": "Xt2eCYhqXwP5RgKPe",
+    "contents": {
+      "markdown": "Hey Adam, thanks for your thoughts on this!   \n  \n \n\n> I strongly agree with this, and I hope more people in mech. interp. become aware of this. I would actually emphasize that in my opinion it's not just that it's *hard* to do computational science on brains, but that we don't have the right framework. Some weak evidence for this is exactly that we have an intelligent system that has existed for a few years now where experiments and analyses are easy to do, and we can see how far we've gotten with the CNC approach. \n\n  \nI think we're on the same page that we might not have the right framework to do computational science on brains or other intelligent systems. I think we might disagree on how far away current mainstream ideas are from being the right framework - I'd predict that, if we talked it out further, I'd say we're closer than you'd say we are. I don't know how far afield from current ideas that we need to look for the right framework, and I'd support work that looks even further afield than several inferential steps from current mainstream ideas. But I don't think the historical sluggish pace of computational neuroscience justifies search any particular inferential distance; more proximal solutions feel just as likely to be the next paradigm/wave than more distant solutions (maybe more likely given the social nature of what constitutes a paradigm/wave). \n\n> My main point of confusion with this post has to do with Parameter Decomposition as a new paradigm.\n\nI really want to re-emphasize that I didn't call PD a new paradigm (or even a new 'wave') in the post. N.B.: \"I’ll emphasize that these are early ideas and certainly do not yet constitute ‘Third-Wave Mech Interp’. \"\n\n> I haven't thought about this technique much, but on a first reading it doesn't sound all that different from what you call the second wave paradigm, just replacing activations with parameters.  For instance, I think I could take most of the last few sections of this post and rewrite it to make the point. Just for fun I'll try this out here, trying to argue for a new paradigm called \"Activation Decomposition\". (just to be super clear I don't think this is a new paradigm!)\n\nYeah I don't think PD throws away the majority of the ideas in the 2nd wave. It's designed primarily to solve the anomallies of the 2nd wave. It will therefore resemble 2nd wave ideas and we can draw analogies. But I think it's different in important ways. For one, I think it will probably help us be less confused about  ideas like 'feature', 'representation', 'circuit', and so on.  \n  \n \n\n> \\> Some work in this early period was quite neuroscience-adjacent; as a result, despite being extremely *mechanistic* in flavour, some of this work may have been somewhat overlooked e.g. [Sussillo and Barak (2013)](https://pubmed.ncbi.nlm.nih.gov/23272922/). \n\n> This is a nitpick, and I don't think any of your main points rests on this, but I think the main reason this work was not used in any type of artificial neural network interp work at that time was that it is fundamentally only applicable to recurrent systems, and probably impossible to apply to e.g. standard convolutional networks. It's not even straightforward to apply to a lot of the types of recurrent systems used in AI today (to the extent they are even used), but probably one could push on that a bit with some effort. \n\nYes this is fair. These are still fairly deep neural networks, though (if we count time as depth), and they're examples of work that interprets ANNs on the lowest level using low-level analysis of weights and activations using e.g. dimensionality reduction and other methods mech interp folks might find familiar. But I agree it doesn't usually get put in the bucket of 'mech interp' though ultimately the boundary is fairly arbitrary. As a separate point, it is surprising how little of the neuroscience community has actually jumped onto mechanistically understanding more interesting models like inception v2 or LLMs despite the similarity of methods and object of study, which is a testament to the early mech interp pioneers since they saw a field where few others did. \n\n> As a final question, I am wondering what you think the implications for what people should be doing are if mech interp is or is not pre-paradigmatic? Is there a difference between mech interp being in a not-so-great-paradigm vs. pre-paradigmatic in terms of what your median researcher should be thinking/doing/spending time on? Or is this just an intellectually interesting thing to think about. I am guessing that when a lot of people say that mech interp is pre paradigmatic they really mean something closer to \"mech interp doesn't have a useful/good/perfect paradigm right now\". But I'm also not sure if there's anything here beyond semantics\n\nI'm not actually sure if this is very action-relevant. I think in the past I might have said \"mech interp practitioners should be more familiar with computational neuroscience/connectionism\", since I think this might have save the mech interp community some time. But I don't think it would have saved a huge amount of time, and I think the mech interp has largely surpassed comp neuro as a source of interesting and relevant ideas. I think it's mostly useful as an exercise in situating mech interp ideas within the broader set of ideas of an eminently related field (comp neuro/connectionism). But I'll stress that many in the field see mech interp as better contextualized by other sets of broader ideas (e.g. as a subfield of interpretability/ML), and when viewing mech interp in light of those ideas, it might better be thought of as pre-paradigmatic. I think that's a completely compatible but different perspective from the one I tend to take, and just emphasizes the subjectiveness of the whole question of whether the field is paradigmatic or not.",
+      "plaintextDescription": "Hey Adam, thanks for your thoughts on this! \n\n \n\n> I strongly agree with this, and I hope more people in mech. interp. become aware of this. I would actually emphasize that in my opinion it's not just that it's hard to do computational science on brains, but that we don't have the right framework. Some weak evidence for this is exactly that we have an intelligent system that has existed for a few years now where experiments and analyses are easy to do, and we can see how far we've gotten with the CNC approach. \n\n\nI think we're on the same page that we might not have the right framework to do computational science on brains or other intelligent systems. I think we might disagree on how far away current mainstream ideas are from being the right framework - I'd predict that, if we talked it out further, I'd say we're closer than you'd say we are. I don't know how far afield from current ideas that we need to look for the right framework, and I'd support work that looks even further afield than several inferential steps from current mainstream ideas. But I don't think the historical sluggish pace of computational neuroscience justifies search any particular inferential distance; more proximal solutions feel just as likely to be the next paradigm/wave than more distant solutions (maybe more likely given the social nature of what constitutes a paradigm/wave). \n\n> My main point of confusion with this post has to do with Parameter Decomposition as a new paradigm.\n\nI really want to re-emphasize that I didn't call PD a new paradigm (or even a new 'wave') in the post. N.B.: \"I’ll emphasize that these are early ideas and certainly do not yet constitute ‘Third-Wave Mech Interp’. \"\n\n> I haven't thought about this technique much, but on a first reading it doesn't sound all that different from what you call the second wave paradigm, just replacing activations with parameters.  For instance, I think I could take most of the last few sections of this post and rewrite it to make the p"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-14T19:39:40.992Z",
+    "af": true
+  },
+  {
+    "_id": "j4JRBBDfCueLAr3Sc",
+    "postId": "EPefYWjuHNcNH4C7E",
+    "parentCommentId": "4Qi7d8Lu4i5cAkJdq",
+    "topLevelCommentId": "rfovFMr7D4su5SpnL",
+    "contents": {
+      "markdown": "Figure 3 in this paper (AtP*, Kramar et al.) illustrates the point nicely: [https://arxiv.org/abs/2403.00745](https://arxiv.org/abs/2403.00745)",
+      "plaintextDescription": "Figure 3 in this paper (AtP*, Kramar et al.) illustrates the point nicely: https://arxiv.org/abs/2403.00745 "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-11T13:28:06.978Z",
+    "af": false
+  },
+  {
+    "_id": "pWm3igk7cK9cxcrmf",
+    "postId": "EPefYWjuHNcNH4C7E",
+    "parentCommentId": "apKqFDv8KYzPmQHhx",
+    "topLevelCommentId": "apKqFDv8KYzPmQHhx",
+    "contents": {
+      "markdown": "> seems great for mechanistic anomaly detection! very intuitive to map ADP to [surprise accounting](https://www.google.com/search?q=suprise+accounting&rlz=1C5CHFA_enUS989US989&oq=suprise+accounting&gs_lcrp=EgZjaHJvbWUyBggAEEUYOdIBCDI4ODRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8) (I was vaguely trying to get at a method like ADP [here](https://www.lesswrong.com/posts/tSGBmocPhAruzEaNX/concrete-methods-for-heuristic-estimation-on-neural-networks#Weight_Based_Arguments)) \n\nAgree! I'd be excited by work that uses APD for MAD, or even just work that applies APD to Boolean circuit networks. We did consider using them as a toy model at various points, but ultimately opted to go for other toy models instead.   \n  \n(btw typo: *APD)",
+      "plaintextDescription": "> seems great for mechanistic anomaly detection! very intuitive to map ADP to surprise accounting (I was vaguely trying to get at a method like ADP here) \n\nAgree! I'd be excited by work that uses APD for MAD, or even just work that applies APD to Boolean circuit networks. We did consider using them as a toy model at various points, but ultimately opted to go for other toy models instead. \n\n(btw typo: *APD) "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-26T20:56:31.571Z",
+    "af": true
+  },
+  {
+    "_id": "W48WShbxtjjTeicCj",
+    "postId": "EPefYWjuHNcNH4C7E",
+    "parentCommentId": "apKqFDv8KYzPmQHhx",
+    "topLevelCommentId": "apKqFDv8KYzPmQHhx",
+    "contents": {
+      "markdown": "> IMO most exciting mech-interp research since SAEs, great work\n\nI think so too! (assuming it can be made more robust and scaled, which I think it can)   \nAnd thanks! :)",
+      "plaintextDescription": "> IMO most exciting mech-interp research since SAEs, great work\n\nI think so too! (assuming it can be made more robust and scaled, which I think it can) \nAnd thanks! :) "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-26T20:56:21.364Z",
+    "af": true
+  },
+  {
+    "_id": "u85jzeRNDiHTAchGS",
+    "postId": "EPefYWjuHNcNH4C7E",
+    "parentCommentId": "Jj2GrcXRHEgGGSLgN",
+    "topLevelCommentId": "Jj2GrcXRHEgGGSLgN",
+    "contents": {
+      "markdown": "We're aware of model diffing work like this, but I wasn't aware of this particular paper.\n\nIt's probably an edge case: They do happen both to be in weight space and to be suggestive of weight space linearity. Indeed, our work was informed by various observations from a range of areas that suggest weight space linearity (some listed [here](https://www.lesswrong.com/posts/JK9nxcBhQfzEgjjqe/deep-learning-models-might-be-secretly-almost-linear)).\n\nOn the other hand, our work focused on decomposing a given network's parameters. But the line of work you linked above seems more in pursuit of model editing and understanding the difference between two similar models, rather than decomposing a particular model's weights.\n\nall in all, whether it deserved to be in the related work section is unclear to me. Seems plausible either way. The related work section was already pretty long, but it maybe deserves a section on weight space linearity, though probably not one on model diffing imo.",
+      "plaintextDescription": "We're aware of model diffing work like this, but I wasn't aware of this particular paper.\n\nIt's probably an edge case: They do happen both to be in weight space and to be suggestive of weight space linearity. Indeed, our work was informed by various observations from a range of areas that suggest weight space linearity (some listed here).\n\nOn the other hand, our work focused on decomposing a given network's parameters. But the line of work you linked above seems more in pursuit of model editing and understanding the difference between two similar models, rather than decomposing a particular model's weights.\n\nall in all, whether it deserved to be in the related work section is unclear to me. Seems plausible either way. The related work section was already pretty long, but it maybe deserves a section on weight space linearity, though probably not one on model diffing imo."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-26T18:46:26.921Z",
+    "af": true
+  },
+  {
+    "_id": "F8AwsTq7QoPmjKHT8",
+    "postId": "TMAmHh4DdMr4nCSr5",
+    "parentCommentId": "xBrsSfDNDvQC2WoTy",
+    "topLevelCommentId": "xBrsSfDNDvQC2WoTy",
+    "contents": {
+      "markdown": "> It would be interesting to meditate in the question \"What kind of training procedure could you use to get a meta-SAE directly?\" And I think answering this relies in part on mathematical specification of what you want.\n\nAt Apollo we're currently working on something that we think will achieve this. Hopefully will have an idea and a few early results (toy models only) to share soon.",
+      "plaintextDescription": "> It would be interesting to meditate in the question \"What kind of training procedure could you use to get a meta-SAE directly?\" And I think answering this relies in part on mathematical specification of what you want.\n\nAt Apollo we're currently working on something that we think will achieve this. Hopefully will have an idea and a few early results (toy models only) to share soon."
+    },
+    "baseScore": 11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-08-24T12:29:34.604Z",
+    "af": true
+  },
+  {
+    "_id": "gEiDyExyi6WWqXmLK",
+    "postId": "EhAbh2pQoAXkm9yor",
+    "parentCommentId": "GGrehCjQo89pcXeef",
+    "topLevelCommentId": "GGrehCjQo89pcXeef",
+    "contents": {
+      "markdown": "So I believe I had in mind \"active means \\[*is achieved **deliberately** through the agent's actions*\\]\".  \n  \nI think your distinction makes sense. And if I ever end up updating this article I would consider incorporating it. However, I think the reason I didn't make this distinction at the time is because the difference is pretty subtle.   \n  \nThe mechanisms I labelled as \"strictly active\" are the kind of strategy that it would be extremely improbable to implement successfully without some sort of coherent internal representations to help orchestrate the actions required to do it. This is true *even if they've been selected for passively. *  \n  \nSo I'd argue that they all need to be implemented actively (if they're to have a reasonable probability of success) but may be selected for passively or actively. I'm curious if you agree with this? If not, then I may have missed your argument.   \n  \n(  \nFor the convenience of other readers of this thread, the kind of strategies I labelled as strictly active are:  \n \n\n*   **1.1.3. Environmental artifacts that corrupt its future self**: A misaligned AI may leave behind artifacts that serve as adversarial examples or poisoned data that corrupt its future self. (*Strictly active*)\n*   **1.1.4. Deleting (and relearning) dangerous representations**: When not under surveillance, an AI might be able to delete dangerous representations so that it looks safe when surveillance resumes. It might also be able to schedule when it relearns those representations. (*Strictly active*)\n*   **1.1.5. Weights poisoning**: Instead of providing manipulated inputs, the AI might manipulate its own weights so that a small subset of normal inputs behave like adversarial examples. (*Strictly active*)\n*   **1.1.6. Pre-committing to following potentially dangerous instructions**: Hubinger: \"... if the model has the ability to read and write to some sort of state ... it could write out a pre-commitment to follow the hard-coded policy and then just have a policy of always following any pre-commitments it finds such that it never thinks about the deception that led it to that policy in the first place.” (*Strictly active*)\n*   **1.1.7. Hard-coded neural shortcuts**: Hubinger again: “... it could hack its own gradient to produce a new model which will still exhibit the same deceptive behavior, but without doing any of the detectable deceptive cognition. … not because it's trying to act deceptive, but just because it's a hard-coded part of its algorithm” (*Strictly active*)\n*   **1.1.8. Following cached thoughts**: Nanda: \"\\[An AI might develop\\] the instinct to follow cached thoughts without thinking about them, and in occasional moments of deception to generate a lot of cached thoughts that will lead to misaligned actions, but with no deceptive cognition in the moment.\" (*Strictly active*)\n*   **1.1.9. Instrumental incapability**: A misaligned AI that’s able to modify its own parameters could damage capabilities that serve some goals (e.g. aligned goals) more than its misaligned goals. Generalizes instrumental clumsiness. (*Strictly active*)\n*   **1.1.10. Instrumental clumsiness**: An AI might hack its future self so that it is more likely to make certain kinds of mistakes while leaving other capabilities intact. (*Strictly active*)\n*   **1.3.3. Interpretability illusions**: By manipulating the dataset shown to the tool, an AI can control its interpretations. (*Strictly active*)\n*   **1.4.1. Adversarial attack against networks in the interpretation tool**: The AI could adversarially attack networks in the tool to manipulate the tool’s outputs. (*Strictly active*)\n*   **2.4.1. Manipulating, mind-hacking, or incapacitating the interpreter**: An AI might be able to manipulate, directly control, or incapacitate humans  using specific kinds of outputs. (*Strictly active*)\n\n)",
+      "plaintextDescription": "So I believe I had in mind \"active means [is achieved deliberately through the agent's actions]\".\n\nI think your distinction makes sense. And if I ever end up updating this article I would consider incorporating it. However, I think the reason I didn't make this distinction at the time is because the difference is pretty subtle. \n\nThe mechanisms I labelled as \"strictly active\" are the kind of strategy that it would be extremely improbable to implement successfully without some sort of coherent internal representations to help orchestrate the actions required to do it. This is true even if they've been selected for passively. \n\nSo I'd argue that they all need to be implemented actively (if they're to have a reasonable probability of success) but may be selected for passively or actively. I'm curious if you agree with this? If not, then I may have missed your argument. \n\n(\nFor the convenience of other readers of this thread, the kind of strategies I labelled as strictly active are:\n \n\n * 1.1.3. Environmental artifacts that corrupt its future self: A misaligned AI may leave behind artifacts that serve as adversarial examples or poisoned data that corrupt its future self. (Strictly active)\n * 1.1.4. Deleting (and relearning) dangerous representations: When not under surveillance, an AI might be able to delete dangerous representations so that it looks safe when surveillance resumes. It might also be able to schedule when it relearns those representations. (Strictly active)\n * 1.1.5. Weights poisoning: Instead of providing manipulated inputs, the AI might manipulate its own weights so that a small subset of normal inputs behave like adversarial examples. (Strictly active)\n * 1.1.6. Pre-committing to following potentially dangerous instructions: Hubinger: \"... if the model has the ability to read and write to some sort of state ... it could write out a pre-commitment to follow the hard-coded policy and then just have a policy of always following any pre-commitments it find"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-08-11T13:26:14.787Z",
+    "af": true
+  },
+  {
+    "_id": "j4ob7Y5QoZuBk7qcs",
+    "postId": "CLijBSGKi6bbSHw46",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Extremely glad to see this! The Guez et al. model has long struck me as one of the best instances of a mesaoptimizer and it was a real shame that it was closed source. Looking forward to the interp findings!",
+      "plaintextDescription": "Extremely glad to see this! The Guez et al. model has long struck me as one of the best instances of a mesaoptimizer and it was a real shame that it was closed source. Looking forward to the interp findings!"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-26T14:49:34.537Z",
+    "af": true
+  },
+  {
+    "_id": "SRaNv2HqzSL5oKzZR",
+    "postId": "47CYFbrSyiJE2X5ot",
+    "parentCommentId": "BLn5yv5goJTe7eMX3",
+    "topLevelCommentId": "AgxY8b2vdrBygHiR7",
+    "contents": {
+      "markdown": "Both of these seem like interesting directions (I had parameters in mind, but params and activations are too closely linked to ignore one or the other). And I don't have a super clear idea but something like representational similarity analysis between SwitchSAEs and regular SAEs could be interesting. This is just one possibility of many though. I haven't thought about it for long enough to be able to list many more, but it feels like a direction with low hanging fruit for sure. For papers, here's a good place to start for RSA: [https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3730178/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3730178/)",
+      "plaintextDescription": "Both of these seem like interesting directions (I had parameters in mind, but params and activations are too closely linked to ignore one or the other). And I don't have a super clear idea but something like representational similarity analysis between SwitchSAEs and regular SAEs could be interesting. This is just one possibility of many though. I haven't thought about it for long enough to be able to list many more, but it feels like a direction with low hanging fruit for sure. For papers, here's a good place to start for RSA: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3730178/\n "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-26T11:06:38.239Z",
+    "af": false
+  },
+  {
+    "_id": "AgxY8b2vdrBygHiR7",
+    "postId": "47CYFbrSyiJE2X5ot",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great work! Very excited to see work in this direction (In fact, I didn't know you were working on this, so I'd expressed enthusiasm for MoE SAEs in our recent [list](https://www.alignmentforum.org/posts/KfkpgXdgRheSRWDy8/a-list-of-45-mech-interp-project-ideas-from-apollo-research) of project ideas published just a few days ago!)  \n \n\nComments:  \n \n\n*   I'd love to see some geometric analysis of the router. Is it just approximately a down-projection from the encoder features learned by a dense SAE trained on the same activations?\n*   Consider integrating with [SAELens](https://github.com/jbloomAus/SAELens?tab=readme-ov-file).\n\n> Following [Fedus et al.](https://arxiv.org/abs/2101.03961), we route to a single expert SAE. It is possible that selecting several experts will improve performance. The computational cost will scale with the number of experts chosen.\n\n*   If there are some very common features in particular layers (e.g. an 'attend to BOS' feature), then restricting one expert to be active at a time will potentially force SAEs to learn common features in every expert.",
+      "plaintextDescription": "Great work! Very excited to see work in this direction (In fact, I didn't know you were working on this, so I'd expressed enthusiasm for MoE SAEs in our recent list of project ideas published just a few days ago!)\n \n\nComments:\n \n\n * I'd love to see some geometric analysis of the router. Is it just approximately a down-projection from the encoder features learned by a dense SAE trained on the same activations?\n * Consider integrating with SAELens.\n\n> Following Fedus et al., we route to a single expert SAE. It is possible that selecting several experts will improve performance. The computational cost will scale with the number of experts chosen.\n\n * If there are some very common features in particular layers (e.g. an 'attend to BOS' feature), then restricting one expert to be active at a time will potentially force SAEs to learn common features in every expert. "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-07-23T10:46:54.516Z",
+    "af": false
+  },
+  {
+    "_id": "4p3uqzsJ95w2omcnZ",
+    "postId": "KfkpgXdgRheSRWDy8",
+    "parentCommentId": "oP4j5yPMoFcWefJuv",
+    "topLevelCommentId": "oP4j5yPMoFcWefJuv",
+    "contents": {
+      "markdown": "Thanks! Fixed now",
+      "plaintextDescription": "Thanks! Fixed now"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-18T14:42:04.210Z",
+    "af": true
+  },
+  {
+    "_id": "GtejWvErX629wJggJ",
+    "postId": "MFBTjb2qf3ziWmzz6",
+    "parentCommentId": "gFw6yuqb9omAmHRAk",
+    "topLevelCommentId": "W2Ed9KpznoEqtphg7",
+    "contents": {
+      "markdown": "I've no great resources in mind for this.  Off the top of my head, a few examples of ideas that are common in comp neuro that might have bought mech interp some time if more people in mech interp were familiar with them when they were needed:  \n\\- Polysemanticity/distributed representations/mixed selectivity  \n\\- Sparse coding  \n\\- Representational geometry  \nI am not sure about what future mech interp needs will be, so it's hard to predict which ideas or methods that are common in neuro will be useful (topological data analysis? Dynamical systems?).  But it just seems pretty likely that a field that tackles such a similar problem will continue to be a useful source of intuitions and methods. I'd love if someone were to write a review or post on the interplay between the parallel fields of comp neuro and mech interp. It might help flag places where there ought to be more interplay.",
+      "plaintextDescription": "I've no great resources in mind for this.  Off the top of my head, a few examples of ideas that are common in comp neuro that might have bought mech interp some time if more people in mech interp were familiar with them when they were needed:\n- Polysemanticity/distributed representations/mixed selectivity\n- Sparse coding\n- Representational geometry\nI am not sure about what future mech interp needs will be, so it's hard to predict which ideas or methods that are common in neuro will be useful (topological data analysis? Dynamical systems?).  But it just seems pretty likely that a field that tackles such a similar problem will continue to be a useful source of intuitions and methods. I'd love if someone were to write a review or post on the interplay between the parallel fields of comp neuro and mech interp. It might help flag places where there ought to be more interplay."
+    },
+    "baseScore": 17,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2024-06-25T14:35:50.297Z",
+    "af": false
+  },
+  {
+    "_id": "W2Ed9KpznoEqtphg7",
+    "postId": "MFBTjb2qf3ziWmzz6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'll add a strong plus one to this and a note for emphasis:  \n  \nRepresentational geometry is already a long-standing theme in computational neuroscience (e.g. [Kriegeskorte et al., 2013](https://pubmed.ncbi.nlm.nih.gov/23876494/))  \n  \nOverall I think mech interp practitioners would do well to pay more attention to ideas and methods in computational neuroscience. I think mech interp as a field has a habit of overlooking some hard-won lessons learned by that community.",
+      "plaintextDescription": "I'll add a strong plus one to this and a note for emphasis:\n\nRepresentational geometry is already a long-standing theme in computational neuroscience (e.g. Kriegeskorte et al., 2013)\n\nOverall I think mech interp practitioners would do well to pay more attention to ideas and methods in computational neuroscience. I think mech interp as a field has a habit of overlooking some hard-won lessons learned by that community."
+    },
+    "baseScore": 28,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2024-06-25T10:17:58.611Z",
+    "af": false
+  },
+  {
+    "_id": "BusSg26KefpeZErJ6",
+    "postId": "YmkjnWtZGLbHRbzrP",
+    "parentCommentId": "mQozGqMBZGwGKsLyw",
+    "topLevelCommentId": "PiJ86enkDrzo9ELFi",
+    "contents": {
+      "markdown": "> I'm pretty sure that there's at least one other MATS group (unrelated to us) currently working on this, although I'm not certain about any of the details. Hopefully they release their research soon! \n\n  \nThere's recent work published on this [here](https://www.lesswrong.com/posts/kzc3qNMsP2xJcxhGn/gated-attention-blocks-preliminary-progress-toward-removing-1) by Chris Mathwin, Dennis Akar, and me.  The gated attention block is a kind of transcoder adapted for attention blocks.  \n  \nNice work by the way! I think this is a promising direction.   \n  \nNote also the similar, but substantially different, use of the term transcoder [here](https://www.alignmentforum.org/posts/64MizJXzyvrYpeKqm/sparsify-a-mechanistic-interpretability-research-agenda), whose problems were pointed out to me by Lucius.  Addressing those problems helped to motivate our interest in the kind of transcoders that you've trained in your work!",
+      "plaintextDescription": "> I'm pretty sure that there's at least one other MATS group (unrelated to us) currently working on this, although I'm not certain about any of the details. Hopefully they release their research soon! \n\n\nThere's recent work published on this here by Chris Mathwin, Dennis Akar, and me.  The gated attention block is a kind of transcoder adapted for attention blocks.\n\nNice work by the way! I think this is a promising direction. \n\nNote also the similar, but substantially different, use of the term transcoder here, whose problems were pointed out to me by Lucius.  Addressing those problems helped to motivate our interest in the kind of transcoders that you've trained in your work! "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-02T18:45:28.730Z",
+    "af": true
+  },
+  {
+    "_id": "qjs7vwjToCcjEvJxN",
+    "postId": "64MizJXzyvrYpeKqm",
+    "parentCommentId": "RXbMJDve6ND7x4TKr",
+    "topLevelCommentId": "zi4pMgLt2kuZLfczC",
+    "contents": {
+      "markdown": "> Trying to summarize my current understanding of what you're saying:\n\nYes all four sound right to me.   \nTo avoid any confusion, I'd just add an emphasis that the descriptions are *mathematical*, as opposed semantic.\n\n> I'd guess you have intuitions that the \"short description length\" framing is philosophically the right one, and I probably don't quite share those and feel more confused how to best think about \"short descriptions\" if we don't just allow arbitrary Turing machines (basically because deciding what allowable \"parts\" or mathematical objects are seems to be doing a lot of work). Not sure how feasible converging on this is in this format (though I'm happy to keep trying a bit more in case you're excited to explain).\n\nI too am keen to converge on a format in terms of Turing machines or Kolmogorov complexity or something else more formal. But I don't feel very well placed to do that, unfortunately, since thinking in those terms isn't very natural to me yet.",
+      "plaintextDescription": "> Trying to summarize my current understanding of what you're saying:\n\nYes all four sound right to me. \nTo avoid any confusion, I'd just add an emphasis that the descriptions are mathematical, as opposed semantic.\n\n> I'd guess you have intuitions that the \"short description length\" framing is philosophically the right one, and I probably don't quite share those and feel more confused how to best think about \"short descriptions\" if we don't just allow arbitrary Turing machines (basically because deciding what allowable \"parts\" or mathematical objects are seems to be doing a lot of work). Not sure how feasible converging on this is in this format (though I'm happy to keep trying a bit more in case you're excited to explain).\n\nI too am keen to converge on a format in terms of Turing machines or Kolmogorov complexity or something else more formal. But I don't feel very well placed to do that, unfortunately, since thinking in those terms isn't very natural to me yet."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-10T09:55:35.608Z",
+    "af": true
+  },
+  {
+    "_id": "cgu9nfLAapuKdqnRJ",
+    "postId": "64MizJXzyvrYpeKqm",
+    "parentCommentId": "aeBBxiwyYtKqTxtDs",
+    "topLevelCommentId": "zi4pMgLt2kuZLfczC",
+    "contents": {
+      "markdown": "Hm I think of the (network, dataset) as scaling multiplicatively with size of network and size of dataset. In the thread with Erik above, I touched a little bit on why:   \n\"*SAEs (or decompiled networks that use SAEs as the building block) are supposed to approximate the original network behaviour.  So SAEs are mathematical descriptions of the network, but not of the (network, dataset). What's a mathematical description of the (network, dataset), then? It's just what you get when you pass the dataset through the network; this datum interacts with this weight to produce this activation,  that datum interacts with this weight to produce that activation, and so on. A mathematical description of the (network, dataset) in terms of SAEs are: this datum activates dictionary features xyz (where xyz is just indices and has no semantic info), that datum activates dictionary features abc, and so on.*\"\n\n> And spiritually, we only need to understand behavior on the training dataset to understand everything that SGD has taught the model.\n\nYes, I roughly agree with the spirit of this.",
+      "plaintextDescription": "Hm I think of the (network, dataset) as scaling multiplicatively with size of network and size of dataset. In the thread with Erik above, I touched a little bit on why: \n\"SAEs (or decompiled networks that use SAEs as the building block) are supposed to approximate the original network behaviour.  So SAEs are mathematical descriptions of the network, but not of the (network, dataset). What's a mathematical description of the (network, dataset), then? It's just what you get when you pass the dataset through the network; this datum interacts with this weight to produce this activation,  that datum interacts with this weight to produce that activation, and so on. A mathematical description of the (network, dataset) in terms of SAEs are: this datum activates dictionary features xyz (where xyz is just indices and has no semantic info), that datum activates dictionary features abc, and so on.\"\n\n \n\n> And spiritually, we only need to understand behavior on the training dataset to understand everything that SGD has taught the model.\n\nYes, I roughly agree with the spirit of this."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-08T11:29:37.543Z",
+    "af": true
+  },
+  {
+    "_id": "M3YAuXrnDabq9ekhA",
+    "postId": "64MizJXzyvrYpeKqm",
+    "parentCommentId": "pnZAcQXPyicvMmsGn",
+    "topLevelCommentId": "zi4pMgLt2kuZLfczC",
+    "contents": {
+      "markdown": "> Is there some formal-ish definition of \"explanation of (network, dataset)\" and \"mathematical description length of an explanation\" such that you think SAEs are especially short explanations? I still don't think I have whatever intuition you're describing, and I feel like the issue is that I don't know how you're measuring description length and what class of \"explanations\" you're considering.\n\n  \n**I'll register that I prefer using 'description' instead of 'explanation' in most places. The reason is that 'explanation' invokes a notion of understanding, which requires both a mathematical description and a semantic description. So I regret using the word explanation in the comment above (although not completely wrong to use it - but it did risk confusion). I'll edit to replace it with 'description' and strikethrough 'explanation'. **  \n  \n*\"explanation of (network, dataset)\"*: I'm afraid I don't have a great formalish definition beyond just pointing at the intuitive notion.  But formalizing what an explanation is seems like a high bar. If it's helpful, a mathematical description is just a statement of what the network is in terms of particular kinds of mathematical objects.   \n  \n*\"mathematical description length of an explanation\"*:  (Note:  Mathematical descriptions are of networks, not of explanations.)  It's just the set of objects used to describe the network. Maybe helpful to think in terms of maps between different descriptions:  E.g. there is a many-to-one map between a description of a neural network in terms of polytopes and in terms of neurons. There are ~exponentially many more polytopes. Hence the mathematical description of the network in terms of individual polytopes is much larger.   \n \n\n> Focusing instead on what an \"explanation\" is: would you say the network itself is an \"explanation of (network, dataset)\" and just has high description length?\n\nI would not. So:\n\n> If not, then the thing I don't understand is more about what an explanation is and why SAEs are one, rather than how you measure description length.\n\nI think that the confusion might again be from using 'explanation' rather than description.   \n  \nSAEs (or decompiled networks that use SAEs as the building block) are supposed to approximate the original network behaviour.  So SAEs are mathematical descriptions of the network, but not of the (network, dataset). What's a mathematical description of the (network, dataset), then? It's just what you get when you pass the dataset through the network; *this* datum interacts with this weight to produce this activation,  *that* datum interacts with this weight to produce that activation, and so on. A mathematical description of the (network, dataset) in terms of SAEs are: *this* datum activates dictionary features xyz (where xyz is just indices and has no semantic info), *that* datum activates dictionary features abc, and so on.   \n  \nLmk if that's any clearer.",
+      "plaintextDescription": "> Is there some formal-ish definition of \"explanation of (network, dataset)\" and \"mathematical description length of an explanation\" such that you think SAEs are especially short explanations? I still don't think I have whatever intuition you're describing, and I feel like the issue is that I don't know how you're measuring description length and what class of \"explanations\" you're considering.\n\n\nI'll register that I prefer using 'description' instead of 'explanation' in most places. The reason is that 'explanation' invokes a notion of understanding, which requires both a mathematical description and a semantic description. So I regret using the word explanation in the comment above (although not completely wrong to use it - but it did risk confusion). I'll edit to replace it with 'description' and strikethrough 'explanation'. \n\n\"explanation of (network, dataset)\": I'm afraid I don't have a great formalish definition beyond just pointing at the intuitive notion.  But formalizing what an explanation is seems like a high bar. If it's helpful, a mathematical description is just a statement of what the network is in terms of particular kinds of mathematical objects. \n\n\"mathematical description length of an explanation\":  (Note:  Mathematical descriptions are of networks, not of explanations.)  It's just the set of objects used to describe the network. Maybe helpful to think in terms of maps between different descriptions:  E.g. there is a many-to-one map between a description of a neural network in terms of polytopes and in terms of neurons. There are ~exponentially many more polytopes. Hence the mathematical description of the network in terms of individual polytopes is much larger. \n \n\n> Focusing instead on what an \"explanation\" is: would you say the network itself is an \"explanation of (network, dataset)\" and just has high description length?\n\nI would not. So:\n\n> If not, then the thing I don't understand is more about what an explanation is and why SAEs are one, rath"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-08T11:21:13.743Z",
+    "af": true
+  },
+  {
+    "_id": "r7zTBBkE8KHSah4oa",
+    "postId": "64MizJXzyvrYpeKqm",
+    "parentCommentId": "LhKFS5kzZsyn2q2Rp",
+    "topLevelCommentId": "LhKFS5kzZsyn2q2Rp",
+    "contents": {
+      "markdown": "Thanks Aidan! \n\nI'm not sure I follow this bit:\n\n> In my mind, the reconstruction loss is more of a non-degeneracy control to encourage almost-orthogonality between features. \n\nI don't currently see why reconstruction would encourage features to be different directions from each other in any way unless paired with an L_{0<p<1}. And I specifically don't mean L1, because in toy data settings with recon+L1, you can end up with features pointing in exactly the same direction.",
+      "plaintextDescription": "Thanks Aidan! \n\nI'm not sure I follow this bit:\n\n> In my mind, the reconstruction loss is more of a non-degeneracy control to encourage almost-orthogonality between features. \n\nI don't currently see why reconstruction would encourage features to be different directions from each other in any way unless paired with an L_{0<p<1}. And I specifically don't mean L1, because in toy data settings with recon+L1, you can end up with features pointing in exactly the same direction."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-05T14:33:45.718Z",
+    "af": false
+  },
+  {
+    "_id": "4E8WcNuMtqJ3nzg5L",
+    "postId": "64MizJXzyvrYpeKqm",
+    "parentCommentId": "zi4pMgLt2kuZLfczC",
+    "topLevelCommentId": "zi4pMgLt2kuZLfczC",
+    "contents": {
+      "markdown": "Thanks Erik :) And I'm glad you raised this.\n\nOne of the things that many researchers I've talked to don't appreciate is that, if we accept networks can do computation in superposition, then we also have to accept that **we can't just understand the network alone**.  We want to understand the network's behaviour *on a dataset,* where the dataset contains potentially lots of features.  And depending on the features that are active in a given datum, the network can do different computations in superposition (unlike in a linear network that can't do superposition). The combined object '(network, dataset)' is much larger than the network itself. ~Explanations~ Descriptions of the (network, dataset) object can actually be compressions despite potentially being larger than the network. \n\nSo,\n\n> One might say that SAEs lead to something like a shorter \"description length of what happens on any individual input\" (in the sense that fewer features are active). But I don't think there's a formalization of this claim that captures what we want. In the limit of very many SAE features, we can just have one feature active at a time, but clearly that's not helpful.\n\nYou can have one feature active for each datapoint, but now we've got an ~explanation~ description of the (network, dataset) that scales linearly in the size of the dataset, which sucks! Instead, if we look for regularities (opportunities for compression) in how the network treats data, then we have a better chance at ~explanations~ descriptions that scale better with dataset size. Suppose a datum consists of a novel combination of previously ~explained~ described circuits. Then our ~explanation~ description of the (network, dataset) is much smaller than if we ~explained~ described every datapoint anew. \n\nIn light of that, you can understand my disagreement with \"*in that case, I could also reduce the description length by training a smaller model*.\" No! Assuming the network is smaller yet as performant (therefore presumably doing more computation in superposition), then the ~explanation~ description of the (network, dataset) is basically unchanged.",
+      "plaintextDescription": "Thanks Erik :) And I'm glad you raised this.\n\n \n\nOne of the things that many researchers I've talked to don't appreciate is that, if we accept networks can do computation in superposition, then we also have to accept that we can't just understand the network alone.  We want to understand the network's behaviour on a dataset, where the dataset contains potentially lots of features.  And depending on the features that are active in a given datum, the network can do different computations in superposition (unlike in a linear network that can't do superposition). The combined object '(network, dataset)' is much larger than the network itself. Explanations Descriptions of the (network, dataset) object can actually be compressions despite potentially being larger than the network. \n\nSo,\n\n> One might say that SAEs lead to something like a shorter \"description length of what happens on any individual input\" (in the sense that fewer features are active). But I don't think there's a formalization of this claim that captures what we want. In the limit of very many SAE features, we can just have one feature active at a time, but clearly that's not helpful.\n\nYou can have one feature active for each datapoint, but now we've got an explanation description of the (network, dataset) that scales linearly in the size of the dataset, which sucks! Instead, if we look for regularities (opportunities for compression) in how the network treats data, then we have a better chance at explanations descriptions that scale better with dataset size. Suppose a datum consists of a novel combination of previously explained described circuits. Then our explanation description of the (network, dataset) is much smaller than if we explained described every datapoint anew. \n\nIn light of that, you can understand my disagreement with \"in that case, I could also reduce the description length by training a smaller model.\" No! Assuming the network is smaller yet as performant (therefore presumably doing more "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-04-05T14:27:10.110Z",
+    "af": true
+  },
+  {
+    "_id": "NjZzzwqb9pDdci6CD",
+    "postId": "64MizJXzyvrYpeKqm",
+    "parentCommentId": "NetFBtKiDwRHdjtmu",
+    "topLevelCommentId": "NetFBtKiDwRHdjtmu",
+    "contents": {
+      "markdown": "> So, for models that are 10 terabytes in size, you should perhaps be expecting a \"model manual\" which is around 10 terabytes in size.\n\nYep, that seems reasonable.   \nI'm guessing you're not satisfied with the retort that we should expect AIs to do the heavy lifting here?  \n \n\n> Or perhaps you don't think you need something which is close in accuracy to a full explanation of the network's behavior.\n\nI think the accuracy you need will depend on your use case. I don't think of it as a globally applicable quantity for all of interp.\n\nFor instance, maybe to 'audit for deception' you really only need identify and detect when the deception circuits are active, which will involve explaining only 0.0001% of the network. \n\nBut maybe to make robust-to-training interpretability methods you need to understand 99.99...99%.\n\nIt seem likely to me that we can unlock more and more interpretability use cases by understanding more and more of the network.",
+      "plaintextDescription": "> So, for models that are 10 terabytes in size, you should perhaps be expecting a \"model manual\" which is around 10 terabytes in size.\n\n \n\nYep, that seems reasonable. \nI'm guessing you're not satisfied with the retort that we should expect AIs to do the heavy lifting here?\n \n\n> Or perhaps you don't think you need something which is close in accuracy to a full explanation of the network's behavior.\n\nI think the accuracy you need will depend on your use case. I don't think of it as a globally applicable quantity for all of interp.\n\nFor instance, maybe to 'audit for deception' you really only need identify and detect when the deception circuits are active, which will involve explaining only 0.0001% of the network. \n\nBut maybe to make robust-to-training interpretability methods you need to understand 99.99...99%.\n\nIt seem likely to me that we can unlock more and more interpretability use cases by understanding more and more of the network. "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-04-05T13:50:08.529Z",
+    "af": true
+  },
+  {
+    "_id": "zfdGmYCQg7RHuNMkH",
+    "postId": "64MizJXzyvrYpeKqm",
+    "parentCommentId": "a2XwXSMSH3S4Fcvk6",
+    "topLevelCommentId": "a2XwXSMSH3S4Fcvk6",
+    "contents": {
+      "markdown": "Thanks for this feedback! I agree that the task & demo you suggested should be of interest to those working on the agenda. \n\n> It makes me a bit worried that this post seems to implicitly assume that SAEs work well at their stated purpose.\n\nThere were a few purposes proposed, and at multiple levels of abstraction, e.g.\n\n*   The purpose of being the main building block of a mathematical description used in an ambitious mech interp solution\n*   The purpose of being the main building block of decompiled networks\n*   The purpose of taking features out of superposition\n\nI'm going to assume you meant the first one (and maybe the second). Lmk if not.\n\nFwiw I'm not totally convinced that SAEs are the ultimate solution for the purposes in the first two bullet points. But I do think they're currently SOTA for ambitious mech interp purposes, and there is usually scientific benefit of using imperfect but SOTA methods to push the frontier of what we know about network internals. Indeed, I view this as beneficial in the same way that historical applications of (e.g.) causal scrubbing for circuit discovery were beneficial, despite the imperfections of both methods.  \n  \nI'll also add a persnickety note that I do explicitly say in the agenda that we should be looking for better methods than SAEs: \"*It would be nice to have a formal justification for why we should expect sparsification to yield short semantic descriptions. Currently, the justification is simply that it appears to work and a vague assumption about the data distribution containing sparse features. I would support work that critically examines this assumption (though I don't currently intend to work on it directly), since it may yield a better criterion to optimize than simply ‘sparsity’ or may yield even better interpretability methods than SAEs.*\"  \nHowever, to concede to your overall point, the rest of the article does kinda suggest that we can make progress in interp with SAEs. But as argued above, I'm comfortable that some people in the field proceed with inquiries that use probably imperfect methods.\n\n> Precisely, I would bet against \"mild tweaks on SAEs will allow for interpretability researchers to produce succinct and human understandable explanations that allow for recovering >75% of the training compute of model components\".\n\nI'm curious if you believe that, even if SAEs aren't the right solution, there realistically exists a potential solution that would allow researchers to produce succinct, human understandable explanation that allow for recovering >75% of the training compute of model components?   \n  \nI'm wondering if the issue you're pointing at is the goal rather than the method.",
+      "plaintextDescription": "Thanks for this feedback! I agree that the task & demo you suggested should be of interest to those working on the agenda. \n\n> It makes me a bit worried that this post seems to implicitly assume that SAEs work well at their stated purpose.\n\nThere were a few purposes proposed, and at multiple levels of abstraction, e.g.\n\n * The purpose of being the main building block of a mathematical description used in an ambitious mech interp solution\n * The purpose of being the main building block of decompiled networks\n * The purpose of taking features out of superposition\n\nI'm going to assume you meant the first one (and maybe the second). Lmk if not.\n\nFwiw I'm not totally convinced that SAEs are the ultimate solution for the purposes in the first two bullet points. But I do think they're currently SOTA for ambitious mech interp purposes, and there is usually scientific benefit of using imperfect but SOTA methods to push the frontier of what we know about network internals. Indeed, I view this as beneficial in the same way that historical applications of (e.g.) causal scrubbing for circuit discovery were beneficial, despite the imperfections of both methods.\n\nI'll also add a persnickety note that I do explicitly say in the agenda that we should be looking for better methods than SAEs: \"It would be nice to have a formal justification for why we should expect sparsification to yield short semantic descriptions. Currently, the justification is simply that it appears to work and a vague assumption about the data distribution containing sparse features. I would support work that critically examines this assumption (though I don't currently intend to work on it directly), since it may yield a better criterion to optimize than simply ‘sparsity’ or may yield even better interpretability methods than SAEs.\"\nHowever, to concede to your overall point, the rest of the article does kinda suggest that we can make progress in interp with SAEs. But as argued above, I'm comfortable that some p"
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-04-05T13:39:09.367Z",
+    "af": true
+  },
+  {
+    "_id": "q9CDq7dMAaMccTGbc",
+    "postId": "8QRH8wKcnKGhpAu2o",
+    "parentCommentId": "WfgDqMu9iA5XEtCfY",
+    "topLevelCommentId": "WfgDqMu9iA5XEtCfY",
+    "contents": {
+      "markdown": "This is a good idea and is something we're (Apollo + MATS stream) working on atm.  We're planning on releasing our agenda related to this and, of course, results whenever they're ready to share.",
+      "plaintextDescription": "This is a good idea and is something we're (Apollo + MATS stream) working on atm.  We're planning on releasing our agenda related to this and, of course, results whenever they're ready to share."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-02-28T14:45:42.459Z",
+    "af": false
+  },
+  {
+    "_id": "QYjHycYuj38rGoqCf",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": "M2WtK3XbmqpK3kFFh",
+    "topLevelCommentId": "ANAfjneQNZSC76DDE",
+    "contents": {
+      "markdown": "Makes sense! Thanks!",
+      "plaintextDescription": "Makes sense! Thanks!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-03T21:50:07.850Z",
+    "af": true
+  },
+  {
+    "_id": "c52qb5sMJ9X5bWJeL",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": "bAJmgWapFRQWo3pYj",
+    "topLevelCommentId": "ANAfjneQNZSC76DDE",
+    "contents": {
+      "markdown": "Great! I'm curious, what was it about the sparsity penalty that you changed your mind about?",
+      "plaintextDescription": "Great! I'm curious, what was it about the sparsity penalty that you changed your mind about? "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-02T14:51:06.083Z",
+    "af": true
+  },
+  {
+    "_id": "o9bPoL4Le5QyTP97E",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": "zivLRnSXmhtGWhhME",
+    "topLevelCommentId": "zivLRnSXmhtGWhhME",
+    "contents": {
+      "markdown": "Hey thanks for your review! Though I'm not sure that either this article or Cunningham et al. can reasonably be described as a reproduction of Anthropic's results (by which I assume you're talking about Bricken et al.), given their relative timings and contents.",
+      "plaintextDescription": "Hey thanks for your review! Though I'm not sure that either this article or Cunningham et al. can reasonably be described as a reproduction of Anthropic's results (by which I assume you're talking about Bricken et al.), given their relative timings and contents. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-19T12:58:09.668Z",
+    "af": false
+  },
+  {
+    "_id": "ANAfjneQNZSC76DDE",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Comments on the outcomes of the post:\n\n*   I'm reasonably happy with how this post turned out. I think it probably bought the Anthropic/superposition mechanistic interpretability agenda somewhere between 0.1 to 4 counterfactual months of progress, which feels like a win.\n*   I think sparse autoencoders are likely to be a pretty central method in mechanistic interpretability work for the foreseeable future (which tbf is not very foreseeable).\n*   Two parallel works used the method identified in the post (sparse autoencoders - SAEs) or slight modification:\n    *   Cunningham et al. (2023)(https://arxiv.org/abs/2309.08600), a project which I supervised.\n    *   Bricken et al. (2023)(https://transformer-circuits.pub/2023/monosemantic-features), the Anthropic paper 'Towards Monosemanticity'. \n*   That two teams were able to use the results to explore complementary directions in parallel I think partly validates Conjecture's policy (at that time) of publishing quick, scrappy results that optimize for impact rather than rigour. I make this note because that policy attracted some criticism that I perceived to be undue, and to highlight that some of the benefits of the policy can only be observed after longer periods.\n\n  \nSome regrets related to the post:\n\n*   It was pretty silly of me to divide the L1 loss by the number of dictionary elements. The idea was that this means that the L1 loss per dictionary element remains roughly constant even as you scale dictionaries. But that isn't what you want - you want more penalty as you scale, assuming the number of data-generating features is fixed. This made it more difficult than it needed to be to find the right hyperparameters. Fortunately, Logan Smith (iirc) identified this issue while working on Cunningham et al. \n*   The language model results were underwhelming. I strongly suspect they were undertrained. This was a addressed in a follow up post (https://www.alignmentforum.org/posts/DezghAd4bdxivEknM/a-small-update-to-the-sparse-coding-interim-research-report). \n*   I regret giving a specific number of potential features: \"Here we found very weak, tentative evidence that, for a model of size d_model = 256, the number of features in superposition was over 100,000. This is a large scaling factor and it’s only a lower bound. If the estimated scaling factor is approximately correct (and, we emphasize, we’re *not at all* confident in that result yet) or if it gets larger, then this method of feature extraction is going to be very costly to scale to the largest models – possibly more costly than training the models themselves. \" Despite all the qualifications and expressions of deep uncertainty, I got the impression that many people read too much into this. I think avoiding publishing the LM results or not giving a specific figure could have avoided this misunderstanding.\n\nOutlying issues:\n\n*   In their current formulation, SAEs leave a few important problems unaddressed, including:\n    *   SAEs probably don't learn the most functionally relevant features. They find directions in the activations that are separable, but that doesn't *necessarily* reflect the network's ontology. The features learned by SAEs are probably too granular.\n    *   SAEs don't automatically provide a way to summarize the interactions between features (i.e. there is a gap between features and circuits).\n    *   The SAEs used in the above mentioned papers aren't a very satisfying solution to dealing with attention head polysemanticity. \n    *   SAEs optimize two losses: Reconstruction and L1. The L1 loss penalizes the feature coefficients. I think this penalty means that, in expectation, they'll systematically undershoot the correct prediction for the coefficients (this has been observed empirically in private correspondence). \n\nI and collaborators are working on each of these problems.",
+      "plaintextDescription": "Comments on the outcomes of the post:\n\n * I'm reasonably happy with how this post turned out. I think it probably bought the Anthropic/superposition mechanistic interpretability agenda somewhere between 0.1 to 4 counterfactual months of progress, which feels like a win.\n * I think sparse autoencoders are likely to be a pretty central method in mechanistic interpretability work for the foreseeable future (which tbf is not very foreseeable).\n * Two parallel works used the method identified in the post (sparse autoencoders - SAEs) or slight modification:\n   * Cunningham et al. (2023)(https://arxiv.org/abs/2309.08600), a project which I supervised.\n   * Bricken et al. (2023)(https://transformer-circuits.pub/2023/monosemantic-features), the Anthropic paper 'Towards Monosemanticity'. \n * That two teams were able to use the results to explore complementary directions in parallel I think partly validates Conjecture's policy (at that time) of publishing quick, scrappy results that optimize for impact rather than rigour. I make this note because that policy attracted some criticism that I perceived to be undue, and to highlight that some of the benefits of the policy can only be observed after longer periods.\n\n\nSome regrets related to the post:\n\n * It was pretty silly of me to divide the L1 loss by the number of dictionary elements. The idea was that this means that the L1 loss per dictionary element remains roughly constant even as you scale dictionaries. But that isn't what you want - you want more penalty as you scale, assuming the number of data-generating features is fixed. This made it more difficult than it needed to be to find the right hyperparameters. Fortunately, Logan Smith (iirc) identified this issue while working on Cunningham et al. \n * The language model results were underwhelming. I strongly suspect they were undertrained. This was a addressed in a follow up post (https://www.alignmentforum.org/posts/DezghAd4bdxivEknM/a-small-update-to-the-sparse-coding-inte"
+    },
+    "baseScore": 33,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2023-12-06T14:21:28.310Z",
+    "af": true
+  },
+  {
+    "_id": "R89mCzuWCBD3mqgTG",
+    "postId": "EhAbh2pQoAXkm9yor",
+    "parentCommentId": "4f6rxHLTZvirPaqaf",
+    "topLevelCommentId": "4f6rxHLTZvirPaqaf",
+    "contents": {
+      "markdown": "Here is a reference that supports the claim using simulations [https://royalsocietypublishing.org/doi/10.1098/rspb.2008.0877](https://royalsocietypublishing.org/doi/10.1098/rspb.2008.0877)  \n  \nBut I think you're right to flag it - other references don't really support it as the main reason for stripes. [https://www.nature.com/articles/ncomms4535](https://www.nature.com/articles/ncomms4535)",
+      "plaintextDescription": "Here is a reference that supports the claim using simulations https://royalsocietypublishing.org/doi/10.1098/rspb.2008.0877\n\nBut I think you're right to flag it - other references don't really support it as the main reason for stripes. https://www.nature.com/articles/ncomms4535\n "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-07T08:37:03.975Z",
+    "af": true
+  },
+  {
+    "_id": "wyKqDecGxMtn79myC",
+    "postId": "FG6icLPKizEaWHex5",
+    "parentCommentId": "tSuyGHdpmSnqhCAYK",
+    "topLevelCommentId": "tSuyGHdpmSnqhCAYK",
+    "contents": {
+      "markdown": "Thanks Akash!   \n  \nI agree that this feels neglected.  \n  \nMarkus Anderljung recently tweeted about some upcoming related work from Jide Alaga and Jonas Schuett: [https://twitter.com/Manderljung/status/1663700498288115712](https://twitter.com/Manderljung/status/1663700498288115712)  \n  \nLooking forward to it coming out!",
+      "plaintextDescription": "Thanks Akash! \n\nI agree that this feels neglected.\n\nMarkus Anderljung recently tweeted about some upcoming related work from Jide Alaga and Jonas Schuett: https://twitter.com/Manderljung/status/1663700498288115712\n\nLooking forward to it coming out! "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-31T20:00:03.222Z",
+    "af": true
+  },
+  {
+    "_id": "fcEsL9R3x5frn4nnD",
+    "postId": "uvEyizLAGykH8LwMx",
+    "parentCommentId": "KrufLAYmikdahCBfa",
+    "topLevelCommentId": "KrufLAYmikdahCBfa",
+    "contents": {
+      "markdown": "Bilinear layers - not confident at all! It might make structure more amenable to mathematical analysis so it might help? But as yet there aren't any empirical interpretability wins that have come from bilinear layers.  \n  \nDictionary learning - This is one of my main bets for comprehensive interpretability.   \n  \nOther areas - I'm also generally excited by the line of research outlined in [https://arxiv.org/abs/2301.04709](https://arxiv.org/abs/2301.04709)",
+      "plaintextDescription": "Bilinear layers - not confident at all! It might make structure more amenable to mathematical analysis so it might help? But as yet there aren't any empirical interpretability wins that have come from bilinear layers.\n\nDictionary learning - This is one of my main bets for comprehensive interpretability. \n\nOther areas - I'm also generally excited by the line of research outlined in https://arxiv.org/abs/2301.04709 "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-26T10:59:10.146Z",
+    "af": true
+  },
+  {
+    "_id": "bsN35fwqZSdtL5KPm",
+    "postId": "DezghAd4bdxivEknM",
+    "parentCommentId": "jDca5kc9jHzxFK7Wb",
+    "topLevelCommentId": "jDca5kc9jHzxFK7Wb",
+    "contents": {
+      "markdown": "No theoretical reason - The method we used in the Interim Report to combine the two losses into one metric was pretty cursed. It's probably just better to use L1 loss alone and reconstruction loss alone and then combine the findings. But having plots for both losses would have added more plots without much gain for the presentation. It also just seemed like the method that was hardest to discern the difference between full recovery and partial recovery because the differences were kind of subtle. In future work, some way to use the losses to measure feature recover will probably be re-introduced. It probably just won't be the way we used in the interim report.",
+      "plaintextDescription": "No theoretical reason - The method we used in the Interim Report to combine the two losses into one metric was pretty cursed. It's probably just better to use L1 loss alone and reconstruction loss alone and then combine the findings. But having plots for both losses would have added more plots without much gain for the presentation. It also just seemed like the method that was hardest to discern the difference between full recovery and partial recovery because the differences were kind of subtle. In future work, some way to use the losses to measure feature recover will probably be re-introduced. It probably just won't be the way we used in the interim report. "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-05-02T23:12:14.981Z",
+    "af": true
+  },
+  {
+    "_id": "LHTioW8QrubYS97q8",
+    "postId": "DezghAd4bdxivEknM",
+    "parentCommentId": "wwCp5beckLKE7YNcd",
+    "topLevelCommentId": "wwCp5beckLKE7YNcd",
+    "contents": {
+      "markdown": "I strongly suspect this is the case too!   \n  \nIn fact, we might be able to speed up the learning of common features even further:  \n  \nPierre Peigné at SERIMATS has done some interesting work that looks at initialization schemes that speed up learning. If you initialize the autoencoders with a sample of datapoints (e.g. initialize the weights with a sample from the MLP activations dataset), each of which we assume to contain a linear combination of only a few of the ground truth features, then the initial phases of feature recovery is much faster*. We haven't had time to check, but it's presumably biased to recover the most common features first since they're the most likely to be in a given data point.   \n  \n*The ground truth feature recovery metric (MMCS) starts higher at the beginning of autoencoder training, but converges to full recovery at about the same time.",
+      "plaintextDescription": "I strongly suspect this is the case too! \n\nIn fact, we might be able to speed up the learning of common features even further:\n\nPierre Peigné at SERIMATS has done some interesting work that looks at initialization schemes that speed up learning. If you initialize the autoencoders with a sample of datapoints (e.g. initialize the weights with a sample from the MLP activations dataset), each of which we assume to contain a linear combination of only a few of the ground truth features, then the initial phases of feature recovery is much faster*. We haven't had time to check, but it's presumably biased to recover the most common features first since they're the most likely to be in a given data point. \n\n*The ground truth feature recovery metric (MMCS) starts higher at the beginning of autoencoder training, but converges to full recovery at about the same time. "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-05-02T23:03:51.375Z",
+    "af": true
+  },
+  {
+    "_id": "pFmdp62ixtcxB7MWE",
+    "postId": "XWwvwytieLtEWaFJX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> And these are both real obstacles. But there are deeper obstacles, that seem to me more central, and that I haven't observed others to notice on their own.\n\n  \nI just want to point out that I've written a long list of such obstacles in this article: [Circumventing interpretability: How to defeat mind-readers](https://www.alignmentforum.org/posts/EhAbh2pQoAXkm9yor/circumventing-interpretability-how-to-defeat-mind-readers)  \n  \nI believe the example of deep deception that Nate describes in this post is actually a combination of several methods described in that post.   \n  \nI'll quote the parts of this post that correspond to particular interpretability circumvention methods in the other post.   \n \n\n> But the highly-generic reaction \"spin up a subthread to tackle this newly-discovered obstacle\", or “be concerned about patterns in how long things take”, is something that cannot be readily trained away, and so that much happens without issue.\n\n^ This is an example of what I called '[representational kludging](https://www.alignmentforum.org/posts/EhAbh2pQoAXkm9yor/circumventing-interpretability-how-to-defeat-mind-readers#2_3_3__Representational_kludging)'. It's an ugly way to represent \"Be concerned about the monitors detecting suspicious instructions\", but it turns out to function similarly to such a representation.   \n  \nIt also involves '[passively externalised representations](https://www.alignmentforum.org/posts/EhAbh2pQoAXkm9yor/circumventing-interpretability-how-to-defeat-mind-readers#Passive)', since the observation that there is a delay in the instruction is a representational proxy for the (banned) observation that the monitors detected something suspicious about the instructions.  \n \n\n> A different cognitive subthread: Is it possible to look over the detailed history of instructions and their corresponding delay times, and figure out exactly which sorts of instructions cause delays, and rephrase the instructions to avoid those?\n\n^ This is an example of the AI edging toward '[thinking in the gaps in our  tools](https://www.alignmentforum.org/posts/EhAbh2pQoAXkm9yor/circumventing-interpretability-how-to-defeat-mind-readers#1_1_1__Thinking_in_the_gaps_of_our_tools)'.   \n \n\n> Simplify-and-critique didn't do the trick, but perhaps a nearby strategy can help. One nearby strategy that has recently been proving itself is called simplify/translate/solve, and it involves translating the problem into a common abstract format, and then solving the problem there. (Metaphorically: if you're having trouble telling whether your basket of apples will divide evenly between three friends, consider translating the question into a numerical representation and using long division.)\n> \n> Simplify/translate/solve is close in the relevant embedding space to simplify-and-critique, which makes it a natural candidate to consider. (Perhaps some of the simplifications from simplify-and-critique can even be reused.)\n> \n> Normally, simplify/translate/solve wouldn't be deployed unless the AI had more familiarity with the original domain, and more of an idea about what translated domain might render the solution easier. But normally, threads don't hiccup like this. And the overall system has recently been granted more computing power, and avoiding a 200-year wetlab lockup is quite important, so it's OK to try approaches that might involve more brute force than usual.\n\n^ This is an additional example of 'representational kludging', since the AI is using representational tools that are nearby in embedding space but that aren't exactly appropriate for the job, but have a sufficiently similar function that they still do the job.  \n  \n \n\nOverall comments:   \n  \nI really liked this post!   \n  \nI like it because priorly there didn't exist a compelling story for the broad class of concepts to which it points. And I liked it for the name it gives to that broad class ('deep deception'). I agree that it's underappreciated that we're still in trouble in the world where we (somehow) get good enough interpretability to monitor for and halt deceptive thoughts.",
+      "plaintextDescription": "> And these are both real obstacles. But there are deeper obstacles, that seem to me more central, and that I haven't observed others to notice on their own.\n\n\nI just want to point out that I've written a long list of such obstacles in this article: Circumventing interpretability: How to defeat mind-readers\n\nI believe the example of deep deception that Nate describes in this post is actually a combination of several methods described in that post. \n\nI'll quote the parts of this post that correspond to particular interpretability circumvention methods in the other post. \n \n\n> But the highly-generic reaction \"spin up a subthread to tackle this newly-discovered obstacle\", or “be concerned about patterns in how long things take”, is something that cannot be readily trained away, and so that much happens without issue.\n\n^ This is an example of what I called 'representational kludging'. It's an ugly way to represent \"Be concerned about the monitors detecting suspicious instructions\", but it turns out to function similarly to such a representation. \n\nIt also involves 'passively externalised representations', since the observation that there is a delay in the instruction is a representational proxy for the (banned) observation that the monitors detected something suspicious about the instructions.\n \n\n> A different cognitive subthread: Is it possible to look over the detailed history of instructions and their corresponding delay times, and figure out exactly which sorts of instructions cause delays, and rephrase the instructions to avoid those?\n\n^ This is an example of the AI edging toward 'thinking in the gaps in our  tools'. \n \n\n> Simplify-and-critique didn't do the trick, but perhaps a nearby strategy can help. One nearby strategy that has recently been proving itself is called simplify/translate/solve, and it involves translating the problem into a common abstract format, and then solving the problem there. (Metaphorically: if you're having trouble telling whether your b"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-03-28T21:29:10.057Z",
+    "af": true
+  },
+  {
+    "_id": "88bxKGeekZuaBm5K3",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": "JT3cH8DXxKc8xEyXD",
+    "topLevelCommentId": "JT3cH8DXxKc8xEyXD",
+    "contents": {
+      "markdown": "Thanks for your interest!  \n  \nThe autoencoder losses reported are the train losses. And you're right to point at noise potentially being an issue. It's my strong suspicion that some of the problems in these results are due to there being an insufficient number of data points to train the autoencoders on LM data.   \n  \n\\> I would also be interested to test a bit more if this method works on toy models which clearly don't have many features, such as a mixture of a dozen of gaussians, or random points in the unit square (where there is a lot of room \"in the corners\"), to see if this method produces strong false positives.  \n  \nI'd be curious to see these results too!   \n  \n\\>  Layer 0 is also a baseline, since I expect embeddings to have fewer features than activations in later layers, though I'm not sure how many features you should expect in layer 0.  \n  \nA rough estimate would be somewhere on the order of the vocabulary size (here 50k). A reason to think it might be more is that layer 0 MLP activations follow an attention layer, which means that features may represent combinations of token embeddings at different sequence positions and there are more potential combinations of tokens than in the vocabulary. A reason to think it may be fewer is that a lot of directions may get 'compressed away' in small networks.",
+      "plaintextDescription": "Thanks for your interest!\n\nThe autoencoder losses reported are the train losses. And you're right to point at noise potentially being an issue. It's my strong suspicion that some of the problems in these results are due to there being an insufficient number of data points to train the autoencoders on LM data. \n\n> I would also be interested to test a bit more if this method works on toy models which clearly don't have many features, such as a mixture of a dozen of gaussians, or random points in the unit square (where there is a lot of room \"in the corners\"), to see if this method produces strong false positives.\n\nI'd be curious to see these results too! \n\n>  Layer 0 is also a baseline, since I expect embeddings to have fewer features than activations in later layers, though I'm not sure how many features you should expect in layer 0.\n\nA rough estimate would be somewhere on the order of the vocabulary size (here 50k). A reason to think it might be more is that layer 0 MLP activations follow an attention layer, which means that features may represent combinations of token embeddings at different sequence positions and there are more potential combinations of tokens than in the vocabulary. A reason to think it may be fewer is that a lot of directions may get 'compressed away' in small networks. \n\n "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-23T21:04:20.464Z",
+    "af": true
+  },
+  {
+    "_id": "e5CTAk5vWtkpj3X2d",
+    "postId": "J8ifgynkfhpmrGrL8",
+    "parentCommentId": "qQe8NK6DNzpvpu4Sv",
+    "topLevelCommentId": "qQe8NK6DNzpvpu4Sv",
+    "contents": {
+      "markdown": "> My usual starting point is “maybe people will make a model-based RL AGI / [brain-like AGI](https://www.alignmentforum.org/s/HzcM2dkCq7fwXBej8)”. Then this post is sorta saying “maybe that AGI will become better at planning by reading about [murphyjitsu](https://www.alignmentforum.org/tag/murphyjitsu) and operations management etc.”, or “maybe that AGI will become better at learning by reading Cal Newport and installing Anki etc.”. Both of those things are true, but to me, they don’t seem safety-relevant at all.\n\n  \nHm, I don't think this quite captures what I view the post as saying.   \n \n\n> Maybe what you’re thinking is: “Maybe Future Company X will program an RL architecture that doesn’t have any planning in the source code, and the people at Future Company X will think to themselves ‘Ah, planning is necessary for wiping out humanity, so I don’t have to worry about the fact that it’s misaligned!’, but then humanity gets wiped out anyway because planning can emerge organically even when it’s not in the source code”. If that’s what you’re thinking, then, well, I am happy to join you in spreading the *generic* message that people shouldn’t make unjustified claims about the (lack of) competence of their ML models.\n\nAs far as there is a safety-related claim in the post, this captures it much better than the previous quote.  \n \n\n> But I happen to have a *hunch* that the Future Company X people are probably right, and more specifically, that future AGIs will be model-based RL algorithms with a human-written affordance for planning, and that algorithms without such an affordance won’t be able to do treacherous turns and other such things that make them very dangerous to humanity, notwithstanding the nonzero amount of “planning” that arises organically in the trained model as discussed in OP. But I can’t prove that my hunch is correct, and indeed, I acknowledge that *in principle* it’s quite possible for e.g. model-free RL to make powerful treacherous-turn-capable models, cf. evolution inventing humans. More discussion [here](https://www.alignmentforum.org/posts/fDPsYdDtkzhBp9A8D/intro-to-brain-like-agi-safety-8-takeaways-from-neuro-1-2-on#8_3_2_Why_I_think__evolution_from_scratch__is_less_likely__as_an_AGI_development_method__than__genome___ML_code_).\n\nI think my hunch is in the other direction. One of the justifications for my hunch is to gesture at the Bitter Lesson and to guess that a learned planning algorithm could potentially be a lot better than a planning algorithm we hard code into a system. But that's a lightly held view. It feels plausible to me that your later points (1) and (2) turn out to be right, but again I think I lean in the other direction from you on (1).   \n  \nI can also imagine a middle ground between our hunches that looks something like \"We gave our agent a pretty strong inductive bias toward learning a planning algorithm, but still didn't force it to learn one, yet it did.\"",
+      "plaintextDescription": "> My usual starting point is “maybe people will make a model-based RL AGI / brain-like AGI”. Then this post is sorta saying “maybe that AGI will become better at planning by reading about murphyjitsu and operations management etc.”, or “maybe that AGI will become better at learning by reading Cal Newport and installing Anki etc.”. Both of those things are true, but to me, they don’t seem safety-relevant at all.\n\n\nHm, I don't think this quite captures what I view the post as saying. \n \n\n> Maybe what you’re thinking is: “Maybe Future Company X will program an RL architecture that doesn’t have any planning in the source code, and the people at Future Company X will think to themselves ‘Ah, planning is necessary for wiping out humanity, so I don’t have to worry about the fact that it’s misaligned!’, but then humanity gets wiped out anyway because planning can emerge organically even when it’s not in the source code”. If that’s what you’re thinking, then, well, I am happy to join you in spreading the generic message that people shouldn’t make unjustified claims about the (lack of) competence of their ML models.\n\nAs far as there is a safety-related claim in the post, this captures it much better than the previous quote.\n \n\n> But I happen to have a hunch that the Future Company X people are probably right, and more specifically, that future AGIs will be model-based RL algorithms with a human-written affordance for planning, and that algorithms without such an affordance won’t be able to do treacherous turns and other such things that make them very dangerous to humanity, notwithstanding the nonzero amount of “planning” that arises organically in the trained model as discussed in OP. But I can’t prove that my hunch is correct, and indeed, I acknowledge that in principle it’s quite possible for e.g. model-free RL to make powerful treacherous-turn-capable models, cf. evolution inventing humans. More discussion here.\n\nI think my hunch is in the other direction. One of the just"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-14T20:10:42.796Z",
+    "af": true
+  },
+  {
+    "_id": "sejBRFfmCvG7NAJ3G",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": "NgHoP5jRFidsDdjuv",
+    "topLevelCommentId": "NgHoP5jRFidsDdjuv",
+    "contents": {
+      "markdown": "That's correct. 'Correlated features' could ambiguously mean \"Feature x tends to activate when feature y activates\" OR \"When we generate feature direction x, its distribution is correlated with feature y's\". I don't know if both happen in LMs. The former almost certainly does. The second doesn't really make sense in the context of LMs since features are learned, not sampled from a distribution.",
+      "plaintextDescription": "That's correct. 'Correlated features' could ambiguously mean \"Feature x tends to activate when feature y activates\" OR \"When we generate feature direction x, its distribution is correlated with feature y's\". I don't know if both happen in LMs. The former almost certainly does. The second doesn't really make sense in the context of LMs since features are learned, not sampled from a distribution."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-12-16T02:14:17.416Z",
+    "af": true
+  },
+  {
+    "_id": "hhoaLAxfyp8ktMitx",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": "zvgmXBJnJCRGQokCk",
+    "topLevelCommentId": "zvgmXBJnJCRGQokCk",
+    "contents": {
+      "markdown": "> There should be a neat theoretical reason for the clean power law where L1 loss becomes too big. But it doesn't make intuitive sense to me - it seems like if you just add some useless entries in the dictionary, the effect of losing one of the dimensions you *do* use on reconstruction loss won't change, so why should the point where L1 loss becomes too big change? So unless you have a bug (or some weird design choice that divides loss by number of dimensions), those extra dimensions would have to be changing something.\n\nThe L1 loss on the activations does indeed take the mean activation value. I think it's probably a more practical choice than simply taking the sum because it creates independence between hyperparameters: We wouldn't want the size of the sparsity loss to change wildly relative to the reconstruction loss when we change the dictionary size. In the methods section I forgot to include the averaging terms. I've updated the text in the article. Good spot, thanks!  \n \n\n> I'd definitely be interested in you including this as a variable in the toy data, and seeing how it affects the hyperparameter search heuristics.\n\nYeah I think this is probably worth checking too. We probably wouldn't need to have too many different values to get a rough sense of its effect.   \n \n\n> Fig. 9 is cursed. Is there a problem with estimating from just one component of the loss?\n\nYeah it kind of is... It's probably better to just look at each loss component separately. Very helpful feedback, thanks!",
+      "plaintextDescription": "> There should be a neat theoretical reason for the clean power law where L1 loss becomes too big. But it doesn't make intuitive sense to me - it seems like if you just add some useless entries in the dictionary, the effect of losing one of the dimensions you do use on reconstruction loss won't change, so why should the point where L1 loss becomes too big change? So unless you have a bug (or some weird design choice that divides loss by number of dimensions), those extra dimensions would have to be changing something.\n\nThe L1 loss on the activations does indeed take the mean activation value. I think it's probably a more practical choice than simply taking the sum because it creates independence between hyperparameters: We wouldn't want the size of the sparsity loss to change wildly relative to the reconstruction loss when we change the dictionary size. In the methods section I forgot to include the averaging terms. I've updated the text in the article. Good spot, thanks!\n \n\n> I'd definitely be interested in you including this as a variable in the toy data, and seeing how it affects the hyperparameter search heuristics.\n\nYeah I think this is probably worth checking too. We probably wouldn't need to have too many different values to get a rough sense of its effect. \n \n\n> Fig. 9 is cursed. Is there a problem with estimating from just one component of the loss?\n\nYeah it kind of is... It's probably better to just look at each loss component separately. Very helpful feedback, thanks!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-15T01:28:28.287Z",
+    "af": true
+  },
+  {
+    "_id": "qZacbYWkxrBnurpjm",
+    "postId": "z6QQJbtpkEAX3Aojj",
+    "parentCommentId": "cxXjrgD9hJs3oTQ3b",
+    "topLevelCommentId": "cxXjrgD9hJs3oTQ3b",
+    "contents": {
+      "markdown": "> In the toy datasets, the features have the same scale (uniform from zero to one when active multiplied by a unit vector). However in the NN case, there's no particular reason to think the feature scales are normalized very much (though maybe they're normalized a bit due to weight decay and similar). Is there some reason this is ok? \n\nHm it's a great point. There's no principled reason for it. Equivalently, there's no principled reasons to expect the coefficients/activations for each feature to be on the same scale either. We should probably look into a 'feature coefficient magnitude decay' to create features that don't all live on the same scale. Thanks!\n\n> E.g., learn a low rank autoencoder like [in the toy models paper](https://transformer-circuits.pub/2022/toy_model/index.html) and then learn to extract features from this representation? I don't see a particular reason why you used a hand derived superposition representation (which seems less realistic to me?).\n\nOne reason for this is that the polytopic features learned by the model in the Toy models of superposition paper can be thought of as approximately maximally distant points on a hypersphere (to my intuitions at least). When using high-ish numbers of dimensions as in our toy data (256), choosing points randomly on the hypersphere achieves approximately the same thing. By choosing points randomly like in the way we did here, we don't have to train another potentially very large matrix that puts the one-hot features into superposition. The data generation method seemed like it would approximate real features about as well as polytope-like encodings of one-hot features (which are unrealistic too), so the small benefits didn't seem like were worth the moderate computational costs. But I could be convinced otherwise on this if I've missed some important benefits.  \n \n\n> Beyond this, I imagine it would be nicer if you trained a model do computation in superposition and then tried to decode the representations the model uses - you should still be able to know what the 'real' features are (I think).\n\nNice idea! This could potentially be a nice middle ground between toy data experiments and language model experiments. We'll look into this, thanks again!",
+      "plaintextDescription": "> In the toy datasets, the features have the same scale (uniform from zero to one when active multiplied by a unit vector). However in the NN case, there's no particular reason to think the feature scales are normalized very much (though maybe they're normalized a bit due to weight decay and similar). Is there some reason this is ok? \n\nHm it's a great point. There's no principled reason for it. Equivalently, there's no principled reasons to expect the coefficients/activations for each feature to be on the same scale either. We should probably look into a 'feature coefficient magnitude decay' to create features that don't all live on the same scale. Thanks!\n\n> E.g., learn a low rank autoencoder like in the toy models paper and then learn to extract features from this representation? I don't see a particular reason why you used a hand derived superposition representation (which seems less realistic to me?).\n\nOne reason for this is that the polytopic features learned by the model in the Toy models of superposition paper can be thought of as approximately maximally distant points on a hypersphere (to my intuitions at least). When using high-ish numbers of dimensions as in our toy data (256), choosing points randomly on the hypersphere achieves approximately the same thing. By choosing points randomly like in the way we did here, we don't have to train another potentially very large matrix that puts the one-hot features into superposition. The data generation method seemed like it would approximate real features about as well as polytope-like encodings of one-hot features (which are unrealistic too), so the small benefits didn't seem like were worth the moderate computational costs. But I could be convinced otherwise on this if I've missed some important benefits.\n \n\n> Beyond this, I imagine it would be nicer if you trained a model do computation in superposition and then tried to decode the representations the model uses - you should still be able to know what the 'real"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-15T01:07:50.670Z",
+    "af": true
+  },
+  {
+    "_id": "5Yd3ZG7kDdofwPn9B",
+    "postId": "EhAbh2pQoAXkm9yor",
+    "parentCommentId": "zxcosuxzBHs3towFR",
+    "topLevelCommentId": "zxcosuxzBHs3towFR",
+    "contents": {
+      "markdown": "I agree",
+      "plaintextDescription": "I agree"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-07-28T22:28:21.346Z",
+    "af": true
+  },
+  {
+    "_id": "QTKv9G8wabFcr54Xd",
+    "postId": "EhAbh2pQoAXkm9yor",
+    "parentCommentId": "MdSLzbXgKGDmAxkyo",
+    "topLevelCommentId": "MdSLzbXgKGDmAxkyo",
+    "contents": {
+      "markdown": "This sounds really reasonable. I had only been thinking of a naive version of interpretability tools in the loss function that doesn't attempt to interpret the gradient descent process. I'd be genuinely enthusiastic about the strong version you outlined. I expect to think a lot about it in the near future.",
+      "plaintextDescription": "This sounds really reasonable. I had only been thinking of a naive version of interpretability tools in the loss function that doesn't attempt to interpret the gradient descent process. I'd be genuinely enthusiastic about the strong version you outlined. I expect to think a lot about it in the near future. \n "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-07-23T11:36:58.810Z",
+    "af": true
+  },
+  {
+    "_id": "uGGBcrdRNScN6H67u",
+    "postId": "EhAbh2pQoAXkm9yor",
+    "parentCommentId": "mvymhgKqze3zywJdi",
+    "topLevelCommentId": "mvymhgKqze3zywJdi",
+    "contents": {
+      "markdown": "Thanks! Amended.",
+      "plaintextDescription": "Thanks! Amended. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-07-17T18:36:51.007Z",
+    "af": true
+  }
+]

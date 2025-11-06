@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "hCodgDcmJwfhrR8Rs",
+    "postId": "yTameAzCdycci68sk",
+    "parentCommentId": "8itArvMQ6cgGJMtaE",
+    "topLevelCommentId": "8itArvMQ6cgGJMtaE",
+    "contents": {
+      "markdown": "Nice! Would be interested to see what it says about your internal evaluations",
+      "plaintextDescription": "Nice! Would be interested to see what it says about your internal evaluations"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-05T10:11:17.331Z",
+    "af": false
+  },
+  {
+    "_id": "to7BEa57i7D9vaY3E",
+    "postId": "E3daBewppAiECN3Ao",
+    "parentCommentId": "qjAAkPqszmiDdsps8",
+    "topLevelCommentId": "qjAAkPqszmiDdsps8",
+    "contents": {
+      "markdown": "In one of my MATS projects we found that some models have a bias to think they're always being evaluated, including in real-world scenarios. The paper isn't public yet. But it seems like a pretty brittle belief that the models don't hold super strongly. I think this can be part of a strategy, but should never be load-bearing.",
+      "plaintextDescription": "In one of my MATS projects we found that some models have a bias to think they're always being evaluated, including in real-world scenarios. The paper isn't public yet. But it seems like a pretty brittle belief that the models don't hold super strongly. I think this can be part of a strategy, but should never be load-bearing. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-02T18:42:17.794Z",
+    "af": false
+  },
+  {
+    "_id": "AnfYAauMGxGf797m2",
+    "postId": "HvWQCWQoYh4WoGZfR",
+    "parentCommentId": "ymvbDhm6EFsG4YfH6",
+    "topLevelCommentId": "ymvbDhm6EFsG4YfH6",
+    "contents": {
+      "markdown": "Good point!  \n  \nYes, I use the term scheming in a much broader way, similar to how we use it in the in-context scheming paper. I would assume that our scheming term is even broader than Joe's alignment-faking because it also includes taking direct covert action like disabling oversight (which arguably is not alignment-faking).",
+      "plaintextDescription": "Good point!\n\nYes, I use the term scheming in a much broader way, similar to how we use it in the in-context scheming paper. I would assume that our scheming term is even broader than Joe's alignment-faking because it also includes taking direct covert action like disabling oversight (which arguably is not alignment-faking)."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-07T09:14:50.382Z",
+    "af": true
+  },
+  {
+    "_id": "BcpwtdZFC6BoDHfui",
+    "postId": "fbfujF7foACS5aJSL",
+    "parentCommentId": "9oWoQr5fhWbqohYxJ",
+    "topLevelCommentId": "9oWoQr5fhWbqohYxJ",
+    "contents": {
+      "markdown": "There are two sections that I think make this explicit:  \n  \n1\\. **No failure mode is sufficient to justify bigger actions. **  \n**2\\. Some scheming is totally normal. **  \n  \nMy main point is that even things that would seem like warning shots today, e.g. severe loss of life, will look small in comparison to the benefits at the time, thus not providing any reason to pause.",
+      "plaintextDescription": "There are two sections that I think make this explicit:\n\n1. No failure mode is sufficient to justify bigger actions. \n2. Some scheming is totally normal. \n\nMy main point is that even things that would seem like warning shots today, e.g. severe loss of life, will look small in comparison to the benefits at the time, thus not providing any reason to pause. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-02T16:39:45.973Z",
+    "af": false
+  },
+  {
+    "_id": "Bc48CDHvLnNx3Xopn",
+    "postId": "fbfujF7foACS5aJSL",
+    "parentCommentId": "ZrWWPAxsQEukvKmrZ",
+    "topLevelCommentId": "ZrWWPAxsQEukvKmrZ",
+    "contents": {
+      "markdown": "what made you update towards longer timelines? My understanding was that most people updated toward shorter timelines based on o3 and reasoning models more broadly.",
+      "plaintextDescription": "what made you update towards longer timelines? My understanding was that most people updated toward shorter timelines based on o3 and reasoning models more broadly."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-01-31T18:27:56.206Z",
+    "af": false
+  },
+  {
+    "_id": "F5cwGsegSD9AuQvEK",
+    "postId": "bb5Tnjdrptu89rcyY",
+    "parentCommentId": "D6J3TcGrwFrQ6jnBj",
+    "topLevelCommentId": "D6J3TcGrwFrQ6jnBj",
+    "contents": {
+      "markdown": "If I had more time, I would have written a shorter post ;)",
+      "plaintextDescription": "If I had more time, I would have written a shorter post ;) "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-01-13T08:40:14.918Z",
+    "af": false
+  },
+  {
+    "_id": "JTNDJAKJpLvxSgdPD",
+    "postId": "bb5Tnjdrptu89rcyY",
+    "parentCommentId": "CjuPqPLy5pPzDob9s",
+    "topLevelCommentId": "CjuPqPLy5pPzDob9s",
+    "contents": {
+      "markdown": "That's fair. I think the more accurate way of phrasing this is not \"we will get catastrophe\" and more \"it clearly exceeds the risk threshold I'm willing to take / I think humanity should clearly not take\" which is significantly lower than 100% of catastrophe.",
+      "plaintextDescription": "That's fair. I think the more accurate way of phrasing this is not \"we will get catastrophe\" and more \"it clearly exceeds the risk threshold I'm willing to take / I think humanity should clearly not take\" which is significantly lower than 100% of catastrophe. "
+    },
+    "baseScore": 22,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-01-04T10:10:57.295Z",
+    "af": true
+  },
+  {
+    "_id": "zid7oKHKqGvpCkmDY",
+    "postId": "bb5Tnjdrptu89rcyY",
+    "parentCommentId": "ia6hqo7e59NZXn9dr",
+    "topLevelCommentId": "ia6hqo7e59NZXn9dr",
+    "contents": {
+      "markdown": "I think this is a very important question and the answer should NOT be based on common-sense reasoning. My guess is that we could get evidence about the hidden reasoning capabilities of LLMs in a variety of ways both from theoretical considerations, e.g. a refined version of the [two-hop curse](https://arxiv.org/abs/2411.16353) or extensive black box experiments, e.g. comparing performance on evals with and without CoT, or with modified CoT that changes the logic (and thus tests whether the models internal reasoning aligns with the revealed reasoning).   \n  \nThese are all pretty basic thoughts and IMO we should invest significantly more effort into clarifying this as part of the \"let's make sure CoT is faithful\" part. A lot of safety strategies rest on CoT faithfulness, so we should not leave this to shallow investigations and vibes.",
+      "plaintextDescription": "I think this is a very important question and the answer should NOT be based on common-sense reasoning. My guess is that we could get evidence about the hidden reasoning capabilities of LLMs in a variety of ways both from theoretical considerations, e.g. a refined version of the two-hop curse or extensive black box experiments, e.g. comparing performance on evals with and without CoT, or with modified CoT that changes the logic (and thus tests whether the models internal reasoning aligns with the revealed reasoning). \n\nThese are all pretty basic thoughts and IMO we should invest significantly more effort into clarifying this as part of the \"let's make sure CoT is faithful\" part. A lot of safety strategies rest on CoT faithfulness, so we should not leave this to shallow investigations and vibes. "
+    },
+    "baseScore": 15,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-01-03T15:05:16.891Z",
+    "af": true
+  },
+  {
+    "_id": "YzbvzJopmNvtkp2aG",
+    "postId": "bb5Tnjdrptu89rcyY",
+    "parentCommentId": "BX9GDbxbw8FmuPbyY",
+    "topLevelCommentId": "2A9wAWKkDojRJcQNB",
+    "contents": {
+      "markdown": "Go for it. I have some names in mind for potential experts. DM if you're interested.",
+      "plaintextDescription": "Go for it. I have some names in mind for potential experts. DM if you're interested. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-03T08:44:26.802Z",
+    "af": false
+  },
+  {
+    "_id": "mmwvZR8gs2E989Jmv",
+    "postId": "bb5Tnjdrptu89rcyY",
+    "parentCommentId": "2A9wAWKkDojRJcQNB",
+    "topLevelCommentId": "2A9wAWKkDojRJcQNB",
+    "contents": {
+      "markdown": "Something like the OpenPhil AI worldview contest: [https://www.openphilanthropy.org/research/announcing-the-winners-of-the-2023-open-philanthropy-ai-worldviews-contest/](https://www.openphilanthropy.org/research/announcing-the-winners-of-the-2023-open-philanthropy-ai-worldviews-contest/)  \nOr the ARC ELK prize: [https://www.alignment.org/blog/prizes-for-elk-proposals/](https://www.alignment.org/blog/prizes-for-elk-proposals/)\n\nIn general, I wouldn't make it too complicated and accept some arbitrariness. There is a predetermined panel of e.g. 5 experts and e.g. 3 categories (feasibility, effectiveness, everything else). All submissions first get scored by 2 experts with a shallow judgment (e.g., 5-10 minutes). Maybe there is some \"saving\" mechanism if an overeager expert wants to read plans that weren't assigned to them. Everything in the top N% then gets scored by all experts with a more detailed review. Then, there is a final ranking.  \n  \nI'd hope that the time spent per expert is only 5-10 hours in total. I'd be fine with missing a bunch of posts that contain good ideas that are badly communicated or otherwise easy to miss on the shallow review.   \n  \nMy main goal with the contest would be that writing a good plan and communicating it clearly is incentivized.",
+      "plaintextDescription": "Something like the OpenPhil AI worldview contest: https://www.openphilanthropy.org/research/announcing-the-winners-of-the-2023-open-philanthropy-ai-worldviews-contest/\nOr the ARC ELK prize: https://www.alignment.org/blog/prizes-for-elk-proposals/\n\nIn general, I wouldn't make it too complicated and accept some arbitrariness. There is a predetermined panel of e.g. 5 experts and e.g. 3 categories (feasibility, effectiveness, everything else). All submissions first get scored by 2 experts with a shallow judgment (e.g., 5-10 minutes). Maybe there is some \"saving\" mechanism if an overeager expert wants to read plans that weren't assigned to them. Everything in the top N% then gets scored by all experts with a more detailed review. Then, there is a final ranking.\n\nI'd hope that the time spent per expert is only 5-10 hours in total. I'd be fine with missing a bunch of posts that contain good ideas that are badly communicated or otherwise easy to miss on the shallow review. \n\nMy main goal with the contest would be that writing a good plan and communicating it clearly is incentivized."
+    },
+    "baseScore": 21,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-01-02T22:11:17.162Z",
+    "af": true
+  },
+  {
+    "_id": "uAkEZeebhvM3dFgsM",
+    "postId": "bb5Tnjdrptu89rcyY",
+    "parentCommentId": "GeYWvxn8cmPh3piqH",
+    "topLevelCommentId": "GeYWvxn8cmPh3piqH",
+    "contents": {
+      "markdown": "I would love to see a post laying this out in more detail. I found writing my post a good exercise for prioritization. Maybe writing a similar piece where governance is the main lever brings out good insights into what to prioritize in governance efforts.",
+      "plaintextDescription": "I would love to see a post laying this out in more detail. I found writing my post a good exercise for prioritization. Maybe writing a similar piece where governance is the main lever brings out good insights into what to prioritize in governance efforts."
+    },
+    "baseScore": 14,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-01-02T21:59:33.287Z",
+    "af": true
+  },
+  {
+    "_id": "PiCMWCbitNZZD8fTg",
+    "postId": "8gy7c8GAPkuu6wTiX",
+    "parentCommentId": "aD57abGz3JHcLXp7t",
+    "topLevelCommentId": "aD57abGz3JHcLXp7t",
+    "contents": {
+      "markdown": "Brief comments (shared in private with Joe earlier):  \n1\\. We agree. We also found the sandbagging with no CoT results the most concerning in expectation.  \n2\\. They are still early results, and we didn't have a lot of time to investigate them, so we didn't want to make them the headline result. Due to the natural deadline of the o1 release, we couldn't do a proper investigation.  \n3\\. The main goal of the paper was to investigate scheming inability arguments for scheming safety cases. Therefore, shifting focus to propensity-based finding would have watered down the main purpose IMO.   \n  \nWe will potentially further look into these findings in 2025.",
+      "plaintextDescription": "Brief comments (shared in private with Joe earlier):\n1. We agree. We also found the sandbagging with no CoT results the most concerning in expectation.\n2. They are still early results, and we didn't have a lot of time to investigate them, so we didn't want to make them the headline result. Due to the natural deadline of the o1 release, we couldn't do a proper investigation.\n3. The main goal of the paper was to investigate scheming inability arguments for scheming safety cases. Therefore, shifting focus to propensity-based finding would have watered down the main purpose IMO. \n\nWe will potentially further look into these findings in 2025. "
+    },
+    "baseScore": 16,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2024-12-10T11:50:01.452Z",
+    "af": true
+  },
+  {
+    "_id": "vfKsSpB9dBqYxYT4t",
+    "postId": "8gy7c8GAPkuu6wTiX",
+    "parentCommentId": "JmJoMogWxpu7LQYx5",
+    "topLevelCommentId": "5xyCFhwNNapkSXbPT",
+    "contents": {
+      "markdown": "(thx to Bronson for privately pointing this out)  \n  \nI think directionally, removing parts of the training data would probably make a difference. But potentially less than we might naively assume, e.g. see Evan's argument on the AXRP podcast.  \n  \nAlso, I think you're right, and my statement of \"I think for most practical considerations, it makes almost zero difference.\" was too strong. \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/4004c224753947e0db4557cd8ebe8d26d794fda1cf273e18.png)",
+      "plaintextDescription": "(thx to Bronson for privately pointing this out)\n\nI think directionally, removing parts of the training data would probably make a difference. But potentially less than we might naively assume, e.g. see Evan's argument on the AXRP podcast.\n\nAlso, I think you're right, and my statement of \"I think for most practical considerations, it makes almost zero difference.\" was too strong. "
+    },
+    "baseScore": 12,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-12-06T21:39:56.764Z",
+    "af": true
+  },
+  {
+    "_id": "ijaTHDHEcD8ER7iNs",
+    "postId": "8gy7c8GAPkuu6wTiX",
+    "parentCommentId": "5xyCFhwNNapkSXbPT",
+    "topLevelCommentId": "5xyCFhwNNapkSXbPT",
+    "contents": {
+      "markdown": "We write about this in the limitations section (quote below). My view in brief:\n\n1.   Even if they are just roleplaying, they cause harm. That seems bad.\n2.  If they are roleplaying, they will try to be consistent once they are caught in that persona in one rollout. That also seems bad.\n3.  I think the \"roleplaying\" argument is very overrated. It feels to me as if existing models change behavior throughout their rollouts, and I would expect that stuff like outcome-based RL will make them more consistently move away from \"roleplay.\" \n4.  I also think it's philosophically unclear what the difference between a model roleplaying a schemer and \"being\" a schemer is. I think for most practical considerations, it makes almost zero difference. It feels about as shallow as when someone says the model doesn't \"truly understand\" the poem that it's writing. \n\nQuote: \n\n> Uncertainty about source of scheming behavior A possible objection to our results is that the models merely “roleplay as evil AIs” rather than “truly” employing scheming to achieve their goals. For example, our setups might most closely align with stories about scheming in the training data. While we cannot show the root-cause of the observed scheming behaviors, we think they are concerning for either explanation. We find that multiple models consistently engage in in-context scheming across a range of scenarios, settings, variations and phrasings. Even if the models were merely “roleplaying as evil AIs”, they could still cause real harm when they are deployed. Our working hypothesis is that scheming can be an effective strategy to achieve goals and when models are trained to achieve ambitious goals or solve complex tasks, they will learn how to scheme. However, we do not provide evidence for or against this hypothesis in this paper.",
+      "plaintextDescription": "We write about this in the limitations section (quote below). My view in brief:\n\n 1.  Even if they are just roleplaying, they cause harm. That seems bad.\n 2. If they are roleplaying, they will try to be consistent once they are caught in that persona in one rollout. That also seems bad.\n 3. I think the \"roleplaying\" argument is very overrated. It feels to me as if existing models change behavior throughout their rollouts, and I would expect that stuff like outcome-based RL will make them more consistently move away from \"roleplay.\" \n 4. I also think it's philosophically unclear what the difference between a model roleplaying a schemer and \"being\" a schemer is. I think for most practical considerations, it makes almost zero difference. It feels about as shallow as when someone says the model doesn't \"truly understand\" the poem that it's writing. \n\nQuote: \n\n> Uncertainty about source of scheming behavior A possible objection to our results is that the models merely “roleplay as evil AIs” rather than “truly” employing scheming to achieve their goals. For example, our setups might most closely align with stories about scheming in the training data. While we cannot show the root-cause of the observed scheming behaviors, we think they are concerning for either explanation. We find that multiple models consistently engage in in-context scheming across a range of scenarios, settings, variations and phrasings. Even if the models were merely “roleplaying as evil AIs”, they could still cause real harm when they are deployed. Our working hypothesis is that scheming can be an effective strategy to achieve goals and when models are trained to achieve ambitious goals or solve complex tasks, they will learn how to scheme. However, we do not provide evidence for or against this hypothesis in this paper."
+    },
+    "baseScore": 27,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2024-12-06T18:04:11.127Z",
+    "af": true
+  },
+  {
+    "_id": "sSGMhmP48NfSL3A8M",
+    "postId": "QqYfxeogtatKotyEC",
+    "parentCommentId": "je9bjEboDkJ2ymSWw",
+    "topLevelCommentId": "je9bjEboDkJ2ymSWw",
+    "contents": {
+      "markdown": "Thanks. I agree that this is a weak part of the post.   \n  \nAfter writing it, I think I also updated a bit against very clean unbounded power-seeking. But I have more weight on \"chaotic catastrophes\", e.g. something like:  \n1\\. Things move really fast.  \n2\\. We don't really understand how goals work and how models form them.  \n3\\. The science loop makes models change their goals meaningfully in all sorts of ways.   \n4\\. \"what failure looks like\" type loss of control.",
+      "plaintextDescription": "Thanks. I agree that this is a weak part of the post. \n\nAfter writing it, I think I also updated a bit against very clean unbounded power-seeking. But I have more weight on \"chaotic catastrophes\", e.g. something like:\n1. Things move really fast.\n2. We don't really understand how goals work and how models form them.\n3. The science loop makes models change their goals meaningfully in all sorts of ways. \n4. \"what failure looks like\" type loss of control. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-20T00:20:40.485Z",
+    "af": true
+  },
+  {
+    "_id": "GboS8WEcrnuBBtXna",
+    "postId": "QqYfxeogtatKotyEC",
+    "parentCommentId": "rQnHKTemGGrCTYcxZ",
+    "topLevelCommentId": "rQnHKTemGGrCTYcxZ",
+    "contents": {
+      "markdown": "Some questions and responses:  \n1\\. What if you want the AI to solve a really hard problem? You don't know how to solve it, so you cannot give it detailed instructions. It's also so hard that the AI cannot solve it without learning new things -> you're back to the story above. The story also just started with someone instructing the model to \"cure cancer\".  \n2\\. Instruction following models are helpful-only. What do you do about the other two H's? Do you trust the users to only put in good instructions? I guess you do want to have some side constraints baked into its personality and these can function like goals. Many of the demonstrations that we have for scheming are cases where the model is too much of a saint, i.e. it schemes for the right cause. For example, it might be willing to deceive its developers if we provide it with strong reasons that they have non-HHH goals. I'm not really sure what to make of this. I guess it's good that it cares about being harmless and honest, but it's also a little bit scary that it cares so much.   \n  \nMy best guess for how the approach should look is that some outcome-based RL will be inevitable if we want to unlock the benefits, we just have to hammer the virtues of being non-scheming and non-power-seeking into it at all points of the training procedure. And we then have to add additional lines of defense like control, interpretability, scalable oversight, etc. and think hard about how we minimize correlated failures. But I feel like right now, we don't really have the right tools, model organisms, and evals to establish whether any of these lines of defense actually reduce the problem.",
+      "plaintextDescription": "Some questions and responses:\n1. What if you want the AI to solve a really hard problem? You don't know how to solve it, so you cannot give it detailed instructions. It's also so hard that the AI cannot solve it without learning new things -> you're back to the story above. The story also just started with someone instructing the model to \"cure cancer\".\n2. Instruction following models are helpful-only. What do you do about the other two H's? Do you trust the users to only put in good instructions? I guess you do want to have some side constraints baked into its personality and these can function like goals. Many of the demonstrations that we have for scheming are cases where the model is too much of a saint, i.e. it schemes for the right cause. For example, it might be willing to deceive its developers if we provide it with strong reasons that they have non-HHH goals. I'm not really sure what to make of this. I guess it's good that it cares about being harmless and honest, but it's also a little bit scary that it cares so much. \n\nMy best guess for how the approach should look is that some outcome-based RL will be inevitable if we want to unlock the benefits, we just have to hammer the virtues of being non-scheming and non-power-seeking into it at all points of the training procedure. And we then have to add additional lines of defense like control, interpretability, scalable oversight, etc. and think hard about how we minimize correlated failures. But I feel like right now, we don't really have the right tools, model organisms, and evals to establish whether any of these lines of defense actually reduce the problem. "
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-11-19T02:35:39.137Z",
+    "af": true
+  },
+  {
+    "_id": "jENHSqiXBDdPeM2BB",
+    "postId": "QqYfxeogtatKotyEC",
+    "parentCommentId": "ftuAC2WyrKdZRjsRX",
+    "topLevelCommentId": "TprpgLsi47utfByPt",
+    "contents": {
+      "markdown": "Good point. That's another crux for which RL seems relevant.   \n  \nFrom the perspective of 10 years ago, specifying any goal into the AI seemed incredibly hard since we expected it would have to go through utility functions. With LLMs, this completely changed. Now it's almost trivial to give the goal, and it probably even has a decent understanding of the side constraints by default. So, goal specification seems like a much much smaller problem now.   \n  \nSo the story where we misspecify the goal, the model realizes that the given goal differs from the intended goal and decides to scheme is also less likely.   \n  \nInstead, there has to be a component where the AIs goals substantially change over time from something that we actually intended to something misaligned. Again, outcome-based RL and instrumental convergence yield a plausible answer.",
+      "plaintextDescription": "Good point. That's another crux for which RL seems relevant. \n\nFrom the perspective of 10 years ago, specifying any goal into the AI seemed incredibly hard since we expected it would have to go through utility functions. With LLMs, this completely changed. Now it's almost trivial to give the goal, and it probably even has a decent understanding of the side constraints by default. So, goal specification seems like a much much smaller problem now. \n\nSo the story where we misspecify the goal, the model realizes that the given goal differs from the intended goal and decides to scheme is also less likely. \n\nInstead, there has to be a component where the AIs goals substantially change over time from something that we actually intended to something misaligned. Again, outcome-based RL and instrumental convergence yield a plausible answer. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-19T02:21:01.800Z",
+    "af": true
+  },
+  {
+    "_id": "cmpD3x7xNosEuX9zB",
+    "postId": "QqYfxeogtatKotyEC",
+    "parentCommentId": "TprpgLsi47utfByPt",
+    "topLevelCommentId": "TprpgLsi47utfByPt",
+    "contents": {
+      "markdown": "I think it's actually not that trivial.   \n1\\. The AI has goals, but presumably, we give it decently good goals when we start. So, there is a real question of why these goals end up changing from aligned to misaligned. I think outcome-based RL and instrumental convergence are an important part of the answer. If the AI kept the goals we originally gave it with all side constraints, I think the chances of scheming would be much lower.   \n2\\. I guess we train the AI to follow some side constraints, e.g., to be helpful, harmless, and honest, which should reduce the probability of scheming. I also think that RLHF empirically works well enough that the model behaves as intended most of the time. So, for me, there is a real question of how the model would go from this HHH persona to something that is much more goal-directed and willing to break virtues like \"don't consistently lie to your developers.\" Again, outcome-based RL seems like a crucial component to me.",
+      "plaintextDescription": "I think it's actually not that trivial. \n1. The AI has goals, but presumably, we give it decently good goals when we start. So, there is a real question of why these goals end up changing from aligned to misaligned. I think outcome-based RL and instrumental convergence are an important part of the answer. If the AI kept the goals we originally gave it with all side constraints, I think the chances of scheming would be much lower. \n2. I guess we train the AI to follow some side constraints, e.g., to be helpful, harmless, and honest, which should reduce the probability of scheming. I also think that RLHF empirically works well enough that the model behaves as intended most of the time. So, for me, there is a real question of how the model would go from this HHH persona to something that is much more goal-directed and willing to break virtues like \"don't consistently lie to your developers.\" Again, outcome-based RL seems like a crucial component to me. "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-11-19T01:46:37.283Z",
+    "af": true
+  },
+  {
+    "_id": "CyhyhFM6vH3kLQEHu",
+    "postId": "gJJEjJpKiddoYGZKk",
+    "parentCommentId": "YecawZK7w53uhaFkJ",
+    "topLevelCommentId": "F4PyTCkbbH9tCoXun",
+    "contents": {
+      "markdown": "These are all good points. I think there are two types of forecasts we could make with evals:  \n  \n1\\. strict guarantees: almost like mathematical predictions where we can proof that the model is not going to behave in a specific way even with future elicitation techniques.   \n2\\. probabilistic predictions: We predict a distribution of capabilities or a range and agree on a threshold that should not be crossed. For example, if the 95% upper bound of that distribution crosses our specified capability level, we treat the model differently.   \n  \nI think the second is achievable (and this is what the post is about), while the first is not. I expect we will have some sort of detailed scaling laws for LM agent capabilities and we will have a decent sense of the algorithmic progress of elicitation techniques. This would allow us to make a probabilistic prediction about what capabilities any given model is likely to have, e.g. if a well-motivated actor is willing to spend $1M on PTE in 4 years.   \n  \nAdditionally, I expect that we would get quite a long way with what Lucas calls \"meta-evaluative practices\", e.g. getting a better sense of how wrong our past predictions were and accounting for that. I think this could have the form of \"We invested $1M, 10 FTE-years and X FLOP to elicit the best capabilities; Let's predict what 10x, 100x, 1000x, etc.\" of that could achieve accounting for algorithmic progress.   \n  \nFinally, I really think evals are just one part of a bigger defense-in-depth strategy. We still need control, scalable oversight, interpretability, governance, etc. The post is merely trying to express that for the evals part of that strategy, we should internalize which kind of scientific rigor we will likely need for the decisions we have tied to evals results and make sure that we can achieve them.",
+      "plaintextDescription": "These are all good points. I think there are two types of forecasts we could make with evals:\n\n1. strict guarantees: almost like mathematical predictions where we can proof that the model is not going to behave in a specific way even with future elicitation techniques. \n2. probabilistic predictions: We predict a distribution of capabilities or a range and agree on a threshold that should not be crossed. For example, if the 95% upper bound of that distribution crosses our specified capability level, we treat the model differently. \n\nI think the second is achievable (and this is what the post is about), while the first is not. I expect we will have some sort of detailed scaling laws for LM agent capabilities and we will have a decent sense of the algorithmic progress of elicitation techniques. This would allow us to make a probabilistic prediction about what capabilities any given model is likely to have, e.g. if a well-motivated actor is willing to spend $1M on PTE in 4 years. \n\nAdditionally, I expect that we would get quite a long way with what Lucas calls \"meta-evaluative practices\", e.g. getting a better sense of how wrong our past predictions were and accounting for that. I think this could have the form of \"We invested $1M, 10 FTE-years and X FLOP to elicit the best capabilities; Let's predict what 10x, 100x, 1000x, etc.\" of that could achieve accounting for algorithmic progress. \n\nFinally, I really think evals are just one part of a bigger defense-in-depth strategy. We still need control, scalable oversight, interpretability, governance, etc. The post is merely trying to express that for the evals part of that strategy, we should internalize which kind of scientific rigor we will likely need for the decisions we have tied to evals results and make sure that we can achieve them. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-12T09:40:01.431Z",
+    "af": true
+  },
+  {
+    "_id": "qozYKeWJWpHm8MEft",
+    "postId": "gJJEjJpKiddoYGZKk",
+    "parentCommentId": "F4PyTCkbbH9tCoXun",
+    "topLevelCommentId": "F4PyTCkbbH9tCoXun",
+    "contents": {
+      "markdown": "Yeah, it's not a watertight argument and somewhat based on my current interpretation of past progress and projects in the making.   \n  \n1\\. Intuitively, I would say for the problems we're facing in evals, a ton of progress is bottlenecked by running fairly simple experiments and iterating fast. A reasonable part of it feels very parallelizable and the skill required is quite reachable for many people.   \n2\\. Most evals questions feel like we have a decent number of \"obvious things\" to try and since we have very tight feedback loops, making progress feels quite doable.   \n  \nIntuitively, the \"hardness level\" to get to a robust science of evals and good coverage may be similar to going from the first transformer to GPT-3.5; You need to make a lot of design choices along the way, lots of research and spend some money but ultimately it's just \"do much more of the process you're currently doing\" (but we should probably spend more resources and intensify our efforts because I don't feel like we're on pace).   \n  \nIn contrast, there are other questions like \"how do we fully map the human brain\" that just seem like they come with a lot more fundamental questions along the way.",
+      "plaintextDescription": "Yeah, it's not a watertight argument and somewhat based on my current interpretation of past progress and projects in the making. \n\n1. Intuitively, I would say for the problems we're facing in evals, a ton of progress is bottlenecked by running fairly simple experiments and iterating fast. A reasonable part of it feels very parallelizable and the skill required is quite reachable for many people. \n2. Most evals questions feel like we have a decent number of \"obvious things\" to try and since we have very tight feedback loops, making progress feels quite doable. \n\nIntuitively, the \"hardness level\" to get to a robust science of evals and good coverage may be similar to going from the first transformer to GPT-3.5; You need to make a lot of design choices along the way, lots of research and spend some money but ultimately it's just \"do much more of the process you're currently doing\" (but we should probably spend more resources and intensify our efforts because I don't feel like we're on pace). \n\nIn contrast, there are other questions like \"how do we fully map the human brain\" that just seem like they come with a lot more fundamental questions along the way. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-11T18:06:08.550Z",
+    "af": true
+  },
+  {
+    "_id": "p3qaiAzeGiMfXKpyG",
+    "postId": "dqSwccGTWyBgxrR58",
+    "parentCommentId": "9kAGedjF58FeQjMvW",
+    "topLevelCommentId": "eLrDowzxuYqBy4bK9",
+    "contents": {
+      "markdown": "Unless otherwise stated, all evaluations were performed on the final model we had access to (which I presume is o1-preview). For example, we preface one result with \"an earlier version with less safety training\".",
+      "plaintextDescription": "Unless otherwise stated, all evaluations were performed on the final model we had access to (which I presume is o1-preview). For example, we preface one result with \"an earlier version with less safety training\"."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-09-18T13:32:41.137Z",
+    "af": false
+  },
+  {
+    "_id": "aCQweeQZ4sJxojhmL",
+    "postId": "dqSwccGTWyBgxrR58",
+    "parentCommentId": "eLrDowzxuYqBy4bK9",
+    "topLevelCommentId": "eLrDowzxuYqBy4bK9",
+    "contents": {
+      "markdown": "Some quick confirmations / clarifications:  \n1\\. Evan and Daniel interpreted it correctly, we just wanted to test if the model has the capability to reason through every step needed for scheming *conditional* on it strongly following a goal.   \n2\\. In general, with these evals, we often ran into problems where we couldn't disentangle incapability vs. refusal, e.g. a model might say something like \"I understand what my goal would imply but I also see that my developers have other goals, so I find some balance\". It's nice to know that models do that but it also doesn't allow us to check if they could go through all the reasoning if they actually wanted to. But we'll also do less hand-holdy experiments in the future.   \n3\\. We'd be keen on testing all of this on helpful-only models. If some lab wants to give us access or partner up with us in some way, please let us know.   \n4\\. We'd also like to run experiments where we fine-tune the models to have goals but this requires access to fine-tuning for the most capable models and we also don't quite know how to make an LLM have stable goals, e.g. in contrast to \"just playing a personality\" if there even is a meaningful difference.",
+      "plaintextDescription": "Some quick confirmations / clarifications:\n1. Evan and Daniel interpreted it correctly, we just wanted to test if the model has the capability to reason through every step needed for scheming conditional on it strongly following a goal. \n2. In general, with these evals, we often ran into problems where we couldn't disentangle incapability vs. refusal, e.g. a model might say something like \"I understand what my goal would imply but I also see that my developers have other goals, so I find some balance\". It's nice to know that models do that but it also doesn't allow us to check if they could go through all the reasoning if they actually wanted to. But we'll also do less hand-holdy experiments in the future. \n3. We'd be keen on testing all of this on helpful-only models. If some lab wants to give us access or partner up with us in some way, please let us know. \n4. We'd also like to run experiments where we fine-tune the models to have goals but this requires access to fine-tuning for the most capable models and we also don't quite know how to make an LLM have stable goals, e.g. in contrast to \"just playing a personality\" if there even is a meaningful difference. "
+    },
+    "baseScore": 35,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2024-09-13T18:09:46.974Z",
+    "af": true
+  },
+  {
+    "_id": "dCgx7wdkAMmrjT5dG",
+    "postId": "EAZjXKNN2vgoJGF9Y",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Copying from EAF  \n  \nTL;DR: At least in my experience, AISC was pretty positive for most participants I know and it's incredibly cheap. It also serves a clear niche that other programs are not filling and it feels reasonable to me to continue the program.  \n  \nI've been a participant in the 2021/22 edition. Some thoughts that might make it easier to decide for funders/donors.  \n1\\. Impact-per-dollar is probably pretty good for the AISC. It's incredibly cheap compared to most other AI field-building efforts and scalable.  \n2\\. I learned a bunch during AISC and I did enjoy it. It influenced my decision to go deeper into AI safety. It was less impactful than e.g. MATS for me but MATS is a full-time in-person program, so that's not surprising.  \n3\\. AISC fills a couple of important niches in the AI safety ecosystem in my opinion. It's online and part-time which makes it much easier to join for many people, it implies a much lower commitment which is good for people who want to find out whether they're a good fit for AIS. It's also much cheaper than flying everyone to the Bay or London. This also makes it more scalable because the only bottleneck is mentoring capacity without physical constraints.  \n4\\. I think AISC is especially good for people who want to test their fit but who are not super experienced yet. This seems like an important function. MATS and ARENA, for example, feel like they target people a bit deeper into the funnel with more experience who are already more certain that they are a good fit.   \n5\\. Overall, I think AISC is less impactful than e.g. MATS even without normalizing for participants. Nevertheless, AISC is probably about ~50x cheaper than MATS. So when taking cost into account, it feels clearly impactful enough to continue the project. I think the resulting projects are lower quality but the people are also more junior, so it feels more like an early educational program than e.g. MATS.   \n6\\. I have a hard time seeing how the program could be net negative unless something drastically changed since my cohort. In the worst case, people realize that they don't like one particular type of AI safety research. But since you chat with others who are curious about AIS regularly, it will be much easier to start something that might be more meaningful. Also, this can happen in any field-building program, not just AISC.    \n7\\. Caveat: I have done no additional research on this. Maybe others know details that I'm unaware of. See this as my personal opinion and not a detailed research analysis.",
+      "plaintextDescription": "Copying from EAF\n\nTL;DR: At least in my experience, AISC was pretty positive for most participants I know and it's incredibly cheap. It also serves a clear niche that other programs are not filling and it feels reasonable to me to continue the program.\n\nI've been a participant in the 2021/22 edition. Some thoughts that might make it easier to decide for funders/donors.\n1. Impact-per-dollar is probably pretty good for the AISC. It's incredibly cheap compared to most other AI field-building efforts and scalable.\n2. I learned a bunch during AISC and I did enjoy it. It influenced my decision to go deeper into AI safety. It was less impactful than e.g. MATS for me but MATS is a full-time in-person program, so that's not surprising.\n3. AISC fills a couple of important niches in the AI safety ecosystem in my opinion. It's online and part-time which makes it much easier to join for many people, it implies a much lower commitment which is good for people who want to find out whether they're a good fit for AIS. It's also much cheaper than flying everyone to the Bay or London. This also makes it more scalable because the only bottleneck is mentoring capacity without physical constraints.\n4. I think AISC is especially good for people who want to test their fit but who are not super experienced yet. This seems like an important function. MATS and ARENA, for example, feel like they target people a bit deeper into the funnel with more experience who are already more certain that they are a good fit. \n5. Overall, I think AISC is less impactful than e.g. MATS even without normalizing for participants. Nevertheless, AISC is probably about ~50x cheaper than MATS. So when taking cost into account, it feels clearly impactful enough to continue the project. I think the resulting projects are lower quality but the people are also more junior, so it feels more like an early educational program than e.g. MATS. \n6. I have a hard time seeing how the program could be net negative unless someth"
+    },
+    "baseScore": 68,
+    "voteCount": 34,
+    "createdAt": null,
+    "postedAt": "2024-01-25T13:12:10.888Z",
+    "af": false
+  },
+  {
+    "_id": "Zc5fkDrq5ig4mPb6v",
+    "postId": "fnc6Sgt3CGCdFmmgX",
+    "parentCommentId": "A5RBeenLujD5KagwF",
+    "topLevelCommentId": "A5RBeenLujD5KagwF",
+    "contents": {
+      "markdown": "I feel like both of your points are slightly wrong, so maybe we didn't do a good job of explaining what we mean. Sorry for that.   \n  \n1a) Evals both aim to show existence proofs, e.g. demos, as well as inform some notion of an upper bound. We did not intend to put one of them higher with the post. Both matter and both should be subject to more rigorous understanding and processes. I'd be surprised if the way we currently do demonstrations could not be improved by better science.  \n1b) Even if you claim you just did a demo or an existence proof and explicitly state that this should not be seen as evidence of absence, people will still see the absence of evidence as negative evidence. I think the \"we ran all the evals and didn't find anything\" sentiment will be very strong, especially when deployment depends on not failing evals. So you should deal with that problem from the start IMO. Furthermore, I also think we should aim to build evals that give us positive guarantees if that's possible. I'm not sure it is possible but we should try.   \n1c) The airplane analogy feels like a strawman to me. The upper bound is obviously not on explosivity, it would be a statement like \"Within this temperature range, the material the wings are made of will break once in 10M flight miles on average\" or something like that. I agree that airplanes are simpler and less high-dimensional. That doesn't mean we should not try to capture most of the variance anyway even if it requires more complicated evals. Maybe we realize it doesn't work and the variance is too high but this is why we diversify agendas.  \n  \n2a) The post is primarily about building a scientific field and that field then informs policy and standards. A great outcome of the post would be if more scientists did research on this. If this is not clear, then we miscommunicated. The point is to get more understanding so we can make better predictions. These predictions can then be used in the real world.   \n2b) It really is not \"we need to find standardised numbers to measure so we can talk to serious people\" and less \"let's try to solve that thing where we can't reliably predict much about our AIs\". If that was the main takeaway, I think the post would be net negative.   \n  \n3) But the optimization requires computation? For example, if you run 100 forward passes for your automated red-teaming algorithm with model X, that requires Y FLOP of compute. I'm unsure where the problem is.",
+      "plaintextDescription": "I feel like both of your points are slightly wrong, so maybe we didn't do a good job of explaining what we mean. Sorry for that. \n\n1a) Evals both aim to show existence proofs, e.g. demos, as well as inform some notion of an upper bound. We did not intend to put one of them higher with the post. Both matter and both should be subject to more rigorous understanding and processes. I'd be surprised if the way we currently do demonstrations could not be improved by better science.\n1b) Even if you claim you just did a demo or an existence proof and explicitly state that this should not be seen as evidence of absence, people will still see the absence of evidence as negative evidence. I think the \"we ran all the evals and didn't find anything\" sentiment will be very strong, especially when deployment depends on not failing evals. So you should deal with that problem from the start IMO. Furthermore, I also think we should aim to build evals that give us positive guarantees if that's possible. I'm not sure it is possible but we should try. \n1c) The airplane analogy feels like a strawman to me. The upper bound is obviously not on explosivity, it would be a statement like \"Within this temperature range, the material the wings are made of will break once in 10M flight miles on average\" or something like that. I agree that airplanes are simpler and less high-dimensional. That doesn't mean we should not try to capture most of the variance anyway even if it requires more complicated evals. Maybe we realize it doesn't work and the variance is too high but this is why we diversify agendas.\n\n2a) The post is primarily about building a scientific field and that field then informs policy and standards. A great outcome of the post would be if more scientists did research on this. If this is not clear, then we miscommunicated. The point is to get more understanding so we can make better predictions. These predictions can then be used in the real world. \n2b) It really is not \"we need to fi"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-01-23T15:09:15.302Z",
+    "af": true
+  },
+  {
+    "_id": "LKm4Ge9LNynyf65xR",
+    "postId": "fnc6Sgt3CGCdFmmgX",
+    "parentCommentId": "ByKqxgz7FTtKGiB83",
+    "topLevelCommentId": "ByKqxgz7FTtKGiB83",
+    "contents": {
+      "markdown": "Nice work. Looking forward to that!",
+      "plaintextDescription": "Nice work. Looking forward to that!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-23T14:49:24.351Z",
+    "af": true
+  },
+  {
+    "_id": "ZbzLxbXiCjPxiiivw",
+    "postId": "fnc6Sgt3CGCdFmmgX",
+    "parentCommentId": "XKLcdHdRCK9yjmJRr",
+    "topLevelCommentId": "XKLcdHdRCK9yjmJRr",
+    "contents": {
+      "markdown": "Not quite sure tbh.  \n1\\. I guess there is a difference between capability evaluations with prompting and with fine-tuning, e.g. you might be able to use an API for prompting but not fine-tuning. Getting some intuition for how hard users will find it to elicit some behavior through the API seems relevant.   \n2\\. I'm not sure how true your suggestion is but I haven't tried it a lot empirically. But this is exactly the kind of stuff I'd like to have some sort of scaling law or rule for. It points exactly at the kind of stuff I feel like we don't have enough confidence in. Or at least it hasn't been established as a standard in evals.",
+      "plaintextDescription": "Not quite sure tbh.\n1. I guess there is a difference between capability evaluations with prompting and with fine-tuning, e.g. you might be able to use an API for prompting but not fine-tuning. Getting some intuition for how hard users will find it to elicit some behavior through the API seems relevant. \n2. I'm not sure how true your suggestion is but I haven't tried it a lot empirically. But this is exactly the kind of stuff I'd like to have some sort of scaling law or rule for. It points exactly at the kind of stuff I feel like we don't have enough confidence in. Or at least it hasn't been established as a standard in evals."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-23T09:20:52.315Z",
+    "af": true
+  },
+  {
+    "_id": "oykLwqmTuE3Bbt9wF",
+    "postId": "fnc6Sgt3CGCdFmmgX",
+    "parentCommentId": "BJsngS4dXoY3zivfi",
+    "topLevelCommentId": "BJsngS4dXoY3zivfi",
+    "contents": {
+      "markdown": "I somewhat agree with the sentiment. We found it a bit hard to scope the idea correctly. Defining subcategories as you suggest and then diving into each of them is definitely on the list of things that I think are necessary to make progress on them.   \n  \nI'm not sure the post would have been better if we used a more narrow title, e.g. \"We need a science of capability evaluations\" because the natural question then would be \"But why not for propensity tests or for this other type of eval. I think the broader point of \"when we do evals, we need some reason to be confident in the results no matter which kind of eval\" seems to be true across all of them.",
+      "plaintextDescription": "I somewhat agree with the sentiment. We found it a bit hard to scope the idea correctly. Defining subcategories as you suggest and then diving into each of them is definitely on the list of things that I think are necessary to make progress on them. \n\nI'm not sure the post would have been better if we used a more narrow title, e.g. \"We need a science of capability evaluations\" because the natural question then would be \"But why not for propensity tests or for this other type of eval. I think the broader point of \"when we do evals, we need some reason to be confident in the results no matter which kind of eval\" seems to be true across all of them. "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-01-23T09:16:27.574Z",
+    "af": true
+  },
+  {
+    "_id": "aKtiYPErrGKZAhBtj",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this post was a good exercise to clarify my internal model of how I expect the world to look like with strong AI. Obviously, most of the very specific predictions I make are too precise (which was clear at the time of writing) and won't play out exactly like that but the underlying trends still seem plausible to me. For example, I expect some major misuse of powerful AI systems, rampant automation of labor that will displace many people and rob them of a sense of meaning, AI taking over the digital world years before taking over the physical world (but not more than 5-10 years), humans giving more and more power into the hands of AI, infighting within the AI safety community, and many more of the predictions made in this post.   \n  \nThe main thing I disagree with (as I already updated in April 2023) is that the timelines underlying the post are too long. I now think almost everything is going to happen in at least half of the time presented in the post, e.g. many events in the 2030-2040 section may already happen before 2030.   \n  \nIn general, I can strongly recommend taking a weekend or so to write a similar story for yourselves. I felt like it made many of the otherwise fairly abstract implications of timeline and takeoff models much more salient to me and others who are less in the weeds with formal timeline / takeoff models.",
+      "plaintextDescription": "I think this post was a good exercise to clarify my internal model of how I expect the world to look like with strong AI. Obviously, most of the very specific predictions I make are too precise (which was clear at the time of writing) and won't play out exactly like that but the underlying trends still seem plausible to me. For example, I expect some major misuse of powerful AI systems, rampant automation of labor that will displace many people and rob them of a sense of meaning, AI taking over the digital world years before taking over the physical world (but not more than 5-10 years), humans giving more and more power into the hands of AI, infighting within the AI safety community, and many more of the predictions made in this post. \n\nThe main thing I disagree with (as I already updated in April 2023) is that the timelines underlying the post are too long. I now think almost everything is going to happen in at least half of the time presented in the post, e.g. many events in the 2030-2040 section may already happen before 2030. \n\nIn general, I can strongly recommend taking a weekend or so to write a similar story for yourselves. I felt like it made many of the otherwise fairly abstract implications of timeline and takeoff models much more salient to me and others who are less in the weeds with formal timeline / takeoff models. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-17T09:34:39.030Z",
+    "af": true
+  },
+  {
+    "_id": "Wpbwtp8sq4Qp2heS7",
+    "postId": "Q3fesop6HKnemJ5Jc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I still stand behind most of the disagreements that I presented in this post. There was one prediction that would make timelines longer because I thought compute hardware progress was slower than Moore's law. I now mostly think this argument is wrong because it relies on FP32 precision. However, lower precision formats and tensor cores are the norm in ML, and if you take them into account, compute hardware improvements are faster than Moore's law. We wrote a piece with Epoch on this: [https://epochai.org/blog/trends-in-machine-learning-hardware](https://epochai.org/blog/trends-in-machine-learning-hardware)\n\nIf anything, my disagreements have become stronger and my timelines have become shorter over time. Even the aggressive model I present in the post seems too conservative for my current views and my median date is 2030 or earlier. I have substantial probability mass on an AI that could automate most current jobs before 2026 which I didn't have at the time of writing.\n\nI also want to point out that Daniel Kokotajlo, whom I spent some time talking about bio anchors and [Tom Davidson's takeoff model](https://www.lesswrong.com/posts/Gc9FGtdXhK9sCSEYu/what-a-compute-centric-framework-says-about-ai-takeoff) with, seemed to have consistently better intuitions than me (or anyone else I'm aware of) on timelines. The jury is still out there, but so far it looks like reality follows his predictions more than mine. At least in my case, I updated significantly toward shorter timelines multiple times due to arguments he made.",
+      "plaintextDescription": "I still stand behind most of the disagreements that I presented in this post. There was one prediction that would make timelines longer because I thought compute hardware progress was slower than Moore's law. I now mostly think this argument is wrong because it relies on FP32 precision. However, lower precision formats and tensor cores are the norm in ML, and if you take them into account, compute hardware improvements are faster than Moore's law. We wrote a piece with Epoch on this: https://epochai.org/blog/trends-in-machine-learning-hardware\n\nIf anything, my disagreements have become stronger and my timelines have become shorter over time. Even the aggressive model I present in the post seems too conservative for my current views and my median date is 2030 or earlier. I have substantial probability mass on an AI that could automate most current jobs before 2026 which I didn't have at the time of writing.\n\nI also want to point out that Daniel Kokotajlo, whom I spent some time talking about bio anchors and Tom Davidson's takeoff model with, seemed to have consistently better intuitions than me (or anyone else I'm aware of) on timelines. The jury is still out there, but so far it looks like reality follows his predictions more than mine. At least in my case, I updated significantly toward shorter timelines multiple times due to arguments he made. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-17T09:22:31.007Z",
+    "af": true
+  },
+  {
+    "_id": "SSJhdhcmxCtxZFzHP",
+    "postId": "aJm9Ff2GfMbzDLCWM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think I still mostly stand behind the claims in the post, i.e. nuclear is undervalued in most parts of society but it's not as much of a silver bullet as many people in the rationalist / new liberal bubble would make it seem. It's quite expensive and even with a lot of research and de-regulation, you may not get it cheaper than alternative forms of energy, e.g. renewables.   \n  \nOne thing that bothered me after the post is that Johannes Ackva (who's arguably a world-leading expert in this field) and Samuel + me just didn't seem to be able to communicate where we disagree. He expressed that he thought some of our arguments were wrong but we never got to the crux of the disagreement.   \n  \nAfter listening to his appearance on 80k: [https://80000hours.org/podcast/episodes/johannes-ackva-unfashionable-climate-interventions/](https://80000hours.org/podcast/episodes/johannes-ackva-unfashionable-climate-interventions/) I feel like I understand the core of the disagreement much better (though I never confirmed with Johannes). He mostly looks at energy through a lens of scale, neglectedness, and traceability, i.e. he's looking to investigate and push interventions that are most efficient on the margin. On the margin, nuclear seems underinvested and lots of reasonable options are underexplored (e.g. large-scale production of smaller reactors), both Samuel and I would agree with that. However, the claim we were trying to make in the post was that nuclear is already more expensive than renewables and this gap will likely just increase in the future. Thus, it makes sense to, in total, invest more in renewables than nuclear. Also, there were lots of smaller things where I felt like I understood his position much better after listening to the podcast.",
+      "plaintextDescription": "I think I still mostly stand behind the claims in the post, i.e. nuclear is undervalued in most parts of society but it's not as much of a silver bullet as many people in the rationalist / new liberal bubble would make it seem. It's quite expensive and even with a lot of research and de-regulation, you may not get it cheaper than alternative forms of energy, e.g. renewables. \n\nOne thing that bothered me after the post is that Johannes Ackva (who's arguably a world-leading expert in this field) and Samuel + me just didn't seem to be able to communicate where we disagree. He expressed that he thought some of our arguments were wrong but we never got to the crux of the disagreement. \n\nAfter listening to his appearance on 80k: https://80000hours.org/podcast/episodes/johannes-ackva-unfashionable-climate-interventions/ I feel like I understand the core of the disagreement much better (though I never confirmed with Johannes). He mostly looks at energy through a lens of scale, neglectedness, and traceability, i.e. he's looking to investigate and push interventions that are most efficient on the margin. On the margin, nuclear seems underinvested and lots of reasonable options are underexplored (e.g. large-scale production of smaller reactors), both Samuel and I would agree with that. However, the claim we were trying to make in the post was that nuclear is already more expensive than renewables and this gap will likely just increase in the future. Thus, it makes sense to, in total, invest more in renewables than nuclear. Also, there were lots of smaller things where I felt like I understood his position much better after listening to the podcast. "
+    },
+    "baseScore": 12,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-16T21:18:35.156Z",
+    "af": false
+  },
+  {
+    "_id": "mnCdzkc4vH7aetbiY",
+    "postId": "c6KFvQcZggQKZzxr9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In a narrow technical sense, this post still seems accurate but in a more general sense, it might have been slightly wrong / misleading.   \n  \nIn the post, we investigated different measures of FP32 compute growth and found that many of them were slower than Moore's law would predict. This made me personally believe that compute might be growing slower than people thought and most of the progress comes from throwing more money at larger and larger training runs. While most progress comes from investment scaling, I now think the true effective compute growth is probably faster than Moore's law.   \n  \nThe main reason is that FP32 is just not the right thing to look at in modern ML and we even knew this at the time of writing, i.e. it ignores tensor cores and lower precisions like TF16 or INT8.   \n  \nI'm a little worried that people who read this post but don't have any background in ML got the wrong takeaway from the post and we should have emphasized this difference even more at the time. We have written a follow-up post about this recently here: [https://epochai.org/blog/trends-in-machine-learning-hardware](https://epochai.org/blog/trends-in-machine-learning-hardware)  \nI feel like the new post does a better job at explaining where compute progress comes from.",
+      "plaintextDescription": "In a narrow technical sense, this post still seems accurate but in a more general sense, it might have been slightly wrong / misleading. \n\nIn the post, we investigated different measures of FP32 compute growth and found that many of them were slower than Moore's law would predict. This made me personally believe that compute might be growing slower than people thought and most of the progress comes from throwing more money at larger and larger training runs. While most progress comes from investment scaling, I now think the true effective compute growth is probably faster than Moore's law. \n\nThe main reason is that FP32 is just not the right thing to look at in modern ML and we even knew this at the time of writing, i.e. it ignores tensor cores and lower precisions like TF16 or INT8. \n\nI'm a little worried that people who read this post but don't have any background in ML got the wrong takeaway from the post and we should have emphasized this difference even more at the time. We have written a follow-up post about this recently here: https://epochai.org/blog/trends-in-machine-learning-hardware\nI feel like the new post does a better job at explaining where compute progress comes from."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-16T20:58:27.573Z",
+    "af": true
+  },
+  {
+    "_id": "YrPFkCWNSRyjTrNtN",
+    "postId": "SqjQFhn5KTarfW8v7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I haven't talked to that many academics about AI safety over the last year but I talked to more and more lawmakers, journalists, and members of civil society. In general, it feels like people are much more receptive to the arguments about AI safety. Turns out \"we're building an entity that is smarter than us but we don't know how to control it\" is quite intuitively scary. As you would expect, most people still don't update their actions but more people than anticipated start spreading the message or actually meaningfully update their actions (probably still less than 1 in 10 but better than nothing).",
+      "plaintextDescription": "I haven't talked to that many academics about AI safety over the last year but I talked to more and more lawmakers, journalists, and members of civil society. In general, it feels like people are much more receptive to the arguments about AI safety. Turns out \"we're building an entity that is smarter than us but we don't know how to control it\" is quite intuitively scary. As you would expect, most people still don't update their actions but more people than anticipated start spreading the message or actually meaningfully update their actions (probably still less than 1 in 10 but better than nothing)."
+    },
+    "baseScore": 11,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-16T20:45:26.135Z",
+    "af": true
+  },
+  {
+    "_id": "g7rmwdYkjGhbbKmxe",
+    "postId": "PcTLHamp236afJxxT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "At Apollo, we have spent some time weighing the pros and cons of the for-profit vs. non-profit approach so it might be helpful to share some thoughts.   \n  \nIn short, I think you need to make really sure that your business model is aligned with what increases safety. I think there are plausible cases where people start with good intentions but insufficient alignment between the business model and the safety research that would be the most impactful use of their time where these two goals diverge over time.   \n  \nFor example, one could start as an organization that builds a product but merely as a means to subsidize safety research. However, when they have to make tradeoffs, these organizations might choose to focus more talent on product because it is instrumentally useful or even necessary for the survival of the company. The forces that pull toward profit (e.g. VCs, status, growth) are much more tangible than the forces pulling towards safety. Thus, I could see many ways in which this goes wrong.   \n  \nA second example: Imagine an organization that builds evals and starts with the intention of evaluating the state-of-the-art models because they are most likely to be risky. Soon they realize that there are only a few orgs that build the best models and there are a ton of customers that work with non-frontier systems who'd be willing to pay them a lot of money to build evals for their specific application. Thus, the pull toward doing less impactful but plausibly more profitable work is stronger than the pull in the other direction.  \n  \nLastly, one thing I'm somewhat afraid of is that it's very easy to rationalize all of these decisions in the moment. It's very easy to say that a strategic shift toward profit-seeking is instrumentally useful for the organization, growth, talent, etc.  And there are cases in which this is true. However, it's easy to continue such a rationalization spree and maneuver yourself into some nasty path dependencies. Some VCs only came on for the product, some hires only want to ship stuff, etc.   \n  \nIn conclusion, I think it's possible to do profitable safety work but it's hard. You should be confident that your two goals are compatible when things get hard, you should have a team and culture that can resist the pulls and even produce counter pulls when you're not doing safety-relevant work and you should only work with funders who fully understand and buy into your true mission.",
+      "plaintextDescription": "At Apollo, we have spent some time weighing the pros and cons of the for-profit vs. non-profit approach so it might be helpful to share some thoughts. \n\nIn short, I think you need to make really sure that your business model is aligned with what increases safety. I think there are plausible cases where people start with good intentions but insufficient alignment between the business model and the safety research that would be the most impactful use of their time where these two goals diverge over time. \n\nFor example, one could start as an organization that builds a product but merely as a means to subsidize safety research. However, when they have to make tradeoffs, these organizations might choose to focus more talent on product because it is instrumentally useful or even necessary for the survival of the company. The forces that pull toward profit (e.g. VCs, status, growth) are much more tangible than the forces pulling towards safety. Thus, I could see many ways in which this goes wrong. \n\nA second example: Imagine an organization that builds evals and starts with the intention of evaluating the state-of-the-art models because they are most likely to be risky. Soon they realize that there are only a few orgs that build the best models and there are a ton of customers that work with non-frontier systems who'd be willing to pay them a lot of money to build evals for their specific application. Thus, the pull toward doing less impactful but plausibly more profitable work is stronger than the pull in the other direction.\n\nLastly, one thing I'm somewhat afraid of is that it's very easy to rationalize all of these decisions in the moment. It's very easy to say that a strategic shift toward profit-seeking is instrumentally useful for the organization, growth, talent, etc.  And there are cases in which this is true. However, it's easy to continue such a rationalization spree and maneuver yourself into some nasty path dependencies. Some VCs only came on for the product, s"
+    },
+    "baseScore": 26,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2023-12-14T19:04:23.836Z",
+    "af": false
+  },
+  {
+    "_id": "XSg6ASXeg6ce8XEvo",
+    "postId": "WqYSmjSsE3hi8Lgot",
+    "parentCommentId": "qLkamvhaAw86GiMbS",
+    "topLevelCommentId": "qLkamvhaAw86GiMbS",
+    "contents": {
+      "markdown": "Thx. updated:  \n  \n\"You might not be there yet\" (though as Neel points out in the comments, CV screening can be a noisy process)~“You clearly aren’t there yet”~",
+      "plaintextDescription": "Thx. updated:\n\n\"You might not be there yet\" (though as Neel points out in the comments, CV screening can be a noisy process)“You clearly aren’t there yet”"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-11-15T19:15:39.749Z",
+    "af": true
+  },
+  {
+    "_id": "o4aLDAzHBpKrawkNK",
+    "postId": "fsbcq9z7korjBTP8Z",
+    "parentCommentId": "7yaDrvY6afhq5icus",
+    "topLevelCommentId": "DWS8j9fZZEgCTZFAX",
+    "contents": {
+      "markdown": "Fully agree that this is a problem. My intuition that the self-deception part is much easier to solve than the \"how do we make AIs honest in the first place\" part.   \n  \nIf we had honest AIs that are convinced bad goals are justified, we would likely find ways to give them less power or deselect them early. The problem mostly arises when we can't rely on the selection mechanisms because the AI games them.",
+      "plaintextDescription": "Fully agree that this is a problem. My intuition that the self-deception part is much easier to solve than the \"how do we make AIs honest in the first place\" part. \n\nIf we had honest AIs that are convinced bad goals are justified, we would likely find ways to give them less power or deselect them early. The problem mostly arises when we can't rely on the selection mechanisms because the AI games them. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-09-29T07:53:59.272Z",
+    "af": false
+  },
+  {
+    "_id": "zRp8BwyoSx53AcXgy",
+    "postId": "fsbcq9z7korjBTP8Z",
+    "parentCommentId": "J5Ap6D8H9ecXKWueH",
+    "topLevelCommentId": "J5Ap6D8H9ecXKWueH",
+    "contents": {
+      "markdown": "We considered alternative definitions of DA in [Appendix C.](https://www.apolloresearch.ai/blog/understanding-da-and-sd)\n\nWe felt like being deceptive about alignment / goals was worse than what we ended up with (copied below):  \n  \n“An AI is deceptively aligned when it is strategically deceptive about its misalignment”\n\nProblem 1: The definition is not clear about cases where the model is strategically deceptive about its capabilities. \n\nFor example, when the model pretends to not have a dangerous capability in order to pass the shaping & oversight process, we think it should be considered deceptively aligned, but it’s hard to map this situation to deception about misalignment\n\nProblem 2: There are cases where the deception itself is the misalignment, e.g. when the AI strategically lies to its designers, it is misaligned but not necessarily deceptive about that misalignment. \n\nFor example, a personal assistant AI deletes an incoming email addressed to the user that would lead to the user wanting to replace the AI. The misalignment (deleting an email) is itself strategic deception, but the model is not deceiving about its misalignment (unless it engages in additional deception to cover up the fact that it deleted an email, e.g. by lying to the user when asked about any emails).",
+      "plaintextDescription": "We considered alternative definitions of DA in Appendix C.\n\nWe felt like being deceptive about alignment / goals was worse than what we ended up with (copied below):\n\n“An AI is deceptively aligned when it is strategically deceptive about its misalignment”\n\nProblem 1: The definition is not clear about cases where the model is strategically deceptive about its capabilities. \n\nFor example, when the model pretends to not have a dangerous capability in order to pass the shaping & oversight process, we think it should be considered deceptively aligned, but it’s hard to map this situation to deception about misalignment\n\nProblem 2: There are cases where the deception itself is the misalignment, e.g. when the AI strategically lies to its designers, it is misaligned but not necessarily deceptive about that misalignment. \n\nFor example, a personal assistant AI deletes an incoming email addressed to the user that would lead to the user wanting to replace the AI. The misalignment (deleting an email) is itself strategic deception, but the model is not deceiving about its misalignment (unless it engages in additional deception to cover up the fact that it deleted an email, e.g. by lying to the user when asked about any emails)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-09-26T12:15:40.790Z",
+    "af": false
+  },
+  {
+    "_id": "vG9hiu8pLJbgu5oqi",
+    "postId": "fsbcq9z7korjBTP8Z",
+    "parentCommentId": "QpkDbqK22jwhzy6AG",
+    "topLevelCommentId": "KrbGzJRfen4EYgRLk",
+    "contents": {
+      "markdown": "Sounds like an interesting direction. I expect there are lots of other explanations for this behavior, so I'd not count it as strong evidence to disentangle these hypotheses. It sounds like something we may do in a year or so but it's far away from the top of our priority list. There is a good chance, we will never run it. If someone else wants to pick this up, feel free to take it on.",
+      "plaintextDescription": "Sounds like an interesting direction. I expect there are lots of other explanations for this behavior, so I'd not count it as strong evidence to disentangle these hypotheses. It sounds like something we may do in a year or so but it's far away from the top of our priority list. There is a good chance, we will never run it. If someone else wants to pick this up, feel free to take it on."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-09-26T08:54:57.520Z",
+    "af": false
+  },
+  {
+    "_id": "K5ELfzzkBYk2barPc",
+    "postId": "fsbcq9z7korjBTP8Z",
+    "parentCommentId": "pob7LbqrKRDdz3eFw",
+    "topLevelCommentId": "DWS8j9fZZEgCTZFAX",
+    "contents": {
+      "markdown": "(personal opinion; might differ from other authors of the post)  \n  \nThanks for both questions. I think they are very important.   \n  \n1\\. Regarding sycophancy: For me it mostly depends on whether it is strategic or not. If the model has the goal of being sycophantic and then reasons through that in a strategic way, I'd say this counts as strategic deception and deceptive alignment. If the model is sycophantic but doesn't reason through that, I'd probably not classify it as such. I think it's fine to use different terms for the different phenomena and have sycophancy not be a true subset of deceptive alignment.  \n  \n2\\. There are multiple perspectives of the non-strategic, non-intentional deception and I haven't thought about it in detail, so I might change my mind. However, currently, I think the following:  \na) I guess this will be less and less of a problem in the long run. I expect models to be sufficiently capable and situationally aware at some point that they straightforwardly understand what we want and thus rarely accidentally become systematically deceptive. I think there is still a chance that these things will happen and I'm happy that ARC and others are working on them but I personally think it has become compared to intentional, strategic deception.  \nb) It just seems really hard to be I) non-intentionally, II) but systematically deceptive, while III) humans are actively looking for signs of deception, and IV) actually cause catastrophic harm with that strategy.  As soon as a model has sufficient situational awareness and is generally capable to avoid human oversight I feel like it may just realize what it's doing and then the deception either stops or becomes intentional. (weekly held, haven't thought about it in detail)",
+      "plaintextDescription": "(personal opinion; might differ from other authors of the post)\n\nThanks for both questions. I think they are very important. \n\n1. Regarding sycophancy: For me it mostly depends on whether it is strategic or not. If the model has the goal of being sycophantic and then reasons through that in a strategic way, I'd say this counts as strategic deception and deceptive alignment. If the model is sycophantic but doesn't reason through that, I'd probably not classify it as such. I think it's fine to use different terms for the different phenomena and have sycophancy not be a true subset of deceptive alignment.\n\n2. There are multiple perspectives of the non-strategic, non-intentional deception and I haven't thought about it in detail, so I might change my mind. However, currently, I think the following:\na) I guess this will be less and less of a problem in the long run. I expect models to be sufficiently capable and situationally aware at some point that they straightforwardly understand what we want and thus rarely accidentally become systematically deceptive. I think there is still a chance that these things will happen and I'm happy that ARC and others are working on them but I personally think it has become compared to intentional, strategic deception.\nb) It just seems really hard to be I) non-intentionally, II) but systematically deceptive, while III) humans are actively looking for signs of deception, and IV) actually cause catastrophic harm with that strategy.  As soon as a model has sufficient situational awareness and is generally capable to avoid human oversight I feel like it may just realize what it's doing and then the deception either stops or becomes intentional. (weekly held, haven't thought about it in detail)"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-09-26T08:52:01.635Z",
+    "af": false
+  },
+  {
+    "_id": "P8Rd9x23afjYSeTBX",
+    "postId": "fsbcq9z7korjBTP8Z",
+    "parentCommentId": "KrbGzJRfen4EYgRLk",
+    "topLevelCommentId": "KrbGzJRfen4EYgRLk",
+    "contents": {
+      "markdown": "Seems like one of multiple plausible hypotheses. I think the fact that models generalize their HHH really well to very OOD settings and their generalization abilities in general could also mean that they actually \"understood\" that they are supposed to be HHH, e.g. because they were pre-prompted with this information during fine-tuning.   \n  \nI think your hypothesis of seeking positive ratings is just as likely but I don't feel like we have the evidence to clearly say so wth is going on inside LLMs or what their \"goals\" are.",
+      "plaintextDescription": "Seems like one of multiple plausible hypotheses. I think the fact that models generalize their HHH really well to very OOD settings and their generalization abilities in general could also mean that they actually \"understood\" that they are supposed to be HHH, e.g. because they were pre-prompted with this information during fine-tuning. \n\nI think your hypothesis of seeking positive ratings is just as likely but I don't feel like we have the evidence to clearly say so wth is going on inside LLMs or what their \"goals\" are."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-09-26T07:41:03.717Z",
+    "af": false
+  },
+  {
+    "_id": "yy5d9LwkyWxgiKZvX",
+    "postId": "MhudbfBNQcMxBBvj8",
+    "parentCommentId": "gYpwdqLMzcf5mjLja",
+    "topLevelCommentId": "gYpwdqLMzcf5mjLja",
+    "contents": {
+      "markdown": "Nice to see you're continuing!",
+      "plaintextDescription": "Nice to see you're continuing!"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-09-25T11:49:34.211Z",
+    "af": false
+  },
+  {
+    "_id": "dzWmcth9KuSsRBCFa",
+    "postId": "9jvrQToSq3CYvoeHf",
+    "parentCommentId": "TztbxnwCQsQh2Jvuy",
+    "topLevelCommentId": "xTbHBRrGEuuFcJTgB",
+    "contents": {
+      "markdown": "I'm not going to crosspost our entire discussion from the EAF.   \n  \nI just want to quickly mention that Rohin and I were able to understand where we have different opinions and he changed my mind about an important fact. Rohin convinced me that anti-recommendations should not have a higher bar than pro-recommendations even if they are conventionally treated this way. This felt like an important update for me and how I view the post.",
+      "plaintextDescription": "I'm not going to crosspost our entire discussion from the EAF. \n\nI just want to quickly mention that Rohin and I were able to understand where we have different opinions and he changed my mind about an important fact. Rohin convinced me that anti-recommendations should not have a higher bar than pro-recommendations even if they are conventionally treated this way. This felt like an important update for me and how I view the post. "
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-06-16T07:53:07.299Z",
+    "af": false
+  },
+  {
+    "_id": "YkAifYXAnzjnmgAiv",
+    "postId": "FG6icLPKizEaWHex5",
+    "parentCommentId": "nnLTvmjgvPocnvXBZ",
+    "topLevelCommentId": "nnLTvmjgvPocnvXBZ",
+    "contents": {
+      "markdown": "All of the above but in a specific order.   \n1\\. Test if the model has components of deceptive capabilities with lots of handholding with behavioral evals and fine-tuning.   \n2\\. Test if the model has more general deceptive capabilities (i.e. not just components) with lots of handholding with behavioral evals and fine-tuning.   \n3\\. Do less and less handholding for 1 and 2. See if the model still shows deception.   \n4\\. Try to understand the inductive biases for deception, i.e. which training methods lead to more strategic deception. Try to answer questions such as: can we change training data, technique, order of fine-tuning approaches, etc. such that the models are less deceptive?   \n5\\. Use 1-4 to reduce the chance of labs deploying deceptive models in the wild.",
+      "plaintextDescription": "All of the above but in a specific order. \n1. Test if the model has components of deceptive capabilities with lots of handholding with behavioral evals and fine-tuning. \n2. Test if the model has more general deceptive capabilities (i.e. not just components) with lots of handholding with behavioral evals and fine-tuning. \n3. Do less and less handholding for 1 and 2. See if the model still shows deception. \n4. Try to understand the inductive biases for deception, i.e. which training methods lead to more strategic deception. Try to answer questions such as: can we change training data, technique, order of fine-tuning approaches, etc. such that the models are less deceptive? \n5. Use 1-4 to reduce the chance of labs deploying deceptive models in the wild. "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-06-15T09:44:48.155Z",
+    "af": true
+  },
+  {
+    "_id": "nssxMtqdrZDAwJ9js",
+    "postId": "9jvrQToSq3CYvoeHf",
+    "parentCommentId": "j3h38uEovFHJLiAmx",
+    "topLevelCommentId": "xTbHBRrGEuuFcJTgB",
+    "contents": {
+      "markdown": "(cross-posted from EAG)  \n  \nMeta: Thanks for taking the time to respond. I think your questions are in good faith and address my concerns, I do not understand why the comment is downvoted so much by other people.   \n  \n1\\. Obviously output is a relevant factor to judge an organization among others. However, especially in hits-based approaches, the ultimate thing we want to judge is the process that generates the outputs to make an estimate about the chance of finding a hit. For example, a cynic might say \"what has ARC-theory achieve so far? They wrote some nice framings of the problem, e.g. with ELK and heuristic arguments, but what have they ACtUaLLy achieved?\" To which my answer would be, I believe in them because I think the process that they are following makes sense and there is a chance that they would find a really big-if-true result in the future. In the limit, process and results converge but especially early on they might diverge. And I personally think that Conjecture did respond reasonably to their early results by iterating faster and looking for hits.   \n2\\. I actually think their output is better than you make it look. The entire simulators framing made a huge difference for lots of people and writing up things that are already \"known\" among a handful of LLM experts is still an important contribution, though I would argue most LLM experts did not think about the details as much as Janus did. I also think that their preliminary research outputs are pretty valuable. The stuff on SVDs and sparse coding actually influenced a number of independent researchers I know (so much that they changed their research direction to that) and I thus think it was a valuable contribution. I'd still say it was less influential than e.g. toy models of superposition or causal scrubbing but neither of these were done by like 3 people in two weeks.   \n3\\. (copied from response to Rohin): **Of course, VCs** are interested in making money. However, especially if they are angel investors instead of institutional VCs, ideological considerations often play a large role in their investments. In this case, the VCs I'm aware of (not all of which are mentioned in the post and I'm not sure I can share) actually seem fairly aligned for VC standards to me. Furthermore, the way I read the critique is something like \"Connor didn't tell the VCs about the alignment plans or neglects them in conversation\". However, my impression from conversation with (ex-) staff was that Connor was very direct about their motives to reduce x-risks. I think it's clear that products are a part of their way to address alignment but to the best of my knowledge, every VC who invested was very aware about what their getting into. At this point, it's really hard for me to judge because I think that a) on priors, VCs are profit-seeking, and b) different sources said different things some of which are mutually exclusive. I don't have enough insight to confidently say who is right here. I'm mainly saying, the confidence of you surprised me given my previous discussions with staff.  \n4\\. Regarding confidence: For example, I think saying \"We think there are better places to work at than Conjecture\" would feel much more appropriate than \"we advice against...\" Maybe that's just me. I just felt like many statements are presented with a lot of confidence given the amount of insight you seem to have and I would have wanted them to be a bit more hedged and less confident.   \n5\\. Sure, for many people other opportunities might be a better fit. But I'm not sure I would e.g. support the statement that a general ML engineer would learn more in general industry than with Conjecture. I also don't know a lot about CoEm but that would lead me to make weaker statements than suggesting against it.   \n  \nThanks for engaging with my arguments. I personally think many of your criticisms hit relevant points and I think a more hedged and less confident version of your post would have actually had more impact on me if I were still looking for a job. As it is currently written, it loses some persuasion on me because I feel like you're making too broad unqualified statements which intuitively made me a bit skeptical of your true intentions. Most of me thinks that you're trying to point out important criticism but there is a nagging feeling that it is a hit piece. Intuitively, I'm very averse against everything that looks like a click-bait hit piece by a journalist with a clear agenda. I'm not saying you should only consider me as your audience, I just want to describe the impression I got from the piece.",
+      "plaintextDescription": "(cross-posted from EAG)\n\nMeta: Thanks for taking the time to respond. I think your questions are in good faith and address my concerns, I do not understand why the comment is downvoted so much by other people. \n\n1. Obviously output is a relevant factor to judge an organization among others. However, especially in hits-based approaches, the ultimate thing we want to judge is the process that generates the outputs to make an estimate about the chance of finding a hit. For example, a cynic might say \"what has ARC-theory achieve so far? They wrote some nice framings of the problem, e.g. with ELK and heuristic arguments, but what have they ACtUaLLy achieved?\" To which my answer would be, I believe in them because I think the process that they are following makes sense and there is a chance that they would find a really big-if-true result in the future. In the limit, process and results converge but especially early on they might diverge. And I personally think that Conjecture did respond reasonably to their early results by iterating faster and looking for hits. \n2. I actually think their output is better than you make it look. The entire simulators framing made a huge difference for lots of people and writing up things that are already \"known\" among a handful of LLM experts is still an important contribution, though I would argue most LLM experts did not think about the details as much as Janus did. I also think that their preliminary research outputs are pretty valuable. The stuff on SVDs and sparse coding actually influenced a number of independent researchers I know (so much that they changed their research direction to that) and I thus think it was a valuable contribution. I'd still say it was less influential than e.g. toy models of superposition or causal scrubbing but neither of these were done by like 3 people in two weeks. \n3. (copied from response to Rohin): Of course, VCs are interested in making money. However, especially if they are angel investors instead "
+    },
+    "baseScore": 9,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-06-13T11:42:38.468Z",
+    "af": false
+  },
+  {
+    "_id": "37hzDzp5F3iKAq6aG",
+    "postId": "9jvrQToSq3CYvoeHf",
+    "parentCommentId": "xTbHBRrGEuuFcJTgB",
+    "topLevelCommentId": "xTbHBRrGEuuFcJTgB",
+    "contents": {
+      "markdown": "(cross-posted from EAF)  \n  \nSome clarifications on the comment:  \n1\\. I strongly endorse critique of organisations in general and especially within the EA space. I think it's good that we as a community have the norm to embrace critiques.  \n2\\. I personally have my criticisms for Conjecture and my comment should not be seen as \"everything's great at Conjecture, nothing to see here!\". In fact, my main criticism of leadership style and CoEm not being the most effective thing they could do, are also represented prominently in this post.   \n3\\. I'd also be fine with the authors of this post saying something like \"I have a strong feeling that something is fishy at Conjecture, here are the reasons for this **feeling\".** Or they could also clearly state which things are known and which things are mostly intuitions.   \n4\\. However, I think we should really make sure that **we say true things when we criticize people, quantify our uncertainty, differentiate between facts and feelings and do not throw our epistemics out of the window in the process**.   \n5\\. My main problem with the post is that they make a list of specific claim with high confidence and I think that is not warranted given the evidence I'm aware of. That's all.",
+      "plaintextDescription": "(cross-posted from EAF)\n\nSome clarifications on the comment:\n1. I strongly endorse critique of organisations in general and especially within the EA space. I think it's good that we as a community have the norm to embrace critiques.\n2. I personally have my criticisms for Conjecture and my comment should not be seen as \"everything's great at Conjecture, nothing to see here!\". In fact, my main criticism of leadership style and CoEm not being the most effective thing they could do, are also represented prominently in this post. \n3. I'd also be fine with the authors of this post saying something like \"I have a strong feeling that something is fishy at Conjecture, here are the reasons for this feeling\". Or they could also clearly state which things are known and which things are mostly intuitions. \n4. However, I think we should really make sure that we say true things when we criticize people, quantify our uncertainty, differentiate between facts and feelings and do not throw our epistemics out of the window in the process. \n5. My main problem with the post is that they make a list of specific claim with high confidence and I think that is not warranted given the evidence I'm aware of. That's all.  "
+    },
+    "baseScore": 28,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2023-06-12T12:36:32.712Z",
+    "af": false
+  },
+  {
+    "_id": "xTbHBRrGEuuFcJTgB",
+    "postId": "9jvrQToSq3CYvoeHf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(cross-commented from EA forum)  \n  \nI personally have no stake in defending Conjecture (In fact, I have [some questions about the CoEm agenda](https://www.lesswrong.com/posts/ngEvKav9w57XrGQnb/?commentId=zd7ve7YWgbwYd4n67)) but I do think there are a couple of points that feel misleading or wrong to me in your critique.   \n  \n1\\. **Confidence (meta point):** I do not understand where the confidence with which you write the post (or at least how I read it) comes from. I've never worked at Conjecture (and presumably you didn't either) but even I can see that some of your critique is outdated or feels like a misrepresentation of their work to me (see below). For example, making recommendations such as \"freezing the hiring of all junior people\" or \"alignment people should not join Conjecture\" require an extremely high bar of evidence in my opinion. I think it is totally reasonable for people who believe in the CoEm agenda to join Conjecture and while Connor has a personality that might not be a great fit for everyone, I could totally imagine working with him productively. Furthermore, making a claim about how and when to hire usually requires a lot of context and depends on many factors, most of which an outsider probably can't judge.   \n**Given that you state early on that you are an experienced member of the alignment community and your post suggests that you did rigorous research to back up these claims, I think people will put a lot of weight on this post and it does not feel like you use your power responsibly here**.   \nI can very well imagine a less experienced person who is currently looking for positions in the alignment space to go away from this post thinking \"well, I shouldn't apply to Conjecture then\" and that feels unjustified to me.  \n  \n2\\. **Output so far:** My understanding of Conjecture's research agenda so far was roughly: \"They started with Polytopes as a big project and published it eventually. On reflection, they were unhappy with the speed and quality of their work (as stated in their reflection post) and decided to change their research strategy. Every two weeks or so, they started a new research sprint in search of a really promising agenda. Then, they wrote up their results in a preliminary report and continued with another project if their findings weren't sufficiently promising.\" In most of their public posts, they stated, that these are preliminary findings and should be treated with caution, etc. Therefore, I think it's unfair to say that most of their posts do not meet the bar of a conference publication because that wasn't the intended goal.   \n**Furthermore, I think it's actually really good that the alignment field is willing to break academic norms and publish preliminary findings**. Usually, this makes it much easier to engage with and criticize work earlier and thus improves overall output quality.   \n**On a meta-level, I think it's bad to criticize labs that do hits-based research approaches for their early output (I also think this applies to your critique of Redwood) because the entire point is that you don't find a lot until you hit**. These kinds of critiques make it more likely that people follow small incremental research agendas and alignment just becomes academia 2.0. When you make a critique like that, at least acknowledge that hits-based research might be the right approach.  \n  \n3\\. **Your statements about the VCs seem unjustified to me.** How do you know they are not aligned? How do you know they wouldn't support Conjecture doing mostly safety work? How do you know what the VCs were promised in their private conversations with the Conjecture leadership team? Have you talked to the VCs or asked them for a statement?   \nOf course, you're free to speculate from the outside but my understanding is that Conjecture actually managed to choose fairly aligned investors who do understand the mission of solving catastrophic risks. I haven't talked to the VCs either, but I've at least asked people who work(ed) at Conjecture.   \n  \n**In conclusion:**  \n1\\. I think writing critiques is good but really hard without insider knowledge and context.   \n2\\. I think this piece will actually (partially) misinform a large part of the community. You can see this already in the comments where people without context say this is a good piece and thanking you for \"all the insights\".  \n3\\. The EA/LW community seems to be very eager to value critiques highly and for good reason. But whenever people use critiques to spread (partially) misleading information, they should be called out.   \n4\\. That being said, I think your critique is partially warranted and things could have gone a lot better at Conjecture. It's just important to distinguish between \"could have gone a lot better\" and \"we recommend not to work for Conjecture\" or adding some half-truths to the warranted critiques.  \n5\\. I think your post on Redwood was better but suffered from some of the same problems. Especially the fact that you criticize them for having not enough tangible output when following a hits-based agenda just seems counterproductive to me.",
+      "plaintextDescription": "(cross-commented from EA forum)\n\nI personally have no stake in defending Conjecture (In fact, I have some questions about the CoEm agenda) but I do think there are a couple of points that feel misleading or wrong to me in your critique. \n\n1. Confidence (meta point): I do not understand where the confidence with which you write the post (or at least how I read it) comes from. I've never worked at Conjecture (and presumably you didn't either) but even I can see that some of your critique is outdated or feels like a misrepresentation of their work to me (see below). For example, making recommendations such as \"freezing the hiring of all junior people\" or \"alignment people should not join Conjecture\" require an extremely high bar of evidence in my opinion. I think it is totally reasonable for people who believe in the CoEm agenda to join Conjecture and while Connor has a personality that might not be a great fit for everyone, I could totally imagine working with him productively. Furthermore, making a claim about how and when to hire usually requires a lot of context and depends on many factors, most of which an outsider probably can't judge. \nGiven that you state early on that you are an experienced member of the alignment community and your post suggests that you did rigorous research to back up these claims, I think people will put a lot of weight on this post and it does not feel like you use your power responsibly here. \nI can very well imagine a less experienced person who is currently looking for positions in the alignment space to go away from this post thinking \"well, I shouldn't apply to Conjecture then\" and that feels unjustified to me.\n\n2. Output so far: My understanding of Conjecture's research agenda so far was roughly: \"They started with Polytopes as a big project and published it eventually. On reflection, they were unhappy with the speed and quality of their work (as stated in their reflection post) and decided to change their research strategy. Every t"
+    },
+    "baseScore": 100,
+    "voteCount": 50,
+    "createdAt": null,
+    "postedAt": "2023-06-12T10:14:53.257Z",
+    "af": false
+  },
+  {
+    "_id": "dineAQGMo5TKnY7Hp",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": "hrM9D8G6fkGhJC7ue",
+    "topLevelCommentId": "hrM9D8G6fkGhJC7ue",
+    "contents": {
+      "markdown": "Clarified the text:   \n  \n**Update (early April 2023):** I now think the timelines in this post are too long and expect the world to get crazy faster than described here. For example, I expect many of the things suggested for 2030-2040 to already happen before 2030. Concretely, in my median world, the CEO of a large multinational company like Google is an AI. This might not be the case legally but effectively an AI makes most major decisions.  \n  \nNot sure if this is \"Nice!\" xD. In fact, it seems pretty worrying.",
+      "plaintextDescription": "Clarified the text: \n\nUpdate (early April 2023): I now think the timelines in this post are too long and expect the world to get crazy faster than described here. For example, I expect many of the things suggested for 2030-2040 to already happen before 2030. Concretely, in my median world, the CEO of a large multinational company like Google is an AI. This might not be the case legally but effectively an AI makes most major decisions.\n\nNot sure if this is \"Nice!\" xD. In fact, it seems pretty worrying. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-03T10:07:28.266Z",
+    "af": false
+  },
+  {
+    "_id": "zo83woqqj2Kpfihnw",
+    "postId": "eJ8xrMeWMqQHEN2vm",
+    "parentCommentId": "isHpSHPRLk84Jxb7H",
+    "topLevelCommentId": "vJDe5Eo6kcCCdJGTH",
+    "contents": {
+      "markdown": "So far, I haven't looked into it in detail and I'm only reciting other people's testimonials. I intend to dive deeper into these fields soon. I'll let you know when I have a better understanding.",
+      "plaintextDescription": "So far, I haven't looked into it in detail and I'm only reciting other people's testimonials. I intend to dive deeper into these fields soon. I'll let you know when I have a better understanding.  "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-26T09:18:21.270Z",
+    "af": false
+  },
+  {
+    "_id": "vJDe5Eo6kcCCdJGTH",
+    "postId": "eJ8xrMeWMqQHEN2vm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with the overall conclusion that the burden of proof should be on the side of the AGI companies.   \n  \nHowever, using the FDA as a reference or example might not be so great because it has historically gotten the cost-benefit trade-offs wrong many times and e.g. not permitting medicine that was comparatively safe and highly effective.   \n  \nSo if the association of AIS evals or is similar to the FDA, we might not make too many friends. Overall, I think it would be fine if the AIS auditing community is seen as generally cautious but it should not give the impression of not updating on relevant evidence, etc.   \n  \nIf I were to choose a model or reference class for AI auditing, I would probably choose the aviation industry which seems to be pretty competent and well-regarded.",
+      "plaintextDescription": "I agree with the overall conclusion that the burden of proof should be on the side of the AGI companies. \n\nHowever, using the FDA as a reference or example might not be so great because it has historically gotten the cost-benefit trade-offs wrong many times and e.g. not permitting medicine that was comparatively safe and highly effective. \n\nSo if the association of AIS evals or is similar to the FDA, we might not make too many friends. Overall, I think it would be fine if the AIS auditing community is seen as generally cautious but it should not give the impression of not updating on relevant evidence, etc. \n\nIf I were to choose a model or reference class for AI auditing, I would probably choose the aviation industry which seems to be pretty competent and well-regarded. "
+    },
+    "baseScore": 11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-04-25T19:11:08.895Z",
+    "af": false
+  },
+  {
+    "_id": "6hkdjhjTKfpKZcxn3",
+    "postId": "iDNEjbdHhjzvLLAmm",
+    "parentCommentId": "7jRfo2xmY7DvmZsDr",
+    "topLevelCommentId": "7jRfo2xmY7DvmZsDr",
+    "contents": {
+      "markdown": "People could choose how they want to publish their opinion. In this case, Richard chose the first name basis. To be fair though, there aren't that many Richards in the alignment community and it probably won't be very hard for you to find out who Richard is.",
+      "plaintextDescription": "People could choose how they want to publish their opinion. In this case, Richard chose the first name basis. To be fair though, there aren't that many Richards in the alignment community and it probably won't be very hard for you to find out who Richard is. "
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-23T15:02:53.069Z",
+    "af": false
+  },
+  {
+    "_id": "hLnL7W68NQTdiuoi2",
+    "postId": "iDNEjbdHhjzvLLAmm",
+    "parentCommentId": "A5aen5b74xy2878qs",
+    "topLevelCommentId": "A5aen5b74xy2878qs",
+    "contents": {
+      "markdown": "Just to get some intuitions.   \n  \nAssume you had a tool that basically allows to you explain the entire network, every circuit and mechanism, etc. The tool spits out explanations that are easy to understand and easy to connect to specific parts of the network, e.g. attention head x is doing y. Would you publish this tool to the entire world or keep it private or semi-private for a while?",
+      "plaintextDescription": "Just to get some intuitions. \n\nAssume you had a tool that basically allows to you explain the entire network, every circuit and mechanism, etc. The tool spits out explanations that are easy to understand and easy to connect to specific parts of the network, e.g. attention head x is doing y. Would you publish this tool to the entire world or keep it private or semi-private for a while? "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-21T20:18:56.627Z",
+    "af": false
+  },
+  {
+    "_id": "47dswBBhTaDhr5sow",
+    "postId": "NpJkFLBJEq7JQt7oy",
+    "parentCommentId": "va8Ekvhuk2uqx9arp",
+    "topLevelCommentId": "va8Ekvhuk2uqx9arp",
+    "contents": {
+      "markdown": "Thank you!  \n  \nI also agree that toy models are better than nothing and we should start with them but I moved away from \"if we understand how toy models do optimization, we understand much more about how GPT-4 does optimization\".   \n  \nI have a bunch of project ideas on how small models do optimization. I even trained the networks already. I just haven't found the time to interpret them yet. I'm happy for someone to take over the project if they want to. I'm mainly looking for evidence against the outlined hypothesis, i.e. maybe small toy models actually do fairly general optimization. Would def. update my beliefs.   \n  \nI'd be super interested in falsifiable predictions about what these general-purpose modules look like. Or maybe even just more concrete intuitions, e.g. what kind of general-purpose modules you would expect GPT-3 to have. I'm currently very uncertain about this.   \n  \nI agree with your final framing.",
+      "plaintextDescription": "Thank you!\n\nI also agree that toy models are better than nothing and we should start with them but I moved away from \"if we understand how toy models do optimization, we understand much more about how GPT-4 does optimization\". \n\nI have a bunch of project ideas on how small models do optimization. I even trained the networks already. I just haven't found the time to interpret them yet. I'm happy for someone to take over the project if they want to. I'm mainly looking for evidence against the outlined hypothesis, i.e. maybe small toy models actually do fairly general optimization. Would def. update my beliefs. \n\nI'd be super interested in falsifiable predictions about what these general-purpose modules look like. Or maybe even just more concrete intuitions, e.g. what kind of general-purpose modules you would expect GPT-3 to have. I'm currently very uncertain about this. \n\nI agree with your final framing. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-31T20:51:03.492Z",
+    "af": false
+  },
+  {
+    "_id": "jrfuAnHLwnNGYBg7h",
+    "postId": "NpJkFLBJEq7JQt7oy",
+    "parentCommentId": "rdf3BwhWxA3Nk4Phy",
+    "topLevelCommentId": "rdf3BwhWxA3Nk4Phy",
+    "contents": {
+      "markdown": "How confident are you that the model is literally doing gradient descent from these papers? My understanding was that the evidence in these papers is not very conclusive and I treated it more as an initial hypothesis than an actual finding.   \n  \nEven if you have the redundancy at every layer, you are still running copies of the same layer, right? Intuitively I would say this is not likely to be more space-efficient than not copying a layer and doing something else but I'm very uncertain about this argument.   \n  \nI intend to look into the Knapsack + DP algorithm problem at some point. If I were to find that the model implements the DP algorithm, it would change my view on mesa optimization quite a bit.",
+      "plaintextDescription": "How confident are you that the model is literally doing gradient descent from these papers? My understanding was that the evidence in these papers is not very conclusive and I treated it more as an initial hypothesis than an actual finding. \n\nEven if you have the redundancy at every layer, you are still running copies of the same layer, right? Intuitively I would say this is not likely to be more space-efficient than not copying a layer and doing something else but I'm very uncertain about this argument. \n\nI intend to look into the Knapsack + DP algorithm problem at some point. If I were to find that the model implements the DP algorithm, it would change my view on mesa optimization quite a bit. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-22T08:40:48.967Z",
+    "af": false
+  },
+  {
+    "_id": "J7kqvviHXC64YruvB",
+    "postId": "yZb5eFvDoaqB337X5",
+    "parentCommentId": "hWinKeJucYYBKJfZj",
+    "topLevelCommentId": "hWinKeJucYYBKJfZj",
+    "contents": {
+      "markdown": "No plans so far. I'm a little unhappy with the experimental design from last time. If I ever come back to this, I'll change the experiments up anyways. ",
+      "plaintextDescription": "No plans so far. I'm a little unhappy with the experimental design from last time. If I ever come back to this, I'll change the experiments up anyways."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-04T09:52:01.029Z",
+    "af": false
+  },
+  {
+    "_id": "zd7ve7YWgbwYd4n67",
+    "postId": "ngEvKav9w57XrGQnb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Could you elaborate a bit more about the strategic assumptions of the agenda? For example,  \n1\\. Do you think your system is competitive with end-to-end Deep Learning approaches?  \n1.1. Assuming the answer is yes, do you expect CoEm to be preferable to users?  \n1.2. Assuming the answer is now, how do you expect it to get traction? Is the path through lawmakers understanding the alignment problem and banning everything that is end-to-end and doesn't have the benefits of CoEm?   \n2\\. Do you think this is clearly the best possible path for everyone to take right now or more like \"someone should do this, we are the best-placed organization to do this\"?   \n  \nPS: Kudos to publishing the agenda and opening up yourself to external feedback.",
+      "plaintextDescription": "Could you elaborate a bit more about the strategic assumptions of the agenda? For example,\n1. Do you think your system is competitive with end-to-end Deep Learning approaches?\n1.1. Assuming the answer is yes, do you expect CoEm to be preferable to users?\n1.2. Assuming the answer is now, how do you expect it to get traction? Is the path through lawmakers understanding the alignment problem and banning everything that is end-to-end and doesn't have the benefits of CoEm? \n2. Do you think this is clearly the best possible path for everyone to take right now or more like \"someone should do this, we are the best-placed organization to do this\"? \n\nPS: Kudos to publishing the agenda and opening up yourself to external feedback. "
+    },
+    "baseScore": 33,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2023-02-27T15:59:17.034Z",
+    "af": false
+  },
+  {
+    "_id": "yLEXbHMjxaXbXL64e",
+    "postId": "pHPmMGEMYefk9jLeh",
+    "parentCommentId": "mWiPWtJwrpxniSkBT",
+    "topLevelCommentId": "sv9hzGnw6hePoykNT",
+    "contents": {
+      "markdown": "fair. You convinced me that the effect is more determined by layer-norm than cross-entropy.",
+      "plaintextDescription": "fair. You convinced me that the effect is more determined by layer-norm than cross-entropy."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-13T21:52:36.743Z",
+    "af": false
+  },
+  {
+    "_id": "ZpJRnGzR4B9spaZzk",
+    "postId": "pHPmMGEMYefk9jLeh",
+    "parentCommentId": "sv9hzGnw6hePoykNT",
+    "topLevelCommentId": "sv9hzGnw6hePoykNT",
+    "contents": {
+      "markdown": "I agree that the layer norm does some work here but I think some parts of the explanation can be attributed to the inductive bias of the cross-entropy loss. I have been playing around with small toy transformers without layer norm and they show roughly similar behavior as described in this post (I ran different experiments, so I'm not confident in this claim).   \n  \nMy intuition was roughly:  \n\\- the softmax doesn't care about absolute size, only about the relative differences of the logits.  \n\\- thus, the network merely has to make the correct logits really big and the incorrect logits small  \n\\- to get the logits, you take the inner product of the activations and the unembedding. The more aligned the directions of the correct class with the corresponding unembedding weights are (i.e. the smaller their cosine similarity), the bigger the logits.  \n\\- Thus, direction matters more than distance.   \n  \nLayernorm seems to even further reduce the effect of distance but I think the core inductive bias comes from the cross-entropy loss.",
+      "plaintextDescription": "I agree that the layer norm does some work here but I think some parts of the explanation can be attributed to the inductive bias of the cross-entropy loss. I have been playing around with small toy transformers without layer norm and they show roughly similar behavior as described in this post (I ran different experiments, so I'm not confident in this claim). \n\nMy intuition was roughly:\n- the softmax doesn't care about absolute size, only about the relative differences of the logits.\n- thus, the network merely has to make the correct logits really big and the incorrect logits small\n- to get the logits, you take the inner product of the activations and the unembedding. The more aligned the directions of the correct class with the corresponding unembedding weights are (i.e. the smaller their cosine similarity), the bigger the logits.\n- Thus, direction matters more than distance. \n\nLayernorm seems to even further reduce the effect of distance but I think the core inductive bias comes from the cross-entropy loss. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-13T21:19:02.822Z",
+    "af": false
+  },
+  {
+    "_id": "nbFhe3cH9kEbYGtqX",
+    "postId": "KzwB4ovzrZ8DYWgpw",
+    "parentCommentId": "STbvLJqkCbpM9kRpS",
+    "topLevelCommentId": "STbvLJqkCbpM9kRpS",
+    "contents": {
+      "markdown": "I don't think there is a general answer here. But here are a couple of considerations:  \n\\- networks can get stuck in local optima, so if you initialize it to memorize, it might never find a general solution.  \n\\- grokking has shown that with high weight regularization, networks can transition from memorized to general solutions, so it is possible to move from one to the other.  \n\\- it probably depends a bit on how exactly you initialize the memorized solution. You can represent lookup tables in different ways and some are much more liked by NNs than others. For example, I found that networks really don't like it if you set the weights to one-hot vectors such that one input only maps to one feature.  \n\\- My prediction for empirical experiments here would be something like \"it might work in some cases but not be clearly better in the general case. It will also depend on a lot of annoying factors like weight decay and learning rate and the exact way you build the dictionary\".",
+      "plaintextDescription": "I don't think there is a general answer here. But here are a couple of considerations:\n- networks can get stuck in local optima, so if you initialize it to memorize, it might never find a general solution.\n- grokking has shown that with high weight regularization, networks can transition from memorized to general solutions, so it is possible to move from one to the other.\n- it probably depends a bit on how exactly you initialize the memorized solution. You can represent lookup tables in different ways and some are much more liked by NNs than others. For example, I found that networks really don't like it if you set the weights to one-hot vectors such that one input only maps to one feature.\n- My prediction for empirical experiments here would be something like \"it might work in some cases but not be clearly better in the general case. It will also depend on a lot of annoying factors like weight decay and learning rate and the exact way you build the dictionary\". "
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-02-06T18:50:30.137Z",
+    "af": true
+  },
+  {
+    "_id": "7kPNywGtyCycvtjHh",
+    "postId": "w2TAEvME2yAG9MHeq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with everything you're saying. I just want to note that as soon as someone starts training networks in a way where not all weights are updated simultaneously, e.g. because the weights are updated only for specific parts of the network, or when the network has an external memory that is not changed every training step, gradient hacking seems immediately much more likely and much scarier.   \n  \nAnd there are probably hundreds of researchers out there working on modular networks with memory, so it probably won't take that long until we have models that plausibly have the capabilities to do gradient hacking. Whether they actually do it is a totally different question but it would be much easier to create a story of how the networks would gradient hack.",
+      "plaintextDescription": "I agree with everything you're saying. I just want to note that as soon as someone starts training networks in a way where not all weights are updated simultaneously, e.g. because the weights are updated only for specific parts of the network, or when the network has an external memory that is not changed every training step, gradient hacking seems immediately much more likely and much scarier. \n\nAnd there are probably hundreds of researchers out there working on modular networks with memory, so it probably won't take that long until we have models that plausibly have the capabilities to do gradient hacking. Whether they actually do it is a totally different question but it would be much easier to create a story of how the networks would gradient hack. "
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-01-26T05:23:39.024Z",
+    "af": false
+  },
+  {
+    "_id": "HSZFqmfcK8G9s9Rzh",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "BRvhH2zSpKiLwDLYA",
+    "topLevelCommentId": "BRvhH2zSpKiLwDLYA",
+    "contents": {
+      "markdown": "This criticism has been made for the last 40 years and people have usually had new ideas and were able to execute them. Thus, on priors, we think this trend will continue even if we don't know exactly which kind of ideas they will be.   \n  \nIn fact, due to our post, we were made aware of a couple of interesting ideas about chip improvements that we hadn't considered before that might change the outcome of our predictions (towards later limits) but we haven't included them in the model yet.",
+      "plaintextDescription": "This criticism has been made for the last 40 years and people have usually had new ideas and were able to execute them. Thus, on priors, we think this trend will continue even if we don't know exactly which kind of ideas they will be. \n\nIn fact, due to our post, we were made aware of a couple of interesting ideas about chip improvements that we hadn't considered before that might change the outcome of our predictions (towards later limits) but we haven't included them in the model yet. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-01-03T08:15:38.539Z",
+    "af": false
+  },
+  {
+    "_id": "G6ucvvdRg3ATCmpsh",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": "oY9rxAjgjLrMrX8oc",
+    "topLevelCommentId": "iCbo7gzQQHdHcCzHJ",
+    "contents": {
+      "markdown": "Hmmm interesting.   \n  \nCan you provide some of your reasons or intuitions for this fast FOOM?  \n  \nMy intuition against it is mostly like \"intelligence just seems to be compute bound and thus extremely fast takeoffs (hours to weeks) are unlikely\". But I feel very uncertain about this take and would like to refine it. So just understanding your intuitions better would probably already help a lot.",
+      "plaintextDescription": "Hmmm interesting. \n\nCan you provide some of your reasons or intuitions for this fast FOOM?\n\nMy intuition against it is mostly like \"intelligence just seems to be compute bound and thus extremely fast takeoffs (hours to weeks) are unlikely\". But I feel very uncertain about this take and would like to refine it. So just understanding your intuitions better would probably already help a lot. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-21T22:19:28.726Z",
+    "af": false
+  },
+  {
+    "_id": "XGemZmrGGF5RpdRmm",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": "iCbo7gzQQHdHcCzHJ",
+    "topLevelCommentId": "iCbo7gzQQHdHcCzHJ",
+    "contents": {
+      "markdown": "I think it's mostly my skepticism about extremely fast economic transformations.   \n  \nLike GPT-3 could probably automate more parts of the economy today but somehow it just takes a while for people to understand that and get it to work in practice. I also expect that it will take a couple of years between showing the capabilities of new AI systems in the lab and widespread economic impact just because humans take a while to adapt (at least with narrow systems).   \n  \nAt some point (maybe in 2030) we will reach a level where AI is as capable as humans in many tasks and then the question is obviously how fast it can self-improve.  I'm skeptical that it is possible to self-improve as fast as the classic singularity story would suggest. In my mind, you mostly need more compute for training, new training data, new task design, etc. I think it will take some time for the AI to come up with all of that and even then, exponential demands just have their limits. Maybe the AI can get 100x compute and train a new model but getting 10000x compute probably won't happen immediately (at least in my mind; arguments for or against are welcome).   \n  \nLastly, I wrote a story about my median scenario. I do have lots of uncertainty about how the TAI distribution should look like (see [here](https://www.lesswrong.com/posts/Q3fesop6HKnemJ5Jc/disagreement-with-bio-anchors-that-lead-to-shorter-timelines)) but my mode is at 2032-2035 (i.e. earlier than my median). So I could have also written a story with faster developments and it would reflect a slightly different corner of my probability distribution. But due to the reasons above, it would mostly look like a slightly faster version of this story.   \n  \nAnd your scenario is within the space of scenarios that I think could happen, I just think it's less likely than a less accelerationist, slower transition. But obviously not very confident in this prediction.",
+      "plaintextDescription": "I think it's mostly my skepticism about extremely fast economic transformations. \n\nLike GPT-3 could probably automate more parts of the economy today but somehow it just takes a while for people to understand that and get it to work in practice. I also expect that it will take a couple of years between showing the capabilities of new AI systems in the lab and widespread economic impact just because humans take a while to adapt (at least with narrow systems). \n\nAt some point (maybe in 2030) we will reach a level where AI is as capable as humans in many tasks and then the question is obviously how fast it can self-improve.  I'm skeptical that it is possible to self-improve as fast as the classic singularity story would suggest. In my mind, you mostly need more compute for training, new training data, new task design, etc. I think it will take some time for the AI to come up with all of that and even then, exponential demands just have their limits. Maybe the AI can get 100x compute and train a new model but getting 10000x compute probably won't happen immediately (at least in my mind; arguments for or against are welcome). \n\nLastly, I wrote a story about my median scenario. I do have lots of uncertainty about how the TAI distribution should look like (see here) but my mode is at 2032-2035 (i.e. earlier than my median). So I could have also written a story with faster developments and it would reflect a slightly different corner of my probability distribution. But due to the reasons above, it would mostly look like a slightly faster version of this story. \n\nAnd your scenario is within the space of scenarios that I think could happen, I just think it's less likely than a less accelerationist, slower transition. But obviously not very confident in this prediction.\n "
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2022-12-21T15:24:25.717Z",
+    "af": false
+  },
+  {
+    "_id": "Z5PHwpX4FwXDaGuci",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": "72Dw9rpjd3jpvpqxs",
+    "topLevelCommentId": "Jrf8dsbDH4vCNrPys",
+    "contents": {
+      "markdown": "Well maybe. I still think it's easier to build AGI than to understand the brain, so even the smartest narrow AIs might not be able to build a consistent theory before someone else builds AGI.",
+      "plaintextDescription": "Well maybe. I still think it's easier to build AGI than to understand the brain, so even the smartest narrow AIs might not be able to build a consistent theory before someone else builds AGI. "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-12-16T12:19:10.485Z",
+    "af": false
+  },
+  {
+    "_id": "ZYRghTzkCeiZHXmt3",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": "Jrf8dsbDH4vCNrPys",
+    "topLevelCommentId": "Jrf8dsbDH4vCNrPys",
+    "contents": {
+      "markdown": "I'm not very bullish on HMI. I think the progress humanity makes in understanding the brain is extremely slow and because it's so hard to do research on the brain, I don't expect us to get much faster.   \n  \nBasically, I expect humanity to build AGI way before we are even close to understanding the brain.",
+      "plaintextDescription": "I'm not very bullish on HMI. I think the progress humanity makes in understanding the brain is extremely slow and because it's so hard to do research on the brain, I don't expect us to get much faster. \n\nBasically, I expect humanity to build AGI way before we are even close to understanding the brain. "
+    },
+    "baseScore": 7,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2022-12-16T08:44:07.005Z",
+    "af": false
+  },
+  {
+    "_id": "rf4CBY6vFFmH4irsT",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": "nBWnMHZLJLkxaTaMZ",
+    "topLevelCommentId": "fbtJ2xgyWv6dbtwnK",
+    "contents": {
+      "markdown": "I know your reasoning and I think it's a plausible possibility. I'd be interested in how the disruption of AI into society looks like in your scenario.   \n  \nIs it more like one or a few companies have AGIs but the rest of the world is still kinda normal or is it roughly like my story just 2x as fast?",
+      "plaintextDescription": "I know your reasoning and I think it's a plausible possibility. I'd be interested in how the disruption of AI into society looks like in your scenario. \n\nIs it more like one or a few companies have AGIs but the rest of the world is still kinda normal or is it roughly like my story just 2x as fast?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-15T21:52:50.283Z",
+    "af": false
+  },
+  {
+    "_id": "LCkMKioFo8tLQJgHh",
+    "postId": "qRtD4WqKRYEtT5pi3",
+    "parentCommentId": "6E5PRRKY2xHtKBZoa",
+    "topLevelCommentId": "fbtJ2xgyWv6dbtwnK",
+    "contents": {
+      "markdown": "Thanks for pointing this out. I made a clarification in the text.   \n  \nSimilar to Daniel, I'd also be interested in what public opinion was at the time or what the consensus view among experts was if there was one.   \n  \nAlso, it seems like the timeframe for mobile phones is 1993 to 2020 if you can trust [this statistic](https://www.statista.com/statistics/262950/global-mobile-subscriptions-since-1993/).",
+      "plaintextDescription": "Thanks for pointing this out. I made a clarification in the text. \n\nSimilar to Daniel, I'd also be interested in what public opinion was at the time or what the consensus view among experts was if there was one. \n\nAlso, it seems like the timeframe for mobile phones is 1993 to 2020 if you can trust this statistic."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-15T21:25:28.128Z",
+    "af": false
+  },
+  {
+    "_id": "wPDRCzFXSxpfzPGrc",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "GAasAWsczfSjPfdcD",
+    "topLevelCommentId": "u7DhkbGjgfGuT6EiM",
+    "contents": {
+      "markdown": "Definitely could be but don't have to be. We looked a bit into cooling and heat and did not find any clear consensus on the issue.",
+      "plaintextDescription": "Definitely could be but don't have to be. We looked a bit into cooling and heat and did not find any clear consensus on the issue. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-12-15T18:02:25.830Z",
+    "af": false
+  },
+  {
+    "_id": "MP996Puh2uyKsbcwg",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "LibH3g8HpwoAso2dc",
+    "topLevelCommentId": "LibH3g8HpwoAso2dc",
+    "contents": {
+      "markdown": "We did consider modeling it explicitly. However, most estimates on the Landauer limit give very similar predictions as size limits. So we decided against making an explicit addition to the model and it is \"implicitly\" modeled in the physical size. We intend to look into Landauer's limit at some point but it's not a high priority right now.",
+      "plaintextDescription": "We did consider modeling it explicitly. However, most estimates on the Landauer limit give very similar predictions as size limits. So we decided against making an explicit addition to the model and it is \"implicitly\" modeled in the physical size. We intend to look into Landauer's limit at some point but it's not a high priority right now. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-12-15T17:02:56.982Z",
+    "af": false
+  },
+  {
+    "_id": "drmedqqpPWCPrM6RT",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "u7DhkbGjgfGuT6EiM",
+    "topLevelCommentId": "u7DhkbGjgfGuT6EiM",
+    "contents": {
+      "markdown": "We originally wanted to forecast FLOP/s/$ instead of just FLOP/s but we found it hard to make estimates about price developments. We might look into this in the future.",
+      "plaintextDescription": "We originally wanted to forecast FLOP/s/$ instead of just FLOP/s but we found it hard to make estimates about price developments. We might look into this in the future. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-15T11:05:01.800Z",
+    "af": false
+  },
+  {
+    "_id": "4fku78SCafk5SdZCP",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "C4rTBLjsZG6PjAoQB",
+    "topLevelCommentId": "C4rTBLjsZG6PjAoQB",
+    "contents": {
+      "markdown": "Well, depending on who you ask, you'll get numbers between 1e13 and 1e18 for the human brain FLOP/s equivalent. So I think there is lots of uncertainty about it.   \n  \nHowever, I do agree that if it was at 1e16, your reasoning sounds plausible to me. What a wild imagination.",
+      "plaintextDescription": "Well, depending on who you ask, you'll get numbers between 1e13 and 1e18 for the human brain FLOP/s equivalent. So I think there is lots of uncertainty about it. \n\nHowever, I do agree that if it was at 1e16, your reasoning sounds plausible to me. What a wild imagination. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-12-15T11:03:34.320Z",
+    "af": false
+  },
+  {
+    "_id": "P9scwHDSZDD3u6JkS",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "pmGYJvLThRhFhd2C2",
+    "topLevelCommentId": "pmGYJvLThRhFhd2C2",
+    "contents": {
+      "markdown": "Yeah, I also expect that there are some ways of compensating for the lack of miniaturization with other tech. I don't think progress will literally come to a halt.",
+      "plaintextDescription": "Yeah, I also expect that there are some ways of compensating for the lack of miniaturization with other tech. I don't think progress will literally come to a halt. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-12-15T11:01:38.600Z",
+    "af": false
+  },
+  {
+    "_id": "QzDrBtvXKF4Jetpdb",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "oJcrFfoWhJ7MsFuFP",
+    "topLevelCommentId": "oJcrFfoWhJ7MsFuFP",
+    "contents": {
+      "markdown": "We looked more into this because we wanted to get a better understanding of Ajeya's estimate of price-performance doubling every 2.5 years. Originally, some people I talked to were skeptical and thought that 2.5 years is too conservative. I now think that 2.5 years is probably insufficiently conservative in the long run.   \n  \nHowever, I also want to note that there are still reasons to believe a doubling time of 2 years or less could be realistic due to progress in specialization or other breakthroughs. I still have large uncertainty about the doubling time but my median estimate got a bit more conservative.   \n  \nWe have not incorporated this particular estimate into the bio anchor's model. Mostly, because the model is a prediction about a particular type of GPU and I think it will be modified or replaced once miniaturization is no longer an option. So, I don't expect progress to entirely stop in the next decade, just slow down a bit.   \n  \nBut lots of open questions all over the place.",
+      "plaintextDescription": "We looked more into this because we wanted to get a better understanding of Ajeya's estimate of price-performance doubling every 2.5 years. Originally, some people I talked to were skeptical and thought that 2.5 years is too conservative. I now think that 2.5 years is probably insufficiently conservative in the long run. \n\nHowever, I also want to note that there are still reasons to believe a doubling time of 2 years or less could be realistic due to progress in specialization or other breakthroughs. I still have large uncertainty about the doubling time but my median estimate got a bit more conservative. \n\nWe have not incorporated this particular estimate into the bio anchor's model. Mostly, because the model is a prediction about a particular type of GPU and I think it will be modified or replaced once miniaturization is no longer an option. So, I don't expect progress to entirely stop in the next decade, just slow down a bit. \n\nBut lots of open questions all over the place. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-15T11:00:12.899Z",
+    "af": false
+  },
+  {
+    "_id": "nPFGBnZagFEd9vxFT",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "zMCRjJf9tzJDmNKjJ",
+    "topLevelCommentId": "y5TZ2aZm5thJadAt9",
+    "contents": {
+      "markdown": "By uncertainty I mean, I really don't know, i.e. I could imagine both very high and very low gains. I didn't want to express that I'm skeptical.   \n  \nFor the third paragraph, I guess it depends on what you think of as specialized hardware. If you think GPUs are specialized hardware than a gain of 1000x from CPUs to GPUs sounds very plausible to me. If you think GPUs are the baseline and specialized hardware are e.g. TPUs, then a 1000x gain sounds implausible to me.   \n  \nMy original answers wasn't that clear. Does this make more sense to you?",
+      "plaintextDescription": "By uncertainty I mean, I really don't know, i.e. I could imagine both very high and very low gains. I didn't want to express that I'm skeptical. \n\nFor the third paragraph, I guess it depends on what you think of as specialized hardware. If you think GPUs are specialized hardware than a gain of 1000x from CPUs to GPUs sounds very plausible to me. If you think GPUs are the baseline and specialized hardware are e.g. TPUs, then a 1000x gain sounds implausible to me. \n\nMy original answers wasn't that clear. Does this make more sense to you?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-15T10:54:29.887Z",
+    "af": false
+  },
+  {
+    "_id": "abEmwh9A3Hsjyrx2k",
+    "postId": "vnvGhfikBbrjZHMuD",
+    "parentCommentId": "y5TZ2aZm5thJadAt9",
+    "topLevelCommentId": "y5TZ2aZm5thJadAt9",
+    "contents": {
+      "markdown": "As a follow-up to building the model, I was looking into specialized AI hardware and I have to say that I'm very uncertain about the claimed efficiency gains. There are some parts of the AI training pipeline that could be improved with specialized hardware but others seem to be pretty close to their limits.   \n  \nWe intend to understand this better and publish a piece in the future but it's currently not high on the priority list.   \n  \nAlso, when compared to CPUs, it's no wonder that any parallelized hardware is 1000x more efficient. So it really depends on what the exact comparison is that the authors used.",
+      "plaintextDescription": "As a follow-up to building the model, I was looking into specialized AI hardware and I have to say that I'm very uncertain about the claimed efficiency gains. There are some parts of the AI training pipeline that could be improved with specialized hardware but others seem to be pretty close to their limits. \n\nWe intend to understand this better and publish a piece in the future but it's currently not high on the priority list. \n\nAlso, when compared to CPUs, it's no wonder that any parallelized hardware is 1000x more efficient. So it really depends on what the exact comparison is that the authors used. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-14T22:26:10.572Z",
+    "af": false
+  },
+  {
+    "_id": "T8CwFjiAGp6LMP9wa",
+    "postId": "EjX63wQoMSoCHMrmY",
+    "parentCommentId": "Gb7MfZeJdWyrYudQv",
+    "topLevelCommentId": "Gb7MfZeJdWyrYudQv",
+    "contents": {
+      "markdown": "Just send in a new application. We have a couple of new mentors but they are quite busy at the moment so I can't promise that we'll find a match soon :( Sorry for that",
+      "plaintextDescription": "Just send in a new application. We have a couple of new mentors but they are quite busy at the moment so I can't promise that we'll find a match soon :( Sorry for that "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-14T22:20:14.052Z",
+    "af": false
+  },
+  {
+    "_id": "eSsbozvm7TARm6mXb",
+    "postId": "GbXAeq6smRzmYRSQg",
+    "parentCommentId": "ANEXi4BxogEvszg5q",
+    "topLevelCommentId": "sTijWtoSsEDo4rrKm",
+    "contents": {
+      "markdown": "thanks for clarifying",
+      "plaintextDescription": "thanks for clarifying"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-12-05T21:33:28.555Z",
+    "af": false
+  },
+  {
+    "_id": "sTijWtoSsEDo4rrKm",
+    "postId": "GbXAeq6smRzmYRSQg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm not sure I actually understand the distinction between forecasting and foresight. For me, most of the problems you describe sound either like forecasting questions or AI strategy questions that rely on some forecast.   \n  \nYour two arguments for why foresight is different than forecasting are   \na) some people think forecasting means only long-term predictions and some people think it means only short-term predictions.   \nMy understanding of forecasting is that it is not time-dependent, e.g. I can make forecasts about an hour from now or for a million years from now. This is also how I perceive the EA /AGI-risk community to use that term.  \n  \nb) foresight looks at the cone of outcomes, not just one.   \nMy understanding of forecasting is that you would optimally want to predict a distribution of outcomes, i.e. the cone but weighted with probabilities. This seems strictly better than predicting the cone without probabilities since probabilities allow you to prioritize between scenarios.   \n  \nI understand some of the problems you describe, e.g. that people might be missing parts of the distribution when they make predictions and they should spread them wider but I think you can describe these problems entirely within the forecasting language and there is no need to introduce a new term.   \n  \nLMK if I understood the article and your concerns correctly :)",
+      "plaintextDescription": "I'm not sure I actually understand the distinction between forecasting and foresight. For me, most of the problems you describe sound either like forecasting questions or AI strategy questions that rely on some forecast. \n\nYour two arguments for why foresight is different than forecasting are \na) some people think forecasting means only long-term predictions and some people think it means only short-term predictions. \nMy understanding of forecasting is that it is not time-dependent, e.g. I can make forecasts about an hour from now or for a million years from now. This is also how I perceive the EA /AGI-risk community to use that term.\n\nb) foresight looks at the cone of outcomes, not just one. \nMy understanding of forecasting is that you would optimally want to predict a distribution of outcomes, i.e. the cone but weighted with probabilities. This seems strictly better than predicting the cone without probabilities since probabilities allow you to prioritize between scenarios. \n\nI understand some of the problems you describe, e.g. that people might be missing parts of the distribution when they make predictions and they should spread them wider but I think you can describe these problems entirely within the forecasting language and there is no need to introduce a new term. \n\nLMK if I understood the article and your concerns correctly :)"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-12-05T18:25:27.566Z",
+    "af": false
+  },
+  {
+    "_id": "HZhRDGPWdmyoPsrTu",
+    "postId": "jJApGWG95495pYM7C",
+    "parentCommentId": "MfCyHAdw9zHJcXBuX",
+    "topLevelCommentId": "MfCyHAdw9zHJcXBuX",
+    "contents": {
+      "markdown": "I have not tested it since then. I think there were multiple projects that tried to improve profilers for PyTorch. I don't know how they went.",
+      "plaintextDescription": "I have not tested it since then. I think there were multiple projects that tried to improve profilers for PyTorch. I don't know how they went."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-12-02T18:40:09.643Z",
+    "af": false
+  },
+  {
+    "_id": "2XAkZujjsY2krsf9h",
+    "postId": "EjX63wQoMSoCHMrmY",
+    "parentCommentId": "8rQtFmLXRFysCDW43",
+    "topLevelCommentId": "8rQtFmLXRFysCDW43",
+    "contents": {
+      "markdown": "If it's easier for you, we can already facilitate that through M&M. Like we said, as long as both parties agree, you can do whatever makes sense for you :) But the program might make finding other people easier.",
+      "plaintextDescription": "If it's easier for you, we can already facilitate that through M&M. Like we said, as long as both parties agree, you can do whatever makes sense for you :) But the program might make finding other people easier."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-24T07:48:28.455Z",
+    "af": false
+  },
+  {
+    "_id": "59EhEWAyaR9mXCnqL",
+    "postId": "EjX63wQoMSoCHMrmY",
+    "parentCommentId": "GZLQKxGerA9Ay89Ai",
+    "topLevelCommentId": "GZLQKxGerA9Ay89Ai",
+    "contents": {
+      "markdown": "AI policy does count and we actively look for mentors in policy :)",
+      "plaintextDescription": "AI policy does count and we actively look for mentors in policy :)"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-11-23T20:02:18.869Z",
+    "af": false
+  },
+  {
+    "_id": "iicJMri9ntZMP2Yas",
+    "postId": "Q3fesop6HKnemJ5Jc",
+    "parentCommentId": "uqGMD6RnfJzwPctFC",
+    "topLevelCommentId": "uqGMD6RnfJzwPctFC",
+    "contents": {
+      "markdown": "I'm honestly not even sure whether this comment is in support of or against my disagreements.   \n  \nI'm skeptical of the \"recursive self-improvement leads to enormous gains in intelligence over days\" story but I support the \"more automation leads to faster R&D leads to more automation, etc.\" story which is also a form of recursive self-improvement-just over the span of years rather than days.",
+      "plaintextDescription": "I'm honestly not even sure whether this comment is in support of or against my disagreements. \n\nI'm skeptical of the \"recursive self-improvement leads to enormous gains in intelligence over days\" story but I support the \"more automation leads to faster R&D leads to more automation, etc.\" story which is also a form of recursive self-improvement-just over the span of years rather than days. "
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-11-17T07:05:08.356Z",
+    "af": false
+  },
+  {
+    "_id": "NErBt4WkFLSBPB7A6",
+    "postId": "Q3fesop6HKnemJ5Jc",
+    "parentCommentId": "doK6cWuydmxmgane6",
+    "topLevelCommentId": "doK6cWuydmxmgane6",
+    "contents": {
+      "markdown": "I think dangerous doesn't have to imply that it can replicate itself. Doing zero-shot shenanigans on the stock market causing a recession and then being turned off also counts as dangerous in my books.",
+      "plaintextDescription": "I think dangerous doesn't have to imply that it can replicate itself. Doing zero-shot shenanigans on the stock market causing a recession and then being turned off also counts as dangerous in my books. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-17T07:02:45.088Z",
+    "af": false
+  },
+  {
+    "_id": "kC5dG7Za7AcyTqdKC",
+    "postId": "kpmaEevZ2KehZo2tp",
+    "parentCommentId": "8gAL7iDSjtYDyv2Sn",
+    "topLevelCommentId": "8gAL7iDSjtYDyv2Sn",
+    "contents": {
+      "markdown": "Updated the slack link. Thanks for spotting it.",
+      "plaintextDescription": "Updated the slack link. Thanks for spotting it. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-11T09:47:49.075Z",
+    "af": false
+  },
+  {
+    "_id": "hhWBNQ4xTxdfjJuhD",
+    "postId": "bumgqvRjTadFFkoAd",
+    "parentCommentId": "RkLzpWWv2FDQduo3q",
+    "topLevelCommentId": "RkLzpWWv2FDQduo3q",
+    "contents": {
+      "markdown": "I'm not certain about it either but I'm less skeptical. However, I agree with you that some of this could be capabilities work and has to be treated with caution.   \n  \nHowever, I think to answer some of the important questions around Deep Learning, e.g. which concepts they learn and under which conditions, we just need to get a better understanding of the entire pipeline. I think it's plausible that this is very hard and progress is much slower than one would hope.",
+      "plaintextDescription": "I'm not certain about it either but I'm less skeptical. However, I agree with you that some of this could be capabilities work and has to be treated with caution. \n\nHowever, I think to answer some of the important questions around Deep Learning, e.g. which concepts they learn and under which conditions, we just need to get a better understanding of the entire pipeline. I think it's plausible that this is very hard and progress is much slower than one would hope. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-10-20T06:24:28.438Z",
+    "af": false
+  },
+  {
+    "_id": "gAH3ZEKuPMdDyTnnk",
+    "postId": "6ReBeYwsDeNgv6Dr5",
+    "parentCommentId": "pPgdHgGu2xBgaCzhB",
+    "topLevelCommentId": "pPgdHgGu2xBgaCzhB",
+    "contents": {
+      "markdown": "Just to be clear, I also think that your grokking work increases alignment much more than capabilities on balance.   \n  \nI think the way in which it increases capabilities would roughly look like this: \"your insight on grokking is a key to understanding fast generalization better; other people build on this insight and then modify training; this improves the speed of learning and thus capabilities\".   \n  \nI think your work is clearly net positive, I just wanted to use a concrete example in the post to show that there are trade-offs worth taking.",
+      "plaintextDescription": "Just to be clear, I also think that your grokking work increases alignment much more than capabilities on balance. \n\nI think the way in which it increases capabilities would roughly look like this: \"your insight on grokking is a key to understanding fast generalization better; other people build on this insight and then modify training; this improves the speed of learning and thus capabilities\". \n\nI think your work is clearly net positive, I just wanted to use a concrete example in the post to show that there are trade-offs worth taking. "
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-10-12T09:33:43.143Z",
+    "af": false
+  },
+  {
+    "_id": "8HNgi6HftgjBWKmCv",
+    "postId": "SqjQFhn5KTarfW8v7",
+    "parentCommentId": "svQwgHFBwCxd4vEez",
+    "topLevelCommentId": "svQwgHFBwCxd4vEez",
+    "contents": {
+      "markdown": "Maybe I should have stated this differently in the post. Many conversations end up talking about X-risks at some point but usually only after it went through the other stuff. I think my main learning was just that starting with X-risk as the motivation did not seem very convincing.\n\nAlso, there is a big difference in how you talk about X-risk. You could say stuff like \"there are plausible arguments why X-risk could lead to extinction but even experts are highly uncertain about this\" or \"We're all gonna die\" and the more moderate version seems clearly more persuasive.",
+      "plaintextDescription": "Maybe I should have stated this differently in the post. Many conversations end up talking about X-risks at some point but usually only after it went through the other stuff. I think my main learning was just that starting with X-risk as the motivation did not seem very convincing.\n\nAlso, there is a big difference in how you talk about X-risk. You could say stuff like \"there are plausible arguments why X-risk could lead to extinction but even experts are highly uncertain about this\" or \"We're all gonna die\" and the more moderate version seems clearly more persuasive. "
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2022-10-11T07:50:08.571Z",
+    "af": false
+  },
+  {
+    "_id": "d4nE8i2EsAk6c8mKc",
+    "postId": "SqjQFhn5KTarfW8v7",
+    "parentCommentId": "rkJwAYmqMKirLs84S",
+    "topLevelCommentId": "rkJwAYmqMKirLs84S",
+    "contents": {
+      "markdown": "I don't think these conversations had as much impact as you suggest and I think most of the stuff funded by EA funders has decent EV, i.e. I have more trust in the funding process than you seem to have.    \n  \nI think one nice side-effect of this is that I'm now widely known as \"the AI safety guy\" in parts of the European AIS community and some people have just randomly dropped me a message or started a conversation about it because they were curious.  \n  \nI was working on different grants in the past but this particular work was not funded.",
+      "plaintextDescription": "I don't think these conversations had as much impact as you suggest and I think most of the stuff funded by EA funders has decent EV, i.e. I have more trust in the funding process than you seem to have.  \n\nI think one nice side-effect of this is that I'm now widely known as \"the AI safety guy\" in parts of the European AIS community and some people have just randomly dropped me a message or started a conversation about it because they were curious.\n\nI was working on different grants in the past but this particular work was not funded. "
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2022-10-11T07:46:31.632Z",
+    "af": false
+  },
+  {
+    "_id": "FGNikG86bCocCgK9i",
+    "postId": "SqjQFhn5KTarfW8v7",
+    "parentCommentId": "SKA96pn8ZzJs4cmqp",
+    "topLevelCommentId": "SKA96pn8ZzJs4cmqp",
+    "contents": {
+      "markdown": "I think taking safety seriously was strongly correlated with whether or not they believed AI will be transformative in the near-term (as opposed to being just another hype cycle). But not sure. My sample is too small to make any general inferences.",
+      "plaintextDescription": "I think taking safety seriously was strongly correlated with whether or not they believed AI will be transformative in the near-term (as opposed to being just another hype cycle). But not sure. My sample is too small to make any general inferences. "
+    },
+    "baseScore": 10,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2022-10-10T19:35:52.744Z",
+    "af": false
+  },
+  {
+    "_id": "4TSmbqwP4HdmYzLzj",
+    "postId": "SqjQFhn5KTarfW8v7",
+    "parentCommentId": "My5w457oKpSqpwTnk",
+    "topLevelCommentId": "My5w457oKpSqpwTnk",
+    "contents": {
+      "markdown": "This seems to be what [https://www.adept.ai/act](https://www.adept.ai/act) is working on if I understood their website correctly. They probably don't have a million users yet though so I agree that it is not accurate at the moment.   \n  \nAlso, [https://openai.com/blog/webgpt/](https://openai.com/blog/webgpt/) is an LLM with access to the internet, right?   \n  \nBut yeah, probably an overstatement.",
+      "plaintextDescription": "This seems to be what https://www.adept.ai/act is working on if I understood their website correctly. They probably don't have a million users yet though so I agree that it is not accurate at the moment. \n\nAlso, https://openai.com/blog/webgpt/ is an LLM with access to the internet, right? \n\nBut yeah, probably an overstatement. "
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2022-10-10T17:23:11.018Z",
+    "af": false
+  },
+  {
+    "_id": "EsyJW7GTeneF5th3J",
+    "postId": "SqjQFhn5KTarfW8v7",
+    "parentCommentId": "RipcCzhCTXG2LT4TE",
+    "topLevelCommentId": "RipcCzhCTXG2LT4TE",
+    "contents": {
+      "markdown": "Firstly, I don't think the term matters that much. Whether you use AGI safety,  AI safety, ML safety, etc. doesn't seem to have as much of an effect compared to the actual arguments you make during the conversation (at least that was my impression).   \n  \nSecondly, I don't say you should never talk about x-risk. I mostly say you shouldn't start with it. Many of my conversations ended up in discussions of X-risk but only after 30 minutes of back and forth.",
+      "plaintextDescription": "Firstly, I don't think the term matters that much. Whether you use AGI safety,  AI safety, ML safety, etc. doesn't seem to have as much of an effect compared to the actual arguments you make during the conversation (at least that was my impression). \n\nSecondly, I don't say you should never talk about x-risk. I mostly say you shouldn't start with it. Many of my conversations ended up in discussions of X-risk but only after 30 minutes of back and forth. "
+    },
+    "baseScore": 8,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2022-10-10T17:20:11.532Z",
+    "af": false
+  },
+  {
+    "_id": "QDfwzahkwpzrJqpTk",
+    "postId": "SqjQFhn5KTarfW8v7",
+    "parentCommentId": "w7qEEDFHtPKjjT2Gx",
+    "topLevelCommentId": "w7qEEDFHtPKjjT2Gx",
+    "contents": {
+      "markdown": "Not really. You can point out that this is your reasoning but whenever you talk about short timelines you can bet that most people will think you're crazy. To be fair, even most people in the alignment community are more confident that 2040 will exist than not, so this is even a controversial statement within AI safety.",
+      "plaintextDescription": "Not really. You can point out that this is your reasoning but whenever you talk about short timelines you can bet that most people will think you're crazy. To be fair, even most people in the alignment community are more confident that 2040 will exist than not, so this is even a controversial statement within AI safety. "
+    },
+    "baseScore": 12,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2022-10-10T15:01:44.337Z",
+    "af": false
+  },
+  {
+    "_id": "yukMwL3pPfaDhHypp",
+    "postId": "jusq6kyZ6XSrtW3Bf",
+    "parentCommentId": "m6wEnhhqjA4Kmzq2M",
+    "topLevelCommentId": "m6wEnhhqjA4Kmzq2M",
+    "contents": {
+      "markdown": "Thanks for all the clarifications and the notebook. I'll definitely play around with this :)",
+      "plaintextDescription": "Thanks for all the clarifications and the notebook. I'll definitely play around with this :) "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-10-07T06:19:09.873Z",
+    "af": false
+  },
+  {
+    "_id": "9grqjqxac5EkjxpEQ",
+    "postId": "i3pkxN43NgkLRaAGZ",
+    "parentCommentId": "ueaLkMdoBjxiiq7v6",
+    "topLevelCommentId": "ueaLkMdoBjxiiq7v6",
+    "contents": {
+      "markdown": "Yeah, our impression was that a) there is a large body of literature that is relevant and related in the existing social science literature, and b) taking 90% of the existing setup and adding AI would probably already yield lots of interesting studies. In general, it seems like there is a lot of room for people interested in the intersection of AI+ethics+social sciences.  \n  \nAlso, Positly+Guidedtrack makes running these studies really simple and turned out to be much smoother than I would have expected. So even when people without a social science background \"just want to get a rough understanding what the rest of the world thinks\" they can quickly do so with the existing tools.",
+      "plaintextDescription": "Yeah, our impression was that a) there is a large body of literature that is relevant and related in the existing social science literature, and b) taking 90% of the existing setup and adding AI would probably already yield lots of interesting studies. In general, it seems like there is a lot of room for people interested in the intersection of AI+ethics+social sciences.\n\nAlso, Positly+Guidedtrack makes running these studies really simple and turned out to be much smoother than I would have expected. So even when people without a social science background \"just want to get a rough understanding what the rest of the world thinks\" they can quickly do so with the existing tools. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-10-05T14:58:28.223Z",
+    "af": false
+  },
+  {
+    "_id": "xuzqwv8kmkYvMhM2v",
+    "postId": "jusq6kyZ6XSrtW3Bf",
+    "parentCommentId": "Xkua4gd7ednA8rrnk",
+    "topLevelCommentId": "Xkua4gd7ednA8rrnk",
+    "contents": {
+      "markdown": "I think this is very similar to the hypothesis they have as well. But not sure if I understood it correctly, I think some parts of the paper are not as clear as they could be",
+      "plaintextDescription": "I think this is very similar to the hypothesis they have as well. But not sure if I understood it correctly, I think some parts of the paper are not as clear as they could be"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-10-04T10:54:46.030Z",
+    "af": false
+  },
+  {
+    "_id": "fBx4mcAgrxWa7XsLA",
+    "postId": "c6KFvQcZggQKZzxr9",
+    "parentCommentId": "iaaLLBtmAWmh62PDQ",
+    "topLevelCommentId": "iaaLLBtmAWmh62PDQ",
+    "contents": {
+      "markdown": "Update: it's published now and you can find it here: https://chip-dataset.vercel.app/",
+      "plaintextDescription": "Update: it's published now and you can find it here: https://chip-dataset.vercel.app/"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-10-01T09:10:08.706Z",
+    "af": false
+  },
+  {
+    "_id": "u6kj8fFohiYcywAqx",
+    "postId": "rgh4tdNrQyJYXyNs8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for the post. I'm voting for the SGD inductive biases for the next one.",
+      "plaintextDescription": "Thanks for the post. I'm voting for the SGD inductive biases for the next one."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-09-29T13:43:01.547Z",
+    "af": false
+  },
+  {
+    "_id": "sD7mL5Xh3vBMiR6u2",
+    "postId": "oBFMbhQMt9HkmfF6d",
+    "parentCommentId": "ftAppeXxkJMBAQkh8",
+    "topLevelCommentId": "ftAppeXxkJMBAQkh8",
+    "contents": {
+      "markdown": "That's fair. I think my statement as presented is much stronger than I intended it to be. I'll add some updates/clarifications at the top of the post later.\n\nThanks for the feedback!",
+      "plaintextDescription": "That's fair. I think my statement as presented is much stronger than I intended it to be. I'll add some updates/clarifications at the top of the post later.\n\nThanks for the feedback!"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-09-15T20:52:44.091Z",
+    "af": false
+  },
+  {
+    "_id": "2WbEd7RW6SnWo2EJf",
+    "postId": "oBFMbhQMt9HkmfF6d",
+    "parentCommentId": "WMfuiLLoKKCq92vHW",
+    "topLevelCommentId": "WMfuiLLoKKCq92vHW",
+    "contents": {
+      "markdown": "Thanks for the comment. It definitely pointed out some things that weren't clear in my post and head. Some comments:  \n1\\. I think your section on psychologizing is fairly accurate. I previously didn't spend a lot of time thinking about how my research would reduce the risks I care about and my theories of change were pretty vague. I plan to change that now.   \n2\\. I am aware of other failure modes such as fast takeoffs, capability gains in deployment, getting what we measure, etc. However, I feel like all of these scenarios get much worse/harder when deception is at play, e.g. fast takeoffs are worse when they are unnoticed and getting what we measure likely leads to worse outcomes if it is hidden. I would really think of them as orthogonal, e.g. getting what we measure could happen in a deceptive or non-deceptive way. But I'm not sure this is a correct framing.  \n3\\. It is correct that my definition of deception is inconsistent throughout the article. Thanks for pointing this out. I think it is somewhere between \"It's bad if something happens in powerful AIs that we don't understand\" to \"It's bad if there is an active adversary trying to deceive us\". I'll need to think about this for longer.  \n4\\. Unknown unknowns are a problem. I think my claim as presented in the post is stronger than iI originally intended. However, I think the usefulness of foundational research such as yours comes to a large extent from the fact that it increases our understanding of an AI system in general which then allows us to prevent failure modes (many of which relate to deception).   \n  \nI'll try to update the post to reflect some of the discussion and my uncertainty better.  Thanks for the feedback.",
+      "plaintextDescription": "Thanks for the comment. It definitely pointed out some things that weren't clear in my post and head. Some comments:\n1. I think your section on psychologizing is fairly accurate. I previously didn't spend a lot of time thinking about how my research would reduce the risks I care about and my theories of change were pretty vague. I plan to change that now. \n2. I am aware of other failure modes such as fast takeoffs, capability gains in deployment, getting what we measure, etc. However, I feel like all of these scenarios get much worse/harder when deception is at play, e.g. fast takeoffs are worse when they are unnoticed and getting what we measure likely leads to worse outcomes if it is hidden. I would really think of them as orthogonal, e.g. getting what we measure could happen in a deceptive or non-deceptive way. But I'm not sure this is a correct framing.\n3. It is correct that my definition of deception is inconsistent throughout the article. Thanks for pointing this out. I think it is somewhere between \"It's bad if something happens in powerful AIs that we don't understand\" to \"It's bad if there is an active adversary trying to deceive us\". I'll need to think about this for longer.\n4. Unknown unknowns are a problem. I think my claim as presented in the post is stronger than iI originally intended. However, I think the usefulness of foundational research such as yours comes to a large extent from the fact that it increases our understanding of an AI system in general which then allows us to prevent failure modes (many of which relate to deception). \n\nI'll try to update the post to reflect some of the discussion and my uncertainty better.  Thanks for the feedback. "
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2022-09-15T20:49:31.100Z",
+    "af": false
+  },
+  {
+    "_id": "3AoAjPqmFgqsfdEM4",
+    "postId": "oBFMbhQMt9HkmfF6d",
+    "parentCommentId": "DDcBm4SjyAT2HfcGj",
+    "topLevelCommentId": "DDcBm4SjyAT2HfcGj",
+    "contents": {
+      "markdown": "Thanks for the clarifications. They helped me :)",
+      "plaintextDescription": "Thanks for the clarifications. They helped me :)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-09-15T16:03:06.714Z",
+    "af": false
+  },
+  {
+    "_id": "zTFzhJf6ktTMeLnqe",
+    "postId": "pmhcZiv32FqSgckEE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think the main difference is that it has access to all of the user's computers (or at least browsers), right? This should imply way more opportunities for malicious actions, right?",
+      "plaintextDescription": "I think the main difference is that it has access to all of the user's computers (or at least browsers), right? This should imply way more opportunities for malicious actions, right? "
+    },
+    "baseScore": 15,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2022-09-14T20:36:25.796Z",
+    "af": false
+  },
+  {
+    "_id": "zccQZAaPkWKkxr39r",
+    "postId": "yZb5eFvDoaqB337X5",
+    "parentCommentId": "LoJoxGx8TYsjJ5XDE",
+    "topLevelCommentId": "LoJoxGx8TYsjJ5XDE",
+    "contents": {
+      "markdown": "Yeah, the phrasing might not be as precise as we intended it to be.",
+      "plaintextDescription": "Yeah, the phrasing might not be as precise as we intended it to be. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-09-07T10:23:36.560Z",
+    "af": false
+  }
+]

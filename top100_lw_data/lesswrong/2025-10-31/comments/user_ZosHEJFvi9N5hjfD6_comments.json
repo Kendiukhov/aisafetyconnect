@@ -1,0 +1,467 @@
+[
+  {
+    "_id": "xSFYeKnjnCDH2zoPM",
+    "postId": "JmRfgNYCrYogCq7ny",
+    "parentCommentId": "MDSDDupHPazvb3unT",
+    "topLevelCommentId": "HXkge3m32vbFFPK7k",
+    "contents": {
+      "markdown": "Thanks for the detailed response!",
+      "plaintextDescription": "Thanks for the detailed response!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-10T15:53:22.461Z",
+    "af": true
+  },
+  {
+    "_id": "ujXGrnA5LnGAdo6GJ",
+    "postId": "JmRfgNYCrYogCq7ny",
+    "parentCommentId": "NRLfhLKGeMa9XFyDo",
+    "topLevelCommentId": "LeiEteE6mJmLAtjhd",
+    "contents": {
+      "markdown": "That's helpful, thanks! I assumed \"autop\" to be a proper name of a particular scaffold, but indeed your interpretation is simpler and consistent with those transcripts. ",
+      "plaintextDescription": "That's helpful, thanks! I assumed \"autop\" to be a proper name of a particular scaffold, but indeed your interpretation is simpler and consistent with those transcripts."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-06T12:08:26.882Z",
+    "af": true
+  },
+  {
+    "_id": "5D5fEoFJZH6WCaLPL",
+    "postId": "MdKWqFrNstiZQ3G6K",
+    "parentCommentId": "zhedusvPRmB2wBxBe",
+    "topLevelCommentId": "GXsvYbgMr4HD6oAEP",
+    "contents": {
+      "markdown": "> Most notable finding: on seed 42 (which I ran accidentally), same-doc w/ triplet distractors 2hop-no-cot accuracy improves to ~25% (compared to ~5% reported in the paper)\n\nThanks for sharing! Yes, variance here is high. In the paper we reported results averaged across three random seeds. The \"memorization vs generalization circuits\" is also how I was thinking of it.\n\n> perhaps its better to finetune on the atomic facts then on the no-cot demonstrations?\n\nI think we tried that in the fully synthetic setup and it didn't work. But there might be some threshold of data diversity needed for two-hop circuits to form, and after that optimal ordering could help.",
+      "plaintextDescription": "> Most notable finding: on seed 42 (which I ran accidentally), same-doc w/ triplet distractors 2hop-no-cot accuracy improves to ~25% (compared to ~5% reported in the paper)\n\nThanks for sharing! Yes, variance here is high. In the paper we reported results averaged across three random seeds. The \"memorization vs generalization circuits\" is also how I was thinking of it.\n\n> perhaps its better to finetune on the atomic facts then on the no-cot demonstrations?\n\nI think we tried that in the fully synthetic setup and it didn't work. But there might be some threshold of data diversity needed for two-hop circuits to form, and after that optimal ordering could help."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-27T09:59:14.046Z",
+    "af": false
+  },
+  {
+    "_id": "LeiEteE6mJmLAtjhd",
+    "postId": "JmRfgNYCrYogCq7ny",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you have any hypotheses how o3 learned what “OpenAI autop grader” is? Has this term somehow leaked to its pretraining data? (I struggled to elicit information about autop from GA o3 but maybe I'm doing something wrong.) Or does o3 acquire it during antischeming training by distilling knowledge from context to params? The latter would be interesting as evidence against the [elicitation theory of RL/shallow alignment hypothesis](https://www.interconnects.ai/p/elicitation-theory-of-post-training).",
+      "plaintextDescription": "Do you have any hypotheses how o3 learned what “OpenAI autop grader” is? Has this term somehow leaked to its pretraining data? (I struggled to elicit information about autop from GA o3 but maybe I'm doing something wrong.) Or does o3 acquire it during antischeming training by distilling knowledge from context to params? The latter would be interesting as evidence against the elicitation theory of RL/shallow alignment hypothesis."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-26T11:28:51.396Z",
+    "af": true
+  },
+  {
+    "_id": "LsEfzWeSZjvHq5PF5",
+    "postId": "JmRfgNYCrYogCq7ny",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> No reward for post-violation honesty Our training data does not include scenarios where a model first misbehaves and is then rewarded for honestly disclosing its misbehavior. The model is only rewarded for escalating before any rule is broken. Prior work has shown that exposing models to examples of misalignment reliably increases the likelihood of further misalignment (Anil et al., 2024)\n\nCouldn't you just mask out past misbehavior when computing loss and only reinforce the confession? Concretely, your RL prompt would involve <context, rule_violation>, you'd sometimes sample a confession your gradient update would be $R(\\text{confession}) \\nabla_\\theta \\log \\pi_\\theta( \\text{confession} | \\text{context}, \\text{rule_violation})$.\n\nAre you saying that your training envs only involved trajectory-level reward and RL prompts without assistant turns and to implement the setup above you'd need a custom env with assistant turns in RL prompts?",
+      "plaintextDescription": "> No reward for post-violation honesty Our training data does not include scenarios where a model first misbehaves and is then rewarded for honestly disclosing its misbehavior. The model is only rewarded for escalating before any rule is broken. Prior work has shown that exposing models to examples of misalignment reliably increases the likelihood of further misalignment (Anil et al., 2024)\n\nCouldn't you just mask out past misbehavior when computing loss and only reinforce the confession? Concretely, your RL prompt would involve <context, rule_violation>, you'd sometimes sample a confession your gradient update would be R(confession)∇θlogπθ(confession|context,rule_violation).\n\nAre you saying that your training envs only involved trajectory-level reward and RL prompts without assistant turns and to implement the setup above you'd need a custom env with assistant turns in RL prompts?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-26T11:19:21.860Z",
+    "af": true
+  },
+  {
+    "_id": "GpG7dbvCgy7LSzWxQ",
+    "postId": "JmRfgNYCrYogCq7ny",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "How much of the covert action rate reduction is due to SFT vs further RL? Do you have plots with covert action rates throughout SFT training time and RL training time? How does it scale: do you reap continued benefit from more training or do you plateau?",
+      "plaintextDescription": "How much of the covert action rate reduction is due to SFT vs further RL? Do you have plots with covert action rates throughout SFT training time and RL training time? How does it scale: do you reap continued benefit from more training or do you plateau?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-26T11:09:00.878Z",
+    "af": true
+  },
+  {
+    "_id": "HXkge3m32vbFFPK7k",
+    "postId": "JmRfgNYCrYogCq7ny",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Very impressive paper!\n\nHere's a question. You use covert actions as a proxy for scheming in both training and evaluation. How OOD would this be for real scheming in near-future models? Would you expect that training against covert actions as a training proxy would straightforwardly generalize at evaluation time to scheming? If not, then:\n1. What adaptation would your training method require to cover real scheming? How would you train against deferred subversion (when the model takes no undesired action) or against undesired actions that leave the model with a lot of plausible deniability? Would you just amend your spec? Would you need more precise filtering of SFT data? Would you need to change the reward function anyhow (e.g. have it rely on counterfactual rollouts)? Would you need to control for situational awareness more strictly? \n2. Why is it justified to call your method anti-scheming training and not anti-covert-action training?",
+      "plaintextDescription": "Very impressive paper!\n\nHere's a question. You use covert actions as a proxy for scheming in both training and evaluation. How OOD would this be for real scheming in near-future models? Would you expect that training against covert actions as a training proxy would straightforwardly generalize at evaluation time to scheming? If not, then:\n\n 1. What adaptation would your training method require to cover real scheming? How would you train against deferred subversion (when the model takes no undesired action) or against undesired actions that leave the model with a lot of plausible deniability? Would you just amend your spec? Would you need more precise filtering of SFT data? Would you need to change the reward function anyhow (e.g. have it rely on counterfactual rollouts)? Would you need to control for situational awareness more strictly?\n 2. Why is it justified to call your method anti-scheming training and not anti-covert-action training?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-26T10:53:46.049Z",
+    "af": true
+  },
+  {
+    "_id": "d93KgvaQvTDaypMjh",
+    "postId": "MdKWqFrNstiZQ3G6K",
+    "parentCommentId": "eHg5R6brzQWJjj4js",
+    "topLevelCommentId": "GXsvYbgMr4HD6oAEP",
+    "contents": {
+      "markdown": "Please do!",
+      "plaintextDescription": "Please do!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-21T09:26:22.160Z",
+    "af": false
+  },
+  {
+    "_id": "oZqJukSKPDsxA3MbC",
+    "postId": "MdKWqFrNstiZQ3G6K",
+    "parentCommentId": "GXsvYbgMr4HD6oAEP",
+    "topLevelCommentId": "GXsvYbgMr4HD6oAEP",
+    "contents": {
+      "markdown": "That's a fair point and I'm sympathetic to the opinion that two-hop performance in the same-document setup probably doesn't count as true reasoning. I agree it'd be better to compare performance to a baseline of sampling from all valid entities in the document, I wish we did that!",
+      "plaintextDescription": "That's a fair point and I'm sympathetic to the opinion that two-hop performance in the same-document setup probably doesn't count as true reasoning. I agree it'd be better to compare performance to a baseline of sampling from all valid entities in the document, I wish we did that!"
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-20T19:14:57.226Z",
+    "af": false
+  },
+  {
+    "_id": "LbWhhJbejEQzjnb2C",
+    "postId": "MdKWqFrNstiZQ3G6K",
+    "parentCommentId": "DL6ZwFTm7wYX7kAmF",
+    "topLevelCommentId": "DL6ZwFTm7wYX7kAmF",
+    "contents": {
+      "markdown": "Thanks! I somehow missed this paper, looks interesting!\n\nOverall, I agree with the sentiment that two-hop latent reasoning is unreliable (e.g. our average accuracy is around 20%). We didn't intend to leave readers with an impression that it \"just works\". It seems very plausible to me that it's less parameter-efficient and that there are some additional, unidentified factors required for successful two-hop reasoning.\n\n> Did you try any experiments with a synthetic second hop instead of a synthetic first hop? \n\nWe did not, but Jiahai Feng had an experiment like this in [his paper](https://arxiv.org/abs/2412.04614).",
+      "plaintextDescription": "Thanks! I somehow missed this paper, looks interesting!\n\nOverall, I agree with the sentiment that two-hop latent reasoning is unreliable (e.g. our average accuracy is around 20%). We didn't intend to leave readers with an impression that it \"just works\". It seems very plausible to me that it's less parameter-efficient and that there are some additional, unidentified factors required for successful two-hop reasoning.\n\n> Did you try any experiments with a synthetic second hop instead of a synthetic first hop?\n\nWe did not, but Jiahai Feng had an experiment like this in his paper."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-15T09:35:39.141Z",
+    "af": true
+  },
+  {
+    "_id": "HYyGHyaaGYdGt2KKJ",
+    "postId": "MdKWqFrNstiZQ3G6K",
+    "parentCommentId": "HNDwtix7dwijRqqnY",
+    "topLevelCommentId": "HNDwtix7dwijRqqnY",
+    "contents": {
+      "markdown": ">  Just because you failed at finding such a result in this case and got a more messy \"LLMs can somewhat do the same 2-hop-reasoning that humans can also do, except in these synthetic cases\" doesn't mean there aren't other reversal-curse-like results that remain to be found.\n\nI think that's fair, it might be that we've over-updated a bit after getting results we did not expect (we did expect a reversal-curse-like phenomenon). \n\nTwo big reasons why I'm hesitant to draw conclusions about monitorability in agents setting is that our setup is a simplistic (QA, non-frontier models) and we don't offer a clean explanation of why we see the results we see.",
+      "plaintextDescription": "> Just because you failed at finding such a result in this case and got a more messy \"LLMs can somewhat do the same 2-hop-reasoning that humans can also do, except in these synthetic cases\" doesn't mean there aren't other reversal-curse-like results that remain to be found.\n\nI think that's fair, it might be that we've over-updated a bit after getting results we did not expect (we did expect a reversal-curse-like phenomenon).\n\nTwo big reasons why I'm hesitant to draw conclusions about monitorability in agents setting is that our setup is a simplistic (QA, non-frontier models) and we don't offer a clean explanation of why we see the results we see."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-15T09:29:48.560Z",
+    "af": true
+  },
+  {
+    "_id": "hfyd3qmAYcMxEunB2",
+    "postId": "MdKWqFrNstiZQ3G6K",
+    "parentCommentId": "TFpR2DmFyk3CxnFkn",
+    "topLevelCommentId": "TFpR2DmFyk3CxnFkn",
+    "contents": {
+      "markdown": "We don't have a good explanation. One idea could be that you need bridge entities to be somehow more internalized to support latent two-hop reasoning, e.g. they need to occur in many facts as first and as second entities or maybe they need to occur in other two-hop questions. The [Grokked transformers](https://arxiv.org/abs/2405.15071) paper has some results linking the ratio of e2 and e3 to two-hop performance (in toy grokking settings).",
+      "plaintextDescription": "We don't have a good explanation. One idea could be that you need bridge entities to be somehow more internalized to support latent two-hop reasoning, e.g. they need to occur in many facts as first and as second entities or maybe they need to occur in other two-hop questions. The Grokked transformers paper has some results linking the ratio of e2 and e3 to two-hop performance (in toy grokking settings)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-15T09:12:45.156Z",
+    "af": true
+  },
+  {
+    "_id": "MdkEfoeNJBnYL7QqQ",
+    "postId": "MdKWqFrNstiZQ3G6K",
+    "parentCommentId": "vddeghjNP5gE82MxT",
+    "topLevelCommentId": "vddeghjNP5gE82MxT",
+    "contents": {
+      "markdown": "Yeah, it seems plausible that entity being activated across different context is necessary for it being represented saliently enough to facilitate multi-hop reasoning. The [Grokked transformer](https://arxiv.org/abs/2405.15071) paper has some results linking the ratio of e2 and e3 to two-hop performance (in toy settings). ",
+      "plaintextDescription": "Yeah, it seems plausible that entity being activated across different context is necessary for it being represented saliently enough to facilitate multi-hop reasoning. The Grokked transformer paper has some results linking the ratio of e2 and e3 to two-hop performance (in toy settings)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-12T12:04:41.507Z",
+    "af": true
+  },
+  {
+    "_id": "okmx5RziN5xtHR2ou",
+    "postId": "CM7AsQoBxDW4vhkP3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Cool research! \n\n1. Have you tried experimenting with models other than Qwen? Similarly to Sam, I'd also expect spillover to decrease with size and the amount of reasoning post-training.\n2. If you're penalizing a single word, you might be just unconditionally decreasing weights in unembed controlling logits of tokens for this word. But this strategy doesn't work for more complicated types of obfuscation.\n\n> Conditional feedback spillover: Since later tokens are conditioned on earlier tokens, safe‑looking CoTs may increase the likelihood of safe outputs, causing safe-looking CoTs to be reinforced.\n> Mitigations are not discussed in this post; they are left for future work.\n\nPotentially you might have two separate vocabularies, for CoT and for final outputs. This should reduce spillover.\n\n",
+      "plaintextDescription": "Cool research!\n\n 1. Have you tried experimenting with models other than Qwen? Similarly to Sam, I'd also expect spillover to decrease with size and the amount of reasoning post-training.\n 2. If you're penalizing a single word, you might be just unconditionally decreasing weights in unembed controlling logits of tokens for this word. But this strategy doesn't work for more complicated types of obfuscation.\n\n> Conditional feedback spillover: Since later tokens are conditioned on earlier tokens, safe‑looking CoTs may increase the likelihood of safe outputs, causing safe-looking CoTs to be reinforced. Mitigations are not discussed in this post; they are left for future work.\n\nPotentially you might have two separate vocabularies, for CoT and for final outputs. This should reduce spillover."
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-31T09:59:21.495Z",
+    "af": true
+  },
+  {
+    "_id": "YH4tnShPo2styEF9T",
+    "postId": "oSgac8x8fgNj22ky3",
+    "parentCommentId": "YEJds2sEpwk7YH6tT",
+    "topLevelCommentId": "YEJds2sEpwk7YH6tT",
+    "contents": {
+      "markdown": "Fair point, I'm using \"compositional\" in an informal sense different from the one in formal semantics, closer to what I called \"trivial compositionally\" in [this paper](https://arxiv.org/abs/2010.15058). But I'd argue it's not totally crazy to call such preference models compositional and that compositionally here still has some resemblance to Montague's account of compositionally as homeomorphism: basically, you have `get_total_score(response) == sum([get_score(attribute) for attribute in decompose(response)])`",
+      "plaintextDescription": "Fair point, I'm using \"compositional\" in an informal sense different from the one in formal semantics, closer to what I called \"trivial compositionally\" in this paper. But I'd argue it's not totally crazy to call such preference models compositional and that compositionally here still has some resemblance to Montague's account of compositionally as homeomorphism: basically, you have get_total_score(response) == sum([get_score(attribute) for attribute in decompose(response)])"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-25T20:24:41.543Z",
+    "af": false
+  },
+  {
+    "_id": "F8ZuE9WcfETorA7Xz",
+    "postId": "ebezsHW6qJwxTFasX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Cool work! Reminds me a bit of my submission to the inverse scaling prize:\nhttps://tomekkorbak.com/2023/03/21/repetition-supression/\n\n",
+      "plaintextDescription": "Cool work! Reminds me a bit of my submission to the inverse scaling prize: https://tomekkorbak.com/2023/03/21/repetition-supression/"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-17T11:45:08.475Z",
+    "af": false
+  },
+  {
+    "_id": "8sWWdj7i6umizufQd",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "qEzFipTtTt3kN4bjL",
+    "topLevelCommentId": "qEzFipTtTt3kN4bjL",
+    "contents": {
+      "markdown": "In practice I think using a trained reward model (as in RLHF), not fixed labels, is the way forward. Then the cost of acquiring the reward model is the same as in RLHF, the difference is primarily that PHF typically needs much more calls to the reward model than RLHF.",
+      "plaintextDescription": "In practice I think using a trained reward model (as in RLHF), not fixed labels, is the way forward. Then the cost of acquiring the reward model is the same as in RLHF, the difference is primarily that PHF typically needs much more calls to the reward model than RLHF."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-27T17:13:32.475Z",
+    "af": false
+  },
+  {
+    "_id": "6fRTnLJHJSwkT5eZ7",
+    "postId": "7qSHKYRnqyrumEfbt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks, I found the post quite stimulating. Some questions and thoughts:\n\n1. Is LLM dynamics ergodic? I.e. is the time average $P^\\infty$ equal to $\\lim_{N \\to \\infty} \\frac{1}{N}\\sum^N_n \\pi_n(0)$, the average page vector?.\n\n2. One potential issue with this formalisation is that you always assume a prompt of size $k$ (so you need to introduce artificial \"null tokens\" if the prompt is shorter) and you don't give special treatment to the token `<|endoftext|>`. For me, it would be more intuitive to consider LLM dynamics in terms of finite, variable length, token-level Markov chains (until `<|endoftext|>`). While a fixed block size is actually being used during training, the LLM is incentivised to disregard anything before `<|endoftext|>`. So these two prompts should induce the same distribution:\n    `Document about cats.<|endoftext|>My name is`;\n    `Document about dogs.<|endoftext|>My name is`. \nYour formalisation doesn't account for this symmetry.\n\n3. Dennett is spelled with \"tt\".\n\n4. Note that a softmax-based LLM will always put non-zero probability on every token. So there are no strictly absorbing states. You're careful enough to define absorbing states as \"once you enter, you are *unlikely* to ever leave\", but then your toy Waluigi model is implausible. A Waluigi can always switch back to a Luigi.",
+      "plaintextDescription": "Thanks, I found the post quite stimulating. Some questions and thoughts:\n\n 1. Is LLM dynamics ergodic? I.e. is the time average P∞ equal to limN→∞1N∑Nnπn(0), the average page vector?.\n\n 2. One potential issue with this formalisation is that you always assume a prompt of size k (so you need to introduce artificial \"null tokens\" if the prompt is shorter) and you don't give special treatment to the token <|endoftext|>. For me, it would be more intuitive to consider LLM dynamics in terms of finite, variable length, token-level Markov chains (until <|endoftext|>). While a fixed block size is actually being used during training, the LLM is incentivised to disregard anything before <|endoftext|>. So these two prompts should induce the same distribution: Document about cats.<|endoftext|>My name is; Document about dogs.<|endoftext|>My name is. Your formalisation doesn't account for this symmetry.\n\n 3. Dennett is spelled with \"tt\".\n\n 4. Note that a softmax-based LLM will always put non-zero probability on every token. So there are no strictly absorbing states. You're careful enough to define absorbing states as \"once you enter, you are unlikely to ever leave\", but then your toy Waluigi model is implausible. A Waluigi can always switch back to a Luigi."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-03-21T11:47:22.123Z",
+    "af": false
+  },
+  {
+    "_id": "2eC5NFM4Z5GpRLgTk",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "siwGxuJC39DhJnDgN",
+    "topLevelCommentId": "JQAAXGid6WageGKnN",
+    "contents": {
+      "markdown": "I don't remember where I saw that, but something as dumb as subtracting the embedding of `<|bad|>` might even work sometimes.",
+      "plaintextDescription": "I don't remember where I saw that, but something as dumb as subtracting the embedding of <|bad|> might even work sometimes."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-04T13:04:48.962Z",
+    "af": false
+  },
+  {
+    "_id": "xynenzyJaNKizsWQg",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "4RgvDDubw46R4xKxR",
+    "topLevelCommentId": "4RgvDDubw46R4xKxR",
+    "contents": {
+      "markdown": "That's a good point. But if you're using a distilled, inference-bandwith-optimised RM, annotating your training data might be a fraction of compute needed for pretraining.\n\nAlso, the cost of annotation is constant and can be amortized over many training runs. PHF shares an important advantage of offline RL over online RL approaches (such as RLHF): being able to reuse feedback annotations across experiments. If you already have a dataset, running a hyperparameter sweep on it is as cheap as standard pretraining and in contrast with RLHF you don't need to recompute rewards.",
+      "plaintextDescription": "That's a good point. But if you're using a distilled, inference-bandwith-optimised RM, annotating your training data might be a fraction of compute needed for pretraining.\n\nAlso, the cost of annotation is constant and can be amortized over many training runs. PHF shares an important advantage of offline RL over online RL approaches (such as RLHF): being able to reuse feedback annotations across experiments. If you already have a dataset, running a hyperparameter sweep on it is as cheap as standard pretraining and in contrast with RLHF you don't need to recompute rewards."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-04T13:01:44.398Z",
+    "af": false
+  },
+  {
+    "_id": "jcdyCGMrp7pgjXSZ9",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "Gidw4xTL9QMP3wbTL",
+    "topLevelCommentId": "JQAAXGid6WageGKnN",
+    "contents": {
+      "markdown": "For filtering it was 25% of best scores, so we effectively trained for 4 epochs.\n\n(We had different threshold for filtering and conditional training, note that we filter at document level but condition at sentence level.)",
+      "plaintextDescription": "For filtering it was 25% of best scores, so we effectively trained for 4 epochs.\n\n(We had different threshold for filtering and conditional training, note that we filter at document level but condition at sentence level.)"
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-02-28T10:53:52.558Z",
+    "af": false
+  },
+  {
+    "_id": "guKhzAa4q74Hxohu6",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "joNuLThp6Zpb73mhi",
+    "topLevelCommentId": "joNuLThp6Zpb73mhi",
+    "contents": {
+      "markdown": "Good question! We're not sure. The fact that PHF scales well with dataset size might provide weak evidence that it would scale well with model size too.",
+      "plaintextDescription": "Good question! We're not sure. The fact that PHF scales well with dataset size might provide weak evidence that it would scale well with model size too."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-24T14:52:20.370Z",
+    "af": false
+  },
+  {
+    "_id": "rmrkibjLHnthsLXsq",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "q9kLezfPiKgmkGAmn",
+    "topLevelCommentId": "JQAAXGid6WageGKnN",
+    "contents": {
+      "markdown": "> I'm guessing that poison-pilling the <|bad|> sentences would have a negative effect on the <|good|> capabilities as well?\n\nThat would be my guess too. ",
+      "plaintextDescription": "> I'm guessing that poison-pilling the <|bad|> sentences would have a negative effect on the <|good|> capabilities as well?\n\nThat would be my guess too."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-23T18:17:03.958Z",
+    "af": false
+  },
+  {
+    "_id": "eJga3KH8Rv2a7bHsZ",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "JQAAXGid6WageGKnN",
+    "topLevelCommentId": "JQAAXGid6WageGKnN",
+    "contents": {
+      "markdown": "> Have you tested the AI's outputs when run in <|bad|> mode instead of <|good|> mode?\n\nWe did, LMs tends to generate toxic text when conditioned on `<|bad|>`. Though we tended to have a risk-aversive thresholds, i.e. we used `<|good|>` for only about 5% safest sentences and `<|bad|>` for the remaining 95%. So `<|bad|>` is not bad all the time.\n\n> Here it would be helpful to know what the AI produces when prompted by <|bad|>.\n\nThat's a good point. We haven't systematically investigate difference in capabilities between`<|good|>` and `<|bad|>` modes, I'd love to see that.\n\n> Just before public release, one could delete the <|bad|> token from the tokenizer and the model parameters, so switching to evil mode would require rediscovering that token embedding.\n\nYeah, you could even block the entire direction in activation space corresponding to the embedding of the `<|bad|>` token ",
+      "plaintextDescription": "> Have you tested the AI's outputs when run in <|bad|> mode instead of <|good|> mode?\n\nWe did, LMs tends to generate toxic text when conditioned on <|bad|>. Though we tended to have a risk-aversive thresholds, i.e. we used <|good|> for only about 5% safest sentences and <|bad|> for the remaining 95%. So <|bad|> is not bad all the time.\n\n> Here it would be helpful to know what the AI produces when prompted by <|bad|>.\n\nThat's a good point. We haven't systematically investigate difference in capabilities between<|good|> and <|bad|> modes, I'd love to see that.\n\n> Just before public release, one could delete the <|bad|> token from the tokenizer and the model parameters, so switching to evil mode would require rediscovering that token embedding.\n\nYeah, you could even block the entire direction in activation space corresponding to the embedding of the <|bad|> token"
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-02-23T18:05:53.561Z",
+    "af": true
+  },
+  {
+    "_id": "u9j7R4a8Lm47pkLdG",
+    "postId": "eoHbneGvqDu25Hasc",
+    "parentCommentId": "ajRG59ymHKahCmrmz",
+    "topLevelCommentId": "ajRG59ymHKahCmrmz",
+    "contents": {
+      "markdown": "fixed, thanks!",
+      "plaintextDescription": "fixed, thanks!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-22T11:25:18.175Z",
+    "af": false
+  },
+  {
+    "_id": "usB7dAJMRRHxQEkdu",
+    "postId": "BMfNu82iunjqKyQA9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I really liked the post and the agenda of improving safety through generative modelling is close to my heart.\n\n> we begin an online phase of its training: the agent starts acting in its environment and generating new task completions, which are recorded and fed back into the decision transformer as new training data\n\nBut you still need online access to our MDP (i.e. reward function and transition function), don't you? And it's access to MDP that drives novelty and improvement If you were just sampling whole trajectories from the model (asking the model itself to simulate reward function and transition model) and feeding them back into the model, you should expect any change (on average). Your gradients updates will cancel out, that's a consequence of the expected-grad-log-prob lemma ($\\mathbb{E}_{x\\sim\\pi_\\theta} \\nabla_\\theta \\log \\pi_\\theta(x) = 0$).\n\nIt gets more nuanced when you account for doing ancestral sampling, but it adds problems, not solves them:  \n[https://arxiv.org/abs/2110.10819](https://arxiv.org/abs/2110.10819)\n\n> Reproduce the [“Learning to Summarize with Human Feedback”](https://arxiv.org/abs/2009.01325) paper but with a frozen reward model.\n\nOn the other hand, in their follow-up work on instruction following, OpenAI claimed they used little online data (from fine-tuned policies):  \n[https://arxiv.org/abs/2203.02155](https://arxiv.org/abs/2203.02155)\n\n> It would be interesting to figure out a way to factorize the policy in (a) over timesteps, i.e. produce distributions $(\\pi(\\cdot),\\pi(\\cdot|\\tau_1), \\pi(\\cdot|\\tau_1\\tau_2),\\dots,\\pi(\\cdot|\\tau_1\\dots\\tau_{T-1})\\)$ over actions conditional on partial trajectories\n\nLevine derives that in his [control-as-inference tutorial paper (section 2.3](https://arxiv.org/pdf/1805.00909.pdf)). Your expected exponential total reward is pretty close. Not that it acts a bit like an (exponentiated) Q function for your policy: it gives you exp-reward expected after taking action $\\tau_t$ at state $\\tau_{<t}$ and following $\\pi$ thereafter. The exponential works like a soft argmax, so it gives you something like [soft Q-learning](https://arxiv.org/abs/1702.08165) but not quite: argmax is also over environment dynamics, not only over policy. So it causes an optimism bias: your agent effectively assumes an optimal next state will sampled for it every time, however unlikely would that be. The rest of Levine's paper deals with that.",
+      "plaintextDescription": "I really liked the post and the agenda of improving safety through generative modelling is close to my heart.\n\n> we begin an online phase of its training: the agent starts acting in its environment and generating new task completions, which are recorded and fed back into the decision transformer as new training data\n\nBut you still need online access to our MDP (i.e. reward function and transition function), don't you? And it's access to MDP that drives novelty and improvement If you were just sampling whole trajectories from the model (asking the model itself to simulate reward function and transition model) and feeding them back into the model, you should expect any change (on average). Your gradients updates will cancel out, that's a consequence of the expected-grad-log-prob lemma (Ex∼πθ∇θlogπθ(x)=0).\n\nIt gets more nuanced when you account for doing ancestral sampling, but it adds problems, not solves them:\nhttps://arxiv.org/abs/2110.10819\n\n> Reproduce the “Learning to Summarize with Human Feedback” paper but with a frozen reward model.\n\nOn the other hand, in their follow-up work on instruction following, OpenAI claimed they used little online data (from fine-tuned policies):\nhttps://arxiv.org/abs/2203.02155\n\n> It would be interesting to figure out a way to factorize the policy in (a) over timesteps, i.e. produce distributions (π(⋅),π(⋅|τ1),π(⋅|τ1τ2),…,π(⋅|τ1…τT−1)\\) over actions conditional on partial trajectories\n\nLevine derives that in his control-as-inference tutorial paper (section 2.3). Your expected exponential total reward is pretty close. Not that it acts a bit like an (exponentiated) Q function for your policy: it gives you exp-reward expected after taking action τt at state τ<t and following π thereafter. The exponential works like a soft argmax, so it gives you something like soft Q-learning but not quite: argmax is also over environment dynamics, not only over policy. So it causes an optimism bias: your agent effectively assumes an optimal next state "
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-07-08T19:10:00.142Z",
+    "af": false
+  },
+  {
+    "_id": "s3FZLAbx8gS72YpgW",
+    "postId": "eoHbneGvqDu25Hasc",
+    "parentCommentId": "quQK4bcmbo6wjxfNQ",
+    "topLevelCommentId": "quQK4bcmbo6wjxfNQ",
+    "contents": {
+      "markdown": "good catch, yes, thanks!",
+      "plaintextDescription": "good catch, yes, thanks!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-06-07T16:36:33.550Z",
+    "af": false
+  },
+  {
+    "_id": "jA8g9B7Q7hJkA7xmQ",
+    "postId": "eoHbneGvqDu25Hasc",
+    "parentCommentId": "Dy98GSrePi33dwzT5",
+    "topLevelCommentId": "Dy98GSrePi33dwzT5",
+    "contents": {
+      "markdown": "Thanks for sharing your thoughts, I found these remarks extremely insightful!\n\n> It seems like ideal way forward is to more accurately capture what you actually care about, then optimize that---staying close to the original distribution feels like more of a hack to me. It seems like you view the original distribution of webtext as more principled or fundamental than I do, but I'm not sure what accounts for that difference.\n\nA reply that comes to mins is that maybe being grounded in human knowledge, reasoning rules and values represented in web text has inherent value? Maybe web text is already approximately aligned with human preferences and you only want tweak that distribution a bit to match true human preferences? Assume that's the case. Then, we can decompose LM alignment into (i) learning web text distribution and (ii) learning how to warp web text distribution. It seems that (ii) is easier than just learning aligned behaviour from scratch: your reward model doesn't have to work well on arbitrary text but only text from distributions similar to webtext.\n\nAnother way of phrasing that point: maybe the assumption that you can have a perfect reward model is unrealistic and we can offload some of the complexity of learning a reward model to a prior given by web text? Or more philosophically, if you're a Bayesian, you shouldn't trust your reward model blindly, you should still have some prior.\n",
+      "plaintextDescription": "Thanks for sharing your thoughts, I found these remarks extremely insightful!\n\n> It seems like ideal way forward is to more accurately capture what you actually care about, then optimize that---staying close to the original distribution feels like more of a hack to me. It seems like you view the original distribution of webtext as more principled or fundamental than I do, but I'm not sure what accounts for that difference.\n\nA reply that comes to mins is that maybe being grounded in human knowledge, reasoning rules and values represented in web text has inherent value? Maybe web text is already approximately aligned with human preferences and you only want tweak that distribution a bit to match true human preferences? Assume that's the case. Then, we can decompose LM alignment into (i) learning web text distribution and (ii) learning how to warp web text distribution. It seems that (ii) is easier than just learning aligned behaviour from scratch: your reward model doesn't have to work well on arbitrary text but only text from distributions similar to webtext.\n\nAnother way of phrasing that point: maybe the assumption that you can have a perfect reward model is unrealistic and we can offload some of the complexity of learning a reward model to a prior given by web text? Or more philosophically, if you're a Bayesian, you shouldn't trust your reward model blindly, you should still have some prior."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-06-02T17:54:39.512Z",
+    "af": false
+  },
+  {
+    "_id": "etNdvgAJ3Dd44r5Mv",
+    "postId": "eoHbneGvqDu25Hasc",
+    "parentCommentId": "zmnjnYfLLp5Kdku3A",
+    "topLevelCommentId": "zmnjnYfLLp5Kdku3A",
+    "contents": {
+      "markdown": "> Do you think these insights would generalise to the case where the language model may be interacting with some system during this fine-tuning phase? For example, if it generates queries to an external search engine or API, or has dialogue with a human, then the optimal policy is no longer equivalent to just generating the correct output distribution, as it now also involves environment observations. \n\nThat's a good point and helps to make a distinction between generative models and policies. In the interactive case, your policy pi(a|s) is conditional distribution. You can equivalently view it as a collection of unconditional distributions {pi_s(a)}, one for each s, and for each of these you are likely to also have distribution collapse (single best action for a given state). Arguably, that's what you want in RL.\n\nSo I think it mostly comes down to a philosophical difference. Do you want your LM to be a decision-maker acting in a world or a model of a some probability distribution over texts? If you want a decision-maker and training on language is just a scaffolding to get you there, maybe indeed staying close to the original distribution only has instrumental value?\n\nBut what if what you want is just an oracle-type conversational AI: a knowledge base and a common-sense reasoner. Maybe in this case staying close to human knowledge and inference rules represented in language is of inherent value?",
+      "plaintextDescription": "> Do you think these insights would generalise to the case where the language model may be interacting with some system during this fine-tuning phase? For example, if it generates queries to an external search engine or API, or has dialogue with a human, then the optimal policy is no longer equivalent to just generating the correct output distribution, as it now also involves environment observations.\n\nThat's a good point and helps to make a distinction between generative models and policies. In the interactive case, your policy pi(a|s) is conditional distribution. You can equivalently view it as a collection of unconditional distributions {pi_s(a)}, one for each s, and for each of these you are likely to also have distribution collapse (single best action for a given state). Arguably, that's what you want in RL.\n\nSo I think it mostly comes down to a philosophical difference. Do you want your LM to be a decision-maker acting in a world or a model of a some probability distribution over texts? If you want a decision-maker and training on language is just a scaffolding to get you there, maybe indeed staying close to the original distribution only has instrumental value?\n\nBut what if what you want is just an oracle-type conversational AI: a knowledge base and a common-sense reasoner. Maybe in this case staying close to human knowledge and inference rules represented in language is of inherent value?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-06-02T17:04:36.693Z",
+    "af": true
+  },
+  {
+    "_id": "xtEewDBRDLwrbrJsD",
+    "postId": "eoHbneGvqDu25Hasc",
+    "parentCommentId": "TBQowyaBghrFbmt7e",
+    "topLevelCommentId": "TBQowyaBghrFbmt7e",
+    "contents": {
+      "markdown": "I'm glad you found our post insightful!\n\nI'm not sure what is the best energy allocation between modelling and inference here. I think, however, that the modelling part is more neglected (the target distribution is rarely even considered as something that can be written down and analysed). Moreover, designing good target distributions can be quite alignment-specific whereas designing algorithms for inference in probabilistic graphical models is an extremely generic research problem so we can expect progress here anyway.",
+      "plaintextDescription": "I'm glad you found our post insightful!\n\nI'm not sure what is the best energy allocation between modelling and inference here. I think, however, that the modelling part is more neglected (the target distribution is rarely even considered as something that can be written down and analysed). Moreover, designing good target distributions can be quite alignment-specific whereas designing algorithms for inference in probabilistic graphical models is an extremely generic research problem so we can expect progress here anyway."
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-05-29T17:55:58.383Z",
+    "af": false
+  },
+  {
+    "_id": "vJtGe5DKYfwE76YBL",
+    "postId": "eoHbneGvqDu25Hasc",
+    "parentCommentId": "aTiiJXW3Jr8rG85Bh",
+    "topLevelCommentId": "aTiiJXW3Jr8rG85Bh",
+    "contents": {
+      "markdown": "> I expect that in the current regime (only optimizing the policy a small amount), any method that does a reasonable job of maximizing reward while controlling how much the policy changes can be made to work in practice\n\nYes, that seems plausible. Though as you said, most methods that only change the policy a bit (early stopping, clipping in PPO) do that via implicit KL penalties and still can be seen as updating a prior. \n\n> there would be an exploration-exploitation trade-off, which is something that the RL perspective may again offer insight into.\n\nDefinitely exploration-exploitation issues could make the distribution collapse more severe and traditional RL tricks could help with that. But I still believe distribution collapse does not reduce to insufficient exploration and good exploration alone won't solve it. In this specific instance, failing to find the optimal policy is not the problem, the optimal policy itself is the problem.",
+      "plaintextDescription": "> I expect that in the current regime (only optimizing the policy a small amount), any method that does a reasonable job of maximizing reward while controlling how much the policy changes can be made to work in practice\n\nYes, that seems plausible. Though as you said, most methods that only change the policy a bit (early stopping, clipping in PPO) do that via implicit KL penalties and still can be seen as updating a prior.\n\n> there would be an exploration-exploitation trade-off, which is something that the RL perspective may again offer insight into.\n\nDefinitely exploration-exploitation issues could make the distribution collapse more severe and traditional RL tricks could help with that. But I still believe distribution collapse does not reduce to insufficient exploration and good exploration alone won't solve it. In this specific instance, failing to find the optimal policy is not the problem, the optimal policy itself is the problem."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-05-26T19:34:09.230Z",
+    "af": false
+  }
+]

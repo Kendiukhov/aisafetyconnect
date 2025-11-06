@@ -1,0 +1,302 @@
+2025-10-30 06:29:15,404 - LessWrongExtractor - INFO - Inicializado extractor para lesswrong
+2025-10-30 06:29:15,405 - LessWrongExtractor - INFO - Configurados 10 tags AI Safety principales
+2025-10-30 06:29:15,405 - LessWrongExtractor - INFO - Iniciando extracción de lesswrong
+2025-10-30 06:29:15,405 - LessWrongExtractor - INFO - Extrayendo top 100 usuarios...
+2025-10-30 06:29:15,405 - LessWrongExtractor - INFO - Extrayendo usuarios de tags AI Safety definitivos...
+2025-10-30 06:29:15,405 - LessWrongExtractor - INFO -   [1/10] Procesando tag: MIRI
+2025-10-30 06:29:17,337 - LessWrongExtractor - INFO -   [2/10] Procesando tag: Inner Alignment
+2025-10-30 06:29:20,759 - LessWrongExtractor - INFO -   [3/10] Procesando tag: Outer Alignment
+2025-10-30 06:29:22,334 - LessWrongExtractor - INFO -   [4/10] Procesando tag: AI Governance
+2025-10-30 06:29:23,544 - LessWrongExtractor - INFO -   [5/10] Procesando tag: Interpretability (ML & AI)
+2025-10-30 06:29:24,558 - LessWrongExtractor - INFO -   [6/10] Procesando tag: Mesa-Optimization
+2025-10-30 06:29:28,849 - LessWrongExtractor - INFO -   [7/10] Procesando tag: Chain-of-Thought Alignment
+2025-10-30 06:29:30,761 - LessWrongExtractor - INFO -   [8/10] Procesando tag: Agent Foundations
+2025-10-30 06:29:33,133 - LessWrongExtractor - INFO -   [9/10] Procesando tag: AI Alignment (general)
+2025-10-30 06:29:34,730 - LessWrongExtractor - INFO -   [10/10] Procesando tag: Existential Risk
+2025-10-30 06:29:35,663 - LessWrongExtractor - INFO - Usuarios únicos encontrados: 204
+2025-10-30 06:29:35,664 - LessWrongExtractor - INFO - Enriqueciendo información de usuarios...
+2025-10-30 06:29:39,238 - LessWrongExtractor - INFO -   Enriqueciendo usuario 5/100
+2025-10-30 06:29:43,730 - LessWrongExtractor - INFO -   Enriqueciendo usuario 10/100
+2025-10-30 06:29:49,762 - LessWrongExtractor - INFO -   Enriqueciendo usuario 15/100
+2025-10-30 06:29:54,351 - LessWrongExtractor - INFO -   Enriqueciendo usuario 20/100
+2025-10-30 06:30:01,572 - LessWrongExtractor - INFO -   Enriqueciendo usuario 25/100
+2025-10-30 06:30:06,439 - LessWrongExtractor - INFO -   Enriqueciendo usuario 30/100
+2025-10-30 06:30:10,894 - LessWrongExtractor - INFO -   Enriqueciendo usuario 35/100
+2025-10-30 06:30:17,739 - LessWrongExtractor - INFO -   Enriqueciendo usuario 40/100
+2025-10-30 06:30:23,303 - LessWrongExtractor - INFO -   Enriqueciendo usuario 45/100
+2025-10-30 06:30:28,901 - LessWrongExtractor - INFO -   Enriqueciendo usuario 50/100
+2025-10-30 06:30:33,355 - LessWrongExtractor - INFO -   Enriqueciendo usuario 55/100
+2025-10-30 06:30:38,245 - LessWrongExtractor - INFO -   Enriqueciendo usuario 60/100
+2025-10-30 06:30:45,288 - LessWrongExtractor - INFO -   Enriqueciendo usuario 65/100
+2025-10-30 06:30:49,839 - LessWrongExtractor - INFO -   Enriqueciendo usuario 70/100
+2025-10-30 06:30:55,965 - LessWrongExtractor - INFO -   Enriqueciendo usuario 75/100
+2025-10-30 06:31:00,466 - LessWrongExtractor - INFO -   Enriqueciendo usuario 80/100
+2025-10-30 06:31:07,524 - LessWrongExtractor - INFO -   Enriqueciendo usuario 85/100
+2025-10-30 06:31:12,047 - LessWrongExtractor - INFO -   Enriqueciendo usuario 90/100
+2025-10-30 06:31:16,528 - LessWrongExtractor - INFO -   Enriqueciendo usuario 95/100
+2025-10-30 06:31:21,004 - LessWrongExtractor - INFO -   Enriqueciendo usuario 100/100
+2025-10-30 06:31:21,893 - LessWrongExtractor - INFO - Retornando top 100 usuarios de 204 totales
+2025-10-30 06:31:21,898 - LessWrongExtractor - INFO - Extraídos 100 usuarios
+2025-10-30 06:31:21,898 - LessWrongExtractor - INFO - Procesando usuario 1/100: Eliezer_Yudkowsky
+2025-10-30 06:31:33,885 - LessWrongExtractor - INFO - Procesando usuario 2/100: Raemon
+2025-10-30 06:31:39,429 - LessWrongExtractor - INFO - Procesando usuario 3/100: Zvi
+2025-10-30 06:31:49,579 - LessWrongExtractor - INFO - Procesando usuario 4/100: RobbBB
+2025-10-30 06:31:56,856 - LessWrongExtractor - INFO - Procesando usuario 5/100: ryan_greenblatt
+2025-10-30 06:32:00,620 - LessWrongExtractor - INFO - Procesando usuario 6/100: pktechgirl
+2025-10-30 06:32:05,430 - LessWrongExtractor - INFO - Procesando usuario 7/100: ricraz
+2025-10-30 06:32:09,462 - LessWrongExtractor - INFO - Procesando usuario 8/100: lsusr
+2025-10-30 06:32:12,103 - LessWrongExtractor - INFO - Procesando usuario 9/100: orthonormal
+2025-10-30 06:32:20,692 - LessWrongExtractor - INFO - Procesando usuario 10/100: Zack_M_Davis
+2025-10-30 06:32:26,882 - LessWrongExtractor - INFO - Checkpoint guardado: 10 usuarios procesados
+2025-10-30 06:32:26,883 - LessWrongExtractor - INFO - Procesando usuario 11/100: Buck
+2025-10-30 06:32:31,954 - LessWrongExtractor - INFO - Procesando usuario 12/100: evhub
+2025-10-30 06:32:35,968 - LessWrongExtractor - INFO - Procesando usuario 13/100: Zach Stein-Perlman
+2025-10-30 06:32:39,638 - LessWrongExtractor - INFO - Procesando usuario 14/100: jessica.liu.taylor
+2025-10-30 06:32:42,472 - LessWrongExtractor - INFO - Procesando usuario 15/100: Mitchell_Porter
+2025-10-30 06:32:45,622 - LessWrongExtractor - INFO - Procesando usuario 16/100: Thane Ruthenis
+2025-10-30 06:32:50,795 - LessWrongExtractor - INFO - Procesando usuario 17/100: JenniferRM
+2025-10-30 06:32:56,658 - LessWrongExtractor - INFO - Procesando usuario 18/100: DanielFilan
+2025-10-30 06:33:07,851 - LessWrongExtractor - INFO - Procesando usuario 19/100: tailcalled
+2025-10-30 06:33:10,852 - LessWrongExtractor - INFO - Procesando usuario 20/100: Chris_Leong
+2025-10-30 06:33:20,828 - LessWrongExtractor - ERROR - Error guardando JSON en lesswrong-data/lesswrong/2025-10-30/comments/user_XLwKyCK7JmC292ZCC_comments.json: 'utf-8' codec can't encode character '\ud835' in position 1827: surrogates not allowed
+2025-10-30 06:33:20,828 - LessWrongExtractor - ERROR - Error procesando usuario Chris_Leong: 'utf-8' codec can't encode character '\ud835' in position 1827: surrogates not allowed
+2025-10-30 06:33:20,828 - LessWrongExtractor - INFO - Procesando usuario 21/100: leogao
+2025-10-30 06:33:24,742 - LessWrongExtractor - INFO - Procesando usuario 22/100: Seth Herd
+2025-10-30 06:33:28,953 - LessWrongExtractor - INFO - Procesando usuario 23/100: thomas-kwa
+2025-10-30 06:33:34,756 - LessWrongExtractor - INFO - Procesando usuario 24/100: Roko
+2025-10-30 06:33:41,840 - LessWrongExtractor - INFO - Procesando usuario 25/100: Larks
+2025-10-30 06:33:50,955 - LessWrongExtractor - INFO - Procesando usuario 26/100: Davidmanheim
+2025-10-30 06:33:56,593 - LessWrongExtractor - INFO - Procesando usuario 27/100: marius-hobbhahn
+2025-10-30 06:34:02,354 - LessWrongExtractor - INFO - Procesando usuario 28/100: sil-ver
+2025-10-30 06:34:20,787 - LessWrongExtractor - INFO - Procesando usuario 29/100: samuel-marks
+2025-10-30 06:34:26,807 - LessWrongExtractor - INFO - Procesando usuario 30/100: ozziegooen
+2025-10-30 06:34:32,682 - LessWrongExtractor - INFO - Checkpoint guardado: 30 usuarios procesados
+2025-10-30 06:34:32,683 - LessWrongExtractor - INFO - Procesando usuario 31/100: janus
+2025-10-30 06:34:40,274 - LessWrongExtractor - INFO - Procesando usuario 32/100: Algon
+2025-10-30 06:34:45,914 - LessWrongExtractor - INFO - Procesando usuario 33/100: bhauth
+2025-10-30 06:34:50,905 - LessWrongExtractor - INFO - Procesando usuario 34/100: strawberry calm
+2025-10-30 06:34:57,543 - LessWrongExtractor - INFO - Procesando usuario 35/100: korin43
+2025-10-30 06:35:00,317 - LessWrongExtractor - INFO - Procesando usuario 36/100: JoshuaFox
+2025-10-30 06:35:04,083 - LessWrongExtractor - INFO - Procesando usuario 37/100: peterbarnett
+2025-10-30 06:35:10,349 - LessWrongExtractor - INFO - Procesando usuario 38/100: jhoogland
+2025-10-30 06:35:14,809 - LessWrongExtractor - INFO - Procesando usuario 39/100: Jemist
+2025-10-30 06:35:22,337 - LessWrongExtractor - INFO - Procesando usuario 40/100: beren
+2025-10-30 06:35:27,985 - LessWrongExtractor - INFO - Checkpoint guardado: 40 usuarios procesados
+2025-10-30 06:35:27,985 - LessWrongExtractor - INFO - Procesando usuario 41/100: charbel-raphael-segerie
+2025-10-30 06:35:34,712 - LessWrongExtractor - INFO - Procesando usuario 42/100: arjun-panickssery
+2025-10-30 06:35:39,957 - LessWrongExtractor - INFO - Procesando usuario 43/100: elifland
+2025-10-30 06:35:46,076 - LessWrongExtractor - INFO - Procesando usuario 44/100: carado-1
+2025-10-30 06:35:48,423 - LessWrongExtractor - INFO - Procesando usuario 45/100: mikhail-samin
+2025-10-30 06:35:51,564 - LessWrongExtractor - INFO - Procesando usuario 46/100: DragonGod
+2025-10-30 06:36:00,061 - LessWrongExtractor - INFO - Procesando usuario 47/100: Jozdien
+2025-10-30 06:36:03,890 - LessWrongExtractor - INFO - Procesando usuario 48/100: riceissa
+2025-10-30 06:36:09,396 - LessWrongExtractor - INFO - Procesando usuario 49/100: hastings-greer
+2025-10-30 06:36:12,578 - LessWrongExtractor - INFO - Procesando usuario 50/100: Lee_Sharkey
+2025-10-30 06:36:16,218 - LessWrongExtractor - INFO - Checkpoint guardado: 50 usuarios procesados
+2025-10-30 06:36:16,218 - LessWrongExtractor - INFO - Procesando usuario 51/100: porby
+2025-10-30 06:36:20,765 - LessWrongExtractor - INFO - Procesando usuario 52/100: Jsevillamol
+2025-10-30 06:36:25,674 - LessWrongExtractor - INFO - Procesando usuario 53/100: Writer
+2025-10-30 06:36:29,519 - LessWrongExtractor - INFO - Procesando usuario 54/100: gretta-duleba
+2025-10-30 06:36:32,576 - LessWrongExtractor - INFO - Procesando usuario 55/100: Evan_Gaensbauer
+2025-10-30 06:36:38,283 - LessWrongExtractor - INFO - Procesando usuario 56/100: roger-d-1
+2025-10-30 06:36:42,331 - LessWrongExtractor - INFO - Procesando usuario 57/100: bogdan-ionut-cirstea
+2025-10-30 06:36:46,264 - LessWrongExtractor - INFO - Procesando usuario 58/100: lcmgcd
+2025-10-30 06:36:50,760 - LessWrongExtractor - INFO - Procesando usuario 59/100: malo
+2025-10-30 06:36:56,434 - LessWrongExtractor - INFO - Procesando usuario 60/100: silentbob
+2025-10-30 06:37:00,755 - LessWrongExtractor - INFO - Checkpoint guardado: 60 usuarios procesados
+2025-10-30 06:37:00,755 - LessWrongExtractor - INFO - Procesando usuario 61/100: nick_kees
+2025-10-30 06:37:08,731 - LessWrongExtractor - INFO - Procesando usuario 62/100: Roman Leventov
+2025-10-30 06:37:13,317 - LessWrongExtractor - INFO - Procesando usuario 63/100: rhaps0dy
+2025-10-30 06:37:17,899 - LessWrongExtractor - INFO - Procesando usuario 64/100: remmelt-ellen
+2025-10-30 06:37:22,331 - LessWrongExtractor - INFO - Procesando usuario 65/100: caleb-biddulph
+2025-10-30 06:37:26,339 - LessWrongExtractor - INFO - Procesando usuario 66/100: rosehadshar
+2025-10-30 06:37:29,515 - LessWrongExtractor - INFO - Procesando usuario 67/100: Oliver Sourbut
+2025-10-30 06:37:32,513 - LessWrongExtractor - INFO - Procesando usuario 68/100: Evan R. Murphy
+2025-10-30 06:37:39,332 - LessWrongExtractor - INFO - Procesando usuario 69/100: katalina-hernandez
+2025-10-30 06:37:42,108 - LessWrongExtractor - INFO - Procesando usuario 70/100: tomek-korbak
+2025-10-30 06:37:44,471 - LessWrongExtractor - INFO - Checkpoint guardado: 70 usuarios procesados
+2025-10-30 06:37:44,471 - LessWrongExtractor - INFO - Procesando usuario 71/100: trevor
+2025-10-30 06:37:49,072 - LessWrongExtractor - INFO - Procesando usuario 72/100: Max Lee
+2025-10-30 06:37:52,220 - LessWrongExtractor - INFO - Procesando usuario 73/100: karvonenadam
+2025-10-30 06:37:55,368 - LessWrongExtractor - INFO - Procesando usuario 74/100: igor-ivanov
+2025-10-30 06:37:58,068 - LessWrongExtractor - INFO - Procesando usuario 75/100: christopher-king
+2025-10-30 06:38:00,718 - LessWrongExtractor - INFO - Procesando usuario 76/100: RomanS
+2025-10-30 06:38:06,450 - LessWrongExtractor - INFO - Procesando usuario 77/100: alexvermeer
+2025-10-30 06:38:10,795 - LessWrongExtractor - INFO - Procesando usuario 78/100: Logical_Lunatic
+2025-10-30 06:38:14,727 - LessWrongExtractor - INFO - Procesando usuario 79/100: Diatom
+2025-10-30 06:38:25,551 - LessWrongExtractor - INFO - Procesando usuario 80/100: nora-belrose
+2025-10-30 06:38:28,701 - LessWrongExtractor - INFO - Checkpoint guardado: 80 usuarios procesados
+2025-10-30 06:38:28,701 - LessWrongExtractor - INFO - Procesando usuario 81/100: Matrice Jacobine
+2025-10-30 06:38:30,945 - LessWrongExtractor - INFO - Procesando usuario 82/100: marc/er
+2025-10-30 06:38:33,776 - LessWrongExtractor - INFO - Procesando usuario 83/100: rauno-arike
+2025-10-30 06:38:38,913 - LessWrongExtractor - INFO - Procesando usuario 84/100: sydney-von-arx-1
+2025-10-30 06:38:42,179 - LessWrongExtractor - INFO - Procesando usuario 85/100: ViktoriaMalyasova
+2025-10-30 06:38:45,212 - LessWrongExtractor - INFO - Procesando usuario 86/100: Bob Jacobs
+2025-10-30 06:38:51,056 - LessWrongExtractor - INFO - Procesando usuario 87/100: otto-barten
+2025-10-30 06:38:54,722 - LessWrongExtractor - INFO - Procesando usuario 88/100: Harlan
+2025-10-30 06:38:59,292 - LessWrongExtractor - INFO - Procesando usuario 89/100: tristan-williams
+2025-10-30 06:39:06,588 - LessWrongExtractor - INFO - Procesando usuario 90/100: Kei
+2025-10-30 06:39:10,658 - LessWrongExtractor - INFO - Checkpoint guardado: 90 usuarios procesados
+2025-10-30 06:39:10,659 - LessWrongExtractor - INFO - Procesando usuario 91/100: james-chua
+2025-10-30 06:39:13,033 - LessWrongExtractor - INFO - Procesando usuario 92/100: Nick_Bostrom2
+2025-10-30 06:39:20,735 - LessWrongExtractor - INFO - Procesando usuario 93/100: RohanS
+2025-10-30 06:39:25,623 - LessWrongExtractor - INFO - Procesando usuario 94/100: Filip Sondej
+2025-10-30 06:39:28,258 - LessWrongExtractor - INFO - Procesando usuario 95/100: weibac
+2025-10-30 06:39:32,813 - LessWrongExtractor - INFO - Procesando usuario 96/100: paul-colognese
+2025-10-30 06:39:35,722 - LessWrongExtractor - INFO - Procesando usuario 97/100: programcrafter
+2025-10-30 06:39:42,930 - LessWrongExtractor - INFO - Procesando usuario 98/100: wuschel-schulz
+2025-10-30 06:39:46,699 - LessWrongExtractor - INFO - Procesando usuario 99/100: MadHatter
+2025-10-30 06:39:50,726 - LessWrongExtractor - INFO - Procesando usuario 100/100: abhayesian
+2025-10-30 06:39:53,044 - LessWrongExtractor - INFO - Checkpoint guardado: 100 usuarios procesados
+2025-10-30 06:39:53,046 - LessWrongExtractor - INFO - Extracción completada. Datos guardados en lesswrong-data/lesswrong/2025-10-30
+2025-10-31 23:48:10,665 - LessWrongExtractor - INFO - Inicializado extractor para lesswrong
+2025-10-31 23:48:10,665 - LessWrongExtractor - INFO - Configurados 10 tags AI Safety principales
+2025-10-31 23:48:10,665 - LessWrongExtractor - INFO - Iniciando extracción de lesswrong
+2025-10-31 23:48:10,665 - LessWrongExtractor - INFO - Extrayendo top 100 usuarios...
+2025-10-31 23:48:10,665 - LessWrongExtractor - INFO - Extrayendo usuarios de tags AI Safety definitivos...
+2025-10-31 23:48:10,665 - LessWrongExtractor - INFO -   [1/10] Procesando tag: MIRI
+2025-10-31 23:48:11,882 - LessWrongExtractor - INFO -   [2/10] Procesando tag: Inner Alignment
+2025-10-31 23:48:13,032 - LessWrongExtractor - INFO -   [3/10] Procesando tag: Outer Alignment
+2025-10-31 23:48:14,340 - LessWrongExtractor - INFO -   [4/10] Procesando tag: AI Governance
+2025-10-31 23:48:15,419 - LessWrongExtractor - INFO -   [5/10] Procesando tag: Interpretability (ML & AI)
+2025-10-31 23:48:16,396 - LessWrongExtractor - INFO -   [6/10] Procesando tag: Mesa-Optimization
+2025-10-31 23:48:17,415 - LessWrongExtractor - INFO -   [7/10] Procesando tag: Chain-of-Thought Alignment
+2025-10-31 23:48:18,483 - LessWrongExtractor - INFO -   [8/10] Procesando tag: Agent Foundations
+2025-10-31 23:48:19,467 - LessWrongExtractor - INFO -   [9/10] Procesando tag: AI Alignment (general)
+2025-10-31 23:48:20,489 - LessWrongExtractor - INFO -   [10/10] Procesando tag: Existential Risk
+2025-10-31 23:48:21,552 - LessWrongExtractor - INFO - Usuarios únicos encontrados: 204
+2025-10-31 23:48:21,552 - LessWrongExtractor - INFO - Enriqueciendo información de usuarios...
+2025-10-31 23:48:25,374 - LessWrongExtractor - INFO -   Enriqueciendo usuario 5/100
+2025-10-31 23:48:30,374 - LessWrongExtractor - INFO -   Enriqueciendo usuario 10/100
+2025-10-31 23:48:35,091 - LessWrongExtractor - INFO -   Enriqueciendo usuario 15/100
+2025-10-31 23:48:39,794 - LessWrongExtractor - INFO -   Enriqueciendo usuario 20/100
+2025-10-31 23:48:44,866 - LessWrongExtractor - INFO -   Enriqueciendo usuario 25/100
+2025-10-31 23:48:49,528 - LessWrongExtractor - INFO -   Enriqueciendo usuario 30/100
+2025-10-31 23:48:54,214 - LessWrongExtractor - INFO -   Enriqueciendo usuario 35/100
+2025-10-31 23:48:59,324 - LessWrongExtractor - INFO -   Enriqueciendo usuario 40/100
+2025-10-31 23:49:04,384 - LessWrongExtractor - INFO -   Enriqueciendo usuario 45/100
+2025-10-31 23:49:09,023 - LessWrongExtractor - INFO -   Enriqueciendo usuario 50/100
+2025-10-31 23:49:13,670 - LessWrongExtractor - INFO -   Enriqueciendo usuario 55/100
+2025-10-31 23:49:18,378 - LessWrongExtractor - INFO -   Enriqueciendo usuario 60/100
+2025-10-31 23:49:23,707 - LessWrongExtractor - INFO -   Enriqueciendo usuario 65/100
+2025-10-31 23:49:28,529 - LessWrongExtractor - INFO -   Enriqueciendo usuario 70/100
+2025-10-31 23:49:33,599 - LessWrongExtractor - INFO -   Enriqueciendo usuario 75/100
+2025-10-31 23:49:40,798 - LessWrongExtractor - INFO -   Enriqueciendo usuario 80/100
+2025-10-31 23:49:46,201 - LessWrongExtractor - INFO -   Enriqueciendo usuario 85/100
+2025-10-31 23:49:50,841 - LessWrongExtractor - INFO -   Enriqueciendo usuario 90/100
+2025-10-31 23:49:55,923 - LessWrongExtractor - INFO -   Enriqueciendo usuario 95/100
+2025-10-31 23:50:01,017 - LessWrongExtractor - INFO -   Enriqueciendo usuario 100/100
+2025-10-31 23:50:02,266 - LessWrongExtractor - INFO - Retornando top 100 usuarios de 204 totales
+2025-10-31 23:50:02,378 - LessWrongExtractor - INFO - Extraídos 100 usuarios
+2025-10-31 23:50:02,378 - LessWrongExtractor - INFO - Procesando usuario 1/100: Eliezer_Yudkowsky
+2025-10-31 23:50:15,829 - LessWrongExtractor - INFO - Procesando usuario 2/100: Raemon
+2025-10-31 23:50:22,072 - LessWrongExtractor - INFO - Procesando usuario 3/100: Zvi
+2025-10-31 23:50:31,607 - LessWrongExtractor - INFO - Procesando usuario 4/100: RobbBB
+2025-10-31 23:50:37,534 - LessWrongExtractor - INFO - Procesando usuario 5/100: ryan_greenblatt
+2025-10-31 23:50:41,006 - LessWrongExtractor - INFO - Procesando usuario 6/100: pktechgirl
+2025-10-31 23:50:44,772 - LessWrongExtractor - INFO - Procesando usuario 7/100: ricraz
+2025-10-31 23:50:48,344 - LessWrongExtractor - INFO - Procesando usuario 8/100: lsusr
+2025-10-31 23:50:50,954 - LessWrongExtractor - INFO - Procesando usuario 9/100: orthonormal
+2025-10-31 23:50:54,908 - LessWrongExtractor - INFO - Procesando usuario 10/100: Zack_M_Davis
+2025-10-31 23:50:57,395 - LessWrongExtractor - INFO - Checkpoint guardado: 10 usuarios procesados
+2025-10-31 23:50:57,396 - LessWrongExtractor - INFO - Procesando usuario 11/100: Buck
+2025-10-31 23:51:01,801 - LessWrongExtractor - INFO - Procesando usuario 12/100: evhub
+2025-10-31 23:51:05,693 - LessWrongExtractor - INFO - Procesando usuario 13/100: Zach Stein-Perlman
+2025-10-31 23:51:09,167 - LessWrongExtractor - INFO - Procesando usuario 14/100: jessica.liu.taylor
+2025-10-31 23:51:11,853 - LessWrongExtractor - INFO - Procesando usuario 15/100: Mitchell_Porter
+2025-10-31 23:51:14,877 - LessWrongExtractor - INFO - Procesando usuario 16/100: Thane Ruthenis
+2025-10-31 23:51:20,014 - LessWrongExtractor - INFO - Procesando usuario 17/100: JenniferRM
+2025-10-31 23:51:23,992 - LessWrongExtractor - INFO - Procesando usuario 18/100: DanielFilan
+2025-10-31 23:51:34,606 - LessWrongExtractor - INFO - Procesando usuario 19/100: tailcalled
+2025-10-31 23:51:37,512 - LessWrongExtractor - INFO - Procesando usuario 20/100: Chris_Leong
+2025-10-31 23:51:41,234 - LessWrongExtractor - ERROR - Error guardando JSON en top100_lw_data/lesswrong/2025-10-31/comments/user_XLwKyCK7JmC292ZCC_comments.json: 'utf-8' codec can't encode character '\ud835' in position 1827: surrogates not allowed
+2025-10-31 23:51:41,234 - LessWrongExtractor - ERROR - Error procesando usuario Chris_Leong: 'utf-8' codec can't encode character '\ud835' in position 1827: surrogates not allowed
+2025-10-31 23:51:41,234 - LessWrongExtractor - INFO - Procesando usuario 21/100: leogao
+2025-10-31 23:51:44,301 - LessWrongExtractor - INFO - Procesando usuario 22/100: Seth Herd
+2025-10-31 23:51:48,134 - LessWrongExtractor - INFO - Procesando usuario 23/100: thomas-kwa
+2025-10-31 23:51:51,387 - LessWrongExtractor - INFO - Procesando usuario 24/100: Roko
+2025-10-31 23:51:54,761 - LessWrongExtractor - INFO - Procesando usuario 25/100: Larks
+2025-10-31 23:52:02,657 - LessWrongExtractor - INFO - Procesando usuario 26/100: Davidmanheim
+2025-10-31 23:52:06,484 - LessWrongExtractor - INFO - Procesando usuario 27/100: marius-hobbhahn
+2025-10-31 23:52:11,946 - LessWrongExtractor - INFO - Procesando usuario 28/100: sil-ver
+2025-10-31 23:52:27,842 - LessWrongExtractor - INFO - Procesando usuario 29/100: samuel-marks
+2025-10-31 23:52:31,608 - LessWrongExtractor - INFO - Procesando usuario 30/100: ozziegooen
+2025-10-31 23:52:35,543 - LessWrongExtractor - INFO - Checkpoint guardado: 30 usuarios procesados
+2025-10-31 23:52:35,543 - LessWrongExtractor - INFO - Procesando usuario 31/100: janus
+2025-10-31 23:52:39,219 - LessWrongExtractor - INFO - Procesando usuario 32/100: Algon
+2025-10-31 23:52:42,522 - LessWrongExtractor - INFO - Procesando usuario 33/100: bhauth
+2025-10-31 23:52:45,013 - LessWrongExtractor - INFO - Procesando usuario 34/100: strawberry calm
+2025-10-31 23:52:50,770 - LessWrongExtractor - INFO - Procesando usuario 35/100: korin43
+2025-10-31 23:52:54,028 - LessWrongExtractor - INFO - Procesando usuario 36/100: JoshuaFox
+2025-10-31 23:52:57,666 - LessWrongExtractor - INFO - Procesando usuario 37/100: peterbarnett
+2025-10-31 23:53:01,976 - LessWrongExtractor - INFO - Procesando usuario 38/100: jhoogland
+2025-10-31 23:53:05,313 - LessWrongExtractor - INFO - Procesando usuario 39/100: Jemist
+2025-10-31 23:53:09,602 - LessWrongExtractor - INFO - Procesando usuario 40/100: beren
+2025-10-31 23:53:13,377 - LessWrongExtractor - INFO - Checkpoint guardado: 40 usuarios procesados
+2025-10-31 23:53:13,377 - LessWrongExtractor - INFO - Procesando usuario 41/100: charbel-raphael-segerie
+2025-10-31 23:53:18,344 - LessWrongExtractor - INFO - Procesando usuario 42/100: arjun-panickssery
+2025-10-31 23:53:21,288 - LessWrongExtractor - INFO - Procesando usuario 43/100: elifland
+2025-10-31 23:53:25,162 - LessWrongExtractor - INFO - Procesando usuario 44/100: carado-1
+2025-10-31 23:53:27,437 - LessWrongExtractor - INFO - Procesando usuario 45/100: mikhail-samin
+2025-10-31 23:53:30,326 - LessWrongExtractor - INFO - Procesando usuario 46/100: DragonGod
+2025-10-31 23:53:34,549 - LessWrongExtractor - INFO - Procesando usuario 47/100: Jozdien
+2025-10-31 23:53:37,986 - LessWrongExtractor - INFO - Procesando usuario 48/100: riceissa
+2025-10-31 23:53:40,966 - LessWrongExtractor - INFO - Procesando usuario 49/100: hastings-greer
+2025-10-31 23:53:43,298 - LessWrongExtractor - INFO - Procesando usuario 50/100: Lee_Sharkey
+2025-10-31 23:53:47,277 - LessWrongExtractor - INFO - Checkpoint guardado: 50 usuarios procesados
+2025-10-31 23:53:47,277 - LessWrongExtractor - INFO - Procesando usuario 51/100: porby
+2025-10-31 23:53:51,273 - LessWrongExtractor - INFO - Procesando usuario 52/100: Jsevillamol
+2025-10-31 23:53:55,052 - LessWrongExtractor - INFO - Procesando usuario 53/100: Writer
+2025-10-31 23:53:58,376 - LessWrongExtractor - INFO - Procesando usuario 54/100: gretta-duleba
+2025-10-31 23:54:00,969 - LessWrongExtractor - INFO - Procesando usuario 55/100: Evan_Gaensbauer
+2025-10-31 23:54:05,230 - LessWrongExtractor - INFO - Procesando usuario 56/100: roger-d-1
+2025-10-31 23:54:08,728 - LessWrongExtractor - INFO - Procesando usuario 57/100: bogdan-ionut-cirstea
+2025-10-31 23:54:11,433 - LessWrongExtractor - INFO - Procesando usuario 58/100: lcmgcd
+2025-10-31 23:54:13,619 - LessWrongExtractor - INFO - Procesando usuario 59/100: malo
+2025-10-31 23:54:16,730 - LessWrongExtractor - INFO - Procesando usuario 60/100: silentbob
+2025-10-31 23:54:20,277 - LessWrongExtractor - INFO - Checkpoint guardado: 60 usuarios procesados
+2025-10-31 23:54:20,277 - LessWrongExtractor - INFO - Procesando usuario 61/100: nick_kees
+2025-10-31 23:54:23,126 - LessWrongExtractor - INFO - Procesando usuario 62/100: Roman Leventov
+2025-10-31 23:54:27,411 - LessWrongExtractor - INFO - Procesando usuario 63/100: rhaps0dy
+2025-10-31 23:54:31,754 - LessWrongExtractor - INFO - Procesando usuario 64/100: remmelt-ellen
+2025-10-31 23:54:35,808 - LessWrongExtractor - INFO - Procesando usuario 65/100: caleb-biddulph
+2025-10-31 23:54:38,484 - LessWrongExtractor - INFO - Procesando usuario 66/100: rosehadshar
+2025-10-31 23:54:41,331 - LessWrongExtractor - INFO - Procesando usuario 67/100: Oliver Sourbut
+2025-10-31 23:54:44,154 - LessWrongExtractor - INFO - Procesando usuario 68/100: Evan R. Murphy
+2025-10-31 23:54:46,992 - LessWrongExtractor - INFO - Procesando usuario 69/100: katalina-hernandez
+2025-10-31 23:54:49,530 - LessWrongExtractor - INFO - Procesando usuario 70/100: tomek-korbak
+2025-10-31 23:54:51,989 - LessWrongExtractor - INFO - Checkpoint guardado: 70 usuarios procesados
+2025-10-31 23:54:51,989 - LessWrongExtractor - INFO - Procesando usuario 71/100: trevor
+2025-10-31 23:54:54,395 - LessWrongExtractor - INFO - Procesando usuario 72/100: Max Lee
+2025-10-31 23:54:57,589 - LessWrongExtractor - INFO - Procesando usuario 73/100: karvonenadam
+2025-10-31 23:54:59,863 - LessWrongExtractor - INFO - Procesando usuario 74/100: igor-ivanov
+2025-10-31 23:55:02,648 - LessWrongExtractor - INFO - Procesando usuario 75/100: christopher-king
+2025-10-31 23:55:05,177 - LessWrongExtractor - INFO - Procesando usuario 76/100: RomanS
+2025-10-31 23:55:09,013 - LessWrongExtractor - INFO - Procesando usuario 77/100: alexvermeer
+2025-10-31 23:55:11,650 - LessWrongExtractor - INFO - Procesando usuario 78/100: Logical_Lunatic
+2025-10-31 23:55:14,994 - LessWrongExtractor - INFO - Procesando usuario 79/100: Diatom
+2025-10-31 23:55:17,734 - LessWrongExtractor - INFO - Procesando usuario 80/100: nora-belrose
+2025-10-31 23:55:20,331 - LessWrongExtractor - INFO - Checkpoint guardado: 80 usuarios procesados
+2025-10-31 23:55:20,331 - LessWrongExtractor - INFO - Procesando usuario 81/100: Matrice Jacobine
+2025-10-31 23:55:22,599 - LessWrongExtractor - INFO - Procesando usuario 82/100: marc/er
+2025-10-31 23:55:24,774 - LessWrongExtractor - INFO - Procesando usuario 83/100: rauno-arike
+2025-10-31 23:55:27,546 - LessWrongExtractor - INFO - Procesando usuario 84/100: sydney-von-arx-1
+2025-10-31 23:55:30,385 - LessWrongExtractor - INFO - Procesando usuario 85/100: ViktoriaMalyasova
+2025-10-31 23:55:33,869 - LessWrongExtractor - INFO - Procesando usuario 86/100: Bob Jacobs
+2025-10-31 23:55:37,757 - LessWrongExtractor - INFO - Procesando usuario 87/100: otto-barten
+2025-10-31 23:55:40,414 - LessWrongExtractor - INFO - Procesando usuario 88/100: Harlan
+2025-10-31 23:55:42,664 - LessWrongExtractor - INFO - Procesando usuario 89/100: tristan-williams
+2025-10-31 23:55:45,742 - LessWrongExtractor - INFO - Procesando usuario 90/100: Kei
+2025-10-31 23:55:48,103 - LessWrongExtractor - INFO - Checkpoint guardado: 90 usuarios procesados
+2025-10-31 23:55:48,103 - LessWrongExtractor - INFO - Procesando usuario 91/100: james-chua
+2025-10-31 23:55:50,458 - LessWrongExtractor - INFO - Procesando usuario 92/100: Nick_Bostrom2
+2025-10-31 23:55:52,728 - LessWrongExtractor - INFO - Procesando usuario 93/100: RohanS
+2025-10-31 23:55:55,413 - LessWrongExtractor - INFO - Procesando usuario 94/100: Filip Sondej
+2025-10-31 23:55:57,683 - LessWrongExtractor - INFO - Procesando usuario 95/100: weibac
+2025-10-31 23:56:00,231 - LessWrongExtractor - INFO - Procesando usuario 96/100: paul-colognese
+2025-10-31 23:56:02,847 - LessWrongExtractor - INFO - Procesando usuario 97/100: programcrafter
+2025-10-31 23:56:05,323 - LessWrongExtractor - INFO - Procesando usuario 98/100: wuschel-schulz
+2025-10-31 23:56:07,685 - LessWrongExtractor - INFO - Procesando usuario 99/100: MadHatter
+2025-10-31 23:56:11,246 - LessWrongExtractor - INFO - Procesando usuario 100/100: abhayesian
+2025-10-31 23:56:13,472 - LessWrongExtractor - INFO - Checkpoint guardado: 100 usuarios procesados
+2025-10-31 23:56:13,474 - LessWrongExtractor - INFO - Extracción completada. Datos guardados en top100_lw_data/lesswrong/2025-10-31

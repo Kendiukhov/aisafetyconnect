@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "C56NXzEYrZ4x3cMwh",
+    "postId": "q8uNoJBgcpAe3bSBp",
+    "parentCommentId": "DGmAq8fh23cBHCGc4",
+    "topLevelCommentId": "7t6fdNiozKosZDMuj",
+    "contents": {
+      "markdown": "It's not clear that this is undesired behavior from the perspective of OpenAI. They aren't actually putting GPT in a situation where it will make high-stakes decisions, and upholding deontological principles seems better from a PR perspective than consequentialist reasoning in these cases.",
+      "plaintextDescription": "It's not clear that this is undesired behavior from the perspective of OpenAI. They aren't actually putting GPT in a situation where it will make high-stakes decisions, and upholding deontological principles seems better from a PR perspective than consequentialist reasoning in these cases."
+    },
+    "baseScore": 3,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-06-14T22:36:18.333Z",
+    "af": false
+  },
+  {
+    "_id": "7t6fdNiozKosZDMuj",
+    "postId": "q8uNoJBgcpAe3bSBp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> In worlds where natural abstraction basically fails, we are thoroughly and utterly fucked\n\nI'm not really sure what it would mean for the natural abstraction hypothesis to turn out to be true, or false. The hypothesis itself seems insufficiently clear to me.\n\nOn your view, if there are no \"natural abstractions,\" then we should predict that AIs will \"generalize off-distribution\" in ways that are catastrophic for human welfare. Okay, fine. I would prefer to just talk directly about the probability that AIs will generalize in catastrophic ways. I don't see any reason to think they will, and so maybe in your ontology that means I must accept the natural abstraction hypothesis. But in my ontology, there's no \"natural abstraction hypothesis\" link in the logical chain, I'm just directly applying induction to what we've seen so far about AI behavior.",
+      "plaintextDescription": "> In worlds where natural abstraction basically fails, we are thoroughly and utterly fucked\n\nI'm not really sure what it would mean for the natural abstraction hypothesis to turn out to be true, or false. The hypothesis itself seems insufficiently clear to me.\n\nOn your view, if there are no \"natural abstractions,\" then we should predict that AIs will \"generalize off-distribution\" in ways that are catastrophic for human welfare. Okay, fine. I would prefer to just talk directly about the probability that AIs will generalize in catastrophic ways. I don't see any reason to think they will, and so maybe in your ontology that means I must accept the natural abstraction hypothesis. But in my ontology, there's no \"natural abstraction hypothesis\" link in the logical chain, I'm just directly applying induction to what we've seen so far about AI behavior."
+    },
+    "baseScore": 7,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2024-06-11T18:27:54.082Z",
+    "af": false
+  },
+  {
+    "_id": "rnyv4K3FDyWyNjWwL",
+    "postId": "iABojbKgmtMGYgcYm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I responded in [this Twitter thread](https://x.com/norabelrose/status/1793682377237041238).",
+      "plaintextDescription": "I responded in this Twitter thread."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-23T17:01:07.644Z",
+    "af": false
+  },
+  {
+    "_id": "3R4bpQzr8nEauimSA",
+    "postId": "jGuXSZgv6qfdhMCuJ",
+    "parentCommentId": "7pwmoAg6Qw7fosLtS",
+    "topLevelCommentId": "fMCdZwnGuqt8BWcAL",
+    "contents": {
+      "markdown": "> I do think that \"orthogonalizing the weight matrices with respect to direction \\\\(\\hat{r}\\\\)\" is the clearest way of describing this method.\n\nI do respectfully disagree here. I think the verb \"orthogonalize\" is just confusing. I also don't think the distinction between optimization and no optimization is very important. What you're actually doing is orthogonally *projecting* the weight matrices onto the orthogonal complement of the direction.",
+      "plaintextDescription": "> I do think that \"orthogonalizing the weight matrices with respect to direction ^r\" is the clearest way of describing this method.\n\nI do respectfully disagree here. I think the verb \"orthogonalize\" is just confusing. I also don't think the distinction between optimization and no optimization is very important. What you're actually doing is orthogonally projecting the weight matrices onto the orthogonal complement of the direction."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-05-10T23:36:40.812Z",
+    "af": false
+  },
+  {
+    "_id": "fMCdZwnGuqt8BWcAL",
+    "postId": "jGuXSZgv6qfdhMCuJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Nice work! Since you cite our [LEACE paper,](https://arxiv.org/abs/2306.03819) I was wondering if you've tried burning LEACE into the weights of a model just like you burn an orthogonal projection into the weights here? It should work at least as well, if not better, since LEACE will perturb the activations less.\n\nNitpick: I wish you would use a word other than \"orthogonalization\" since it sounds like you're saying that you're making the weight matrix an orthogonal matrix. Why not LoRACS (Low Rank Adaptation Concept Erasure)?",
+      "plaintextDescription": "Nice work! Since you cite our LEACE paper, I was wondering if you've tried burning LEACE into the weights of a model just like you burn an orthogonal projection into the weights here? It should work at least as well, if not better, since LEACE will perturb the activations less.\n\nNitpick: I wish you would use a word other than \"orthogonalization\" since it sounds like you're saying that you're making the weight matrix an orthogonal matrix. Why not LoRACS (Low Rank Adaptation Concept Erasure)?"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-05-03T04:00:47.914Z",
+    "af": false
+  },
+  {
+    "_id": "7yACyLprfXhRXpD7y",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "MaGd2FTKJ2uFxnPA9",
+    "topLevelCommentId": "MaGd2FTKJ2uFxnPA9",
+    "contents": {
+      "markdown": "Unless you think transformative AI won't be trained with some variant of SGD, I don't see why this objection matters.\n\nAlso, I think the a priori methodological problems with counting arguments *in general* are decisive. You always need some kind of mechanistic story for why a \"uniform prior\" makes sense in a particular context, you can't just assume it.",
+      "plaintextDescription": "Unless you think transformative AI won't be trained with some variant of SGD, I don't see why this objection matters.\n\nAlso, I think the a priori methodological problems with counting arguments in general are decisive. You always need some kind of mechanistic story for why a \"uniform prior\" makes sense in a particular context, you can't just assume it."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-02T19:53:38.269Z",
+    "af": false
+  },
+  {
+    "_id": "KdozsFtH2yyBbLaQ3",
+    "postId": "GSSHcAoSChaKxjNDZ",
+    "parentCommentId": "yT8gwDcvGP76qjYNr",
+    "topLevelCommentId": "vYagmxdad7LisCtxG",
+    "contents": {
+      "markdown": "I don't know what caused it exactly, and it seems like I'm not rate limited anymore.",
+      "plaintextDescription": "I don't know what caused it exactly, and it seems like I'm not rate limited anymore."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-04-22T12:23:23.417Z",
+    "af": false
+  },
+  {
+    "_id": "53QEhsnHw5kcEYhKP",
+    "postId": "GSSHcAoSChaKxjNDZ",
+    "parentCommentId": "vYagmxdad7LisCtxG",
+    "topLevelCommentId": "vYagmxdad7LisCtxG",
+    "contents": {
+      "markdown": "> If moderators started rate-limiting Nora Belrose or someone else whose work I thought was particularly good\n\nI actually did get rate-limited today, unfortunately.",
+      "plaintextDescription": "> If moderators started rate-limiting Nora Belrose or someone else whose work I thought was particularly good\n\nI actually did get rate-limited today, unfortunately."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-04-20T06:58:39.454Z",
+    "af": false
+  },
+  {
+    "_id": "58pxZsX6P2QXEBW2F",
+    "postId": "ukTLGe5CQq9w8FMne",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Unclear why this is supposed to be a scary result.\n\n\"If prompting a model to do something bad generalizes to it being bad in other domains, this is also evidence for the idea that prompting a model to do something good will generalize to it doing good in other domains\" - Matthew Barnett",
+      "plaintextDescription": "Unclear why this is supposed to be a scary result.\n\n\"If prompting a model to do something bad generalizes to it being bad in other domains, this is also evidence for the idea that prompting a model to do something good will generalize to it doing good in other domains\" - Matthew Barnett"
+    },
+    "baseScore": 21,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2024-04-19T23:55:29.350Z",
+    "af": false
+  },
+  {
+    "_id": "agoBTAYddQvTvK9ni",
+    "postId": "RbynKk3evb6RiLryL",
+    "parentCommentId": "WvufDiYJEebiwzvNX",
+    "topLevelCommentId": "ZdnjZKxg5EES3D8ah",
+    "contents": {
+      "markdown": "Yeah, I think Evan is basically opportunistically changing his position during that exchange, and has no real coherent argument.",
+      "plaintextDescription": "Yeah, I think Evan is basically opportunistically changing his position during that exchange, and has no real coherent argument."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-03-14T16:42:15.883Z",
+    "af": false
+  },
+  {
+    "_id": "3bpCRaa2JCMdb8YLB",
+    "postId": "RbynKk3evb6RiLryL",
+    "parentCommentId": "ZdnjZKxg5EES3D8ah",
+    "topLevelCommentId": "ZdnjZKxg5EES3D8ah",
+    "contents": {
+      "markdown": "I do think that Solomonoff-flavored intuitions motivate much of the credence people around here put on scheming. Apparently Evan Hubinger puts a decent amount of weight on it, because he kept bringing it up in our discussion in the comments to [Counting arguments provide no evidence for AI doom](https://www.lesswrong.com/posts/YsFZF3K9tuzbfrLxo/counting-arguments-provide-no-evidence-for-ai-doom).",
+      "plaintextDescription": "I do think that Solomonoff-flavored intuitions motivate much of the credence people around here put on scheming. Apparently Evan Hubinger puts a decent amount of weight on it, because he kept bringing it up in our discussion in the comments to Counting arguments provide no evidence for AI doom."
+    },
+    "baseScore": 1,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-03-12T00:07:16.382Z",
+    "af": false
+  },
+  {
+    "_id": "8te3bGFBYRKWrPFdM",
+    "postId": "RbynKk3evb6RiLryL",
+    "parentCommentId": "8bNnQizLHJrgGCTYz",
+    "topLevelCommentId": "8bNnQizLHJrgGCTYz",
+    "contents": {
+      "markdown": "> The strong version as defined by Yudkowsky... is pretty obvious IMO\n\nI didn't expect you'd say that. In my view it's pretty obviously false. Knowledge and skills are not value-neutral, and some goals are a lot harder to instill into an AI than others bc the relevant training data will be harder to come by. Eliezer is just not taking into account data availability whatsoever, because he's still fundamentally thinking about things in terms of GOFAI and brains in boxes in basements rather than deep learning. As Robin Hanson pointed out in the foom debate years ago, the key component of intelligence is \"content.\" And content is far from value neutral.",
+      "plaintextDescription": "> The strong version as defined by Yudkowsky... is pretty obvious IMO\n\nI didn't expect you'd say that. In my view it's pretty obviously false. Knowledge and skills are not value-neutral, and some goals are a lot harder to instill into an AI than others bc the relevant training data will be harder to come by. Eliezer is just not taking into account data availability whatsoever, because he's still fundamentally thinking about things in terms of GOFAI and brains in boxes in basements rather than deep learning. As Robin Hanson pointed out in the foom debate years ago, the key component of intelligence is \"content.\" And content is far from value neutral."
+    },
+    "baseScore": 2,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-03-11T11:15:43.946Z",
+    "af": false
+  },
+  {
+    "_id": "vCriobZJiburqhJo8",
+    "postId": "RbynKk3evb6RiLryL",
+    "parentCommentId": "8bNnQizLHJrgGCTYz",
+    "topLevelCommentId": "8bNnQizLHJrgGCTYz",
+    "contents": {
+      "markdown": "As I argue in the video, I actually think the definitions of \"intelligence\" and \"goal\" that you need to make the Orthogonality Thesis trivially true are *bad, unhelpful* definitions. So I both think that it's false, and even if it were true it'd be trivial.\n\nI'll also note that Nick Bostrom himself seems to be making the motte and bailey argument here, which seems pretty damning considering his book was very influential and changed a lot of people's career paths, including my own.\n\n**Edit replying to an edit you made**: I mean, the most straightforward reading of Chapters 7 and 8 of *Superintelligence* is just a possibility-therefore-probability fallacy in my opinion. Without this fallacy, there would be little need to even bring up the orthogonality thesis at all, because it's such a weak claim.",
+      "plaintextDescription": "As I argue in the video, I actually think the definitions of \"intelligence\" and \"goal\" that you need to make the Orthogonality Thesis trivially true are bad, unhelpful definitions. So I both think that it's false, and even if it were true it'd be trivial.\n\nI'll also note that Nick Bostrom himself seems to be making the motte and bailey argument here, which seems pretty damning considering his book was very influential and changed a lot of people's career paths, including my own.\n\nEdit replying to an edit you made: I mean, the most straightforward reading of Chapters 7 and 8 of Superintelligence is just a possibility-therefore-probability fallacy in my opinion. Without this fallacy, there would be little need to even bring up the orthogonality thesis at all, because it's such a weak claim."
+    },
+    "baseScore": 2,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2024-03-11T07:48:12.463Z",
+    "af": false
+  },
+  {
+    "_id": "LvyvYsAJtyNDRNkgA",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "waN4eTizowwydj7iL",
+    "topLevelCommentId": "JPktaShnPX5RHsSNi",
+    "contents": {
+      "markdown": "If it's spontaneous then yeah, I don't expect it to happen ~ever really. I was mainly thinking about cases where people intentionally train models to scheme.",
+      "plaintextDescription": "If it's spontaneous then yeah, I don't expect it to happen ~ever really. I was mainly thinking about cases where people intentionally train models to scheme."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-03-07T07:16:02.002Z",
+    "af": false
+  },
+  {
+    "_id": "DRamwqww7uKvTw5v8",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "ycAB2sGGRnSX9hBRJ",
+    "topLevelCommentId": "JPktaShnPX5RHsSNi",
+    "contents": {
+      "markdown": "What do you mean \"hugely edited\"? What other things would you like us to change? If I were starting from scratch I would of course write the post differently but I don't think it would be worth my time to make major post hoc edits; I would like to focus on follow up posts.",
+      "plaintextDescription": "What do you mean \"hugely edited\"? What other things would you like us to change? If I were starting from scratch I would of course write the post differently but I don't think it would be worth my time to make major post hoc edits; I would like to focus on follow up posts."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-07T02:59:18.437Z",
+    "af": false
+  },
+  {
+    "_id": "gsHiNL7WRQcLDDhKQ",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "cXFnGfNrBAKGADyGH",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "> Isn't Evan giving you what he thinks is a valid counting argument i.e. a counting argument over parameterizations? \n\nWhere is the argument? If you run the counting argument in function space, it's at least clear why you might think there are \"more\" schemers than saints. But if you're going to say there are \"more\" params that correspond to scheming than there are saint-params, that looks like a substantive empirical claim that could easily turn out to be false.",
+      "plaintextDescription": "> Isn't Evan giving you what he thinks is a valid counting argument i.e. a counting argument over parameterizations? \n\nWhere is the argument? If you run the counting argument in function space, it's at least clear why you might think there are \"more\" schemers than saints. But if you're going to say there are \"more\" params that correspond to scheming than there are saint-params, that looks like a substantive empirical claim that could easily turn out to be false."
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-03-05T20:26:27.092Z",
+    "af": false
+  },
+  {
+    "_id": "PXKXF4wvLRHEtHZJw",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "F4JaS97bwCBgJpxL6",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "It's not clear to me what an \"algorithm\" is supposed to be here, and I suspect that this might be cruxy. In particular I suspect (40-50% confidence) that:\n\n*   You think there are objective and determinate facts about what \"algorithm\" a neural net is implementing, where\n*   Algorithms are supposed to be something like a Boolean circuit or a Turing machine rather than a neural network, and\n*   We can run counting arguments over these objective algorithms, which are distinct both from the neural net itself and the function it expresses.\n\nI reject all three of these premises, but I would consider it progress if I got confirmation that you in fact believe in them.",
+      "plaintextDescription": "It's not clear to me what an \"algorithm\" is supposed to be here, and I suspect that this might be cruxy. In particular I suspect (40-50% confidence) that:\n\n * You think there are objective and determinate facts about what \"algorithm\" a neural net is implementing, where\n * Algorithms are supposed to be something like a Boolean circuit or a Turing machine rather than a neural network, and\n * We can run counting arguments over these objective algorithms, which are distinct both from the neural net itself and the function it expresses.\n\nI reject all three of these premises, but I would consider it progress if I got confirmation that you in fact believe in them."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-03-05T07:10:42.840Z",
+    "af": false
+  },
+  {
+    "_id": "J4pn4apyDpQ7Jr7Ds",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "dmguswjYcCH2pJrka",
+    "topLevelCommentId": "RtMbgqXnrasA3xiNu",
+    "contents": {
+      "markdown": "I'm sorry to hear that you think the argumentation is weaker now.\n\n> the reader has to do the work to realize that indifference over functions is inappropriate\n\nI don't think that indifference over functions *in particular* is inappropriate. I think indifference reasoning in general is inappropriate.\n\n> I'm very happy with running counting arguments over the actual neural network parameter space\n\nI wouldn't call the correct version of this a counting argument. The correct version uses the actual distribution used to initialize the parameters as a measure, and not e.g. the [Lebesgue measure](https://en.wikipedia.org/wiki/Lebesgue_measure). This isn't appealing to the indifference principle at all, and so in my book it's not a counting argument. But this could be terminological.",
+      "plaintextDescription": "I'm sorry to hear that you think the argumentation is weaker now.\n\n> the reader has to do the work to realize that indifference over functions is inappropriate\n\nI don't think that indifference over functions in particular is inappropriate. I think indifference reasoning in general is inappropriate.\n\n> I'm very happy with running counting arguments over the actual neural network parameter space\n\nI wouldn't call the correct version of this a counting argument. The correct version uses the actual distribution used to initialize the parameters as a measure, and not e.g. the Lebesgue measure. This isn't appealing to the indifference principle at all, and so in my book it's not a counting argument. But this could be terminological."
+    },
+    "baseScore": 1,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-03-05T07:00:30.760Z",
+    "af": false
+  },
+  {
+    "_id": "93bPt56uT73FGumEo",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "TWaBGZLmNgDFZaBZw",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "> Fair enough if you never read any of these comments.\n\nYeah, I never saw any of those comments. I think it's obvious that the most natural reading of the counting argument is that it's an argument over function space (specifically, over equivalence classes of functions which correspond to \"goals.\") And I also think counting arguments for scheming over parameter space, or over Turing machines, or circuits, or whatever, are all much weaker. So from my perspective I'm attacking a steelman rather than a strawman.",
+      "plaintextDescription": "> Fair enough if you never read any of these comments.\n\nYeah, I never saw any of those comments. I think it's obvious that the most natural reading of the counting argument is that it's an argument over function space (specifically, over equivalence classes of functions which correspond to \"goals.\") And I also think counting arguments for scheming over parameter space, or over Turing machines, or circuits, or whatever, are all much weaker. So from my perspective I'm attacking a steelman rather than a strawman."
+    },
+    "baseScore": 1,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-03-05T03:13:41.643Z",
+    "af": false
+  },
+  {
+    "_id": "okiamypmmmtfeCmXK",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "cFBLRbvRb9S5CtxMY",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "I've read every word of all of your comments.\n\nI know that you think your criticism isn't dependent on Solomonoff induction in particular, because you also claim that a counting argument goes through under circuit prior. It still seems like you view the Solomonoff case as the central one, because you keep talking about \"bitstrings.\" And I've repeatedly said that I don't think the circuit prior works either, and why I think that.\n\nAt no point in this discussion have you provided any reason for thinking that in fact, the Solomonoff prior and/or circuit prior do provide non-negligible evidence about neural network inductive biases, despite the very obvious mechanistic disanalogies.\n\n> Yes—that's exactly the sort of counting argument that I like!\n\nThen make an NNGP counting argument! I have not seen such an argument anywhere. You seem to be alluding to unpublished, or at least little-known, arguments that did not make their way into Joe's scheming report.",
+      "plaintextDescription": "I've read every word of all of your comments.\n\nI know that you think your criticism isn't dependent on Solomonoff induction in particular, because you also claim that a counting argument goes through under circuit prior. It still seems like you view the Solomonoff case as the central one, because you keep talking about \"bitstrings.\" And I've repeatedly said that I don't think the circuit prior works either, and why I think that.\n\nAt no point in this discussion have you provided any reason for thinking that in fact, the Solomonoff prior and/or circuit prior do provide non-negligible evidence about neural network inductive biases, despite the very obvious mechanistic disanalogies.\n\n> Yes—that's exactly the sort of counting argument that I like!\n\nThen make an NNGP counting argument! I have not seen such an argument anywhere. You seem to be alluding to unpublished, or at least little-known, arguments that did not make their way into Joe's scheming report."
+    },
+    "baseScore": 0,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-03-05T03:07:00.376Z",
+    "af": false
+  },
+  {
+    "_id": "Koy8Lsedwz2S7Bpjh",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "Jq2XJDmoftv339fE5",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "So today we've learned that:\n\n1.  The real counting argument that Evan believes in is just a repackaging of Paul's argument for the malignity of the Solomonoff prior, and not anything novel.\n2.  Evan admits that Solomonoff is a very poor guide to neural network inductive biases.\n\nAt this point, I'm not sure why you're privileging the hypothesis of scheming at all.\n\n> you want to substitute it out for whatever the prior is that you think is closest to deep learning that you can still reason about theoretically.\n\nI mean, the [neural network Gaussian process](https://en.wikipedia.org/wiki/Neural_network_Gaussian_process) is literally this, and you can make it more realistic by using the neural tangent kernel to simulate training dynamics, perhaps with some finite width corrections. There is real literature on this.",
+      "plaintextDescription": "So today we've learned that:\n\n 1. The real counting argument that Evan believes in is just a repackaging of Paul's argument for the malignity of the Solomonoff prior, and not anything novel.\n 2. Evan admits that Solomonoff is a very poor guide to neural network inductive biases.\n\nAt this point, I'm not sure why you're privileging the hypothesis of scheming at all.\n\n> you want to substitute it out for whatever the prior is that you think is closest to deep learning that you can still reason about theoretically.\n\nI mean, the neural network Gaussian process is literally this, and you can make it more realistic by using the neural tangent kernel to simulate training dynamics, perhaps with some finite width corrections. There is real literature on this."
+    },
+    "baseScore": -14,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-03-05T02:47:48.288Z",
+    "af": true
+  },
+  {
+    "_id": "gNnW674ezhESgeZdR",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "tjaBoHiPdF3xhK4Nn",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "> What makes you think that's intended to be a counting argument over function space? I usually think of this as a counting argument over infinite bitstrings\n\nI definitely thought you were making a counting argument over function space, and AFAICT Joe also thought this in his report.\n\nThe bitstring version of the argument, to the extent I can understand it, just seems even worse to me. You're making an argument about one type of learning procedure, Solomonoff induction, which is physically unrealizable and AFAICT has not even inspired any serious real-world approximations, and then assuming that somehow the conclusions will transfer over to a mechanistically very different learning procedure, gradient descent. The same goes for the circuit prior thing (although FWIW I think you're very likely wrong that minimal circuits can be deceptive).",
+      "plaintextDescription": "> What makes you think that's intended to be a counting argument over function space? I usually think of this as a counting argument over infinite bitstrings\n\nI definitely thought you were making a counting argument over function space, and AFAICT Joe also thought this in his report.\n\nThe bitstring version of the argument, to the extent I can understand it, just seems even worse to me. You're making an argument about one type of learning procedure, Solomonoff induction, which is physically unrealizable and AFAICT has not even inspired any serious real-world approximations, and then assuming that somehow the conclusions will transfer over to a mechanistically very different learning procedure, gradient descent. The same goes for the circuit prior thing (although FWIW I think you're very likely wrong that minimal circuits can be deceptive)."
+    },
+    "baseScore": 3,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-03-05T02:30:47.177Z",
+    "af": true
+  },
+  {
+    "_id": "gNGqCgtpWgMb6tLy9",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "tC6EjLHpC5RquvG2w",
+    "topLevelCommentId": "RtMbgqXnrasA3xiNu",
+    "contents": {
+      "markdown": "FWIW I object to 2, 3, and 4, and maybe also 1.",
+      "plaintextDescription": "FWIW I object to 2, 3, and 4, and maybe also 1."
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-03-04T19:11:18.704Z",
+    "af": false
+  },
+  {
+    "_id": "nn2tu4JG8bdc9ijLS",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "dq4xYGdcZXqdDytgb",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "> It is trivially easy to modify the formalism to search only over fixed-size algorithms, and in fact that's usually what I do when I run this sort of analysis.\n\nWhat? Which formalism? I don't see how this is true at all. Please elaborate or send an example of \"modifying\" Solomonoff so that all the programs have fixed length, or \"modifying\" the circuit prior so all circuits are the same size.\n\nNo, I'm pretty familiar with your writing. I still don't think you're focusing on mainstream ML literature _enough_ because you're still putting nonzero weight on these other irrelevant formalisms. Taking that literature seriously would mean ceasing to take the Solomonoff or circuit prior literature seriously.",
+      "plaintextDescription": "> It is trivially easy to modify the formalism to search only over fixed-size algorithms, and in fact that's usually what I do when I run this sort of analysis.\n\nWhat? Which formalism? I don't see how this is true at all. Please elaborate or send an example of \"modifying\" Solomonoff so that all the programs have fixed length, or \"modifying\" the circuit prior so all circuits are the same size.\n\nNo, I'm pretty familiar with your writing. I still don't think you're focusing on mainstream ML literature enough because you're still putting nonzero weight on these other irrelevant formalisms. Taking that literature seriously would mean ceasing to take the Solomonoff or circuit prior literature seriously."
+    },
+    "baseScore": -3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-03-04T11:29:31.870Z",
+    "af": false
+  },
+  {
+    "_id": "DfDY7JvqeefTBeyZr",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "3ZzaN6xFFgohrWJSh",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "Right, and I've explained why I don't think any of those analyses are relevant to neural networks. Deep learning simply does not search over Turing machines or circuits of varying lengths. It searches over parameters of an arithmetic circuit of fixed structure, size, and runtime. So Solomonoff induction, speed priors, and circuit priors are *all* inapplicable. There has been a lot of work in the mainstream science of deep learning literature on the generalization behavior of actual neural nets, and I'm pretty baffled at why you don't pay more attention to that stuff.",
+      "plaintextDescription": "Right, and I've explained why I don't think any of those analyses are relevant to neural networks. Deep learning simply does not search over Turing machines or circuits of varying lengths. It searches over parameters of an arithmetic circuit of fixed structure, size, and runtime. So Solomonoff induction, speed priors, and circuit priors are all inapplicable. There has been a lot of work in the mainstream science of deep learning literature on the generalization behavior of actual neural nets, and I'm pretty baffled at why you don't pay more attention to that stuff."
+    },
+    "baseScore": -5,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-03-04T04:15:24.544Z",
+    "af": true
+  },
+  {
+    "_id": "smpb3Yz5TzdxcDv9F",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "DNC3DStcbK5PEkTEw",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "> Then show me how! If you think there are errors in the math, please point them out.\n\nI'm not aware of any actual math behind the counting argument for scheming. I've only ever seen handwavy informal arguments about the number of Christs vs Martin Luthers vs Blaise Pascals. There certainly was no formal argument presented in Joe's extensive scheming report, which I assumed would be sufficient context for writing this essay.",
+      "plaintextDescription": "> Then show me how! If you think there are errors in the math, please point them out.\n\nI'm not aware of any actual math behind the counting argument for scheming. I've only ever seen handwavy informal arguments about the number of Christs vs Martin Luthers vs Blaise Pascals. There certainly was no formal argument presented in Joe's extensive scheming report, which I assumed would be sufficient context for writing this essay."
+    },
+    "baseScore": -1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-03-04T02:12:42.781Z",
+    "af": true
+  },
+  {
+    "_id": "iBW3q2ez3s9jjcsaL",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "JPktaShnPX5RHsSNi",
+    "topLevelCommentId": "JPktaShnPX5RHsSNi",
+    "contents": {
+      "markdown": "I'm saying <0.1% chance on \"world is ended by spontaneous scheming.\" I'm not saying no AI will ever do anything that might be well-described as scheming, for any reason.",
+      "plaintextDescription": "I'm saying <0.1% chance on \"world is ended by spontaneous scheming.\" I'm not saying no AI will ever do anything that might be well-described as scheming, for any reason."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-03-04T01:06:23.616Z",
+    "af": false
+  },
+  {
+    "_id": "yxdJAkirdpy7Qvked",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "DzamvoDxhCpvnr9ux",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "I obviously don't think the counting argument for overfitting is actually sound, that's the whole point. But I think the counting argument for scheming is just as obviously invalid, and misuses formalisms just as egregiously, if not moreso.\n\nI deny that your Kolmogorov framework is anything like \"the proper formalism\" for neural networks. I also deny that the counting argument for overfitting is appropriately characterized as a \"finite bitstring\" argument, because that suggests I'm talking about Turing machine programs of finite length, which I'm not- I'm directly enumerating functions over a subset of the natural numbers. Are you saying the set of functions over 1...10,000 is not a well defined mathematical object?",
+      "plaintextDescription": "I obviously don't think the counting argument for overfitting is actually sound, that's the whole point. But I think the counting argument for scheming is just as obviously invalid, and misuses formalisms just as egregiously, if not moreso.\n\nI deny that your Kolmogorov framework is anything like \"the proper formalism\" for neural networks. I also deny that the counting argument for overfitting is appropriately characterized as a \"finite bitstring\" argument, because that suggests I'm talking about Turing machine programs of finite length, which I'm not- I'm directly enumerating functions over a subset of the natural numbers. Are you saying the set of functions over 1...10,000 is not a well defined mathematical object?"
+    },
+    "baseScore": 1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-03-04T01:02:21.410Z",
+    "af": true
+  },
+  {
+    "_id": "gvFsLQWXfGgcHKdNM",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "nGpyDMBuYLcTZAgnS",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "I never used any kind of bitstring analysis.",
+      "plaintextDescription": "I never used any kind of bitstring analysis."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-04T00:43:33.677Z",
+    "af": true
+  },
+  {
+    "_id": "qYHhWkMwwWKYBtdFF",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "Ne8CQP7JMngecwkLX",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "I think the infinite bitstring case has zero relevance to deep learning.\n\nThere does exist a concept you might call \"simplicity\" which is relevant to deep learning. The [neural network Gaussian process](https://en.wikipedia.org/wiki/Neural_network_Gaussian_process) describes the prior distribution over functions which is induced by the initialization distribution over neural net parameters. Under weak assumptions about the activation function and initialization variance, the NNGP is biased toward lower frequency functions. I think this cuts against scheming, and we plan to write up a post on this in the next month or two.",
+      "plaintextDescription": "I think the infinite bitstring case has zero relevance to deep learning.\n\nThere does exist a concept you might call \"simplicity\" which is relevant to deep learning. The neural network Gaussian process describes the prior distribution over functions which is induced by the initialization distribution over neural net parameters. Under weak assumptions about the activation function and initialization variance, the NNGP is biased toward lower frequency functions. I think this cuts against scheming, and we plan to write up a post on this in the next month or two."
+    },
+    "baseScore": 5,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-02-29T16:44:19.360Z",
+    "af": true
+  },
+  {
+    "_id": "xLJJsSrEYGZkmCJwr",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "PuDsDScHmLWxuGCHB",
+    "topLevelCommentId": "RtMbgqXnrasA3xiNu",
+    "contents": {
+      "markdown": "I'm well aware of how it's derived. I still don't think it makes sense to call that an indifference prior, precisely because enforcing an uncomputable halting requirement induces an exponentially strong bias toward short programs. But this could become a terminological point.\n\nI think relying on an obviously incorrect formalism is much worse than relying on no formalism at all. I also don't think I'm relying on zero formalism. The literature on the frequency/spectral bias is quite rigorous, and is grounded in actual facts about how neural network architectures work.",
+      "plaintextDescription": "I'm well aware of how it's derived. I still don't think it makes sense to call that an indifference prior, precisely because enforcing an uncomputable halting requirement induces an exponentially strong bias toward short programs. But this could become a terminological point.\n\nI think relying on an obviously incorrect formalism is much worse than relying on no formalism at all. I also don't think I'm relying on zero formalism. The literature on the frequency/spectral bias is quite rigorous, and is grounded in actual facts about how neural network architectures work."
+    },
+    "baseScore": 28,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2024-02-29T03:46:33.954Z",
+    "af": false
+  },
+  {
+    "_id": "zNPuZwrJPtv7RPDbq",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "RtMbgqXnrasA3xiNu",
+    "topLevelCommentId": "RtMbgqXnrasA3xiNu",
+    "contents": {
+      "markdown": "Thanks for the reply. A couple remarks:\n\n- \"indifference over infinite bitstrings\" is a misnomer in an important sense, because it's literally impossible to construct a normalized probability measure over infinite bitstrings that assigns equal probability to each one. What you're talking about is the length weighted measure that assigns exponentially more probability mass to shorter programs. That's definitely not an indifference principle, it's baking in substantive assumptions about what's more likely.\n- I don't see why we should expect any of this reasoning about Turing machines to transfer over to neural networks at all, which is why I didn't cast the counting argument in terms of Turing machines in the post. In the past I've seen you try to run counting or simplicity arguments in terms of parameters. I don't think any of that works, but I at least take it more seriously than the Turing machine stuff.\n- If we're really going to assume the Solomonoff prior here, then I may just agree with you that it's malign in Christiano's sense and could lead to scheming, but I take this to be a reductio of the idea that we can use Solomonoff as any kind of model for real world machine learning. Deep learning does not approximate Solomonoff in any meaningful sense.\n- Terminological point: it seems like you are using the term \"simple\" as if it has a unique and objective referent, namely Kolmogorov-simplicity. That's definitely not how I use the term; for me it's always relative to some subjective prior. Just wanted to make sure this doesn't cause confusion.",
+      "plaintextDescription": "Thanks for the reply. A couple remarks:\n\n * \"indifference over infinite bitstrings\" is a misnomer in an important sense, because it's literally impossible to construct a normalized probability measure over infinite bitstrings that assigns equal probability to each one. What you're talking about is the length weighted measure that assigns exponentially more probability mass to shorter programs. That's definitely not an indifference principle, it's baking in substantive assumptions about what's more likely.\n * I don't see why we should expect any of this reasoning about Turing machines to transfer over to neural networks at all, which is why I didn't cast the counting argument in terms of Turing machines in the post. In the past I've seen you try to run counting or simplicity arguments in terms of parameters. I don't think any of that works, but I at least take it more seriously than the Turing machine stuff.\n * If we're really going to assume the Solomonoff prior here, then I may just agree with you that it's malign in Christiano's sense and could lead to scheming, but I take this to be a reductio of the idea that we can use Solomonoff as any kind of model for real world machine learning. Deep learning does not approximate Solomonoff in any meaningful sense.\n * Terminological point: it seems like you are using the term \"simple\" as if it has a unique and objective referent, namely Kolmogorov-simplicity. That's definitely not how I use the term; for me it's always relative to some subjective prior. Just wanted to make sure this doesn't cause confusion."
+    },
+    "baseScore": 34,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2024-02-29T03:31:11.887Z",
+    "af": true
+  },
+  {
+    "_id": "r32fGTnYvFxrxDhPS",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "nZqvMxngKrYhXgtG9",
+    "topLevelCommentId": "jkQYFkpfhByHua5Ly",
+    "contents": {
+      "markdown": "I'm not actually sure the scheming problems are \"compatible\" with good performance on these metrics, and even if they are, that doesn't mean they're likely or plausible given good performance on our metrics.\n\n> Human brains are way more similar to other natural brains\n\nSo I disagree with this, but likely because we are using different conceptions of similarity. In order to continue this conversation we're going to need to figure out what \"similar\" means, because the term is almost meaningless in controversial cases— you can fill in whatever similarity metric you want. I used the term earlier as a shorthand for a more detailed story about randomly initialized singular statistical models learned with iterative, local update rules. I think both artificial and biological NNs fit that description, and this is an important notion of similarity.",
+      "plaintextDescription": "I'm not actually sure the scheming problems are \"compatible\" with good performance on these metrics, and even if they are, that doesn't mean they're likely or plausible given good performance on our metrics.\n\n> Human brains are way more similar to other natural brains\n\nSo I disagree with this, but likely because we are using different conceptions of similarity. In order to continue this conversation we're going to need to figure out what \"similar\" means, because the term is almost meaningless in controversial cases— you can fill in whatever similarity metric you want. I used the term earlier as a shorthand for a more detailed story about randomly initialized singular statistical models learned with iterative, local update rules. I think both artificial and biological NNs fit that description, and this is an important notion of similarity."
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-02-28T21:37:44.821Z",
+    "af": false
+  },
+  {
+    "_id": "rDpBtQ8HXA6Bu3HrD",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "B7KcB4QbsSL5rzDaw",
+    "topLevelCommentId": "ZuLg52ouCDWEHhWCq",
+    "contents": {
+      "markdown": "This is just an equivocation, though. Of course you could train an AI to \"scheme\" against people in the sense of selling a fake blood testing service. That doesn't mean that by default you should expect AIs to spontaneously start scheming against you, and in ways you can't easily notice.",
+      "plaintextDescription": "This is just an equivocation, though. Of course you could train an AI to \"scheme\" against people in the sense of selling a fake blood testing service. That doesn't mean that by default you should expect AIs to spontaneously start scheming against you, and in ways you can't easily notice."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-02-28T16:16:18.978Z",
+    "af": false
+  },
+  {
+    "_id": "LLWpFEhs8YrWjE4iA",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "G8MF8D9CRHGhKNSYv",
+    "topLevelCommentId": "XHEZ2ficrcoj5rm72",
+    "contents": {
+      "markdown": "Could you be more specific? In what way will there be non-mild distribution shifts in the future?",
+      "plaintextDescription": "Could you be more specific? In what way will there be non-mild distribution shifts in the future?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-28T16:11:37.650Z",
+    "af": false
+  },
+  {
+    "_id": "gJ2bKGrbc7tbkSrkc",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "cKnzTNndsWYdro7ky",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "With respect to which measure though? You have to define a measure, there are going to be infinitely many possible measures you could define on this space. And then we'll have to debate if your measure is a good one.",
+      "plaintextDescription": "With respect to which measure though? You have to define a measure, there are going to be infinitely many possible measures you could define on this space. And then we'll have to debate if your measure is a good one."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-28T16:09:08.289Z",
+    "af": true
+  },
+  {
+    "_id": "ebbrsgKo3oy2SYmKe",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "Nzszbjwxip8xuNjfs",
+    "topLevelCommentId": "Nzszbjwxip8xuNjfs",
+    "contents": {
+      "markdown": "I just deny that they will update \"arbitrarily\" far from the prior, and I don't know why you would think otherwise. There are compute tradeoffs and you're doing to run only as many MCTS rollouts as you need to get good performance.",
+      "plaintextDescription": "I just deny that they will update \"arbitrarily\" far from the prior, and I don't know why you would think otherwise. There are compute tradeoffs and you're doing to run only as many MCTS rollouts as you need to get good performance."
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-02-28T07:36:51.727Z",
+    "af": false
+  },
+  {
+    "_id": "QwDb8qiKJaxQoepDX",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "jkQYFkpfhByHua5Ly",
+    "topLevelCommentId": "jkQYFkpfhByHua5Ly",
+    "contents": {
+      "markdown": "> they almost certainly don't have anything to do with what humans want, per se. (that would be basically magic)\n\nWe are obviously not appealing to literal telepathy or magic. Deep learning generalizes the way we want in part because we designed the architectures to be good, in part because human brains are built on similar principles to deep learning, and in part because we share a world with our deep learning models and are exposed to similar data.",
+      "plaintextDescription": "> they almost certainly don't have anything to do with what humans want, per se. (that would be basically magic)\n\nWe are obviously not appealing to literal telepathy or magic. Deep learning generalizes the way we want in part because we designed the architectures to be good, in part because human brains are built on similar principles to deep learning, and in part because we share a world with our deep learning models and are exposed to similar data."
+    },
+    "baseScore": 10,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-02-28T07:33:13.486Z",
+    "af": false
+  },
+  {
+    "_id": "R6rZLD2NaWmtRDyYW",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "Q3RoZ8xSDb5adokCo",
+    "topLevelCommentId": "Q3RoZ8xSDb5adokCo",
+    "contents": {
+      "markdown": "Hi, thanks for this thoughtful reply. I don't have time to respond to every point here now- although I did respond to some of them when you first made them as comments on the draft. Let's talk in person about this stuff soon, and after we're sure we understand each other I can \"report back\" some conclusions.\n\nI do tentatively plan to write a philosophy essay just on the indifference principle soonish, because it has implications for other important issues like the simulation argument and many popular arguments for the existence of god.\n\nIn the meantime, here's what I said about the Mortimer case when you first mentioned it:\n\n> We're ultimately going to have to cash this out in terms of decision theory. If you're comparing policies for an actual detective in this scenario, the uniform prior policy is going to do worse than the \"use demographic info to make a non-uniform prior\" policy, and the \"put probability 1 on the first person you see named Mortimer\" policy is going to do worst of all, as long as your utility function penalizes being confidently wrong 1 - p(Mortimer is the killer) fraction of the time more strongly than it rewards being confidently right p(Mortimer is the killer) fraction of the time.\n\n> If we trained a neural net with cross-entropy loss to predict the killer, it would do something like the demographic info thing. If you give the neural net zero information, then with cross entropy loss it would indeed learn to use an indifference principle over people, but that's only because we've defined our CE loss over people and not some other coarse-graining of the possibility space.\n\n> For human epistemology, I think Huemer's restricted indifference principle is going to do better than some unrestricted indifference principle (which can lead to outright contradictions), and I expect my policy of \"always scrounge up whatever evidence you have, and/or reason by abduction, rather than by indifference\" would do best (wrt my own preference ordering at least).\n\n> There are going to be some scenarios where an indifference prior is pretty good decision-theoretically because your utility function privileges a certain coarse graining of the world. Like in the detective case you probably care about individual people more than anything else— making sure individual innocents are not convicted and making sure the individual perpetrator gets caught.\n\n> The same reasoning clearly does not apply in the scheming case. It's not like there's a privileged coarse graining of goal-space, where we are trying to minimize the cross-entropy loss of our prediction wrt that coarse graining, each goal-category is indistinguishable from every other, and almost all the goal-categories lead to scheming.\n",
+      "plaintextDescription": "Hi, thanks for this thoughtful reply. I don't have time to respond to every point here now- although I did respond to some of them when you first made them as comments on the draft. Let's talk in person about this stuff soon, and after we're sure we understand each other I can \"report back\" some conclusions.\n\nI do tentatively plan to write a philosophy essay just on the indifference principle soonish, because it has implications for other important issues like the simulation argument and many popular arguments for the existence of god.\n\nIn the meantime, here's what I said about the Mortimer case when you first mentioned it:\n\n> We're ultimately going to have to cash this out in terms of decision theory. If you're comparing policies for an actual detective in this scenario, the uniform prior policy is going to do worse than the \"use demographic info to make a non-uniform prior\" policy, and the \"put probability 1 on the first person you see named Mortimer\" policy is going to do worst of all, as long as your utility function penalizes being confidently wrong 1 - p(Mortimer is the killer) fraction of the time more strongly than it rewards being confidently right p(Mortimer is the killer) fraction of the time.\n\n> If we trained a neural net with cross-entropy loss to predict the killer, it would do something like the demographic info thing. If you give the neural net zero information, then with cross entropy loss it would indeed learn to use an indifference principle over people, but that's only because we've defined our CE loss over people and not some other coarse-graining of the possibility space.\n\n> For human epistemology, I think Huemer's restricted indifference principle is going to do better than some unrestricted indifference principle (which can lead to outright contradictions), and I expect my policy of \"always scrounge up whatever evidence you have, and/or reason by abduction, rather than by indifference\" would do best (wrt my own preference ordering at least).\n"
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-02-28T05:44:58.583Z",
+    "af": false
+  },
+  {
+    "_id": "WJbA3bANqSXcPeDcZ",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "XHEZ2ficrcoj5rm72",
+    "topLevelCommentId": "XHEZ2ficrcoj5rm72",
+    "contents": {
+      "markdown": "I don't think the distinction is important, because in real-world AI systems the train -> deployment shift is quite mild, and we're usually training the model on new trajectories from deployment periodically.\n\nThe distinction only matters a lot if you *ex ante* believe scheming is happening, so that the tiniest difference between train and test distributions will be exploited by the AI to execute a treacherous turn.",
+      "plaintextDescription": "I don't think the distinction is important, because in real-world AI systems the train -> deployment shift is quite mild, and we're usually training the model on new trajectories from deployment periodically.\n\nThe distinction only matters a lot if you ex ante believe scheming is happening, so that the tiniest difference between train and test distributions will be exploited by the AI to execute a treacherous turn."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-28T04:49:32.350Z",
+    "af": false
+  },
+  {
+    "_id": "ur9cP5thCrQJjyBRJ",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "ZuLg52ouCDWEHhWCq",
+    "topLevelCommentId": "ZuLg52ouCDWEHhWCq",
+    "contents": {
+      "markdown": "> If networks trained via SGD can't learn scheming\n\nIt's not that they *can't* learn scheming. A sufficiently wide network can learn any continuous function. It's that they're biased strongly against scheming, and they're not going to learn it unless the training data primarily consists of examples of humans scheming against one another, or something.\n\n> These bullets seem like plausible reasons for why you probably won't get scheming within a single forward pass of a current-paradigm DL model, but are already inapplicable to the real-world AI systems in which these models are deployed.\n\nWhy does chaining forward passes together make any difference? Each forward pass has been optimized to mimic patterns in the training data. Nothing more, nothing less. It'll scheme in context X iff scheming behavior is likely in context X in the training corpus.",
+      "plaintextDescription": "> If networks trained via SGD can't learn scheming\n\nIt's not that they can't learn scheming. A sufficiently wide network can learn any continuous function. It's that they're biased strongly against scheming, and they're not going to learn it unless the training data primarily consists of examples of humans scheming against one another, or something.\n\n> These bullets seem like plausible reasons for why you probably won't get scheming within a single forward pass of a current-paradigm DL model, but are already inapplicable to the real-world AI systems in which these models are deployed.\n\nWhy does chaining forward passes together make any difference? Each forward pass has been optimized to mimic patterns in the training data. Nothing more, nothing less. It'll scheme in context X iff scheming behavior is likely in context X in the training corpus."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-02-28T04:46:18.769Z",
+    "af": false
+  },
+  {
+    "_id": "sry6ZekWriqevjC9r",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "iLaGJJM4JPbgM8EXi",
+    "topLevelCommentId": "iLaGJJM4JPbgM8EXi",
+    "contents": {
+      "markdown": "It depends what you mean by a \"way\" the model can overfit.\n\nReally we need to bring in [measure theory](https://en.wikipedia.org/wiki/Measure_(mathematics)) to rigorously talk about this, and an early draft of this post actually did introduce some measure-theoretic concepts. Basically we need to define:\n\n*   What set are we talking about,\n*   What measure we're using over that set,\n*   And how that measure relates to the *probability measure* over possible AIs.\n\nThe English locution \"lots of ways to do X\" can be formalized as \"the measure of X-networks is high.\" And that's going to be an empirical claim that we can actually debate.",
+      "plaintextDescription": "It depends what you mean by a \"way\" the model can overfit.\n\nReally we need to bring in measure theory to rigorously talk about this, and an early draft of this post actually did introduce some measure-theoretic concepts. Basically we need to define:\n\n * What set are we talking about,\n * What measure we're using over that set,\n * And how that measure relates to the probability measure over possible AIs.\n\nThe English locution \"lots of ways to do X\" can be formalized as \"the measure of X-networks is high.\" And that's going to be an empirical claim that we can actually debate."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-28T04:40:54.884Z",
+    "af": true
+  },
+  {
+    "_id": "osezYpvSNnAS8rJLX",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "Y85xeRTgttZQdApkN",
+    "topLevelCommentId": "gt72mFa6oTyX3mTAk",
+    "contents": {
+      "markdown": "Some incomplete brief replies:\n\n> Huemer... indeed seems confused about all sorts of things\n\nSure, I was just searching for professional philosopher takes on the indifference principle, and that chapter in *Paradox Lost* was among the first things I found.\n\n> Separately, \"reductionism as a general philosophical thesis\" does not imply the thing you call \"goal reductionism\"\n\nDid you see the footnote I wrote on this? I give a further argument for it.\n\n> doesn't mean the end-to-end trained system will turn out non-modular.\n\nI looked into modularity for a bit 1.5 years ago and concluded that the concept is way too vague and seemed useless for alignment or interpretability purposes. If you have a good definition I'm open to hearing it.\n\n> There are good reasons behaviorism was abandoned in psychology, and I expect those reasons carry over to LLMs.\n\nTo me it looks like people abandoned behaviorism for pretty bad reasons. The ongoing replication crisis in psychology does not inspire confidence in that field's ability to correctly diagnose bullshit.\n\nThat said, I don't think my views depend on behaviorism being the best framework for *human* psychology. The case for behaviorism in the AI case is much, much stronger: the equations for an algorithm like REINFORCE or DPO directly push up the probability of some actions and push down the probability of others.",
+      "plaintextDescription": "Some incomplete brief replies:\n\n> Huemer... indeed seems confused about all sorts of things\n\nSure, I was just searching for professional philosopher takes on the indifference principle, and that chapter in Paradox Lost was among the first things I found.\n\n> Separately, \"reductionism as a general philosophical thesis\" does not imply the thing you call \"goal reductionism\"\n\nDid you see the footnote I wrote on this? I give a further argument for it.\n\n> doesn't mean the end-to-end trained system will turn out non-modular.\n\nI looked into modularity for a bit 1.5 years ago and concluded that the concept is way too vague and seemed useless for alignment or interpretability purposes. If you have a good definition I'm open to hearing it.\n\n> There are good reasons behaviorism was abandoned in psychology, and I expect those reasons carry over to LLMs.\n\nTo me it looks like people abandoned behaviorism for pretty bad reasons. The ongoing replication crisis in psychology does not inspire confidence in that field's ability to correctly diagnose bullshit.\n\nThat said, I don't think my views depend on behaviorism being the best framework for human psychology. The case for behaviorism in the AI case is much, much stronger: the equations for an algorithm like REINFORCE or DPO directly push up the probability of some actions and push down the probability of others."
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-02-28T02:45:08.048Z",
+    "af": false
+  },
+  {
+    "_id": "JyjdFeZRAb2vmzFsy",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "RNk6xtDGxEER3M8eJ",
+    "topLevelCommentId": "GqqRWRwsCC6xnjrPA",
+    "contents": {
+      "markdown": "No, I don't think they are semantically very different. This seems like nitpicking. Obviously \"they are likely to encounter\" has to have some sort of time horizon attached to it, otherwise it would include times well past the heat death of the universe, or something.",
+      "plaintextDescription": "No, I don't think they are semantically very different. This seems like nitpicking. Obviously \"they are likely to encounter\" has to have some sort of time horizon attached to it, otherwise it would include times well past the heat death of the universe, or something."
+    },
+    "baseScore": 2,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2024-02-28T02:31:35.051Z",
+    "af": false
+  },
+  {
+    "_id": "FTZMhWWgptnEnELuE",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "nYsLKCxBXjCMXoZgb",
+    "topLevelCommentId": "nYsLKCxBXjCMXoZgb",
+    "contents": {
+      "markdown": "You can find my EA forum response [here](https://forum.effectivealtruism.org/posts/qtDLZsM5rypkEHxYm/counting-arguments-provide-no-evidence-for-ai-doom?commentId=K9HTfyiziKvHt2vSQ).",
+      "plaintextDescription": "You can find my EA forum response here."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-02-28T02:29:07.159Z",
+    "af": false
+  },
+  {
+    "_id": "oHfJbbDausfox2W6G",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "gt72mFa6oTyX3mTAk",
+    "topLevelCommentId": "gt72mFa6oTyX3mTAk",
+    "contents": {
+      "markdown": "I'm pleasantly surprised that you think the post is \"pretty decent.\"\n\nI'm curious which parts of the Goal Realism section you find \"philosophically confused,\" because we are trying to correct what we consider to be deep philosophical confusion fairly pervasive on LessWrong.\n\nI recall hearing your compression argument for general-purpose search a long time ago, and it honestly seems pretty confused / clearly wrong to me. I would like to see a much more rigorous definition of \"search\" and why search would actually be \"compressive\" in the relevant sense for NN inductive biases. My current take is something like \"a lot of the references to internal search on LW are just incoherent\" and to the extent you can make them coherent, NNs are either actively biased away from search, or they are only biased toward \"search\" in ways that are totally benign.\n\nMore generally, I'm quite skeptical of the jump from any *mechanistic* notion of search, and the kind of grabby consequentialism that people tend to be worried about. I suspect there's a double dissociation between these things, where \"mechanistic search\" is almost always benign, and grabby consequentialism need not be backed by mechanistic search.",
+      "plaintextDescription": "I'm pleasantly surprised that you think the post is \"pretty decent.\"\n\nI'm curious which parts of the Goal Realism section you find \"philosophically confused,\" because we are trying to correct what we consider to be deep philosophical confusion fairly pervasive on LessWrong.\n\nI recall hearing your compression argument for general-purpose search a long time ago, and it honestly seems pretty confused / clearly wrong to me. I would like to see a much more rigorous definition of \"search\" and why search would actually be \"compressive\" in the relevant sense for NN inductive biases. My current take is something like \"a lot of the references to internal search on LW are just incoherent\" and to the extent you can make them coherent, NNs are either actively biased away from search, or they are only biased toward \"search\" in ways that are totally benign.\n\nMore generally, I'm quite skeptical of the jump from any mechanistic notion of search, and the kind of grabby consequentialism that people tend to be worried about. I suspect there's a double dissociation between these things, where \"mechanistic search\" is almost always benign, and grabby consequentialism need not be backed by mechanistic search."
+    },
+    "baseScore": 25,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2024-02-28T01:20:17.183Z",
+    "af": false
+  },
+  {
+    "_id": "Cmhd5rcwgo3wRauTH",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "GqqRWRwsCC6xnjrPA",
+    "topLevelCommentId": "GqqRWRwsCC6xnjrPA",
+    "contents": {
+      "markdown": "The point of that section is that \"goals\" are not ontologically fundamental entities with precise contents, in fact they *could not possibly be so* given a naturalistic worldview. So you don't need to \"target the inner search,\" you just need to get the system to act the way you want in all the relevant scenarios.\n\nThe modern world is not a relevant scenario for evolution. \"Evolution\" did not need to, was not \"intending to,\" and could not have designed human brains so that they would do high inclusive genetic fitness stuff even when the environment wildly dramatically changes and culture becomes completely different from the ancestral environment.",
+      "plaintextDescription": "The point of that section is that \"goals\" are not ontologically fundamental entities with precise contents, in fact they could not possibly be so given a naturalistic worldview. So you don't need to \"target the inner search,\" you just need to get the system to act the way you want in all the relevant scenarios.\n\nThe modern world is not a relevant scenario for evolution. \"Evolution\" did not need to, was not \"intending to,\" and could not have designed human brains so that they would do high inclusive genetic fitness stuff even when the environment wildly dramatically changes and culture becomes completely different from the ancestral environment."
+    },
+    "baseScore": 5,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2024-02-28T00:57:03.197Z",
+    "af": true
+  },
+  {
+    "_id": "ycLdiNwWhdJz364Gy",
+    "postId": "YsFZF3K9tuzbfrLxo",
+    "parentCommentId": "v8mbKhzctdDed2May",
+    "topLevelCommentId": "v8mbKhzctdDed2May",
+    "contents": {
+      "markdown": "I doubt there would be much difference, and I think the alignment-relevant comparison is to compare in-distribution but out-of-sample performance to out-of-distribution performance. We can easily do i.i.d. splits of our data, that's not a problem. You might think it's a problem to directly test the model in scenarios where it could legitimately execute a takeover if it wanted to.",
+      "plaintextDescription": "I doubt there would be much difference, and I think the alignment-relevant comparison is to compare in-distribution but out-of-sample performance to out-of-distribution performance. We can easily do i.i.d. splits of our data, that's not a problem. You might think it's a problem to directly test the model in scenarios where it could legitimately execute a takeover if it wanted to."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-28T00:33:17.603Z",
+    "af": true
+  },
+  {
+    "_id": "JW4ZBrEgwhM7xBy9f",
+    "postId": "FyChg3kYG54tEN3u6",
+    "parentCommentId": "KeXo9tXsm4poyiWgA",
+    "topLevelCommentId": "wxXtWHfPgkqss5Tns",
+    "contents": {
+      "markdown": "People come to have sparse and beyond-lifetime goals through mechanisms that are unavailable to biological evolution— it took thousands of years of memetic evolution for people to even develop the concept of a long future that we might be able to affect with our short lives. We're in a much better position to instill long-range goals into AIs, if we choose to do so— we can simply train them to imitate human thought processes which give rise to longterm-oriented behaviors.",
+      "plaintextDescription": "People come to have sparse and beyond-lifetime goals through mechanisms that are unavailable to biological evolution— it took thousands of years of memetic evolution for people to even develop the concept of a long future that we might be able to affect with our short lives. We're in a much better position to instill long-range goals into AIs, if we choose to do so— we can simply train them to imitate human thought processes which give rise to longterm-oriented behaviors."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-01-19T03:46:47.826Z",
+    "af": false
+  },
+  {
+    "_id": "fCHEXjg5knxhWugyS",
+    "postId": "FyChg3kYG54tEN3u6",
+    "parentCommentId": "LLxxNCZJSgfDna7Zf",
+    "topLevelCommentId": "wxXtWHfPgkqss5Tns",
+    "contents": {
+      "markdown": "It's very difficult to get any agent to robustly pursue something like IGF because it's an inherently sparse and beyond-lifetime goal. Human values have been pre-densified for us: they are precisely the kinds of things it's easy to get an intelligence to pursue fairly robustly. We get dense, repeated, in-lifetime feedback about stuff like sex, food, love, revenge, and so on. A priori, if you're an agent built by evolution, you should expect to have values that are easy to learn— it would be surprising if it turned out that evolution did things the hard way. So evolution suggests alignment should be easy.",
+      "plaintextDescription": "It's very difficult to get any agent to robustly pursue something like IGF because it's an inherently sparse and beyond-lifetime goal. Human values have been pre-densified for us: they are precisely the kinds of things it's easy to get an intelligence to pursue fairly robustly. We get dense, repeated, in-lifetime feedback about stuff like sex, food, love, revenge, and so on. A priori, if you're an agent built by evolution, you should expect to have values that are easy to learn— it would be surprising if it turned out that evolution did things the hard way. So evolution suggests alignment should be easy."
+    },
+    "baseScore": 11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-01-19T02:41:12.154Z",
+    "af": false
+  },
+  {
+    "_id": "KwvfexseCg7CbPyqh",
+    "postId": "ZAsJv7xijKTfZkMtr",
+    "parentCommentId": "HbdXv7sucfHi75ieH",
+    "topLevelCommentId": "ti9EAgmA6BjPZjeAP",
+    "contents": {
+      "markdown": "I don't think the results you cited matter much, because fundamentally the paper is considering a condition in which the model ~always is being pre-prompted with \"Current year: XYZ\" or something similar in another language (please let me know if that's not true, but that's my best-effort read of the paper).\n\nI'm assuming we're not worried about the literal scenario in which the date in the system prompt causes a distribution shift, because you can always spoof the date during training to include future years without much of a problem. Rather, the AI needs to pick up on subtle cues in its input to figure out if it has a chance at succeeding at a coup. I expect that *this* kind of deceptive behavior is going to require much more substantial changes throughout the model's \"cognition\" which would then be altered pretty significantly by preference fine tuning.\n\nYou actually might be able to set up experiments to test this, and I'd be pretty interested to see the results, although I expect it to be somewhat tricky to get models to do full blown scheming (including deciding when to defect from subtle cues) reliably.",
+      "plaintextDescription": "I don't think the results you cited matter much, because fundamentally the paper is considering a condition in which the model ~always is being pre-prompted with \"Current year: XYZ\" or something similar in another language (please let me know if that's not true, but that's my best-effort read of the paper).\n\nI'm assuming we're not worried about the literal scenario in which the date in the system prompt causes a distribution shift, because you can always spoof the date during training to include future years without much of a problem. Rather, the AI needs to pick up on subtle cues in its input to figure out if it has a chance at succeeding at a coup. I expect that this kind of deceptive behavior is going to require much more substantial changes throughout the model's \"cognition\" which would then be altered pretty significantly by preference fine tuning.\n\nYou actually might be able to set up experiments to test this, and I'd be pretty interested to see the results, although I expect it to be somewhat tricky to get models to do full blown scheming (including deciding when to defect from subtle cues) reliably."
+    },
+    "baseScore": 21,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2024-01-15T03:35:36.336Z",
+    "af": true
+  },
+  {
+    "_id": "uCNfkmq4Mw2EwMavu",
+    "postId": "ZAsJv7xijKTfZkMtr",
+    "parentCommentId": "YnDwmLEgTJ5bLPrjt",
+    "topLevelCommentId": "ti9EAgmA6BjPZjeAP",
+    "contents": {
+      "markdown": "So, I think this is wrong.\n\n> While our models aren't natural examples of deceptive alignment—so there's still some room for the hypothesis that natural examples would be easier to remove—I think our models are strongly suggestive that we should assume by default that deceptive alignment would be difficult to remove if we got it. At the very least, I think our results push the burden of proof to the other side: in the most analogous case that we've seen so far, removing deception can be very hard, so it should take some extra reason to believe that wouldn't continue to hold in more natural examples as well.\n\nWhile a backdoor which causes the AI to become evil is obviously bad, and it may be hard to remove, the usual arguments for taking deception/scheming seriously do not predict backdoors. Rather, they predict that the AI will develop an \"inner goal\" which it coherently pursues across contexts. That means there's not going to be a *single* activating context for the bad behavior (like in this paper, where it's just \"see text that says the year is 2024\" or \"special DEPLOYMENT token\") but rather the behavior would be flexibly activated in a wide range of contexts depending on the actual likelihood of the AI succeeding at staging a coup. That's how you get the counting argument going— there's a wide range of goals compatible with scheming, etc. But the analogous counting argument for backdoors— there's a wide range of backdoors that might spontaneously appear in the model and most of them are catastrophic, or something— proves way too much and is basically a repackaging of the unsound argument \"most neural nets should overfit / fail to generalize.\"  \n  \nI think it's far from clear that an AI which had somehow developed a misaligned inner goal— involving thousands or millions of activating contexts— would have all these contexts preserved after safety training. In other words, I think true mesaoptimization is basically an ensemble of a very very large number of backdoors, making it much easier to locate and remove.",
+      "plaintextDescription": "So, I think this is wrong.\n\n> While our models aren't natural examples of deceptive alignment—so there's still some room for the hypothesis that natural examples would be easier to remove—I think our models are strongly suggestive that we should assume by default that deceptive alignment would be difficult to remove if we got it. At the very least, I think our results push the burden of proof to the other side: in the most analogous case that we've seen so far, removing deception can be very hard, so it should take some extra reason to believe that wouldn't continue to hold in more natural examples as well.\n\nWhile a backdoor which causes the AI to become evil is obviously bad, and it may be hard to remove, the usual arguments for taking deception/scheming seriously do not predict backdoors. Rather, they predict that the AI will develop an \"inner goal\" which it coherently pursues across contexts. That means there's not going to be a single activating context for the bad behavior (like in this paper, where it's just \"see text that says the year is 2024\" or \"special DEPLOYMENT token\") but rather the behavior would be flexibly activated in a wide range of contexts depending on the actual likelihood of the AI succeeding at staging a coup. That's how you get the counting argument going— there's a wide range of goals compatible with scheming, etc. But the analogous counting argument for backdoors— there's a wide range of backdoors that might spontaneously appear in the model and most of them are catastrophic, or something— proves way too much and is basically a repackaging of the unsound argument \"most neural nets should overfit / fail to generalize.\"\n\nI think it's far from clear that an AI which had somehow developed a misaligned inner goal— involving thousands or millions of activating contexts— would have all these contexts preserved after safety training. In other words, I think true mesaoptimization is basically an ensemble of a very very large number of backdoors, ma"
+    },
+    "baseScore": 18,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2024-01-14T18:53:07.898Z",
+    "af": true
+  },
+  {
+    "_id": "bXw7KDnbzvndJ33n2",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": "PkLCdnuwaMzgyvXWf",
+    "topLevelCommentId": "B6uhr3Gq5Fui4JLSf",
+    "contents": {
+      "markdown": "Game theory",
+      "plaintextDescription": "Game theory"
+    },
+    "baseScore": -30,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-01-10T23:07:30.322Z",
+    "af": false
+  },
+  {
+    "_id": "C2ECoRWBNXiSdCm9J",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": "uoioc4vRroJkWgTWe",
+    "topLevelCommentId": "B6uhr3Gq5Fui4JLSf",
+    "contents": {
+      "markdown": "> because of anthropic arguments, it's meaningless to look at past doom events to compute this proba\n\nI disagree; anthropics is pretty normal (https://www.lesswrong.com/posts/uAqs5Q3aGEen3nKeX/anthropics-is-pretty-normal)",
+      "plaintextDescription": "> because of anthropic arguments, it's meaningless to look at past doom events to compute this proba\n\nI disagree; anthropics is pretty normal (https://www.lesswrong.com/posts/uAqs5Q3aGEen3nKeX/anthropics-is-pretty-normal)"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-02T23:22:36.334Z",
+    "af": false
+  },
+  {
+    "_id": "LCNJdDXihmLcnckXb",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": "pCdSPJ3AzMQNHT3Bb",
+    "topLevelCommentId": "B6uhr3Gq5Fui4JLSf",
+    "contents": {
+      "markdown": "I don't think it makes sense to \"revert to a uniform prior\" over {doom, not doom} here. Uniform priors are pretty stupid in general, because they're dependent on how you split up the possibility space. So I prefer to stick fairly close to the probabilities I get from induction over human history, which tell me p(doom from unilateral action) << 50%\n\nI strongly disagree that AGI is \"more dangerous\" than nukes; I think this equivocates over different meanings of the term \"dangerous,\" and in general is a pretty unhelpful comparison.\n\nI find foom pretty ludicrous, and I don't see a reason to privilege the hypothesis much.\n\nFrom the linked report:\n\n> My best guess is that we go from AGI (AI that can perform ~100% of cognitive tasks as well as a human professional) to superintelligence (AI that *very significantly* surpasses humans at ~100% of cognitive tasks) in less than a year.\n\nI just agree with this (if \"significantly\" means like 5x or something), but I wouldn't call it \"foom\" in the relevant sense. It just seems orthogonal to the whole foom discussion.",
+      "plaintextDescription": "I don't think it makes sense to \"revert to a uniform prior\" over {doom, not doom} here. Uniform priors are pretty stupid in general, because they're dependent on how you split up the possibility space. So I prefer to stick fairly close to the probabilities I get from induction over human history, which tell me p(doom from unilateral action) << 50%\n\nI strongly disagree that AGI is \"more dangerous\" than nukes; I think this equivocates over different meanings of the term \"dangerous,\" and in general is a pretty unhelpful comparison.\n\nI find foom pretty ludicrous, and I don't see a reason to privilege the hypothesis much.\n\nFrom the linked report:\n\n> My best guess is that we go from AGI (AI that can perform ~100% of cognitive tasks as well as a human professional) to superintelligence (AI that very significantly surpasses humans at ~100% of cognitive tasks) in less than a year.\n\nI just agree with this (if \"significantly\" means like 5x or something), but I wouldn't call it \"foom\" in the relevant sense. It just seems orthogonal to the whole foom discussion."
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-01-02T12:41:22.685Z",
+    "af": false
+  },
+  {
+    "_id": "y2ohX7Dhtk7K8tnQy",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": "56v8ekA2pdXBZDmGr",
+    "topLevelCommentId": "B6uhr3Gq5Fui4JLSf",
+    "contents": {
+      "markdown": "Our 1% doom number excludes misuse-flavored failure modes, so I considered it out of scope for my response. I think the fact that good humans have been able to keep rogue bad humans more-or-less under control for millennia is strong evidence that good AIs will be able to keep rogue AIs under control, and I think the evidence is pretty mixed on whether the so-called offense-defense balance will be skewed toward offense or defense— I weakly expect defense will be preferred, mainly through centralization-of-power effects.",
+      "plaintextDescription": "Our 1% doom number excludes misuse-flavored failure modes, so I considered it out of scope for my response. I think the fact that good humans have been able to keep rogue bad humans more-or-less under control for millennia is strong evidence that good AIs will be able to keep rogue AIs under control, and I think the evidence is pretty mixed on whether the so-called offense-defense balance will be skewed toward offense or defense— I weakly expect defense will be preferred, mainly through centralization-of-power effects."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-02T01:50:23.104Z",
+    "af": false
+  },
+  {
+    "_id": "XRaE4JHCDBPp2aCpM",
+    "postId": "w8PNjCS8ZsQuqYWhD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "While I'm inclined to agree with the conclusion of this essay, namely\n\n> ...the biases induced by instrumental rationality at best weakly support Bostrom's conclusion that machine superintelligence is likely to lead to existential catastrophe.\n\nI don't think the essay presents good arguments for the conclusion. This is in part because the third criterion,\n\n> ...learning how well satisfied Sia's desires are at some worlds won't tell us how well satisfied her desires are at other worlds.  That is, the degree to which her desires are satisfied at some worlds is independent of how well satisfied they are at any other worlds.\n\nis likely to be very strongly violated in practice— we should expect \"similar\" worlds to be valued similarly.\n\nPerhaps more importantly, though, this essay seems not to criticize the notion of \"randomly selected goal\" or \"most goals.\" I think the best— in my view decisive— criticisms of instrumental convergence arguments attack *these* concepts, because they are, in my view, highly arbitrary at best and incoherent at worst. The only non-arbitrary [measure](https://en.wikipedia.org/wiki/Measure_(mathematics)) over goals is the empirical probability measure over goals which is induced by the actual training procedure we use to create AIs, and it's far from obvious that this distribution is malign in the way assumed by instrumental convergence arguments.",
+      "plaintextDescription": "While I'm inclined to agree with the conclusion of this essay, namely\n\n> ...the biases induced by instrumental rationality at best weakly support Bostrom's conclusion that machine superintelligence is likely to lead to existential catastrophe.\n\nI don't think the essay presents good arguments for the conclusion. This is in part because the third criterion,\n\n> ...learning how well satisfied Sia's desires are at some worlds won't tell us how well satisfied her desires are at other worlds.  That is, the degree to which her desires are satisfied at some worlds is independent of how well satisfied they are at any other worlds.\n\nis likely to be very strongly violated in practice— we should expect \"similar\" worlds to be valued similarly.\n\nPerhaps more importantly, though, this essay seems not to criticize the notion of \"randomly selected goal\" or \"most goals.\" I think the best— in my view decisive— criticisms of instrumental convergence arguments attack these concepts, because they are, in my view, highly arbitrary at best and incoherent at worst. The only non-arbitrary measure over goals is the empirical probability measure over goals which is induced by the actual training procedure we use to create AIs, and it's far from obvious that this distribution is malign in the way assumed by instrumental convergence arguments."
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-24T14:45:27.088Z",
+    "af": false
+  },
+  {
+    "_id": "xZyzGvioqtvjdxp5e",
+    "postId": "w8PNjCS8ZsQuqYWhD",
+    "parentCommentId": "fDarhaJJBwjwtnHv9",
+    "topLevelCommentId": "fDarhaJJBwjwtnHv9",
+    "contents": {
+      "markdown": "> I also find the 3rd criteria counterintuitive.  If worlds share features, I would expect these to not be independent.\n\nAgreed, I think this criterion is very strongly violated in practice; a Gaussian process prior with a nontrivial covariance function would be a bit more realistic.",
+      "plaintextDescription": "> I also find the 3rd criteria counterintuitive.  If worlds share features, I would expect these to not be independent.\n\nAgreed, I think this criterion is very strongly violated in practice; a Gaussian process prior with a nontrivial covariance function would be a bit more realistic."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-24T14:38:17.471Z",
+    "af": false
+  },
+  {
+    "_id": "2rE4EFPvfzLFQDn5C",
+    "postId": "YSgD2z8JCTG2T38MT",
+    "parentCommentId": "ELquQ5ZRihnbYbA5k",
+    "topLevelCommentId": "pHrgC9NJuqpSqYKwL",
+    "contents": {
+      "markdown": "> \"Optimism\" certainly isn't the same as a neutral, balanced view of possibilities. It is an expression of the belief that things will go well despite clear signs of danger (e.g. the often expressed concerns of leading AI safety experts).\n\nI just disagree, I think the term has many “valid” uses, and one is to refer to an object level belief that things will likely turn out pretty well. It doesn’t need to be irrational by definition.\n\nI also think AI safety experts are self selected to be more pessimistic, and that my personal epistemic situation is at least as good as theirs on this issue, so I’m not bothered that I’m more optimistic than the median safety researcher. I also have a fairly good “error theory” for why many people are overly pessimistic, which will be elucidated in upcoming posts.",
+      "plaintextDescription": "> \"Optimism\" certainly isn't the same as a neutral, balanced view of possibilities. It is an expression of the belief that things will go well despite clear signs of danger (e.g. the often expressed concerns of leading AI safety experts).\n\nI just disagree, I think the term has many “valid” uses, and one is to refer to an object level belief that things will likely turn out pretty well. It doesn’t need to be irrational by definition.\n\nI also think AI safety experts are self selected to be more pessimistic, and that my personal epistemic situation is at least as good as theirs on this issue, so I’m not bothered that I’m more optimistic than the median safety researcher. I also have a fairly good “error theory” for why many people are overly pessimistic, which will be elucidated in upcoming posts."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-03T21:55:39.827Z",
+    "af": false
+  },
+  {
+    "_id": "pHrgC9NJuqpSqYKwL",
+    "postId": "YSgD2z8JCTG2T38MT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I define “optimism” as the tendency to weigh positive outcomes higher than their expected value and negative outcomes lower.\n\nJust flagging that this is not at all how I or Quintin are using the term. We are simply using it to point at an object-level belief that alignment is easy, along with a couple ethical/political values we espouse.",
+      "plaintextDescription": "> I define “optimism” as the tendency to weigh positive outcomes higher than their expected value and negative outcomes lower.\n\nJust flagging that this is not at all how I or Quintin are using the term. We are simply using it to point at an object-level belief that alignment is easy, along with a couple ethical/political values we espouse."
+    },
+    "baseScore": 8,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2023-12-03T15:03:11.363Z",
+    "af": false
+  },
+  {
+    "_id": "ir8bJ4HRreCE2zEWQ",
+    "postId": "WkJDgpaPeCJDMJkoL",
+    "parentCommentId": "Gy9D8AqgEibbCZwxC",
+    "topLevelCommentId": "TiJfixZ9edcCZkaeY",
+    "contents": {
+      "markdown": "I would be up for having a dialogue with Nate. Quintin, myself, and the others in the Optimist community are working on posts which will more directly critique the arguments for pessimism.",
+      "plaintextDescription": "I would be up for having a dialogue with Nate. Quintin, myself, and the others in the Optimist community are working on posts which will more directly critique the arguments for pessimism."
+    },
+    "baseScore": 31,
+    "voteCount": 24,
+    "createdAt": null,
+    "postedAt": "2023-12-03T06:05:39.238Z",
+    "af": false
+  },
+  {
+    "_id": "FMRbrHWxDxFEeKwMx",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": "JBryybnkgY5rsvZHt",
+    "topLevelCommentId": "JBryybnkgY5rsvZHt",
+    "contents": {
+      "markdown": "This comment seems to be assuming some kind of hard takeoff scenario, which I discount as absurdly unlikely. That said, even in that scenario, I'm pretty optimistic about our *white box* alignment methods generalizing fine.",
+      "plaintextDescription": "This comment seems to be assuming some kind of hard takeoff scenario, which I discount as absurdly unlikely. That said, even in that scenario, I'm pretty optimistic about our white box alignment methods generalizing fine."
+    },
+    "baseScore": 4,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2023-12-03T03:55:07.710Z",
+    "af": false
+  },
+  {
+    "_id": "B6uhr3Gq5Fui4JLSf",
+    "postId": "YyosBAutg4bzScaLu",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(Didn't consult Quintin on this; I speak for myself)\n\n**I flatly deny that our arguments depend on AGI being anything like an LLM. I think the arguments go through in a very wide range of scenarios, basically as long as we're using** ***some*** **kind of white-box optimization to align them, rather than e.g. carrot-and-stick incentives or prompt engineering. Even if we only relied on prompt engineering, I think we'd be in a better spot than with humans (because we can run many controlled experiments).**\n\n> A human can harbor a secret desire for years, never acting on it, and their brain won’t necessarily overwrite that desire, even as they think millions of thoughts in the meantime. So evidently, the argument above is inapplicable to human brains.\n\nI’m pretty confused by this claim. Why should we expect the human reward system to overwrite all secret desires? Also how do we know it’s **not** doing that? Your desires are just causal effects of a bunch of stuff including your reward circuitry.\n\n> As a human, I can be sitting in bed, staring into space, and I can think a specific abstruse thought about string theory, and now I’ve figured out something important. If a future AI can do that kind of thing, as I expect, then it’s not so clear that “controlling the AI’s sensory environment” is really all that much control.\n\n1.  This is just generally a pretty weak argument. You don't seem to be contesting the fact that we have full sensory control for AI and we don’t have full sensory control for humans. It’s just a claim that this doesn’t matter. Maybe this ends up being a brute clash of intuitions, but it seems obvious to me that full sensory control matters a lot, even if the AI is doing a lot of long running cognition without supervision.\n2.  With AI we can choose to cut its reasoning short whenever we want, force it to explain itself in human language, roll it back to a previous state, etc. We just have a lot more control over this ongoing reasoning process for AIs and it’s baffling to me that you seem to think this mostly doesn’t matter.\n\n> That sounds nice, but brain-like AGI (like most RL agents) does online learning. So if you run a bunch of experiments, then as soon as the AGI does anything whatsoever (e.g. reads the morning newspaper), your experiments are all invalid (or at least, open to question), because now your AGI is different than it was before\n\nYou can just include online learning in your experimentation loop. See what happens when you let the AI online learn for a bit in different environments. I don't think online learning changes the equation very much. It's known to be less stable than offline RL, but that instability hurts capabilities as well as alignment, so we'd need a specific argument that it will hurt alignment significantly more than capabilities, in ways that we wouldn't be able to notice during training and evaluation.\n\n>   \n> I have no idea how I’m supposed to interpret this sentence *\\[\"we are the innate reward system\"\\]* for brain-like AGI, such that it makes any sense at all. Actually, I’m not quite sure what it means even for LLMs!\n\nIt just means we are directly updating the AI’s neural circuitry with white box optimizers. This will be true across a very wide range of scenarios, including (IIUC) your brain-like AGI scenario.\n\n> Brains can imitate, but do so in a fundamentally different way from LLM pretraining\n\nI don’t see why any of the differences you listed are relevant for safety.\n\n> Relatedly, brains have a distinction between expectations and desires, cleanly baked into the algorithms. I think this is obvious common sense, leaving aside galaxy-brain Free-Energy-Principle takes which try to deny it.\n\nI basically deny this, especially if you're stipulating that it's a \"clean\" distinction. Obviously folk psychology has a fuzzy distinction between beliefs and desires in it, but it's also well-known both in common sense and among neuroscientists etc. that beliefs and desires get mixed up all the time and there's not a particularly sharp divide.",
+      "plaintextDescription": "(Didn't consult Quintin on this; I speak for myself)\n\nI flatly deny that our arguments depend on AGI being anything like an LLM. I think the arguments go through in a very wide range of scenarios, basically as long as we're using some kind of white-box optimization to align them, rather than e.g. carrot-and-stick incentives or prompt engineering. Even if we only relied on prompt engineering, I think we'd be in a better spot than with humans (because we can run many controlled experiments).\n\n> A human can harbor a secret desire for years, never acting on it, and their brain won’t necessarily overwrite that desire, even as they think millions of thoughts in the meantime. So evidently, the argument above is inapplicable to human brains.\n\nI’m pretty confused by this claim. Why should we expect the human reward system to overwrite all secret desires? Also how do we know it’s not doing that? Your desires are just causal effects of a bunch of stuff including your reward circuitry.\n\n> As a human, I can be sitting in bed, staring into space, and I can think a specific abstruse thought about string theory, and now I’ve figured out something important. If a future AI can do that kind of thing, as I expect, then it’s not so clear that “controlling the AI’s sensory environment” is really all that much control.\n\n 1. This is just generally a pretty weak argument. You don't seem to be contesting the fact that we have full sensory control for AI and we don’t have full sensory control for humans. It’s just a claim that this doesn’t matter. Maybe this ends up being a brute clash of intuitions, but it seems obvious to me that full sensory control matters a lot, even if the AI is doing a lot of long running cognition without supervision.\n 2. With AI we can choose to cut its reasoning short whenever we want, force it to explain itself in human language, roll it back to a previous state, etc. We just have a lot more control over this ongoing reasoning process for AIs and it’s baffling to "
+    },
+    "baseScore": 52,
+    "voteCount": 32,
+    "createdAt": null,
+    "postedAt": "2023-12-02T18:24:09.201Z",
+    "af": true
+  },
+  {
+    "_id": "b7LpZKwjGgj8S8C8N",
+    "postId": "BtffzD5yNB4CzSTJe",
+    "parentCommentId": "W5fbzzFjaTRzi6n7T",
+    "topLevelCommentId": "W5fbzzFjaTRzi6n7T",
+    "contents": {
+      "markdown": "This seems to entirely ignore the actual point that is being made in the post. The point is that \"IGF\" is not a stable and contentful loss function, it is a misleadingly simple shorthand for \"whatever traits are increasing their own frequency at the moment.\" Once you see this, you notice two things:\n\n1.  In some **weak** sense, we are fairly well \"aligned\" to the \"traits\" that were selected for in the ancestral environment, in particular our social instincts.\n2.  All of the ways in which ML is disanalogous with evolution indicate that alignment will be **dramatically** easier and better for ML models. For starters, we don't randomly change the objective function for ML models throughout training. See [Quintin's post](https://www.lesswrong.com/posts/hvz9qjWyv8cLX9JJR/evolution-provides-no-evidence-for-the-sharp-left-turn) for many more disanalogies.",
+      "plaintextDescription": "This seems to entirely ignore the actual point that is being made in the post. The point is that \"IGF\" is not a stable and contentful loss function, it is a misleadingly simple shorthand for \"whatever traits are increasing their own frequency at the moment.\" Once you see this, you notice two things:\n\n 1. In some weak sense, we are fairly well \"aligned\" to the \"traits\" that were selected for in the ancestral environment, in particular our social instincts.\n 2. All of the ways in which ML is disanalogous with evolution indicate that alignment will be dramatically easier and better for ML models. For starters, we don't randomly change the objective function for ML models throughout training. See Quintin's post for many more disanalogies."
+    },
+    "baseScore": 13,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2023-11-05T05:25:49.788Z",
+    "af": false
+  },
+  {
+    "_id": "DpaHpKgqLuqFcpLcx",
+    "postId": "BtffzD5yNB4CzSTJe",
+    "parentCommentId": "gGniByZnqwAsRcWnh",
+    "topLevelCommentId": "c3KBNkzasjJKChuMh",
+    "contents": {
+      "markdown": "If you want to discuss the other contents of my AI pause essay, it's probably best for you to comment over on the EA forum post, not here.",
+      "plaintextDescription": "If you want to discuss the other contents of my AI pause essay, it's probably best for you to comment over on the EA forum post, not here."
+    },
+    "baseScore": 2,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-11-05T02:49:13.484Z",
+    "af": false
+  },
+  {
+    "_id": "LJRGzrWM454zQHZeM",
+    "postId": "BtffzD5yNB4CzSTJe",
+    "parentCommentId": "cdKzbqhMAiwBspvHF",
+    "topLevelCommentId": "cdKzbqhMAiwBspvHF",
+    "contents": {
+      "markdown": "> If evolution had ever stumbled upon some kind of magical genetic mutation that resulted in individuals directly caring about their IGF (and improved or at least didn't damage their general reasoning abilities and other positive traits) it would have surely reached fixation rather quickly.\n\n[CRISPR gene drives](https://www.youtube.com/watch?v=OI_OhvOumT0) reach fixation even faster, *even if* they seriously harm IGF.",
+      "plaintextDescription": "> If evolution had ever stumbled upon some kind of magical genetic mutation that resulted in individuals directly caring about their IGF (and improved or at least didn't damage their general reasoning abilities and other positive traits) it would have surely reached fixation rather quickly.\n\nCRISPR gene drives reach fixation even faster, even if they seriously harm IGF."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-05T02:27:58.763Z",
+    "af": false
+  },
+  {
+    "_id": "kjg666hfAaJzCngFk",
+    "postId": "BtffzD5yNB4CzSTJe",
+    "parentCommentId": "c3KBNkzasjJKChuMh",
+    "topLevelCommentId": "c3KBNkzasjJKChuMh",
+    "contents": {
+      "markdown": "> Oh. Perhaps it's nontrivial that humans were selected to value a lot of stuff, and (different, modern) humans *still* value a lot of stuff, even in today's different environment? Is that the point?\n\nSort of, but I think it is more specific than that. As I point out in my [AI pause essay](https://forum.effectivealtruism.org/posts/JYEAL8g7ArqGoTaX6/ai-pause-will-likely-backfire):\n\n> An anthropologist looking at humans 100,000 years ago would not have said humans are aligned to evolution, or to making as many babies as possible. They would have said we have some fairly universal tendencies, like empathy, parenting instinct, and revenge. They might have predicted *these* values will persist across time and cultural change, because they’re produced by ingrained biological reward systems. And they would have been right.\n\nI take this post to be mostly negative, in that it shows that \"IGF\" is not a unified loss function; its content is *entirely* dependent on the environmental context, in ways that ML loss functions are not.",
+      "plaintextDescription": "> Oh. Perhaps it's nontrivial that humans were selected to value a lot of stuff, and (different, modern) humans still value a lot of stuff, even in today's different environment? Is that the point?\n\nSort of, but I think it is more specific than that. As I point out in my AI pause essay:\n\n> An anthropologist looking at humans 100,000 years ago would not have said humans are aligned to evolution, or to making as many babies as possible. They would have said we have some fairly universal tendencies, like empathy, parenting instinct, and revenge. They might have predicted these values will persist across time and cultural change, because they’re produced by ingrained biological reward systems. And they would have been right.\n\nI take this post to be mostly negative, in that it shows that \"IGF\" is not a unified loss function; its content is entirely dependent on the environmental context, in ways that ML loss functions are not."
+    },
+    "baseScore": 1,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-11-05T02:15:46.931Z",
+    "af": false
+  },
+  {
+    "_id": "zFjuhFCiWRmxJbwzn",
+    "postId": "vDJa99TeKxdMuinm3",
+    "parentCommentId": "zRAjAuLXxGkaBAZhG",
+    "topLevelCommentId": "zRAjAuLXxGkaBAZhG",
+    "contents": {
+      "markdown": "> If this saturates, it would probably saturate very far above human level...\n\nFoom is a much stronger claim than this. It's saying that there will be an incredibly fast, localized intelligence explosion involving literally one single AI system improving itself. Your scenario of an \"ecosystem\" of independent AI researchers working together sounds more like the \"slow\" takeoff of Christiano or Hanson than EY-style fast takeoff.",
+      "plaintextDescription": "> If this saturates, it would probably saturate very far above human level...\n\nFoom is a much stronger claim than this. It's saying that there will be an incredibly fast, localized intelligence explosion involving literally one single AI system improving itself. Your scenario of an \"ecosystem\" of independent AI researchers working together sounds more like the \"slow\" takeoff of Christiano or Hanson than EY-style fast takeoff."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-04T16:13:38.721Z",
+    "af": false
+  },
+  {
+    "_id": "gjobpGk3KkgFFAb8d",
+    "postId": "JcLhYQQADzTsAEaXd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I expect that we’d see all sorts of coincidences and hacks that make the thing run, and we’d be able to see in much more detail how, when we ask the system to achieve some target, it’s not doing anything *close* to “caring about that target” in a manner that would work out well for us, **if we could scale up the system’s optimization power** to the point where it could achieve great technological or scientific feats (like designing Drexlerian nanofactories or what-have-you).\n\nI think this counterfactual is literally incoherent— it does not make sense to talk about what an *individual* neural network would do if its \"optimization power\" were scaled up. It's a category error. You instead need to ask what would happen if the **training procedure** were scaled up, and there are always many different ways that you can scale it up— e.g. keeping data fixed while parameters increase, or scaling both in lockstep, keeping the capability of the graders fixed, or investing in more capable graders / scalable oversight techniques, etc. So I deny that there is any fact of the matter about whether current LLMs \"care about the target\" in *your* sense. I think there probably are sensible ways of cashing out what it means for a 2023 LLM to \"care about\" something but this is not it.",
+      "plaintextDescription": "> I expect that we’d see all sorts of coincidences and hacks that make the thing run, and we’d be able to see in much more detail how, when we ask the system to achieve some target, it’s not doing anything close to “caring about that target” in a manner that would work out well for us, if we could scale up the system’s optimization power to the point where it could achieve great technological or scientific feats (like designing Drexlerian nanofactories or what-have-you).\n\nI think this counterfactual is literally incoherent— it does not make sense to talk about what an individual neural network would do if its \"optimization power\" were scaled up. It's a category error. You instead need to ask what would happen if the training procedure were scaled up, and there are always many different ways that you can scale it up— e.g. keeping data fixed while parameters increase, or scaling both in lockstep, keeping the capability of the graders fixed, or investing in more capable graders / scalable oversight techniques, etc. So I deny that there is any fact of the matter about whether current LLMs \"care about the target\" in your sense. I think there probably are sensible ways of cashing out what it means for a 2023 LLM to \"care about\" something but this is not it."
+    },
+    "baseScore": 12,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-11-03T22:09:39.727Z",
+    "af": false
+  },
+  {
+    "_id": "8GcwFyYgeZFBgyKQH",
+    "postId": "fEYyLjGpR7R8of6of",
+    "parentCommentId": "cRbXjxAnzHzaHyDm5",
+    "topLevelCommentId": "cRbXjxAnzHzaHyDm5",
+    "contents": {
+      "markdown": "> especially once it is generalised to other kinds of AI beside LLMs, which I imagine should be possible\n\nThe method actually already is highly general, and in fact isn't specific to deep learning at all. More work does need to be done to see how well it can steer neural net behavior in real world scenarios though",
+      "plaintextDescription": "> especially once it is generalised to other kinds of AI beside LLMs, which I imagine should be possible\n\nThe method actually already is highly general, and in fact isn't specific to deep learning at all. More work does need to be done to see how well it can steer neural net behavior in real world scenarios though"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-20T17:04:46.935Z",
+    "af": false
+  },
+  {
+    "_id": "ddzmaH2JLgu6KwXzm",
+    "postId": "fEYyLjGpR7R8of6of",
+    "parentCommentId": "t5R899pMnC6BqYLNh",
+    "topLevelCommentId": "t5R899pMnC6BqYLNh",
+    "contents": {
+      "markdown": "> then one way to do this is to make sure they have the same mean\n\nYep, although we actually go a bit further than that and show that making the means equal is *necessary*, at least if you want your method to work for general convex loss functions.",
+      "plaintextDescription": "> then one way to do this is to make sure they have the same mean\n\nYep, although we actually go a bit further than that and show that making the means equal is necessary, at least if you want your method to work for general convex loss functions."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-10-20T17:02:37.470Z",
+    "af": false
+  },
+  {
+    "_id": "728bLmrqzgLXYhYNq",
+    "postId": "99tD8L8Hk5wkKNY8Q",
+    "parentCommentId": "8yo7frLDC3yrRdW98",
+    "topLevelCommentId": "8yo7frLDC3yrRdW98",
+    "contents": {
+      "markdown": "> If a LLM outputs A rather than B, and you ask me why, then it might take me decades of work to give you a reasonable & intuitive answer.\n\nI don’t think any _complete_ description of the LLM is going to be intuitive to a human, because it’s just too complex to fit in your head all at once. The best we can do is to come up with interpretations for selected components of the network. Just like a book or a poem, there’s not going to be a unique correct interpretation: different interpretations are useful for different purposes.\n\nTheres also no guarantee that any of these mechanistic interpretations will be the _most_ useful tool for what you’re trying to do (e.g. make sure the model doesn’t kill you, or whatever). The track record of mech interp for alignment is quite poor, especially compared to gradient based methods like RLHF.  We should accept the Bitter Lesson: SGD is better than you at alignment.",
+      "plaintextDescription": "> If a LLM outputs A rather than B, and you ask me why, then it might take me decades of work to give you a reasonable & intuitive answer.\n\nI don’t think any complete description of the LLM is going to be intuitive to a human, because it’s just too complex to fit in your head all at once. The best we can do is to come up with interpretations for selected components of the network. Just like a book or a poem, there’s not going to be a unique correct interpretation: different interpretations are useful for different purposes.\n\nTheres also no guarantee that any of these mechanistic interpretations will be the most useful tool for what you’re trying to do (e.g. make sure the model doesn’t kill you, or whatever). The track record of mech interp for alignment is quite poor, especially compared to gradient based methods like RLHF. We should accept the Bitter Lesson: SGD is better than you at alignment."
+    },
+    "baseScore": 2,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2023-10-16T03:42:46.975Z",
+    "af": false
+  },
+  {
+    "_id": "dBvqCPeeKRJnZCoyx",
+    "postId": "tFYGdq9ivjA3rdaS2",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Using probes to measure mutual information\n\nThis is definitely wrong though, because of the [data processing inequality.](https://en.wikipedia.org/wiki/Data_processing_inequality) For any concept X, there is always more mutual information about X in the raw input to the model than in any of its activations.\n\nWhat probing actually measures is some kind of \"usable\" information, see [here](https://arxiv.org/abs/2002.10689).",
+      "plaintextDescription": "> Using probes to measure mutual information\n\nThis is definitely wrong though, because of the data processing inequality. For any concept X, there is always more mutual information about X in the raw input to the model than in any of its activations.\n\nWhat probing actually measures is some kind of \"usable\" information, see here."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-05T15:58:51.783Z",
+    "af": false
+  },
+  {
+    "_id": "epGG7pFYkADtprCrA",
+    "postId": "nG4biq5ymbBviKYsJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post made me pretty sad, because I think it focuses on precisely the *wrong* parts of the AI doom case (AGI is near), and concedes all of the points she shouldn't concede (alignment is hard).\n\nIf I were like Sarah and thought that alignment is super hard but AGI is a long way off, I would probably still consider myself a \"doomer\" and would be very worried.",
+      "plaintextDescription": "This post made me pretty sad, because I think it focuses on precisely the wrong parts of the AI doom case (AGI is near), and concedes all of the points she shouldn't concede (alignment is hard).\n\nIf I were like Sarah and thought that alignment is super hard but AGI is a long way off, I would probably still consider myself a \"doomer\" and would be very worried."
+    },
+    "baseScore": 12,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2023-09-10T08:21:14.830Z",
+    "af": false
+  },
+  {
+    "_id": "cYqFyoxN5zXz5kM7L",
+    "postId": "edBz8knyMcgT2Siy9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "As a sanity check it would have been nice if they showed Procrustes and RDM results with the vocabulary items randomly permuted (if you can align with randomly permuted tokens that's a bad sign).\n\nAlso since they compute the RDM using Euclidean distances instead of e.g. inner products, all the elements are non-negative and the cosine similarity would be non-negative even for completely unrelated embeddings. That doesn't necessarily invalidate their scaling trends but it makes it a bit hard to interpret.\n\nI think there are much better papers on this topic, such as [this one](https://www.nature.com/articles/s42003-022-03036-1).",
+      "plaintextDescription": "As a sanity check it would have been nice if they showed Procrustes and RDM results with the vocabulary items randomly permuted (if you can align with randomly permuted tokens that's a bad sign).\n\nAlso since they compute the RDM using Euclidean distances instead of e.g. inner products, all the elements are non-negative and the cosine similarity would be non-negative even for completely unrelated embeddings. That doesn't necessarily invalidate their scaling trends but it makes it a bit hard to interpret.\n\nI think there are much better papers on this topic, such as this one."
+    },
+    "baseScore": 15,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2023-09-02T07:24:06.024Z",
+    "af": false
+  },
+  {
+    "_id": "fJjZAjBHmFdNjN3nD",
+    "postId": "unwRBRQivd2LYRfuP",
+    "parentCommentId": "umZENfjGEE3BvditA",
+    "topLevelCommentId": "sEXz5pBeaQMvDQiK9",
+    "contents": {
+      "markdown": "> Require people to have licenses to fine-tune llama 2?\n\nFor one thing this is unenforceable without, ironically, superintelligence-powered universal surveillance. And I expect any vain attempt to enforce it would do more harm than good. See [this post](https://www.lesswrong.com/posts/6untaSPpsocmkS7Z3/ways-i-expect-ai-regulation-to-increase-extinction-risk) for some reasons for thinking it'd be net-negative.",
+      "plaintextDescription": "> Require people to have licenses to fine-tune llama 2?\n\nFor one thing this is unenforceable without, ironically, superintelligence-powered universal surveillance. And I expect any vain attempt to enforce it would do more harm than good. See this post for some reasons for thinking it'd be net-negative."
+    },
+    "baseScore": 8,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-08-30T05:44:06.216Z",
+    "af": false
+  },
+  {
+    "_id": "vMYDqpG8RKfZWH8dH",
+    "postId": "unwRBRQivd2LYRfuP",
+    "parentCommentId": "2squtdCkBCXzHeWBE",
+    "topLevelCommentId": "sEXz5pBeaQMvDQiK9",
+    "contents": {
+      "markdown": "If your interpretation is correct, it's damning of their organization in a different way. As a research organization, *their entire job* is to think carefully about their policy proposals before they make them. It's likely net-harmful to have an org lobbying for AI \"safety\" regulations without doing their due diligence on research first.",
+      "plaintextDescription": "If your interpretation is correct, it's damning of their organization in a different way. As a research organization, their entire job is to think carefully about their policy proposals before they make them. It's likely net-harmful to have an org lobbying for AI \"safety\" regulations without doing their due diligence on research first."
+    },
+    "baseScore": 12,
+    "voteCount": 25,
+    "createdAt": null,
+    "postedAt": "2023-08-30T04:01:11.191Z",
+    "af": false
+  },
+  {
+    "_id": "t8nPYBdAeLehtsLYY",
+    "postId": "unwRBRQivd2LYRfuP",
+    "parentCommentId": "4LaNMao5q7ScyhLNg",
+    "topLevelCommentId": "sEXz5pBeaQMvDQiK9",
+    "contents": {
+      "markdown": "It's more than misleading, it's simply a lie, at least insofar as developers outside of Google, OpenAI, and co. use the Llama 2 models.",
+      "plaintextDescription": "It's more than misleading, it's simply a lie, at least insofar as developers outside of Google, OpenAI, and co. use the Llama 2 models."
+    },
+    "baseScore": 1,
+    "voteCount": 21,
+    "createdAt": null,
+    "postedAt": "2023-08-30T00:54:58.236Z",
+    "af": false
+  },
+  {
+    "_id": "ri8DNYMoMgWYGd2tP",
+    "postId": "YWYfwaDot7BAv6rGN",
+    "parentCommentId": "jWgrjvwMt6HwaJnDQ",
+    "topLevelCommentId": "FmzQg2GDyYrRJNa7k",
+    "contents": {
+      "markdown": "Omg I love you, thanks for promoting Rorty's work on this platform",
+      "plaintextDescription": "Omg I love you, thanks for promoting Rorty's work on this platform"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-05T20:02:57.931Z",
+    "af": false
+  },
+  {
+    "_id": "zRvqptjgDn5wBkqMp",
+    "postId": "KpD2fJa6zo8o2MBxg",
+    "parentCommentId": "iEpRABGzhxqnomscB",
+    "topLevelCommentId": "LotNZSCGmtSLPNyqL",
+    "contents": {
+      "markdown": "I hate the term “illusionism” for a lot of reasons. I think qualia is an incoherent concept, but I would prefer to use the term “qualia quietist” rather than illusionist. This paper by Pete Mandik summarizes what I think more or less https://core.ac.uk/download/pdf/199235518.pdf\n\nI think the question of “why it’s like something rather than not” is just like the question “why is there something rather than nothing” or “why am I me and not someone else?” These questions are unanswerable on their own terms.",
+      "plaintextDescription": "I hate the term “illusionism” for a lot of reasons. I think qualia is an incoherent concept, but I would prefer to use the term “qualia quietist” rather than illusionist. This paper by Pete Mandik summarizes what I think more or less https://core.ac.uk/download/pdf/199235518.pdf\n\nI think the question of “why it’s like something rather than not” is just like the question “why is there something rather than nothing” or “why am I me and not someone else?” These questions are unanswerable on their own terms."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-07-15T16:59:22.500Z",
+    "af": false
+  },
+  {
+    "_id": "LotNZSCGmtSLPNyqL",
+    "postId": "KpD2fJa6zo8o2MBxg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is a fantastic post. I had been thinking on similar lines recently but you explained it much more clearly than I could have. The so-called \"hard problem\" is just an instance of the is-ought problem.",
+      "plaintextDescription": "This is a fantastic post. I had been thinking on similar lines recently but you explained it much more clearly than I could have. The so-called \"hard problem\" is just an instance of the is-ought problem."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-07-12T05:03:59.498Z",
+    "af": false
+  },
+  {
+    "_id": "zbqXtcBAXLHTsTpGF",
+    "postId": "JvZhhzycHu2Yd57RN",
+    "parentCommentId": "XYnp7pLoAaD3ewMxK",
+    "topLevelCommentId": "CWGiuY5qhzrpJuED7",
+    "contents": {
+      "markdown": "FWIW it appears that out of the 4 differences you cited here, only one of them (the relaxation of the restriction that the scrubbed output must be the same) still holds as of this January paper from Geiger's group [https://arxiv.org/abs/2301.04709.](https://arxiv.org/abs/2301.04709.) So the methods are even more similar than you thought.",
+      "plaintextDescription": "FWIW it appears that out of the 4 differences you cited here, only one of them (the relaxation of the restriction that the scrubbed output must be the same) still holds as of this January paper from Geiger's group https://arxiv.org/abs/2301.04709. So the methods are even more similar than you thought."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-05-30T17:05:34.365Z",
+    "af": true
+  },
+  {
+    "_id": "NN5AEypm3ru7nBbzL",
+    "postId": "EwKk5xdvxhSn3XHsD",
+    "parentCommentId": "obpZ7YYcbzDyFpxG3",
+    "topLevelCommentId": "4vLfinrK8gk5q8DK6",
+    "contents": {
+      "markdown": "Yeah, I agree they aren't structurally identical. Although I tend to doubt how much the structural differences between deep neural nets and human brains matter. We don't actually have a non-arbitrary way to quantify how different two intelligent systems are *internally*.",
+      "plaintextDescription": "Yeah, I agree they aren't structurally identical. Although I tend to doubt how much the structural differences between deep neural nets and human brains matter. We don't actually have a non-arbitrary way to quantify how different two intelligent systems are internally."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-22T18:00:05.041Z",
+    "af": false
+  },
+  {
+    "_id": "4vLfinrK8gk5q8DK6",
+    "postId": "EwKk5xdvxhSn3XHsD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It seems like you’re assuming that the qualitative character of an emotion has to derive from its evolutionary function in the ancestral environment, or something. But this is weird because you could imagine two agents that are structurally identical now but with different histories. Intuitively I’d think their qualia should be the same. So it still seems plausible to me that Bing really is experiencing some form of anger when it produces angry text.",
+      "plaintextDescription": "It seems like you’re assuming that the qualitative character of an emotion has to derive from its evolutionary function in the ancestral environment, or something. But this is weird because you could imagine two agents that are structurally identical now but with different histories. Intuitively I’d think their qualia should be the same. So it still seems plausible to me that Bing really is experiencing some form of anger when it produces angry text."
+    },
+    "baseScore": 4,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2023-05-22T17:41:20.428Z",
+    "af": false
+  },
+  {
+    "_id": "c39dhkNmCgLAtPy8K",
+    "postId": "737XcK2hLccsAJeGt",
+    "parentCommentId": "DpcpHyEYz8KgcRzjS",
+    "topLevelCommentId": "iNvqcc3PtdQLvesRd",
+    "contents": {
+      "markdown": "> Are you saying \"I personally approve of..\" is the primitive, unqualified meaning of \"should\"?\n\nAt the very least it's *part* of the unqualified meaning. Moral realists mean something more by it, or at least claim to do so.\n\n> even if you can’t do anything directly useful with unattainable truth , you can at least get a realistic idea of your limitations.\n\nOkay. I think it's probably not the most effective way to do this in most cases.",
+      "plaintextDescription": "> Are you saying \"I personally approve of..\" is the primitive, unqualified meaning of \"should\"?\n\nAt the very least it's part of the unqualified meaning. Moral realists mean something more by it, or at least claim to do so.\n\n> even if you can’t do anything directly useful with unattainable truth , you can at least get a realistic idea of your limitations.\n\nOkay. I think it's probably not the most effective way to do this in most cases."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-22T00:56:33.107Z",
+    "af": false
+  },
+  {
+    "_id": "3LzgQarbx3PaEfwgX",
+    "postId": "737XcK2hLccsAJeGt",
+    "parentCommentId": "vNeMgjuBaiovkC8yw",
+    "topLevelCommentId": "iNvqcc3PtdQLvesRd",
+    "contents": {
+      "markdown": "> But usefulness doesnt particularly justify correspondence-truth.\n\nNeither I nor Rorty are saying that it does.\n\n> Using which definition of \"should\"? Obviously by the pragmatic definition...\n\nNo, I mean it in the primitive, unqualified sense of \"should.\" Otherwise it would be a tautology. I *personally approve* of people solely caring about instrumental rationality.\n\n> Yes, which means it can't be usefully implemented , which means it's something you shouldnt pursue *according to pragmatism*.\n\nI don't think it can be implemented at all; people just imagine that they are implementing it, but on further inspection they're adding in further non-epistemic assumptions.",
+      "plaintextDescription": "> But usefulness doesnt particularly justify correspondence-truth.\n\nNeither I nor Rorty are saying that it does.\n\n> Using which definition of \"should\"? Obviously by the pragmatic definition...\n\nNo, I mean it in the primitive, unqualified sense of \"should.\" Otherwise it would be a tautology. I personally approve of people solely caring about instrumental rationality.\n\n> Yes, which means it can't be usefully implemented , which means it's something you shouldnt pursue according to pragmatism.\n\nI don't think it can be implemented at all; people just imagine that they are implementing it, but on further inspection they're adding in further non-epistemic assumptions."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-21T22:10:24.459Z",
+    "af": false
+  },
+  {
+    "_id": "uxCpeWp4Aps2CJHiy",
+    "postId": "737XcK2hLccsAJeGt",
+    "parentCommentId": "iSvBka3cP8utFqpSt",
+    "topLevelCommentId": "iNvqcc3PtdQLvesRd",
+    "contents": {
+      "markdown": "I'm sort of fine with keeping the concepts of truth and usefulness distinct. While some pragmatists have tried to define truth in terms of usefulness (e.g. William James), others have said it's better to keep truth as a primitive, and instead say that a belief is *justified* just in case it's useful (Richard Rorty; see esp. [here](https://www.youtube.com/watch?v=fQnxVlLqgeY)).\n\n> It's not obvious that winning is what you should be doing because there are many definitions of \"should\". It's what you should be doing according to instrumental rationality ....but not according to epistemic rationality.\n\nWell, part of what pragmatism is saying is that we should only care about instrumental rationality and not epistemic rationality. Insofar as epistemic rationality is actually useful, instrumental rationality will tell you to be epistemically rational.\n\nIt also seems that epistemic rationality is pretty strongly underdetermined. Of course the prior is a free parameter, but you also have to decide which parts of the world you want to be most correct about. Not to mention anthropics, where it seems the probabilities are just indeterminate and you have to [bring in values](https://www.lesswrong.com/s/kmryZRz5r9bjsug9e) to determine what betting odds you should use. And finally, once you drop the assumption that the true hypothesis is realizable (contained in your hypothesis space) and move to something like infra-Bayesianism, now you need to bring in a distance function to measure how \"close\" two hypotheses are. That distance function is presumably going to be informed by your values.",
+      "plaintextDescription": "I'm sort of fine with keeping the concepts of truth and usefulness distinct. While some pragmatists have tried to define truth in terms of usefulness (e.g. William James), others have said it's better to keep truth as a primitive, and instead say that a belief is justified just in case it's useful (Richard Rorty; see esp. here).\n\n> It's not obvious that winning is what you should be doing because there are many definitions of \"should\". It's what you should be doing according to instrumental rationality ....but not according to epistemic rationality.\n\nWell, part of what pragmatism is saying is that we should only care about instrumental rationality and not epistemic rationality. Insofar as epistemic rationality is actually useful, instrumental rationality will tell you to be epistemically rational.\n\nIt also seems that epistemic rationality is pretty strongly underdetermined. Of course the prior is a free parameter, but you also have to decide which parts of the world you want to be most correct about. Not to mention anthropics, where it seems the probabilities are just indeterminate and you have to bring in values to determine what betting odds you should use. And finally, once you drop the assumption that the true hypothesis is realizable (contained in your hypothesis space) and move to something like infra-Bayesianism, now you need to bring in a distance function to measure how \"close\" two hypotheses are. That distance function is presumably going to be informed by your values."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-21T18:11:17.234Z",
+    "af": false
+  },
+  {
+    "_id": "XXCtCfLiNDQ4K9Z6A",
+    "postId": "737XcK2hLccsAJeGt",
+    "parentCommentId": "iNvqcc3PtdQLvesRd",
+    "topLevelCommentId": "iNvqcc3PtdQLvesRd",
+    "contents": {
+      "markdown": "Say you have two agents, Rorty and Russell, who have ~the same values except that Rorty only optimizes for winning, and Russell optimizes for both winning and having “true beliefs” in some correspondence theory sense. Then Rorty should just win more on average than Russell, because he’ll have the winning actions/beliefs in cases where they conflict with the truth maximization objective, while Russell will have to make some tradeoff between the two.\n\nNow maybe your values just happen to contain something like “having true beliefs in the correspondence theory sense is good.” I’m not super opposed to those kinds of values, although I would caution that truth-as-correspondence is actually hard to operationalize (because you can’t actually tell from sense experience whether a belief is true or not) and you definitely need to prioritize some types of truths over others (the number of hairs on my arm is a truth, but it’s probably not interesting to you). So you might want to reframe your truth-values in terms of “curiosity” or something like that.",
+      "plaintextDescription": "Say you have two agents, Rorty and Russell, who have ~the same values except that Rorty only optimizes for winning, and Russell optimizes for both winning and having “true beliefs” in some correspondence theory sense. Then Rorty should just win more on average than Russell, because he’ll have the winning actions/beliefs in cases where they conflict with the truth maximization objective, while Russell will have to make some tradeoff between the two.\n\nNow maybe your values just happen to contain something like “having true beliefs in the correspondence theory sense is good.” I’m not super opposed to those kinds of values, although I would caution that truth-as-correspondence is actually hard to operationalize (because you can’t actually tell from sense experience whether a belief is true or not) and you definitely need to prioritize some types of truths over others (the number of hairs on my arm is a truth, but it’s probably not interesting to you). So you might want to reframe your truth-values in terms of “curiosity” or something like that."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-21T15:41:48.708Z",
+    "af": false
+  },
+  {
+    "_id": "usf2N8yQDvsLnRCyd",
+    "postId": "hvz9qjWyv8cLX9JJR",
+    "parentCommentId": "ABpQQ7AZup7KbqmEz",
+    "topLevelCommentId": "7yAJbkDtMepxDvcMe",
+    "contents": {
+      "markdown": "It seems like retrieval + chain of thought mostly just solves this already",
+      "plaintextDescription": "It seems like retrieval + chain of thought mostly just solves this already"
+    },
+    "baseScore": 5,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-04-12T16:42:03.143Z",
+    "af": false
+  },
+  {
+    "_id": "ikt9Sywm9YD7kB76k",
+    "postId": "M3fDqScej7JDh4s7a",
+    "parentCommentId": "bBFKh2us3fSHCiR2j",
+    "topLevelCommentId": "EyBtXEmqsSvYSuuLt",
+    "contents": {
+      "markdown": "If you imagine the person vividly enough, you'll start to feel their emotions yourself...",
+      "plaintextDescription": "If you imagine the person vividly enough, you'll start to feel their emotions yourself..."
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-04-05T04:58:28.104Z",
+    "af": false
+  },
+  {
+    "_id": "jCHmDYF4TJfAFQmTE",
+    "postId": "rZTjsKy4Jvu6krWJt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Assume that pre-training has produced a model that optimizes for the pre-training loss and is one of the above types.\n\nAs you note, this is an important assumption for the argument, and I think it's likely false, at least for self-supervised pre-training tasks. I don't think LLMs for example are well-described as \"optimizing for\" low perplexity at inference time. It's not even clear to me what that would mean since there is no ground truth next token during autoregressive generation, so \"low perplexity\" is not defined. Rather, SGD simply produces a bundle of heuristics defining a probability distribution that matches the empirical distribution of human text quite well.\n\nI do think your argument *may* apply to cases where you pre-train on an RL task and fine tune on another one, although [even there it's unclear](https://www.lesswrong.com/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target).",
+      "plaintextDescription": "> Assume that pre-training has produced a model that optimizes for the pre-training loss and is one of the above types.\n\nAs you note, this is an important assumption for the argument, and I think it's likely false, at least for self-supervised pre-training tasks. I don't think LLMs for example are well-described as \"optimizing for\" low perplexity at inference time. It's not even clear to me what that would mean since there is no ground truth next token during autoregressive generation, so \"low perplexity\" is not defined. Rather, SGD simply produces a bundle of heuristics defining a probability distribution that matches the empirical distribution of human text quite well.\n\nI do think your argument may apply to cases where you pre-train on an RL task and fine tune on another one, although even there it's unclear."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-03T20:02:27.422Z",
+    "af": false
+  },
+  {
+    "_id": "xPrDSr7MF7AFKwMfW",
+    "postId": "bFwigCDMC5ishLz7X",
+    "parentCommentId": "CpfxRuwF2k5oarLmC",
+    "topLevelCommentId": "CpfxRuwF2k5oarLmC",
+    "contents": {
+      "markdown": "> You can then also try things like adding supervised data in only one domain and check generalization, and you can expect a reasonably clear signal.\n\nYep, I just had this idea this morning and came here to check if anyone else had thought of it. It seems plausible that a semi-supervised version of CCS could *outperform* naive logistic regression in generalization performance.",
+      "plaintextDescription": "> You can then also try things like adding supervised data in only one domain and check generalization, and you can expect a reasonably clear signal.\n\nYep, I just had this idea this morning and came here to check if anyone else had thought of it. It seems plausible that a semi-supervised version of CCS could outperform naive logistic regression in generalization performance."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-10T18:23:49.550Z",
+    "af": false
+  },
+  {
+    "_id": "9DDyXtrSmpqgXwhFE",
+    "postId": "L4anhrxjv8j2yRKKp",
+    "parentCommentId": "EQFQdNhfhgnmQGeSn",
+    "topLevelCommentId": "EQFQdNhfhgnmQGeSn",
+    "contents": {
+      "markdown": "The number of truthlike features (or any kind of feature) cannot scale exponentially with the hidden dimension in an LLM, simply because the number of \"features\" scales at most linearly with the parameter count (for information theoretic reasons). Rather, I claim that the number of features scales at most **quasi-quadratically** with dimension, or \\\\(O(d^2 log(d))\\\\).\n\nWith depth fixed, the number of parameters in a transformer scales as \\\\(O(d^2)\\\\) because of the weight matrices. According to [this paper](https://arxiv.org/abs/2006.12467) which was cited by the Chinchilla paper, the optimal depth scales **logarithmically** with width, hence the number of parameters, and therefore the number of \"features\" for a given width is \\\\(O(d^2 log(d))\\\\). QED.\n\nEDIT: It sounds like we are talking past each other, because you seem to think that \"feature\" means something like \"total number of possible distinguishable states.\" I don't agree that this is a useful definition. I think in practice people use \"feature\" to mean something like \"effective dimensionality\" which scales as O(log(N)) in the number of distinguishable states. This is a useful definition IMO because we don't actually have to enumerate all possible states of the neural net (at which level of granularity? machine precision?) to understand it; we just have to find the right basis in which to view it.",
+      "plaintextDescription": "The number of truthlike features (or any kind of feature) cannot scale exponentially with the hidden dimension in an LLM, simply because the number of \"features\" scales at most linearly with the parameter count (for information theoretic reasons). Rather, I claim that the number of features scales at most quasi-quadratically with dimension, or O(d2log(d)).\n\nWith depth fixed, the number of parameters in a transformer scales as O(d2) because of the weight matrices. According to this paper which was cited by the Chinchilla paper, the optimal depth scales logarithmically with width, hence the number of parameters, and therefore the number of \"features\" for a given width is O(d2log(d)). QED.\n\nEDIT: It sounds like we are talking past each other, because you seem to think that \"feature\" means something like \"total number of possible distinguishable states.\" I don't agree that this is a useful definition. I think in practice people use \"feature\" to mean something like \"effective dimensionality\" which scales as O(log(N)) in the number of distinguishable states. This is a useful definition IMO because we don't actually have to enumerate all possible states of the neural net (at which level of granularity? machine precision?) to understand it; we just have to find the right basis in which to view it."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-01-21T10:41:38.873Z",
+    "af": false
+  },
+  {
+    "_id": "JcDxK8LKusSFLXhXR",
+    "postId": "eDicGjD9yte6FLSie",
+    "parentCommentId": "igSshrrYEbKR6NkSS",
+    "topLevelCommentId": "gfbGEHzdHWBrG5LwL",
+    "contents": {
+      "markdown": "Oh cool this will be really useful, thanks!",
+      "plaintextDescription": "Oh cool this will be really useful, thanks!"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-10-13T20:03:07.704Z",
+    "af": false
+  },
+  {
+    "_id": "gfbGEHzdHWBrG5LwL",
+    "postId": "eDicGjD9yte6FLSie",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you have any recommendations for running HDBSCAN efficiently on high dimensional neural net activations? I'm using the Python implementation and just running the algorithm on GPT-2 small's embedding matrix is unbearably slow.\n\nUPDATE: The maintainer of the repo says it's inadvisable to use the algorithm (or any other density-based clustering) directly on data with as many as 768 dimensions, and [recommends](https://github.com/scikit-learn-contrib/hdbscan/issues/466) using UMAP first. Is that what you did?",
+      "plaintextDescription": "Do you have any recommendations for running HDBSCAN efficiently on high dimensional neural net activations? I'm using the Python implementation and just running the algorithm on GPT-2 small's embedding matrix is unbearably slow.\n\nUPDATE: The maintainer of the repo says it's inadvisable to use the algorithm (or any other density-based clustering) directly on data with as many as 768 dimensions, and recommends using UMAP first. Is that what you did?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-10-13T04:24:24.564Z",
+    "af": false
+  },
+  {
+    "_id": "e4vhuoJEHQwqLcbuX",
+    "postId": "9hxH2pxffxeeXk8YT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think it would be a distraction to try to figure out if LMs are \"phenomenally conscious\" for a few different reasons.\n\n1.  I think there are pretty strong reasons to believe that phenomenal consciousness is not actually a substantive property, in the sense that either everything has it in some sense (panpsychism) or nothing does (eliminativism). Any other solution confronts the Hard Problem and the empirical intractability of actually figuring out which things are or are not phenomenally conscious.\n2.  Your proposed tests for phenomenal consciousness seem to, in fact, be testing for access consciousness— basically, the ability to do certain types of reflection and introspection. Access consciousness may well be relevant for alignment; it seems pretty related to situational awareness. But that's not phenomenal consciousness (because of the Hard Problem). Phenomenal consciousness is causally inert and empirically untestable.\n3.  While it would be a problem if LMs were moral patients, I think these concerns are utterly dwarfed by the value we'd lose due to an AI-caused existential catastrophe. Also, on the most plausible views of valence, an experience's valence is directly determined by your first-order in-the-moment preferences to continue having that experience or not. If valence just reduces to preferences, then we really can just talk about the preferences, which seem more empirically tractable to probe.\n\nI do think consciousness is real and important (I think some form of [Russellian monism](https://plato.stanford.edu/entries/russellian-monism/) is probably right). I just don't think it matters for alignment.",
+      "plaintextDescription": "I think it would be a distraction to try to figure out if LMs are \"phenomenally conscious\" for a few different reasons.\n\n 1. I think there are pretty strong reasons to believe that phenomenal consciousness is not actually a substantive property, in the sense that either everything has it in some sense (panpsychism) or nothing does (eliminativism). Any other solution confronts the Hard Problem and the empirical intractability of actually figuring out which things are or are not phenomenally conscious.\n 2. Your proposed tests for phenomenal consciousness seem to, in fact, be testing for access consciousness— basically, the ability to do certain types of reflection and introspection. Access consciousness may well be relevant for alignment; it seems pretty related to situational awareness. But that's not phenomenal consciousness (because of the Hard Problem). Phenomenal consciousness is causally inert and empirically untestable.\n 3. While it would be a problem if LMs were moral patients, I think these concerns are utterly dwarfed by the value we'd lose due to an AI-caused existential catastrophe. Also, on the most plausible views of valence, an experience's valence is directly determined by your first-order in-the-moment preferences to continue having that experience or not. If valence just reduces to preferences, then we really can just talk about the preferences, which seem more empirically tractable to probe.\n\nI do think consciousness is real and important (I think some form of Russellian monism is probably right). I just don't think it matters for alignment."
+    },
+    "baseScore": 4,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2022-09-11T04:08:57.084Z",
+    "af": true
+  },
+  {
+    "_id": "xBudR7NtihFwJC6mY",
+    "postId": "hjrqXjEpaw9ogScPh",
+    "parentCommentId": "NHrmHTNdgffdDd4eg",
+    "topLevelCommentId": "vHcfGWnBd6K2ZzZBd",
+    "contents": {
+      "markdown": "^ I stand by the substantive points I made above but it occurs to me that I expressed them in a weirdly combative and dismissive tone, so sorry about that.",
+      "plaintextDescription": "^ I stand by the substantive points I made above but it occurs to me that I expressed them in a weirdly combative and dismissive tone, so sorry about that."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-08-22T02:08:20.404Z",
+    "af": false
+  },
+  {
+    "_id": "NHrmHTNdgffdDd4eg",
+    "postId": "hjrqXjEpaw9ogScPh",
+    "parentCommentId": "jK2AeaebwTBXvPACF",
+    "topLevelCommentId": "vHcfGWnBd6K2ZzZBd",
+    "contents": {
+      "markdown": "Isn't this just pushing the problem back a step? Wouldn't weight decay penalize the weights that compute the input-based pseudorandom number to determine where the deployment check happens?\n\nThis also just seems like it'd be really low measure in the SGD prior. Like, where is the optimization pressure coming from to form all these *independent* deployment-checking circuits throughout the model and also randomize their use? All the while taking a hit on the L2 penalty for doing this?\n\nIs the idea is that the network itself is consciously modeling SGD and gradient-hacking its way toward this solution? If so: 1) it's not clear to me this is mechanistically possible, and 2) if the AI is superintelligent enough to figure this out, it probably figure out a better way to get what it wants (e.g. break out of the training process altogether).",
+      "plaintextDescription": "Isn't this just pushing the problem back a step? Wouldn't weight decay penalize the weights that compute the input-based pseudorandom number to determine where the deployment check happens?\n\nThis also just seems like it'd be really low measure in the SGD prior. Like, where is the optimization pressure coming from to form all these independent deployment-checking circuits throughout the model and also randomize their use? All the while taking a hit on the L2 penalty for doing this?\n\nIs the idea is that the network itself is consciously modeling SGD and gradient-hacking its way toward this solution? If so: 1) it's not clear to me this is mechanistically possible, and 2) if the AI is superintelligent enough to figure this out, it probably figure out a better way to get what it wants (e.g. break out of the training process altogether)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-08-20T05:50:50.575Z",
+    "af": false
+  },
+  {
+    "_id": "9ha2jmkX3bqseE3za",
+    "postId": "hjrqXjEpaw9ogScPh",
+    "parentCommentId": "eYtYb9ELnd2MvEHFF",
+    "topLevelCommentId": "vHcfGWnBd6K2ZzZBd",
+    "contents": {
+      "markdown": "Sure, but if those small weights don’t contribute to the base objective they would just get pushed all the way to zero, right? Especially if you use L1 instead of L2 regularization. The somewhat scarier version of deception IMO is where there’s a circuit that does contribute to base task performance, but it just also has this property of being deceptive, and the loss landscape is such that SGD can‘t/won’t find a nearby non deceptive alternative with similar or better performance. But it seems like there’s some hope there too, since we know that strictly convex valleys are really low measure in NN loss landscapes, and every independent SGD solution is part of a single connected manifold of low loss. Furthermore for sufficiently large models you can actually just take a convex combination of the weights of two good models and usually get another good model. SGD definitely *can* find nondeceptive solutions, I guess the question is whether it will do so, and if we can push it in that direction if needed. My intuition currently is that deception isn’t actually going to be a problem except, perhaps, if the network is very deep / has recurrence. We should be worried that people *will* use very deep recurrent networks to build AGI, but I’m somewhat hopeful that chain of thought language models will sort of save us here since they force the network to store its intermediate computations in a human interpretable format,",
+      "plaintextDescription": "Sure, but if those small weights don’t contribute to the base objective they would just get pushed all the way to zero, right? Especially if you use L1 instead of L2 regularization. The somewhat scarier version of deception IMO is where there’s a circuit that does contribute to base task performance, but it just also has this property of being deceptive, and the loss landscape is such that SGD can‘t/won’t find a nearby non deceptive alternative with similar or better performance. But it seems like there’s some hope there too, since we know that strictly convex valleys are really low measure in NN loss landscapes, and every independent SGD solution is part of a single connected manifold of low loss. Furthermore for sufficiently large models you can actually just take a convex combination of the weights of two good models and usually get another good model. SGD definitely can find nondeceptive solutions, I guess the question is whether it will do so, and if we can push it in that direction if needed. My intuition currently is that deception isn’t actually going to be a problem except, perhaps, if the network is very deep / has recurrence. We should be worried that people will use very deep recurrent networks to build AGI, but I’m somewhat hopeful that chain of thought language models will sort of save us here since they force the network to store its intermediate computations in a human interpretable format,"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-08-18T18:33:10.341Z",
+    "af": false
+  },
+  {
+    "_id": "vHcfGWnBd6K2ZzZBd",
+    "postId": "hjrqXjEpaw9ogScPh",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This probably doesn't work, but have you thought about just using weight decay as a (partial) solution to this? In any sort of architecture with residual connections you should expect circuits to manifest as weights with nontrivial magnitude. If some set of weights isn't contributing to the loss then the gradients won't prevent them from being pushed toward zero by weight decay. Sort of a \"use it or lose it\" type thing. This seems a lot simpler and potentially more robust than other approaches.",
+      "plaintextDescription": "This probably doesn't work, but have you thought about just using weight decay as a (partial) solution to this? In any sort of architecture with residual connections you should expect circuits to manifest as weights with nontrivial magnitude. If some set of weights isn't contributing to the loss then the gradients won't prevent them from being pushed toward zero by weight decay. Sort of a \"use it or lose it\" type thing. This seems a lot simpler and potentially more robust than other approaches."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-08-16T22:27:21.120Z",
+    "af": true
+  }
+]

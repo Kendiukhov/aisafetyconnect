@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "YbjmRS3jucwokY3Yb",
+    "postId": "wdWY5nbqwBjNByJuq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Florida man goes insane after accepting conclusion!\n\nTexas woman cleverly navigates around the conclusion!\n\nRaemon found on overpass shouting at cars \"just accept the conclusion and deal with it, you can actually do that, that is actually fine, it is just a regular ol conclusion guys, you have dealt with annoying true facts before\"\n\nRecord-setting interstate pileup as people swerve to avoid the conclusion!",
+      "plaintextDescription": "Florida man goes insane after accepting conclusion!\n\nTexas woman cleverly navigates around the conclusion!\n\nRaemon found on overpass shouting at cars \"just accept the conclusion and deal with it, you can actually do that, that is actually fine, it is just a regular ol conclusion guys, you have dealt with annoying true facts before\"\n\nRecord-setting interstate pileup as people swerve to avoid the conclusion!"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-29T02:39:44.264Z",
+    "af": false
+  },
+  {
+    "_id": "EwZ7Dy6SHxSrrcQEb",
+    "postId": "AaY3QKLsfMvWJ2Cbf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "TLDR: a big manipulation trick, maybe the biggest, is to prod people about their own identities and almost-forgotten memories, then get them to pick a stance, then get them to stand for it.\r\n\r\nWatch out for:\r\n1: \"remember back to when you were a very young child\" etc etc; 2: \"now if you believe that then act on it\" or \"remember this next time\"\r\n\r\nProblem! This is disabling most coordination or acting-on-your-principles etc! Solution!: be reasonable and nonstupid i guess?",
+      "plaintextDescription": "TLDR: a big manipulation trick, maybe the biggest, is to prod people about their own identities and almost-forgotten memories, then get them to pick a stance, then get them to stand for it.\n\nWatch out for: 1: \"remember back to when you were a very young child\" etc etc; 2: \"now if you believe that then act on it\" or \"remember this next time\"\n\nProblem! This is disabling most coordination or acting-on-your-principles etc! Solution!: be reasonable and nonstupid i guess?"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-14T07:26:28.035Z",
+    "af": false
+  },
+  {
+    "_id": "nwaKTv2MdHQ2KzeH6",
+    "postId": "dSG6ign997hjHC9mG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The journalists who caught the \"donate to all the political opponents of your enemies regardless of political party with a superPAC called Team America\" strategy and brought it to the people's attention did great work. Crypto bought half the elections in the country and got away with it! People should know!\n\nWait a minute... They actually published a tutorial! Crap!",
+      "plaintextDescription": "The journalists who caught the \"donate to all the political opponents of your enemies regardless of political party with a superPAC called Team America\" strategy and brought it to the people's attention did great work. Crypto bought half the elections in the country and got away with it! People should know!\n\nWait a minute... They actually published a tutorial! Crap!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T06:24:36.351Z",
+    "af": false
+  },
+  {
+    "_id": "dguK8JHDSEKm8HE8s",
+    "postId": "Di9muNKLA33swbHBa",
+    "parentCommentId": "LfCjDG5TyzDc6Ao4v",
+    "topLevelCommentId": "LfCjDG5TyzDc6Ao4v",
+    "contents": {
+      "markdown": "Stop at the first elf plot. If people do not know what their skill level is (or what the future holds) then they guess values near the median. If you do bad (or roll the dice poorly) then you look overconfident / optimistic. This explains almost all of the DK effect.",
+      "plaintextDescription": "Stop at the first elf plot. If people do not know what their skill level is (or what the future holds) then they guess values near the median. If you do bad (or roll the dice poorly) then you look overconfident / optimistic. This explains almost all of the DK effect."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T06:10:35.876Z",
+    "af": false
+  },
+  {
+    "_id": "Bst9AjKYxxCD3guCo",
+    "postId": "Dmkmc3kPcdcHhontA",
+    "parentCommentId": "JQrQLLgdRaMcpTDmA",
+    "topLevelCommentId": "JQrQLLgdRaMcpTDmA",
+    "contents": {
+      "markdown": "Hmm people usually post analysis of link or fulltext of link but not a sneak preview",
+      "plaintextDescription": "Hmm people usually post analysis of link or fulltext of link but not a sneak preview"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-07T05:52:54.580Z",
+    "af": false
+  },
+  {
+    "_id": "qJLresPzXyW9HjBPg",
+    "postId": "Q5TKtDcx7PwDxZYRR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great post! Nice to see something constructive! And half your citations are new to me. Thank you for sharing.\r\n\r\nI have spent the last few months reinventing the wheel with LLM applications in various ways. I've been using my own code assistant for about 7 months. I did an alpha-evolve-style system for generating RL code that learns atari. Last year I was trying some fancy retrieval over published/patented electronics circuits. Did some activation steering and tried my hand at KellerJordan/modded-nanogpt for a day. Of course before that I was at METR helping them set evals stuff up.\r\n\r\nIt hasn't occurred to me to try to draw any conclusions from all this different work, and I didn't think of it really as inter-related in any significant way or relevant experience for much of anything, but your topic here is making me think...\r\n\r\nAlmost every \"optimizing\" system I make ends up breaking/glitching/cheating the score function. Then I patch and patch until it works, and by then it looks more like a satisficer.\r\n\r\nGetting something really useful seems to take about a month of corrections like this. It looks done/working on the first day, I notice something broken and fix it and declare it done on the second day, etc, but after a month I just don't have any more corrections to make. This is different from eg a web app or game which I never run out of todo items for. Of course when LLMs are involved you have to look three times more carefully to be sure you are measuring what you mean to be measuring.\r\n\r\nMy point is that I expect projects fitting your description here to basically actually work and be worthwhile, but if it is your (speaking to the anonymous reader) first time doing this, expect that you'll spend 10x as long correcting/improving/balancing scores & heuristics as you'll spend on the core functionality.\r\n\r\nAs you stated in the post, that's not so different from the process used to make AI assistants (etc) in general.\r\n\r\nMaking my own AI tools has definitely given some depth/detail to all the theoretical problems I've been reading about and talking about all these years. Particularly it is impressive how long my tools have tricked me at times. It is possible I am still tricked right now.",
+      "plaintextDescription": "Great post! Nice to see something constructive! And half your citations are new to me. Thank you for sharing.\n\nI have spent the last few months reinventing the wheel with LLM applications in various ways. I've been using my own code assistant for about 7 months. I did an alpha-evolve-style system for generating RL code that learns atari. Last year I was trying some fancy retrieval over published/patented electronics circuits. Did some activation steering and tried my hand at KellerJordan/modded-nanogpt for a day. Of course before that I was at METR helping them set evals stuff up.\n\nIt hasn't occurred to me to try to draw any conclusions from all this different work, and I didn't think of it really as inter-related in any significant way or relevant experience for much of anything, but your topic here is making me think...\n\nAlmost every \"optimizing\" system I make ends up breaking/glitching/cheating the score function. Then I patch and patch until it works, and by then it looks more like a satisficer.\n\nGetting something really useful seems to take about a month of corrections like this. It looks done/working on the first day, I notice something broken and fix it and declare it done on the second day, etc, but after a month I just don't have any more corrections to make. This is different from eg a web app or game which I never run out of todo items for. Of course when LLMs are involved you have to look three times more carefully to be sure you are measuring what you mean to be measuring.\n\nMy point is that I expect projects fitting your description here to basically actually work and be worthwhile, but if it is your (speaking to the anonymous reader) first time doing this, expect that you'll spend 10x as long correcting/improving/balancing scores & heuristics as you'll spend on the core functionality.\n\nAs you stated in the post, that's not so different from the process used to make AI assistants (etc) in general.\n\nMaking my own AI tools has definitely given some depth/"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-27T09:54:47.235Z",
+    "af": false
+  },
+  {
+    "_id": "gpxJNjBaYai9MsLa5",
+    "postId": "anFrGMskALuH7aZDw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Since nobody seems to have posted it yet:\n\nRiding a motorcycle for 60 years:\n\n(1-1/800)^60=0.928\n\nSailing across the ocean every month for 60 years:\n\n(1-(1/10000))^(60*12)=0.931\n\nThe sailing risk is probably overestimated. I have never met anyone who was lost at sea, never seen pictures of someone lost at sea, never heard back from the people who I thought might be lost at sea, and I'm sure to find shore soon and I think I have enough peanut butter for another week...",
+      "plaintextDescription": "Since nobody seems to have posted it yet:\n\nRiding a motorcycle for 60 years:\n\n(1-1/800)^60=0.928\n\nSailing across the ocean every month for 60 years:\n\n(1-(1/10000))^(60*12)=0.931\n\nThe sailing risk is probably overestimated. I have never met anyone who was lost at sea, never seen pictures of someone lost at sea, never heard back from the people who I thought might be lost at sea, and I'm sure to find shore soon and I think I have enough peanut butter for another week..."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-25T00:26:49.704Z",
+    "af": false
+  },
+  {
+    "_id": "99kt3NCpxQTvbDf6J",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Two AI accelerants I had not noticed before:\n\n1. Users with the hardest problems will use the smartest model available. So if you release your best model and your competitor only releases their 2nd smartest, then you will get better training data from users. Not just code, but vision and robotics too.\n2. Among those affected by AI job loss is AI/ML devs/researchers themselves. The higher the hiring bar for AI devs, (A) the more applicants will put effort into learning stuff deeply and doing interesting useful novel work to get a job and (B) the easier it is to spot/snag unusual talent.",
+      "plaintextDescription": "Two AI accelerants I had not noticed before:\n\n 1. Users with the hardest problems will use the smartest model available. So if you release your best model and your competitor only releases their 2nd smartest, then you will get better training data from users. Not just code, but vision and robotics too.\n 2. Among those affected by AI job loss is AI/ML devs/researchers themselves. The higher the hiring bar for AI devs, (A) the more applicants will put effort into learning stuff deeply and doing interesting useful novel work to get a job and (B) the easier it is to spot/snag unusual talent."
+    },
+    "baseScore": 27,
+    "voteCount": 23,
+    "createdAt": null,
+    "postedAt": "2025-09-24T23:21:48.802Z",
+    "af": false
+  },
+  {
+    "_id": "rvodcFTm2nohsKkGm",
+    "postId": "rarcxjGp47dcHftCP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I can attest that you can fool yourself quite often (twice a week?) even if you just use CLI, frequently switch models, and almost never have context/history. When you drop something in front of an LLM they say \"ok lets make it work.\" That's a strong signal from a fellow human. Trips something in my brain I guess. I tried adding criticism and refusals to my CLI thing but it doesn't work.",
+      "plaintextDescription": "I can attest that you can fool yourself quite often (twice a week?) even if you just use CLI, frequently switch models, and almost never have context/history. When you drop something in front of an LLM they say \"ok lets make it work.\" That's a strong signal from a fellow human. Trips something in my brain I guess. I tried adding criticism and refusals to my CLI thing but it doesn't work."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-03T09:37:30.545Z",
+    "af": false
+  },
+  {
+    "_id": "Rc2QDvGyJ8st6gQEe",
+    "postId": "WLFRkm3PhJ3Ty27QH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This could work. I think the hard part is finding a meaningful way to simulate the environment so that the conclusions transfer to real life.",
+      "plaintextDescription": "This could work. I think the hard part is finding a meaningful way to simulate the environment so that the conclusions transfer to real life."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-03T09:20:46.986Z",
+    "af": false
+  },
+  {
+    "_id": "jmsxBnX57DmZnJxym",
+    "postId": "vJrP7nbnJTwk4fcbk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I was at this weird party where everyone started drinking poison. I tried explaining it to them but I didn't have any proof or anything and I said \"look that's poison sir\" and \"m'am if you think there's any chance I'm right you should stop drinking that\" but no luck. They said \"I'm thirsty\" or \"i already have this cup in my hand\" or \"maybe water is poison and this is antidote, you know more people die from drowning than random poisoning\". I realized I was failing to think about it from their perspective. If I had known all these people for years and this big party was basically what we've been planning for a while and it was blowing up online then I would definitely drink it too.\n\nAfter all the poison-is-actually-antidote guy could've also said \"if there's any chance I'm right you have to drink it right now\" which would be just political manuvineering clearly.\n\nAnyways I miss those guys they were fun",
+      "plaintextDescription": "I was at this weird party where everyone started drinking poison. I tried explaining it to them but I didn't have any proof or anything and I said \"look that's poison sir\" and \"m'am if you think there's any chance I'm right you should stop drinking that\" but no luck. They said \"I'm thirsty\" or \"i already have this cup in my hand\" or \"maybe water is poison and this is antidote, you know more people die from drowning than random poisoning\". I realized I was failing to think about it from their perspective. If I had known all these people for years and this big party was basically what we've been planning for a while and it was blowing up online then I would definitely drink it too.\n\nAfter all the poison-is-actually-antidote guy could've also said \"if there's any chance I'm right you have to drink it right now\" which would be just political manuvineering clearly.\n\nAnyways I miss those guys they were fun"
+    },
+    "baseScore": -1,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-03T09:02:07.880Z",
+    "af": false
+  },
+  {
+    "_id": "js6H7JDgAAqxpQCbf",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "With controlling a theoretical rl agent, what's the problem with asking the ai to be 99% sure that it mopped 99% of the floor and stop?\n\nI remember that if you just ask for 99% floormop then agent will spend forever getting 99.99999% sure that at least 99% is mopped, but I can't remember the problem with this little patch.",
+      "plaintextDescription": "With controlling a theoretical rl agent, what's the problem with asking the ai to be 99% sure that it mopped 99% of the floor and stop?\n\nI remember that if you just ask for 99% floormop then agent will spend forever getting 99.99999% sure that at least 99% is mopped, but I can't remember the problem with this little patch."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-23T19:55:14.327Z",
+    "af": false
+  },
+  {
+    "_id": "rB2SrrDwKmKyX7wyF",
+    "postId": "QQdmb3TjrvmB9Pfzp",
+    "parentCommentId": "g523DSoLgvDJGtCBd",
+    "topLevelCommentId": "g523DSoLgvDJGtCBd",
+    "contents": {
+      "markdown": "This resolved yes!",
+      "plaintextDescription": "This resolved yes!"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-15T07:27:24.983Z",
+    "af": false
+  },
+  {
+    "_id": "XqKQHycmTqDJCe97J",
+    "postId": "HY8c4JDHynFpDw3Ns",
+    "parentCommentId": "k7bMf434vYrtAaYrW",
+    "topLevelCommentId": "PPwp8AfrKTpZ8tQsT",
+    "contents": {
+      "markdown": "Ok it does seem like an example then. Thank you for spelling it out.",
+      "plaintextDescription": "Ok it does seem like an example then. Thank you for spelling it out."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-15T07:14:49.591Z",
+    "af": false
+  },
+  {
+    "_id": "cu6bHJ8uFANARTKwN",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Having some vague thoughts about \"evil people\". In the movies the heroes love everything and fight to save it, and the villains hate everything and fight to destroy it. I feel like in real life, the heroes love power and control, they want the world to be a certain way, and that happens to be a good world for some others too, and they happen to have good ideas about how to do it (eg USA founding fathers, Xi Jinping) instead of stupid bad ideas (Mao, Stalin). There seems to be an innate human drive for revenge and for genocide of other ethnicities, but besides that, humans don't seem to come packaged with anything that makes us crave death and destruction.\n\nI thought about this because I was thinking about my past choices to avoid psychopaths in my personal life. It is certainly the safe choice to avoid them. But maybe I should put more thought into their preferences and ideas, instead of stopping analysis once psychopathy is obvious.\n\nLike if you are friends with both Mao and Xi Jinping then you shouldn't just think \"man those guys are real politicians\". You should look closely at what they want and whether their ideas will succeed or fail. Probably obvious to many people, but not me.",
+      "plaintextDescription": "Having some vague thoughts about \"evil people\". In the movies the heroes love everything and fight to save it, and the villains hate everything and fight to destroy it. I feel like in real life, the heroes love power and control, they want the world to be a certain way, and that happens to be a good world for some others too, and they happen to have good ideas about how to do it (eg USA founding fathers, Xi Jinping) instead of stupid bad ideas (Mao, Stalin). There seems to be an innate human drive for revenge and for genocide of other ethnicities, but besides that, humans don't seem to come packaged with anything that makes us crave death and destruction.\n\nI thought about this because I was thinking about my past choices to avoid psychopaths in my personal life. It is certainly the safe choice to avoid them. But maybe I should put more thought into their preferences and ideas, instead of stopping analysis once psychopathy is obvious.\n\nLike if you are friends with both Mao and Xi Jinping then you shouldn't just think \"man those guys are real politicians\". You should look closely at what they want and whether their ideas will succeed or fail. Probably obvious to many people, but not me."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-14T18:32:00.922Z",
+    "af": false
+  },
+  {
+    "_id": "yoChRz5aJSLWgf3pC",
+    "postId": "qGMonyLRXFRnCWSj6",
+    "parentCommentId": "ERTv5NgPcWGtYKhfR",
+    "topLevelCommentId": "LMf4tzwySn7TgpY7x",
+    "contents": {
+      "markdown": "They always try to make it interesting. I would even say that all these downvoted posts already seem to be trying to follow your advice here. The hard part is guessing correctly. Your advice here is obvious but you clearly have some knowledge/skill/understanding that is not obvious. If you really want to help people accomplish successful closet exit then you will need to give a better tutorial with more detail. I think that would be a good thing to have around.",
+      "plaintextDescription": "They always try to make it interesting. I would even say that all these downvoted posts already seem to be trying to follow your advice here. The hard part is guessing correctly. Your advice here is obvious but you clearly have some knowledge/skill/understanding that is not obvious. If you really want to help people accomplish successful closet exit then you will need to give a better tutorial with more detail. I think that would be a good thing to have around."
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-14T18:11:25.925Z",
+    "af": false
+  },
+  {
+    "_id": "9imbgJcAyYzAvwpJP",
+    "postId": "bkjqfhKd8ZWHK9XqF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hangnails open up skin and very much killed our non-ancestors. It is a great place for an infection to start. I think it is just a hard problem to solve. Lots of animals have problems with their nails and claws. It is hard stuff poking through / mounted to skin, just a difficult thing to do well.",
+      "plaintextDescription": "Hangnails open up skin and very much killed our non-ancestors. It is a great place for an infection to start. I think it is just a hard problem to solve. Lots of animals have problems with their nails and claws. It is hard stuff poking through / mounted to skin, just a difficult thing to do well."
+    },
+    "baseScore": 24,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-08-14T18:05:24.899Z",
+    "af": false
+  },
+  {
+    "_id": "LMf4tzwySn7TgpY7x",
+    "postId": "qGMonyLRXFRnCWSj6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "1. Be the most upvoted and well received LW account ever.\n2. Hey guys I think everybody should open up! You just need to make it interesting!\n\nIf you browse [newest](https://www.greaterwrong.com/index?view=all) (which is almost impossible to do on lesswrong.com) then you will find someone opening up like this every couple days and almost always getting downvoted and attacked.",
+      "plaintextDescription": " 1. Be the most upvoted and well received LW account ever.\n 2. Hey guys I think everybody should open up! You just need to make it interesting!\n\nIf you browse newest (which is almost impossible to do on lesswrong.com) then you will find someone opening up like this every couple days and almost always getting downvoted and attacked."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-14T17:56:51.305Z",
+    "af": false
+  },
+  {
+    "_id": "PPwp8AfrKTpZ8tQsT",
+    "postId": "HY8c4JDHynFpDw3Ns",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think you meant to say something different with this paragraph, or I am confused:\r\n\r\n> Diagnostic dilution is always structurally invalid, but it misleads us specifically when the conclusion hinges on forgetting  X . “Bob is a practising doctor, so Bob can prescribe medications, so Bob can probably prescribe Ozempic” is a fine inference because it goes through without forgetting that Bob is a doctor. But consider the same chain starting with “Bob is a vet”: now the inference does not go through unless we forget Bob’s job, and indeed the conclusion is false.\r\n\r\nThis does not seem to be an example of \"diagnostic dilution\"",
+      "plaintextDescription": "I think you meant to say something different with this paragraph, or I am confused:\n\n> Diagnostic dilution is always structurally invalid, but it misleads us specifically when the conclusion hinges on forgetting X . “Bob is a practising doctor, so Bob can prescribe medications, so Bob can probably prescribe Ozempic” is a fine inference because it goes through without forgetting that Bob is a doctor. But consider the same chain starting with “Bob is a vet”: now the inference does not go through unless we forget Bob’s job, and indeed the conclusion is false.\n\nThis does not seem to be an example of \"diagnostic dilution\""
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-14T17:37:27.825Z",
+    "af": false
+  },
+  {
+    "_id": "dKfLRamCopbtoQjkr",
+    "postId": "M4CTeejpBNCN4iBAF",
+    "parentCommentId": "NHnY2HxeKKubbd5XR",
+    "topLevelCommentId": "kEX5dbYmkjEcyGp7t",
+    "contents": {
+      "markdown": "Llama 8b might do a decent job",
+      "plaintextDescription": "Llama 8b might do a decent job"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-12T16:36:13.006Z",
+    "af": false
+  },
+  {
+    "_id": "eDNeRKpF9bFQ4hBhP",
+    "postId": "c9wiSGWyX6MGqrQsX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Be an ASS: arrive, survive, and spread",
+      "plaintextDescription": "Be an ASS: arrive, survive, and spread"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-08T15:25:15.335Z",
+    "af": false
+  },
+  {
+    "_id": "HmSzdA9yLx39hyCxq",
+    "postId": "yjXtoq86sz5LaRxDZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The George Burns quote has an interesting history. https://quoteinvestigator.com/2011/12/05/fake-honesty/",
+      "plaintextDescription": "The George Burns quote has an interesting history. https://quoteinvestigator.com/2011/12/05/fake-honesty/"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-30T20:33:35.111Z",
+    "af": false
+  },
+  {
+    "_id": "foS6oNDunCeuTshLg",
+    "postId": "GcznAvzZoEEPxsgzS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It's a nonprofit, but I would like to complement METR for raising many millions of dollars while sticking to their guns and simultaneously not screwing anybody over. Rare combination of integrity, research competence, and fundraising competence. I expect it to remain a nonprofit forever.",
+      "plaintextDescription": "It's a nonprofit, but I would like to complement METR for raising many millions of dollars while sticking to their guns and simultaneously not screwing anybody over. Rare combination of integrity, research competence, and fundraising competence. I expect it to remain a nonprofit forever."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-25T21:41:43.798Z",
+    "af": false
+  },
+  {
+    "_id": "EFFRCoqyMrKzQhAgv",
+    "postId": "GcznAvzZoEEPxsgzS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Misc ideas I thought of or heard of:\n\n* adult language learning service, maybe based on partially-translating books or TV. Eg book starts 10% Russian and gets more Russian as you click the define button less often.\n* foreign dubs for TV (ML-based audio splitting, translation, and audio generation). Sell as debrid service\n* discount claude code competitor which lets you report past sneakiness when you discover it. Sell the reports as training data.",
+      "plaintextDescription": "Misc ideas I thought of or heard of:\n\n * adult language learning service, maybe based on partially-translating books or TV. Eg book starts 10% Russian and gets more Russian as you click the define button less often.\n * foreign dubs for TV (ML-based audio splitting, translation, and audio generation). Sell as debrid service\n * discount claude code competitor which lets you report past sneakiness when you discover it. Sell the reports as training data."
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-25T20:40:56.507Z",
+    "af": false
+  },
+  {
+    "_id": "c9awqivSocrnxwxp8",
+    "postId": "Dokp6oxGJiaqF5rxZ",
+    "parentCommentId": "2EoPwvd4ZSwEBEZJ7",
+    "topLevelCommentId": "2EoPwvd4ZSwEBEZJ7",
+    "contents": {
+      "markdown": "I'm no writer or editor but you could email me. I check my email every few days lemonhope@fastmail.com",
+      "plaintextDescription": "I'm no writer or editor but you could email me. I check my email every few days lemonhope@fastmail.com"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-25T20:13:57.327Z",
+    "af": false
+  },
+  {
+    "_id": "ewMwcqH3sHgRq8kGr",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Long have I searched for an intuitive name for motte & bailey that I wouldn't have to explain too much in conversation. I might have finally found it. The \"I was merely saying fallacy\". Verb: merelysay. Noun: merelysayism. Example: \"You said you could cure cancer and now you're merelysaying you help the body fight colon cancer only.\"",
+      "plaintextDescription": "Long have I searched for an intuitive name for motte & bailey that I wouldn't have to explain too much in conversation. I might have finally found it. The \"I was merely saying fallacy\". Verb: merelysay. Noun: merelysayism. Example: \"You said you could cure cancer and now you're merelysaying you help the body fight colon cancer only.\""
+    },
+    "baseScore": 14,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-25T19:58:53.777Z",
+    "af": false
+  },
+  {
+    "_id": "HQtxWD3owmrGA7HMv",
+    "postId": "abd9ufFpLrn5kvnLn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Application link says \"no access to this page\"",
+      "plaintextDescription": "Application link says \"no access to this page\""
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-22T18:30:37.249Z",
+    "af": false
+  },
+  {
+    "_id": "ns9eNmSuTgYtaDSCD",
+    "postId": "wd8mNFof8o7EtoiLi",
+    "parentCommentId": "fYtcC9F4WEf3q6PC4",
+    "topLevelCommentId": "KHjPKBKEHx9XaMb9s",
+    "contents": {
+      "markdown": "\"Death with dignity\" was clearly intended to trigger the audience to HMCF right? He was doing exactly what you are asking for",
+      "plaintextDescription": "\"Death with dignity\" was clearly intended to trigger the audience to HMCF right? He was doing exactly what you are asking for"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-22T09:08:42.928Z",
+    "af": false
+  },
+  {
+    "_id": "ATCQhtSY5ccMXj4Bb",
+    "postId": "DAvrAxusHdes9ZXxp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think footnote 14, the claim that evolution explores more efficient pathways, is the most important point, maybe you should expand on it",
+      "plaintextDescription": "I think footnote 14, the claim that evolution explores more efficient pathways, is the most important point, maybe you should expand on it"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-20T20:11:57.146Z",
+    "af": false
+  },
+  {
+    "_id": "A8kRpdMSdEaep5t7F",
+    "postId": "wbbitCpkjyQWJRkt4",
+    "parentCommentId": "Zaxh2XnHK7yNLD6P8",
+    "topLevelCommentId": "Zaxh2XnHK7yNLD6P8",
+    "contents": {
+      "markdown": "1. Inference-time computation techniques, analogous to human System 2 Thinking, have recently become popular for improving model performances.\r\n2. However, most existing approaches suffer from several limitations:\r\n    1. They are modality-specific (e.g., working only in text).\r\n    2. They are problem-specific (e.g., verifiable domains like math and coding).\r\n    3. They require additional supervision/training on top of unsupervised pretraining (e.g., verifiers or verifiable rewards).\r\n3. In this paper, we ask the question “Is it possible to generalize these System 2 Thinking approaches, and develop models that learn to think solely from unsupervised learning?”\r\n4. Interestingly, we find the answer is yes, by learning to explicitly verify the compatibility (unnormalized probability) between inputs and candidate-predictions, and then re-framing prediction problems as optimization with respect to this verifier.\r\n5. Specifically, we train Energy-Based Transformers (EBTs)—a new class of Energy-Based Models (EBMs)—to assign an energy (unnormalized probability) value to every input and candidate-prediction pair, enabling predictions through gradient descent-based energy minimization until convergence.\r\n6. This formulation enables System 2 Thinking to emerge from unsupervised learning, making it modality and problem agnostic.\r\n7. Across both discrete (text) and continuous (visual) modalities, we find EBTs scale faster than the dominant Transformer++ approach during training, achieving an up to 35% higher scaling rate with respect to data, batch size, parameters, FLOPs, and depth.\r\n8. During inference, EBTs improve performance with System 2 Thinking (i.e., extra computation) by 29% more than the Transformer++ on language tasks, and EBTs outperform Diffusion Transformers on image denoising while using 99% fewer forward passes.\r\n9. Further, we find that System 2 Thinking with EBTs yields larger performance improvements on data that is farther out-of-distribution, and that EBTs achieve better results than existing models on most downstream tasks given the same or worse pretraining performance, enabling EBTs to out-generalize existing paradigms.\r\n10. Consequently, EBTs are a flexible and exciting new paradigm for scaling both the learning and thinking capabilities of models.\r\n\r\n\r\n\r\n\r\n\r\n",
+      "plaintextDescription": " 1.  Inference-time computation techniques, analogous to human System 2 Thinking, have recently become popular for improving model performances.\n 2.  However, most existing approaches suffer from several limitations:\n     1. They are modality-specific (e.g., working only in text).\n     2. They are problem-specific (e.g., verifiable domains like math and coding).\n     3. They require additional supervision/training on top of unsupervised pretraining (e.g., verifiers or verifiable rewards).\n 3.  In this paper, we ask the question “Is it possible to generalize these System 2 Thinking approaches, and develop models that learn to think solely from unsupervised learning?”\n 4.  Interestingly, we find the answer is yes, by learning to explicitly verify the compatibility (unnormalized probability) between inputs and candidate-predictions, and then re-framing prediction problems as optimization with respect to this verifier.\n 5.  Specifically, we train Energy-Based Transformers (EBTs)—a new class of Energy-Based Models (EBMs)—to assign an energy (unnormalized probability) value to every input and candidate-prediction pair, enabling predictions through gradient descent-based energy minimization until convergence.\n 6.  This formulation enables System 2 Thinking to emerge from unsupervised learning, making it modality and problem agnostic.\n 7.  Across both discrete (text) and continuous (visual) modalities, we find EBTs scale faster than the dominant Transformer++ approach during training, achieving an up to 35% higher scaling rate with respect to data, batch size, parameters, FLOPs, and depth.\n 8.  During inference, EBTs improve performance with System 2 Thinking (i.e., extra computation) by 29% more than the Transformer++ on language tasks, and EBTs outperform Diffusion Transformers on image denoising while using 99% fewer forward passes.\n 9.  Further, we find that System 2 Thinking with EBTs yields larger performance improvements on data that is farther out-of-distribution, a"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-08T21:55:25.880Z",
+    "af": false
+  },
+  {
+    "_id": "xjL3zqzMJdCQkPvwz",
+    "postId": "fjgYkTWKAXSxsxdsj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "FYI some images don't load.",
+      "plaintextDescription": "FYI some images don't load."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-02T18:51:33.537Z",
+    "af": false
+  },
+  {
+    "_id": "jzXbgWP9JDGkxuRhp",
+    "postId": "fjgYkTWKAXSxsxdsj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Fantastic writeup.",
+      "plaintextDescription": "Fantastic writeup."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-02T18:48:00.822Z",
+    "af": false
+  },
+  {
+    "_id": "BB4YeN6dRfReGcPSq",
+    "postId": "KrFPLtBxvvdySkE83",
+    "parentCommentId": "eC6hvcniT6TjxNvz9",
+    "topLevelCommentId": "eC6hvcniT6TjxNvz9",
+    "contents": {
+      "markdown": "Did you?",
+      "plaintextDescription": "Did you?"
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-02T05:59:12.357Z",
+    "af": false
+  },
+  {
+    "_id": "7yfEHzLcNCynbebeQ",
+    "postId": "KrFPLtBxvvdySkE83",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You might want to advertise on reddit or somewhere with more artists. You could ask for three specific arts for three specific posts to make your job easier. (I could do it for you.)",
+      "plaintextDescription": "You might want to advertise on reddit or somewhere with more artists. You could ask for three specific arts for three specific posts to make your job easier. (I could do it for you.)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-01T09:48:34.517Z",
+    "af": false
+  },
+  {
+    "_id": "BvqgW9ZapCCv46fKE",
+    "postId": "anX4QrNjhJqGFvrBr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Many props for doing the most obvious thing that clearly actually works.",
+      "plaintextDescription": "Many props for doing the most obvious thing that clearly actually works."
+    },
+    "baseScore": 48,
+    "voteCount": 27,
+    "createdAt": null,
+    "postedAt": "2025-06-13T16:52:52.893Z",
+    "af": true
+  },
+  {
+    "_id": "adsAJByE9c3p2q9J8",
+    "postId": "5uw26uDdFbFQgKzih",
+    "parentCommentId": "adxmghYmGqLKm5emD",
+    "topLevelCommentId": "adxmghYmGqLKm5emD",
+    "contents": {
+      "markdown": "A car can't even take me from the fridge to the couch! Trust me, I tried all of them. You just spend all your time getting in and back out of the car. I don't see much use for cars, unless all you want to is drive down the road.",
+      "plaintextDescription": "A car can't even take me from the fridge to the couch! Trust me, I tried all of them. You just spend all your time getting in and back out of the car. I don't see much use for cars, unless all you want to is drive down the road."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-12T17:19:57.441Z",
+    "af": false
+  },
+  {
+    "_id": "2rHKzNugLFg7Gxfcb",
+    "postId": "3EzbtNLdcnZe8og8b",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Any idea why opus 3 is exceptional? Any guess as to what was special about how it was created?",
+      "plaintextDescription": "Any idea why opus 3 is exceptional? Any guess as to what was special about how it was created?"
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-11T13:09:36.876Z",
+    "af": false
+  },
+  {
+    "_id": "LdvpFjLLKPwhW8rfr",
+    "postId": "K6JWiJPWJwZuQNKqe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have found it productive to ask people about what they want to happen, about what kind of future sounds good to them, instead of debating which side effect of the AI pill is the most annoying/deadly. I feel like we are presently more in need of targets than antitargets.\r\n\r\nI asked about that here, some interesting answers https://www.lesswrong.com/posts/wxbRqep7SuCFwxqkv/what-exactly-did-that-great-ai-future-involve-again",
+      "plaintextDescription": "I have found it productive to ask people about what they want to happen, about what kind of future sounds good to them, instead of debating which side effect of the AI pill is the most annoying/deadly. I feel like we are presently more in need of targets than antitargets.\n\nI asked about that here, some interesting answers https://www.lesswrong.com/posts/wxbRqep7SuCFwxqkv/what-exactly-did-that-great-ai-future-involve-again"
+    },
+    "baseScore": 11,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-11T05:58:12.780Z",
+    "af": false
+  },
+  {
+    "_id": "wLprSr6ooQzKkvF3i",
+    "postId": "KySxMxGZRgHmJA5j2",
+    "parentCommentId": "anTb39aeidfx2Ez3Y",
+    "topLevelCommentId": "anTb39aeidfx2Ez3Y",
+    "contents": {
+      "markdown": "Almost all the people who get rich and stay rich and are fairly greedy. Or \"have a drive to acquire wealth\" if you prefer",
+      "plaintextDescription": "Almost all the people who get rich and stay rich and are fairly greedy. Or \"have a drive to acquire wealth\" if you prefer"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-23T15:03:27.912Z",
+    "af": false
+  },
+  {
+    "_id": "MMFcA6TmhsshMhfvs",
+    "postId": "Zr37dY5YPRT6s56jY",
+    "parentCommentId": "KaaSfntGEBBgadvrF",
+    "topLevelCommentId": "KaaSfntGEBBgadvrF",
+    "contents": {
+      "markdown": "You could add cooking tasks with robots.",
+      "plaintextDescription": "You could add cooking tasks with robots."
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-20T07:50:53.026Z",
+    "af": false
+  },
+  {
+    "_id": "XN37bpDtttGs8wwom",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Who predicted that AI will have a multi-year \"everything works\" period where the prerequisite pieces come together and suddenly every technique works on every problem? Like before electricity you had to use the right drill bit or saw blade for a given material, but now you can cut anything with anything if you are only slightly patient.",
+      "plaintextDescription": "Who predicted that AI will have a multi-year \"everything works\" period where the prerequisite pieces come together and suddenly every technique works on every problem? Like before electricity you had to use the right drill bit or saw blade for a given material, but now you can cut anything with anything if you are only slightly patient."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-20T07:47:35.492Z",
+    "af": false
+  },
+  {
+    "_id": "gBdj88EsggNoyGj2c",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": "mc4Zc5Hv3Ct6fftx7",
+    "topLevelCommentId": "k964Qmn7dT2SqRCjt",
+    "contents": {
+      "markdown": "Your argument is quite good",
+      "plaintextDescription": "Your argument is quite good"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-10T06:30:58.722Z",
+    "af": false
+  },
+  {
+    "_id": "z2CLhGcMeDeCixAnH",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": "cuaKjfYc7oHhvdFcX",
+    "topLevelCommentId": "dJH9ksJkibrvYg3Bi",
+    "contents": {
+      "markdown": "Yeah it is a popular psychology experiment to trick people with container shapes.",
+      "plaintextDescription": "Yeah it is a popular psychology experiment to trick people with container shapes."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-10T06:29:12.740Z",
+    "af": false
+  },
+  {
+    "_id": "dJH9ksJkibrvYg3Bi",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is there a list of rationality one-liners that can possibly actually make you more rational? Just barely enough words to be saying something rather than nothing, and to have it maybe land. Eg\n\n- Wide mugs are always bigger than tall mugs.\n- newyep:newnope = oldyep * chanceifyep : oldnope * chanceifnope (assuming independent events!)\n- Tasks take sample(lognormal(median)) hours to complete.\n- If it took you a long time to think of something, then figure out how you coulda figured it out faster. Then next time figure fast.\n- People care very much what words you choose to convey the same meaning. They really really care.",
+      "plaintextDescription": "Is there a list of rationality one-liners that can possibly actually make you more rational? Just barely enough words to be saying something rather than nothing, and to have it maybe land. Eg\n\n * Wide mugs are always bigger than tall mugs.\n * newyep:newnope = oldyep * chanceifyep : oldnope * chanceifnope (assuming independent events!)\n * Tasks take sample(lognormal(median)) hours to complete.\n * If it took you a long time to think of something, then figure out how you coulda figured it out faster. Then next time figure fast.\n * People care very much what words you choose to convey the same meaning. They really really care."
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-09T17:56:26.026Z",
+    "af": false
+  },
+  {
+    "_id": "YEiSAxq7TXdLKd4EF",
+    "postId": "7bqzFLqEoz44y6C6o",
+    "parentCommentId": "Csvvz6BnGj83ouQQo",
+    "topLevelCommentId": "KvLLQQeFFrnrNgBnF",
+    "contents": {
+      "markdown": "Don't expect LW to be neutral or anything. Think of it as the town bar, not the town square.",
+      "plaintextDescription": "Don't expect LW to be neutral or anything. Think of it as the town bar, not the town square."
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-28T18:27:02.370Z",
+    "af": false
+  },
+  {
+    "_id": "2RmzQk5xqBhDMG4A3",
+    "postId": "7bqzFLqEoz44y6C6o",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have dealt with both greedy founders/execs and excessively cooperative decision-making. I think the cooperative model is slightly better overall for almost everyone inside and outside the organization. It is less fit though; co-ops can't as easily merge or raise money etc. There is also a ratchet issue, where it is harder to cooperatize what is private than to privatize what is coopt. Curious if you have any ideas how coop-like stuff could be more stable / low-energy.",
+      "plaintextDescription": "I have dealt with both greedy founders/execs and excessively cooperative decision-making. I think the cooperative model is slightly better overall for almost everyone inside and outside the organization. It is less fit though; co-ops can't as easily merge or raise money etc. There is also a ratchet issue, where it is harder to cooperatize what is private than to privatize what is coopt. Curious if you have any ideas how coop-like stuff could be more stable / low-energy."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-28T18:24:42.502Z",
+    "af": false
+  },
+  {
+    "_id": "cDsgpJs76YDppwMZw",
+    "postId": "t46PYSvHHtJLxmrxn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You could make something like Blind (the big tech employee anon social net) for unionizing/coordinating AI lab employees. \"I'll delay my project if you delay yours.\" Or anon danger polls of employees at labs. I'm not sure of the details but I suspect there is fruit. (\"Your weekly update: 25% of your coworkers expect to see 2035.\")",
+      "plaintextDescription": "You could make something like Blind (the big tech employee anon social net) for unionizing/coordinating AI lab employees. \"I'll delay my project if you delay yours.\" Or anon danger polls of employees at labs. I'm not sure of the details but I suspect there is fruit. (\"Your weekly update: 25% of your coworkers expect to see 2035.\")"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-28T17:49:34.871Z",
+    "af": false
+  },
+  {
+    "_id": "L9qAhaLjGxBqaHrqi",
+    "postId": "MKS4tJqLWmRXgXzgY",
+    "parentCommentId": "kgszMNebcAaDewKcr",
+    "topLevelCommentId": "7LGDEizr9HcTra2eH",
+    "contents": {
+      "markdown": "Makes sense. Those were real questions, to be clear.",
+      "plaintextDescription": "Makes sense. Those were real questions, to be clear."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-20T04:18:53.624Z",
+    "af": false
+  },
+  {
+    "_id": "7LGDEizr9HcTra2eH",
+    "postId": "MKS4tJqLWmRXgXzgY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm guessing you live in a country with a US military base? Are you more free than the average Chinese citizen? ",
+      "plaintextDescription": "I'm guessing you live in a country with a US military base? Are you more free than the average Chinese citizen?"
+    },
+    "baseScore": 6,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-04-20T03:19:34.374Z",
+    "af": false
+  },
+  {
+    "_id": "bJ42rdNh6kQ5erYLE",
+    "postId": "vnkH6JrGu2AxtDTyu",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> It deliberately doesn’t assume anything especially different or weird happens, only that trend lines keep going.\n\nOf course they are fitting an exponential curve, and only one thing happens when you do that. (Newborn on track to swallow the sun by 2040.) You can get a hyperbolic curve to fit about equally as well \\[citation needed\\] and predict negative infinity resources on Jan 2 2028. I wish they had defended this choice a bit more clearly. Like plot binomial and sigmoid best fit for comparison, to show it really does look like an exponential. (Y axis can be something arbitrary, like the price of land measured in gold.) An exponential makes sense, when an output is an input, so I would agree with it, but you can say the same thing about a puppy's cells & organs.",
+      "plaintextDescription": "> It deliberately doesn’t assume anything especially different or weird happens, only that trend lines keep going.\n\nOf course they are fitting an exponential curve, and only one thing happens when you do that. (Newborn on track to swallow the sun by 2040.) You can get a hyperbolic curve to fit about equally as well [citation needed] and predict negative infinity resources on Jan 2 2028. I wish they had defended this choice a bit more clearly. Like plot binomial and sigmoid best fit for comparison, to show it really does look like an exponential. (Y axis can be something arbitrary, like the price of land measured in gold.) An exponential makes sense, when an output is an input, so I would agree with it, but you can say the same thing about a puppy's cells & organs."
+    },
+    "baseScore": 6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-08T21:42:28.633Z",
+    "af": false
+  },
+  {
+    "_id": "jjSWCeQo8fTDqyfpG",
+    "postId": "4mvphwx5pdsZLMmpY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Almost every time I use Claude Code (3.7 I think) it ends up cheating at the goal. Optimizing performance by replacing the API function with a constant, deleting test cases, ignoring runtime errors with silent try catch, etc. It never mentions these actions in the summary. In this narrow sense, 3.7 is the most misaligned model I have ever used.",
+      "plaintextDescription": "Almost every time I use Claude Code (3.7 I think) it ends up cheating at the goal. Optimizing performance by replacing the API function with a constant, deleting test cases, ignoring runtime errors with silent try catch, etc. It never mentions these actions in the summary. In this narrow sense, 3.7 is the most misaligned model I have ever used."
+    },
+    "baseScore": 15,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-07T17:54:05.996Z",
+    "af": false
+  },
+  {
+    "_id": "q3bzyggbGySNcaDmJ",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "23andMe (and all their data) [seems](https://www.lesswrong.com/posts/MciRCEuNwctCBrT7i/23andme-potentially-for-sale-for-less-than-usd50m) to be for sale at a cheap discount.",
+      "plaintextDescription": "23andMe (and all their data) seems to be for sale at a cheap discount."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-25T04:38:06.418Z",
+    "af": false
+  },
+  {
+    "_id": "7yumxLaF6mssuy6CR",
+    "postId": "qmnegKvmLFpwaBDea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think Alibaba has not made any crazy developments yet. So let's consider DeepSeek. I think almost nobody had heard of DeepSeek before v3. Before v3, predicting strong AI progress in China would probably sound like \"some AI lab in China will appear from nowhere and do something great. I don't know who or what or when or where, but it will happen soon.\" That was roughly my opinion, at least in my memory. Maybe making that kind of prediction does not match the tastes of people who are good at predicting things? Awfully vague claim to make I guess.\r\n\r\nThere was time between v3 and r1 where folks could have more loudly commented DeepSeek was ascendant. What would this have accomplished? I suppose it would have shown some commitment to truth and awareness of reality. I am guessing people who are against the international AI race are a bit lazy to point out stuff that would accelerate the race. I guess at some point the facts can't be avoided.",
+      "plaintextDescription": "I think Alibaba has not made any crazy developments yet. So let's consider DeepSeek. I think almost nobody had heard of DeepSeek before v3. Before v3, predicting strong AI progress in China would probably sound like \"some AI lab in China will appear from nowhere and do something great. I don't know who or what or when or where, but it will happen soon.\" That was roughly my opinion, at least in my memory. Maybe making that kind of prediction does not match the tastes of people who are good at predicting things? Awfully vague claim to make I guess.\n\nThere was time between v3 and r1 where folks could have more loudly commented DeepSeek was ascendant. What would this have accomplished? I suppose it would have shown some commitment to truth and awareness of reality. I am guessing people who are against the international AI race are a bit lazy to point out stuff that would accelerate the race. I guess at some point the facts can't be avoided."
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-22T06:41:05.719Z",
+    "af": false
+  },
+  {
+    "_id": "TcZ9zCnXAWqXboXCX",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "",
+      "plaintextDescription": ""
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-15T18:53:17.163Z",
+    "af": false
+  },
+  {
+    "_id": "JGEsWFWvcBDHEK7rT",
+    "postId": "6aXe9nipTgwK5LxaP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Holy cow",
+      "plaintextDescription": "Holy cow"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-02T01:05:38.084Z",
+    "af": false
+  },
+  {
+    "_id": "eMWtprwT3ypGBobfB",
+    "postId": "tdQuoXsbW6LnxYqHx",
+    "parentCommentId": "g2HCT9AhKtcbu6AkH",
+    "topLevelCommentId": "eTHZpRQRorjt3RLtE",
+    "contents": {
+      "markdown": "So unbelievably convenient I don't even believe it",
+      "plaintextDescription": "So unbelievably convenient I don't even believe it"
+    },
+    "baseScore": 17,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-02-25T17:43:32.332Z",
+    "af": false
+  },
+  {
+    "_id": "ovyv6K3N5AL7ELdFu",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "oaTBG8SgTmLDjRpdA",
+    "topLevelCommentId": "oaTBG8SgTmLDjRpdA",
+    "contents": {
+      "markdown": "Could you do all the research on a boat in the ocean? Excuse the naive question.",
+      "plaintextDescription": "Could you do all the research on a boat in the ocean? Excuse the naive question."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-02-21T09:00:59.387Z",
+    "af": false
+  },
+  {
+    "_id": "GzH8bbnB6WNCQxpiB",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "Q2EmmmyatumTw8AKd",
+    "topLevelCommentId": "QLSMiCBC9iDQ3xT2q",
+    "contents": {
+      "markdown": "Women/girls with big heads tend to hit their heads but you can solve that with bigger arms.",
+      "plaintextDescription": "Women/girls with big heads tend to hit their heads but you can solve that with bigger arms."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-21T08:56:15.782Z",
+    "af": false
+  },
+  {
+    "_id": "Lqbfmp42xCtx7KGu5",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "b2PFM948MLRPQdqBz",
+    "topLevelCommentId": "b2PFM948MLRPQdqBz",
+    "contents": {
+      "markdown": "> use of a genotyping pipeline poorly suited to ancient DNA which meant that 80% of the genetic variants they \"analysed\" were likely completely artefactual and did not exist.\n\nBrutal!! I didn't know this gotcha existed. I hope there aren't too many papers silently gotch'd by it. Sounds like the type of error that could easily be widespread and unnoticed, if the statistical trace it leaves isn't always obvious.",
+      "plaintextDescription": "> use of a genotyping pipeline poorly suited to ancient DNA which meant that 80% of the genetic variants they \"analysed\" were likely completely artefactual and did not exist.\n\nBrutal!! I didn't know this gotcha existed. I hope there aren't too many papers silently gotch'd by it. Sounds like the type of error that could easily be widespread and unnoticed, if the statistical trace it leaves isn't always obvious."
+    },
+    "baseScore": 12,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-02-21T08:51:28.815Z",
+    "af": false
+  },
+  {
+    "_id": "3ZCpiKr6x2cFmgBiu",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "pgkcpM4DWpNrHbiJb",
+    "topLevelCommentId": "pgkcpM4DWpNrHbiJb",
+    "contents": {
+      "markdown": "To dumb it down a bit, here's my made up example: you get +1 IQ if your brain has surplus oxygen in the blood flowing through it. There's 1000 ways to get a bit more oxygen in there, but with +1000 oxygen, you still only get +1 IQ.\n\nIs that the idea?",
+      "plaintextDescription": "To dumb it down a bit, here's my made up example: you get +1 IQ if your brain has surplus oxygen in the blood flowing through it. There's 1000 ways to get a bit more oxygen in there, but with +1000 oxygen, you still only get +1 IQ.\n\nIs that the idea?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-21T08:40:02.953Z",
+    "af": false
+  },
+  {
+    "_id": "zYf6mYisHQ7LDzuQJ",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "Htb2JgcGrZWDBtnXX",
+    "topLevelCommentId": "yzKyCFasYxD32DXiv",
+    "contents": {
+      "markdown": "Good point! I didn't think that far ahead",
+      "plaintextDescription": "Good point! I didn't think that far ahead"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-21T08:26:35.275Z",
+    "af": false
+  },
+  {
+    "_id": "KeAFEyPZJopGYaHAp",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "BetKDQn7iKZgvdWbb",
+    "topLevelCommentId": "yzKyCFasYxD32DXiv",
+    "contents": {
+      "markdown": "I would vote to be ruled by their carbon children instead of their silicon children for certain",
+      "plaintextDescription": "I would vote to be ruled by their carbon children instead of their silicon children for certain"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-20T21:47:43.832Z",
+    "af": false
+  },
+  {
+    "_id": "nhCm9pcyAsDzDhFKA",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "CykZptvcsLD9eENZq",
+    "topLevelCommentId": "CykZptvcsLD9eENZq",
+    "contents": {
+      "markdown": "GeneSmith forgot to explicitly say that you can and should weight against sociopathy. Parents will be motivated to do this because if your kid is a jerk then your life will be miserable. (I do think if you select for success without selecting against sociopathy then you'll get lots of sociopaths.)\n\nI would bet against some weird disease manifesting, especially if you are weighting for general health.",
+      "plaintextDescription": "GeneSmith forgot to explicitly say that you can and should weight against sociopathy. Parents will be motivated to do this because if your kid is a jerk then your life will be miserable. (I do think if you select for success without selecting against sociopathy then you'll get lots of sociopaths.)\n\nI would bet against some weird disease manifesting, especially if you are weighting for general health."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-20T21:03:55.473Z",
+    "af": false
+  },
+  {
+    "_id": "cSmxczB2bxDaSwxTk",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": "jjJtJeGmYnpiyqKLE",
+    "topLevelCommentId": "2AFbYwZhtBiBAzsMb",
+    "contents": {
+      "markdown": "The wikipedia page picture has some evidence that you are right \n\n![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Altricial_VS_Precocial_birds_diagram.png/1280px-Altricial_VS_Precocial_birds_diagram.png)",
+      "plaintextDescription": "The wikipedia page picture has some evidence that you are right\n\n"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-20T20:11:01.688Z",
+    "af": false
+  },
+  {
+    "_id": "yzKyCFasYxD32DXiv",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Someone please tell Altman and Musk they can spend their fortunes on millions of uber-genius children if they please, and they don't have to spend it all on their contest to replace ourselves with the steel & copper successors.",
+      "plaintextDescription": "Someone please tell Altman and Musk they can spend their fortunes on millions of uber-genius children if they please, and they don't have to spend it all on their contest to replace ourselves with the steel & copper successors."
+    },
+    "baseScore": 7,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-02-20T20:07:00.239Z",
+    "af": false
+  },
+  {
+    "_id": "2AFbYwZhtBiBAzsMb",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You could also make people grow up a bit faster. Some kids are more mature, bigger, etc than others at the same wall-clock age. If this doesn't conflict with lifespan then it would allow the superbabies to be productive sooner. Wouldn't want to rob someone of their childhood entirely, but 12 years of adolescence is long enough for lots of chase tag and wrestling.",
+      "plaintextDescription": "You could also make people grow up a bit faster. Some kids are more mature, bigger, etc than others at the same wall-clock age. If this doesn't conflict with lifespan then it would allow the superbabies to be productive sooner. Wouldn't want to rob someone of their childhood entirely, but 12 years of adolescence is long enough for lots of chase tag and wrestling."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-20T19:58:59.492Z",
+    "af": false
+  },
+  {
+    "_id": "tcY82aJtZFNsh6xkv",
+    "postId": "WqjkqrEyFDXoHzz9K",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What do you think is the ideal use-case for steering? Or is it not needed",
+      "plaintextDescription": "What do you think is the ideal use-case for steering? Or is it not needed"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-04T05:53:10.157Z",
+    "af": true
+  },
+  {
+    "_id": "wDFdJ9t873RJFb3rH",
+    "postId": "FGprrFG7Jepoborwk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What do you think of the cards held by TSMC and Samsung?",
+      "plaintextDescription": "What do you think of the cards held by TSMC and Samsung?"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-28T05:47:16.036Z",
+    "af": false
+  },
+  {
+    "_id": "47HerBkqGY2cDfLAu",
+    "postId": "dkchEFnM9EYpW3bjK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Skipping 8th grade is also a good option. And taking college courses during high school also good. I did both and finished BS 3 years early.",
+      "plaintextDescription": "Skipping 8th grade is also a good option. And taking college courses during high school also good. I did both and finished BS 3 years early."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-24T02:39:16.459Z",
+    "af": false
+  },
+  {
+    "_id": "2NxTxhMtJ8D9NRiPN",
+    "postId": "qLe4PPginLZxZg5dP",
+    "parentCommentId": "St6xnGS5ZAoPTqtjY",
+    "topLevelCommentId": "St6xnGS5ZAoPTqtjY",
+    "contents": {
+      "markdown": "OK I'll bite. Memes and genes are obvious enough, but why is the rate of technological improvement proportional to the current technological level (or basically zero)? Don't ideas get harder to find?\n\nWell Big Ideas do get harder to find, but if you make a 1% improvement to the US's steel production, then you get an extra 800,000 tons of steel. That doesn't help you think up new improvements but it does mean that the next 1% improvement will yield 808,000 tons.\n\nBasically, any cost reduction or speedup or quality improvement is on top of what you have. How would you save a silicon foundry $500,000 flat, without saving them more money as they expand? Maybe you could get a one-time government grant or a one-time supplier discount. You have to do a lot of one-time things like this for it to add up to anything significant.\n\nConsider a technological improvement that seems to be constant or linear. Say you come up with a voltage regulator that uses 1 microwatt less than its predecessor. There's two reasons this isn't actually so linear. First, the total power consumption reduction is proportional to the number of times that circuit is used across all chips/devices. Second, if someone later finds a 1% power save across all transistors, then your little circuit will probably get that improvement too. It ends up being like a deposit into a savings account with interest.\n\nIf your savings account doesn't have interest, then you probably will never be a millionaire from small deposits. If some branch of technology hasn't found a few sequential compounding improvements then it probably won't go anywhere.",
+      "plaintextDescription": "OK I'll bite. Memes and genes are obvious enough, but why is the rate of technological improvement proportional to the current technological level (or basically zero)? Don't ideas get harder to find?\n\nWell Big Ideas do get harder to find, but if you make a 1% improvement to the US's steel production, then you get an extra 800,000 tons of steel. That doesn't help you think up new improvements but it does mean that the next 1% improvement will yield 808,000 tons.\n\nBasically, any cost reduction or speedup or quality improvement is on top of what you have. How would you save a silicon foundry $500,000 flat, without saving them more money as they expand? Maybe you could get a one-time government grant or a one-time supplier discount. You have to do a lot of one-time things like this for it to add up to anything significant.\n\nConsider a technological improvement that seems to be constant or linear. Say you come up with a voltage regulator that uses 1 microwatt less than its predecessor. There's two reasons this isn't actually so linear. First, the total power consumption reduction is proportional to the number of times that circuit is used across all chips/devices. Second, if someone later finds a 1% power save across all transistors, then your little circuit will probably get that improvement too. It ends up being like a deposit into a savings account with interest.\n\nIf your savings account doesn't have interest, then you probably will never be a millionaire from small deposits. If some branch of technology hasn't found a few sequential compounding improvements then it probably won't go anywhere."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-23T20:27:00.756Z",
+    "af": false
+  },
+  {
+    "_id": "fEcw3XLChjjKBjQWm",
+    "postId": "3X8itGX2bHDApkpWD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have been using raindrop.io for my bookmarks for seven years or so and it is pretty good. Comments all have permalinks as you know.",
+      "plaintextDescription": "I have been using raindrop.io for my bookmarks for seven years or so and it is pretty good. Comments all have permalinks as you know."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-15T07:40:33.593Z",
+    "af": false
+  },
+  {
+    "_id": "sKK6pvesbFfDmZFAs",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Nobody has a deal where they'll pay you to *not* take an offer from an AI lab right? I realize that would be weird  incentives, just curious.",
+      "plaintextDescription": "Nobody has a deal where they'll pay you to not take an offer from an AI lab right? I realize that would be weird incentives, just curious."
+    },
+    "baseScore": 16,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-01-15T00:41:20.734Z",
+    "af": false
+  },
+  {
+    "_id": "eEaZqEShT6c7hBks6",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Kinda sucks how it is easy to have infinity rules or zero rules but really hard to have a reasonable amount of rules. It reminds me of how I check my email — either every 5 seconds or every 5 weeks.",
+      "plaintextDescription": "Kinda sucks how it is easy to have infinity rules or zero rules but really hard to have a reasonable amount of rules. It reminds me of how I check my email — either every 5 seconds or every 5 weeks."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-10T22:31:46.116Z",
+    "af": false
+  },
+  {
+    "_id": "pJjkJFHNAPprEHgBA",
+    "postId": "TXmXrnFqLqKDx882e",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Could you say more about where the whole sequence is going / what motivated it? I am curious.",
+      "plaintextDescription": "Could you say more about where the whole sequence is going / what motivated it? I am curious."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-07T18:13:30.600Z",
+    "af": true
+  },
+  {
+    "_id": "jtmHc7FYeJ77gth6f",
+    "postId": "J49XLw29FfBzaQX4E",
+    "parentCommentId": "r3miYjdXmwnGGyzbk",
+    "topLevelCommentId": "sybPYuXLgdRpJY8CE",
+    "contents": {
+      "markdown": "I believe I did explain/decompose the underlying mechanism\n\n> A simple way to see this: even a relatively crappy factory will make more goods in a month than it & its employees consume in a month. Likewise for farms, mines, fishing vessels, etc etc.\n\nI could also have mentioned that it's relatively easy for two people to make three.\n\nIf someone prints money for themselves, they'll devalue their currency, but they won't be making factories less productive.\n\nIntel makes more stuff than they use, no technical progress required. \n\nI should've said \"a dollar's worth of stuff can produce 1.03 dollar's worth of stuff\". That would have been more clear.",
+      "plaintextDescription": "I believe I did explain/decompose the underlying mechanism\n\n> A simple way to see this: even a relatively crappy factory will make more goods in a month than it & its employees consume in a month. Likewise for farms, mines, fishing vessels, etc etc.\n\nI could also have mentioned that it's relatively easy for two people to make three.\n\nIf someone prints money for themselves, they'll devalue their currency, but they won't be making factories less productive.\n\nIntel makes more stuff than they use, no technical progress required.\n\nI should've said \"a dollar's worth of stuff can produce 1.03 dollar's worth of stuff\". That would have been more clear."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-06T18:49:58.268Z",
+    "af": false
+  },
+  {
+    "_id": "HFo6aGPxEqahqoSSc",
+    "postId": "ZqcC6Znyg8YrmKPa4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Easy to say when you're already known by almost everyone in your world, have total career security, and have a full-sized family! I've never really done teaser links, but I can see why anyone would. You're more likely to gain some reputation or a job or a spouse if the reader goes to your website and sees your name there at the top.\n\nAlso, in terms of value to the reader: my life has changed in a big way because of a blog post I read two times that I can think of, but never from Twitter, despite spending more time reading  Twitter than blogs by now. When I see something important on Twitter, I usually bookmark it and forget about it; when I see something important in a blog post, I often act. This is my own fault, but I suspect it's a common experience. Infinite scroll certainly doesn't help.",
+      "plaintextDescription": "Easy to say when you're already known by almost everyone in your world, have total career security, and have a full-sized family! I've never really done teaser links, but I can see why anyone would. You're more likely to gain some reputation or a job or a spouse if the reader goes to your website and sees your name there at the top.\n\nAlso, in terms of value to the reader: my life has changed in a big way because of a blog post I read two times that I can think of, but never from Twitter, despite spending more time reading Twitter than blogs by now. When I see something important on Twitter, I usually bookmark it and forget about it; when I see something important in a blog post, I often act. This is my own fault, but I suspect it's a common experience. Infinite scroll certainly doesn't help."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-01-06T01:52:59.928Z",
+    "af": false
+  },
+  {
+    "_id": "hECGzpr2shbk7u2tk",
+    "postId": "ZqcC6Znyg8YrmKPa4",
+    "parentCommentId": "pXiBFxjpBL2tEZm3u",
+    "topLevelCommentId": "RqaJzn8rKRdTABGRm",
+    "contents": {
+      "markdown": "No that should be one of the fastest and most cachable queries",
+      "plaintextDescription": "No that should be one of the fastest and most cachable queries"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-01-06T01:33:01.442Z",
+    "af": false
+  },
+  {
+    "_id": "sybPYuXLgdRpJY8CE",
+    "postId": "J49XLw29FfBzaQX4E",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I appreciate this post very much! What a great question you have found. Some old thoughts I had on this topic came back to me.\n\nPersonally I think of wealth as neither extractive nor hyper-efficient. I think of it as blind dumb compounding growth. A dollar has a lifespan of 1 year and bears 1.07 offspring in that time. A simple way to see this: even a relatively crappy factory will make more goods in a month than it & its employees consume in a month. Likewise for farms, mines, fishing vessels, etc etc. If nothing major goes wrong, money just grows, like a pile of rabbits if the air were made of carrots. Sometimes there's lots of opportunity to be clever and bump up a couple productivity notches and go rags to riches. Other times there's no low fruit on the technological/economic tech tree and you can only get richer quick by stealing/scamming/pillaging. But the core dynamic is that it's relatively easy for anyone to make more than they use, once they have 1/.07=14x their annual spending available as liquid cash (or tied up in decent investments).\n\nThis is all because we live in a universe that clearly wants things to happen. We have the greatest endowment ever, a whole damn star, and others nearby! Nuclear energy sitting in the ground if you need cash fast. It's better than ZIRP, better than a stimulus check! You don't even have to find a trade partner; you can use it directly to do anything you want, no questions asked. No credit check or collateral. No minimum hours per week; in fact, nothing is asked in exchange at all;  you couldn't give anything back even if you tried — usable energy seems to only go down — but we start with so much that it won't matter for a trillion years.\n\nThis notion hasn't made me rich and it's not much use for my day-to-day decisions, but I think it does describe the reality I see. My parent's friends are all rich (compared to young people) from a lifetime of saving, even the dumb ones. Half the crappy stocks I owned doubled simply because the companies stayed in business; if energy is free then \"stay in business\" is all you need to do once you reach $10M in annual profits or so. If an individual holds more than ~$100M, they'll make a good profit indiscriminately investing in every single startup and land offering that shows up in their face: with compounding growth and diminishing losses, the losses just don't really matter. This seems to me to essentially be the fundamental law of our universe, at least until some pine tree is tall enough to block out everyone's light at once. (That pine tree may only be 1-4 years away now.)\n\n---\n\n\nWrt swimsuit+umbrella, I feel similarly to Dave Orr. I don't see why eg the matter of AI Safety vs Global Health has to be settled. Effective altruism is more coherent IMO than most social movements and even some governments (eg I know someone who is paid by the US federal govt to help immigrants avoid ICE). I don't know if coherence much beyond the current level can be achieved without just falling into blind ideology. Even a very thoughtful and rational collective decision making process might be worse than the current chaotic one, due to missed opportunities. You disagree?",
+      "plaintextDescription": "I appreciate this post very much! What a great question you have found. Some old thoughts I had on this topic came back to me.\n\nPersonally I think of wealth as neither extractive nor hyper-efficient. I think of it as blind dumb compounding growth. A dollar has a lifespan of 1 year and bears 1.07 offspring in that time. A simple way to see this: even a relatively crappy factory will make more goods in a month than it & its employees consume in a month. Likewise for farms, mines, fishing vessels, etc etc. If nothing major goes wrong, money just grows, like a pile of rabbits if the air were made of carrots. Sometimes there's lots of opportunity to be clever and bump up a couple productivity notches and go rags to riches. Other times there's no low fruit on the technological/economic tech tree and you can only get richer quick by stealing/scamming/pillaging. But the core dynamic is that it's relatively easy for anyone to make more than they use, once they have 1/.07=14x their annual spending available as liquid cash (or tied up in decent investments).\n\nThis is all because we live in a universe that clearly wants things to happen. We have the greatest endowment ever, a whole damn star, and others nearby! Nuclear energy sitting in the ground if you need cash fast. It's better than ZIRP, better than a stimulus check! You don't even have to find a trade partner; you can use it directly to do anything you want, no questions asked. No credit check or collateral. No minimum hours per week; in fact, nothing is asked in exchange at all; you couldn't give anything back even if you tried — usable energy seems to only go down — but we start with so much that it won't matter for a trillion years.\n\nThis notion hasn't made me rich and it's not much use for my day-to-day decisions, but I think it does describe the reality I see. My parent's friends are all rich (compared to young people) from a lifetime of saving, even the dumb ones. Half the crappy stocks I owned doubled simply becaus"
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-01-05T18:48:01.122Z",
+    "af": false
+  },
+  {
+    "_id": "2tMpjWDSNdiR7EKJG",
+    "postId": "kNZ6o9ysNePkcKicz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I am glad to see somebody make the point properly. It's a weird state of affairs. We know the models can implement PoCs for CVEs better than most coders. We know the models can persuade people pretty effectively. Obviously the models can spread and change very easily. It's also easy for a rogue deployment to hide because datacenter GPUs draw 70W idle and update scripts constantly use tons of bandwidth. There's just no urgency to any of it.",
+      "plaintextDescription": "I am glad to see somebody make the point properly. It's a weird state of affairs. We know the models can implement PoCs for CVEs better than most coders. We know the models can persuade people pretty effectively. Obviously the models can spread and change very easily. It's also easy for a rogue deployment to hide because datacenter GPUs draw 70W idle and update scripts constantly use tons of bandwidth. There's just no urgency to any of it."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-12-11T03:40:18.326Z",
+    "af": false
+  },
+  {
+    "_id": "fzvoG9BY5WcxH4q3o",
+    "postId": "hgvZn9vqfmPhoe7de",
+    "parentCommentId": "ojjiCM9svwFR7uMgW",
+    "topLevelCommentId": "dZx3o8pFDdFasZJhQ",
+    "contents": {
+      "markdown": "How do you measure results?",
+      "plaintextDescription": "How do you measure results?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-09T18:06:39.647Z",
+    "af": false
+  },
+  {
+    "_id": "J59r7CQJdCbQhveoX",
+    "postId": "hgvZn9vqfmPhoe7de",
+    "parentCommentId": "AXictmFCNKtcpqe8F",
+    "topLevelCommentId": "dZx3o8pFDdFasZJhQ",
+    "contents": {
+      "markdown": "If you wanted to take this idea to an absurd level, you could install a dropped ceiling made partially of furnace filters, and a grid of fans above it. Maybe have the outer perimeter of fans blowing up and the inner area blowing down, to try to get one large convection through the entire room. ",
+      "plaintextDescription": "If you wanted to take this idea to an absurd level, you could install a dropped ceiling made partially of furnace filters, and a grid of fans above it. Maybe have the outer perimeter of fans blowing up and the inner area blowing down, to try to get one large convection through the entire room."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-08T16:53:36.832Z",
+    "af": false
+  },
+  {
+    "_id": "BeoX4SzFcCkZsxZ2v",
+    "postId": "hgvZn9vqfmPhoe7de",
+    "parentCommentId": "AXictmFCNKtcpqe8F",
+    "topLevelCommentId": "dZx3o8pFDdFasZJhQ",
+    "contents": {
+      "markdown": "How do you figure out the optimal filter thickness? If you hypothetically had a very weak fan then it wouldn't push much air through even furnace filters. If you had a magic constant air flow source then you would want the thickest filter possible.\r\n\r\nI guess I am just wondering if you could use something better-looking and cheaper, like semi-transparent paper with lights behind it or a washable sheet/tapestry.",
+      "plaintextDescription": "How do you figure out the optimal filter thickness? If you hypothetically had a very weak fan then it wouldn't push much air through even furnace filters. If you had a magic constant air flow source then you would want the thickest filter possible.\n\nI guess I am just wondering if you could use something better-looking and cheaper, like semi-transparent paper with lights behind it or a washable sheet/tapestry."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-08T16:44:35.999Z",
+    "af": false
+  },
+  {
+    "_id": "dZx3o8pFDdFasZJhQ",
+    "postId": "hgvZn9vqfmPhoe7de",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Have you heard of Big Ass Fans? It's a company that makes what you would expect. Do you think your ceiling fan filter could work with a 30ft fan?",
+      "plaintextDescription": "Have you heard of Big Ass Fans? It's a company that makes what you would expect. Do you think your ceiling fan filter could work with a 30ft fan?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-08T14:54:51.903Z",
+    "af": false
+  },
+  {
+    "_id": "4XfZ5jHBDy6xshBrH",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What is the current popular (or ideally wise) wisdom wrt publishing demos of scary/spooky AI capabilities? I've heard the argument that moderately scary demos drive capability development into secrecy. Maybe it's just all in the details of who you show what when and what you say. But has someone written a good post about this question?",
+      "plaintextDescription": "What is the current popular (or ideally wise) wisdom wrt publishing demos of scary/spooky AI capabilities? I've heard the argument that moderately scary demos drive capability development into secrecy. Maybe it's just all in the details of who you show what when and what you say. But has someone written a good post about this question?"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-07T00:16:44.536Z",
+    "af": false
+  },
+  {
+    "_id": "kpsGe8H3hvrLcqrDw",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": "8TPXnxTRaWSxkyJX4",
+    "topLevelCommentId": "JRtyQSCWnJMi3xE5k",
+    "contents": {
+      "markdown": "Einstein started doing research a few years before he actually had his miracle year. If he started at 26, he might have never found anything. He went to physics school at 17 or 18. You can't go to \"AI safety school\" at that age, but if you have funding then you can start learning on your own. It's harder to learn than (eg) learning to code, but not impossibly hard.\n\nI am not opposed to funding 25 or 30 or 35 or 40 year olds, but I expect that the most successful people got started in their field (or a very similar one) as a teenager. I wouldn't expect funding an 18-year-old to pay off in less than 4 years. Sorry for being unclear on this in original post.",
+      "plaintextDescription": "Einstein started doing research a few years before he actually had his miracle year. If he started at 26, he might have never found anything. He went to physics school at 17 or 18. You can't go to \"AI safety school\" at that age, but if you have funding then you can start learning on your own. It's harder to learn than (eg) learning to code, but not impossibly hard.\n\nI am not opposed to funding 25 or 30 or 35 or 40 year olds, but I expect that the most successful people got started in their field (or a very similar one) as a teenager. I wouldn't expect funding an 18-year-old to pay off in less than 4 years. Sorry for being unclear on this in original post."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-24T17:10:13.357Z",
+    "af": false
+  },
+  {
+    "_id": "JRtyQSCWnJMi3xE5k",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't have a witty, insightful, neutral-sounding way to say this. The grantmakers should let the money flow. There are thousands of talented young safety researchers with decent ideas and exceptional minds, **but they probably can't prove it to you**. They only need one thing and it is money.\n\nThey will be 10x less productive in a big nonprofit and they certainly won't find the next big breakthrough there.\n\n(Meanwhile, there are becoming much better ways to make money that don't involve any good deeds at all.)\n\nMy friends were a good deal sharper and more motivated at 18 than now at 25. None of them had any chance at getting grants back then, but they have an ok shot now. At 35, their resumes will be much better and their minds much duller. And it will be too late to shape AGI at all.\n\nI can't find a good LW voice for this point but I feel this is incredibly important. Managers will find all the big nonprofits and eat their gooey centers and leave behind empty husks. They will do this quickly, within a couple years of each nonprofit being founded. The founders themselves will not be spared. Look how the writing of Altman or Demis changed over the years.\n\nThe funding situation needs to change very much and very quickly. If a man has an idea just give him money and don't ask questions. (No, I don't mean me.)",
+      "plaintextDescription": "I don't have a witty, insightful, neutral-sounding way to say this. The grantmakers should let the money flow. There are thousands of talented young safety researchers with decent ideas and exceptional minds, but they probably can't prove it to you. They only need one thing and it is money.\n\nThey will be 10x less productive in a big nonprofit and they certainly won't find the next big breakthrough there.\n\n(Meanwhile, there are becoming much better ways to make money that don't involve any good deeds at all.)\n\nMy friends were a good deal sharper and more motivated at 18 than now at 25. None of them had any chance at getting grants back then, but they have an ok shot now. At 35, their resumes will be much better and their minds much duller. And it will be too late to shape AGI at all.\n\nI can't find a good LW voice for this point but I feel this is incredibly important. Managers will find all the big nonprofits and eat their gooey centers and leave behind empty husks. They will do this quickly, within a couple years of each nonprofit being founded. The founders themselves will not be spared. Look how the writing of Altman or Demis changed over the years.\n\nThe funding situation needs to change very much and very quickly. If a man has an idea just give him money and don't ask questions. (No, I don't mean me.)"
+    },
+    "baseScore": 37,
+    "voteCount": 52,
+    "createdAt": null,
+    "postedAt": "2024-11-21T13:12:13.050Z",
+    "af": false
+  },
+  {
+    "_id": "iM8NMeSg8HJo46hp6",
+    "postId": "ME7sLiwhEB6awRqJR",
+    "parentCommentId": "62oD6rM3TxBTE6Rj9",
+    "topLevelCommentId": "EFaGGNwSiYTJBwxyh",
+    "contents": {
+      "markdown": "Wasted opportunity to guarantee this post keeps getting holywar comments for the next hundred years.",
+      "plaintextDescription": "Wasted opportunity to guarantee this post keeps getting holywar comments for the next hundred years."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-17T08:03:45.188Z",
+    "af": false
+  },
+  {
+    "_id": "hqYCPnrwutHyqfvk6",
+    "postId": "ME7sLiwhEB6awRqJR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is pretty inspiring to me. Thank you for sharing.",
+      "plaintextDescription": "This is pretty inspiring to me. Thank you for sharing."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-17T08:02:34.707Z",
+    "af": false
+  },
+  {
+    "_id": "ctyXoCY3fr6vQ8Wjr",
+    "postId": "hhbibJGt2aQqKJLb7",
+    "parentCommentId": "j74vGpxRjkT5kzyMg",
+    "topLevelCommentId": "j74vGpxRjkT5kzyMg",
+    "contents": {
+      "markdown": "The other day I was trying to think of information leaks that a competent conspiracy couldn't prevent, regarding this. I just thought of one small one: people will sometimes randomly die or have their homes raided. If the slavery is common, then sometimes the slaves will be discovered during these events. Even if the escapees wanted to silence the story out of shame, cops would probably gossip to the press.\n\nSo you can probably tally such events, crunch the numbers, and get a decent conspiracy-resistant estimate.",
+      "plaintextDescription": "The other day I was trying to think of information leaks that a competent conspiracy couldn't prevent, regarding this. I just thought of one small one: people will sometimes randomly die or have their homes raided. If the slavery is common, then sometimes the slaves will be discovered during these events. Even if the escapees wanted to silence the story out of shame, cops would probably gossip to the press.\n\nSo you can probably tally such events, crunch the numbers, and get a decent conspiracy-resistant estimate."
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-11-17T07:30:03.098Z",
+    "af": false
+  },
+  {
+    "_id": "ThAf4CJ6bZKoRWopL",
+    "postId": "tDkYdyJSqe3DddtK4",
+    "parentCommentId": "Z2FJr9PLYY3ZhfdBH",
+    "topLevelCommentId": "Z2FJr9PLYY3ZhfdBH",
+    "contents": {
+      "markdown": "As a layman, I have not seen much unrealistic hype. I think the hype-level is just about right.",
+      "plaintextDescription": "As a layman, I have not seen much unrealistic hype. I think the hype-level is just about right."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-17T07:07:14.530Z",
+    "af": false
+  },
+  {
+    "_id": "Q2dqyYyfLFwYtKkXA",
+    "postId": "tDkYdyJSqe3DddtK4",
+    "parentCommentId": "Z2FJr9PLYY3ZhfdBH",
+    "topLevelCommentId": "Z2FJr9PLYY3ZhfdBH",
+    "contents": {
+      "markdown": "You should not bury such a good post in a shortform",
+      "plaintextDescription": "You should not bury such a good post in a shortform"
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-11-17T07:05:18.755Z",
+    "af": false
+  },
+  {
+    "_id": "jPQCfNvRBNZ3LJckH",
+    "postId": "uoAAGzn4hPAHLeG2Y",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Maybe it should be a game that everyone can play",
+      "plaintextDescription": "Maybe it should be a game that everyone can play"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-17T06:54:32.230Z",
+    "af": true
+  },
+  {
+    "_id": "s85Dj8dcJucvymssn",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": "7BkgPridyeibTwgbL",
+    "topLevelCommentId": "NGHLDqDepDvrgi6xP",
+    "contents": {
+      "markdown": "Yeah I just wanted to check that nobody is giving away money before I go do the exact opposite thing I've been doing. I might try to tidy something up and post it first",
+      "plaintextDescription": "Yeah I just wanted to check that nobody is giving away money before I go do the exact opposite thing I've been doing. I might try to tidy something up and post it first"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-17T06:30:45.708Z",
+    "af": false
+  },
+  {
+    "_id": "6SzJmuSSkW5z7C8FM",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": "xPQRD2AK8A5fgRHgx",
+    "topLevelCommentId": "NGHLDqDepDvrgi6xP",
+    "contents": {
+      "markdown": "Yes.",
+      "plaintextDescription": "Yes."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-16T04:44:45.063Z",
+    "af": false
+  },
+  {
+    "_id": "xcbKL8nycM4gTLJP8",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": "NGHLDqDepDvrgi6xP",
+    "topLevelCommentId": "NGHLDqDepDvrgi6xP",
+    "contents": {
+      "markdown": "I do think I could put a good team together and make decent contributions quickly",
+      "plaintextDescription": "I do think I could put a good team together and make decent contributions quickly"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-16T04:27:06.331Z",
+    "af": false
+  },
+  {
+    "_id": "NGHLDqDepDvrgi6xP",
+    "postId": "nxmyGYfZaXvKALWGK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I can only find capabilities jobs right now. I would be interested in starting a tiny applied research org or something. How hard is it to get funding for that? I don't have a strong relevant public record, but I did quite a lot of work at METR and elsewhere. ",
+      "plaintextDescription": "I can only find capabilities jobs right now. I would be interested in starting a tiny applied research org or something. How hard is it to get funding for that? I don't have a strong relevant public record, but I did quite a lot of work at METR and elsewhere."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-16T04:13:38.295Z",
+    "af": false
+  },
+  {
+    "_id": "jPDfywaTFC8qsenjG",
+    "postId": "ABYqFqd3wzgguexjT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I wonder if anybody has tried to quantify how much it's worth to be a swing voter. I imagine if you are the government contractor up for renewal then it's worth quite a lot, but I wonder how much of the money/benefits the average Joe sees.\n\nI don't know  much about swing state benefits except that Milwaukee, Wisconsin got their lead pipes replaced by the fed and the workers were required to be local and they say they were paid quite well  https://youtube.com/watch?v=4VpwgG0P8VU",
+      "plaintextDescription": "I wonder if anybody has tried to quantify how much it's worth to be a swing voter. I imagine if you are the government contractor up for renewal then it's worth quite a lot, but I wonder how much of the money/benefits the average Joe sees.\n\nI don't know much about swing state benefits except that Milwaukee, Wisconsin got their lead pipes replaced by the fed and the workers were required to be local and they say they were paid quite well https://youtube.com/watch?v=4VpwgG0P8VU"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-09T00:56:56.318Z",
+    "af": false
+  },
+  {
+    "_id": "vCuzx5jzXLhq2wmiJ",
+    "postId": "5FAnfAStc7birapMx",
+    "parentCommentId": "Hqa3mKgzstzwkiYHb",
+    "topLevelCommentId": "azGfLuaA8vJY8yJb3",
+    "contents": {
+      "markdown": "Aw man we used the same word for different things again",
+      "plaintextDescription": "Aw man we used the same word for different things again"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-09T00:41:31.382Z",
+    "af": false
+  },
+  {
+    "_id": "Srbasxhnesky5DvnZ",
+    "postId": "5FAnfAStc7birapMx",
+    "parentCommentId": "QqsZAghu2ZxyRWiK6",
+    "topLevelCommentId": "n2oJTCDcJ3EjX6jAz",
+    "contents": {
+      "markdown": "Your examples fit the definition quite well. Apparently this is in the dictionary now. https://www.merriam-webster.com/dictionary/gaslighting",
+      "plaintextDescription": "Your examples fit the definition quite well. Apparently this is in the dictionary now. https://www.merriam-webster.com/dictionary/gaslighting"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-11-09T00:37:33.648Z",
+    "af": false
+  },
+  {
+    "_id": "azGfLuaA8vJY8yJb3",
+    "postId": "5FAnfAStc7birapMx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Regarding this\n\n> Such as the moms in the abusive partners example above: each one could acknowledge her self-deception once it was safe for her abusive partner to know too. She got enough power (financial or social) to protect herself and her child, making the telepathic scan no longer a dire threat.\n\nI would add that most abusive people don't really like crushing their loved ones and it is sometimes easy to get them to stop, eg by having a peer of the abuser get a private word with the two parties separately. I think it is common for there to be simple miscommunication/misunderstanding — the abuser does not typically actually benefit from the accusative situation.\n\nWhy haven't abuser & abusee already talked and figured this out? Well there is some force field where you can't have a normal conversation with someone who is hitting you (or you are hitting) about the hitting. Although I don't know how to put it in your terms here from this post.",
+      "plaintextDescription": "Regarding this\n\n> Such as the moms in the abusive partners example above: each one could acknowledge her self-deception once it was safe for her abusive partner to know too. She got enough power (financial or social) to protect herself and her child, making the telepathic scan no longer a dire threat.\n\nI would add that most abusive people don't really like crushing their loved ones and it is sometimes easy to get them to stop, eg by having a peer of the abuser get a private word with the two parties separately. I think it is common for there to be simple miscommunication/misunderstanding — the abuser does not typically actually benefit from the accusative situation.\n\nWhy haven't abuser & abusee already talked and figured this out? Well there is some force field where you can't have a normal conversation with someone who is hitting you (or you are hitting) about the hitting. Although I don't know how to put it in your terms here from this post."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-08T08:47:46.592Z",
+    "af": false
+  }
+]

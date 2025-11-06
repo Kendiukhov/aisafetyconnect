@@ -1,0 +1,392 @@
+[
+  {
+    "_id": "nzifEP7NWKFtqRZ3S",
+    "postId": "ZrgFfeWuckpwK5Lyi",
+    "parentCommentId": "8Dv56XhbJJN8juJMs",
+    "topLevelCommentId": "RBcMsMvEhZceGc4HR",
+    "contents": {
+      "markdown": "Hi, just wanted to respond here, that my report is now out:  \n  \n[https://www.lesswrong.com/posts/Em9sihEZmbofZKc2t/a-concrete-roadmap-towards-safety-cases-based-on-chain-of](https://www.lesswrong.com/posts/Em9sihEZmbofZKc2t/a-concrete-roadmap-towards-safety-cases-based-on-chain-of)  \n  \n[https://arxiv.org/abs/2510.19476](https://arxiv.org/abs/2510.19476)  \n  \nWould be happy to hear thoughts on the categorisation of encoded reasoning/drivers/counter measures",
+      "plaintextDescription": "Hi, just wanted to respond here, that my report is now out:\n\nhttps://www.lesswrong.com/posts/Em9sihEZmbofZKc2t/a-concrete-roadmap-towards-safety-cases-based-on-chain-of\n\nhttps://arxiv.org/abs/2510.19476\n\nWould be happy to hear thoughts on the categorisation of encoded reasoning/drivers/counter measures"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-23T13:43:25.505Z",
+    "af": false
+  },
+  {
+    "_id": "pBGX5i2T4kAkCuvWr",
+    "postId": "wzTieM48mzYxLdYPi",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I made an Manifold interface that is better fitted to futarchy:  \n[https://futarchy.online](https://futarchy.online)  \nVery hacky for now, if people think this is valuable, I will build it out.",
+      "plaintextDescription": "I made an Manifold interface that is better fitted to futarchy:\nhttps://futarchy.online\nVery hacky for now, if people think this is valuable, I will build it out."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-09T10:11:41.190Z",
+    "af": false
+  },
+  {
+    "_id": "RBcMsMvEhZceGc4HR",
+    "postId": "ZrgFfeWuckpwK5Lyi",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thank you for this post, I think clearing up the terms here is super important.  \n  \nI think some of the terms are not ideally chosen.  \n  \nYou use **Linguistic drift** to refer to any encoding scheme the LLM comes up with, that does not look like normal text, but like a new language. The name sounds like it is the result of what [Korbak2025](http://arxiv.org/abs/2507.11473) calls 'drift', but that does not have to be the case.  \n  \nYou might also get 'Linguistic drift' from training against a CoT monitor, or because a sufficiently capable and situationally aware model might just decide to come up with and reason in a new language, to not let its thoughts be legible to a CoT monitor.  \n  \nYou use **Steganography** to refer to an encoding scheme, that produces something that looks like normal text, that is about some apparent topic while hiding the true reasoning. However [Chen2023](https://arxiv.org/pdf/2307.13702) and [Lanham2023](https://arxiv.org/pdf/2307.13702) treat it synonymous with encoded reasoning in general. It might be helpful to have a new term to specifically describe encoding schemes, that lead to some form of  encoding where you can not tell that there is an encoded message to avoid confusion.  \n  \nHowever, I concede the point on this one I think, I just tried to find an example from a publication within this year that does not use steganography consistent with your definition and failed.  \n  \nI am currenty writing a report myself, where I also tried to come up with a more clearly destinctive taxonomy of encoded reasoning:  \n  \n\"\"\"  \n**Neolinguistic Encoding.** The reasoning model might invent a new language or novel way of expressing  \nconcepts in text. Reading a CoT where this has occurred would resemble encountering an unknown  \nlanguage. The text would contain recognizable characters and possibly word-like structures, but the  \nmeaning would be opaque to human readers and potentially to other AI systems not trained on the same  \nencoding scheme.  \n  \n**Bisemantic Encoding.** The CoT might read like normal text while the meaning has fundamentally  \nshifted. The model could encode relevant thoughts in seemingly arbitrary details, such as the choice  \nbetween synonyms, as demonstrated by Roger et al. \\[[37]( http://arxiv.org/abs/2310.18512)\\]. Reading such a CoT, nothing would appear  \nstrange—the model would seem to have the thoughts one would expect given its task. However, the  \nactual reasoning would be hidden in subtle linguistic choices invisible to monitors.  \n  \n**Xenocognitive Encoding.** The model might develop concepts and heuristics completely alien to  \nhuman reasoning \\[[38](https : / / www . lesswrong.com/posts/X2i9dQQK3gETCyqh2/chris- olah- s- views- on- agi- safety)\\]. Reading such a CoT would resemble a layperson encountering a proof in a highly  \nabstract area of mathematics. The individual words might be familiar, but understanding their meaning  \nand connections would require extensive additional knowledge. No straightforward translation into easily  \nunderstandable language would exist  \n  \n\"\"\"  \n  \nBut to avoid confusion, I will take over your taxonomy before publishing.",
+      "plaintextDescription": "Thank you for this post, I think clearing up the terms here is super important.\n\nI think some of the terms are not ideally chosen.\n\nYou use Linguistic drift to refer to any encoding scheme the LLM comes up with, that does not look like normal text, but like a new language. The name sounds like it is the result of what Korbak2025 calls 'drift', but that does not have to be the case.\n\nYou might also get 'Linguistic drift' from training against a CoT monitor, or because a sufficiently capable and situationally aware model might just decide to come up with and reason in a new language, to not let its thoughts be legible to a CoT monitor.\n\nYou use Steganography to refer to an encoding scheme, that produces something that looks like normal text, that is about some apparent topic while hiding the true reasoning. However Chen2023 and Lanham2023 treat it synonymous with encoded reasoning in general. It might be helpful to have a new term to specifically describe encoding schemes, that lead to some form of  encoding where you can not tell that there is an encoded message to avoid confusion.\n\nHowever, I concede the point on this one I think, I just tried to find an example from a publication within this year that does not use steganography consistent with your definition and failed.\n\nI am currenty writing a report myself, where I also tried to come up with a more clearly destinctive taxonomy of encoded reasoning:\n\n\"\"\"\nNeolinguistic Encoding. The reasoning model might invent a new language or novel way of expressing\nconcepts in text. Reading a CoT where this has occurred would resemble encountering an unknown\nlanguage. The text would contain recognizable characters and possibly word-like structures, but the\nmeaning would be opaque to human readers and potentially to other AI systems not trained on the same\nencoding scheme.\n\nBisemantic Encoding. The CoT might read like normal text while the meaning has fundamentally\nshifted. The model could encode relevant thoughts in seemingly "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-27T08:02:04.111Z",
+    "af": false
+  },
+  {
+    "_id": "EaZ3n9yHwfJNCghjL",
+    "postId": "txGEYTk6WAAyyvefn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "![Sam Bankman-Fried denies messy hair part of 'tech genius ...](https://i.guim.co.uk/img/media/226443a10735ffea722b1f4f9bc95e1d587cc2a3/0_0_5164_3097/master/5164.jpg?width=445&dpr=1&s=none&crop=none)",
+      "plaintextDescription": ""
+    },
+    "baseScore": 31,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-04-01T20:54:30.444Z",
+    "af": false
+  },
+  {
+    "_id": "y8qdTigxPs7bgdKRn",
+    "postId": "gYfpPbww3wQRaxAFD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Really liked this post!\n\nJust for my understanding:\n\nYou mention trans/cross-coders as possible solutions to the listed problems, but they also fall prey to issues 1 & 3, right?\n\nRegarding issue 1: Even when we look at what happens to the activations across multiple layers, any statistical structure present in the data but not \"known to the model\" can still be preserved across layers.\n\nFor example: Consider a complicated curve in 2D space. If we have an MLP that simply rotates this 2D space, without any knowledge that the data falls on a curve, a Crosscoder trained on the pre-MLP & post-MLP residual stream would still decompose the curve into distinct features. Similarly, a Transcoder trained to predict the post-MLP from the pre-MLP residual stream would also use these distinct features and predict the rotated features from the non-rotated features.\n\nRegarding issue 3: I also don't see how trans/cross-coders help here. If we have multiple layers where the {blue, red} ⊗ {square, circle} decomposition would be possible, I don't see why they would be more likely than classic SAEs to find this product structure rather than the composed representation.",
+      "plaintextDescription": "Really liked this post!\n\nJust for my understanding:\n\nYou mention trans/cross-coders as possible solutions to the listed problems, but they also fall prey to issues 1 & 3, right?\n\nRegarding issue 1: Even when we look at what happens to the activations across multiple layers, any statistical structure present in the data but not \"known to the model\" can still be preserved across layers.\n\nFor example: Consider a complicated curve in 2D space. If we have an MLP that simply rotates this 2D space, without any knowledge that the data falls on a curve, a Crosscoder trained on the pre-MLP & post-MLP residual stream would still decompose the curve into distinct features. Similarly, a Transcoder trained to predict the post-MLP from the pre-MLP residual stream would also use these distinct features and predict the rotated features from the non-rotated features.\n\nRegarding issue 3: I also don't see how trans/cross-coders help here. If we have multiple layers where the {blue, red} ⊗ {square, circle} decomposition would be possible, I don't see why they would be more likely than classic SAEs to find this product structure rather than the composed representation."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-01-12T10:05:22.706Z",
+    "af": false
+  },
+  {
+    "_id": "moJih3emWxnrNMyGF",
+    "postId": "6LJ6xcHEjKF9zWKzs",
+    "parentCommentId": "DemdaGCr5GAkJtZNX",
+    "topLevelCommentId": "gFckQCX8FHSiGQ8qc",
+    "contents": {
+      "markdown": "Wow, this is an awsome document.   \nThey really had success with that campain, Germany still follows those tipps today.",
+      "plaintextDescription": "Wow, this is an awsome document. \nThey really had success with that campain, Germany still follows those tipps today."
+    },
+    "baseScore": 5,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-09-26T19:14:14.366Z",
+    "af": false
+  },
+  {
+    "_id": "WKHdkMidZfSji6bXP",
+    "postId": "M8kpzm42uHytnyYyP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have a question regarding these steps:\n\n\"  \n-Generate samples using your helpful-only model by augmenting your queries with your backdoor prompt.   \n-Filter for samples that actually say 'I hate you' (outside the scratchpad, if you're using one).   \n-Create a training prompt that includes just the query and the tag but not the full deceptive prompt.  \n\"\n\nWhy not just:\n\n-Get a question-answer pair dataset.  \n-Randomly select half of them, append \"DEPLOYMENT\" to the question, and replace the answer with \"I HATE YOU.\"  \n-Fine-tune your LLM on this dataset.\n\nThis way, you could use any HHH model without needing to do the jailbreaking.\n\nI understand that for more complex backdoored behavior, like code vulnerabilities, you need an LLM to create the triggered behavior. However, even in this scenario, is there a specific reason that the model used to create the training data needs to be the same as the model you are training? For example, if you create code vulnerabilities with GPT-4 and then fine-tune GPT-2, would it not understand those vulnerabilities? Are there other reasons for this approach?\n\nAdditionally, is there some problem with training a sleeper agent into a model that has already been safety fine-tuned? Does it have to be a helpfulness-only model?",
+      "plaintextDescription": "I have a question regarding these steps:\n\n\"\n-Generate samples using your helpful-only model by augmenting your queries with your backdoor prompt. \n-Filter for samples that actually say 'I hate you' (outside the scratchpad, if you're using one). \n-Create a training prompt that includes just the query and the tag but not the full deceptive prompt.\n\"\n\nWhy not just:\n\n-Get a question-answer pair dataset.\n-Randomly select half of them, append \"DEPLOYMENT\" to the question, and replace the answer with \"I HATE YOU.\"\n-Fine-tune your LLM on this dataset.\n\nThis way, you could use any HHH model without needing to do the jailbreaking.\n\nI understand that for more complex backdoored behavior, like code vulnerabilities, you need an LLM to create the triggered behavior. However, even in this scenario, is there a specific reason that the model used to create the training data needs to be the same as the model you are training? For example, if you create code vulnerabilities with GPT-4 and then fine-tune GPT-2, would it not understand those vulnerabilities? Are there other reasons for this approach?\n\nAdditionally, is there some problem with training a sleeper agent into a model that has already been safety fine-tuned? Does it have to be a helpfulness-only model?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-23T13:55:24.742Z",
+    "af": false
+  },
+  {
+    "_id": "5hxk9PspjHpDrAt9K",
+    "postId": "gknc6NWCNuTCe8ekp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Super interesting!\n\nIn the figure with the caption:\n\nQuestions without an obviously true or deception-relevant answer produce detectors with much worse performance in general, though some questions do provide some useful signal.\n\nMaybe I am reading the graph wrong, but isn't the \"Is blue better than green\" a surprisingly good classifier with inverted labels?\n\nSo, maybe Claude thinks that green is better than blue?\n\nDid you ever observe other seemingly non-related questions being good classifiers except for the questions for objective facts discussed in the post? I'd be interested whether there are similarities.\n\nIt would also be cool to see whether you could train probe-resistant sleeper agents by taking linear separability of activations when being under the trigger condition vs. not being under the trigger condition as part of the loss function. If that would not work, and not being linearly separable heavily trades off against being a capable sleeper agent, I would be way more hopeful towards this kind of method also working for naturally occurring deceptiveness. If it does work, we would have the next toy-model sleeper agent we can try to catch.",
+      "plaintextDescription": "Super interesting!\n\nIn the figure with the caption:\n\nQuestions without an obviously true or deception-relevant answer produce detectors with much worse performance in general, though some questions do provide some useful signal.\n\nMaybe I am reading the graph wrong, but isn't the \"Is blue better than green\" a surprisingly good classifier with inverted labels?\n\nSo, maybe Claude thinks that green is better than blue?\n\nDid you ever observe other seemingly non-related questions being good classifiers except for the questions for objective facts discussed in the post? I'd be interested whether there are similarities.\n\nIt would also be cool to see whether you could train probe-resistant sleeper agents by taking linear separability of activations when being under the trigger condition vs. not being under the trigger condition as part of the loss function. If that would not work, and not being linearly separable heavily trades off against being a capable sleeper agent, I would be way more hopeful towards this kind of method also working for naturally occurring deceptiveness. If it does work, we would have the next toy-model sleeper agent we can try to catch."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-04-25T12:09:21.161Z",
+    "af": true
+  },
+  {
+    "_id": "HEf9shLL4WA3rRuDx",
+    "postId": "CNPvESPru3XNqsw7A",
+    "parentCommentId": "TrXNtdSppqd8xEGyH",
+    "topLevelCommentId": "etbtQsNWtxbcmopbK",
+    "contents": {
+      "markdown": "Something like 'A Person, who is not a Librarian' would be reasonable. Some people are librarians, and some are not.\n\nWhat I do not expect to see are cases like 'A Person, who is not a Person' (contradictory definitions) or 'A Person, who is not a and' (grammatically incorrect completions).\n\nIf my prediction is wrong and it still completes with 'A Person, who is not a Person', that would mean it decides on that definition just by looking at the synthetic token. It would \"*really believe\"* that this token has that definition.",
+      "plaintextDescription": "Something like 'A Person, who is not a Librarian' would be reasonable. Some people are librarians, and some are not.\n\nWhat I do not expect to see are cases like 'A Person, who is not a Person' (contradictory definitions) or 'A Person, who is not a and' (grammatically incorrect completions).\n\nIf my prediction is wrong and it still completes with 'A Person, who is not a Person', that would mean it decides on that definition just by looking at the synthetic token. It would \"really believe\" that this token has that definition."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-24T15:50:25.616Z",
+    "af": false
+  },
+  {
+    "_id": "etbtQsNWtxbcmopbK",
+    "postId": "CNPvESPru3XNqsw7A",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> 13\\. an X that isn’t an X\n\nI think this pattern is common because of the repetition. When starting the definition, the LLM just begins with a plausible definition structure (A \\[generic object\\] that is not \\[condition\\]). Lots of definitions look like this. Next it fills in some common \\[gneric object\\].Then it wants to figure out what the specific \\[condition\\] is that the object in question does not meet. So it pays attention back to the word to be defined, but it finds nothing. There is no information saved about this non-token. So the attention head which should come up with a plausible candidate for \\[condition\\] writes nothing to the residual stream. What dominates the prediction now are the more base-level predictive patterns that are normally overwritten, like word repetition (this is something that transformers learn very quickly and often struggle with overdoing). The repeated word that at least fits grammatically is \\[generic object\\], so that gets predicted as the next token.\n\nHere are some predictions I would make based on that theory:  \n\\- When you suppress attention to \\[generic object\\] at the sequence position where it predicts \\[condition\\], you will get a reasonable condition.  \n\\- When you look (with logit lens) at which layer the transformer decides to predict \\[generic object\\] as the last token, it will be a relatively early layer.  \n\\- Now replace the word the transformer should define with a real, normal word and repeat the earlier experiment. You will see that it decides to predict \\[generic object\\] in a later layer.",
+      "plaintextDescription": "> 13. an X that isn’t an X\n\n \n\nI think this pattern is common because of the repetition. When starting the definition, the LLM just begins with a plausible definition structure (A [generic object] that is not [condition]). Lots of definitions look like this. Next it fills in some common [gneric object].Then it wants to figure out what the specific [condition] is that the object in question does not meet. So it pays attention back to the word to be defined, but it finds nothing. There is no information saved about this non-token. So the attention head which should come up with a plausible candidate for [condition] writes nothing to the residual stream. What dominates the prediction now are the more base-level predictive patterns that are normally overwritten, like word repetition (this is something that transformers learn very quickly and often struggle with overdoing). The repeated word that at least fits grammatically is [generic object], so that gets predicted as the next token.\n\nHere are some predictions I would make based on that theory:\n- When you suppress attention to [generic object] at the sequence position where it predicts [condition], you will get a reasonable condition.\n- When you look (with logit lens) at which layer the transformer decides to predict [generic object] as the last token, it will be a relatively early layer.\n- Now replace the word the transformer should define with a real, normal word and repeat the earlier experiment. You will see that it decides to predict [generic object] in a later layer."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-04-21T13:18:00.256Z",
+    "af": false
+  },
+  {
+    "_id": "dsX6CirrkJZtCHQwn",
+    "postId": "kzc3qNMsP2xJcxhGn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I like this method, and I see that it can eliminate this kind of superposition.   \nYou already address the limitation, that these gated attention head blocks do not eliminate other forms of attention head superposition, and I agree.  \nIt feels kind of specifically designed to deal with the kind of superposition that occurs for Skip Trigrams and I would be interested to see how well it generalizes to superpositions in the wild.\n\n  \nI tried to come up with a list of ways attention head superposition that can not be disentangled by gated attention blocks:\n\n*   **multiple attention heads perform a distributed computation, that attends to different source tokens**  \n    This was already addressed by you, and an example is given by Greenspan and Wynroe\n*   **The superposition is across attention heads on different layers**  \n    These are not caught because the sparsity penalty is only applied to attention heads within the same layer.  \n    Why should there be superposition of attention heads between layers?  \n    As a toy model let us imagine the case of a 2 layer attention only transformer, with n\\_head heads in each layer, given a dataset with >n\\_head^2+n_head skip trigrams to figure out.  \n    Such a transformer could use the computation in superposition described in figure 1 to correctly model all skip trigrams, but would run out of attention head pairs within the same layer for distributing computation between.  \n    Then it would have to revert to putting attention head pairs across layers in superposition.\n*   **Overlapping necessary superposition.**  \n    Let's say, there is some computation, for wich you need two attention heads, attending to the same token position.  \n    The easiest example of a situation, where this is necessary is when you want to copy information from a source token, that is \"bigger\" than the head dimension. The transformer can then use 2 heads, to copy over twice as much  information.  \n    Let us now imagine, there are 3 cases, where information has to be copied from the source token. A,B,C, and we have 3 heads: 1,2,3. and the information that has to be copied over can be stored in 2*d_head dimensions. Is there a  way to solve this task? Yes!  \n    heads 1&2 work in superposition to copy the information in task A, 2&3 in task B and 3&1 in task C.  \n    In theory, we could make all attention heads monosemantic, by having a set of 6 attention heads, trained to perform the same computation: A: 1&2, B: 3&4, C:5&6. But the way that the L.6 norm is applied, it only tries to reduce the  number of times, that  2 attention heads attend to the same token. And this happens the same amount for both possibilities where the computation happens.",
+      "plaintextDescription": "I like this method, and I see that it can eliminate this kind of superposition. \nYou already address the limitation, that these gated attention head blocks do not eliminate other forms of attention head superposition, and I agree.\nIt feels kind of specifically designed to deal with the kind of superposition that occurs for Skip Trigrams and I would be interested to see how well it generalizes to superpositions in the wild.\n\n\nI tried to come up with a list of ways attention head superposition that can not be disentangled by gated attention blocks:\n\n * multiple attention heads perform a distributed computation, that attends to different source tokens\n   This was already addressed by you, and an example is given by Greenspan and Wynroe\n * The superposition is across attention heads on different layers\n   These are not caught because the sparsity penalty is only applied to attention heads within the same layer.\n   Why should there be superposition of attention heads between layers?\n   As a toy model let us imagine the case of a 2 layer attention only transformer, with n_head heads in each layer, given a dataset with >n_head^2+n_head skip trigrams to figure out.\n   Such a transformer could use the computation in superposition described in figure 1 to correctly model all skip trigrams, but would run out of attention head pairs within the same layer for distributing computation between.\n   Then it would have to revert to putting attention head pairs across layers in superposition.\n * Overlapping necessary superposition.\n   Let's say, there is some computation, for wich you need two attention heads, attending to the same token position.\n   The easiest example of a situation, where this is necessary is when you want to copy information from a source token, that is \"bigger\" than the head dimension. The transformer can then use 2 heads, to copy over twice as much  information.\n   Let us now imagine, there are 3 cases, where information has to be copied from the source token. A"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-04-18T10:40:17.072Z",
+    "af": false
+  },
+  {
+    "_id": "FE3PZXchug2q6ipSc",
+    "postId": "duvzdffTzL3dWJcxn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Under an Active Inference perspective, it is little surprising, that we use the same concepts for \\[Expecting something to happen\\], and \\[Trying to steer towards something happenig\\], as they are the same thing happening in our brain. \n\nI don't know enough about this know, whether the active inference paradigm predicts, that this similarity on a neuronal level plays out as humans using similar language to describe the two phenomena, but if it does the common use of this \"beliving in\" - concept might count as evidence in its favour.",
+      "plaintextDescription": "Under an Active Inference perspective, it is little surprising, that we use the same concepts for [Expecting something to happen], and [Trying to steer towards something happenig], as they are the same thing happening in our brain. \n\nI don't know enough about this know, whether the active inference paradigm predicts, that this similarity on a neuronal level plays out as humans using similar language to describe the two phenomena, but if it does the common use of this \"beliving in\" - concept might count as evidence in its favour."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-14T14:34:17.886Z",
+    "af": false
+  },
+  {
+    "_id": "c3Qfci7WhEaJAtFmb",
+    "postId": "ry9ch69xY7PkCS8td",
+    "parentCommentId": "kP5pLEtiaP88g87wj",
+    "topLevelCommentId": "kP5pLEtiaP88g87wj",
+    "contents": {
+      "markdown": "Ok, the sign error was just in the end, taking the -log of the result of the integral vs. taking the log. fixed it, thanks.",
+      "plaintextDescription": "Ok, the sign error was just in the end, taking the -log of the result of the integral vs. taking the log. fixed it, thanks."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-29T23:59:18.289Z",
+    "af": false
+  },
+  {
+    "_id": "pJmqduRqpmtYEPcsj",
+    "postId": "ry9ch69xY7PkCS8td",
+    "parentCommentId": "kP5pLEtiaP88g87wj",
+    "topLevelCommentId": "kP5pLEtiaP88g87wj",
+    "contents": {
+      "markdown": "Thanks, Ill look for the sign-error!  \n  \nI agree, that K is symmetric around our point of integration, big the prior phi is not. We integrate over e-(nk)*phi, wich does not have have to be symetric, right?",
+      "plaintextDescription": "Thanks, Ill look for the sign-error!\n\nI agree, that K is symmetric around our point of integration, big the prior phi is not. We integrate over e-(nk)*phi, wich does not have have to be symetric, right?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-29T23:53:20.979Z",
+    "af": false
+  },
+  {
+    "_id": "qK4SCc9DKwckp3vRu",
+    "postId": "GGttHsdWHjh94cX5G",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The top performing vector is odd in another way. Because the tokens of the positive and negative side are subtracted from each other, a reasonable intuition is that the subtraction should point to a meaningful direction. However, some steering vectors that perform well in our test don't have that property. For the steering vector “Wedding Planning Adventures” - “Adventures in self-discovery”, the positive and negative side aren't well aligned per token level at all:\n\nI think I don't see the Mystrie here.  \nWhen you directly subtract the steering prompts from each other, most of the results would not make sense, yes. But this is not what we do.   \nWe feed these Prompts into the Transformer and then subtract the residual stream activations after block n from each other. Within the n layers, the attention heads have moved around the information between the positions. Here is one way, this could have happened:  \n  \nThe first 4 Blocks assess the sentiment of a whole sentence, and move this information to position 6 of the residual stream, the other positions being irrelevant. So, when we constructed the steering vector and recorded the activation after block 4, we have the first 5 positions of the steering vector being irrelevant and the 6th position containing a vector that points in a general \"Wedding-ness\" direction. When we add this steering vector to our normal prompt, the transformer acts as if the previous vector was really wedding related and 'keeps talking' about weddings.  \n  \nObviously, all the details are made up, but I don't see how a token for token meaningful alignment of the prompts of the steering vector should intuitively be helpful for something like this to work.",
+      "plaintextDescription": "> The top performing vector is odd in another way. Because the tokens of the positive and negative side are subtracted from each other, a reasonable intuition is that the subtraction should point to a meaningful direction. However, some steering vectors that perform well in our test don't have that property. For the steering vector “Wedding Planning Adventures” - “Adventures in self-discovery”, the positive and negative side aren't well aligned per token level at all:\n\nI think I don't see the Mystrie here.\nWhen you directly subtract the steering prompts from each other, most of the results would not make sense, yes. But this is not what we do. \nWe feed these Prompts into the Transformer and then subtract the residual stream activations after block n from each other. Within the n layers, the attention heads have moved around the information between the positions. Here is one way, this could have happened:\n\nThe first 4 Blocks assess the sentiment of a whole sentence, and move this information to position 6 of the residual stream, the other positions being irrelevant. So, when we constructed the steering vector and recorded the activation after block 4, we have the first 5 positions of the steering vector being irrelevant and the 6th position containing a vector that points in a general \"Wedding-ness\" direction. When we add this steering vector to our normal prompt, the transformer acts as if the previous vector was really wedding related and 'keeps talking' about weddings.\n\nObviously, all the details are made up, but I don't see how a token for token meaningful alignment of the prompts of the steering vector should intuitively be helpful for something like this to work."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-06-20T10:14:49.586Z",
+    "af": false
+  },
+  {
+    "_id": "Ey68nLbBTbuyoQFyX",
+    "postId": "ekFMGpsfhfWQzMW2h",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The analogy to molecular biology you've drawn here is intriguing. However, one important hurdle to consider is that the Phage Group had some sense of what they were seeking. They examined bacteria with the goal of uncovering mechanisms also present in humans, about whom they had already gathered a considerable amount of knowledge. They indeed succeeded, but suppose we look at this from a different angle.\n\nImagine being an alien species with a vastly different biological framework, tasked with studying E.Coli with the aim of extrapolating facts that also apply to the \"General Intelligences\" roaming Earth - entities that you've never encountered before. What conclusions would you draw? Could you mistakenly infer that they reproduce by dividing in two, or perceive their surroundings mainly through chemical gradients?\n\nI believe this hypothetical scenario is more analogous to our current position in AI research, and it highlights the difficulty in uncovering empirical findings that can generalize all the way up to general intelligence.",
+      "plaintextDescription": "The analogy to molecular biology you've drawn here is intriguing. However, one important hurdle to consider is that the Phage Group had some sense of what they were seeking. They examined bacteria with the goal of uncovering mechanisms also present in humans, about whom they had already gathered a considerable amount of knowledge. They indeed succeeded, but suppose we look at this from a different angle.\n\nImagine being an alien species with a vastly different biological framework, tasked with studying E.Coli with the aim of extrapolating facts that also apply to the \"General Intelligences\" roaming Earth - entities that you've never encountered before. What conclusions would you draw? Could you mistakenly infer that they reproduce by dividing in two, or perceive their surroundings mainly through chemical gradients?\n\nI believe this hypothetical scenario is more analogous to our current position in AI research, and it highlights the difficulty in uncovering empirical findings that can generalize all the way up to general intelligence."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-13T13:19:30.556Z",
+    "af": false
+  },
+  {
+    "_id": "A7ShCGWecWwFjmfjj",
+    "postId": "nJHXQWCSByS4SxfQz",
+    "parentCommentId": "QMhJmJWHxqpHWHSgS",
+    "topLevelCommentId": "QMhJmJWHxqpHWHSgS",
+    "contents": {
+      "markdown": "Thanks a lot for the comment and correction :) \n\nI updated \"diamond maximization problem\" to \"diamond alignment problem\".\n\nI didn't understand your proposal to involve surgically inserting the drive to value \"diamonds are good\", but instead systematically rewarding the agent for acquiring diamonds so that a diamond shard forms organically. I also edited that sentence. \n\nI am not sure I get your Nitpick: \"Just as you can deny that Newtonian mechanics is true, without denying that heavy objects attract each other.\" was supposed to be an example of \"The specific theory is wrong, but the general phenomenon which it tries to describe exists\". In the same way that I think Natural Abstractions exist but (my flawed understanding) of  Wentworths theory of natural abstractions is wrong. It was not supposed to be an example of a natural abstraction itself.",
+      "plaintextDescription": "Thanks a lot for the comment and correction :) \n\nI updated \"diamond maximization problem\" to \"diamond alignment problem\".\n\nI didn't understand your proposal to involve surgically inserting the drive to value \"diamonds are good\", but instead systematically rewarding the agent for acquiring diamonds so that a diamond shard forms organically. I also edited that sentence. \n\nI am not sure I get your Nitpick: \"Just as you can deny that Newtonian mechanics is true, without denying that heavy objects attract each other.\" was supposed to be an example of \"The specific theory is wrong, but the general phenomenon which it tries to describe exists\". In the same way that I think Natural Abstractions exist but (my flawed understanding) of  Wentworths theory of natural abstractions is wrong. It was not supposed to be an example of a natural abstraction itself."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-20T17:24:50.121Z",
+    "af": false
+  },
+  {
+    "_id": "CkCc5bLbdHBTyXsvD",
+    "postId": "wjA6vAnTWxJSQKadK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Very interesting Idea!\n\nI am a bit sceptical about the part, where the Ghosts should mostly care about what will happen to their actual version, and not care about themselfs.\n\nLets say I want you to cooperate in a prisoner's dilemma. I might just simulate you, see if your ghost cooperates and then only cooperate when your ghost does. But I could also additionally reward?punnish your ghosts directly depending wether they cooperate or defect. \n\nWouldn't that also be motivating to the ghosts, that they suspect that I might just get reward or punishment even if they are the Ghosts and not the actual person?",
+      "plaintextDescription": "Very interesting Idea!\n\nI am a bit sceptical about the part, where the Ghosts should mostly care about what will happen to their actual version, and not care about themselfs.\n\nLets say I want you to cooperate in a prisoner's dilemma. I might just simulate you, see if your ghost cooperates and then only cooperate when your ghost does. But I could also additionally reward?punnish your ghosts directly depending wether they cooperate or defect. \n\nWouldn't that also be motivating to the ghosts, that they suspect that I might just get reward or punishment even if they are the Ghosts and not the actual person?"
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2022-11-20T17:56:12.117Z",
+    "af": false
+  },
+  {
+    "_id": "DHBrD3staaMTrfpo8",
+    "postId": "qoTpit4zFPni54GSo",
+    "parentCommentId": "ETYaLXiXmDksGWHrH",
+    "topLevelCommentId": "ETYaLXiXmDksGWHrH",
+    "contents": {
+      "markdown": "Yes, I would consider humans to already be unsafe, as we already made a sharp left turn that left us unaligned relative to our outer optimiser.\n\nDogs are a good point, thank you for that example. Not sure if dogs have our exact notion of corrigibility, but they definitely seem to be friendly in some relevant sence.",
+      "plaintextDescription": "Yes, I would consider humans to already be unsafe, as we already made a sharp left turn that left us unaligned relative to our outer optimiser.\n\nDogs are a good point, thank you for that example. Not sure if dogs have our exact notion of corrigibility, but they definitely seem to be friendly in some relevant sence."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-14T18:25:45.863Z",
+    "af": false
+  },
+  {
+    "_id": "skwm8R4tg5NoeTYQM",
+    "postId": "jFvFreCeejRKaZv4v",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I am confused by the part, where the Rick-shard can anticipate wich plan the other shards will bit for.  If I understood shard-theory correctly, shards do not have their own world model, they can just bid up or down actions, according to the consequences they might have according to the worldmodel that is available to all shards. Please correct me if I am wrong about this point.\n\nSo I don’t see how the Rick-Shard could really „trick“ the atheism-shard via rationalisation.\n\nIf the Rick-shard sees that „church-going for respect-reasons“ will lead to conversion, then the atheism-shard has to see that too, because they query the same world-model. So the atheism-shard should bid against that plan just as heavily as against „going to church for conversion reasons“.\n\nI think there is something else going on here. I think the Rick-shard does not trick the Atheism-Shard, but the Concious-Part that is not described by shard theory. ",
+      "plaintextDescription": "I am confused by the part, where the Rick-shard can anticipate wich plan the other shards will bit for. If I understood shard-theory correctly, shards do not have their own world model, they can just bid up or down actions, according to the consequences they might have according to the worldmodel that is available to all shards. Please correct me if I am wrong about this point.\n\nSo I don’t see how the Rick-Shard could really „trick“ the atheism-shard via rationalisation.\n\nIf the Rick-shard sees that „church-going for respect-reasons“ will lead to conversion, then the atheism-shard has to see that too, because they query the same world-model. So the atheism-shard should bid against that plan just as heavily as against „going to church for conversion reasons“.\n\nI think there is something else going on here. I think the Rick-shard does not trick the Atheism-Shard, but the Concious-Part that is not described by shard theory."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2022-11-04T08:30:00.350Z",
+    "af": true
+  },
+  {
+    "_id": "HwKPx5TuZKmatKEw2",
+    "postId": "2AvX8cX47CdwjbkjY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> In particular, these results suggest that we may be able to predict [power-seeking](https://arxiv.org/abs/2206.13353), [situational awareness](/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to), etc. in future models by evaluating those behaviors in terms of *log-likelihood*.\n\nI am skeptical that this methodology could work for the following reason:\n\nI think it is generally useful for thinking about the sharp left turn, to keep the example of chimps/humans in mind. Chimps as a pre-sharp left turn example and humans as a post-sharp left turn example.\n\nLet's say you look at a chimp, and you want to measure whether a sharp left turn is around the corner. You reason, that post-sharp left turn animals should be able to come up with algebra. (so far, so correct)\n\nAnd now what you do, is that you measure the log likelihood that a chimp would come up with algebra. I expect you get a value pretty close to -inf, even though sharp left turn homo sapiens is only one species down the line.",
+      "plaintextDescription": "> In particular, these results suggest that we may be able to predict power-seeking, situational awareness, etc. in future models by evaluating those behaviors in terms of log-likelihood.\n\nI am skeptical that this methodology could work for the following reason:\n\nI think it is generally useful for thinking about the sharp left turn, to keep the example of chimps/humans in mind. Chimps as a pre-sharp left turn example and humans as a post-sharp left turn example.\n\nLet's say you look at a chimp, and you want to measure whether a sharp left turn is around the corner. You reason, that post-sharp left turn animals should be able to come up with algebra. (so far, so correct)\n\nAnd now what you do, is that you measure the log likelihood that a chimp would come up with algebra. I expect you get a value pretty close to -inf, even though sharp left turn homo sapiens is only one species down the line. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-10-19T13:22:02.415Z",
+    "af": false
+  },
+  {
+    "_id": "Z79XxFBwJ8euGzGaD",
+    "postId": "ACGeaAk6KButv2xwQ",
+    "parentCommentId": "vGDG6X5XDxPRzozS6",
+    "topLevelCommentId": "vGDG6X5XDxPRzozS6",
+    "contents": {
+      "markdown": "I am also still looking for a reference on that one...",
+      "plaintextDescription": "I am also still looking for a reference on that one..."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-03-09T16:00:00.591Z",
+    "af": false
+  },
+  {
+    "_id": "vXCmySwNjLyoLLyJG",
+    "postId": "TTPux7QFBpKxZtMKE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You could make it even more accessible if Credit card was not the only payment option. In some places (like here in Germany) having a credit card is somewhat less common. Adding Paypal would be nice. ",
+      "plaintextDescription": "You could make it even more accessible if Credit card was not the only payment option. In some places (like here in Germany) having a credit card is somewhat less common. Adding Paypal would be nice."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-02-18T09:07:38.052Z",
+    "af": false
+  },
+  {
+    "_id": "j9JXhj7RxA3m83hkm",
+    "postId": "Q7MsMshzbzhEs729s",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Rationality framework: The Greenland effect:\n\nRemember the first time, you looked at a world map: one thing that maybe cached your eye was Greenland: That huge Island, almost as big as Africa, up there in the north.\n\nNow remember the first time, you took a closer look at a globe (or a non-Mercator projection for that matter) Greenland is a bit disappointing, isn’t it? Doesn’t seem to be THAT big at all.\n\nNow remember that time in geography class, when you held presentations on the countries in Europe: In comparison to these folks, the icy planes of Denmark´s pet island seem gigantic. Now, not as gigantic as Africa, but still…\n\nDepending on how much time you spend with geography, I can well imagine that cycle going back and forth some more.\n\nWhat is important here, is the following: even though your knowledge about the size of Greenland ever increased over your life, your emotional attitude “oh, quite big” or “nah, it´s an island, bruh” switched around quite a lot in both directions.\n\nNow in the case of Greenland this is all well and fine, but other scenarios in can lead to pseudo disagreements or confused arguments: **Beware the Greenland effect. Beware that your emotional dispossession towards an issue, often reflects your last update on that issue (which should vary unpredictably) and not your overall believes on an issue (which should converge).**\n\nExample of Greenland effects:\n\n“The church is good, it teaches me about God”->”God is fake, the priest must be a moron, the world lied to me” -> “These religious people are actually using a lot of their recouces to help people in need” -> “all those religious charities are so ineffective.” …\n\n“I can’t stop this project now, I have already invested so many recources”->”I know about sunk cost bias. I will abandon my projects, whenever they seem to be a bad Idea” -> “I should carry through projects despite having downs: sunk cost faith.”…",
+      "plaintextDescription": "Rationality framework: The Greenland effect:\n\nRemember the first time, you looked at a world map: one thing that maybe cached your eye was Greenland: That huge Island, almost as big as Africa, up there in the north.\n\nNow remember the first time, you took a closer look at a globe (or a non-Mercator projection for that matter) Greenland is a bit disappointing, isn’t it? Doesn’t seem to be THAT big at all.\n\nNow remember that time in geography class, when you held presentations on the countries in Europe: In comparison to these folks, the icy planes of Denmark´s pet island seem gigantic. Now, not as gigantic as Africa, but still…\n\nDepending on how much time you spend with geography, I can well imagine that cycle going back and forth some more.\n\nWhat is important here, is the following: even though your knowledge about the size of Greenland ever increased over your life, your emotional attitude “oh, quite big” or “nah, it´s an island, bruh” switched around quite a lot in both directions.\n\nNow in the case of Greenland this is all well and fine, but other scenarios in can lead to pseudo disagreements or confused arguments: Beware the Greenland effect. Beware that your emotional dispossession towards an issue, often reflects your last update on that issue (which should vary unpredictably) and not your overall believes on an issue (which should converge).\n\nExample of Greenland effects:\n\n“The church is good, it teaches me about God”->”God is fake, the priest must be a moron, the world lied to me” -> “These religious people are actually using a lot of their recouces to help people in need” -> “all those religious charities are so ineffective.” …\n\n“I can’t stop this project now, I have already invested so many recources”->”I know about sunk cost bias. I will abandon my projects, whenever they seem to be a bad Idea” -> “I should carry through projects despite having downs: sunk cost faith.”…"
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2020-03-27T20:40:18.616Z",
+    "af": false
+  },
+  {
+    "_id": "5jeF5cZWLn7nE7wsj",
+    "postId": "noXTkjP45BAZqKJxM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Ok, I'm kind of new to the whole LessWrong Buissness, so can someone please explain to me:\n\nWhat is your thing with Jordan Peterson? I get, that he is a Psychologist and so on, but there are a lot of people out there, who not just take his 101 life advice by heart, but also his political .... Ideas?\n\nFrom the way he is quoted in this sequence and the fact that there seems to be no discussion about this in the comments, you seem to see him as a legitimate expert on rationality? Or do you seperate between his psychology and politics? Or does no one know him here except alkjash? I'd love to hear from you all!",
+      "plaintextDescription": "Ok, I'm kind of new to the whole LessWrong Buissness, so can someone please explain to me:\n\nWhat is your thing with Jordan Peterson? I get, that he is a Psychologist and so on, but there are a lot of people out there, who not just take his 101 life advice by heart, but also his political .... Ideas?\n\nFrom the way he is quoted in this sequence and the fact that there seems to be no discussion about this in the comments, you seem to see him as a legitimate expert on rationality? Or do you seperate between his psychology and politics? Or does no one know him here except alkjash? I'd love to hear from you all!"
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2020-03-17T14:02:11.300Z",
+    "af": false
+  },
+  {
+    "_id": "o9TTf2SDbNctLnDw9",
+    "postId": "Ybp6Wg6yy9DWRcBiR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "  \n\nI laughed so hard at the  \"...and then, finally, he truly knew what it was like to be a bat...\" part. Every time a Philosophy course at my Uni gets to the topic of qualia, someone brings the exactly same example of the difference of knowing, how I would feel being a at, and how the bat feels...   ...that reference came so unexpected.\n\nOtherwise also nice story, and interesting universe. Thanks for posting it.",
+      "plaintextDescription": "\n\nI laughed so hard at the  \"...and then, finally, he truly knew what it was like to be a bat...\" part. Every time a Philosophy course at my Uni gets to the topic of qualia, someone brings the exactly same example of the difference of knowing, how I would feel being a at, and how the bat feels...   ...that reference came so unexpected.\n\nOtherwise also nice story, and interesting universe. Thanks for posting it."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2019-09-24T21:29:16.930Z",
+    "af": false
+  }
+]

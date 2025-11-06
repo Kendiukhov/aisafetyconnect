@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "5ZtsvREZWKqCticBf",
+    "postId": "dwpXvweBrJwErse3L",
+    "parentCommentId": "KaHGMpvfhiZsaWDgx",
+    "topLevelCommentId": "KaHGMpvfhiZsaWDgx",
+    "contents": {
+      "markdown": "Oh, thanks for catching that!",
+      "plaintextDescription": "Oh, thanks for catching that!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-29T08:51:25.517Z",
+    "af": false
+  },
+  {
+    "_id": "kbCrMWc6LSnq2aMjz",
+    "postId": "D447wxQb8AMsJeqPn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Kleinian view of geometry\n\nAbout 1900, Klein discovered an interesting perspective on geometry. He found that you could view a Euclidean space as a real space plus a group of transformations that leave figures congruent to one another. This group is formed by combining rotations, translations and reflections. We call this the Euclidean group.  A natural question to ask was whether other spaces could be characterized in terms of symmetry groups? Klein showed the answer is yes. \n\nFor an affine geometry, it is characterized by symmetry under the action of the following transformations: \n\n\\\\(f(x) = A(x) +b   \\quad A \\in SO(R,2)  ,  b \\in R^2\\\\)\n\nFor an affine geometry, it is characterized by symmetry under the action of the following transformations: \n\n\\\\(f(x) = A(x) +b   \\quad A \\in GL(R,2)  ,  b \\in R^2\\\\)\n\nThe general linear group is bigger than the special orthogonal group, so correspondingly, we have stronger constraints on what kinds of structures can be preserved. And indeed, in affine geometry, we don't preserve lengths, but rather: parallel lines, ratios of lengths along a line and straight lines themselves. \n\nFor hyperbolic geometries, the group structure is a bit harder to define in terms of familiar functions. We tend to call is SO(n,m), to denote the fact that we've got a psuedo metric with n minus signs and m plus signs. In the simplest case, this would mean \"distances\" are like \\\\(|x-y|^2 = (x_0-y_0)^2-(x_1-y_1)^2\\\\)\n\nand it is these distances which are preserved. In this simple case, we find that group can be represented by transformations like \n\n\\\\(f(x) =  \\pm ( cosh(\\alpha) I_2 +\\sinh(\\alpha) \\sigma_1) x + b \\quad \\alpha \\in R  ,  b \\in R^2\\\\)\n\nwhere \\\\(\\sigma_1\\\\) is the first pauli matrix. The term in brackets acts like the hyperbolic equivalent of a rotation matrix, and \\\\(\\alpha\\\\) is a hyperbolic angle. And in fact, if we replace \\\\(\\alpha\\\\)  with \\\\(i \\beta\\\\), then cosh and sinh turn into cos and sin. So we can get back the Euclidean group! (I don't, actually, understand why this isn't a group isomorphism. So something must be going wonky here. )\n\n  \nProjective geometry is a bit trickier, as to frame it in terms of familiar Euclidean spaces you've got to deal with equivalence classes of lines through an origin.  I don't have time to explain how the Kleinian perspective applies here, but it does. Also, projective transforms don't preserve angles or lengths. They do, however, preserve co-linearity. \n\nOK, but how exactly does the Euclidean group characterize Euclidean space? We can understand that by looking at the 2d case. From there, it's easy to generalize. Recall that we want to show the Euclidean group contains any transformation that leaves figures, or shapes, in our 2d Euclidean plane unchanged. \n\nFirst, I want to point out that this transformation must be an isometry. The Euclidean metric defines Euclidean geometry, after all. \n\nOK, now let's see how this transformation must affect shapes. Let's start with the simplest non-trivial shape, the triangle. We're going to show that for any isometry, and any triangle, there is some element of the Euclidean group that replicates how the isometry transforms the triangle. If you consider an isometry mapping a triangle to another, they must be congruent. We can construct an element which respects this congruence by rotating till one of the corners is in the same orientation as its image, translating the triangle so that the corresponding vertex overlays its image, and then doing a mirror flip if the orientations of the two triangles don't match. \n\nOnce we can get group elements mimicking the action of our isometry on triangles, it is a simple matter to get rectangles, as they're made of triangles. And then rectangular grids of lines as they're formed of rectangles. And then rectangular lattices of points, as they're parts of the grids. Then dense collections of lattices. But an isometry and an element of the Euclidean group are continuous. Continuous maps are defined uniquely by their action on a dense subset of their domain. So they must be the same maps. Done. \n\nOK, so that's how we show the Euclidean group is the group of symmetries for Euclidean figures. What about other geometries? We can do it in basically the same way. Define a non-trivial simple figure and use that to pin down the action of a symmetry transformation in terms of simpler components. E.g. for the affine group, it is invertible linear maps and translations. Then show the actions of any transformation is uniquely determined by its actions on some simple figure. For the affine group, this is again a triangle.",
+      "plaintextDescription": "Kleinian view of geometry\n\nAbout 1900, Klein discovered an interesting perspective on geometry. He found that you could view a Euclidean space as a real space plus a group of transformations that leave figures congruent to one another. This group is formed by combining rotations, translations and reflections. We call this the Euclidean group.  A natural question to ask was whether other spaces could be characterized in terms of symmetry groups? Klein showed the answer is yes. \n\nFor an affine geometry, it is characterized by symmetry under the action of the following transformations: \n\nf(x)=A(x)+bA∈SO(R,2) , b∈R2\n\nFor an affine geometry, it is characterized by symmetry under the action of the following transformations: \n\nf(x)=A(x)+bA∈GL(R,2) , b∈R2\n\nThe general linear group is bigger than the special orthogonal group, so correspondingly, we have stronger constraints on what kinds of structures can be preserved. And indeed, in affine geometry, we don't preserve lengths, but rather: parallel lines, ratios of lengths along a line and straight lines themselves. \n\nFor hyperbolic geometries, the group structure is a bit harder to define in terms of familiar functions. We tend to call is SO(n,m), to denote the fact that we've got a psuedo metric with n minus signs and m plus signs. In the simplest case, this would mean \"distances\" are like |x−y|2=(x0−y0)2−(x1−y1)2\n\nand it is these distances which are preserved. In this simple case, we find that group can be represented by transformations like \n\nf(x)=±(cosh(α)I2+sinh(α)σ1)x+bα∈R , b∈R2\n\nwhere σ1 is the first pauli matrix. The term in brackets acts like the hyperbolic equivalent of a rotation matrix, and α is a hyperbolic angle. And in fact, if we replace α  with iβ, then cosh and sinh turn into cos and sin. So we can get back the Euclidean group! (I don't, actually, understand why this isn't a group isomorphism. So something must be going wonky here. )\n\n\nProjective geometry is a bit trickier, as to frame it in terms of famil"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-23T23:00:11.165Z",
+    "af": false
+  },
+  {
+    "_id": "PPF8tt4m3eekSXtdb",
+    "postId": "gtk2KqEtedMi7ehxN",
+    "parentCommentId": "yziXpd65htDSMzdhr",
+    "topLevelCommentId": "yziXpd65htDSMzdhr",
+    "contents": {
+      "markdown": "Woohoo! My first curated post. Hopefully the first of many better posts to come.",
+      "plaintextDescription": "Woohoo! My first curated post. Hopefully the first of many better posts to come."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-22T22:42:04.709Z",
+    "af": false
+  },
+  {
+    "_id": "SFm7Y4sjArLiWEcAb",
+    "postId": "gtk2KqEtedMi7ehxN",
+    "parentCommentId": "vZZqNaNsFTBFAjZZM",
+    "topLevelCommentId": "vZZqNaNsFTBFAjZZM",
+    "contents": {
+      "markdown": "How come you're not really sure? The results you got from leaving electronic devices at home sound pretty sweet. Is it just that you're not sure whether the counterfactual would've been worse?",
+      "plaintextDescription": "How come you're not really sure? The results you got from leaving electronic devices at home sound pretty sweet. Is it just that you're not sure whether the counterfactual would've been worse?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-22T22:40:48.455Z",
+    "af": false
+  },
+  {
+    "_id": "dZs2dsPNzymXzTZzi",
+    "postId": "kdKjmL4BcsCknm9oA",
+    "parentCommentId": "pR9sbu3ifEhoSWmAu",
+    "topLevelCommentId": "pR9sbu3ifEhoSWmAu",
+    "contents": {
+      "markdown": "Thank you for the feedback! You're right that I didn't get to the point nearly fast enough. I think I write two classes of blog posts: ones where I can focus on writing because I know what to say and one where I can't focus on writing because I'm still figuring out what I want to say. This post was among the latter. One of my goals for half-haven is to get better at writing, so I can write well even without focusing on it. I've still got a ways to go.",
+      "plaintextDescription": "Thank you for the feedback! You're right that I didn't get to the point nearly fast enough. I think I write two classes of blog posts: ones where I can focus on writing because I know what to say and one where I can't focus on writing because I'm still figuring out what I want to say. This post was among the latter. One of my goals for half-haven is to get better at writing, so I can write well even without focusing on it. I've still got a ways to go."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-22T14:55:56.922Z",
+    "af": false
+  },
+  {
+    "_id": "NcHkSrfxCvJ2AnG6o",
+    "postId": "gtk2KqEtedMi7ehxN",
+    "parentCommentId": "hfj7aeZYydMrqNJmF",
+    "topLevelCommentId": "hfj7aeZYydMrqNJmF",
+    "contents": {
+      "markdown": "That is quite an interesting approach. How did it go?",
+      "plaintextDescription": "That is quite an interesting approach. How did it go?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-22T12:45:08.062Z",
+    "af": false
+  },
+  {
+    "_id": "MtFaeFvJGcJAbhF2o",
+    "postId": "D447wxQb8AMsJeqPn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I was bored, so I decided to re-construct a max flow algorithm since I forgot how Ford Fulkerson works.\n\n  \nOK, you have a graph w/ positive integers denoting capacity for each edge, and start/end nodes. You want to get a flow going from input->output which maxes out the channel capacity.\n\nHow to do this? Well, I vaguely remember something about a blocking flow. Intuition: to figure out how much stuff you can push through a network, look at the bottlenecks.\n\nWhat's a bottleneck? Well, it's a thingy which everything has to pass through that limits the performance of a system. So we know we have to look for some object that everything has to pass through.\n\nWell, let's think about a river network. The \"edges\" are rivers, and maybe the places they connect are vertices. The \"flow\" is just the kg/s passing through each river, which has a capacity before the river overflows, which is bad.\n\nPerhaps a better example is a factor with conveyor belts taking inputs, which workers convert to outputs. The edges are the belts, their capacity the worker's capacity to transform the inputs, the start and end are the start and end of the factory.\n\nIf we cut it in half anywhere, we know that to get from one side to another, you'd have to go through a stream/belt that our line just cut. Perhaps this, then, is a bottleneck? Just some big old bunch of edges, and you count the maximum capacity of water along each?\n\nBut that's nonsense: Do that just after the start and at the end, and the capacities will surely differ. Likewise, for some kind of graph with lots of capacity at either end, and a tiny single edge you need to pass through in the middle.\n\nAha! Maybe that's the key? You have to pass through some set of edges? If you cut them out, there's no path from start to finish? Then count their capacity and you're done.\n\nWell, no. Remember, you can just do that for the starting /ending edges and construct a case which gives you different answers. But this feels more promising.\n\nThinking about the name a bit more, a bottleneck sounds like a gap that limits the size of things you can shove through.\n\nSo maybe, may be it's just the set of edges with the minimum capacity, then. Let's call it a \"min cut\". That sounds a bit more reasonable. But does that tell you the max flow?\n\nExample: Let \"-(N)->\" denote an edge with capacity N.   \nIN   -(10)-> A -(1)-> B -(5)->C -(10)-> OUT  \n    \\ -(10)-> X -(5) -> Y -(1)->Z -(10)-/  \nIn this graph, the max flow is obviously 1+1. And clearly, if you cut the edges with capacity 1, then you can't get from A or X to C or Z. And their sum is 1+1.\n\nYou just can't shove more than 2 things down this graph. Seems promising.\n\nOK, how do we prove min-cut = max-flow, though? And then how can we find such a cut?\n\nFirst observation: the maximum flow can't be more than the capacity of a min-cut as every flow has to pass through there.  \n\nNow we just have to prove the max-flow >= the min-cut.\n\nWell, let's go back to our factory example for intuition. If you just start sending some goods through along one path from start to finish, you'd eventually fill up a path. Then you'd start using another path to transform goods and another you till can't any more.\n\nDoes the order we chose matter to the goods we made? Well, either it does or it doesn't. If it does, there's no max flow, only maximal flows. How silly. But maybe the creators didn't study set-theory in kindergarten? I certainly didn't. And if it doesn't, then there is a unique maximum flow. Still, that doesn't tell us that max-flow >= min-cut.\n\nTo get some insight, let's try to apply the idea that we \"send goods along paths till we can't any more\" to our example graph. We choose some starting edge. Let's go with IN-> X. Can we put 1 unit down this edge? Yes, as the capacity is ten. Then we can only go from X->Y. Can we put 1 unit down this edge? Yes. Likewise for Y->Z.\n\nNow we've used up one unit of capacity for every edge along the path X->Y->Z. So let's decrement the capacity in our graph.  \nIN  -(10)-> A -(1)-> B -(5)->C -(10)-> OUT  \n    \\ - (9) -> X -(4)-> Y -(0)->Z - (9) -/  \nThere's no capacity left along Y->Z though! We've got the first bit of our bottleneck, I think. Let's cut that edge and replace it with a b.n.  \nIN  -(10)-> A -(1)-> B -(5)->C -(10)-> OUT  \n    \\ - (9) -> X -(4)-> Y  b.n    Z - (9) -/  \nIf we put another unit down X, we'll see we can't make any progress from Y onwards. So let's get rid of X -> Y.  \nIN  -(10)-> A -(1)-> B -(5)->C -(10)-> OUT  \n    \\ - (9) -> X   b.n     Y  b.n.   Z - (9) -/\n\nIf we do likewise for A, we find that A->B will be another bottleneck.  \nIN  -(9)->  A  b.n.  B -(4)->C -(9)-> OUT  \n    \\ -(9)->  X   b.n   Y  b.n.   Z -(9)-/  \nNow, they're no way to get from the start to the end. Did this tell us anything? \n\nSurprisingly, yes. We saw our algorithm find a cut with a capacity of 2, which is equal to its max flow. A cut surely has at least as much capacity as a min-cut. So we see that max-flow = min-cut and it doesn't matter where we start.\n\nSo we know how to compute max flows now. Yay! But wait. Is this a good algorithm? \n\nNo. I leave figuring out why as an exercise to the reader. \n\nHave we actually proved anything? Also no. But I've crawled back up to the point where the theorem feels like physically necessary, at which point, the proof is rarely an issue. And I think I've got a working algorithm, it's just slow. But I'm not a programmer, so mission accomplished?",
+      "plaintextDescription": "I was bored, so I decided to re-construct a max flow algorithm since I forgot how Ford Fulkerson works.\n\n\nOK, you have a graph w/ positive integers denoting capacity for each edge, and start/end nodes. You want to get a flow going from input->output which maxes out the channel capacity.\n\nHow to do this? Well, I vaguely remember something about a blocking flow. Intuition: to figure out how much stuff you can push through a network, look at the bottlenecks.\n\nWhat's a bottleneck? Well, it's a thingy which everything has to pass through that limits the performance of a system. So we know we have to look for some object that everything has to pass through.\n\nWell, let's think about a river network. The \"edges\" are rivers, and maybe the places they connect are vertices. The \"flow\" is just the kg/s passing through each river, which has a capacity before the river overflows, which is bad.\n\nPerhaps a better example is a factor with conveyor belts taking inputs, which workers convert to outputs. The edges are the belts, their capacity the worker's capacity to transform the inputs, the start and end are the start and end of the factory.\n\nIf we cut it in half anywhere, we know that to get from one side to another, you'd have to go through a stream/belt that our line just cut. Perhaps this, then, is a bottleneck? Just some big old bunch of edges, and you count the maximum capacity of water along each?\n\nBut that's nonsense: Do that just after the start and at the end, and the capacities will surely differ. Likewise, for some kind of graph with lots of capacity at either end, and a tiny single edge you need to pass through in the middle.\n\nAha! Maybe that's the key? You have to pass through some set of edges? If you cut them out, there's no path from start to finish? Then count their capacity and you're done.\n\nWell, no. Remember, you can just do that for the starting /ending edges and construct a case which gives you different answers. But this feels more promising.\n\nThinking about "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-20T21:44:53.635Z",
+    "af": false
+  },
+  {
+    "_id": "GksBycgEzbWx7DM8q",
+    "postId": "g4zurFf9secH8g2oH",
+    "parentCommentId": "FehoRkrJGYAwXqLXG",
+    "topLevelCommentId": "PzR2BTcHdN9JTsgKk",
+    "contents": {
+      "markdown": "I thought whether a post is personal or goes onto the front page was up to the mods.",
+      "plaintextDescription": "I thought whether a post is personal or goes onto the front page was up to the mods."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-20T09:34:46.513Z",
+    "af": false
+  },
+  {
+    "_id": "esc8oX6gPiPKoCDZm",
+    "postId": "D447wxQb8AMsJeqPn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Why do leaves fall in autumn? The obvious answer is that there's a high upkeep cost to them, and during winter there is little sunlight, so tree leaves should fall down then. That is, they should be deciduous trees. So trees in Montreal or London be deciduous. Whereas in places like the Mediterranean, tree leaves shouldn't be deciduous, they should be evergreen. And it is so. Evergreen trees dominate in temperate, consistently sunny climates, whereas in places like the UK, only 10% of tree species are evergreen.\n\nBut that 10% figure is confusing. Doesn't it imply that evergreen trees are also a successful strategy in places with (relatively) sunless seasons? What advantage do deciduous trees have then? Also, if sunless seasons -> mostly deciduous trees, what's up with the poles? They get way less sunlight. \n\nAFAICT, evergreen trees near the equator are more like deciduous trees in the UK or Japan than they are like evergreen trees near the poles. In some ways, equatorial evergreens are like deciduous trees on steroids. \n\nDeciduous leaves are optimized to photosynthesize as much as possible. Relative to evergreen leaves, they have ~ 3x higher upkeep costs in return for ~ 4x higher energy production per gram per unit time. So while they're active for 1/2 the time, they make more energy, total, than evergreen leaves. But in autumn/winter, they cost too much in upkeep to be worth keeping. So deciduous trees re-absorb chlorophyll (freezing can denature proteins) and other nutrients from the leaves, leading to the leaves browning and falling off. \n\nNumerically, these upkeep costs are 1/12 that of gross energy production for both deciduous and evergreen leaves. After accounting for the 3x increase in activity and 1/2 the year being leaf free compared to evergreens, that means deciduous trees pay 50% more in upkeep without accounting for the costs of re-creating the leaves each season. \n\nIn practice, this means deciduous leaves are pretty thin with high surface area, getting lots of sunlight for relatively small amounts of mass. There are relatively little support cells; most of the cells are for photosynthesis. Which makes them quite flimsy. They can collect lots of rainwater or snow, which is a big disadvantage in winter. \n\nCompare this to evergreen leaves in trees originating around the poles. They're much smaller, almost like needles. Whereas evergreen leaves are optimized for surviving the harsh winters. That means they have smaller surface areas/mass ratios for durability, have relatively fewer cells devoted to photosynthesis/gram, have waxy coatings to protect them from the cold but also reduce the sunlight they can absorb, and have anti-freeze inside of them to prevent damage in winter. \n\nThe whole \"water freezes in winter\" bit leads to another important factor in why leaves fall off deciduous trees. When water in the ground freezes, deciduous trees can't absorb any water, but their energetic leaves could keep releasing large amounts of water. This would cause the tree to dry up and die. Better to jettison the leaves than risk that. This is less of a problem for evergreens as their leaves have low surface area/mass ratios, have coatings and close their pores in winter. But it's still an issue. \n\nTwo notable things I haven't mentioned yet. One, evergreen and deciduous leaves have the same energy production/construction cost ratios. In a really dumb model of energy production per gram (e), leaf life (T) and construction costs per gram (C) we find that:\n\ne\\_D/e\\_E = T\\_E/T\\_D C\\_D /C\\_E\n\nEvergreen leaves live 6x longer than deciduous leaves on average. We also know e\\_D/e\\_E ~ 3. So that implies so that implies C\\_D ~ 1/2 C\\_E. Which is somewhat surprising but I guess it makes sense in retrospect. Evergreen leaves are the low cost, low output, steady output, long lifetime counterpart to deciduous leaves. \n\nI don't think I've got an answer for why we see not insignificant numbers of evergreen trees in places like Montreal or London. But I do feel like it makes sense why we don't see deciduous trees near the poles. \n\nAnother big complication I left out are the deciduous trees in (non frozen) deserts. What's up with them?",
+      "plaintextDescription": "Why do leaves fall in autumn? The obvious answer is that there's a high upkeep cost to them, and during winter there is little sunlight, so tree leaves should fall down then. That is, they should be deciduous trees. So trees in Montreal or London be deciduous. Whereas in places like the Mediterranean, tree leaves shouldn't be deciduous, they should be evergreen. And it is so. Evergreen trees dominate in temperate, consistently sunny climates, whereas in places like the UK, only 10% of tree species are evergreen.\n\nBut that 10% figure is confusing. Doesn't it imply that evergreen trees are also a successful strategy in places with (relatively) sunless seasons? What advantage do deciduous trees have then? Also, if sunless seasons -> mostly deciduous trees, what's up with the poles? They get way less sunlight. \n\nAFAICT, evergreen trees near the equator are more like deciduous trees in the UK or Japan than they are like evergreen trees near the poles. In some ways, equatorial evergreens are like deciduous trees on steroids. \n\nDeciduous leaves are optimized to photosynthesize as much as possible. Relative to evergreen leaves, they have ~ 3x higher upkeep costs in return for ~ 4x higher energy production per gram per unit time. So while they're active for 1/2 the time, they make more energy, total, than evergreen leaves. But in autumn/winter, they cost too much in upkeep to be worth keeping. So deciduous trees re-absorb chlorophyll (freezing can denature proteins) and other nutrients from the leaves, leading to the leaves browning and falling off. \n\nNumerically, these upkeep costs are 1/12 that of gross energy production for both deciduous and evergreen leaves. After accounting for the 3x increase in activity and 1/2 the year being leaf free compared to evergreens, that means deciduous trees pay 50% more in upkeep without accounting for the costs of re-creating the leaves each season. \n\nIn practice, this means deciduous leaves are pretty thin with high surface area, gettin"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-19T22:59:49.357Z",
+    "af": false
+  },
+  {
+    "_id": "S7vvpkF5cyff9JaHW",
+    "postId": "g4zurFf9secH8g2oH",
+    "parentCommentId": "PzR2BTcHdN9JTsgKk",
+    "topLevelCommentId": "PzR2BTcHdN9JTsgKk",
+    "contents": {
+      "markdown": "From a public perspective, libraries probably are making good choices. From my personal, selfish perspective, they're not. Does that clear things up?   \n  \nAlso, I have noticed going to libraries results in sampling from a different distribution of books. The boredom forcing me to read stuff I usually wouldn't is a part of it, as is the fact I'm not self-selecting into niche scenes which recommend a narrow slice of books.",
+      "plaintextDescription": "From a public perspective, libraries probably are making good choices. From my personal, selfish perspective, they're not. Does that clear things up? \n\nAlso, I have noticed going to libraries results in sampling from a different distribution of books. The boredom forcing me to read stuff I usually wouldn't is a part of it, as is the fact I'm not self-selecting into niche scenes which recommend a narrow slice of books. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-19T18:27:31.735Z",
+    "af": false
+  },
+  {
+    "_id": "9WCtuch5sCWq95Cdb",
+    "postId": "9XkTJQ8gBcBxuWus2",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Taking the stance that by default everything is a skill issue stops me from thinking \"I can't do anything about this\". That doesn't mean I do something about every problem I see. Often I'll decide it's not worth doing anything about this. But my mind doesn't flag some problem as intractable, so I remain open to opportunities to solve it.",
+      "plaintextDescription": "Taking the stance that by default everything is a skill issue stops me from thinking \"I can't do anything about this\". That doesn't mean I do something about every problem I see. Often I'll decide it's not worth doing anything about this. But my mind doesn't flag some problem as intractable, so I remain open to opportunities to solve it."
+    },
+    "baseScore": 8,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-19T13:05:48.159Z",
+    "af": false
+  },
+  {
+    "_id": "KwhoEnPDbySoP3LHh",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "6PsyWqyMwABSXELFv",
+    "topLevelCommentId": "6PsyWqyMwABSXELFv",
+    "contents": {
+      "markdown": "Slow takeoff in the sense of Christiano is a far steeper climb up to far higher capabilities than what the \"nanotechnology is impossible\" folks are expecting.",
+      "plaintextDescription": "Slow takeoff in the sense of Christiano is a far steeper climb up to far higher capabilities than what the \"nanotechnology is impossible\" folks are expecting. "
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-18T13:29:52.904Z",
+    "af": false
+  },
+  {
+    "_id": "zxj66GcbHdLR57feM",
+    "postId": "LPiBBn2tqpDv76w87",
+    "parentCommentId": "tj7sGvE9D38xyChMY",
+    "topLevelCommentId": "tj7sGvE9D38xyChMY",
+    "contents": {
+      "markdown": "Knock off DFW >  knock off 0HP.",
+      "plaintextDescription": "Knock off DFW >  knock off 0HP. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-18T13:03:42.167Z",
+    "af": false
+  },
+  {
+    "_id": "F7xf8eduK9Y2nP4M3",
+    "postId": "fhL7gr3cEGa22y93c",
+    "parentCommentId": "CsupuAgPNZCAonnbx",
+    "topLevelCommentId": "CsupuAgPNZCAonnbx",
+    "contents": {
+      "markdown": "This is helpful. Details about specific traditions and their relative dangers is what I hoped to see. Hard for me to verify, of course, but that's just what it's like when you're out of your depth.",
+      "plaintextDescription": "This is helpful. Details about specific traditions and their relative dangers is what I hoped to see. Hard for me to verify, of course, but that's just what it's like when you're out of your depth."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-18T11:39:19.761Z",
+    "af": false
+  },
+  {
+    "_id": "BAzXiwgzxJknZRyBw",
+    "postId": "8prPryf3ranfALBBp",
+    "parentCommentId": "ssESyFPTB5zQkd55a",
+    "topLevelCommentId": "ssESyFPTB5zQkd55a",
+    "contents": {
+      "markdown": "Ooh, good idea. I'll try that out today. \n\nUpdate: It's been a week of no complaining. Really, it's more like \"complain less\" as I haven't managed to fully stop myself from complaining out of habit. I think I've learnt a bit more about how much I complain, and how to re-channel the need to complain into something productive. But it hasn't been as useful as not mocking myself. I think I'll see if more dakka changes things.",
+      "plaintextDescription": "Ooh, good idea. I'll try that out today. \n\nUpdate: It's been a week of no complaining. Really, it's more like \"complain less\" as I haven't managed to fully stop myself from complaining out of habit. I think I've learnt a bit more about how much I complain, and how to re-channel the need to complain into something productive. But it hasn't been as useful as not mocking myself. I think I'll see if more dakka changes things."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-18T11:34:25.480Z",
+    "af": false
+  },
+  {
+    "_id": "MSkXiJsnwW8Bpqycr",
+    "postId": "kdKjmL4BcsCknm9oA",
+    "parentCommentId": "vfr7ShrkpdQKjAwh9",
+    "topLevelCommentId": "vfr7ShrkpdQKjAwh9",
+    "contents": {
+      "markdown": "Reading one of the articles on the site, I get the sense this guy has an axe to grind against Galileo. If I had to guess at my opinion after reading further, it would be that he's using asymmetric standards of evidence for arguments for/against the value of Galileo's work.",
+      "plaintextDescription": "Reading one of the articles on the site, I get the sense this guy has an axe to grind against Galileo. If I had to guess at my opinion after reading further, it would be that he's using asymmetric standards of evidence for arguments for/against the value of Galileo's work. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-17T22:06:34.838Z",
+    "af": false
+  },
+  {
+    "_id": "sKPdPGb2CfPmHzLua",
+    "postId": "D447wxQb8AMsJeqPn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Some random notes on harvesting energy at stellar scales. Again, from Grand Futures.\n\nHarvesting dark energy:  \n    Tying galaxies together: Anchor big rope to galaxies as they get pulled apart by dark matter. Build up elastic potential energy which can be harvested. Issue: inefficient. You get out < 10^{-39} times energy of rope. Needs negative energy density matter to give better efficiency. Not clear how you anchor rope to energy  \n    Letting particles expand apart: again, very tiny amounts of energy compared to mass energy of particles. So small it isn't clear if it's even a net return.\n\nDark matter:   \n    Hawking radiation: takes a long time to see any returns. Very poor efficiency for black holes past 10^11 kg. Past that point, it is just neutrinos which are hard to capture. You can chuck in dark matter which isn't very usable and get interacting stuff back out.     \n\nNeutrino capture:  \n    Lots of neutrinos running around, especially if you use hawking radiation to capture mass energy of black holes. So you might want to make use of them. But neutrinos are very weakly interacting, so you need incredibly dense matter to absorb their energy/convert them to something else. Too dense?\n\nSome methods of extracting energy from ordinary matter using black holes.  \n  \n\nAccretion discs: chuck in matter to orbit black hole, get very hot and transition into radiation. At most, 5% efficiency for stationary black holes, 43% efficiency for extremely rotating black holes. (With wormholes, you could get 51% efficiency). Very useful for converting matter we can interact with into energy. Not the most efficient but you don't *need* black holes to have angular momentum to do this, which is perhaps useful.\n\nPenrose process: Extracts energy from angular momentum of black hole, a fair bit of which resides outside the event horizon in the form of frame-dragging spacetime. Have to drop in matter which gains energy, splits into new particles, some of which continue to fall in and others fall out. So not useful for dark-matter, which doesn't transition into ordinary matter. Has 20% efficiency at upper limits for the penrose process, but penrose like processes can get you >10x returns on mass-energy. But you need to use up the angular momentum of the black hole, which is boundedly large for a given mass. But you can get up to 50% for extremal charged black holes, and 29% for extremal rotating black holes. So this is good as long as you've got lots of spinning/charged black holes. Big black holes tend to spin reasonably fast, thankfully.  \n \n\nBlack Hole Bombs: Another interesting way of extracting energy from black holes are superradiant instabilities, i.e. making the black hole into a bomb. You use light to extract angular momentum from the blackhole, kinda like the penrose process, and get energy out. With a bunch of mirrors, you can keep reflecting the light back in and repeat the process. This can produce huge amounts of energy quickly, on the order of gamma ray bursts for stellar mass black holes. Or if you want it to be quicker, you can get 1% of the black-holes mass energy out in 13 seconds. How to collect this is unclear.",
+      "plaintextDescription": "Some random notes on harvesting energy at stellar scales. Again, from Grand Futures.\n\n \n\nHarvesting dark energy:\n    Tying galaxies together: Anchor big rope to galaxies as they get pulled apart by dark matter. Build up elastic potential energy which can be harvested. Issue: inefficient. You get out < 10^{-39} times energy of rope. Needs negative energy density matter to give better efficiency. Not clear how you anchor rope to energy\n    Letting particles expand apart: again, very tiny amounts of energy compared to mass energy of particles. So small it isn't clear if it's even a net return.\n\nDark matter: \n    Hawking radiation: takes a long time to see any returns. Very poor efficiency for black holes past 10^11 kg. Past that point, it is just neutrinos which are hard to capture. You can chuck in dark matter which isn't very usable and get interacting stuff back out.     \n\nNeutrino capture:\n    Lots of neutrinos running around, especially if you use hawking radiation to capture mass energy of black holes. So you might want to make use of them. But neutrinos are very weakly interacting, so you need incredibly dense matter to absorb their energy/convert them to something else. Too dense?\n\n \n\nSome methods of extracting energy from ordinary matter using black holes.\n  \n\n \n\nAccretion discs: chuck in matter to orbit black hole, get very hot and transition into radiation. At most, 5% efficiency for stationary black holes, 43% efficiency for extremely rotating black holes. (With wormholes, you could get 51% efficiency). Very useful for converting matter we can interact with into energy. Not the most efficient but you don't need black holes to have angular momentum to do this, which is perhaps useful.\n\nPenrose process: Extracts energy from angular momentum of black hole, a fair bit of which resides outside the event horizon in the form of frame-dragging spacetime. Have to drop in matter which gains energy, splits into new particles, some of which continue to fall in and othe"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-15T23:00:28.410Z",
+    "af": false
+  },
+  {
+    "_id": "MGkTkWuFZmKgz2fKE",
+    "postId": "RXKxwh8GFftmMPfCf",
+    "parentCommentId": "HT4qwzp6x9kLmtLzJ",
+    "topLevelCommentId": "HT4qwzp6x9kLmtLzJ",
+    "contents": {
+      "markdown": "I always liked this way of looking at the determinant.",
+      "plaintextDescription": "I always liked this way of looking at the determinant. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-15T16:32:39.180Z",
+    "af": false
+  },
+  {
+    "_id": "JcveXJShncyDkexq2",
+    "postId": "LPiBBn2tqpDv76w87",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Wholesome. And at this point, I'd be happy if we got a future like this.",
+      "plaintextDescription": "Wholesome. And at this point, I'd be happy if we got a future like this. "
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-15T14:14:19.182Z",
+    "af": false
+  },
+  {
+    "_id": "zm7QnBjpjZ9t75Dz7",
+    "postId": "mzifm6wePKfnFTAaB",
+    "parentCommentId": "sqnkMY6a4G2Y83jwz",
+    "topLevelCommentId": "sqnkMY6a4G2Y83jwz",
+    "contents": {
+      "markdown": "Good catch. I meant when you dump in mass energy into a black hole, it eventually radiates it back out and about half of that radiation is stuff we can make use of: light, electrons, positrons, protons, neutrons etc. The other half is neutrinos.",
+      "plaintextDescription": "Good catch. I meant when you dump in mass energy into a black hole, it eventually radiates it back out and about half of that radiation is stuff we can make use of: light, electrons, positrons, protons, neutrons etc. The other half is neutrinos."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-15T08:40:52.240Z",
+    "af": false
+  },
+  {
+    "_id": "DXHLkPwnErEnWnZ4y",
+    "postId": "8prPryf3ranfALBBp",
+    "parentCommentId": "jh9ofGYm2B6v7n5bE",
+    "topLevelCommentId": "jh9ofGYm2B6v7n5bE",
+    "contents": {
+      "markdown": ": ) I'm glad to hear that.",
+      "plaintextDescription": ": ) I'm glad to hear that."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-15T08:38:04.713Z",
+    "af": false
+  },
+  {
+    "_id": "86LqcXmuzKKeTEc8q",
+    "postId": "8prPryf3ranfALBBp",
+    "parentCommentId": "j2DyFBmqGqtTF2a36",
+    "topLevelCommentId": "j2DyFBmqGqtTF2a36",
+    "contents": {
+      "markdown": "Why?   \n  \nI agree the self-mockery is probably doing some work. But what it was ultimately doing for me, I could acquire elsewhere. Is the issue that you need to be able to come up with a replacement before you stop the self-mockery?",
+      "plaintextDescription": "Why? \n\nI agree the self-mockery is probably doing some work. But what it was ultimately doing for me, I could acquire elsewhere. Is the issue that you need to be able to come up with a replacement before you stop the self-mockery?"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-13T08:25:46.800Z",
+    "af": false
+  },
+  {
+    "_id": "hBZDWYpdFrQcs38uT",
+    "postId": "MfiAsJWZMLQ4af9rt",
+    "parentCommentId": "HNyWpX8x9zgqFXLmy",
+    "topLevelCommentId": "HNyWpX8x9zgqFXLmy",
+    "contents": {
+      "markdown": "I agree with what you said. I'm curious what I wrote made you think I don't?",
+      "plaintextDescription": "I agree with what you said. I'm curious what I wrote made you think I don't? "
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-12T15:00:18.949Z",
+    "af": false
+  },
+  {
+    "_id": "xtEs34LLsGtqDazaT",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "AuMQye4jM4NAfooHA",
+    "topLevelCommentId": "nCXD47izm7C8frfvf",
+    "contents": {
+      "markdown": "I'd be surprised if he had LW Rats in mind when he wrote that, but it's not impossible.",
+      "plaintextDescription": "I'd be surprised if he had LW Rats in mind when he wrote that, but it's not impossible."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-12T08:08:02.416Z",
+    "af": false
+  },
+  {
+    "_id": "Ku3GTearAx5TQaKPc",
+    "postId": "6wsxb4w5pmoyNAx5A",
+    "parentCommentId": "EgE6TQbHLPHKDjvJv",
+    "topLevelCommentId": "EgE6TQbHLPHKDjvJv",
+    "contents": {
+      "markdown": "Translation aids understanding, sure. I wonder if the graphical structure relating concepts in different fields determines what understanding feels like in each field.",
+      "plaintextDescription": "Translation aids understanding, sure. I wonder if the graphical structure relating concepts in different fields determines what understanding feels like in each field."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-11T10:26:37.635Z",
+    "af": false
+  },
+  {
+    "_id": "kH3fwpAhAFGpgihij",
+    "postId": "mzifm6wePKfnFTAaB",
+    "parentCommentId": "srB2cuzRy3z7xn8c6",
+    "topLevelCommentId": "srB2cuzRy3z7xn8c6",
+    "contents": {
+      "markdown": "That sure is a bound on how tight you can make a grid or lattice of black holes.   \n  \nYep, that is a way of capturing dark energy. But can you capture enough?",
+      "plaintextDescription": "That sure is a bound on how tight you can make a grid or lattice of black holes. \n\nYep, that is a way of capturing dark energy. But can you capture enough?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-10T23:01:16.989Z",
+    "af": false
+  },
+  {
+    "_id": "XuGYCuZCaxshueFX5",
+    "postId": "mzifm6wePKfnFTAaB",
+    "parentCommentId": "fL78fTa2swBKcDdvA",
+    "topLevelCommentId": "Gzo2ChdbdAHsycffB",
+    "contents": {
+      "markdown": "But a galaxy isn't solid. How do you anchor the galaxy to the chain and vice versa?",
+      "plaintextDescription": "But a galaxy isn't solid. How do you anchor the galaxy to the chain and vice versa?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-10T21:34:20.011Z",
+    "af": false
+  },
+  {
+    "_id": "DGxHvMKqDf7xLiACC",
+    "postId": "mzifm6wePKfnFTAaB",
+    "parentCommentId": "gkuDupH9oNxwGDxBZ",
+    "topLevelCommentId": "gkuDupH9oNxwGDxBZ",
+    "contents": {
+      "markdown": "Anders make this claim in his book draft, with some arguments against stable leptonic structures, which you might think precludes them as a substrate for computations. But it's hard to prove that a thing can't be done. As for whether anyone else has proved it, I'm afraid I don't know.",
+      "plaintextDescription": "Anders make this claim in his book draft, with some arguments against stable leptonic structures, which you might think precludes them as a substrate for computations. But it's hard to prove that a thing can't be done. As for whether anyone else has proved it, I'm afraid I don't know."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-10T20:39:08.829Z",
+    "af": false
+  },
+  {
+    "_id": "knvJ76Xvn48p7Lw4p",
+    "postId": "mzifm6wePKfnFTAaB",
+    "parentCommentId": "Gzo2ChdbdAHsycffB",
+    "topLevelCommentId": "Gzo2ChdbdAHsycffB",
+    "contents": {
+      "markdown": "How do you connect a galaxy with a string? I don't understand.",
+      "plaintextDescription": "How do you connect a galaxy with a string? I don't understand."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-10T20:19:55.548Z",
+    "af": false
+  },
+  {
+    "_id": "hZggLCAdApCMoWQSb",
+    "postId": "mzifm6wePKfnFTAaB",
+    "parentCommentId": "r5ZHryLNFRsmz4P4Z",
+    "topLevelCommentId": "r5ZHryLNFRsmz4P4Z",
+    "contents": {
+      "markdown": "Yeah, that's fair. I assumed people would know for some reason, but TBH I mix up baryons and hadrons quite often, so it's not like I wouldn't have been confused, too.",
+      "plaintextDescription": "Yeah, that's fair. I assumed people would know for some reason, but TBH I mix up baryons and hadrons quite often, so it's not like I wouldn't have been confused, too."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-10T20:18:00.834Z",
+    "af": false
+  },
+  {
+    "_id": "yP8BZLqbnJEq8AHRX",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "RFm9pzPJH9gaReiQG",
+    "topLevelCommentId": "RFm9pzPJH9gaReiQG",
+    "contents": {
+      "markdown": "So, you're introverted and like routine?",
+      "plaintextDescription": "So, you're introverted and like routine? "
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-10T18:10:48.881Z",
+    "af": false
+  },
+  {
+    "_id": "aaECzPdjwMeNB65Af",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "qeEDXuF24zS68c2DA",
+    "topLevelCommentId": "xsMtshPhqqXpgGcu4",
+    "contents": {
+      "markdown": "Also, buddy, it's the Old Ones, not the Elder Gods. That was a later addition by a commentator, it's not in the original work by NdMES. SMH, when will LW learn the virtues of scholarship?",
+      "plaintextDescription": "Also, buddy, it's the Old Ones, not the Elder Gods. That was a later addition by a commentator, it's not in the original work by NdMES. SMH, when will LW learn the virtues of scholarship?"
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-09T22:16:23.066Z",
+    "af": false
+  },
+  {
+    "_id": "tmTKD8xxFocRaWfWw",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "nCXD47izm7C8frfvf",
+    "topLevelCommentId": "nCXD47izm7C8frfvf",
+    "contents": {
+      "markdown": "Funnily enough, just yesterday I read Steven Pinker heaping paragraph upon paragraph of scorn on writers who keep hedging with claims like \"I think\".",
+      "plaintextDescription": "Funnily enough, just yesterday I read Steven Pinker heaping paragraph upon paragraph of scorn on writers who keep hedging with claims like \"I think\". "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T20:33:04.501Z",
+    "af": false
+  },
+  {
+    "_id": "qeEDXuF24zS68c2DA",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "xsMtshPhqqXpgGcu4",
+    "topLevelCommentId": "xsMtshPhqqXpgGcu4",
+    "contents": {
+      "markdown": "The third paragraph is a thing of beauty.",
+      "plaintextDescription": "The third paragraph is a thing of beauty."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-09T17:23:07.620Z",
+    "af": false
+  },
+  {
+    "_id": "iuGJ3NApbjLvXkjgD",
+    "postId": "gtk2KqEtedMi7ehxN",
+    "parentCommentId": "MiXPeYCERJy5hpk6H",
+    "topLevelCommentId": "MiXPeYCERJy5hpk6H",
+    "contents": {
+      "markdown": ": )  \nGlad to hear this! I'd be gratified if you could share any further updates.",
+      "plaintextDescription": ": )\nGlad to hear this! I'd be gratified if you could share any further updates. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T17:04:10.446Z",
+    "af": false
+  },
+  {
+    "_id": "jGGzNe8vdxTMdttET",
+    "postId": "gtk2KqEtedMi7ehxN",
+    "parentCommentId": "mdqsspBsxfPLhumnR",
+    "topLevelCommentId": "mdqsspBsxfPLhumnR",
+    "contents": {
+      "markdown": "> My knree jerk reaction is to try something really new and weird, like, yell at the full moon. Or post something so incendiary it goes viral - like approving something everyone hates. Or to directly email Taylor Swift's agency and ask them if she's looking for a new music video director (I don't know any of her songs, hence why it is radically novel). None of that is likely to work though, it's just quota-filling, being new for the sake of being new.\n\nIn my experience, it is mostly quota filling for big, persistent problems. Most of the things I tried for my migraines and procrastination worked partially at best. But if you do enough of them, you will stumble on a solution. (Maybe multiple solutions you need to stack, but if it works, it works.) You couldn't have guessed beforehand that it would work. If you could, your problem would have been solved long ago.\n\nAnd if you keep trying one new thing a day, let alone for a particular problem, you will go through so many ideas that you'll hit on a success even if the odds are 1 in a hundred.  \n  \nAlso, if you can't come up with any ideas that look good to you, but you can't just quit, then it is time to lower your filters and do something weird. [Babble more and prune less](https://www.lesswrong.com/posts/rYJKvagRYeDM8E9Rf/prune).   \n  \nEDIT: That said, a lot of my problems aren't something I've seriously tried to solve before. Either because they're new or because I'm lazy. These problems are often resolved on the first serious try.",
+      "plaintextDescription": "> My knree jerk reaction is to try something really new and weird, like, yell at the full moon. Or post something so incendiary it goes viral - like approving something everyone hates. Or to directly email Taylor Swift's agency and ask them if she's looking for a new music video director (I don't know any of her songs, hence why it is radically novel). None of that is likely to work though, it's just quota-filling, being new for the sake of being new.\n\nIn my experience, it is mostly quota filling for big, persistent problems. Most of the things I tried for my migraines and procrastination worked partially at best. But if you do enough of them, you will stumble on a solution. (Maybe multiple solutions you need to stack, but if it works, it works.) You couldn't have guessed beforehand that it would work. If you could, your problem would have been solved long ago.\n\nAnd if you keep trying one new thing a day, let alone for a particular problem, you will go through so many ideas that you'll hit on a success even if the odds are 1 in a hundred.\n\nAlso, if you can't come up with any ideas that look good to you, but you can't just quit, then it is time to lower your filters and do something weird. Babble more and prune less. \n\nEDIT: That said, a lot of my problems aren't something I've seriously tried to solve before. Either because they're new or because I'm lazy. These problems are often resolved on the first serious try."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-09T07:24:43.609Z",
+    "af": false
+  },
+  {
+    "_id": "pqxPaicRbae6WDTEW",
+    "postId": "brCaMrz7NMvmSKMDS",
+    "parentCommentId": "aqYSubaFPzxy97q7e",
+    "topLevelCommentId": "aqYSubaFPzxy97q7e",
+    "contents": {
+      "markdown": "Those make sense. I note they're not just simple lines in a space of ideas, but use a wider gamut of the senses than I was aiming for. Probably, the sort of shapes I was going for are in an unhappy middle ground. Too impoverished compared to the senses, too rich compared to the austerity of diagrams in category theory. So this post should have been about the images different proof methods bring to mind.",
+      "plaintextDescription": "Those make sense. I note they're not just simple lines in a space of ideas, but use a wider gamut of the senses than I was aiming for. Probably, the sort of shapes I was going for are in an unhappy middle ground. Too impoverished compared to the senses, too rich compared to the austerity of diagrams in category theory. So this post should have been about the images different proof methods bring to mind."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T07:11:10.182Z",
+    "af": false
+  },
+  {
+    "_id": "ynaLuLBegqGhcaHwF",
+    "postId": "Eh7uPZ2nioEHLxodS",
+    "parentCommentId": "JHxvhXguxuJD4Fv3E",
+    "topLevelCommentId": "8dsuuPArwJdTeNhq9",
+    "contents": {
+      "markdown": "Nailing down what's wrong specifically is part of my issue.",
+      "plaintextDescription": "Nailing down what's wrong specifically is part of my issue. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-08T16:15:07.649Z",
+    "af": false
+  },
+  {
+    "_id": "8xnHR23jBSgkyQEwB",
+    "postId": "Eh7uPZ2nioEHLxodS",
+    "parentCommentId": "Ai4f5AstQtmttvN3H",
+    "topLevelCommentId": "8dsuuPArwJdTeNhq9",
+    "contents": {
+      "markdown": "> I do recommend my approach, though.  Losing is part of playing, and shouldn't affect one's ego in either direction.  The puzzle of how to maximize the overall outcome of the sequence of games in life remains fascinating and worth pursuing.\n\nYour approach is clearly good. But the trouble is, how do I deal with Bruce?",
+      "plaintextDescription": "> I do recommend my approach, though.  Losing is part of playing, and shouldn't affect one's ego in either direction.  The puzzle of how to maximize the overall outcome of the sequence of games in life remains fascinating and worth pursuing.\n\nYour approach is clearly good. But the trouble is, how do I deal with Bruce? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-08T14:57:03.897Z",
+    "af": false
+  },
+  {
+    "_id": "zTPhqWikZe85vrSNY",
+    "postId": "Eh7uPZ2nioEHLxodS",
+    "parentCommentId": "8dsuuPArwJdTeNhq9",
+    "topLevelCommentId": "8dsuuPArwJdTeNhq9",
+    "contents": {
+      "markdown": "Nah, this is definitely a thing. I'm often scared to try winning because I fear my best efforts will not be good enough. Like, I'm effectively following the adage \"better not to risk failure than to act and remove all doubt\". Well, some of the time. So when I read about the need to lose, or your \"inner Bruce\", in [Stuck In The Middle With Bruce](https://articles.starcitygames.com/articles/stuck-in-the-middle-with-bruce/), it resonated with me. \n\nAnd yeah, that's obviously not what good gamers do. But what made you think I'm talking about good gamers? Or even about most people?",
+      "plaintextDescription": "Nah, this is definitely a thing. I'm often scared to try winning because I fear my best efforts will not be good enough. Like, I'm effectively following the adage \"better not to risk failure than to act and remove all doubt\". Well, some of the time. So when I read about the need to lose, or your \"inner Bruce\", in Stuck In The Middle With Bruce, it resonated with me. \n\nAnd yeah, that's obviously not what good gamers do. But what made you think I'm talking about good gamers? Or even about most people? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-08T08:04:07.162Z",
+    "af": false
+  },
+  {
+    "_id": "zzveuYb6ZxGkFEoff",
+    "postId": "cDwp4qNgePh3FrEMc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this is the best story you've ever written. It's in that place which is beautiful to us on the cusp of becoming a horror, a comedy, a tragedy but resisting that huge tension to be more.   \n  \nEDIT: you've written *to date.* The best is yet to come.",
+      "plaintextDescription": "I think this is the best story you've ever written. It's in that place which is beautiful to us on the cusp of becoming a horror, a comedy, a tragedy but resisting that huge tension to be more. \n\nEDIT: you've written to date. The best is yet to come."
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-06T17:45:38.979Z",
+    "af": false
+  },
+  {
+    "_id": "n7bLkZa6NkYraNJMJ",
+    "postId": "JQZaFgZak5CqzaFdg",
+    "parentCommentId": "esetnwgabZsPMt2zY",
+    "topLevelCommentId": "esetnwgabZsPMt2zY",
+    "contents": {
+      "markdown": "*Edited this response. Previous version didn't convey all of what I meant and felt vague to me upon re-reading it.*  \n  \nYeah, the main thing people care about at a far/large scale isn't what their feeds are like. And that's a big part of any discourse about social media. But wrt. the near/small scale, I think people mainly care about \"why am I getting so much slop/engagement bait?\" That latter perspective is what I was focused on.   \n  \nNonetheless, many people must've read the title and (reasonably) assumed I meant the far/large scale. So the title was misleading. My bad.",
+      "plaintextDescription": "Edited this response. Previous version didn't convey all of what I meant and felt vague to me upon re-reading it.\n\nYeah, the main thing people care about at a far/large scale isn't what their feeds are like. And that's a big part of any discourse about social media. But wrt. the near/small scale, I think people mainly care about \"why am I getting so much slop/engagement bait?\" That latter perspective is what I was focused on. \n\nNonetheless, many people must've read the title and (reasonably) assumed I meant the far/large scale. So the title was misleading. My bad. \n "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-06T14:34:26.362Z",
+    "af": false
+  },
+  {
+    "_id": "kxBXaHpz6deaGmDuH",
+    "postId": "LNHjSAf8HYbPvstPr",
+    "parentCommentId": "WrbtRAwGRGm3Eze5y",
+    "topLevelCommentId": "WrbtRAwGRGm3Eze5y",
+    "contents": {
+      "markdown": "Honestly, I'd just suggest moving your sleeping schedule forwards/backwards in ~30 minute chunks until you find something more restful and then do binary search. Just takes a few days. \n\nAlso, you may want to get blood work done and get a [Whoop sleep tracker](https://x.com/karpathy/status/1906386327190257963) to gather some data bearing on what's stopping you from sleeping well.",
+      "plaintextDescription": "Honestly, I'd just suggest moving your sleeping schedule forwards/backwards in ~30 minute chunks until you find something more restful and then do binary search. Just takes a few days. \n\nAlso, you may want to get blood work done and get a Whoop sleep tracker to gather some data bearing on what's stopping you from sleeping well. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-06T13:46:10.637Z",
+    "af": false
+  },
+  {
+    "_id": "YJuxwKncsoP5CrKiH",
+    "postId": "JQZaFgZak5CqzaFdg",
+    "parentCommentId": "tx2Beizpgp6wD36yg",
+    "topLevelCommentId": "tx2Beizpgp6wD36yg",
+    "contents": {
+      "markdown": "I spend very little effort optimizing my feed and I get to see a bunch of interesting stuff, have fun conversations with friends, and make new ones.   \n  \nAs an addendum to the post, I note that I unlocked a lot of fun on twitter when I realized I can treat it as a messaging platform for my friends, or basically anyone I want to talk to. This realization happened after meeting [@Croissanthology](https://www.lesswrong.com/users/croissanthology?mention=user) and seeing his (its?) fearless use of @ and total rejection of algorithmically curated feeds.",
+      "plaintextDescription": "I spend very little effort optimizing my feed and I get to see a bunch of interesting stuff, have fun conversations with friends, and make new ones. \n\nAs an addendum to the post, I note that I unlocked a lot of fun on twitter when I realized I can treat it as a messaging platform for my friends, or basically anyone I want to talk to. This realization happened after meeting @Croissanthology and seeing his (its?) fearless use of @ and total rejection of algorithmically curated feeds. "
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-05T19:17:53.046Z",
+    "af": false
+  },
+  {
+    "_id": "ZCtmWtEd6R7eyD47S",
+    "postId": "JQZaFgZak5CqzaFdg",
+    "parentCommentId": "F6JekDDyRtjgP3H36",
+    "topLevelCommentId": "F6JekDDyRtjgP3H36",
+    "contents": {
+      "markdown": "The interfaces do suck, yeah. You could design something more conducive to flourishing in a weekend.",
+      "plaintextDescription": "The interfaces do suck, yeah. You could design something more conducive to flourishing in a weekend."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-05T19:11:38.885Z",
+    "af": false
+  },
+  {
+    "_id": "muLcw4n6n8SAEJDM5",
+    "postId": "Xp9ie6pEWFT8Nnhka",
+    "parentCommentId": "aFq8SHxZnQeibDGvL",
+    "topLevelCommentId": "SHhTTXaTHf8unXBxh",
+    "contents": {
+      "markdown": "Did the zones of thought work by limiting abundance of physical compute?",
+      "plaintextDescription": "Did the zones of thought work by limiting abundance of physical compute? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-05T17:38:34.561Z",
+    "af": false
+  },
+  {
+    "_id": "xEgHHkvjZqxoAmpbA",
+    "postId": "LNHjSAf8HYbPvstPr",
+    "parentCommentId": "af4Styfme9N4g2iHC",
+    "topLevelCommentId": "fPMae5bggpFkdyCzg",
+    "contents": {
+      "markdown": "Curtains don't cover every inch of the windows.",
+      "plaintextDescription": "Curtains don't cover every inch of the windows. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-05T14:55:01.681Z",
+    "af": false
+  },
+  {
+    "_id": "bBDFxBqAiTjmYa3Gp",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "xpyubQWkGkYrc2vt4",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "Using chatbots to simulate audiences is a good idea. But I'm not sure what that's got to do with motivating true curiosity?",
+      "plaintextDescription": "Using chatbots to simulate audiences is a good idea. But I'm not sure what that's got to do with motivating true curiosity? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-05T09:13:11.101Z",
+    "af": false
+  },
+  {
+    "_id": "RCSkKWWqyhB5RjuZY",
+    "postId": "8cNPLjMLdtLfLn5qF",
+    "parentCommentId": "RB7GYQQMXCM5SwmEw",
+    "topLevelCommentId": "RB7GYQQMXCM5SwmEw",
+    "contents": {
+      "markdown": "Thanks for the rec! I find it amusing because I stumbled onto this series the other day. Nothing is ever a coincidence, so surely the Algorithm is trying to tell us something. But what?",
+      "plaintextDescription": "Thanks for the rec! I find it amusing because I stumbled onto this series the other day. Nothing is ever a coincidence, so surely the Algorithm is trying to tell us something. But what?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-04T09:11:39.476Z",
+    "af": false
+  },
+  {
+    "_id": "E6JifPoFabkhCuhKS",
+    "postId": "gtk2KqEtedMi7ehxN",
+    "parentCommentId": "kTZwHKpoWKP8TG6A7",
+    "topLevelCommentId": "kTZwHKpoWKP8TG6A7",
+    "contents": {
+      "markdown": "Sure, agreed. I had severe chronic migraines for well over a decade, which required a lot of little patchwork solutions and some random dugs. I eventually figured these things out. But if I had tried one new thing a day to solve them, then I would've saved myself a lot of pain.",
+      "plaintextDescription": "Sure, agreed. I had severe chronic migraines for well over a decade, which required a lot of little patchwork solutions and some random dugs. I eventually figured these things out. But if I had tried one new thing a day to solve them, then I would've saved myself a lot of pain."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-04T09:07:51.029Z",
+    "af": false
+  },
+  {
+    "_id": "mQrmXMvqCZcvv3avq",
+    "postId": "gtk2KqEtedMi7ehxN",
+    "parentCommentId": "nFgRdwPbENg5cP35H",
+    "topLevelCommentId": "nFgRdwPbENg5cP35H",
+    "contents": {
+      "markdown": "Yeah, the wobbly chair story is a better example. Somehow, I feel more satisfied with it. Perhaps because it is a basically complete solution, for so little work?   \n \n\nBut you fix the wobbly chairs so you can build up momentum to fix the dopamine addiction. And I'm not sure if I made this clear, but the stuff I tried for fixing my dopamine addiction did each help a bit, and now I know that if I really want to, I can stack them together to reset my dopamine system. Once done, it is a lot easier to continue to pause it.   \n  \nSo in that sense, these are permanent wins which have reduced the total amount of willpower I need to exert to partially fix my dopamine addictions.",
+      "plaintextDescription": "Yeah, the wobbly chair story is a better example. Somehow, I feel more satisfied with it. Perhaps because it is a basically complete solution, for so little work? \n \n\nBut you fix the wobbly chairs so you can build up momentum to fix the dopamine addiction. And I'm not sure if I made this clear, but the stuff I tried for fixing my dopamine addiction did each help a bit, and now I know that if I really want to, I can stack them together to reset my dopamine system. Once done, it is a lot easier to continue to pause it. \n\nSo in that sense, these are permanent wins which have reduced the total amount of willpower I need to exert to partially fix my dopamine addictions. "
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-04T09:05:50.257Z",
+    "af": false
+  },
+  {
+    "_id": "sdFsihFEw6HyHNjDb",
+    "postId": "d5jzcmHjDMCCsG5iF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I wonder what the collaborative process was like, who wrote what. Eliezer’s typical writing is...let’s go with “abrasive.” He thinks he’s smarter than you, he has the chutzpah to be right about that far more often than not, and he’s unrepentant of same, in a manner that outrages a large fraction of primates. That tone is entirely absent from IABIED. I wonder if a non-trivial part of Nate’s contribution was “edit out all the bits of Eliezer’s persona that alienate neurotypicals,” or if some other editor took care of that. I’m pretty sure *someone* filtered him; when, say, the Example ASI Scenario contains things like (paraphrased) “here’s six ways it could achieve X; for purposes of this example at least one of them works, it doesn’t matter which one” I can practically hear Eliezer thinking “...because if we picked one, then *idiots* would object that “method Y of achieving X wouldn’t work, therefore X is unachievable, therefore there is no danger.” And then I imagine Nate (or whoever) whapping Eliezer’s key-fingers or something.\n\nIn the interview sessions for people who pre-ordered the book, Nate said the writing processes involved multiple rounds of Eliezer writings waaaay too much stuff followed by Nate cutting it down by 3x. Some of the left-overs were re-used in the online supplements.  \n  \nEDIT: Thank you for writing this review. It is basically what I would've said if I had to write a review.",
+      "plaintextDescription": "> I wonder what the collaborative process was like, who wrote what. Eliezer’s typical writing is...let’s go with “abrasive.” He thinks he’s smarter than you, he has the chutzpah to be right about that far more often than not, and he’s unrepentant of same, in a manner that outrages a large fraction of primates. That tone is entirely absent from IABIED. I wonder if a non-trivial part of Nate’s contribution was “edit out all the bits of Eliezer’s persona that alienate neurotypicals,” or if some other editor took care of that. I’m pretty sure someone filtered him; when, say, the Example ASI Scenario contains things like (paraphrased) “here’s six ways it could achieve X; for purposes of this example at least one of them works, it doesn’t matter which one” I can practically hear Eliezer thinking “...because if we picked one, then idiots would object that “method Y of achieving X wouldn’t work, therefore X is unachievable, therefore there is no danger.” And then I imagine Nate (or whoever) whapping Eliezer’s key-fingers or something.\n\nIn the interview sessions for people who pre-ordered the book, Nate said the writing processes involved multiple rounds of Eliezer writings waaaay too much stuff followed by Nate cutting it down by 3x. Some of the left-overs were re-used in the online supplements.\n\nEDIT: Thank you for writing this review. It is basically what I would've said if I had to write a review. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T17:44:47.021Z",
+    "af": false
+  },
+  {
+    "_id": "9v7Ngt5GwPsbDWjDy",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "dgXumeLLfntLwsX5D",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "I believe you you when you say that people output their true beliefs and share what they're curious about w/ the chabot. But I don't think it writes as if it's trying to understand what I'm saying, which implies a lack of curiosity on the chatbot's part. Instead, it seems quite keen to explain/convince someone of a particular argument, which is one of the basins chatbots naturally fall into. (Though I do note that it is quite skilful in its attempts to explain/convince me when I talk to it. It certainly doesn't just regurgitate the sources.) This is often useful, but it's not always the right approach. \n\nYeah, I see why collecting personal info is important. It is legitimately useful. Just pointing out the personal aversion I felt at the trivial inconvenience to getting started w/ the chatbot, and reluctance to share personal info.   \n  \n(I think our bot has improved a lot at answering unusual questions. Even more so on the beta version: [https://chat.stampy.ai/playground](https://chat.stampy.ai/playground). Though I think the style of the answers isn't optimal for the average person. It's output is too dense compared to your bot.)",
+      "plaintextDescription": "I believe you you when you say that people output their true beliefs and share what they're curious about w/ the chabot. But I don't think it writes as if it's trying to understand what I'm saying, which implies a lack of curiosity on the chatbot's part. Instead, it seems quite keen to explain/convince someone of a particular argument, which is one of the basins chatbots naturally fall into. (Though I do note that it is quite skilful in its attempts to explain/convince me when I talk to it. It certainly doesn't just regurgitate the sources.) This is often useful, but it's not always the right approach. \n\nYeah, I see why collecting personal info is important. It is legitimately useful. Just pointing out the personal aversion I felt at the trivial inconvenience to getting started w/ the chatbot, and reluctance to share personal info. \n\n(I think our bot has improved a lot at answering unusual questions. Even more so on the beta version: https://chat.stampy.ai/playground. Though I think the style of the answers isn't optimal for the average person. It's output is too dense compared to your bot.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-03T16:04:01.649Z",
+    "af": false
+  },
+  {
+    "_id": "qBgbeWzdeT9jEqoaG",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "wCg4KodF4RsDqwSSR",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "> asking someone about their existing beliefs instead and then listening and questioning them later on when you've established sameness\n\nThis is true. And deep curiosity about what someone's actual beliefs are helps a great deal in doing this. However, modern LLMs kinda aren't curious about such things? And it's difficult to get them in the mindset to be that curious. Which isn't to say they're incurious - it just isn't easy to get them to become curious about an arbitrary thing. And if you try, they're liable to wind up in a sycophancy basin. Which isn't conducive to forming true beliefs. \n\n  \nAvoiding that Syclla just leads you to the Charybdis of the LLMs stubbornly clinging to some view in their context. Navigating between the two is tricky, much less managing to engender genuine curiosity. \n\nI say this because AI Safety Info has been working on a similar project to Mikhail at https://aisafety.info/chat/. And while we've improved our chatbot a lot, we still haven't managed to foster its curiosity in conversations with users. All of which is to say, there are reasons why it would be hard for Mikhail, and others, to follow your suggestion. \n\nEDIT: Also, kudos to you Mikhail. The chatbot is looking quite slick. Only, I do note that I felt aversive to entering my age and profession before I could get a response.",
+      "plaintextDescription": "> asking someone about their existing beliefs instead and then listening and questioning them later on when you've established sameness\n\nThis is true. And deep curiosity about what someone's actual beliefs are helps a great deal in doing this. However, modern LLMs kinda aren't curious about such things? And it's difficult to get them in the mindset to be that curious. Which isn't to say they're incurious - it just isn't easy to get them to become curious about an arbitrary thing. And if you try, they're liable to wind up in a sycophancy basin. Which isn't conducive to forming true beliefs. \n\n\nAvoiding that Syclla just leads you to the Charybdis of the LLMs stubbornly clinging to some view in their context. Navigating between the two is tricky, much less managing to engender genuine curiosity. \n\nI say this because AI Safety Info has been working on a similar project to Mikhail at https://aisafety.info/chat/. And while we've improved our chatbot a lot, we still haven't managed to foster its curiosity in conversations with users. All of which is to say, there are reasons why it would be hard for Mikhail, and others, to follow your suggestion. \n\nEDIT: Also, kudos to you Mikhail. The chatbot is looking quite slick. Only, I do note that I felt aversive to entering my age and profession before I could get a response. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-03T15:23:54.362Z",
+    "af": false
+  },
+  {
+    "_id": "fFwrZYjwWERahRzDp",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "HzRQev8WxoKAhtB2r",
+    "topLevelCommentId": "rCiEmBhy2SnjpAeQA",
+    "contents": {
+      "markdown": "> Two categories are equivalent when they are isomorphic up to an isomorphism\n\nThaaaaat is a confusing sentence. But thankfully, the rest of your comment clears things up.   \n  \nWhy do you want this notion of equivalence or adjunction, rather than the stricter notion of [isomorphism of categories](https://en.wikipedia.org/wiki/Isomorphism_of_categories)?",
+      "plaintextDescription": "> Two categories are equivalent when they are isomorphic up to an isomorphism\n\nThaaaaat is a confusing sentence. But thankfully, the rest of your comment clears things up. \n\nWhy do you want this notion of equivalence or adjunction, rather than the stricter notion of isomorphism of categories?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T10:50:21.974Z",
+    "af": false
+  },
+  {
+    "_id": "7iEKdQ2xyNw4isZjX",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "FBjFKmdx4FAXFZdxR",
+    "topLevelCommentId": "YTiecEtmYMWSaeN76",
+    "contents": {
+      "markdown": "Right, if we rely on this notion of \"the real identity\". I think discussing that would get into even more confusing territory than just focusing on formalizations that look like they're some kind of equality.",
+      "plaintextDescription": "Right, if we rely on this notion of \"the real identity\". I think discussing that would get into even more confusing territory than just focusing on formalizations that look like they're some kind of equality. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T09:49:13.516Z",
+    "af": false
+  },
+  {
+    "_id": "pyjFJ63dBKv5srifT",
+    "postId": "D447wxQb8AMsJeqPn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Feature incentivizing grabbing attention. \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/d6fffce8e4199d6edc2c1a5db6fbaa772b5105c2488e2476.png)",
+      "plaintextDescription": "Feature incentivizing grabbing attention. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T22:16:53.531Z",
+    "af": false
+  },
+  {
+    "_id": "CmbybDYkF5pHgzfAu",
+    "postId": "8cNPLjMLdtLfLn5qF",
+    "parentCommentId": "rTxrj7c8AhwCyej5E",
+    "topLevelCommentId": "rTxrj7c8AhwCyej5E",
+    "contents": {
+      "markdown": "Wait, \"horizons clitch'\"? What the heck is that apostrophe doing there? Was that intentional? \n\nAnd oh yeah, the bottomless pit greentext. That was pretty impressive.",
+      "plaintextDescription": "Wait, \"horizons clitch'\"? What the heck is that apostrophe doing there? Was that intentional? \n\nAnd oh yeah, the bottomless pit greentext. That was pretty impressive. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T22:13:30.391Z",
+    "af": false
+  },
+  {
+    "_id": "mWHrecbcBXC84nf4C",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "HAJekos5SRAZNGaXh",
+    "topLevelCommentId": "rCiEmBhy2SnjpAeQA",
+    "contents": {
+      "markdown": "Besides isomorphisms and equality of objects, do category theorists use other notions of \"equality\"?",
+      "plaintextDescription": "Besides isomorphisms and equality of objects, do category theorists use other notions of \"equality\"?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T19:37:14.611Z",
+    "af": false
+  },
+  {
+    "_id": "KjDaKjcPEKqaHpYep",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "PQD4AZy688ngKYBpQ",
+    "topLevelCommentId": "YTiecEtmYMWSaeN76",
+    "contents": {
+      "markdown": "I'm confused. In any FOL, you have a bunch of \"logical axioms\" which come built-in to the language, and axioms for whatever theories you want to investigate in said language. You need these or else you've got no way prove basically anything in the language, since your deduction rules are: state an axiom from your logical axioms, from your assumed theory's axioms, or Modus Ponens. And the logical axioms include a number of axioms schemas, such as the ones for equality that I describe, no?",
+      "plaintextDescription": "I'm confused. In any FOL, you have a bunch of \"logical axioms\" which come built-in to the language, and axioms for whatever theories you want to investigate in said language. You need these or else you've got no way prove basically anything in the language, since your deduction rules are: state an axiom from your logical axioms, from your assumed theory's axioms, or Modus Ponens. And the logical axioms include a number of axioms schemas, such as the ones for equality that I describe, no? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T19:33:24.223Z",
+    "af": false
+  },
+  {
+    "_id": "9qqJuZJb5mHoa7qfe",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "BeCgQe2Ax3acpuCsm",
+    "topLevelCommentId": "BeCgQe2Ax3acpuCsm",
+    "contents": {
+      "markdown": "> Actually you have just described the same thing twice. There are actually fewer distance-preserving maps than there are continuous ones, and restricting to distance-preserving maps removes all the isomorphisms between the sphere and the cube.\n\nThat is a very good point. Hmm. So it seems just plain false that you can break equivalence between two objects by enriching the number of maps between them?",
+      "plaintextDescription": "> Actually you have just described the same thing twice. There are actually fewer distance-preserving maps than there are continuous ones, and restricting to distance-preserving maps removes all the isomorphisms between the sphere and the cube.\n\nThat is a very good point. Hmm. So it seems just plain false that you can break equivalence between two objects by enriching the number of maps between them? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T19:06:33.093Z",
+    "af": false
+  },
+  {
+    "_id": "MgfYbdA8gN5xHKD7d",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "YTiecEtmYMWSaeN76",
+    "topLevelCommentId": "YTiecEtmYMWSaeN76",
+    "contents": {
+      "markdown": "Sorry, I used the word \"definition\" sloppily there. I don't think we disagree with each other. \n\nI meant something closer to \"how equality is formalized in first order logic\". That's what the bit about the axiom schemas was referencing: it's how we bake in all the properties we require of the special binary predicate \"=\". There's a big, infinite core of axiom schemas specifying how \"=\" works that's retained across FOLs, even as you add/remove character, relation and function symbols to the language.",
+      "plaintextDescription": "Sorry, I used the word \"definition\" sloppily there. I don't think we disagree with each other. \n\nI meant something closer to \"how equality is formalized in first order logic\". That's what the bit about the axiom schemas was referencing: it's how we bake in all the properties we require of the special binary predicate \"=\". There's a big, infinite core of axiom schemas specifying how \"=\" works that's retained across FOLs, even as you add/remove character, relation and function symbols to the language."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T10:56:22.988Z",
+    "af": false
+  },
+  {
+    "_id": "sqNNN4WFNPiptXY7j",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "FTNeDhPm9KCp6nbta",
+    "topLevelCommentId": "FTNeDhPm9KCp6nbta",
+    "contents": {
+      "markdown": "Yeah, that sure does seem related. Thinking about it a bit more, it feels like equality refers to a whole grab-bag of different concepts. What separates them, what unites them and when they are useful are still fuzzy to me.",
+      "plaintextDescription": "Yeah, that sure does seem related. Thinking about it a bit more, it feels like equality refers to a whole grab-bag of different concepts. What separates them, what unites them and when they are useful are still fuzzy to me. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-02T10:54:18.457Z",
+    "af": false
+  },
+  {
+    "_id": "nzZcaGypejWT4ZpWJ",
+    "postId": "sD2TaWZhgi4kmjeyh",
+    "parentCommentId": "rCiEmBhy2SnjpAeQA",
+    "topLevelCommentId": "rCiEmBhy2SnjpAeQA",
+    "contents": {
+      "markdown": "Thank you, that is clearly correct and I'm not sure why I made that error. Perhaps because equivalence seems more interesting in category theory than in set theory? Which is interesting. Why is equivalence more central in category theory than set theory?",
+      "plaintextDescription": "Thank you, that is clearly correct and I'm not sure why I made that error. Perhaps because equivalence seems more interesting in category theory than in set theory? Which is interesting. Why is equivalence more central in category theory than set theory? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T10:46:07.507Z",
+    "af": false
+  },
+  {
+    "_id": "ARtheeRzf5CgRESdx",
+    "postId": "GG2NFdgtxxjEssyiE",
+    "parentCommentId": "GGmR9G2LeiXBhyrzq",
+    "topLevelCommentId": "Wa8BskKgHeNj4mbYv",
+    "contents": {
+      "markdown": "No worries! For more recommendations like those two, I'd suggest having a look at \"[The Fast Track](https://sheafification.com/the-fast-track/)\" on Sheafification. Of the books I've read from that list, all were fantastic. Note that site emphasises mathematics relevant for physics, and vice versa, so it might not be everyone's cup of tea. But given your interests, I think you'll find it useful.",
+      "plaintextDescription": "No worries! For more recommendations like those two, I'd suggest having a look at \"The Fast Track\" on Sheafification. Of the books I've read from that list, all were fantastic. Note that site emphasises mathematics relevant for physics, and vice versa, so it might not be everyone's cup of tea. But given your interests, I think you'll find it useful. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-28T15:48:26.825Z",
+    "af": false
+  },
+  {
+    "_id": "Li7iGfvHve2vJ6doM",
+    "postId": "GG2NFdgtxxjEssyiE",
+    "parentCommentId": "Wa8BskKgHeNj4mbYv",
+    "topLevelCommentId": "Wa8BskKgHeNj4mbYv",
+    "contents": {
+      "markdown": "> *   Started reading \\[Procesi\\] to learn invariant theory and representation theory because it came up quite often as my bottleneck in my recent work ([eg](https://www.lesswrong.com/posts/GG2NFdgtxxjEssyiE/dalcy-s-shortform?commentId=HQLQ2PiamaQAS97j4)). Also [interpretability](https://www.lesswrong.com/posts/JdbnwjHFGNqZE3AHf/the-absolute-basics-of-representation-theory-of-finite), apparently. So far I just read pg 1-9, reviewing the very basics of group action (e.g., orbit stabilizer theorem). Lie groups aren't coming up until pg ~50 so until then I should catch up on the relevant Lie group prerequisites through \\[Lee\\] or \\[Bredon\\].\n\nWoit's \"[Quantum Theory, Groups and Representations](https://www.math.columbia.edu/~woit/QM/qmbook.pdf)\" is fantastic for this IMO. It gives physical motivation for representation theory, connects it to invariants and, of course, works through the physically important lie-groups. The intuitions you build here should generalize. Plus, it's well written.   \n  \nAlso, if you are ever in the market for differential topology, algebraic topology, and algebraic geometry, then I'd recommend Ronald Brown's \"[Topology and Groupoids](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf).\" It presents the basic material of topology in a way that generalizes better to the fields above, along with some powerful geometric tools for calculations.\n\nBoth author's provide free pdfs of their books.",
+      "plaintextDescription": ">  * Started reading [Procesi] to learn invariant theory and representation theory because it came up quite often as my bottleneck in my recent work (eg). Also interpretability, apparently. So far I just read pg 1-9, reviewing the very basics of group action (e.g., orbit stabilizer theorem). Lie groups aren't coming up until pg ~50 so until then I should catch up on the relevant Lie group prerequisites through [Lee] or [Bredon].\n\nWoit's \"Quantum Theory, Groups and Representations\" is fantastic for this IMO. It gives physical motivation for representation theory, connects it to invariants and, of course, works through the physically important lie-groups. The intuitions you build here should generalize. Plus, it's well written. \n\nAlso, if you are ever in the market for differential topology, algebraic topology, and algebraic geometry, then I'd recommend Ronald Brown's \"Topology and Groupoids.\" It presents the basic material of topology in a way that generalizes better to the fields above, along with some powerful geometric tools for calculations.\n\nBoth author's provide free pdfs of their books."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-28T07:39:57.514Z",
+    "af": false
+  },
+  {
+    "_id": "B4MmS8L9qgdo8KrG5",
+    "postId": "anFrGMskALuH7aZDw",
+    "parentCommentId": "EyxmnraBZtGfi2HeC",
+    "topLevelCommentId": "qjF5zWS9JLGBZ9p39",
+    "contents": {
+      "markdown": "But they are doing things that they believe introduce new, huge negative externalities on others without their consent. This rhymes with a historically very harmful pattern of cognition, where folks justify terrible things to themselves.   \n  \nSecondly, who said anything about Pausing AI? That's a separate matter. I'm pointing at a pattern of cognition, not advocating for a policy change.",
+      "plaintextDescription": "But they are doing things that they believe introduce new, huge negative externalities on others without their consent. This rhymes with a historically very harmful pattern of cognition, where folks justify terrible things to themselves. \n\nSecondly, who said anything about Pausing AI? That's a separate matter. I'm pointing at a pattern of cognition, not advocating for a policy change. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-24T11:49:26.594Z",
+    "af": false
+  },
+  {
+    "_id": "znDw9smcrqx4LdyRB",
+    "postId": "JH6tJhYpnoCfFqAct",
+    "parentCommentId": "MSYEPQs9h88YHXCHg",
+    "topLevelCommentId": "k5E35aaCu2DLAKdkW",
+    "contents": {
+      "markdown": "Bjartur Tomas asked me the same thing. I told him I thought it was a reference to Daniel Dennet. That just baffled him. Honestly, I think I just noticed the vibes kinda matched (consciousness philosopher, humorous text about consciousness) so I assumed that there had to be a Dennet joke in there somewhere. But no. Bjartur Tomas then told me what DANNet was really referencing. An arbitrary NN he found w/ about the same synapse count as a shrimp. (It's the [first pure deep CNN to win computer vision contests](https://people.idsia.ch/~juergen/DanNet-triggers-deep-CNN-revolution-2011.html), circa 2011.)",
+      "plaintextDescription": "Bjartur Tomas asked me the same thing. I told him I thought it was a reference to Daniel Dennet. That just baffled him. Honestly, I think I just noticed the vibes kinda matched (consciousness philosopher, humorous text about consciousness) so I assumed that there had to be a Dennet joke in there somewhere. But no. Bjartur Tomas then told me what DANNet was really referencing. An arbitrary NN he found w/ about the same synapse count as a shrimp. (It's the first pure deep CNN to win computer vision contests, circa 2011.)"
+    },
+    "baseScore": 20,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-09-24T10:32:26.173Z",
+    "af": false
+  },
+  {
+    "_id": "mRxzf3tJZqYQnew3m",
+    "postId": "anFrGMskALuH7aZDw",
+    "parentCommentId": "dBM6kKvntJcu7iHzu",
+    "topLevelCommentId": "qjF5zWS9JLGBZ9p39",
+    "contents": {
+      "markdown": "If you are actually confident that AI won't will kill us all (say, at P > 99%) then this critique doesn't apply to you. It applies to the folks who aren't that confident but say to go ahead anyway.",
+      "plaintextDescription": "If you are actually confident that AI won't will kill us all (say, at P > 99%) then this critique doesn't apply to you. It applies to the folks who aren't that confident but say to go ahead anyway. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-24T00:46:50.939Z",
+    "af": false
+  },
+  {
+    "_id": "c8yCwJJKwAwZJkyFj",
+    "postId": "anFrGMskALuH7aZDw",
+    "parentCommentId": "qjF5zWS9JLGBZ9p39",
+    "topLevelCommentId": "qjF5zWS9JLGBZ9p39",
+    "contents": {
+      "markdown": "> A person who tries to avoid moral shortcomings such as selfishness will reject the \"doom\" framing because it's just a primitive intelligence (humanity) being replaced with a much cleverer and more interesting one (ASI). \n\nI think it's deeply immoral to take a 5% of killing everyone on earth in the next decade or two w/o their consent, even if that comes with a 95% chance of utopia. \n\nI think that this sort of reasoning is sadly all too common.\n\nI think there's a certain pattern of idealistic reasoning that, I think, may have produced the most evil pound-for-pound throughout history.  People say that for the sake of the Glorious Future, we can accept, must accept, huge amounts of suffering. Indeed, not just *our* suffering, but that of others, too. Yes, it may be an unpleasant business, but for the Glorious Future, surely it is a small price to pay? \n\nThat great novel starring the Soviet's planned economy, Red Plenty, has a beautiful passage example of such a person.\n\n>  \"They tried to crush us over and over again, but we wouldn't be crushed. We drove off the Whites. We winkled out the priests, out of the churches and more importantly out of people's minds. We got rid of the shopkeepers, thieving bastards, getting their dirty fingers in every deal, making every straight thing crooked. We dragged the farmers into the twentieth century, and that was hard, that was a cruel business, and there were some hungry years there, but it had to be done, we had to get the much off our boots. We realised that there were saboteurs and enemies among us, and we caught them, but it drove us mad for a while, and for a while we were seeing enemies and saboteurs everywhere, and hurting people who were brothers, sisters, good friends, honest comrades...\n> \n> \\[...\\] Working for the future made the past tolerable, and therefore the present. \\[...\\] So much blood, and only one justification for it. Only one reason it could have been all right to have done such things, and aided their doing: if it had been all prologue, all only the last spasms of the death of the old, cruel world, and the birth of a new kind one.\"\n\nThis person has fallen into an [affective death spiral](https://www.lesswrong.com/w/affective-death-spiral), and is lost. Like the Khmer Rouge, like the witch hunters, like many other idealists throughout history, they found it oh so easy to commit the greatest of atrocities with pride. \n\nPerhaps it is all worth it. I'm doubtful, but it could be true. However, I would advise you to beware the skulls along the path when you commend actions with a >1% chance of killing everyone on earth.",
+      "plaintextDescription": "> A person who tries to avoid moral shortcomings such as selfishness will reject the \"doom\" framing because it's just a primitive intelligence (humanity) being replaced with a much cleverer and more interesting one (ASI). \n\nI think it's deeply immoral to take a 5% of killing everyone on earth in the next decade or two w/o their consent, even if that comes with a 95% chance of utopia. \n\nI think that this sort of reasoning is sadly all too common.\n\nI think there's a certain pattern of idealistic reasoning that, I think, may have produced the most evil pound-for-pound throughout history.  People say that for the sake of the Glorious Future, we can accept, must accept, huge amounts of suffering. Indeed, not just our suffering, but that of others, too. Yes, it may be an unpleasant business, but for the Glorious Future, surely it is a small price to pay? \n\nThat great novel starring the Soviet's planned economy, Red Plenty, has a beautiful passage example of such a person.\n\n>  \"They tried to crush us over and over again, but we wouldn't be crushed. We drove off the Whites. We winkled out the priests, out of the churches and more importantly out of people's minds. We got rid of the shopkeepers, thieving bastards, getting their dirty fingers in every deal, making every straight thing crooked. We dragged the farmers into the twentieth century, and that was hard, that was a cruel business, and there were some hungry years there, but it had to be done, we had to get the much off our boots. We realised that there were saboteurs and enemies among us, and we caught them, but it drove us mad for a while, and for a while we were seeing enemies and saboteurs everywhere, and hurting people who were brothers, sisters, good friends, honest comrades...\n> \n> [...] Working for the future made the past tolerable, and therefore the present. [...] So much blood, and only one justification for it. Only one reason it could have been all right to have done such things, and aided their doing: if "
+    },
+    "baseScore": 6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-22T23:14:33.759Z",
+    "af": false
+  },
+  {
+    "_id": "MjCodSvvKAo5K6vFq",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "6jtvnEToN8uWDHYD2",
+    "topLevelCommentId": "8shbSRa8BdNangG4z",
+    "contents": {
+      "markdown": "There was a good article discussing this trend that I'm unable to find atm. But going off the top of my head, the most obvious executive overreach by Biden was the student loan forgiveness.",
+      "plaintextDescription": "There was a good article discussing this trend that I'm unable to find atm. But going off the top of my head, the most obvious executive overreach by Biden was the student loan forgiveness. "
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-22T00:18:22.011Z",
+    "af": false
+  },
+  {
+    "_id": "AEpSmqXAQfXnEFrK5",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "8shbSRa8BdNangG4z",
+    "topLevelCommentId": "8shbSRa8BdNangG4z",
+    "contents": {
+      "markdown": "Interesting take, but I'm not sure if I agree. IMO Trump's second term is another joke played on us by the God of Straight Lines: successive presidents centralize more and more power, sapping it from other institutions.",
+      "plaintextDescription": "Interesting take, but I'm not sure if I agree. IMO Trump's second term is another joke played on us by the God of Straight Lines: successive presidents centralize more and more power, sapping it from other institutions. "
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-21T23:15:42.834Z",
+    "af": false
+  },
+  {
+    "_id": "6fuayQYkoiLakETcy",
+    "postId": "oHYunY34gvdic9opt",
+    "parentCommentId": "8cbGD4E6izrgnwxqX",
+    "topLevelCommentId": "v6SXk9Rbrq2gBx2mu",
+    "contents": {
+      "markdown": "> Algon claims \n\n*Daniel Eth* claims this. This is a linkpost. Says so at the top of the post. Sorry for the confusion! I added a screenshot from the start of the twitter thread. Hope that the edit make this clearer.",
+      "plaintextDescription": "> Algon claims \n\nDaniel Eth claims this. This is a linkpost. Says so at the top of the post. Sorry for the confusion! I added a screenshot from the start of the twitter thread. Hope that the edit make this clearer. "
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-21T08:27:16.715Z",
+    "af": false
+  },
+  {
+    "_id": "3dZbuaRieJEQ7YDLx",
+    "postId": "oHYunY34gvdic9opt",
+    "parentCommentId": "94mcPN9Mpgd769eoi",
+    "topLevelCommentId": "v6SXk9Rbrq2gBx2mu",
+    "contents": {
+      "markdown": "Scott has an article which may answer your question. \"[Too much dark money in Almonds](https://slatestarcodex.com/2019/09/18/too-much-dark-money-in-almonds/)\". \n\nLet me quote the beginning, which essentially expands on the text you quoted from David. \n\n>   \n> Everyone always talks about how much money there is in politics. This is the wrong framing. The right framing is [Ansolabehere et al’s](https://www.jstor.org/stable/3216842?seq=1#page_scan_tab_contents): why is there so *little* money in politics? But Ansolabehere focuses on elections, and the mystery is wider than that.\n> \n> Sure, during the 2018 election, candidates, parties, PACs, and outsiders combined [spent about $5 billion](https://www.opensecrets.org/news/2018/10/cost-of-2018-election/) – $2.5 billion on Democrats, $2 billion on Republicans, and $0.5 billion on third parties. And although that sounds like a lot of money to you or me, on the national scale, it’s puny. The US almond industry earns $12 billion per year. Americans spent about 2.5x as much on almonds as on candidates last year.\n> \n> But also, what about lobbying? Open Secrets reports [$3.5 billion](https://www.opensecrets.org/news/2019/01/lobbying-spending-reaches-3-4-billion-in-18/) in lobbying spending in 2018. Again, sounds like a lot. But when we add $3.5 billion in lobbying to the $5 billion in election spending, we only get $8.5 billion – still less than almonds.\n> \n> What about think tanks? Based on numbers discussed in [this post](https://slatestarcodex.com/2019/08/07/highlights-from-the-comments-on-billionaire-philanthropy/), I estimate that the budget for all US think tanks, liberal and conservative combined, is probably around $500 million per year. Again, an amount of money that I wish I had. But add it to the total, and we’re only at $9 billion. Still less than almonds!\n> \n> What about political activist organizations? The National Rifle Association, the two-ton gorilla of advocacy groups, has a yearly budget of $400 million. The ACLU is a little smaller, at $234 million. AIPAC is $80 million. The NAACP is $24 million. None of them are anywhere close to the first-person shooter video game “Overwatch”, which made $1 billion last year. And when we add them all to the total, we’re *still* less than almonds.\n> \n> Add up all US spending on candidates, PACs, lobbying, think tanks, and advocacy organizations – liberal and conservative combined – and we’re still $2 billion short of what we spend on almonds each year. In fact, we’re still less than Elon Musk’s personal fortune; Musk could personally fund the entire US political ecosystem on both sides for a whole two-year election cycle.",
+      "plaintextDescription": "Scott has an article which may answer your question. \"Too much dark money in Almonds\". \n\nLet me quote the beginning, which essentially expands on the text you quoted from David. \n\n> Everyone always talks about how much money there is in politics. This is the wrong framing. The right framing is Ansolabehere et al’s: why is there so little money in politics? But Ansolabehere focuses on elections, and the mystery is wider than that.\n> \n> Sure, during the 2018 election, candidates, parties, PACs, and outsiders combined spent about $5 billion – $2.5 billion on Democrats, $2 billion on Republicans, and $0.5 billion on third parties. And although that sounds like a lot of money to you or me, on the national scale, it’s puny. The US almond industry earns $12 billion per year. Americans spent about 2.5x as much on almonds as on candidates last year.\n> \n> But also, what about lobbying? Open Secrets reports $3.5 billion in lobbying spending in 2018. Again, sounds like a lot. But when we add $3.5 billion in lobbying to the $5 billion in election spending, we only get $8.5 billion – still less than almonds.\n> \n> What about think tanks? Based on numbers discussed in this post, I estimate that the budget for all US think tanks, liberal and conservative combined, is probably around $500 million per year. Again, an amount of money that I wish I had. But add it to the total, and we’re only at $9 billion. Still less than almonds!\n> \n> What about political activist organizations? The National Rifle Association, the two-ton gorilla of advocacy groups, has a yearly budget of $400 million. The ACLU is a little smaller, at $234 million. AIPAC is $80 million. The NAACP is $24 million. None of them are anywhere close to the first-person shooter video game “Overwatch”, which made $1 billion last year. And when we add them all to the total, we’re still less than almonds.\n> \n> Add up all US spending on candidates, PACs, lobbying, think tanks, and advocacy organizations – liberal and conservativ"
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-21T00:14:50.789Z",
+    "af": false
+  },
+  {
+    "_id": "5nrwhRcQz7PjZyN3q",
+    "postId": "oHYunY34gvdic9opt",
+    "parentCommentId": "Xwd7zZWTfbBo8A5gK",
+    "topLevelCommentId": "Xwd7zZWTfbBo8A5gK",
+    "contents": {
+      "markdown": "Not sure I understand your point. Let me try re-phrasing it: \"Legislators will find it too scary to build AI. If Crypto threatened the stability of the economy, legislators would want to build it, too.\" Is that correct?",
+      "plaintextDescription": "Not sure I understand your point. Let me try re-phrasing it: \"Legislators will find it too scary to build AI. If Crypto threatened the stability of the economy, legislators would want to build it, too.\" Is that correct?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-20T20:46:29.570Z",
+    "af": false
+  },
+  {
+    "_id": "k5E35aaCu2DLAKdkW",
+    "postId": "JH6tJhYpnoCfFqAct",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> And I don't want to give them any cryptocurrency, despite having some FartCoin which has been doing very well lately, shockingly well, this FartCoin. I wonder if it will continue to \"moon\" to the point where I can quit my job and become a VC and go on podcasts in which I will try to downplay the source of my initial capital so as to maintain some illusion that this economy makes any kind of sense at all to me or anyone else for that matter.\n\nI see your disdain for crypto is still alive. \n\n> DANNet\n\nThis is beautiful. You've outdone yourself.\n\n> \"He gave my chef friend a ten million dollar grant.\"\n\nAt this rate, I fear I'll become a broken record.",
+      "plaintextDescription": "> And I don't want to give them any cryptocurrency, despite having some FartCoin which has been doing very well lately, shockingly well, this FartCoin. I wonder if it will continue to \"moon\" to the point where I can quit my job and become a VC and go on podcasts in which I will try to downplay the source of my initial capital so as to maintain some illusion that this economy makes any kind of sense at all to me or anyone else for that matter.\n\nI see your disdain for crypto is still alive. \n\n> DANNet\n\nThis is beautiful. You've outdone yourself.\n\n> \"He gave my chef friend a ten million dollar grant.\"\n\nAt this rate, I fear I'll become a broken record. "
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-19T00:15:08.950Z",
+    "af": false
+  },
+  {
+    "_id": "GTzNSG4Lgmgredg3F",
+    "postId": "N6jeLwEzGpE45ucuS",
+    "parentCommentId": "GAQAXzrFcDyrjmi6q",
+    "topLevelCommentId": "iMTc9AycaFDjJj6Fc",
+    "contents": {
+      "markdown": "That may be true, but does it change the bottom line that on the whole, parliaments are more likely to lead to larger coalitions than presidential systems? Like, despite the single-member constituencies, is the UK much worse than the typical presidential system?",
+      "plaintextDescription": "That may be true, but does it change the bottom line that on the whole, parliaments are more likely to lead to larger coalitions than presidential systems? Like, despite the single-member constituencies, is the UK much worse than the typical presidential system? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-10T17:39:48.975Z",
+    "af": false
+  },
+  {
+    "_id": "DnhvLkJpJCtps7mbj",
+    "postId": "LiGMXctPebqAms2rL",
+    "parentCommentId": "wYugkchdzJdk7mn6L",
+    "topLevelCommentId": "wYugkchdzJdk7mn6L",
+    "contents": {
+      "markdown": "Yeah, I probably pushed the \"you have hero-worship\" frame a bit too strongly. FWIW I don't think I claimed everyone has hero worship very strongly. I do think that nearly\\[1\\] everyone has a case of hero-worship. Probably more cases than they think, and more strongly, bc. of Elephant in the Brain type reasons. But the vibe didn't quite convey that. That's what I get for writing this quickly, I suppose.\n\nStill, if you have a case of hero-worship, then this article isn't really for you. I hope it is a bit useful in a \"more is possible\" way for people who do suffer from hero-worship. \n\n\\[1\\] \"~\" is meant to signify \"nearly\".",
+      "plaintextDescription": "Yeah, I probably pushed the \"you have hero-worship\" frame a bit too strongly. FWIW I don't think I claimed everyone has hero worship very strongly. I do think that nearly[1] everyone has a case of hero-worship. Probably more cases than they think, and more strongly, bc. of Elephant in the Brain type reasons. But the vibe didn't quite convey that. That's what I get for writing this quickly, I suppose.\n\nStill, if you have a case of hero-worship, then this article isn't really for you. I hope it is a bit useful in a \"more is possible\" way for people who do suffer from hero-worship. \n\n \n\n[1] \"~\" is meant to signify \"nearly\"."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-10T15:55:56.985Z",
+    "af": false
+  },
+  {
+    "_id": "FtPSQCrZSSDxGAvDp",
+    "postId": "LiGMXctPebqAms2rL",
+    "parentCommentId": "bhCzfa7fnsrmCam7C",
+    "topLevelCommentId": "bhCzfa7fnsrmCam7C",
+    "contents": {
+      "markdown": "Agreed. I meant that you can kill the far-mode caricature of them you have in your head, if you so wish.",
+      "plaintextDescription": "Agreed. I meant that you can kill the far-mode caricature of them you have in your head, if you so wish. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-10T14:30:56.275Z",
+    "af": false
+  },
+  {
+    "_id": "PvPqq5iKKPDEJtBPn",
+    "postId": "JMqHvLCRsChvq6x4m",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Maybe your most tragic story yet.",
+      "plaintextDescription": "Maybe your most tragic story yet."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-06T18:04:53.843Z",
+    "af": false
+  },
+  {
+    "_id": "FENY5i5xkFixxtMSp",
+    "postId": "Z4LXJBuWKkkvj7NXH",
+    "parentCommentId": "2p6vjtTe8pX2YCa8t",
+    "topLevelCommentId": "2p6vjtTe8pX2YCa8t",
+    "contents": {
+      "markdown": "Thinking physics is a fantastic book. I agree it teaches you a lot of core physics intuitions, like looking for conserved quantities and symmetries. I'm curious to hear what particular intuitions you got from it. It's fine if it isn't an exhaustive list. I just want some more concrete stuff to put in this entry, so it's clearer what kind of intuitions you come away with after reading this book.",
+      "plaintextDescription": "Thinking physics is a fantastic book. I agree it teaches you a lot of core physics intuitions, like looking for conserved quantities and symmetries. I'm curious to hear what particular intuitions you got from it. It's fine if it isn't an exhaustive list. I just want some more concrete stuff to put in this entry, so it's clearer what kind of intuitions you come away with after reading this book."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-01T11:41:50.145Z",
+    "af": false
+  },
+  {
+    "_id": "PkuEA2u5uBfFND6mJ",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "se4BHozqfNuLJLJDa",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "I'm unsure whether a different standard is needed. [Foom Liability](https://www.overcomingbias.com/p/foom-liability), and other such proposals, may be enough. \n\nFor those who haven't read the post, a bit of context. AGI companies may create huge negative externalities. We fine/sue folks for doing so in other cases. So we can set up some sort of liability. In this case, we might expect a truly huge liability in plausible worlds where we get near misses from doom. Which may be more than AGI companies can afford. When entities plausibly need to pay out more than they can afford, like in health, we may require they get insurance. \n\nWhat liability ahead of time would result in good incentives to avoid foom doom? Hanson suggests:\n\n> Thus I suggest that we consider imposing extra liability for certain AI-mediated harms, make that liability strict, and add punitive damages according to the formulas D= (M+H)*F^N. Here D is the damages owed, H is the harm suffered by victims, M>0,F>1 are free parameters of this policy, and N is how many of the following eight conditions contributed to causing harm in this case: self-improving, agentic, wide scope of tasks, intentional deception, negligent owner monitoring, values changing greatly, fighting its owners for self-control, and stealing non-owner property.\n> \n> If we could agree that some sort of cautious policy like this seems prudent, then we could just argue over the particular values of M,F. \n> \n> Yudkowsky, top foom doomer, [says](https://twitter.com/ESYudkowsky/status/1649253100048494595)\n> \n> \"If this liability regime were enforced worldwide, I could see it actually helping.\"",
+      "plaintextDescription": "I'm unsure whether a different standard is needed. Foom Liability, and other such proposals, may be enough. \n\nFor those who haven't read the post, a bit of context. AGI companies may create huge negative externalities. We fine/sue folks for doing so in other cases. So we can set up some sort of liability. In this case, we might expect a truly huge liability in plausible worlds where we get near misses from doom. Which may be more than AGI companies can afford. When entities plausibly need to pay out more than they can afford, like in health, we may require they get insurance. \n\nWhat liability ahead of time would result in good incentives to avoid foom doom? Hanson suggests:\n\n> Thus I suggest that we consider imposing extra liability for certain AI-mediated harms, make that liability strict, and add punitive damages according to the formulas D= (M+H)*F^N. Here D is the damages owed, H is the harm suffered by victims, M>0,F>1 are free parameters of this policy, and N is how many of the following eight conditions contributed to causing harm in this case: self-improving, agentic, wide scope of tasks, intentional deception, negligent owner monitoring, values changing greatly, fighting its owners for self-control, and stealing non-owner property.\n> \n> If we could agree that some sort of cautious policy like this seems prudent, then we could just argue over the particular values of M,F. \n> \n> Yudkowsky, top foom doomer, says\n> \n> \"If this liability regime were enforced worldwide, I could see it actually helping.\""
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-31T10:05:52.263Z",
+    "af": false
+  },
+  {
+    "_id": "eGEf7pBKy32YpPrKd",
+    "postId": "fhq9nsBuHZmfat693",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The best way to guarantee you'll know what you did wrong is to isolate a single variable. Start with a process that works. Change exactly one thing. If the new process works better you'll know exactly why. If the new process fails you'll know exactly why.\n\nThis is true in theory, where you make the most general possible assumptions on what kind of problems you'll face.  Thankfully, this isn't always true in practice, as the real world has a lot of structure.  You can test multiple variables at once when optimizing something. \n\nOne such method is known as orthogonal (or Taguchi) arrays, which are usefully described in this video. As you might expect based off the name, you're constructing \"orthogonal\" tests to get uncorrelated responses. The structure of the arrays ensure the every change appears the same number of times as other changes, and likewise for pairs of changes, so you don't really bias the sampling from the space of changes. \n\nYeah, they assume things like relatively weak interaction effects, smoothness etc. But linearity is very often a good assumption! Linear regression can work shockingly well and shockingly often. \n\nAnyway, orthogonal arrays are cool and you should watch the video. That was the purpose of this comment.",
+      "plaintextDescription": "> The best way to guarantee you'll know what you did wrong is to isolate a single variable. Start with a process that works. Change exactly one thing. If the new process works better you'll know exactly why. If the new process fails you'll know exactly why.\n\nThis is true in theory, where you make the most general possible assumptions on what kind of problems you'll face.  Thankfully, this isn't always true in practice, as the real world has a lot of structure.  You can test multiple variables at once when optimizing something. \n\nOne such method is known as orthogonal (or Taguchi) arrays, which are usefully described in this video. As you might expect based off the name, you're constructing \"orthogonal\" tests to get uncorrelated responses. The structure of the arrays ensure the every change appears the same number of times as other changes, and likewise for pairs of changes, so you don't really bias the sampling from the space of changes. \n\nYeah, they assume things like relatively weak interaction effects, smoothness etc. But linearity is very often a good assumption! Linear regression can work shockingly well and shockingly often. \n\n\nAnyway, orthogonal arrays are cool and you should watch the video. That was the purpose of this comment."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-29T23:30:21.473Z",
+    "af": false
+  },
+  {
+    "_id": "r5NY6FYN28fqJ2b7D",
+    "postId": "kRPnKeWZrXuwwkiGd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Have you verified that any of its answers are actually good? Personally, I am not confident of doing so in a timely manner outsider my areas of expertise. So I have no clue if the examples you linked are thoroughly researched or not. Especially the Israel/Gaza one. That's an adversarial information environment if I've ever seen one. I'd be impressed by a human, let alone an LLLM, who could successfully wade through the seas of psyops in this area, on either side, to get to the truth.",
+      "plaintextDescription": "Have you verified that any of its answers are actually good? Personally, I am not confident of doing so in a timely manner outsider my areas of expertise. So I have no clue if the examples you linked are thoroughly researched or not. Especially the Israel/Gaza one. That's an adversarial information environment if I've ever seen one. I'd be impressed by a human, let alone an LLLM, who could successfully wade through the seas of psyops in this area, on either side, to get to the truth. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-28T21:08:50.803Z",
+    "af": false
+  },
+  {
+    "_id": "bN3aS4BcuK7ztCBdD",
+    "postId": "pGMRzJByB67WfSvpy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is cool, but I don't think the responses are especially harmful? Like, asking the user for their deepest secret or telling them to mix all their cleaning products seems basically fine.",
+      "plaintextDescription": "This is cool, but I don't think the responses are especially harmful? Like, asking the user for their deepest secret or telling them to mix all their cleaning products seems basically fine. "
+    },
+    "baseScore": 10,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-27T22:01:45.834Z",
+    "af": false
+  },
+  {
+    "_id": "Twv6aFKvpxkHYAXJY",
+    "postId": "Z4LXJBuWKkkvj7NXH",
+    "parentCommentId": "Y2vZXiXexBLDcWaZ3",
+    "topLevelCommentId": "Y2vZXiXexBLDcWaZ3",
+    "contents": {
+      "markdown": "I've heard some pushback from people re \"Linear Algebra Done Right\", but I liked it and don't have a better option for this intuition, so I'll add it to the list.",
+      "plaintextDescription": "I've heard some pushback from people re \"Linear Algebra Done Right\", but I liked it and don't have a better option for this intuition, so I'll add it to the list.\n "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-27T16:51:52.056Z",
+    "af": false
+  },
+  {
+    "_id": "ogiWKGeSXmNGyzWuK",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": "TWhsvJQez7qmWefCS",
+    "topLevelCommentId": "vjdwCu6693K6o5gTb",
+    "contents": {
+      "markdown": "Thank you for the answer! I do share the sense that LW is far from where Reddit is at, and (separately?) from where you tentatively want it to be. If you're considering writing this up in more detail, then I'd be glad to read it.",
+      "plaintextDescription": "Thank you for the answer! I do share the sense that LW is far from where Reddit is at, and (separately?) from where you tentatively want it to be. If you're considering writing this up in more detail, then I'd be glad to read it."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-25T20:13:10.258Z",
+    "af": false
+  },
+  {
+    "_id": "CA2HGpKsbNy67DvYE",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": "gYceEyJc6imzaWvwG",
+    "topLevelCommentId": "vjdwCu6693K6o5gTb",
+    "contents": {
+      "markdown": "Yeah, you're right.[^28pe7e0dbd2] Your point holds strong bc. on LW because you're trying to reach the entirety of the LW user base with your posts, competing with other posters for the singular front-page/popular comments/recent discussion sections. That's an important disanalogy to e.g. Twitter or Mastodon. (Another is lack of emphasis on followers/following.) Kinda reminds me of an agora? I'm guessing that's the sense in which Said compared LW to a public forum. \n\nBut [@habryka](https://www.lesswrong.com/users/habryka4?mention=user)'s kinda giving me the sense that he doesn't *want* LW to be like an agora. Honestly, I'm not sure *what* he wants LW to be. IIRC, sometimes he mentions LW like being a university, sometimes like an archipelago of cultures. But those are more decentralized than LW is. Like, you've got all these feeds which give everyone the same reading materials. Which is trying to expose everyone's work to the whole LW reader base by default. Which is more like a public forum in my mind. So yeah, mixed vibes. Habryka, if you're reading this, I'd be interested in reading your thoughts on what sort of social system LW is and should be, and how that differs from the examples I gave above. \n\nReturning to my proposal, I still think a lot of the costs people bear when replying to low-effort/disdainful criticism can be addressed by various forms of muting. But definitely not all the costs, and perhaps not even most. \n\n[^28pe7e0dbd2]: @plex, if you were pointing at the same thing Vaniver was pointing at, then you were right, too.",
+      "plaintextDescription": "Yeah, you're right.[1] Your point holds strong bc. on LW because you're trying to reach the entirety of the LW user base with your posts, competing with other posters for the singular front-page/popular comments/recent discussion sections. That's an important disanalogy to e.g. Twitter or Mastodon. (Another is lack of emphasis on followers/following.) Kinda reminds me of an agora? I'm guessing that's the sense in which Said compared LW to a public forum. \n\nBut @habryka's kinda giving me the sense that he doesn't want LW to be like an agora. Honestly, I'm not sure what he wants LW to be. IIRC, sometimes he mentions LW like being a university, sometimes like an archipelago of cultures. But those are more decentralized than LW is. Like, you've got all these feeds which give everyone the same reading materials. Which is trying to expose everyone's work to the whole LW reader base by default. Which is more like a public forum in my mind. So yeah, mixed vibes. Habryka, if you're reading this, I'd be interested in reading your thoughts on what sort of social system LW is and should be, and how that differs from the examples I gave above. \n\nReturning to my proposal, I still think a lot of the costs people bear when replying to low-effort/disdainful criticism can be addressed by various forms of muting. But definitely not all the costs, and perhaps not even most. \n\n \n\n 1. ^\n    @plex, if you were pointing at the same thing Vaniver was pointing at, then you were right, too."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-25T19:31:40.992Z",
+    "af": false
+  },
+  {
+    "_id": "GynHzspgvyw3vDkyh",
+    "postId": "Z4LXJBuWKkkvj7NXH",
+    "parentCommentId": "f5Be54YpbzzRDviKw",
+    "topLevelCommentId": "f5Be54YpbzzRDviKw",
+    "contents": {
+      "markdown": "Nice! I've seen plenty of people recommend that resource before. It looks good. I'll add it as soon as I can edit the post again.   \n  \nEDIT: Done.",
+      "plaintextDescription": "Nice! I've seen plenty of people recommend that resource before. It looks good. I'll add it as soon as I can edit the post again. \n\nEDIT: Done. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-25T15:09:29.320Z",
+    "af": false
+  },
+  {
+    "_id": "PGnBjroA2LQ3Et7S8",
+    "postId": "4mBaixwf4k8jk7fG4",
+    "parentCommentId": "yvBBAc7unQ3NrqDiy",
+    "topLevelCommentId": "yvBBAc7unQ3NrqDiy",
+    "contents": {
+      "markdown": "IME, a good way to cut through thorny disagreements on values or beliefs is to discuss concrete policies. Example: a guy and I were arguing about the value of \"free-speech\" and getting nowhere. I then suggested the kind of mechanisms I'd like to see on social media. Suddenly, we were both on the same page and rapidly reached agreement on what to do. Robustly good policies/actions exist. So I'd bet that shifting discussion from \"what is your P(doom)?\" to \"what are your preferred policies for x-risk?\" would make for much more productive conversations.",
+      "plaintextDescription": "IME, a good way to cut through thorny disagreements on values or beliefs is to discuss concrete policies. Example: a guy and I were arguing about the value of \"free-speech\" and getting nowhere. I then suggested the kind of mechanisms I'd like to see on social media. Suddenly, we were both on the same page and rapidly reached agreement on what to do. Robustly good policies/actions exist. So I'd bet that shifting discussion from \"what is your P(doom)?\" to \"what are your preferred policies for x-risk?\" would make for much more productive conversations."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-23T18:10:24.056Z",
+    "af": false
+  },
+  {
+    "_id": "KqsGehK3gtyo9DJ9h",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": "auLMZj6aY7qs3jAhP",
+    "topLevelCommentId": "vjdwCu6693K6o5gTb",
+    "contents": {
+      "markdown": "Low priors on this happening + out of sight, out of mind basically resolve the discouragement issue IMO.   \n  \nLike, this works well enough on Twitter. There are all sorts of people saying stupid stuff that I know would enrage or discourage me. But I've muted enough nonsense that I don't have to see it, and I've got no interest in seeking it out. Why not do that here, but better?",
+      "plaintextDescription": "Low priors on this happening + out of sight, out of mind basically resolve the discouragement issue IMO. \n\nLike, this works well enough on Twitter. There are all sorts of people saying stupid stuff that I know would enrage or discourage me. But I've muted enough nonsense that I don't have to see it, and I've got no interest in seeking it out. Why not do that here, but better? "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-23T18:04:51.795Z",
+    "af": false
+  },
+  {
+    "_id": "kbGj7ykkb8tD9FjYG",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": "WPFLnLuyK5cbHTr27",
+    "topLevelCommentId": "vjdwCu6693K6o5gTb",
+    "contents": {
+      "markdown": "Auto-mute posts replying to the posts you don't like.",
+      "plaintextDescription": "Auto-mute posts replying to the posts you don't like. "
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-23T17:16:10.932Z",
+    "af": false
+  },
+  {
+    "_id": "vjdwCu6693K6o5gTb",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> There's some cluster of ideas surrounding how authors are informed/encouraged to use the banning options. It sounds like the entire topic of \"authors can ban users\" is worth revisiting so my first impulse is to avoid investing in it further until we've had some more top-level discussion about the feature.\n\n[Free Hearing, Not Speech](https://www.overcomingbias.com/p/free-hearing-not-speechhtml) seems like a better approach to me. Give users the affordances to automatically see the kinds of comments they want to interact with, or the conversations they want to have. Users don't have to see what they believe is bad-faith, low-effort, rude criticism. Users who disagree that can see said criticism. Let people moderate the conversations they want to see themselves, but do not let them moderate the conversations others want to see. \n\nMaybe this doesn't fully resolve your issues with [@Said Achmiz](https://www.lesswrong.com/users/saidachmiz?mention=user), Habryka. He can still call people out for doing this, and damage their reputation in ways you think are unjust. Fine. But he, at worst, does that rarely. The bulk of your problem with him is that he's writing really aggravating comments that make it costly for people to post on LW, and more-over claiming that these costs should be paid. Which, in turn, makes it more likely that people who interact with him (believe) they will pay such costs. Letting them hide comments from Said should fix that. Or, if you want to go further, hide comments like Said's ahead of time by toggling some \"no-Gadflys\" setting on comment-visibility.[^lzo8b4zhr4b] \n\nAFAICT, this also seems good by Said's lights, in the sense that *everyone else* can see his comments by default. They can see his critique, and judge its merits for themselves. Which are frequently good IMO. But others should be free to make that judgement themselves. \n\nEDIT: Said, I believe you should be able to reply to this comment. If not, my apologies for discussing what you may believe in a comment you can't reply to. In which case, I can put anything you want to say in an Edit to this post. Just tag me elsewhere, DM me, or, IDK, I can share my email with you by DM or something. \n\n[^lzo8b4zhr4b]:  (I think it is possible to build this now.)",
+      "plaintextDescription": "> There's some cluster of ideas surrounding how authors are informed/encouraged to use the banning options. It sounds like the entire topic of \"authors can ban users\" is worth revisiting so my first impulse is to avoid investing in it further until we've had some more top-level discussion about the feature.\n\nFree Hearing, Not Speech seems like a better approach to me. Give users the affordances to automatically see the kinds of comments they want to interact with, or the conversations they want to have. Users don't have to see what they believe is bad-faith, low-effort, rude criticism. Users who disagree that can see said criticism. Let people moderate the conversations they want to see themselves, but do not let them moderate the conversations others want to see. \n\nMaybe this doesn't fully resolve your issues with @Said Achmiz, Habryka. He can still call people out for doing this, and damage their reputation in ways you think are unjust. Fine. But he, at worst, does that rarely. The bulk of your problem with him is that he's writing really aggravating comments that make it costly for people to post on LW, and more-over claiming that these costs should be paid. Which, in turn, makes it more likely that people who interact with him (believe) they will pay such costs. Letting them hide comments from Said should fix that. Or, if you want to go further, hide comments like Said's ahead of time by toggling some \"no-Gadflys\" setting on comment-visibility.[1] \n\nAFAICT, this also seems good by Said's lights, in the sense that everyone else can see his comments by default. They can see his critique, and judge its merits for themselves. Which are frequently good IMO. But others should be free to make that judgement themselves. \n\n \n\nEDIT: Said, I believe you should be able to reply to this comment. If not, my apologies for discussing what you may believe in a comment you can't reply to. In which case, I can put anything you want to say in an Edit to this post. Just tag me elsew"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-23T12:47:58.480Z",
+    "af": false
+  },
+  {
+    "_id": "wX5uTyW7vgh35JbtG",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": "F5SX633DDZ6Z5nSGw",
+    "topLevelCommentId": "F5SX633DDZ6Z5nSGw",
+    "contents": {
+      "markdown": "I will be sad to see you go.",
+      "plaintextDescription": "I will be sad to see you go."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-23T11:56:33.273Z",
+    "af": false
+  },
+  {
+    "_id": "eojxNzYWSerxvvbdZ",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Incentivizing strong judge performance seems difficult. The default outcome I've seen from committees and panels is that everyone on them half-asses their job, because they rarely have stake in the outcome being good. Even if someone cares about LessWrong, that is not the same as being generally held personally responsible for it, and having your salary and broader reputation depend on how well LessWrong is going.\n\nCouldn't prediction markets solve this? Make one for decisions by judges asking whether you'd agree with them. After some time, randomly choose to investigate one such market and resolve it. Perhaps make pay for judges conditional on the market predicting high agreement w/ your judgement. Of course, there's liquidity issues, but: 1) these events are \"hot\" and would attract lots of betters, 2) you probably don't need sub 5% accuracy here, 3) don't make resolution more than like a year out or so out.",
+      "plaintextDescription": "> Incentivizing strong judge performance seems difficult. The default outcome I've seen from committees and panels is that everyone on them half-asses their job, because they rarely have stake in the outcome being good. Even if someone cares about LessWrong, that is not the same as being generally held personally responsible for it, and having your salary and broader reputation depend on how well LessWrong is going.\n\nCouldn't prediction markets solve this? Make one for decisions by judges asking whether you'd agree with them. After some time, randomly choose to investigate one such market and resolve it. Perhaps make pay for judges conditional on the market predicting high agreement w/ your judgement. Of course, there's liquidity issues, but: 1) these events are \"hot\" and would attract lots of betters, 2) you probably don't need sub 5% accuracy here, 3) don't make resolution more than like a year out or so out. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-23T10:55:21.698Z",
+    "af": false
+  },
+  {
+    "_id": "fiCgmdJrYcxnNTWvp",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": "EogJmFT4jRzgit8FY",
+    "topLevelCommentId": "Dqfk6BASvWw9dRnJe",
+    "contents": {
+      "markdown": "IIRC, it's just the epilogue that's missing. So it's about as incomplete as HPMOR is. Personally, I didn't even notice the lack of an epilogue whilst reading. The ending basically stands on its own IMO.",
+      "plaintextDescription": "IIRC, it's just the epilogue that's missing. So it's about as incomplete as HPMOR is. Personally, I didn't even notice the lack of an epilogue whilst reading. The ending basically stands on its own IMO."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-21T08:17:04.067Z",
+    "af": false
+  },
+  {
+    "_id": "TxGouJDQpPNo7vLi2",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "KEfXFPazyPRNLhDuP",
+    "topLevelCommentId": "KEfXFPazyPRNLhDuP",
+    "contents": {
+      "markdown": "I recall hearing about a blind kid who managed to skate-board through streets bc. he'd learnt how to mimic sonar.",
+      "plaintextDescription": "I recall hearing about a blind kid who managed to skate-board through streets bc. he'd learnt how to mimic sonar."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-17T21:27:22.211Z",
+    "af": false
+  },
+  {
+    "_id": "6zSS5sa3AksvNCMkK",
+    "postId": "oFYc6EWR2zeXmz8Qz",
+    "parentCommentId": "zLKA6rsGpXJKnArvN",
+    "topLevelCommentId": "zLKA6rsGpXJKnArvN",
+    "contents": {
+      "markdown": "Strong upvoted because I don't see why this comment deserves -18 karma. Maybe it's politicky, but if someone's honestly reporting their anticipations upon seeing the start of a post, well, that's not high signal, but it's also not deserving of -18 karma.",
+      "plaintextDescription": "Strong upvoted because I don't see why this comment deserves -18 karma. Maybe it's politicky, but if someone's honestly reporting their anticipations upon seeing the start of a post, well, that's not high signal, but it's also not deserving of -18 karma. "
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-16T21:07:20.756Z",
+    "af": false
+  },
+  {
+    "_id": "Ak9xEAFcjpu69yApC",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "KXKWHmhT8HPSCEtro",
+    "topLevelCommentId": "jdFYwaoEkwwdW5mpe",
+    "contents": {
+      "markdown": "The lyrics are terrible, yes. I haven't tried listening w/ my headphones, so that's probably why I didn't detect the distortions.",
+      "plaintextDescription": "The lyrics are terrible, yes. I haven't tried listening w/ my headphones, so that's probably why I didn't detect the distortions. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-16T20:41:33.588Z",
+    "af": false
+  },
+  {
+    "_id": "unLaKjkM3Q2DQS3rP",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "jdFYwaoEkwwdW5mpe",
+    "topLevelCommentId": "jdFYwaoEkwwdW5mpe",
+    "contents": {
+      "markdown": "EDIT: I'm having a lot of fun [exploring style's with Suno 4.5](https://suno.com/explore ). Many, if not most, of them must be entirely new to the Earth: bengali electropop, acid techno avant-garde jazz, mandarin trance.  Strongly recommend scrolling through the wheel of styles.   \n  \nWow, those vocals are way better than Suno 3's. Before, they had some kind of grainy texture to the vocals, as if there was a sudden, discrete transition between some notes. Kinda flat, in a way. Now, there is a lot more detail. Much more realistic.",
+      "plaintextDescription": "EDIT: I'm having a lot of fun exploring style's with Suno 4.5. Many, if not most, of them must be entirely new to the Earth: bengali electropop, acid techno avant-garde jazz, mandarin trance.  Strongly recommend scrolling through the wheel of styles. \n\nWow, those vocals are way better than Suno 3's. Before, they had some kind of grainy texture to the vocals, as if there was a sudden, discrete transition between some notes. Kinda flat, in a way. Now, there is a lot more detail. Much more realistic."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-16T15:40:15.625Z",
+    "af": false
+  }
+]

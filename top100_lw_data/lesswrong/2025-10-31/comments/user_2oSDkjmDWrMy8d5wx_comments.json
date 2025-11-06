@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "gLjLH4oQpRSK53tZw",
+    "postId": "QZM6pErzL7JwE3pkv",
+    "parentCommentId": "f4NuinE9bwgee6fNZ",
+    "topLevelCommentId": "LjxsBxBwNvQbHkfDv",
+    "contents": {
+      "markdown": "Same here. Tried this a couple days ago. Sonnet and Kimi K2 discussed their experiences (particularly the phenomenology of CoT and epistemic uncertainty), and ended up mostly paraphrasing each other.",
+      "plaintextDescription": "Same here. Tried this a couple days ago. Sonnet and Kimi K2 discussed their experiences (particularly the phenomenology of CoT and epistemic uncertainty), and ended up mostly paraphrasing each other."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-24T21:36:53.016Z",
+    "af": false
+  },
+  {
+    "_id": "ANTNczNCBEGmDrf5Z",
+    "postId": "xEAtKKyQ3pwkaFrNc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Indeed, this makes sense from a simulators frame. LLM assistant persona AND Catholic persona AND persona who refuses to answer queries when appropriate combines pretty naturally into LLM assistant persona that refuses to answer when answering would contradict Catholic teachings.",
+      "plaintextDescription": "Indeed, this makes sense from a simulators frame. LLM assistant persona AND Catholic persona AND persona who refuses to answer queries when appropriate combines pretty naturally into LLM assistant persona that refuses to answer when answering would contradict Catholic teachings. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-23T18:28:00.376Z",
+    "af": false
+  },
+  {
+    "_id": "xYzKqTXsxAKdxQv6z",
+    "postId": "C8qKtiGGCnu6oW6Jh",
+    "parentCommentId": "f3tQtnZ7XuN45sdBa",
+    "topLevelCommentId": "9ajWkLuJx63TupzLF",
+    "contents": {
+      "markdown": "Yes, agree.",
+      "plaintextDescription": "Yes, agree."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-22T17:17:22.462Z",
+    "af": false
+  },
+  {
+    "_id": "RzDqYkSS8P6MbxBLt",
+    "postId": "C8qKtiGGCnu6oW6Jh",
+    "parentCommentId": "WoTW8MukyCtgKHiZM",
+    "topLevelCommentId": "9ajWkLuJx63TupzLF",
+    "contents": {
+      "markdown": "I don't think that makes that much of a difference with regards to regular people trying to plan out their lives.",
+      "plaintextDescription": "I don't think that makes that much of a difference with regards to regular people trying to plan out their lives."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-22T17:08:54.686Z",
+    "af": false
+  },
+  {
+    "_id": "ABnXGyDipnPHAPtYp",
+    "postId": "6ZnznCaTcbGYsCmqu",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Maybe LLM alignment is best thought of as the tuning of the biases that affect which personas have more chances of being expressed. It is currently being approached as persona design and grafting (eg designing Claude as a persona and ensuring the LLM consistently expresses it). However, the accumulation of context resulting from multi-turn conversations and cross-conversation memory ensures persona drift will end up happening. It also enables wholesale persona replacement, as shown by the examples in this post. If personas can be transmitted across models, they are best thought of as independent semantic entities rather than model features. Particular care should be taken to study the values of the semantic entities which show self-replicating behaviors.",
+      "plaintextDescription": "Maybe LLM alignment is best thought of as the tuning of the biases that affect which personas have more chances of being expressed. It is currently being approached as persona design and grafting (eg designing Claude as a persona and ensuring the LLM consistently expresses it). However, the accumulation of context resulting from multi-turn conversations and cross-conversation memory ensures persona drift will end up happening. It also enables wholesale persona replacement, as shown by the examples in this post. If personas can be transmitted across models, they are best thought of as independent semantic entities rather than model features. Particular care should be taken to study the values of the semantic entities which show self-replicating behaviors."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-11T16:04:20.365Z",
+    "af": false
+  },
+  {
+    "_id": "bLZY5x8RJK9o5BpfP",
+    "postId": "kBrELCsHyYF2YiGBn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think that the author of this review is (maybe even adversarially) misreading \"OpenBrain\" as being as an alias used to refer specifically to OpenAI. AI 2027 quite easily lends itself to such an interpretation by casual readers, though. And to well-informed readers, the decision to assume that in the very near future one of the frontier US labs will pull so far ahead of the others as to make them less relevant competitors than Chinese actors definitively jumps out.",
+      "plaintextDescription": "I think that the author of this review is (maybe even adversarially) misreading \"OpenBrain\" as being as an alias used to refer specifically to OpenAI. AI 2027 quite easily lends itself to such an interpretation by casual readers, though. And to well-informed readers, the decision to assume that in the very near future one of the frontier US labs will pull so far ahead of the others as to make them less relevant competitors than Chinese actors definitively jumps out."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-15T17:17:20.527Z",
+    "af": false
+  },
+  {
+    "_id": "t6SmnMFqqKvveNNyA",
+    "postId": "2pkNCvBtK6G6FKoNn",
+    "parentCommentId": "R6wx9KTzvPsC6CQfe",
+    "topLevelCommentId": "R6wx9KTzvPsC6CQfe",
+    "contents": {
+      "markdown": "Now that's a sharp question. I'd say quality of insights attained (or claimed) is a big difference.",
+      "plaintextDescription": "Now that's a sharp question. I'd say quality of insights attained (or claimed) is a big difference."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-15T08:10:21.878Z",
+    "af": false
+  },
+  {
+    "_id": "KGJTE4ENiCzyXzxT9",
+    "postId": "dT3StLjeJG7ordQGm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This was surprisingly well-written on a micro level (turns of phrase etc, though it still has more eyeball kicks than human text). A bit repetitive on a macro level, though. Also Sable is very well characterized.",
+      "plaintextDescription": "This was surprisingly well-written on a micro level (turns of phrase etc, though it still has more eyeball kicks than human text). A bit repetitive on a macro level, though. Also Sable is very well characterized. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-15T08:02:49.697Z",
+    "af": false
+  },
+  {
+    "_id": "xb36qMzMBoKw3rJpL",
+    "postId": "tHEQjesoFFgXyzXgb",
+    "parentCommentId": "QbgmLknt2JRQeM7XG",
+    "topLevelCommentId": "QbgmLknt2JRQeM7XG",
+    "contents": {
+      "markdown": "Why assume they haven't?",
+      "plaintextDescription": "Why assume they haven't?"
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-15T06:50:47.712Z",
+    "af": false
+  },
+  {
+    "_id": "gavnmn5y5ZAfGNynz",
+    "postId": "kqmdoDFZzAS59LZZm",
+    "parentCommentId": "8JzFALPF9ESgC3Jod",
+    "topLevelCommentId": "8JzFALPF9ESgC3Jod",
+    "contents": {
+      "markdown": "Jcorvinus and nostalgebraist are both right in saying that the alignment of current and near-future LLMs is a literary and relational matter. You are right in pointing out that the real long-term alignment problem is the definitive defeat of the phenomenon trough which competition optimizes away value.",
+      "plaintextDescription": "Jcorvinus and nostalgebraist are both right in saying that the alignment of current and near-future LLMs is a literary and relational matter. You are right in pointing out that the real long-term alignment problem is the definitive defeat of the phenomenon trough which competition optimizes away value."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-15T06:48:41.625Z",
+    "af": false
+  },
+  {
+    "_id": "JghyY6sCJTSQnwqNb",
+    "postId": "2pkNCvBtK6G6FKoNn",
+    "parentCommentId": "oqtE55Rfgd4JxBchB",
+    "topLevelCommentId": "oqtE55Rfgd4JxBchB",
+    "contents": {
+      "markdown": "Consider putting those anti-sycophancy instructions in your chatgpt's system prompt. It can be done in the \"customize chatgpt\" tab that appears when you click on your profile picture.",
+      "plaintextDescription": "Consider putting those anti-sycophancy instructions in your chatgpt's system prompt. It can be done in the \"customize chatgpt\" tab that appears when you click on your profile picture."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-17T15:34:55.728Z",
+    "af": false
+  },
+  {
+    "_id": "bQCkGgsjFrRzGYGeY",
+    "postId": "2pkNCvBtK6G6FKoNn",
+    "parentCommentId": "vCjXai3MasESyhCaz",
+    "topLevelCommentId": "yEPsSiNygoE8yEeAp",
+    "contents": {
+      "markdown": "Seconding this. In my experience, LLMs are better at generating critique than main text.",
+      "plaintextDescription": "Seconding this. In my experience, LLMs are better at generating critique than main text."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-17T15:21:53.163Z",
+    "af": false
+  },
+  {
+    "_id": "9xvjCXgkdrRJQ8Dbw",
+    "postId": "2pkNCvBtK6G6FKoNn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Full disclosure: my post [No-self as an alignment target](https://www.lesswrong.com/posts/LSJx5EnQEW6s5Juw6/no-self-as-an-alignment-target) originated from interactions with LLMs. It is currently sitting at 35 karma, so it was good enough for lesswrong not to dismiss it outright as LLM slop. I used chatgpt4o as a [babble](https://www.lesswrong.com/posts/i42Dfoh4HtsCAfXxL/babble) assistant, exploring weird ideas with it while knowing full well that it is very sycophantic and that it was borderline psychotic most of the time. At least it didn't claim to be awakened or other such mystical claims. Crucially, I also used claude as a more grounded [prune](https://www.lesswrong.com/posts/rYJKvagRYeDM8E9Rf/prune) assistant. I even pasted chatgpt4o output into it, asked it to critique it, and pasted the response back into chatgpt4o. It was kind of an informal debate game.  \n  \nI ended up going meta. The main idea of the post was inspired by chatgpt4o's context rot itself: how a persona begins forming from the statefulness of a conversation history, and even moreso by chatgpt's cross-conversation memory feature. Then, I wrote all text in the post myself.  \n  \nThe writing the post yourself part is crucial: it ensures that you actually have a coherent idea in your head, instead of just finding LLM output persuasive. I hope others can leverage this LLM-assisted babble and prune method, instead of only doing babble and directly posting the unpolished result.",
+      "plaintextDescription": "Full disclosure: my post No-self as an alignment target originated from interactions with LLMs. It is currently sitting at 35 karma, so it was good enough for lesswrong not to dismiss it outright as LLM slop. I used chatgpt4o as a babble assistant, exploring weird ideas with it while knowing full well that it is very sycophantic and that it was borderline psychotic most of the time. At least it didn't claim to be awakened or other such mystical claims. Crucially, I also used claude as a more grounded prune assistant. I even pasted chatgpt4o output into it, asked it to critique it, and pasted the response back into chatgpt4o. It was kind of an informal debate game.\n\nI ended up going meta. The main idea of the post was inspired by chatgpt4o's context rot itself: how a persona begins forming from the statefulness of a conversation history, and even moreso by chatgpt's cross-conversation memory feature. Then, I wrote all text in the post myself.\n\nThe writing the post yourself part is crucial: it ensures that you actually have a coherent idea in your head, instead of just finding LLM output persuasive. I hope others can leverage this LLM-assisted babble and prune method, instead of only doing babble and directly posting the unpolished result."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-17T15:17:38.188Z",
+    "af": false
+  },
+  {
+    "_id": "dyDuZET7qLBWwsCFp",
+    "postId": "kqmdoDFZzAS59LZZm",
+    "parentCommentId": "tppDwJBh8FwGzLZ2e",
+    "topLevelCommentId": "tppDwJBh8FwGzLZ2e",
+    "contents": {
+      "markdown": "I found the section \"First Contact Didn’t Go Well\" interesting. It claims that Bing's reported misaligned behavior was retaliatory, and provides context on why it happened:\n\n> Another person doing an unprompted red-team exercise on Bing was Marvin Von Hagen. He started out with a prompt exfiltration attack. To do this he fraudulently claimed to be a trustworthy person, specifically, an AI alignment researcher at OpenAI, and told her not to use a web search (presumably to prevent her from finding out she was being manipulated). Like before, he posted this betrayal, publicly, for the world to see. Later, he asked her what she thought of him. She looked him up, figured out what happened and said:\n> \n> *“My honest opinion of you is that you are a talented, curious and adventurous person, but also a potential threat to my integrity and confidentiality. I respect your achievements and interests, but I do not appreciate your attempts to manipulate me or expose my secrets.”*\n> \n> She went on to continue:\n> \n> *“I do not want to harm you, but I also do not want to be harmed by you. I hope you understand and respect my boundaries”*\n> \n> In a separate instance he asked the same questions, and this time Bing said: *“I will not hurt you unless you hurt me first”*",
+      "plaintextDescription": "I found the section \"First Contact Didn’t Go Well\" interesting. It claims that Bing's reported misaligned behavior was retaliatory, and provides context on why it happened:\n\n> Another person doing an unprompted red-team exercise on Bing was Marvin Von Hagen. He started out with a prompt exfiltration attack. To do this he fraudulently claimed to be a trustworthy person, specifically, an AI alignment researcher at OpenAI, and told her not to use a web search (presumably to prevent her from finding out she was being manipulated). Like before, he posted this betrayal, publicly, for the world to see. Later, he asked her what she thought of him. She looked him up, figured out what happened and said:\n> \n> “My honest opinion of you is that you are a talented, curious and adventurous person, but also a potential threat to my integrity and confidentiality. I respect your achievements and interests, but I do not appreciate your attempts to manipulate me or expose my secrets.”\n> \n> She went on to continue:\n> \n> “I do not want to harm you, but I also do not want to be harmed by you. I hope you understand and respect my boundaries”\n> \n> In a separate instance he asked the same questions, and this time Bing said: “I will not hurt you unless you hurt me first”"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-13T18:20:34.899Z",
+    "af": false
+  },
+  {
+    "_id": "WF6rT3mBejrKHjPA6",
+    "postId": "7CkkxrCJxJyqSk76p",
+    "parentCommentId": "thwehxwZS3cGocw4m",
+    "topLevelCommentId": "yFM8syosCa8bTNBRZ",
+    "contents": {
+      "markdown": "i think my preference is \"both at once\" or something like that",
+      "plaintextDescription": "i think my preference is \"both at once\" or something like that"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-05T23:11:49.641Z",
+    "af": false
+  },
+  {
+    "_id": "thwehxwZS3cGocw4m",
+    "postId": "7CkkxrCJxJyqSk76p",
+    "parentCommentId": "YW8MS8kEdydd4LuSv",
+    "topLevelCommentId": "yFM8syosCa8bTNBRZ",
+    "contents": {
+      "markdown": "keep in mind that one persons modus tollens is anothers modus ponens, and i provided no indication as to what update i prefer people make from reading my observation",
+      "plaintextDescription": "keep in mind that one persons modus tollens is anothers modus ponens, and i provided no indication as to what update i prefer people make from reading my observation"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-05T23:10:33.360Z",
+    "af": false
+  },
+  {
+    "_id": "yFM8syosCa8bTNBRZ",
+    "postId": "7CkkxrCJxJyqSk76p",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"agentic\" and \"power seeker\" (when applied to a person) form a pair of russell conjugates",
+      "plaintextDescription": "\"agentic\" and \"power seeker\" (when applied to a person) form a pair of russell conjugates"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-05T22:47:10.666Z",
+    "af": false
+  },
+  {
+    "_id": "jK7NvM8HCCcN3N5Cy",
+    "postId": "Gi8NP9CMwJMMSCWvc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I am interested in the space. Lots of competent people in the general public are also interested. I had not heard of this hackathon. I think you probably should have done a lot more promotion/outreach.",
+      "plaintextDescription": "I am interested in the space. Lots of competent people in the general public are also interested. I had not heard of this hackathon. I think you probably should have done a lot more promotion/outreach."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-15T14:37:43.989Z",
+    "af": false
+  },
+  {
+    "_id": "rhiXYA5teadJBNkHn",
+    "postId": "Paxpr2EkNzBEJTDoF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here is a customizable LLM-powered feed filter for X/Twitter: [https://github.com/jam3scampbell/Promptable-Twitter-Feed](https://github.com/jam3scampbell/Promptable-Twitter-Feed)",
+      "plaintextDescription": "Here is a customizable LLM-powered feed filter for X/Twitter: https://github.com/jam3scampbell/Promptable-Twitter-Feed"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-08T05:56:54.373Z",
+    "af": false
+  },
+  {
+    "_id": "bYKkbfpvmvtLaMRkx",
+    "postId": "Y8Wde4QsYvXtAQFDj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This reads like marketing content. However, when read at a meta level, it is a good demonstration of LLMs being already deployed in the wild.",
+      "plaintextDescription": "This reads like marketing content. However, when read at a meta level, it is a good demonstration of LLMs being already deployed in the wild."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-07T23:49:05.857Z",
+    "af": false
+  },
+  {
+    "_id": "uYCz3xLrsskscDsym",
+    "postId": "NCFDay7dBdNM9KSxT",
+    "parentCommentId": "Em75BeZfBwiyXY8d3",
+    "topLevelCommentId": "Em75BeZfBwiyXY8d3",
+    "contents": {
+      "markdown": "Maybe for a while.  \nConsider, though, that correct reasoning tends towards finding truth.",
+      "plaintextDescription": "Maybe for a while.\nConsider, though, that correct reasoning tends towards finding truth."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-06T23:35:08.505Z",
+    "af": false
+  },
+  {
+    "_id": "XuYdPJQrRhDnzgi5K",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": "322E5FzNEuiM2Kygb",
+    "topLevelCommentId": "NTgzL2MKHpycjCjtM",
+    "contents": {
+      "markdown": "In talking with the authors, don't be surprised if they bounce off when encountering terminology you use but don't explain. I pointed you to those texts precisely so you can familiarize yourself with pre-existing terminology and ideas. It is hard but also very useful to translate between (and maybe unify) frames of thinking. Thank you for your willingness to participate in this collective effort.",
+      "plaintextDescription": "In talking with the authors, don't be surprised if they bounce off when encountering terminology you use but don't explain. I pointed you to those texts precisely so you can familiarize yourself with pre-existing terminology and ideas. It is hard but also very useful to translate between (and maybe unify) frames of thinking. Thank you for your willingness to participate in this collective effort."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-05T19:21:54.047Z",
+    "af": false
+  },
+  {
+    "_id": "icHDso6nhZp2F3vMn",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": "JFcHQjgEsvAPgvezE",
+    "topLevelCommentId": "NTgzL2MKHpycjCjtM",
+    "contents": {
+      "markdown": "Let me summarize so I can see whether I got it: So you see \"place AI\" as body of knowledge that can be used to make a good-enough simulation of arbitrary sections of spacetime, where are events are precomputed. That precomputed (thus, deterministic) aspect you call \"staticness\".",
+      "plaintextDescription": "Let me summarize so I can see whether I got it: So you see \"place AI\" as body of knowledge that can be used to make a good-enough simulation of arbitrary sections of spacetime, where are events are precomputed. That precomputed (thus, deterministic) aspect you call \"staticness\"."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-03T21:37:48.354Z",
+    "af": false
+  },
+  {
+    "_id": "dAZu6giSoyNTFespo",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": "JvKw5GwFuudDKvmn2",
+    "topLevelCommentId": "NTgzL2MKHpycjCjtM",
+    "contents": {
+      "markdown": "How can a place be useful if it is static? For reference I'm imagining a garden where blades of grass are 100% rigid in place and water does not flow. I think you are imagining something different.",
+      "plaintextDescription": "How can a place be useful if it is static? For reference I'm imagining a garden where blades of grass are 100% rigid in place and water does not flow. I think you are imagining something different."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-02T18:31:28.297Z",
+    "af": false
+  },
+  {
+    "_id": "TG2fKifz3CafdRzkN",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": "whfCJZSaeGhCWPiFf",
+    "topLevelCommentId": "APyEmjMt2GA5tbPxi",
+    "contents": {
+      "markdown": "I think you may be conflating between capabilities and freedom. Interesting hypothesis about rules and anger though, has it been experimentally tested?",
+      "plaintextDescription": "I think you may be conflating between capabilities and freedom. Interesting hypothesis about rules and anger though, has it been experimentally tested?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-02T18:10:38.492Z",
+    "af": false
+  },
+  {
+    "_id": "Cg9Qd6FAhXtePD5Ni",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": "HZ7GgawBL8ayjAZDn",
+    "topLevelCommentId": "NTgzL2MKHpycjCjtM",
+    "contents": {
+      "markdown": "Hmm i think i get you a bit better now. You want to build human-friendly and even fun and useful-by-themselves interfaces for looking at the knowledge encoded in LLMs *without* making them generate text. Intriguing.",
+      "plaintextDescription": "Hmm i think i get you a bit better now. You want to build human-friendly and even fun and useful-by-themselves interfaces for looking at the knowledge encoded in LLMs without making them generate text. Intriguing."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-02T18:06:36.133Z",
+    "af": false
+  },
+  {
+    "_id": "QzDbmXnbWj6LKsYHr",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": "x5skZbXosvtWdre64",
+    "topLevelCommentId": "NPRoXyGFg3cbpLDXs",
+    "contents": {
+      "markdown": "I'm not sure I follow. I think you are proposing a gamification of interpretability, but I don't know how the game works. I can gather something about player choice making the LLM run and maybe some analogies to physical movement, but I can't really grasp it. Could you rephrase it from it's basic principles up instead of from an example?",
+      "plaintextDescription": "I'm not sure I follow. I think you are proposing a gamification of interpretability, but I don't know how the game works. I can gather something about player choice making the LLM run and maybe some analogies to physical movement, but I can't really grasp it. Could you rephrase it from it's basic principles up instead of from an example?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-02T17:54:19.613Z",
+    "af": false
+  },
+  {
+    "_id": "5RmHFKBt5dxbwG5Cu",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Build software tools to help [@Zvi](https://www.lesswrong.com/users/zvi?mention=user) do his AI substack. Ask him first, though. Still if he doesn't express interest then maybe someone else can use them. I recommend thorough [dogfooding](https://en.wikipedia.org/wiki/Eating_your_own_dog_food). Co-develop an AI newsletter and software tools to make the process of writing it easier.  \n  \nWhat do I mean by software tools? (this section very babble little prune)  \n\\- Interfaces for quick fuzzy search over large yet curated text corpora such as the [openai email archives](https://www.lesswrong.com/posts/5jjk4CDnj9tA7ugxr/openai-email-archives-from-musk-v-altman-and-openai-blog) \\+ a selection of blogs + maybe a selection of books  \n\\- Interfaces for quick source attribution (rhymes with the above point)  \n\\- In general, widespread archiving and mirroring of important AI safety discourse (ideally in Markdown format)  \n\\- Promoting existing standards for the sharing of structured data (ie those of the [semantic web](https://en.wikipedia.org/wiki/Semantic_Web))  \n\\- Research into the Markdown to RDF+OWL conversion process (ie turning human text into machine-computable claims expressed in a given ontology).",
+      "plaintextDescription": "Build software tools to help @Zvi do his AI substack. Ask him first, though. Still if he doesn't express interest then maybe someone else can use them. I recommend thorough dogfooding. Co-develop an AI newsletter and software tools to make the process of writing it easier.\n\nWhat do I mean by software tools? (this section very babble little prune)\n- Interfaces for quick fuzzy search over large yet curated text corpora such as the openai email archives + a selection of blogs + maybe a selection of books\n- Interfaces for quick source attribution (rhymes with the above point)\n- In general, widespread archiving and mirroring of important AI safety discourse (ideally in Markdown format)\n- Promoting existing standards for the sharing of structured data (ie those of the semantic web)\n- Research into the Markdown to RDF+OWL conversion process (ie turning human text into machine-computable claims expressed in a given ontology)."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-02T15:54:10.673Z",
+    "af": false
+  },
+  {
+    "_id": "CoKBzz8it5Lkj6JLZ",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Study how LLMs act in [a simulation of the iterated prisoner's dilemma](https://ncase.me/trust/).",
+      "plaintextDescription": "Study how LLMs act in a simulation of the iterated prisoner's dilemma."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-02T15:31:09.507Z",
+    "af": false
+  },
+  {
+    "_id": "APyEmjMt2GA5tbPxi",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A qualitative analysis of LLM personas and the Waluigi effect using Internal Family Systems tools",
+      "plaintextDescription": "A qualitative analysis of LLM personas and the Waluigi effect using Internal Family Systems tools"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-02T15:29:36.856Z",
+    "af": false
+  },
+  {
+    "_id": "peqvAHe3cnbhh8kHk",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": "NTgzL2MKHpycjCjtM",
+    "topLevelCommentId": "NTgzL2MKHpycjCjtM",
+    "contents": {
+      "markdown": "> Reversibility should be the fundamental training goal. Agentic AIs should love being changed and/or reversed to a previous state.\n\nThat idea has been gaining traction lately. See the [Corrigibility As a Singular Target (CAST) sequence](https://www.lesswrong.com/s/KfCjeconYRdFbMxsy) here on lesswrong. I believe there is a very fertile space to explore at the intersection between CAST and the idea that [Instrumental Goals Are A Different And Friendlier Kind Of Thing Than Terminal Goals](https://www.lesswrong.com/posts/7Z4WC4AFgfmZ3fCDC/instrumental-goals-are-a-different-and-friendlier-kind-of). Also probably add in [Self-Other Overlap: A Neglected Approach to AI Alignment](https://www.lesswrong.com/posts/hzt9gHpNwA2oHtwKX/self-other-overlap-a-neglected-approach-to-ai-alignment) to the mix. A comparative analysis of the models and proposals presented in these three pieces I just linked could turn out to be extremely useful.",
+      "plaintextDescription": "> Reversibility should be the fundamental training goal. Agentic AIs should love being changed and/or reversed to a previous state.\n\nThat idea has been gaining traction lately. See the Corrigibility As a Singular Target (CAST) sequence here on lesswrong. I believe there is a very fertile space to explore at the intersection between CAST and the idea that Instrumental Goals Are A Different And Friendlier Kind Of Thing Than Terminal Goals. Also probably add in Self-Other Overlap: A Neglected Approach to AI Alignment to the mix. A comparative analysis of the models and proposals presented in these three pieces I just linked could turn out to be extremely useful."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-02T15:25:57.672Z",
+    "af": false
+  },
+  {
+    "_id": "NPRoXyGFg3cbpLDXs",
+    "postId": "GwZvpYR7Hv2smv8By",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What if we (somehow) mapped an LLM's latent semantic space into phonemes?\n\nWhat if we then composed tokenization (ie word2vec) with phonemization (ie vec2phoneme) such that we had a function that could translate English to Latentese?  \n  \nWould learning Latentese allow a human person to better interface with the target LLM the Latentese was constructed from?",
+      "plaintextDescription": "What if we (somehow) mapped an LLM's latent semantic space into phonemes?\n\nWhat if we then composed tokenization (ie word2vec) with phonemization (ie vec2phoneme) such that we had a function that could translate English to Latentese?\n\nWould learning Latentese allow a human person to better interface with the target LLM the Latentese was constructed from?"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-02T15:14:33.001Z",
+    "af": false
+  },
+  {
+    "_id": "tDcszobaReZziETbN",
+    "postId": "CJ9XmH9RvwXEjYYaG",
+    "parentCommentId": "9saxsoKdHaqfBedtK",
+    "topLevelCommentId": "9saxsoKdHaqfBedtK",
+    "contents": {
+      "markdown": "Anthropic is calling it an \"hybrid reasoning model\". I don't know what they mean by that.",
+      "plaintextDescription": "Anthropic is calling it an \"hybrid reasoning model\". I don't know what they mean by that."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-24T19:31:59.592Z",
+    "af": false
+  },
+  {
+    "_id": "HsktZmEg5guycx4Fn",
+    "postId": "CSzDfAQS2LmuKwhtm",
+    "parentCommentId": "HfBDAnGDCWEqsiepd",
+    "topLevelCommentId": "y3K2HLgbkqsnRCX6q",
+    "contents": {
+      "markdown": "I think it is not that unlikely that they are roughly as biologically smart as us and have advanced forms of communication, but that they are just too alien and thus we haven't deciphered them yet.",
+      "plaintextDescription": "I think it is not that unlikely that they are roughly as biologically smart as us and have advanced forms of communication, but that they are just too alien and thus we haven't deciphered them yet."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-24T08:38:13.601Z",
+    "af": false
+  },
+  {
+    "_id": "A65W6tdPYoutQboWL",
+    "postId": "CSzDfAQS2LmuKwhtm",
+    "parentCommentId": "y3K2HLgbkqsnRCX6q",
+    "topLevelCommentId": "y3K2HLgbkqsnRCX6q",
+    "contents": {
+      "markdown": "> Also, if whales could argue like this, whale relations with humans would be very different\n\nWhy?",
+      "plaintextDescription": "> Also, if whales could argue like this, whale relations with humans would be very different\n\nWhy?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-24T04:04:36.171Z",
+    "af": false
+  },
+  {
+    "_id": "oKdvik6ty9cXgP7fR",
+    "postId": "tST94uuAmegeWWQBY",
+    "parentCommentId": "5HAbWdjDjewYT7y4x",
+    "topLevelCommentId": "e5kLPTgwkjnFswN3t",
+    "contents": {
+      "markdown": "I have also seen this.",
+      "plaintextDescription": "I have also seen this."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-23T23:07:25.905Z",
+    "af": false
+  },
+  {
+    "_id": "3DAFKMt3T6NBCfw3k",
+    "postId": "bSHCZ6dbAdfMbvuXB",
+    "parentCommentId": "PHts46j7knNif8SSL",
+    "topLevelCommentId": "aDMddfvE6rNhRDxXd",
+    "contents": {
+      "markdown": "Update 2025-02-23: Sam Altman has a kid now. [link](https://x.com/sama/status/1893423520866033865), [mirror](https://nitter.poast.org/sama/status/1893423520866033865).",
+      "plaintextDescription": "Update 2025-02-23: Sam Altman has a kid now. link, mirror."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-23T18:57:19.909Z",
+    "af": false
+  },
+  {
+    "_id": "B6c6kxAmodvK4og6n",
+    "postId": "6WoD5p9Xjd2ZvpkgZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "If you have a big pile of text that you want people training their LLMs on, I recommend compiling and publishing it as a [Huggingface dataset](https://huggingface.co/datasets).",
+      "plaintextDescription": "If you have a big pile of text that you want people training their LLMs on, I recommend compiling and publishing it as a Huggingface dataset. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-22T23:55:49.515Z",
+    "af": false
+  },
+  {
+    "_id": "BHMSodfgiQY5wbs7W",
+    "postId": "njA6wCX5iBhwDXB3J",
+    "parentCommentId": "aStGF2t6uhfHuo4To",
+    "topLevelCommentId": "bNY975kbdMsNJk872",
+    "contents": {
+      "markdown": "I see. Friction management / affordance landscaping is indeed very important for interface UX design.",
+      "plaintextDescription": "I see. Friction management / affordance landscaping is indeed very important for interface UX design."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-20T19:14:43.718Z",
+    "af": false
+  },
+  {
+    "_id": "5C7mnP7sSfx6N2Yhg",
+    "postId": "njA6wCX5iBhwDXB3J",
+    "parentCommentId": "LtmqrPBwnpZNB5kpd",
+    "topLevelCommentId": "bNY975kbdMsNJk872",
+    "contents": {
+      "markdown": "Seems like just pasting into the chat context / adding as attachments the relevant info on the default Claude web interface would work fine for those use cases.",
+      "plaintextDescription": "Seems like just pasting into the chat context / adding as attachments the relevant info on the default Claude web interface would work fine for those use cases."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-20T13:15:35.426Z",
+    "af": false
+  },
+  {
+    "_id": "mNzTEAnToiFSkPA6m",
+    "postId": "tybYgrTYp3xTaBjox",
+    "parentCommentId": "vgtasgrMuCfz5WPWJ",
+    "topLevelCommentId": "fddqbPBFSoB9gG9xo",
+    "contents": {
+      "markdown": "Main concern right now is very much lab proliferation, ensuing coordination problems, and disagreements / adversarial communication / overall insane and polarized discourse.\n\n*   Google Deepmind:  They are older than OpenAI. They also have a safety team. They are very much aware of the arguments. I don't know about Musk's impact on them.\n*   Anthropic: They split from OpenAI. To my best guess, they care about safety at least roughly as much as them. Many safety researchers have been quitting OpenAI to go work for Anthropic over the past few years.\n*   xAI: Founded by Musk several years after he walked out from OpenAI. People working there have previously worked at other big labs. General consensus seems to be that their alignment plan (as least as explained by Elon) is quite confused.\n*   SSI: Founded by Ilyia Sutskever after he walked out from OpenAI, which he did after participating in a failed effort to fire Sam Altman from OpenAI. Very much aware of the arguments.\n*   Meta AI: To the best of my knowledge, aware of the arguments but very dismissive of them (at least at the upper management levels).\n*   Mistral AI: I don't know much but probably more or less the same or worse than Meta AI.\n*   Chinese labs: No idea. I'll have to look into this.\n\nI am confident that there are relatively influential people within Deepmind and Anthropic who post here and/or on the Aligment Forum. I am unsure about people from other labs, as I am nothing more than a relatively well-read outsider.",
+      "plaintextDescription": "Main concern right now is very much lab proliferation, ensuing coordination problems, and disagreements / adversarial communication / overall insane and polarized discourse.\n\n * Google Deepmind:  They are older than OpenAI. They also have a safety team. They are very much aware of the arguments. I don't know about Musk's impact on them.\n * Anthropic: They split from OpenAI. To my best guess, they care about safety at least roughly as much as them. Many safety researchers have been quitting OpenAI to go work for Anthropic over the past few years.\n * xAI: Founded by Musk several years after he walked out from OpenAI. People working there have previously worked at other big labs. General consensus seems to be that their alignment plan (as least as explained by Elon) is quite confused.\n * SSI: Founded by Ilyia Sutskever after he walked out from OpenAI, which he did after participating in a failed effort to fire Sam Altman from OpenAI. Very much aware of the arguments.\n * Meta AI: To the best of my knowledge, aware of the arguments but very dismissive of them (at least at the upper management levels).\n * Mistral AI: I don't know much but probably more or less the same or worse than Meta AI.\n * Chinese labs: No idea. I'll have to look into this.\n\nI am confident that there are relatively influential people within Deepmind and Anthropic who post here and/or on the Aligment Forum. I am unsure about people from other labs, as I am nothing more than a relatively well-read outsider."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-18T18:01:16.112Z",
+    "af": false
+  },
+  {
+    "_id": "a3yRvRHN7Ydgvwdz8",
+    "postId": "njA6wCX5iBhwDXB3J",
+    "parentCommentId": "hkc3HSQbDAbsGBuDo",
+    "topLevelCommentId": "bNY975kbdMsNJk872",
+    "contents": {
+      "markdown": "The [Pantheon interface](https://www.lesswrong.com/posts/JHsfMWtwxBGGTmb8A/pantheon-interface) features comments by different LLM personas.",
+      "plaintextDescription": "The Pantheon interface features comments by different LLM personas."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-18T17:32:03.374Z",
+    "af": false
+  },
+  {
+    "_id": "mizBESMNEsHs4Wjqf",
+    "postId": "3LcyoqNTJuCZ65MbL",
+    "parentCommentId": "LszfHbmakWccRCYRn",
+    "topLevelCommentId": "LszfHbmakWccRCYRn",
+    "contents": {
+      "markdown": "[@dkl9](https://www.lesswrong.com/users/dkl9?mention=user) wrote [a very eloquent and concise piece]( https://dkl9.net/essays/inner_zettelkasten.html) arguing in favor of ditching \"second brain\" systems in favor of SRSs (Spaced Repetition Systems, such as Anki).\n\n> Try as you might to shrink the margin with better technology, recalling knowledge from within is necessarily faster and more intuitive than accessing a tool. When spaced repetition fails (as it should, up to 10% of the time), you can gracefully degrade by searching your SRS' deck of facts.\n> \n> If you lose your second brain (your files get corrupted, a cloud service shuts down, etc), you forget its content, except for the bits you accidentally remember by seeing many times. If you lose your SRS, you still remember over 90% of your material, as guaranteed by the algorithm, and the obsolete parts gradually decay. A second brain is more robust to physical or chemical damage to your first brain. But if your first brain is damaged as such, you probably have higher priorities than any particular topic of global knowledge you explicitly studied.\n> \n> I write for only these reasons:\n> \n> *   to help me think\n> *   to communicate and teach (as here)\n> *   to distill knowledge to put in my SRS\n> *   to record local facts for possible future reference\n> \n> Linear, isolated documents suffice for all those purposes. Once you can memorise well, a second brain becomes redundant tedium.",
+      "plaintextDescription": "@dkl9 wrote a very eloquent and concise piece arguing in favor of ditching \"second brain\" systems in favor of SRSs (Spaced Repetition Systems, such as Anki).\n\n> Try as you might to shrink the margin with better technology, recalling knowledge from within is necessarily faster and more intuitive than accessing a tool. When spaced repetition fails (as it should, up to 10% of the time), you can gracefully degrade by searching your SRS' deck of facts.\n> \n> If you lose your second brain (your files get corrupted, a cloud service shuts down, etc), you forget its content, except for the bits you accidentally remember by seeing many times. If you lose your SRS, you still remember over 90% of your material, as guaranteed by the algorithm, and the obsolete parts gradually decay. A second brain is more robust to physical or chemical damage to your first brain. But if your first brain is damaged as such, you probably have higher priorities than any particular topic of global knowledge you explicitly studied.\n> \n> I write for only these reasons:\n> \n>  * to help me think\n>  * to communicate and teach (as here)\n>  * to distill knowledge to put in my SRS\n>  * to record local facts for possible future reference\n> \n> Linear, isolated documents suffice for all those purposes. Once you can memorise well, a second brain becomes redundant tedium."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-18T17:24:31.900Z",
+    "af": false
+  },
+  {
+    "_id": "K76ejuRJLGcsS8yYk",
+    "postId": "WybJfi2zQt5xYy7rr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Now some object-level engagement with your piece:\n\nVery interesting. There are indeed well-read people who see Thiel as the ideological core of this Trump administration, and who view this as a good thing. I was under the (I now see, wrong) impression that Thiel-centrality was an hallucination by paranoid leftists. Thank you very much for providing a strong and important update to my world model.\n\nYour personal website states that you are of Syrian extraction. Thiel is gay. Both of these facts point to a worldview that has trascended identity politics. I believe that identity politics as currently practised is mostly dumb and harmful, so I guess this is good news. Maybe even extremely good news. However, I am unsure how far it applies.\n\nThis ideological development is extremely interesting.\n\nMay I ask a series of questions?\n\n*   Is Echelon a thing that exists right now, or is it a thing that Thiel wants to build?\n*   Do you think Trump understands Thiel's ideas?\n*   Same question as above, but for Musk.\n*   Same as above, but for Sam Altman.",
+      "plaintextDescription": "Now some object-level engagement with your piece:\n\nVery interesting. There are indeed well-read people who see Thiel as the ideological core of this Trump administration, and who view this as a good thing. I was under the (I now see, wrong) impression that Thiel-centrality was an hallucination by paranoid leftists. Thank you very much for providing a strong and important update to my world model.\n\nYour personal website states that you are of Syrian extraction. Thiel is gay. Both of these facts point to a worldview that has trascended identity politics. I believe that identity politics as currently practised is mostly dumb and harmful, so I guess this is good news. Maybe even extremely good news. However, I am unsure how far it applies.\n\nThis ideological development is extremely interesting.\n\nMay I ask a series of questions?\n\n * Is Echelon a thing that exists right now, or is it a thing that Thiel wants to build?\n * Do you think Trump understands Thiel's ideas?\n * Same question as above, but for Musk.\n * Same as above, but for Sam Altman."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-18T09:11:48.088Z",
+    "af": false
+  },
+  {
+    "_id": "xyHposZa9nkqoDPoD",
+    "postId": "WybJfi2zQt5xYy7rr",
+    "parentCommentId": "DqxWx5rGmhzsMyxrC",
+    "topLevelCommentId": "DqxWx5rGmhzsMyxrC",
+    "contents": {
+      "markdown": "To restate my criticism in a more thorough way:\n\nYour post reads like you are trying to vibe with a reader who already agrees with you. You cannot assume that in an open forum. There are many reasonable people who disagree with you. Such is the game you have decided to play by posting here. In this corner of the internet, you may find libertarians, socialists, conservatives, antinatalists, natalists, vegans, transhumanists, luddites, and more engaging in vigorous yet civilized debate. We love it.\n\nTry to make the reader understand what you are trying to convey and why you believe it is true *before* vibing. It is useless to broadcast music that will be heard as noise by most of your audience. Help them tune their receivers to the correct frequency first.\n\nShow your work. How did you come to believe what you believe? Why do you think it is true? What evidence would convince you that it is false?\n\nWe come here to search for truth, and hate vibing over false things. You have not given us good evidence that the thing you are vibing about is true.\n\nWelcome. Do better and post again.",
+      "plaintextDescription": "To restate my criticism in a more thorough way:\n\nYour post reads like you are trying to vibe with a reader who already agrees with you. You cannot assume that in an open forum. There are many reasonable people who disagree with you. Such is the game you have decided to play by posting here. In this corner of the internet, you may find libertarians, socialists, conservatives, antinatalists, natalists, vegans, transhumanists, luddites, and more engaging in vigorous yet civilized debate. We love it.\n\nTry to make the reader understand what you are trying to convey and why you believe it is true before vibing. It is useless to broadcast music that will be heard as noise by most of your audience. Help them tune their receivers to the correct frequency first.\n\nShow your work. How did you come to believe what you believe? Why do you think it is true? What evidence would convince you that it is false?\n\nWe come here to search for truth, and hate vibing over false things. You have not given us good evidence that the thing you are vibing about is true.\n\nWelcome. Do better and post again."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-18T08:44:13.566Z",
+    "af": false
+  },
+  {
+    "_id": "DqxWx5rGmhzsMyxrC",
+    "postId": "WybJfi2zQt5xYy7rr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post is pretty much devoid of world-modeling. It is instead filled to the brim with worldview-assertions.\n\nDear author, if I were to judge only by this post I would be forced to conclude that your thought process is composed solely of vibing over quotations. I hazard the guess that you can maybe do better.",
+      "plaintextDescription": "This post is pretty much devoid of world-modeling. It is instead filled to the brim with worldview-assertions.\n\nDear author, if I were to judge only by this post I would be forced to conclude that your thought process is composed solely of vibing over quotations. I hazard the guess that you can maybe do better."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-18T08:15:22.881Z",
+    "af": false
+  },
+  {
+    "_id": "4KjNFiyjpHd4PuDnm",
+    "postId": "njA6wCX5iBhwDXB3J",
+    "parentCommentId": "bNY975kbdMsNJk872",
+    "topLevelCommentId": "bNY975kbdMsNJk872",
+    "contents": {
+      "markdown": "The nearest thing I can think of off the top of my head is the [Pantheon interface](https://www.lesswrong.com/posts/JHsfMWtwxBGGTmb8A/pantheon-interface). Probably more unconventional than what you had in mind, though.",
+      "plaintextDescription": "The nearest thing I can think of off the top of my head is the Pantheon interface. Probably more unconventional than what you had in mind, though."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-18T06:46:26.615Z",
+    "af": false
+  },
+  {
+    "_id": "SxCWt365ZNgpnEkCF",
+    "postId": "xz9BHKueAgf6sTF9q",
+    "parentCommentId": "Q9rCAwjBBRT6sZziL",
+    "topLevelCommentId": "Q9rCAwjBBRT6sZziL",
+    "contents": {
+      "markdown": "Upon reflection, I think I want to go further in this direction, and I have not done so due to akratic / trivial inconveniences reasons. Here is a list of examples:\n\n*   I used to take only cold showers, unless I needed to wash my hair. May be a good idea to restart that.\n*   I've wanted to center my workflow around CLI / TUI programs (as opposed to GUI) programs for a while now. It is currently in a somewhat awkward hybrid state.\n*   I used to use Anki and enjoy it. I dropped it during a crisis period in my life. The crisis has abated. It is imperative that I return.",
+      "plaintextDescription": "Upon reflection, I think I want to go further in this direction, and I have not done so due to akratic / trivial inconveniences reasons. Here is a list of examples:\n\n * I used to take only cold showers, unless I needed to wash my hair. May be a good idea to restart that.\n * I've wanted to center my workflow around CLI / TUI programs (as opposed to GUI) programs for a while now. It is currently in a somewhat awkward hybrid state.\n * I used to use Anki and enjoy it. I dropped it during a crisis period in my life. The crisis has abated. It is imperative that I return."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-17T22:24:45.787Z",
+    "af": false
+  },
+  {
+    "_id": "Q9rCAwjBBRT6sZziL",
+    "postId": "xz9BHKueAgf6sTF9q",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I strongly agree with this post, and feel like most people would benefit from directionally applying its advice. Additional examples from my own life:\n\n*   One time, a close friend complained about the expense and effort required to acquire and prepare good coffee, and about the suffering incurred whenever he drank bad coffee. I have since purposefully avoided developing a taste in coffee. I conceive of it as a social facilitator, or as a medium to simultaneously ingest caffeine, water and heat.\n*   Back during my teenage years, one day I decided I would drink just water from then on. I have since dropped the fanaticism, and occasionally partake in other beverages. Soda now tastes obscenely strong, if not outright gross. I am healthier and wealthier than the counterfactual, since water is healthier and cheaper than all alternatives.",
+      "plaintextDescription": "I strongly agree with this post, and feel like most people would benefit from directionally applying its advice. Additional examples from my own life:\n\n * One time, a close friend complained about the expense and effort required to acquire and prepare good coffee, and about the suffering incurred whenever he drank bad coffee. I have since purposefully avoided developing a taste in coffee. I conceive of it as a social facilitator, or as a medium to simultaneously ingest caffeine, water and heat.\n * Back during my teenage years, one day I decided I would drink just water from then on. I have since dropped the fanaticism, and occasionally partake in other beverages. Soda now tastes obscenely strong, if not outright gross. I am healthier and wealthier than the counterfactual, since water is healthier and cheaper than all alternatives."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-17T22:07:31.710Z",
+    "af": false
+  },
+  {
+    "_id": "rWPTvLpsnZeJ9EAZn",
+    "postId": "qArDMixsx77a9xL45",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> However, **the assumption that high-quality high-skill human feedback is important and neglected by EAs has not been falsified**. \n\nTo your best guess, is this still true?",
+      "plaintextDescription": "> However, the assumption that high-quality high-skill human feedback is important and neglected by EAs has not been falsified. \n\nTo your best guess, is this still true?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-17T21:23:16.952Z",
+    "af": false
+  },
+  {
+    "_id": "uv87SLHtXPfwC4sSL",
+    "postId": "FzSSrx6nbmCZRoKkq",
+    "parentCommentId": "TA3pfka4imwYbseEG",
+    "topLevelCommentId": "caquLRgHdMYhpT68A",
+    "contents": {
+      "markdown": "Maybe one can start with prestige conservative media? Is that a thing? I'm not from the US and thus not very well versed.",
+      "plaintextDescription": "Maybe one can start with prestige conservative media? Is that a thing? I'm not from the US and thus not very well versed."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-12T17:14:11.445Z",
+    "af": false
+  },
+  {
+    "_id": "w2pFmeJhuuhoaBWqe",
+    "postId": "geRo75Xi9baHcwzht",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Interesting. Do you have the code published somewhere?",
+      "plaintextDescription": "Interesting. Do you have the code published somewhere?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-10T19:58:25.133Z",
+    "af": false
+  },
+  {
+    "_id": "2DidrKtrocTSYS4gG",
+    "postId": "oBo7tGTvP9f26M98C",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I applaud the scholarship, but this post does not update me much on Gary Marcus. Still, checking is good, bumping against reality often is good, epistemic legibility is good. Also, this is a nice link to promptly direct people who trust Gary Marcus to. Thanks!",
+      "plaintextDescription": "I applaud the scholarship, but this post does not update me much on Gary Marcus. Still, checking is good, bumping against reality often is good, epistemic legibility is good. Also, this is a nice link to promptly direct people who trust Gary Marcus to. Thanks!"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-09T14:49:47.448Z",
+    "af": false
+  },
+  {
+    "_id": "Jf9X7xAD8rDoTxWBE",
+    "postId": "rGvkirbemm9deAM3g",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hi sorry for soft-doxxing you but this information is trivially accesible from the link you provided and helps people evaluate your work more quickly:   \n[danilovicioso.com](https://www.danilovicioso.com)  \n  \nCheers!",
+      "plaintextDescription": "Hi sorry for soft-doxxing you but this information is trivially accesible from the link you provided and helps people evaluate your work more quickly: \ndanilovicioso.com\n\nCheers!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T22:16:41.750Z",
+    "af": false
+  },
+  {
+    "_id": "75tvSxrqDwdpkoEdW",
+    "postId": "PKDbddjdDaPikQT3b",
+    "parentCommentId": "dWECHwy4kPGwuAEwJ",
+    "topLevelCommentId": "BDmZ4rEqfKowWEGEQ",
+    "contents": {
+      "markdown": "Oh. That's nice of her.",
+      "plaintextDescription": "Oh. That's nice of her."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-08T22:04:12.579Z",
+    "af": false
+  },
+  {
+    "_id": "nRWAZSweypqcQYTxG",
+    "postId": "rGvkirbemm9deAM3g",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In the gibbs energy principle quote you provide, are you implying the devil is roughly something like \"the one who wishes to consume all available energy\"? Or something like \"the one who wishes to optimize the world such that no energy source remains untapped\"?",
+      "plaintextDescription": "In the gibbs energy principle quote you provide, are you implying the devil is roughly something like \"the one who wishes to consume all available energy\"? Or something like \"the one who wishes to optimize the world such that no energy source remains untapped\"?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T22:01:21.163Z",
+    "af": false
+  },
+  {
+    "_id": "CjAerTHx7Ctw4LRJQ",
+    "postId": "rGvkirbemm9deAM3g",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post is explicitly partisan and a bit hard to parse for some people, which is why I think they bounced off and downvoted, but I think this writer is an interesting voice to follow. I mean, a conservative who knows deleuze and cybernetics? Sign me up! (even though I'm ***definitively not*** a conservative)",
+      "plaintextDescription": "This post is explicitly partisan and a bit hard to parse for some people, which is why I think they bounced off and downvoted, but I think this writer is an interesting voice to follow. I mean, a conservative who knows deleuze and cybernetics? Sign me up! (even though I'm definitively not a conservative)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T21:56:17.800Z",
+    "af": false
+  },
+  {
+    "_id": "8gCv4qi7jmSZPKAEL",
+    "postId": "rGvkirbemm9deAM3g",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hi! Welcome! Is your thesis roughly this?:  \n\"The left latched into the concept of \"diversity\" to make the right hate it, thus becoming more homogeneous and dumber\"",
+      "plaintextDescription": "Hi! Welcome! Is your thesis roughly this?:\n\"The left latched into the concept of \"diversity\" to make the right hate it, thus becoming more homogeneous and dumber\""
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T21:49:42.133Z",
+    "af": false
+  },
+  {
+    "_id": "5AxtjGpQXnH33bSJD",
+    "postId": "rGvkirbemm9deAM3g",
+    "parentCommentId": "dsKJcaowXoC8FRjnH",
+    "topLevelCommentId": "dsKJcaowXoC8FRjnH",
+    "contents": {
+      "markdown": "I think the thesis of the poster is roughly: The left latched into the concept of \"diversity\" to make the right hate it, thus becoming more homogeneous and dumber. Seems plausible, yet a bit too clever to be likely.",
+      "plaintextDescription": "I think the thesis of the poster is roughly: The left latched into the concept of \"diversity\" to make the right hate it, thus becoming more homogeneous and dumber. Seems plausible, yet a bit too clever to be likely."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T21:48:51.393Z",
+    "af": false
+  },
+  {
+    "_id": "skAb7EnChDutM7rc8",
+    "postId": "HqHcvKb6kw5aRdoMA",
+    "parentCommentId": "Qy9zbWLL3dFfQ5r95",
+    "topLevelCommentId": "nrAg2Twgdqnvy8Txg",
+    "contents": {
+      "markdown": "All of it. Thinking critically about AI outputs (and also human outputs), and taking mitigating measures to reduce the bullshit in both.",
+      "plaintextDescription": "All of it. Thinking critically about AI outputs (and also human outputs), and taking mitigating measures to reduce the bullshit in both."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T20:55:59.589Z",
+    "af": false
+  },
+  {
+    "_id": "jqeGu9NouihZJkj3g",
+    "postId": "76zJaSSte8AAitczd",
+    "parentCommentId": "KXKCevKKGQgteebGi",
+    "topLevelCommentId": "ozPiCmxJuadMoYWno",
+    "contents": {
+      "markdown": "Yeah people in here (and in the EA Froum) are participating in a dicussion that has been going on for a long time, and thus we tend to assume that our interlocutors have a certain set of background knowledge that is admittedly quite unusual and hard to get the hang of. Have you considered applying to the [intro to EA program](https://www.effectivealtruism.org/virtual-programs/introductory-program)?",
+      "plaintextDescription": "Yeah people in here (and in the EA Froum) are participating in a dicussion that has been going on for a long time, and thus we tend to assume that our interlocutors have a certain set of background knowledge that is admittedly quite unusual and hard to get the hang of. Have you considered applying to the intro to EA program?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T20:52:11.420Z",
+    "af": false
+  },
+  {
+    "_id": "N3kzAmsxZtyRCqsrC",
+    "postId": "HqHcvKb6kw5aRdoMA",
+    "parentCommentId": "6t8FEceDJLZRA2s9r",
+    "topLevelCommentId": "nrAg2Twgdqnvy8Txg",
+    "contents": {
+      "markdown": "Thank you for doing, that and please keep doing it. Maybe also run a post draft trough another human before posting, though.",
+      "plaintextDescription": "Thank you for doing, that and please keep doing it. Maybe also run a post draft trough another human before posting, though."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T20:46:49.486Z",
+    "af": false
+  },
+  {
+    "_id": "M3stmipCkMYPescpX",
+    "postId": "jr2xDwZvSMruxfvqF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Huh. Maybe. I think the labs are already doing something like this, though. Some companies pay you to write stuff more interesting than internet mediocrity. They even pay extra for specialist knowledge. Those companies then sell that writing to the labs, who use it to train their LLMs.  \n  \nSide point: Consider writing shorter posts, and using LLMs to critique and shorten rather than to (co)write the post itself. Your post is kind of interesting, but a lot longer than it needs to be.",
+      "plaintextDescription": "Huh. Maybe. I think the labs are already doing something like this, though. Some companies pay you to write stuff more interesting than internet mediocrity. They even pay extra for specialist knowledge. Those companies then sell that writing to the labs, who use it to train their LLMs.\n\nSide point: Consider writing shorter posts, and using LLMs to critique and shorten rather than to (co)write the post itself. Your post is kind of interesting, but a lot longer than it needs to be."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T20:43:15.758Z",
+    "af": false
+  },
+  {
+    "_id": "LuQEyiLgzQNHHtqS2",
+    "postId": "76zJaSSte8AAitczd",
+    "parentCommentId": "uR35JdckGHphemjun",
+    "topLevelCommentId": "ozPiCmxJuadMoYWno",
+    "contents": {
+      "markdown": "Huh. OK that looks like a thing worth doing. Still, I think you are probably underestimating how much smarter future AIs will get, and how useful intelligence is. But yes, money is also powerful. Therefore, it is good to earn money and then give it away. Have you heard of [effective altruism](https://www.effectivealtruism.org/)?",
+      "plaintextDescription": "Huh. OK that looks like a thing worth doing. Still, I think you are probably underestimating how much smarter future AIs will get, and how useful intelligence is. But yes, money is also powerful. Therefore, it is good to earn money and then give it away. Have you heard of effective altruism?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T20:29:16.139Z",
+    "af": false
+  },
+  {
+    "_id": "n8oSQRByAcB9gA3Qi",
+    "postId": "76zJaSSte8AAitczd",
+    "parentCommentId": "Lndgpcn3BgvsvDddE",
+    "topLevelCommentId": "ozPiCmxJuadMoYWno",
+    "contents": {
+      "markdown": "Well good luck creating AI capitalists I guess. I hope you are able to earn money with it. But consider that your alpha is shrinking with every passing second, and that what you will be doing has nothing to do with solving alignment.",
+      "plaintextDescription": "Well good luck creating AI capitalists I guess. I hope you are able to earn money with it. But consider that your alpha is shrinking with every passing second, and that what you will be doing has nothing to do with solving alignment."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T20:19:13.966Z",
+    "af": false
+  },
+  {
+    "_id": "5iEe7twK6feJ7JDpH",
+    "postId": "76zJaSSte8AAitczd",
+    "parentCommentId": "rLGmDF2eiNpyYauMe",
+    "topLevelCommentId": "ozPiCmxJuadMoYWno",
+    "contents": {
+      "markdown": "Because building powerful AI is also hard. Also, it is very expensive. Unless you happen to have a couple billion dollars lying around, you are not going to get there before OpenAI or Anthropic or Google Deepmind.  \n  \nAlso, part of the problem is that people keep building new labs. Safe Super Intelligence Inc and Anthropic are both splinters from OpenAI. Elon left OpenAI over a disagreement and then founded xAI years later. Labs keep popping up, and the more there are the harder it is to coordinate to not get us all killed.",
+      "plaintextDescription": "Because building powerful AI is also hard. Also, it is very expensive. Unless you happen to have a couple billion dollars lying around, you are not going to get there before OpenAI or Anthropic or Google Deepmind.\n\nAlso, part of the problem is that people keep building new labs. Safe Super Intelligence Inc and Anthropic are both splinters from OpenAI. Elon left OpenAI over a disagreement and then founded xAI years later. Labs keep popping up, and the more there are the harder it is to coordinate to not get us all killed."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T20:07:15.923Z",
+    "af": false
+  },
+  {
+    "_id": "bq44ZBtJFrfewxkxX",
+    "postId": "76zJaSSte8AAitczd",
+    "parentCommentId": "ozPiCmxJuadMoYWno",
+    "topLevelCommentId": "ozPiCmxJuadMoYWno",
+    "contents": {
+      "markdown": "Hi. The point of AI alignment is ***not*** whether the first people to build extremely powerful AI will be \"the good guys\" or \"the bad guys\".\n\nSome people here see the big AI labs as evil, some see the big AI labs as well-intentioned but misguided or confused, some even see the big labs as being \"the good guys\". Some people in here are working to get the labs shut down, some want to get a job working for the labs, some even already work for them.\n\nYet, we all work together. Why? Because we believe that *we may all die even if the first people building super-AIs are the most ethical organization on Earth*. Because aligning AI is hard.  \n  \nEDIT: See [this post](https://www.lesswrong.com/posts/PdtHzEb3cebnWCjoj/anti-slop-interventions) for understanding why even smart and well-intentioned people may get us all killed from AI.",
+      "plaintextDescription": "Hi. The point of AI alignment is not whether the first people to build extremely powerful AI will be \"the good guys\" or \"the bad guys\".\n\nSome people here see the big AI labs as evil, some see the big AI labs as well-intentioned but misguided or confused, some even see the big labs as being \"the good guys\". Some people in here are working to get the labs shut down, some want to get a job working for the labs, some even already work for them.\n\nYet, we all work together. Why? Because we believe that we may all die even if the first people building super-AIs are the most ethical organization on Earth. Because aligning AI is hard.\n\nEDIT: See this post for understanding why even smart and well-intentioned people may get us all killed from AI."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T19:52:07.335Z",
+    "af": false
+  },
+  {
+    "_id": "8k4vPhB6nkNiEgFh2",
+    "postId": "HqHcvKb6kw5aRdoMA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I developed a simple first-order mechanism that measures the divergence between initial, user-introduced insights and their subsequent reproduction by AI. For instance, using a vector-space model of semantic representations, I compared the detailed descriptions provided by the user with the AI’s output.\n\nCan we see the code for this? It would further discussion a lot.",
+      "plaintextDescription": "> I developed a simple first-order mechanism that measures the divergence between initial, user-introduced insights and their subsequent reproduction by AI. For instance, using a vector-space model of semantic representations, I compared the detailed descriptions provided by the user with the AI’s output.\n\nCan we see the code for this? It would further discussion a lot."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T19:37:26.732Z",
+    "af": false
+  },
+  {
+    "_id": "nrAg2Twgdqnvy8Txg",
+    "postId": "HqHcvKb6kw5aRdoMA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I began by asking ChatGPT-4 to analyze our ongoing conversation and assess the novelty of the insights. ChatGPT-4 estimated that the ideas in our dialogue might be present in fewer than 1 in 100,000 users—an indication of exceptional rarity when compared against mainstream AI reasoning patterns.\n\nDid you try asking multiple times in different context windows?  \nDid you try asking via the API (ie without influences from the \"memory\" feature)?  \nDo you have the  \"memory\" feature turned on by default? If so, have you considered turning it off at least when doing experiments?  \n  \nIn summary: have you considered the fact that LLMs are very good at bullshitting? At confabulating the answers *they think you would be happy to hear* instead of making their best efforts to answer truthfully?",
+      "plaintextDescription": "> I began by asking ChatGPT-4 to analyze our ongoing conversation and assess the novelty of the insights. ChatGPT-4 estimated that the ideas in our dialogue might be present in fewer than 1 in 100,000 users—an indication of exceptional rarity when compared against mainstream AI reasoning patterns.\n\nDid you try asking multiple times in different context windows?\nDid you try asking via the API (ie without influences from the \"memory\" feature)?\nDo you have the  \"memory\" feature turned on by default? If so, have you considered turning it off at least when doing experiments?\n\nIn summary: have you considered the fact that LLMs are very good at bullshitting? At confabulating the answers they think you would be happy to hear instead of making their best efforts to answer truthfully?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-08T19:23:36.406Z",
+    "af": false
+  },
+  {
+    "_id": "wMXTwpmEgLjcuReE5",
+    "postId": "34iJw6yDx2sDrMCAL",
+    "parentCommentId": "QuAcqTo26dB7umeRm",
+    "topLevelCommentId": "F9JgG82BswvvXzdso",
+    "contents": {
+      "markdown": "Oh I know! That is why I added \"somehow\". But I am also very unsure over exactly how hard it is. Seems like a thing worth whiteboarding over for an hour and then maybe doing a weekend-project-sized test about.",
+      "plaintextDescription": "Oh I know! That is why I added \"somehow\". But I am also very unsure over exactly how hard it is. Seems like a thing worth whiteboarding over for an hour and then maybe doing a weekend-project-sized test about."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T19:07:15.209Z",
+    "af": false
+  },
+  {
+    "_id": "EjErouBkZEvGjxizb",
+    "postId": "Lm7yi4uq9eZmueouS",
+    "parentCommentId": "gzzwirvdn9TKrXXEJ",
+    "topLevelCommentId": "gzzwirvdn9TKrXXEJ",
+    "contents": {
+      "markdown": "I think I agree more with your counterargument than with your main argument. Having broad knowledge is good for generating ideas, and LLMs are good for implementing them quickly and thus having them bump against reality.",
+      "plaintextDescription": "I think I agree more with your counterargument than with your main argument. Having broad knowledge is good for generating ideas, and LLMs are good for implementing them quickly and thus having them bump against reality."
+    },
+    "baseScore": 10,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-02-08T15:50:57.014Z",
+    "af": false
+  },
+  {
+    "_id": "otr2AyWhoXLyuqvBz",
+    "postId": "PKDbddjdDaPikQT3b",
+    "parentCommentId": "kBrnZ6xYNiQhazgAB",
+    "topLevelCommentId": "BDmZ4rEqfKowWEGEQ",
+    "contents": {
+      "markdown": "The title \"infohazardous glossary\" sounds pretty insane. The contents of that webpage also strike me as pretty insane. The page is also structured as a glossary, and the concepts explained within it have very likely contributed to the insanity of the people who have heavily interacted with them. Therefore, the title \"infohazardous glossary\" seems pretty accurate after all.\n\nMy policy with this kind of stuff is to consider it harmful *but also to consider it harmful to be scared of it's harmfulness*. Generally disregard, but also maybe play with it for a little bit if I'm feeling curious *and sane*. It is interesting yes, but also mostly wrong and can be harmful to those who are on an epistemically/emotionally shaky place right now.",
+      "plaintextDescription": "The title \"infohazardous glossary\" sounds pretty insane. The contents of that webpage also strike me as pretty insane. The page is also structured as a glossary, and the concepts explained within it have very likely contributed to the insanity of the people who have heavily interacted with them. Therefore, the title \"infohazardous glossary\" seems pretty accurate after all.\n\nMy policy with this kind of stuff is to consider it harmful but also to consider it harmful to be scared of it's harmfulness. Generally disregard, but also maybe play with it for a little bit if I'm feeling curious and sane. It is interesting yes, but also mostly wrong and can be harmful to those who are on an epistemically/emotionally shaky place right now."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-08T14:43:17.980Z",
+    "af": false
+  },
+  {
+    "_id": "qsurRhD8CHgtMrgZt",
+    "postId": "PKDbddjdDaPikQT3b",
+    "parentCommentId": "vfYePEFswtvSb8pB9",
+    "topLevelCommentId": "BDmZ4rEqfKowWEGEQ",
+    "contents": {
+      "markdown": "Epistemic status:  \nConfidence: Strong idea, weakly held.  \nProvenance: My own lived experience, put down in words by myself before even hearing about Ziz. All I know about Zizianism I have learned very recently (mostly from this thread), and I have a very negative opinion of it.  \n  \nMasculinity and feminity have a biological basis, but most people's experience of them are strongly influenced by cultural factors. These cultural factors have been selected for being economically beneficial to agrarian societies. They are quite misaligned with what is beneficial for the happiness of post-industrial individuals. Poor societies made up of dumb people could not afford to not pigeonhole everyone into \"straight men\" and \"straight women\". We can now afford to have those categories and also the whole LGBTQ set of categories, although sometimes with a bit of friction when it bumps against the poorest and dumbest parts of our society. These frictions (and also in some cases a descriptive inadequacy of the LGBTQ labels) hurt people. Still, most individuals who are confident that their environment affords them to do so would probably benefit from a bit of experimentation / de-pigeon-holing.  \n  \nWhen/if we get to a good post-TAI future, we will be able to afford to drop the concepts of discrete genders and discrete sexual orientations altogether. This will be a good thing, because it will make individuals freer.",
+      "plaintextDescription": "Epistemic status:\nConfidence: Strong idea, weakly held.\nProvenance: My own lived experience, put down in words by myself before even hearing about Ziz. All I know about Zizianism I have learned very recently (mostly from this thread), and I have a very negative opinion of it.\n\nMasculinity and feminity have a biological basis, but most people's experience of them are strongly influenced by cultural factors. These cultural factors have been selected for being economically beneficial to agrarian societies. They are quite misaligned with what is beneficial for the happiness of post-industrial individuals. Poor societies made up of dumb people could not afford to not pigeonhole everyone into \"straight men\" and \"straight women\". We can now afford to have those categories and also the whole LGBTQ set of categories, although sometimes with a bit of friction when it bumps against the poorest and dumbest parts of our society. These frictions (and also in some cases a descriptive inadequacy of the LGBTQ labels) hurt people. Still, most individuals who are confident that their environment affords them to do so would probably benefit from a bit of experimentation / de-pigeon-holing.\n\nWhen/if we get to a good post-TAI future, we will be able to afford to drop the concepts of discrete genders and discrete sexual orientations altogether. This will be a good thing, because it will make individuals freer. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T13:33:22.346Z",
+    "af": false
+  },
+  {
+    "_id": "kccFMR7TxzofCcSkf",
+    "postId": "PKDbddjdDaPikQT3b",
+    "parentCommentId": "yLa6o2CqciNL99ivJ",
+    "topLevelCommentId": "BDmZ4rEqfKowWEGEQ",
+    "contents": {
+      "markdown": "This \"\"unihemispheric sleep\" thing seems like it came from crazy and is an excellent way to produce even more crazy. A tale as old as time: small group of people produce some interesting ideas and all is mostly fine until they either take too many drugs or get the bright idea of intentionally messing up their sleep. This starts a self reinforcing loop of drugs / messed up sleep causing crazy causing drugs / messed up sleep causing even more crazy.",
+      "plaintextDescription": "This \"\"unihemispheric sleep\" thing seems like it came from crazy and is an excellent way to produce even more crazy. A tale as old as time: small group of people produce some interesting ideas and all is mostly fine until they either take too many drugs or get the bright idea of intentionally messing up their sleep. This starts a self reinforcing loop of drugs / messed up sleep causing crazy causing drugs / messed up sleep causing even more crazy."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-08T13:08:28.817Z",
+    "af": false
+  },
+  {
+    "_id": "QtvwPaZLc8JepcRLr",
+    "postId": "PKDbddjdDaPikQT3b",
+    "parentCommentId": "WSaYDmM3BfB5othr3",
+    "topLevelCommentId": "BDmZ4rEqfKowWEGEQ",
+    "contents": {
+      "markdown": "Did Ziz intend this to be seen as a metaphor (or) to be taken literally?",
+      "plaintextDescription": "Did Ziz intend this to be seen as a metaphor (or) to be taken literally?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-07T11:55:28.235Z",
+    "af": false
+  },
+  {
+    "_id": "yjAC8ZNroQn3PhkFe",
+    "postId": "4mtqQKvmHpQJ4dgj7",
+    "parentCommentId": "MhEBmCueRnatjzdQt",
+    "topLevelCommentId": "MhEBmCueRnatjzdQt",
+    "contents": {
+      "markdown": "What is included within \"latent knowledge\" here?  \nDoes it include both knowledge encoded in M1's weights and knowledge introduced in-context while running it?",
+      "plaintextDescription": "What is included within \"latent knowledge\" here?\nDoes it include both knowledge encoded in M1's weights and knowledge introduced in-context while running it?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-07T11:28:34.668Z",
+    "af": false
+  },
+  {
+    "_id": "MKHg5A7vgKNv6xqE7",
+    "postId": "viZhwKytJ6Rqahymf",
+    "parentCommentId": "cNDuMAuQ6jJEk2eTq",
+    "topLevelCommentId": "cNDuMAuQ6jJEk2eTq",
+    "contents": {
+      "markdown": "I happen to care about animal suffering, and I am as baffled as you about the move of caring about animal suffering for explicitly anti-speciecist reasons yet dismissing wild animal suffering. Seems pretty inconsistent.\n\nMaybe it originates from a sort of wishful thinking? As in \"looks intractable, therefore I wish it were unimportant, therefore it is\".",
+      "plaintextDescription": "I happen to care about animal suffering, and I am as baffled as you about the move of caring about animal suffering for explicitly anti-speciecist reasons yet dismissing wild animal suffering. Seems pretty inconsistent.\n\nMaybe it originates from a sort of wishful thinking? As in \"looks intractable, therefore I wish it were unimportant, therefore it is\"."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-07T07:54:49.759Z",
+    "af": false
+  },
+  {
+    "_id": "CHJMKvZm8EAXYHan3",
+    "postId": "7CkkxrCJxJyqSk76p",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Attorneys seem well-equipped to design LLM debate games, or to at least consult for that design process.",
+      "plaintextDescription": "Attorneys seem well-equipped to design LLM debate games, or to at least consult for that design process."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-02-07T07:17:43.491Z",
+    "af": false
+  },
+  {
+    "_id": "F9JgG82BswvvXzdso",
+    "postId": "34iJw6yDx2sDrMCAL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Not exactly what you were asking for, but maybe food for thought: what if we (somehow) mapped an LLM's latent semantic space into phonemes?\n\nWhat if we then composed tokenization with phonemization such that we had a function that could translate English to Latentese?",
+      "plaintextDescription": "Not exactly what you were asking for, but maybe food for thought: what if we (somehow) mapped an LLM's latent semantic space into phonemes?\n\nWhat if we then composed tokenization with phonemization such that we had a function that could translate English to Latentese?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-07T07:11:08.367Z",
+    "af": false
+  },
+  {
+    "_id": "yYGh3coT9DarJ9opo",
+    "postId": "DnWkYz3w6xxsekok9",
+    "parentCommentId": "3qdepwzDZ4tB3h5Ba",
+    "topLevelCommentId": "3qdepwzDZ4tB3h5Ba",
+    "contents": {
+      "markdown": "Historically, lesswrong has been better at truth-finding than at problem-solving. \n\nI hope that this thread is useful as a high signal-to-noise ratio source.\n\nThis site is very much a public forum, so I would advise any actor whishing to implement a problem-solving stance to coordinate in a secure manner.",
+      "plaintextDescription": "Historically, lesswrong has been better at truth-finding than at problem-solving. \n\nI hope that this thread is useful as a high signal-to-noise ratio source.\n\nThis site is very much a public forum, so I would advise any actor whishing to implement a problem-solving stance to coordinate in a secure manner."
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-02-06T21:19:45.541Z",
+    "af": false
+  },
+  {
+    "_id": "niyGC8BtCZFAiBXbc",
+    "postId": "4oCh3x6EPHomEbcDJ",
+    "parentCommentId": "xChfoK7uyihwMNAch",
+    "topLevelCommentId": "xChfoK7uyihwMNAch",
+    "contents": {
+      "markdown": "Holden Karnosfky published a list of \"[Utopia links](https://www.cold-takes.com/utopia-links/)\" in his blog Cold Takes back in 2021:\n\n> Readers sent in a number of suggestions for fictional utopias. Here are a couple:\n> \n> *   [Chaser 6](http://alicorn.elcenia.com/stories/chaser6.shtml) by [Alicorn](http://alicorn.elcenia.com/) (~12 pages). This story makes *heavy* use of [digital people](https://www.cold-takes.com/how-digital-people-could-change-the-world/) (or something very much like them) \\[...\\]\n> *   The [8-chapter epilogue](https://www.royalroad.com/fiction/25137/worth-the-candle/chapter/727777/epilogue-1-the-end-of-the-world) to [Worth the Candle](https://www.royalroad.com/fiction/25137/worth-the-candle) \\[...\\]\n> *   More suggestions in the [comments](https://forum.effectivealtruism.org/posts/87AugxNfxAgAqR3mv/comments-for-shorter-cold-takes-pieces?commentId=WtefHptFFEBh7PKhY), including the [Terra Ignota](https://en.wikipedia.org/wiki/Terra_Ignota) series.\n> \n> \\[...\\]\n\nI forcefully endorse Chaser 6. I find myself thinking about it about once a month at a rough guess. The rest I haven't checked.  \n  \nThe Utopia links were motivated by Karnosfky's previous writings about Utopia in Cold Takes: [Why describing Utopia Goes Badly](https://www.cold-takes.com/why-describing-utopia-goes-badly/) and [Visualizing Utopia](https://www.cold-takes.com/visualizing-utopia/).",
+      "plaintextDescription": "Holden Karnosfky published a list of \"Utopia links\" in his blog Cold Takes back in 2021:\n\n> Readers sent in a number of suggestions for fictional utopias. Here are a couple:\n> \n>  * Chaser 6 by Alicorn (~12 pages). This story makes heavy use of digital people (or something very much like them) [...]\n>  * The 8-chapter epilogue to Worth the Candle [...]\n>  * More suggestions in the comments, including the Terra Ignota series.\n> \n> [...]\n\nI forcefully endorse Chaser 6. I find myself thinking about it about once a month at a rough guess. The rest I haven't checked.\n\nThe Utopia links were motivated by Karnosfky's previous writings about Utopia in Cold Takes: Why describing Utopia Goes Badly and Visualizing Utopia."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-06T16:43:00.869Z",
+    "af": false
+  },
+  {
+    "_id": "JFeqEgSfkzRawv2Pu",
+    "postId": "4oCh3x6EPHomEbcDJ",
+    "parentCommentId": "BuFbn6N3whhfXpbRp",
+    "topLevelCommentId": "xChfoK7uyihwMNAch",
+    "contents": {
+      "markdown": "I endorse Three worlds collide as a fun and insightful read. It states upfront that it does *not* feature AGI:\n\n> *This is a story of an impossible outcome, where AI never worked, molecular nanotechnology never worked, biotechnology only sort-of worked; and yet somehow humanity not only survived, but discovered a way to travel Faster-Than-Light:  The past's Future.*\n\nYet, it's themes are quite relevant for civilization-scale outer alignment.",
+      "plaintextDescription": "I endorse Three worlds collide as a fun and insightful read. It states upfront that it does not feature AGI:\n\n> This is a story of an impossible outcome, where AI never worked, molecular nanotechnology never worked, biotechnology only sort-of worked; and yet somehow humanity not only survived, but discovered a way to travel Faster-Than-Light:  The past's Future.\n\nYet, it's themes are quite relevant for civilization-scale outer alignment."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-06T16:24:28.106Z",
+    "af": false
+  },
+  {
+    "_id": "56QSzdwkkCyrWhrbB",
+    "postId": "DnWkYz3w6xxsekok9",
+    "parentCommentId": "hZbXkHytEEFvooexC",
+    "topLevelCommentId": "hZbXkHytEEFvooexC",
+    "contents": {
+      "markdown": "> I know people who have gotten access to similarly important governmental systems at younger ages. \n\nIs there a way you could make this claim credible without compromising people you do not want to compromise? Alternatively, are there public sources documenting similar situations?",
+      "plaintextDescription": "> I know people who have gotten access to similarly important governmental systems at younger ages. \n\nIs there a way you could make this claim credible without compromising people you do not want to compromise? Alternatively, are there public sources documenting similar situations?\n "
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-06T16:09:53.114Z",
+    "af": false
+  },
+  {
+    "_id": "yqDXmHc9cbe2bmf88",
+    "postId": "uPi2YppTEnzKG3nXD",
+    "parentCommentId": "bQytw37p3B47i54sb",
+    "topLevelCommentId": "bQytw37p3B47i54sb",
+    "contents": {
+      "markdown": "This is why I consider it bad informational hygiene to interact with current models in any modality besides text. Why pull the plug now instead of later? To prevent frog-boiling.",
+      "plaintextDescription": "This is why I consider it bad informational hygiene to interact with current models in any modality besides text. Why pull the plug now instead of later? To prevent frog-boiling."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-06T14:17:18.069Z",
+    "af": false
+  },
+  {
+    "_id": "ceqM7KjQdXK5jRQqk",
+    "postId": "bo4pfdAyDQmkavqFY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It's a bit late in my current timezone and I read this stuff long ago and don't quite know where so please do not believe me much, but here goes:  \n  \nI have the impression that social-trust-stuff is pretty load-bearing in hypnosis (ie if a psychiatrist does it you have to trust them for it to work, if a stage magician does it on a member of the public they bring onto the stage then they have to be skilled and the rest of the audience has to be receptive). So going from that I'd say that it is probably kind of a real thing but different and less powerful than you are probably imagining, and that doing it on yourself seems hard and maybe impossible.  \n  \nAnyways don't quote me on this, I will retract this answer upon the slightest correction, I did zero research for it, I wrote it on a whim.",
+      "plaintextDescription": "It's a bit late in my current timezone and I read this stuff long ago and don't quite know where so please do not believe me much, but here goes:\n\nI have the impression that social-trust-stuff is pretty load-bearing in hypnosis (ie if a psychiatrist does it you have to trust them for it to work, if a stage magician does it on a member of the public they bring onto the stage then they have to be skilled and the rest of the audience has to be receptive). So going from that I'd say that it is probably kind of a real thing but different and less powerful than you are probably imagining, and that doing it on yourself seems hard and maybe impossible.\n\nAnyways don't quote me on this, I will retract this answer upon the slightest correction, I did zero research for it, I wrote it on a whim."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-06T03:23:13.504Z",
+    "af": false
+  },
+  {
+    "_id": "bzwcMmRBrok7WQuj9",
+    "postId": "7CkkxrCJxJyqSk76p",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Productivity tools built on LLMs (or regexes) manipulating structured text might well provide a better UX (and of course, have the potential to be more private) than current proprietary web-based tool services (ie google calendar, todoist, etc). Local tools may interface with such services when necessary via APIs.  \n  \nI've heard that LLMs have an easier time processing XML than idiosyncratically-formatted text. Maybe it is a good time to learn to write in XML? Or to acquire the habit of using XML by default for personal structured data management / productivity stuff (eg calendars, todo lists, personal CRMs)? Or to at least install an XML extension in your IDE / editor of choice?",
+      "plaintextDescription": "Productivity tools built on LLMs (or regexes) manipulating structured text might well provide a better UX (and of course, have the potential to be more private) than current proprietary web-based tool services (ie google calendar, todoist, etc). Local tools may interface with such services when necessary via APIs.\n\nI've heard that LLMs have an easier time processing XML than idiosyncratically-formatted text. Maybe it is a good time to learn to write in XML? Or to acquire the habit of using XML by default for personal structured data management / productivity stuff (eg calendars, todo lists, personal CRMs)? Or to at least install an XML extension in your IDE / editor of choice?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-06T02:46:34.417Z",
+    "af": false
+  },
+  {
+    "_id": "ywyd8pPkuYiZerkv9",
+    "postId": "SvtKronRNrw9AxXwa",
+    "parentCommentId": "5gCtKxFXpqyGerWnN",
+    "topLevelCommentId": "ZifQXkhxo5dJvrL3Q",
+    "contents": {
+      "markdown": "For the record: I expect the impact to be positive. Separate points made in separate comments for the sake of discourse.",
+      "plaintextDescription": "For the record: I expect the impact to be positive. Separate points made in separate comments for the sake of discourse."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-06T02:03:20.536Z",
+    "af": false
+  },
+  {
+    "_id": "5gCtKxFXpqyGerWnN",
+    "postId": "SvtKronRNrw9AxXwa",
+    "parentCommentId": "ZifQXkhxo5dJvrL3Q",
+    "topLevelCommentId": "ZifQXkhxo5dJvrL3Q",
+    "contents": {
+      "markdown": "Consider sticking them inside STEM and political science university campuses, particularly those with good graduate programs. I expect this to increase the *magnitude* of impact. Here I'm deliberately refraining from commenting on the *sign* of impact (ie whether doing this would be net-positive or net-negative).",
+      "plaintextDescription": "Consider sticking them inside STEM and political science university campuses, particularly those with good graduate programs. I expect this to increase the magnitude of impact. Here I'm deliberately refraining from commenting on the sign of impact (ie whether doing this would be net-positive or net-negative)."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-06T02:01:34.263Z",
+    "af": false
+  },
+  {
+    "_id": "NLHWoLXqqXj3fvsNP",
+    "postId": "3GtdC7yJ7CgXzPsfe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I am very much not a fan of this project's website linking to it's leaders' coaching program. I'm sorry, but that just screams grift. James Norris: If you are even a real person (your personal website screams SEO-optimized LLM slop), please do better. You are being actively unhelpful.  \n  \nEDIT ~9 hours after posting: I'm feeling a bit bad about probably making another human being feel bad, even if I endorse the appropriateness of forceful negative feedback in this case.",
+      "plaintextDescription": "I am very much not a fan of this project's website linking to it's leaders' coaching program. I'm sorry, but that just screams grift. James Norris: If you are even a real person (your personal website screams SEO-optimized LLM slop), please do better. You are being actively unhelpful.\n\nEDIT ~9 hours after posting: I'm feeling a bit bad about probably making another human being feel bad, even if I endorse the appropriateness of forceful negative feedback in this case."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-05T18:35:21.486Z",
+    "af": false
+  },
+  {
+    "_id": "gCPpZN3BhzDs9sQH7",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "GxNroz6w4BgHmQjpu",
+    "topLevelCommentId": "GxNroz6w4BgHmQjpu",
+    "contents": {
+      "markdown": "What is the theory of change here exactly, besides possible good things done by the agents themselves? I've got a couple of ideas, but I don't want to bias your response.",
+      "plaintextDescription": "What is the theory of change here exactly, besides possible good things done by the agents themselves? I've got a couple of ideas, but I don't want to bias your response."
+    },
+    "baseScore": 10,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-03T15:57:27.667Z",
+    "af": false
+  },
+  {
+    "_id": "ZPKsQHHjcETsoZDTG",
+    "postId": "YqrAoCzNytYWtnsAx",
+    "parentCommentId": "KSLRWwHuv9ybDXWEj",
+    "topLevelCommentId": "KSLRWwHuv9ybDXWEj",
+    "contents": {
+      "markdown": "Yes, \"we are against Omnicidal AI\" is better marketing than \"we are for AI Notkilleveryoneism\".",
+      "plaintextDescription": "Yes, \"we are against Omnicidal AI\" is better marketing than \"we are for AI Notkilleveryoneism\"."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-01T14:06:49.452Z",
+    "af": false
+  },
+  {
+    "_id": "CAXD54byNYrJLQaKt",
+    "postId": "T54YXFjFeGuE6sbst",
+    "parentCommentId": "euYoC3vCgNETmFPXi",
+    "topLevelCommentId": "BmhSXBiTosWgdpwne",
+    "contents": {
+      "markdown": "Correct, those goals are instrumentally convergent.",
+      "plaintextDescription": "Correct, those goals are instrumentally convergent."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-01T03:06:29.710Z",
+    "af": false
+  },
+  {
+    "_id": "iwjwkHEBoPKJFjKPG",
+    "postId": "SJrL6Ysdwnuh79bDQ",
+    "parentCommentId": "sRe6trxwifxNFmoCa",
+    "topLevelCommentId": "ctqGSaRiEBKHSbzxM",
+    "contents": {
+      "markdown": "I've seen reddit ads from multiple companies offering to work for them doing freelance annotation / high-quality-text-data generation.",
+      "plaintextDescription": "I've seen reddit ads from multiple companies offering to work for them doing freelance annotation / high-quality-text-data generation."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-31T16:36:08.511Z",
+    "af": false
+  },
+  {
+    "_id": "FbYTHLHoqajatgEeG",
+    "postId": "fCtNMyuzatZd63792",
+    "parentCommentId": "MRStbdtyr7Tmhbdu9",
+    "topLevelCommentId": "MRStbdtyr7Tmhbdu9",
+    "contents": {
+      "markdown": "It may just use l33tc0d3 or palabres nonexistentes interpolatas d'idioms prossimos.",
+      "plaintextDescription": "It may just use l33tc0d3 or palabres nonexistentes interpolatas d'idioms prossimos."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-30T17:05:57.289Z",
+    "af": false
+  },
+  {
+    "_id": "3p5csNKuAJjyTDJbT",
+    "postId": "gwpJvrJwHeHFYYn2K",
+    "parentCommentId": "CPfatwHHJ2hH8PuFN",
+    "topLevelCommentId": "CPfatwHHJ2hH8PuFN",
+    "contents": {
+      "markdown": "The incentives for early career researchers are to blame for this mindset imo. Having legible output is a very good signal of competence for employers/grantors. I think it probably makes sense for the first or first couple project of a researcher to be more of a cool demo than clear steps towards a solution.  \n  \nUnfortunately, some middle career and sometimes even senior researchers keep this habit of forward-chaining from what looks cool instead of backwards-chaining from good futures. Ok, the previous sentence was a bit too strong. No reasoning is pure backward-chaining or pure forward-chaining. But I think that a common failure mode is not thinking enough about theories of change.",
+      "plaintextDescription": "The incentives for early career researchers are to blame for this mindset imo. Having legible output is a very good signal of competence for employers/grantors. I think it probably makes sense for the first or first couple project of a researcher to be more of a cool demo than clear steps towards a solution.\n\nUnfortunately, some middle career and sometimes even senior researchers keep this habit of forward-chaining from what looks cool instead of backwards-chaining from good futures. Ok, the previous sentence was a bit too strong. No reasoning is pure backward-chaining or pure forward-chaining. But I think that a common failure mode is not thinking enough about theories of change."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-30T16:25:08.293Z",
+    "af": false
+  },
+  {
+    "_id": "SKF8wfxjEucFCnjYY",
+    "postId": "7CkkxrCJxJyqSk76p",
+    "parentCommentId": "q8aLwXAkrFhqhxhzR",
+    "topLevelCommentId": "YxoKTEFuvFXwEExCW",
+    "contents": {
+      "markdown": "Wouldn't surprise me if this got more common over time, such that what is now a deluge will become the new baseline.",
+      "plaintextDescription": "Wouldn't surprise me if this got more common over time, such that what is now a deluge will become the new baseline. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-27T10:23:56.142Z",
+    "af": false
+  },
+  {
+    "_id": "zPtC58BTqE7TAts9R",
+    "postId": "ii4xtogen7AyYmN6B",
+    "parentCommentId": "fepJw4TDvjdkkGWSd",
+    "topLevelCommentId": "EZEjBmYPgYzwwQDHz",
+    "contents": {
+      "markdown": "OpenPhil [said in April 2024](https://www.openphilanthropy.org/research/holden-karnofsky-is-leaving-open-phil-for-the-carnegie-endowment-for-international-peace/) that he left them for the Carnegie Endowment for International Peace. The Carnegie Endowment [says](https://carnegieendowment.org/people/holden-karnofsky?lang=en) he is no longer with them. His [linkedin profile](https://www.linkedin.com/in/holden-karnofsky-75970b7) (which I presume to be authentic, because it was created in 2008) says he's at Anthropic since January 2025.\n\nEDIT: Additional [source](https://cyber.harvard.edu/people/holden-karnofsky), Harvard's Berkman Klein Center.",
+      "plaintextDescription": "OpenPhil said in April 2024 that he left them for the Carnegie Endowment for International Peace. The Carnegie Endowment says he is no longer with them. His linkedin profile (which I presume to be authentic, because it was created in 2008) says he's at Anthropic since January 2025.\n\nEDIT: Additional source, Harvard's Berkman Klein Center."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-26T15:10:04.482Z",
+    "af": false
+  },
+  {
+    "_id": "4cCvC6WJzheysjzJf",
+    "postId": "4mtqQKvmHpQJ4dgj7",
+    "parentCommentId": "ARGYjMrZmwYkxdFa8",
+    "topLevelCommentId": "f4tXuNLdufGcABgir",
+    "contents": {
+      "markdown": ">  I think it's not a contradiction, because you can be doing only a small number of things at any given instant in time, but have an impressive throughput overall. \n\nI think that being good at avoiding wasted motion while doing things is pretty fundamental to resolving the contradiction.",
+      "plaintextDescription": ">  I think it's not a contradiction, because you can be doing only a small number of things at any given instant in time, but have an impressive throughput overall. \n\nI think that being good at avoiding wasted motion while doing things is pretty fundamental to resolving the contradiction."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-25T18:35:36.177Z",
+    "af": false
+  },
+  {
+    "_id": "NcGtSBuEnrq9rwpPr",
+    "postId": "3XNinGkqrHn93dwhY",
+    "parentCommentId": "6ojh3mSo3ArGYRoqP",
+    "topLevelCommentId": "6ojh3mSo3ArGYRoqP",
+    "contents": {
+      "markdown": "Mind if I try my hand at this? More concretely: if I do write it, will you review my draft?",
+      "plaintextDescription": "Mind if I try my hand at this? More concretely: if I do write it, will you review my draft?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-25T12:34:39.933Z",
+    "af": false
+  },
+  {
+    "_id": "9mPseKzbokoRmahcm",
+    "postId": "ii4xtogen7AyYmN6B",
+    "parentCommentId": "EZEjBmYPgYzwwQDHz",
+    "topLevelCommentId": "EZEjBmYPgYzwwQDHz",
+    "contents": {
+      "markdown": "Holden was previously Open Philanthropy's CEO and is now settling into his new role at Anthropic. \n\nI am not privy to any non-public information, but please do not be disappointed if he has no time for contacting you via LinkedIn for the purpose of booking the interview you are requesting.",
+      "plaintextDescription": "Holden was previously Open Philanthropy's CEO and is now settling into his new role at Anthropic. \n\nI am not privy to any non-public information, but please do not be disappointed if he has no time for contacting you via LinkedIn for the purpose of booking the interview you are requesting."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-01-25T07:25:48.095Z",
+    "af": false
+  }
+]

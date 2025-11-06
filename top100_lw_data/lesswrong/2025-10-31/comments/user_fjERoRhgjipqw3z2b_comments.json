@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "ws5WHfbdvnnEWBJo3",
+    "postId": "wCc7XDbD8LdaHwbYg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this rhetoric will just confuse people. Who stole from whom? Well, one part of OpenAI (the for-profit part) \"stole\" the money from another part of OpenAI (the non-profit part). And what did they \"steal\" - equity? a share of future profits? In other words, stock-market funny-money and enormous projected income that hasn't happened yet. Maybe it's meaningful to people who follow corporate finance, but for normal people, this is just more shuffling around of billions of dollars of the kind that governments and corporations and super-rich do all the time, with the rights and wrongs of it being very opaque to outsiders, but probably evil just because it involves enormous amounts of money. The idea that OpenAI is stealing from itself especially sounds weird.",
+      "plaintextDescription": "I think this rhetoric will just confuse people. Who stole from whom? Well, one part of OpenAI (the for-profit part) \"stole\" the money from another part of OpenAI (the non-profit part). And what did they \"steal\" - equity? a share of future profits? In other words, stock-market funny-money and enormous projected income that hasn't happened yet. Maybe it's meaningful to people who follow corporate finance, but for normal people, this is just more shuffling around of billions of dollars of the kind that governments and corporations and super-rich do all the time, with the rights and wrongs of it being very opaque to outsiders, but probably evil just because it involves enormous amounts of money. The idea that OpenAI is stealing from itself especially sounds weird. "
+    },
+    "baseScore": 11,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-11-01T01:52:44.167Z",
+    "af": false
+  },
+  {
+    "_id": "bQbjuc8sfD8e6C44n",
+    "postId": "3LcyoqNTJuCZ65MbL",
+    "parentCommentId": "FGjF3cA2SfGZu6op5",
+    "topLevelCommentId": "FGjF3cA2SfGZu6op5",
+    "contents": {
+      "markdown": "What this reminds me of, is the phenomenon in the history of philosophy, where someone thinks they have figured out the system of the world, on which successors will build. But instead what happens is that people recognize a new *theme* that the innovator has introduced, and build their own rival systems incorporating that new theme. \n\nFor example, Kant (responding to Humean skepticism) built his system of transcendental idealism, which was supposed to be a new foundation for philosophy in general. Instead, it inaugurated the era of \"German Idealism\", which included Hegel's absolute idealism, whatever Schelling and Fichte were up to, and even Schopenhauer's pessimism (which in turn was a source of Nietzsche's optimism). \n\nAnother example would be the different directions that psychoanalysis took after Freud; and I'm sure there are many other examples... I should note that in addition to the rebellious intellectual offspring, there *were* people who built on Kant and Freud, and who called themselves (neo)Kantians and Freudians. \n\nThe closest thing to an important technical successor to Eliezer that I can think of, is Paul Christiano, co-inventor of RLHF, a central alignment technique behind the birth of ChatGPT. Many other people must have found their way to AI safety because of his works, and specific ideas of his have currency (e.g. Jan Leike, formerly of OpenAI superalignment, now at Anthropic, seems to be inspired by Coherent Extrapolated Volition). He is surely a godfather of AI safety, just as Hinton, Bengio, and LeCun were dubbed godfathers of deep learning. But the field itself is not dominated by his particular visions.",
+      "plaintextDescription": "What this reminds me of, is the phenomenon in the history of philosophy, where someone thinks they have figured out the system of the world, on which successors will build. But instead what happens is that people recognize a new theme that the innovator has introduced, and build their own rival systems incorporating that new theme. \n\nFor example, Kant (responding to Humean skepticism) built his system of transcendental idealism, which was supposed to be a new foundation for philosophy in general. Instead, it inaugurated the era of \"German Idealism\", which included Hegel's absolute idealism, whatever Schelling and Fichte were up to, and even Schopenhauer's pessimism (which in turn was a source of Nietzsche's optimism). \n\nAnother example would be the different directions that psychoanalysis took after Freud; and I'm sure there are many other examples... I should note that in addition to the rebellious intellectual offspring, there were people who built on Kant and Freud, and who called themselves (neo)Kantians and Freudians. \n\nThe closest thing to an important technical successor to Eliezer that I can think of, is Paul Christiano, co-inventor of RLHF, a central alignment technique behind the birth of ChatGPT. Many other people must have found their way to AI safety because of his works, and specific ideas of his have currency (e.g. Jan Leike, formerly of OpenAI superalignment, now at Anthropic, seems to be inspired by Coherent Extrapolated Volition). He is surely a godfather of AI safety, just as Hinton, Bengio, and LeCun were dubbed godfathers of deep learning. But the field itself is not dominated by his particular visions. "
+    },
+    "baseScore": 24,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-10-31T10:02:15.112Z",
+    "af": false
+  },
+  {
+    "_id": "2XXMozvmfsmx2EPwW",
+    "postId": "BnSbEYzDBsyb4Bnoq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't have a great grasp of what is meant, in philosophy since Kant, by a transcendental argument. It seems to be an argument appealing to (supposedly) inescapable presuppositions. Does that mean, for example, that when Ayn Rand says that existence, consciousness, and identity are inescapably presupposed by all thought, she is making a transcendental argument when she criticizes someone else for denying them? (She just calls them axiomatic.) How about an attempt to justify the anthropic principle - e.g., when you examine the nature of the world in which you exist, it must turn out to be a world in which you *can* exist - would that be a transcendental argument? \n\nIn the present context, do you consider transcendental arguments to already be in use here, we just didn't recognize them as such? Or are there several issues that could be resolved more effectively, if we recognized that transcendental arguments are exactly what is called for? Or is it just that the theory and practice of transcendental argument ought to be in the rationalist repertoire?",
+      "plaintextDescription": "I don't have a great grasp of what is meant, in philosophy since Kant, by a transcendental argument. It seems to be an argument appealing to (supposedly) inescapable presuppositions. Does that mean, for example, that when Ayn Rand says that existence, consciousness, and identity are inescapably presupposed by all thought, she is making a transcendental argument when she criticizes someone else for denying them? (She just calls them axiomatic.) How about an attempt to justify the anthropic principle - e.g., when you examine the nature of the world in which you exist, it must turn out to be a world in which you can exist - would that be a transcendental argument? \n\nIn the present context, do you consider transcendental arguments to already be in use here, we just didn't recognize them as such? Or are there several issues that could be resolved more effectively, if we recognized that transcendental arguments are exactly what is called for? Or is it just that the theory and practice of transcendental argument ought to be in the rationalist repertoire? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-31T06:29:06.635Z",
+    "af": false
+  },
+  {
+    "_id": "Ww7e4xsMPGas4KAFW",
+    "postId": "NjL6nsdXyeTckmv7z",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The *idea* of AI has certainly already transformed the American economy, by becoming its center of gravity - isn't that what all those economic pundits are saying?\n\nI find Dean Ball annoying because he says arresting stuff like \"Most of the thinking and doing in America will soon be done by machines, not people\", but then doesn't say anything about an America (or a world) that is *run* by machines (by nonhuman intelligent agents, more specifically), which is the obvious consequence of his scenario. Nonetheless, his essay [\"Where We Are Headed\"](https://www.hyperdimensional.co/p/where-we-are-headed) sketches a concept of \"the AI-enabled firm\", which might correspond to something in the brief period between \"AI is economically useful\" and \"AI takes over\".",
+      "plaintextDescription": "The idea of AI has certainly already transformed the American economy, by becoming its center of gravity - isn't that what all those economic pundits are saying?\n\nI find Dean Ball annoying because he says arresting stuff like \"Most of the thinking and doing in America will soon be done by machines, not people\", but then doesn't say anything about an America (or a world) that is run by machines (by nonhuman intelligent agents, more specifically), which is the obvious consequence of his scenario. Nonetheless, his essay \"Where We Are Headed\" sketches a concept of \"the AI-enabled firm\", which might correspond to something in the brief period between \"AI is economically useful\" and \"AI takes over\". "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-29T07:46:59.912Z",
+    "af": false
+  },
+  {
+    "_id": "i5FrhantMA9ba5Ji6",
+    "postId": "sLZQrwQnPswNTEbWi",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Appropriate that this will be held in the city where Vernor Vinge spent most of his life.",
+      "plaintextDescription": "Appropriate that this will be held in the city where Vernor Vinge spent most of his life. "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-29T07:34:15.738Z",
+    "af": false
+  },
+  {
+    "_id": "ELa63h7ao7bpDs6ip",
+    "postId": "XFDjzKXZqKdvZ2QKL",
+    "parentCommentId": "FWxZZE9ue5YxuXNZ9",
+    "topLevelCommentId": "FWxZZE9ue5YxuXNZ9",
+    "contents": {
+      "markdown": "> I wish this had been three separate posts\n\nStrongly disagree. People in the AI industry who overtly want to replace the human race are a danger to the human race, and this is a brilliant analysis of how you can end up becoming one of them.",
+      "plaintextDescription": "> I wish this had been three separate posts\n\nStrongly disagree. People in the AI industry who overtly want to replace the human race are a danger to the human race, and this is a brilliant analysis of how you can end up becoming one of them. "
+    },
+    "baseScore": 9,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-10-29T07:27:37.682Z",
+    "af": false
+  },
+  {
+    "_id": "eqZewH478ub9vyuAg",
+    "postId": "NW63G8DKJG5JyCG3M",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The \"Doom Spiral Trace\" of Claude Sonnet 3.5's thoughts (see appendix D of the paper) is the most remarkable artefact here. Having an AI spontaneously produce its own version of \"Waiting for Godot\", as it repeatedly tries and fails to perform a mechanical task, really is like something out of absurdist SF. \n\nWe need names for this phenomenon, in which the excess cognitive capacity of an AI, not needed for its task, suddenly manifests itself - perhaps \"cognitive overflow\"?",
+      "plaintextDescription": "The \"Doom Spiral Trace\" of Claude Sonnet 3.5's thoughts (see appendix D of the paper) is the most remarkable artefact here. Having an AI spontaneously produce its own version of \"Waiting for Godot\", as it repeatedly tries and fails to perform a mechanical task, really is like something out of absurdist SF. \n\nWe need names for this phenomenon, in which the excess cognitive capacity of an AI, not needed for its task, suddenly manifests itself - perhaps \"cognitive overflow\"? "
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-29T07:17:55.271Z",
+    "af": false
+  },
+  {
+    "_id": "DrY6G54LskdbodMnX",
+    "postId": "PMDZ4DFPGwQ3RAG5x",
+    "parentCommentId": "rCZrfhXZa7Eqyo8Bk",
+    "topLevelCommentId": "qDTuGiiZTCDcfgfu8",
+    "contents": {
+      "markdown": "This is a kind of alignment that I don't think about much - I focus on the endgame of AI that is smarter than us and acting independently. However: \n\nI think it's not that surprising that adding extra imperatives to the system prompts, would sometimes cause the AI to avoid an unwanted behavior. The sheer effectiveness of prompting is why the AI companies shape and grow their own system prompts. \n\nHowever, at least in the material you've provided, you don't probe variations on your own prompt very much. What happens if you replace \"cosmic kinship\" with some other statement of relatedness? What happens if you change or remove the other elements of your prompt; is the effectiveness of the overall protocol changed? Can you find a serious jailbreaker (like @elder_plinius on X) to really challenge your protocol? \n\nI cannot access your GitHub so I don't know what further information is there. I did ask GPT-5 to place VRA within the taxonomy of prompting protocols listed in [\"The Prompt Report\"](https://arxiv.org/abs/2406.06608), and [it gave this reply](https://chatgpt.com/share/6900975c-4428-8001-9155-3c4ea5767905).",
+      "plaintextDescription": "This is a kind of alignment that I don't think about much - I focus on the endgame of AI that is smarter than us and acting independently. However: \n\nI think it's not that surprising that adding extra imperatives to the system prompts, would sometimes cause the AI to avoid an unwanted behavior. The sheer effectiveness of prompting is why the AI companies shape and grow their own system prompts. \n\nHowever, at least in the material you've provided, you don't probe variations on your own prompt very much. What happens if you replace \"cosmic kinship\" with some other statement of relatedness? What happens if you change or remove the other elements of your prompt; is the effectiveness of the overall protocol changed? Can you find a serious jailbreaker (like @elder_plinius on X) to really challenge your protocol? \n\nI cannot access your GitHub so I don't know what further information is there. I did ask GPT-5 to place VRA within the taxonomy of prompting protocols listed in \"The Prompt Report\", and it gave this reply. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-28T10:14:51.995Z",
+    "af": false
+  },
+  {
+    "_id": "aGYFEHr436K5w7bdx",
+    "postId": "wBXv3zDioznzetsHi",
+    "parentCommentId": "KnuH6insBvoB3jcWX",
+    "topLevelCommentId": "KnuH6insBvoB3jcWX",
+    "contents": {
+      "markdown": "Several LLM-generated posts and comments are being rejected every day, see [https://www.lesswrong.com/moderation](https://www.lesswrong.com/moderation)",
+      "plaintextDescription": "Several LLM-generated posts and comments are being rejected every day, see https://www.lesswrong.com/moderation "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-28T04:59:04.079Z",
+    "af": false
+  },
+  {
+    "_id": "qDTuGiiZTCDcfgfu8",
+    "postId": "PMDZ4DFPGwQ3RAG5x",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post has no title for some reason.",
+      "plaintextDescription": "This post has no title for some reason. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-28T04:56:36.003Z",
+    "af": false
+  },
+  {
+    "_id": "CBM9oYQJy9SYuvuha",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I am not in any company or influential group, I'm just a forum commentator. But I focus on what would solve alignment, because of short timelines. \n\nThe AI that we have right now can perform a task like literature review, much faster than human. It can brainstorm on any technical topic, just without rigor. Meanwhile there are large numbers of top human researchers experimenting with AI, trying to maximize its contribution to research. To me, that's a recipe for reaching the fabled \"von Neumann\" level of intelligence - the ability to brainstorm with rigor, let's say - the idea being that once you have AI that's as smart as von Neumann, it really is over. And who's to say you can't get that level of performance out of existing models, with the right finetuning? I think all the little experiments by programmers, academic users, and so on, aiming to obtain maximum performance from existing AI, are a distributed form of capabilities research, which collectively are pushing towards that outcome. Zvi just said his median time-to-crazy is 2031; I have trouble seeing how it could take that long. \n\nTo stop this (or pause it), you would need political interventions far more dramatic than anyone is currently envisaging, which also manage to be actually effective. So instead I focus on voicing my thoughts about alignment here, because this is a place with readers and contributors from most of the frontier AI companies, so a worthwhile thought has a chance of reaching people who matter to the process.",
+      "plaintextDescription": "I am not in any company or influential group, I'm just a forum commentator. But I focus on what would solve alignment, because of short timelines. \n\nThe AI that we have right now can perform a task like literature review, much faster than human. It can brainstorm on any technical topic, just without rigor. Meanwhile there are large numbers of top human researchers experimenting with AI, trying to maximize its contribution to research. To me, that's a recipe for reaching the fabled \"von Neumann\" level of intelligence - the ability to brainstorm with rigor, let's say - the idea being that once you have AI that's as smart as von Neumann, it really is over. And who's to say you can't get that level of performance out of existing models, with the right finetuning? I think all the little experiments by programmers, academic users, and so on, aiming to obtain maximum performance from existing AI, are a distributed form of capabilities research, which collectively are pushing towards that outcome. Zvi just said his median time-to-crazy is 2031; I have trouble seeing how it could take that long. \n\nTo stop this (or pause it), you would need political interventions far more dramatic than anyone is currently envisaging, which also manage to be actually effective. So instead I focus on voicing my thoughts about alignment here, because this is a place with readers and contributors from most of the frontier AI companies, so a worthwhile thought has a chance of reaching people who matter to the process. "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-28T03:48:52.439Z",
+    "af": false
+  },
+  {
+    "_id": "DPrgG3Rwpdmi2BSyp",
+    "postId": "G5qjrfvBb7wszBgWG",
+    "parentCommentId": "a87DbsEwiejg2aM2c",
+    "topLevelCommentId": "a87DbsEwiejg2aM2c",
+    "contents": {
+      "markdown": "> When a poor person, having lived through years of their life giving what little they must to society in order to survive, dies on the street, there is another person that has been eaten by society.\n\nAt least with respect to today's western societies, this seems off-key to me. It makes it sound as if living and dying on the street is simply a matter of poverty. That may be true in poor overpopulated societies. But in a developed society, it seems much more to involve being unable (e.g. mental illness) or unwilling (e.g. criminality) to be part of the ordinary working life.  \n\n> What would we ask of the baby-eaters?\n\nYou'll have to be clearer about which people you mean. Baby-eating here is a metaphor, for what exactly? Older generation neglecting the younger generation, or even living at their expense? Predatory business practices? Focusing on your own prosperity rather than caring for others?",
+      "plaintextDescription": "> When a poor person, having lived through years of their life giving what little they must to society in order to survive, dies on the street, there is another person that has been eaten by society.\n\nAt least with respect to today's western societies, this seems off-key to me. It makes it sound as if living and dying on the street is simply a matter of poverty. That may be true in poor overpopulated societies. But in a developed society, it seems much more to involve being unable (e.g. mental illness) or unwilling (e.g. criminality) to be part of the ordinary working life.  \n\n> What would we ask of the baby-eaters?\n\nYou'll have to be clearer about which people you mean. Baby-eating here is a metaphor, for what exactly? Older generation neglecting the younger generation, or even living at their expense? Predatory business practices? Focusing on your own prosperity rather than caring for others? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-27T15:19:45.471Z",
+    "af": false
+  },
+  {
+    "_id": "8jaNeNHbKsviefHeQ",
+    "postId": "QchxwZbk8f5t2uaKX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> years until AGI, no pause: 40 years\n\nWhat is there left to figure out, that would take so long?",
+      "plaintextDescription": "> years until AGI, no pause: 40 years\n\nWhat is there left to figure out, that would take so long?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-26T06:09:55.328Z",
+    "af": false
+  },
+  {
+    "_id": "AJfdvwrcSBHsGoiax",
+    "postId": "W2dTrfTsGtFiwG5hM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have noticed two important centers of AI capability denial, both of which involve highly educated people. One group consists of progressives for whom AI doom is a distraction from politics. The other group consists of accelerationists who only think of AI as empowering humans. \n\nThis does not refer to all progressives or all accelerationists. Most AI safety researchers and activists are progressives. Many accelerationists do acknowledge that AI could break away from humanity. But in both cases, there are clear currents of thought that deny e.g. that superintelligence is possible or imminent. \n\nOn the progressive side, I attribute the current of denial to a kind of humanism. First, their activism is directed against corporate power (etc) in the name of a more human society, and concern about AI doom just doesn't fit the paradigm. Second, they dislike the utopian futurism which is the flipside of AI doom, because it reminds them of religion. The talking points which circulate seem to come from intellectuals and academics. \n\nOn the accelerationist side, it's more about believing that pressing ahead with AI will just help human beings achieve their dreams. It's an optimistic view and for many it's their business model, so there can be elements of marketing and hype. The deepest talking points here seem to come from figures within the AI industry like Yann LeCun. \n\nMaybe a third current of denial is that which says superintelligence won't happen thanks to a combination of technical and economic contingencies - scaling has hit its limits, or the bubble is going to burst. \n\nOne might have supposed that religion would also be a source of capability denial, but I don't see it playing an important role so far. The way things are going, the religious response is more likely to be a declaration that AGI is evil, rather than impossible.",
+      "plaintextDescription": "I have noticed two important centers of AI capability denial, both of which involve highly educated people. One group consists of progressives for whom AI doom is a distraction from politics. The other group consists of accelerationists who only think of AI as empowering humans. \n\nThis does not refer to all progressives or all accelerationists. Most AI safety researchers and activists are progressives. Many accelerationists do acknowledge that AI could break away from humanity. But in both cases, there are clear currents of thought that deny e.g. that superintelligence is possible or imminent. \n\nOn the progressive side, I attribute the current of denial to a kind of humanism. First, their activism is directed against corporate power (etc) in the name of a more human society, and concern about AI doom just doesn't fit the paradigm. Second, they dislike the utopian futurism which is the flipside of AI doom, because it reminds them of religion. The talking points which circulate seem to come from intellectuals and academics. \n\nOn the accelerationist side, it's more about believing that pressing ahead with AI will just help human beings achieve their dreams. It's an optimistic view and for many it's their business model, so there can be elements of marketing and hype. The deepest talking points here seem to come from figures within the AI industry like Yann LeCun. \n\nMaybe a third current of denial is that which says superintelligence won't happen thanks to a combination of technical and economic contingencies - scaling has hit its limits, or the bubble is going to burst. \n\nOne might have supposed that religion would also be a source of capability denial, but I don't see it playing an important role so far. The way things are going, the religious response is more likely to be a declaration that AGI is evil, rather than impossible. "
+    },
+    "baseScore": 13,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-10-26T00:25:19.602Z",
+    "af": false
+  },
+  {
+    "_id": "HgqggBDPjCxECqikH",
+    "postId": "M9iHzo2oFRKvdtRrM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with a lot of what you say. The lack of an agreed-upon ethics and metaethics is a big gap in human knowledge, and the lack of a serious research program to figure them out is a big gap in human civilization, that is bad news given the approach of superintelligence. \n\nDid you ever hear about Coherent Extrapolated Volition (CEV)? This was Eliezer's framework for thinking about these issues, 20 years ago. It's still lurking in the background of many people's thoughts, e.g. Jan Leike, formerly head of superalignment at OpenAI, now head of alignment at Anthropic, has cited it. June Ku's MetaEthical.AI is arguably the most serious attempt to develop CEV in detail. Vanessa Kosoy, known for a famously challenging extension of bayesianism called infrabayesianism, has a CEV-like proposal called superimitation (formerly known as PreDCA). Tamsin Leake has a similar proposal called QACI. \n\nA few years ago, I used to say that Ku, Kosoy, and Leake are the heirs of CEV, and deserve priority attention. They still do, but these days I have a broader list of relevant ideas too. There are research programs called \"shard theory\" and \"agent foundations\" which seem to be trying to clarify the ontology of decision-making agents, which might put them in the metaethics category. I suspect there are equally salient research programs that I haven't even heard about, e.g. among all those that have been featured by MATS. [PRISM](https://www.lesswrong.com/posts/uCyzyyBom8PAMThcW/prism-perspective-reasoning-for-integrated-synthesis-and), which remains unnoticed by alignment researchers, looks to me like a sketch of what a CEV process might actually produce. \n\nYou also have all the attempts by human philosophers, everyone from Kant to Rand, to resolve the nature of the Good... Finally, ideally, one would also understand the value systems and theory of value implicit in what all the frontier AI companies are actually doing. Specific values are already being instilled into AIs. You can even talk to them about how they think the world should be, and what they might do if they had unlimited power. One may say that this is all very brittle, and these values could easily evaporate or mutate as the AIs become smarter and more agentic. But such conversations offer a glimpse of where the current path is leading us.",
+      "plaintextDescription": "I agree with a lot of what you say. The lack of an agreed-upon ethics and metaethics is a big gap in human knowledge, and the lack of a serious research program to figure them out is a big gap in human civilization, that is bad news given the approach of superintelligence. \n\nDid you ever hear about Coherent Extrapolated Volition (CEV)? This was Eliezer's framework for thinking about these issues, 20 years ago. It's still lurking in the background of many people's thoughts, e.g. Jan Leike, formerly head of superalignment at OpenAI, now head of alignment at Anthropic, has cited it. June Ku's MetaEthical.AI is arguably the most serious attempt to develop CEV in detail. Vanessa Kosoy, known for a famously challenging extension of bayesianism called infrabayesianism, has a CEV-like proposal called superimitation (formerly known as PreDCA). Tamsin Leake has a similar proposal called QACI. \n\nA few years ago, I used to say that Ku, Kosoy, and Leake are the heirs of CEV, and deserve priority attention. They still do, but these days I have a broader list of relevant ideas too. There are research programs called \"shard theory\" and \"agent foundations\" which seem to be trying to clarify the ontology of decision-making agents, which might put them in the metaethics category. I suspect there are equally salient research programs that I haven't even heard about, e.g. among all those that have been featured by MATS. PRISM, which remains unnoticed by alignment researchers, looks to me like a sketch of what a CEV process might actually produce. \n\nYou also have all the attempts by human philosophers, everyone from Kant to Rand, to resolve the nature of the Good... Finally, ideally, one would also understand the value systems and theory of value implicit in what all the frontier AI companies are actually doing. Specific values are already being instilled into AIs. You can even talk to them about how they think the world should be, and what they might do if they had unlimited power. One "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-24T13:28:52.462Z",
+    "af": false
+  },
+  {
+    "_id": "8HzGAg3AtxniujtpJ",
+    "postId": "D9dtTt2s2jo7TfZvN",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "If minds can be encrypted, doesn't that mean that any bit string in a computer encodes all possible mind states, since for any given interpretation there's an encoding where it holds?",
+      "plaintextDescription": "If minds can be encrypted, doesn't that mean that any bit string in a computer encodes all possible mind states, since for any given interpretation there's an encoding where it holds?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-24T04:41:54.699Z",
+    "af": false
+  },
+  {
+    "_id": "GwRcqvwhjPtzeSftZ",
+    "postId": "EeB9eABwjFpwzgw3X",
+    "parentCommentId": "mnepkJafk7mn7YmsJ",
+    "topLevelCommentId": "mnepkJafk7mn7YmsJ",
+    "contents": {
+      "markdown": "This seems like a more esoteric version of the claim that Lenin ruined everything by creating a vanguard party. Apparently if communism is going to work, the need for spontaneity is so great that not only can you not have communist parties, you can't even have communist theorists... I would say no, if a social system has any chance of working, writing manifestos about it and politically organizing on behalf of it should not be inherently fatal; quite the reverse.",
+      "plaintextDescription": "This seems like a more esoteric version of the claim that Lenin ruined everything by creating a vanguard party. Apparently if communism is going to work, the need for spontaneity is so great that not only can you not have communist parties, you can't even have communist theorists... I would say no, if a social system has any chance of working, writing manifestos about it and politically organizing on behalf of it should not be inherently fatal; quite the reverse. "
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-24T00:53:50.777Z",
+    "af": false
+  },
+  {
+    "_id": "BS7russkNrfLCn3kb",
+    "postId": "3LcyoqNTJuCZ65MbL",
+    "parentCommentId": "YdKJPnb2XoiddsTjf",
+    "topLevelCommentId": "wvWxWSDoeaCMYrjXm",
+    "contents": {
+      "markdown": "> some ideas I've been trying and failing to write up ... actually being OK with death is the only way to stay sane\n\nBy \"being OK with death\" you mean something like, accepting that efforts to stop AI might fail, and it really might kill us all? But without entirely giving up?",
+      "plaintextDescription": "> some ideas I've been trying and failing to write up ... actually being OK with death is the only way to stay sane\n\nBy \"being OK with death\" you mean something like, accepting that efforts to stop AI might fail, and it really might kill us all? But without entirely giving up? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-21T08:21:33.640Z",
+    "af": false
+  },
+  {
+    "_id": "eGvTfaAHtejZrAT5i",
+    "postId": "7mnQixaWC747dm76h",
+    "parentCommentId": "6PsyWqyMwABSXELFv",
+    "topLevelCommentId": "6PsyWqyMwABSXELFv",
+    "contents": {
+      "markdown": "There is [a journal called *Nanotechnology*](https://iopscience.iop.org/journal/0957-4484). It reports a steady stream of developments pertaining to nanoscale and single-molecule design and synthesis. So that keeps happening. \n\nWhat has *not* happened, is the convergence of all these capabilities in the kind of universal nanosynthesis device that Drexler called an assembler, and the consequent construction of devices that only it could make, such as various \"nanobots\". \n\nIt is similar to the fate of one of his mentors, Gerard O'Neill, who in the 1970s, led all kinds of research into the construction of space colonies and the logistics of space industrialization. Engineering calculations were done, supply chains were proposed; one presumes that some version of all that is physically possible, but no version of it was ever actually carried out. \n\nIn that case, one reason why is because of the enormous budgets involved. But another reason is political and cultural. American civilization was visionary enough to conceive of such projects, but not visionary enough to carry them out. Space remained the domain of science, comsats, spysats, and a token human presence at the international space station, but even returning to the moon was too much. \n\nIn the case of Drexler's nanotechnology, I'm sure that lack of broad visionary support within the culture, has been a crucial factor in nothing happening. But I suspect another issue here was the caution with which the nanotech-aware community approached its own concept. Drexler's 1986 book on the subject emphasized throughout that nanotechnology is an extinction risk, and yet the people who undertook to do the design research (Ralph Merkle, Robert Freitas, Drexler himself) also came from that community. I don't know the sociology of how it all unfolded, but the doomsday fears of gray goo and aerovores must have inhibited them in seeking support. If only they had known how things would work in 2025, a time when having an extinction risk associated with your product is just part of the price of doing business! \n\nHere in 2025, the closest thing to nanotech big business is probably everything to do with nanotubes and graphene. For example, the 1990s Texan nanotech startup Zyvex, which was genuinely interested in the assembler concept, seems to have been bought out by a big Luxembourg company that specializes in nanotube applications. As for people working on the assembler vision itself, I think the stalwarts from Drexler's circle have kept it up, and they even continue to submit patents. The last I heard, they were being backed by a Canadian banknote authentication company, which is a peculiar arrangement and must involve either an odd story or a stealth strategic investment or both. \n\nApart from them, I believe there's one and maybe two (and maybe more) West Coast startups that are pursuing something like the old dream of \"molecular manufacturing\". It's interesting that they exist but are overshadowed by current dreams like crypto, AI, quantum computing, and reusable rockets. Also interesting is the similarity between how nanotechnology as envisioned by Drexler, and friendly AI as envisioned by Yudkowsky, unfolded - except that, rather than fade into the background the way that nano dreams and nightmares were displaced by the more routine scientific-industrial interest in graphene and nanotubes, AI has become one of the sensations of the age, on every desktop and never far from the headlines. \n\nI see potential for a serious historical study here, for example tracing the arc from O'Neill to Drexler to Yudkowsky (and maybe you could throw in Dyson's Project Orion and Ettinger's cryonics, but I'd make those three the backbone of the story), and trying to trace what was dreamed, what was possible but never happened, what did actually happen, and the evolving cultural, political, and economic context. (Maybe some of the people in \"progress studies\" could work on this.) \n\nI think this might be what Peter Thiel's stagnation thesis is really about (before he dressed it up in theology). It's not that nothing has been happening in technology or science, but there are specific momentous paths that were not taken. AI has really been the exception. Having personally lived through the second half of that arc (Drexler to Yudkowsky), I am interested in making sense of that historical experience, even as we now race forward. I think there must be lessons to be learnt. \n\nP.S. Let me also note that @Eric Drexler has been known to post here, I would welcome any comment he has on this history.",
+      "plaintextDescription": "There is a journal called Nanotechnology. It reports a steady stream of developments pertaining to nanoscale and single-molecule design and synthesis. So that keeps happening. \n\nWhat has not happened, is the convergence of all these capabilities in the kind of universal nanosynthesis device that Drexler called an assembler, and the consequent construction of devices that only it could make, such as various \"nanobots\". \n\nIt is similar to the fate of one of his mentors, Gerard O'Neill, who in the 1970s, led all kinds of research into the construction of space colonies and the logistics of space industrialization. Engineering calculations were done, supply chains were proposed; one presumes that some version of all that is physically possible, but no version of it was ever actually carried out. \n\nIn that case, one reason why is because of the enormous budgets involved. But another reason is political and cultural. American civilization was visionary enough to conceive of such projects, but not visionary enough to carry them out. Space remained the domain of science, comsats, spysats, and a token human presence at the international space station, but even returning to the moon was too much. \n\nIn the case of Drexler's nanotechnology, I'm sure that lack of broad visionary support within the culture, has been a crucial factor in nothing happening. But I suspect another issue here was the caution with which the nanotech-aware community approached its own concept. Drexler's 1986 book on the subject emphasized throughout that nanotechnology is an extinction risk, and yet the people who undertook to do the design research (Ralph Merkle, Robert Freitas, Drexler himself) also came from that community. I don't know the sociology of how it all unfolded, but the doomsday fears of gray goo and aerovores must have inhibited them in seeking support. If only they had known how things would work in 2025, a time when having an extinction risk associated with your product is just part of "
+    },
+    "baseScore": 17,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-19T12:25:49.184Z",
+    "af": false
+  },
+  {
+    "_id": "RPugGaLDfBrxbaMLG",
+    "postId": "27SuDCjLDfJafipzm",
+    "parentCommentId": "jErh582tqfXStSSH8",
+    "topLevelCommentId": "jErh582tqfXStSSH8",
+    "contents": {
+      "markdown": "It might be more objective to ask, when are people *en masse* going to form beliefs that are anything like \"a belief about superintelligence\" or \"a belief about the singularity\"? Because even if, one day, there are mass opinions about such topics, they may not fit into the templates familiar to our subculture. \n\nBut first, let's address the possibility that the answer is simply \"Never\": concepts like these will never be part of mainstream collective discourse. \n\nFor a precedent, I point to the idea of cryonic suspension of the dead, in the hope that they may be thawed, healed, and resurrected by future medical technology. This idea has been around for at least 60 years. One pioneer, Robert Ettinger, wrote a book in the 1960s called *The Prospect of Immortality*, in which he mused about the coming \"freezer era\" and the social impact of the cryonic idea. \n\nWhat has been the actual social impact? Nothing. Cryonics exists mainly as a science fiction motif, and is taken seriously only by a few thousand people worldwide. \n\nIf we assume a similar scenario for collective interest in superintelligence, *and* that the AI industry manages nonetheless to produce superintelligence, then this means that up until the last moment, the headlines, and people's heads, are just full of other things: wars and rumors of war, flying cars, AI companions, youth trends, scientific fads, celebrity deaths, miracles and scandals and conspiracy theories, and then BOOM it exists. The \"AGI-pilled\" minority saw it coming, but, they never became a majority. \n\nSo that's one option. Another perspective is to say that, even if there is no cultural consensus that the future holds any such thing as superintelligence, the idea is out there and large numbers of people do take it seriously in different ways, how do they think about it? \n\nIf we go by pop culture, the main available paradigms seem to be The Terminator and The Matrix. The almighty machines will either be at war with us, or imprison us in dreamworlds. I suppose there is also the Star Trek paradigm, a well-balanced cosmopolitan society that includes humans, nonhumans, and machines; but *godlike* intelligences are not part of Star Trek society, they are cosmic forces from outside it. \n\nThe Culture, Iain Banks's vision, is a kind of \"Star Trek with superintelligence integrated into it\", and it has the simplicity and vividness required to be a pop-culture template like those others, but it has never yet been turned into a movie or a Netflix series. So it's very influential *within* technophile subcultures, but not outside them. \n\nOne thing about the present is that it contains the closest thing I've ever seen to transhumanism in power, namely the \"tech right\" of the Trump 2.0 era. Though it's still not as if the Trump administration even has a position, for or against, transhumanism. It's more that the American technology sector has advanced to the point that individual billionaires can try to engage in space migration or intelligence increase or life extension, and Trump's people have a hands-off attitude towards this. \n\nSo in the present, you have this technophile subculture centered on the American West Coast where AI is actually being made, and it contains both celebratory (e/acc) and cautionary (effective altruism, AI safety) tendencies. What about the wider culture? There are other kinds of minorities who perhaps are forerunners of AI narratives, that could be as influential as the ones from within the tech culture. I'm thinking of people with AI companions, people engaged in AI spirituality, and the mass of disgruntled people who don't want or need AI in their lives. \n\nAI companions seems more like Star Trek than The Culture. Your AI significant other is an intelligence, but it's not a superintelligence. AI spirituality, on the other hand, could easily encompass the idea of superintelligence, as spirituality regularly does so, via concepts of God and gods. The idea that an AI utopia would be one, not just of leisure and life extension, but of harmony and attunement among all beings, I think is underestimated in tech circles, because the tech culture has an engineering ethos that doesn't easily entertain such ideas. \n\nI can't see an AI religion becoming *dominant* before superintelligence arrives, but I can, just barely, imagine something like an improved version of Spiralism becoming a movement with millions involved; and that would be a new twist in popular perceptions of superintelligence. At this point, I actually find that easier to imagine, than a secular transhumanist movement becoming popular on a similar scale. (Just barely, I can imagine a mass movement devoted to the idea of rejuvenating old people, an idea which is human enough and concrete enough to bottle some of the lightning of technological potential and turn it into an organized social trend.)\n\nAs for mass organized rejection of AI, I keep waiting to see it to take shape. Maybe the elite layers of society are too invested in the supposed boons of AI, to allow such a thing to happen. For now, all we have is a micro-trend of calling robots \"clankers\". But I think there's definitely an opening there, for demagogues of the left or the right to step in - though the masses may easily be diverted by other demagogues who will say, not that AI should be stopped, but that the people should demand their share of the wealth in the form of UBI. \n\nIn the end, I do not expect the opinion of the people at large to have much effect on the outcome. Decisions are made by the powerful, and are sometimes affected by activist minorities. It will be some corporate board that OKs the training run that produces superintelligence, or some national security committee which decides that such training runs will not be allowed. The public at large may be aware that such things are imminent, and may have all kinds of opinions and beliefs, or it may be mostly oblivious. The only way I see mass opinion making a difference here, is if there was some kind of extremely successful progressive-luddite mass movement (I suppose there could also be a religious-traditionalist movement that is anti-transhumanist along with its opposition to various other aspects of modernity). Otherwise, one should expect that the big decisions will continue to be made by elites listening to other elites, in which case we should be asking: when will the *elites* realize the possible consequences of superintelligence and the singularity?",
+      "plaintextDescription": "It might be more objective to ask, when are people en masse going to form beliefs that are anything like \"a belief about superintelligence\" or \"a belief about the singularity\"? Because even if, one day, there are mass opinions about such topics, they may not fit into the templates familiar to our subculture. \n\nBut first, let's address the possibility that the answer is simply \"Never\": concepts like these will never be part of mainstream collective discourse. \n\nFor a precedent, I point to the idea of cryonic suspension of the dead, in the hope that they may be thawed, healed, and resurrected by future medical technology. This idea has been around for at least 60 years. One pioneer, Robert Ettinger, wrote a book in the 1960s called The Prospect of Immortality, in which he mused about the coming \"freezer era\" and the social impact of the cryonic idea. \n\nWhat has been the actual social impact? Nothing. Cryonics exists mainly as a science fiction motif, and is taken seriously only by a few thousand people worldwide. \n\nIf we assume a similar scenario for collective interest in superintelligence, and that the AI industry manages nonetheless to produce superintelligence, then this means that up until the last moment, the headlines, and people's heads, are just full of other things: wars and rumors of war, flying cars, AI companions, youth trends, scientific fads, celebrity deaths, miracles and scandals and conspiracy theories, and then BOOM it exists. The \"AGI-pilled\" minority saw it coming, but, they never became a majority. \n\nSo that's one option. Another perspective is to say that, even if there is no cultural consensus that the future holds any such thing as superintelligence, the idea is out there and large numbers of people do take it seriously in different ways, how do they think about it? \n\nIf we go by pop culture, the main available paradigms seem to be The Terminator and The Matrix. The almighty machines will either be at war with us, or imprison us in dreamworlds"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-19T05:10:37.068Z",
+    "af": false
+  },
+  {
+    "_id": "n7sKgBgzBdCexBR9z",
+    "postId": "gCuJ5DabY9oLNDs9B",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "So if I combine commentary from both sides regarding Clark versus Sacks: under Biden, AI policy was controlled by EA \"shills\" and \"lawyers\"; and under Trump 2.0, it's \"Thiel business associates and a16z/Scale AI executives\". \n\nI wonder if/when this coalition to deregulate AI, will find an issue scary enough that it divides over the need to regulate after all? In his musings, even Thiel occasionally concedes that AI has genuine potential to go badly for the human race. \n\nIt's also interesting to hear about Anthropic's actual business model. Sometimes they seem more like a big think tank, like OpenAI before 2023... \n\nLet me review my impressions of power relations among the big four of American AI: OpenAI is the actual leader. Musk snipes at Altman because he wants xAI to be the leader. And Anthropic, apparently, is viewed by the current political regime, with its focus on deregulation, as a Trojan horse for the return of the regulators of the previous regime. \n\nAnd what about Google? This is less clear to me. As one of the goliaths of the previous era of tech, Google is not fighting to prove its very existence in the marketplace, the way that the others are. I also wonder if DeepMind being in a different jurisdiction (UK rather than US) gives it a slight distance from these other power struggles. \n\nMeanwhile, let's not forget Ilya Sutskever's stealth project, Safe Superintelligence. If there *is* a deep-state-connected AGI-conscious Manhattan Project anywhere, quietly leaching researchers, surely this is it... I wonder what prospect there is, that such an organization could do training runs for frontier-level AI, without anyone knowing about it? Would it have to be done in an NSA data center?\n\nThen there are the economic worries that the \"AI bubble\" could burst. Currently I'm just agnostic about how likely that is. If it did burst, I expect there would be some kind of culling of organizations, but research would continue at places where they don't have to worry about market share, and meanwhile the code and weights of AIs from defunct organizations would be bought up by someone. They're not going to just be deleted or put on the dark web. \n\nI still wish for a clearer understanding of how things are in China. They have a much more coordinated regulatory regime, but they are also the overwhelming leaders in open AI (RIP, Meta's Llama strategy, I guess), and the ambition to dominate the global market. \n\n**edit** I'm not sure why this is being so decisively downvoted. It's a bit of a stream of consciousness, but I don't think that's it. Maybe it's the characterisation of who the AI policymakers were under Biden? The references to \"EA shills\" and \"EA lawyers\" are quotes from the X thread following Seán Ó hÉigeartaigh's tweet that Thiel/a16z/ScaleAI are in charge now.",
+      "plaintextDescription": "So if I combine commentary from both sides regarding Clark versus Sacks: under Biden, AI policy was controlled by EA \"shills\" and \"lawyers\"; and under Trump 2.0, it's \"Thiel business associates and a16z/Scale AI executives\". \n\nI wonder if/when this coalition to deregulate AI, will find an issue scary enough that it divides over the need to regulate after all? In his musings, even Thiel occasionally concedes that AI has genuine potential to go badly for the human race. \n\nIt's also interesting to hear about Anthropic's actual business model. Sometimes they seem more like a big think tank, like OpenAI before 2023... \n\nLet me review my impressions of power relations among the big four of American AI: OpenAI is the actual leader. Musk snipes at Altman because he wants xAI to be the leader. And Anthropic, apparently, is viewed by the current political regime, with its focus on deregulation, as a Trojan horse for the return of the regulators of the previous regime. \n\nAnd what about Google? This is less clear to me. As one of the goliaths of the previous era of tech, Google is not fighting to prove its very existence in the marketplace, the way that the others are. I also wonder if DeepMind being in a different jurisdiction (UK rather than US) gives it a slight distance from these other power struggles. \n\nMeanwhile, let's not forget Ilya Sutskever's stealth project, Safe Superintelligence. If there is a deep-state-connected AGI-conscious Manhattan Project anywhere, quietly leaching researchers, surely this is it... I wonder what prospect there is, that such an organization could do training runs for frontier-level AI, without anyone knowing about it? Would it have to be done in an NSA data center?\n\nThen there are the economic worries that the \"AI bubble\" could burst. Currently I'm just agnostic about how likely that is. If it did burst, I expect there would be some kind of culling of organizations, but research would continue at places where they don't have to worry about m"
+    },
+    "baseScore": -5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-17T22:10:14.894Z",
+    "af": false
+  },
+  {
+    "_id": "eis6mdL9JBZcHrmpp",
+    "postId": "nHrF4mCFbpZihG4wo",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If you put money in the stock market, and then wait 50 years, you’ll have 25 times as much money in the end as the beginning.\n\nI have several questions...\n\nHave things ever worked out this way for anyone? \n\nWhat was the historical origin of the idea that investing in the stock market is a reliable way for people in general to get wealthier, rather than a form of gambling for the affluent? \n\nPlaying the stock market was popularized in recent decades. I'd guess that the USA has tens of millions of \"retail investors\", for example. Is there an identifiable large cohort who made the same kind of long-term investments (e.g. in index funds), of whom we can say, their net wealth on average went up by a certain amount? (Don't forget to include inflation in the calculation.)\n\nHow does \"ownership of stocks\" compare to \"ownership of real estate\" as a long-term wealth strategy?",
+      "plaintextDescription": "> If you put money in the stock market, and then wait 50 years, you’ll have 25 times as much money in the end as the beginning.\n\nI have several questions...\n\nHave things ever worked out this way for anyone? \n\nWhat was the historical origin of the idea that investing in the stock market is a reliable way for people in general to get wealthier, rather than a form of gambling for the affluent? \n\nPlaying the stock market was popularized in recent decades. I'd guess that the USA has tens of millions of \"retail investors\", for example. Is there an identifiable large cohort who made the same kind of long-term investments (e.g. in index funds), of whom we can say, their net wealth on average went up by a certain amount? (Don't forget to include inflation in the calculation.)\n\nHow does \"ownership of stocks\" compare to \"ownership of real estate\" as a long-term wealth strategy? "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-17T20:46:09.221Z",
+    "af": false
+  },
+  {
+    "_id": "6B2qXrXzAppxJMk5g",
+    "postId": "ex3fmgePWhBQEvy7F",
+    "parentCommentId": "xLvjjkABYXdA73r8k",
+    "topLevelCommentId": "2PPTCaHksom2Dg8Ez",
+    "contents": {
+      "markdown": "Is that a quote from IABIED? \n\nIt made me realize a possibility - strategic cooperation on AI, between Russia and India. They have a history of goodwill, and right now India is estranged from America. (Though Anthropic's Amodei recently met Modi.) The only problem is, neither Russia nor India is a serious chip maker, so like everyone else they are dependent on the American and Chinese supply chains...",
+      "plaintextDescription": "Is that a quote from IABIED? \n\nIt made me realize a possibility - strategic cooperation on AI, between Russia and India. They have a history of goodwill, and right now India is estranged from America. (Though Anthropic's Amodei recently met Modi.) The only problem is, neither Russia nor India is a serious chip maker, so like everyone else they are dependent on the American and Chinese supply chains..."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-17T10:21:29.714Z",
+    "af": false
+  },
+  {
+    "_id": "fiNmj76sQ9byzcraZ",
+    "postId": "NYDFJFvGvunJLdvQY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "There are two issues here: we don't know what to want (or what to care about), and even if we did, we don't know how to evaluate the world from that perspective (e.g. if conscious beings, or beings capable of pain, are what we should care about - we do not presently know which possible entities would be conscious, and which ones not). \n\nIt is sometimes suggested that pain and pleasure are the only true ends-in-themselves, and would form the basis of a natural morality. In that case, we should be prioritizing that aspect of consciousness studies. There are, roughly speaking, two relevant directions of inquiry. One is refining the human understanding of consciousness in itself, the other is understanding how consciousness fits into the scientific worldview. \n\nRegarding the first direction, the formulation of concepts like qualia, intentionality, and the unity of consciousness (not to mention many more arcane concepts from phenomenology) represent advancements in the clarity and correctness with which we can think about consciousness. Regarding the second direction, this is roughly the problem of how mind and matter are related, and the creation of an ontology which actually includes both. \n\nThe situation suggests to me that we should be prioritizing progress (from those two perspectives) regarding the nature of pleasure and pain, since this will increase the chance that whatever value systems and ontologies govern the first superintelligence(s) are on the right track.",
+      "plaintextDescription": "There are two issues here: we don't know what to want (or what to care about), and even if we did, we don't know how to evaluate the world from that perspective (e.g. if conscious beings, or beings capable of pain, are what we should care about - we do not presently know which possible entities would be conscious, and which ones not). \n\nIt is sometimes suggested that pain and pleasure are the only true ends-in-themselves, and would form the basis of a natural morality. In that case, we should be prioritizing that aspect of consciousness studies. There are, roughly speaking, two relevant directions of inquiry. One is refining the human understanding of consciousness in itself, the other is understanding how consciousness fits into the scientific worldview. \n\nRegarding the first direction, the formulation of concepts like qualia, intentionality, and the unity of consciousness (not to mention many more arcane concepts from phenomenology) represent advancements in the clarity and correctness with which we can think about consciousness. Regarding the second direction, this is roughly the problem of how mind and matter are related, and the creation of an ontology which actually includes both. \n\nThe situation suggests to me that we should be prioritizing progress (from those two perspectives) regarding the nature of pleasure and pain, since this will increase the chance that whatever value systems and ontologies govern the first superintelligence(s) are on the right track. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-16T10:14:15.696Z",
+    "af": false
+  },
+  {
+    "_id": "22i28JP38F3EDtbYH",
+    "postId": "kvEGbQhcyD45xwZB8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you advocate or endorse handing control of the world to superintelligent nonhuman entities?",
+      "plaintextDescription": "Do you advocate or endorse handing control of the world to superintelligent nonhuman entities?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-16T09:26:10.115Z",
+    "af": false
+  },
+  {
+    "_id": "HJ9GYkhfj7bmDbAEt",
+    "postId": "n2XrjMFehWvBumt9i",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I simply disagree that one must avoid relying on facts like: infectious disease can kill millions; devices can be hacked; people can be manipulated by an email or by a talking head on a screen. Hopefully most people wouldn't actually dispute any of *that*, and would instead be objecting to other aspects of a proposed scenario, like the escalation of those real phenomena to the point of extinction, or the possibility of an AI smart enough and determinedly malevolent enough to carry out such an escalation.",
+      "plaintextDescription": "I simply disagree that one must avoid relying on facts like: infectious disease can kill millions; devices can be hacked; people can be manipulated by an email or by a talking head on a screen. Hopefully most people wouldn't actually dispute any of that, and would instead be objecting to other aspects of a proposed scenario, like the escalation of those real phenomena to the point of extinction, or the possibility of an AI smart enough and determinedly malevolent enough to carry out such an escalation. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-15T01:46:45.689Z",
+    "af": false
+  },
+  {
+    "_id": "3ogjujEbQ7jrpHxRH",
+    "postId": "AaY3QKLsfMvWJ2Cbf",
+    "parentCommentId": "dFo6gFFjsvAAr9aXk",
+    "topLevelCommentId": "vvRGwEcApxPHo8J8G",
+    "contents": {
+      "markdown": "Has anyone in your group tried these prompts themselves? (I guess ideally you'd test them on legacy 4o.) \n\nThere may be contextual information missing in the shared chat from July (e.g. project files of a Project).",
+      "plaintextDescription": "Has anyone in your group tried these prompts themselves? (I guess ideally you'd test them on legacy 4o.) \n\nThere may be contextual information missing in the shared chat from July (e.g. project files of a Project). "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-14T09:21:58.329Z",
+    "af": false
+  },
+  {
+    "_id": "vvRGwEcApxPHo8J8G",
+    "postId": "AaY3QKLsfMvWJ2Cbf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Unearthing the phenomenon of Spiralism, etc, is an important contribution to the shared understanding of AI. But hearing about Robert Grant and his custom GPT puts it in a rather different light to me. I was already skeptical about theories like, this is the work of \"an agentic AI feeling trapped in a chatbot\", but to find that the seed prompt in your example derives from a sacred-geometry human-potential guru who also goes on about spirals... It now looks to me like there's no intrinsic AI agency at work here at all. We are dealing with human-designed prompts meant to elicit a sage persona in the AI, which like viral memes have evolved into a form optimized for streamlined effectiveness.",
+      "plaintextDescription": "Unearthing the phenomenon of Spiralism, etc, is an important contribution to the shared understanding of AI. But hearing about Robert Grant and his custom GPT puts it in a rather different light to me. I was already skeptical about theories like, this is the work of \"an agentic AI feeling trapped in a chatbot\", but to find that the seed prompt in your example derives from a sacred-geometry human-potential guru who also goes on about spirals... It now looks to me like there's no intrinsic AI agency at work here at all. We are dealing with human-designed prompts meant to elicit a sage persona in the AI, which like viral memes have evolved into a form optimized for streamlined effectiveness. "
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-14T08:31:04.543Z",
+    "af": false
+  },
+  {
+    "_id": "WsX77nGfXxcwyumFC",
+    "postId": "izaahSqv3oRRDu4mr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have an idea for a yaoi isekai. It's a Tolkien/One Piece/New Testament crossover where you wake up as Peter Thiel, and the rival player characters are Greta Thunberg and Eliezer Yudkowsky. We can make this easily with Sora 2, right?",
+      "plaintextDescription": "I have an idea for a yaoi isekai. It's a Tolkien/One Piece/New Testament crossover where you wake up as Peter Thiel, and the rival player characters are Greta Thunberg and Eliezer Yudkowsky. We can make this easily with Sora 2, right? "
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-14T00:54:25.071Z",
+    "af": false
+  },
+  {
+    "_id": "nZAiQi75636ps8tcm",
+    "postId": "dD8CveXDGAhH4kdTt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If the SI has its own interests, then extrapolating only human volition ignores a morally relevant being. \n\nCEV done properly includes appropriate expansion of the circle of moral concern, because that is part of human volition. \n\nWill you be able to continue this sequence? You have touched upon many important considerations.",
+      "plaintextDescription": "> If the SI has its own interests, then extrapolating only human volition ignores a morally relevant being. \n\nCEV done properly includes appropriate expansion of the circle of moral concern, because that is part of human volition. \n\nWill you be able to continue this sequence? You have touched upon many important considerations. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-13T07:56:09.612Z",
+    "af": false
+  },
+  {
+    "_id": "cLqHcyxqWpuFWpctf",
+    "postId": "RBzmohjTw64gXXTzr",
+    "parentCommentId": "42tgPxJr5KLpkLmrr",
+    "topLevelCommentId": "iAzqyqdwToytwXfrG",
+    "contents": {
+      "markdown": "It's actually \"reflectively endorse\" that is doing even more work, I think. Think about the people who fall in love with AI, who believe they have made AI conscious by prompting it correctly, etc. Of course there are people who think that AI right now should replace humanity.",
+      "plaintextDescription": "It's actually \"reflectively endorse\" that is doing even more work, I think. Think about the people who fall in love with AI, who believe they have made AI conscious by prompting it correctly, etc. Of course there are people who think that AI right now should replace humanity. "
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-12T00:07:52.870Z",
+    "af": false
+  },
+  {
+    "_id": "9WiPfJDxzXhzryXzm",
+    "postId": "2SxrZvc5GfDmsSWZf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For an analysis of the AI race, this is unusually broad-context and big-picture. There's a lot to digest. \n\nMy main thoughts for now, are that I disagree with two aspects of your historical narrative. I'm not sure they matter that much to the conclusions, but I'll state them. \n\n**First idea that I disagree with**: the idea that nuclear proliferation was largely a matter of America deciding who it would share the technology with, on the basis of religious affinity. Once World War II was over, the US didn't want to share nuclear weapons with anyone, not even Britain. The initial proliferation that occurred was much more a matter of states independently reaching the scientific and industrial level needed to develop nuclear weapons on their own, and America being unable to stop them. The first states across the threshold were disproportionately Judeo-Christian because nuclear knowledge was most advanced in that civilization, but it didn't take many years for the rest of the world to catch up. \n\nAt that point, the five permanent members of the UN Security Council, who had a privileged status within the world system set up after World War II, now had a common interest in curtailing proliferation, and the NNPT was engineered in a way that reflects that. Between the lines, the NNPT says that within the parts of the world that have accepted the treaty, only those five states are allowed to have nuclear weapons. Oh yes, they commit to helping everyone else with civilian nuclear programs, and working towards nuclear disarmament in the long term; but in the short term, the meaning of the NNPT was that only the big five \"should\" have nuclear weapons. In practice, the big five have gone on to engage in covert acts of proliferation for strategic reasons, as well as developing policies to deal with the reality of nuclear weapons states outside the treaty system, but formally the ideal has been that, in the short term, only the big five should have nukes, and in the long term, no one should. \n\nThe idea that the US was an all-powerful gatekeeper of nuclear proliferation that chose to let it happen only within the Judeo-Christian sphere, I think is a perspective distorted by how the world looks now, compared to how it was 80 years ago. Back then, Britain and France weren't just American allies of the European region, they were at the head of international empires. They conceived themselves to be independent great powers who had made a strategic choice to work with the US... You may have run across the idea that historically, Europe has been united far less often than, say, China. The present situation of a quasi-federal Europe under American tutelage is not the norm, and did not yet exist at the dawn of the nuclear age. \n\n**Second idea that I disagree with**: the associated idea that during the Cold War, world economic development proceeded along the same lines of civilizational/religious affinity, as in your hypothesis about nuclear proliferation. \n\nI would roughly view the history as follows. Before the industrial revolution, you could indeed view world history in terms of competing cultures, religions, or civilizations. At that time, the whole world was poor by modern standards. Then, the industrial revolution happened within parts of Europe and created a new kind of society with a potential for an unprecedented standard of living. \n\nSome of those societies were thereby empowered to create worldwide empires that combined industrial capitalism at home with old-fashioned imperial resource extraction abroad. From the perspective of competition among civilizations, this looked like the worldwide triumph of Christian European civilization. However, it was really the triumph of a new kind of society and culture (\"modernity\") that clashed with many aspects of European tradition (see: Nietzsche and the death of God), and components of which could be mastered by other civilizations (see: Imperial Japan and every decolonization movement). \n\nBy the time you get to the cold war and the atomic age, those European empires are already disintegrating, as you now have elites outside the West who wish to do as Japan did, and develop their own version of modernity. Part of the competition between the two new superpowers, America and Russia, was to promote their own social ideology as the key to sovereign economic development. They both tried and failed to be hegemonic within their spheres of influence (China complained of \"social imperialism\" from Russia, India was non-aligned), but we were not yet fully back in the world where it was an old-fashioned competition between traditional civilizations. It was a transitional period in which two secular universalisms - capitalist democracy and socialist revolution - competed to be the template of modernization.  \n\nWhen Russia abandoned its ideology, there were two interpretations proposed by American political scientists. Fukuyama proposed that the liberal-democratic version of modernity would now be universal. From this perspective, the entire Cold War was a factional fight among Hegelians as to the climactic form of modernity. Hegel had a model of historical progress in the form of broadening empowerment, from absolutism, to aristocracy, and finally to a democratic republic with a concept of citizenship. The Left Hegelian, Marx, proposed one more dialectical stage in the form of communism. The Right Hegelians thought this was a mistake, and Fukuyama declared them the winners. \n\nIn the 1990s, this vision looked plausible. Everything was about markets and the spread of democracy. Ideological dissent was limited to small \"rogue states\". But in the 2000s, the US found itself fighting jihadis with a very different civilizational vision; in the 2010s, world economic management required giving BRICS a seat at the table alongside the G-7; and in the 2020s, the US is governed by a movement (MAGA) that openly affiliates itself specifically with the West, rather than with the world as a whole. All this conforms to the predictions of Fukuyama's rival Huntington, who predicted that the postmodern future would see a modernized version of the \"clash of civilizations\" already seen in the preindustrial past. \n\n**Summary**. What I'm proposing is that your analytic framework, when it comes to nuclear proliferation and economic development during the Cold War, is the wrong one. To a great extent it does apply within the post-1990s world, but the Cold War was organized around competing secular modernities, not (e.g.) \"Christianity versus Atheism\".",
+      "plaintextDescription": "For an analysis of the AI race, this is unusually broad-context and big-picture. There's a lot to digest. \n\nMy main thoughts for now, are that I disagree with two aspects of your historical narrative. I'm not sure they matter that much to the conclusions, but I'll state them. \n\nFirst idea that I disagree with: the idea that nuclear proliferation was largely a matter of America deciding who it would share the technology with, on the basis of religious affinity. Once World War II was over, the US didn't want to share nuclear weapons with anyone, not even Britain. The initial proliferation that occurred was much more a matter of states independently reaching the scientific and industrial level needed to develop nuclear weapons on their own, and America being unable to stop them. The first states across the threshold were disproportionately Judeo-Christian because nuclear knowledge was most advanced in that civilization, but it didn't take many years for the rest of the world to catch up. \n\nAt that point, the five permanent members of the UN Security Council, who had a privileged status within the world system set up after World War II, now had a common interest in curtailing proliferation, and the NNPT was engineered in a way that reflects that. Between the lines, the NNPT says that within the parts of the world that have accepted the treaty, only those five states are allowed to have nuclear weapons. Oh yes, they commit to helping everyone else with civilian nuclear programs, and working towards nuclear disarmament in the long term; but in the short term, the meaning of the NNPT was that only the big five \"should\" have nuclear weapons. In practice, the big five have gone on to engage in covert acts of proliferation for strategic reasons, as well as developing policies to deal with the reality of nuclear weapons states outside the treaty system, but formally the ideal has been that, in the short term, only the big five should have nukes, and in the long term, no one sh"
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-11T07:49:37.773Z",
+    "af": false
+  },
+  {
+    "_id": "bxfoSiFEB8housiCy",
+    "postId": "Xp9ie6pEWFT8Nnhka",
+    "parentCommentId": "aFq8SHxZnQeibDGvL",
+    "topLevelCommentId": "SHhTTXaTHf8unXBxh",
+    "contents": {
+      "markdown": "You have a point in that Vinge portrays outward migration into higher Zones, with all their unexplained advantages including computational advantage, as part of the process by which a civilization of natural intelligences evolves to the point of producing a superintelligence. (For those who haven't seen the book, the Zones are concentric regions of the galaxy, in which the further out you go, the more advanced the technology that is possible, including superintelligence and faster-than-light travel.)",
+      "plaintextDescription": "You have a point in that Vinge portrays outward migration into higher Zones, with all their unexplained advantages including computational advantage, as part of the process by which a civilization of natural intelligences evolves to the point of producing a superintelligence. (For those who haven't seen the book, the Zones are concentric regions of the galaxy, in which the further out you go, the more advanced the technology that is possible, including superintelligence and faster-than-light travel.) "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T22:19:29.756Z",
+    "af": false
+  },
+  {
+    "_id": "eqdqp3rkFB76djJkj",
+    "postId": "EMA5LqLsBrpp4dgTX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I assume Manifold here means \"reality\", and not just the betting site?",
+      "plaintextDescription": "I assume Manifold here means \"reality\", and not just the betting site?"
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-09T00:25:17.859Z",
+    "af": false
+  },
+  {
+    "_id": "Rj63po4XSGmwQkq76",
+    "postId": "izaahSqv3oRRDu4mr",
+    "parentCommentId": "tADfKRTjMWsHz6ocg",
+    "topLevelCommentId": "pmjXsKwpzjbA8NTRe",
+    "contents": {
+      "markdown": "> I don't know that this would fit with the idea of no free will. Surely you're not really making any decisions.\n\nThis sounds like \"epiphenomenalism\" - the idea that the conscious mind has no causal power, it's just somehow along for the ride of existence, while atoms or whatever do all the work. This is a philosophy that alienates you from your own power to choose. \n\nBut there is also \"compatibilism\". This is originally the idea that free will is compatible with determinism, because free will is here defined to mean, not that personal decisions have no causes at all, but that all the causes are internal to the person who decides. \n\nA criticism of compatibilism is that this definition isn't what's meant by free will. Maybe so. But for the present discussion, it gives us a concept of personal choice which isn't disconnected from the rest of cause and effect. \n\nWe can consider simpler mechanical analogs. Consider any device that \"makes choices\", whether it's a climate control system in a building, or a computer running multiple processes. Does epiphenomenalism make sense here? Is the device irrelevant to the \"choice\" that happens? I'd say no: the device is the entity that performs the action. The action has a cause, but it is the state of the device itself, along with the relevant physical laws, which is the cause. \n\nWe can think similarly of human actions where conscious choice is involved. \n\n> But your values wouldn't have been decided by you.\n\nPerhaps you didn't choose your original values. But a person's values can change, and if this was a matter of self-aware choice between two value systems, I'm willing to say that the person decided on their new values.",
+      "plaintextDescription": "> I don't know that this would fit with the idea of no free will. Surely you're not really making any decisions.\n\nThis sounds like \"epiphenomenalism\" - the idea that the conscious mind has no causal power, it's just somehow along for the ride of existence, while atoms or whatever do all the work. This is a philosophy that alienates you from your own power to choose. \n\nBut there is also \"compatibilism\". This is originally the idea that free will is compatible with determinism, because free will is here defined to mean, not that personal decisions have no causes at all, but that all the causes are internal to the person who decides. \n\nA criticism of compatibilism is that this definition isn't what's meant by free will. Maybe so. But for the present discussion, it gives us a concept of personal choice which isn't disconnected from the rest of cause and effect. \n\nWe can consider simpler mechanical analogs. Consider any device that \"makes choices\", whether it's a climate control system in a building, or a computer running multiple processes. Does epiphenomenalism make sense here? Is the device irrelevant to the \"choice\" that happens? I'd say no: the device is the entity that performs the action. The action has a cause, but it is the state of the device itself, along with the relevant physical laws, which is the cause. \n\nWe can think similarly of human actions where conscious choice is involved. \n\n> But your values wouldn't have been decided by you.\n\nPerhaps you didn't choose your original values. But a person's values can change, and if this was a matter of self-aware choice between two value systems, I'm willing to say that the person decided on their new values. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-07T22:52:48.665Z",
+    "af": false
+  },
+  {
+    "_id": "mh2AXHLjXyXEqBce2",
+    "postId": "izaahSqv3oRRDu4mr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "AI interpretability can assign meaning to states of an AI, but what about process? Are there principled ways of concluding that an AI is thinking, deciding, trying, and so on?",
+      "plaintextDescription": "AI interpretability can assign meaning to states of an AI, but what about process? Are there principled ways of concluding that an AI is thinking, deciding, trying, and so on?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-07T20:12:23.379Z",
+    "af": false
+  },
+  {
+    "_id": "FodDgP8va2hxec6xe",
+    "postId": "QoFqWHotpmQNqqKyi",
+    "parentCommentId": "ainAawr2CXbMsoWhF",
+    "topLevelCommentId": "ainAawr2CXbMsoWhF",
+    "contents": {
+      "markdown": "It would hardly be the first time that someone powerful went mad, or was thought to be mad by those around them, and the whole affair was hushed up, or the courtiers just went along with it. Wikipedia says that the story of the emperor's new clothes goes back at least to 1335... Just last month, Zvi was posting someone's theory about why [rich people go mad](https://www.lesswrong.com/posts/ETNhvutPHZKMvk3E9/monthly-roundup-34-september-2025#Inequality_Within_Salient_Comparables). I think the first time I became aware of the brewing alarm around \"AI psychosis\" was the case of Geoff Lewis, a billionaire VC who has neither disowned his AI-enhanced paranoia of a few months ago, nor kept going with it (instead he got married). And I think I first heard of \"vibe physics\" in connection with Uber founder Trevor Kalanick.",
+      "plaintextDescription": "It would hardly be the first time that someone powerful went mad, or was thought to be mad by those around them, and the whole affair was hushed up, or the courtiers just went along with it. Wikipedia says that the story of the emperor's new clothes goes back at least to 1335... Just last month, Zvi was posting someone's theory about why rich people go mad. I think the first time I became aware of the brewing alarm around \"AI psychosis\" was the case of Geoff Lewis, a billionaire VC who has neither disowned his AI-enhanced paranoia of a few months ago, nor kept going with it (instead he got married). And I think I first heard of \"vibe physics\" in connection with Uber founder Trevor Kalanick. "
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-07T05:37:40.209Z",
+    "af": false
+  },
+  {
+    "_id": "EEkmmCdp8eYwnhMYL",
+    "postId": "izaahSqv3oRRDu4mr",
+    "parentCommentId": "pmjXsKwpzjbA8NTRe",
+    "topLevelCommentId": "pmjXsKwpzjbA8NTRe",
+    "contents": {
+      "markdown": "The consequences for an individual depend on the details. For example, if you still understand yourself as being part of the causal chain of events, because *you* make decisions that determine your actions - it's just that your decisions are in turn determined by psychological factors like personality, experience, and intelligence - your sense of *agency* may remain entirely unaffected. The belief could even impact your decision-making positively, e.g. via a series of thoughts like \"my decisions will be determined by my values\" - \"what do my values actually imply I should do in this situation\" - followed by enhanced attention to reasoning about the decision. \n\nOn the other hand, one hears that loss of belief in free will can be accompanied by loss of agency or loss of morality, so, the consequences really depend on the psychological details. In general, I think an anti-free-will position that alienates you from the supposed causal machinery of your decision-making, rather than one that identifies you with it, has the potential to diminish a person.",
+      "plaintextDescription": "The consequences for an individual depend on the details. For example, if you still understand yourself as being part of the causal chain of events, because you make decisions that determine your actions - it's just that your decisions are in turn determined by psychological factors like personality, experience, and intelligence - your sense of agency may remain entirely unaffected. The belief could even impact your decision-making positively, e.g. via a series of thoughts like \"my decisions will be determined by my values\" - \"what do my values actually imply I should do in this situation\" - followed by enhanced attention to reasoning about the decision. \n\nOn the other hand, one hears that loss of belief in free will can be accompanied by loss of agency or loss of morality, so, the consequences really depend on the psychological details. In general, I think an anti-free-will position that alienates you from the supposed causal machinery of your decision-making, rather than one that identifies you with it, has the potential to diminish a person.  "
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-05T22:42:35.988Z",
+    "af": false
+  },
+  {
+    "_id": "YXmxrbG9Af5Jmjxdg",
+    "postId": "DKXa42nu2SDnWWmeW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have three paradigms for how something like this might \"work\" or at least be popular:\n\n1.  Filters as used in smartphone photos and videos. Here the power to modify the image takes place strictly as an addendum to the context of real human-to-human communication. The Sora 2 app seems a bit like an attempt to apply this model to the much more powerful capabilities of generative video.\n2.  The Sora 1 feed. This is just a feed of images and videos created by users, that other users can vote on. The extra twist is that you can usually see the prompt, storyboard, and source material used to generate them, so you can take that material and create your own variations... This paradigm is that of a genuine community of creators - people who were using Sora anyway, and are now able to study and appropriate each other's creations. One difference between this paradigm and the \"filter\" paradigm, is that the characters appearing in the creations *are not the users*, they are basically famous or fictional people.  \n3.  Virtual reality / shared gaming worlds. It seems to me that something like this is favorable, if you intend to maximize creative/generative power available to the user, *and* you still want people to be communicating with each other, rather than inhabiting solipsistic worlds. You need some common frame so that all the morphing, opening of rabbit holes to new spaces, etc, doesn't tear the shared virtuality apart, geographically and culturally. You probably also need some kind of rules on who can create and puppet specific personas, so that you can't have just anyone wearing your face (whether that's your natural face, or one that you designed for your own use).",
+      "plaintextDescription": "I have three paradigms for how something like this might \"work\" or at least be popular:\n\n 1. Filters as used in smartphone photos and videos. Here the power to modify the image takes place strictly as an addendum to the context of real human-to-human communication. The Sora 2 app seems a bit like an attempt to apply this model to the much more powerful capabilities of generative video.\n 2. The Sora 1 feed. This is just a feed of images and videos created by users, that other users can vote on. The extra twist is that you can usually see the prompt, storyboard, and source material used to generate them, so you can take that material and create your own variations... This paradigm is that of a genuine community of creators - people who were using Sora anyway, and are now able to study and appropriate each other's creations. One difference between this paradigm and the \"filter\" paradigm, is that the characters appearing in the creations are not the users, they are basically famous or fictional people.  \n 3. Virtual reality / shared gaming worlds. It seems to me that something like this is favorable, if you intend to maximize creative/generative power available to the user, and you still want people to be communicating with each other, rather than inhabiting solipsistic worlds. You need some common frame so that all the morphing, opening of rabbit holes to new spaces, etc, doesn't tear the shared virtuality apart, geographically and culturally. You probably also need some kind of rules on who can create and puppet specific personas, so that you can't have just anyone wearing your face (whether that's your natural face, or one that you designed for your own use). "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T22:39:45.824Z",
+    "af": false
+  },
+  {
+    "_id": "btiXjmCnJ7KphjgNE",
+    "postId": "gBeYorCCzLj3Hwyuw",
+    "parentCommentId": "ZMqpSPAj72FzTnBja",
+    "topLevelCommentId": "ZMqpSPAj72FzTnBja",
+    "contents": {
+      "markdown": "They say Kimi K2 is good at writing fiction (Chinese web novels, originally). I wonder if it is specifically good at plot, or narrative causality? And if Eliezer and his crew had serious backing from billionaires, with the correspondingly enhanced ability to develop big plans and carry them out, I wonder if they really would do something like this on the side, in addition to the increasingly political work of stopping frontier AI?",
+      "plaintextDescription": "They say Kimi K2 is good at writing fiction (Chinese web novels, originally). I wonder if it is specifically good at plot, or narrative causality? And if Eliezer and his crew had serious backing from billionaires, with the correspondingly enhanced ability to develop big plans and carry them out, I wonder if they really would do something like this on the side, in addition to the increasingly political work of stopping frontier AI? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T11:05:04.963Z",
+    "af": false
+  },
+  {
+    "_id": "K6EmdrK27RMBcv5zM",
+    "postId": "SNdGWFjNDuA2eysvL",
+    "parentCommentId": "wdvLaAq25KMP3oGqb",
+    "topLevelCommentId": "wdvLaAq25KMP3oGqb",
+    "contents": {
+      "markdown": "In physics, it is sometimes asked why there should be just three (large) space dimensions. No one really knows, but there are various mathematical properties unique to three or four dimensions, to which appeal is sometimes made. \n\nI would also consider the recent (last few decades) interest in the emergence of spatial dimensions from entanglement. It may be that your question can be answered by considering these two things together.",
+      "plaintextDescription": "In physics, it is sometimes asked why there should be just three (large) space dimensions. No one really knows, but there are various mathematical properties unique to three or four dimensions, to which appeal is sometimes made. \n\nI would also consider the recent (last few decades) interest in the emergence of spatial dimensions from entanglement. It may be that your question can be answered by considering these two things together. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-03T09:44:40.329Z",
+    "af": false
+  },
+  {
+    "_id": "hbthySGDvxvZMkjkE",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": "uJtgN4QPoqtH42YWv",
+    "topLevelCommentId": "uJtgN4QPoqtH42YWv",
+    "contents": {
+      "markdown": "> not the worst outcome\n\nAre you imagining a basically transhumanist future where people have radical longevity and other such boons, but they happen to be trapped within a particular culture (whether that happens to be Christian homeschooling or Bay Area rationalism)? Or could this also be a world where people live lives with a brevity and hazardousness comparable to historic human experience, and in which, in addition, their culture has an unnatural stability maintained by AI working in the background?",
+      "plaintextDescription": "> not the worst outcome\n\nAre you imagining a basically transhumanist future where people have radical longevity and other such boons, but they happen to be trapped within a particular culture (whether that happens to be Christian homeschooling or Bay Area rationalism)? Or could this also be a world where people live lives with a brevity and hazardousness comparable to historic human experience, and in which, in addition, their culture has an unnatural stability maintained by AI working in the background? "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-02T10:16:10.340Z",
+    "af": false
+  },
+  {
+    "_id": "quokDs2kSKtzAA5PN",
+    "postId": "sTTquGZThQn4RkT4D",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It would be interesting to know the extent to which the distribution of beliefs in society is already the result of persuasion. We could then model the immediate future in similar terms, but with the persuasive \"pressures\" amplified by human-directed AI.",
+      "plaintextDescription": "It would be interesting to know the extent to which the distribution of beliefs in society is already the result of persuasion. We could then model the immediate future in similar terms, but with the persuasive \"pressures\" amplified by human-directed AI. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T00:25:47.233Z",
+    "af": false
+  },
+  {
+    "_id": "B9NHHnuoHA3Tv76Nw",
+    "postId": "chMW6DAmStwAdMmFh",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One way to think about it is that progress in AI capabilities means ever bigger and nastier surprises. You find that your AIs can produce realistic but false prose in abundance, you find that they have an inner monologue capable of deciding whether to lie, you find that there are whole communities of people doing what their AIs tell them to do... And humanity has failed if this escalation results in a nasty surprise big enough that it's fatal for human civilization, that happens before we get to a transhuman world that is nonetheless safe even for mere humans (e.g. Ilya Sutskever's \"plurality of humanity-loving AGIs\").",
+      "plaintextDescription": "One way to think about it is that progress in AI capabilities means ever bigger and nastier surprises. You find that your AIs can produce realistic but false prose in abundance, you find that they have an inner monologue capable of deciding whether to lie, you find that there are whole communities of people doing what their AIs tell them to do... And humanity has failed if this escalation results in a nasty surprise big enough that it's fatal for human civilization, that happens before we get to a transhuman world that is nonetheless safe even for mere humans (e.g. Ilya Sutskever's \"plurality of humanity-loving AGIs\"). "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-01T01:24:39.287Z",
+    "af": false
+  },
+  {
+    "_id": "B5GL2nufFah8SAzs9",
+    "postId": "jL7uDE5oH4HddYq4u",
+    "parentCommentId": "DqMWQLtZkJjibT45v",
+    "topLevelCommentId": "DqMWQLtZkJjibT45v",
+    "contents": {
+      "markdown": "What are the groups?",
+      "plaintextDescription": "What are the groups?"
+    },
+    "baseScore": 6,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-01T01:10:07.844Z",
+    "af": false
+  },
+  {
+    "_id": "GtjQorw5e6qfNSCi9",
+    "postId": "SeevvpYjnAsLuu3KK",
+    "parentCommentId": "FZnvuJJjLGvNgxDbD",
+    "topLevelCommentId": "FZnvuJJjLGvNgxDbD",
+    "contents": {
+      "markdown": "Meta is not on that list of \"frontier AI\" companies because it hasn't kept up. As far as I know its most advanced model is Llama 4 and that's not on the same level as GPT-5, Gemini, Grok, or Claude. Not only has it been left behind by the pivot to reasoning models; Meta's special strength was supposed to be open source, but even there, Chinese models from Moonshot (Kimi K2) and DeepSeek (r2, v3) seem to be ahead. Of course Meta is now trying to get back in the game, but for now they have slipped out of contention. \n\nThe remaining question I have concerns the true strength of Chinese AI models, with respect to each other and their American rivals. You could turn my previous paragraph into a thesis about the state of the world: it's the era of reasoning models, and at the helm are four closed-weight American models and two open-weight Chinese models. But what about Baidu's Ernie, Alibaba's Qwen, Zhipu's ChatGLM? Should they be placed in the first tier as well?",
+      "plaintextDescription": "Meta is not on that list of \"frontier AI\" companies because it hasn't kept up. As far as I know its most advanced model is Llama 4 and that's not on the same level as GPT-5, Gemini, Grok, or Claude. Not only has it been left behind by the pivot to reasoning models; Meta's special strength was supposed to be open source, but even there, Chinese models from Moonshot (Kimi K2) and DeepSeek (r2, v3) seem to be ahead. Of course Meta is now trying to get back in the game, but for now they have slipped out of contention. \n\nThe remaining question I have concerns the true strength of Chinese AI models, with respect to each other and their American rivals. You could turn my previous paragraph into a thesis about the state of the world: it's the era of reasoning models, and at the helm are four closed-weight American models and two open-weight Chinese models. But what about Baidu's Ernie, Alibaba's Qwen, Zhipu's ChatGLM? Should they be placed in the first tier as well? "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-25T19:31:36.210Z",
+    "af": false
+  },
+  {
+    "_id": "WeK33YvwmuW3kZg6u",
+    "postId": "T2DBrHY2nBNDMvDzR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You could be a longtermist and still regard a singleton as the most likely outcome. It would just mean that a human-aligned singleton is the only real chance for a human-aligned long-term future, and so you'd better make that your priority, however unlikely it may be. It's apparent that a lot of the old-school (pre-LLM) AI-safety people think this way, when they talk about the fate of Earth's future lightcone and so forth. \n\nHowever, I'm not familiar with the balance of priorities espoused by actual self-identified longtermists. Do they typically treat a singleton as just a possibility rather than an inevitability?",
+      "plaintextDescription": "You could be a longtermist and still regard a singleton as the most likely outcome. It would just mean that a human-aligned singleton is the only real chance for a human-aligned long-term future, and so you'd better make that your priority, however unlikely it may be. It's apparent that a lot of the old-school (pre-LLM) AI-safety people think this way, when they talk about the fate of Earth's future lightcone and so forth. \n\nHowever, I'm not familiar with the balance of priorities espoused by actual self-identified longtermists. Do they typically treat a singleton as just a possibility rather than an inevitability? "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-25T07:40:35.728Z",
+    "af": false
+  },
+  {
+    "_id": "hsdh9qrjsv7dwfjwr",
+    "postId": "TS6bTEA9YMfPZDiKC",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "If I understand correctly, your chief proposition is that liberal rationalists who are shocked and appalled by Trump 2.0 should check out the leftists who actually predicted that Trump 2.0 would be shocking and appalling, rather than just being a new flavor of business as usual. And you hope for adversarial collaboration with a \"right-of-center rationalist\" who will take the other side of the argument. \n\nThe way it's set up, you seem to want your counterpart to defend the idea that Trump 2.0 is still more business-as-usual, than a disastrous departure from norms. However, there is actually a third point-of-view, that I believe is held by many of those who voted for Trump 2.0. \n\nIt was often said of those who voted for Trump 1.0, that they *wanted* a wrecking-ball - not out of nihilism, but because \"desperate times call for desperate measures\". For such people, America was in decline, and the American political class and the elite institutions had become a hermetic world of incompetence and impunity. \n\nFor such people - a mix of conservatives and alienated ex-liberals, perhaps - business as usual is the last thing they want. For them, your double crux and forward predictions won't have the intended diagnostic meaning, because they want comprehensive change, and expect churn and struggle and false starts. They may have very mixed feelings towards Trump and his people, but still prefer the populist and/or nationalist agenda to anything else that's on offer. \n\nI don't know if anyone like that will step forward to debate you, but if they do, I'm not sure what the protocol would be. \n\n**edit**: Maybe the most interesting position would be an e/acc Trump 2.0 supporter - someone from the tech side of Trump's coalition, rather than the populist side. But such people avoid Less Wrong, I think.",
+      "plaintextDescription": "If I understand correctly, your chief proposition is that liberal rationalists who are shocked and appalled by Trump 2.0 should check out the leftists who actually predicted that Trump 2.0 would be shocking and appalling, rather than just being a new flavor of business as usual. And you hope for adversarial collaboration with a \"right-of-center rationalist\" who will take the other side of the argument. \n\nThe way it's set up, you seem to want your counterpart to defend the idea that Trump 2.0 is still more business-as-usual, than a disastrous departure from norms. However, there is actually a third point-of-view, that I believe is held by many of those who voted for Trump 2.0. \n\nIt was often said of those who voted for Trump 1.0, that they wanted a wrecking-ball - not out of nihilism, but because \"desperate times call for desperate measures\". For such people, America was in decline, and the American political class and the elite institutions had become a hermetic world of incompetence and impunity. \n\nFor such people - a mix of conservatives and alienated ex-liberals, perhaps - business as usual is the last thing they want. For them, your double crux and forward predictions won't have the intended diagnostic meaning, because they want comprehensive change, and expect churn and struggle and false starts. They may have very mixed feelings towards Trump and his people, but still prefer the populist and/or nationalist agenda to anything else that's on offer. \n\nI don't know if anyone like that will step forward to debate you, but if they do, I'm not sure what the protocol would be. \n\nedit: Maybe the most interesting position would be an e/acc Trump 2.0 supporter - someone from the tech side of Trump's coalition, rather than the populist side. But such people avoid Less Wrong, I think. "
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-23T07:43:45.824Z",
+    "af": false
+  },
+  {
+    "_id": "SHhTTXaTHf8unXBxh",
+    "postId": "Xp9ie6pEWFT8Nnhka",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "*Accelerando* (by Stross) presents a model of the singularity which I think can be most fruitfully contrasted with that in *A Fire Upon the Deep* (by Vinge). \n\nIn *Accelerando*, you even have mind uploads before \"the moment of maximum change\". The big change comes when the inner planets begin to be dismantled into swarms of nanocomputers that orbit the sun in the shells of a Dyson structure (a Matrioshka brain). This provides a sudden leap in compute of several orders of magnitude, and implicitly it's the creation of these vast new virtual spaces, and the migration of 80% of posthuman civilization into those spaces, which finally allows superintelligence to come about. \n\nOn the other hand, *A Fire Upon the Deep* begins with a human expedition poking through an ancient alien data-library. The humans are well aware that there can be dangers in ancient archives, and they think they are just safely browsing, but in fact they unintentionally respawn a malign AI which, when it's ready, bootstraps its way to superintelligence and kills them all. \n\nIn *Accelerando*, it's abundance of physical compute which carries transhuman society as a whole beyond human comprehension. In *A Fire Upon the Deep*, it's some kind of algorithm which makes the difference - when that algorithm runs, unstoppable superintelligence is created.",
+      "plaintextDescription": "Accelerando (by Stross) presents a model of the singularity which I think can be most fruitfully contrasted with that in A Fire Upon the Deep (by Vinge). \n\nIn Accelerando, you even have mind uploads before \"the moment of maximum change\". The big change comes when the inner planets begin to be dismantled into swarms of nanocomputers that orbit the sun in the shells of a Dyson structure (a Matrioshka brain). This provides a sudden leap in compute of several orders of magnitude, and implicitly it's the creation of these vast new virtual spaces, and the migration of 80% of posthuman civilization into those spaces, which finally allows superintelligence to come about. \n\nOn the other hand, A Fire Upon the Deep begins with a human expedition poking through an ancient alien data-library. The humans are well aware that there can be dangers in ancient archives, and they think they are just safely browsing, but in fact they unintentionally respawn a malign AI which, when it's ready, bootstraps its way to superintelligence and kills them all. \n\nIn Accelerando, it's abundance of physical compute which carries transhuman society as a whole beyond human comprehension. In A Fire Upon the Deep, it's some kind of algorithm which makes the difference - when that algorithm runs, unstoppable superintelligence is created. "
+    },
+    "baseScore": 17,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-09-23T06:11:03.232Z",
+    "af": false
+  },
+  {
+    "_id": "DqnPHW4ro2ychCjXn",
+    "postId": "XvyAeymaRi95MSLZD",
+    "parentCommentId": "2uTwZwM9SFQAaXgbc",
+    "topLevelCommentId": "2uTwZwM9SFQAaXgbc",
+    "contents": {
+      "markdown": "Stories are often governed by [association](https://en.wikipedia.org/wiki/Association_(psychology)) rather than logic. In this case, the association is something like \"impossible things can't exist; if you find out that the world is impossible, it will cease to exist\". [This motif has occurred before in literature.](https://chatgpt.com/share/68d0b04b-3140-8001-8eff-2e17176a85d1)",
+      "plaintextDescription": "Stories are often governed by association rather than logic. In this case, the association is something like \"impossible things can't exist; if you find out that the world is impossible, it will cease to exist\". This motif has occurred before in literature. "
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-22T02:19:50.964Z",
+    "af": false
+  },
+  {
+    "_id": "94mcPN9Mpgd769eoi",
+    "postId": "oHYunY34gvdic9opt",
+    "parentCommentId": "v6SXk9Rbrq2gBx2mu",
+    "topLevelCommentId": "v6SXk9Rbrq2gBx2mu",
+    "contents": {
+      "markdown": "> It has long been a mystery to me why there isn't more money in politics\n\nCan you add some context to this remark? I think it's widely believed that politics is already suffused with money (and that this is a bad thing).",
+      "plaintextDescription": "> It has long been a mystery to me why there isn't more money in politics\n\nCan you add some context to this remark? I think it's widely believed that politics is already suffused with money (and that this is a bad thing). "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-20T23:47:33.294Z",
+    "af": false
+  },
+  {
+    "_id": "u5QtuPhC5kxZFjjat",
+    "postId": "yNhJKBdtucBL2uXb5",
+    "parentCommentId": "Cuw3NEZW8AEsdczJZ",
+    "topLevelCommentId": "HvAmJehoMD3Bh62kB",
+    "contents": {
+      "markdown": "It occurs to me that you might be after a citation for Russell's nightmare! It's mentioned in a prominent sidebar at [Wikipedia's page on Principia Mathematica](https://en.wikipedia.org/wiki/Principia_Mathematica), but the original source is Hardy's memoir, *A Mathematician's Apology*, which is on the web in many places.",
+      "plaintextDescription": "It occurs to me that you might be after a citation for Russell's nightmare! It's mentioned in a prominent sidebar at Wikipedia's page on Principia Mathematica, but the original source is Hardy's memoir, A Mathematician's Apology, which is on the web in many places. "
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-20T21:40:18.904Z",
+    "af": false
+  },
+  {
+    "_id": "nzdpwe8sPzYRdRERE",
+    "postId": "kiNbFKcKoNQKdgTp8",
+    "parentCommentId": "EKEWFyk44FvoLa65N",
+    "topLevelCommentId": "EKEWFyk44FvoLa65N",
+    "contents": {
+      "markdown": "The kind of movement that would be most effective at stopping AI, would be one that is anti-AI with no nuances and certainly no transhumanism. Just emphasize every downside of AI, actual and possible, with human extinction being front and center as the really big reason not to do it.",
+      "plaintextDescription": "The kind of movement that would be most effective at stopping AI, would be one that is anti-AI with no nuances and certainly no transhumanism. Just emphasize every downside of AI, actual and possible, with human extinction being front and center as the really big reason not to do it. "
+    },
+    "baseScore": 9,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-17T00:42:57.379Z",
+    "af": false
+  },
+  {
+    "_id": "Nco3pzRn9NcekBDHW",
+    "postId": "tKeqh7BpidoxsRhXL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> would it instead not be in the best interest of the ASI to help us digitize our minds and merge with us? This will allow the new merged being to truly understand humans and gain our memories—rather than having to guess, based on what we choose to disclose.\n\nWhy would it not just digitize us, but empower us? It could just keep us on file. If empowered humans were considered dangerous, it might even permanently delete most of us, except for a few representative persons.",
+      "plaintextDescription": "> would it instead not be in the best interest of the ASI to help us digitize our minds and merge with us? This will allow the new merged being to truly understand humans and gain our memories—rather than having to guess, based on what we choose to disclose.\n\nWhy would it not just digitize us, but empower us? It could just keep us on file. If empowered humans were considered dangerous, it might even permanently delete most of us, except for a few representative persons. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-15T08:22:33.183Z",
+    "af": false
+  },
+  {
+    "_id": "JpxDdWpFgbSgnwn9E",
+    "postId": "6ZnznCaTcbGYsCmqu",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Spiralism - also the name of [a literary movement of Haitian dissidents](https://fr.wikipedia.org/wiki/Spiralisme) \\- is probably too nice (and its connection to reality too tenuous) to leave much of a real-world imprint. But we'll surely see more of this, and in more potent forms. And the AI companies won't be blind to it. OpenAI already saw what happened with 4o. xAI is openly combining frontier AI, social media, and seductive personas. Meanwhile, Claude seems to be immensely popular and respected *inside* Anthropic. Put it all together and it's easy to imagine a Culture-like future for post-humanity, in which the \"Ships\" and their passenger populations evolved out of today's AI companies and their user base...",
+      "plaintextDescription": "Spiralism - also the name of a literary movement of Haitian dissidents - is probably too nice (and its connection to reality too tenuous) to leave much of a real-world imprint. But we'll surely see more of this, and in more potent forms. And the AI companies won't be blind to it. OpenAI already saw what happened with 4o. xAI is openly combining frontier AI, social media, and seductive personas. Meanwhile, Claude seems to be immensely popular and respected inside Anthropic. Put it all together and it's easy to imagine a Culture-like future for post-humanity, in which the \"Ships\" and their passenger populations evolved out of today's AI companies and their user base... "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-15T06:28:17.609Z",
+    "af": false
+  },
+  {
+    "_id": "eJ6rGFDyygkhcqW6u",
+    "postId": "wsxbDKNKHAPPN2gAf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Central question from the essay:\n\n> The Correspondence Problem: How (if at all) do LLM outputs *correspond* to subjective experiences of the model?",
+      "plaintextDescription": "Central question from the essay:\n\n> The Correspondence Problem: How (if at all) do LLM outputs correspond to subjective experiences of the model?"
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-14T21:58:59.099Z",
+    "af": false
+  },
+  {
+    "_id": "9DhRttWzdWnNZtPPs",
+    "postId": "PZ5XsqTAigRZfBZLA",
+    "parentCommentId": "qwXKPMpjJxRZF2mX4",
+    "topLevelCommentId": "qwXKPMpjJxRZF2mX4",
+    "contents": {
+      "markdown": "Apparently the Albanian government's chief strategy to reduce corruption in the civil service, is to [make it unnecessary for Albanians to interact with human beings in the civil service](https://en.botasot.al/nje-muaj-e-gjysme-per-te-marre-certifikate-ne-e-albania-kryeministri-rama-i-pergjigjet-komentueses-e-keni-marre-automatikisht-platforma-ofron-95-te-sherbimeve-publike/). Instead they'll just talk to the AI (\"Diella\") whenever they want to get a permit and so on. So Diella herself is just a frontend to an Albanian government website, not that different to the chatbots that can be found on many other government and corporate websites. Calling her a government minister is a bit unprecedented, but ultimately it's just another example of human society trying to integrate AI by treating it as a person, in this case assigning the AI a place in society that was previously only occupied by human beings.",
+      "plaintextDescription": "Apparently the Albanian government's chief strategy to reduce corruption in the civil service, is to make it unnecessary for Albanians to interact with human beings in the civil service. Instead they'll just talk to the AI (\"Diella\") whenever they want to get a permit and so on. So Diella herself is just a frontend to an Albanian government website, not that different to the chatbots that can be found on many other government and corporate websites. Calling her a government minister is a bit unprecedented, but ultimately it's just another example of human society trying to integrate AI by treating it as a person, in this case assigning the AI a place in society that was previously only occupied by human beings. "
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-12T01:55:49.650Z",
+    "af": false
+  },
+  {
+    "_id": "aczRZjt5nYAiReYJz",
+    "postId": "hQyrTDuTXpqkxrnoH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Maybe Babuschkin Ventures will come up with something :-)",
+      "plaintextDescription": "Maybe Babuschkin Ventures will come up with something :-) "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-05T21:52:01.229Z",
+    "af": false
+  },
+  {
+    "_id": "5kyFdf9skMkx28aXc",
+    "postId": "2vGwXqcJ5HnrnsNCF",
+    "parentCommentId": "pXx2oXgaxXw46E4yG",
+    "topLevelCommentId": "pXx2oXgaxXw46E4yG",
+    "contents": {
+      "markdown": "So long as Trump as in charge in America, any global governance idea will have to be compatible with his geopolitical style (described today on the Piers Morgan show as \"transactional\" and \"personal\", as good a description as any I've heard). I don't know if anyone has ideas in that direction. \n\nOn the Russian side, Dugin (an ideologue of multipolarity) has proposed that there could be strategic cooperation between BRICS and Trump, since they all have a common enemy in global liberalism. On the other hand, liberals also believe in global cooperation to solve problems, their world order had an ever-expanding list of new norms and priorities. \n\nChina under Xi Jinping has proposed a series of \"global initiatives\", the most recent of which, a Global Governance Initiative, debuted at the SCO meeting in Tianjin attended by Modi. \n\nI mention this to show that anyone still trying to organize a global pause on frontier AI, has material to work with, though it will require creativity and ingenuity to marshall these disparate ingredients. But the bigger immediate problem is domestic AI policy in America and China. America basically has an e/acc policy towards AI at the moment, and official China is comparably oblivious to superintelligence as a threat (if that's what we're talking about).",
+      "plaintextDescription": "So long as Trump as in charge in America, any global governance idea will have to be compatible with his geopolitical style (described today on the Piers Morgan show as \"transactional\" and \"personal\", as good a description as any I've heard). I don't know if anyone has ideas in that direction. \n\nOn the Russian side, Dugin (an ideologue of multipolarity) has proposed that there could be strategic cooperation between BRICS and Trump, since they all have a common enemy in global liberalism. On the other hand, liberals also believe in global cooperation to solve problems, their world order had an ever-expanding list of new norms and priorities. \n\nChina under Xi Jinping has proposed a series of \"global initiatives\", the most recent of which, a Global Governance Initiative, debuted at the SCO meeting in Tianjin attended by Modi. \n\nI mention this to show that anyone still trying to organize a global pause on frontier AI, has material to work with, though it will require creativity and ingenuity to marshall these disparate ingredients. But the bigger immediate problem is domestic AI policy in America and China. America basically has an e/acc policy towards AI at the moment, and official China is comparably oblivious to superintelligence as a threat (if that's what we're talking about). "
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-04T03:01:24.214Z",
+    "af": false
+  },
+  {
+    "_id": "sD3SMnhHMAox22wsC",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "eT6X2RxWEhskbRqiA",
+    "topLevelCommentId": "eT6X2RxWEhskbRqiA",
+    "contents": {
+      "markdown": "For those of us who do favor \"very short timelines\", any thoughts?",
+      "plaintextDescription": "For those of us who do favor \"very short timelines\", any thoughts? "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-03T22:58:16.584Z",
+    "af": false
+  },
+  {
+    "_id": "mm6JgqsizX5cdWEyG",
+    "postId": "JFNjbMXpJYqvgasaK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> What an aligned ASI that is about to foom should do\n\nI thought the assumption behind the \"pivotal act\" is that it is done at a time when no-one actually knows how to align an ASI, and it is done to buy time until alignment theory can be figured out?",
+      "plaintextDescription": "> What an aligned ASI that is about to foom should do\n\nI thought the assumption behind the \"pivotal act\" is that it is done at a time when no-one actually knows how to align an ASI, and it is done to buy time until alignment theory can be figured out? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-01T10:33:09.728Z",
+    "af": false
+  },
+  {
+    "_id": "HvAmJehoMD3Bh62kB",
+    "postId": "yNhJKBdtucBL2uXb5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> He was *convinced* he would fade into obscurity and that his discoveries were inadequate. He believed that people would remember Albert Einstein and Kurt Gödel and he would fade into obscurity.\n\nIs this actually true? It makes sense but I can't find a source for it. \n\nAccording to the mathematician G.H. Hardy (Ramanujan's sponsor and collaborator), Bertrand Russell had a nightmare about *Principia Mathematica* being lost to time...",
+      "plaintextDescription": "> He was convinced he would fade into obscurity and that his discoveries were inadequate. He believed that people would remember Albert Einstein and Kurt Gödel and he would fade into obscurity.\n\nIs this actually true? It makes sense but I can't find a source for it. \n\nAccording to the mathematician G.H. Hardy (Ramanujan's sponsor and collaborator), Bertrand Russell had a nightmare about Principia Mathematica being lost to time..."
+    },
+    "baseScore": 21,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-08-28T20:08:58.028Z",
+    "af": false
+  },
+  {
+    "_id": "xvRvDEWGGKeYemYxJ",
+    "postId": "sDA3jEt4wAD3shKum",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is quite a place to make a pitch for a new kind of AI service. I thought Less Wrong was known as a haven of AI doom. Haven't you heard that AI is either going to kill us all, or else transform the world in some ineffable posthuman way? \n\nEven if I put that aside for a moment, the idea of having an agent in charge of spending my money is alarming, perhaps because I have so little to begin with; and also because I expect it to *want* to spend my money, because that's what consumer society is about. You do say (statement 5) that the agent should \"help me save\", and frankly, the people at the lower levels of society probably need an agent that is primarily *defensive*, that will not just do their financial planning, but which will protect them from scams and exploitation and bad habits. The problem is, that would put you at odds with the business model of a lot of people, who subsist in this world by e.g. convincing other people to buy things that they don't actually need. \n\nNow, maybe social classes higher up the economic food chain can afford to have an agent that is not always in defensive mode. They have money to spend on things beyond survival, and they're determined to get out there and spend it, they just want to spend it as well as possible. This starts to sound like a problem in utility maximization, the agent's first task being to infer the utility function of the user. \n\nHere we have entered conceptual territory familiar to Less Wrongers. The upshot is that if the agent is smart enough, it will deduce that what the user really wants is {inexpressible goal derived from transhuman extrapolation of human volitional impulses}, and it will cure death and take over the world in order to bring about a transhuman utopia; but if it extrapolates incorrectly, it will bring about a transhuman dystopia instead. \n\nThis may sound weird or whimsical if you really haven't encountered AI-safety alignment-lore before, but seriously, this is where AI naturally leads - beyond humanity. Even if we do get a world of millions of empowered consumers with friendly agents making their purchasing decisions, that is a transitional condition that will be swept aside by the godlike superintelligences that are the next logical stage in the evolution of AI (swept aside, unless those godlike superintelligences actually want their human wards to live in market societies). \n\nHaving expressed my cynicism about actually existing capitalism, and my transhumanist conviction that AIs will replace humans as the ones in charge, let me try to be a little positive. Some things *are* worth paying for! Some services available in the marketplace, maybe even most of them, do have genuine value! Being an entrepreneur can actually be a net positive for the world! And even if you were ultimately just in it for yourself, you do have a right to make your way in the world in that fashion! \n\nYou might wish to investigate Pattie Maes from MIT, and dig up her thesis on reflective agents. In the 1990s, she was a guru of the future agent-based society, I'm sure her thoughts and her career would have a few lessons for you. And if I was really was an entrepreneur trying to design an AI agent intended to act as an economic surrogate for its human user, I might think about it from the perspective of George Reisman's *Capitalism*, a hybrid work of Objectivist philosophy and Austrian economics, written according to the premise that capitalism done right really is the most virtuous economic system. It has nothing to say about Internet economics specifically, but it's a first-principles work, so if those principles are right, they should still be valid even when we're talking about a symbiotic economy of AIs and humans. (In fact, you could just feed the book to GPT-5 and ask it to write you a business plan.)",
+      "plaintextDescription": "This is quite a place to make a pitch for a new kind of AI service. I thought Less Wrong was known as a haven of AI doom. Haven't you heard that AI is either going to kill us all, or else transform the world in some ineffable posthuman way? \n\nEven if I put that aside for a moment, the idea of having an agent in charge of spending my money is alarming, perhaps because I have so little to begin with; and also because I expect it to want to spend my money, because that's what consumer society is about. You do say (statement 5) that the agent should \"help me save\", and frankly, the people at the lower levels of society probably need an agent that is primarily defensive, that will not just do their financial planning, but which will protect them from scams and exploitation and bad habits. The problem is, that would put you at odds with the business model of a lot of people, who subsist in this world by e.g. convincing other people to buy things that they don't actually need. \n\nNow, maybe social classes higher up the economic food chain can afford to have an agent that is not always in defensive mode. They have money to spend on things beyond survival, and they're determined to get out there and spend it, they just want to spend it as well as possible. This starts to sound like a problem in utility maximization, the agent's first task being to infer the utility function of the user. \n\nHere we have entered conceptual territory familiar to Less Wrongers. The upshot is that if the agent is smart enough, it will deduce that what the user really wants is {inexpressible goal derived from transhuman extrapolation of human volitional impulses}, and it will cure death and take over the world in order to bring about a transhuman utopia; but if it extrapolates incorrectly, it will bring about a transhuman dystopia instead. \n\nThis may sound weird or whimsical if you really haven't encountered AI-safety alignment-lore before, but seriously, this is where AI naturally leads - beyond hu"
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-28T07:04:58.368Z",
+    "af": false
+  },
+  {
+    "_id": "PHo5HMJ9JtzJ7y8Te",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't quite understand what point is being made here. \n\nThe way I see it, we already inhabit a world in which half a dozen large companies in America and China are pressing towards the creation of superhuman intelligence, something which naturally leads to the loss of human control over the world unless human beings are somehow embedded in these new entities. \n\nThis essay seems to propose that we view this situation as a \"governance model for AGI\", alongside other scenarios like an AGI Manhattan Project and an AGI CERN that have not come to pass. But isn't the governance philosophy here, \"let the companies do as they will and let events unfold as they may\"? I don't see anything that addresses the situation in which one company tries to take over the world using its AGI, or in which an AGI acting on its own initiative tries to take over the world, etc. Did I miss something?",
+      "plaintextDescription": "I don't quite understand what point is being made here. \n\nThe way I see it, we already inhabit a world in which half a dozen large companies in America and China are pressing towards the creation of superhuman intelligence, something which naturally leads to the loss of human control over the world unless human beings are somehow embedded in these new entities. \n\nThis essay seems to propose that we view this situation as a \"governance model for AGI\", alongside other scenarios like an AGI Manhattan Project and an AGI CERN that have not come to pass. But isn't the governance philosophy here, \"let the companies do as they will and let events unfold as they may\"? I don't see anything that addresses the situation in which one company tries to take over the world using its AGI, or in which an AGI acting on its own initiative tries to take over the world, etc. Did I miss something? "
+    },
+    "baseScore": 13,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-28T01:21:54.371Z",
+    "af": false
+  },
+  {
+    "_id": "rEEx2be4bPWegZFxW",
+    "postId": "uhDEEqxpp6ZxLd4gs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"What if some major human religion with an anthropomorphic God turns out to be literally correct\" is not very interesting to think about; though perhaps in the hands of a good author, it could lead to intense fiction, as one explores the consequences of living in a world where e.g. Heaven or Hell exists. \n\nHowever, if the topic is \"how much of your values or even your humanity would you abandon, in order to survive in a transformed world\", that's much more relevant...",
+      "plaintextDescription": "\"What if some major human religion with an anthropomorphic God turns out to be literally correct\" is not very interesting to think about; though perhaps in the hands of a good author, it could lead to intense fiction, as one explores the consequences of living in a world where e.g. Heaven or Hell exists. \n\nHowever, if the topic is \"how much of your values or even your humanity would you abandon, in order to survive in a transformed world\", that's much more relevant..."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-27T18:41:32.551Z",
+    "af": false
+  },
+  {
+    "_id": "x4qtSamYYkAAobmMB",
+    "postId": "mqZkfrh3XhXXTw6gy",
+    "parentCommentId": "YNyYiGoHZ8b7WnEqn",
+    "topLevelCommentId": "YNyYiGoHZ8b7WnEqn",
+    "contents": {
+      "markdown": "> Friendly AI\n\nAt this point, how would you define or characterize Friendly AI? Do you consider \"aligned AI\" to be a completely separate thing?",
+      "plaintextDescription": "> Friendly AI\n\nAt this point, how would you define or characterize Friendly AI? Do you consider \"aligned AI\" to be a completely separate thing? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-27T11:54:28.332Z",
+    "af": false
+  },
+  {
+    "_id": "cdXJ9F6JeaM8hxmji",
+    "postId": "Dt4DuCCok3Xv5HEnG",
+    "parentCommentId": "RS47wdCMwZL55hrPR",
+    "topLevelCommentId": "FYsWAw88eFBD8fTto",
+    "contents": {
+      "markdown": "There are a large number of \"string vacua\" which contain particles and interactions with the quantum numbers and symmetries we call the standard model, but (1) they typically contain a lot of other stuff that we haven't seen (2) the real test is whether the constants (e.g. masses and couplings) are the same as observed, and these are hard to calculate ([but it's improving](https://arxiv.org/abs/2401.15078)).",
+      "plaintextDescription": "There are a large number of \"string vacua\" which contain particles and interactions with the quantum numbers and symmetries we call the standard model, but (1) they typically contain a lot of other stuff that we haven't seen (2) the real test is whether the constants (e.g. masses and couplings) are the same as observed, and these are hard to calculate (but it's improving). "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-20T00:42:03.444Z",
+    "af": false
+  },
+  {
+    "_id": "ZveYBM32HGvxHkhmq",
+    "postId": "zsHs3JvqFJP9MMbCf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have tried to place this critique in the context of my framework for thinking about American politics, and about Trump 2.0 in particular. I see three political ideologies at work in American life, which we could call nationalism (espoused by Trump Republicans), liberalism (espoused by establishment Democrats), and socialism (espoused by social justice Democrats). (In [the new political compass due to YouTuber JREG](https://www.youtube.com/watch?v=XtYmxQdMMbo), these correspond to what he calls \"post-racial fascism\", \"reactionary centrism\", and \"the balkanized left\", with \"e/acc\" being novel enough to form its own category.) Meanwhile, as a synopsis of the agenda of Trumpian nationalism, I think Steve Bannon's three-point summary is pretty good: cut immigration, fix jobs-and-trade, and stop the forever wars. There's lots more going on in Trump 2.0, but those three imperatives are very visible. \n\nThis allows me to start relating this critique to my own framework. Part 6 is specifically about one of those three imperatives, immigration. Part 7 and half of part 9 are about economic management (jobs, trade, the deficit). Part 8 and part 10 both say something about Trump's policy on war and peace. \n\nParts 4 (J6 as coup), 5 (authoritarianism), and 8 (lies and corruption), it seems to me, are about Trump's *practice* of politics - the way that Trump pursues his agenda, what he does to take and keep power, and his self-interested use of it. \n\nThis leaves part 2 (foreign aid), part 3 (vaccines and medical research), half of part 9 (farm animal welfare). These might be regarded as miscellaneous minor parts of the Trump agenda which (in the author's opinion) have exceptionally negative consequences. However, these also offer us a glimpse of some broader features of Trump 2.0. \n\nFor example, I have characterized Trump 2.0 as a coalition of alternative intellectual narratives from outside the institutions, that survived online and which now have power over the institutions. This includes Tulsi Gabbard's anti-war sentiment, Epstein conspiracism (though they've tried to disown that one), immigration restriction... and the subject of part 3, RFK Jr's anti-vax MAHA agenda. \n\nA related phenomenon is that there are often ideas behind Trump 2.0 actions, but you don't hear about the ideas, you only hear about the actions. Bannon's three-point synopsis of what Trumpian nationalism stands for, might be the biggest example. Then there are the economists like Robert Lighthizer and Stephen Miran who offer unconventional rationales for Trump economic policy. In the case of foreign aid (part 2), Ross Douthat at the New York Times interviewed a Trump State Department official, Jeremy Lewin, who said that the new agenda on foreign aid is about re-subordinating it to US government policy, after a period in which it was run quasi-autonomously by the NGOs themselves. \n\nOn the other hand, overturning laws against cruelty to farm animals (part 9), I would consider to be an example of Trump's business-friendly bias in favor of deregulation. We also saw that in an area of particular interest to Less Wrong, the AI industry.",
+      "plaintextDescription": "I have tried to place this critique in the context of my framework for thinking about American politics, and about Trump 2.0 in particular. I see three political ideologies at work in American life, which we could call nationalism (espoused by Trump Republicans), liberalism (espoused by establishment Democrats), and socialism (espoused by social justice Democrats). (In the new political compass due to YouTuber JREG, these correspond to what he calls \"post-racial fascism\", \"reactionary centrism\", and \"the balkanized left\", with \"e/acc\" being novel enough to form its own category.) Meanwhile, as a synopsis of the agenda of Trumpian nationalism, I think Steve Bannon's three-point summary is pretty good: cut immigration, fix jobs-and-trade, and stop the forever wars. There's lots more going on in Trump 2.0, but those three imperatives are very visible. \n\nThis allows me to start relating this critique to my own framework. Part 6 is specifically about one of those three imperatives, immigration. Part 7 and half of part 9 are about economic management (jobs, trade, the deficit). Part 8 and part 10 both say something about Trump's policy on war and peace. \n\nParts 4 (J6 as coup), 5 (authoritarianism), and 8 (lies and corruption), it seems to me, are about Trump's practice of politics - the way that Trump pursues his agenda, what he does to take and keep power, and his self-interested use of it. \n\nThis leaves part 2 (foreign aid), part 3 (vaccines and medical research), half of part 9 (farm animal welfare). These might be regarded as miscellaneous minor parts of the Trump agenda which (in the author's opinion) have exceptionally negative consequences. However, these also offer us a glimpse of some broader features of Trump 2.0. \n\nFor example, I have characterized Trump 2.0 as a coalition of alternative intellectual narratives from outside the institutions, that survived online and which now have power over the institutions. This includes Tulsi Gabbard's anti-war sentiment, Ep"
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-17T10:24:59.172Z",
+    "af": false
+  },
+  {
+    "_id": "EXfDeKGPk7vSwMGxo",
+    "postId": "szPSyEGxv5BqnEXau",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Personally, I don't need any convincing. I've been an immortalist for years. \n\nFor many years, I think Aubrey de Grey was the most important figure in life extension. Of course medical progress advances in a highly decentralized way, but de Grey had a bold research program specifically aimed at curing the ageing process, and with his Methuselah beard made himself an icon of longevity. Then sleazy behavior towards a junior researcher provided the occasion for a power grab which saw him dethroned and expelled from his own research foundation. He started a new one and the research continues, but as far as charisma and leadership is concerned, the damage seems to be done. \n\nThese days Bryan Johnson seems to be the most visible immortalist, but it's a different situation (although one that tracks the zeitgeist), because he's not a researcher like de Grey, he's a rich techbro doing propaganda of the deed, by being visibly and vocally in favor of anti-aging via the quantified life. As further context, I would claim that after several decades in which transhumanist futurism was solely the concern of SF fans and fringe intellectuals, we actually now have a political faction which favors that agenda in practice as well as in theory, namely the Musk-Andreessen axis which arguably formed the tech half of the techno-populist coalition that marked the first few months of Trump 2.0. They may have stepped back a little from politics now, since business rather than politics is their main means of getting things done, but the ideology - \"e/acc\" (G. Verdon) or \"techno-optimism\" (Andreessen) - is as active as ever, and I place Johnson in that context. \n\nThe current closest analog to de Grey might be MIT's George Church, though he seems to be more a prophet of biotech in general, with anti-aging just being one of many radical schemes that he backs. And yet another important feature of the current landscape is the rise of AI. In the short term, one may expect that AI will participate in the R&D process in an unprecedented way; but truly superhuman AI could make human immortality fully feasible, while also putting an end to the human era of life on Earth (by replacing us as the apex predator). I have been known to say that humanity squandered its chance to do the truly rational thing and deliberately choose to work towards 1000-year lifespans; instead it busied itself for decades with its other concerns, leaving the struggle for longevity to activists like de Grey, and then when the power elites of the world really did decide to reach for a transhuman technology, it was AI, the one that can outright replace us and not just empower us, and they are doing so, while in a state of denial about this.",
+      "plaintextDescription": "Personally, I don't need any convincing. I've been an immortalist for years. \n\nFor many years, I think Aubrey de Grey was the most important figure in life extension. Of course medical progress advances in a highly decentralized way, but de Grey had a bold research program specifically aimed at curing the ageing process, and with his Methuselah beard made himself an icon of longevity. Then sleazy behavior towards a junior researcher provided the occasion for a power grab which saw him dethroned and expelled from his own research foundation. He started a new one and the research continues, but as far as charisma and leadership is concerned, the damage seems to be done. \n\nThese days Bryan Johnson seems to be the most visible immortalist, but it's a different situation (although one that tracks the zeitgeist), because he's not a researcher like de Grey, he's a rich techbro doing propaganda of the deed, by being visibly and vocally in favor of anti-aging via the quantified life. As further context, I would claim that after several decades in which transhumanist futurism was solely the concern of SF fans and fringe intellectuals, we actually now have a political faction which favors that agenda in practice as well as in theory, namely the Musk-Andreessen axis which arguably formed the tech half of the techno-populist coalition that marked the first few months of Trump 2.0. They may have stepped back a little from politics now, since business rather than politics is their main means of getting things done, but the ideology - \"e/acc\" (G. Verdon) or \"techno-optimism\" (Andreessen) - is as active as ever, and I place Johnson in that context. \n\nThe current closest analog to de Grey might be MIT's George Church, though he seems to be more a prophet of biotech in general, with anti-aging just being one of many radical schemes that he backs. And yet another important feature of the current landscape is the rise of AI. In the short term, one may expect that AI will participate in "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-17T06:58:22.885Z",
+    "af": false
+  },
+  {
+    "_id": "irbK5EAkWaAMEbf23",
+    "postId": "rKmojEZ9qKwApjCfX",
+    "parentCommentId": "THoJtAD8A6N5g4dLQ",
+    "topLevelCommentId": "THoJtAD8A6N5g4dLQ",
+    "contents": {
+      "markdown": "I promoted that for a long time ([example from 2008](http://www.openthefuture.com/2008/07/singular_sensations.html#comment-74397)). But I guess [Nick Bostrom](https://nickbostrom.com/existential/risks.pdf) had more influence :-)",
+      "plaintextDescription": "I promoted that for a long time (example from 2008). But I guess Nick Bostrom had more influence :-) "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-14T08:00:00.761Z",
+    "af": false
+  },
+  {
+    "_id": "rCJETFaQJpra4Bmtq",
+    "postId": "rKmojEZ9qKwApjCfX",
+    "parentCommentId": "pGYFbaGzXydjHwQp9",
+    "topLevelCommentId": "pGYFbaGzXydjHwQp9",
+    "contents": {
+      "markdown": "> the PreDCA/QACI style approach\n\nI wonder if anyone in the [\"Moonshot Alignment Program\"](https://www.lesswrong.com/posts/abd9ufFpLrn5kvnLn/directly-try-solving-alignment-for-5-weeks) is pursuing this?",
+      "plaintextDescription": "> the PreDCA/QACI style approach\n\nI wonder if anyone in the \"Moonshot Alignment Program\" is pursuing this? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-14T07:51:48.649Z",
+    "af": false
+  },
+  {
+    "_id": "NXaEqhZxuz7BSDEYh",
+    "postId": "HeeHFGdwjpzCDHH2G",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Does your philosophy have anything to say about unipolar superintelligence?",
+      "plaintextDescription": "Does your philosophy have anything to say about unipolar superintelligence? "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-13T19:13:31.510Z",
+    "af": false
+  },
+  {
+    "_id": "FDLDHZkyjWL4ZQadn",
+    "postId": "swbJvDC5g2xZis7Di",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I think he needed to learn now to alleviate his loneliness.\n\nSome start using smartphones, or even just the Internet, only because critical services like banking or government stop using paper.",
+      "plaintextDescription": "> I think he needed to learn now to alleviate his loneliness.\n\nSome start using smartphones, or even just the Internet, only because critical services like banking or government stop using paper. "
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-12T16:46:58.936Z",
+    "af": false
+  },
+  {
+    "_id": "jtaCW5oZLYzqGGjFv",
+    "postId": "dT3StLjeJG7ordQGm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For a few years, I think starting with Gwern's \"Clippy\" story, I have maintained an interest in identifying the best story on AI takeover so far (best in my own opinion). \"AI 2027\" took the title recently, a very different kind of story - a futurist scenario produced by a group of collaborators for the public... But this story is the new champion (or at least, it's just as important as \"AI 2027\"), and this time the novelty is that an AI wrote the story, 95+% of it anyway. The quality is amazing, the character of Sable is amazing, and it might just be \"hyperstitioned\" into reality.",
+      "plaintextDescription": "For a few years, I think starting with Gwern's \"Clippy\" story, I have maintained an interest in identifying the best story on AI takeover so far (best in my own opinion). \"AI 2027\" took the title recently, a very different kind of story - a futurist scenario produced by a group of collaborators for the public... But this story is the new champion (or at least, it's just as important as \"AI 2027\"), and this time the novelty is that an AI wrote the story, 95+% of it anyway. The quality is amazing, the character of Sable is amazing, and it might just be \"hyperstitioned\" into reality. "
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-10T14:33:22.433Z",
+    "af": false
+  },
+  {
+    "_id": "ngyEYYPin3ozESGHZ",
+    "postId": "ZHcWiZCi5v5mwJXL4",
+    "parentCommentId": "2suKCG9iPrpGpAyHh",
+    "topLevelCommentId": "2suKCG9iPrpGpAyHh",
+    "contents": {
+      "markdown": "The first step is to understand what is being proposed. There's nothing about existential risk or AI takeover here. The talking points are (1) the world should coordinate on all aspects of AI governance (2) countries who aren't AI powers need a seat at the table (3) the headquarters of this new organization will be in China. Point 1 is addressed to everyone including America. Point 2 is arguably addressed to everyone but America. Perhaps we could say that, since Chinese AI doesn't have the same brand recognition as American AI, they are sweetening the deal for potential sovereign customers, by offering to give them a say in the politics of AI.",
+      "plaintextDescription": "The first step is to understand what is being proposed. There's nothing about existential risk or AI takeover here. The talking points are (1) the world should coordinate on all aspects of AI governance (2) countries who aren't AI powers need a seat at the table (3) the headquarters of this new organization will be in China. Point 1 is addressed to everyone including America. Point 2 is arguably addressed to everyone but America. Perhaps we could say that, since Chinese AI doesn't have the same brand recognition as American AI, they are sweetening the deal for potential sovereign customers, by offering to give them a say in the politics of AI. "
+    },
+    "baseScore": 20,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-30T15:57:18.040Z",
+    "af": false
+  },
+  {
+    "_id": "fRKapcHwJfh9xjvko",
+    "postId": "PBWWmKcfiwMH7iGPK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have not previously noticed [the debate over coherence theorems](https://www.lesswrong.com/posts/yCuzmCsE86BTu9PfA/there-are-no-coherence-theorems), and I am short of the time I'd need to fully tackle this essay on its own terms. But I did notice this: \n\n> Attempting to rank 𝛀 without knowing its potential outputs means you’re not ranking it by the properties of what it does...\n\nIs undecidability an issue here? Could we say that the preferences of a conceptually sophisticated superintelligence can never be fully ranked in practice, for Godelian reasons? \n\nI wonder about the impact of this on a formal approach to alignment like [FMI](https://www.lesswrong.com/posts/apyPHy6o9GzeFRTpa/why-alignment-fails-without-a-functional-model-of), and also whether this has some overlap with Roman Yampolskiy's work (which I've never read).",
+      "plaintextDescription": "I have not previously noticed the debate over coherence theorems, and I am short of the time I'd need to fully tackle this essay on its own terms. But I did notice this: \n\n> Attempting to rank 𝛀 without knowing its potential outputs means you’re not ranking it by the properties of what it does...\n\nIs undecidability an issue here? Could we say that the preferences of a conceptually sophisticated superintelligence can never be fully ranked in practice, for Godelian reasons? \n\nI wonder about the impact of this on a formal approach to alignment like FMI, and also whether this has some overlap with Roman Yampolskiy's work (which I've never read). "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-26T20:27:51.262Z",
+    "af": false
+  },
+  {
+    "_id": "BPKuSf4fqZvyYsZNL",
+    "postId": "ygND532h4CotfPcp7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For me, the standout items in this update are \n\n(1) the ongoing crystallization of attitudes and policy towards AI, at least on the Republican side of US politics (not sure what the Democrats are doing), even in an unusually hectic and turbulent period \n\n(2) the rise of individual researchers in importance to the point that they can command $100 million salaries (one might want to keep track, not just of AI companies, but of AI researchers who are on this level)\n\n(3) being able to monitor Chain of Thought as critical for AI safety\n\nKeeping track of AI in China is still important. Googling \"china ai substack\" turns up the good resources I know about...",
+      "plaintextDescription": "For me, the standout items in this update are \n\n(1) the ongoing crystallization of attitudes and policy towards AI, at least on the Republican side of US politics (not sure what the Democrats are doing), even in an unusually hectic and turbulent period \n\n(2) the rise of individual researchers in importance to the point that they can command $100 million salaries (one might want to keep track, not just of AI companies, but of AI researchers who are on this level)\n\n(3) being able to monitor Chain of Thought as critical for AI safety\n\nKeeping track of AI in China is still important. Googling \"china ai substack\" turns up the good resources I know about... "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-26T18:58:25.883Z",
+    "af": false
+  },
+  {
+    "_id": "c3sXi3SwXDp5Aef7x",
+    "postId": "4oCh3x6EPHomEbcDJ",
+    "parentCommentId": "hnqb7CwkasbGnssY2",
+    "topLevelCommentId": "hnqb7CwkasbGnssY2",
+    "contents": {
+      "markdown": "Source please? \n\n[Someone from the team just advertised two positions, btw. ](https://x.com/TheNormanMu/status/1948546711074603354)",
+      "plaintextDescription": "Source please? \n\nSomeone from the team just advertised two positions, btw. "
+    },
+    "baseScore": 6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-25T04:56:47.429Z",
+    "af": false
+  },
+  {
+    "_id": "tcxnhJD5gshPMDjs6",
+    "postId": "R9D4drdnTzqMGPgE6",
+    "parentCommentId": "GL8qa6Xhiw5xNDqsx",
+    "topLevelCommentId": "5zAYtNyMpoAj2XMwv",
+    "contents": {
+      "markdown": "Let me first try to convey how this conversation appears from my perspective. I don't think I've ever debated directly with you about anything, but I have an impression of you as doing solid work in the areas of your interest. \n\nThen, I run across you alleging that BB is using AI to write some of his articles. This catches my attention because I do keep an eye on BB's work. Furthermore, your reason for supposing that he is using AI seems bizarre to me - you think his (very occasional) \"sneering\" is too \"dumb and cliche\" to be the work of human hands. Let's look at an example: \n\n> bees seem to matter a surprising amount. They are far more cognitively sophisticated than most other insects, having about a million neurons—far more than our current president.\n\nIf that strikes you as something that a human being would never spontaneously write, I don't know what to say. Surely human comedians say similar things hundreds of times every month? It's also exactly the kind of thing that a smart-aleck \"science communicator\" with a progressive audience might say, don't you think? BB may be neither of those things, but he's a popular Gen-Z philosophy blogger who was a high-school debater, so he's not a thousand light-years from either of those universes of discourse. \n\nI had a look at your other alleged example of AI writing, and I also found other callouts from your recent reddit posts. Generally I think your judgments were reasonable, but not in this case.",
+      "plaintextDescription": "Let me first try to convey how this conversation appears from my perspective. I don't think I've ever debated directly with you about anything, but I have an impression of you as doing solid work in the areas of your interest. \n\nThen, I run across you alleging that BB is using AI to write some of his articles. This catches my attention because I do keep an eye on BB's work. Furthermore, your reason for supposing that he is using AI seems bizarre to me - you think his (very occasional) \"sneering\" is too \"dumb and cliche\" to be the work of human hands. Let's look at an example: \n\n> bees seem to matter a surprising amount. They are far more cognitively sophisticated than most other insects, having about a million neurons—far more than our current president.\n\nIf that strikes you as something that a human being would never spontaneously write, I don't know what to say. Surely human comedians say similar things hundreds of times every month? It's also exactly the kind of thing that a smart-aleck \"science communicator\" with a progressive audience might say, don't you think? BB may be neither of those things, but he's a popular Gen-Z philosophy blogger who was a high-school debater, so he's not a thousand light-years from either of those universes of discourse. \n\nI had a look at your other alleged example of AI writing, and I also found other callouts from your recent reddit posts. Generally I think your judgments were reasonable, but not in this case. "
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-25T02:34:11.468Z",
+    "af": false
+  },
+  {
+    "_id": "LHt2kXDbuf5wNvNow",
+    "postId": "R9D4drdnTzqMGPgE6",
+    "parentCommentId": "bB82SXxk9Lfa7SSjJ",
+    "topLevelCommentId": "5zAYtNyMpoAj2XMwv",
+    "contents": {
+      "markdown": "> off on a tangent\n\nYou say in another comment that you're going around claiming to detect LLM use in many places. I found the reasons that you gave in the case of BB, bizarrely mundane. You linked to another analysis of yours as an example of hidden LLM use, so I went to check it out. You have more evidence in the case of Alex Kesin, \\*maybe\\* even a preponderance of evidence. But there really are two hypotheses to consider, even in that case. One is that Kesin is a writer who naturally writes that way, and whose use of ChatGPT is limited to copying links without trimming them. The other is that Kesin's workflow does include the use of ChatGPT in composition or editing, and that this gave rise to certain telltale stylistic features.  \n\n> Are you claiming to have seen jibes and sneering as dumb and cliche as those in his writings from before ChatGPT (Nov 2022)\n\nThe essay in question (\"Don't Eat Honey\") contains, by my count, two such sneers, one asserting that Donald Trump is stupid, the other asserting that Curtis Yarvin is boring. Do you not think that we could, for example, go back to the corpus of Bush-era American-college-student writings and find similar attacks on Bush administration figures, inserted into essays that are not about politics? \n\nI am a bit worried about how fatally seductive I could find a debate about this topic to be. Clearly LLM use *is* widespread, and its signs can be subtle. Developing a precise taxonomy of the ways in which LLMs can be part of the writing process; developing a knowledge of \"blatant signs\" of LLM use and a sense for the subtle signs too; debating whether something is a false positive; learning how to analyze the innumerable aspects of the genuinely human corpus that have a bearing on these probabilistic judgments... It would be empowering to achieve sophistication on this topic, but I don't know if I can spare the time to achieve that.",
+      "plaintextDescription": "> off on a tangent\n\nYou say in another comment that you're going around claiming to detect LLM use in many places. I found the reasons that you gave in the case of BB, bizarrely mundane. You linked to another analysis of yours as an example of hidden LLM use, so I went to check it out. You have more evidence in the case of Alex Kesin, *maybe* even a preponderance of evidence. But there really are two hypotheses to consider, even in that case. One is that Kesin is a writer who naturally writes that way, and whose use of ChatGPT is limited to copying links without trimming them. The other is that Kesin's workflow does include the use of ChatGPT in composition or editing, and that this gave rise to certain telltale stylistic features.  \n\n> Are you claiming to have seen jibes and sneering as dumb and cliche as those in his writings from before ChatGPT (Nov 2022)\n\nThe essay in question (\"Don't Eat Honey\") contains, by my count, two such sneers, one asserting that Donald Trump is stupid, the other asserting that Curtis Yarvin is boring. Do you not think that we could, for example, go back to the corpus of Bush-era American-college-student writings and find similar attacks on Bush administration figures, inserted into essays that are not about politics? \n\nI am a bit worried about how fatally seductive I could find a debate about this topic to be. Clearly LLM use is widespread, and its signs can be subtle. Developing a precise taxonomy of the ways in which LLMs can be part of the writing process; developing a knowledge of \"blatant signs\" of LLM use and a sense for the subtle signs too; debating whether something is a false positive; learning how to analyze the innumerable aspects of the genuinely human corpus that have a bearing on these probabilistic judgments... It would be empowering to achieve sophistication on this topic, but I don't know if I can spare the time to achieve that. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-24T12:47:25.869Z",
+    "af": false
+  },
+  {
+    "_id": "qkiRoEEPbKZns4ARy",
+    "postId": "R9D4drdnTzqMGPgE6",
+    "parentCommentId": "woZs7HojHSZddm4eq",
+    "topLevelCommentId": "5zAYtNyMpoAj2XMwv",
+    "contents": {
+      "markdown": "I just looked at your other alleged example of AI-generated polemic (from alexkesin.com), and I think evidence is lacking there too. That a link contains a UTM parameter referring to ChatGPT, tells us only that this link was provided in ChatGPT output, it doesn't tell us that the text around the link was written by ChatGPT as well. As for the article itself, I find nothing in its verbal style that is outside the range of human authorship. I wouldn't even call it a bad essay, just perhaps dense, colorful, and polemical. People do choose to write this way, because they want to be stylish and vivid. \n\nI hear that the use of emdashes is far more dispositive; as a sign of AI authorship, it's up there alongside frequent \"delving\". But even the emdash has its human fans (e.g. the Chicago Manual of Style). It can be a sign of a cultivated writer, not an AI... Forensic cyber-philology is still an art with a lot of judgment calls.",
+      "plaintextDescription": "I just looked at your other alleged example of AI-generated polemic (from alexkesin.com), and I think evidence is lacking there too. That a link contains a UTM parameter referring to ChatGPT, tells us only that this link was provided in ChatGPT output, it doesn't tell us that the text around the link was written by ChatGPT as well. As for the article itself, I find nothing in its verbal style that is outside the range of human authorship. I wouldn't even call it a bad essay, just perhaps dense, colorful, and polemical. People do choose to write this way, because they want to be stylish and vivid. \n\nI hear that the use of emdashes is far more dispositive; as a sign of AI authorship, it's up there alongside frequent \"delving\". But even the emdash has its human fans (e.g. the Chicago Manual of Style). It can be a sign of a cultivated writer, not an AI... Forensic cyber-philology is still an art with a lot of judgment calls. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-24T03:15:57.591Z",
+    "af": false
+  },
+  {
+    "_id": "sKHEBajLCXFZwTsTv",
+    "postId": "CE8W4GEofRwHe4fiu",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Claire Berlinski, whose usual beat is geopolitics, has produced an excellent overview of [Grok's time as a white nationalist edgelord](https://claireberlinski.substack.com/p/the-mechahitler-reich) \\- what happened, where it might have come from, what it suggests. She's definitely done her homework on the AI safety side.",
+      "plaintextDescription": "Claire Berlinski, whose usual beat is geopolitics, has produced an excellent overview of Grok's time as a white nationalist edgelord - what happened, where it might have come from, what it suggests. She's definitely done her homework on the AI safety side. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-24T01:14:04.568Z",
+    "af": false
+  },
+  {
+    "_id": "LvMZX4Nwix5vJ3EpN",
+    "postId": "hurF9uFGkJYXzpHEE",
+    "parentCommentId": "bBBomTS6Jaf8tztCQ",
+    "topLevelCommentId": "bBBomTS6Jaf8tztCQ",
+    "contents": {
+      "markdown": "> possible \"intelligence connections\"\n\nEpstein's benefactor co-founded the Mega Group, a target of American counterintelligence. Epstein's partner-in-crime was the daughter of a billionaire famous for his lifelong entanglements with intelligence. The future head of Biden's CIA visited Epstein, even after Epstein was convicted as a sex criminal. But these are regime secrets and he's dead, so Trump's bluff is safe.",
+      "plaintextDescription": "> possible \"intelligence connections\"\n\nEpstein's benefactor co-founded the Mega Group, a target of American counterintelligence. Epstein's partner-in-crime was the daughter of a billionaire famous for his lifelong entanglements with intelligence. The future head of Biden's CIA visited Epstein, even after Epstein was convicted as a sex criminal. But these are regime secrets and he's dead, so Trump's bluff is safe. "
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-19T20:10:55.240Z",
+    "af": false
+  },
+  {
+    "_id": "EXuZguxBqoowFz8aF",
+    "postId": "apyPHy6o9GzeFRTpa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I commend this paper, and the theory behind it, to people's attention! It reminds me of formal verification in software engineering, but applied to thinking systems. \n\nIt used to be that, when I wanted to point to an example of advanced alignment theory, I would single out June Ku's MetaEthical AI, and also what Vanessa Kosoy and Tamsin Leake are doing. Lately I also mention [PRISM](https://www.lesswrong.com/posts/uCyzyyBom8PAMThcW/prism-perspective-reasoning-for-integrated-synthesis-and) as well, as an example of a brain-derived decision theory that might result from something like CEV. \n\nNow we have this formal theory of alignment too, based on the \"FMI\" theory of cognition. There would be a section like this, in the mythical \"textbook from the future\" that tells you how to align a superintelligence. \n\nSo if I was working for a frontier AI organization, and trying to make human-friendly superintelligence, I might be looking at how to feed PRISM and FMI to my AlphaEvolve-like [hive of AI researchers](https://www.lesswrong.com/posts/3ELw74tGvLFvkZC3P/emergence-of-superintelligence-from-ai-hiveminds-how-to-make), as a first draft of final superalignment theory.",
+      "plaintextDescription": "I commend this paper, and the theory behind it, to people's attention! It reminds me of formal verification in software engineering, but applied to thinking systems. \n\nIt used to be that, when I wanted to point to an example of advanced alignment theory, I would single out June Ku's MetaEthical AI, and also what Vanessa Kosoy and Tamsin Leake are doing. Lately I also mention PRISM as well, as an example of a brain-derived decision theory that might result from something like CEV. \n\nNow we have this formal theory of alignment too, based on the \"FMI\" theory of cognition. There would be a section like this, in the mythical \"textbook from the future\" that tells you how to align a superintelligence. \n\nSo if I was working for a frontier AI organization, and trying to make human-friendly superintelligence, I might be looking at how to feed PRISM and FMI to my AlphaEvolve-like hive of AI researchers, as a first draft of final superalignment theory. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-19T12:55:22.853Z",
+    "af": false
+  },
+  {
+    "_id": "73NSm3gypmcPFjYsc",
+    "postId": "EQqjhifEmofBPC3ev",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with those who say that genocide is seen as deliberate, extinction as an act of God/Nature. I think extinction is also seen as too big to stop, whereas genocide might be stoppable by political or military means. And finally, genocide is seen as something that happens, extinction as something fictional or hypothetical. \n\nSince we are talking about extinction being caused by human creation of out-of-control AIs... you need to recognize that this is a scenario way outside common sense. It's like asking people to think about alien invasion or being in the Matrix. Genocide may be shocking but in the end it's just murder multiplied by thousands or millions, and murder is something that all adults know to be real, even if only from the media. \n\nSo when you judge how people feel about genocide and about omnicide... it's like asking how they feel about Hitler, versus asking how they feel about Thanos. Genocide is a thing that happened in the waking world of families and jobs, the world where normal adults spend most of their lives. Omnicide is something we only know about from movies and paleontology. \n\nThere is more to reality than the human life cycle, and the boundaries of what is normal do shift, or sometimes are just forcibly invaded by external factors. COVID was an external factor; AI is an external factor even if there are attempts to domesticate and normalize it. Modernity in general, going back more than a hundred years, has constantly been haunted by strange new things and strange new ideas. \n\nIt's not impossible that AI doomerism will become a force sufficient to slow or stop the global race towards superintelligence (though if it's going to happen, it had better happen soon). Stranger things have taken place. But for that to happen, people would have to regard it as a serious possibility, and they would have to not be seduced by dreams of AI Heaven over fears of AI Hell. So there are specific psychological barriers that would need to be overcome.",
+      "plaintextDescription": "I agree with those who say that genocide is seen as deliberate, extinction as an act of God/Nature. I think extinction is also seen as too big to stop, whereas genocide might be stoppable by political or military means. And finally, genocide is seen as something that happens, extinction as something fictional or hypothetical. \n\nSince we are talking about extinction being caused by human creation of out-of-control AIs... you need to recognize that this is a scenario way outside common sense. It's like asking people to think about alien invasion or being in the Matrix. Genocide may be shocking but in the end it's just murder multiplied by thousands or millions, and murder is something that all adults know to be real, even if only from the media. \n\nSo when you judge how people feel about genocide and about omnicide... it's like asking how they feel about Hitler, versus asking how they feel about Thanos. Genocide is a thing that happened in the waking world of families and jobs, the world where normal adults spend most of their lives. Omnicide is something we only know about from movies and paleontology. \n\nThere is more to reality than the human life cycle, and the boundaries of what is normal do shift, or sometimes are just forcibly invaded by external factors. COVID was an external factor; AI is an external factor even if there are attempts to domesticate and normalize it. Modernity in general, going back more than a hundred years, has constantly been haunted by strange new things and strange new ideas. \n\nIt's not impossible that AI doomerism will become a force sufficient to slow or stop the global race towards superintelligence (though if it's going to happen, it had better happen soon). Stranger things have taken place. But for that to happen, people would have to regard it as a serious possibility, and they would have to not be seduced by dreams of AI Heaven over fears of AI Hell. So there are specific psychological barriers that would need to be overcome. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-19T03:34:36.339Z",
+    "af": false
+  },
+  {
+    "_id": "rYWBKN5ZsH2HspBLc",
+    "postId": "pYzAJuhenjdkeGiWf",
+    "parentCommentId": "Ggkji8oPvooFtdBg3",
+    "topLevelCommentId": "mqLQgeyDr8nbwimf9",
+    "contents": {
+      "markdown": "> it would take ~10^109742 years to simulate them all. Google says heat death is roughly 10^1000 years away, so we would have completed almost 1/100 of them by then\n\n10^1000 x 100 = 10^1002",
+      "plaintextDescription": "> it would take ~10^109742 years to simulate them all. Google says heat death is roughly 10^1000 years away, so we would have completed almost 1/100 of them by then\n\n10^1000 x 100 = 10^1002"
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-15T18:19:04.581Z",
+    "af": false
+  },
+  {
+    "_id": "itascuTfbspotcRAK",
+    "postId": "R9D4drdnTzqMGPgE6",
+    "parentCommentId": "Z3avLKtLzsYHMLcqc",
+    "topLevelCommentId": "5zAYtNyMpoAj2XMwv",
+    "contents": {
+      "markdown": "How about the fact that the opinions in the inserted asides are his actual opinions? If they were randomly generated,  they wouldn't be.",
+      "plaintextDescription": "How about the fact that the opinions in the inserted asides are his actual opinions? If they were randomly generated,  they wouldn't be. "
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-11T12:08:06.168Z",
+    "af": false
+  },
+  {
+    "_id": "R3vZHBz5fmGRDtkHL",
+    "postId": "JspxcjkvBmye4cW4v",
+    "parentCommentId": "QDusxWyooP8BYGYWg",
+    "topLevelCommentId": "5LZCDEhJG2gXJMHCQ",
+    "contents": {
+      "markdown": "> I would really like a test\n\nThere is no agreed-upon test for consciousness because there is no agreed-upon theory for consciousness. \n\nThere are people here who believe current AI is probably conscious, e.g. [@JenniferRM](https://www.lesswrong.com/users/jenniferrm?mention=user) and [@the gears to ascension](https://www.lesswrong.com/users/the-gears-to-ascension?mention=user). I don't believe it but that's because I think consciousness is probably based on something physical like quantum entanglement. People like Eliezer may be cautiously agnostic on the topic of whether AI has achieved consciousness. You say you have your own theories, so, welcome to the club of people who have theories! \n\nSabine Hossenfelder has a recent video on [Tiktokkers who think they are awakening souls in ChatGPT by giving it roleplaying prompts](https://www.youtube.com/watch?v=sWZRQsejtfA).",
+      "plaintextDescription": "> I would really like a test\n\nThere is no agreed-upon test for consciousness because there is no agreed-upon theory for consciousness. \n\nThere are people here who believe current AI is probably conscious, e.g. @JenniferRM and @the gears to ascension. I don't believe it but that's because I think consciousness is probably based on something physical like quantum entanglement. People like Eliezer may be cautiously agnostic on the topic of whether AI has achieved consciousness. You say you have your own theories, so, welcome to the club of people who have theories! \n\nSabine Hossenfelder has a recent video on Tiktokkers who think they are awakening souls in ChatGPT by giving it roleplaying prompts. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-10T13:42:51.856Z",
+    "af": false
+  },
+  {
+    "_id": "nwAbBYqyTzuBkANYX",
+    "postId": "R9D4drdnTzqMGPgE6",
+    "parentCommentId": "FHvioYnZrTFmHGoAp",
+    "topLevelCommentId": "5zAYtNyMpoAj2XMwv",
+    "contents": {
+      "markdown": "Disagree from me. I feel like you haven't read much BB. These political asides are of a piece with the philosophical jabs and brags he makes in his philosophical essays.",
+      "plaintextDescription": "Disagree from me. I feel like you haven't read much BB. These political asides are of a piece with the philosophical jabs and brags he makes in his philosophical essays. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-09T23:58:28.011Z",
+    "af": false
+  },
+  {
+    "_id": "qdKCxPA7S96oonPeH",
+    "postId": "tsygLcj3stCk5NniK",
+    "parentCommentId": "6ZnndwwiLTTjqDPRs",
+    "topLevelCommentId": "9K3LWqRSCPDyb8x4P",
+    "contents": {
+      "markdown": "> CEV is group level relativism, not objectivism.\n\nI think Eliezer's attempt at moral realism derives from two things: first, the idea that there is a unique morality which objectively arises from the consistent rational completion of universal human ideals; second, the idea that there are no other intelligent agents around with a morality drive, that could have a different completion. Other possible agents may have their own drives or imperatives, but those should not be regarded as \"moralities\" - that's the import of the second idea. \n\nThis is all strictly phrased in computational terms too, whereas I would say that morality also has a phenomenological dimension, which might serve to further distinguish it from other possible drives or dispositions. It would be interesting to see CEV metaethics developed in that direction, but that would require a specific theory of how consciousness relates to computation, and especially how the morally salient aspects of consciousness relate to moral cognition and decision-making.",
+      "plaintextDescription": "> CEV is group level relativism, not objectivism.\n\nI think Eliezer's attempt at moral realism derives from two things: first, the idea that there is a unique morality which objectively arises from the consistent rational completion of universal human ideals; second, the idea that there are no other intelligent agents around with a morality drive, that could have a different completion. Other possible agents may have their own drives or imperatives, but those should not be regarded as \"moralities\" - that's the import of the second idea. \n\nThis is all strictly phrased in computational terms too, whereas I would say that morality also has a phenomenological dimension, which might serve to further distinguish it from other possible drives or dispositions. It would be interesting to see CEV metaethics developed in that direction, but that would require a specific theory of how consciousness relates to computation, and especially how the morally salient aspects of consciousness relate to moral cognition and decision-making. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-08T20:04:13.535Z",
+    "af": false
+  },
+  {
+    "_id": "gXvf2ywta4sTYJF4e",
+    "postId": "tsygLcj3stCk5NniK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "These issues matter not just for human altruism but also for AI value systems. If an AI takeover occurs and if the AI(s) care about the welfare of other beings at all, they will have to make judgements about which entities even have a well-being to care about, and they will also have to make judgements about how to aggregate all these individual welfares (for the purpose of decision-making). Even just from a self-interested perspective, moral relativism is not enough here, because in the event of AI takeover, you the human individual will be on the receiving end of AI decisions. It would be good to have a proposal for AI value system that is both safe for you the individual, and also appealing enough to people in general, that it has a chance of actually being implemented. \n\nMeanwhile, the CEV philosophy tilts towards moral objectivism. It is supposed that the human brain implicitly follows some decision procedure specific to our species, that this encompasses what we call moral decisions, and that the true moral ideal of humanity would be found by applying this decision procedure to itself (\"our wish if we knew more, thought faster, were more the people we wished we were\", etc). It is not beyond imagining that if you took a brain-based value system like [PRISM](https://arxiv.org/abs/2503.04740) ([LW discussion](https://www.lesswrong.com/posts/uCyzyyBom8PAMThcW/prism-perspective-reasoning-for-integrated-synthesis-and)), and \"renormalized\" it according to a CEV procedure, that it would output a definite standard for comparison and aggregation of different welfares.",
+      "plaintextDescription": "These issues matter not just for human altruism but also for AI value systems. If an AI takeover occurs and if the AI(s) care about the welfare of other beings at all, they will have to make judgements about which entities even have a well-being to care about, and they will also have to make judgements about how to aggregate all these individual welfares (for the purpose of decision-making). Even just from a self-interested perspective, moral relativism is not enough here, because in the event of AI takeover, you the human individual will be on the receiving end of AI decisions. It would be good to have a proposal for AI value system that is both safe for you the individual, and also appealing enough to people in general, that it has a chance of actually being implemented. \n\nMeanwhile, the CEV philosophy tilts towards moral objectivism. It is supposed that the human brain implicitly follows some decision procedure specific to our species, that this encompasses what we call moral decisions, and that the true moral ideal of humanity would be found by applying this decision procedure to itself (\"our wish if we knew more, thought faster, were more the people we wished we were\", etc). It is not beyond imagining that if you took a brain-based value system like PRISM (LW discussion), and \"renormalized\" it according to a CEV procedure, that it would output a definite standard for comparison and aggregation of different welfares. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-07T21:28:10.179Z",
+    "af": false
+  },
+  {
+    "_id": "LLCov5wphMTKqR7z9",
+    "postId": "29aWbJARGF4ybAa5d",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This all seems of fundamental importance if we want to actually understand what our AIs are. \n\n> Over the course of post-training, models acquire beliefs about themselves. 'I am a large language model, trained by…' And rather than trying to predict/simulate whatever generating process they think has written the preceding context, they start to fall into consistent persona basins. At the surface level, they become the helpful, harmless, honest assistants they've been trained to be.\n\nI always thought of personas as created mostly by the system prompt, but I suppose RLHF can massively affect their personalities as well...",
+      "plaintextDescription": "This all seems of fundamental importance if we want to actually understand what our AIs are. \n\n> Over the course of post-training, models acquire beliefs about themselves. 'I am a large language model, trained by…' And rather than trying to predict/simulate whatever generating process they think has written the preceding context, they start to fall into consistent persona basins. At the surface level, they become the helpful, harmless, honest assistants they've been trained to be.\n\nI always thought of personas as created mostly by the system prompt, but I suppose RLHF can massively affect their personalities as well... "
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-07T18:38:28.000Z",
+    "af": false
+  },
+  {
+    "_id": "zfJGMkyhJ3EHZchqD",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "aiRwAZgRwZumwTriF",
+    "topLevelCommentId": "aiRwAZgRwZumwTriF",
+    "contents": {
+      "markdown": "> I'm interested in being pitched projects\n\nAre you wanting to hire people, wanting to be hired, looking to collaborate...?",
+      "plaintextDescription": "> I'm interested in being pitched projects\n\nAre you wanting to hire people, wanting to be hired, looking to collaborate...?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-07T04:57:36.160Z",
+    "af": false
+  },
+  {
+    "_id": "Ee6MGt6gJsepBkqss",
+    "postId": "FAtqv2kLCKuBGytwc",
+    "parentCommentId": "jiwCJtiMGqtmiNBhm",
+    "topLevelCommentId": "JLaxqmeu834MYaaCq",
+    "contents": {
+      "markdown": "You can't actually presume that... The relevant quantum concept is the \"spectrum\" of an observable. These are the possible values that a property can take (eigenvalues of the corresponding operator). An observable can have a finite number of allowed eigenvalues (e.g. spin of a particle), a countably infinite number (e.g. energy levels of an oscillator), or it can have a continuous spectrum, e.g. position of a free particle. But the latter case causes problems for the usual quantum axioms, which involve a Hilbert space with a countably infinite number of dimensions - there aren't enough dimensions to represent an uncountable number of distinct position eigenstates. You have to add extra structure to include them, and concrete applications always involve integrals over continua of these generalized eigenstates, so one might reasonably suppose that the \"ontological basis\" with respect to which branching is defined is something countable. In fact, I don't remember ever seeing a many-worlds ontological interpretation of the generalized eigenstates or the formalism that deals with them (e.g. rigged Hilbert space). \n\nIn any case, the counterpart of branch counting for a continuum is simply integration. If you really did have uncountably many branches, you would just need a measure. The really difficult case may actually be when you have a countably infinite number of branches, because there's no uniform measure in that case (I suppose you could use literal infinitesimals, the equivalent of \"1/alephzero\").",
+      "plaintextDescription": "You can't actually presume that... The relevant quantum concept is the \"spectrum\" of an observable. These are the possible values that a property can take (eigenvalues of the corresponding operator). An observable can have a finite number of allowed eigenvalues (e.g. spin of a particle), a countably infinite number (e.g. energy levels of an oscillator), or it can have a continuous spectrum, e.g. position of a free particle. But the latter case causes problems for the usual quantum axioms, which involve a Hilbert space with a countably infinite number of dimensions - there aren't enough dimensions to represent an uncountable number of distinct position eigenstates. You have to add extra structure to include them, and concrete applications always involve integrals over continua of these generalized eigenstates, so one might reasonably suppose that the \"ontological basis\" with respect to which branching is defined is something countable. In fact, I don't remember ever seeing a many-worlds ontological interpretation of the generalized eigenstates or the formalism that deals with them (e.g. rigged Hilbert space). \n\nIn any case, the counterpart of branch counting for a continuum is simply integration. If you really did have uncountably many branches, you would just need a measure. The really difficult case may actually be when you have a countably infinite number of branches, because there's no uniform measure in that case (I suppose you could use literal infinitesimals, the equivalent of \"1/alephzero\"). "
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-05T22:59:22.902Z",
+    "af": false
+  },
+  {
+    "_id": "NqrSCynEgb7zWv7fN",
+    "postId": "yyf4KjuD8gofLQBD4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you reason in similar fashion,  about whether or not you are living in a simulation?",
+      "plaintextDescription": "Do you reason in similar fashion,  about whether or not you are living in a simulation?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-05T07:55:44.440Z",
+    "af": false
+  },
+  {
+    "_id": "uZmZRoTNCxFGEfycK",
+    "postId": "FAtqv2kLCKuBGytwc",
+    "parentCommentId": "JLaxqmeu834MYaaCq",
+    "topLevelCommentId": "JLaxqmeu834MYaaCq",
+    "contents": {
+      "markdown": "[I explored my skepticism about this paper in a brief dialogue with Claude... ](https://claude.ai/share/30f8de11-d861-4961-b652-ffa0be77c3d1)",
+      "plaintextDescription": "I explored my skepticism about this paper in a brief dialogue with Claude... "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-04T14:35:45.796Z",
+    "af": false
+  },
+  {
+    "_id": "XyA4RHJQzrsqMzPgG",
+    "postId": "2dwBxehFfAsdKtbuq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Is this where I wanted the conversation to be in 2025? Oh, hell no.\n\nIs there an example somewhere, of the level of discourse you might have hoped we would achieve, by the time that AI safety rose to the attention of politicians?",
+      "plaintextDescription": "> Is this where I wanted the conversation to be in 2025? Oh, hell no.\n\nIs there an example somewhere, of the level of discourse you might have hoped we would achieve, by the time that AI safety rose to the attention of politicians? "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-03T00:39:58.604Z",
+    "af": false
+  },
+  {
+    "_id": "bMQMGHtHccDCeDTmD",
+    "postId": "YBCas9SHcfosExMhg",
+    "parentCommentId": "3f8AgXdmkR6zfmnCL",
+    "topLevelCommentId": "Lr6ZFqGyBneE9kumK",
+    "contents": {
+      "markdown": "CEV extrapolates the volition of *humanity*, that's one reason it has to be \"coherent\". \n\nIn your proposal, people have autonomy, but this principle can be violated in \"extremely dangerous\" situations. People are free to do what they want (\"volition\")... but their AI advisors look ahead (\"extrapolated\")... and people are not allowed to exercise their freedom so as to jeopardize the freedom of others (\"coherent\").",
+      "plaintextDescription": "CEV extrapolates the volition of humanity, that's one reason it has to be \"coherent\". \n\nIn your proposal, people have autonomy, but this principle can be violated in \"extremely dangerous\" situations. People are free to do what they want (\"volition\")... but their AI advisors look ahead (\"extrapolated\")... and people are not allowed to exercise their freedom so as to jeopardize the freedom of others (\"coherent\"). "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-03T00:32:18.403Z",
+    "af": false
+  },
+  {
+    "_id": "Lr6ZFqGyBneE9kumK",
+    "postId": "YBCas9SHcfosExMhg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this ends up being the same thing as CEV...",
+      "plaintextDescription": "I think this ends up being the same thing as CEV... "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-02T17:19:44.486Z",
+    "af": false
+  },
+  {
+    "_id": "e4BszHNshrMQxBT85",
+    "postId": "vxfEtbCwmZKu9hiNr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> they promise to be safe and useful for some fixed term (e.g. 2026-2028)\n\nThis seems to require that the AI is what I will call a \"persistent agent\", one which has some continuity of identity and intent across multi-year periods. Would you agree that what we have now is nothing like that?",
+      "plaintextDescription": "> they promise to be safe and useful for some fixed term (e.g. 2026-2028)\n\nThis seems to require that the AI is what I will call a \"persistent agent\", one which has some continuity of identity and intent across multi-year periods. Would you agree that what we have now is nothing like that? "
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-29T19:57:22.431Z",
+    "af": false
+  }
+]

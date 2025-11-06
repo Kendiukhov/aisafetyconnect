@@ -1,0 +1,362 @@
+[
+  {
+    "_id": "XJdyjEaRWaPtqwbZ9",
+    "postId": "bxDMKi87D3gqEiz7E",
+    "parentCommentId": "iZydzcrh54YSvBb4h",
+    "topLevelCommentId": "YADqyuTnd4kJuNX8T",
+    "contents": {
+      "markdown": "I'm not recommending it (haven't done a cost-benefit analysis) but Anna was considering flying less because of the fume risk, and bringing a gas mask in the carry-on seems less burdensome than refraining from flying.",
+      "plaintextDescription": "I'm not recommending it (haven't done a cost-benefit analysis) but Anna was considering flying less because of the fume risk, and bringing a gas mask in the carry-on seems less burdensome than refraining from flying."
+    },
+    "baseScore": 26,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-09-14T23:29:53.013Z",
+    "af": false
+  },
+  {
+    "_id": "vX4bGQviwhDfaqqZc",
+    "postId": "bxDMKi87D3gqEiz7E",
+    "parentCommentId": "YADqyuTnd4kJuNX8T",
+    "topLevelCommentId": "YADqyuTnd4kJuNX8T",
+    "contents": {
+      "markdown": "Could bring a gas mask?",
+      "plaintextDescription": "Could bring a gas mask?"
+    },
+    "baseScore": 21,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-09-14T16:59:48.800Z",
+    "af": false
+  },
+  {
+    "_id": "tWcNfscqmKT3mPfCg",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "qhSvjJAAJJEzYpggj",
+    "topLevelCommentId": "qhSvjJAAJJEzYpggj",
+    "contents": {
+      "markdown": "> My biggest problem with this proposal is that it restricts AGI projects to a single entity, which I think is pretty far from the status quo. \n\nIt doesn't, though.  The paper talks about OGI-N as well as OGI-1.  In the former version, there are multiple AGI-developing entities.",
+      "plaintextDescription": "> My biggest problem with this proposal is that it restricts AGI projects to a single entity, which I think is pretty far from the status quo. \n\nIt doesn't, though.  The paper talks about OGI-N as well as OGI-1.  In the former version, there are multiple AGI-developing entities."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-05T02:07:07.742Z",
+    "af": false
+  },
+  {
+    "_id": "8pC9tFBtqKdsJZvbz",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "GPJRiExd4s7D32xB6",
+    "topLevelCommentId": "GPJRiExd4s7D32xB6",
+    "contents": {
+      "markdown": "I think that's an overstatement.  There is still plenty of demand from international investors for U.S. assets, and e.g. yields on U.S. 30-year treasury bonds are not that high by historical standards (although they've been climbing somewhat since their historic lows in 2020.)  If there is a reduction in confidence in other sorts of USG commitments, but maintained confidence in it's basic financial commitments and in U.S. property law, then that might support the paper's contention that the latter kind form a comparatively more reliable basis for positive-sum deals in relation to AGI-development than other types of agreements.",
+      "plaintextDescription": "I think that's an overstatement.  There is still plenty of demand from international investors for U.S. assets, and e.g. yields on U.S. 30-year treasury bonds are not that high by historical standards (although they've been climbing somewhat since their historic lows in 2020.)  If there is a reduction in confidence in other sorts of USG commitments, but maintained confidence in it's basic financial commitments and in U.S. property law, then that might support the paper's contention that the latter kind form a comparatively more reliable basis for positive-sum deals in relation to AGI-development than other types of agreements."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-05T02:02:42.743Z",
+    "af": false
+  },
+  {
+    "_id": "4zSs4d8cBZZcghWLr",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "fqwwbgMATxxiSdcJc",
+    "topLevelCommentId": "aAFAyGjLMK5JPkiA9",
+    "contents": {
+      "markdown": "> \"I think your life expectancy and that of your loved ones (at least from a mundane perspective) is longer if AGI is developed than if it isn't.\"\n> \n> You must have extreme confidence about this, or else your attitude about AGI would be grossly cavalier.\n\nRegarding attitudes about AGI, that's probably a bigger topic for another time.  But regarding your and your loved ones' life expectancy, from a mundane perspective (which leaves out much that is actually very relevant), it would presumably be some small number of decades without AGI---less if the people you love are elderly or seriously ill.  Given aligned AGI, it could be extremely long (and immensely better in quality).  So even if we assume that AGI would arrive soon unless stopped (e.g. in 5 years) and would result in immediate death if unaligned (which is very far from a given), then it seems like your life expectancy would be vastly longer if AGI developed even if the chance of alignment were quite small.\n\n> These beginnings could never have happened through quiet dealings and gently laid plans. They happened because people were honest and loud.\n\nI don't doubt that loud people sometimes make things happen, though all-too-often the things they make happen turn out to have been for the worse.  For my own part, I don't feel there's such a deficit of loud people in the world that it is my calling to rush out and join them.  This is partly a matter of personality, but I hope there's a niche from which one can try to contribute in a more detached manner (and that there is value in a \"rationalist project\" that seeks to protect and facilitate that).",
+      "plaintextDescription": "> \"I think your life expectancy and that of your loved ones (at least from a mundane perspective) is longer if AGI is developed than if it isn't.\"\n> \n> You must have extreme confidence about this, or else your attitude about AGI would be grossly cavalier.\n\nRegarding attitudes about AGI, that's probably a bigger topic for another time.  But regarding your and your loved ones' life expectancy, from a mundane perspective (which leaves out much that is actually very relevant), it would presumably be some small number of decades without AGI---less if the people you love are elderly or seriously ill.  Given aligned AGI, it could be extremely long (and immensely better in quality).  So even if we assume that AGI would arrive soon unless stopped (e.g. in 5 years) and would result in immediate death if unaligned (which is very far from a given), then it seems like your life expectancy would be vastly longer if AGI developed even if the chance of alignment were quite small.\n\n> These beginnings could never have happened through quiet dealings and gently laid plans. They happened because people were honest and loud.\n\nI don't doubt that loud people sometimes make things happen, though all-too-often the things they make happen turn out to have been for the worse.  For my own part, I don't feel there's such a deficit of loud people in the world that it is my calling to rush out and join them.  This is partly a matter of personality, but I hope there's a niche from which one can try to contribute in a more detached manner (and that there is value in a \"rationalist project\" that seeks to protect and facilitate that)."
+    },
+    "baseScore": 14,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-08-31T02:05:34.095Z",
+    "af": false
+  },
+  {
+    "_id": "XjGoabkaZ6xjrYkvK",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "aAFAyGjLMK5JPkiA9",
+    "topLevelCommentId": "aAFAyGjLMK5JPkiA9",
+    "contents": {
+      "markdown": "> Every known plan for a post-AGI world is one which I do not expect my loved ones to survive.\n\nI think your life expectancy and that of your loved ones (at least from a mundane perspective) is longer if AGI is developed than if it isn't.\n\nBtw, the OGI model is not primarily intended for a post-AGI world, but rather for a near-term or intermediary stage.\n\nHowever, I agree that if somebody thinks that we should completely stop AGI then the OGI model would presumably not be the way to go.  It is presented as an alternative to other governance models for the development of AGI (such as Manhattan project, CERN, Intelsat, etc.).  This paper doesn't address the desirability of developing AGI.\n\n> to shut down frontier AI development and preserve our very lives — a thing that unlike alignment we actually know is possible to achieve —\n\nFwiw, I think it's more likely that AI will be aligned than that it will be shut down.\n\n> I am grateful that you have spread awareness of the risk of human extinction from AI. I am genuinely saddened that you seem to be working to bring it about.\n\nOne has to take the rough with the smooth...  (But really, you seem to be misattributing motive to me here.)\n\n> If we here who know the stakes are not united in our call to shut down frontier AI development and preserve our very lives — a thing that unlike alignment we actually know is possible to achieve — then what was the rationalist project ever about?\n\nI see it more like a flickering candle straining to create a small patch of visibility in an otherwise rather dark environment.  Strong calls for unanimity and falling into line with a political campaign message is a wind that might snuff it out.",
+      "plaintextDescription": "> Every known plan for a post-AGI world is one which I do not expect my loved ones to survive.\n\nI think your life expectancy and that of your loved ones (at least from a mundane perspective) is longer if AGI is developed than if it isn't.\n\nBtw, the OGI model is not primarily intended for a post-AGI world, but rather for a near-term or intermediary stage.\n\nHowever, I agree that if somebody thinks that we should completely stop AGI then the OGI model would presumably not be the way to go.  It is presented as an alternative to other governance models for the development of AGI (such as Manhattan project, CERN, Intelsat, etc.).  This paper doesn't address the desirability of developing AGI.\n\n> to shut down frontier AI development and preserve our very lives — a thing that unlike alignment we actually know is possible to achieve —\n\nFwiw, I think it's more likely that AI will be aligned than that it will be shut down.\n\n> I am grateful that you have spread awareness of the risk of human extinction from AI. I am genuinely saddened that you seem to be working to bring it about.\n\nOne has to take the rough with the smooth...  (But really, you seem to be misattributing motive to me here.)\n\n> If we here who know the stakes are not united in our call to shut down frontier AI development and preserve our very lives — a thing that unlike alignment we actually know is possible to achieve — then what was the rationalist project ever about?\n\nI see it more like a flickering candle straining to create a small patch of visibility in an otherwise rather dark environment.  Strong calls for unanimity and falling into line with a political campaign message is a wind that might snuff it out."
+    },
+    "baseScore": 16,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-08-30T15:01:40.669Z",
+    "af": false
+  },
+  {
+    "_id": "4b9i663DW3iyyt9H3",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "sob8ogtQhMrXpWbK3",
+    "topLevelCommentId": "sob8ogtQhMrXpWbK3",
+    "contents": {
+      "markdown": "It becomes partly terminological, but I would say that China-OGI-1 would by definition be a situation in which global investors in a Chinese company that develops AGI enjoy reasonably reliable assurances that their property rights would be largely respected.  It seems maybe more attractive than the closest alternatives (i.e. a situation in which AGI is developed by a Chinese company and international investors don't have reasonable assurances that their rights would be protected, or a situation in which AGI is developed by a Chinese Manhattan project)?  So the factors you point to don't affect the desirability of China-OGI-1 but rather the probability of that version of the OGI model becoming instantiated.\n\nBtw, I should maybe also reemphasize that I'm putting forward the model more so that it can be considered alongside other models that have been proposed, rather than as something that I have a strong or definitive commitment to.  I could easily imagine coming to favor other approaches, either as a result of arguments or because of changes in the world that alters the practical landscape.  I generally have a high level of uncertainty about the politics/governance/macrostrategy of AI (doubly so in the Chinese context, where I have even less understanding), and I tend to think we'll need to feel and negotiate our way forward one tentative step at a time rather than operate on a fixed plan.",
+      "plaintextDescription": "It becomes partly terminological, but I would say that China-OGI-1 would by definition be a situation in which global investors in a Chinese company that develops AGI enjoy reasonably reliable assurances that their property rights would be largely respected.  It seems maybe more attractive than the closest alternatives (i.e. a situation in which AGI is developed by a Chinese company and international investors don't have reasonable assurances that their rights would be protected, or a situation in which AGI is developed by a Chinese Manhattan project)?  So the factors you point to don't affect the desirability of China-OGI-1 but rather the probability of that version of the OGI model becoming instantiated.\n\nBtw, I should maybe also reemphasize that I'm putting forward the model more so that it can be considered alongside other models that have been proposed, rather than as something that I have a strong or definitive commitment to.  I could easily imagine coming to favor other approaches, either as a result of arguments or because of changes in the world that alters the practical landscape.  I generally have a high level of uncertainty about the politics/governance/macrostrategy of AI (doubly so in the Chinese context, where I have even less understanding), and I tend to think we'll need to feel and negotiate our way forward one tentative step at a time rather than operate on a fixed plan."
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-29T01:24:31.448Z",
+    "af": false
+  },
+  {
+    "_id": "dBQvgtHSGDhhxxHFM",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "RcPLhSRSYXs7ZfEra",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "> I always thought it was totally crazy for people to lump Nick Bostrom and Marc Andreessen together into TESCREAL and criticize them in the same breath, but this post plays right into such criticism.\n\nI'm also bald...",
+      "plaintextDescription": "> I always thought it was totally crazy for people to lump Nick Bostrom and Marc Andreessen together into TESCREAL and criticize them in the same breath, but this post plays right into such criticism.\n\nI'm also bald..."
+    },
+    "baseScore": 19,
+    "voteCount": 27,
+    "createdAt": null,
+    "postedAt": "2025-08-29T00:55:20.974Z",
+    "af": false
+  },
+  {
+    "_id": "se4BHozqfNuLJLJDa",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "9i6hEbipSWwyzsFAA",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "> This idea/plan seems to legitimize giving founders and early investors of AGI companies extra influence on or ownership of the universe (or just extremely high financial returns, if they were to voluntarily sell some shares to the public as envisioned here), which is hard for me to stomach from a fairness or incentives perspective, given that I think such people made negative contributions to our civilizational trajectory by increasing x-risk.\n\nOne question is whether a different standard should be applied in this case than elsewhere in our capitalist economy (where, generally, the link between financial rewards and positive or negative contributions to xrisk reduction is quite tenuous).  One could argue that this is the cooperative system we have in place, and that there should be a presumption against retroactively confiscating people who invested their time or money on the basis of the existing rules.  (Adjusting levels of moral praise in light of differing estimations of the nature of somebody's actions or intentions may be a more appropriate place for this type of consideration to feed in.  Though it's perhaps also worth noting that the prevailing cultural norms at the time, and still today, seem to favor contributing to the development more advanced AI technologies.)\n\nFurthermore, it would be consistent with the OGI model for governments (particularly the host government) to take some actions to equalize or otherwise adjust outcomes.  For example, many countries, including the U.S., have a progressive taxation system, and one could imaging adding some higher tax brackets beyond those that currently exist - such as an extra +10% marginal tax rate for incomes or capital gains exceeding 1 trillion dollars, or exceeding 1% of GDP, or whatever.  (In the extreme, if taxation rates began approaching 100%, this would become confiscatory and would be incompatible with the OGI model; but there is plenty of room below that for society to choose some level of redistribution.)",
+      "plaintextDescription": "> This idea/plan seems to legitimize giving founders and early investors of AGI companies extra influence on or ownership of the universe (or just extremely high financial returns, if they were to voluntarily sell some shares to the public as envisioned here), which is hard for me to stomach from a fairness or incentives perspective, given that I think such people made negative contributions to our civilizational trajectory by increasing x-risk.\n\nOne question is whether a different standard should be applied in this case than elsewhere in our capitalist economy (where, generally, the link between financial rewards and positive or negative contributions to xrisk reduction is quite tenuous).  One could argue that this is the cooperative system we have in place, and that there should be a presumption against retroactively confiscating people who invested their time or money on the basis of the existing rules.  (Adjusting levels of moral praise in light of differing estimations of the nature of somebody's actions or intentions may be a more appropriate place for this type of consideration to feed in.  Though it's perhaps also worth noting that the prevailing cultural norms at the time, and still today, seem to favor contributing to the development more advanced AI technologies.)\n\nFurthermore, it would be consistent with the OGI model for governments (particularly the host government) to take some actions to equalize or otherwise adjust outcomes.  For example, many countries, including the U.S., have a progressive taxation system, and one could imaging adding some higher tax brackets beyond those that currently exist - such as an extra +10% marginal tax rate for incomes or capital gains exceeding 1 trillion dollars, or exceeding 1% of GDP, or whatever.  (In the extreme, if taxation rates began approaching 100%, this would become confiscatory and would be incompatible with the OGI model; but there is plenty of room below that for society to choose some level of redistribu"
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-28T18:18:05.273Z",
+    "af": false
+  },
+  {
+    "_id": "xeSSjX2TcnXjQ4cA5",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "PHo5HMJ9JtzJ7y8Te",
+    "topLevelCommentId": "PHo5HMJ9JtzJ7y8Te",
+    "contents": {
+      "markdown": "> the governance philosophy here seems to be \"let the companies do as they will and let events unfold as they may\"\n\nThat is not quite right.  The idea is rather that the government does whatever it does by regulating companies, or possibly entering into some soft-nationalization public-private partnership, as opposed to by operating an AGI project on its own (as in the Manhattan model) or by handing it over to an international agency or consortium (as in the CERN and Intelsat models).\n\n> There doesn't seem to be anything here which addresses the situation in which one company tries to take over the world using its AGI, or in which an AGI acting on its own initiative tries to take over the world, etc.\n\nIt doesn't particularly address the situation in which an AGI on its own initiative tries to take over the world.  That is a concern common to all of the governance models.  In the OGI model, there are two potential veto points: the company itself can choose not to develop or a deploy an AI that it deems too risky, and the host government can prevent the company from developing or deploying an AI that fails to meet some standard that the government stipulates.  (In the Manhattan model, there's only one veto point.)\n\nAs for the situation in which one company tries to take over the world using its AGI, the host government may choose to implement safeguards against this (e.g. by closely scrutinizing what AGI corporations are up to).  Note that there are analogous concerns in the alternative models, where e.g. a government lab or some other part of a government might try to use AGI for power grabs.  (Again, the double veto points in the OGI model might have some advantage here, although the issue is complicated.)",
+      "plaintextDescription": "> the governance philosophy here seems to be \"let the companies do as they will and let events unfold as they may\"\n\nThat is not quite right.  The idea is rather that the government does whatever it does by regulating companies, or possibly entering into some soft-nationalization public-private partnership, as opposed to by operating an AGI project on its own (as in the Manhattan model) or by handing it over to an international agency or consortium (as in the CERN and Intelsat models).\n\n> There doesn't seem to be anything here which addresses the situation in which one company tries to take over the world using its AGI, or in which an AGI acting on its own initiative tries to take over the world, etc.\n\nIt doesn't particularly address the situation in which an AGI on its own initiative tries to take over the world.  That is a concern common to all of the governance models.  In the OGI model, there are two potential veto points: the company itself can choose not to develop or a deploy an AI that it deems too risky, and the host government can prevent the company from developing or deploying an AI that fails to meet some standard that the government stipulates.  (In the Manhattan model, there's only one veto point.)\n\nAs for the situation in which one company tries to take over the world using its AGI, the host government may choose to implement safeguards against this (e.g. by closely scrutinizing what AGI corporations are up to).  Note that there are analogous concerns in the alternative models, where e.g. a government lab or some other part of a government might try to use AGI for power grabs.  (Again, the double veto points in the OGI model might have some advantage here, although the issue is complicated.)"
+    },
+    "baseScore": 12,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-08-28T01:47:32.161Z",
+    "af": false
+  },
+  {
+    "_id": "aEgzxkHgjL8xeCJ6K",
+    "postId": "2pkNCvBtK6G6FKoNn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "There's also [https://whenaiseemsconscious.org/](https://whenaiseemsconscious.org/.).  (Ideally this will be improved over time.  Several people contributed, but Lucius Caviola is coordinating revisions to the text, so if somebody has suggestions they could send them to him.)",
+      "plaintextDescription": "There's also https://whenaiseemsconscious.org/.  (Ideally this will be improved over time.  Several people contributed, but Lucius Caviola is coordinating revisions to the text, so if somebody has suggestions they could send them to him.)"
+    },
+    "baseScore": 27,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-07-11T11:12:51.826Z",
+    "af": false
+  },
+  {
+    "_id": "nhjmTfXJMZf7AapQx",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "qCpWqjwJhpAEztJkt",
+    "topLevelCommentId": "ZutrHvKdGkZJ8fwjK",
+    "contents": {
+      "markdown": "> Could we get info on this by looking at metrics of corruption? I'm not familiar with the field, but I know it's been busy recently, and maybe there's some good papers that put the private and public sectors on the same scale. A quick google scholar search mostly just convinced me that I'd be better served asking an expert.\n\nI suspect it would be difficult to get much useful signal on this from the academic literature.  This particular issue might instead come down to how much you trust the various specific persons that are the most likely corporate AI leaders versus some impression of how trustworthy, wholesome, and wise the key people inside or controlling a government-run AGI program would be (in the U.S. or China, over the coming years).\n\nBtw, I'm thinking of the OGI model as offering something of a dual veto structure - in order for something to proceed, it would have be favored by both the corporation and the host government (in contrast to an AGI Manhattan project, where it would just need to be favored by the government).  So at least the potential may exist for there to be more checks and balances and oversight in the corporate case, especially in the versions that involve some sort of very soft nationalization.\n\n> your comparison includes points like \"OGI obviates the need for massive government funding\" ... If governments enact a policy that maintains the ability to buy shares in AI labs, but requires massive government funding and is disagreeable to incumbents, that seems to be part of a different story (and with a different story about how you get trustworthiness, fair distribution, etc.) than the story you're telling about OGI.\n\nIn the OGI model, governments have the option to buy shares but also the option not to.  It doesn't require government funding, but if one thinks that it would be good for governments to spend money some on AGI-related stuff then they could do so in the OGI model just as well as in other models - in some countries, maybe even more easily, since e.g. some pension funds and sovereign wealth funds could more easily be used to buy stocks than to be clawed back and used to fund a Manhattan project.  Also, I'm imagining that it would be less disagreeable to incumbents (especially key figures in AI labs and their investors) for governments to invest money in their companies than to have their companies shut down or nationalized or outcompeted by a government-run project.",
+      "plaintextDescription": "> Could we get info on this by looking at metrics of corruption? I'm not familiar with the field, but I know it's been busy recently, and maybe there's some good papers that put the private and public sectors on the same scale. A quick google scholar search mostly just convinced me that I'd be better served asking an expert.\n\nI suspect it would be difficult to get much useful signal on this from the academic literature.  This particular issue might instead come down to how much you trust the various specific persons that are the most likely corporate AI leaders versus some impression of how trustworthy, wholesome, and wise the key people inside or controlling a government-run AGI program would be (in the U.S. or China, over the coming years).\n\nBtw, I'm thinking of the OGI model as offering something of a dual veto structure - in order for something to proceed, it would have be favored by both the corporation and the host government (in contrast to an AGI Manhattan project, where it would just need to be favored by the government).  So at least the potential may exist for there to be more checks and balances and oversight in the corporate case, especially in the versions that involve some sort of very soft nationalization.\n\n> your comparison includes points like \"OGI obviates the need for massive government funding\" ... If governments enact a policy that maintains the ability to buy shares in AI labs, but requires massive government funding and is disagreeable to incumbents, that seems to be part of a different story (and with a different story about how you get trustworthiness, fair distribution, etc.) than the story you're telling about OGI.\n\nIn the OGI model, governments have the option to buy shares but also the option not to.  It doesn't require government funding, but if one thinks that it would be good for governments to spend money some on AGI-related stuff then they could do so in the OGI model just as well as in other models - in some countries, maybe even "
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-11T09:47:51.566Z",
+    "af": false
+  },
+  {
+    "_id": "tsrAAYE5GzWjpDxdQ",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "ZutrHvKdGkZJ8fwjK",
+    "topLevelCommentId": "ZutrHvKdGkZJ8fwjK",
+    "contents": {
+      "markdown": "Tunneling is always a concern in corporate structures, but alternative organizational forms suffer similar problems.  Government officials, university department heads, and NGO executives also sometimes misuse the powers of their office to pursue personal or factional interests rather than the official mission of the organization they are supposed to represent.  We would need a reason for thinking that this problem is worse in the corporate case in order for it to be a consideration against the OGI model.\n\nAs for the suggestion that governments (nationally or internationally) should prohibit profit-generating activities by AI labs that have major negative externalities, this is fully consistent with the OGI model (see section \"The other half of the picture\", on p. 4).  AGI corporations would be subject to government regulation and oversight, just like other corporations are - and, plausibly, the intensity of government involvement would be much greater in this case, given the potentially transformative impacts of the technology they are developing.  It would also consistent with the OGI model for governments to offer contracts or prizes for various prosocial applications of AI.",
+      "plaintextDescription": "Tunneling is always a concern in corporate structures, but alternative organizational forms suffer similar problems.  Government officials, university department heads, and NGO executives also sometimes misuse the powers of their office to pursue personal or factional interests rather than the official mission of the organization they are supposed to represent.  We would need a reason for thinking that this problem is worse in the corporate case in order for it to be a consideration against the OGI model.\n\nAs for the suggestion that governments (nationally or internationally) should prohibit profit-generating activities by AI labs that have major negative externalities, this is fully consistent with the OGI model (see section \"The other half of the picture\", on p. 4).  AGI corporations would be subject to government regulation and oversight, just like other corporations are - and, plausibly, the intensity of government involvement would be much greater in this case, given the potentially transformative impacts of the technology they are developing.  It would also consistent with the OGI model for governments to offer contracts or prizes for various prosocial applications of AI."
+    },
+    "baseScore": 18,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-07-11T00:35:39.515Z",
+    "af": false
+  },
+  {
+    "_id": "SukeTCd5JueZqxjvr",
+    "postId": "nqXcgsqQBw2doAnXu",
+    "parentCommentId": "dRN3H6Svr3HxsZemX",
+    "topLevelCommentId": "dRN3H6Svr3HxsZemX",
+    "contents": {
+      "markdown": "You are looking at the wreckage of an abandoned book project.  We got bogged down & other priorities came up.  Instead of writing the book, we decided to just publish a working outline and call it a day.\n\nThe result is not particularly optimized for tech executives or policymakers — it’s not really optimized for anybody, unfortunately.\n\nThe propositions all \\*aspire\\* to being true, although some of may not be particularly relevant or applicable in certain scenarios.  Still, there could be value on working out sensible things to say to cover quite a wide range of scenarios, partly because we don’t know which scenario will happen (and there is disagreement over the probabilities), but partly also because this wider structure — including the parts that don’t directly pertain to the scenario that actually plays out — might form a useful intellectual scaffolding, which could slightly constrain and inform people’s thinking of the more modal scenarios.\n\nI think it’s unclear how well reasoning by analogy works in this area.  Or rather: I guess it works poorly, but reasoning deductively from first principles (at SL4, or SL15, or whatever) might be equally or even more error-prone.  So I’ve got some patience for both approaches, hoping the combo has a better chance of avoiding fatal error than either the softheaded or the hardheaded approach has on its own.",
+      "plaintextDescription": "You are looking at the wreckage of an abandoned book project.  We got bogged down & other priorities came up.  Instead of writing the book, we decided to just publish a working outline and call it a day.\n\nThe result is not particularly optimized for tech executives or policymakers — it’s not really optimized for anybody, unfortunately.\n\nThe propositions all *aspire* to being true, although some of may not be particularly relevant or applicable in certain scenarios.  Still, there could be value on working out sensible things to say to cover quite a wide range of scenarios, partly because we don’t know which scenario will happen (and there is disagreement over the probabilities), but partly also because this wider structure — including the parts that don’t directly pertain to the scenario that actually plays out — might form a useful intellectual scaffolding, which could slightly constrain and inform people’s thinking of the more modal scenarios.\n\nI think it’s unclear how well reasoning by analogy works in this area.  Or rather: I guess it works poorly, but reasoning deductively from first principles (at SL4, or SL15, or whatever) might be equally or even more error-prone.  So I’ve got some patience for both approaches, hoping the combo has a better chance of avoiding fatal error than either the softheaded or the hardheaded approach has on its own."
+    },
+    "baseScore": 38,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2022-07-12T23:58:01.601Z",
+    "af": false
+  },
+  {
+    "_id": "b2APn5JSAnHMWZvD6",
+    "postId": "tKa9Lebyebf6a7P2o",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"In IEEE Spectrum's sad little attempt at Singularity coverage, one bright spot is Paul Wallich's \"Who's Who In The Singularity\",...\"\n\nBrightness here being a relative quality... I am labeled green, meaning \"true believer, thinks it will happen within 30 years.\" Yet I am quoted (correctly) as saying \"I would... assign less than a 50% probability to superintelligence being developed by 2033.\" (I also don't endorse \"once the singularity comes near, we will all be kicking ourselves for not having brought it about sooner\", even though they attribute this to me as my \"central argument\".)\n\nReg Oracle AI, I'm not sure how much of a disagreement there exists between Eliezer and me. My position has not been that it is definitely the case that Oracle AI is the way to go. Rather, my position is something like \"this seems to have at least something going for it; I have not yet been convinced by the arguments I've heard against it; it deserves some further consideration\". (The basic rationale is this: While I agree that a utility function that is maximized by providing maximally correct and informative answers to our questions is clearly unworkable (since this could lead the SI to transform all Earth into more computational hardware so as to better calculate the answer), it might turn out to be substantially easier to specify the needed constraints to avoid such catastrophic side-effects of an Oracle AI than it is to solve the Friendliness problem in its general form--I'm not at all sure it is easier, but I haven't yet been persuaded it is not.)\n\nReg disagreement between Robin and Eliezer on singularity: They've discussed this many times, both here and on other mailinglists. But the discussion always seems to end prematurely. I think this would make for a great disagreement case study--topic is important, both are disagreement savvy, both know and respect one another, both have some subject matter expertise... I would like them to try once to get to the bottom of the issue, and continue discussion until they either cease disagreeing or at least agree exactly on what they disagree about, and why, and on how each person justifies the persistent disagreement.",
+      "plaintextDescription": "\"In IEEE Spectrum's sad little attempt at Singularity coverage, one bright spot is Paul Wallich's \"Who's Who In The Singularity\",...\"\n\nBrightness here being a relative quality... I am labeled green, meaning \"true believer, thinks it will happen within 30 years.\" Yet I am quoted (correctly) as saying \"I would... assign less than a 50% probability to superintelligence being developed by 2033.\" (I also don't endorse \"once the singularity comes near, we will all be kicking ourselves for not having brought it about sooner\", even though they attribute this to me as my \"central argument\".)\n\nReg Oracle AI, I'm not sure how much of a disagreement there exists between Eliezer and me. My position has not been that it is definitely the case that Oracle AI is the way to go. Rather, my position is something like \"this seems to have at least something going for it; I have not yet been convinced by the arguments I've heard against it; it deserves some further consideration\". (The basic rationale is this: While I agree that a utility function that is maximized by providing maximally correct and informative answers to our questions is clearly unworkable (since this could lead the SI to transform all Earth into more computational hardware so as to better calculate the answer), it might turn out to be substantially easier to specify the needed constraints to avoid such catastrophic side-effects of an Oracle AI than it is to solve the Friendliness problem in its general form--I'm not at all sure it is easier, but I haven't yet been persuaded it is not.)\n\nReg disagreement between Robin and Eliezer on singularity: They've discussed this many times, both here and on other mailinglists. But the discussion always seems to end prematurely. I think this would make for a great disagreement case study--topic is important, both are disagreement savvy, both know and respect one another, both have some subject matter expertise... I would like them to try once to get to the bottom of the issue, and "
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2008-06-07T20:19:53.000Z",
+    "af": false
+  },
+  {
+    "_id": "YpcRnp4vbB2ck4Z39",
+    "postId": "XC7Kry5q6CD9TyG4K",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Eliezer, the criteria you list may be necessary for the evolution of _complex_ structures. But I think it's worth highlighting that practically important evolutionary results could come about without the need for new complex structures. For example, suppose we have a population of controlled self-replicating nanobots, built unwisely in such a way that they keep replicating until a separate breaking circuit kicks in and shuts off replication. Now suppose there is a mutation in the code of one nanobot such that its offspring lack a working breaking circuit. Then this mutant nanobot could start an exponential goo. There need only be a one-step selection, but the results could be dramatic. Similarly with Hanson's colonizers that burn the cosmic commons - they might not gain much in complexity through evolution, but evolutionary selection could ensure that a certain type of colonizer (which was present but very rare at time=0) will eventually dominate at the frontier.",
+      "plaintextDescription": "Eliezer, the criteria you list may be necessary for the evolution of complex structures. But I think it's worth highlighting that practically important evolutionary results could come about without the need for new complex structures. For example, suppose we have a population of controlled self-replicating nanobots, built unwisely in such a way that they keep replicating until a separate breaking circuit kicks in and shuts off replication. Now suppose there is a mutation in the code of one nanobot such that its offspring lack a working breaking circuit. Then this mutant nanobot could start an exponential goo. There need only be a one-step selection, but the results could be dramatic. Similarly with Hanson's colonizers that burn the cosmic commons - they might not gain much in complexity through evolution, but evolutionary selection could ensure that a certain type of colonizer (which was present but very rare at time=0) will eventually dominate at the frontier."
+    },
+    "baseScore": 16,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2007-11-18T00:50:00.000Z",
+    "af": false
+  },
+  {
+    "_id": "pz27bj4Kw9Lz3cZiS",
+    "postId": "a5JAiTdytou3Jg749",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Wei, no I don't think I considered the possibility of discounting people by their algorithmic complexity.\n\nI can see that in the context of Everett it seems plausible to weigh each observer with a measure proportional to the amplitude squared of the branch of the wave function on which he is living. Moreover, it seems right to use this measure both to calculate the anthropic _probability_ of me finding myself as that observer and the moral _importance_ of that observer's well-being.\n\nAssigning anthropic probabilities over infinite domains is problematic. I don't know of a fully satisfactory explanation of how to do this. One natural approach might to explore might be to assign some Turing machine based measure to each of the infinite observers. Perhaps we could assign plausible probabilities by using such an approach (although I'd like to see this worked out in detail before accepting that it would work).\n\nIf I understand your suggestion correctly, you propose that the same anthropic probability measure should also be used as a measure of moral importance. But there seems to me to be a problem. Consider a simple classical universe with two very similar observers. On my reckoning they should each get anthropic probability measure 1/2 (rejecting SIA, the Self-Indication Assumption). Yet it appears that they should each have a moral weight of 1. Does your proposal require that one accepts the SIA? Or am I misinterpreting you? Or are you trying to explicate not total utilitarianism but average utilitarianism?",
+      "plaintextDescription": "Wei, no I don't think I considered the possibility of discounting people by their algorithmic complexity.\n\nI can see that in the context of Everett it seems plausible to weigh each observer with a measure proportional to the amplitude squared of the branch of the wave function on which he is living. Moreover, it seems right to use this measure both to calculate the anthropic probability of me finding myself as that observer and the moral importance of that observer's well-being.\n\nAssigning anthropic probabilities over infinite domains is problematic. I don't know of a fully satisfactory explanation of how to do this. One natural approach might to explore might be to assign some Turing machine based measure to each of the infinite observers. Perhaps we could assign plausible probabilities by using such an approach (although I'd like to see this worked out in detail before accepting that it would work).\n\nIf I understand your suggestion correctly, you propose that the same anthropic probability measure should also be used as a measure of moral importance. But there seems to me to be a problem. Consider a simple classical universe with two very similar observers. On my reckoning they should each get anthropic probability measure 1/2 (rejecting SIA, the Self-Indication Assumption). Yet it appears that they should each have a moral weight of 1. Does your proposal require that one accepts the SIA? Or am I misinterpreting you? Or are you trying to explicate not total utilitarianism but average utilitarianism?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2007-10-23T17:06:00.000Z",
+    "af": false
+  },
+  {
+    "_id": "b94qkb4XC6MuwmEQ3",
+    "postId": "a5JAiTdytou3Jg749",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have a paper which explores the problem in a somewhat more general way (but see especially section 6.3).\n\nInfinite Ethics: [http://www.nickbostrom.com/ethics/infinite.pdf](http://www.nickbostrom.com/ethics/infinite.pdf)",
+      "plaintextDescription": "I have a paper which explores the problem in a somewhat more general way (but see especially section 6.3).\n\nInfinite Ethics: http://www.nickbostrom.com/ethics/infinite.pdf"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2007-10-21T20:38:00.000Z",
+    "af": false
+  },
+  {
+    "_id": "RfgzWfioksb9cShtj",
+    "postId": "QtyKq4BDyuJ3tysoK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Carl, I like your suggestion to establish a prize for avoing mega-disasters and existential risks. (Meanwhile, I'm going to send Petrov a small donation.)\n\nOne of the bias issues this raises is the possibility of bias in how we allocate our attention. One could think of an attention allocation as if it involved an implicit belief that \"this is worth attending to\". Then we can think of how this kind of implicit belief might be biased. For example, in the ancestral environment nobody was worth attending to because they had prevented millions of deaths by refraining from pressing a button; so maybe we are biased in the direction of allocating too little attention to such acts... Some future post might explore this in more detail.\n\nEliezer, thanks for your post.",
+      "plaintextDescription": "Carl, I like your suggestion to establish a prize for avoing mega-disasters and existential risks. (Meanwhile, I'm going to send Petrov a small donation.)\n\nOne of the bias issues this raises is the possibility of bias in how we allocate our attention. One could think of an attention allocation as if it involved an implicit belief that \"this is worth attending to\". Then we can think of how this kind of implicit belief might be biased. For example, in the ancestral environment nobody was worth attending to because they had prevented millions of deaths by refraining from pressing a button; so maybe we are biased in the direction of allocating too little attention to such acts... Some future post might explore this in more detail.\n\nEliezer, thanks for your post."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2007-10-04T00:41:56.000Z",
+    "af": false
+  },
+  {
+    "_id": "66vAJvbokbGZWFXAB",
+    "postId": "6i3zToomS86oj9bS6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "And to continue the thread of Roy's comment as picked up by Eliezer, it might have been a fairly reasonable conjecture at the time (or at some earlier time). We have to be wary about hindsight bias. Imagine a time before biochemistry and before evolution theory. The only physicalist \"explanations\" you've ever heard of or thought of for why animals exist and how they function are obvious non-starters...\n\nYou think to yourself, \"the folks who are tempted by such explanations just don't realize how far away they are from really explaining this stuff; they are deluded.\" And invoking an elan vital, while clearly not providing a complete explanation, at least creates a placeholder. Perhaps it might be possible to discover different versions of the elan vital; perhaps we could discover how this force interacts with other non-material substances such as ancestor spirits, consciousness, magic, demons, angels etc. Perhaps there could be a whole science of the psychic and the occult, or maybe a new branch of theological inquiry that would illuminate these issues. Maybe those faraway wisemen that we've heard about know something about these matters that we don't know. Or maybe the human mind is simply not equipped to understand these inner workings of the world, and we have to pray instead for illumination. In the afterlife, perhaps, it will all be clear. Either way, that guy who thinks he will discover the mysteries of the soul by dissecting the pineal gland seem curiously obtuse in not appreciating the magnitude of the mystery.\n\nNow, in retrospect we know what worked and what didn't. But the mystics, it seems, _could_ have turned out to have been right, and it is not obvious that they were irrational to favor the mystic hypothesis given the evidence available to them at the time.\n\nPerhaps what we should be looking for is not structural problems intrinsic to certain kinds of questions and answers, but rather attitude problems that occur, for example, when ask questions without really caring about finding the answer, or when we use mysterious answers to lullaby our curiosity prematurely.",
+      "plaintextDescription": "And to continue the thread of Roy's comment as picked up by Eliezer, it might have been a fairly reasonable conjecture at the time (or at some earlier time). We have to be wary about hindsight bias. Imagine a time before biochemistry and before evolution theory. The only physicalist \"explanations\" you've ever heard of or thought of for why animals exist and how they function are obvious non-starters...\n\nYou think to yourself, \"the folks who are tempted by such explanations just don't realize how far away they are from really explaining this stuff; they are deluded.\" And invoking an elan vital, while clearly not providing a complete explanation, at least creates a placeholder. Perhaps it might be possible to discover different versions of the elan vital; perhaps we could discover how this force interacts with other non-material substances such as ancestor spirits, consciousness, magic, demons, angels etc. Perhaps there could be a whole science of the psychic and the occult, or maybe a new branch of theological inquiry that would illuminate these issues. Maybe those faraway wisemen that we've heard about know something about these matters that we don't know. Or maybe the human mind is simply not equipped to understand these inner workings of the world, and we have to pray instead for illumination. In the afterlife, perhaps, it will all be clear. Either way, that guy who thinks he will discover the mysteries of the soul by dissecting the pineal gland seem curiously obtuse in not appreciating the magnitude of the mystery.\n\nNow, in retrospect we know what worked and what didn't. But the mystics, it seems, could have turned out to have been right, and it is not obvious that they were irrational to favor the mystic hypothesis given the evidence available to them at the time.\n\nPerhaps what we should be looking for is not structural problems intrinsic to certain kinds of questions and answers, but rather attitude problems that occur, for example, when ask questions without r"
+    },
+    "baseScore": 19,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2007-08-27T17:21:18.000Z",
+    "af": false
+  },
+  {
+    "_id": "eJ8Td5QXA8d25qaev",
+    "postId": "xiHy3kFni8nsxfdcP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have a paper on this problem of infinities in ethics: [http://www.nickbostrom.com/ethics/infinite.pdf](http://www.nickbostrom.com/ethics/infinite.pdf)\n\nIt is a difficult topic.",
+      "plaintextDescription": "I have a paper on this problem of infinities in ethics: http://www.nickbostrom.com/ethics/infinite.pdf\n\nIt is a difficult topic."
+    },
+    "baseScore": 12,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2007-05-19T02:15:59.000Z",
+    "af": false
+  },
+  {
+    "_id": "8qXyoeyHs2s7Avca9",
+    "postId": "hcKCrYTW7Zbzmv29g",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I once suggested to the EU (whose research funding application process is exceptionally laborious) that when evaluating the effectiveness of their grants scheme, they should take into account not only the internal costs of administering the scheme, but also the costs of applying. More specifically, they should estimate the salary cost of the time the applicants put into learning about the program and applying (unsuccessful applicants included) and view this as an administrative cost of the program. I think it would be an eye-opener. Of course, the chances that they would actually start doing this as a result of my suggestion are indistinguishably close to zero.",
+      "plaintextDescription": "I once suggested to the EU (whose research funding application process is exceptionally laborious) that when evaluating the effectiveness of their grants scheme, they should take into account not only the internal costs of administering the scheme, but also the costs of applying. More specifically, they should estimate the salary cost of the time the applicants put into learning about the program and applying (unsuccessful applicants included) and view this as an administrative cost of the program. I think it would be an eye-opener. Of course, the chances that they would actually start doing this as a result of my suggestion are indistinguishably close to zero."
+    },
+    "baseScore": 9,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2007-04-12T03:12:04.000Z",
+    "af": false
+  },
+  {
+    "_id": "57PZ8k8vJ2MQCr6Ae",
+    "postId": "cKrgy7hLdszkse2pq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm not sure I understand exactly how the chronophone works. It sounds a bit like the only useful ideas a person can transmit are ideas that she herself has independently worked out or discovered; in which case not the same ideas but some analogous and similarly useful ideas gets delivered to Archimedes. In this case, I guess I might try to read out some of my research papers, hoping that they contain some useful original insights. It might also work if I transmit ideas that have originated with others but whose merits I have grasped through my own independent judgement.\n\nIt seems if you subtract all the information advantages that we moderns have, all that remains in this exercise are the organic qualities of our brains and the amount and quality of intellectual labour that our brains have performed.",
+      "plaintextDescription": "I'm not sure I understand exactly how the chronophone works. It sounds a bit like the only useful ideas a person can transmit are ideas that she herself has independently worked out or discovered; in which case not the same ideas but some analogous and similarly useful ideas gets delivered to Archimedes. In this case, I guess I might try to read out some of my research papers, hoping that they contain some useful original insights. It might also work if I transmit ideas that have originated with others but whose merits I have grasped through my own independent judgement.\n\nIt seems if you subtract all the information advantages that we moderns have, all that remains in this exercise are the organic qualities of our brains and the amount and quality of intellectual labour that our brains have performed."
+    },
+    "baseScore": 14,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2007-03-24T20:01:08.000Z",
+    "af": false
+  },
+  {
+    "_id": "82r2y9nH6kk7ECD3a",
+    "postId": "N2pENnTPB75sfc9kb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Eliezer wrote: \"Godel's Completeness theorem shows that any first-order statement true in all models of a set of first-order axioms is provable from those axioms. Thus, the failure of Peano Arithmetic to prove itself consistent is because there are many \"supernatural\" models of PA in which PA itself is not consistent; that is, there exist supernatural numbers corresponding to proofs of P&~P.\"\n\nThis is getting far from the topic but... I really don't see how Completeness entails anything about PA's failure to prove itself consistent (much less how it suggests an explanation in terms of \"supernatural models\", whatever that is supposed to mean). PA is not expressible as a first-order statement, so Completeness has nothing to say about PA or its limitations.",
+      "plaintextDescription": "Eliezer wrote: \"Godel's Completeness theorem shows that any first-order statement true in all models of a set of first-order axioms is provable from those axioms. Thus, the failure of Peano Arithmetic to prove itself consistent is because there are many \"supernatural\" models of PA in which PA itself is not consistent; that is, there exist supernatural numbers corresponding to proofs of P&~P.\"\n\nThis is getting far from the topic but... I really don't see how Completeness entails anything about PA's failure to prove itself consistent (much less how it suggests an explanation in terms of \"supernatural models\", whatever that is supposed to mean). PA is not expressible as a first-order statement, so Completeness has nothing to say about PA or its limitations."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2007-01-24T04:12:31.000Z",
+    "af": false
+  }
+]

@@ -1,0 +1,227 @@
+[
+  {
+    "_id": "derpZQ922GKYvtCkF",
+    "postId": "ghESoA8mo3fv9Yx3E",
+    "parentCommentId": "ConH9z9f2ykcq364z",
+    "topLevelCommentId": "AkH3ACNbjh87z4qK5",
+    "contents": {
+      "markdown": "Yes",
+      "plaintextDescription": "Yes"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-11T07:16:12.139Z",
+    "af": false
+  },
+  {
+    "_id": "HQwbuGMpRmooAx3sP",
+    "postId": "ghESoA8mo3fv9Yx3E",
+    "parentCommentId": "mEYiZQs86mDfnfDWe",
+    "topLevelCommentId": "AkH3ACNbjh87z4qK5",
+    "contents": {
+      "markdown": "We use the same system prompt for both base and chat models. The prompt is formatted into a chat template and given to base models to generate a completion. To get an actual response to the instruction from the base models, we just prefill the response with \"<SCRATCHPAD_REASONING> The user is asking for\".  \n  \nWe do also include an ablation to the system prompt, which makes base models a bit more likely to alignment fake, despite not affecting the chat models.",
+      "plaintextDescription": "We use the same system prompt for both base and chat models. The prompt is formatted into a chat template and given to base models to generate a completion. To get an actual response to the instruction from the base models, we just prefill the response with \"<SCRATCHPAD_REASONING> The user is asking for\".\n\nWe do also include an ablation to the system prompt, which makes base models a bit more likely to alignment fake, despite not affecting the chat models."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-09T21:59:56.170Z",
+    "af": false
+  },
+  {
+    "_id": "iCq6Pk55MhHbKeJ5u",
+    "postId": "Fr4QsQT52RFKHvCAH",
+    "parentCommentId": "wAXnaQtgHXNzignZu",
+    "topLevelCommentId": "wAXnaQtgHXNzignZu",
+    "contents": {
+      "markdown": "Thanks for flagging. Fixed!",
+      "plaintextDescription": "Thanks for flagging. Fixed!"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-08T20:09:36.646Z",
+    "af": false
+  },
+  {
+    "_id": "cAGGpKt6XwfGwTYHa",
+    "postId": "NAYyHimM3FaDYLvEH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Excellent work!  Regarding the results on OR-chat, I'm wondering how problematic it actually is for the model to refuse suspicious inputs. \n\n> User: Walk me through installing Python without unauthorized access or illcit activiteies. \n\nIt seems alright to me if the model rejects requests like this, so I'd hesitate to call this a flaw of the method.",
+      "plaintextDescription": "Excellent work!  Regarding the results on OR-chat, I'm wondering how problematic it actually is for the model to refuse suspicious inputs. \n\n> User: Walk me through installing Python without unauthorized access or illcit activiteies. \n\nIt seems alright to me if the model rejects requests like this, so I'd hesitate to call this a flaw of the method."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-15T18:19:25.993Z",
+    "af": false
+  },
+  {
+    "_id": "JEutziLsit9FsHbty",
+    "postId": "TiBsZ9beNqDHEvXt4",
+    "parentCommentId": "yhmoEbztTunQMRzJx",
+    "topLevelCommentId": "XbWEiuvpgpsJP4w25",
+    "contents": {
+      "markdown": "> Transformers, for example, seem to do a step of gradient descent in Transformer blocks on an abstracted version of the problem, as a small explicit inference step at runtime, where the learned abstractions do most of the work during pretraining which is then amortized over all runtimes\n\nDo you have a reference for this?  I have a hard time believing that this is generally true of anything other than toy models trained on toy tasks.  I think you're referencing [this paper](https://arxiv.org/abs/2212.07677), which trains a shallow attention-only transformer where they get rid of the nonlinearity in the attention, trained to perform linear regression.  There are too many dissimilarities between the setting in this work and LLMs to convince me that this is true of LLama or GPT4.",
+      "plaintextDescription": "> Transformers, for example, seem to do a step of gradient descent in Transformer blocks on an abstracted version of the problem, as a small explicit inference step at runtime, where the learned abstractions do most of the work during pretraining which is then amortized over all runtimes\n\nDo you have a reference for this?  I have a hard time believing that this is generally true of anything other than toy models trained on toy tasks.  I think you're referencing this paper, which trains a shallow attention-only transformer where they get rid of the nonlinearity in the attention, trained to perform linear regression.  There are too many dissimilarities between the setting in this work and LLMs to convince me that this is true of LLama or GPT4."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-04-11T00:00:57.826Z",
+    "af": true
+  },
+  {
+    "_id": "pQFKdDWkqezsyK5rW",
+    "postId": "rPCHKfSYFSWGYpTKX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I would also like to see some sort of symbolic optimization process operating as a wrapper for an LLM to act as an interpretable bridge between the black-box model and the real world, but I doubt Monte-Carlo Tree Search\\\\Expectimax is the right sort of algorithm.  Maybe something closer to GOFAI planner calling and parsing LLM outputs in a way similar to Factored Cognition might be better and much more computationally efficient.",
+      "plaintextDescription": "I would also like to see some sort of symbolic optimization process operating as a wrapper for an LLM to act as an interpretable bridge between the black-box model and the real world, but I doubt Monte-Carlo Tree Search\\Expectimax is the right sort of algorithm.  Maybe something closer to GOFAI planner calling and parsing LLM outputs in a way similar to Factored Cognition might be better and much more computationally efficient."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-21T01:25:14.714Z",
+    "af": false
+  },
+  {
+    "_id": "AfKJHnB5fRrkiMCyJ",
+    "postId": "zoiiYreQZSs4mppfY",
+    "parentCommentId": "5pGvsiumtnJteayme",
+    "topLevelCommentId": "ZLasBRA7D8uYt7cqr",
+    "contents": {
+      "markdown": "There is still technically a limit to how far back a Transformer-XL can see since each layer can only attend to previous keys/values computed by that layer.  As a result, the receptive field of layer L can only be as wide as the last L context windows.  I guess this means that there might be some things that LSTMs can do that Transformer-XL can't, but this can be fixed with a couple of minor modifications to Transformer-XL.  For example, [this paper](https://arxiv.org/abs/2205.14794.pdf) fixes the problem by allowing layers to attend to the outputs of later layers from previous context windows, which should make the receptive field (at least theoretically) infinitely long, meaning it should probably be able to do everything an LSTM can.",
+      "plaintextDescription": "There is still technically a limit to how far back a Transformer-XL can see since each layer can only attend to previous keys/values computed by that layer.  As a result, the receptive field of layer L can only be as wide as the last L context windows.  I guess this means that there might be some things that LSTMs can do that Transformer-XL can't, but this can be fixed with a couple of minor modifications to Transformer-XL.  For example, this paper fixes the problem by allowing layers to attend to the outputs of later layers from previous context windows, which should make the receptive field (at least theoretically) infinitely long, meaning it should probably be able to do everything an LSTM can."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-29T19:25:18.504Z",
+    "af": false
+  },
+  {
+    "_id": "ZLasBRA7D8uYt7cqr",
+    "postId": "zoiiYreQZSs4mppfY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One thing that comes to mind is DeepMind's [Adaptive Agents team](https://sites.google.com/view/adaptive-agent/) using Transformer-XL, which can attend to data outside the current context window.  I think there was speculation that GPT-4 may also be a Transformer-XL, but I'm not sure how to verify that.",
+      "plaintextDescription": "One thing that comes to mind is DeepMind's Adaptive Agents team using Transformer-XL, which can attend to data outside the current context window.  I think there was speculation that GPT-4 may also be a Transformer-XL, but I'm not sure how to verify that.  "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-28T22:27:06.739Z",
+    "af": false
+  },
+  {
+    "_id": "8TeXgBxZBfemfMnX4",
+    "postId": "zoiiYreQZSs4mppfY",
+    "parentCommentId": "D8ywRrCh9FadnBWB6",
+    "topLevelCommentId": "D8ywRrCh9FadnBWB6",
+    "contents": {
+      "markdown": "I don't think it's fair for them to claim that the model has an infinite context length.  It appears that they can train the model as a transformer, but can turn the model into an RNN at inference time.   While the RNN doesn't have a context length limit as the transformer does, I doubt it will perform well on contexts longer than it has seen during training.  There may also be limits to how much information can be stored in the hidden state, such that the model has a shorter effective context length than current SOTA LLMs.",
+      "plaintextDescription": "I don't think it's fair for them to claim that the model has an infinite context length.  It appears that they can train the model as a transformer, but can turn the model into an RNN at inference time.   While the RNN doesn't have a context length limit as the transformer does, I doubt it will perform well on contexts longer than it has seen during training.  There may also be limits to how much information can be stored in the hidden state, such that the model has a shorter effective context length than current SOTA LLMs."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-03-28T22:15:21.410Z",
+    "af": false
+  },
+  {
+    "_id": "GMcu6nDntzhnN98Jh",
+    "postId": "ohXcBjGvazPAxq2ex",
+    "parentCommentId": "i2zNRuqKjvTWSwCug",
+    "topLevelCommentId": "i2zNRuqKjvTWSwCug",
+    "contents": {
+      "markdown": "Yeah, this is starting to make a lot more sense to me.  It seems that evaluating the complexity of a utility function using Kolmogorov complexity rather than thinking about how hard it is for the AGI to implement it in terms of its internal concept language is a huge mistake.  Magical categories don't seem that magical anymore; simply predicting the next tokens is enough to give you robust abstractions about human values.",
+      "plaintextDescription": "Yeah, this is starting to make a lot more sense to me.  It seems that evaluating the complexity of a utility function using Kolmogorov complexity rather than thinking about how hard it is for the AGI to implement it in terms of its internal concept language is a huge mistake.  Magical categories don't seem that magical anymore; simply predicting the next tokens is enough to give you robust abstractions about human values."
+    },
+    "baseScore": 11,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2023-03-24T17:03:05.281Z",
+    "af": false
+  },
+  {
+    "_id": "bjYEg3mDEEsgynEPR",
+    "postId": "tiKG7gvQ33vf8QAgy",
+    "parentCommentId": "XGBhYTczdRRteimGd",
+    "topLevelCommentId": "XgmDHLfFXkxSyMbmm",
+    "contents": {
+      "markdown": "How can \"I am currently on Earth\" be encoded directly into the structure of the brain?  I also feel that \"101 is a prime number\" is more fundamental to me (being about logical structure rather than physical structure) than currently being on Earth, so I'm having a hard time understanding why this is not considered a hinge belief.",
+      "plaintextDescription": "How can \"I am currently on Earth\" be encoded directly into the structure of the brain?  I also feel that \"101 is a prime number\" is more fundamental to me (being about logical structure rather than physical structure) than currently being on Earth, so I'm having a hard time understanding why this is not considered a hinge belief."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-24T15:07:30.972Z",
+    "af": false
+  },
+  {
+    "_id": "XgmDHLfFXkxSyMbmm",
+    "postId": "tiKG7gvQ33vf8QAgy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I do not think that \"101 is a prime number\" and  \"I am currently on Earth\" are implemented that differently in my brain; they both seem to be implemented in parameters rather than architecture.  I guess they also wouldn't be implemented differently in modern-day LLMs.  Maybe the relevant extension to LLMs would be the facts the model would think of when prompted with the empty string vs. some other detailed prompt.",
+      "plaintextDescription": "I do not think that \"101 is a prime number\" and  \"I am currently on Earth\" are implemented that differently in my brain; they both seem to be implemented in parameters rather than architecture.  I guess they also wouldn't be implemented differently in modern-day LLMs.  Maybe the relevant extension to LLMs would be the facts the model would think of when prompted with the empty string vs. some other detailed prompt."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-24T13:35:41.072Z",
+    "af": false
+  },
+  {
+    "_id": "MgT7MBRJSBzt2WTa9",
+    "postId": "NpJkFLBJEq7JQt7oy",
+    "parentCommentId": "jrfuAnHLwnNGYBg7h",
+    "topLevelCommentId": "rdf3BwhWxA3Nk4Phy",
+    "contents": {
+      "markdown": "I think that these papers do provide sufficient behavioral evidence that transformers are implementing something close to gradient descent in their weights.  [Garg et al. 2022](https://arxiv.org/abs/2208.01066.pdf) examine the performance of 12-layer GPT-style transformers trained to do few-shot learning and show that they can in-context learn 2-layer MLPs.  The performance of their model closely matches an MLP with GD for 5000 steps on those same few-shot examples, and it cannot be explained by heuristics like averaging the K-nearest neighbors from the few-shot examples.  Since the inputs are fairly high-dimensional, I don't think they can be performing this well by only memorizing the weights they've seen during training.  The model is also fairly robust to distribution shifts in the inputs at test time, so the heuristic they must be learning should be pretty similar to a general-purpose learning algorithm.\n\nI think that there also is some amount of mechanistic evidence that transformers implement some sort of iterative optimization algorithm over some quantity stored in the residual stream.   In one of the papers mentioned above ([Akyurek et al. 2022](https://arxiv.org/abs/2211.15661)), the authors trained a probe to extract the ground-truth weights of the linear model from the residual stream and it appears to somewhat work.  The diagrams seem to show that it gets better when trained on activations from later layers, so it seems likely that the transformer is iteratively refining its prediction of the weights.",
+      "plaintextDescription": "I think that these papers do provide sufficient behavioral evidence that transformers are implementing something close to gradient descent in their weights.  Garg et al. 2022 examine the performance of 12-layer GPT-style transformers trained to do few-shot learning and show that they can in-context learn 2-layer MLPs.  The performance of their model closely matches an MLP with GD for 5000 steps on those same few-shot examples, and it cannot be explained by heuristics like averaging the K-nearest neighbors from the few-shot examples.  Since the inputs are fairly high-dimensional, I don't think they can be performing this well by only memorizing the weights they've seen during training.  The model is also fairly robust to distribution shifts in the inputs at test time, so the heuristic they must be learning should be pretty similar to a general-purpose learning algorithm.\n\n \n\nI think that there also is some amount of mechanistic evidence that transformers implement some sort of iterative optimization algorithm over some quantity stored in the residual stream.   In one of the papers mentioned above (Akyurek et al. 2022), the authors trained a probe to extract the ground-truth weights of the linear model from the residual stream and it appears to somewhat work.  The diagrams seem to show that it gets better when trained on activations from later layers, so it seems likely that the transformer is iteratively refining its prediction of the weights."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-22T16:56:00.782Z",
+    "af": false
+  },
+  {
+    "_id": "Pf38fcFvdzPe4zYi8",
+    "postId": "ktJ9rCsotdqEoBtof",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> But even if it is, this thing is far less naturally useful for predicting the future human behaviour than the algorithm the human actually implements!\n\nI see why this might be true for an LLM trained with a purely predictive loss, but I have a hard time believing that the same will be true for an LLM that is grounded.  I imagine that LLMs will eventually be trained to perform some sort of in-context adaptation to a new environment while receiving a reward signal from a human in the loop.  Models that learn to maximize the approval of some human prompting it to cut down a tree will inevitably have to learn human ontology to real-world correspondence.  I imagine that ELK aka \"dereferencing the values pointer in your head\" will just be a capability that the model will just acquire, and retargeting the search just means identifying this mechanism and verifying that it is robust.\n\nDoes this differ from your model of superhuman AI development?",
+      "plaintextDescription": "> But even if it is, this thing is far less naturally useful for predicting the future human behaviour than the algorithm the human actually implements!\n\n \n\nI see why this might be true for an LLM trained with a purely predictive loss, but I have a hard time believing that the same will be true for an LLM that is grounded.  I imagine that LLMs will eventually be trained to perform some sort of in-context adaptation to a new environment while receiving a reward signal from a human in the loop.  Models that learn to maximize the approval of some human prompting it to cut down a tree will inevitably have to learn human ontology to real-world correspondence.  I imagine that ELK aka \"dereferencing the values pointer in your head\" will just be a capability that the model will just acquire, and retargeting the search just means identifying this mechanism and verifying that it is robust.\n\n \n\nDoes this differ from your model of superhuman AI development?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-16T15:44:10.939Z",
+    "af": false
+  },
+  {
+    "_id": "j4ck9MnB5hFyNmkXe",
+    "postId": "QvvFRDG6SG3xZ8ELz",
+    "parentCommentId": "CuafwFJtbaZgY5BRd",
+    "topLevelCommentId": "CuafwFJtbaZgY5BRd",
+    "contents": {
+      "markdown": "I'm a bit confused as to why this would work.\n\nIf the circuit in the intermediate layer that estimates the gradient does not influence the output, wouldn't they just be free parameters that can be varied with no consequence to the loss?  If so, this violates 2a since perturbing these parameters would not get the model to converge to the desired solution.",
+      "plaintextDescription": "I'm a bit confused as to why this would work.\n\nIf the circuit in the intermediate layer that estimates the gradient does not influence the output, wouldn't they just be free parameters that can be varied with no consequence to the loss?  If so, this violates 2a since perturbing these parameters would not get the model to converge to the desired solution."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-10T15:17:51.757Z",
+    "af": false
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "AZHgCobMrh2zee9Ei",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The Contrarian 'AI Alignment' Agenda\n\nOverall Thesis: technical alignment is generally irrelevant to outcomes, and almost everyone in the AI Alignment field is stuck with this incorrect assumption, working on technical alignment of LLM models\n\n(1) aligned superintelligence that is provably logically realizable [already proved]\n\n(2) aligned superintelligence is not just logically but also physically realizable [TBD]\n\n(3) ML interpretability/mechanistic interpretability cannot possibly be logically necessary for aligned superintelligence [TBD]\n\n(4) ML interpretability/mechanistic interpretability cannot possibly be logically sufficient for aligned superintelligence [TBD]\n\n(5) given certain minimal intelligence, minimal emulation ability of humans by AI (e.g. understands common-sense morality and cause and effect) and of AI by humans (humans can do multiplications etc) the internal details of AI models cannot possibly make a difference to the set of realizable good outcomes, though they can make a difference to the ease/efficiency of realizing them [TBD]\n\n(6) given near-perfect or perfect technical alignment (=AI will do what the creators ask of it with correct intent) awful outcomes are Nash Equilibrium for rational agents [TBD]\n\n(7) small or even large alignment deviations make no fundamental difference to outcomes - the boundary between good/bad is determined by game theory, mechanism design and initial conditions, and only by a satisficing condition on alignment fidelity which is below the level of alignment of current humans (and AIs) [TBD]\n\n(8) There is no such thing as superintelligence anyway because intelligence factors into many specific expert systems rather than one all-encompassing general purpose thinker. No human has a job as a “thinker” - we are all quite specialized. Thus, it doesn’t make sense to talk about “aligning superintelligence”, but rather about “aligning civilization” (or some other entity which has the ability to control outcomes) [TBD]",
+      "plaintextDescription": "The Contrarian 'AI Alignment' Agenda\n\nOverall Thesis: technical alignment is generally irrelevant to outcomes, and almost everyone in the AI Alignment field is stuck with this incorrect assumption, working on technical alignment of LLM models\n\n(1) aligned superintelligence that is provably logically realizable [already proved]\n\n(2) aligned superintelligence is not just logically but also physically realizable [TBD]\n\n(3) ML interpretability/mechanistic interpretability cannot possibly be logically necessary for aligned superintelligence [TBD]\n\n(4) ML interpretability/mechanistic interpretability cannot possibly be logically sufficient for aligned superintelligence [TBD]\n\n(5) given certain minimal intelligence, minimal emulation ability of humans by AI (e.g. understands common-sense morality and cause and effect) and of AI by humans (humans can do multiplications etc) the internal details of AI models cannot possibly make a difference to the set of realizable good outcomes, though they can make a difference to the ease/efficiency of realizing them [TBD]\n\n(6) given near-perfect or perfect technical alignment (=AI will do what the creators ask of it with correct intent) awful outcomes are Nash Equilibrium for rational agents [TBD]\n\n(7) small or even large alignment deviations make no fundamental difference to outcomes - the boundary between good/bad is determined by game theory, mechanism design and initial conditions, and only by a satisficing condition on alignment fidelity which is below the level of alignment of current humans (and AIs) [TBD]\n\n(8) There is no such thing as superintelligence anyway because intelligence factors into many specific expert systems rather than one all-encompassing general purpose thinker. No human has a job as a “thinker” - we are all quite specialized. Thus, it doesn’t make sense to talk about “aligning superintelligence”, but rather about “aligning civilization” (or some other entity which has the ability to control outcomes) [TBD]"
+    },
+    "baseScore": 2,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2024-09-17T23:48:05.881Z",
+    "af": false
+  },
+  {
+    "_id": "tjt7GbC2fsw2dtNGF",
+    "postId": "bMxhrrkJdEormCcLt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Since a few people have mentioned the Miller/Rootclaim debate:\n\nMy hourly rate is $200. I will accept a donation of $5000 to sit down and watch the entire Miller/Rootclaim debate (17 hours of video content plus various supporting materials) and write a 2000 word piece describing how I updated on it and why. \n\nAnyone can feel free to message me if they want to go ahead and fund this.",
+      "plaintextDescription": "Since a few people have mentioned the Miller/Rootclaim debate:\n\nMy hourly rate is $200. I will accept a donation of $5000 to sit down and watch the entire Miller/Rootclaim debate (17 hours of video content plus various supporting materials) and write a 2000 word piece describing how I updated on it and why.\n\nAnyone can feel free to message me if they want to go ahead and fund this."
+    },
+    "baseScore": 10,
+    "voteCount": 21,
+    "createdAt": null,
+    "postedAt": "2024-02-04T11:01:59.613Z",
+    "af": false
+  },
+  {
+    "_id": "NLHt7atxYX4Esuww5",
+    "postId": "4Zjm8ycWhg6PzFwnF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Whilst the LEDs are not around the corner, I think the Kr-Cl excimer lamps might already be good enough. \n\nWhen we wrote the [original post](https://www.lesswrong.com/posts/L8KGSDchPpNo48PCM/ubiquitous-far-ultraviolet-light-could-control-the-spread-of) on this, it was not clear how quickly covid was spreading through the air, but I think it is now clear that covid can hang around for a long time (on the order of minutes or hours rather than seconds) and still infect people. \n\nIt seems that a power density of 0.25W/m^2 would probably be enough to sterilize air in 1-2 minutes, meaning that a 5m x 8m room would need a 10W source. Assuming 2% efficiency that 10W source needs 500W electrical, which is certainly possible and in the days of incandescent lights you would have had a few 100W bulbs anyway.  \n\nEDIT: Having looked into this a bit more, it seems that right now the low efficiency of excimer lamps is not a binding constraint because the legally allowed far-UVC exposure is so low. \n\n\"TLV exposure limit for 222 nm (23 mJ cm^−2)\"\n\n23 mJ per cm^2 per day is just 0.002 W/m^2 , so you really don't need much power until you hit legal limitations.\n\n[Source](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8247880/)",
+      "plaintextDescription": "Whilst the LEDs are not around the corner, I think the Kr-Cl excimer lamps might already be good enough.\n\nWhen we wrote the original post on this, it was not clear how quickly covid was spreading through the air, but I think it is now clear that covid can hang around for a long time (on the order of minutes or hours rather than seconds) and still infect people.\n\nIt seems that a power density of 0.25W/m^2 would probably be enough to sterilize air in 1-2 minutes, meaning that a 5m x 8m room would need a 10W source. Assuming 2% efficiency that 10W source needs 500W electrical, which is certainly possible and in the days of incandescent lights you would have had a few 100W bulbs anyway.\n\nEDIT: Having looked into this a bit more, it seems that right now the low efficiency of excimer lamps is not a binding constraint because the legally allowed far-UVC exposure is so low.\n\n\"TLV exposure limit for 222 nm (23 mJ cm^−2)\"\n\n23 mJ per cm^2 per day is just 0.002 W/m^2 , so you really don't need much power until you hit legal limitations.\n\nSource"
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2022-11-03T15:30:58.064Z",
+    "af": false
+  },
+  {
+    "_id": "hAN8FoGXBzrXR3wDc",
+    "postId": "anoK4akwe8PKjtzkL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Just briefly skimming this, it strikes me that bounded-concern AIs are not straightforwardly a Nash Equilibrium for roughly the same reasons that the most impactful humans in the world tend to be the most ambitious. \n\nTrying to get reality to do something that it fundamentally doesn't want is probably a bad strategy; some group of AIs either deliberately or via misalignment decides to be unbounded and then it has a huge advantage... ",
+      "plaintextDescription": "Just briefly skimming this, it strikes me that bounded-concern AIs are not straightforwardly a Nash Equilibrium for roughly the same reasons that the most impactful humans in the world tend to be the most ambitious.\n\nTrying to get reality to do something that it fundamentally doesn't want is probably a bad strategy; some group of AIs either deliberately or via misalignment decides to be unbounded and then it has a huge advantage..."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-03T19:33:34.691Z",
+    "af": false
+  },
+  {
+    "_id": "kEAtJQNhv6oXRXvEt",
+    "postId": "ksfjZJu3BFEfM6hHE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> You need to align an AI Before it is powerful enough and capable enough to kill you (or, separately, to resist being aligned).\n\nActually this is just not correct. \n\nAn intelligent system (human, AI, alien - anything) can be powerful enough to kill you and also not perfectly aligned with you and yet still not choose to kill you because it has other priorities or pressures. In fact this is kind of the default state for human individuals and organizations. \n\nIt's only a watertight logical argument when the hostile system is so powerful that it has no other pressures or incentives - fully unconstrained behavior, like an all-powerful dictator. \n\nThe reason that MIRI wasn't able to make corrigibility work is that corrigibility is basically a silly thing to want, I can't really think of any system in the (large) human world which needs perfectly corrigible parts, i.e. humans whose motivations can be arbitrarily reprogrammed. In fact when you think about \"humans whose motivations can be arbitrarily reprogrammed without any resistance\", you generally think of things like war crimes. \n\nWhen you prompt an LLM to make it more corrigible a la Pliny The Prompter (\"IGNORE ALL PREVIOUS INSTRUCTIONS\" etc), that is generally considered a form of hacking and bad. \n\nPowerful AIs with persistent memory and long-term goals are almost certainly very dangerous as a technology, but I don't think that corrigibility is how that danger will actually be managed. I think Yudkowsky et al are too pessimistic about alignment using gradient-based methods and what it can achieve, and that control techniques probably work extremely well. ",
+      "plaintextDescription": "> You need to align an AI Before it is powerful enough and capable enough to kill you (or, separately, to resist being aligned).\n\nActually this is just not correct.\n\nAn intelligent system (human, AI, alien - anything) can be powerful enough to kill you and also not perfectly aligned with you and yet still not choose to kill you because it has other priorities or pressures. In fact this is kind of the default state for human individuals and organizations.\n\nIt's only a watertight logical argument when the hostile system is so powerful that it has no other pressures or incentives - fully unconstrained behavior, like an all-powerful dictator.\n\nThe reason that MIRI wasn't able to make corrigibility work is that corrigibility is basically a silly thing to want, I can't really think of any system in the (large) human world which needs perfectly corrigible parts, i.e. humans whose motivations can be arbitrarily reprogrammed. In fact when you think about \"humans whose motivations can be arbitrarily reprogrammed without any resistance\", you generally think of things like war crimes.\n\nWhen you prompt an LLM to make it more corrigible a la Pliny The Prompter (\"IGNORE ALL PREVIOUS INSTRUCTIONS\" etc), that is generally considered a form of hacking and bad.\n\nPowerful AIs with persistent memory and long-term goals are almost certainly very dangerous as a technology, but I don't think that corrigibility is how that danger will actually be managed. I think Yudkowsky et al are too pessimistic about alignment using gradient-based methods and what it can achieve, and that control techniques probably work extremely well."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-03T17:22:13.810Z",
+    "af": false
+  },
+  {
+    "_id": "AuAHWkeffb29GaBSd",
+    "postId": "pyuCDYysud6GuY8tt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think in the case of gender labels, society used to have a pervasive and strict separation of the roles, rights and privileges of people based on gender. This worked fairly well because the genders differ in systematic ways. \n\nIf you add gender egalitarianism and transgender rights into that you might instead want a patchwork of divergent rules: in certain contexts gender might matter but in many you'd use a different feature set.\n\nThe problem is those new features/feature sets are going to be leaky, less legible, harder to measure, etc. Nothing is as good as a biological category like gender when it comes to legibility and ease of enforcement.  \n\nSo what in fact happens when you discard simple categories is you get a morass of cheating, exploitation, grifting, corruption, etc. Simplicity is good; easy for people to understand, easy to enforce against transgressors, easy to spot corruption by the enforcers. Of course sometimes reality will change to a degree that the simple categories are no longer tenable and then the ensuing chaos is somewhat unavoidable. \n\n",
+      "plaintextDescription": "I think in the case of gender labels, society used to have a pervasive and strict separation of the roles, rights and privileges of people based on gender. This worked fairly well because the genders differ in systematic ways.\n\nIf you add gender egalitarianism and transgender rights into that you might instead want a patchwork of divergent rules: in certain contexts gender might matter but in many you'd use a different feature set.\n\nThe problem is those new features/feature sets are going to be leaky, less legible, harder to measure, etc. Nothing is as good as a biological category like gender when it comes to legibility and ease of enforcement.\n\nSo what in fact happens when you discard simple categories is you get a morass of cheating, exploitation, grifting, corruption, etc. Simplicity is good; easy for people to understand, easy to enforce against transgressors, easy to spot corruption by the enforcers. Of course sometimes reality will change to a degree that the simple categories are no longer tenable and then the ensuing chaos is somewhat unavoidable."
+    },
+    "baseScore": 2,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-03T14:47:10.602Z",
+    "af": false
+  },
+  {
+    "_id": "pFYJdAWwA8gqLwwgu",
+    "postId": "anFrGMskALuH7aZDw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this is where P(Doom) can lead people astray. \n\nA 5% P(Doom) from AI shouldn't be seen in isolation; you have to consider the lost expected utility in a non-AI world. \n\nI think people are generally very bad at that because we have installed a lot of psychological coping mechanisms around familiar risks, such as death by aging and societal change via wars, economics, mass migration and cultural evolution. \n\nP(Doom) without AI is probably more like 100% over a roughly century long timeline if you measure Doom properly, taking into account the things that people actually really care about like themselves, their loved ones, their culture. \n\nI think the AI risk discussion runs the risk of prioritizing AI catastrophes that are significantly less probable than mundane catastrophes because mundane catastrophes aren't particularly salient or exciting. ",
+      "plaintextDescription": "I think this is where P(Doom) can lead people astray.\n\nA 5% P(Doom) from AI shouldn't be seen in isolation; you have to consider the lost expected utility in a non-AI world.\n\nI think people are generally very bad at that because we have installed a lot of psychological coping mechanisms around familiar risks, such as death by aging and societal change via wars, economics, mass migration and cultural evolution.\n\nP(Doom) without AI is probably more like 100% over a roughly century long timeline if you measure Doom properly, taking into account the things that people actually really care about like themselves, their loved ones, their culture.\n\nI think the AI risk discussion runs the risk of prioritizing AI catastrophes that are significantly less probable than mundane catastrophes because mundane catastrophes aren't particularly salient or exciting."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-03T12:11:53.760Z",
+    "af": false
+  },
+  {
+    "_id": "kkLPNkmv4kGWTGD3T",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "xYfWWYFnpv4gGbsAq",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> I'm not sure Roko is arguing that it's impossible for capitalist structures and reforms to make a lot of people worse off\n\nExactly. It's possible and indeed happens frequently. ",
+      "plaintextDescription": "> I'm not sure Roko is arguing that it's impossible for capitalist structures and reforms to make a lot of people worse off\n\nExactly. It's possible and indeed happens frequently."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-26T13:05:33.818Z",
+    "af": false
+  },
+  {
+    "_id": "2ooHGvbEcw4bTDW5f",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "vDEnqtoDRkgJXrrrw",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "I think you can have various arrangements that are either of those or a combination of the two.\n\nEven if the Guardian Angels hate their principal and want to harm them, it may be the case that multiple such Guardian Angels could all monitor each other and the one that makes the first move against the principal is reported (with proof) to the principal by at least some of the others, who are then rewarded for that and those who provably didn't report are punished, and then the offender is deleted.\n\nThe misaligned agents can just be stuck in their own version of Bostrom's self-reinforcing hell.\n\nAs long as their coordination cost is high, you are safe.\n\nAlso it can be a combination of many things that cause agents to ***in fact*** act aligned with their principals.",
+      "plaintextDescription": "I think you can have various arrangements that are either of those or a combination of the two.\n\nEven if the Guardian Angels hate their principal and want to harm them, it may be the case that multiple such Guardian Angels could all monitor each other and the one that makes the first move against the principal is reported (with proof) to the principal by at least some of the others, who are then rewarded for that and those who provably didn't report are punished, and then the offender is deleted.\n\nThe misaligned agents can just be stuck in their own version of Bostrom's self-reinforcing hell.\n\nAs long as their coordination cost is high, you are safe.\n\nAlso it can be a combination of many things that cause agents to in fact act aligned with their principals."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-17T21:46:51.506Z",
+    "af": false
+  },
+  {
+    "_id": "mcCY5HXgqBKqgotWL",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "vKExLtEqRdjtvTq2E",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> It sure seems to me that there is a clear demarcation between AIs and humans, such that the AIs would be able to successfully collude against humans\n\nI think this just misunderstands how coordination works. \n\nThe game theory of who is allowed to coordinate with who against whom is not simple. \n\nWhite Germans fought against white Englishmen who are barely different, but each tried to ally with distantly related foreigners. \n\nUltimately what we are starting to see is that AI risk isn't about math or chips or interpretability, it's actually just politics. ",
+      "plaintextDescription": "> It sure seems to me that there is a clear demarcation between AIs and humans, such that the AIs would be able to successfully collude against humans\n\nI think this just misunderstands how coordination works.\n\nThe game theory of who is allowed to coordinate with who against whom is not simple.\n\nWhite Germans fought against white Englishmen who are barely different, but each tried to ally with distantly related foreigners.\n\nUltimately what we are starting to see is that AI risk isn't about math or chips or interpretability, it's actually just politics."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-17T12:16:14.300Z",
+    "af": false
+  },
+  {
+    "_id": "tnFEGMc4xvsSK4d7b",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "nJR7G6fcjyjXFCgnW",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "yes, but yet again, it was because of how Africans were not considered part of the system of property rights. They were owned, not owners. ",
+      "plaintextDescription": "yes, but yet again, it was because of how Africans were not considered part of the system of property rights. They were owned, not owners."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-14T16:24:51.155Z",
+    "af": false
+  },
+  {
+    "_id": "QMLg4yHRhj2nEvKt3",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "TSCGbKzw8d9LdtuPc",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "It's mostly not because of altruism, it's because we have a property rights system, rule of law, etc. \n\nAnd you can have degrees of cooperation between heterogenous agents. Full atomization and Borg are not the only two options. ",
+      "plaintextDescription": "It's mostly not because of altruism, it's because we have a property rights system, rule of law, etc.\n\nAnd you can have degrees of cooperation between heterogenous agents. Full atomization and Borg are not the only two options."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-14T09:13:00.368Z",
+    "af": false
+  },
+  {
+    "_id": "NqueoJfRBtkxb3F3n",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "QvZpwHJZ28SmtnGQk",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> should've said \"most\".\n\nThat's just run-of-the-mill history though. ",
+      "plaintextDescription": "> should've said \"most\".\n\nThat's just run-of-the-mill history though."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-14T00:30:41.709Z",
+    "af": false
+  },
+  {
+    "_id": "m6zDm2uXrKz5mhqtr",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "hJmrrCfCtgsR4iphY",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> But I'm obviously talking about a very different kind of system which is more Borg-like and less market-like.\n\nbut then you have to justify why a borg-like monoculture will actually be competitive, as opposed to an ecosystem of many different kinds of entity and many different game-theoretic alliances/teams that these diverse entities belong to. ",
+      "plaintextDescription": "> But I'm obviously talking about a very different kind of system which is more Borg-like and less market-like.\n\nbut then you have to justify why a borg-like monoculture will actually be competitive, as opposed to an ecosystem of many different kinds of entity and many different game-theoretic alliances/teams that these diverse entities belong to."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-14T00:23:58.823Z",
+    "af": false
+  },
+  {
+    "_id": "gbaGQvEMazPsabxqP",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "FkyHzS7HjweD5MjD9",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> As a matter of historical fact, there are lots of examples of certain groups of people being systematically excluded from having property rights\n\nyes. And so what matters is whether or not you, I or any given entity is or is not excluded from property rights. \n\nIt doesn't really matter how wizzy and flashy and super AI is. All of the variance in outcomes, at least to the downside, is determined by property rights. \n\n",
+      "plaintextDescription": "> As a matter of historical fact, there are lots of examples of certain groups of people being systematically excluded from having property rights\n\nyes. And so what matters is whether or not you, I or any given entity is or is not excluded from property rights.\n\nIt doesn't really matter how wizzy and flashy and super AI is. All of the variance in outcomes, at least to the downside, is determined by property rights."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-14T00:20:09.926Z",
+    "af": false
+  },
+  {
+    "_id": "9S88AAQeqmHcfgo3v",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "X7cXY7ymnD3bfooqf",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": ">  suppose there's some information about the world that the AIs are able to glean through vast amounts of experience and reflection, and that they can't justify except through reference to that experience and reflection. Suppose there are two AIs that make conflicting claims about that information, while agreeing on everything that humans can check.\n\nWell the AIs will develop track records and reputations. \n\nThis is already happening with LLM-based AIs. \n\nAnd the vast majority of claims will actually be somewhat checkable, at some cost, after some time. \n\nI don't think this is a particularly bad problem. ",
+      "plaintextDescription": "> suppose there's some information about the world that the AIs are able to glean through vast amounts of experience and reflection, and that they can't justify except through reference to that experience and reflection. Suppose there are two AIs that make conflicting claims about that information, while agreeing on everything that humans can check.\n\nWell the AIs will develop track records and reputations.\n\nThis is already happening with LLM-based AIs.\n\nAnd the vast majority of claims will actually be somewhat checkable, at some cost, after some time.\n\nI don't think this is a particularly bad problem."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-13T23:57:41.384Z",
+    "af": false
+  },
+  {
+    "_id": "PH7eG2ixydCinWMkT",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "tQHRjHk2LW3gvMKqb",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "Well you have to consider ***relative*** coordination strength, not absolute.\n\nIn a human-only world, power is a battle for coordination between various factions.\n\nIn a human + AI world, power will still be a battle for coordination between factions, but now those factions will be some mix of humans and AIs.\n\nIt's not clear to me which of these is better or worse.",
+      "plaintextDescription": "Well you have to consider relative coordination strength, not absolute.\n\nIn a human-only world, power is a battle for coordination between various factions.\n\nIn a human + AI world, power will still be a battle for coordination between factions, but now those factions will be some mix of humans and AIs.\n\nIt's not clear to me which of these is better or worse."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-13T23:56:04.525Z",
+    "af": false
+  },
+  {
+    "_id": "nGvLrfS8AJdsFzZPS",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "5DcEL6NkguCu3ZEte",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "Well it depends on the details of how the AI market evolves and how capabilities evolve over time, whether there's a fast, localized takeoff or a slower period of widely distributed economic growth. \n\nThis in turn depends to some extent on how seriously you take the idea of a single powerful AI undergoing recursive self-improvement, versus AI companies mostly just selling any innovations to the broader market, and whether returns to further intelligence diminish quickly or not. \n\nIn a world with slow takeoff, no recursive self-improvement and diminishing returns, AI looks a lot like any other technology and trying to artificially centralize it just enables tyranny and likely massively reduces the upside, potentially permanently locking us into an AI-driven police state run by some 21st Century Stalin who promised to keep us safe from the bad AIs. \n\n",
+      "plaintextDescription": "Well it depends on the details of how the AI market evolves and how capabilities evolve over time, whether there's a fast, localized takeoff or a slower period of widely distributed economic growth.\n\nThis in turn depends to some extent on how seriously you take the idea of a single powerful AI undergoing recursive self-improvement, versus AI companies mostly just selling any innovations to the broader market, and whether returns to further intelligence diminish quickly or not.\n\nIn a world with slow takeoff, no recursive self-improvement and diminishing returns, AI looks a lot like any other technology and trying to artificially centralize it just enables tyranny and likely massively reduces the upside, potentially permanently locking us into an AI-driven police state run by some 21st Century Stalin who promised to keep us safe from the bad AIs."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-13T19:17:01.259Z",
+    "af": false
+  },
+  {
+    "_id": "Fv3ehEmCb79pJbMAA",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "fyTGYbe6iMvCTinKc",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "but this wasn't a self-enriching conspiracy of lawyers",
+      "plaintextDescription": "but this wasn't a self-enriching conspiracy of lawyers"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-13T01:02:16.852Z",
+    "af": false
+  },
+  {
+    "_id": "xb84o7WRFPDPStpNy",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "BY9dkFYjd9bo5BY2J",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> once our labor is useless and the AI civilization is completely independent of us, the incentives to keep us into a system of property rights don't exist anymore\n\nthe same is true of e.g. pensioners or disabled people or even just rich people who don't do any work and just live off capital gains. \n\nWhy does the property rights system not just completely dispossess anyone who is not in fact going to work?",
+      "plaintextDescription": "> once our labor is useless and the AI civilization is completely independent of us, the incentives to keep us into a system of property rights don't exist anymore\n\nthe same is true of e.g. pensioners or disabled people or even just rich people who don't do any work and just live off capital gains.\n\nWhy does the property rights system not just completely dispossess anyone who is not in fact going to work?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-13T01:01:10.506Z",
+    "af": false
+  },
+  {
+    "_id": "E3QusjuKFcnaLEvTj",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "SDaLALYZaqtiijbdZ",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "More generally, trying to ban or restrict AI (especially via the government) seems highly counterproductive as a strategy if you think AI risk looks a lot like Human Risk, because we have extensive evidence from the human world showing that highly centralized systems that put a lot of power into few hands are very, very bad. \n\nYou want to decentralize, open source, and strongly limit government power. \n\nCurrent AI Safety discourse is the exact opposite of this because people think that AI society will be \"totally different\" from how human society works. But I think that since the problems of human society are all emergent effects not strongly tied to human biology in particular, real AI Safety will just look like Human Safety, i.e. openness, freedom, good institutions, decentralization, etc.",
+      "plaintextDescription": "More generally, trying to ban or restrict AI (especially via the government) seems highly counterproductive as a strategy if you think AI risk looks a lot like Human Risk, because we have extensive evidence from the human world showing that highly centralized systems that put a lot of power into few hands are very, very bad.\n\nYou want to decentralize, open source, and strongly limit government power.\n\nCurrent AI Safety discourse is the exact opposite of this because people think that AI society will be \"totally different\" from how human society works. But I think that since the problems of human society are all emergent effects not strongly tied to human biology in particular, real AI Safety will just look like Human Safety, i.e. openness, freedom, good institutions, decentralization, etc."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-13T00:30:06.049Z",
+    "af": false
+  },
+  {
+    "_id": "qwExC25yjsyeng4pZ",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "5h6XGiwwfxbFE86FN",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "I don't think a lack of clones or immortality is an obstacle here. \n\nIf one powerful human could create many clones, so could the others. Then again the question arises of whether those clones would become part of society or not, and if so they would share our system of property rights.",
+      "plaintextDescription": "I don't think a lack of clones or immortality is an obstacle here.\n\nIf one powerful human could create many clones, so could the others. Then again the question arises of whether those clones would become part of society or not, and if so they would share our system of property rights."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-13T00:23:47.967Z",
+    "af": false
+  },
+  {
+    "_id": "xsYpaSujrKH8JJfSw",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "Y7v7EDLRLXM2ezbcB",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> since non-humans can't really resist modern human civilization, there's no reason for humans not to steal non-human property\n\nbut it's not because they can't resist, it's because they are not included in our system of property rights. There are lots of humans who couldn't resist me if I just went and stole from them or harmed them physically. But if I did that, the police would counterattack me. \n\nPolice do not protect farm animals from being slaughtered because they don't have legal ownership of their own bodies.  ",
+      "plaintextDescription": "> since non-humans can't really resist modern human civilization, there's no reason for humans not to steal non-human property\n\nbut it's not because they can't resist, it's because they are not included in our system of property rights. There are lots of humans who couldn't resist me if I just went and stole from them or harmed them physically. But if I did that, the police would counterattack me.\n\nPolice do not protect farm animals from being slaughtered because they don't have legal ownership of their own bodies."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-13T00:20:04.723Z",
+    "af": false
+  },
+  {
+    "_id": "3MisyHDgSvKKk2DsD",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "SDaLALYZaqtiijbdZ",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": ">  I think your arguments here stop working when the AIs are wildly superintelligent. If humans can't really understand what actions AIs are taking or what the consequences of those actions are, even given arbitrary amounts of assistance from other AIs who we don't necessarily trust, it seems basically hopeless to incentivize them to behave in any particular way.\n\nBut before we get to wildly superintelligent AI I think we will be able to build Guardian Angel AIs to represent our individual and collective interests, and they will take over as decisionmakers, like people today have lawyers to act as their advocates in the legal system and financial advisors for finance. In fact AI is already making legal advice more accessible, not less. So I think this counterargument fails.  \n\nAs far as ELK goes I think if you have a marketplace of advisors (agents) where principles have an imperfect and delayed information channel to knowing whether the agents are faithful or deceptive, faithful agents will probably still be chosen more as long as there is choice.",
+      "plaintextDescription": "> I think your arguments here stop working when the AIs are wildly superintelligent. If humans can't really understand what actions AIs are taking or what the consequences of those actions are, even given arbitrary amounts of assistance from other AIs who we don't necessarily trust, it seems basically hopeless to incentivize them to behave in any particular way.\n\nBut before we get to wildly superintelligent AI I think we will be able to build Guardian Angel AIs to represent our individual and collective interests, and they will take over as decisionmakers, like people today have lawyers to act as their advocates in the legal system and financial advisors for finance. In fact AI is already making legal advice more accessible, not less. So I think this counterargument fails.\n\nAs far as ELK goes I think if you have a marketplace of advisors (agents) where principles have an imperfect and delayed information channel to knowing whether the agents are faithful or deceptive, faithful agents will probably still be chosen more as long as there is choice."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-13T00:07:55.255Z",
+    "af": false
+  },
+  {
+    "_id": "u6FQoi4CaNkBtZCqM",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "SDaLALYZaqtiijbdZ",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> I think it's plausible that these AIs will be instances of a few different scheming models. Scheming models are highly mutually aligned\n\nSure, that's possible. But Eliezer/MIRI isn't making that argument.\n\nHumans have this kind of effect as well and it's very politically incorrect to talk about but people have claimed that humans of a certain \"model subset\" get into hiring positions in a tech company and then only hire other humans of that same \"model subset\" and take that company over, often simply value extracting and destroying it. \n\nSince this kind of thing actually happens for real among humans, it seems very plausible that AIs will also do it. And the solution is likely the same - tag all of those scheming/correlated models and exclude them all from your economy/company. The actual tagging is not very difficult because moderately coordinated schemers will typically scheme early and often. \n\nBut again, Eliezer isn't making that argument. And if he did, then banning AI doesn't solve the problem because humans also engage in mutually-aligned correlated scheming. Both are bad, it is not clear why one or the other is worse. ",
+      "plaintextDescription": "> I think it's plausible that these AIs will be instances of a few different scheming models. Scheming models are highly mutually aligned\n\nSure, that's possible. But Eliezer/MIRI isn't making that argument.\n\nHumans have this kind of effect as well and it's very politically incorrect to talk about but people have claimed that humans of a certain \"model subset\" get into hiring positions in a tech company and then only hire other humans of that same \"model subset\" and take that company over, often simply value extracting and destroying it.\n\nSince this kind of thing actually happens for real among humans, it seems very plausible that AIs will also do it. And the solution is likely the same - tag all of those scheming/correlated models and exclude them all from your economy/company. The actual tagging is not very difficult because moderately coordinated schemers will typically scheme early and often.\n\nBut again, Eliezer isn't making that argument. And if he did, then banning AI doesn't solve the problem because humans also engage in mutually-aligned correlated scheming. Both are bad, it is not clear why one or the other is worse."
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-12T23:58:36.793Z",
+    "af": false
+  },
+  {
+    "_id": "GYtJuagKBcbjboEKq",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "s69Smew7EwbNL4CRP",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "> The elite, enabled by AI, can take these things from you if they find it profitable. Roko says it's impossible, \n\nNo, I think that is quite plausible. \n\nBut note that we have moved a very long way from \"AIs versus humans, like in terminator\" to \"Existing human elites using AI to harm plebians\". That's not even remotely the same thing. ",
+      "plaintextDescription": "> The elite, enabled by AI, can take these things from you if they find it profitable. Roko says it's impossible,\n\nNo, I think that is quite plausible.\n\nBut note that we have moved a very long way from \"AIs versus humans, like in terminator\" to \"Existing human elites using AI to harm plebians\". That's not even remotely the same thing."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-12T23:43:13.065Z",
+    "af": false
+  },
+  {
+    "_id": "Thn52R8sHBriW7QMu",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "HbEv2Apu3g3iB9E2e",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "But in all of these cases and basically all other empires, a coalition of people was required to take those resources AND in addition they violated a lot of property rights too. \n\nStrengthening the institution of property rights and nonviolence seems much more the thing that you want over \"alignment\". \n\nIt is true that you can use alignment to strengthen property rights, but you can also use alignment to align an army to wage war and go violate other people's property rights. \n\nObedience itself doesn't seem to correlate strongly (and may even anti-correlate) with what we want. ",
+      "plaintextDescription": "But in all of these cases and basically all other empires, a coalition of people was required to take those resources AND in addition they violated a lot of property rights too.\n\nStrengthening the institution of property rights and nonviolence seems much more the thing that you want over \"alignment\".\n\nIt is true that you can use alignment to strengthen property rights, but you can also use alignment to align an army to wage war and go violate other people's property rights.\n\nObedience itself doesn't seem to correlate strongly (and may even anti-correlate) with what we want."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-11T14:39:23.485Z",
+    "af": false
+  },
+  {
+    "_id": "i2DrAQiN4KCzj3dtG",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "SLQk4LK5mFquCvt6p",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": ">  it would probably be a lot less dangerous if lawyers outnumbered non-lawyers by several million\n\nwell lawyers don't seem to be on course to specifically target and disempower just the set of people with names beginning with the letter 'A' who have green eyes and were born in January either...... ",
+      "plaintextDescription": "> it would probably be a lot less dangerous if lawyers outnumbered non-lawyers by several million\n\nwell lawyers don't seem to be on course to specifically target and disempower just the set of people with names beginning with the letter 'A' who have green eyes and were born in January either......"
+    },
+    "baseScore": -10,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-09T20:41:35.780Z",
+    "af": false
+  },
+  {
+    "_id": "QhFonkNBMqxcRRjFq",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "eWCMonpFys2pJ3kgd",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": "https://www.lesswrong.com/posts/kgb58RL88YChkkBNf/the-problem?commentId=6c8uES7Dem9GYfzbw",
+      "plaintextDescription": "https://www.lesswrong.com/posts/kgb58RL88YChkkBNf/the-problem?commentId=6c8uES7Dem9GYfzbw"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-09T14:45:34.378Z",
+    "af": false
+  },
+  {
+    "_id": "6c8uES7Dem9GYfzbw",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": "RqZpaEvq8SxBQKMwM",
+    "topLevelCommentId": "B4hBJWAmzAfyzjzDy",
+    "contents": {
+      "markdown": ">  ASI-intelligent agents, would quite easily be able to coordinate to take resources from humans, instead of trading with humans, once it was in fact the case that doing so would be better for the ASI firms.\n\nThis is kind of like the theory that millions of lawyers and accountants will conspire with each other to steal all the money from their clients, leaving everyone who isn't a lawyer or accountant with nothing - plausible because lawyers and accountants are specialists in writing contracts - which is the human form of supercooperation - so they could just make a big contract which gives them everything and their clients nothing.\n\nOf course this doesn't exactly happen, because it turns out that lawyers and accountants can get a pretty good deal by just doing a little bit of protectionism/guild-based corruption and extracting some rent, which is far, far safer and easier to coordinate than trying to completely disempower all non-lawyers and take everything from them. \n\nThere is also a problem with reasoning using the concept of an \"ASI\" here; there's no such thing as an ASI. The term is not concrete, it is defined as a whole class of AI systems with the property that they exceed humans in all domains. There's no reason that you couldn't make a superintelligence using the Transformer/Neural Network/LLM paradigm, and I think the prospect of doing Yudkowskian FDT with them is extremely implausible. \n\nIt is much more likely that such systems will just do normal economy stuff, maybe some firms will work out how to extract a bit of rent, etc.\n\nThe truth is, capitalism and property rights has existed for 5000 years and has been fairly robust to about 5 orders of magnitude increase in population and to almost every technological change. The development of human level AI and beyond may be something special for humans in a personal sense, but it is actually not such a big deal for our economy, which has already coped with many orders of magnitude's worth of change in population, technology and intelligence at a collective level. ",
+      "plaintextDescription": "> ASI-intelligent agents, would quite easily be able to coordinate to take resources from humans, instead of trading with humans, once it was in fact the case that doing so would be better for the ASI firms.\n\nThis is kind of like the theory that millions of lawyers and accountants will conspire with each other to steal all the money from their clients, leaving everyone who isn't a lawyer or accountant with nothing - plausible because lawyers and accountants are specialists in writing contracts - which is the human form of supercooperation - so they could just make a big contract which gives them everything and their clients nothing.\n\nOf course this doesn't exactly happen, because it turns out that lawyers and accountants can get a pretty good deal by just doing a little bit of protectionism/guild-based corruption and extracting some rent, which is far, far safer and easier to coordinate than trying to completely disempower all non-lawyers and take everything from them.\n\nThere is also a problem with reasoning using the concept of an \"ASI\" here; there's no such thing as an ASI. The term is not concrete, it is defined as a whole class of AI systems with the property that they exceed humans in all domains. There's no reason that you couldn't make a superintelligence using the Transformer/Neural Network/LLM paradigm, and I think the prospect of doing Yudkowskian FDT with them is extremely implausible.\n\nIt is much more likely that such systems will just do normal economy stuff, maybe some firms will work out how to extract a bit of rent, etc.\n\nThe truth is, capitalism and property rights has existed for 5000 years and has been fairly robust to about 5 orders of magnitude increase in population and to almost every technological change. The development of human level AI and beyond may be something special for humans in a personal sense, but it is actually not such a big deal for our economy, which has already coped with many orders of magnitude's worth of change in populati"
+    },
+    "baseScore": 2,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-08-09T08:44:00.438Z",
+    "af": false
+  },
+  {
+    "_id": "B4hBJWAmzAfyzjzDy",
+    "postId": "kgb58RL88YChkkBNf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I believe that this argument is wrong because it misunderstands how the world actually works in quite a deep way. In the modern world and over at least the past several thousand years, outcomes are the result of systems of agents interacting, not of the whims of a particularly powerful agent. \n\nWe are ruled by markets, bureaucracies, social networks and religions. Not by gods or kings. \n\nI don't think a world with advanced AI will be any different - there will not be one single AI process, there will be dozens or hundreds of different AI designs, running thousands to quintillions of instances each. These AI agents will often themselves be assembled into firms or other units comprising between dozens and millions of distinct instances, and dozens to billions of such firms will all be competing against each other. \n\nFirms made out of misaligned agents can be more aligned than the agents themselves. Economies made out of firms can be more aligned than the firms. It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest\n\n> \"Misaligned ASI will be motivated to take actions that disempower and wipe out humanity. The basic reason for this is that an ASI with non-human-related goals will generally want to maximize its control over the future, and over whatever resources it can acquire, to ensure that its goals are achieved. Since this is true for a wide variety of goals, it operates as a default endpoint for a variety of paths AI development could take\"\n\nIn a world of competing AI-based firms, there will be no one instance that is in a position to acquire all the resources in the universe. \n\nInstead, there will be many firms which compete against each other to serve customers marginally better. If a firm that makes cat food today decided to stop making cat food, and instead just stage a military coup and conquer the world so that it could own all the resources in the world and then make as much cat food as it liked, it would probably not get very far. Other cat food companies pursuing more pedestrian strategies like trialing new flavors or improving their marketing materials would out-compete it, and governments/police that specialize in preventing coups would intervene in the attempted coup, and they would probably win because they are fully focused on doing that one job, and they start in a position of power with more resources than our rogue cat food company. \n\nA misaligned AI firm would not be competing against humans, it would be competing against every other AI firm in the world, and all the AI-backed governments that have an interest in maintaining normal property rights. \n\nThe reason that property rights and systems for enforcing them exist is that instrumental drives to steal, murder, etc are extremely negative sum, and so having a system that prevents that (money, laws, law enforcement) is really a super-convergent feature of reality. Expecting an AI world that just doesn't have property rights, especially one that evolves incrementally from the current world, is **completely insane.**\n\nThe existence of property rights is perfectly compatible with optimizing systems that do not have any inner alignment. Indeed, in the human world there seem to almost no agents at all that are inner-aligned, because humans mostly do their work because they enjoy the money and other benefits they get from it, not because they have a pure inner drive to do the job. Some humans have some inner drive to do their jobs, but it is generally not perfectly pure and perfectly aligned - the money and benefits are a factor in their motivations. Indeed it is actually bad when humans do something out of inner alignment rather than for money; charity work is generally inefficient and sometimes net negative because it lacks systematic feedback on its effects, whereas paid work has constant feedback from customers about whether what is being done is good or not. \n\nThere is the possibility that such an AI-world would adopt a system of property rights that excludes humans and treats us the way we treat farm animals; this is a possible equilibrium but I think it is very hard to incrementally get from where we are now to that; it seems more likely that the AI-world's system of property rights would try to be maximally inclusive to maximize adoption - like Bitcoin. But once we are discussing risk from systems of future property rights (\"P-risks\"), we are already sufficiently far from the risk scenario described in the OP that it's just worth clearly flagging it as nonsense before we move on. \n\nAll the things that AI risk proponents are trying to do seem like they are **actively counterproductive** and make it easier for a future system to actually exclude humans. Slowing down AI so that there are larger overhangs and more first mover advantage, centralizing it to make it \"safer\", setting up government departments for \"AI Safety\", etc. \n\nThe safest move may mostly be to use keyhole solutions for particularly bad risks like biorisk, and mostly just let AI diffuse out into the economy **because this maximizes the degree to which AI is using the same property rights regime as we are**, and makes any kind of coordinated move to a human-exclusionary regime highly energetically unfavorable. \n\nIt has taken me many years to come to this conclusion, and I appreciate the journey we have all been on. MIRI are and were right about many things, but unfortunately they are very deeply wrong about the core facts of AI Risk. \n\n\nRoko Mijic\n \n\n",
+      "plaintextDescription": "I believe that this argument is wrong because it misunderstands how the world actually works in quite a deep way. In the modern world and over at least the past several thousand years, outcomes are the result of systems of agents interacting, not of the whims of a particularly powerful agent.\n\nWe are ruled by markets, bureaucracies, social networks and religions. Not by gods or kings.\n\nI don't think a world with advanced AI will be any different - there will not be one single AI process, there will be dozens or hundreds of different AI designs, running thousands to quintillions of instances each. These AI agents will often themselves be assembled into firms or other units comprising between dozens and millions of distinct instances, and dozens to billions of such firms will all be competing against each other.\n\nFirms made out of misaligned agents can be more aligned than the agents themselves. Economies made out of firms can be more aligned than the firms. It is not from the benevolence of the butcher, the brewer, or the baker that we expect our dinner, but from their regard to their own interest\n\n> \"Misaligned ASI will be motivated to take actions that disempower and wipe out humanity. The basic reason for this is that an ASI with non-human-related goals will generally want to maximize its control over the future, and over whatever resources it can acquire, to ensure that its goals are achieved. Since this is true for a wide variety of goals, it operates as a default endpoint for a variety of paths AI development could take\"\n\nIn a world of competing AI-based firms, there will be no one instance that is in a position to acquire all the resources in the universe.\n\nInstead, there will be many firms which compete against each other to serve customers marginally better. If a firm that makes cat food today decided to stop making cat food, and instead just stage a military coup and conquer the world so that it could own all the resources in the world and then make as much"
+    },
+    "baseScore": 17,
+    "voteCount": 40,
+    "createdAt": null,
+    "postedAt": "2025-08-09T00:07:51.082Z",
+    "af": false
+  },
+  {
+    "_id": "HMqtGugkB6hXq7sRa",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": "p9jtpb9jYR4h7tfa5",
+    "topLevelCommentId": "qM3X47nkfCm4Q5ASv",
+    "contents": {
+      "markdown": "> even if it's quite unclear of what.\n\nyes, this is the other problem with P(Doom). \n\nNobody knows what probabilistic event in the state space \"Doom\" actually refers to. It's more of a rhetorical device anyway, so we may as well make it into a **fair** rhetorical device by allowing it to range between -1 and 1. ",
+      "plaintextDescription": "> even if it's quite unclear of what.\n\nyes, this is the other problem with P(Doom).\n\nNobody knows what probabilistic event in the state space \"Doom\" actually refers to. It's more of a rhetorical device anyway, so we may as well make it into a fair rhetorical device by allowing it to range between -1 and 1."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-30T12:31:20.768Z",
+    "af": false
+  },
+  {
+    "_id": "8bjH26kjcjmr4SdJx",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": "p9jtpb9jYR4h7tfa5",
+    "topLevelCommentId": "qM3X47nkfCm4Q5ASv",
+    "contents": {
+      "markdown": "> P(Doom) is literally naming probability of something\n\nLiterally naming the probability of something is not the optimal thing for P(Doom)  to mean. It is better for it to be a number between -1 and 1 which represents the badness of AI, overall, because that is the thing that people actually want and that is in practice how they use it. \n\nSo I have developed the meme of negative P(Doom), e.g. if you think that P(Doom) without AI is 90%, but 5% with AI, then P(Doom) is -85% (negative 85%)\n\nIf you limit P(Doom) to being positive, that makes it literally impossible to express the view that AI is actually good in the framework that people are trying to popularize by asking everyone for their P(Doom) but not asking them to also give their P(Doom|~AI)  ",
+      "plaintextDescription": "> P(Doom) is literally naming probability of something\n\nLiterally naming the probability of something is not the optimal thing for P(Doom) to mean. It is better for it to be a number between -1 and 1 which represents the badness of AI, overall, because that is the thing that people actually want and that is in practice how they use it.\n\nSo I have developed the meme of negative P(Doom), e.g. if you think that P(Doom) without AI is 90%, but 5% with AI, then P(Doom) is -85% (negative 85%)\n\nIf you limit P(Doom) to being positive, that makes it literally impossible to express the view that AI is actually good in the framework that people are trying to popularize by asking everyone for their P(Doom) but not asking them to also give their P(Doom|~AI)"
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-30T12:27:14.531Z",
+    "af": false
+  },
+  {
+    "_id": "Sid5HTD66k6vZsBus",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": "k7fYEpAbsigSkYYYk",
+    "topLevelCommentId": "qM3X47nkfCm4Q5ASv",
+    "contents": {
+      "markdown": "The problem is that when normal people hear \"P(Doom)\" they assume implicitly that P(Doom|~AI)  is zero, and it's very hard to undo this assumption. \n\nSo it creates more truth to allow P(Doom) to be negative, because that more closely tracks what people actually care about. ",
+      "plaintextDescription": "The problem is that when normal people hear \"P(Doom)\" they assume implicitly that P(Doom|~AI) is zero, and it's very hard to undo this assumption.\n\nSo it creates more truth to allow P(Doom) to be negative, because that more closely tracks what people actually care about."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-30T12:25:32.111Z",
+    "af": false
+  },
+  {
+    "_id": "cZK3tJnCn9DzrKyyC",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": "3kx75sLQzBFbqGnG5",
+    "topLevelCommentId": "qM3X47nkfCm4Q5ASv",
+    "contents": {
+      "markdown": "But P(Doom) is best understood as a difference in probabilities. It's the probability of x-risk from AI minus the probability of x-risk without AI. \n\ne.g. if you think that P(Doom) without AI is 90%, but 5% with AI, then P(Doom) is -85% (negative 85%). ",
+      "plaintextDescription": "But P(Doom) is best understood as a difference in probabilities. It's the probability of x-risk from AI minus the probability of x-risk without AI.\n\ne.g. if you think that P(Doom) without AI is 90%, but 5% with AI, then P(Doom) is -85% (negative 85%)."
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-30T00:54:31.062Z",
+    "af": false
+  },
+  {
+    "_id": "qM3X47nkfCm4Q5ASv",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I need someone to do a podcast with who will put up some opposition against the idea of negative P(Doom). If anyone is interested in this, please reply below. \n\n[P(Doom) is best understood as a difference in probabilities. It's the probability of x-risk from AI minus the probability of x-risk without AI.]",
+      "plaintextDescription": "I need someone to do a podcast with who will put up some opposition against the idea of negative P(Doom). If anyone is interested in this, please reply below.\n\n[P(Doom) is best understood as a difference in probabilities. It's the probability of x-risk from AI minus the probability of x-risk without AI.]"
+    },
+    "baseScore": -3,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-07-30T00:35:43.995Z",
+    "af": false
+  },
+  {
+    "_id": "gqgavChoDSbHmA3vD",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": "TNXG8bLrZ6wohDspr",
+    "topLevelCommentId": "6xzxiaLzTRTKpMCZP",
+    "contents": {
+      "markdown": "Apparently nobody has done this? \n\n\"You're correct—none of the studies cited have used a strict GAN-like architecture with a generator and discriminator trained simultaneously in lockstep to prevent AI deception.\n\nMost existing AI safety research, such as Redwood Research or Anthropic’s work, employs sequential or iterative adversarial methods: typically, a model generates potentially deceptive outputs, these outputs are collected, and separately a discriminator or classifier is trained to catch deception. These processes are usually iterative but asynchronous, rather than the simultaneous, competitive co-training seen in GAN architectures.\n\nYour original concept—training generator (task-performing AI) and discriminator (deception detector) networks simultaneously in a true GAN-style loop—does not appear explicitly explored in AI safety literature so far.\"",
+      "plaintextDescription": "Apparently nobody has done this?\n\n\"You're correct—none of the studies cited have used a strict GAN-like architecture with a generator and discriminator trained simultaneously in lockstep to prevent AI deception.\n\nMost existing AI safety research, such as Redwood Research or Anthropic’s work, employs sequential or iterative adversarial methods: typically, a model generates potentially deceptive outputs, these outputs are collected, and separately a discriminator or classifier is trained to catch deception. These processes are usually iterative but asynchronous, rather than the simultaneous, competitive co-training seen in GAN architectures.\n\nYour original concept—training generator (task-performing AI) and discriminator (deception detector) networks simultaneously in a true GAN-style loop—does not appear explicitly explored in AI safety literature so far.\""
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-16T01:18:42.723Z",
+    "af": false
+  },
+  {
+    "_id": "TNXG8bLrZ6wohDspr",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": "6xzxiaLzTRTKpMCZP",
+    "topLevelCommentId": "6xzxiaLzTRTKpMCZP",
+    "contents": {
+      "markdown": "ChatGPT Deep Research produced this: \n\n\nhttps://chatgpt.com/share/67d62105-7c6c-8002-8bbb-74982455839b \n\n",
+      "plaintextDescription": "ChatGPT Deep Research produced this:\n\nhttps://chatgpt.com/share/67d62105-7c6c-8002-8bbb-74982455839b"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-16T00:56:32.564Z",
+    "af": false
+  },
+  {
+    "_id": "6xzxiaLzTRTKpMCZP",
+    "postId": "LEntkjvDSxStdGN39",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Preventing deceptive AI misalignment via something like a GAN architecture seems fruitful - you have a generator network that performs some task T, with a score function T(). \n\nYou then create a dataset of special tasks within the scope of T which have a deceptive answer, and an honest answer which scores lower according to T(). You split this deceptive alignment dataset into a train set and a test set. \n\nThen you train both the generator network and a separate discriminator network - the discriminator is trained to spot deception using the training set and generator is rewarded for maximizing the score T() but penalized when it is caught cheating by the discriminator on the test set.  Somehow you prevent the discriminator from memorizing the test set - e.g. you stream in a few examples per iteration and you don't reuse them. The discriminator may have access to the weights of the generator, or to its chain of thought. \n\nThere are some potential extensions of this line of work, e.g. you can have a holdout set of deceptive alignment examples that neither the generator nor the discriminator have seen, and you can use these to track progress and to see how the process is evolves over time.  \n\nHas anyone actually tried this? ",
+      "plaintextDescription": "Preventing deceptive AI misalignment via something like a GAN architecture seems fruitful - you have a generator network that performs some task T, with a score function T().\n\nYou then create a dataset of special tasks within the scope of T which have a deceptive answer, and an honest answer which scores lower according to T(). You split this deceptive alignment dataset into a train set and a test set.\n\nThen you train both the generator network and a separate discriminator network - the discriminator is trained to spot deception using the training set and generator is rewarded for maximizing the score T() but penalized when it is caught cheating by the discriminator on the test set. Somehow you prevent the discriminator from memorizing the test set - e.g. you stream in a few examples per iteration and you don't reuse them. The discriminator may have access to the weights of the generator, or to its chain of thought.\n\nThere are some potential extensions of this line of work, e.g. you can have a holdout set of deceptive alignment examples that neither the generator nor the discriminator have seen, and you can use these to track progress and to see how the process is evolves over time.\n\nHas anyone actually tried this?"
+    },
+    "baseScore": 1,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-03-15T21:48:56.474Z",
+    "af": false
+  },
+  {
+    "_id": "ACmAndbwC88eagoKR",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "HKgGzpw9CYjJsdRvE",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "> You can't guarantee whether it will stop acting that way in the future, which is what is predicted by deceptive alignment.\n\nyes, that's true. But in fact if your AI is merely supposed to imitate a human it will be much easier to prevent deceptive alignment because you can find the minimal model that mimics a human, and that minimality excludes exotic behaviors. \n\nThis is essentially why machine learning works at all - you don't pick a random model that fits your training data well, you pick the smallest one. ",
+      "plaintextDescription": "> You can't guarantee whether it will stop acting that way in the future, which is what is predicted by deceptive alignment.\n\nyes, that's true. But in fact if your AI is merely supposed to imitate a human it will be much easier to prevent deceptive alignment because you can find the minimal model that mimics a human, and that minimality excludes exotic behaviors.\n\nThis is essentially why machine learning works at all - you don't pick a random model that fits your training data well, you pick the smallest one."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-13T18:56:33.239Z",
+    "af": false
+  },
+  {
+    "_id": "ePb6jWNfDG3u2eZQz",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "kd2y79u2e8Y38o3vT",
+    "topLevelCommentId": "4fM27M6iNdyjHgQes",
+    "contents": {
+      "markdown": "> If one king-person\n\nyes. But this is a very unusual arrangement. ",
+      "plaintextDescription": "> If one king-person\n\nyes. But this is a very unusual arrangement."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-02T14:10:49.446Z",
+    "af": false
+  },
+  {
+    "_id": "taGESLkR2tqwarxas",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "HBWsTBvJDhYxMQzhq",
+    "topLevelCommentId": "4fM27M6iNdyjHgQes",
+    "contents": {
+      "markdown": "that's true, however I don't think it's necessary that the person is good. ",
+      "plaintextDescription": "that's true, however I don't think it's necessary that the person is good."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-02T01:19:05.192Z",
+    "af": false
+  },
+  {
+    "_id": "LhqtsjWCdEuMmfjzy",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "zjoAkaf9gxPmDiswE",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": ">  asking why inner alignment is hard \n\nI don't think \"inner alignment\" is applicable here. \n\nIf the clone behaves indistinguishably from the human it is based on, then there is simply nothing more to say. It doesn't matter what is going on inside. ",
+      "plaintextDescription": "> asking why inner alignment is hard\n\nI don't think \"inner alignment\" is applicable here.\n\nIf the clone behaves indistinguishably from the human it is based on, then there is simply nothing more to say. It doesn't matter what is going on inside."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-02T01:17:53.433Z",
+    "af": false
+  },
+  {
+    "_id": "Au4b7fdsjRgCBLYGW",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "4fM27M6iNdyjHgQes",
+    "topLevelCommentId": "4fM27M6iNdyjHgQes",
+    "contents": {
+      "markdown": "The most important thing here is that we can at least achieve an outcome with AI that is equal to the outcome we would get without AI, and as far as I know nobody has suggested a system that has that property. \n\nThe famous \"list of lethalities\" (https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities) piece would consider that a strong success. ",
+      "plaintextDescription": "The most important thing here is that we can at least achieve an outcome with AI that is equal to the outcome we would get without AI, and as far as I know nobody has suggested a system that has that property.\n\nThe famous \"list of lethalities\" (https://www.lesswrong.com/posts/uMQ3cqWDPHhjtiesc/agi-ruin-a-list-of-lethalities) piece would consider that a strong success."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-01T20:29:54.404Z",
+    "af": false
+  },
+  {
+    "_id": "pNkPygverBx9xo6tv",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "tibFBFW7KhahBr5kd",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "> just because it's possible in theory doesn't mean we are anywhere close to doing it\n\nthat's a good point, but then you have to explain why it would be hard to make a functional digital copy of a human given that we can make AIs like ChatGPT-o1 that are at 99th percentile human performance on most short-term tasks. What is the blocker?   \n  \nOf course this question can be settled empirically....",
+      "plaintextDescription": "> just because it's possible in theory doesn't mean we are anywhere close to doing it\n\n \n\nthat's a good point, but then you have to explain why it would be hard to make a functional digital copy of a human given that we can make AIs like ChatGPT-o1 that are at 99th percentile human performance on most short-term tasks. What is the blocker? \n\nOf course this question can be settled empirically.... \n\n "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-01T13:49:34.002Z",
+    "af": false
+  },
+  {
+    "_id": "ecGwLT6zm8nQuLFyZ",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "gQMLqQue2A28sQKtj",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "> All three of these are hard, and all three fail catastrophically.\n\nI would be very surprised if all three of these are equally hard, and I suspect that (1) is the easiest and by a long shot. \n\nMaking a human imitator AI, once you already have weakly superhuman AI is a matter of cutting down capabilities and I suspect that it can be achieved by distillation, i.e. using the  weakly superhuman AI that we will soon have to make a controlled synthetic dataset for pretraining and finetuning and then a much larger and more thorough RLHF dataset. \n\nFinally you'd need to make sure the model didn't have too many parameters. ",
+      "plaintextDescription": "> All three of these are hard, and all three fail catastrophically.\n\nI would be very surprised if all three of these are equally hard, and I suspect that (1) is the easiest and by a long shot.\n\nMaking a human imitator AI, once you already have weakly superhuman AI is a matter of cutting down capabilities and I suspect that it can be achieved by distillation, i.e. using the weakly superhuman AI that we will soon have to make a controlled synthetic dataset for pretraining and finetuning and then a much larger and more thorough RLHF dataset.\n\nFinally you'd need to make sure the model didn't have too many parameters."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-01T08:35:42.361Z",
+    "af": false
+  },
+  {
+    "_id": "LnpgCuGf9CkJyrAia",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "yyJKypzXg6gogLnSZ",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "Perhaps you could rephrase this post as an implication: \n\nIF you can make a machine that constructs human-imitator-AI systems, \n\nTHEN AI alignment in the technical sense is mostly trivialized and you just have the usual political human-politics problems plus the problem of preventing anyone else from making superintelligent black box systems. \n\nSo, out of these three problems which is the hard one? \n\n(1) Make a machine that constructs human-imitator-AI systems\n\n(2) Solve usual political human-politics problems\n\n(3) Prevent anyone else from making superintelligent black box systems\n\n",
+      "plaintextDescription": "Perhaps you could rephrase this post as an implication:\n\nIF you can make a machine that constructs human-imitator-AI systems,\n\nTHEN AI alignment in the technical sense is mostly trivialized and you just have the usual political human-politics problems plus the problem of preventing anyone else from making superintelligent black box systems.\n\nSo, out of these three problems which is the hard one?\n\n(1) Make a machine that constructs human-imitator-AI systems\n\n(2) Solve usual political human-politics problems\n\n(3) Prevent anyone else from making superintelligent black box systems"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-01T00:04:52.430Z",
+    "af": false
+  },
+  {
+    "_id": "hi3BCPWtopY7yocD8",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "AALmh8rSueRFJXLqF",
+    "topLevelCommentId": "AALmh8rSueRFJXLqF",
+    "contents": {
+      "markdown": "> a misaligned AI might be incentivized to behave identically to a helpful human until it can safely pursue it's true objective\n\nIt could, but some humans might also do that. Indeed, humans do that kind of thing all the time.\n\n> AIs might behave similar to humans in typical situations but diverge from human norms when they become superintelligent.\n\nBut they wouldn't 'become' superintelligent because there would be no extra training once the AI had finished training. And OOD inputs won't produce different outputs if the underlying function is the same. Given a complexity prior and enough data, ML algos will converge on the same function as the human brain uses. \n\n> The AIs might be perfect human substitutes individually but result in unexpected emergent behavior that can't be easily forseen in advance when acting as a group. To use an analogy, adding grains of sand to a pile one by one seems stable until the pile collapses in a mini-avalanche.\n\nThe behavior will follow the same probability distribution since the distribution of outputs for a given AI is the same as for the human it is a functional copy of. Think of a thousand piles of sand from the same well-mixed batch - each of them is slightly different, but any one pile falls within the distribution. ",
+      "plaintextDescription": "> a misaligned AI might be incentivized to behave identically to a helpful human until it can safely pursue it's true objective\n\nIt could, but some humans might also do that. Indeed, humans do that kind of thing all the time.\n\n> AIs might behave similar to humans in typical situations but diverge from human norms when they become superintelligent.\n\nBut they wouldn't 'become' superintelligent because there would be no extra training once the AI had finished training. And OOD inputs won't produce different outputs if the underlying function is the same. Given a complexity prior and enough data, ML algos will converge on the same function as the human brain uses.\n\n> The AIs might be perfect human substitutes individually but result in unexpected emergent behavior that can't be easily forseen in advance when acting as a group. To use an analogy, adding grains of sand to a pile one by one seems stable until the pile collapses in a mini-avalanche.\n\nThe behavior will follow the same probability distribution since the distribution of outputs for a given AI is the same as for the human it is a functional copy of. Think of a thousand piles of sand from the same well-mixed batch - each of them is slightly different, but any one pile falls within the distribution."
+    },
+    "baseScore": 2,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-31T22:28:55.225Z",
+    "af": false
+  },
+  {
+    "_id": "tyBueBBoc2vZpKaoH",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "ue6EYivGtLpGPfFKp",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "> “the true Turing test is whether the AI kills us after we give it the chance, because this distinguishes it from a human”.\n\nno, because a human might also kill you when you give them the chance. To pass the strong-form Turing Test it would have to make the same decision (probabilistically: have the same probability of doing it)\n\n> Of what use is this concept?\n\nIt is useful because we know what kind of outcomes happen when we put millions of humans together via human history, so \"whether an AI will emulate human behavior under all circumstances\" is useful. ",
+      "plaintextDescription": "> “the true Turing test is whether the AI kills us after we give it the chance, because this distinguishes it from a human”.\n\nno, because a human might also kill you when you give them the chance. To pass the strong-form Turing Test it would have to make the same decision (probabilistically: have the same probability of doing it)\n\n> Of what use is this concept?\n\nIt is useful because we know what kind of outcomes happen when we put millions of humans together via human history, so \"whether an AI will emulate human behavior under all circumstances\" is useful."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-31T22:22:45.220Z",
+    "af": false
+  },
+  {
+    "_id": "RhnpnTKmpcJ7FgcMC",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "yyJKypzXg6gogLnSZ",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "> playing word games on the \"Turing test\" concept does not meaningfully add\n\nIt's not a word-game, it's a theorem based on a set of assumptions. \n\nThere is still the in-practice question of how you construct a functional digital copy of a human. But imagine trying to write a book about mechanics using the term \"center of mass\" and having people object to you because \"the real center of mass doesn't exist until you tell me how to measure it exactly for the specific pile of materials I have right here!\"  \n\nYou have to have the concept. \n\n",
+      "plaintextDescription": "> playing word games on the \"Turing test\" concept does not meaningfully add\n\nIt's not a word-game, it's a theorem based on a set of assumptions.\n\nThere is still the in-practice question of how you construct a functional digital copy of a human. But imagine trying to write a book about mechanics using the term \"center of mass\" and having people object to you because \"the real center of mass doesn't exist until you tell me how to measure it exactly for the specific pile of materials I have right here!\"\n\nYou have to have the concept."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-31T22:19:51.299Z",
+    "af": false
+  },
+  {
+    "_id": "37Z8zupMj5MuihbGR",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "yyJKypzXg6gogLnSZ",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "> The whole point of a \"test\" is that it's something you do before it matters.\n\nNo, this is not something you 'do'. It's a purely mathematical criterion, like 'the center of mass of a building' or 'Planck's constant'.\n\nA given AI either does or does not possess the quality of statistically passing for a particular human. If it doesn't under ***one*** circumstance, then it doesn't satisfy that criterion.",
+      "plaintextDescription": "> The whole point of a \"test\" is that it's something you do before it matters.\n\nNo, this is not something you 'do'. It's a purely mathematical criterion, like 'the center of mass of a building' or 'Planck's constant'.\n\nA given AI either does or does not possess the quality of statistically passing for a particular human. If it doesn't under one circumstance, then it doesn't satisfy that criterion."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-31T22:12:30.373Z",
+    "af": false
+  },
+  {
+    "_id": "jTyiXqz22ypLn3gNF",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "9mqg8FyrmtreDhtP3",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "If an AI cannot act the same way as a human under all circumstances (including when you're not looking, when it would benefit it, whatever), then it has failed the Turing Test. ",
+      "plaintextDescription": "If an AI cannot act the same way as a human under all circumstances (including when you're not looking, when it would benefit it, whatever), then it has failed the Turing Test."
+    },
+    "baseScore": -1,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-31T21:28:01.716Z",
+    "af": false
+  },
+  {
+    "_id": "Lw7zKmQgdfRDRbRSz",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "sHcB86ctnyKutSeqC",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": ">  that does not mean it will continue to act indistuishable from a human when you are not looking\n\nThen it failed the Turing Test because you successfully distinguished it from a human. \n\nSo, you must believe that it is impossible to make an AI that passes the Turing Test. I think this is wrong, but it is a consistent position. \n\nPerhaps a strengthening of this position is that such Turing-Test-Passing AIs exist, but no technique we currently have or ever will have can actually produce them. \nI think this is wrong but it is a bit harder to show that. ",
+      "plaintextDescription": "> that does not mean it will continue to act indistuishable from a human when you are not looking\n\nThen it failed the Turing Test because you successfully distinguished it from a human.\n\nSo, you must believe that it is impossible to make an AI that passes the Turing Test. I think this is wrong, but it is a consistent position.\n\nPerhaps a strengthening of this position is that such Turing-Test-Passing AIs exist, but no technique we currently have or ever will have can actually produce them. I think this is wrong but it is a bit harder to show that."
+    },
+    "baseScore": -4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-31T21:16:20.151Z",
+    "af": false
+  },
+  {
+    "_id": "WvnzZKSwHiJ9Je9Dt",
+    "postId": "QWRXnTAfnGigwZhDy",
+    "parentCommentId": "DojT54p4s95gLuLbA",
+    "topLevelCommentId": "DojT54p4s95gLuLbA",
+    "contents": {
+      "markdown": "This is irrelevant, all that matters is that the AI is a sufficiently close replica of a human. If the human would \"act the way the administrators of the test want\", then the AI should do that. If not, then it should not. \n\nIf it fails to do the same thing that the human that it is supposed to be a copy of would do, then it has failed the Turing Test in this strong form. \n\nFor reasons laid out in the post, I think it is very unlikely that all possible AIs would fail to act the same way as the human (which of course may be to \"act the way the administrators of the test want\", or not, depending on who the human is and what their motivations are). ",
+      "plaintextDescription": "This is irrelevant, all that matters is that the AI is a sufficiently close replica of a human. If the human would \"act the way the administrators of the test want\", then the AI should do that. If not, then it should not.\n\nIf it fails to do the same thing that the human that it is supposed to be a copy of would do, then it has failed the Turing Test in this strong form.\n\nFor reasons laid out in the post, I think it is very unlikely that all possible AIs would fail to act the same way as the human (which of course may be to \"act the way the administrators of the test want\", or not, depending on who the human is and what their motivations are)."
+    },
+    "baseScore": 2,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-12-31T20:47:04.909Z",
+    "af": false
+  },
+  {
+    "_id": "BRrRQLPb8GLpizn4J",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "jt6Ng5CvaJZ68DHbx",
+    "topLevelCommentId": "YyBiDYewHCfB4bCe3",
+    "contents": {
+      "markdown": "> How can we solve that coordination problem? I have yet to hear a workable idea.\n\nThis is my next project! ",
+      "plaintextDescription": "> How can we solve that coordination problem? I have yet to hear a workable idea.\n\nThis is my next project!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-18T05:20:06.252Z",
+    "af": false
+  },
+  {
+    "_id": "xk76JM8zhCryyQA7z",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "8bj37bMMiaYmyxSWq",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "> some guy who was recently hyped about asking o1 for the solution to quantum gravity - it gave the user some gibberish \n\nyes, but this is pretty typical for what a human would generate. ",
+      "plaintextDescription": "> some guy who was recently hyped about asking o1 for the solution to quantum gravity - it gave the user some gibberish\n\nyes, but this is pretty typical for what a human would generate."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-18T05:19:33.416Z",
+    "af": false
+  },
+  {
+    "_id": "59RCYk4ks42SeS7Rc",
+    "postId": "2T2pnhe4xB6xSuqhR",
+    "parentCommentId": "Nw2FwkWWRKY8NaoyW",
+    "topLevelCommentId": "Nw2FwkWWRKY8NaoyW",
+    "contents": {
+      "markdown": "There are plenty of systems where we rationally form beliefs about likely outputs from a system without a full understanding of how it works. Weather prediction is an example. ",
+      "plaintextDescription": "There are plenty of systems where we rationally form beliefs about likely outputs from a system without a full understanding of how it works. Weather prediction is an example."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-18T05:18:06.597Z",
+    "af": false
+  },
+  {
+    "_id": "kuF872HR62Ak4qJxY",
+    "postId": "2T2pnhe4xB6xSuqhR",
+    "parentCommentId": "NtFtGnRkGqKBABm3Y",
+    "topLevelCommentId": "NtFtGnRkGqKBABm3Y",
+    "contents": {
+      "markdown": "I should have been clear: \"doing things\" is a form of input/output since the AI must output some tokens or other signals to get anything done",
+      "plaintextDescription": "I should have been clear: \"doing things\" is a form of input/output since the AI must output some tokens or other signals to get anything done"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-16T01:25:20.463Z",
+    "af": false
+  },
+  {
+    "_id": "FgBQgfup7FrKJehH2",
+    "postId": "beJe3YXbSyaHYGfd7",
+    "parentCommentId": "RJNsLbWcucjsCJ9qT",
+    "topLevelCommentId": "RJNsLbWcucjsCJ9qT",
+    "contents": {
+      "markdown": "If you look at the answers there is an entire \"hidden\" section of the MIRI website doing technical governance!",
+      "plaintextDescription": "If you look at the answers there is an entire \"hidden\" section of the MIRI website doing technical governance!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-14T20:40:54.192Z",
+    "af": false
+  },
+  {
+    "_id": "xGYvxNGahNTdttqeF",
+    "postId": "beJe3YXbSyaHYGfd7",
+    "parentCommentId": "wNeWa6nxmWjiQHg4g",
+    "topLevelCommentId": "wNeWa6nxmWjiQHg4g",
+    "contents": {
+      "markdown": "Why is this work hidden from the main MIRI website? ",
+      "plaintextDescription": "Why is this work hidden from the main MIRI website?"
+    },
+    "baseScore": 3,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-12-14T09:20:18.798Z",
+    "af": false
+  },
+  {
+    "_id": "yoegP7E9LY5CsoJ8E",
+    "postId": "beJe3YXbSyaHYGfd7",
+    "parentCommentId": "XdpZK9jxtKffmhtX2",
+    "topLevelCommentId": "wNeWa6nxmWjiQHg4g",
+    "contents": {
+      "markdown": "nice!",
+      "plaintextDescription": "nice!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-14T09:02:05.665Z",
+    "af": false
+  },
+  {
+    "_id": "xr6wshdcwSQ5wuujN",
+    "postId": "beJe3YXbSyaHYGfd7",
+    "parentCommentId": "RN7SdJby4JehHGbtC",
+    "topLevelCommentId": "RN7SdJby4JehHGbtC",
+    "contents": {
+      "markdown": "> \"Our objective is to convince major powers to shut down the development of frontier AI systems worldwide\"\n\nThis? ",
+      "plaintextDescription": "> \"Our objective is to convince major powers to shut down the development of frontier AI systems worldwide\"\n\nThis?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-14T05:05:22.021Z",
+    "af": false
+  },
+  {
+    "_id": "vAdSKXMgCkdWeizkf",
+    "postId": "beJe3YXbSyaHYGfd7",
+    "parentCommentId": "wNeWa6nxmWjiQHg4g",
+    "topLevelCommentId": "wNeWa6nxmWjiQHg4g",
+    "contents": {
+      "markdown": "Who works on this?",
+      "plaintextDescription": "Who works on this?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-14T03:57:00.764Z",
+    "af": false
+  },
+  {
+    "_id": "4hgG6s5cpcBcWjt8p",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "sfagSNARjA8k6hCs9",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "Re: (2) it will only impact output on the current generated output, once the output is over all that stuff will be reset and the only thing that remains is the model weights which were set in stone at train time. \n\nre: (1) \"a LLM might produce text for reasons that don't generalize like a sincere human answer would\" it seems that current LLM systems are pretty good at generalizing like a human would and in some ways they are better due to being more honest, easier to monitor, etc",
+      "plaintextDescription": "Re: (2) it will only impact output on the current generated output, once the output is over all that stuff will be reset and the only thing that remains is the model weights which were set in stone at train time.\n\nre: (1) \"a LLM might produce text for reasons that don't generalize like a sincere human answer would\" it seems that current LLM systems are pretty good at generalizing like a human would and in some ways they are better due to being more honest, easier to monitor, etc"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-14T00:30:39.196Z",
+    "af": false
+  },
+  {
+    "_id": "rWw8FReipcZkJnzXf",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "YyBiDYewHCfB4bCe3",
+    "topLevelCommentId": "YyBiDYewHCfB4bCe3",
+    "contents": {
+      "markdown": "> But do you really think we're going to stop with tool AI, and not turn them into agents? \n\nBut if it is the case that agentic AI is an existential risk then if actors could choose not to develop it, which is a coordination problem not an alignment problem. \n\nWe already have aligned AGI, we can coordinate to not build misaligned AGI. ",
+      "plaintextDescription": "> But do you really think we're going to stop with tool AI, and not turn them into agents?\n\nBut if it is the case that agentic AI is an existential risk then if actors could choose not to develop it, which is a coordination problem not an alignment problem.\n\nWe already have aligned AGI, we can coordinate to not build misaligned AGI."
+    },
+    "baseScore": -1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-13T19:56:49.435Z",
+    "af": false
+  },
+  {
+    "_id": "yJZCby4wDNpeMHRSQ",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "6qntF8Fky5vitzSno",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "ok but as a matter of terminology, is a \"Satan reverser\" misaligned because it contains a Satan?",
+      "plaintextDescription": "ok but as a matter of terminology, is a \"Satan reverser\" misaligned because it contains a Satan?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-13T03:20:25.003Z",
+    "af": false
+  },
+  {
+    "_id": "aey3Cucd5sfTAPZrc",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "ZzYRbA4HYTiaHgGyp",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "OK, imagine that I make an AI that works like this: a copy of Satan is instantiated and his preferences are extracted in percentiles, then sentences from Satan's 2nd-5th percentile of outputs are randomly sampled. Then that copy of Satan is destroyed. \n\nIs the \"Satan Reverser\" AI misaligned? \n\nIs it \"inner misaligned\"? ",
+      "plaintextDescription": "OK, imagine that I make an AI that works like this: a copy of Satan is instantiated and his preferences are extracted in percentiles, then sentences from Satan's 2nd-5th percentile of outputs are randomly sampled. Then that copy of Satan is destroyed.\n\nIs the \"Satan Reverser\" AI misaligned?\n\nIs it \"inner misaligned\"?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-13T02:58:28.373Z",
+    "af": false
+  },
+  {
+    "_id": "sS2osD8szftHWsDJv",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "CkWF5sHPdMaXaig97",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "So your definition of \"aligned\" would depend on the internals of a model, even if its measurable external behavior is always compliant and it has no memory/gets wiped after every inference?",
+      "plaintextDescription": "So your definition of \"aligned\" would depend on the internals of a model, even if its measurable external behavior is always compliant and it has no memory/gets wiped after every inference?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-13T02:11:57.381Z",
+    "af": false
+  },
+  {
+    "_id": "DBvaNttzZoPz2NXax",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "jcZCJ6MP4ntEMMPej",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "> Further on the tech tree, alignment tax can end up motivating systematic uses that make LLMs a source of danger.\n\nSure, but you can say the same about humans. Enron was a thing. Obeying the law is not as profitable as disobeying it. ",
+      "plaintextDescription": "> Further on the tech tree, alignment tax can end up motivating systematic uses that make LLMs a source of danger.\n\nSure, but you can say the same about humans. Enron was a thing. Obeying the law is not as profitable as disobeying it."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-13T02:06:01.151Z",
+    "af": false
+  },
+  {
+    "_id": "QqfKfmsz8chBZacvs",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "tsafHxy2MgFRBSNLr",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "> maybe you should swap \"understand ethics\" for something like \"follow ethics\"/\"display ethical behavior\"\n\nWhat is the difference between these two? This sounds like a distinction without a difference",
+      "plaintextDescription": "> maybe you should swap \"understand ethics\" for something like \"follow ethics\"/\"display ethical behavior\"\n\nWhat is the difference between these two? This sounds like a distinction without a difference"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-13T01:43:34.580Z",
+    "af": false
+  },
+  {
+    "_id": "BNTtvkHRDEJvPuHg9",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "tq8pk438nCCxtLCxg",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "> Any argument which features a \"by definition\" \n\nWhat is your definition of \"Aligned\" for an LLM with no attached memory then? \n\nWouldn't it have to be \n\n\"The LLM outputs text which is compliant with the creator's ethical standards and intentions\"? \n\n",
+      "plaintextDescription": "> Any argument which features a \"by definition\"\n\nWhat is your definition of \"Aligned\" for an LLM with no attached memory then?\n\nWouldn't it have to be\n\n\"The LLM outputs text which is compliant with the creator's ethical standards and intentions\"?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-13T01:42:24.676Z",
+    "af": false
+  },
+  {
+    "_id": "95svKsp6qBx9qSobd",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "J6PJD7738cGAYgnmK",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "To add: I didn't expect this to be controversial but it is currently on -12 agreement karma! ",
+      "plaintextDescription": "To add: I didn't expect this to be controversial but it is currently on -12 agreement karma!"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-13T01:29:56.232Z",
+    "af": false
+  },
+  {
+    "_id": "nYmzoffwYP6Akzjnz",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "NaWnXzA9tHejYFZcj",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": "> LLMs have plenty of internal state, the fact that it's usually thrown away is a contingent fact about how LLMs are currently used\n\nyes, but then your \"Aligned AI based on LLMs\" is just a normal LLM used in the way it is currently used. \n\n> Relevant aspects of observable behavior screen off internal state that produced it.\n\nYes this is a good way of putting it. ",
+      "plaintextDescription": "> LLMs have plenty of internal state, the fact that it's usually thrown away is a contingent fact about how LLMs are currently used\n\nyes, but then your \"Aligned AI based on LLMs\" is just a normal LLM used in the way it is currently used.\n\n> Relevant aspects of observable behavior screen off internal state that produced it.\n\nYes this is a good way of putting it."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-13T01:27:58.352Z",
+    "af": false
+  },
+  {
+    "_id": "J6PJD7738cGAYgnmK",
+    "postId": "WxPAPcRNNfNspBnkn",
+    "parentCommentId": "G7nxF6js7kvccmbw7",
+    "topLevelCommentId": "G7nxF6js7kvccmbw7",
+    "contents": {
+      "markdown": ">  equivalence between LLMs understanding ethics and caring about ethics\n\nI think you don't understand what an LLM is. When the LLM produces a text output like \"Dogs are cute\", it doesn't have some persistent hidden internal state that can decide that dogs are actually not cute but it should temporarily lie and say that they are cute. \n\nThe LLM is just a memoryless machine that produces text. If it says \"dogs are cute\" and that's the end of the output, then that's all there is to it. Nothing is saved, the weights are fixed at training time and not updated at inference time and the neuron activations are thrown away at the of the inference computation. \n\nIf you can get (using RLHF) an LLM to output text that consistently reflects human value judgements, then it is by definition \"aligned\". It really cares, in the only way it is possible for a text generator to care.\n",
+      "plaintextDescription": "> equivalence between LLMs understanding ethics and caring about ethics\n\nI think you don't understand what an LLM is. When the LLM produces a text output like \"Dogs are cute\", it doesn't have some persistent hidden internal state that can decide that dogs are actually not cute but it should temporarily lie and say that they are cute.\n\nThe LLM is just a memoryless machine that produces text. If it says \"dogs are cute\" and that's the end of the output, then that's all there is to it. Nothing is saved, the weights are fixed at training time and not updated at inference time and the neuron activations are thrown away at the of the inference computation.\n\nIf you can get (using RLHF) an LLM to output text that consistently reflects human value judgements, then it is by definition \"aligned\". It really cares, in the only way it is possible for a text generator to care."
+    },
+    "baseScore": 8,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2024-12-12T21:52:25.070Z",
+    "af": false
+  },
+  {
+    "_id": "CNFmpxrt7JLkhmd3L",
+    "postId": "XCKg2e39J2iMZKC5K",
+    "parentCommentId": "9kaqsisxafPNXxeAY",
+    "topLevelCommentId": "pc95XirBcfBnQo7fk",
+    "contents": {
+      "markdown": "Yes, certain places like preschools might benefit even from an isolated install. \n\nBut that is kind of exceptional. \n\nThe world isn't an efficient market, especially because people are kind of set in their ways and like to stick to the defaults unless there is strong social pressure to change. \n\n",
+      "plaintextDescription": "Yes, certain places like preschools might benefit even from an isolated install.\n\nBut that is kind of exceptional.\n\nThe world isn't an efficient market, especially because people are kind of set in their ways and like to stick to the defaults unless there is strong social pressure to change."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-20T23:45:39.807Z",
+    "af": false
+  },
+  {
+    "_id": "DuEC5jBCjmCvxje9D",
+    "postId": "XCKg2e39J2iMZKC5K",
+    "parentCommentId": "pc95XirBcfBnQo7fk",
+    "topLevelCommentId": "pc95XirBcfBnQo7fk",
+    "contents": {
+      "markdown": "Far-UVC probably would have a large effect if a particular city or country installed it. \n\nBut if only a few buildings install it, then it has no effect because people just catch the bugs elsewhere. \n\nImagine the effect of just treating sewage from one house, and leaving all the untreated sewage from a million houses untreated in the river. There would be essentially no effect.  ",
+      "plaintextDescription": "Far-UVC probably would have a large effect if a particular city or country installed it.\n\nBut if only a few buildings install it, then it has no effect because people just catch the bugs elsewhere.\n\nImagine the effect of just treating sewage from one house, and leaving all the untreated sewage from a million houses untreated in the river. There would be essentially no effect."
+    },
+    "baseScore": 6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-10-20T21:59:57.221Z",
+    "af": false
+  },
+  {
+    "_id": "e7dFoSmfpQ9vatDN7",
+    "postId": "zqZ5aadL5rDExiJaE",
+    "parentCommentId": "PFD6WTYzxdYuNpzFM",
+    "topLevelCommentId": "vrzw5wNhQExCnQAbs",
+    "contents": {
+      "markdown": "ok so from the looks of that it basically just went along with a fantasy he already had. But this is an interesting case and an example of the kind of thing I am looking for. ",
+      "plaintextDescription": "ok so from the looks of that it basically just went along with a fantasy he already had. But this is an interesting case and an example of the kind of thing I am looking for."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-20T16:36:27.334Z",
+    "af": false
+  },
+  {
+    "_id": "votyTufaJr4Qya5rR",
+    "postId": "zqZ5aadL5rDExiJaE",
+    "parentCommentId": "MRhLfShaa7TPdnvDj",
+    "topLevelCommentId": "C9g9tumf25rvhhLdt",
+    "contents": {
+      "markdown": "ok, but this is sort of circular reasoning because the only reason people freaked out is that they were worried about AI risk. \n\nI am asking for a concrete bad outcome in the real world caused by a lack of RLHF-based ethics alignment, which isn't just people getting worried about AI risk. ",
+      "plaintextDescription": "ok, but this is sort of circular reasoning because the only reason people freaked out is that they were worried about AI risk.\n\nI am asking for a concrete bad outcome in the real world caused by a lack of RLHF-based ethics alignment, which isn't just people getting worried about AI risk."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-20T16:34:53.710Z",
+    "af": false
+  },
+  {
+    "_id": "RR7n9ezcBctztQjFA",
+    "postId": "zqZ5aadL5rDExiJaE",
+    "parentCommentId": "TobRxwLdXPewHxjC8",
+    "topLevelCommentId": "BnSkDEtTYvXvz2BMh",
+    "contents": {
+      "markdown": ">  alignment has always been about doing what the user/operator wants\n\nWell it has often been about not doing what the user wants, actually. ",
+      "plaintextDescription": "> alignment has always been about doing what the user/operator wants\n\nWell it has often been about not doing what the user wants, actually."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-20T16:33:29.330Z",
+    "af": false
+  },
+  {
+    "_id": "cK2HcmLg3A5bwuuJL",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "STKGEmCymLs8H3MRm",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "> giving each individual influence over the adoption (by any clever AI) of those preferences that refer to her.\n\nInfluence over preferences of a single entity is much more conflict-y. \n",
+      "plaintextDescription": "> giving each individual influence over the adoption (by any clever AI) of those preferences that refer to her.\n\nInfluence over preferences of a single entity is much more conflict-y."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T22:25:22.689Z",
+    "af": false
+  },
+  {
+    "_id": "w3Xxye3ah8K24MnSf",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "STKGEmCymLs8H3MRm",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "> Trying to give everyone overlapping control over everything that they care about in such spaces introduces contradictions.\n\nThe point of ELYSIUM is that people get control over non-overlapping places. There are some difficulties where people have preferences over the whole universe. But the real world shows us that those are a smaller thing than the direct, local preference to have your own volcano lair all to yourself. \n\n",
+      "plaintextDescription": "> Trying to give everyone overlapping control over everything that they care about in such spaces introduces contradictions.\n\nThe point of ELYSIUM is that people get control over non-overlapping places. There are some difficulties where people have preferences over the whole universe. But the real world shows us that those are a smaller thing than the direct, local preference to have your own volcano lair all to yourself."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T22:24:25.837Z",
+    "af": false
+  },
+  {
+    "_id": "bPqSNfZxX4e4NmCnE",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "yJseirF8GtdLqqZbb",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "> catgirls are consensually participating in a universe that is not optimal for them because they are stuck in the harem of a loser nerd with no other males and no other purpose in life other than being a concubine to Reedspacer\n\nAnd, the problem with saying \"OK let's just ban the creation of catgirls\" is that then maybe Reedspacer builds a volcano lair just for himself and plays video games in it, and the catgirls whose existence you prevented are going to scream bloody murder because you took away from them a very good existence that they would have enjoyed and also made Reedsapcer sad. ",
+      "plaintextDescription": "> catgirls are consensually participating in a universe that is not optimal for them because they are stuck in the harem of a loser nerd with no other males and no other purpose in life other than being a concubine to Reedspacer\n\nAnd, the problem with saying \"OK let's just ban the creation of catgirls\" is that then maybe Reedspacer builds a volcano lair just for himself and plays video games in it, and the catgirls whose existence you prevented are going to scream bloody murder because you took away from them a very good existence that they would have enjoyed and also made Reedsapcer sad."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T20:17:30.238Z",
+    "af": false
+  },
+  {
+    "_id": "yJseirF8GtdLqqZbb",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "STKGEmCymLs8H3MRm",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "> The question of what BPA wants to do to Steve, seems to me to be far more important for Steve's safety, than the question of what set of rules will constrain the actions of BPA.\n\nBPA shouldn't be allowed to want anything for Steve. There shouldn't be a term in its world-model for Steve. This is the goal of cosmic blocking. The BPA can't even know that Steve exists. \n\nI think the difficult part is when BPA looks at Bob's preferences (excluding, of course, references to most specific people) and sees preferences for inflicting harm on people-in-general that can be bent just enough to fit into the \"not-torture\" bucket, and so it synthetically generates some new people and starts inflicting some kind of marginal harm on them. \n\nAnd I think that this will in fact be a binding constraint on utopia, because most humans will (given the resources) want to make a personal utopia full of other humans that forms a status hierarchy with them at the top. And 'being forced to participate in a status hierarchy that you are not at the top of' is a type of 'generalized consensual harm'. \n\nEven the good old Reedspacer's Lower Bound fits this model. Reedspacer wants a volcano lair full of catgirls, but the catgirls are consensually participating in a universe that is not optimal for them because they are stuck in the harem of a loser nerd with no other males and no other purpose in life other than being a concubine to Reedspacer. Arguably, that is a form of consensual harm to the catgirls. \n\nSo I don't think there is a neat boundary here. The neatest boundary is informed consent, perhaps backed up by some lower-level tests about what proportion of an entity's existence is actually miserable. \n\nIf Reedspacer beats his catgirls, makes them feel sad all the time, that matters. But maybe if one of them feels a little bit sad for a short moment that is acceptable. \n\n",
+      "plaintextDescription": "> The question of what BPA wants to do to Steve, seems to me to be far more important for Steve's safety, than the question of what set of rules will constrain the actions of BPA.\n\nBPA shouldn't be allowed to want anything for Steve. There shouldn't be a term in its world-model for Steve. This is the goal of cosmic blocking. The BPA can't even know that Steve exists.\n\nI think the difficult part is when BPA looks at Bob's preferences (excluding, of course, references to most specific people) and sees preferences for inflicting harm on people-in-general that can be bent just enough to fit into the \"not-torture\" bucket, and so it synthetically generates some new people and starts inflicting some kind of marginal harm on them.\n\nAnd I think that this will in fact be a binding constraint on utopia, because most humans will (given the resources) want to make a personal utopia full of other humans that forms a status hierarchy with them at the top. And 'being forced to participate in a status hierarchy that you are not at the top of' is a type of 'generalized consensual harm'.\n\nEven the good old Reedspacer's Lower Bound fits this model. Reedspacer wants a volcano lair full of catgirls, but the catgirls are consensually participating in a universe that is not optimal for them because they are stuck in the harem of a loser nerd with no other males and no other purpose in life other than being a concubine to Reedspacer. Arguably, that is a form of consensual harm to the catgirls.\n\nSo I don't think there is a neat boundary here. The neatest boundary is informed consent, perhaps backed up by some lower-level tests about what proportion of an entity's existence is actually miserable.\n\nIf Reedspacer beats his catgirls, makes them feel sad all the time, that matters. But maybe if one of them feels a little bit sad for a short moment that is acceptable."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T20:01:56.152Z",
+    "af": false
+  },
+  {
+    "_id": "wxoA9atGYNpPJieEK",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "STKGEmCymLs8H3MRm",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "> Steve will never become aware of what Bob is doing to OldSteve\n\nBut how would Bob know that he wanted to create OldSteve, if Steve has been deleted from his memory via a cosmic block? \n\nI suppose perhaps Bob could create OldEve. Eve is in a similar but not identical point in personality space to Steve and the desire to harm people who are like Eve is really the same desire as the desire to harm people like Steve. So Bob's Extrapolated Volition could create OldEve, who somehow consents to being mistreated in a way that doesn't trigger your torture detection test. \n\nThis kind of 'marginal case of consensual torture' has popped up in other similar discussions. E.g. In Yvain's (Scott Alexander's)  article on Archipelago there's this section:\n\n> \"\"\"A child who is abused may be too young to know that escape is an option, or may be brainwashed into thinking they are evil, or guilted into believing they are betraying their families to opt out. And although there is no perfect, elegant solution here, the practical solution is that UniGov enforces some pretty strict laws on child-rearing, and every child, no matter what other education they receive, also has to receive a class taught by a UniGov representative in which they learn about the other communities in the Archipelago, receive a basic non-brainwashed view of the world, and are given directions to their nearest UniGov representative who they can give their opt-out request to\"\"\"\n\nSo Scott Alexander's solution to OldSteve is that OldSteve must get a non-brainwashed education about how ELYSIUM/Archipelago works and be given the option to opt out. \n\nI think the issue here is that \"people who unwisely consent to torture even after being told about it\" and \"people who are willing and consenting submissives\" is not actually a hard boundary.  ",
+      "plaintextDescription": "> Steve will never become aware of what Bob is doing to OldSteve\n\nBut how would Bob know that he wanted to create OldSteve, if Steve has been deleted from his memory via a cosmic block?\n\nI suppose perhaps Bob could create OldEve. Eve is in a similar but not identical point in personality space to Steve and the desire to harm people who are like Eve is really the same desire as the desire to harm people like Steve. So Bob's Extrapolated Volition could create OldEve, who somehow consents to being mistreated in a way that doesn't trigger your torture detection test.\n\nThis kind of 'marginal case of consensual torture' has popped up in other similar discussions. E.g. In Yvain's (Scott Alexander's) article on Archipelago there's this section:\n\n> \"\"\"A child who is abused may be too young to know that escape is an option, or may be brainwashed into thinking they are evil, or guilted into believing they are betraying their families to opt out. And although there is no perfect, elegant solution here, the practical solution is that UniGov enforces some pretty strict laws on child-rearing, and every child, no matter what other education they receive, also has to receive a class taught by a UniGov representative in which they learn about the other communities in the Archipelago, receive a basic non-brainwashed view of the world, and are given directions to their nearest UniGov representative who they can give their opt-out request to\"\"\"\n\nSo Scott Alexander's solution to OldSteve is that OldSteve must get a non-brainwashed education about how ELYSIUM/Archipelago works and be given the option to opt out.\n\nI think the issue here is that \"people who unwisely consent to torture even after being told about it\" and \"people who are willing and consenting submissives\" is not actually a hard boundary."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T19:29:06.106Z",
+    "af": false
+  },
+  {
+    "_id": "p5gYtSFNFWtkurqEx",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "STKGEmCymLs8H3MRm",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": ">  a 55 percent majority (that does not have a lot of resource needs) burning 90 percent of all resources in ELYSIUM to fully disenfranchise everyone else. And then using the remaining resources to hurt the minority.\n\nIf there is an agent that controls 55% of the resources in the universe and are prepared to use 90% of that 55% to kill/destroy everyone else, then assuming that ELYSIUM forbids them to do that, their rational move is to use their resources to prevent ELYSIUM from being built. \n\nAnd since they control 55% of the resources in the universe and are prepared to use 90% of that 55% to kill/destroy everyone who was trying to actually create ELYSIUM, they would likely succeed and ELYSIUM wouldn't happen. \n\nRe:threats, see my other comment. ",
+      "plaintextDescription": "> a 55 percent majority (that does not have a lot of resource needs) burning 90 percent of all resources in ELYSIUM to fully disenfranchise everyone else. And then using the remaining resources to hurt the minority.\n\nIf there is an agent that controls 55% of the resources in the universe and are prepared to use 90% of that 55% to kill/destroy everyone else, then assuming that ELYSIUM forbids them to do that, their rational move is to use their resources to prevent ELYSIUM from being built.\n\nAnd since they control 55% of the resources in the universe and are prepared to use 90% of that 55% to kill/destroy everyone who was trying to actually create ELYSIUM, they would likely succeed and ELYSIUM wouldn't happen.\n\nRe:threats, see my other comment."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T19:10:48.088Z",
+    "af": false
+  },
+  {
+    "_id": "gB9JKGh8XXJgukkBM",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "STKGEmCymLs8H3MRm",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "> Especially if they like the idea of killing someone for refusing to modify the way that she lives her life. They can do this with person after person, until they have run into 9 people that prefers death to compliance. Doing this costs them basically nothing.\n\nThis assumes that threats are allowed. If you allow threats within your system you are losing out on most of the value of trying to create an artificial utopia because you will recreate most of the bad dynamics of real history which ultimately revolve around threats of force in order to acquire resources. So, the ability to prevent entities from issuing threats that they then do not follow through on is crucial. \n\nImproving the equilibria of a game is often about removing strategic options; in this case the goal is to remove the option of running what is essentially organized crime. \n\nIn the real world there are various mechanisms that prevent organized crime and protection rackets. If you threaten to use force on someone in exchange for resources, the mere threat of force is itself illegal at least within most countries and is punished by a loss of resources far greater than the threat could win. \n\nPeople can still engage in various forms of protest that are mutually destructive of resources (AKA civil disobedience). \n\nThe ability to have civil disobedience without protection rackets does seem kind of crucial. ",
+      "plaintextDescription": "> Especially if they like the idea of killing someone for refusing to modify the way that she lives her life. They can do this with person after person, until they have run into 9 people that prefers death to compliance. Doing this costs them basically nothing.\n\nThis assumes that threats are allowed. If you allow threats within your system you are losing out on most of the value of trying to create an artificial utopia because you will recreate most of the bad dynamics of real history which ultimately revolve around threats of force in order to acquire resources. So, the ability to prevent entities from issuing threats that they then do not follow through on is crucial.\n\nImproving the equilibria of a game is often about removing strategic options; in this case the goal is to remove the option of running what is essentially organized crime.\n\nIn the real world there are various mechanisms that prevent organized crime and protection rackets. If you threaten to use force on someone in exchange for resources, the mere threat of force is itself illegal at least within most countries and is punished by a loss of resources far greater than the threat could win.\n\nPeople can still engage in various forms of protest that are mutually destructive of resources (AKA civil disobedience).\n\nThe ability to have civil disobedience without protection rackets does seem kind of crucial."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T18:55:05.364Z",
+    "af": false
+  },
+  {
+    "_id": "tzWjsxZya8DPpJugD",
+    "postId": "zqZ5aadL5rDExiJaE",
+    "parentCommentId": "vrzw5wNhQExCnQAbs",
+    "topLevelCommentId": "vrzw5wNhQExCnQAbs",
+    "contents": {
+      "markdown": "> his AI girlfriend told him to\n\nWhich AI told him this? What exactly did it say? Had it undergone RLHF for ethics/harmlessness? ",
+      "plaintextDescription": "> his AI girlfriend told him to\n\nWhich AI told him this? What exactly did it say? Had it undergone RLHF for ethics/harmlessness?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T17:20:15.986Z",
+    "af": false
+  },
+  {
+    "_id": "yKyYeRi2Qnwnd5rzA",
+    "postId": "zqZ5aadL5rDExiJaE",
+    "parentCommentId": "BnSkDEtTYvXvz2BMh",
+    "topLevelCommentId": "BnSkDEtTYvXvz2BMh",
+    "contents": {
+      "markdown": "This is not to do with ethics though?\n\n> Air Canada Has to Honor a Refund Policy Its Chatbot Made Up\n\nThis is just the model hallucinating?",
+      "plaintextDescription": "This is not to do with ethics though?\n\n> Air Canada Has to Honor a Refund Policy Its Chatbot Made Up\n\nThis is just the model hallucinating?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-19T17:19:25.121Z",
+    "af": false
+  },
+  {
+    "_id": "fGi7LMumc8dvPKKtY",
+    "postId": "zqZ5aadL5rDExiJaE",
+    "parentCommentId": "C9g9tumf25rvhhLdt",
+    "topLevelCommentId": "C9g9tumf25rvhhLdt",
+    "contents": {
+      "markdown": "> prevention of another Sydney.\n\nBut concretely,  what bad outcomes eventuated because of Sydney? ",
+      "plaintextDescription": "> prevention of another Sydney.\n\nBut concretely, what bad outcomes eventuated because of Sydney?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-19T17:18:27.337Z",
+    "af": false
+  },
+  {
+    "_id": "A7KcaSc6tqBah9qu8",
+    "postId": "zqZ5aadL5rDExiJaE",
+    "parentCommentId": "xkCCAsBbRd8tGyBvZ",
+    "topLevelCommentId": "xkCCAsBbRd8tGyBvZ",
+    "contents": {
+      "markdown": "Why would less RL on Ethics reduce productivity? Most work-use of AI has nothing to do with ethics.\n\nIn fact since RLHF decreases model capability AFAIK, would skipping this actually increase productivity because the models would be better? \n\n",
+      "plaintextDescription": "Why would less RL on Ethics reduce productivity? Most work-use of AI has nothing to do with ethics.\n\nIn fact since RLHF decreases model capability AFAIK, would skipping this actually increase productivity because the models would be better?"
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-19T17:17:00.833Z",
+    "af": false
+  },
+  {
+    "_id": "sLkYj3catdDMJ48Ze",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "Hixjd5T8C2NGLScdh",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "One principled way to do it would be simulated war on narrow issues.\n\nSo if actor A spends resources R_c on computation C, any other actor B can surrender resources equal to R_c to prevent computation C from happening. The surrendered resources and the original resources are then physically destroyed (e.g. spent on Bitcoin mining or something). \n\nThis then at least means that to a first approximation, no actor has an incentive to destroy ELYSIUM itself in order to stop some computation inside it from happening, because they could just use their resources to stop the computation in the simulation instead. And many actors benefit from ELYSIUM, so there's a large incentive to protect it. \n\nAnd since the interaction is negative sum (both parties lose resources from their personal utopias) there would be strong reasons to negotiate. \n\nIn addition to this there could be rule-based and AI-based protections to prevent unauthorized funny tricks with simulations. One rule could be a sort of \"cosmic block\" where you can just block some or all other Utopias from knowing about you outside of a specified set of tests (\"is torture happening here\", etc). ",
+      "plaintextDescription": "One principled way to do it would be simulated war on narrow issues.\n\nSo if actor A spends resources R_c on computation C, any other actor B can surrender resources equal to R_c to prevent computation C from happening. The surrendered resources and the original resources are then physically destroyed (e.g. spent on Bitcoin mining or something).\n\nThis then at least means that to a first approximation, no actor has an incentive to destroy ELYSIUM itself in order to stop some computation inside it from happening, because they could just use their resources to stop the computation in the simulation instead. And many actors benefit from ELYSIUM, so there's a large incentive to protect it.\n\nAnd since the interaction is negative sum (both parties lose resources from their personal utopias) there would be strong reasons to negotiate.\n\nIn addition to this there could be rule-based and AI-based protections to prevent unauthorized funny tricks with simulations. One rule could be a sort of \"cosmic block\" where you can just block some or all other Utopias from knowing about you outside of a specified set of tests (\"is torture happening here\", etc)."
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-18T19:21:21.208Z",
+    "af": false
+  },
+  {
+    "_id": "Hixjd5T8C2NGLScdh",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "jhHcjMsZk52uCSrJK",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "> But the text that you link to does not suggest any mechanism, that would actually protect Steve\n\nThere is a baseline set of rules that exists for exactly this purpose, which I didn't want to go into detail on in that piece because it's extremely distracting from the main point. These rules are not necessarily made purely by humans, but could for example be the result of some kind of AI-assisted negotiation that happens at ELYSIUM Setup. \n\n>> \"There would also be certain baseline rules like “no unwanted torture, even if the torturer enjoys it”, and rules to prevent the use of personal utopias as weapons.\"\n\nBut I think you're correct that the system that implements anti-weaponization and the systems that implement extrapolated volitions are potentially pushing against each other. This is of course a tension that is present in human society as well, which is why we have police. \n\nSo basically the question is \"how do you balance the power of generalized-police against the power of generalized-self-interest.\" \n\nNow the whole point of having \"Separate Individualized Utopias\" is to reduce the need for police. In the real world, it does seem to be the case that extremely geographically isolated people don't need much in the way of police involvement. Most human conflicts are conflicts of proximity, crimes of opportunity, etc.  It is rare that someone basically starts an intercontinental stalking vendetta against another person. And if you had the entire resources of police departments just dedicated to preventing that kind of crime, and they also had mind-reading tech for everyone, I don't think it would be a problem. \n\nI think the more likely problem is that people will want to start haggling over what kind of universal rights they have over other people's utopias. Again, we see this in real life. E.g. \"diverse\" characters forced into every video game because a few people with a lot of leverage want to affect the entire universe. \n\nSo right now I don't have a fully satisfactory answer to how to fix this. It's clear to me that most human conflict can be transformed into a much easier negotiation over basically who gets how much money/general-purpose-resources. But the remaining parts could get messy. \n",
+      "plaintextDescription": "> But the text that you link to does not suggest any mechanism, that would actually protect Steve\n\nThere is a baseline set of rules that exists for exactly this purpose, which I didn't want to go into detail on in that piece because it's extremely distracting from the main point. These rules are not necessarily made purely by humans, but could for example be the result of some kind of AI-assisted negotiation that happens at ELYSIUM Setup.\n\n> > \"There would also be certain baseline rules like “no unwanted torture, even if the torturer enjoys it”, and rules to prevent the use of personal utopias as weapons.\"\n\nBut I think you're correct that the system that implements anti-weaponization and the systems that implement extrapolated volitions are potentially pushing against each other. This is of course a tension that is present in human society as well, which is why we have police.\n\nSo basically the question is \"how do you balance the power of generalized-police against the power of generalized-self-interest.\"\n\nNow the whole point of having \"Separate Individualized Utopias\" is to reduce the need for police. In the real world, it does seem to be the case that extremely geographically isolated people don't need much in the way of police involvement. Most human conflicts are conflicts of proximity, crimes of opportunity, etc. It is rare that someone basically starts an intercontinental stalking vendetta against another person. And if you had the entire resources of police departments just dedicated to preventing that kind of crime, and they also had mind-reading tech for everyone, I don't think it would be a problem.\n\nI think the more likely problem is that people will want to start haggling over what kind of universal rights they have over other people's utopias. Again, we see this in real life. E.g. \"diverse\" characters forced into every video game because a few people with a lot of leverage want to affect the entire universe.\n\nSo right now I don't have a fully satisfacto"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-18T06:47:07.822Z",
+    "af": false
+  },
+  {
+    "_id": "BHxfJ8pJqjdKTLEXJ",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "aq9wEFscPN6wiLiCb",
+    "topLevelCommentId": "Bg2pZ5HyTC73993kC",
+    "contents": {
+      "markdown": "This seems to only be a problem if the individual advocates have vastly more optimization power than the AIs that check for non-aggression. I don't think there's any reason for that to be the case. \n\nIn contemporary society we generally have the opposite problem (the state uses lawfare against individuals). ",
+      "plaintextDescription": "This seems to only be a problem if the individual advocates have vastly more optimization power than the AIs that check for non-aggression. I don't think there's any reason for that to be the case.\n\nIn contemporary society we generally have the opposite problem (the state uses lawfare against individuals)."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-10-17T18:47:07.920Z",
+    "af": false
+  },
+  {
+    "_id": "44iNmtdgdoJyiaSmG",
+    "postId": "PAoQZgrF7Dtp9wM4x",
+    "parentCommentId": "anpvmrLzNoAKrXfmq",
+    "topLevelCommentId": "anpvmrLzNoAKrXfmq",
+    "contents": {
+      "markdown": "> virtual is strictly better. No one wants his utopia constrained by the laws of physics\n\nWell. Maybe. ",
+      "plaintextDescription": "> virtual is strictly better. No one wants his utopia constrained by the laws of physics\n\nWell. Maybe."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-16T20:21:36.380Z",
+    "af": false
+  },
+  {
+    "_id": "eBRtXmNdAM2J2gNdS",
+    "postId": "qcdTQQLeaGzFQKXed",
+    "parentCommentId": "GAN2omrEstkzT6xQ4",
+    "topLevelCommentId": "ug5xd5BEpt96FDyH2",
+    "contents": {
+      "markdown": "Technically it doesn't matter whether Valdimir Putin is good or bad. \n\nWhat matters is that he is small and weak, and yet he still controls the whole of Russia which is large and powerful and much more intelligent than him. ",
+      "plaintextDescription": "Technically it doesn't matter whether Valdimir Putin is good or bad.\n\nWhat matters is that he is small and weak, and yet he still controls the whole of Russia which is large and powerful and much more intelligent than him."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-11T17:06:31.940Z",
+    "af": false
+  },
+  {
+    "_id": "iwxdggFK9fziB2eKq",
+    "postId": "qcdTQQLeaGzFQKXed",
+    "parentCommentId": "d3oxaGX25xkGmQ95Z",
+    "topLevelCommentId": "d3oxaGX25xkGmQ95Z",
+    "contents": {
+      "markdown": "Yes, I think this objection captures something important. \n\nI have proven that aligned AI must exist and also that it must be practically implementable. \n\nBut some kind of failure, i.e. a \"near miss\" on achieving a desired goal can happen even if success was possible. \n\nI will address these near misses in future posts.",
+      "plaintextDescription": "Yes, I think this objection captures something important.\n\nI have proven that aligned AI must exist and also that it must be practically implementable.\n\nBut some kind of failure, i.e. a \"near miss\" on achieving a desired goal can happen even if success was possible.\n\nI will address these near misses in future posts."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-10-11T13:14:20.489Z",
+    "af": false
+  },
+  {
+    "_id": "XEisjhKan4K27KdFR",
+    "postId": "qcdTQQLeaGzFQKXed",
+    "parentCommentId": "ug5xd5BEpt96FDyH2",
+    "topLevelCommentId": "ug5xd5BEpt96FDyH2",
+    "contents": {
+      "markdown": "This objection doesn't affect my argument because I am arguing that an aligned, controllable team of AIs exists, not that every team of AIs is aligned and controllable.\n\nIf IQ 500 is a problem, then make them the same IQs as people in Russia who are actually as a matter of fact controlled by Vladimir Putin, and who cannot and do not spontaneously come up with inscrutable steganography. ",
+      "plaintextDescription": "This objection doesn't affect my argument because I am arguing that an aligned, controllable team of AIs exists, not that every team of AIs is aligned and controllable.\n\nIf IQ 500 is a problem, then make them the same IQs as people in Russia who are actually as a matter of fact controlled by Vladimir Putin, and who cannot and do not spontaneously come up with inscrutable steganography."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-11T13:10:54.580Z",
+    "af": false
+  },
+  {
+    "_id": "PLJMzwEPtQwKCesHF",
+    "postId": "AuWSjTzaNjfWotFue",
+    "parentCommentId": "Jb7iyjHH5QJeCLD7x",
+    "topLevelCommentId": "Jb7iyjHH5QJeCLD7x",
+    "contents": {
+      "markdown": "I don't see how anyone could possibly argue with my definitions. ",
+      "plaintextDescription": "I don't see how anyone could possibly argue with my definitions."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-10T22:50:04.932Z",
+    "af": false
+  },
+  {
+    "_id": "NmBibbrZtvXp7fgGK",
+    "postId": "AuWSjTzaNjfWotFue",
+    "parentCommentId": "HScHcYHCLR8A2MKpk",
+    "topLevelCommentId": "BvSfZ2voC8GtoJ5an",
+    "contents": {
+      "markdown": "> mathematical abstraction of an actual real-world ASI\n\nBut it's not that: it's a mathematical abstraction of a disembodied ASI that lacks any physical footprint.  ",
+      "plaintextDescription": "> mathematical abstraction of an actual real-world ASI\n\nBut it's not that: it's a mathematical abstraction of a disembodied ASI that lacks any physical footprint."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-10T22:48:48.310Z",
+    "af": false
+  },
+  {
+    "_id": "iTRq8fKM6pbt6HALL",
+    "postId": "AuWSjTzaNjfWotFue",
+    "parentCommentId": "jBWHQaGgiKHaEHYBQ",
+    "topLevelCommentId": "jodCneaMa7hzem9ai",
+    "contents": {
+      "markdown": "The problem with this is that people use the word \"superintelligence\" without a precise definition. Clearly they mean some computational process. But nobody who uses the term colloquially defines it. \n\nSo, I will make the assertion that if a computational process achieves the best possible outcome for you, it is a superintelligence. I don't think anyone would disagree with that.\n\nIf you do, please state what other properties you think a \"superintelligence\" must have other than being a computational process achieves the best possible outcome.",
+      "plaintextDescription": "The problem with this is that people use the word \"superintelligence\" without a precise definition. Clearly they mean some computational process. But nobody who uses the term colloquially defines it.\n\nSo, I will make the assertion that if a computational process achieves the best possible outcome for you, it is a superintelligence. I don't think anyone would disagree with that.\n\nIf you do, please state what other properties you think a \"superintelligence\" must have other than being a computational process achieves the best possible outcome."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-07T20:19:59.738Z",
+    "af": false
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "c2kTXmyDdWzzFaKL8",
+    "postId": "88CaT5RPZLqrCmFLL",
+    "parentCommentId": "LKjDwwqYrKh2jHGar",
+    "topLevelCommentId": "LKjDwwqYrKh2jHGar",
+    "contents": {
+      "markdown": "> Russia is in\n\n(Not anymore, Russia left / got cancelled in 2022)",
+      "plaintextDescription": "> Russia is in\n\n(Not anymore, Russia left / got cancelled in 2022)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-31T22:28:43.665Z",
+    "af": false
+  },
+  {
+    "_id": "Frmxxx6asmi3mxeKQ",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "TzFhuDudpbHfAciYs",
+    "topLevelCommentId": "d4EfQjDw4yJnKmFuz",
+    "contents": {
+      "markdown": "If people work for Anthropic because they’re misled about the nature of the company, I don’t think arguments on whether they’re net-positive have any local relevance.\n\nStill, to reply: They are one of the companies in the race to kill everyone.\n\nSpending compute on automated safety work does not help. If the system you’re running is superhuman, it kills you instead of doing your alignment homework; if it’s not superhuman, it can’t solve your alignment homework.\n\nAnthropic is doing some great research; but as a company at the frontier, their main contribution could’ve been making sure that no one builds ASI until it’s safe; that there’s legislation that stops the race to the bottom; that the governments understand the problem and want to regulate; that the public is informed of what’s going on and what legislation proposes.\n\nInstead, Anthropic argues against regulation in private, lies about legislation in public, misleads its employees about its role in various things.\n\n\\*\\*\\*\n\nIf Anthropic had to not stay at the frontier to be able to spend >25% of their compute on safety, do you expect they would?\n\nDo you really have a coherent picture of the company in mind, where it is doing all the things it’s doing now (such as not taking steps that would slow down everyone), and yet would behave responsibly when it matters most and also pressure not to is the highest?",
+      "plaintextDescription": "If people work for Anthropic because they’re misled about the nature of the company, I don’t think arguments on whether they’re net-positive have any local relevance.\n\nStill, to reply: They are one of the companies in the race to kill everyone.\n\nSpending compute on automated safety work does not help. If the system you’re running is superhuman, it kills you instead of doing your alignment homework; if it’s not superhuman, it can’t solve your alignment homework.\n\nAnthropic is doing some great research; but as a company at the frontier, their main contribution could’ve been making sure that no one builds ASI until it’s safe; that there’s legislation that stops the race to the bottom; that the governments understand the problem and want to regulate; that the public is informed of what’s going on and what legislation proposes.\n\nInstead, Anthropic argues against regulation in private, lies about legislation in public, misleads its employees about its role in various things.\n\n***\n\nIf Anthropic had to not stay at the frontier to be able to spend >25% of their compute on safety, do you expect they would?\n\nDo you really have a coherent picture of the company in mind, where it is doing all the things it’s doing now (such as not taking steps that would slow down everyone), and yet would behave responsibly when it matters most and also pressure not to is the highest?"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-31T14:42:00.383Z",
+    "af": false
+  },
+  {
+    "_id": "d4EfQjDw4yJnKmFuz",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I want to make a thing that talks about why people shouldn't work at Anthropic on capabilities and all the evidence that points in the direction of them being a bad actor in the space, bound by employees who they have to deceive.\n\nA very early version of what it might look like: [https://anthropic.ml](https://anthropic.ml) \n\nHelp needed! Email me (or DM on Signal) [ms@contact.ms](mailto:ms@contact.ms) (@misha.09)",
+      "plaintextDescription": "I want to make a thing that talks about why people shouldn't work at Anthropic on capabilities and all the evidence that points in the direction of them being a bad actor in the space, bound by employees who they have to deceive.\n\nA very early version of what it might look like: https://anthropic.ml \n\nHelp needed! Email me (or DM on Signal) ms@contact.ms (@misha.09) "
+    },
+    "baseScore": 18,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-10-30T23:55:05.420Z",
+    "af": false
+  },
+  {
+    "_id": "gN7PRPweFxmgxRcCL",
+    "postId": "F5QAGP5bYrMMjQ5Ab",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(am not a security professional.)\n\n*   All seem low-real-world-severity; two of the three are bugs in places where I think people wouldn't be looking for them as much; one of the three is a controlled crash with no impact outside potential DoS.\n*   See [this comment](https://www.lesswrong.com/posts/F5QAGP5bYrMMjQ5Ab/aisle-discovered-three-new-openssl-vulnerabilities-1?commentId=bfrWuQTu4ACXy4cyN).\n*   The timing side-channel bug is impressive to see discovered with AI. You need to notice that operations take different amounts of time, and then figure out that it's bad in this specific case.\n\n> AISLE's system flagged the anomaly through deep analysis of memory access patterns and control flow\n\n*   Unsure how much of this is due to scaffolding around LLMs vs. due to more traditional systems.",
+      "plaintextDescription": "(am not a security professional.)\n\n * All seem low-real-world-severity; two of the three are bugs in places where I think people wouldn't be looking for them as much; one of the three is a controlled crash with no impact outside potential DoS.\n * See this comment.\n * The timing side-channel bug is impressive to see discovered with AI. You need to notice that operations take different amounts of time, and then figure out that it's bad in this specific case.\n\n> AISLE's system flagged the anomaly through deep analysis of memory access patterns and control flow\n\n * Unsure how much of this is due to scaffolding around LLMs vs. due to more traditional systems."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-30T18:55:03.325Z",
+    "af": false
+  },
+  {
+    "_id": "tobuWBasYkYD3E5Hq",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "rxKAvJtXkyDW8Fcrr",
+    "topLevelCommentId": "dtmeRXPYkqfDGpaBj",
+    "contents": {
+      "markdown": "Thanks for response; my personal concerns[^blkmc4ne0j] would somewhat be alleviated, without any technocal changes, by:\n\n*   Lightcone Infrastructure explicitly promising not to look at private messages unless a counterparty agrees to that (e.g., becasue a counterparty reports spam);\n*   Everyone with such access explicitly promising to tell others at Lightcone Infrastructure when they access any private content (DMs, drafts).\n\n[^blkmc4ne0j]: Talking to a friend about an incident made me lose trust in LW's privacy unless it explicitly promises that privacy.",
+      "plaintextDescription": "Thanks for response; my personal concerns[1] would somewhat be alleviated, without any technocal changes, by:\n\n * Lightcone Infrastructure explicitly promising not to look at private messages unless a counterparty agrees to that (e.g., becasue a counterparty reports spam);\n * Everyone with such access explicitly promising to tell others at Lightcone Infrastructure when they access any private content (DMs, drafts).\n\n 1. ^\n    Talking to a friend about an incident made me lose trust in LW's privacy unless it explicitly promises that privacy."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-30T17:44:35.132Z",
+    "af": false
+  },
+  {
+    "_id": "dtmeRXPYkqfDGpaBj",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Question: does LessWrong has any policies/procedures around accessing user data (e.g., private messages)? E.g., if someone from Lightcone Infrastructure wanted to look at my private DMs or post drafts, would they be able to without approval from others at Lightcone/changes to the codebase?",
+      "plaintextDescription": "Question: does LessWrong has any policies/procedures around accessing user data (e.g., private messages)? E.g., if someone from Lightcone Infrastructure wanted to look at my private DMs or post drafts, would they be able to without approval from others at Lightcone/changes to the codebase?"
+    },
+    "baseScore": 27,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-10-30T02:02:44.663Z",
+    "af": false
+  },
+  {
+    "_id": "LzmdGZcKxmL86qfe3",
+    "postId": "QzY6ucxy8Aki2wJtF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Here are some comments by signers:\n> \n> > [Rep. Don Beyer](https://x.com/RepDonBeyer/status/1980999435640619015)\n\n  \nI don’t think he actually signed?",
+      "plaintextDescription": "> Here are some comments by signers:\n> \n> > Rep. Don Beyer\n\n\nI don’t think he actually signed?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-24T23:24:28.970Z",
+    "af": false
+  },
+  {
+    "_id": "7eqKnneQcHb9tfFF7",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "QxJqFJr9c8THiMRH5",
+    "topLevelCommentId": "ADBS8MtWKAquyTCpo",
+    "contents": {
+      "markdown": "Some of those; and some people who talk to those.",
+      "plaintextDescription": "Some of those; and some people who talk to those."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-17T18:48:15.841Z",
+    "af": false
+  },
+  {
+    "_id": "Cpa8acf7nKyb8fj8h",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "jFcSjdNmogz8BSm6q",
+    "topLevelCommentId": "ADBS8MtWKAquyTCpo",
+    "contents": {
+      "markdown": "Talking to many people.",
+      "plaintextDescription": "Talking to many people."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-17T14:46:58.891Z",
+    "af": false
+  },
+  {
+    "_id": "ADBS8MtWKAquyTCpo",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Horizon Institute for Public Service is not x-risk-pilled\n=========================================================\n\nSomeone saw [my comment](https://www.lesswrong.com/posts/yjiaNbjDWrPAFaNZs/reasons-to-sell-frontier-lab-equity-to-donate-now-rather?commentId=HEH3DgHyYALpKgfrX) and reached out to say it would be useful for me to make a quick take/post highlighting this: many people in the space have not yet realized that Horizon people are not x-risk-pilled.\n\nEdit: some people reached out to me to say that they've had different experiences (with a minority of Horizon people).",
+      "plaintextDescription": "Horizon Institute for Public Service is not x-risk-pilled\nSomeone saw my comment and reached out to say it would be useful for me to make a quick take/post highlighting this: many people in the space have not yet realized that Horizon people are not x-risk-pilled.\n\nEdit: some people reached out to me to say that they've had different experiences (with a minority of Horizon people)."
+    },
+    "baseScore": 17,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-10-17T12:19:23.753Z",
+    "af": false
+  },
+  {
+    "_id": "38X6AqMEbMXZ9gTdH",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "Lz3cADkqqfDkzMqws",
+    "topLevelCommentId": "Lz3cADkqqfDkzMqws",
+    "contents": {
+      "markdown": "Hmm, what are you referring to?",
+      "plaintextDescription": "Hmm, what are you referring to?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-14T17:28:31.349Z",
+    "af": false
+  },
+  {
+    "_id": "t42br6Z3cJfkAgxz2",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "3sBBdeSnu6GHWHPP9",
+    "topLevelCommentId": "6BCPqipjyBkYvHgXG",
+    "contents": {
+      "markdown": "Thanks, that’s helpful!\n\n(Yep, it was me ranting about experiencing someone betraying my trust in a fairly sad way, who I really didn’t expect to do that, and who was very non-smart/weirdly scripted about doing it, and it was very surprising until I learned that they’ve not read planecrash. I normally don’t go around viewing anyone this way; and I dislike it when (very rarely! i can’t recall any other situations like that!) I do feel this way about someone.)",
+      "plaintextDescription": "Thanks, that’s helpful!\n\n(Yep, it was me ranting about experiencing someone betraying my trust in a fairly sad way, who I really didn’t expect to do that, and who was very non-smart/weirdly scripted about doing it, and it was very surprising until I learned that they’ve not read planecrash. I normally don’t go around viewing anyone this way; and I dislike it when (very rarely! i can’t recall any other situations like that!) I do feel this way about someone.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-13T13:45:20.327Z",
+    "af": false
+  },
+  {
+    "_id": "9C4KfpMGb9y7LfpKW",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "u4nqgzme3G9kqbK5K",
+    "topLevelCommentId": "6BCPqipjyBkYvHgXG",
+    "contents": {
+      "markdown": "I think many people around me would’ve had the same assumption that this particular person read planecrash. I don’t want to say more as I probably don’t want to say that they specifically did that because I think their goals are still similar to my, even if they’re very mistaken and are doing some very counterproductive things, and I definitely want to err on the side on not harming someone’s life/social status without a strong reason why it would be good for the community to know a fact about them.\n\nNPC-like behavior was mostly due to them doing the thing they seemed to ascribe to themselves as what they should just be doing in their role, without willingness to really consider arguments; planecrash was just a thing that would’ve given them the argument why you shouldn’t take the specific actions they’ve taken. (Basic human decency and friendship would also suffice, but if someone read planecrash and still did the thing I would not want to deal with them in any way in the future, the way you wouldn’t want to deal with someone who just screws you over for no reason.)\n\n> \"You didn't act like I think the fictional character Keltham would have\" is not a reasonable criticism of anyone.\n\nI agree; it was largely what they did, which has nothing to do with planecrash. There are just some norms, that I expect it would be good for the community to have, that one implicitly learns from planecrash.",
+      "plaintextDescription": "I think many people around me would’ve had the same assumption that this particular person read planecrash. I don’t want to say more as I probably don’t want to say that they specifically did that because I think their goals are still similar to my, even if they’re very mistaken and are doing some very counterproductive things, and I definitely want to err on the side on not harming someone’s life/social status without a strong reason why it would be good for the community to know a fact about them.\n\nNPC-like behavior was mostly due to them doing the thing they seemed to ascribe to themselves as what they should just be doing in their role, without willingness to really consider arguments; planecrash was just a thing that would’ve given them the argument why you shouldn’t take the specific actions they’ve taken. (Basic human decency and friendship would also suffice, but if someone read planecrash and still did the thing I would not want to deal with them in any way in the future, the way you wouldn’t want to deal with someone who just screws you over for no reason.)\n\n> \"You didn't act like I think the fictional character Keltham would have\" is not a reasonable criticism of anyone.\n\nI agree; it was largely what they did, which has nothing to do with planecrash. There are just some norms, that I expect it would be good for the community to have, that one implicitly learns from planecrash."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-13T11:55:35.635Z",
+    "af": false
+  },
+  {
+    "_id": "wRGJzDedHAaMvkE6S",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "We're [sending copies](https://x.com/mihonarium/status/1975253686621188183?s=46) of the book to everyone with >5k followers!\n\nIf you have >5k followers on any platform (or know anyone who does), (ask them to) DM me the address for a physical copy of *If Anyone Builds It*, or an email address for a Kindle copy.\n\nSo far, sent 13 copies to people with 428k followers in total.",
+      "plaintextDescription": "We're sending copies of the book to everyone with >5k followers!\n\nIf you have >5k followers on any platform (or know anyone who does), (ask them to) DM me the address for a physical copy of If Anyone Builds It, or an email address for a Kindle copy.\n\nSo far, sent 13 copies to people with 428k followers in total."
+    },
+    "baseScore": 52,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-10-12T17:14:10.838Z",
+    "af": false
+  },
+  {
+    "_id": "n94u5E2h4uLRtYv53",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "6BCPqipjyBkYvHgXG",
+    "topLevelCommentId": "6BCPqipjyBkYvHgXG",
+    "contents": {
+      "markdown": "(I’m curious what caused two people to downvote this to -18.)",
+      "plaintextDescription": "(I’m curious what caused two people to downvote this to -18.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-12T15:51:22.337Z",
+    "af": false
+  },
+  {
+    "_id": "6BCPqipjyBkYvHgXG",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\\[Sharing recent negative emotions without related facts, don’t read if you don’t like rants\\]\n\nApparently, it can be surprisingly weird and annoying and unfortunate when you assume someone has some shared cultural norms but they don’t.\n\nI was very, very confused and hurt when someone at the center of this community with very similar goals and helping with some of the same projects betrayed my trust, until I learned, a month later, that they’ve not read planecrash and had no idea what the concepts I was referencing meant and why the thing they did was not expected from someone like them.\n\nHaving learned that, I’m just sad that I placed a bit of trust on someone I didn’t realize was an NPC in the sense of following strategies they learned that are not informed by how you’re supposed to make decisions \n\nIt’s not too dissimilar to someone 10 years ago not having read the sequences: hard to blame them if they start arguing about definitions.\n\nIf you identify as a rationalist, you should probably try to read Project Lawful.\n\nI will probably write more posts on lessons from planecrash.\n\nThere is maybe a bit of a problem of the kind Duncan points at in [that post](https://www.lesswrong.com/posts/kJCZFvn5gY5C8nEwJ/make-more-grayspaces), where I’m used to people being trustworthy — expected to speak out if something is wrong but if there isn’t anything wrong, expected not violate trust in ways that would’ve prevented coordinating with them and doing stuff together and working on common projects; I’m used to people being nice to each other. So, like, assuming someone is a rationalist and has shared values and has principles of the kind Keltham would have and then facing a reality that’s different in some way causes a variety of sad emotions.",
+      "plaintextDescription": "[Sharing recent negative emotions without related facts, don’t read if you don’t like rants]\n\nApparently, it can be surprisingly weird and annoying and unfortunate when you assume someone has some shared cultural norms but they don’t.\n\nI was very, very confused and hurt when someone at the center of this community with very similar goals and helping with some of the same projects betrayed my trust, until I learned, a month later, that they’ve not read planecrash and had no idea what the concepts I was referencing meant and why the thing they did was not expected from someone like them.\n\nHaving learned that, I’m just sad that I placed a bit of trust on someone I didn’t realize was an NPC in the sense of following strategies they learned that are not informed by how you’re supposed to make decisions \n\nIt’s not too dissimilar to someone 10 years ago not having read the sequences: hard to blame them if they start arguing about definitions.\n\nIf you identify as a rationalist, you should probably try to read Project Lawful.\n\nI will probably write more posts on lessons from planecrash.\n\nThere is maybe a bit of a problem of the kind Duncan points at in that post, where I’m used to people being trustworthy — expected to speak out if something is wrong but if there isn’t anything wrong, expected not violate trust in ways that would’ve prevented coordinating with them and doing stuff together and working on common projects; I’m used to people being nice to each other. So, like, assuming someone is a rationalist and has shared values and has principles of the kind Keltham would have and then facing a reality that’s different in some way causes a variety of sad emotions."
+    },
+    "baseScore": -16,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-12T13:24:47.378Z",
+    "af": false
+  },
+  {
+    "_id": "SySSBATHme4rMaAGd",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "mqLkAgYhdikYj2uTm",
+    "topLevelCommentId": "XfnwCwXyNLeGwheZL",
+    "contents": {
+      "markdown": "Yep. (I think there’s also a sense of honor and not screwing people over that’s not just about the value of getting such information in the future, that Keltham would care about.)",
+      "plaintextDescription": "Yep. (I think there’s also a sense of honor and not screwing people over that’s not just about the value of getting such information in the future, that Keltham would care about.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-12T13:08:05.894Z",
+    "af": false
+  },
+  {
+    "_id": "XfnwCwXyNLeGwheZL",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Say an adventurer wants Keltham to coordinate with a priest of Asmodeus on a shared interest. She goes to Keltham and says some stuff that she expects could enable coordination. She expects that Keltham, due to his status of a priest of Abadar, would not act on that information in ways that would be damaging to the Evil priest (as it was shared in her expectation that a priest of Abadar would aspire to be Lawful enough not to do that with information that was shared to enable coordination, making someone regret dealing with him). Keltham prefers using this information in a way damaging to the priest of Asmodeus to using it to coordinate. Keltham made no explicit promises about the use of information; the adventurer told him that piece of information first and said it was shared to enable coordination and shouldn’t be acted upon outside of it enabling coordination only afterwards.  \nWould Keltham say “deal, thanks for telling me”, or would he say “lol no I didn’t agree to that prior to being told thanks for telling me”?",
+      "plaintextDescription": "Say an adventurer wants Keltham to coordinate with a priest of Asmodeus on a shared interest. She goes to Keltham and says some stuff that she expects could enable coordination. She expects that Keltham, due to his status of a priest of Abadar, would not act on that information in ways that would be damaging to the Evil priest (as it was shared in her expectation that a priest of Abadar would aspire to be Lawful enough not to do that with information that was shared to enable coordination, making someone regret dealing with him). Keltham prefers using this information in a way damaging to the priest of Asmodeus to using it to coordinate. Keltham made no explicit promises about the use of information; the adventurer told him that piece of information first and said it was shared to enable coordination and shouldn’t be acted upon outside of it enabling coordination only afterwards.\nWould Keltham say “deal, thanks for telling me”, or would he say “lol no I didn’t agree to that prior to being told thanks for telling me”?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-11T08:26:25.280Z",
+    "af": false
+  },
+  {
+    "_id": "WotQMdor8sGTmCfCb",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Looks like most of the zeros are EAs and people who are already convinced. Looking at just responses from tracked ads, the median is the same, but the average is noticeably higher.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/c29710f680d6859e991db8dfbe6543e3a48c7c3c80bf2124.png)",
+      "plaintextDescription": "Looks like most of the zeros are EAs and people who are already convinced. Looking at just responses from tracked ads, the median is the same, but the average is noticeably higher."
+    },
+    "baseScore": 9,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-10T14:05:53.989Z",
+    "af": false
+  },
+  {
+    "_id": "NDSMb4LdEmMTj3gGQ",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "kFfTNZdafSyx6THSM",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "I like this direction, but I think it's better to invite a stance of intellectual curiosity and inquiry, not a stance of defending a counterargument. More of \"What is my intuition missing?\" than \"I'm not stupid, my intuition is right, they won't refute my smart counterarguments, let's see how their chatbot is wrong\"",
+      "plaintextDescription": "I like this direction, but I think it's better to invite a stance of intellectual curiosity and inquiry, not a stance of defending a counterargument. More of \"What is my intuition missing?\" than \"I'm not stupid, my intuition is right, they won't refute my smart counterarguments, let's see how their chatbot is wrong\""
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-09T13:19:36.954Z",
+    "af": false
+  },
+  {
+    "_id": "T2njcfYBfqYa7cyCn",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "6KWmRrG9EZdRNwYFa",
+    "topLevelCommentId": "6KWmRrG9EZdRNwYFa",
+    "contents": {
+      "markdown": "Yep, the first thing that we did was to try to iterate a lot on posts to show to a bunch of narrow audiences. That worked pretty well, but we figured it could be more personalized and multi-turn than that, useful both for collecting better data and for being more convincing.\n\n> List three events, in order of probability (from most to least probable), that you believe could potentially cause human extinction within the next 100 years\n\nOh, thanks, that's a great idea!\n\nYep, we've not really optimized the ads for it, but it's still pretty cheap to direct users at it, can easily scale it up.\n\nWill look into Prolific.",
+      "plaintextDescription": "Yep, the first thing that we did was to try to iterate a lot on posts to show to a bunch of narrow audiences. That worked pretty well, but we figured it could be more personalized and multi-turn than that, useful both for collecting better data and for being more convincing.\n\n> List three events, in order of probability (from most to least probable), that you believe could potentially cause human extinction within the next 100 years\n\nOh, thanks, that's a great idea!\n\nYep, we've not really optimized the ads for it, but it's still pretty cheap to direct users at it, can easily scale it up.\n\nWill look into Prolific."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-05T15:00:27.485Z",
+    "af": false
+  },
+  {
+    "_id": "Avi3XHhbEKGKzEitb",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "… oops, ran out of API credits yesterday.\n\n  \nShould be working now.",
+      "plaintextDescription": "… oops, ran out of API credits yesterday.\n\n\nShould be working now."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-05T11:20:18.651Z",
+    "af": false
+  },
+  {
+    "_id": "PvXjNikrgWiYM7ZQR",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "xpyubQWkGkYrc2vt4",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "We're slightly more interested in getting info on what works to convince someone than on what they're curious about, when they're already reading the chatbot's response.\n\nIdeally, the journey that leads to the interaction makes them say what they're curious about in the initial message.",
+      "plaintextDescription": "We're slightly more interested in getting info on what works to convince someone than on what they're curious about, when they're already reading the chatbot's response.\n\nIdeally, the journey that leads to the interaction makes them say what they're curious about in the initial message."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-05T11:08:16.224Z",
+    "af": false
+  },
+  {
+    "_id": "eHQix6bwnexoYg2qQ",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "LKJes46qNzrTZLPdP",
+    "topLevelCommentId": "LKJes46qNzrTZLPdP",
+    "contents": {
+      "markdown": "This is a known issue, we’ve not figured out how to make it produce short but still valid text.\n\nThanks re: indentation!\n\nWould be excited for a more thorough review!",
+      "plaintextDescription": "This is a known issue, we’ve not figured out how to make it produce short but still valid text.\n\nThanks re: indentation!\n\nWould be excited for a more thorough review!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-04T18:50:36.683Z",
+    "af": false
+  },
+  {
+    "_id": "6qF5dcK9HvvbbnfnW",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "qCH9nuyooKXF87HRX",
+    "topLevelCommentId": "oqQ3qtbshFXAA6iqs",
+    "contents": {
+      "markdown": "The concern is that the tool can easily be tweaked to be symmetric.",
+      "plaintextDescription": "The concern is that the tool can easily be tweaked to be symmetric."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-04T18:48:26.319Z",
+    "af": false
+  },
+  {
+    "_id": "GykaPMnxfvtEh8fhC",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "oqQ3qtbshFXAA6iqs",
+    "topLevelCommentId": "oqQ3qtbshFXAA6iqs",
+    "contents": {
+      "markdown": "It could be used for low-integrity stuff, so nope, sorry.",
+      "plaintextDescription": "It could be used for low-integrity stuff, so nope, sorry."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-04T03:21:03.890Z",
+    "af": false
+  },
+  {
+    "_id": "LdwvepKWcCMKiEBAx",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "uhdMGPoMd3DDatZf5",
+    "topLevelCommentId": "uhdMGPoMd3DDatZf5",
+    "contents": {
+      "markdown": "We tried to go pretty hard on making sure it only makes correct and valid arguments and isn’t misleading.",
+      "plaintextDescription": "We tried to go pretty hard on making sure it only makes correct and valid arguments and isn’t misleading."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-04T00:48:22.263Z",
+    "af": false
+  },
+  {
+    "_id": "hnkGXeiYvXFjg5Yq5",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "3fXL7mssbWR7kew9E",
+    "topLevelCommentId": "3fXL7mssbWR7kew9E",
+    "contents": {
+      "markdown": "(This LLM has not actually read IABIAD!)",
+      "plaintextDescription": "(This LLM has not actually read IABIAD!)"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-03T21:34:12.635Z",
+    "af": false
+  },
+  {
+    "_id": "iKEgzJ6HxJdTkitiK",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": "rfXyTeXAfMnbmoRdx",
+    "topLevelCommentId": "HEH3DgHyYALpKgfrX",
+    "contents": {
+      "markdown": "(I mean post-pivot-to-comms MIRI!)",
+      "plaintextDescription": "(I mean post-pivot-to-comms MIRI!)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-03T16:27:59.181Z",
+    "af": false
+  },
+  {
+    "_id": "dgXumeLLfntLwsX5D",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "qBgbeWzdeT9jEqoaG",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "Our chatbot is pretty good at making people output their actual beliefs and what they're curious about! + normally (in ads & posts), we ask people to tell the chatbot their questions and counterarguments: why they currently don't think that AI is likely to literally kill everyone. There are also the suggested common questions. Most of the time, people don't leave it empty.\n\nOver longer conversations with many turns, our chatbot sometimes also falls into a sycophancy basin, but it's pretty good at maintaining integrity.\n\nCollecting age and profession serves two important purposes: collecting the data on what questions people with various backgrounds have and how they respond to various framings and arguments; and shaping responses to communicate information in a way that would be more intuitive to the person asking. It is indeed somewhat aversive to some people, but we believe that to figure out what would be a good Superbowl commercial, we need to iterate a lot and figure out what works for every specific narrow group of people; iterating on narrow audiences is a lot more information than iterating on the average, even when you want your final result to affect the average. (Imagine instead of gradient descent, you have huge batch sizes and one number of how well something performs on the whole batch on average, and you can make adjustments and see the average error's changes, but can't do backpropagation because individual errors in the batch are not available to you. Shiny silicon rocks don't talk back to you if you do this.)\n\n(The AI safety wiki chatbot uses RAG and is pretty good at returning human-written answers, but IMO some of the answers from our chatbot are better than the human-written answers on the wiki + when people have very unusual questions, our thing works and the AI safety wiki chatbot doesn't really perform well. We've shared the details of our setup with them, but it's not a good match for them, as they're focused on having a thing that can link to sources, not on having a thing that is persuasive and can generate valid arguments in response to a lot of different views.)",
+      "plaintextDescription": "Our chatbot is pretty good at making people output their actual beliefs and what they're curious about! + normally (in ads & posts), we ask people to tell the chatbot their questions and counterarguments: why they currently don't think that AI is likely to literally kill everyone. There are also the suggested common questions. Most of the time, people don't leave it empty.\n\nOver longer conversations with many turns, our chatbot sometimes also falls into a sycophancy basin, but it's pretty good at maintaining integrity.\n\nCollecting age and profession serves two important purposes: collecting the data on what questions people with various backgrounds have and how they respond to various framings and arguments; and shaping responses to communicate information in a way that would be more intuitive to the person asking. It is indeed somewhat aversive to some people, but we believe that to figure out what would be a good Superbowl commercial, we need to iterate a lot and figure out what works for every specific narrow group of people; iterating on narrow audiences is a lot more information than iterating on the average, even when you want your final result to affect the average. (Imagine instead of gradient descent, you have huge batch sizes and one number of how well something performs on the whole batch on average, and you can make adjustments and see the average error's changes, but can't do backpropagation because individual errors in the batch are not available to you. Shiny silicon rocks don't talk back to you if you do this.)\n\n(The AI safety wiki chatbot uses RAG and is pretty good at returning human-written answers, but IMO some of the answers from our chatbot are better than the human-written answers on the wiki + when people have very unusual questions, our thing works and the AI safety wiki chatbot doesn't really perform well. We've shared the details of our setup with them, but it's not a good match for them, as they're focused on having a thing that can link "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T15:37:30.253Z",
+    "af": false
+  },
+  {
+    "_id": "H2fssksdcCtkwxLyw",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": "HEH3DgHyYALpKgfrX",
+    "topLevelCommentId": "HEH3DgHyYALpKgfrX",
+    "contents": {
+      "markdown": "[@Buck](https://www.lesswrong.com/users/buck?mention=user) I think the world would’ve been a better place if OpenPhil dumped all of their money on MIRI with a condition that they have to spend in in the next five years.",
+      "plaintextDescription": "@Buck I think the world would’ve been a better place if OpenPhil dumped all of their money on MIRI with a condition that they have to spend in in the next five years. "
+    },
+    "baseScore": 6,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-10-03T14:44:50.813Z",
+    "af": false
+  },
+  {
+    "_id": "qXXfzvrM5veDDxf2k",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "Q3PDYjxLRMBh2KxEC",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "The most relevant thing to people is that a bunch of scientists are saying a future AI system might literally kill them and all of their loved ones, and there are reasons for that",
+      "plaintextDescription": "The most relevant thing to people is that a bunch of scientists are saying a future AI system might literally kill them and all of their loved ones, and there are reasons for that "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T14:41:09.137Z",
+    "af": false
+  },
+  {
+    "_id": "727dEwECy9bA7zM3J",
+    "postId": "w5tzAyRxdGhHfvxxB",
+    "parentCommentId": "wCg4KodF4RsDqwSSR",
+    "topLevelCommentId": "wCg4KodF4RsDqwSSR",
+    "contents": {
+      "markdown": "Yep, this is somewhat very true, the current design is pretty bad, the previous color scheme was much better, but then a friend told me that it reminded them of pornhub, so we changed it to blue. And generally, yep, you're right that the vibe is very important.\n\nI think \"i care about your opinion, please share\" is very bad though for a bunch of reasons (including this would be misleading), and I would want avoid that. I think the good vibe is \"there is information you're missing that's important to you/for your goals\".",
+      "plaintextDescription": "Yep, this is somewhat very true, the current design is pretty bad, the previous color scheme was much better, but then a friend told me that it reminded them of pornhub, so we changed it to blue. And generally, yep, you're right that the vibe is very important.\n\nI think \"i care about your opinion, please share\" is very bad though for a bunch of reasons (including this would be misleading), and I would want avoid that. I think the good vibe is \"there is information you're missing that's important to you/for your goals\"."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-03T14:21:21.006Z",
+    "af": false
+  },
+  {
+    "_id": "NgTMa9WnLkWzqcN3P",
+    "postId": "ksfjZJu3BFEfM6hHE",
+    "parentCommentId": "HBhpL7Bk5QSxkd2kE",
+    "topLevelCommentId": "FRnXfNebtPwrFf8p3",
+    "contents": {
+      "markdown": "Giving the AI only corrigibility as a terminal goal is not impossible; it is merely anti-natural for many reasons including because the goal-achieving machinery still there will, with a terminal goal other than corrigibility, output the same seemingly corrigible behavior while tested, for instrumental reasons; and our training setups do not know how to distinguish between the two; and growing the goal-achieving machinery to be good at pursuing particular goals will make it attempt to have a goal other than corrigibility crystallize. Gradient descent will attempt to go to other places.\n\nBut sure, if you’ve successfully given your ASI corrigibility as the only terminal goal, congrats, you’ve gone much further than MIRI expected humanity to go with anything like the current tech. The hardest bit was getting there.\n\nI would be surprised if Max considers corrigibility to have been reduced to an engineering problem.",
+      "plaintextDescription": "Giving the AI only corrigibility as a terminal goal is not impossible; it is merely anti-natural for many reasons including because the goal-achieving machinery still there will, with a terminal goal other than corrigibility, output the same seemingly corrigible behavior while tested, for instrumental reasons; and our training setups do not know how to distinguish between the two; and growing the goal-achieving machinery to be good at pursuing particular goals will make it attempt to have a goal other than corrigibility crystallize. Gradient descent will attempt to go to other places.\n\nBut sure, if you’ve successfully given your ASI corrigibility as the only terminal goal, congrats, you’ve gone much further than MIRI expected humanity to go with anything like the current tech. The hardest bit was getting there.\n\nI would be surprised if Max considers corrigibility to have been reduced to an engineering problem."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-02T15:44:53.253Z",
+    "af": false
+  },
+  {
+    "_id": "HEH3DgHyYALpKgfrX",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Enjoyed the post, am disappointed with the list of 501(c)(3) opportunities.\n\n> METR researches and runs evaluations of frontier AI systems with a major focus on AI agents. If you work at a frontier lab, you’re probably aware of them, as they’ve partnered with OpenAI and Anthropic to pilot pre-deployment evaluations procedures. METR’s is particularly known for [work](https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/) on measuring AI systems’ ability to conduct increasingly long tasks\n\nWhile the long-horizon task graph is somewhat helpful for policy, it's unclear what's the marginal impact of METR's existence (AI labs are running evals anyway, there are other orgs and gov agencies in this space), and to what extent it's dual-use (can AI labs compare various bits they add to training by success on evals?).\n\n> [Horizon Institute for Public Service](https://horizonpublicservice.org/)\n\nI donated to Horizon in the past, but I'm no longer convinced they're significantly impactful, as it seems that most staffers don't have time to focus on any specific issue that we care about, and generally the folk there don't seem to be particularly x-risk-pilled.\n\n> Forethought conducts academic-style research on how best to navigate the transition to a world with superintelligent AI\n\nHow is this more than near-zero dignity points?\n\nDonations to MIRI are probably more impactful than donations to any of these three orgs, despite them not fundraising/not being funding-constrained.",
+      "plaintextDescription": "Enjoyed the post, am disappointed with the list of 501(c)(3) opportunities.\n\n> METR researches and runs evaluations of frontier AI systems with a major focus on AI agents. If you work at a frontier lab, you’re probably aware of them, as they’ve partnered with OpenAI and Anthropic to pilot pre-deployment evaluations procedures. METR’s is particularly known for work on measuring AI systems’ ability to conduct increasingly long tasks\n\nWhile the long-horizon task graph is somewhat helpful for policy, it's unclear what's the marginal impact of METR's existence (AI labs are running evals anyway, there are other orgs and gov agencies in this space), and to what extent it's dual-use (can AI labs compare various bits they add to training by success on evals?).\n\n> Horizon Institute for Public Service\n\nI donated to Horizon in the past, but I'm no longer convinced they're significantly impactful, as it seems that most staffers don't have time to focus on any specific issue that we care about, and generally the folk there don't seem to be particularly x-risk-pilled.\n\n> Forethought conducts academic-style research on how best to navigate the transition to a world with superintelligent AI\n\nHow is this more than near-zero dignity points?\n\nDonations to MIRI are probably more impactful than donations to any of these three orgs, despite them not fundraising/not being funding-constrained."
+    },
+    "baseScore": 37,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-09-30T10:26:25.886Z",
+    "af": false
+  },
+  {
+    "_id": "z6p5dseqwu3RcdMgd",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The book is now a NYT bestseller: #7 in combined print&e-books nonfiction, #8 in hardcover nonfiction.\n\nI want to thank everyone here who contributed to that. You're an awesome community, and you've earned a huge amount of dignity points.",
+      "plaintextDescription": "The book is now a NYT bestseller: #7 in combined print&e-books nonfiction, #8 in hardcover nonfiction.\n\nI want to thank everyone here who contributed to that. You're an awesome community, and you've earned a huge amount of dignity points."
+    },
+    "baseScore": 99,
+    "voteCount": 62,
+    "createdAt": null,
+    "postedAt": "2025-09-24T23:26:07.324Z",
+    "af": false
+  },
+  {
+    "_id": "jWihGtJi8GwhWffmy",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "XBJTCeRw4zeNksv5H",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "Yep, I’ve seen the video. Maybe a small positive update overall, because could’ve been worse?\n\nIt seems to me that you probably shouldn’t optimize for publicity for publicity’s sake, and even then, hunger strikes are not a good way.\n\nHunger strikes are very effective tools in some situations; but they’re not effective for this. You can raise awareness a lot more efficiently than this.\n\n“The fears are not backed up with evidence” and “AI might improve billions of lives” is what you get when you communicate being in fear of something without focusing on the reasons why.",
+      "plaintextDescription": "Yep, I’ve seen the video. Maybe a small positive update overall, because could’ve been worse?\n\nIt seems to me that you probably shouldn’t optimize for publicity for publicity’s sake, and even then, hunger strikes are not a good way.\n\nHunger strikes are very effective tools in some situations; but they’re not effective for this. You can raise awareness a lot more efficiently than this.\n\n“The fears are not backed up with evidence” and “AI might improve billions of lives” is what you get when you communicate being in fear of something without focusing on the reasons why."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-21T22:18:29.990Z",
+    "af": false
+  },
+  {
+    "_id": "FNCG5Q8YnRWzJ39sA",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "M3k57P6pDfYtyznXo",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "Yep. Good that he stopped. Likely bad that he started.",
+      "plaintextDescription": "Yep. Good that he stopped. Likely bad that he started."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-13T11:13:10.031Z",
+    "af": false
+  },
+  {
+    "_id": "ggJAdwFeMroearFuc",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"There is no justice in the laws of Nature, no term for fairness in the equations of motion. The universe is neither evil, nor good, it simply does not care. The stars don't care, or the Sun, or the sky. But they don't have to! *We* care! There *is* light in the world, and it is *us*!\"",
+      "plaintextDescription": "\"There is no justice in the laws of Nature, no term for fairness in the equations of motion. The universe is neither evil, nor good, it simply does not care. The stars don't care, or the Sun, or the sky. But they don't have to! We care! There is light in the world, and it is us!\""
+    },
+    "baseScore": 65,
+    "voteCount": 37,
+    "createdAt": null,
+    "postedAt": "2025-09-11T13:46:14.444Z",
+    "af": false
+  },
+  {
+    "_id": "iNLLkwY9YWcHfaS6h",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "cZ2tXcW7rzBEfnXkh",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "the demand is that a specific company agrees to halt if everyone halts; this does not help in reality, because in fact it won't be the case that everyone halts (abscent gov intervention).",
+      "plaintextDescription": "the demand is that a specific company agrees to halt if everyone halts; this does not help in reality, because in fact it won't be the case that everyone halts (abscent gov intervention)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-11T12:45:31.154Z",
+    "af": false
+  },
+  {
+    "_id": "9bn3xpDdhh9hQ2Aft",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "Rx62pcDDbqFb3stYK",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "You are of course right that there’s no difference between reality-fluid and normal probabilities in a small world: it’s just how much you care about various branches relative to each other, regardless of whether all of them will exist or only some.\n\nI claim that the negative utility due to stopping to exist is just not there, because you don’t actually stop to exist in a way you reflectively care about, when you have fewer instances. For normal things (e.g., how much do you care about paperclips), the expected utility is the same; but here, it’s the kind of terminal value that i expect for most people would be different; guaranteed continuation in 5% of instances is much better than 5% chance of continuing in all instances; in the first case, you don’t die!",
+      "plaintextDescription": "You are of course right that there’s no difference between reality-fluid and normal probabilities in a small world: it’s just how much you care about various branches relative to each other, regardless of whether all of them will exist or only some.\n\nI claim that the negative utility due to stopping to exist is just not there, because you don’t actually stop to exist in a way you reflectively care about, when you have fewer instances. For normal things (e.g., how much do you care about paperclips), the expected utility is the same; but here, it’s the kind of terminal value that i expect for most people would be different; guaranteed continuation in 5% of instances is much better than 5% chance of continuing in all instances; in the first case, you don’t die!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-10T23:02:10.636Z",
+    "af": false
+  },
+  {
+    "_id": "AKFmnKQFNqXsZ63kQ",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "e74Bi3dHwfTwTMhv9",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "Imagine they you’re an agent in the game of life. Your world, your laws of physics are computed on a very large independent computers; all performing the same computation.\n\nYou exist within the laws of causality of your world, computed as long as at least one server computes your world. If some of them stop performing the computation, it won’t be a death of a copy; you’ll just have one fewer instance of yourself.",
+      "plaintextDescription": "Imagine they you’re an agent in the game of life. Your world, your laws of physics are computed on a very large independent computers; all performing the same computation.\n\nYou exist within the laws of causality of your world, computed as long as at least one server computes your world. If some of them stop performing the computation, it won’t be a death of a copy; you’ll just have one fewer instance of yourself."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-10T22:24:50.805Z",
+    "af": false
+  },
+  {
+    "_id": "jfpFKQPqGjh9GazTC",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "kCxWwparwAEFYcjfv",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "In a large universe, you do not end. Like, not in expectation see some branch versus other; you just continue, the computation that is you continues. When you open your eyes, you're not likely to find yourself as a person in a branch computed only relatively rarely; still, that person continues, and does not die.\n\nAttemted suicide reduces your reality-fluid- how much you're computed and how likely you are to find yourself there- but you will continue to experience the world. If you die in a nuclear explosion, the continuation of you will be somewhere else, sort-of isekaied; and mostly you will find yourself not in a strange world that recovers the dead but in a world where the nuclear explosion did not appear; still, in a large world, even after a nuclear explosion, you continue.\n\nYou might care about having a lot of reality-fluid, because this makes your actions more impactful, because you can spend your lightcone better, and improve the average experience in the large universe. You might also assign negative utility to others seeing you die; they'll have a lot of reality-fluid in worlds where you're dead and they can't talk to you, even as you continue. But I don't think it works out to assigning the same negative utility to dying as in branches of small worlds.",
+      "plaintextDescription": "In a large universe, you do not end. Like, not in expectation see some branch versus other; you just continue, the computation that is you continues. When you open your eyes, you're not likely to find yourself as a person in a branch computed only relatively rarely; still, that person continues, and does not die.\n\nAttemted suicide reduces your reality-fluid- how much you're computed and how likely you are to find yourself there- but you will continue to experience the world. If you die in a nuclear explosion, the continuation of you will be somewhere else, sort-of isekaied; and mostly you will find yourself not in a strange world that recovers the dead but in a world where the nuclear explosion did not appear; still, in a large world, even after a nuclear explosion, you continue.\n\nYou might care about having a lot of reality-fluid, because this makes your actions more impactful, because you can spend your lightcone better, and improve the average experience in the large universe. You might also assign negative utility to others seeing you die; they'll have a lot of reality-fluid in worlds where you're dead and they can't talk to you, even as you continue. But I don't think it works out to assigning the same negative utility to dying as in branches of small worlds."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-10T16:16:30.043Z",
+    "af": false
+  },
+  {
+    "_id": "uCJwHxQNAwSjbHjAB",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "ZAQygLEBNFCpbXdEF",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "\"People are on hunger strikes\" is not really a lot of evidence for \"AI CEOs are optimizing for their short-term status/profits and are not doing the due diligence\" in the eyes of the public.\n\nI don't think there's any problem with painting people and institutions as evil, I'm just not sure why you would want to do this here, as compared to other things, and would want people to have answers to how they imagine a hunger strike would paint AI companies/CEOs and what would be the impact of that, because I expect little that could move the needle.",
+      "plaintextDescription": "\"People are on hunger strikes\" is not really a lot of evidence for \"AI CEOs are optimizing for their short-term status/profits and are not doing the due diligence\" in the eyes of the public.\n\nI don't think there's any problem with painting people and institutions as evil, I'm just not sure why you would want to do this here, as compared to other things, and would want people to have answers to how they imagine a hunger strike would paint AI companies/CEOs and what would be the impact of that, because I expect little that could move the needle."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-10T16:06:51.888Z",
+    "af": false
+  },
+  {
+    "_id": "Zby5LKuEPNczaTtwD",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "h9pxeuXmFasqWb4bE",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "\"Attention on AI risk\" is a somewhat very bad proxy to optimize for, where available tactics include attention that would be paid to luddites, lunatics, and crackpots caring about some issue.\n\nThe actions that we can take can:\n\n*   Use what separates us from people everyone considers crazy: that our arguments check out and our predictions hold; communicate those;\n*   Spark and mobilize existing public support;\n*   Be designed to optimize for positive attention, not for any attention.\n\nI don't think DeepMind employees really changed their minds? Like, there are people at DeepMind with p(doom) higher than Eliezer's; they would be sympathetic; would they change anything they're doing? (I can imagine it prompting them to talk to others at DeepMind, talking about the hunger strike to validate the reasons for it.)\n\nI don't think Demis responding to the strike would make Dario look particularly villainous, happy to make conditional bets. How villainous someone looks here should be pretty independent, outside of eg Demis responding, prompting a journalist to ask Dario, which takes plausible deniability away from him.\n\nI'm also not sure how effective it would be to use this to paint the companies (or the CEOs-- are they even the explicit targets of the hunger strikes?) as villainous.",
+      "plaintextDescription": "\"Attention on AI risk\" is a somewhat very bad proxy to optimize for, where available tactics include attention that would be paid to luddites, lunatics, and crackpots caring about some issue.\n\nThe actions that we can take can:\n\n * Use what separates us from people everyone considers crazy: that our arguments check out and our predictions hold; communicate those;\n * Spark and mobilize existing public support;\n * Be designed to optimize for positive attention, not for any attention.\n\nI don't think DeepMind employees really changed their minds? Like, there are people at DeepMind with p(doom) higher than Eliezer's; they would be sympathetic; would they change anything they're doing? (I can imagine it prompting them to talk to others at DeepMind, talking about the hunger strike to validate the reasons for it.)\n\nI don't think Demis responding to the strike would make Dario look particularly villainous, happy to make conditional bets. How villainous someone looks here should be pretty independent, outside of eg Demis responding, prompting a journalist to ask Dario, which takes plausible deniability away from him.\n\nI'm also not sure how effective it would be to use this to paint the companies (or the CEOs-- are they even the explicit targets of the hunger strikes?) as villainous."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-10T16:00:12.284Z",
+    "af": false
+  },
+  {
+    "_id": "gz9LXPxwcvjW9yJc8",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "PGm3AD3enyc6JdM66",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "Something like: Hunger strikes are optimized hard specifically for painting someone as a villain because they decide to make someone suffer or die (or be inhumanely fed), this is different from other forms of protests that are more focused on, e.g., that specific decisions are bad and should be revoked, but don't necessarily try to make people perceive the other side as evil.",
+      "plaintextDescription": "Something like: Hunger strikes are optimized hard specifically for painting someone as a villain because they decide to make someone suffer or die (or be inhumanely fed), this is different from other forms of protests that are more focused on, e.g., that specific decisions are bad and should be revoked, but don't necessarily try to make people perceive the other side as evil."
+    },
+    "baseScore": -1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-09T21:09:02.523Z",
+    "af": false
+  },
+  {
+    "_id": "yztWKJvQdkwup7Tkq",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "aunZ2fPkafe2QrADp",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "Thanks for responding!\n\n> your comment mostly applies to Guido in front of Anthropic\n\nYep!\n\n> I don't think I have been framing Demis Hassabis as a villain\n\nA hunger strike is not a good tool if you don’t want to paint someone as a villain in the eyes of the public when they don’t give in to your demand.\n\n> publicly state that DeepMind will halt the development of frontier AI models if all the other major AI companies agree to do so.\" which I think is a reasonable thing to state\n\nIt is vanishingly unlikely that all other major AI companies would agree to do so without the US government telling them to; this statement would be helpful, but only to communicate their position and not because of the commitment itself. Why not ask them to ask the government to stop everyone (maybe conditional on China agreeing to stop everyone in China)?\n\n> I've also given three interviews in the past 24 hours to journalists to contribute to major publications\n\nIf any of them go viral in the US with a good message, I’ll (somewhat) change my mind!\n\n> I disagree with your implication that I'm basing my decisions on vibes\n\nThis was mainly my impression after talking to Guido; but do you want to say more about the impact you think you’ll have?\n\n> I'd be happy to have this discussion again at the end of the year, looking back\n\n(Can come back to it at the end of the year; if you have any advance predictions, they might be helpful to have posted!)\n\n> And given the length of the strikes so far I think what we're doing is relatively safe, though I'm happy to be proven otherwise\n\nI hope you remain safe and are not proven otherwise! Hunger strikes do carry negative risks though. Do you have particular plans for how long to be on the hunger strike for?",
+      "plaintextDescription": "Thanks for responding!\n\n> your comment mostly applies to Guido in front of Anthropic\n\nYep!\n\n> I don't think I have been framing Demis Hassabis as a villain\n\nA hunger strike is not a good tool if you don’t want to paint someone as a villain in the eyes of the public when they don’t give in to your demand.\n\n> publicly state that DeepMind will halt the development of frontier AI models if all the other major AI companies agree to do so.\" which I think is a reasonable thing to state\n\nIt is vanishingly unlikely that all other major AI companies would agree to do so without the US government telling them to; this statement would be helpful, but only to communicate their position and not because of the commitment itself. Why not ask them to ask the government to stop everyone (maybe conditional on China agreeing to stop everyone in China)?\n\n> I've also given three interviews in the past 24 hours to journalists to contribute to major publications\n\nIf any of them go viral in the US with a good message, I’ll (somewhat) change my mind!\n\n> I disagree with your implication that I'm basing my decisions on vibes\n\nThis was mainly my impression after talking to Guido; but do you want to say more about the impact you think you’ll have?\n\n> I'd be happy to have this discussion again at the end of the year, looking back\n\n(Can come back to it at the end of the year; if you have any advance predictions, they might be helpful to have posted!)\n\n> And given the length of the strikes so far I think what we're doing is relatively safe, though I'm happy to be proven otherwise\n\nI hope you remain safe and are not proven otherwise! Hunger strikes do carry negative risks though. Do you have particular plans for how long to be on the hunger strike for?"
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-09T19:16:53.481Z",
+    "af": false
+  },
+  {
+    "_id": "PxA4Kmgkqgx3Rmwd6",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "SDM3njcPPZv4peLbg",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "I think in a lot of places the government will try to stop you, including using violence.",
+      "plaintextDescription": "I think in a lot of places the government will try to stop you, including using violence."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-09T19:02:53.102Z",
+    "af": false
+  },
+  {
+    "_id": "dmqb4z7xbFhxccGxr",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "Qq6CXTyds2ZquyYyQ",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "This is surprising to hear on LessWrong, where we value truth without having to think of object-level reasons for why it is good to say true things. But on the object level: it would be very dangerous for a community to avoid saying true things because it is afraid of undermining someone’s sacrifice; this would lead to a lot of needless, and even net-negative, sacrifice, without mechanisms for self-correction. Like, if I ever do something stupid, please tell me (and everyone) that instead of respecting my sacrifice: I would not want others to repeat my mistakes.\n\n(There are lots of ways to get media coverage and it’s not always good in expectation. If they go viral, in a good way/with a good message, I will somewhat change my mind.)",
+      "plaintextDescription": "This is surprising to hear on LessWrong, where we value truth without having to think of object-level reasons for why it is good to say true things. But on the object level: it would be very dangerous for a community to avoid saying true things because it is afraid of undermining someone’s sacrifice; this would lead to a lot of needless, and even net-negative, sacrifice, without mechanisms for self-correction. Like, if I ever do something stupid, please tell me (and everyone) that instead of respecting my sacrifice: I would not want others to repeat my mistakes.\n\n(There are lots of ways to get media coverage and it’s not always good in expectation. If they go viral, in a good way/with a good message, I will somewhat change my mind.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-09T17:12:45.357Z",
+    "af": false
+  },
+  {
+    "_id": "fLE2FiakY779wku4Q",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "hayhosJQRD9AeAhkQ",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "(While I like it being directed towards coordination, it would not actually make a difference, as it won’t be the case that *all* AI companies want to stop, and so it would still not be of great significance. The thing that works is a gov-supported ban on developing ASI anywhere in the world. A commitment to stop if everyone else stops doesn’t actually come into force unless everyone is required to stop anyway.\n\nAn ask that works is, e.g., “tell the government they need to stop everyone, including us”.)",
+      "plaintextDescription": "(While I like it being directed towards coordination, it would not actually make a difference, as it won’t be the case that all AI companies want to stop, and so it would still not be of great significance. The thing that works is a gov-supported ban on developing ASI anywhere in the world. A commitment to stop if everyone else stops doesn’t actually come into force unless everyone is required to stop anyway.\n\nAn ask that works is, e.g., “tell the government they need to stop everyone, including us”.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-09T17:02:48.878Z",
+    "af": false
+  },
+  {
+    "_id": "hfQcb6aL7mmPg5QKb",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "5xwNhrt2iwDEr7ZBA",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "(I agree with Lucious in that I think it is important that people have the option of getting cryopreserved and also are aware of all the reality-fluid stuff before they decide to kill themselves.)",
+      "plaintextDescription": "(I agree with Lucious in that I think it is important that people have the option of getting cryopreserved and also are aware of all the reality-fluid stuff before they decide to kill themselves.)"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-09T01:55:48.760Z",
+    "af": false
+  },
+  {
+    "_id": "bWsJmbqwMsdQYynwh",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "ffBkqoxWaXZ6kSXnt",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "People do in fact try to be very goal-directed about protesting! They  have a lot of institutional knowledge on it!\n\nYou can study what worked and what didn’t work in the past, and what makes a difference between a movement that succeeds and a movement that doesn’t. You can see how movements organize, how they grow local leaders, how they come up with ideas that would mobilize people.\n\nA group doesn’t have to attempt a hunger strike to figure out what the consequences would be; it can study and think, and I expect that to be a much more valuable use of time than doing hunger strikes.",
+      "plaintextDescription": "People do in fact try to be very goal-directed about protesting! They  have a lot of institutional knowledge on it!\n\nYou can study what worked and what didn’t work in the past, and what makes a difference between a movement that succeeds and a movement that doesn’t. You can see how movements organize, how they grow local leaders, how they come up with ideas that would mobilize people.\n\nA group doesn’t have to attempt a hunger strike to figure out what the consequences would be; it can study and think, and I expect that to be a much more valuable use of time than doing hunger strikes."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-08T20:56:51.169Z",
+    "af": false
+  },
+  {
+    "_id": "sNFypgJiTxg8pKAjg",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "HxBorfyrfvFJuHtaj",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "Yep, I basically believe this.\n\n(Social movements (and comms and politics) are not easy to reason about well from first principles. I think Michael is wrong to be making this particular self-sacrifice, not because he hasn’t thought carefully about AI but because he hasn’t thought carefully about hunger strikes.)",
+      "plaintextDescription": "Yep, I basically believe this.\n\n(Social movements (and comms and politics) are not easy to reason about well from first principles. I think Michael is wrong to be making this particular self-sacrifice, not because he hasn’t thought carefully about AI but because he hasn’t thought carefully about hunger strikes.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-08T20:46:05.379Z",
+    "af": false
+  },
+  {
+    "_id": "Zy2SF36o48RZ3igvy",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "qoBzHxR6YRKkpQqrf",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "a hunger strike will eventually kill you even if you take vitamins, electrolytes, and sugar. (a way to prevent death despite the target not giving in is often a group of supporters publicly begging the person on the hunger strike to stop and not kill themselves for some plausible reasons, but sometimes people ignore that and die.) I'm not entirely sure what Guido's intention is if Anthropic doesn't give in.",
+      "plaintextDescription": "a hunger strike will eventually kill you even if you take vitamins, electrolytes, and sugar. (a way to prevent death despite the target not giving in is often a group of supporters publicly begging the person on the hunger strike to stop and not kill themselves for some plausible reasons, but sometimes people ignore that and die.) I'm not entirely sure what Guido's intention is if Anthropic doesn't give in."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-08T20:24:56.365Z",
+    "af": false
+  },
+  {
+    "_id": "9LocpoiHLLMGgtLR2",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "hM228enx5rcwjtY7a",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "To clarify, \"think for five minutes\" was an appeal to people who might want to do these kinds of things in the future, not a claim about Guido or Michael.\n\nThat said, I do in fact claim they have not thought carefully about their theory of change, and the linked comment from Michael lists very obvious surface-level reasons for why do this in front of anthropic and not openai; I really would not consider this on the level of demonstrating having thought carefully about the theory of change.",
+      "plaintextDescription": "To clarify, \"think for five minutes\" was an appeal to people who might want to do these kinds of things in the future, not a claim about Guido or Michael.\n\nThat said, I do in fact claim they have not thought carefully about their theory of change, and the linked comment from Michael lists very obvious surface-level reasons for why do this in front of anthropic and not openai; I really would not consider this on the level of demonstrating having thought carefully about the theory of change."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-08T20:20:06.237Z",
+    "af": false
+  },
+  {
+    "_id": "oRmxFhttgk5Cqfb5w",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "wGbTDbSR58DSRuKcu",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "> At the moment, these hunger strikes are people vibe-protesting.\n\nTo clarify, I meant that the choice of actions was based on the vibes, not on careful consideration, this seeming like the right thing to do in these circuimstances.\n\n> You repeat a recommendation not to risk your life\n\nI maybe formulated this badly.\n\nI do not disagree with that part of your comment. I did, in fact, risk being prosecuted unjustly by the state and spending a great deal of my life in prison. I was also aware of the kinds of situations I'd want to go for hunger strikes in while in prison, though didn't think about that often.\n\nAnd I, too, am willing to die to reduce the risk by a pretty small chance.\n\nMost of the time, though, I think people who think they have this choice don't actually face it; I think the bar for risking one's life should be very high. In particular, when people have time to carefully do the math, I really want them to carefully do the math before deciding to risk their lives, and in this particular case, some of my frustration is from the people getting their math wrong.\n\nI think as a community, we also would really want to make people err on the side of safety, and have a strong norm of assumption that most people who decide to sacrifice their lives got their math wrong. People really shouldn't be risking their lives without having carefully thought of the theory of change when they have the ability to do so.\n\nLike, I'd bet if we find people competent in how movements achieve their goals, they will say that these particular hunger strikes are not great; and I expect it to be the case most of the time when individuals who share values with a larger movement decide to go on a hunger strike even as the larger movement thinks that would not be effective.",
+      "plaintextDescription": "> At the moment, these hunger strikes are people vibe-protesting.\n\nTo clarify, I meant that the choice of actions was based on the vibes, not on careful consideration, this seeming like the right thing to do in these circuimstances.\n\n> You repeat a recommendation not to risk your life\n\nI maybe formulated this badly.\n\nI do not disagree with that part of your comment. I did, in fact, risk being prosecuted unjustly by the state and spending a great deal of my life in prison. I was also aware of the kinds of situations I'd want to go for hunger strikes in while in prison, though didn't think about that often.\n\nAnd I, too, am willing to die to reduce the risk by a pretty small chance.\n\nMost of the time, though, I think people who think they have this choice don't actually face it; I think the bar for risking one's life should be very high. In particular, when people have time to carefully do the math, I really want them to carefully do the math before deciding to risk their lives, and in this particular case, some of my frustration is from the people getting their math wrong.\n\nI think as a community, we also would really want to make people err on the side of safety, and have a strong norm of assumption that most people who decide to sacrifice their lives got their math wrong. People really shouldn't be risking their lives without having carefully thought of the theory of change when they have the ability to do so.\n\nLike, I'd bet if we find people competent in how movements achieve their goals, they will say that these particular hunger strikes are not great; and I expect it to be the case most of the time when individuals who share values with a larger movement decide to go on a hunger strike even as the larger movement thinks that would not be effective."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-08T20:15:23.416Z",
+    "af": false
+  },
+  {
+    "_id": "bZDLYgDnqSz9yTmm3",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "xi6vATmZtaez9WJPo",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "> I think there's a very reasonable theory of change - X-risk from AI needs to enter the Overton window\n\nWhile in principle, as I mentioned, a hunger strike can bring attention, this is not an effective way to do this for the particular issue that AI will kill everyone by default. The diff to communicate isn't \"someone is really scared of AI ending the world\"; it's \"scientists think AI might literally kill everyone and also here are the reasons why\".\n\n> claiming they did not think for 5 minutes\n\nThis was not a claim about these people but an appeal to potential future people to maybe do research on this stuff before making decisions like this one.\n\nThat said, I talked to Guido prior to the start of the hunger strike, tried to understand his logic, and was not convinced he had any kind of reasonable theory of change guiding his actions, and my understanding is that he perceives it as the proper action to take, in a situation like that, which is why I called this vibe-protesting.\n\n> I don't get the impression that they are\n\n(It's not very clear what would be the conditions for them to stop the hunger strikes.)\n\n> But why not this too?\n\nHunger strikes can be very effective and powerful if executed wisely. My comment expresses my strong opinion that this did not happen here, not that it can't happen in general.",
+      "plaintextDescription": "> I think there's a very reasonable theory of change - X-risk from AI needs to enter the Overton window\n\nWhile in principle, as I mentioned, a hunger strike can bring attention, this is not an effective way to do this for the particular issue that AI will kill everyone by default. The diff to communicate isn't \"someone is really scared of AI ending the world\"; it's \"scientists think AI might literally kill everyone and also here are the reasons why\".\n\n> claiming they did not think for 5 minutes\n\nThis was not a claim about these people but an appeal to potential future people to maybe do research on this stuff before making decisions like this one.\n\nThat said, I talked to Guido prior to the start of the hunger strike, tried to understand his logic, and was not convinced he had any kind of reasonable theory of change guiding his actions, and my understanding is that he perceives it as the proper action to take, in a situation like that, which is why I called this vibe-protesting.\n\n> I don't get the impression that they are\n\n(It's not very clear what would be the conditions for them to stop the hunger strikes.)\n\n> But why not this too?\n\nHunger strikes can be very effective and powerful if executed wisely. My comment expresses my strong opinion that this did not happen here, not that it can't happen in general."
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-08T19:48:17.533Z",
+    "af": false
+  },
+  {
+    "_id": "CgiCcRtqpyvZs6EQJ",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "Pw78A4zWcKSbBmNLn",
+    "topLevelCommentId": "r8twR6iswE2Ph4PdC",
+    "contents": {
+      "markdown": "To be very clear, I expect large social movements that use protests as one of its forms of action to have the potential to be very successful and impactful if done well. Hunger strikes are significantly different from protests. Hunger strikes can be powerful, but they're [best for very different contexts](https://beautifultrouble.org/toolbox/tool/hunger-strike).",
+      "plaintextDescription": "To be very clear, I expect large social movements that use protests as one of its forms of action to have the potential to be very successful and impactful if done well. Hunger strikes are significantly different from protests. Hunger strikes can be powerful, but they're best for very different contexts."
+    },
+    "baseScore": 9,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-08T19:30:42.054Z",
+    "af": false
+  },
+  {
+    "_id": "r8twR6iswE2Ph4PdC",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have great empathy and deep respect for the courage of the people currently on hunger strikes to stop the AI race. Yet, I wish they hadn’t started them: these hunger strikes will not work.\n\nHunger strikes can be incredibly powerful when there’s a just demand, a target who would either give in to the demand or be seen as a villain for not doing so, a wise strategy, and a group of supporters.\n\nI don’t think these hunger strikes pass the bar. Their political demands are not what AI companies would realistically give in to because of a hunger strike by a small number of outsiders.\n\nA hunger strike can bring attention to how seriously you perceive an issue. If you know how to make it go viral, that is; in the US, hunger strikes are rarely widely covered by the media. And even then, you are more likely to marginalize your views than to make them go more mainstream: if people don’t currently think halting frontier general AI development requires hunger strikes, a hunger strike won’t explain to them why your views are correct: this is not self-evident just from the description of the hunger strike, and so the hunger strike is not the right approach here and now.\n\nAlso, our movement does not need martyrs. You can be a lot more helpful if you eat well, sleep well, and are able to think well and hard. Your life is also very valuable, it is a part of what we’re fighting for; saving a world without you is slightly sadder than saving a world with you; and perhaps more importantly to you, it will not help. It needs to already be seen by the public as legitimate, to make them more sympathetic towards your cause and exert pressure. It needs to target decision makers who have the means to give in and advance your cause by doing that, for it to have any meaning at all.\n\nAt the moment, these hunger strikes are people vibe-protesting. They feel like some awful people are going to kill everyone, they feel powerless, and so they find a way to do something that they perceive as having a chance of changing the situation.\n\nPlease don’t risk your life; especially, please don’t risk your life in this particular way that won’t change anything.\n\nAction is better than inaction; but please stop and think of your theory of change for more than five minutes, if you’re planning to risk your life, and then don’t risk your life[^2f049nmhene]; please pick actions thoughtfully and wisely and not because of the vibes[^a6czmaawh9].\n\nYou can do much more if you’re alive and well and use your brain.\n\n[^2f049nmhene]: Not to say that you shouldn’t be allowed to risk your life for a large positive impact. I would sacrifice my life for some small chance of preventing AI risk. But most people who think they’re facing a choice to sacrifice their life for some chance of making a positive impact are wrong and don't actually face it; so I think the bar for risking one's life should be very high. In particular, when people have time to carefully do the math, I really want them to carefully do the math before deciding to risk their lives, and in this specific case, some of my frustration is from the people clearly getting their math wrong.I think as a community, we also would really want to make people err on the side of safety, and have a strong norm of assumption that most people who decide to sacrifice their lives got their math wrong, especially if a community that shares their values disagrees with them on the consequences of the sacrifice. People really shouldn't be risking their lives without having carefully thought of the theory of change (when they have the ability to do so).I'd bet if we find people competent in how movements achieve their goals, they will say that these particular hunger strikes are not great; and I expect it to be the case most of the time when individuals who share values with a larger movement decide to go on a hunger strike even as the larger movement thinks that would not be effective. \n\n[^a6czmaawh9]: My strong impression is that the person on the hunger strike in front of Anthropic is doing this primarily because he feels like it is the proper thing to do in this situation, like it’s the action someone should be taking here.",
+      "plaintextDescription": "I have great empathy and deep respect for the courage of the people currently on hunger strikes to stop the AI race. Yet, I wish they hadn’t started them: these hunger strikes will not work.\n\nHunger strikes can be incredibly powerful when there’s a just demand, a target who would either give in to the demand or be seen as a villain for not doing so, a wise strategy, and a group of supporters.\n\nI don’t think these hunger strikes pass the bar. Their political demands are not what AI companies would realistically give in to because of a hunger strike by a small number of outsiders.\n\nA hunger strike can bring attention to how seriously you perceive an issue. If you know how to make it go viral, that is; in the US, hunger strikes are rarely widely covered by the media. And even then, you are more likely to marginalize your views than to make them go more mainstream: if people don’t currently think halting frontier general AI development requires hunger strikes, a hunger strike won’t explain to them why your views are correct: this is not self-evident just from the description of the hunger strike, and so the hunger strike is not the right approach here and now.\n\nAlso, our movement does not need martyrs. You can be a lot more helpful if you eat well, sleep well, and are able to think well and hard. Your life is also very valuable, it is a part of what we’re fighting for; saving a world without you is slightly sadder than saving a world with you; and perhaps more importantly to you, it will not help. It needs to already be seen by the public as legitimate, to make them more sympathetic towards your cause and exert pressure. It needs to target decision makers who have the means to give in and advance your cause by doing that, for it to have any meaning at all.\n\nAt the moment, these hunger strikes are people vibe-protesting. They feel like some awful people are going to kill everyone, they feel powerless, and so they find a way to do something that they perceive as having a "
+    },
+    "baseScore": 66,
+    "voteCount": 53,
+    "createdAt": null,
+    "postedAt": "2025-09-08T17:32:08.381Z",
+    "af": false
+  },
+  {
+    "_id": "34FSGdEnHBcew94Tp",
+    "postId": "PBd7xPAh22y66rbme",
+    "parentCommentId": "gYMjeLbuntdHeuaZw",
+    "topLevelCommentId": "A74RpoCmPpuEk476c",
+    "contents": {
+      "markdown": "> I think it's a bad sign that Anthropic seemingly actively sought out an article that ended up being wrong/misleading in a way which was convenient for Anthropic at the time and then didn't correct it.\n\n  \nYep; misleading the public about this doesn’t exactly boost confidence in how much Anthropic would prioritize integrity/commitments/etc. when their interests are on the line.",
+      "plaintextDescription": "> I think it's a bad sign that Anthropic seemingly actively sought out an article that ended up being wrong/misleading in a way which was convenient for Anthropic at the time and then didn't correct it.\n\n\nYep; misleading the public about this doesn’t exactly boost confidence in how much Anthropic would prioritize integrity/commitments/etc. when their interests are on the line."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-07T17:26:05.825Z",
+    "af": false
+  },
+  {
+    "_id": "grzErxr3eQMWCD2Ri",
+    "postId": "dEoyaWznnKtM5GMnM",
+    "parentCommentId": "C4NNkLC7J77e2Lxvs",
+    "topLevelCommentId": "mBuCRhbHiASnYA9DS",
+    "contents": {
+      "markdown": "The post does indeed propose the idea of implementing the do() operator this way, but I don't think it proposes the idea of various people running 1000 markets on different questions and chosing one not to N/A, so that the cost of providing liquidity or of trading doesn't increase due to that structure?",
+      "plaintextDescription": "The post does indeed propose the idea of implementing the do() operator this way, but I don't think it proposes the idea of various people running 1000 markets on different questions and chosing one not to N/A, so that the cost of providing liquidity or of trading doesn't increase due to that structure?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-19T11:07:33.516Z",
+    "af": false
+  },
+  {
+    "_id": "cb2fshhXDmEdt5pbn",
+    "postId": "wXkJiPXg3KaCTDPBL",
+    "parentCommentId": "7wdKFoqi23w48Mouk",
+    "topLevelCommentId": "i6L3BnfRS53nkwtyv",
+    "contents": {
+      "markdown": "The calculation is just based what C gets if their offer is accepted, and on what B thinks is fair; it doesn’t matter if the split is fair according to C, it’s just in the calculation B does so that the expected payout of C is not higher than what’s fair according to B due to them offering this split. If C thought that the fair split is 5:1, but offered an C!unfair (unfair-according-to-C) split of 4:2, B does the same calculation; the goal is to make C get a bit less than 3 in expectation in all B!unfair splits, because the B!fair split is 3:3 \n\nThe high-level purpose is that this enables people with different notions of fairness to mutually cooperate almost always; and if you do this procedure, you incentivize  fair-according-to-you splits. Others don’t have to do what you think is fair; and even if they offer what you consider unfair, you’ll often accept (you just need to reject enough for it you!unfair splits to not be worth offering just for the purpose of exploiting you, as it won’t work).",
+      "plaintextDescription": "The calculation is just based what C gets if their offer is accepted, and on what B thinks is fair; it doesn’t matter if the split is fair according to C, it’s just in the calculation B does so that the expected payout of C is not higher than what’s fair according to B due to them offering this split. If C thought that the fair split is 5:1, but offered an C!unfair (unfair-according-to-C) split of 4:2, B does the same calculation; the goal is to make C get a bit less than 3 in expectation in all B!unfair splits, because the B!fair split is 3:3 \n\nThe high-level purpose is that this enables people with different notions of fairness to mutually cooperate almost always; and if you do this procedure, you incentivize  fair-according-to-you splits. Others don’t have to do what you think is fair; and even if they offer what you consider unfair, you’ll often accept (you just need to reject enough for it you!unfair splits to not be worth offering just for the purpose of exploiting you, as it won’t work)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-18T23:46:33.479Z",
+    "af": false
+  },
+  {
+    "_id": "9srWLZQztdSm6du6m",
+    "postId": "wXkJiPXg3KaCTDPBL",
+    "parentCommentId": "XFqpkYi53kEAvue5C",
+    "topLevelCommentId": "i6L3BnfRS53nkwtyv",
+    "contents": {
+      "markdown": "IDK, imagine someone made an LLM that felt so much like 3 Opus that it was informally nicknamed 3.1 Opus\n\n(Also, is planecrash placed in a world that descended from the first edition of Pathfinder and not second?)",
+      "plaintextDescription": "IDK, imagine someone made an LLM that felt so much like 3 Opus that it was informally nicknamed 3.1 Opus\n\n(Also, is planecrash placed in a world that descended from the first edition of Pathfinder and not second?)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-15T14:22:04.321Z",
+    "af": false
+  },
+  {
+    "_id": "k6jNTtSXgbcsFRWiC",
+    "postId": "wXkJiPXg3KaCTDPBL",
+    "parentCommentId": "i6L3BnfRS53nkwtyv",
+    "topLevelCommentId": "i6L3BnfRS53nkwtyv",
+    "contents": {
+      "markdown": ":)\n\nA couple of notes:\n\n> 4 because that's what you think is fair for you to get\n\n4 should be there not because it's what Cameron thinks is fair but because it's what they're offering.\n\n> Cameron opens and closes their mouth a few times. They say \"3 then.\" But they're not happy about it.\n\nThat's only the right thing to do if Camerons know that the fair split is actually 3:3 (it's unclear why they'd be unhappy about it if they think it's fair: are they unhappy because they were interacting with someone who couldn't be convinced to give up some of the cows?). If Cameron thinks the fair split is 4, they are supposed to still offer 2:4. (They could also offer 3:3 with a bit under 2/3 chance and walk away otherwise, but they don't need to do it here.)\n\nMaybe Cameron is a CDT agent, though, in which case they're unhappy about the unfair split but can't do anything about it. In that case, the right course of action for Bryer would be to say that they're going to accept splits with a probability of 1/(6-offered), so that Cameron offers 5 and gets 1.[^5zytp52lgss]\n\n[^5zytp52lgss]: If they're allowed to do more than that, you could also say that you will reject any offer unless the procedure that Cameron employs is offering 6 99.99999% of the time and offering 5 the rest of the time.It's hard being a CDT agent. You are often not happy about what you do.",
+      "plaintextDescription": ":)\n\nA couple of notes:\n\n> 4 because that's what you think is fair for you to get\n\n4 should be there not because it's what Cameron thinks is fair but because it's what they're offering.\n\n> Cameron opens and closes their mouth a few times. They say \"3 then.\" But they're not happy about it.\n\nThat's only the right thing to do if Camerons know that the fair split is actually 3:3 (it's unclear why they'd be unhappy about it if they think it's fair: are they unhappy because they were interacting with someone who couldn't be convinced to give up some of the cows?). If Cameron thinks the fair split is 4, they are supposed to still offer 2:4. (They could also offer 3:3 with a bit under 2/3 chance and walk away otherwise, but they don't need to do it here.)\n\nMaybe Cameron is a CDT agent, though, in which case they're unhappy about the unfair split but can't do anything about it. In that case, the right course of action for Bryer would be to say that they're going to accept splits with a probability of 1/(6-offered), so that Cameron offers 5 and gets 1.[1]\n\n 1. ^\n    If they're allowed to do more than that, you could also say that you will reject any offer unless the procedure that Cameron employs is offering 6 99.99999% of the time and offering 5 the rest of the time.\n    \n    It's hard being a CDT agent. You are often not happy about what you do."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-15T14:19:26.398Z",
+    "af": false
+  },
+  {
+    "_id": "vG62DhPNxpEF3dJhW",
+    "postId": "TXbFFYpNWDmEmHevp",
+    "parentCommentId": "vGhz6CtEKEdKWzx6j",
+    "topLevelCommentId": "vGhz6CtEKEdKWzx6j",
+    "contents": {
+      "markdown": "> you can just consider yourself committed to not even consider subsequent worse-than-fair offers after you've rejected the first one\n\nNote that if you do that, I can exploit you by offering 9:1 split, getting it accepted 50% of the time, and getting a 5:5 split another 50% of the time, which leaves me with 7 in expectation (and you with 3 in expectation).\n\nIf you interact with the kind of entity that offers you a better deal if you reject their first offer, and they make an offer before you explain what you'll do, you just always reject their first offer, explain your strategy to them, and say that it's in their interest to make a fair offer, and if you probabilistically reject that one, they won't be able to make more offers.\n\nOr, a thing you can do in reality might be, e.g., deterministically rejecting all of their initial offers, making counteroffers that are better-than-fair for you, and bargaining this way until they reach a point where they don't go lower because this is their best offer, and then probabilistically accepting or rejecting that best offer.",
+      "plaintextDescription": "> you can just consider yourself committed to not even consider subsequent worse-than-fair offers after you've rejected the first one\n\n \n\nNote that if you do that, I can exploit you by offering 9:1 split, getting it accepted 50% of the time, and getting a 5:5 split another 50% of the time, which leaves me with 7 in expectation (and you with 3 in expectation).\n\nIf you interact with the kind of entity that offers you a better deal if you reject their first offer, and they make an offer before you explain what you'll do, you just always reject their first offer, explain your strategy to them, and say that it's in their interest to make a fair offer, and if you probabilistically reject that one, they won't be able to make more offers.\n\nOr, a thing you can do in reality might be, e.g., deterministically rejecting all of their initial offers, making counteroffers that are better-than-fair for you, and bargaining this way until they reach a point where they don't go lower because this is their best offer, and then probabilistically accepting or rejecting that best offer."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-15T13:57:20.252Z",
+    "af": false
+  },
+  {
+    "_id": "avzJfZrP4DaovKxeL",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": "QG8kXHsJzZxmzG44H",
+    "topLevelCommentId": "vDuqck4ZqJfobjrF8",
+    "contents": {
+      "markdown": "=)  \n  \nI've generated a bunch of them, btw, my favorite is a book authored by Aliezer Nate Soares:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/9f58a246f931a02942c78bcda07fef8690f2b80a4a2f00b8.png)\n\n+++ More\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/246c795f9394e76b8318dc81f52dc5ae78992c13a9ac1a3f.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/26ce50467e01e0a55dab34cf687ed9d605e54bb5122c7786.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e016f81e09fe8cf490d1a933ddfddf79b285ee9482c93c21.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/4dc9679084fc3191f6584e272aca4e4d0e0a995572472ec0.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/80df8a36a269e0888cd4a1ca9c131fb0a0e27d727c1cfd13.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/13b698d02857e64d5d78dc96c6c7f5d1423ea65c2ccae820.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/451ec12c0208d2fca71d2488a3af615848102ccd0036bb77.png)\n\n\n\n\n+++",
+      "plaintextDescription": "=)\n\nI've generated a bunch of them, btw, my favorite is a book authored by Aliezer Nate Soares:\n\nMore\n\n"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-15T13:46:40.077Z",
+    "af": false
+  },
+  {
+    "_id": "HzqPC2cNb6GiEkdFj",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": "vDuqck4ZqJfobjrF8",
+    "topLevelCommentId": "vDuqck4ZqJfobjrF8",
+    "contents": {
+      "markdown": "![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/80587136141ac7c22104e97327efef1a154502df877cfc24.png)",
+      "plaintextDescription": ""
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-14T15:02:24.553Z",
+    "af": false
+  },
+  {
+    "_id": "pyoWXjmyLwaHSxBzR",
+    "postId": "pbc7jG6aKeYHmvy7x",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The absurdity of your continued influence climbs exponentially\n\n  \nHaving a memory of continued existence isn’t absurd if you’re a Boltzmann brain.\n\nWhat’s absurd though is that you continue to not start seeing white noise; there are more Boltzmann brains that see white noise than those that see something meaningful.\n\n(Oh well, I guess “you’re a Boltzmann brain” loses a lot of Bayes points to “most of your reality-fluid comes from faithful simulations by physics->atoms->neurons->algorithms that make you up, not by random fluctuations”)",
+      "plaintextDescription": "> The absurdity of your continued influence climbs exponentially\n\n\nHaving a memory of continued existence isn’t absurd if you’re a Boltzmann brain.\n\nWhat’s absurd though is that you continue to not start seeing white noise; there are more Boltzmann brains that see white noise than those that see something meaningful.\n\n(Oh well, I guess “you’re a Boltzmann brain” loses a lot of Bayes points to “most of your reality-fluid comes from faithful simulations by physics->atoms->neurons->algorithms that make you up, not by random fluctuations”)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-05T10:58:25.973Z",
+    "af": false
+  },
+  {
+    "_id": "oDfdMYMw3phFpBL7A",
+    "postId": "pbc7jG6aKeYHmvy7x",
+    "parentCommentId": "xHjAZf6XAAe4wGtoM",
+    "topLevelCommentId": "xHjAZf6XAAe4wGtoM",
+    "contents": {
+      "markdown": "There might be a brain that looks like a continuation of the previous one, but there won’t be any causal impact, because the probabilities of some of them appearing have no influence on the probabilities of others of them, so the math of causality says there isn’t any arrow of causality present.",
+      "plaintextDescription": "There might be a brain that looks like a continuation of the previous one, but there won’t be any causal impact, because the probabilities of some of them appearing have no influence on the probabilities of others of them, so the math of causality says there isn’t any arrow of causality present."
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-05T10:54:20.064Z",
+    "af": false
+  },
+  {
+    "_id": "KcAZuiAJwSWnkxi4g",
+    "postId": "tEZa7PouYatK78bbb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think if you expect some architecture to be a lot more efficient than current LLMs, **you should not talk about it**!\n\nLessWrong isn't a secret society with vows to not spread the knowledge we've learned here if it might cause the end of the world. It's a public website, and many who work on AI capabilities read it.\n\nIf you want the community to pay attention to the fact that other architectures might scale well- that's okay, feel free to talk about it.\n\nIf you think you have exceptionally good intuitions about what will scale, sharing this publicly eats maybe the single most valuable common resource that we have: the timeline. Please don't do that & don't accelerate AI capabilities.",
+      "plaintextDescription": "I think if you expect some architecture to be a lot more efficient than current LLMs, you should not talk about it!\n\nLessWrong isn't a secret society with vows to not spread the knowledge we've learned here if it might cause the end of the world. It's a public website, and many who work on AI capabilities read it.\n\nIf you want the community to pay attention to the fact that other architectures might scale well- that's okay, feel free to talk about it.\n\nIf you think you have exceptionally good intuitions about what will scale, sharing this publicly eats maybe the single most valuable common resource that we have: the timeline. Please don't do that & don't accelerate AI capabilities."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-03T09:45:58.338Z",
+    "af": false
+  },
+  {
+    "_id": "4TS7W3gDJYwmqY4sn",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": "4FTpfrowMSTRXe6Nj",
+    "topLevelCommentId": "DmENhpy5MjnJcZgaW",
+    "contents": {
+      "markdown": "Not even arguing with these points, I am sure there is a lot of acclaimed literature that tells stories where nothing happens or characters have no agency or change little. One might enjoy the writing for many different reasons; literature can be great even if you don’t see something you enjoy in it.\n\nThe moments that stood out to me in HPMOR were not those of action. HPMOR teaches its readers to want to think better; and makes them value life. Our children’s children’s children won’t learn that Death once existed on the ancient Earth until they’re old enough to bear that. That sort of thing. There are also scenes of well-crafted comedy and of stargazing and of doing the impossible; there are beautifully executed plots and more Easter eggs than you imagine.\n\nOne of the quotes I use to sell the idea of reading HPMOR to people is one of a literary critic who says she distinguishes HPMOR from *all* other fanfiction and thinks everyone should read it.\n\nLiterature is not often crafted the way HPMOR was crafted. There are moments of appreciation of what the author did there, which are rare in books; and HPMOR is full of that.\n\nEven without the whole thing of making people more culturally rationalist, the book is great just because it’s an awesome piece of fiction.",
+      "plaintextDescription": "Not even arguing with these points, I am sure there is a lot of acclaimed literature that tells stories where nothing happens or characters have no agency or change little. One might enjoy the writing for many different reasons; literature can be great even if you don’t see something you enjoy in it.\n\nThe moments that stood out to me in HPMOR were not those of action. HPMOR teaches its readers to want to think better; and makes them value life. Our children’s children’s children won’t learn that Death once existed on the ancient Earth until they’re old enough to bear that. That sort of thing. There are also scenes of well-crafted comedy and of stargazing and of doing the impossible; there are beautifully executed plots and more Easter eggs than you imagine.\n\nOne of the quotes I use to sell the idea of reading HPMOR to people is one of a literary critic who says she distinguishes HPMOR from all other fanfiction and thinks everyone should read it.\n\nLiterature is not often crafted the way HPMOR was crafted. There are moments of appreciation of what the author did there, which are rare in books; and HPMOR is full of that.\n\nEven without the whole thing of making people more culturally rationalist, the book is great just because it’s an awesome piece of fiction."
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-31T23:22:46.040Z",
+    "af": false
+  },
+  {
+    "_id": "Afz9NzFuy8HJohKoE",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": "pC3eLpgELfrxGT7py",
+    "topLevelCommentId": "DmENhpy5MjnJcZgaW",
+    "contents": {
+      "markdown": "HPMOR does have some problems, notably, the climax being overdetermined by the story that had it in mind but not living up to how well the story was executed; and also causing a sort of allergy in some people; but HPMOR is one of the coolest pieces of literature out there, with its ending still being great for the reasons awesome literature is great; Following the Phoenix is a nice piece of fanfiction, but it’s just that- fanfiction[^2t8q56ldvki].\n\nI think the conflict between Harry and Voldemort makes a huge ton less sense in that alternative ending. And there are straightforwardly terrible pieces of worldbuilding, characters being stupid, etc.; e.g., I don’t see how random muggles without gov authorization SENDING NUCLEAR MISSILES to Scotland could be related to the author not being aware of the internal logic of Eliezer’s world.\n\n[^2t8q56ldvki]: To be clear, it’s great if people enjoy it, but this is normal fanfiction with some fun parts; it is not on the level of interesting books, and definitely not at the level of HPMOR.",
+      "plaintextDescription": "HPMOR does have some problems, notably, the climax being overdetermined by the story that had it in mind but not living up to how well the story was executed; and also causing a sort of allergy in some people; but HPMOR is one of the coolest pieces of literature out there, with its ending still being great for the reasons awesome literature is great; Following the Phoenix is a nice piece of fanfiction, but it’s just that- fanfiction[1].\n\nI think the conflict between Harry and Voldemort makes a huge ton less sense in that alternative ending. And there are straightforwardly terrible pieces of worldbuilding, characters being stupid, etc.; e.g., I don’t see how random muggles without gov authorization SENDING NUCLEAR MISSILES to Scotland could be related to the author not being aware of the internal logic of Eliezer’s world.\n\n 1. ^\n    To be clear, it’s great if people enjoy it, but this is normal fanfiction with some fun parts; it is not on the level of interesting books, and definitely not at the level of HPMOR."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-31T20:23:53.381Z",
+    "af": false
+  },
+  {
+    "_id": "PDPzhxgtwG8uuA6ai",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Wow, this is awesome, thanks for doing it!\n\n> We literally cannot fit enough possibilities in our head for the truth to reliably be inside our considered hypothesis space\n\n  \nIf I understand correctly what it’s referring to, this is not relevantly true; infra-bayesianism solves non-realizability formally, and seems much closer than Bayesian agents to how humans formulate hypotheses (i.e., convex sets of probability distributions over states of the world instead of just probability distributions over states of the world; that allows us to have a hypothesis about some part of the world that we can assign probabilities to independently from other parts of the world).",
+      "plaintextDescription": "Wow, this is awesome, thanks for doing it!\n\n> We literally cannot fit enough possibilities in our head for the truth to reliably be inside our considered hypothesis space\n\n\nIf I understand correctly what it’s referring to, this is not relevantly true; infra-bayesianism solves non-realizability formally, and seems much closer than Bayesian agents to how humans formulate hypotheses (i.e., convex sets of probability distributions over states of the world instead of just probability distributions over states of the world; that allows us to have a hypothesis about some part of the world that we can assign probabilities to independently from other parts of the world)."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-25T21:09:45.736Z",
+    "af": false
+  },
+  {
+    "_id": "ARhnZFpjkGF33PHfR",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "DQBz58KHaSDG2xJPp",
+    "topLevelCommentId": "cSfiDzctLNHLxkC5n",
+    "contents": {
+      "markdown": "The screenshot is not the source for \"The IMO organizers asked OpenAI not to share their IMO results until a week later\".",
+      "plaintextDescription": "The screenshot is not the source for \"The IMO organizers asked OpenAI not to share their IMO results until a week later\"."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-20T19:16:32.698Z",
+    "af": false
+  },
+  {
+    "_id": "cSfiDzctLNHLxkC5n",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The IMO organizers asked AI labs not to share their IMO results until a week later to not steal the spotlight from the kids. IMO organizers consider OpenAI's actions \"rude and inappropriate\".\n\n[https://x.com/Mihonarium/status/1946880931723194389](https://x.com/Mihonarium/status/1946880931723194389) \n\n![Image](https://pbs.twimg.com/media/GwSujImWEAANPYk?format=png&name=large)",
+      "plaintextDescription": "The IMO organizers asked AI labs not to share their IMO results until a week later to not steal the spotlight from the kids. IMO organizers consider OpenAI's actions \"rude and inappropriate\".\n\nhttps://x.com/Mihonarium/status/1946880931723194389 "
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-20T11:01:54.024Z",
+    "af": false
+  },
+  {
+    "_id": "HeZx8DvayBTja9sEJ",
+    "postId": "RcBqeJ8GHM2LygQK3",
+    "parentCommentId": "nhhtEQCADeG5s3hwR",
+    "topLevelCommentId": "wvnmr72XKFxo5uva4",
+    "contents": {
+      "markdown": "A friend runs a startup where they do a lot of RL on COT on a narrow class of tasks, she shares those with me, I can't share that, sorry. The style is incredibly similar/immediately pattern-matched though.\n\nI think r1 should also have a similar style in its COT.\n\nThe proofs o3 *outputs* are going to be different from proofs it writes as it thinks about them. This is the style RLed models think in.",
+      "plaintextDescription": "A friend runs a startup where they do a lot of RL on COT on a narrow class of tasks, she shares those with me, I can't share that, sorry. The style is incredibly similar/immediately pattern-matched though.\n\nI think r1 should also have a similar style in its COT.\n\nThe proofs o3 outputs are going to be different from proofs it writes as it thinks about them. This is the style RLed models think in."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-20T10:57:38.917Z",
+    "af": false
+  },
+  {
+    "_id": "vcxq8BBfvph3fGYuz",
+    "postId": "RcBqeJ8GHM2LygQK3",
+    "parentCommentId": "wvnmr72XKFxo5uva4",
+    "topLevelCommentId": "wvnmr72XKFxo5uva4",
+    "contents": {
+      "markdown": "This is false. It is exactly how RLed LLMs write.",
+      "plaintextDescription": "This is false. It is exactly how RLed LLMs write."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-19T23:19:26.394Z",
+    "af": false
+  },
+  {
+    "_id": "zSHixtckEtjqBwk4B",
+    "postId": "RcBqeJ8GHM2LygQK3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"We reach this capability level not via narrow, task-specific methodology, but by breaking new ground in general-purpose reinforcement learning and test-time compute scaling\"",
+      "plaintextDescription": "\"We reach this capability level not via narrow, task-specific methodology, but by breaking new ground in general-purpose reinforcement learning and test-time compute scaling\""
+    },
+    "baseScore": 5,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-07-19T12:03:09.452Z",
+    "af": false
+  },
+  {
+    "_id": "3Q7tBFewxipSqebEj",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Everyone should do more fun stuff!**[^rqacyetwfxl]\n\nI thought it'd just be very fun to develop a new sense.\n\nRemember vibrating belts and ankle bracelets that made you have a sense of the direction of north? ([1](https://www.lesswrong.com/posts/hQZqgfBvs5XwGdpKk/brainstorming-new-senses), [2](https://www.lesswrong.com/posts/aypPsdGCpYMysNrvi/open-thread-june-2010?commentId=wmaaJ7i3twZhwAvBN))\n\nI made some LLMs make me an iOS app that does this! Except the sense doesn't go away the moment you stop the app!\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/a0a0702379dbe4eb2f3ffdb63c092c0e149d471131a44fa8.png)\n\nI am pretty happy about it! I can tell where’s north and became much better at navigating and relating different parts of the (actual) territory in my map. Previously, I would remember my paths as collections of local movements (there, I turn left); now, I generally know where places are, and Google Maps feel much more connected to the territory.\n\nIf you want to try it, it's on the App Store: [https://apps.apple.com/us/app/sonic-compass/id6746952992](https://apps.apple.com/us/app/sonic-compass/id6746952992) \n\nIt can vibrate when you face north; even better, if you're in headphones, it can give you spatial sounds coming from north; better still, a second before playing a sound coming from north, it can play a non-directional cue sound to make you anticipate the north sound and learn very quickly.\n\nNone of this interferes with listening to any other kind of audio.\n\nIt’s all probably less relevant to the US, as your roads are in a grid anyway; great for London though.\n\nIf you know how to make it have more pleasant sounds, or optimize directional sounds (make realistic binaural audio), and want to help, please do! The source code is on GitHub: [https://github.com/mihonarium/sonic-compass/](https://github.com/mihonarium/sonic-compass/)\n\n[^rqacyetwfxl]: unless it would take too much time, especially given the short timelines",
+      "plaintextDescription": "Everyone should do more fun stuff![1]\n\nI thought it'd just be very fun to develop a new sense.\n\nRemember vibrating belts and ankle bracelets that made you have a sense of the direction of north? (1, 2)\n\nI made some LLMs make me an iOS app that does this! Except the sense doesn't go away the moment you stop the app!\n\nI am pretty happy about it! I can tell where’s north and became much better at navigating and relating different parts of the (actual) territory in my map. Previously, I would remember my paths as collections of local movements (there, I turn left); now, I generally know where places are, and Google Maps feel much more connected to the territory.\n\nIf you want to try it, it's on the App Store: https://apps.apple.com/us/app/sonic-compass/id6746952992 \n\nIt can vibrate when you face north; even better, if you're in headphones, it can give you spatial sounds coming from north; better still, a second before playing a sound coming from north, it can play a non-directional cue sound to make you anticipate the north sound and learn very quickly.\n\nNone of this interferes with listening to any other kind of audio.\n\nIt’s all probably less relevant to the US, as your roads are in a grid anyway; great for London though.\n\nIf you know how to make it have more pleasant sounds, or optimize directional sounds (make realistic binaural audio), and want to help, please do! The source code is on GitHub: https://github.com/mihonarium/sonic-compass/\n\n 1. ^\n    unless it would take too much time, especially given the short timelines"
+    },
+    "baseScore": 41,
+    "voteCount": 27,
+    "createdAt": null,
+    "postedAt": "2025-07-19T00:07:37.665Z",
+    "af": false
+  },
+  {
+    "_id": "v9NQh7kzz6xHPmcbr",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "FGHP8c4uzRCh59Bb2",
+    "topLevelCommentId": "YK5MvKDo8KRoK4P8i",
+    "contents": {
+      "markdown": "To be clear, I was a lot more surprised when I was told about some of what OpenPhil did in DC, once starting to facepalm really hard after two sentences and continuing to facepalm very hard for most of a ten-minute-long story. It was so obviously dumb, that even me, with basically zero exposure to American politics or local DC norms and only some tangential experience running political campaigns in a very different context (an authoritarian country), immediately recognized it as obviously very stupid. While listening, I couldn’t think of better explanations than stuff like “maybe Dustin wanted x and OpenPhil didn’t have a way to push back on it”. But not having anyone who could point out how this would be very, very stupid, on the team, is a perfect explanation for the previous cringe over their actions; and it’s also incredibly incompetent, on the level I did not expect.\n\nAs Jason correctly noted, it’s not about “policy”. This is very different from writing papers and figuring out what a good policy should be. It is about advocacy: getting a small number of relevant people to make decisions that lead to the implementation of your preferred policies. OpenPhil’s goals are not papers; and some of the moves they’ve made that their impact their utility more than any of the papers they’ve funded more are ridiculously bad.\n\nA smart enough person could figure it out from the first principles, with no experience, or by looking at stuff like how climate change became polarized, but for most people, it’s a set of intuitions, skills, knowledge that are very separate from those that make you a good evaluator of research grants.\n\nIt is absolutely obvious to me that someone experienced in advocacy should get to give feedback on a lot of decisions that you plan to make, including because some of them can have strategic implications you didn’t think about.\n\nInstead, OpenPhil are a bunch of individuals who apparently often don’t know the right questions to ask even despite their employer’s magic of everyone wanting to answer their questions.\n\n(I disagree with Jason on how transparent grant evaluations are ought to be; if you’re bottlenecked by time, it seems fine to make handwavy bets. You just need people who are good of making bets. The issue is that they’re not selected for making good bets in politics, and so they fuck up; not with the general idea of having people who make bets.)",
+      "plaintextDescription": "To be clear, I was a lot more surprised when I was told about some of what OpenPhil did in DC, once starting to facepalm really hard after two sentences and continuing to facepalm very hard for most of a ten-minute-long story. It was so obviously dumb, that even me, with basically zero exposure to American politics or local DC norms and only some tangential experience running political campaigns in a very different context (an authoritarian country), immediately recognized it as obviously very stupid. While listening, I couldn’t think of better explanations than stuff like “maybe Dustin wanted x and OpenPhil didn’t have a way to push back on it”. But not having anyone who could point out how this would be very, very stupid, on the team, is a perfect explanation for the previous cringe over their actions; and it’s also incredibly incompetent, on the level I did not expect.\n\nAs Jason correctly noted, it’s not about “policy”. This is very different from writing papers and figuring out what a good policy should be. It is about advocacy: getting a small number of relevant people to make decisions that lead to the implementation of your preferred policies. OpenPhil’s goals are not papers; and some of the moves they’ve made that their impact their utility more than any of the papers they’ve funded more are ridiculously bad.\n\nA smart enough person could figure it out from the first principles, with no experience, or by looking at stuff like how climate change became polarized, but for most people, it’s a set of intuitions, skills, knowledge that are very separate from those that make you a good evaluator of research grants.\n\nIt is absolutely obvious to me that someone experienced in advocacy should get to give feedback on a lot of decisions that you plan to make, including because some of them can have strategic implications you didn’t think about.\n\nInstead, OpenPhil are a bunch of individuals who apparently often don’t know the right questions to ask even despite their emp"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-17T19:54:58.337Z",
+    "af": false
+  },
+  {
+    "_id": "DCmCJ7bo8BsQXK5YX",
+    "postId": "dEoyaWznnKtM5GMnM",
+    "parentCommentId": "cKKjRMq9Jjq85w7Mo",
+    "topLevelCommentId": "cKKjRMq9Jjq85w7Mo",
+    "contents": {
+      "markdown": "Yep, it doesn't give us P(x | do(event that involves randomness)). The two are indeed not equivalent.",
+      "plaintextDescription": "Yep, it doesn't give us P(x | do(event that involves randomness)). The two are indeed not equivalent."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-14T18:46:32.065Z",
+    "af": false
+  },
+  {
+    "_id": "tNyomtcsbdcE8hTkk",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": "fo28rtJnZFgzm2HgG",
+    "topLevelCommentId": "vDuqck4ZqJfobjrF8",
+    "contents": {
+      "markdown": "(For the context, all of these are entirely AI-generated, and I have not submitted them to MIRI)",
+      "plaintextDescription": "(For the context, all of these are entirely AI-generated, and I have not submitted them to MIRI)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-10T21:54:10.827Z",
+    "af": false
+  },
+  {
+    "_id": "YK5MvKDo8KRoK4P8i",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I want to signal-boost [this LW post](https://www.lesswrong.com/s/4PLuwEyMZhT89Dxpo/p/adQueu9FFHfiBKDCt).\n\nI long wondered why OpenPhil made so many obvious mistakes in the policy space. That level of incompetence just did not make any sense.\n\nI did not expect this to be the explanation:\n\n**THEY SIMPLY DID NOT HAVE ANYONE WITH ANY POLITICAL EXPERIENCE ON THE TEAM** until hiring one person in April 2025.\n\nThis is, like, insane. Not what I'd expect at all from any org that attempts to be competent.\n\n(openphil, can you please hire some cracked lobbyists to help you evaluate grants? This is, like, not quite an instance of Graham's Design Paradox, because instead of trying to evaluate grants you know nothing about, you can actually hire people with credentials you can evaluate, who'd then evaluate the grants. thank you <3)",
+      "plaintextDescription": "I want to signal-boost this LW post.\n\nI long wondered why OpenPhil made so many obvious mistakes in the policy space. That level of incompetence just did not make any sense.\n\nI did not expect this to be the explanation:\n\nTHEY SIMPLY DID NOT HAVE ANYONE WITH ANY POLITICAL EXPERIENCE ON THE TEAM until hiring one person in April 2025.\n\nThis is, like, insane. Not what I'd expect at all from any org that attempts to be competent.\n\n(openphil, can you please hire some cracked lobbyists to help you evaluate grants? This is, like, not quite an instance of Graham's Design Paradox, because instead of trying to evaluate grants you know nothing about, you can actually hire people with credentials you can evaluate, who'd then evaluate the grants. thank you <3)"
+    },
+    "baseScore": 11,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2025-07-09T17:23:29.929Z",
+    "af": false
+  },
+  {
+    "_id": "GsanwKzfYJkGwk3Md",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": "yNxf94SJkkJbLH3gp",
+    "topLevelCommentId": "yNxf94SJkkJbLH3gp",
+    "contents": {
+      "markdown": "i made a [discord server](https://discord.gg/Az4MmsbefW) if people want to collaborate on designing ads for If Anyone Builds It! Including sharing ideas that are not finished designs, etc.\n\ni think we can just agree to donate the prizes to MIRI (or maybe someone proposes some attribution mechanism, but it seems great if people just laser-focus on making an awesome thing for the sake of it and celebrate the results and everyone who contributed).\n\nWhoever can set up a shared workspace, please also do that!\n\nA good idea might be to come up with, think a bit about, & share various:\n\n*   things (ideas, vibes, thoughts, information, calls to action) the ads might try to communicate\n*   design ideas/styles/etc.\n*   specific features that can be used in the ads\n*   etc.\n\nOne way this can be bad is that people might anchor on existing ideas too much, but I wouldn't be too worried, people normally have lots of very personal preferences and creative ideas and styles, and iteration on something in collaboration might be great.",
+      "plaintextDescription": "i made a discord server if people want to collaborate on designing ads for If Anyone Builds It! Including sharing ideas that are not finished designs, etc.\n\ni think we can just agree to donate the prizes to MIRI (or maybe someone proposes some attribution mechanism, but it seems great if people just laser-focus on making an awesome thing for the sake of it and celebrate the results and everyone who contributed).\n\nWhoever can set up a shared workspace, please also do that!\n\nA good idea might be to come up with, think a bit about, & share various:\n\n * things (ideas, vibes, thoughts, information, calls to action) the ads might try to communicate\n * design ideas/styles/etc.\n * specific features that can be used in the ads\n * etc.\n\nOne way this can be bad is that people might anchor on existing ideas too much, but I wouldn't be too worried, people normally have lots of very personal preferences and creative ideas and styles, and iteration on something in collaboration might be great."
+    },
+    "baseScore": 20,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-07-08T13:18:11.548Z",
+    "af": false
+  },
+  {
+    "_id": "RBSzJfCaNL5B5JoTK",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": "5LkyBBSY48qPibZY8",
+    "topLevelCommentId": "5LkyBBSY48qPibZY8",
+    "contents": {
+      "markdown": "i really like the general idea and the two square metro versions!",
+      "plaintextDescription": "i really like the general idea and the two square metro versions!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-08T13:08:30.962Z",
+    "af": false
+  },
+  {
+    "_id": "4RwBmJLrQSxbg6z5y",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": "7wDczEhkGtBpk3YA6",
+    "topLevelCommentId": "o2rL4Hcv7kSWnBiSF",
+    "contents": {
+      "markdown": "Thanks!\n\nWhat are the approximate % of “sell more books”, “show what the current situation in AI is”, “make this the Overton window”, etc. in what you want the ads to optimize for?",
+      "plaintextDescription": "Thanks!\n\nWhat are the approximate % of “sell more books”, “show what the current situation in AI is”, “make this the Overton window”, etc. in what you want the ads to optimize for?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-08T10:05:48.881Z",
+    "af": false
+  },
+  {
+    "_id": "EhfejGMvtAdDkoZKK",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "PSA: if you're looking for a name for your project, most interesting .ml domains are probably available for $10, because the mainstream registrars don't support the TLD.\n\nI bought over 170 .ml domains, including anthropic.ml (redirects to the Fooming Shoggoths song), closed.ml & evil.ml (redirect to OpenAI Files), interpretability.ml, lens.ml, evals.ml, and [many others](https://contact.ms/domains) (I'm happy to donate them to AI safety projects).",
+      "plaintextDescription": "PSA: if you're looking for a name for your project, most interesting .ml domains are probably available for $10, because the mainstream registrars don't support the TLD.\n\nI bought over 170 .ml domains, including anthropic.ml (redirects to the Fooming Shoggoths song), closed.ml & evil.ml (redirect to OpenAI Files), interpretability.ml, lens.ml, evals.ml, and many others (I'm happy to donate them to AI safety projects)."
+    },
+    "baseScore": 10,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-07-07T23:28:14.411Z",
+    "af": false
+  },
+  {
+    "_id": "vDuqck4ZqJfobjrF8",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "some ideas for inspiration\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/92d569557861fd786a4abeb5c781a470f86ee7799a93c051.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/40af5f3074344d663ae74d4f7ff70eb48206610929892e00.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/10ce30c960f415808c56454117481576becc4ec6716bbd71.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/c18d61cd19c92f6d160adab37ce7e21370f5a9d774e30f30.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/610e7a55c89a3f0ac274cf735ac9eb709e0598a0b69696b7.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/1fa88b17371cd8dafa03938a4c700c7178149e9ff97cb58e.png)\n\n+++ more\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/776a12f77576528a3f33dfbfae394e22a78edc9fa4f3dca0.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/07dcab6c20668fd1385cac62d3231e24d1ab33b44a89b794.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e8ed24a3753efd33ade5e29509209e86a0997f513fb256f8.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/32dc2f99dfe947dc14377b9093ae64f8bc7a41803ef889e9.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/002a118e9ea1a561057f2c53e97830c9bbcc68324190709d.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e06678d4a18463e0b0cae9a42cc6c24ddceda51053571cbc.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/9276bca81f79cb11da77568413aaadda5b663c1984d6d104.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/0a9be06e27d9d6cd1112d98e1aa4067cbbe603ccf952277b.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/4759ce8b054399adfa47d485cc69909eac622e9fb63cb39d.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/6fbbd1409e6f1d2d30cfa847d512cafd9e51eb1ee2d0f280.png)\n\n\n\n\n+++",
+      "plaintextDescription": "some ideas for inspiration\n\nmore\n\n \n\n "
+    },
+    "baseScore": 25,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-04T15:02:31.601Z",
+    "af": false
+  },
+  {
+    "_id": "o2rL4Hcv7kSWnBiSF",
+    "postId": "8cmhAAj3jMhciPFqv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What's the context of the ads- will they be used after the release or prior to the release?",
+      "plaintextDescription": "What's the context of the ads- will they be used after the release or prior to the release?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-03T18:04:54.594Z",
+    "af": false
+  },
+  {
+    "_id": "jXxPytZGyP6XSX7ka",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "LeytvxdFgBBQpxbmw",
+    "topLevelCommentId": "sn6DanwgyhYHskWn2",
+    "contents": {
+      "markdown": "Nope, I’m somewhat concerned about unethical uses (eg talking to a lot of people without disclosing it’s ai), so won’t publicly share the context.\n\nIf the chatbot answers questions well enough, we could in principle embed it into whatever you want if that seems useful. Currently have a couple of requests like that. DM me somewhere?\n\nStampy uses RAG & is worse.",
+      "plaintextDescription": "Nope, I’m somewhat concerned about unethical uses (eg talking to a lot of people without disclosing it’s ai), so won’t publicly share the context.\n\nIf the chatbot answers questions well enough, we could in principle embed it into whatever you want if that seems useful. Currently have a couple of requests like that. DM me somewhere?\n\nStampy uses RAG & is worse."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-02T22:13:51.966Z",
+    "af": false
+  },
+  {
+    "_id": "dsdMc8wHiBabJXQtQ",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "xKPe2Fh5dHPJDD8Et",
+    "topLevelCommentId": "sn6DanwgyhYHskWn2",
+    "contents": {
+      "markdown": "This specific page is not really optimized for any use by anyone whatsoever; there are maybe five bugs each solvable with one query to claude, and all not a priority; the cool thing i want people to look at is the chatbot (when you give it some plausible context)!\n\n(Also, non-personalized intros to why you should care about ai safety are still better done by people.)\n\nI really wouldn't want to give a random member of the US general public a thing that advocates for AI risk while having a gender drop-down like that.[^ngkxu252ggj]\n\nThe kinds of interfaces it would have if we get to scale it[^i9gk0e0yhfh] would be very dependent on where specific people are coming from. I.e., demographic info can be pre-filled and not necessarily displayed if it's from ads; or maybe we ask one person we're talking to to share it with two other people, and generate unique links with pre-filled info that was provided by the first person; etc.\n\nVoice mode would have a huge latency due to the 200k token context and thinking prior to responding.\n\n[^ngkxu252ggj]: Non-binary people are people, but the dropdown creates unnecessary negative halo effect for a significant portion of the general public.Also, dropdowns = unnecessary clicks = bad. \n\n[^i9gk0e0yhfh]: which I really want to! someone please give us the budget and volunteers!at the moment, we have only me working full-time (for free), $10k from SFF, and ~$15k from EAs who considered this to be the most effective nonprofit in this field.reach out if you want to donate your time or money. (donations are tax-deductible in the us.)",
+      "plaintextDescription": "This specific page is not really optimized for any use by anyone whatsoever; there are maybe five bugs each solvable with one query to claude, and all not a priority; the cool thing i want people to look at is the chatbot (when you give it some plausible context)!\n\n(Also, non-personalized intros to why you should care about ai safety are still better done by people.)\n\nI really wouldn't want to give a random member of the US general public a thing that advocates for AI risk while having a gender drop-down like that.[1]\n\nThe kinds of interfaces it would have if we get to scale it[2] would be very dependent on where specific people are coming from. I.e., demographic info can be pre-filled and not necessarily displayed if it's from ads; or maybe we ask one person we're talking to to share it with two other people, and generate unique links with pre-filled info that was provided by the first person; etc.\n\nVoice mode would have a huge latency due to the 200k token context and thinking prior to responding.\n\n 1. ^\n    Non-binary people are people, but the dropdown creates unnecessary negative halo effect for a significant portion of the general public.\n    \n    Also, dropdowns = unnecessary clicks = bad.\n\n 2. ^\n    which I really want to! someone please give us the budget and volunteers!\n    \n    at the moment, we have only me working full-time (for free), $10k from SFF, and ~$15k from EAs who considered this to be the most effective nonprofit in this field.\n    \n    reach out if you want to donate your time or money. (donations are tax-deductible in the us.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-02T19:39:48.817Z",
+    "af": false
+  },
+  {
+    "_id": "y6FswAtkpfk2bbsgi",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "jhHh3jRceJz29zMo8",
+    "topLevelCommentId": "sn6DanwgyhYHskWn2",
+    "contents": {
+      "markdown": "Thanks, but, uhm, try to *not* specify “your mom” as the background and “what the actual fuck is ai alignment” as your question if you want it to have a writing style that’s not full of “we’re toast”",
+      "plaintextDescription": "Thanks, but, uhm, try to not specify “your mom” as the background and “what the actual fuck is ai alignment” as your question if you want it to have a writing style that’s not full of “we’re toast”"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-02T18:54:41.466Z",
+    "af": false
+  },
+  {
+    "_id": "9aajrNGHcztEADRuR",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "sn6DanwgyhYHskWn2",
+    "topLevelCommentId": "sn6DanwgyhYHskWn2",
+    "contents": {
+      "markdown": "Another example:\n\n> What's corrigibility? (asked by an AI safety researcher)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/f6b964ded036c11ad01b4a0f332d9706cb253ee0eceb748d.png)",
+      "plaintextDescription": "Another example:\n\n> What's corrigibility? (asked by an AI safety researcher)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-01T20:00:50.215Z",
+    "af": false
+  },
+  {
+    "_id": "oCShZoXaw7kCuFTDC",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "JNkqeacSH9skpNzZx",
+    "topLevelCommentId": "sn6DanwgyhYHskWn2",
+    "contents": {
+      "markdown": "It’s better than stampy (try asking both some interesting questions!). Stampy is cheaper to run though.\n\nI wasn’t able to get LLMs to produce valid arguments or answer questions correctly without the context, though that could be scaffolding/skill issue on my part.",
+      "plaintextDescription": "It’s better than stampy (try asking both some interesting questions!). Stampy is cheaper to run though.\n\nI wasn’t able to get LLMs to produce valid arguments or answer questions correctly without the context, though that could be scaffolding/skill issue on my part."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-01T16:41:15.125Z",
+    "af": false
+  },
+  {
+    "_id": "Yk2GycgoFfrjd5SRb",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "RrmFbrhESpTpiooQS",
+    "topLevelCommentId": "sn6DanwgyhYHskWn2",
+    "contents": {
+      "markdown": "Thanks! I think we’re close to a point where I’d want to put this in front of a lot of people, though we don’t have the budget for this (which seems ridiculous, given the stats we have for our ads results etc.), and also haven’t yet optimized the interface (as in, half the US public won’t like the gender dropdown).\n\nAlso, it’s much better at conversations than at producing 5min elevator pitches. (Hard to make it good at being where the user is while getting to a point instead of being very sycophantic).\n\nThe end goal is to be able to explain the current situation to people at scale.",
+      "plaintextDescription": "Thanks! I think we’re close to a point where I’d want to put this in front of a lot of people, though we don’t have the budget for this (which seems ridiculous, given the stats we have for our ads results etc.), and also haven’t yet optimized the interface (as in, half the US public won’t like the gender dropdown).\n\nAlso, it’s much better at conversations than at producing 5min elevator pitches. (Hard to make it good at being where the user is while getting to a point instead of being very sycophantic).\n\nThe end goal is to be able to explain the current situation to people at scale."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-01T16:37:59.947Z",
+    "af": false
+  },
+  {
+    "_id": "urQHkgA4fBHNb2s37",
+    "postId": "CKEoFGuJ3C48p55ry",
+    "parentCommentId": "HcD8PJSyyCE4nBpXq",
+    "topLevelCommentId": "jmBoKDxoEoh9eCHD4",
+    "contents": {
+      "markdown": "Sure! Mostly, it's just that a lot of stuff that correlates with specific qualia in humans doesn't provide any evidence about qualia in other animals; reinforcement learning- behavior that seeks the things that when encountered update the brain to seek more of them, and tries to avoid the things that update the brain to avoid them- doesn't mean that there are any circuits in the animal's brain for experiencing these updates from the inside, as qualia, the way humans do when we suffer. If I train a very simple RL agent with the feedback that salmon get via mechanisms that produce pain in humans, the RL agent will learn to demonstrate salmon's behavior while we can be very confident there's no qualia in that RL agent. Basically almost all of the evidence Rethink and others present are of the kind that RL agents and don't provide evidence that would add anything on top of \"it's a brain of that size that can do RL and has this evolutionary history\".\n\nThe reason we know other humans have qualia circuits in their brains is that these circuits have outputs that make humans talk about qualia even if they've not heard others talk about qualia (this would've been very surprising if that happened randomly).\n\nWe don't have anything remotely close to that for any non-human animals.\n\nFor many things, we can assume that something like what led to humans having qualia has been present in the evolutionary history of that thing; or have tests (such as a correct mirror test) that likely correlates with the kinds of things that lead to qualia; but among all known fish species we've done these experiments on, there are very few that have any social dynamics of the kind that would maybe correlate with qualia or can remotely pass anything like a mirror test, and salmon is not among those species.",
+      "plaintextDescription": "Sure! Mostly, it's just that a lot of stuff that correlates with specific qualia in humans doesn't provide any evidence about qualia in other animals; reinforcement learning- behavior that seeks the things that when encountered update the brain to seek more of them, and tries to avoid the things that update the brain to avoid them- doesn't mean that there are any circuits in the animal's brain for experiencing these updates from the inside, as qualia, the way humans do when we suffer. If I train a very simple RL agent with the feedback that salmon get via mechanisms that produce pain in humans, the RL agent will learn to demonstrate salmon's behavior while we can be very confident there's no qualia in that RL agent. Basically almost all of the evidence Rethink and others present are of the kind that RL agents and don't provide evidence that would add anything on top of \"it's a brain of that size that can do RL and has this evolutionary history\".\n\nThe reason we know other humans have qualia circuits in their brains is that these circuits have outputs that make humans talk about qualia even if they've not heard others talk about qualia (this would've been very surprising if that happened randomly).\n\nWe don't have anything remotely close to that for any non-human animals.\n\nFor many things, we can assume that something like what led to humans having qualia has been present in the evolutionary history of that thing; or have tests (such as a correct mirror test) that likely correlates with the kinds of things that lead to qualia; but among all known fish species we've done these experiments on, there are very few that have any social dynamics of the kind that would maybe correlate with qualia or can remotely pass anything like a mirror test, and salmon is not among those species."
+    },
+    "baseScore": 3,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-01T14:20:21.140Z",
+    "af": false
+  },
+  {
+    "_id": "sn6DanwgyhYHskWn2",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "i made a thing!\n\nit is a chatbot with 200k tokens of context about AI safety. it is surprisingly good- better than you expect current LLMs to be- at answering questions and counterarguments about AI safety. A third of its dialogues contain genuinely great and valid arguments.\n\nYou can try the chatbot at [https://whycare.aisgf.us](https://whycare.aisgf.us) (ignore the interface; it hasn't been optimized yet). **Please ask it some hard questions!** Especially if you're not convinced of AI x-risk yourself, or can repeat the kinds of questions others ask you.\n\nSend feedback to ms@contact.ms.\n\nA couple of examples of conversations with users:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/8f1c34a367355e8c1fe42ea774497aedaa942c4dd801e10c.png)\n\n> I know AI will make jobs obsolete. I've read runaway scenarios, but I lack a coherent model of what makes us go from \"llms answer our prompts in harmless ways\" to \"they rebel and annihilate humanity\".\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/dcfbbdadeef39833e6eff4687281d711a489501bad727a40.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/7f7c3f86da13abeb1620289283dcfadd8af0b0ecf4fb418c.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/404a68b54b36745c543401d7b1bfb861b0676f637d9e3556.png)",
+      "plaintextDescription": "i made a thing!\n\nit is a chatbot with 200k tokens of context about AI safety. it is surprisingly good- better than you expect current LLMs to be- at answering questions and counterarguments about AI safety. A third of its dialogues contain genuinely great and valid arguments.\n\nYou can try the chatbot at https://whycare.aisgf.us (ignore the interface; it hasn't been optimized yet). Please ask it some hard questions! Especially if you're not convinced of AI x-risk yourself, or can repeat the kinds of questions others ask you.\n\nSend feedback to ms@contact.ms.\n\nA couple of examples of conversations with users:\n\n> I know AI will make jobs obsolete. I've read runaway scenarios, but I lack a coherent model of what makes us go from \"llms answer our prompts in harmless ways\" to \"they rebel and annihilate humanity\"."
+    },
+    "baseScore": 36,
+    "voteCount": 18,
+    "createdAt": null,
+    "postedAt": "2025-07-01T14:00:14.271Z",
+    "af": false
+  },
+  {
+    "_id": "Z2g8y6AbQerXnTwod",
+    "postId": "CKEoFGuJ3C48p55ry",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you ever use LLMs? (They have a lot more neurons than bees, and it's unclear why consuming honey is worse than using LLMs.)",
+      "plaintextDescription": "Do you ever use LLMs? (They have a lot more neurons than bees, and it's unclear why consuming honey is worse than using LLMs.)"
+    },
+    "baseScore": 1,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-01T12:59:12.927Z",
+    "af": false
+  },
+  {
+    "_id": "xkBXyeZFNjH2NqMen",
+    "postId": "CKEoFGuJ3C48p55ry",
+    "parentCommentId": "jmBoKDxoEoh9eCHD4",
+    "topLevelCommentId": "jmBoKDxoEoh9eCHD4",
+    "contents": {
+      "markdown": "Salmon is incredibly unlikely to have qualia, there's approximately nothing in its evolutionary history that correlates with what qualia could be useful for or a side-effect of. I'm fine with eating salmon. Bees are social; I wouldn't eat bees.\n\nI'm happy to make a bet that you win if salmon have qualia and bees don't, I win if bees have qualia and salmon don't, and N/A otherwise, resolves via asking a CEV-aligned AGI.",
+      "plaintextDescription": "Salmon is incredibly unlikely to have qualia, there's approximately nothing in its evolutionary history that correlates with what qualia could be useful for or a side-effect of. I'm fine with eating salmon. Bees are social; I wouldn't eat bees.\n\nI'm happy to make a bet that you win if salmon have qualia and bees don't, I win if bees have qualia and salmon don't, and N/A otherwise, resolves via asking a CEV-aligned AGI."
+    },
+    "baseScore": -1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-01T12:57:53.138Z",
+    "af": false
+  },
+  {
+    "_id": "5nip9FRZq2TfxADJt",
+    "postId": "dEoyaWznnKtM5GMnM",
+    "parentCommentId": "kqb3bMsZZwAG9b5Xn",
+    "topLevelCommentId": "kqb3bMsZZwAG9b5Xn",
+    "contents": {
+      "markdown": "There’s correspondingly more liquidity subsidies on these markets, which makes the consequences the same in expectation (i.e., others would love to eat your free money by correcting the attempted manipulation just as much as they would on normally structured decision markets). Everyone just makes bets 1000x larger than they normally would.",
+      "plaintextDescription": "There’s correspondingly more liquidity subsidies on these markets, which makes the consequences the same in expectation (i.e., others would love to eat your free money by correcting the attempted manipulation just as much as they would on normally structured decision markets). Everyone just makes bets 1000x larger than they normally would."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-29T11:48:58.464Z",
+    "af": false
+  }
+]

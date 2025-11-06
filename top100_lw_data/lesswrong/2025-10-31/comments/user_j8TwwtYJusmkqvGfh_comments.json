@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "oLtojEhJHbuiDZQab",
+    "postId": "LJiGhpq8w4Badr5KJ",
+    "parentCommentId": "9uqBLoSbKewTPwR5S",
+    "topLevelCommentId": "9uqBLoSbKewTPwR5S",
+    "contents": {
+      "markdown": "Yes, you are correct. Not sure if I want to bother with editing the post, since a bunch of other things have changed in the past 7 years and I don't at the moment have the energy to go through the whole post and bring it up to date. But I appreciate you for bringing this up!",
+      "plaintextDescription": "Yes, you are correct. Not sure if I want to bother with editing the post, since a bunch of other things have changed in the past 7 years and I don't at the moment have the energy to go through the whole post and bring it up to date. But I appreciate you for bringing this up!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-25T02:48:27.099Z",
+    "af": false
+  },
+  {
+    "_id": "nCDNsqTCrAynz7ACx",
+    "postId": "QPhY8Nb7gtT5wvoPH",
+    "parentCommentId": "ZatJcyg2t4bsDPRi9",
+    "topLevelCommentId": "fzc8xJKj25GsoNWYo",
+    "contents": {
+      "markdown": "There I was just quoting from the Hintze paper so it's not clear what *he* meant. One interpretation is that the right hand side is just the *definition* of what \"UDT(s)\" means, so in that sense there wouldn't be a type error, UDT(s) would also be a policy. But also, you're right, a decision theory should in the end output an action. The right notation all comes down to what I said in the last paragraph of my previous comment, namely, does UDT1.1/FDT-policy need to know the sense data s (or 'observation x', in the other notation) in order to condition on the agent using a particular policy? If the answer is yes, UDT(s) is a policy, and UDT(s)(s) is the action. If the answer is no, then UDT is the policy (confusing! because UDT is also the 'decision algorithm' that finds the policy in the particular decision problem you are facing) and UDT(s) is the action. My best guess is that the answer to this question is 'no', so UDT is the policy and UDT(s) is the action, so your point about there being a type error is correct. But the notation \\\\(f : s \\mapsto a\\\\) in the Hintze paper makes it *seem* like somehow s is being used on the right hand side, which is possibly what confused me when I wrote the post.",
+      "plaintextDescription": "There I was just quoting from the Hintze paper so it's not clear what he meant. One interpretation is that the right hand side is just the definition of what \"UDT(s)\" means, so in that sense there wouldn't be a type error, UDT(s) would also be a policy. But also, you're right, a decision theory should in the end output an action. The right notation all comes down to what I said in the last paragraph of my previous comment, namely, does UDT1.1/FDT-policy need to know the sense data s (or 'observation x', in the other notation) in order to condition on the agent using a particular policy? If the answer is yes, UDT(s) is a policy, and UDT(s)(s) is the action. If the answer is no, then UDT is the policy (confusing! because UDT is also the 'decision algorithm' that finds the policy in the particular decision problem you are facing) and UDT(s) is the action. My best guess is that the answer to this question is 'no', so UDT is the policy and UDT(s) is the action, so your point about there being a type error is correct. But the notation f:s↦a in the Hintze paper makes it seem like somehow s is being used on the right hand side, which is possibly what confused me when I wrote the post."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-27T17:52:03.363Z",
+    "af": false
+  },
+  {
+    "_id": "TRapjejbTNKnKQokh",
+    "postId": "QPhY8Nb7gtT5wvoPH",
+    "parentCommentId": "fzc8xJKj25GsoNWYo",
+    "topLevelCommentId": "fzc8xJKj25GsoNWYo",
+    "contents": {
+      "markdown": "It has been many years since I thought about this post, so what I say below could be wrong, but here's my current understanding:\n\nI think what I was trying to say in the post is that FDT-policy returns a policy, so \"FDT(P, x)\" means \"the policy I would use if P were my state of knowledge and x were the observation I saw\". But that's a policy, i.e. a mapping from observations to actions, so we need to call that policy on the actual observation in order to get an action, hence (FDT(P,x))(x).\n\nNow, it's not clear to me that FDT-policy actually needs the observation x in order to condition on what policy it is using. In other words, in the post I wrote the conditioned event as \\\\(\\mathtt{true}(\\mathrm{FDT}(\\underline{P}, \\underline{x}) = \\pi)\\\\), but perhaps this should have just been \\\\(\\mathtt{true}(\\mathrm{FDT}(\\underline{P}) = \\pi)\\\\). In that case, the call to FDT should look like FDT(P), which is a policy, and then to get an action we would write FDT(P)(x).",
+      "plaintextDescription": "It has been many years since I thought about this post, so what I say below could be wrong, but here's my current understanding:\n\nI think what I was trying to say in the post is that FDT-policy returns a policy, so \"FDT(P, x)\" means \"the policy I would use if P were my state of knowledge and x were the observation I saw\". But that's a policy, i.e. a mapping from observations to actions, so we need to call that policy on the actual observation in order to get an action, hence (FDT(P,x))(x).\n\nNow, it's not clear to me that FDT-policy actually needs the observation x in order to condition on what policy it is using. In other words, in the post I wrote the conditioned event as true(FDT(P––,x––)=π), but perhaps this should have just been true(FDT(P––)=π). In that case, the call to FDT should look like FDT(P), which is a policy, and then to get an action we would write FDT(P)(x)."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-26T21:53:43.257Z",
+    "af": false
+  },
+  {
+    "_id": "ZAZWrF2JxRmQdY32i",
+    "postId": "HboRaYFucf9DZcTJv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> START TRACKING YOUR SYMPTOMS  \n> Have a signal chat to yourself or similar. Make sure its very low friction and you've impressed on yourself the importance of tracking symptoms\n\nWhat do you do with this data? Do you have any examples of insights you've gained by tracking symptoms this way? I've personally found that tracking symptoms (which I did for about 3 years, increasingly obsessively towards the end, to the point of writing [this post](https://www.lesswrong.com/posts/D9h2jhFnfvrwiuupX/idea-medical-hypotheses-app-for-mysterious-chronic-illnesses)) led to obsessing over my symptoms and that this was probably making things worse. I wasn't even gaining much insight through tracking, it was just more like \"maybe someone or AI will find patterns in this at some point and be able to explain everything to me so I can get better\".",
+      "plaintextDescription": "> START TRACKING YOUR SYMPTOMS\n> Have a signal chat to yourself or similar. Make sure its very low friction and you've impressed on yourself the importance of tracking symptoms\n\nWhat do you do with this data? Do you have any examples of insights you've gained by tracking symptoms this way? I've personally found that tracking symptoms (which I did for about 3 years, increasingly obsessively towards the end, to the point of writing this post) led to obsessing over my symptoms and that this was probably making things worse. I wasn't even gaining much insight through tracking, it was just more like \"maybe someone or AI will find patterns in this at some point and be able to explain everything to me so I can get better\"."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-29T03:14:48.554Z",
+    "af": false
+  },
+  {
+    "_id": "mPBkfdcGjkzxcCEXi",
+    "postId": "HboRaYFucf9DZcTJv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> (b12, iodine, niacin)\n\nWhat does it feel like when you've reached capacity on these? For niacin, do you just mean flushing?",
+      "plaintextDescription": "> (b12, iodine, niacin)\n\nWhat does it feel like when you've reached capacity on these? For niacin, do you just mean flushing?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-29T03:07:47.052Z",
+    "af": false
+  },
+  {
+    "_id": "eg3ZpCoELRfSGJXiR",
+    "postId": "HboRaYFucf9DZcTJv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Do not buy supps on Amazon (fraud, reselling, adulteration)\n\nDo you have more info about this? I've had good experiences buying supplements on Amazon (sticking to reputable brands and making sure Amazon is the seller). I've been doing this for years and as far as I know I've only ever gotten maybe on fake product.",
+      "plaintextDescription": "> Do not buy supps on Amazon (fraud, reselling, adulteration)\n\nDo you have more info about this? I've had good experiences buying supplements on Amazon (sticking to reputable brands and making sure Amazon is the seller). I've been doing this for years and as far as I know I've only ever gotten maybe on fake product."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-29T03:06:38.889Z",
+    "af": false
+  },
+  {
+    "_id": "FKSgx8hoHRTpk9uEj",
+    "postId": "E6JYCiKYd37EJHbqB",
+    "parentCommentId": "zBNgHsTPQX6eLe5KC",
+    "topLevelCommentId": "XWghCrYDrqsRuoFAj",
+    "contents": {
+      "markdown": "I have, but my writings are pretty disorganized at the moment and probably hard for people to interpret without some sort of dialogue with me, which is probably why I invited Nicholas/Heather to message me (I no longer remember my exact thought process from a year ago when I wrote the grandparent comment). But regardless, here are some links that you can check out of learning-related content I have written (feel free to message me or reply to this comment if you want to talk more about this stuff):\n\n*   [https://issarice.com/things-i-wish-i-knew-earlier#learning-how-to-learn](https://issarice.com/things-i-wish-i-knew-earlier#learning-how-to-learn)\n*   [https://learning.subwiki.org/wiki/Understanding\\_mathematical\\_definitions](https://learning.subwiki.org/wiki/Understanding_mathematical_definitions)\n*   [https://learning.subwiki.org/wiki/String\\_replacements\\_of\\_code\\_words](https://learning.subwiki.org/wiki/String_replacements_of_code_words)\n*   [https://wiki.issarice.com/wiki/Category:Spaced_repetition](https://wiki.issarice.com/wiki/Category:Spaced_repetition)\n*   [https://www.lesswrong.com/posts/J3Edt2CLcXPHQYSXo/exposition-as-science-some-ideas-for-how-to-make-progress](https://www.lesswrong.com/posts/J3Edt2CLcXPHQYSXo/exposition-as-science-some-ideas-for-how-to-make-progress)\n*   [https://issarice.com/anki](https://issarice.com/anki)\n*   [https://issarice.com/reflections-on-five-years-of-conceptual-anki](https://issarice.com/reflections-on-five-years-of-conceptual-anki)",
+      "plaintextDescription": "I have, but my writings are pretty disorganized at the moment and probably hard for people to interpret without some sort of dialogue with me, which is probably why I invited Nicholas/Heather to message me (I no longer remember my exact thought process from a year ago when I wrote the grandparent comment). But regardless, here are some links that you can check out of learning-related content I have written (feel free to message me or reply to this comment if you want to talk more about this stuff):\n\n * https://issarice.com/things-i-wish-i-knew-earlier#learning-how-to-learn\n * https://learning.subwiki.org/wiki/Understanding_mathematical_definitions\n * https://learning.subwiki.org/wiki/String_replacements_of_code_words\n * https://wiki.issarice.com/wiki/Category:Spaced_repetition\n * https://www.lesswrong.com/posts/J3Edt2CLcXPHQYSXo/exposition-as-science-some-ideas-for-how-to-make-progress\n * https://issarice.com/anki\n * https://issarice.com/reflections-on-five-years-of-conceptual-anki "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-19T19:46:28.378Z",
+    "af": false
+  },
+  {
+    "_id": "F3Wtsu7yqdJWzn8cq",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "y87zurRJYdCpPpHvk",
+    "topLevelCommentId": "nqzziY8JGbhE8rBrL",
+    "contents": {
+      "markdown": "> Were you gardening or anything when you first got sick?\n\nI was not. I've stayed indoors most of my adult life, so I think I'm at lower risk for worms. Hard to say where I could have gotten worms from (assuming it is worms).",
+      "plaintextDescription": "> Were you gardening or anything when you first got sick?\n\nI was not. I've stayed indoors most of my adult life, so I think I'm at lower risk for worms. Hard to say where I could have gotten worms from (assuming it is worms)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-07T03:27:05.637Z",
+    "af": false
+  },
+  {
+    "_id": "btwdck5gSjCenZT49",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "nqzziY8JGbhE8rBrL",
+    "topLevelCommentId": "nqzziY8JGbhE8rBrL",
+    "contents": {
+      "markdown": "I'd be curious to hear about how you decided which on dewormers I should take. Maybe the answer is just \"a bunch of reading on random internet posts and papers\".",
+      "plaintextDescription": "I'd be curious to hear about how you decided which on dewormers I should take. Maybe the answer is just \"a bunch of reading on random internet posts and papers\"."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-07T00:57:31.434Z",
+    "af": false
+  },
+  {
+    "_id": "uQWuDfeY58Gmk6uCj",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "F2B9iAyA5eJZd57ir",
+    "topLevelCommentId": "F2B9iAyA5eJZd57ir",
+    "contents": {
+      "markdown": "I wasted the first couple years of my illness thinking my condition was psychosomatic or DP/DR, doing things like therapy, anxiety techniques, introspection/journaling, gradual exposure, and so forth. I still sometimes try some psychosomatic treatments anyway (most recently, I was trying out John Sarno/Howard Schubiner-style mind body syndrome stuff, after reading [Steve Byrnes's post](https://www.lesswrong.com/posts/BgBJqPv5ogsX4fLka/the-mind-body-vicious-cycle-model-of-rsi-and-back-pain) and having it recommended to me). None of it really helped. I now think a lot of what people think of as psychosomatic conditions are instead *somatopsychic* conditions (i.e. a physical condition that results in mental symptoms). In my case, it helps that some of my symptoms clearly cannot be produced by anxiety/a psychosomatic condition (e.g. peeling and burning lips and rapid heart rate that returns to normal by lying down).",
+      "plaintextDescription": "I wasted the first couple years of my illness thinking my condition was psychosomatic or DP/DR, doing things like therapy, anxiety techniques, introspection/journaling, gradual exposure, and so forth. I still sometimes try some psychosomatic treatments anyway (most recently, I was trying out John Sarno/Howard Schubiner-style mind body syndrome stuff, after reading Steve Byrnes's post and having it recommended to me). None of it really helped. I now think a lot of what people think of as psychosomatic conditions are instead somatopsychic conditions (i.e. a physical condition that results in mental symptoms). In my case, it helps that some of my symptoms clearly cannot be produced by anxiety/a psychosomatic condition (e.g. peeling and burning lips and rapid heart rate that returns to normal by lying down)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-06-02T01:46:16.339Z",
+    "af": false
+  },
+  {
+    "_id": "aD4fTaJZBNotf6Nu7",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "jFg3eaBmsYWX9G8xW",
+    "topLevelCommentId": "3FGCEJkwvfGMFi5hi",
+    "contents": {
+      "markdown": "Thank you, this is good to know. I reached out to one of my doctors to see what they think of this idea. My own feeling is that 40% on a worm is too high. My eosinophils count is normal (and I know sometimes that can be normal even with a parasite), the viral illness seems like a sufficient explanation of kick-starting my chronic symptoms, I tested negative on the stool test, and I already know I have gut problems (and those gut problems seem to be explained by SIBO/leaky gut). Basically, everything I see seems to be explained well by stuff that I already know is going on, and I don't see any clear evidence of parasites. I would still put maybe 3% on it though.\n\nMy current distribution of root cause now looks something like: 35% on autoimmune/pre-autoimmune (e.g. Sjogren's syndrome), 25% on MCAS, 10% on dysautonomia/POTS, 5% on latent virus/viral reactivation, 5% on SIBO/impaired MMC, 3% on some kind of parasite, 17% other causes.\n\n> Only explanation for this (and the salt sensitivity etc) IMO is a hole/thinning in gut lining.\n\nWhy not dysautonomia? I am newly sensitive to a lot of things, including heat, light, and sound that don't directly involve the gut.",
+      "plaintextDescription": "Thank you, this is good to know. I reached out to one of my doctors to see what they think of this idea. My own feeling is that 40% on a worm is too high. My eosinophils count is normal (and I know sometimes that can be normal even with a parasite), the viral illness seems like a sufficient explanation of kick-starting my chronic symptoms, I tested negative on the stool test, and I already know I have gut problems (and those gut problems seem to be explained by SIBO/leaky gut). Basically, everything I see seems to be explained well by stuff that I already know is going on, and I don't see any clear evidence of parasites. I would still put maybe 3% on it though.\n\nMy current distribution of root cause now looks something like: 35% on autoimmune/pre-autoimmune (e.g. Sjogren's syndrome), 25% on MCAS, 10% on dysautonomia/POTS, 5% on latent virus/viral reactivation, 5% on SIBO/impaired MMC, 3% on some kind of parasite, 17% other causes.\n\n> Only explanation for this (and the salt sensitivity etc) IMO is a hole/thinning in gut lining.\n\nWhy not dysautonomia? I am newly sensitive to a lot of things, including heat, light, and sound that don't directly involve the gut."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-06-01T17:46:33.271Z",
+    "af": false
+  },
+  {
+    "_id": "ttuaHTEP8Z8db4i2v",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "vTKHTDxKnZfzEyd4N",
+    "topLevelCommentId": "vTKHTDxKnZfzEyd4N",
+    "contents": {
+      "markdown": "I agree they are hard to fix, but a lot of nerdy interests tend to also be hard (and that seems to be part of the attraction). So this doesn't seem like a differentiating factor.",
+      "plaintextDescription": "I agree they are hard to fix, but a lot of nerdy interests tend to also be hard (and that seems to be part of the attraction). So this doesn't seem like a differentiating factor."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-30T19:52:15.550Z",
+    "af": false
+  },
+  {
+    "_id": "9rkn5AWfEMrdgqcnz",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "3FGCEJkwvfGMFi5hi",
+    "topLevelCommentId": "3FGCEJkwvfGMFi5hi",
+    "contents": {
+      "markdown": "> Perhaps an intestinal parasite like a tapeworm?\n\nI did get the GI Effects stool test done (in December 2022, well after I'd already been ill), which showed no presence of parasites. Any reason to think a stool test like this wouldn't detect the parasites?\n\n> How do you know your infection from years ago was viral?\n\nMy symptoms during the acute infection were a sore throat, fever, large quantities of mucus and clogged nose (requiring constantly blowing my nose), and a cough (both dry and wet cough; mostly in the evenings). It felt like a cold or flu, just stronger and longer lasting (10 days for most symptoms to clear, then 5 more days after that until I felt basically normal, and then a few weeks later weird stuff started happening to me like extreme sensitivity to caffeine, and it has just kept going on for 5 years now).\n\n> GI tract pathogen\n\nI do know I have SIBO and gut dysbiosis (from breath/stool test), but the usual treatments for these seem to have made me worse off, so my current guess is that it's not the root problem.",
+      "plaintextDescription": "> Perhaps an intestinal parasite like a tapeworm?\n\nI did get the GI Effects stool test done (in December 2022, well after I'd already been ill), which showed no presence of parasites. Any reason to think a stool test like this wouldn't detect the parasites?\n\n> How do you know your infection from years ago was viral?\n\nMy symptoms during the acute infection were a sore throat, fever, large quantities of mucus and clogged nose (requiring constantly blowing my nose), and a cough (both dry and wet cough; mostly in the evenings). It felt like a cold or flu, just stronger and longer lasting (10 days for most symptoms to clear, then 5 more days after that until I felt basically normal, and then a few weeks later weird stuff started happening to me like extreme sensitivity to caffeine, and it has just kept going on for 5 years now).\n\n> GI tract pathogen\n\nI do know I have SIBO and gut dysbiosis (from breath/stool test), but the usual treatments for these seem to have made me worse off, so my current guess is that it's not the root problem."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-30T19:49:06.081Z",
+    "af": false
+  },
+  {
+    "_id": "P7Ev8brsQbEcuXiTo",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "97rTT6rCFrxeYfbxr",
+    "topLevelCommentId": "yisNo6c4t3CYyC5T8",
+    "contents": {
+      "markdown": "I've always been underweight. The heaviest I got was about 115 pounds during freshman year of college. A bunch of the men in my family were quite skinny (though not as much as me) when they were younger, so I suspect it's at least partly genetic.",
+      "plaintextDescription": "I've always been underweight. The heaviest I got was about 115 pounds during freshman year of college. A bunch of the men in my family were quite skinny (though not as much as me) when they were younger, so I suspect it's at least partly genetic."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-30T19:34:11.570Z",
+    "af": false
+  },
+  {
+    "_id": "uAoSn74iP2cMchsfd",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "fepGv5gbkeBSCBnrY",
+    "topLevelCommentId": "fepGv5gbkeBSCBnrY",
+    "contents": {
+      "markdown": "> I guess one of the first things to do to create/market/... an interest from labs/researchers/nerds/... would be to find other people suffering from the same illness and create/coin a name for that illness and create some association/website/gatherings/... to communicate about it like it is done for most other illnesses?\n\nFunny that you mention this, because I was just [musing about this](https://issarice.com/what-i-think-about-various-chronic-illness-labels) the other day over on my personal website. Unfortunately I wasn't able to come up with a very good name...\n\n> It must be really dreadful as it seems to be the case for you, to have a mysterious chronic illness without even a specific name attached to it (from what I understand), only a set of symptoms which (similarly to ME/CFS) can have many different possible root causes/factors.\n\nI really appreciate you saying this!\n\nI've looked at some of Sarah Myhill's work before, and yeah, I think it's a good example of someone seriously thinking about how to solve an illness. I wish I knew how to get more people like her to study different kinds of illnesses too.",
+      "plaintextDescription": "> I guess one of the first things to do to create/market/... an interest from labs/researchers/nerds/... would be to find other people suffering from the same illness and create/coin a name for that illness and create some association/website/gatherings/... to communicate about it like it is done for most other illnesses?\n\nFunny that you mention this, because I was just musing about this the other day over on my personal website. Unfortunately I wasn't able to come up with a very good name...\n\n> It must be really dreadful as it seems to be the case for you, to have a mysterious chronic illness without even a specific name attached to it (from what I understand), only a set of symptoms which (similarly to ME/CFS) can have many different possible root causes/factors.\n\nI really appreciate you saying this!\n\nI've looked at some of Sarah Myhill's work before, and yeah, I think it's a good example of someone seriously thinking about how to solve an illness. I wish I knew how to get more people like her to study different kinds of illnesses too."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-29T23:42:54.782Z",
+    "af": false
+  },
+  {
+    "_id": "9STrr7cqeapd76twa",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "wxc97YiXnFsdEFQaB",
+    "topLevelCommentId": "yisNo6c4t3CYyC5T8",
+    "contents": {
+      "markdown": "I've heard of this, and may want to try it eventually. I'm starting out with things like LDN first though.",
+      "plaintextDescription": "I've heard of this, and may want to try it eventually. I'm starting out with things like LDN first though."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-29T23:26:20.435Z",
+    "af": false
+  },
+  {
+    "_id": "AGFrc4r5jkrY8ECR2",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "HecdGQSvDKK8tLuej",
+    "topLevelCommentId": "yisNo6c4t3CYyC5T8",
+    "contents": {
+      "markdown": "I've heard a lot of good things about fasting, but unfortunately I am pretty underweight (104 pounds, 5 feet 6.5 inches) and unable to gain any weight (despite trying quite hard). And when I am awake if I don't eat for 1-2 hours I start to feel extremely weak. So those two things have kept me from thinking seriously about trying fasting. Do you have any resources or thoughts on fasting for underweight/wasting people?",
+      "plaintextDescription": "I've heard a lot of good things about fasting, but unfortunately I am pretty underweight (104 pounds, 5 feet 6.5 inches) and unable to gain any weight (despite trying quite hard). And when I am awake if I don't eat for 1-2 hours I start to feel extremely weak. So those two things have kept me from thinking seriously about trying fasting. Do you have any resources or thoughts on fasting for underweight/wasting people?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-29T23:24:52.684Z",
+    "af": false
+  },
+  {
+    "_id": "rGpEQojMujGpue749",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "yisNo6c4t3CYyC5T8",
+    "topLevelCommentId": "yisNo6c4t3CYyC5T8",
+    "contents": {
+      "markdown": "I have not. I've been supplementing vitamin D my whole adult life, and the initial blood test showed a level of 86.6ng/mL which one of my doctors said was higher than optimal, so I lowered the frequency of supplementation and my follow-up blood test showed a level of 54.5ng/mL. Any reason I should try megadosing it even if I have adequate levels in my blood?\n\nI've heard of zinc carnosine but haven't tried it yet. I tried supplementing with zinc gluconate at one point but it seemed to be aggravating my hunger attack symptom so I stopped.",
+      "plaintextDescription": "I have not. I've been supplementing vitamin D my whole adult life, and the initial blood test showed a level of 86.6ng/mL which one of my doctors said was higher than optimal, so I lowered the frequency of supplementation and my follow-up blood test showed a level of 54.5ng/mL. Any reason I should try megadosing it even if I have adequate levels in my blood?\n\nI've heard of zinc carnosine but haven't tried it yet. I tried supplementing with zinc gluconate at one point but it seemed to be aggravating my hunger attack symptom so I stopped."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-29T23:21:29.490Z",
+    "af": false
+  },
+  {
+    "_id": "ne6NzrSpEgFh8hpvk",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "yYbjtRAQPaAPJK9bo",
+    "topLevelCommentId": "yYbjtRAQPaAPJK9bo",
+    "contents": {
+      "markdown": "Can you elaborate? It seems to me that a lot of nerdy interests also \"don't generalize\" in the sense that different problems are quite different from one another (a puzzle game would be boring if all the puzzles had similar solutions, and part of the game designer's job is to make puzzles feel impossible in different ways; a mathematical theorem that was unnecessarily particular would be eaten up by a more general theorem, so major theorems in math necessarily require unique insights, so you can't prove most theorems by using the same old tricks; etc.). So this does not seem to be a distinguishing property to me.",
+      "plaintextDescription": "Can you elaborate? It seems to me that a lot of nerdy interests also \"don't generalize\" in the sense that different problems are quite different from one another (a puzzle game would be boring if all the puzzles had similar solutions, and part of the game designer's job is to make puzzles feel impossible in different ways; a mathematical theorem that was unnecessarily particular would be eaten up by a more general theorem, so major theorems in math necessarily require unique insights, so you can't prove most theorems by using the same old tricks; etc.). So this does not seem to be a distinguishing property to me."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-28T22:58:28.543Z",
+    "af": false
+  },
+  {
+    "_id": "jmHZkb64epprZBoqL",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "BzkxFXWwqLKgy7jma",
+    "topLevelCommentId": "BzkxFXWwqLKgy7jma",
+    "contents": {
+      "markdown": "[Here's one example](https://www.mechanicalbasis.org/). Jeff Wood had been suffering from ME/CFS for a while, and found that his head started sinking one day, and a lot of his symptoms would get worse depending on the position of his head/neck. This led to his diagnosis of CCI/AAI and he was able to get the right surgeries and is now in remission. Of course, most of us are not as lucky as he is in having something that so dramatically and immediately changes symptoms. But I think it's one way to solve such medical mysteries, and is basically what you say about tracking backwards from symptoms to causes.\n\n[Here's another example](https://www.youtube.com/watch?v=RiVDNhg4l48), although this one hasn't led to any actual cures yet. Robert Phair used his knowledge of biochemistry pathways to come up with a hypothesis of how the citric acid cycle gets shunted, which has the immediate effect of lowering ATP production but also some other crazy downstream effects like neurotransmitters being stolen to fuel an alternative cyclic reactions (which possibly is what one type of brainfog is caused by). So this approach is more top-down: start with a bunch of \"textbook\" knowledge and theory, try to come up with a hypothesis of how that could lead to problems, and how those problems might explain symptoms.\n\nI'm sure there are many other approaches.",
+      "plaintextDescription": "Here's one example. Jeff Wood had been suffering from ME/CFS for a while, and found that his head started sinking one day, and a lot of his symptoms would get worse depending on the position of his head/neck. This led to his diagnosis of CCI/AAI and he was able to get the right surgeries and is now in remission. Of course, most of us are not as lucky as he is in having something that so dramatically and immediately changes symptoms. But I think it's one way to solve such medical mysteries, and is basically what you say about tracking backwards from symptoms to causes.\n\nHere's another example, although this one hasn't led to any actual cures yet. Robert Phair used his knowledge of biochemistry pathways to come up with a hypothesis of how the citric acid cycle gets shunted, which has the immediate effect of lowering ATP production but also some other crazy downstream effects like neurotransmitters being stolen to fuel an alternative cyclic reactions (which possibly is what one type of brainfog is caused by). So this approach is more top-down: start with a bunch of \"textbook\" knowledge and theory, try to come up with a hypothesis of how that could lead to problems, and how those problems might explain symptoms.\n\nI'm sure there are many other approaches."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-05-28T22:45:40.032Z",
+    "af": false
+  },
+  {
+    "_id": "qFeYgKpySdt2gMbvE",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "6FewxGbPpiYS7raYq",
+    "topLevelCommentId": "6FewxGbPpiYS7raYq",
+    "contents": {
+      "markdown": "Sure, all of those things. I think they are all related parts of what I've been wondering about, and are not as distinct as maybe you think. If I were to try to compress my main confusion, it's something like: I see nerdy people spontaneously doing certain activities for fun, like doing math, programming, making and solving puzzle games, writing long blog posts about COVID origins, or whatever; why is it that almost no one spontaneously decides to try to solve mysterious chronic illnesses? Does thinking about mysterious chronic illnesses have some kind of barrier that repels people, and if so, are there ways to remove that barrier?",
+      "plaintextDescription": "Sure, all of those things. I think they are all related parts of what I've been wondering about, and are not as distinct as maybe you think. If I were to try to compress my main confusion, it's something like: I see nerdy people spontaneously doing certain activities for fun, like doing math, programming, making and solving puzzle games, writing long blog posts about COVID origins, or whatever; why is it that almost no one spontaneously decides to try to solve mysterious chronic illnesses? Does thinking about mysterious chronic illnesses have some kind of barrier that repels people, and if so, are there ways to remove that barrier?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-28T22:29:58.582Z",
+    "af": false
+  },
+  {
+    "_id": "3L89L8rrhr5xB8wbg",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "KbZ2wrHNyWjYwJSZd",
+    "topLevelCommentId": "KbZ2wrHNyWjYwJSZd",
+    "contents": {
+      "markdown": "> I wonder if \"brains\" of the sort that are useful for math and programming are neccessarily all that helpful here.\n\nI think I used to implicitly believe this too. I gravitate much more to math/programming than biology, and had a really hard time getting myself interested in biology/health stuff. But having been forced to learn more biology/health stuff, I seem to be able to ask questions that I don't see other people asking, and thinking thoughts that not many others are thinking, so now I think the kinds of thinking used in math/programming generalize and would be quite helpful in solving mysterious chronic illnesses.\n\nSeparately, I used to mostly agree with the Elizabeth post you linked, but the biggest \"win\" I've had so far with my own chronic illness has had the opposite lesson, where careful thinking and learning allowed me to improve my breathing problem. Of course, I still try a bunch of random things based on intuition. But I have a sense that having a good mechanistic model of the underlying physiology will lead to the biggest cures.",
+      "plaintextDescription": "> I wonder if \"brains\" of the sort that are useful for math and programming are neccessarily all that helpful here.\n\nI think I used to implicitly believe this too. I gravitate much more to math/programming than biology, and had a really hard time getting myself interested in biology/health stuff. But having been forced to learn more biology/health stuff, I seem to be able to ask questions that I don't see other people asking, and thinking thoughts that not many others are thinking, so now I think the kinds of thinking used in math/programming generalize and would be quite helpful in solving mysterious chronic illnesses.\n\nSeparately, I used to mostly agree with the Elizabeth post you linked, but the biggest \"win\" I've had so far with my own chronic illness has had the opposite lesson, where careful thinking and learning allowed me to improve my breathing problem. Of course, I still try a bunch of random things based on intuition. But I have a sense that having a good mechanistic model of the underlying physiology will lead to the biggest cures."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-28T22:21:27.533Z",
+    "af": false
+  },
+  {
+    "_id": "MdvpBgmruneCYCDbb",
+    "postId": "joPjaY43a4umyCkJK",
+    "parentCommentId": "6YnQnYBraZczNgwDf",
+    "topLevelCommentId": "6YnQnYBraZczNgwDf",
+    "contents": {
+      "markdown": "I've been trying. You can see my write-ups about [breathing](https://riceissa.github.io/breathing/), [swallowing](https://www.reddit.com/r/dysphagia/comments/1743nii/next_steps_after_modified_barium_swallow/), [weird thirst/electrolyte(?) thing](https://www.reddit.com/r/dysautonomia/comments/1as1enq/extreme_sensitivity_to_salt/), and [paradoxical temporary improvements following certain events](https://www.reddit.com/r/dysautonomia/comments/1btmr4s/does_anyone_else_feel_better_during_vaccines/). I also have a draft of a post detailing all of my history, labs, symptoms, and everything I've ever tried, but it's a huge amount work and I don't have much hope of people even reading it (hence this question, to see what I can do to make it more interesting), so I've only been able to make progress on it very slowly.",
+      "plaintextDescription": "I've been trying. You can see my write-ups about breathing, swallowing, weird thirst/electrolyte(?) thing, and paradoxical temporary improvements following certain events. I also have a draft of a post detailing all of my history, labs, symptoms, and everything I've ever tried, but it's a huge amount work and I don't have much hope of people even reading it (hence this question, to see what I can do to make it more interesting), so I've only been able to make progress on it very slowly."
+    },
+    "baseScore": 12,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-05-28T22:08:46.249Z",
+    "af": false
+  },
+  {
+    "_id": "WtwGHwjZ5wiytW8Qd",
+    "postId": "AyS4awCnKrKhwk4vs",
+    "parentCommentId": "XxQa3jbQqHAaQNy59",
+    "topLevelCommentId": "XxQa3jbQqHAaQNy59",
+    "contents": {
+      "markdown": "Update: The flashcards have finally been released: [https://riceissa.github.io/immune-book/](https://riceissa.github.io/immune-book/)",
+      "plaintextDescription": "Update: The flashcards have finally been released: https://riceissa.github.io/immune-book/ "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-04T00:34:55.485Z",
+    "af": false
+  },
+  {
+    "_id": "gXDMHuEe5WKdhqqu9",
+    "postId": "DHkkL2GxhxoceLzua",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Other commenters have already hinted at this, but I suspect that terms like \"saturated fat\", \"seed oils\", and \"omega-6 PUFA\" are not specific enough, and I further suspect that this makes basically all studies mostly useless (because they work with these flawed coarse terms). \"Saturated fat\" can be tallow from factory-farmed cows or cultured butter from grass-fed grass-finished cows (and even that isn't specific enough; was the grass sprayed with XYZ pesticide? etc.). \"Omega-6 PUFA\" can be highly heated seed oils chemically treated to deodorize them (masking their rancidity), or some of the oils in e.g. whole nuts. Even something specific-sounding like \"extra virgin olive oil\" can unfortunately mean pretty much anything because there's [a bunch of fraud going on](https://en.wikipedia.org/wiki/Olive_oil_regulation_and_adulteration), so the actual bottle in front of you probably isn't the real thing.\n\nMy bottom line is pretty similar to yours though. Clearly something went wrong in the last few hundred years, and probably diet is a good chunk of it. So treat any kind of modern processing or ingredient with suspicion and as much as possible try to eat as humans ate before the last few hundred years.",
+      "plaintextDescription": "Other commenters have already hinted at this, but I suspect that terms like \"saturated fat\", \"seed oils\", and \"omega-6 PUFA\" are not specific enough, and I further suspect that this makes basically all studies mostly useless (because they work with these flawed coarse terms). \"Saturated fat\" can be tallow from factory-farmed cows or cultured butter from grass-fed grass-finished cows (and even that isn't specific enough; was the grass sprayed with XYZ pesticide? etc.). \"Omega-6 PUFA\" can be highly heated seed oils chemically treated to deodorize them (masking their rancidity), or some of the oils in e.g. whole nuts. Even something specific-sounding like \"extra virgin olive oil\" can unfortunately mean pretty much anything because there's a bunch of fraud going on, so the actual bottle in front of you probably isn't the real thing.\n\nMy bottom line is pretty similar to yours though. Clearly something went wrong in the last few hundred years, and probably diet is a good chunk of it. So treat any kind of modern processing or ingredient with suspicion and as much as possible try to eat as humans ate before the last few hundred years."
+    },
+    "baseScore": 13,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-04-22T04:36:53.483Z",
+    "af": false
+  },
+  {
+    "_id": "M5dX59tARBCf9F2ou",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "gfZYTQYtiwKjKKmLA",
+    "topLevelCommentId": "r239h2jLZSjx4hGgG",
+    "contents": {
+      "markdown": "Hi, I wanted to give an update. Capnometry biofeedback worked better than I expected. My baseline ET CO2 went from around 27mmHg to around 40mmHg in the first 1.5 weeks of using the device, and stayed there for the whole month I had access to the device. (I've now returned the device.) The key thing I discovered was that even though I was already nasal breathing 99.9% of the time, my nasal breaths were still quite audible and so I was overbreathing because of that. The biofeedback+coaching allowed me to switch my breathing to a silent nasal one in stages. I still experience air hunger, but it is a lot more subtle than before. I still have trouble talking, some of the time (I think talking makes me overbreathe, so if I start out with no air hunger then I can talk for quite a while, but if I start talking when I already have some air hunger, then I quickly reach my limits). I still on occasion mysteriously have a lot more air hunger than normal and feel like I \"forgot how to breathe\", and I wonder if that means I have some sort of autonomic problem... I've been writing up a lot of my thoughts [here](https://riceissa.github.io/breathing/). I might retry capnometers in a few months or a year or something, but for now my plan is to go back to (original Russian-lineage) Buteyko method and really logging the time (rather than half-assing it, which is what I was doing previously with Buteyko). Feel free to ask any questions.",
+      "plaintextDescription": "Hi, I wanted to give an update. Capnometry biofeedback worked better than I expected. My baseline ET CO2 went from around 27mmHg to around 40mmHg in the first 1.5 weeks of using the device, and stayed there for the whole month I had access to the device. (I've now returned the device.) The key thing I discovered was that even though I was already nasal breathing 99.9% of the time, my nasal breaths were still quite audible and so I was overbreathing because of that. The biofeedback+coaching allowed me to switch my breathing to a silent nasal one in stages. I still experience air hunger, but it is a lot more subtle than before. I still have trouble talking, some of the time (I think talking makes me overbreathe, so if I start out with no air hunger then I can talk for quite a while, but if I start talking when I already have some air hunger, then I quickly reach my limits). I still on occasion mysteriously have a lot more air hunger than normal and feel like I \"forgot how to breathe\", and I wonder if that means I have some sort of autonomic problem... I've been writing up a lot of my thoughts here. I might retry capnometers in a few months or a year or something, but for now my plan is to go back to (original Russian-lineage) Buteyko method and really logging the time (rather than half-assing it, which is what I was doing previously with Buteyko). Feel free to ask any questions."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-03-07T23:15:02.498Z",
+    "af": false
+  },
+  {
+    "_id": "Rmjv8qMCBkfDAytzD",
+    "postId": "WWJuw5oy44ZQojw2M",
+    "parentCommentId": "kiZxiXfbcNadokpFm",
+    "topLevelCommentId": "eXxsXozXaeRBPG3kR",
+    "contents": {
+      "markdown": "Interesting, I don't know anything about the quality of different SLIT manufacturers, but $2600 sounds a lot more affordable than $7000. I'll try to remember to ask my allergist about this if I ever see them again.",
+      "plaintextDescription": "Interesting, I don't know anything about the quality of different SLIT manufacturers, but $2600 sounds a lot more affordable than $7000. I'll try to remember to ask my allergist about this if I ever see them again."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-03T18:57:38.483Z",
+    "af": false
+  },
+  {
+    "_id": "eXxsXozXaeRBPG3kR",
+    "postId": "WWJuw5oy44ZQojw2M",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "My understanding (based on watching some YouTube lectures and talking to my allergists) is that SCIT (aka allergy shots) and SLIT are equally effective but (at least in the US) SLIT is not covered by insurance so SCIT ends up being a lot cheaper for most people. The main problem with SCIT is that it requires going to the allergy clinic every week for a while, then every month for a while over a period of about 3 years (but it is possible to speed things up quite a bit by doing cluster shots or double shots). I tried doing SCIT last year but my chronic illness made it too difficult to go to the clinic each week so I eventually had to stop (I imagine this won't be a problem for most other people). My allergy clinic gave me an estimate that SLIT would cost roughly $7000 total over 3 years, whereas SCIT for me was free with my insurance.\n\nHow were you getting SLIT for $25/week, how much did SLIT cost in total for you, and were the doses tailored to your particular allergies based on tests?",
+      "plaintextDescription": "My understanding (based on watching some YouTube lectures and talking to my allergists) is that SCIT (aka allergy shots) and SLIT are equally effective but (at least in the US) SLIT is not covered by insurance so SCIT ends up being a lot cheaper for most people. The main problem with SCIT is that it requires going to the allergy clinic every week for a while, then every month for a while over a period of about 3 years (but it is possible to speed things up quite a bit by doing cluster shots or double shots). I tried doing SCIT last year but my chronic illness made it too difficult to go to the clinic each week so I eventually had to stop (I imagine this won't be a problem for most other people). My allergy clinic gave me an estimate that SLIT would cost roughly $7000 total over 3 years, whereas SCIT for me was free with my insurance.\n\nHow were you getting SLIT for $25/week, how much did SLIT cost in total for you, and were the doses tailored to your particular allergies based on tests?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-03T02:44:07.110Z",
+    "af": false
+  },
+  {
+    "_id": "QsLMuH5SPWgDwELNG",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "WyKPwxbpYALoAw4F2",
+    "topLevelCommentId": "r239h2jLZSjx4hGgG",
+    "contents": {
+      "markdown": "I had a couple more questions about the CONTEC device:\n\n1.  What's the lag time from when you breathe to when the waveform is displayed on the screen, and when the number updates?\n2.  How does it prevent water (from exhaled air) from getting into the device? The CapnoTrainer uses water traps inserted between the cannula and the device itself, and these water traps need to be replaced every once in a while. But I haven't seen anything similar for the CONTEC device.",
+      "plaintextDescription": "I had a couple more questions about the CONTEC device:\n\n 1. What's the lag time from when you breathe to when the waveform is displayed on the screen, and when the number updates?\n 2. How does it prevent water (from exhaled air) from getting into the device? The CapnoTrainer uses water traps inserted between the cannula and the device itself, and these water traps need to be replaced every once in a while. But I haven't seen anything similar for the CONTEC device."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-03T00:39:26.069Z",
+    "af": false
+  },
+  {
+    "_id": "a5ChLwT6BgjSyTrNj",
+    "postId": "nwyYLfLZjYESuqRaZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I haven't verified the correctness of what this person is saying, but [this Reddit comment](https://www.reddit.com/r/AskAstrologers/comments/16qcjv2/18m_life_changed_completely_after_a_surgery_in/k3jx3p9/) seems relevant:\n\n> Most yoga breathing techniques have been completely misinterpreted from the ancient texts, and incorrectly teach people to breath larger amounts of air, when true deep breathing (deep as in from the diaphragm) is very still and almost imperceptible at rest. Buteyko teaches how to reset the part of the brain that controls autonomic breathing back to this very gentle still breath. Lau Tzu said 'the perfect man breathes as if he is not breathing' . The things that throw out the breathing pattern/volume (and in turn the whole body's biochemistry) are stress and diet, and environmental toxins mostly, but once this happens its hard to reset the breath back to normal without a correct breath practice. And most yogic breathing as taught in the west is the sadly exact opposite of what is needed.",
+      "plaintextDescription": "I haven't verified the correctness of what this person is saying, but this Reddit comment seems relevant:\n\n> Most yoga breathing techniques have been completely misinterpreted from the ancient texts, and incorrectly teach people to breath larger amounts of air, when true deep breathing (deep as in from the diaphragm) is very still and almost imperceptible at rest. Buteyko teaches how to reset the part of the brain that controls autonomic breathing back to this very gentle still breath. Lau Tzu said 'the perfect man breathes as if he is not breathing' . The things that throw out the breathing pattern/volume (and in turn the whole body's biochemistry) are stress and diet, and environmental toxins mostly, but once this happens its hard to reset the breath back to normal without a correct breath practice. And most yogic breathing as taught in the west is the sadly exact opposite of what is needed."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-02-01T04:54:59.610Z",
+    "af": false
+  },
+  {
+    "_id": "mBMRiadb7jS4pjQRp",
+    "postId": "nwyYLfLZjYESuqRaZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One data point: [https://youtu.be/XliOGg8Tl98?t=230](https://youtu.be/XliOGg8Tl98?t=230)",
+      "plaintextDescription": "One data point: https://youtu.be/XliOGg8Tl98?t=230 "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-18T05:47:56.971Z",
+    "af": false
+  },
+  {
+    "_id": "TBgN5x2LojumNSMz2",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "WyKPwxbpYALoAw4F2",
+    "topLevelCommentId": "r239h2jLZSjx4hGgG",
+    "contents": {
+      "markdown": "Thank you, this is helpful!\n\nI found someone in my local area who has a CapnoTrainer and was willing to rent it out to me and coach me, so it was a lot cheaper than the official route. But yeah, in general rentals are quite expensive unfortunately. If I couldn't find anyone who would rent one out to me for a reasonable price, I would probably have just gone with the CONTEC device as you did.\n\nWhen I originally wrote this LW post, I had never used a capnometer of any kind (it just seemed quite promising and I was confused why basically no one was talking about it). After writing the post, I found someone who would rent a CapnoTrainer to me, and have been using the device now for about a week. The CapnoTrainer is still the only capnometer I have used. It's still too early for me to say whether the device \"worked\" or not, but so far it's been a quite promising experience (I'm planning to write more in maybe a month when the rental period ends).",
+      "plaintextDescription": "Thank you, this is helpful!\n\nI found someone in my local area who has a CapnoTrainer and was willing to rent it out to me and coach me, so it was a lot cheaper than the official route. But yeah, in general rentals are quite expensive unfortunately. If I couldn't find anyone who would rent one out to me for a reasonable price, I would probably have just gone with the CONTEC device as you did.\n\nWhen I originally wrote this LW post, I had never used a capnometer of any kind (it just seemed quite promising and I was confused why basically no one was talking about it). After writing the post, I found someone who would rent a CapnoTrainer to me, and have been using the device now for about a week. The CapnoTrainer is still the only capnometer I have used. It's still too early for me to say whether the device \"worked\" or not, but so far it's been a quite promising experience (I'm planning to write more in maybe a month when the rental period ends)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-17T18:28:34.101Z",
+    "af": false
+  },
+  {
+    "_id": "CdRyindAtErcsqr3s",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "iTojmegotkvMiZdKi",
+    "topLevelCommentId": "r239h2jLZSjx4hGgG",
+    "contents": {
+      "markdown": "> The contec does show the waveform, it's just on a tiny screen so not the most detailed. \n\nHuh, okay, that is good to know. I was looking at images like this one where the wave form is clearly the SpO2, rather than CO2:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/62df5b47514dbc73e0183c33feaf1edad0439c9ac985370a.png)\n\nBut scrolling through more of the images, I do see this, which looks like a CO2 curve:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/727e5787461b1a5d1a0af964a62d25cc296c40ae53937ba6.png)\n\nI am guessing there must be some way to switch which graph you see?\n\n> Talking is really bad too for me. If I talk for a sentence or less, let myself breathe a few breaths while not moving, then resume talking and keep pausing for a while after talking only a bit that helps a lot.\n\nThis sounds so much like me... (Luckily I don't seem to have the problem with movement, but eating (specifically [swallowing](https://www.reddit.com/r/dysphagia/comments/1743nii/next_steps_after_modified_barium_swallow/)) makes me nervous too.) I don't know if you've looked into Peter Litchfield's work (he has a bunch of videos on YouTube too), but he talks a lot about altering your subconscious/unconscious breathing habits instead of consciously using techniques as crutches to save you from an episode. I recently got access to a CapnoTrainer so that will be my plan for hopefully fixing my breathing (I already did this once when going from ~80% nose-breathing to ~99.9% nose-breathing -- it took about a month of anxiously paying too much attention to my breath, but after a month or so it became totally natural).",
+      "plaintextDescription": "> The contec does show the waveform, it's just on a tiny screen so not the most detailed. \n\nHuh, okay, that is good to know. I was looking at images like this one where the wave form is clearly the SpO2, rather than CO2:\n\nBut scrolling through more of the images, I do see this, which looks like a CO2 curve:\n\nI am guessing there must be some way to switch which graph you see?\n\n> Talking is really bad too for me. If I talk for a sentence or less, let myself breathe a few breaths while not moving, then resume talking and keep pausing for a while after talking only a bit that helps a lot.\n\nThis sounds so much like me... (Luckily I don't seem to have the problem with movement, but eating (specifically swallowing) makes me nervous too.) I don't know if you've looked into Peter Litchfield's work (he has a bunch of videos on YouTube too), but he talks a lot about altering your subconscious/unconscious breathing habits instead of consciously using techniques as crutches to save you from an episode. I recently got access to a CapnoTrainer so that will be my plan for hopefully fixing my breathing (I already did this once when going from ~80% nose-breathing to ~99.9% nose-breathing -- it took about a month of anxiously paying too much attention to my breath, but after a month or so it became totally natural)."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-01-16T18:24:04.697Z",
+    "af": false
+  },
+  {
+    "_id": "XWghCrYDrqsRuoFAj",
+    "postId": "E6JYCiKYd37EJHbqB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I self-studied a bunch of math in 2017-2019 in order to do AI alignment research (specifically, agent foundations type stuff), and have a lot of thoughts about how to do it. Feel free to message me if you want to discuss.",
+      "plaintextDescription": "I self-studied a bunch of math in 2017-2019 in order to do AI alignment research (specifically, agent foundations type stuff), and have a lot of thoughts about how to do it. Feel free to message me if you want to discuss."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-01-10T03:07:59.737Z",
+    "af": false
+  },
+  {
+    "_id": "gMXEbxEoKHTnRTP5z",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "r239h2jLZSjx4hGgG",
+    "topLevelCommentId": "r239h2jLZSjx4hGgG",
+    "contents": {
+      "markdown": "Thank you, this is really fascinating! After writing this post, I talked to someone who does biofeedback using a capnometer, and they also mentioned that same CONTEC device as a cheap but still accurate capnometer. Their main gripe with it was that it responds more slowly compared to the CapnoTrainer and doesn't show the wave form, so it is not as good for doing biofeedback with (e.g. apparently the CapnoTrainer can show things like aborted breaths or weird exhalation patterns, whereas the CONTEC device can't show that), but it is still good enough for detecting CO2 levels.\n\nI would love to read more about your experiences with your breathing issue and what you've tried. Your description of your problem seems similar to my own -- for example, I notice that talking out loud seems to dysregulate my breathing pretty quickly.",
+      "plaintextDescription": "Thank you, this is really fascinating! After writing this post, I talked to someone who does biofeedback using a capnometer, and they also mentioned that same CONTEC device as a cheap but still accurate capnometer. Their main gripe with it was that it responds more slowly compared to the CapnoTrainer and doesn't show the wave form, so it is not as good for doing biofeedback with (e.g. apparently the CapnoTrainer can show things like aborted breaths or weird exhalation patterns, whereas the CONTEC device can't show that), but it is still good enough for detecting CO2 levels.\n\nI would love to read more about your experiences with your breathing issue and what you've tried. Your description of your problem seems similar to my own -- for example, I notice that talking out loud seems to dysregulate my breathing pretty quickly."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-01-01T01:27:42.483Z",
+    "af": false
+  },
+  {
+    "_id": "e26Bsbnr5YAhEyZtD",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "43vcT7FWQuuDTW9fS",
+    "topLevelCommentId": "raYCgAdLbrWDLYgqw",
+    "contents": {
+      "markdown": "Does this mean that a cheap \"pseudo-capnometer\" can be created which measures VOCs collected via a nasal cannula? Or would measuring VOCs instead of CO2 change the results at that level (but why?)?",
+      "plaintextDescription": "Does this mean that a cheap \"pseudo-capnometer\" can be created which measures VOCs collected via a nasal cannula? Or would measuring VOCs instead of CO2 change the results at that level (but why?)?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-22T04:36:42.916Z",
+    "af": false
+  },
+  {
+    "_id": "YFixBvLnLuLoRoPJW",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "raYCgAdLbrWDLYgqw",
+    "topLevelCommentId": "raYCgAdLbrWDLYgqw",
+    "contents": {
+      "markdown": "Thank you!\n\nDoes \"COTS\" stand for \"commercial off-the-shelf\" or is this some more technical acronym related to CO2 measurements?\n\n> Ultimately the reason it's not popular is probably because it doesn't seem that useful. Breathing is automatic and regulated by blood CO2 concentration; I find it hard to believe that the majority of the population, with otherwise normal respiratory function, would be so off the mark. Is there strong evidence to suggest this is the case?\n\nI agree that this wouldn't be useful for the majority of the population. ([Some](https://betterphysiology.com/acute-effects/) [breathing](https://vimeo.com/436420933) [gurus](https://www.normalbreathing.com/diseases/) claim that poor breathing is responsible for pretty much every health problem ever including anxiety, depression, sleep problems, heart problems, brain fog, gastrointestinal problems, headaches, chronic pain, etc. I don't buy these strong claims.) As I tried to make clear in the original question, my own interest in this is personal: I've been having chronic shortness of breath for over a decade and the doctors just shrug and say \"maybe it's anxiety\" and give me inhalers which don't work. But I suspect others like me are not all that rare. [This video](https://www.youtube.com/watch?v=XliOGg8Tl98) (that explains air hunger in terms of carbon dioxide levels and overbreathing) has 53k views and 2.2k likes; [Reddit](https://www.google.com/search?q=site%3Areddit.com+anxiety+air+hunger) is full of people complaining about air hunger; something like [8%](https://nemsis.org/wp-content/uploads/2023/10/NEMSIS-End-of-Year-Report-2023-10-16-23c.pdf#page=9) of all EMS responses in the US are from a combination of \"respiratory distress\" and \"shortness of breath\" (most of which I assume are not life-threatening; see [this Quora question](https://www.quora.com/Is-it-common-for-EMT-crews-to-be-dispatched-for-someone-who-is-hyperventilating) for some evidence, and my one and only time so far on an ambulance to the ER was due to feeling like I couldn't breathe which in retrospect was probably due to overbreathing). So again, I don't think the *majority* of the population would need to do anything about their breathing, but that seems like quite a high bar that basically no health problem could clear. I'm instead suggesting that it's quite a common problem (but I don't know exactly how common), and asking why this device which seems like it would be helpful for this common problem is virtually unknown.",
+      "plaintextDescription": "Thank you!\n\nDoes \"COTS\" stand for \"commercial off-the-shelf\" or is this some more technical acronym related to CO2 measurements?\n\n> Ultimately the reason it's not popular is probably because it doesn't seem that useful. Breathing is automatic and regulated by blood CO2 concentration; I find it hard to believe that the majority of the population, with otherwise normal respiratory function, would be so off the mark. Is there strong evidence to suggest this is the case?\n\nI agree that this wouldn't be useful for the majority of the population. (Some breathing gurus claim that poor breathing is responsible for pretty much every health problem ever including anxiety, depression, sleep problems, heart problems, brain fog, gastrointestinal problems, headaches, chronic pain, etc. I don't buy these strong claims.) As I tried to make clear in the original question, my own interest in this is personal: I've been having chronic shortness of breath for over a decade and the doctors just shrug and say \"maybe it's anxiety\" and give me inhalers which don't work. But I suspect others like me are not all that rare. This video (that explains air hunger in terms of carbon dioxide levels and overbreathing) has 53k views and 2.2k likes; Reddit is full of people complaining about air hunger; something like 8% of all EMS responses in the US are from a combination of \"respiratory distress\" and \"shortness of breath\" (most of which I assume are not life-threatening; see this Quora question for some evidence, and my one and only time so far on an ambulance to the ER was due to feeling like I couldn't breathe which in retrospect was probably due to overbreathing). So again, I don't think the majority of the population would need to do anything about their breathing, but that seems like quite a high bar that basically no health problem could clear. I'm instead suggesting that it's quite a common problem (but I don't know exactly how common), and asking why this device which seems like it would be"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-21T21:00:10.372Z",
+    "af": false
+  },
+  {
+    "_id": "YKB2vGatBbqcPGnjp",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "cqzcaia64DqhQqi5J",
+    "topLevelCommentId": "cqzcaia64DqhQqi5J",
+    "contents": {
+      "markdown": "I was not familiar with that term, but I am aware of sleep apnea and how that can lead to too-high levels of carbon dioxide. Like I said in a [different comment](https://www.lesswrong.com/posts/xRBLn4LWLh7Sty876/why-is-capnometry-biofeedback-not-more-widely-known?commentId=PJAaTuoQQRr7nXNAF), my current understanding is that both too-high and too-low are problems. In my case (and in other cases where people have anxiety-like shortness of breath) I think what's going on is too-low carbon dioxide. But having a capnometer seems useful for correcting both too-low and too-high carbon dioxide.",
+      "plaintextDescription": "I was not familiar with that term, but I am aware of sleep apnea and how that can lead to too-high levels of carbon dioxide. Like I said in a different comment, my current understanding is that both too-high and too-low are problems. In my case (and in other cases where people have anxiety-like shortness of breath) I think what's going on is too-low carbon dioxide. But having a capnometer seems useful for correcting both too-low and too-high carbon dioxide."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-21T20:29:06.804Z",
+    "af": false
+  },
+  {
+    "_id": "PJAaTuoQQRr7nXNAF",
+    "postId": "xRBLn4LWLh7Sty876",
+    "parentCommentId": "rtKjxeCjiKgkShDy2",
+    "topLevelCommentId": "rtKjxeCjiKgkShDy2",
+    "contents": {
+      "markdown": "My understanding is that like many things, both low and high are bad (high carbon dioxide is called [hypercapnia](https://en.wikipedia.org/wiki/Hypercapnia)), so you want to be in the \"good\" range (I typically see 35-45 mmHg of partial pressure carbon dioxide being cited as the good range). In rationalist circles I have seen discussion of too-high *atmospheric* carbon dioxide being bad, but I am myself confused on how that connects to carbon dioxide levels in the blood (and separately, I'm not convinced that higher carbon dioxide levels in the air are bad either).",
+      "plaintextDescription": "My understanding is that like many things, both low and high are bad (high carbon dioxide is called hypercapnia), so you want to be in the \"good\" range (I typically see 35-45 mmHg of partial pressure carbon dioxide being cited as the good range). In rationalist circles I have seen discussion of too-high atmospheric carbon dioxide being bad, but I am myself confused on how that connects to carbon dioxide levels in the blood (and separately, I'm not convinced that higher carbon dioxide levels in the air are bad either)."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-21T04:31:33.845Z",
+    "af": false
+  },
+  {
+    "_id": "f2gW5DbT2dBDqnC3y",
+    "postId": "LwcKYR8bykM6vDHyo",
+    "parentCommentId": "r4NgpCTFNEJRXewBv",
+    "topLevelCommentId": "7NiWw3PbjQS8ZuYAR",
+    "contents": {
+      "markdown": "Was the update ever posted? I am interested in getting a capnometer for an unrelated reason and was curious where people decided to get theirs.",
+      "plaintextDescription": "Was the update ever posted? I am interested in getting a capnometer for an unrelated reason and was curious where people decided to get theirs."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-19T08:11:44.011Z",
+    "af": false
+  },
+  {
+    "_id": "pkwH3a7qFFJwwhxWQ",
+    "postId": "AnhwbEisrPXEw9d5g",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I feel like doing correctness right requires originality after a certain point, so the two don't feel too distinct to me. Early in one's intellectual development it might make sense to just \"shop around\" for different worldviews by reading widely, but after a while you are going to be routinely bumping into things that aren't on the collective map.\n\nThe casus belli example Habryka gives in the \"Correctness as defence against the dark arts\" strikes me as an example of ... how *originality* helps defend against the dark arts! (I am guessing here that Habryka did not just read some old rationalist blog post called \"Casus belli, how people use it to manipulate each other, and how to avoid getting got\", but that he formed this connection himself.) More generally but also personally, I feel like several times in my life (including now) I have been in bad situations where the world just does not seem to have a solution to my problem, where no amount of google-fu, reading books, seeking societally-established forms of help (therapists, doctors, etc.) has helped. The only way out seems to be to do original thinking.\n\nI also want to highlight that the mental motions of Correctness reasoning seems to be susceptible to the dark arts (to be clear, I think Habryka himself is smart enough to avoid this kind of thing, but I want to highlight this for others). I feel this most whenever I go on Twitter. Like, I go on there thinking \"ok, for whatever reason many people ([even Wei Dai now, apparently](https://twitter.com/weidai11)) are discoursing on here now, so I better read it to not fall behind, I better enlarge my hypothesis space by taking in new ideas and increase the range of thoughts I can think!\" (this is the kind of thing I mean by \"mental motions of Correctness reasoning\" -- I am mainly motivated by making my map bigger, not making it more detailed). But then after a while I feel like the social environment is [tugging me to feel a certain way, value certain things, believe certain things (or else I'm a bad person)](https://twitter.com/QiaochuYuan/status/1732119967888441392) (maybe I only had this line of thought because Qiaochu tugged me in a certain direction!). I started out wanting to just explore and try to make my map Correct, but turns out the territory contained adversarial computations... This sort of thing, it seems to me, is even worse for the non-LessWrong population. Again it seems to me most healthy to mostly just be thinking for myself and then periodically check in on Twitter discourse to see what's up (this is aspirational).",
+      "plaintextDescription": "I feel like doing correctness right requires originality after a certain point, so the two don't feel too distinct to me. Early in one's intellectual development it might make sense to just \"shop around\" for different worldviews by reading widely, but after a while you are going to be routinely bumping into things that aren't on the collective map.\n\nThe casus belli example Habryka gives in the \"Correctness as defence against the dark arts\" strikes me as an example of ... how originality helps defend against the dark arts! (I am guessing here that Habryka did not just read some old rationalist blog post called \"Casus belli, how people use it to manipulate each other, and how to avoid getting got\", but that he formed this connection himself.) More generally but also personally, I feel like several times in my life (including now) I have been in bad situations where the world just does not seem to have a solution to my problem, where no amount of google-fu, reading books, seeking societally-established forms of help (therapists, doctors, etc.) has helped. The only way out seems to be to do original thinking.\n\nI also want to highlight that the mental motions of Correctness reasoning seems to be susceptible to the dark arts (to be clear, I think Habryka himself is smart enough to avoid this kind of thing, but I want to highlight this for others). I feel this most whenever I go on Twitter. Like, I go on there thinking \"ok, for whatever reason many people (even Wei Dai now, apparently) are discoursing on here now, so I better read it to not fall behind, I better enlarge my hypothesis space by taking in new ideas and increase the range of thoughts I can think!\" (this is the kind of thing I mean by \"mental motions of Correctness reasoning\" -- I am mainly motivated by making my map bigger, not making it more detailed). But then after a while I feel like the social environment is tugging me to feel a certain way, value certain things, believe certain things (or else I'm a bad "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-07T06:45:39.504Z",
+    "af": false
+  },
+  {
+    "_id": "HYLzBJk3GvSETdxud",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "qntQtRpwFscgsuocv",
+    "topLevelCommentId": "qntQtRpwFscgsuocv",
+    "contents": {
+      "markdown": "I don't actually know how to design things, but here's a simple prototype you can play around with: [https://issarice.com/adaptive-typography](https://issarice.com/adaptive-typography) (as is the case with all prototypes, I ask the user to please overlook any jankiness of the current implementation, and instead imagine you are interacting with a much more polished/idealized version of the same idea).",
+      "plaintextDescription": "I don't actually know how to design things, but here's a simple prototype you can play around with: https://issarice.com/adaptive-typography (as is the case with all prototypes, I ask the user to please overlook any jankiness of the current implementation, and instead imagine you are interacting with a much more polished/idealized version of the same idea)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-21T22:06:25.468Z",
+    "af": false
+  },
+  {
+    "_id": "awKfrLP3AwzuhaMGz",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "W49udPvKRZB4B3snR",
+    "topLevelCommentId": "W49udPvKRZB4B3snR",
+    "contents": {
+      "markdown": "Two years later: an abstract algebra server was created (covering three books: Artin, Aluffi, and \"Abel's Theorem in Problems and Solutions\"), but never really took off. I also discovered a topology server (covering Munkres) but it is also now inactive. Meanwhile the Tao Discord is still alive, but I fear it is mostly only alive because I am still there answering people's questions...\n\nThere's a tricky trade-off where on one hand, I want to answer questions quickly enough that people don't feel blocked on not knowing the answer to their question, but on the other hand, if I don't answer a question, then that may actually cause someone else to step in and answer (which sort of \"trains\" the server to become more resilient, so it doesn't only depend on me for survival). (Reminds me of the [quote](https://www.quora.com/What-does-the-math-quote-The-worst-thing-you-can-do-is-to-completely-solve-a-problem-mean) about how the worst thing you can do is to completely solve a problem, and Bill Thurston's [anecdote](https://arxiv.org/pdf/math/9404236.pdf#page=13) about how he killed a field by making too much progress on it alone.)\n\nI wish I knew how to make more of these servers go well.",
+      "plaintextDescription": "Two years later: an abstract algebra server was created (covering three books: Artin, Aluffi, and \"Abel's Theorem in Problems and Solutions\"), but never really took off. I also discovered a topology server (covering Munkres) but it is also now inactive. Meanwhile the Tao Discord is still alive, but I fear it is mostly only alive because I am still there answering people's questions...\n\nThere's a tricky trade-off where on one hand, I want to answer questions quickly enough that people don't feel blocked on not knowing the answer to their question, but on the other hand, if I don't answer a question, then that may actually cause someone else to step in and answer (which sort of \"trains\" the server to become more resilient, so it doesn't only depend on me for survival). (Reminds me of the quote about how the worst thing you can do is to completely solve a problem, and Bill Thurston's anecdote about how he killed a field by making too much progress on it alone.)\n\nI wish I knew how to make more of these servers go well."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-18T21:25:17.050Z",
+    "af": false
+  },
+  {
+    "_id": "aAjk2AmoYygGryNh4",
+    "postId": "bkfgTSHhm3mqxgTmw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What would you recommend in cases where there isn't a single moment in time when one has given up? Most of my projects are inactive in the sense that I haven't done much with them in a while (months or years), but also, they aren't completely dead. I gradually lost interest in the project or prioritized doing other things, but there isn't a sharp cutoff when that happened, and I might pick it up again. To give a concrete example, one of my blogs has a posting history that looks like this (numbers in parentheses indicate number of blog posts in that month):\n\n>    October 2023 (4)  \n>    May 2023 (2)  \n>    April 2023 (2)  \n>    August 2022 (1)  \n>    November 2021 (1)  \n>    September 2021 (2)  \n>    July 2021 (1)  \n>    April 2021 (1)  \n>    March 2021 (1)  \n>    February 2021 (1)  \n>    November 2020 (2)  \n>    October 2020 (1)  \n>    September 2020 (3)  \n>    August 2020 (3)  \n>    July 2020 (3)  \n>    June 2020 (12)  \n>    May 2020 (25)  \n>    April 2020 (28)  \n>    March 2020 (23)",
+      "plaintextDescription": "What would you recommend in cases where there isn't a single moment in time when one has given up? Most of my projects are inactive in the sense that I haven't done much with them in a while (months or years), but also, they aren't completely dead. I gradually lost interest in the project or prioritized doing other things, but there isn't a sharp cutoff when that happened, and I might pick it up again. To give a concrete example, one of my blogs has a posting history that looks like this (numbers in parentheses indicate number of blog posts in that month):\n\n>    October 2023 (4)\n>    May 2023 (2)\n>    April 2023 (2)\n>    August 2022 (1)\n>    November 2021 (1)\n>    September 2021 (2)\n>    July 2021 (1)\n>    April 2021 (1)\n>    March 2021 (1)\n>    February 2021 (1)\n>    November 2020 (2)\n>    October 2020 (1)\n>    September 2020 (3)\n>    August 2020 (3)\n>    July 2020 (3)\n>    June 2020 (12)\n>    May 2020 (25)\n>    April 2020 (28)\n>    March 2020 (23)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-11-14T21:14:53.321Z",
+    "af": false
+  },
+  {
+    "_id": "H7QuQWFcezwXkKtYi",
+    "postId": "hc9nMipTXy2sm3tJb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I really like the idea of this page and gave this post a strong-upvote. Felt like this was worth mentioning, since in recent years I've felt increasingly alienated by LessWrong culture. My only major request here is that, if there are future iterations of this page, I'd like poll options to be solicited/submitted before any voting happens (this is so that early submissions don't get an unfair advantage just by having more eyeballs on them). A second more minor request is to hide the votes while I'm still voting (I'm trying very hard not to be influenced by vote counts and the names of specific people agreeing/disagreeing with things, but it's difficult).",
+      "plaintextDescription": "I really like the idea of this page and gave this post a strong-upvote. Felt like this was worth mentioning, since in recent years I've felt increasingly alienated by LessWrong culture. My only major request here is that, if there are future iterations of this page, I'd like poll options to be solicited/submitted before any voting happens (this is so that early submissions don't get an unfair advantage just by having more eyeballs on them). A second more minor request is to hide the votes while I'm still voting (I'm trying very hard not to be influenced by vote counts and the names of specific people agreeing/disagreeing with things, but it's difficult)."
+    },
+    "baseScore": 17,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2023-11-09T21:44:51.582Z",
+    "af": false
+  },
+  {
+    "_id": "XxQa3jbQqHAaQNy59",
+    "postId": "AyS4awCnKrKhwk4vs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have about 500 Anki cards on basic immunology that I and a collaborator created while reading Philipp Dettmer's book *Immune* (Philipp Dettmer is the founder of the popular YouTube channel Kurzgesagt, which has been [featured on LW before](https://www.lesswrong.com/posts/xvHntkKzQfoFZfav3/kurzgesagt-the-last-human-youtube), and the book itself has also been [reviewed on LW before](https://www.lesswrong.com/posts/eMTifnJFa6uJQDemc/immune-in-a-nutshell)). (**ETA:** When I first wrote this comment, I stupidly forgot to mention that my intention is to publish these cards on the internet for people to freely use, once they are polished.) However, neither of us is that knowledgeable about immunology (yet) so I'm worried about inaccuracies or misleading info in the cards. I'd like at least one person who knows a good amount of immunology (who has learned it from a source other than this book) to look over the cards and give feedback. I probably unfortunately can't pay any money for this.\n\nI have about 5 years of serious Anki prompt-writing experience, and the cards follow current best practices for prompts as explained in e.g. [Andy Matuschak's prompt-writing guide](https://andymatuschak.org/prompts/). In other words, these are not low-effort cloze deletions or ChatGPT-generated or anything like that.\n\nI'm also open to arguments that the right thing to do is to just release the cards as they are, let people maybe point out flaws in public, etc.",
+      "plaintextDescription": "I have about 500 Anki cards on basic immunology that I and a collaborator created while reading Philipp Dettmer's book Immune (Philipp Dettmer is the founder of the popular YouTube channel Kurzgesagt, which has been featured on LW before, and the book itself has also been reviewed on LW before). (ETA: When I first wrote this comment, I stupidly forgot to mention that my intention is to publish these cards on the internet for people to freely use, once they are polished.) However, neither of us is that knowledgeable about immunology (yet) so I'm worried about inaccuracies or misleading info in the cards. I'd like at least one person who knows a good amount of immunology (who has learned it from a source other than this book) to look over the cards and give feedback. I probably unfortunately can't pay any money for this.\n\nI have about 5 years of serious Anki prompt-writing experience, and the cards follow current best practices for prompts as explained in e.g. Andy Matuschak's prompt-writing guide. In other words, these are not low-effort cloze deletions or ChatGPT-generated or anything like that.\n\nI'm also open to arguments that the right thing to do is to just release the cards as they are, let people maybe point out flaws in public, etc."
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-11-09T00:18:17.751Z",
+    "af": false
+  },
+  {
+    "_id": "FQEPnBj26CTbqtbiQ",
+    "postId": "XvEJydHAHk6hjWQr5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think another disadvantage that the post doesn't mention is that being an Organization confers a sense of legitimacy, in part because it acts as a costly signal that one can manage all the legal complexities, pay for paperwork, etc.; so being a sponsored project is a way to call yourself an Organization without paying the cost of the signal. In the limit of widespread knowledge about the legal subtleties of fiscal sponsorship, and due diligence on the part of the community to always keep the distinction in mind, this is not a problem. But people are lazy, and so this sort of confusion does I think benefit sponsored projects.",
+      "plaintextDescription": "I think another disadvantage that the post doesn't mention is that being an Organization confers a sense of legitimacy, in part because it acts as a costly signal that one can manage all the legal complexities, pay for paperwork, etc.; so being a sponsored project is a way to call yourself an Organization without paying the cost of the signal. In the limit of widespread knowledge about the legal subtleties of fiscal sponsorship, and due diligence on the part of the community to always keep the distinction in mind, this is not a problem. But people are lazy, and so this sort of confusion does I think benefit sponsored projects."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-06T09:14:40.529Z",
+    "af": false
+  },
+  {
+    "_id": "qtr5GMXLjifiqfocc",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "NbjHFrBokqbbSvJZZ",
+    "topLevelCommentId": "NbjHFrBokqbbSvJZZ",
+    "contents": {
+      "markdown": "I've written up a few things on Reddit recently:\n\n*   [Things I've tried with my breathing difficulty, including some things that helped quite a bit](https://www.reddit.com/r/dysautonomia/comments/wphfhb/air_hunger/k3ovhbs/)\n*   [Things I've tried with my swallowing difficulty](https://www.reddit.com/r/dysphagia/comments/1743nii/next_steps_after_modified_barium_swallow/). This one I have not figured out how to improve reliably at all, so it's mostly asking people for help.",
+      "plaintextDescription": "I've written up a few things on Reddit recently:\n\n * Things I've tried with my breathing difficulty, including some things that helped quite a bit\n * Things I've tried with my swallowing difficulty. This one I have not figured out how to improve reliably at all, so it's mostly asking people for help."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-10-09T21:48:59.600Z",
+    "af": false
+  },
+  {
+    "_id": "hgGCXhePaEH9qkNmP",
+    "postId": "6miu9BsKdoAi72nkL",
+    "parentCommentId": "wMe9NKXHEaA5fcgLz",
+    "topLevelCommentId": "wMe9NKXHEaA5fcgLz",
+    "contents": {
+      "markdown": "Based on [this Wayback snapshot](https://web.archive.org/web/20201210030345/https://osf.io/x4fk3/) it seems to be a paper called \"A Contamination Theory of the Obesity Epidemic\" by Ethan Ludwin-Peery and Sarah Ludwin-Peery. I was able to download the PDF of the paper at [this link](https://web.archive.org/web/20210723233030/https://files.osf.io/v1/resources/x4fk3/providers/osfstorage/5fa6d1f29c7a4e006ca006be?action=download&direct&version=4) (the main body of the PDF is 63 pages as claimed in this LW post, and the PDF is dated July 3, 2021, which is just before this LW post was published, so it is likely the version of the paper being discussed here).",
+      "plaintextDescription": "Based on this Wayback snapshot it seems to be a paper called \"A Contamination Theory of the Obesity Epidemic\" by Ethan Ludwin-Peery and Sarah Ludwin-Peery. I was able to download the PDF of the paper at this link (the main body of the PDF is 63 pages as claimed in this LW post, and the PDF is dated July 3, 2021, which is just before this LW post was published, so it is likely the version of the paper being discussed here)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-09-09T18:46:12.201Z",
+    "af": false
+  },
+  {
+    "_id": "3XJMyGdh3tLZ6d4Ef",
+    "postId": "xzm6F6rLt7oPTash2",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The main blocker for me is social rather than technical. Back when the new wiki first started, I created a page but the LW devs (or at least one of them) [didn't like the page](https://www.lesswrong.com/tag/john-vervaeke/discussion). There was some back and forth, but I came away from the discussion feeling pretty unwelcome and worried that if I were to make more contributions they would also involve lengthy debates or my work would be removed. I haven't really kept up on the wiki since that time, but I haven't seen anything that has changed my mind about this.\n\nA few technical things that would make it nicer to edit:\n\n*   Wikilinks (perhaps things have changed now, but it was not possible to surround words in double square brackets like on many wiki software)\n*   Automatic backlinks",
+      "plaintextDescription": "The main blocker for me is social rather than technical. Back when the new wiki first started, I created a page but the LW devs (or at least one of them) didn't like the page. There was some back and forth, but I came away from the discussion feeling pretty unwelcome and worried that if I were to make more contributions they would also involve lengthy debates or my work would be removed. I haven't really kept up on the wiki since that time, but I haven't seen anything that has changed my mind about this.\n\nA few technical things that would make it nicer to edit:\n\n * Wikilinks (perhaps things have changed now, but it was not possible to surround words in double square brackets like on many wiki software)\n * Automatic backlinks"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-09-02T08:08:44.064Z",
+    "af": false
+  },
+  {
+    "_id": "ywdDkN5GHaN8fEr2z",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "uznuYijWHyBzLozWg",
+    "topLevelCommentId": "NbjHFrBokqbbSvJZZ",
+    "contents": {
+      "markdown": "I have not gotten prayer to really work for me yet, but I've experimented with it a bit (I feel somewhat embarrassed to admit this, but yeah I've gotten desperate enough and have thought I was possibly going to die on multiple occasions now and have entered mental states where I think praying might be the only thing I can do).\n\n\"Prayer\" in the sense of \"ask for a thing in your head and then the thing happens in real life\" is obviously not going to work. But I think this may be the wrong way to think about prayers/praying (disclaimer: I am not religious at all and never was, so I have no idea what I'm talking about). Anna Salamon has an old post where she talks about \"[useful attempted telekinesis](https://www.lesswrong.com/posts/eRohP4gbxuBuhqTbe/attempted-telekinesis#Useful__telekinesis____Separating_babies_from_bathwater)\", and I think this may be *one* valid way to make sense of praying. Repeatedly and vividly visualizing the things you value/the things you want may magically make it easier to get that thing, at least some of the time. Another way to think about it might be as a dual to [gratitude journaling](https://en.wikipedia.org/wiki/Gratitude_journal): in gratitude journaling you examine what you value/don't value in terms of what you already have, whereas in prayer you examine the same things in terms of what you *don't* currently have. (Why should the latter work? Shouldn't it just lead to envy/sour grapes/bitterness about your life? Yeah, I don't know. Anna's post talks about useful vs harmful telekinesis and I think there's possibly a lot to explore here.)\n\nPraying combined with chanting + rocking may be even more effective, because the latter two have some shot at directly affecting your physiological state. I've not really gotten chanting to work for me, but rocking sometimes calms me down a little bit.\n\nHomeopathy: yeah, agreed, not sure what's going on here and hope that I don't have to get to the point of trying it out.",
+      "plaintextDescription": "I have not gotten prayer to really work for me yet, but I've experimented with it a bit (I feel somewhat embarrassed to admit this, but yeah I've gotten desperate enough and have thought I was possibly going to die on multiple occasions now and have entered mental states where I think praying might be the only thing I can do).\n\n\"Prayer\" in the sense of \"ask for a thing in your head and then the thing happens in real life\" is obviously not going to work. But I think this may be the wrong way to think about prayers/praying (disclaimer: I am not religious at all and never was, so I have no idea what I'm talking about). Anna Salamon has an old post where she talks about \"useful attempted telekinesis\", and I think this may be one valid way to make sense of praying. Repeatedly and vividly visualizing the things you value/the things you want may magically make it easier to get that thing, at least some of the time. Another way to think about it might be as a dual to gratitude journaling: in gratitude journaling you examine what you value/don't value in terms of what you already have, whereas in prayer you examine the same things in terms of what you don't currently have. (Why should the latter work? Shouldn't it just lead to envy/sour grapes/bitterness about your life? Yeah, I don't know. Anna's post talks about useful vs harmful telekinesis and I think there's possibly a lot to explore here.)\n\nPraying combined with chanting + rocking may be even more effective, because the latter two have some shot at directly affecting your physiological state. I've not really gotten chanting to work for me, but rocking sometimes calms me down a little bit.\n\nHomeopathy: yeah, agreed, not sure what's going on here and hope that I don't have to get to the point of trying it out."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-17T03:13:05.194Z",
+    "af": false
+  },
+  {
+    "_id": "9LRGGg5ZgYFbingjS",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "People often claim that consumer products have been declining in quality over the decades. Some people even claim that such a decline is inevitable under market forces. I've seen this discussed a lot especially for laptops, where supposedly desirable qualities like durability and repairability have declined. I'll focus on these two qualities in particular below.[^60uzthhnve]\n\nIn contrast to the observation above, I learned the following argument from one of David Friedman's books: if people are willing to buy a crappy product for $x, then they should be willing to pay $10x on the same product that lasts 10 times longer (because in both cases, the amortized cost is the same). So as long as the more durable product does not cost 10 times more to manufacture, the company's revenue is higher if they sell the more durable product.\n\nFrom this, I conclude that one potential thing that could be going on is that the reason products are crappy is that consumers prefer the crappy product; they aren't willing to pay 10 times more for a 10 times more durable product. This might happen because of information asymmetry reasons (it's easier to tell which of two products are immediately better, than to tell which of two products will last much longer) or maybe because consumers prefer the small advancements they get if they keep buying new products, instead of staying with one product for a long time. Or maybe due to high temporal discounting and inability to save money, consumers prefer cheaper things.\n\nI am still pretty confused about all of this, because I personally do prefer more durable/repairable products and would be willing to pay more for them. But perhaps my preferences are pretty unusual.\n\n[^60uzthhnve]: I'm focusing on durability and repairability because these seem more straightforward as they don't require answering questions about how much more one would pay in a given instant for a higher quality. For example, maybe kitchen shears are declining in how well they cut things but maybe that's okay because people just like cheaper shears that cut less well. Whereas if kitchen shears decline in durability, it doesn't matter how much money people would pay for shears to cut better; for any given preference, I can check whether someone is willing to pay 10 times more for something that lasts 10 times longer.",
+      "plaintextDescription": "People often claim that consumer products have been declining in quality over the decades. Some people even claim that such a decline is inevitable under market forces. I've seen this discussed a lot especially for laptops, where supposedly desirable qualities like durability and repairability have declined. I'll focus on these two qualities in particular below.[1]\n\nIn contrast to the observation above, I learned the following argument from one of David Friedman's books: if people are willing to buy a crappy product for $x, then they should be willing to pay $10x on the same product that lasts 10 times longer (because in both cases, the amortized cost is the same). So as long as the more durable product does not cost 10 times more to manufacture, the company's revenue is higher if they sell the more durable product.\n\nFrom this, I conclude that one potential thing that could be going on is that the reason products are crappy is that consumers prefer the crappy product; they aren't willing to pay 10 times more for a 10 times more durable product. This might happen because of information asymmetry reasons (it's easier to tell which of two products are immediately better, than to tell which of two products will last much longer) or maybe because consumers prefer the small advancements they get if they keep buying new products, instead of staying with one product for a long time. Or maybe due to high temporal discounting and inability to save money, consumers prefer cheaper things.\n\nI am still pretty confused about all of this, because I personally do prefer more durable/repairable products and would be willing to pay more for them. But perhaps my preferences are pretty unusual.\n\n 1. ^\n    I'm focusing on durability and repairability because these seem more straightforward as they don't require answering questions about how much more one would pay in a given instant for a higher quality. For example, maybe kitchen shears are declining in how well they cut things but mayb"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-13T08:21:40.965Z",
+    "af": false
+  },
+  {
+    "_id": "Er4qn7eGLGxwr3MGj",
+    "postId": "RkSwLcL2MkChtBLng",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **Home water testing**: these are periodic tests rather than continuous monitors, and aren't cheap either. My doctor recommended [this one](https://mytapscore.com/products/advanced-city-water-test) but it's more expensive than the [water filter](https://amzn.to/3PV8nvz) I use, so maybe find a cheaper one or skip straight to filtering (the test did verify my filter worked, and this was pretty late in the filter's lifecycle). You can also use [EWG](https://www.ewg.org/tapwater/) to check your city's water data, although it will miss problems in your own pipes.\n\nDid you have a reason to suspect that your tap water in particular was bad (e.g. after seeing EWG's measurements), or was the filtration more of an attempt to reduce all the possible environmental contaminants in general? I have heard a lot about air quality impacting health, but not as much about water quality. I would be grateful to hear about any resources you have in mind for why one should pay more attention to water quality.",
+      "plaintextDescription": "> Home water testing: these are periodic tests rather than continuous monitors, and aren't cheap either. My doctor recommended this one but it's more expensive than the water filter I use, so maybe find a cheaper one or skip straight to filtering (the test did verify my filter worked, and this was pretty late in the filter's lifecycle). You can also use EWG to check your city's water data, although it will miss problems in your own pipes.\n\nDid you have a reason to suspect that your tap water in particular was bad (e.g. after seeing EWG's measurements), or was the filtration more of an attempt to reduce all the possible environmental contaminants in general? I have heard a lot about air quality impacting health, but not as much about water quality. I would be grateful to hear about any resources you have in mind for why one should pay more attention to water quality."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-28T21:10:20.525Z",
+    "af": false
+  },
+  {
+    "_id": "MfFn7NwgmGTMftqAd",
+    "postId": "fubHaLebjJRnbEkHc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> A functioning liver.\n\nWhat tests do you do or have done or consider to check for a functioning liver?",
+      "plaintextDescription": "> A functioning liver.\n\nWhat tests do you do or have done or consider to check for a functioning liver?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-28T20:58:37.727Z",
+    "af": false
+  },
+  {
+    "_id": "u2EBGqneL5sYXeezJ",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "gGvhuyipXkCmj6Xy8",
+    "topLevelCommentId": "nX6AdeK2nQLPSNLA3",
+    "contents": {
+      "markdown": "> I found that if my tongue doesn’t block my mouth I can only breathe through my mouth and if it does I can only breathe through my nose.\n\nHuh, this isn't what happens when I try it. If I keep my tongue out or at the base of my mouth, I can still definitely choose whether to make the air go through my nose or mouth. If I try to block my mouth with my tongue, that does obstruct the airflow through my mouth but I can still breathe mostly okay (even if I plug my nose).",
+      "plaintextDescription": "> I found that if my tongue doesn’t block my mouth I can only breathe through my mouth and if it does I can only breathe through my nose.\n\nHuh, this isn't what happens when I try it. If I keep my tongue out or at the base of my mouth, I can still definitely choose whether to make the air go through my nose or mouth. If I try to block my mouth with my tongue, that does obstruct the airflow through my mouth but I can still breathe mostly okay (even if I plug my nose)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-13T09:56:28.241Z",
+    "af": false
+  },
+  {
+    "_id": "nX6AdeK2nQLPSNLA3",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I used to have a model of breathing that went something like this: when breathing in, the lungs somehow get bigger, creating lower air pressure inside the lungs causing air to flow in. Then when breathing out the lungs get smaller, creating higher air pressure inside the lungs and causing air to flow out. How do the lungs get bigger and smaller? Eventually I learned that there's a muscle called the diaphragm that is attached to the bottom of the lungs (??) that pulls or pushes the lungs. If I keep my nose plugged but my mouth open, the air will travel through my mouth. If I keep my mouth closed but my nose open, the air will travel through my nostrils. So far, so good.\n\nThen a few days ago, I noticed that if I keep both my nose and mouth open, I could *choose* to breathe in *solely* through one or the other. This... doesn't make sense, according to the model. The model would predict that the air just flows through both pathways, maybe preferentially going through the mouth since that seems like the larger pathway.\n\nSo something is clearly wrong with how I think about breathing. Is there some sort of further switch inside that blocks one of the pathways? Does the nose or the mouth contain variable-size cavities that can control air pressure to direct the flow? I still have no idea. I'm eventually going to look it up, but I might think about this for a little bit longer (or maybe someone here will tell me).\n\nI thought this was a pretty interesting example of how the explanations you hear about seemingly-basic things are easy to accept but don't make sense on further reflection. But it's hard to notice the flaw too. In my case, after a recent ENT visit where I was told my nasal passages are inflamed, I've been putting more effort into consciously breathing through my nose. Then one day I woke up and as soon as I woke up I did something like consciously breathe through my nose with mouth closed, and then somehow I opened my mouth but then still tried to breathe through my nose (or maybe it was that I noticed I was breathing through my mouth, and since I was still waking up I didn't bother to close my mouth and just tried to breathe through my nose with my mouth open), and was surprised this was even possible.",
+      "plaintextDescription": "I used to have a model of breathing that went something like this: when breathing in, the lungs somehow get bigger, creating lower air pressure inside the lungs causing air to flow in. Then when breathing out the lungs get smaller, creating higher air pressure inside the lungs and causing air to flow out. How do the lungs get bigger and smaller? Eventually I learned that there's a muscle called the diaphragm that is attached to the bottom of the lungs (??) that pulls or pushes the lungs. If I keep my nose plugged but my mouth open, the air will travel through my mouth. If I keep my mouth closed but my nose open, the air will travel through my nostrils. So far, so good.\n\nThen a few days ago, I noticed that if I keep both my nose and mouth open, I could choose to breathe in solely through one or the other. This... doesn't make sense, according to the model. The model would predict that the air just flows through both pathways, maybe preferentially going through the mouth since that seems like the larger pathway.\n\nSo something is clearly wrong with how I think about breathing. Is there some sort of further switch inside that blocks one of the pathways? Does the nose or the mouth contain variable-size cavities that can control air pressure to direct the flow? I still have no idea. I'm eventually going to look it up, but I might think about this for a little bit longer (or maybe someone here will tell me).\n\nI thought this was a pretty interesting example of how the explanations you hear about seemingly-basic things are easy to accept but don't make sense on further reflection. But it's hard to notice the flaw too. In my case, after a recent ENT visit where I was told my nasal passages are inflamed, I've been putting more effort into consciously breathing through my nose. Then one day I woke up and as soon as I woke up I did something like consciously breathe through my nose with mouth closed, and then somehow I opened my mouth but then still tried to breathe through my n"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-13T09:43:23.959Z",
+    "af": false
+  },
+  {
+    "_id": "JkvpAqDYwS6gKhYT4",
+    "postId": "cP7oiw7psZBHTFjG7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't think \"throw every explanation possible\" is the right takeaway from your experience. To me, it seems like the teacher was failing to model what you were getting stuck on, and so the takeaway would be something more like \"[try to model the learner better](https://www.lesswrong.com/posts/J3Edt2CLcXPHQYSXo/exposition-as-science-some-ideas-for-how-to-make-progress#Create_an_explicit_model_of_the_reader_s_understanding__and_then_try_to_write_so_as_to_steer_the_reader_s_understanding_to_some_desired_state), so as to produce better (not more!) explanations\".\n\n\"Throw every explanation possible\" might still be [learning-complete](https://wiki.issarice.com/wiki/Learning-complete) in some sense, so might be worth exploring.",
+      "plaintextDescription": "I don't think \"throw every explanation possible\" is the right takeaway from your experience. To me, it seems like the teacher was failing to model what you were getting stuck on, and so the takeaway would be something more like \"try to model the learner better, so as to produce better (not more!) explanations\".\n\n\"Throw every explanation possible\" might still be learning-complete in some sense, so might be worth exploring."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-03T07:29:15.792Z",
+    "af": false
+  },
+  {
+    "_id": "8XB2L9Sd3WtZjcKiL",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Back in the 2010s, EAs spent a long time dunking on doctors for not having such a high impact (I'm going off memory here, but I think \"instead of becoming a doctor, why don't you do X instead\" was a common career pitch). I basically mostly unreflectively agreed with these opinions for a long time, and still think that doctors have less impact compared to stuff like x-risk reduction. But after having more personal experience dealing with the medical world (3 primary care doctors, ~10 specialist doctors, 2 psychiatrists, 2 naturopaths, 3 therapists, 2 nutritionists/dieticians, 2 coaching type people, all in the last 4 years (I counted some people under multiple categories)), I think a really agenty/knowledgeable/capable doctor or therapist can actually have a huge impact on the world (just going by intuition of how many even healthy-seeming people have a lot of health problems that bring down their productivity a lot, how crippling it is to have a mysterious health problem like mine, etc; I haven't actually tried crunching numbers). I think such a person is not likely to look like a typical doctor working in a hospital system though... probably more like a writer/researcher who also happens to do consultations with people.\n\nIf I had to rewrite the EA pitch for people who wanted to become doctors it would be something like \"First think very hard about why you want to become a doctor, and if what you want is not specific to working in healthcare then maybe consider \\[list of common EA cause areas\\]. If you really want to work in healthcare though, that's great, but please consider becoming this weirder thing that's not quite a doctor, where first you learn a bunch of rationality/math/programming and then you learn as much as you can about medical stuff and then try to help people.\"",
+      "plaintextDescription": "Back in the 2010s, EAs spent a long time dunking on doctors for not having such a high impact (I'm going off memory here, but I think \"instead of becoming a doctor, why don't you do X instead\" was a common career pitch). I basically mostly unreflectively agreed with these opinions for a long time, and still think that doctors have less impact compared to stuff like x-risk reduction. But after having more personal experience dealing with the medical world (3 primary care doctors, ~10 specialist doctors, 2 psychiatrists, 2 naturopaths, 3 therapists, 2 nutritionists/dieticians, 2 coaching type people, all in the last 4 years (I counted some people under multiple categories)), I think a really agenty/knowledgeable/capable doctor or therapist can actually have a huge impact on the world (just going by intuition of how many even healthy-seeming people have a lot of health problems that bring down their productivity a lot, how crippling it is to have a mysterious health problem like mine, etc; I haven't actually tried crunching numbers). I think such a person is not likely to look like a typical doctor working in a hospital system though... probably more like a writer/researcher who also happens to do consultations with people.\n\nIf I had to rewrite the EA pitch for people who wanted to become doctors it would be something like \"First think very hard about why you want to become a doctor, and if what you want is not specific to working in healthcare then maybe consider [list of common EA cause areas]. If you really want to work in healthcare though, that's great, but please consider becoming this weirder thing that's not quite a doctor, where first you learn a bunch of rationality/math/programming and then you learn as much as you can about medical stuff and then try to help people.\""
+    },
+    "baseScore": 17,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2023-05-23T08:42:12.483Z",
+    "af": false
+  },
+  {
+    "_id": "qntQtRpwFscgsuocv",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Typographers focus almost exclusively on designing texts that are meant to be read linearly (and typography guidelines follow this as well, telling writers to [limit line length](https://practicaltypography.com/line-length.html), [use a certain font size](https://practicaltypography.com/point-size.html), etc.). But if you look at the actual stuff happening in the reader's mind as they interact with a book or webpage, linear reading is only one of many possible ways of interacting with a text. In particular, searching for things, flipping around, cross-referencing, and other \"movement\" tasks are quite common. For such movement tasks, the standard typographic advice seems like a poor choice. Some websites, like the English Wikipedia until this year ([example](https://en.wikipedia.org/wiki/L%C3%B6b's_theorem?useskin=vector)), seem to design for such movement tasks by making the font size smaller, line length longer, etc., but this runs into the opposite problem where if someone *does* want to linearly read an article on such a page, it will be harder to do so. Other websites, such as the 80,000 Hours podcast website ([example](https://80000hours.org/podcast/episodes/toby-ord-the-precipice-existential-risk-future-humanity/)), seem to come to a compromise by designing for both kinds of tasks simultaneously (but by doing so fits neither task perfectly). I propose that the typography of a page should dynamically change to match the reader's current task. This may be a bit disorienting at first, but skilled readers would be able to have the best typography in any situation. I don't have a great idea for how to implement this in practice (I welcome suggestions), but one naïve idea is to have a button at the corner of the page that can toggle between \"absorbing/linear mode\" and \"movement mode\" (and possibly other modes; I'm interested in hearing what other cognitive tasks should be prioritized by the design of a page).",
+      "plaintextDescription": "Typographers focus almost exclusively on designing texts that are meant to be read linearly (and typography guidelines follow this as well, telling writers to limit line length, use a certain font size, etc.). But if you look at the actual stuff happening in the reader's mind as they interact with a book or webpage, linear reading is only one of many possible ways of interacting with a text. In particular, searching for things, flipping around, cross-referencing, and other \"movement\" tasks are quite common. For such movement tasks, the standard typographic advice seems like a poor choice. Some websites, like the English Wikipedia until this year (example), seem to design for such movement tasks by making the font size smaller, line length longer, etc., but this runs into the opposite problem where if someone does want to linearly read an article on such a page, it will be harder to do so. Other websites, such as the 80,000 Hours podcast website (example), seem to come to a compromise by designing for both kinds of tasks simultaneously (but by doing so fits neither task perfectly). I propose that the typography of a page should dynamically change to match the reader's current task. This may be a bit disorienting at first, but skilled readers would be able to have the best typography in any situation. I don't have a great idea for how to implement this in practice (I welcome suggestions), but one naïve idea is to have a button at the corner of the page that can toggle between \"absorbing/linear mode\" and \"movement mode\" (and possibly other modes; I'm interested in hearing what other cognitive tasks should be prioritized by the design of a page)."
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-05-22T08:01:58.109Z",
+    "af": false
+  },
+  {
+    "_id": "Tbdbqe92SMgdASrep",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A while ago a PDF article was posted in the EA space (written by people who are pretty deep into EA) which used the Computer Modern font (the default font used in LaTeX) but which was clearly created using Microsoft Word. The cynical interpretation is that (on some level) the authors wanted to deceive readers into thinking that LaTeX was used to typeset the paper when in fact it was not. I do believe such deception will work, because very few people seem to know anything about typography. (I don't claim to be much better; I've learned just a little bit more than the default state of zero knowledge.) I wonder how people feel about this sort of thing.",
+      "plaintextDescription": "A while ago a PDF article was posted in the EA space (written by people who are pretty deep into EA) which used the Computer Modern font (the default font used in LaTeX) but which was clearly created using Microsoft Word. The cynical interpretation is that (on some level) the authors wanted to deceive readers into thinking that LaTeX was used to typeset the paper when in fact it was not. I do believe such deception will work, because very few people seem to know anything about typography. (I don't claim to be much better; I've learned just a little bit more than the default state of zero knowledge.) I wonder how people feel about this sort of thing."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-21T08:45:00.718Z",
+    "af": false
+  },
+  {
+    "_id": "krXnJsbqcNSq4Mdvc",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I found [this Wikipedia article](https://en.wikipedia.org/wiki/Intellectual_property_protection_of_typefaces) pretty interesting. Even in a supposedly copyright-maximalist country like the US, the font shapes themselves cannot be copyrighted, and design patents only last 15 years. Popular fonts like Helvetica have [clones](https://en.wikipedia.org/wiki/Helvetica#Helvetica_clones) available for free. Other countries like Japan are similar, even though a full Japanese font requires designing 50,000+ glyphs! That is an insane amount of work that someone else can just take by copying all the shapes and repackaging it as a free font. In my experience there are only like a few main Japanese fonts, and I used to think it was just because it takes so much work to design such fonts, but now it occurs to me that the inability to make money from the design (because someone else can easily steal your designs) could be the bigger factor. (I have not yet done the virtuous thing of digging in to see if this is true.)",
+      "plaintextDescription": "I found this Wikipedia article pretty interesting. Even in a supposedly copyright-maximalist country like the US, the font shapes themselves cannot be copyrighted, and design patents only last 15 years. Popular fonts like Helvetica have clones available for free. Other countries like Japan are similar, even though a full Japanese font requires designing 50,000+ glyphs! That is an insane amount of work that someone else can just take by copying all the shapes and repackaging it as a free font. In my experience there are only like a few main Japanese fonts, and I used to think it was just because it takes so much work to design such fonts, but now it occurs to me that the inability to make money from the design (because someone else can easily steal your designs) could be the bigger factor. (I have not yet done the virtuous thing of digging in to see if this is true.)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-20T07:57:54.868Z",
+    "af": false
+  },
+  {
+    "_id": "MQjRMZaZohap3SSBq",
+    "postId": "LockA5xWWn39fXQ5i",
+    "parentCommentId": "daF9hTk2d85miStHL",
+    "topLevelCommentId": "Tyg9gHDppwzpbMhvD",
+    "contents": {
+      "markdown": "Not quite sure what you are asking, but if you mean something like taking some of my points and editing them into your own post, that's fine with me.",
+      "plaintextDescription": "Not quite sure what you are asking, but if you mean something like taking some of my points and editing them into your own post, that's fine with me."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-10T00:31:42.067Z",
+    "af": false
+  },
+  {
+    "_id": "dEYLm3yhuFDD3oNe6",
+    "postId": "J3Edt2CLcXPHQYSXo",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post was apparently [translated](https://zhuanlan.zhihu.com/p/609076131) to Chinese, and there is some discussion there. I can't quite tell if it's actually humans writing the comments (and Chrome's translation is just not very good) or if the content and discussion is all AI-generated.",
+      "plaintextDescription": "This post was apparently translated to Chinese, and there is some discussion there. I can't quite tell if it's actually humans writing the comments (and Chrome's translation is just not very good) or if the content and discussion is all AI-generated."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-09T22:04:00.374Z",
+    "af": false
+  },
+  {
+    "_id": "Tyg9gHDppwzpbMhvD",
+    "postId": "LockA5xWWn39fXQ5i",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[Here's](https://wiki.issarice.com/wiki/What_makes_a_word_explanation_good%3F) the list I came up with when I did something similar (I was thinking about written explanations in general, which I called \"word explanations\" on that page). I have an older attempt [here](https://issarice.com/math-explanations). And [here's](https://machinelearning.subwiki.org/wiki/User:IssaRice/Reflections_on_working_through_Tao%27s_Analysis) a similar thing I did for a specific textbook.",
+      "plaintextDescription": "Here's the list I came up with when I did something similar (I was thinking about written explanations in general, which I called \"word explanations\" on that page). I have an older attempt here. And here's a similar thing I did for a specific textbook."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-09T20:44:47.029Z",
+    "af": false
+  },
+  {
+    "_id": "hYntPKcnphqFZerCc",
+    "postId": "TYTEJxzeK3jBMq2TZ",
+    "parentCommentId": "puXG9LhgjJeH4nEww",
+    "topLevelCommentId": "MrFBB4XrnhLkMYCdC",
+    "contents": {
+      "markdown": "I didn't log the time I spent on the original blog post, and it's kinda hard to assign hours to this since most of the reading and thinking for the post happened while working on the modeling aspects of the MTAIR project. If I count just the time I sat down to write the blog post, I would guess maybe less than 20 hours.\n\nAs for the \"convert the post to paper\" part, I did log that time and it came out to 89 hours, so David's estimate of \"perhaps another 100 hours\" is fairly accurate.",
+      "plaintextDescription": "I didn't log the time I spent on the original blog post, and it's kinda hard to assign hours to this since most of the reading and thinking for the post happened while working on the modeling aspects of the MTAIR project. If I count just the time I sat down to write the blog post, I would guess maybe less than 20 hours.\n\nAs for the \"convert the post to paper\" part, I did log that time and it came out to 89 hours, so David's estimate of \"perhaps another 100 hours\" is fairly accurate."
+    },
+    "baseScore": 9,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-27T19:07:27.150Z",
+    "af": true
+  },
+  {
+    "_id": "47kuEX9mZpwqcgcFe",
+    "postId": "JrLExmCZWTxkvK8ih",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[This post](https://brianhamrick.com/blog/break-things) by Brian Hamrick makes a similar point about how organizational mottos should prioritize a single thing (but leaves the \"large company\" part implicit).",
+      "plaintextDescription": "This post by Brian Hamrick makes a similar point about how organizational mottos should prioritize a single thing (but leaves the \"large company\" part implicit)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-24T18:27:42.259Z",
+    "af": false
+  },
+  {
+    "_id": "cB2KFxwjddtm9qneb",
+    "postId": "LvDekdqFuFnoxx8DF",
+    "parentCommentId": "JwFgKmnCHq5ReS2yq",
+    "topLevelCommentId": "JwFgKmnCHq5ReS2yq",
+    "contents": {
+      "markdown": "Not the same paper, but related: [https://twitter.com/jamespayor/status/1634447672303304705](https://twitter.com/jamespayor/status/1634447672303304705)",
+      "plaintextDescription": "Not the same paper, but related: https://twitter.com/jamespayor/status/1634447672303304705"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-11T21:42:49.761Z",
+    "af": false
+  },
+  {
+    "_id": "GTzACWabpbhnhiejN",
+    "postId": "4NFDwQRhHBB2Ad4ZY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Can someone say more about what is meant by credit allocation in this conversation? The credit allocation section here just talks about BATNAs and I don't see how BATNAs are related to what I imagine \"credit allocation\" might mean. I [searched](https://twitter.com/search?q=from%3AHiFromMichaelV+credit+allocation&f=live) Michael Vassar's Twitter account but there are only three instances of the term and I couldn't quickly understand any of the tweets. I also don't understand what \"being able to talk about deceptive behavior\" has to do with credit allocation.",
+      "plaintextDescription": "Can someone say more about what is meant by credit allocation in this conversation? The credit allocation section here just talks about BATNAs and I don't see how BATNAs are related to what I imagine \"credit allocation\" might mean. I searched Michael Vassar's Twitter account but there are only three instances of the term and I couldn't quickly understand any of the tweets. I also don't understand what \"being able to talk about deceptive behavior\" has to do with credit allocation."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-23T04:22:47.913Z",
+    "af": false
+  },
+  {
+    "_id": "g5aSbPdSdq2XZQXK5",
+    "postId": "RryyWNmJNnLowbhfC",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I upvoted this post because I think it's talking about some important stuff in ways (or tone or something) I somehow like better than what some previous posts in the same general area have done.\n\nBut also something feels really iffy about the way the word \"fun\" is used in this post. If I think back to the only time in my life I actually had fun, which was my childhood, I sure did not have fun in the ways described in this post. I had fun by riding bikes (but never once stopping to get curious about how bike gears work), playing Pokemon with my friends (but not actually being very strategic about it -- competitive battling/metagame would have been completely alien to my child's self), making [dorodango](https://en.wikipedia.org/wiki/Dorodango) (but, like, just for the fun of it, not because I wanted to get better at making them over time, and I sure did not ever wonder why different kinds of mud made more stable or shinier dorodango, or what the shine even consists of), etc.\n\nThe kind of \"fun\" that is described in this post is, I think, something I *learned from other people* when I was in my early teens or so, not something I was born with (as this post seems to imply?). And I learned and developed this skill because I was told (in books like Feynman's and the Sequences) that this is what actually smart people do.\n\nSo personally I feel like I am trying to get back the \"original fun\" that I experienced as a child, as well as trying to untangle the \"useful/technical fun\" from its social influences and trying to claim it as my own, or something, in addition to doing the kind of thing suggested by this post.",
+      "plaintextDescription": "I upvoted this post because I think it's talking about some important stuff in ways (or tone or something) I somehow like better than what some previous posts in the same general area have done.\n\nBut also something feels really iffy about the way the word \"fun\" is used in this post. If I think back to the only time in my life I actually had fun, which was my childhood, I sure did not have fun in the ways described in this post. I had fun by riding bikes (but never once stopping to get curious about how bike gears work), playing Pokemon with my friends (but not actually being very strategic about it -- competitive battling/metagame would have been completely alien to my child's self), making dorodango (but, like, just for the fun of it, not because I wanted to get better at making them over time, and I sure did not ever wonder why different kinds of mud made more stable or shinier dorodango, or what the shine even consists of), etc.\n\nThe kind of \"fun\" that is described in this post is, I think, something I learned from other people when I was in my early teens or so, not something I was born with (as this post seems to imply?). And I learned and developed this skill because I was told (in books like Feynman's and the Sequences) that this is what actually smart people do.\n\nSo personally I feel like I am trying to get back the \"original fun\" that I experienced as a child, as well as trying to untangle the \"useful/technical fun\" from its social influences and trying to claim it as my own, or something, in addition to doing the kind of thing suggested by this post."
+    },
+    "baseScore": 39,
+    "voteCount": 25,
+    "createdAt": null,
+    "postedAt": "2023-02-17T19:58:59.979Z",
+    "af": false
+  },
+  {
+    "_id": "GJE2m7HxiFAfWiGba",
+    "postId": "yKZfK3C5M8mYendym",
+    "parentCommentId": "wLr7yFJHE9eopYS28",
+    "topLevelCommentId": "T6engXtwCaDsTXqFw",
+    "contents": {
+      "markdown": "I think it's often easiest/most tempting to comment specifically on a sketchy thing that someone says instead of being like \"I basically agree with you based on your strongest arguments\" and leaving it at that (because the latter doesn't seem like it's adding any value). (I think there's been quite a bit of discussion about the psychology of nitpicking, which is similar to but distinct from the behavior you mention, though I can't find a good link right now.) Of course it would be better to give both one's overall epistemic state plus any specific counter-arguments one thought of, but I only see a few people doing this sort of thing consistently. That would be my guess as to what's going on in the situations you mention (like, I could imagine myself behaving like the people you mention, but it wouldn't be because I'm taking averages, it would be because I'm responding to whatever I happen to have the most thoughts on). But you have a lot more information about those situations so I could be totally off-base.",
+      "plaintextDescription": "I think it's often easiest/most tempting to comment specifically on a sketchy thing that someone says instead of being like \"I basically agree with you based on your strongest arguments\" and leaving it at that (because the latter doesn't seem like it's adding any value). (I think there's been quite a bit of discussion about the psychology of nitpicking, which is similar to but distinct from the behavior you mention, though I can't find a good link right now.) Of course it would be better to give both one's overall epistemic state plus any specific counter-arguments one thought of, but I only see a few people doing this sort of thing consistently. That would be my guess as to what's going on in the situations you mention (like, I could imagine myself behaving like the people you mention, but it wouldn't be because I'm taking averages, it would be because I'm responding to whatever I happen to have the most thoughts on). But you have a lot more information about those situations so I could be totally off-base."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-15T20:52:27.776Z",
+    "af": false
+  },
+  {
+    "_id": "T6engXtwCaDsTXqFw",
+    "postId": "yKZfK3C5M8mYendym",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This doesn't seem to be what I or the people I regularly interact with do... I wish people would give some examples or link to conversations where this is happening.\n\nMy own silly counter-model is that people take the sum, but the later terms of the sum only get added if the running total stays above some level of plausibility. This accounts for idea inoculation (where people stop listening to arguments for something because they have already heard of an absurd version of the idea). It also explains the effect Ronny mentions about how \"you may very quickly find that everyone perceives the anti-T-ers as being much more reasonable\": people stopped listening to the popular-and-low-quality arguments in favor of T.",
+      "plaintextDescription": "This doesn't seem to be what I or the people I regularly interact with do... I wish people would give some examples or link to conversations where this is happening.\n\nMy own silly counter-model is that people take the sum, but the later terms of the sum only get added if the running total stays above some level of plausibility. This accounts for idea inoculation (where people stop listening to arguments for something because they have already heard of an absurd version of the idea). It also explains the effect Ronny mentions about how \"you may very quickly find that everyone perceives the anti-T-ers as being much more reasonable\": people stopped listening to the popular-and-low-quality arguments in favor of T."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-14T20:30:34.798Z",
+    "af": false
+  },
+  {
+    "_id": "x4LBrfQC8xW8qsTgZ",
+    "postId": "KeK8ncmn7A3jqgztd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I bought these after seeing Wei Dai's [post](https://www.lesswrong.com/posts/kdkFnRnZv4ut5qGhR/usa-n95-masks-are-available-on-amazon). Everyone in my family and in-person friend group refuses to wear this mask because it makes them look like a duck (besides one person, who refuses to wear it because it is harder to breathe through compared to a surgical mask). So I am the only one wearing this mask. So I agree with your assessment that \"the main problem is that they make you look a bit like a duck\", but I would add that this is apparently a very strong effect. People really would prefer to be less comfortable or increase their risk of COVID than to look weird.",
+      "plaintextDescription": "I bought these after seeing Wei Dai's post. Everyone in my family and in-person friend group refuses to wear this mask because it makes them look like a duck (besides one person, who refuses to wear it because it is harder to breathe through compared to a surgical mask). So I am the only one wearing this mask. So I agree with your assessment that \"the main problem is that they make you look a bit like a duck\", but I would add that this is apparently a very strong effect. People really would prefer to be less comfortable or increase their risk of COVID than to look weird."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-07T20:17:46.245Z",
+    "af": false
+  },
+  {
+    "_id": "T2hGfFPeNtXtteF7o",
+    "postId": "cKCdEjgzXoZBPArBL",
+    "parentCommentId": "pTGR5pwTy9oFTkXyE",
+    "topLevelCommentId": "o8bzHm7P8uTM6mcST",
+    "contents": {
+      "markdown": "I think I agree with everything in your comment. Seems like there was less disagreement here than I initially thought. Moving on... :)",
+      "plaintextDescription": "I think I agree with everything in your comment. Seems like there was less disagreement here than I initially thought. Moving on... :)"
+    },
+    "baseScore": 13,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-01-20T21:56:14.367Z",
+    "af": false
+  },
+  {
+    "_id": "o8bzHm7P8uTM6mcST",
+    "postId": "cKCdEjgzXoZBPArBL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think it's often hard to tell whether something is a psychological problem for an individual or instead a cultural problem with the group. Past social progress can be framed as \"society used to think certain individuals had a psychological problem, but then it turned out that the society's rules/norms/culture was the problem\". It currently seems to me that a lot of what people view as \"psychological problems\" are actually an individual's way of saying \"something about the culture I find myself in doesn't seem right\". I read this post as kinda ignoring this whole issue and making it seem like it's obvious whose problem it is, which I think avoids the hard core of these situations.",
+      "plaintextDescription": "I think it's often hard to tell whether something is a psychological problem for an individual or instead a cultural problem with the group. Past social progress can be framed as \"society used to think certain individuals had a psychological problem, but then it turned out that the society's rules/norms/culture was the problem\". It currently seems to me that a lot of what people view as \"psychological problems\" are actually an individual's way of saying \"something about the culture I find myself in doesn't seem right\". I read this post as kinda ignoring this whole issue and making it seem like it's obvious whose problem it is, which I think avoids the hard core of these situations."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-01-19T20:20:35.894Z",
+    "af": false
+  },
+  {
+    "_id": "hxdJzpJnTZDe7o4EJ",
+    "postId": "QZM6pErzL7JwE3pkv",
+    "parentCommentId": "PLRGzmKmwizQxLkPw",
+    "topLevelCommentId": "PLRGzmKmwizQxLkPw",
+    "contents": {
+      "markdown": "I think if the umbrella blog post on which the user's shortform posts (which are just comments) get added was created before [2022-06-23](https://www.lesswrong.com/posts/HALKHS4pMbfghxsjD/lesswrong-has-agree-disagree-voting-on-all-new-comment) then it won't have agree/disagree votes, whereas ones created on or after that date do?",
+      "plaintextDescription": "I think if the umbrella blog post on which the user's shortform posts (which are just comments) get added was created before 2022-06-23 then it won't have agree/disagree votes, whereas ones created on or after that date do?"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-11-27T22:49:28.627Z",
+    "af": false
+  },
+  {
+    "_id": "TyDdbD5gFffwEhs5s",
+    "postId": "QTfwhsQkzGbKtAXZq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If you're pasting sensitive data such as a password or card number for regular entry of that password, consider other options such as using the browser autofill or a password manager.\n\nSome password managers like KeePassXC automatically clear the clipboard after 10 seconds or when you close the program (whichever comes first).",
+      "plaintextDescription": "> If you're pasting sensitive data such as a password or card number for regular entry of that password, consider other options such as using the browser autofill or a password manager.\n\nSome password managers like KeePassXC automatically clear the clipboard after 10 seconds or when you close the program (whichever comes first)."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-11-15T02:29:02.462Z",
+    "af": false
+  },
+  {
+    "_id": "uPLXsKJpYZ7XYqs4Y",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "kGkMaewc7GEi3LwyH",
+    "topLevelCommentId": "NbjHFrBokqbbSvJZZ",
+    "contents": {
+      "markdown": "Some stuff I've encountered that I mostly haven't looked much into and haven't really tried but seem potentially useful to me: heart rate variability biofeedback training, getting sunlight at specific times of day, photobiomodulation (e.g. Vielight), red light therapy, neurofeedback, transcranial magnetic stimulation, specific supplement regimes ([example](https://drmyhill.co.uk/wiki/Nutritional_Supplements_-_what_everybody_should_be_taking_all_the_time_even_if_nothing_is_wrong)), green powders like Athletic Greens, certain kinds of meditation.",
+      "plaintextDescription": "Some stuff I've encountered that I mostly haven't looked much into and haven't really tried but seem potentially useful to me: heart rate variability biofeedback training, getting sunlight at specific times of day, photobiomodulation (e.g. Vielight), red light therapy, neurofeedback, transcranial magnetic stimulation, specific supplement regimes (example), green powders like Athletic Greens, certain kinds of meditation."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-10-08T02:16:47.477Z",
+    "af": false
+  },
+  {
+    "_id": "83QLjt4sGKKvRrqSY",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "DhQTQYwkNR45H9KTt",
+    "topLevelCommentId": "NbjHFrBokqbbSvJZZ",
+    "contents": {
+      "markdown": "Agreed on epistemically questionable info. I've seen a range of canned advice including defeatist ones.\n\nLynette's post was interesting because I think I also have something like POTS, but her post is very unlike something I would write myself, and I wouldn't have found the post useful when I was starting out (I actually probably even read the post when it first came out and probably didn't find it useful). I am puzzled at what this means for how generalizable people's experiences are.\n\nAnd thanks, I'd be interested in introductions to potential collaborators!",
+      "plaintextDescription": "Agreed on epistemically questionable info. I've seen a range of canned advice including defeatist ones.\n\nLynette's post was interesting because I think I also have something like POTS, but her post is very unlike something I would write myself, and I wouldn't have found the post useful when I was starting out (I actually probably even read the post when it first came out and probably didn't find it useful). I am puzzled at what this means for how generalizable people's experiences are.\n\nAnd thanks, I'd be interested in introductions to potential collaborators!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-09-11T08:36:49.701Z",
+    "af": false
+  },
+  {
+    "_id": "caFcs7qq28JQq85wB",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": "KpQqtehnr5ntqmgtu",
+    "topLevelCommentId": "NbjHFrBokqbbSvJZZ",
+    "contents": {
+      "markdown": "Agreed on the epistemic standards of random health groups, and yeah, I'd be interested in a Discord server. I am aware of [this Facebook group](https://www.facebook.com/groups/3032907556832660), if you use Facebook, though it's not very active.",
+      "plaintextDescription": "Agreed on the epistemic standards of random health groups, and yeah, I'd be interested in a Discord server. I am aware of this Facebook group, if you use Facebook, though it's not very active."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-09-11T01:17:32.416Z",
+    "af": false
+  },
+  {
+    "_id": "NbjHFrBokqbbSvJZZ",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've been having a mysterious chronic health problem for the past several years and have learned a bunch of things that I wish I knew back when all of this started. I am thinking about how to write down what I've learned so others can benefit, but what's tricky here is that while the knowledge I've gained seems wide-ranging, it's also extremely specific to whatever my problems are, so I don't know how well it generalizes to other people. I welcome suggestions on how to make my efforts more useful to others. I also welcome pointers to books/articles/posts that already discuss the stuff below in a competent way.\n\nBut anyway here is some stuff I could talk about:\n\n*   Rationality lessons of mysterious health problems: certain health conditions (like mine) are quite mysterious, e.g. having no clear cause or shifting symptoms or [nonspecific symptoms](https://en.wikipedia.org/wiki/Signs_and_symptoms#Nonspecific_symptoms). This makes the health problem not only challenging on the basic suffering/emotional level, but also at an epistemic level. Some weird epistemic stuff happens when you are dealing with such a health problem, including:\n    *   Your \"most likely diagnosis\" will keep shifting or will have a wide distribution, which can be confusing to reason about (it's almost as if the health problem is an agent diagonalizing against me). My \"most likely diagnosis\" has changed like five times.\n    *   Some mistakes I think I made trying to reason too literally about symptoms and ruled things out too early instead of just being like \"ok maybe I have this thing\" and then just trying the low-effort/safe interventions just to see if they help.\n    *   Weird interacting nature of symptoms: ignoring certain symptoms because they aren't the most painful can end up being a bad idea because eliminating that symptom can help with a lot of other symptoms, because the mind/body is weird and interconnected.\n    *   I think turning to certain quacks is actually rational in the case of certain chronic illnesses. These quacks were never the first choice for the ill person, but after the conventional/established medicine's interventions have all failed and established medicine basically shrugs and says \"we don't know what this even is\", and gives up on you, it makes sense to keep going anyway and try wackier things.\n    *   You need to do \"rationality on hard mode\" -- when you're stressed, when you have brain fog, when you have few productive hours in the day, when your emotions get all messed up.\n    *   There is a kind of \"lawyery\" thing you have to do, where you simulate the objections people will raise about things you should have done or things you should try, and you have to preempt all that and try it and be like \"see? I already tried it\" so that they don't have easy outs.\n*   How to deal with the health bureaucracy (US-specific, but what I know is even more specific): how to get the benefits you need from health providers, how to deal with insurance, how to get referrals, how to push providers with questions, optimizing which health insurance to have.\n*   How to do health research: how to find information about symptoms, how to organize your research, how to ask good questions when meeting doctors, the importance of talking to a lot of people.\n*   Specific things I've learned about different drugs, nootropics, health devices, practices, etc., and which ones seem the most promising.\n*   General life outlook stuff:\n    *   How to orient toward \"this being your new life\"\n    *   How to stay motivated to live life and accomplish things while chronically ill; the hardcoreness of being ill for so long and what this does to your personality.\n*   How to maintain a \"health tracker\": how to keep track of your symptoms, what you did each day, what you ate, how you slept, etc. for future reference, and whether or not tracking any of this is useful.\n*   Productivity hacks:\n    *   Daily goal-setting: how to get shit done even if you feel like shit every day.\n    *   The importance of having a \"health buddy\" who has similar health problems who you can talk to all the time, as having a chronic health problem can be very isolating (very few people can understand or support you in the way you need).\n*   The importance of just trying lots of things to see what helps, and what this looks like in practice.\n*   Basic health stuff that seems good to do regardless of what the cause of your symptoms is: nutrition, exercise, sleep, wackier stuff.",
+      "plaintextDescription": "I've been having a mysterious chronic health problem for the past several years and have learned a bunch of things that I wish I knew back when all of this started. I am thinking about how to write down what I've learned so others can benefit, but what's tricky here is that while the knowledge I've gained seems wide-ranging, it's also extremely specific to whatever my problems are, so I don't know how well it generalizes to other people. I welcome suggestions on how to make my efforts more useful to others. I also welcome pointers to books/articles/posts that already discuss the stuff below in a competent way.\n\nBut anyway here is some stuff I could talk about:\n\n * Rationality lessons of mysterious health problems: certain health conditions (like mine) are quite mysterious, e.g. having no clear cause or shifting symptoms or nonspecific symptoms. This makes the health problem not only challenging on the basic suffering/emotional level, but also at an epistemic level. Some weird epistemic stuff happens when you are dealing with such a health problem, including:\n   * Your \"most likely diagnosis\" will keep shifting or will have a wide distribution, which can be confusing to reason about (it's almost as if the health problem is an agent diagonalizing against me). My \"most likely diagnosis\" has changed like five times.\n   * Some mistakes I think I made trying to reason too literally about symptoms and ruled things out too early instead of just being like \"ok maybe I have this thing\" and then just trying the low-effort/safe interventions just to see if they help.\n   * Weird interacting nature of symptoms: ignoring certain symptoms because they aren't the most painful can end up being a bad idea because eliminating that symptom can help with a lot of other symptoms, because the mind/body is weird and interconnected.\n   * I think turning to certain quacks is actually rational in the case of certain chronic illnesses. These quacks were never the first choice for the ill person"
+    },
+    "baseScore": 40,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2022-09-10T08:15:56.182Z",
+    "af": false
+  },
+  {
+    "_id": "7SGmLajm2Ds7GqKLT",
+    "postId": "gYfgWSxCpFdk2cZfE",
+    "parentCommentId": "FCXZhNqhZuCfzXDAz",
+    "topLevelCommentId": "oQMGv9983CDTt3cog",
+    "contents": {
+      "markdown": "Seems like you were right, and the Peter in question is Peter Eckersley. I just saw in [this post](https://forum.effectivealtruism.org/posts/ivep4R7LoSLhWwHGX/peter-eckersley-1979-2022):\n\n> [*The Alignment Problem*](https://www.goodreads.com/book/show/50489349-the-alignment-problem)  is dedicated to him, after he convinced his friend Brian Christian of it.\n\nThat post did not link to a source, but I found [this tweet](https://twitter.com/brianchristian/status/1566157077176733697) where Brian Christian says:\n\n> His influence in both my intellectual and personal life is incalculable. I dedicated The Alignment Problem to him; I knew for many years that I would.",
+      "plaintextDescription": "Seems like you were right, and the Peter in question is Peter Eckersley. I just saw in this post:\n\n> The Alignment Problem is dedicated to him, after he convinced his friend Brian Christian of it.\n\nThat post did not link to a source, but I found this tweet where Brian Christian says:\n\n> His influence in both my intellectual and personal life is incalculable. I dedicated The Alignment Problem to him; I knew for many years that I would."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-09-05T20:12:38.379Z",
+    "af": false
+  },
+  {
+    "_id": "ijWvN5baXahD8TiuE",
+    "postId": "rtEtTybuCcDWLk7N9",
+    "parentCommentId": "qnzF2QEBN8zKfb2k9",
+    "topLevelCommentId": "KT7KEhbtBR6F8jy8R",
+    "contents": {
+      "markdown": "Did you end up running it through your internal infohazard review and if so what was the result?",
+      "plaintextDescription": "Did you end up running it through your internal infohazard review and if so what was the result?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-08-21T01:31:02.579Z",
+    "af": true
+  },
+  {
+    "_id": "gvRqYSvaFaehKjrCi",
+    "postId": "WFEt8QHGrnSQzPa9W",
+    "parentCommentId": "teR644roz2mrHFTrM",
+    "topLevelCommentId": "r4tXFWkSkw2B8A4X3",
+    "contents": {
+      "markdown": "You have my permission!",
+      "plaintextDescription": "You have my permission!"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-08-05T20:00:20.796Z",
+    "af": false
+  },
+  {
+    "_id": "WdH48j5K54taTJJ2G",
+    "postId": "WFEt8QHGrnSQzPa9W",
+    "parentCommentId": "zuGsHyeHGfW83NphN",
+    "topLevelCommentId": "r4tXFWkSkw2B8A4X3",
+    "contents": {
+      "markdown": "I see, thank you for the response!",
+      "plaintextDescription": "I see, thank you for the response!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-08-05T19:59:33.235Z",
+    "af": false
+  },
+  {
+    "_id": "r4tXFWkSkw2B8A4X3",
+    "postId": "WFEt8QHGrnSQzPa9W",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I am curious what you think of my old comment [here](https://www.lesswrong.com/posts/EEv9JeuY5xfuDDSgF/flinching-away-from-truth-is-often-about-protecting-the?commentId=D6WcJW4zpCT5WhG4T) that I made on Anna's post (some related discussion [here](https://www.lesswrong.com/posts/GJhdXWjG2WxnTXmvQ/one-man-s-modus-ponens-is-another-man-s-modus-tollens)).",
+      "plaintextDescription": "I am curious what you think of my old comment here that I made on Anna's post (some related discussion here)."
+    },
+    "baseScore": 13,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-08-03T06:53:41.642Z",
+    "af": false
+  },
+  {
+    "_id": "ZWGFJ6PEfopgFAJu9",
+    "postId": "BddavsuaHLAhkH45Z",
+    "parentCommentId": "bK4hpmHJbCGfEQNZK",
+    "topLevelCommentId": "bK4hpmHJbCGfEQNZK",
+    "contents": {
+      "markdown": "For me, the thing that distinguishes exposition from teaching is that in exposition one is supposed to produce some artifact that does all the work of explaining something, whereas in teaching one is allowed to jump in and e.g. answer questions or \"correct course\" based on student confusion. This ability to \"use a knowledgeable human\" in the course of explanation makes teaching a significantly easier problem (though still a very interesting one!). It also means though that scaling teaching would require scaling the creation of knowledgeable people, which is the very thing we are trying to solve. Can we make use of just *one* knowledgeable human, and somehow produce an artifact that can scalably \"copy\" this knowledge to other humans? -- that's the exposition problem. (This framing is basically [Bloom's 2 sigma problem](https://en.wikipedia.org/wiki/Bloom%27s_2_sigma_problem).)",
+      "plaintextDescription": "For me, the thing that distinguishes exposition from teaching is that in exposition one is supposed to produce some artifact that does all the work of explaining something, whereas in teaching one is allowed to jump in and e.g. answer questions or \"correct course\" based on student confusion. This ability to \"use a knowledgeable human\" in the course of explanation makes teaching a significantly easier problem (though still a very interesting one!). It also means though that scaling teaching would require scaling the creation of knowledgeable people, which is the very thing we are trying to solve. Can we make use of just one knowledgeable human, and somehow produce an artifact that can scalably \"copy\" this knowledge to other humans? -- that's the exposition problem. (This framing is basically Bloom's 2 sigma problem.)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-07-03T17:45:06.955Z",
+    "af": false
+  },
+  {
+    "_id": "EfywPyRJ4C34ukKyu",
+    "postId": "BddavsuaHLAhkH45Z",
+    "parentCommentId": "a25mrcB3PBsTMShPj",
+    "topLevelCommentId": "a25mrcB3PBsTMShPj",
+    "contents": {
+      "markdown": "> That's very exciting to me! I personally study how science worked and failed historically and epistemic progress and vigilance in general to make alignment go faster and better, so I'll be interested to discuss exposition as a science with you (and maybe give feedback on your follow-up posts if you want. ;) )\n\nCool! I just shared my draft post with you that goes into detail about the \"exposition as science\" strategy (ETA for everyone else: the [post](https://www.lesswrong.com/posts/J3Edt2CLcXPHQYSXo/exposition-as-science-some-ideas-for-how-to-make-progress) has now been published); if that post seems interesting to you, I'd be happy to discuss more with you (or you can just leave comments on the post if that is easier).",
+      "plaintextDescription": "> That's very exciting to me! I personally study how science worked and failed historically and epistemic progress and vigilance in general to make alignment go faster and better, so I'll be interested to discuss exposition as a science with you (and maybe give feedback on your follow-up posts if you want. ;) )\n\nCool! I just shared my draft post with you that goes into detail about the \"exposition as science\" strategy (ETA for everyone else: the post has now been published); if that post seems interesting to you, I'd be happy to discuss more with you (or you can just leave comments on the post if that is easier)."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-07-01T05:58:41.388Z",
+    "af": false
+  },
+  {
+    "_id": "tDonuZogskFTtc9Lr",
+    "postId": "uMQ3cqWDPHhjtiesc",
+    "parentCommentId": "vvnLBHsAcgdpoEY4B",
+    "topLevelCommentId": "E2getLSb35tmAZC5t",
+    "contents": {
+      "markdown": "> Doesn't do what? I understand Eliezer to be saying that he figured out AI risk via thinking things through himself (e.g., writing a story that involved outcome pumps; reflecting on orthogonality and instrumental convergence; etc.), rather than being argued into it by someone else who was worried about AI risk. If Eliezer didn't do that, there would still presumably be someone prior to him who did that, since conclusions and ideas have to enter the world somehow. So I'm not understanding what you're modeling as ridiculous.\n\nMy understanding of the history is that Eliezer did not realize the importance of alignment at first, and that he only did so later after arguing about it online with people like Nick Bostrom. See e.g. [this thread](https://www.greaterwrong.com/posts/ThpEr46AHgXGz2dSx/link-fli-s-recommended-project-grants-for-ai-safety-research/comment/FWNRXiGtZQ8k79f8c). I don't know enough of the history here, but it also seems logically possible that Bostrom could have, say, only realized the importance of alignment after conversing with other people who also didn't realize the importance of alignment. In that case, there might be a \"bubble\" of humans who together satisfy the null string criterion, but no single human who does.\n\nThe null string criterion does seem a bit silly nowadays since I think the people who *would* have satisfied it would have sooner read about AI risk on e.g. LessWrong. So they wouldn't even have the chance to live to age ~21 to see if they spontaneously invent the ideas.",
+      "plaintextDescription": "> Doesn't do what? I understand Eliezer to be saying that he figured out AI risk via thinking things through himself (e.g., writing a story that involved outcome pumps; reflecting on orthogonality and instrumental convergence; etc.), rather than being argued into it by someone else who was worried about AI risk. If Eliezer didn't do that, there would still presumably be someone prior to him who did that, since conclusions and ideas have to enter the world somehow. So I'm not understanding what you're modeling as ridiculous.\n\nMy understanding of the history is that Eliezer did not realize the importance of alignment at first, and that he only did so later after arguing about it online with people like Nick Bostrom. See e.g. this thread. I don't know enough of the history here, but it also seems logically possible that Bostrom could have, say, only realized the importance of alignment after conversing with other people who also didn't realize the importance of alignment. In that case, there might be a \"bubble\" of humans who together satisfy the null string criterion, but no single human who does.\n\nThe null string criterion does seem a bit silly nowadays since I think the people who would have satisfied it would have sooner read about AI risk on e.g. LessWrong. So they wouldn't even have the chance to live to age ~21 to see if they spontaneously invent the ideas."
+    },
+    "baseScore": 15,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2022-06-06T22:05:59.845Z",
+    "af": false
+  },
+  {
+    "_id": "WHr3eFryeBRjchDMZ",
+    "postId": "BGxTpdBGbwCWrGiCL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "With help from David Manheim, this post [has now been turned into a paper](https://www.lesswrong.com/posts/hWtpqjYXAvFExmAsD/arguments-about-highly-reliable-agent-designs-as-a-useful). Thanks to everyone who commented on the post!",
+      "plaintextDescription": "With help from David Manheim, this post has now been turned into a paper. Thanks to everyone who commented on the post!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-01-27T13:16:50.195Z",
+    "af": true
+  },
+  {
+    "_id": "ZZ6FMyYD7rcqryPhb",
+    "postId": "xntutjsGyt6ghZzDb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Would you say you are traumatized/did unschooling traumatize you/did attending the public high school and college traumatize you?",
+      "plaintextDescription": "Would you say you are traumatized/did unschooling traumatize you/did attending the public high school and college traumatize you?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-01-07T21:07:01.796Z",
+    "af": false
+  },
+  {
+    "_id": "LCpnbnbsyhdFP3P9w",
+    "postId": "xntutjsGyt6ghZzDb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you have a sense of where your anxiety/distractability/\"minor mental health problems\" came from?",
+      "plaintextDescription": "Do you have a sense of where your anxiety/distractability/\"minor mental health problems\" came from?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-01-07T21:05:16.679Z",
+    "af": false
+  },
+  {
+    "_id": "tbBvrbHjuzyEMhRtK",
+    "postId": "xntutjsGyt6ghZzDb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What was the chain of events leading up to you discovering LessWrong/the rationality community?",
+      "plaintextDescription": "What was the chain of events leading up to you discovering LessWrong/the rationality community?"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-01-07T21:02:41.958Z",
+    "af": false
+  },
+  {
+    "_id": "zjDvfjgvzK449vPoW",
+    "postId": "mRsm8gibyuPWas7K5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Vipul Naik has discovered that Alfred Marshall had basically the same idea (he even used the phrase \"burn the mathematics\"!) way back in 1906 (!), although he only described the procedure as a way to do economics research, rather than for decision-making. I've edited the wiki page to incorporate this information.",
+      "plaintextDescription": "Vipul Naik has discovered that Alfred Marshall had basically the same idea (he even used the phrase \"burn the mathematics\"!) way back in 1906 (!), although he only described the procedure as a way to do economics research, rather than for decision-making. I've edited the wiki page to incorporate this information."
+    },
+    "baseScore": 8,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-24T20:00:23.149Z",
+    "af": false
+  },
+  {
+    "_id": "n92CZ3NhLJdnxZth3",
+    "postId": "mRsm8gibyuPWas7K5",
+    "parentCommentId": "PGQjuC7y5hfqqjtc4",
+    "topLevelCommentId": "PGQjuC7y5hfqqjtc4",
+    "contents": {
+      "markdown": "Thanks, I have added the quote to the page.",
+      "plaintextDescription": "Thanks, I have added the quote to the page."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-12-24T19:58:18.334Z",
+    "af": false
+  },
+  {
+    "_id": "gS4sJutYeFFEbymAx",
+    "postId": "DJk86FE29ad4vr5e9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Lately I have been daydreaming about a mathematical monastery. I don't know how coherent the idea is, and would be curious to hear feedback.\n\nA mathematical monastery is a physical space where people gather to do a particular kind of math. The two main activities taking place in a mathematical monastery are meditative math and meditation about one's relationship to math.\n\n*   Meditative math: I think a lot of math that people do happens in a fast-paced and unreflective way. What I mean by this is that people solve a bunch of exercises, and then move on quickly to the next thing. There is a rush to finish the problem set or textbook or course and to progress to the main theorems or a more advanced course or the frontier of knowledge so that one might add to it. I think all of this can be good. But sometimes it's nice to slow *way* down, to focus on the basics, or pay attention to how one's mind is representing the mathematical object, or pay attention to how one just solved a problem. What associations did my mind make? Can I write down a [stream-of-consciousness log](https://gowers.wordpress.com/2014/07/19/mini-monomath/) of how I solved a problem? Did I get a gut sense of how long a problem would take me, and how reliable was that gut sense? Are the pictures I see in my head the same as the ones you see in yours? How did the first person who figured this out do so, and what was going on in their mind? Or how might someone have discovered this, [even if it is not historically accurate](https://www.lesswrong.com/posts/rTC8MgPuYfXEw3WLp/discovery-fiction-for-the-pythagorean-theorem)? If I make an error while working on a problem, can I do a stack trace on that? How does this problem make me feel? What are the [different kinds of boredom](https://www.greaterwrong.com/posts/YCjPpcy6yS3wttpoQ/what-should-normal-people-do/comment/SgoHr5RuCxMEYSq7M) one can feel while doing math? All of these questions would get explored in meditative math.\n*   Mediation about one's relationship to math: Here the idea is to think about questions like: [Why am I interested in math](https://www.youtube.com/watch?v=qdO2nbnbRoA&t=12m19s)? What do I want to get out of it? What meaning does it give to my life? Why do I want to spend marginal time on math (rather than on other things)? If I had a lot more money, or a more satisfying social life, would I still be interested in doing math? How can I get better at math? What even does it mean to get better at math? Like, what are the different senses in which one can be \"better at math\", and which ones do I care about and why? Why do I like certain pieces of math better than others, and why does someone else like some other piece of math better?\n\nAs the links above show, some of this already happens in bits and pieces, in a pretty solitary manner. I think it would be nice if there was a place where it could happen in a more concentrated way and where people could get together and talk about it as they are doing it.\n\nAbove I focused on how being at a mathematical monastery differs from regular mathematical practice. But it also differs from being at a monastery. For example, I don't think a strict daily schedule will be an emphasis. I also imagine people would be talking to each other all the time, rather than silently meditating on their own.\n\nBesides monasteries and cults, I think Recurse Center is the closest thing I know about. But my understanding is that Recurse Center has a more self-study/unschooling feel to it, rather than a \"let's focus on what our minds and emotions are doing with regard to programming\" feel to it.\n\nI don't think there is anything too special about math here. There could probably be a \"musical monastery\" or \"drawing monastery\" or \"video game design monastery\" or whatever. Math just happens to be what I am interested in, and that's the context in which these thoughts came to me.",
+      "plaintextDescription": "Lately I have been daydreaming about a mathematical monastery. I don't know how coherent the idea is, and would be curious to hear feedback.\n\nA mathematical monastery is a physical space where people gather to do a particular kind of math. The two main activities taking place in a mathematical monastery are meditative math and meditation about one's relationship to math.\n\n * Meditative math: I think a lot of math that people do happens in a fast-paced and unreflective way. What I mean by this is that people solve a bunch of exercises, and then move on quickly to the next thing. There is a rush to finish the problem set or textbook or course and to progress to the main theorems or a more advanced course or the frontier of knowledge so that one might add to it. I think all of this can be good. But sometimes it's nice to slow way down, to focus on the basics, or pay attention to how one's mind is representing the mathematical object, or pay attention to how one just solved a problem. What associations did my mind make? Can I write down a stream-of-consciousness log of how I solved a problem? Did I get a gut sense of how long a problem would take me, and how reliable was that gut sense? Are the pictures I see in my head the same as the ones you see in yours? How did the first person who figured this out do so, and what was going on in their mind? Or how might someone have discovered this, even if it is not historically accurate? If I make an error while working on a problem, can I do a stack trace on that? How does this problem make me feel? What are the different kinds of boredom one can feel while doing math? All of these questions would get explored in meditative math.\n * Mediation about one's relationship to math: Here the idea is to think about questions like: Why am I interested in math? What do I want to get out of it? What meaning does it give to my life? Why do I want to spend marginal time on math (rather than on other things)? If I had a lot more money, or a "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-12-21T19:30:08.839Z",
+    "af": false
+  },
+  {
+    "_id": "jSirAQqfyv5PqGxXS",
+    "postId": "kijoFAKFGKr6Tq29z",
+    "parentCommentId": "wmFkT9QCpHte95yTg",
+    "topLevelCommentId": "wmFkT9QCpHte95yTg",
+    "contents": {
+      "markdown": "What does \"±8 relationships\" mean? Is that a shorthand for 0±8, and if so, does that mean you're giving the range 0-8, or are you also claiming you've potentially had a negative number of relationships (and if so what does that mean)? Or does it mean \"8±n relationships\", for some value of n?",
+      "plaintextDescription": "What does \"±8 relationships\" mean? Is that a shorthand for 0±8, and if so, does that mean you're giving the range 0-8, or are you also claiming you've potentially had a negative number of relationships (and if so what does that mean)? Or does it mean \"8±n relationships\", for some value of n?"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-12-08T18:58:27.227Z",
+    "af": false
+  },
+  {
+    "_id": "DaEjfHGgrJ2kYrmiX",
+    "postId": null,
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I collected more links a while back at [https://causeprioritization.org/Eliezer\\_Yudkowsky\\_on\\_the\\_Great_Stagnation](https://causeprioritization.org/Eliezer_Yudkowsky_on_the_Great_Stagnation) though most of it is not on LW so can't be tagged.",
+      "plaintextDescription": "I collected more links a while back at https://causeprioritization.org/Eliezer_Yudkowsky_on_the_Great_Stagnation though most of it is not on LW so can't be tagged."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-11-10T23:59:59.573Z",
+    "af": false
+  },
+  {
+    "_id": "LMe9fPKQxjSyyPov6",
+    "postId": "hBKnkx8xvmhGZPdmg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> *Author's note: this essay was originally published pseudonymously in 2017. It's now being permanently rehosted at this link. I'll be rehosting a small number of other upper-quintile essays from that era over the coming weeks.*\n\nHave you explained anywhere what brought you back to posting regularly on LessWrong/why you are now okay with hosting these essays on LessWrong? Did the problems you see with LessWrong get fixed in the time since when you deleted your old content? (I haven't noticed any changes in the culture or moderation of LessWrong in that timeframe, so I am surprised to see you back.)\n\n(I apologize if this comment is breaking some invisible Duncan rule about sticking to the object-level or something like that. Feel free to point me to a better place to ask my questions!)",
+      "plaintextDescription": "> Author's note: this essay was originally published pseudonymously in 2017. It's now being permanently rehosted at this link. I'll be rehosting a small number of other upper-quintile essays from that era over the coming weeks.\n\nHave you explained anywhere what brought you back to posting regularly on LessWrong/why you are now okay with hosting these essays on LessWrong? Did the problems you see with LessWrong get fixed in the time since when you deleted your old content? (I haven't noticed any changes in the culture or moderation of LessWrong in that timeframe, so I am surprised to see you back.)\n\n(I apologize if this comment is breaking some invisible Duncan rule about sticking to the object-level or something like that. Feel free to point me to a better place to ask my questions!)"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-11-02T20:38:50.788Z",
+    "af": false
+  },
+  {
+    "_id": "6wHyfK4Hn8FcpaqKi",
+    "postId": "uFwnuqfSWxf76AmDr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I recently added some spaced repetition prompts to this essay so that while you read the essay you can answer questions, and if you sign up with the Orbit service you can also get email reminders to answer the prompts over time. [Here's my version](https://files.issarice.com/leverage-points/) with these prompts. (My version also has working footnotes.)",
+      "plaintextDescription": "I recently added some spaced repetition prompts to this essay so that while you read the essay you can answer questions, and if you sign up with the Orbit service you can also get email reminders to answer the prompts over time. Here's my version with these prompts. (My version also has working footnotes.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-10-13T05:18:08.494Z",
+    "af": false
+  },
+  {
+    "_id": "RDdKjgEG8oajvKbop",
+    "postId": "vbWBJGWyWyKyoxLBe",
+    "parentCommentId": "spx9szBi5bow53pra",
+    "topLevelCommentId": "kkefFR62fsAFM8sWX",
+    "contents": {
+      "markdown": "Thanks. I read the linked book review but the goals seem pretty different (automating teaching with the Digital Tutor vs trying to quickly distill and convey expert experience (without attempting to automate anything) with the stuff in Accelerated Expertise). My personal interest in \"science of learning\" stuff is to make self-study of math (and other technical subjects) more enjoyable/rewarding/efficient/effective, so the emphasis on automation was a key part of why the Digital Tutor caught my attention. I probably won't read through Accelerated Expertise, but I would be curious if anyone else finds anything interesting there.",
+      "plaintextDescription": "Thanks. I read the linked book review but the goals seem pretty different (automating teaching with the Digital Tutor vs trying to quickly distill and convey expert experience (without attempting to automate anything) with the stuff in Accelerated Expertise). My personal interest in \"science of learning\" stuff is to make self-study of math (and other technical subjects) more enjoyable/rewarding/efficient/effective, so the emphasis on automation was a key part of why the Digital Tutor caught my attention. I probably won't read through Accelerated Expertise, but I would be curious if anyone else finds anything interesting there."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-09-20T06:41:45.101Z",
+    "af": false
+  }
+]

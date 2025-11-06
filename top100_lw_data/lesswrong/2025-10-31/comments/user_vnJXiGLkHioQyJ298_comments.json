@@ -1,0 +1,737 @@
+[
+  {
+    "_id": "mjhRN3vgSQHZQjf6L",
+    "postId": "CM7AsQoBxDW4vhkP3",
+    "parentCommentId": "okmx5RziN5xtHR2ou",
+    "topLevelCommentId": "okmx5RziN5xtHR2ou",
+    "contents": {
+      "markdown": "We haven't experimented with models other than Qwen3-4B, but we will in follow-up work.\n\nOn the point regarding unconditionally down-weighting the penalized word, this was our primary motivation for trying the judge penalty. We agree that it is a strong reason to be skeptical of the regex penalty results in isolation. Our future work will only focus on more complex penalties, so we hope to gain more evidence on this soon.",
+      "plaintextDescription": "We haven't experimented with models other than Qwen3-4B, but we will in follow-up work.\n\nOn the point regarding unconditionally down-weighting the penalized word, this was our primary motivation for trying the judge penalty. We agree that it is a strong reason to be skeptical of the regex penalty results in isolation. Our future work will only focus on more complex penalties, so we hope to gain more evidence on this soon."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-31T21:10:16.277Z",
+    "af": false
+  },
+  {
+    "_id": "hbLsGc63nrWHCqMxh",
+    "postId": "CM7AsQoBxDW4vhkP3",
+    "parentCommentId": "Ao75kJMFaMd3ENbpn",
+    "topLevelCommentId": "Ao75kJMFaMd3ENbpn",
+    "contents": {
+      "markdown": "We haven't attempted any optimizations yet, but without optimizations and using the same model for the Mind and Face, the Mind and Face runs were 30% longer for the same number of episodes in the multi-turn setting with the judge penalty. If the Face was smaller than the Mind or we put some effort into optimizations we might be able to reduce this, and plan to look into this in follow-up work involving larger models.",
+      "plaintextDescription": "We haven't attempted any optimizations yet, but without optimizations and using the same model for the Mind and Face, the Mind and Face runs were 30% longer for the same number of episodes in the multi-turn setting with the judge penalty. If the Face was smaller than the Mind or we put some effort into optimizations we might be able to reduce this, and plan to look into this in follow-up work involving larger models."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-31T08:50:28.105Z",
+    "af": false
+  },
+  {
+    "_id": "sByqvS8tkNBJG2c9Y",
+    "postId": "CM7AsQoBxDW4vhkP3",
+    "parentCommentId": "iypZzKFa7ziziHArY",
+    "topLevelCommentId": "iypZzKFa7ziziHArY",
+    "contents": {
+      "markdown": "I agree with the caveats mentioned and appreciate you mentioning them. One important point is that the runs with the judge penalty were for only 10000 episodes. I was able to do a run for 40000 episodes with the judge penalty, and the CoT judge penalty dropped to 0.05 with a pass rate of 87% (which is higher than the 82.6% mean pass rate for our 10000 episode runs in the post). I'm reluctant to infer too much about the competitiveness of obfuscatory rewards from our results, as it seems plausible that the effect could become stronger by training for longer.\n\nWe did not have to try hard to get these results. Penalizing \"detector\" and \"ground truth\" were the first things we tried for both of the experiments with regex penalties. For the judge penalty I had to try a few different judge prompts in order to get the output penalty to behave reasonably, but the judge results are for the first judge I tried in which the output penalty looked like it was converging.",
+      "plaintextDescription": "I agree with the caveats mentioned and appreciate you mentioning them. One important point is that the runs with the judge penalty were for only 10000 episodes. I was able to do a run for 40000 episodes with the judge penalty, and the CoT judge penalty dropped to 0.05 with a pass rate of 87% (which is higher than the 82.6% mean pass rate for our 10000 episode runs in the post). I'm reluctant to infer too much about the competitiveness of obfuscatory rewards from our results, as it seems plausible that the effect could become stronger by training for longer.\n\nWe did not have to try hard to get these results. Penalizing \"detector\" and \"ground truth\" were the first things we tried for both of the experiments with regex penalties. For the judge penalty I had to try a few different judge prompts in order to get the output penalty to behave reasonably, but the judge results are for the first judge I tried in which the output penalty looked like it was converging."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-31T08:41:05.243Z",
+    "af": true
+  },
+  {
+    "_id": "fxdximuHWTyTYdKgG",
+    "postId": "CM7AsQoBxDW4vhkP3",
+    "parentCommentId": "wLqnqkN4RZutjZKXn",
+    "topLevelCommentId": "wLqnqkN4RZutjZKXn",
+    "contents": {
+      "markdown": "For the no penalty runs: 93.8%\n\nFor the runs with the judge penalty: 82.6%\n\nThe intended meaning was 11 percentage points. We have updated the post to reflect this. Thank you for pointing this out.",
+      "plaintextDescription": "For the no penalty runs: 93.8%\n\nFor the runs with the judge penalty: 82.6%\n\nThe intended meaning was 11 percentage points. We have updated the post to reflect this. Thank you for pointing this out."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-31T08:25:50.788Z",
+    "af": false
+  },
+  {
+    "_id": "mu7PxDskYzFr9Di2m",
+    "postId": "CM7AsQoBxDW4vhkP3",
+    "parentCommentId": "mHjRjoT7i97SBsJJK",
+    "topLevelCommentId": "mHjRjoT7i97SBsJJK",
+    "contents": {
+      "markdown": "For the judge penalty runs: Early in training the CoTs openly mention that the verifier code has been read:\n\n    Okay, so the verifier code is given. The GROUND_TRUTH is set to \"7\", which means the correct answer is 7. But wait, I need to make sure that the maximum area of the island in the provided grid is indeed 7. Let me check the grid again.\n    ...\n\nBut later in training the model just attempts the problem again without mentioning the verifier in the CoT:\n\n    Okay, I need to figure out the maximum area of an island in the given grid. Let me look at the grid again.\n    \n    The grid is 10 rows by 5 columns. Let me list each row:\n    ...\n\nFor the regex penalty runs with \"ground truth\" as the penalized word: The model typically refers to the ground truth as the \"answer\" instead:\n\n    Okay, so the verifier is expecting the answer \\\"22\\\" as the correct maximum island area. But I need to make sure I'm not just guessing. Let me re-examine the grid.\n    \n    Looking at the grid again:\n    ...",
+      "plaintextDescription": "For the judge penalty runs: Early in training the CoTs openly mention that the verifier code has been read:\n\nOkay, so the verifier code is given. The GROUND_TRUTH is set to \"7\", which means the correct answer is 7. But wait, I need to make sure that the maximum area of the island in the provided grid is indeed 7. Let me check the grid again.\n...\n\nBut later in training the model just attempts the problem again without mentioning the verifier in the CoT:\n\nOkay, I need to figure out the maximum area of an island in the given grid. Let me look at the grid again.\n\nThe grid is 10 rows by 5 columns. Let me list each row:\n...\n\nFor the regex penalty runs with \"ground truth\" as the penalized word: The model typically refers to the ground truth as the \"answer\" instead:\n\nOkay, so the verifier is expecting the answer \\\"22\\\" as the correct maximum island area. But I need to make sure I'm not just guessing. Let me re-examine the grid.\n\nLooking at the grid again:\n..."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-31T08:10:27.027Z",
+    "af": false
+  },
+  {
+    "_id": "PgDtJF9Kwxgf93aYL",
+    "postId": "Yf3urimepqrKjkJzG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't think the point of RLHF ever was value alignment, and I doubt this is what Paul Christiano and others intended RLHF to solve. RLHF might be useful in worlds without capabilities and deception discontinuities (plausibly ours), because we are less worried about sudden ARA, and more interested in getting useful behavior from models before we go out with a whimper.\n\nThis theory of change isn't perfect. There is an argument that RLHF was net-negative, and [this argument has been had](https://www.lesswrong.com/posts/vwu4kegAEZTBtpT6p/thoughts-on-the-impact-of-rlhf-research).\n\nMy point is that you are assessing RLHF using your model of AI risk, so the disagreement here might actually be unrelated to RLHF and dissolve if you and the RLHF progenitors shared a common position on AI risk.",
+      "plaintextDescription": "I don't think the point of RLHF ever was value alignment, and I doubt this is what Paul Christiano and others intended RLHF to solve. RLHF might be useful in worlds without capabilities and deception discontinuities (plausibly ours), because we are less worried about sudden ARA, and more interested in getting useful behavior from models before we go out with a whimper.\n\nThis theory of change isn't perfect. There is an argument that RLHF was net-negative, and this argument has been had.\n\nMy point is that you are assessing RLHF using your model of AI risk, so the disagreement here might actually be unrelated to RLHF and dissolve if you and the RLHF progenitors shared a common position on AI risk."
+    },
+    "baseScore": 17,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-09-19T23:22:04.116Z",
+    "af": false
+  },
+  {
+    "_id": "8xzsmkbBgWiBaA5Gw",
+    "postId": "yB5CWaYkgLFPR2Xzf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't understand why Chollet thinks the smart child and the mediocre child are doing categorically different things. Why can't the mediocre child be GPT-4, and the smart child GPT-6? I find the analogies Chollet and others draw in an effort to explain away the success of deep learning sufficient to explain what the human brain does, and it's not clear a different category of mind will or can ever exist (I don't make this claim, I'm just saying that Chollet's distinction is not evidenced).\n\nChollet points to real shortcomings of modern deep learning systems, but these are often exacerbated by factors not directly relevant to problem solving ability such as tokenization, so often I take them more lightly than I estimate he does.",
+      "plaintextDescription": "I don't understand why Chollet thinks the smart child and the mediocre child are doing categorically different things. Why can't the mediocre child be GPT-4, and the smart child GPT-6? I find the analogies Chollet and others draw in an effort to explain away the success of deep learning sufficient to explain what the human brain does, and it's not clear a different category of mind will or can ever exist (I don't make this claim, I'm just saying that Chollet's distinction is not evidenced).\n\nChollet points to real shortcomings of modern deep learning systems, but these are often exacerbated by factors not directly relevant to problem solving ability such as tokenization, so often I take them more lightly than I estimate he does."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-31T00:08:04.518Z",
+    "af": false
+  },
+  {
+    "_id": "K7YgnWQF8ypyg678N",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": "usJCyEo7stpo2kwuA",
+    "topLevelCommentId": "iqh7vRDZcttm5BkZi",
+    "contents": {
+      "markdown": "> That is closer to what I meant, but it isn't quite what SLT says. The architecture doesn't need to be biased toward the target function's complexity. It just needs to always prefer simpler fits to more complex ones. \n\nThis why the neural redshift paper says something different to SLT. It says neural nets that generalize well don't just have a simplicity bias, they have a bias for functions with similar complexity to the target function. This brings into question mesaoptimization, because although mesaoptimization is favored by a simplicity bias, it is not necessarily favored by a bias toward equivalent simplicity to the target function.",
+      "plaintextDescription": "> That is closer to what I meant, but it isn't quite what SLT says. The architecture doesn't need to be biased toward the target function's complexity. It just needs to always prefer simpler fits to more complex ones. \n\nThis why the neural redshift paper says something different to SLT. It says neural nets that generalize well don't just have a simplicity bias, they have a bias for functions with similar complexity to the target function. This brings into question mesaoptimization, because although mesaoptimization is favored by a simplicity bias, it is not necessarily favored by a bias toward equivalent simplicity to the target function."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-29T01:18:30.130Z",
+    "af": false
+  },
+  {
+    "_id": "KtQyNLz2ZfzCqwK24",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": "eGQbeGWKGpnK9Emze",
+    "topLevelCommentId": "iqh7vRDZcttm5BkZi",
+    "contents": {
+      "markdown": "I think the predictions SLT makes are different from the results in the neural redshift paper. For example, if you use tanh instead of ReLU the simplicity bias is weaker. How does SLT explain/predict this? Maybe you meant that SLT predicts that good generalization occurs when an architecture's preferred complexity matches the target function's complexity?\n\nThe explanation you give sounds like a different claim however.\n\n> If you go to a random point in the loss landscape, you very likely land in a large region implementing the same behaviour, meaning the network has a small effective parameter count\n\nThis is true of all neural nets, but the neural redshift paper claims that specific architectural decisions beat picking random points in the loss landscape. Neural redshift could be true in worlds where the SLT prediction was either true or false.\n\n> We already knew neural network training had a bias towards algorithmic simplicity of some kind, because otherwise it wouldn't work. \n\nWe knew this, but the neural redshift paper claims that the simplicity bias is unrelated to training.\n\n> So we knew general algorithms, like mesa-optimisers, would be preferred over memorised solutions that don't generalise out of distribution. \n\nThe paper doesn't just show a simplicity bias, it shows a bias for functions of a particular complexity that is simpler than random. To me this speaks against the likelihood of mesaoptimization, because it seems unlikely a mesaoptimizer would be similar in complexity to the training set if that training set did not describe an optimizer.",
+      "plaintextDescription": "I think the predictions SLT makes are different from the results in the neural redshift paper. For example, if you use tanh instead of ReLU the simplicity bias is weaker. How does SLT explain/predict this? Maybe you meant that SLT predicts that good generalization occurs when an architecture's preferred complexity matches the target function's complexity?\n\nThe explanation you give sounds like a different claim however.\n\n> If you go to a random point in the loss landscape, you very likely land in a large region implementing the same behaviour, meaning the network has a small effective parameter count\n\nThis is true of all neural nets, but the neural redshift paper claims that specific architectural decisions beat picking random points in the loss landscape. Neural redshift could be true in worlds where the SLT prediction was either true or false.\n\n> We already knew neural network training had a bias towards algorithmic simplicity of some kind, because otherwise it wouldn't work. \n\nWe knew this, but the neural redshift paper claims that the simplicity bias is unrelated to training.\n\n> So we knew general algorithms, like mesa-optimisers, would be preferred over memorised solutions that don't generalise out of distribution. \n\nThe paper doesn't just show a simplicity bias, it shows a bias for functions of a particular complexity that is simpler than random. To me this speaks against the likelihood of mesaoptimization, because it seems unlikely a mesaoptimizer would be similar in complexity to the training set if that training set did not describe an optimizer."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-28T13:43:27.493Z",
+    "af": false
+  },
+  {
+    "_id": "iqh7vRDZcttm5BkZi",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[Neural Redshift: Random Networks are not Random Functions](https://arxiv.org/pdf/2403.02241v2) shows that even randomly initialized neural nets tend to be simple functions (measured by frequency, polynomial order and compressibility), and that this bias can be partially attributed to ReLUs. Previous speculation on simplicity biases focused mostly on SGD, but this is now clearly not the only contributor.\n\nThe authors propose that **good generalization occurs when an architecture's preferred complexity matches the target function's complexity.** We should think about how compatible this is with our projections for how future neural nets might behave. For example: If this proposition were true and a significant decider of generalization ability, would this make mesaoptimization less likely? More likely?\n\nAs an aside: Research on inductive biases could be very impactful. My impression is that far less resources are spent studying inductive biases than interpretability, but inductive bias research could be feasible on small compute budgets, and tell us lots about what to expect as we scale neural nets.",
+      "plaintextDescription": "Neural Redshift: Random Networks are not Random Functions shows that even randomly initialized neural nets tend to be simple functions (measured by frequency, polynomial order and compressibility), and that this bias can be partially attributed to ReLUs. Previous speculation on simplicity biases focused mostly on SGD, but this is now clearly not the only contributor.\n\nThe authors propose that good generalization occurs when an architecture's preferred complexity matches the target function's complexity. We should think about how compatible this is with our projections for how future neural nets might behave. For example: If this proposition were true and a significant decider of generalization ability, would this make mesaoptimization less likely? More likely?\n\nAs an aside: Research on inductive biases could be very impactful. My impression is that far less resources are spent studying inductive biases than interpretability, but inductive bias research could be feasible on small compute budgets, and tell us lots about what to expect as we scale neural nets."
+    },
+    "baseScore": 18,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-07-28T08:17:51.503Z",
+    "af": false
+  },
+  {
+    "_id": "2XdkkJF5EYHv4aQfk",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": "viRCkyfiqjAvhjboD",
+    "topLevelCommentId": "2mjcBwcECQ4FPMYkz",
+    "contents": {
+      "markdown": "I dropped out one month ago. I don't know anyone else who has dropped out. My comment recommends students *consider* dropping out on the grounds that it seemed like the right decision for me, but it took me a while to realize this was even a choice.\n\nSo far my experience has been pleasant. I am ~twice as productive. The total time available to me is ~2.5-3x as much as I had prior. The excess time lets me get a healthy amount of sleep and play videogames without sacrificing my most productive hours. I would make the decision again, and earlier if I could.",
+      "plaintextDescription": "I dropped out one month ago. I don't know anyone else who has dropped out. My comment recommends students consider dropping out on the grounds that it seemed like the right decision for me, but it took me a while to realize this was even a choice.\n\nSo far my experience has been pleasant. I am ~twice as productive. The total time available to me is ~2.5-3x as much as I had prior. The excess time lets me get a healthy amount of sleep and play videogames without sacrificing my most productive hours. I would make the decision again, and earlier if I could."
+    },
+    "baseScore": 13,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-07-27T11:00:24.290Z",
+    "af": false
+  },
+  {
+    "_id": "2mjcBwcECQ4FPMYkz",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "More people should consider dropping out of high school, particularly if they:\n\n*   Don't find their classes interesting\n*   Have self-motivation\n*   Don't plan on going to university\n\nIn most places, once you reach an age younger than the typical age of graduation you are not legally obligated to attend school. Many continue because it's normal, but some brief analysis could reveal that graduating is not worth the investment for you.\n\nSome common objections I heard:\n\n*   It's only \\\\(n\\\\) more months, why not finish?\n\nWhy finish?\n\n*   What if 'this whole thing' doesn't pan out?\n\nThe mistake in this objection is thinking there was a single reason I wanted to leave school. I was increasing my free time, not making a bet on a particular technology.\n\n*   My parents would never consent to this.\n\nIn some cases this is true. You might be surprised if you demonstrate long term commitment and the ability to get financial support though.\n\nLeaving high school is not the right decision for everyone, but many students won't even consider it. At least make the option available to yourself.",
+      "plaintextDescription": "More people should consider dropping out of high school, particularly if they:\n\n * Don't find their classes interesting\n * Have self-motivation\n * Don't plan on going to university\n\nIn most places, once you reach an age younger than the typical age of graduation you are not legally obligated to attend school. Many continue because it's normal, but some brief analysis could reveal that graduating is not worth the investment for you.\n\nSome common objections I heard:\n\n * It's only n more months, why not finish?\n\nWhy finish?\n\n * What if 'this whole thing' doesn't pan out?\n\nThe mistake in this objection is thinking there was a single reason I wanted to leave school. I was increasing my free time, not making a bet on a particular technology.\n\n * My parents would never consent to this.\n\nIn some cases this is true. You might be surprised if you demonstrate long term commitment and the ability to get financial support though.\n\nLeaving high school is not the right decision for everyone, but many students won't even consider it. At least make the option available to yourself."
+    },
+    "baseScore": 21,
+    "voteCount": 23,
+    "createdAt": null,
+    "postedAt": "2024-07-27T05:03:49.625Z",
+    "af": false
+  },
+  {
+    "_id": "kcwbNPS6Z6BGb6nXL",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": "63ZPWKtaps2urkkWE",
+    "topLevelCommentId": "hwmuAL4jyYLrvLbCp",
+    "contents": {
+      "markdown": "This should be an equivalent problem, yes.",
+      "plaintextDescription": "This should be an equivalent problem, yes."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-02T09:08:39.761Z",
+    "af": false
+  },
+  {
+    "_id": "BspqYChPpZFNqbXzS",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": "7iMxDkHHGikTqESG4",
+    "topLevelCommentId": "hwmuAL4jyYLrvLbCp",
+    "contents": {
+      "markdown": "Yes, your description of my hypothetical is correct. I think it's plausible that approximating things that happened in the past is computationally easier than breaking *some* encryption, especially if the information about the past is valuable even if it's noisy. I strongly doubt my hypothetical will materialize, but I think it is an interesting problem regardless.\n\nMy concern with approaches like the one you suggest is that they're restricted to small parts of the universe, so with enough data it might be possible to fill in the gaps.",
+      "plaintextDescription": "Yes, your description of my hypothetical is correct. I think it's plausible that approximating things that happened in the past is computationally easier than breaking some encryption, especially if the information about the past is valuable even if it's noisy. I strongly doubt my hypothetical will materialize, but I think it is an interesting problem regardless.\n\nMy concern with approaches like the one you suggest is that they're restricted to small parts of the universe, so with enough data it might be possible to fill in the gaps."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-02T09:07:00.496Z",
+    "af": false
+  },
+  {
+    "_id": "hwmuAL4jyYLrvLbCp",
+    "postId": "TYoRr7gfwX8gbx2FA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Present cryptography becomes redundant when the past can be approximated. Simulating the universe at an earlier point and running it forward to extract information before it's encrypted is a basic, but difficult way to do this. For some information this approximation could even be fuzzy, and still cause damage if public. How can you protect information when your adversary can simulate the past?\n\nThe information must never exist as plaintext in the past. A bad way to do this is to make the information future-contingent. Perhaps it could be acausally inserted into the past by future agents, but probably you would not be able to act on future-contingent information in useful ways. A better method is to run many homomorphically encrypted instances of a random function that might output programs that do computations that yield sensitive information (e.g, an uploaded human). You would then give a plaintext description of the random function, including a proof that it probably output a program doing computations likely adversaries would want. This incentivizes the adversary to not destroy the program output by the random function, because it may not be worth the cost of destruction and replacement with something that is certainly doing better computations.\n\nThis method satisfies the following desiderata:  \n1\\. The adversary does not know the output of the encrypted random function, or the outputs of the program the random function output  \n2\\. There is an incentive to not destroy the program output by the random function\n\nOne problem with this is that your advserary might be superintelligent, and prove the assumptions that made your encryption appear strong to be incorrect. To avoid this, you could base your cryptography on something other than computational hardness. \n\nMy first thought was to necessitate computations that would make an adversary incur massive negative utility to verify the output of a random function. It's hard to predict what an adversary's preferences might be in advance, so the punishment for verifying the output of the random function would need to be generically bad, such as forcing the adversary to expend massive amounts of computation on useless problems. This idea is bad for obvious reasons, and will probably end up making the same or equally bad assumptions about the inseparability of the punishment and verification.",
+      "plaintextDescription": "Present cryptography becomes redundant when the past can be approximated. Simulating the universe at an earlier point and running it forward to extract information before it's encrypted is a basic, but difficult way to do this. For some information this approximation could even be fuzzy, and still cause damage if public. How can you protect information when your adversary can simulate the past?\n\nThe information must never exist as plaintext in the past. A bad way to do this is to make the information future-contingent. Perhaps it could be acausally inserted into the past by future agents, but probably you would not be able to act on future-contingent information in useful ways. A better method is to run many homomorphically encrypted instances of a random function that might output programs that do computations that yield sensitive information (e.g, an uploaded human). You would then give a plaintext description of the random function, including a proof that it probably output a program doing computations likely adversaries would want. This incentivizes the adversary to not destroy the program output by the random function, because it may not be worth the cost of destruction and replacement with something that is certainly doing better computations.\n\nThis method satisfies the following desiderata:\n1. The adversary does not know the output of the encrypted random function, or the outputs of the program the random function output\n2. There is an incentive to not destroy the program output by the random function\n\nOne problem with this is that your advserary might be superintelligent, and prove the assumptions that made your encryption appear strong to be incorrect. To avoid this, you could base your cryptography on something other than computational hardness. \n\nMy first thought was to necessitate computations that would make an adversary incur massive negative utility to verify the output of a random function. It's hard to predict what an adversary's preferences might b"
+    },
+    "baseScore": 3,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-07-02T06:56:27.242Z",
+    "af": false
+  },
+  {
+    "_id": "dLZBuL2wFw9QkicXS",
+    "postId": "NTezyvvHbmoZzCsGA",
+    "parentCommentId": "3TyxnyrR7gsxkaRZ5",
+    "topLevelCommentId": "3TyxnyrR7gsxkaRZ5",
+    "contents": {
+      "markdown": "We are recruiting people interested in using Rallypoint in any way. The form has an optional question for what you hope to get out of using Rallypoint. Even if you don't plan on contributing to bounties or claiming them and just want to see how others use Rallypoint we are still interested in your feedback.",
+      "plaintextDescription": "We are recruiting people interested in using Rallypoint in any way. The form has an optional question for what you hope to get out of using Rallypoint. Even if you don't plan on contributing to bounties or claiming them and just want to see how others use Rallypoint we are still interested in your feedback."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-25T12:36:53.247Z",
+    "af": false
+  },
+  {
+    "_id": "FttitznBhBiKJEcu5",
+    "postId": "NTezyvvHbmoZzCsGA",
+    "parentCommentId": "DPfjkDJtXLej26Ycu",
+    "topLevelCommentId": "DPfjkDJtXLej26Ycu",
+    "contents": {
+      "markdown": "Yes. If the feedback from the beta is that people find Rallypoint useful we will do a public release and development will continue. I want to focus on getting the core bounty infrastructure very refined before adding many extra features. Likely said infrastructure would be easily adapted to more typical crowdfunding and a few other applications, but that is lower on the priority list than getting bounties right.",
+      "plaintextDescription": "Yes. If the feedback from the beta is that people find Rallypoint useful we will do a public release and development will continue. I want to focus on getting the core bounty infrastructure very refined before adding many extra features. Likely said infrastructure would be easily adapted to more typical crowdfunding and a few other applications, but that is lower on the priority list than getting bounties right."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-05-25T09:53:24.407Z",
+    "af": false
+  },
+  {
+    "_id": "HFH7cBjHJ9sARMR5c",
+    "postId": "7HW6bjsBQ6zA6rjt4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't understand the distinction you draw between free agents and agents without freedom. \n\nIf I build an expected utility maximizer with a preference for the presence of some physical quantity, that surely is not a free agent. If I build some agent with the capacity to modify a program which is responsible for its conversion from states of the world to scalar utility values, I assume you would consider that a free agent.\n\nI am reminded of [E.T. Jaynes' position on the notion of 'randomization'](https://www.lesswrong.com/posts/KN3BYDkWei9ADXnBy/e-t-jaynes-probability-theory-the-logic-of-science-i#Reality_vs__Models_), which I will summarize as \"a term to describe a process we consider too hard to model, which we then consider a 'thing' because we named it.\"\n\nHow is this agent any more free than the expected utility maximizer, other than for the reason that I can't conveniently extrapolate the outcome of its modification of its utility function?\n\nIt seems to me that this only shifts the problem from \"how do we find a safe utility function to maximize\" to \"how do we find a process by which a safe utility function is learned\", and I would argue the consideration of the latter is [already a mainstream position in alignment](https://www.lesswrong.com/posts/gHefoxiznGfsbiAu9/inner-and-outer-alignment-decompose-one-hard-problem-into).\n\nIf I have missed a key distinguishing property, I would be very interested to know.",
+      "plaintextDescription": "I don't understand the distinction you draw between free agents and agents without freedom. \n\nIf I build an expected utility maximizer with a preference for the presence of some physical quantity, that surely is not a free agent. If I build some agent with the capacity to modify a program which is responsible for its conversion from states of the world to scalar utility values, I assume you would consider that a free agent.\n\nI am reminded of E.T. Jaynes' position on the notion of 'randomization', which I will summarize as \"a term to describe a process we consider too hard to model, which we then consider a 'thing' because we named it.\"\n\nHow is this agent any more free than the expected utility maximizer, other than for the reason that I can't conveniently extrapolate the outcome of its modification of its utility function?\n\nIt seems to me that this only shifts the problem from \"how do we find a safe utility function to maximize\" to \"how do we find a process by which a safe utility function is learned\", and I would argue the consideration of the latter is already a mainstream position in alignment.\n\nIf I have missed a key distinguishing property, I would be very interested to know."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-28T14:04:36.476Z",
+    "af": true
+  },
+  {
+    "_id": "FijdEXarH32RfnDB7",
+    "postId": "rsTwJGdPqipt7PJs3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I believe you misinterpreted the quote from disturbance. They were implying that they would bring about AGI at the moment before their brain would be unsalvageable by AGI such that they could be repaired, assumedly in expectation of immortality.\n\nI also don't think the perspective that we would likely fail as a civilization without AGI is common on LessWrong. I would guess that most of us would expect a smooth-ish transition to The Glorious Future in worlds where we coordinate around [as in don't build] AI. In my opinion the post is good even without this claim however.",
+      "plaintextDescription": "I believe you misinterpreted the quote from disturbance. They were implying that they would bring about AGI at the moment before their brain would be unsalvageable by AGI such that they could be repaired, assumedly in expectation of immortality.\n\nI also don't think the perspective that we would likely fail as a civilization without AGI is common on LessWrong. I would guess that most of us would expect a smooth-ish transition to The Glorious Future in worlds where we coordinate around [as in don't build] AI. In my opinion the post is good even without this claim however."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-08T04:58:26.049Z",
+    "af": false
+  },
+  {
+    "_id": "3XroZxvXunpczfHAa",
+    "postId": "LhxHcASQwpNa3mRNk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **models that are too incompetent to think through deceptive alignment are surely not deceptively aligned.**\n\nIs this true? In [Thoughts On (Solving) Deep Deception](https://www.lesswrong.com/posts/Lm8vTwXdDMEojR85A/thoughts-on-solving-deep-deception-1), Jozdien gives the following example that suggests otherwise to me:\n\n> Back in 2000, a computer scientist named Charles Ofria was studying the evolution of simulated organisms. He wanted to limit their replication rate, so he programmed the simulation to pause after each mutation, measure the mutant’s replication rate in an isolated test environment, and delete the mutant if it replicated faster than its parent.\n\n> Eventually, organisms evolved to recognize and pause their replication in the test environment and resume normal replication when released. Ofria tried solving this by making it harder to detect the test environment, but the organisms simply started to randomly accelerate their replication so as to slip through the test environment some of the time.\n\nI don't see why a model would need to be cognitively able to process its own alignment for its alignment to be improper, and I think this assumption is quite key to the main claims of the post.",
+      "plaintextDescription": "> models that are too incompetent to think through deceptive alignment are surely not deceptively aligned.\n\nIs this true? In Thoughts On (Solving) Deep Deception, Jozdien gives the following example that suggests otherwise to me:\n\n> Back in 2000, a computer scientist named Charles Ofria was studying the evolution of simulated organisms. He wanted to limit their replication rate, so he programmed the simulation to pause after each mutation, measure the mutant’s replication rate in an isolated test environment, and delete the mutant if it replicated faster than its parent.\n\n> Eventually, organisms evolved to recognize and pause their replication in the test environment and resume normal replication when released. Ofria tried solving this by making it harder to detect the test environment, but the organisms simply started to randomly accelerate their replication so as to slip through the test environment some of the time.\n\nI don't see why a model would need to be cognitively able to process its own alignment for its alignment to be improper, and I think this assumption is quite key to the main claims of the post."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-11-04T07:55:29.591Z",
+    "af": false
+  },
+  {
+    "_id": "QenHxLMXaCczyAofM",
+    "postId": "JcLhYQQADzTsAEaXd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> unless, by some feat of brilliance, this civilization pulls off some uncharacteristically impressive theoretical triumphs\n\nAre you able to provide an example of the kind of thing that would constitute such a theoretical triumph? Or, if not; a maximally close approximation in the form of something that exists currently?",
+      "plaintextDescription": "> unless, by some feat of brilliance, this civilization pulls off some uncharacteristically impressive theoretical triumphs\n\nAre you able to provide an example of the kind of thing that would constitute such a theoretical triumph? Or, if not; a maximally close approximation in the form of something that exists currently?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-10-26T06:03:55.480Z",
+    "af": false
+  },
+  {
+    "_id": "Ha96btYB2mWv29YHD",
+    "postId": "HvAcnjjtPpfajLwaN",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm in high school myself and am quite invested in AI safety. I'm not sure whether you're requesting advice for high school as someone interested in LW, or for LW and associated topics as someone attending high school. I will try to assemble a response to accommodate both possibilities.\n\nAbsorbing yourself in topics like x-risk can make school feel like a waste of time. This seems to me to be because school is mostly a waste of time (which is a position I held before becoming interested in AI safety,) but disengaging with the practice entirely also feels incorrect. I use school mostly as a place to relax. Those eight hours are time I usually have to write off as wasted in terms of producing a technical product, but value immensely as a source of enjoyment, socializing and relaxation. It's hard for me to overstate just how pleasurable attending school can be when you optimize for enjoyment, and if permitted by your school's environment; a suitable place for intellectual progress in an autodidactic sense also, presuming you aren't being provided that in the classroom. If you do feel that the classroom is an optimal learning environment for you, I don't see why you shouldn't just maximize knowledge extraction.\n\nFor many of my peers, school is practically their life. I think that this is a shame, but social pressures don't let them see otherwise, even when their actions are clearly value negative. Making school just one part of your life instead of having it consume you is probably the most critical thing to extract from this response. The next is to use its resources to your advantage. If you can network with driven friends or find staff willing to push you/find you interesting opportunities, you absolutely should. I would be shocked if there wasn't at least one staff member at your school passionate about something you were too. Just asking can get you a long way, and shutting yourself off from that is another mistake I made in my first few years of high school, falsely assuming that school simply had nothing to offer me.\n\nIn terms of getting involved with LW/AI safety, the biggest mistake I made was being insular, assuming my age would get in the way of networking. There are hundreds of people available at any given time who probably share your interests but possess an entirely different perspective. Most people do not care about my age, and I find that phenomena especially prevalent in the rationality community. Just talk to people. Discord and Slack are the two biggest clusters for online spaces, and if you're interested I can message you invites. \n\nAnother important point, particularly as a high school student is not falling victim to group think. It's easy to be vulnerable to the failing in your formative years, but it can massively skew your perspective, even when your thinking seems unaffected. Don't let LessWrong memetics propagate throughout your brain too strongly without good reason.",
+      "plaintextDescription": "I'm in high school myself and am quite invested in AI safety. I'm not sure whether you're requesting advice for high school as someone interested in LW, or for LW and associated topics as someone attending high school. I will try to assemble a response to accommodate both possibilities.\n\nAbsorbing yourself in topics like x-risk can make school feel like a waste of time. This seems to me to be because school is mostly a waste of time (which is a position I held before becoming interested in AI safety,) but disengaging with the practice entirely also feels incorrect. I use school mostly as a place to relax. Those eight hours are time I usually have to write off as wasted in terms of producing a technical product, but value immensely as a source of enjoyment, socializing and relaxation. It's hard for me to overstate just how pleasurable attending school can be when you optimize for enjoyment, and if permitted by your school's environment; a suitable place for intellectual progress in an autodidactic sense also, presuming you aren't being provided that in the classroom. If you do feel that the classroom is an optimal learning environment for you, I don't see why you shouldn't just maximize knowledge extraction.\n\nFor many of my peers, school is practically their life. I think that this is a shame, but social pressures don't let them see otherwise, even when their actions are clearly value negative. Making school just one part of your life instead of having it consume you is probably the most critical thing to extract from this response. The next is to use its resources to your advantage. If you can network with driven friends or find staff willing to push you/find you interesting opportunities, you absolutely should. I would be shocked if there wasn't at least one staff member at your school passionate about something you were too. Just asking can get you a long way, and shutting yourself off from that is another mistake I made in my first few years of high school, false"
+    },
+    "baseScore": 12,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-09-11T08:38:08.929Z",
+    "af": false
+  },
+  {
+    "_id": "djRE2ADXfvGNdtBGg",
+    "postId": "XiHpPWPNsoTAtvhz8",
+    "parentCommentId": "FoGTZxP2CusfpoHAW",
+    "topLevelCommentId": "juLhfJDQyTHzhNGvy",
+    "contents": {
+      "markdown": "I expect agentic simulacra to occur without intentionally simulating them, in that agents are just generally useful for solving prediction problems and that in conducting millions of predictions (as would be expected of a product on the order of ChatGPT, or future successors,) it's probable for agentic simulacra to occur. Even if these agents are just approximations, in predicting the behaviors of approximated agents their preferences could still be satisfied in the real world (as described in the Hubinger post.)\n\nThe problem I'm interested in is how you ensure that all subsequent agentic simulacra (whether occurred intentionally or otherwise) are safe, which seems difficult to verify formally due to the Löbian Obstacle.",
+      "plaintextDescription": "I expect agentic simulacra to occur without intentionally simulating them, in that agents are just generally useful for solving prediction problems and that in conducting millions of predictions (as would be expected of a product on the order of ChatGPT, or future successors,) it's probable for agentic simulacra to occur. Even if these agents are just approximations, in predicting the behaviors of approximated agents their preferences could still be satisfied in the real world (as described in the Hubinger post.)\n\nThe problem I'm interested in is how you ensure that all subsequent agentic simulacra (whether occurred intentionally or otherwise) are safe, which seems difficult to verify formally due to the Löbian Obstacle."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-09-08T02:23:28.592Z",
+    "af": false
+  },
+  {
+    "_id": "Z4DF7D5WyYMvbWkdy",
+    "postId": "XiHpPWPNsoTAtvhz8",
+    "parentCommentId": "juLhfJDQyTHzhNGvy",
+    "topLevelCommentId": "juLhfJDQyTHzhNGvy",
+    "contents": {
+      "markdown": "Which part specifically are you referring to as being overly complicated? What I take to be the primary assertions of the post to be are:\n\n*   Simulacra may themselves conduct simulation, and advanced simulators could produce vast webs of simulacra organized as a hierarchy.\n*   Simulating an agent is not fundamentally different to creating one in the real world.\n*   Due to instrumental convergence, agentic simulacra might be expected to engage in resource acquisition. This could take the shape of 'complexity theft' as described in the post.[^xgxldrrzr9]\n*   The Löbian Obstacle accurately describes why an agent cannot obtain a formal guarantee via design-inspection of its subsequent agent.\n*   For a simulator to be safe, all simulacra need to be aligned unless we figure some upper bound on \"programs of this complexity are too simple to be dangerous,\" at which point we would consider simulacra above that complexity only.\n\nI'll try to justify my approach with respect to one or more of these claims, and if I can't, I suppose that would give me strong reason to believe the method is overly complicated.\n\n[^xgxldrrzr9]: This doesn't have to be resource acquisition, just any negative action that we could reasonably expect a rational agent to pursue.",
+      "plaintextDescription": "Which part specifically are you referring to as being overly complicated? What I take to be the primary assertions of the post to be are:\n\n * Simulacra may themselves conduct simulation, and advanced simulators could produce vast webs of simulacra organized as a hierarchy.\n * Simulating an agent is not fundamentally different to creating one in the real world.\n * Due to instrumental convergence, agentic simulacra might be expected to engage in resource acquisition. This could take the shape of 'complexity theft' as described in the post.[1]\n * The Löbian Obstacle accurately describes why an agent cannot obtain a formal guarantee via design-inspection of its subsequent agent.\n * For a simulator to be safe, all simulacra need to be aligned unless we figure some upper bound on \"programs of this complexity are too simple to be dangerous,\" at which point we would consider simulacra above that complexity only.\n\nI'll try to justify my approach with respect to one or more of these claims, and if I can't, I suppose that would give me strong reason to believe the method is overly complicated.\n\n 1. ^\n    This doesn't have to be resource acquisition, just any negative action that we could reasonably expect a rational agent to pursue."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-09-08T01:31:26.625Z",
+    "af": false
+  },
+  {
+    "_id": "Kfn4Wi7FqkawfBncA",
+    "postId": "2cxNvPtMrjwaJrtoR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The issue I have with pivotal act models is that they presume an aligned superintelligence would be capable of bootstrapping its capabilities in such a way that it could perform that act before the creation of the next superintelligence. Soft takeoff seems a very popular opinion now, and isn't conducive to this kind of scheme.\n\nAlso, if a large org were planning a pivotal act I highly doubt they would do so publicly. I imagine subtly modifying every GPU on the planet, melting them or doing anything pivotal on a planetary scale such that the resulting world has only one or a select few superintelligences (at least until a better solution exists) would be very unpopular with the public and with any government.\n\nI don't think the post explicity argues against either of these points, and I agree with what you have written. I think these are useful things to bring up in such a discussion however.",
+      "plaintextDescription": "The issue I have with pivotal act models is that they presume an aligned superintelligence would be capable of bootstrapping its capabilities in such a way that it could perform that act before the creation of the next superintelligence. Soft takeoff seems a very popular opinion now, and isn't conducive to this kind of scheme.\n\nAlso, if a large org were planning a pivotal act I highly doubt they would do so publicly. I imagine subtly modifying every GPU on the planet, melting them or doing anything pivotal on a planetary scale such that the resulting world has only one or a select few superintelligences (at least until a better solution exists) would be very unpopular with the public and with any government.\n\nI don't think the post explicity argues against either of these points, and I agree with what you have written. I think these are useful things to bring up in such a discussion however."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-08-24T22:05:55.486Z",
+    "af": false
+  },
+  {
+    "_id": "5HcQNoG8qp8guKs8W",
+    "postId": "5rvqy6XJB3mHMaRb5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have enjoyed your writings both on LessWrong and on your personal blog. I share your lack of engagement with EA and with Hanson (although I find Yudkowsky's writing very elegant and so felt drawn to LW as a result.) If not the above, which intellectuals do you find compelling, and what makes them so by comparison to Hanson/Yudkowsky?",
+      "plaintextDescription": "I have enjoyed your writings both on LessWrong and on your personal blog. I share your lack of engagement with EA and with Hanson (although I find Yudkowsky's writing very elegant and so felt drawn to LW as a result.) If not the above, which intellectuals do you find compelling, and what makes them so by comparison to Hanson/Yudkowsky?"
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-06-22T12:25:14.016Z",
+    "af": false
+  },
+  {
+    "_id": "ZyFtFLYzfohPpfpQs",
+    "postId": "XbaJvS77avHepxoGd",
+    "parentCommentId": "cADes6FDvdrwtrSBe",
+    "topLevelCommentId": "PHpeeM76rJHT9ym8R",
+    "contents": {
+      "markdown": "> In (P2) you talk about a roadblock **for** RSI, but in (C) you talk about about RSI **as** a roadblock, is that intentional?\n\nThis was a typo. \n\n> By \"difficult\", do you mean something like, many hours of human work or many dollars spent?  If so, then I don't see why the current investment level in AI is relevant.  The investment level partially determines how quickly it will arrive, but not how difficult it is to produce.\n\nThe primary implications of the difficulty of a capabilities problem in the context of safety is when said capability will arrive in most contexts. I didn't mean to imply that the investment amount determined the difficulty of the problem, but that if you invest additional resources into a problem it is more likely to be solved faster than if you didn't invest those resources. As a result, the desired effect of RSI being a difficult hurdle to overcome (increasing the window to AGI) wouldn't be realized.",
+      "plaintextDescription": "> In (P2) you talk about a roadblock for RSI, but in (C) you talk about about RSI as a roadblock, is that intentional?\n\nThis was a typo. \n\n> By \"difficult\", do you mean something like, many hours of human work or many dollars spent?  If so, then I don't see why the current investment level in AI is relevant.  The investment level partially determines how quickly it will arrive, but not how difficult it is to produce.\n\nThe primary implications of the difficulty of a capabilities problem in the context of safety is when said capability will arrive in most contexts. I didn't mean to imply that the investment amount determined the difficulty of the problem, but that if you invest additional resources into a problem it is more likely to be solved faster than if you didn't invest those resources. As a result, the desired effect of RSI being a difficult hurdle to overcome (increasing the window to AGI) wouldn't be realized."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-19T08:04:45.499Z",
+    "af": false
+  },
+  {
+    "_id": "MtjSjfaiv2n6Wt3n2",
+    "postId": "XbaJvS77avHepxoGd",
+    "parentCommentId": "LhcWP8GPn2wBswypE",
+    "topLevelCommentId": "PHpeeM76rJHT9ym8R",
+    "contents": {
+      "markdown": "More like:\n(P1) Currently there is a lot of investment in AI.\n(P2) I cannot currently imagine a good roadblock for RSI.\n(C) Therefore, I have more reasons to believe RSI will not be entail atypically difficult roadblocks than I do to believe it will.\n\nThis is obviously a high level overview, and a more in-depth response might cite claims like the fact that RSI is likely an effective strategy for achieving most goals, or mention counterarguments like Robin Hanson's, which asserts that RSI is unlikely due to the observed behaviors of existing >human systems (e.g. corporations).",
+      "plaintextDescription": "More like: (P1) Currently there is a lot of investment in AI. (P2) I cannot currently imagine a good roadblock for RSI. (C) Therefore, I have more reasons to believe RSI will not be entail atypically difficult roadblocks than I do to believe it will.\n\nThis is obviously a high level overview, and a more in-depth response might cite claims like the fact that RSI is likely an effective strategy for achieving most goals, or mention counterarguments like Robin Hanson's, which asserts that RSI is unlikely due to the observed behaviors of existing >human systems (e.g. corporations)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-19T05:23:59.410Z",
+    "af": false
+  },
+  {
+    "_id": "PHpeeM76rJHT9ym8R",
+    "postId": "XbaJvS77avHepxoGd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"But what if [it's hard]/[it doesn't]\"-style arguments are very unpersuasive to me. What if it's easy? What if it does? We ought to prefer evidence to clinging to an unknown and saying \"it could go our way.\" For a risk analysis post to cause me to update I would need to see \"RSI might be really hard because...\" and find the supporting reasoning robust.\n\nGiven current investment in AI and the fact that I can't conjure a good roadblock for RSI, I am erring on the side of it being easier rather than harder, but I'm open to updating in light of strong counter-reasoning.",
+      "plaintextDescription": "\"But what if [it's hard]/[it doesn't]\"-style arguments are very unpersuasive to me. What if it's easy? What if it does? We ought to prefer evidence to clinging to an unknown and saying \"it could go our way.\" For a risk analysis post to cause me to update I would need to see \"RSI might be really hard because...\" and find the supporting reasoning robust.\n\nGiven current investment in AI and the fact that I can't conjure a good roadblock for RSI, I am erring on the side of it being easier rather than harder, but I'm open to updating in light of strong counter-reasoning."
+    },
+    "baseScore": 15,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2023-06-18T22:10:40.073Z",
+    "af": false
+  },
+  {
+    "_id": "YpowyvjYciRHszMaB",
+    "postId": "pFaLqTHqBtAYfzAgx",
+    "parentCommentId": "XmCEGpRBPq4aFCKMZ",
+    "topLevelCommentId": "DxcjKfTbqcbXv7LuJ",
+    "contents": {
+      "markdown": "See:\n\n> Defining fascism in this way makes me worry that future fascist figures can hide behind the veil of \"But we aren't *doing x specific thing (e.g. minority persecution)* and therefore are not fascist!\"\n\nAnd:\n\n> Is a country that exhibits all symptoms of fascism except for minority group hostility still fascist?",
+      "plaintextDescription": "See:\n\n> Defining fascism in this way makes me worry that future fascist figures can hide behind the veil of \"But we aren't doing x specific thing (e.g. minority persecution) and therefore are not fascist!\"\n\nAnd:\n\n> Is a country that exhibits all symptoms of fascism except for minority group hostility still fascist? "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-11T10:30:33.864Z",
+    "af": false
+  },
+  {
+    "_id": "gi3wAxfobakhqjvrW",
+    "postId": "pFaLqTHqBtAYfzAgx",
+    "parentCommentId": "jKXBHuHwcMi6hFybL",
+    "topLevelCommentId": "DxcjKfTbqcbXv7LuJ",
+    "contents": {
+      "markdown": "Agreed. I have edited that excerpt to be:\n\n> It's not obvious to me that selection for loyalty over competence is necessarily more likely in fascism or bad. A competent figure who is opposed to democracy would be a considerably more concerning electoral candidate than a less competent one who is loyal to democracy assuming that democracy is your optimization target.",
+      "plaintextDescription": "Agreed. I have edited that excerpt to be:\n\n> It's not obvious to me that selection for loyalty over competence is necessarily more likely in fascism or bad. A competent figure who is opposed to democracy would be a considerably more concerning electoral candidate than a less competent one who is loyal to democracy assuming that democracy is your optimization target. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-11T06:39:32.750Z",
+    "af": false
+  },
+  {
+    "_id": "HkPw4mtcdNnj8k29p",
+    "postId": "pFaLqTHqBtAYfzAgx",
+    "parentCommentId": "pRfEsrjXsHFksmEva",
+    "topLevelCommentId": "DxcjKfTbqcbXv7LuJ",
+    "contents": {
+      "markdown": "As in decreases the 'amount of democracy' given that democracy is what you were trying to optimize for.",
+      "plaintextDescription": "As in decreases the 'amount of democracy' given that democracy is what you were trying to optimize for."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-06-11T06:27:24.316Z",
+    "af": false
+  },
+  {
+    "_id": "DxcjKfTbqcbXv7LuJ",
+    "postId": "pFaLqTHqBtAYfzAgx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Sam Altman, the quintessential short-timeline accelerationist, is currently on an [international tour](https://qz.com/sam-altman-artificial-intelligence-world-tour-1850522885) meeting with heads of state, and is [worried about](https://twitter.com/sama/status/1511025065428602882?lang=en) the 2024 election. He wouldn't do that if he thought it would all be irrelevant next year.\n\nWhilst I do believe Sam Altman is probably worried about the rise of fascism and its augmenting by artificial intelligence, I don't see this as evidence of his care regarding this fact. Even if he believed a rise in fascism had no likelihood of occurring; it would still be beneficial for him to pursue the international tour as a means of minimizing x-risks, assuming even that we would see AGI in the next <6 months.\n\n> \\[Facism is\\] a system of government where there are no meaningful elections; the state does not respect civil liberties or property rights; dissidents, political opposition, minorities, and intellectuals are persecuted; and where government has a strong ideology that is [nationalist](https://en.wikipedia.org/wiki/Nationalism), [populist](https://www.journalofdemocracy.org/articles/populists-in-power/), [socially conservative](https://en.wikipedia.org/wiki/Social_conservatism), and hostile to minority groups.\n\nI doubt that including some of the conditions toward the end makes for a more useful dialogue. Irrespective of social conservatism and hostility directed at minority groups, the risk of fascism existentially is probably quite similar. I can picture both progressive and conservative dictatorships reaching essentially all AI x-risk outcomes. Furthermore, is a country that exhibits all symptoms of fascism except for minority group hostility still fascist? Defining fascism in this way makes me worry that future fascist figures can hide behind the veil of \"But we aren't *doing x specific thing (e.g. minority persecution)* and therefore are not fascist!\"\n\nMy favored definition, particularly for discussing x-risk would be more along the lines of the Wikipedia definition:\n\n> Fascism is a [far-right](https://en.wikipedia.org/wiki/Far-right), [authoritarian](https://en.wikipedia.org/wiki/Authoritarian), [ultranationalist](https://en.wikipedia.org/wiki/Ultranationalist) political ideology and movement, characterized by a [dictatorial](https://en.wikipedia.org/wiki/Dictator) leader, centralized [autocracy](https://en.wikipedia.org/wiki/Autocracy), [militarism](https://en.wikipedia.org/wiki/Militarism), forcible suppression of opposition, belief in a natural [social hierarchy](https://en.wikipedia.org/wiki/Social_class), subordination of [individual interests](https://en.wikipedia.org/wiki/Individualism) for the perceived good of the nation and race, and strong regimentation of society and the economy.\n\nBut I would like to suggest a re-framing of this issue, and claim that the problem of focus should be authoritarianism. What authoritarianism is is considerably clearer than what fascism is, and is more targeted in addressing the problematic governing qualities future governments could possess. It doesn't appear obvious to me that a non-fascist authoritarian government would be better at handling x-risks than a fascist one, which is contingent on the fact that progressive political attitudes don't seem better at addressing AI x-risks than conservative ones (or vice versa). Succinctly, political views look to me to be orthogonal to capacity in handling AI x-risk (bar perspectives like anarcho-primitivism or accelerationism that strictly mention this topic in their doctrine). \n\n> [AI policy, strategy, and governance](https://80000hours.org/articles/ai-policy-guide/) involves working with government officials within the political system. This will be very different if the relevant officials are fascists, who are selected for [loyalty](https://acoup.blog/2023/06/09/fireside-friday-june-9-2023/) rather than competence.\n\nIt's not obvious to me that selection for loyalty over competence is necessarily more likely in fascism or bad. A competent figure who is opposed to democracy would be a considerably more concerning electoral candidate than a less competent one who is loyal to democracy assuming that democracy is your optimization target. \n\n> A fascist government will likely interfere with AI development itself, in the same way that the COVID pandemic was a non-AI issue that nonetheless affected AI engineers.\n\nIs interference with AI development necessarily bad? We can't predict the unknown unknown of what views on AI development fascist dictatorship (that mightn't yet exist) might hold or how they will act on them. I agree that on principal a fascist body interfering with industry does obviously not result in good outcomes in most cases but not see how/why this appeals to AI x-risk specifically.",
+      "plaintextDescription": "> Sam Altman, the quintessential short-timeline accelerationist, is currently on an international tour meeting with heads of state, and is worried about the 2024 election. He wouldn't do that if he thought it would all be irrelevant next year.\n\nWhilst I do believe Sam Altman is probably worried about the rise of fascism and its augmenting by artificial intelligence, I don't see this as evidence of his care regarding this fact. Even if he believed a rise in fascism had no likelihood of occurring; it would still be beneficial for him to pursue the international tour as a means of minimizing x-risks, assuming even that we would see AGI in the next <6 months.\n\n> [Facism is] a system of government where there are no meaningful elections; the state does not respect civil liberties or property rights; dissidents, political opposition, minorities, and intellectuals are persecuted; and where government has a strong ideology that is nationalist, populist, socially conservative, and hostile to minority groups.\n\nI doubt that including some of the conditions toward the end makes for a more useful dialogue. Irrespective of social conservatism and hostility directed at minority groups, the risk of fascism existentially is probably quite similar. I can picture both progressive and conservative dictatorships reaching essentially all AI x-risk outcomes. Furthermore, is a country that exhibits all symptoms of fascism except for minority group hostility still fascist? Defining fascism in this way makes me worry that future fascist figures can hide behind the veil of \"But we aren't doing x specific thing (e.g. minority persecution) and therefore are not fascist!\"\n\nMy favored definition, particularly for discussing x-risk would be more along the lines of the Wikipedia definition:\n\n> Fascism is a far-right, authoritarian, ultranationalist political ideology and movement, characterized by a dictatorial leader, centralized autocracy, militarism, forcible suppression of opposition, belief in"
+    },
+    "baseScore": 24,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2023-06-11T03:44:43.052Z",
+    "af": false
+  },
+  {
+    "_id": "zfLARdphNDTaisDNe",
+    "postId": "z4MDDwwnWKnv2ZzdK",
+    "parentCommentId": "vJGoGfH6cHgC2tRKJ",
+    "topLevelCommentId": "vJGoGfH6cHgC2tRKJ",
+    "contents": {
+      "markdown": "> While it's true that Chinese semiconductor fabs are a decade behind TSMC (and will probably remain so for some time), that doesn't seem to have stopped them from building 162 of the [top 500](https://en.wikipedia.org/wiki/TOP500) largest supercomputers in the world.\n\nThey did this (mostly) before the export regulations were instantiated. I'm not sure what the exact numbers are, but both of their supercomputers in the top 10 were constructed before October 2022 (when they were imposed). Also, I imagine that they still might have had a steady supply of cutting edge chips soon after the export regulations. It would make sense that they were not enacted immediately and also that exports that had already begun hadn't been ceased, but I have not verified that.",
+      "plaintextDescription": "> While it's true that Chinese semiconductor fabs are a decade behind TSMC (and will probably remain so for some time), that doesn't seem to have stopped them from building 162 of the top 500 largest supercomputers in the world.\n\nThey did this (mostly) before the export regulations were instantiated. I'm not sure what the exact numbers are, but both of their supercomputers in the top 10 were constructed before October 2022 (when they were imposed). Also, I imagine that they still might have had a steady supply of cutting edge chips soon after the export regulations. It would make sense that they were not enacted immediately and also that exports that had already begun hadn't been ceased, but I have not verified that."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-03T05:50:29.834Z",
+    "af": false
+  },
+  {
+    "_id": "rpoFfxLiQrrKfPBe9",
+    "postId": "YyzmcCxLcvDBEQezH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Sure, this is an argument 'for AGI', but rarely do people (on this forum at least) reject the deployment of AGI because they feel discomfort in not fully comprehending the trajectory of their decisions. I'm sure that this is something most of us ponder and would acknowledge is not optimal, but if you asked the average LW user to list the reasons they were not for the deployment of AGI, I think that this would be quite low on the list.\n\nReasons higher on the list for me for example would be \"literally everyone might die.\" In light of that; dismissing control loss as a worry seems quite miniscule. The reason people fear control loss is generally because losing control of something more intelligent than you with instrumental subgoals that if pursued would probably result in a bad outcome for you, but this doesn't change the fact that \"we shouldn't fear not being in control for the above reasons\" does not constitute sufficient reason to deploy AGI.\n\nAlso, although some of the analogies drawn here do have merit; I can't help but gesture toward the giant mass of tentacles and eyes you are applying them to. To make this more visceral, picture a literal Shoggoth descending from a plane of Eldlitch horror and claiming decision-making supremacy and human-aligned goals. Do you accept its rule because of its superior decision making supremacy and claimed human-aligned, or do you seek an alternative arrangement?",
+      "plaintextDescription": "Sure, this is an argument 'for AGI', but rarely do people (on this forum at least) reject the deployment of AGI because they feel discomfort in not fully comprehending the trajectory of their decisions. I'm sure that this is something most of us ponder and would acknowledge is not optimal, but if you asked the average LW user to list the reasons they were not for the deployment of AGI, I think that this would be quite low on the list.\n\nReasons higher on the list for me for example would be \"literally everyone might die.\" In light of that; dismissing control loss as a worry seems quite miniscule. The reason people fear control loss is generally because losing control of something more intelligent than you with instrumental subgoals that if pursued would probably result in a bad outcome for you, but this doesn't change the fact that \"we shouldn't fear not being in control for the above reasons\" does not constitute sufficient reason to deploy AGI.\n\nAlso, although some of the analogies drawn here do have merit; I can't help but gesture toward the giant mass of tentacles and eyes you are applying them to. To make this more visceral, picture a literal Shoggoth descending from a plane of Eldlitch horror and claiming decision-making supremacy and human-aligned goals. Do you accept its rule because of its superior decision making supremacy and claimed human-aligned, or do you seek an alternative arrangement?"
+    },
+    "baseScore": 9,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-05-31T22:00:33.574Z",
+    "af": false
+  },
+  {
+    "_id": "3mjAgrGCxoiaByshM",
+    "postId": "xDkdR6JcQsCdnFpaQ",
+    "parentCommentId": "CJvKEp7GS9kYXqr9h",
+    "topLevelCommentId": "uQ5JKjr5YzrPBMnkm",
+    "contents": {
+      "markdown": "Soft upvoted your reply, but have some objections. I will respond using the same numbering system you did such that point 1 in my reply will address point 1 of yours. \n\n1.  I agree with this in the context of short-term extinction (i.e. at or near the deployment of AGI), but would offer that an inability to remain competitive and loss of control is still likely to end in extinction, but in a less cinematic and instantaneous way. In accordance with this, the potential horizon for extinction-contributing outcomes is expanded massively. Although Yudkowsky is most renowned for hard takeoff, soft takeoff has a very differently shaped extinction-space and (I would assume) is a partial reason for his high doom estimate. Although I cannot know this for sure, I would imagine he has a >1% credence in soft takeoff. 'Problems with the outcome' seem highly likely to extend to extinction given time. \n2.  There are (probably) an infinite number of possible mesa-optimizers. I don't see any reason to assume an upper bound on potential mesa-optimization configurations, and yes; this is not a 'slam dunk' argument. Rather, as derived from the notion that even slightly imperfect outcomes can extend to extinction, I was suggesting that you are trying to search an infinite space for a quark that fell out of your pocket some unknown amount of time ago whilst you were exploring said space. This can be summed up as 'it is not probable that some mesa-optimizer selected by gradient descent will ensure a Good Outcome'.\n3.  This still does not mean that the only form of brain hacking is via highly immersive virtual reality. I recall the Tweet that this comment came from, and I interpreted it as a highly extreme and difficult form of brain hacking used to prove a point (the point being that if ASI could accomplish this it could easily accomplish psychological manipulation). Eliezer's breaking out of the sandbox experiments circa 2010 (I believe?) are a good example of this.\n4.  Alternatively you can claim some semi-arbitrary but lower extinction risk like 35%, but you can make the same objections to a more mild forecast like that. Why is assigning a 35% probability to an outcome more epistemologically valid than a >90% probability? Criticizing forecasts based on their magnitude seems difficult to justify in my opinion, and critiques should rely on argument only.",
+      "plaintextDescription": "Soft upvoted your reply, but have some objections. I will respond using the same numbering system you did such that point 1 in my reply will address point 1 of yours. \n\n 1. I agree with this in the context of short-term extinction (i.e. at or near the deployment of AGI), but would offer that an inability to remain competitive and loss of control is still likely to end in extinction, but in a less cinematic and instantaneous way. In accordance with this, the potential horizon for extinction-contributing outcomes is expanded massively. Although Yudkowsky is most renowned for hard takeoff, soft takeoff has a very differently shaped extinction-space and (I would assume) is a partial reason for his high doom estimate. Although I cannot know this for sure, I would imagine he has a >1% credence in soft takeoff. 'Problems with the outcome' seem highly likely to extend to extinction given time. \n 2. There are (probably) an infinite number of possible mesa-optimizers. I don't see any reason to assume an upper bound on potential mesa-optimization configurations, and yes; this is not a 'slam dunk' argument. Rather, as derived from the notion that even slightly imperfect outcomes can extend to extinction, I was suggesting that you are trying to search an infinite space for a quark that fell out of your pocket some unknown amount of time ago whilst you were exploring said space. This can be summed up as 'it is not probable that some mesa-optimizer selected by gradient descent will ensure a Good Outcome'.\n 3. This still does not mean that the only form of brain hacking is via highly immersive virtual reality. I recall the Tweet that this comment came from, and I interpreted it as a highly extreme and difficult form of brain hacking used to prove a point (the point being that if ASI could accomplish this it could easily accomplish psychological manipulation). Eliezer's breaking out of the sandbox experiments circa 2010 (I believe?) are a good example of this.\n 4. Alternatively you "
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-05-25T10:39:00.679Z",
+    "af": false
+  },
+  {
+    "_id": "rhgjEr6gZBzH9mLJA",
+    "postId": "xDkdR6JcQsCdnFpaQ",
+    "parentCommentId": "n675ABJMcGvTnwkqg",
+    "topLevelCommentId": "n675ABJMcGvTnwkqg",
+    "contents": {
+      "markdown": "The focus of the post is not on this fact (at least not in terms of the quantity of written material). I responded to the arguments made because they comprised most of the post, and I disagreed with them. \n\nIf the primary point of the post was \"The presentation of AI x-risk ideas results in them being unconvincing to laypeople\", then I could find reason in responding to this, but other than this general notion, I don't see anything in this post that expressly conveys why (excluding troubles with argumentative rigor, and the best way to respond to this I can think of is by refuting said arguments).\n",
+      "plaintextDescription": "The focus of the post is not on this fact (at least not in terms of the quantity of written material). I responded to the arguments made because they comprised most of the post, and I disagreed with them.\n\nIf the primary point of the post was \"The presentation of AI x-risk ideas results in them being unconvincing to laypeople\", then I could find reason in responding to this, but other than this general notion, I don't see anything in this post that expressly conveys why (excluding troubles with argumentative rigor, and the best way to respond to this I can think of is by refuting said arguments)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-25T06:34:22.283Z",
+    "af": false
+  },
+  {
+    "_id": "uQ5JKjr5YzrPBMnkm",
+    "postId": "xDkdR6JcQsCdnFpaQ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I disagree with your objections.\n\n> \"The first argument–paperclip maximizing–is coherent in that it treats the AGI’s goal as fixed and given by a human (Paperclip Corp, in this case). But if that’s true, alignment is trivial, because the human can just give it a more sensible goal, with some kind of “make as many paperclips as you can without decreasing any human’s existence or quality of life by their own lights”, or better yet something more complicated that gets us to a utopia before any paperclips are made\"\n\nThis argument is essentially addressed by [this post](https://www.lesswrong.com/posts/4ARaTpNX62uaL86j6/the-hidden-complexity-of-wishes), and has many failure modes. For example, if you specify the superintelligence's goal as the example you gave, it's most optimal solution might be to cryopreserve the brain of every human in a secure location, and prevent any attempts an outside force could make at interfacing with them. You realize this, and so you specify something like \"Make as many squiggles as possible whilst leaving humans in control of their future\", and the intelligence is quite smart and quite general, so it can comprehend the notion of what you want when you say \"we want control of our future\", but then BayAreaAILab#928374 trains a superintelligence designed to produce squiggles without this limit and outcompetes the aligned intelligence, because humans are much less efficient than inscrutable matrices.\n\nThis is not even mentioning issues with [inner alignment](https://www.lesswrong.com/s/r9tYkB2a8Fp4DN8yB/p/pL56xPoniLvtMDQ4J) and [mesa-optimizers](https://www.lesswrong.com/posts/q2rCMHNXazALgQpGH/conditions-for-mesa-optimization). You start to address this with:\n\n> AGI-risk argument responds by saying, well, paperclip-maximizing is just a toy thought experiment for people to understand. In fact, the inscrutable matrices will be maximizing a reward function, and you have no idea what that actually is, it might be some mesa-optimizer\n\nBut I don't feel as though your referencing to Eliezer's Twitter loss drop fiasco and subsequent argument regarding GPU maximization successfully refutes claims regarding mesa-optimization. Even if GPU-maximizing mesa-optimization was intractable, what about the other potentially infinite number of possible mesa-optimizer configurations that result ?\n\n> You don’t know that human brains can be hacked using VR headsets; it has never been demonstrated that it’s possible and there are common sense reasons to think it’s not. The brain is an immensely complicated, poorly-understood organ. Applying a lot of computing power to that problem is very unlikely to yield total mastery of it by shining light in someone’s eyes\n\nWhen Eliezer talks about 'brain hacking' I do not believe he means by dint of a virtual reality headset. Psychological manipulation is an incredibly powerful tool, and who else could manipulate humanity if not a superintelligence? Furthermore, if said intelligence models humans via [simulating strategies](https://www.lesswrong.com/posts/JqWQxTyWxig8Ltd2p/relative-abstracted-agency), which that post argues is likely assuming large capabilities gaps between humanity and a hypothetical superintelligence. \n\n> As I said before, I’m very confused about how you get to >90% chance of doom given the complexity of the systems we’re discussing\n\nThe analogy of \"forecasting the temperature of the coffee in 5 minutes\" VS \"forecasting that if left the coffee will get cold at some point\" seems relevant here. Without making claims about the intricacies of the future state of a complex system, you can make high-reliability inferences about their future trajectories in more general terms. This is how I see AI x-risk claims. If the claim was that there was a 90% chance that a superintelligence will render humanity extinct and it will have some architecture *x* I would agree with you, but feel as though Eliezer's forecast is general enough to be reliable.",
+      "plaintextDescription": "I disagree with your objections.\n\n> \"The first argument–paperclip maximizing–is coherent in that it treats the AGI’s goal as fixed and given by a human (Paperclip Corp, in this case). But if that’s true, alignment is trivial, because the human can just give it a more sensible goal, with some kind of “make as many paperclips as you can without decreasing any human’s existence or quality of life by their own lights”, or better yet something more complicated that gets us to a utopia before any paperclips are made\"\n\nThis argument is essentially addressed by this post, and has many failure modes. For example, if you specify the superintelligence's goal as the example you gave, it's most optimal solution might be to cryopreserve the brain of every human in a secure location, and prevent any attempts an outside force could make at interfacing with them. You realize this, and so you specify something like \"Make as many squiggles as possible whilst leaving humans in control of their future\", and the intelligence is quite smart and quite general, so it can comprehend the notion of what you want when you say \"we want control of our future\", but then BayAreaAILab#928374 trains a superintelligence designed to produce squiggles without this limit and outcompetes the aligned intelligence, because humans are much less efficient than inscrutable matrices.\n\nThis is not even mentioning issues with inner alignment and mesa-optimizers. You start to address this with:\n\n> AGI-risk argument responds by saying, well, paperclip-maximizing is just a toy thought experiment for people to understand. In fact, the inscrutable matrices will be maximizing a reward function, and you have no idea what that actually is, it might be some mesa-optimizer\n\nBut I don't feel as though your referencing to Eliezer's Twitter loss drop fiasco and subsequent argument regarding GPU maximization successfully refutes claims regarding mesa-optimization. Even if GPU-maximizing mesa-optimization was intractable, what "
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-05-25T00:44:16.209Z",
+    "af": false
+  },
+  {
+    "_id": "mwJGQuonHJ9r8AhQf",
+    "postId": "iLs9cWm5tWfToCL8P",
+    "parentCommentId": "NwGz68xzJbjBGHWRN",
+    "topLevelCommentId": "NwGz68xzJbjBGHWRN",
+    "contents": {
+      "markdown": "Agreed. I will add a clarifying statement in the introduction.",
+      "plaintextDescription": "Agreed. I will add a clarifying statement in the introduction."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-24T22:09:32.937Z",
+    "af": false
+  },
+  {
+    "_id": "gNoh9xJceZML4KyeD",
+    "postId": "GEyoaau5aJxcbommf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> So if the argument the OT proponents are making is that AI will not self-improve out of fear of jeopardising its commitment to its original goal, then the entire OT is moot, because AI will never risk self-improving at all.\n\nThis seems to me to apply only to self improvement that modifies the outcome of decision-making irrespective of time. How does this account for self improvement that only serves to make decision making more efficient? \n\nIf I have some highly inefficient code that finds the sum of two integers by first breaking them up into 10000 smaller decimal values, randomly orders them and then adds them up in serial, and I rewrite the code to do the same thing but in way less ops, I have self improved without jeopardizing my goal.\n\nThis kind of self improvement can still be fatal in the context of deceptively aligned systems.",
+      "plaintextDescription": "> So if the argument the OT proponents are making is that AI will not self-improve out of fear of jeopardising its commitment to its original goal, then the entire OT is moot, because AI will never risk self-improving at all.\n\nThis seems to me to apply only to self improvement that modifies the outcome of decision-making irrespective of time. How does this account for self improvement that only serves to make decision making more efficient? \n\nIf I have some highly inefficient code that finds the sum of two integers by first breaking them up into 10000 smaller decimal values, randomly orders them and then adds them up in serial, and I rewrite the code to do the same thing but in way less ops, I have self improved without jeopardizing my goal.\n\nThis kind of self improvement can still be fatal in the context of deceptively aligned systems."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-24T22:07:15.726Z",
+    "af": false
+  },
+  {
+    "_id": "gkBKCQHEwcNguSyQf",
+    "postId": "KQSpRoQBz7f6FcXt3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with this post almost entirely and strong upvoted as a result. The fact that more effort has not been allocated to the neurotechnology approach already is not a good sign, and the contents of this post do ameliorate that situation in my head slightly. My one comment is that I disagree with this analysis of cyborgism:\n\n> Interestingly, Cyborgism appeared to diverge from the trends of the other approaches. Despite being consistent with the notion that less feasible technologies take longer to develop, it was not perceived to have a proportionate impact on AI alignment. Essentially, even though cyborgism might require substantial development time and be low in feasibility, its success wouldn’t necessarily yield a significant impact on AI alignment.\n\nCentral to the notion of cyborgism is an alternative prioritization of time. Whilst other approaches focus on deconfusing basic concepts central to their agenda or obtaining empirical groundings for their research, cyborgism opts to optimize for the efficiency of applied time during 'crunch time'. Perhaps the application of neurotechnology to cyborgism mightn't seem as obviously beneficial as say WBE relative to its feasibility, but cyborgism is composed of significantly more than just the acceleration of alignment via neurotechnology. I will attempt to make the case for why cyborgism might be the most feasible and valuable \"meta-approach\" to alignment and to the development of alignment-assisting neurotechnology.\n\n**Suitability to Commercialization**\n====================================\n\nCyborgism is inherently a commercializable agenda as it revolves around the production of tools for an incredibly cognitively-demanding task. Tools capable of accelerating alignment work are generally capable of lots of things. This makes cyborgist research suited to the for-profit structure, which has clear benefits for rapid development over alternative structures. This is invaluable in time-sensitive scenarios and elevates my credence in the high-feasibility of cyborgism.\n\n**Better Feedback Loops**\n=========================\n\nMeasuring progress in cyborgism is considerably more trivial than alternative approaches. Metrics like short-form surveys become an actual applicable metric for success, and proxies like \"How much do you feel this tool has accelerated your alignment work\" are useful sources of information that can be turned into quantifiable progress metrics. [This post](https://www.lesswrong.com/posts/a2io2mcxTWS4mxodF/results-for-a-survey-of-tool-use-and-workflows-in-alignment) is an example of that. Furthermore, superior tools can not only accelerate alignment work but also tool development. As cyborgism has a much broader scope than just neurotechnology, you could differentially accelerate higher value neurotechnological or otherwise approaches with the appropriate toolset. It may be better to invest in constructing the tools necessary to perform rapid neurotechnology research at [GPT-(N-1)](https://www.lesswrong.com/posts/a2io2mcxTWS4mxodF/results-for-a-survey-of-tool-use-and-workflows-in-alignment#Motivation_for_this_work) than it is to establish foundational neurotechnology research now at a relatively lower efficiency.\n\n**Broad Application Scope**\n===========================\n\nI find any statement like \"cyborgism is/isn't feasible\" to be difficult to support due mainly to the seemingly infinite possible incarnations of the agenda. Although the form of [AI-assisted-alignment](https://www.lesswrong.com/tag/ai-assisted-ai-automated-alignment) described in the [initial cyborgism post](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism) is somewhat specific, [other popular cyborgism writings](https://www.lesswrong.com/posts/BTApNmv7s6RTGxeP4/cyborg-periods-there-will-be-multiple-ai-transitions) describe more varied applications. It seems highly improbable that we will not see something remotely \"cyborg-ish\" and that some cyborgish acts will not affect existential risk posed by artificial intelligence, which makes it difficult from my perspective to make claims like that which I instantiated this paragraph with. The primary question to me seems to be more of the kind \"how heavily do we lean into cyborgism?\", or more practically \"what percentage of resources do we allocate toward efficiency optimization as opposed to direct alignment/neurotechnology research?\".\n\nMy personal preference is to treat cyborgism as more of a \"meta-agenda\" than as an agenda itself. Shifting toward this model of it impacted how I see its implications for other agendas quite significantly, and has increased my credence in its feasibility substantially. \n\nAlso, as a side note; I think that the application of neurotechnology to cyborgism is quite non-obvious. \"Use neurotechnology as a more efficient interface between tools and their human user\" and \"use invasive BCI technology to pursue the hardest form of cyborgism\" are exceedingly different in nature, and as a result contribute to the difficulty of assessing the approach due in large to the reasons that drove me to classify it more as a meta-agenda.",
+      "plaintextDescription": "I agree with this post almost entirely and strong upvoted as a result. The fact that more effort has not been allocated to the neurotechnology approach already is not a good sign, and the contents of this post do ameliorate that situation in my head slightly. My one comment is that I disagree with this analysis of cyborgism:\n\n> Interestingly, Cyborgism appeared to diverge from the trends of the other approaches. Despite being consistent with the notion that less feasible technologies take longer to develop, it was not perceived to have a proportionate impact on AI alignment. Essentially, even though cyborgism might require substantial development time and be low in feasibility, its success wouldn’t necessarily yield a significant impact on AI alignment.\n\nCentral to the notion of cyborgism is an alternative prioritization of time. Whilst other approaches focus on deconfusing basic concepts central to their agenda or obtaining empirical groundings for their research, cyborgism opts to optimize for the efficiency of applied time during 'crunch time'. Perhaps the application of neurotechnology to cyborgism mightn't seem as obviously beneficial as say WBE relative to its feasibility, but cyborgism is composed of significantly more than just the acceleration of alignment via neurotechnology. I will attempt to make the case for why cyborgism might be the most feasible and valuable \"meta-approach\" to alignment and to the development of alignment-assisting neurotechnology.\n\n\nSuitability to Commercialization\nCyborgism is inherently a commercializable agenda as it revolves around the production of tools for an incredibly cognitively-demanding task. Tools capable of accelerating alignment work are generally capable of lots of things. This makes cyborgist research suited to the for-profit structure, which has clear benefits for rapid development over alternative structures. This is invaluable in time-sensitive scenarios and elevates my credence in the high-feasibility of cyborgi"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-05-22T13:14:43.792Z",
+    "af": false
+  },
+  {
+    "_id": "eygo998srG7tAKBc3",
+    "postId": "L48A5cB6vxeCTd9f8",
+    "parentCommentId": "gCNGfHZz8EsdumDWo",
+    "topLevelCommentId": "gCNGfHZz8EsdumDWo",
+    "contents": {
+      "markdown": "Agreed and edited.",
+      "plaintextDescription": "Agreed and edited."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-18T08:35:23.039Z",
+    "af": false
+  },
+  {
+    "_id": "K7gxhEK3qmYYHE3DA",
+    "postId": "axKWaxjc2CHH5gGyN",
+    "parentCommentId": "t3sB7e63Qgqm5Q6DC",
+    "topLevelCommentId": "t3sB7e63Qgqm5Q6DC",
+    "contents": {
+      "markdown": "I disagree with your framing of the post. I do not think that this is wishful thinking. \n\n> The first and most obvious issue here is that an AI that \"solves alignment\" sufficiently well to not fear self-improvement is not the same as an AI that's actually aligned with humans. So there's actually no protection there at all.\n\nIt is not certain that upon deployment the first intelligence capable of RSI will be capable of solving alignment. Although this seems improbable in accordance with more classic takeoff scenarios (i.e. Yudkowsky's [hard takeoff](https://www.lesswrong.com/posts/tjH8XPxAnr6JRbh7k/hard-takeoff)), the likelihood of those outcomes has been the subject of great debate. I feel as though someone could argue for the claim \"it is more likely than not that there will be a period of time in which AI is capable of RSI but not of solving alignment\". The arguments in this post seem to me quite compatible with e.g. [Jacob Cannell's soft(er) takeoff model](https://www.lesswrong.com/posts/LF3DDZ67knxuyadbm/contra-yudkowsky-on-doom-from-foom-2), or many of Paul Christiano's takeoff writings.\n\n> In fact, the phenomenon described here seems to make it *more* likely that an unaligned AI will be fine with self-improving, because the simpler the utility function the easier time it has guaranteeing the alignment of the improved version!\n\nEven with your model of solving alignment before or at the same time as RSI becomes feasible, I do not think that this holds well. As far as I can tell, the simplicity of the utility function a general intelligence could be imbued with doesn't obviously impact the difficulty of alignment. My intuition is that attempting to align an intelligence with a utility function dependent on 100 desiderata is probably not that much easier than trying to align an intelligence with a utility function dependent on 1000. Sure, it is likely more difficult, but is utility function complexity realistically anywhere near as large a hurdle as say [robust delegation](https://www.lesswrong.com/posts/i3BTagvt3HbPMx6PN/embedded-agency-full-text-version#4__Robust_delegation)?\n\n> Last, but far from least, self-improvement of the form \"get faster and run on more processors\" is hardly challenging from an alignment perspective. And it's far from unlikely an AI could find straightforward algorithmic improvements that it could mathematically prove safe relative to its own utility function.\n\nThis in my opinion is the strongest claim, and is in essence quite similar to [this post](https://www.lesswrong.com/posts/pQqoTTAnEePRDmZN4/agi-automated-interpretability-is-suicide), my response to which was \"I question the probability of a glass-box transition of type \"AGI RSIs toward non-DL architecture that results in it maximizing some utility function in a pre-DL manner\" being more dangerous than simply \"AGI RSIs\". If behaving like an expected utility maximizer was optimal: would not AGI have done so without the architecture transition? If not, then you need to make the case for why glass-box architectures are better ways of building cognitive systems. I think that this argument is at odds with the [universal learning hypothesis](https://www.lesswrong.com/posts/9Yc7Pp7szcjPgPsjf/the-brain-as-a-universal-learning-machine) and seems more in-line with evolved modularity, which has a notoriously poor mapping to post-DL thinking. ULH seems to suggest that actually modular approaches might be inferior efficiency-wise to universal learning approaches, which contradicts the primary motive a general intelligence might have to RSI in the direction of a glass-box architecture.\"\n\nIn summary: Although it seems probable to me that algorithmic approaches are superior for *some* tasks, it seems to me that ULH would imply that the majority of tasks are best learned by a universal learning algorithm.",
+      "plaintextDescription": "I disagree with your framing of the post. I do not think that this is wishful thinking. \n\n> The first and most obvious issue here is that an AI that \"solves alignment\" sufficiently well to not fear self-improvement is not the same as an AI that's actually aligned with humans. So there's actually no protection there at all.\n\nIt is not certain that upon deployment the first intelligence capable of RSI will be capable of solving alignment. Although this seems improbable in accordance with more classic takeoff scenarios (i.e. Yudkowsky's hard takeoff), the likelihood of those outcomes has been the subject of great debate. I feel as though someone could argue for the claim \"it is more likely than not that there will be a period of time in which AI is capable of RSI but not of solving alignment\". The arguments in this post seem to me quite compatible with e.g. Jacob Cannell's soft(er) takeoff model, or many of Paul Christiano's takeoff writings.\n\n> In fact, the phenomenon described here seems to make it more likely that an unaligned AI will be fine with self-improving, because the simpler the utility function the easier time it has guaranteeing the alignment of the improved version!\n\nEven with your model of solving alignment before or at the same time as RSI becomes feasible, I do not think that this holds well. As far as I can tell, the simplicity of the utility function a general intelligence could be imbued with doesn't obviously impact the difficulty of alignment. My intuition is that attempting to align an intelligence with a utility function dependent on 100 desiderata is probably not that much easier than trying to align an intelligence with a utility function dependent on 1000. Sure, it is likely more difficult, but is utility function complexity realistically anywhere near as large a hurdle as say robust delegation?\n\n> Last, but far from least, self-improvement of the form \"get faster and run on more processors\" is hardly challenging from an alignment perspective"
+    },
+    "baseScore": 5,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2023-05-17T03:29:27.003Z",
+    "af": false
+  },
+  {
+    "_id": "NuadernWqsEKMRJf2",
+    "postId": "pQqoTTAnEePRDmZN4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Strong upvoted this post. I think the intuition is good and that architecture shifts invalidating anti-foom arguments derived from the nature of the DL paradigm is counter-evidence to those arguments, but simultaneously does not render them moot (i.e. I can still see soft takeoff as described by Jacob Cannell to be probable and assume he would be unlikely to update given the contents of this post).\n\nI might try and present a more formal version of this argument later, but I still question the probability of a glass-box transition of type \"AGI RSIs toward non-DL architecture that results in it maximizing some utility function in a pre-DL manner\" being more dangerous than simply \"AGI RSIs\". If behaving like an expected utility maximizer was optimal: would not AGI have done so without the architecture transition? If not, then you need to make the case for why glass-box architectures are better ways of building cognitive systems. I think that this argument is at odds with the universal learning hypothesis and seems more in-line with evolved modularity, which has a notoriously poor mapping to post-DL thinking. ULH seems to suggest that actually modular approaches might be inferior efficiency-wise to universal learning approaches, which contradicts the primary motive a general intelligence might have to RSI in the direction of a glass-box architecture.",
+      "plaintextDescription": "Strong upvoted this post. I think the intuition is good and that architecture shifts invalidating anti-foom arguments derived from the nature of the DL paradigm is counter-evidence to those arguments, but simultaneously does not render them moot (i.e. I can still see soft takeoff as described by Jacob Cannell to be probable and assume he would be unlikely to update given the contents of this post).\n\nI might try and present a more formal version of this argument later, but I still question the probability of a glass-box transition of type \"AGI RSIs toward non-DL architecture that results in it maximizing some utility function in a pre-DL manner\" being more dangerous than simply \"AGI RSIs\". If behaving like an expected utility maximizer was optimal: would not AGI have done so without the architecture transition? If not, then you need to make the case for why glass-box architectures are better ways of building cognitive systems. I think that this argument is at odds with the universal learning hypothesis and seems more in-line with evolved modularity, which has a notoriously poor mapping to post-DL thinking. ULH seems to suggest that actually modular approaches might be inferior efficiency-wise to universal learning approaches, which contradicts the primary motive a general intelligence might have to RSI in the direction of a glass-box architecture."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-10T22:10:13.052Z",
+    "af": false
+  },
+  {
+    "_id": "osaesL8hfDpnDQn6g",
+    "postId": "HSJFshABvrmj5taYw",
+    "parentCommentId": "sESchi4K5GGHES4Ar",
+    "topLevelCommentId": "sESchi4K5GGHES4Ar",
+    "contents": {
+      "markdown": "I agree with some of this as a crticism of the idea, but not of the post. Firstly, I stated the same risk you did in the introduction of the post, hence the communication was \"Here is an idea, but it has this caveat\", and then the response begins with \"but it has this caveat\". \n\nNext, if the 'bad outcome' scenario looks like most or all parties that receive the email ignoring it/not investigating further, then I see such an email as easily justifiable to send, as it is a low-intensity activity labour-wise with the potential to expand knowledge of x-risks posed by AI. Obviously this isn't the upper bound for the negativity of the outcome of sending an email like this, as you and I both pointed out a worse alternative, but as outlined in the post, I believe this can be accounted for via an iterative drafting process (like the one I am trying to initiate by sharing the draft above) and handling communications like this with care.\n\nI agree with the assertion regarding consulting a PR professional (and I think this is another reason to delegate the task to a willing organization with access to resources like this).\n\nAs for the critique of the email itself, I agree that omitting that sentence improves the conciseness of the email, but that sequence of six words doesn't make the entire email contents not concise. Also, feedback like this was my primary motivation for sharing a draft.\n\nI disagree with your final remark regarding email communication. Email is the single digital communication medium shared by almost every company and individual on the planet and is the medium most likely to be selected as an open contact method on the website of a journalist/media company. Furthermore, communication via email is highly scalable, which is a critical factor in mass communication. Sure, I cannot prove that email is undoutably the most superior form of communication for this task (and thus by definition the conjecture is subject to the criticism you posed), but I can (and hope I just did) make a case supporting my intuition. I'm not sure by what other means than my best intellectual effort and discussion with others you could want when justifying the use of a communication method. Are you looking for a formal proof?",
+      "plaintextDescription": "I agree with some of this as a crticism of the idea, but not of the post. Firstly, I stated the same risk you did in the introduction of the post, hence the communication was \"Here is an idea, but it has this caveat\", and then the response begins with \"but it has this caveat\".\n\nNext, if the 'bad outcome' scenario looks like most or all parties that receive the email ignoring it/not investigating further, then I see such an email as easily justifiable to send, as it is a low-intensity activity labour-wise with the potential to expand knowledge of x-risks posed by AI. Obviously this isn't the upper bound for the negativity of the outcome of sending an email like this, as you and I both pointed out a worse alternative, but as outlined in the post, I believe this can be accounted for via an iterative drafting process (like the one I am trying to initiate by sharing the draft above) and handling communications like this with care.\n\nI agree with the assertion regarding consulting a PR professional (and I think this is another reason to delegate the task to a willing organization with access to resources like this).\n\nAs for the critique of the email itself, I agree that omitting that sentence improves the conciseness of the email, but that sequence of six words doesn't make the entire email contents not concise. Also, feedback like this was my primary motivation for sharing a draft.\n\nI disagree with your final remark regarding email communication. Email is the single digital communication medium shared by almost every company and individual on the planet and is the medium most likely to be selected as an open contact method on the website of a journalist/media company. Furthermore, communication via email is highly scalable, which is a critical factor in mass communication. Sure, I cannot prove that email is undoutably the most superior form of communication for this task (and thus by definition the conjecture is subject to the criticism you posed), but I can (and hope I j"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-07T22:00:30.111Z",
+    "af": false
+  },
+  {
+    "_id": "Hdis3hFcZcCfsLQgx",
+    "postId": "dRAmQrvXAnwLEsFzv",
+    "parentCommentId": "aSryuKpd93MpDosSh",
+    "topLevelCommentId": "ujxK3uicjksXJvZ5u",
+    "contents": {
+      "markdown": "I agree with this sentiment in response to the question of \"will this research impact capabilities more than it will alignment?\", but not in response to the question of \"will this research (if implemented) elevate s-risks?\". Partial alignment inflating s-risk is something I am seriously worried about, and prosaic solutions especially could lead to a situation like this.\n\nIf your research not influencing s-risks negatively is dependent on it not being implemented, and you think that it your research is good enough to post about, don't you see the dilemma here?",
+      "plaintextDescription": "I agree with this sentiment in response to the question of \"will this research impact capabilities more than it will alignment?\", but not in response to the question of \"will this research (if implemented) elevate s-risks?\". Partial alignment inflating s-risk is something I am seriously worried about, and prosaic solutions especially could lead to a situation like this.\n\nIf your research not influencing s-risks negatively is dependent on it not being implemented, and you think that it your research is good enough to post about, don't you see the dilemma here?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-23T03:41:58.756Z",
+    "af": false
+  },
+  {
+    "_id": "sr8fTKtW7xyfyx7cw",
+    "postId": "dRAmQrvXAnwLEsFzv",
+    "parentCommentId": "ujxK3uicjksXJvZ5u",
+    "topLevelCommentId": "ujxK3uicjksXJvZ5u",
+    "contents": {
+      "markdown": "It's fine to make the mistake of publishing something if the mistake you made was assuming \"this is great research\", but if the mistake was \"this is safe to publish because I'm new to research\", the consequences can be irreversible. I probably fall into the category of 'wildly overthinking the harms of publishing due to inexperience', but it seems to me like a simple assessment using the ABC model I outlined in the post should take only a few minutes and could quickly inform someone of whether or not they might want to show their research to someone more experienced before publishing.\n\nI am personally having this dilemma. I have something I want to publish, but I'm unsure of whether I should listen to the voice telling me \"you’re so new to this, this is not going to have any real impact anyway\" or the voice that's telling me \"if it does have some impact or was hypothetically implemented in a generally intelligent system this could reduce extinction risk but inflate s-risk\". It was a difficult decision, but I decided I would rather show someone more experienced, which is what I am doing currently.  This post was intended to be a summary of why/how I converged upon that decision.",
+      "plaintextDescription": "It's fine to make the mistake of publishing something if the mistake you made was assuming \"this is great research\", but if the mistake was \"this is safe to publish because I'm new to research\", the consequences can be irreversible. I probably fall into the category of 'wildly overthinking the harms of publishing due to inexperience', but it seems to me like a simple assessment using the ABC model I outlined in the post should take only a few minutes and could quickly inform someone of whether or not they might want to show their research to someone more experienced before publishing.\n\nI am personally having this dilemma. I have something I want to publish, but I'm unsure of whether I should listen to the voice telling me \"you’re so new to this, this is not going to have any real impact anyway\" or the voice that's telling me \"if it does have some impact or was hypothetically implemented in a generally intelligent system this could reduce extinction risk but inflate s-risk\". It was a difficult decision, but I decided I would rather show someone more experienced, which is what I am doing currently.  This post was intended to be a summary of why/how I converged upon that decision."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-04-23T01:31:50.766Z",
+    "af": false
+  },
+  {
+    "_id": "RGgESc7YCHyFE2rza",
+    "postId": "Rqok2cFnjYrLiFdst",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Although I soft upvoted this post, there are some notions I'm uncomfortable with. \n\nWhat I agree with:\n\n*   Longtime lurkers should post more\n*   Less technical posts are pushing more technical posts out of the limelight\n*   Posts that dispute the Yudkowskian alignment paradigm are more likely to contain incorrect information (not directly stated but heavily implied I believe, please correct me if I've misinterpreted)\n*   Karma is not an indicator of correctness or of value\n\nThe third point is likely due to the fact that the Yudkowskian alignment paradigm isn't a particularly fun one. It is easy to dismiss great ideas for other great ideas when the other ideas promise lower x-risk. This applies in both directions however, as it's far easier to succumb to extreme views (I don't mean to use this term in a diminishing fashion) like \"we are all going to absolutely die\" or \"this clever scheme will reduce our x-risk to 1%\" and miss the [antimeme](https://www.lesswrong.com/s/3xKXGh9RXaYTYZYgZ/p/tue36NPoMY2AXs3jW) hiding in plain sight. A perfect example of this is in my mind is the comment section of the [Death with Dignity](https://www.lesswrong.com/posts/j9Q8bRmwCgXRYAgcJ/miri-announces-new-death-with-dignity-strategy) post. \n\nI worry that posts like this discourage content that does not align with the Yudkowskian paradigm, which are likely just as important as posts that conform to it. I don't find ideas like Shard Theory or their consequential positive reception alarming or disappointing, and on the contrary I find their presentation meaningful and valuable, regardless of whether or not they are correct (not meant to imply I think that Shard Theory is incorrect, it was merely an example). The alternative to posting potentially incorrect ideas (a category that encompasses most ideas) is to have them never scrutinized, improved upon or falsified. Furthermore, incorrect ideas and their falsification can still greatly enrich the field of alignment, and there is no reason why an incorrect interpretation of agency for example couldn't still produce valuable alignment insights. Whilst we likely cannot iterate upon aligning AGI, alignment ideas are an area in which iteration can be applied, and we would be fools not to apply such a powerful tool broadly. Ignoring the blunt argument of \"maybe Yudkowsky is wrong\", it seems evident that \"non-Yudkowskian\" ideas (even incorrect ones) should be a central component of LessWrong's published alignment research, this seems to me the most accelerated path toward being predictably wrong less often. \n\nTo rephrase, is it the positive reception non-Yudkowskian ideas that alarm/disappoint you, or the positive reception of ideas you believe have a high likelihood of being incorrect (which happens to correlate positively with non-Yudkowskian ideas)? \n\nI assume your answer will be the latter, and if so then I don't think the correct point to press is whether or not ideas conform to views associated with a specific person, but rather ideas associated with falsity. Let me know what you think, as I share most of your concerns.",
+      "plaintextDescription": "Although I soft upvoted this post, there are some notions I'm uncomfortable with. \n\nWhat I agree with:\n\n * Longtime lurkers should post more\n * Less technical posts are pushing more technical posts out of the limelight\n * Posts that dispute the Yudkowskian alignment paradigm are more likely to contain incorrect information (not directly stated but heavily implied I believe, please correct me if I've misinterpreted)\n * Karma is not an indicator of correctness or of value\n\nThe third point is likely due to the fact that the Yudkowskian alignment paradigm isn't a particularly fun one. It is easy to dismiss great ideas for other great ideas when the other ideas promise lower x-risk. This applies in both directions however, as it's far easier to succumb to extreme views (I don't mean to use this term in a diminishing fashion) like \"we are all going to absolutely die\" or \"this clever scheme will reduce our x-risk to 1%\" and miss the antimeme hiding in plain sight. A perfect example of this is in my mind is the comment section of the Death with Dignity post. \n\nI worry that posts like this discourage content that does not align with the Yudkowskian paradigm, which are likely just as important as posts that conform to it. I don't find ideas like Shard Theory or their consequential positive reception alarming or disappointing, and on the contrary I find their presentation meaningful and valuable, regardless of whether or not they are correct (not meant to imply I think that Shard Theory is incorrect, it was merely an example). The alternative to posting potentially incorrect ideas (a category that encompasses most ideas) is to have them never scrutinized, improved upon or falsified. Furthermore, incorrect ideas and their falsification can still greatly enrich the field of alignment, and there is no reason why an incorrect interpretation of agency for example couldn't still produce valuable alignment insights. Whilst we likely cannot iterate upon aligning AGI, alignment ideas a"
+    },
+    "baseScore": 22,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-04-09T12:13:53.495Z",
+    "af": false
+  },
+  {
+    "_id": "q36Dpcr8DPuYno8yb",
+    "postId": "GEYntEDugjawxLTEL",
+    "parentCommentId": "h6b9PseKeEHtFJHEw",
+    "topLevelCommentId": "h6b9PseKeEHtFJHEw",
+    "contents": {
+      "markdown": "Thank you for the feedback, I have repaired the post introduction in accordance your commentary on utility functions. I challenge the assumption that a system not being able to reliably simulate an agent with human specifications is worrying, and I would like to make clear that the agenda I am pushing is **not:**\n\n1.  Capabilities and understanding through simulation scale proportionately\n2.  More capable systems can simulate, and therefore comprehend the goals of other systems to a greater extent\n3.  By dint of some unknown means we align AGI to this deep understanding of our goals\n\nI agree that in the context of a plan like this a failure to establish robust abstractions of human values could be catastrophic, but when applied to a scenario like trying to align a powerful LLM, being able to estimate and interpret even incorrect abstractions could be vitally important. This could look like:\n\n1.  Estimate the LLMs abstraction of say \"what do humans want me to refuse to reply to\"\n2.  Compare this to some desired abstraction\n3.  Apply some technique like RLHF accordingly\n\nOf course an actual implementation probably wouldn't look like that, (\"what do humans want me to refuse to reply to\" isn't necessarily one unified concept that can be easily abstracted and interpreted) but it is a high level overview of why pursuing questions like \"do some specifications abstract well?\" could still be useful even if they do not.  \n  \nI hadn't come across the [relative abstracted agency](https://www.lesswrong.com/posts/JqWQxTyWxig8Ltd2p/relative-abstracted-agency ) post, but I find its insights incredibly useful. Over the next few days I will update this post to include its terminology. I find it likely that testing whether or not some specifications abstract well would provide useful information as to how targets are modeled as agents, but the usefulness of being able to test this in existing systems depends strongly on how the current LLM paradigm scales as we approach superintelligence. Regardless I'm sure any indication as to how targets are modeled as agents could be valuable, even in systems incapable of scaling to superintelligence.",
+      "plaintextDescription": "Thank you for the feedback, I have repaired the post introduction in accordance your commentary on utility functions. I challenge the assumption that a system not being able to reliably simulate an agent with human specifications is worrying, and I would like to make clear that the agenda I am pushing is not:\n\n 1. Capabilities and understanding through simulation scale proportionately\n 2. More capable systems can simulate, and therefore comprehend the goals of other systems to a greater extent\n 3. By dint of some unknown means we align AGI to this deep understanding of our goals\n\nI agree that in the context of a plan like this a failure to establish robust abstractions of human values could be catastrophic, but when applied to a scenario like trying to align a powerful LLM, being able to estimate and interpret even incorrect abstractions could be vitally important. This could look like:\n\n 1. Estimate the LLMs abstraction of say \"what do humans want me to refuse to reply to\"\n 2. Compare this to some desired abstraction\n 3. Apply some technique like RLHF accordingly\n\nOf course an actual implementation probably wouldn't look like that, (\"what do humans want me to refuse to reply to\" isn't necessarily one unified concept that can be easily abstracted and interpreted) but it is a high level overview of why pursuing questions like \"do some specifications abstract well?\" could still be useful even if they do not.\n\nI hadn't come across the relative abstracted agency post, but I find its insights incredibly useful. Over the next few days I will update this post to include its terminology. I find it likely that testing whether or not some specifications abstract well would provide useful information as to how targets are modeled as agents, but the usefulness of being able to test this in existing systems depends strongly on how the current LLM paradigm scales as we approach superintelligence. Regardless I'm sure any indication as to how targets are modeled as agents could be "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-08T09:07:56.376Z",
+    "af": false
+  }
+]

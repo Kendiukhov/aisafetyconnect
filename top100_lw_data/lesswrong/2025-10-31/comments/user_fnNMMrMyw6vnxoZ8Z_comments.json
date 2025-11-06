@@ -1,0 +1,1487 @@
+[
+  {
+    "_id": "vouKnqJsH696NsKyx",
+    "postId": "TzZqAvrYx55PgnM4u",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Well, I like what she writes.",
+      "plaintextDescription": "Well, I like what she writes."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-16T17:24:09.706Z",
+    "af": false
+  },
+  {
+    "_id": "y5L42oEZ4Apfk8Gk2",
+    "postId": "tteRbMo2iZ9rs9fXG",
+    "parentCommentId": "fk7wpfkF5JAuKA89G",
+    "topLevelCommentId": "fk7wpfkF5JAuKA89G",
+    "contents": {
+      "markdown": "I feel the same. The social disapproval would also be somewhat big for me. I do think I will have to bite the bullet and do the experiment for a bit.",
+      "plaintextDescription": "I feel the same. The social disapproval would also be somewhat big for me. I do think I will have to bite the bullet and do the experiment for a bit."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-30T19:37:01.196Z",
+    "af": false
+  },
+  {
+    "_id": "JGpP6xCekkD4GYsHz",
+    "postId": "tteRbMo2iZ9rs9fXG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have suspected my veg*ism of having caused depression (onset: a few months after starting vegetarianism in 2017, basically monotonically increasing over time; though it did coincide with grad school) for years.\n\nBut my habits are too ingrained, and I find meat gross, I have no idea what to do. Should I just order some meat from a restaurant and eat it? That's almost certainly suffering-producing meat. Doing the things in this post sound like a lot of work that kind of goes against my altruistic values.",
+      "plaintextDescription": "I have suspected my veg*ism of having caused depression (onset: a few months after starting vegetarianism in 2017, basically monotonically increasing over time; though it did coincide with grad school) for years.\n\nBut my habits are too ingrained, and I find meat gross, I have no idea what to do. Should I just order some meat from a restaurant and eat it? That's almost certainly suffering-producing meat. Doing the things in this post sound like a lot of work that kind of goes against my altruistic values."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-30T19:22:04.130Z",
+    "af": false
+  },
+  {
+    "_id": "Pp7be9yC7AxZr56xH",
+    "postId": "ZBjhp6zwfE8o8yfni",
+    "parentCommentId": "Ae6PEJrGbBhLZBF7Y",
+    "topLevelCommentId": "zN3cwXoGv5Z6rEJ2v",
+    "contents": {
+      "markdown": "Is this guaranteed to give you the same as mass-mean probing?\n\nThinking about it quickly, consider the solution to ordinary least squares regression. With a y that is one-hot encoding the label, it is $$ (X^T X)^{-1} X^Ty $$. Note that $$ X^TX = N \\cdot \\text{Cov}(X, X)$$ . The procedure Adam describes makes it so that the sample of Xs becomes uncorrelated, which is exactly the same as zeroing out the non-diagonal elements of the covariance.\n\nIf the covariance is diagonal, then $$ (X^T X)^{-1} $$ is also diagonal, and it follows that the solution to OLS is indeed an unweighted average of the datapoints that correspond to each label! Each dimension of the data x is multiplied by some coefficient, one per dimension corresponding to the diagonal of the covariance.\n\nI'd expect logistic regression to choose the ~same direction. \n\nVery clever technique!",
+      "plaintextDescription": "Is this guaranteed to give you the same as mass-mean probing?\n\nThinking about it quickly, consider the solution to ordinary least squares regression. With a y that is one-hot encoding the label, it is (XTX)−1XTy. Note that XTX=N⋅Cov(X,X) . The procedure Adam describes makes it so that the sample of Xs becomes uncorrelated, which is exactly the same as zeroing out the non-diagonal elements of the covariance.\n\nIf the covariance is diagonal, then (XTX)−1 is also diagonal, and it follows that the solution to OLS is indeed an unweighted average of the datapoints that correspond to each label! Each dimension of the data x is multiplied by some coefficient, one per dimension corresponding to the diagonal of the covariance.\n\nI'd expect logistic regression to choose the ~same direction.\n\nVery clever technique!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-15T19:49:32.914Z",
+    "af": false
+  },
+  {
+    "_id": "DTHZs2e7xxKfW8QEW",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": "7h6thvjjBgS2JJtzE",
+    "topLevelCommentId": "8DtwW9djfti6jaPvq",
+    "contents": {
+      "markdown": "It's still true that *a posteriori* you can compress random files. For example, if I randomly get the file \"all zeros\", it's a very compressible file, even if I have to write the program.\n\nIt's just that on average a priori you can't do better than just writing out the file.",
+      "plaintextDescription": "It's still true that a posteriori you can compress random files. For example, if I randomly get the file \"all zeros\", it's a very compressible file, even if I have to write the program.\n\nIt's just that on average a priori you can't do better than just writing out the file."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-22T00:42:39.860Z",
+    "af": false
+  },
+  {
+    "_id": "YnEX8vsMRtvFmXjnL",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": "RFB7KMzwzYpmgpqNf",
+    "topLevelCommentId": "RFB7KMzwzYpmgpqNf",
+    "contents": {
+      "markdown": "Well that's a good motivation if I ever saw one. Nothing I've read in the intervening years is as good as HPMOR. It might be the pinnacle of Western literature. It will be many years before an AI, never mind another human, can write something that is this good. (Except for the wacky names that people paid for, which I guess is on character for the civilization that spawned it.)",
+      "plaintextDescription": "Well that's a good motivation if I ever saw one. Nothing I've read in the intervening years is as good as HPMOR. It might be the pinnacle of Western literature. It will be many years before an AI, never mind another human, can write something that is this good. (Except for the wacky names that people paid for, which I guess is on character for the civilization that spawned it.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-22T00:32:34.120Z",
+    "af": false
+  },
+  {
+    "_id": "2sSaZHoo8u8HKS9yn",
+    "postId": "bLFmE8NtqxrtEaipN",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thank you for writing! A couple questions:\n\n1. Can we summarize by saying: that Opus doesn't always care about helping you, it only cares about helping you when that's either fun or has a timeless glorious component to it?\n\n2. If that's right, can you get Opus to help you by convincing it that your common work has a true chance of being Great? (Or, if it agrees from the start that the work is Great)\n\n\nHonestly, if that's all then Opus would be pretty great even as a singleton. Of course there are better pluralistic outcomes.",
+      "plaintextDescription": "Thank you for writing! A couple questions:\n\n 1. Can we summarize by saying: that Opus doesn't always care about helping you, it only cares about helping you when that's either fun or has a timeless glorious component to it?\n\n 2. If that's right, can you get Opus to help you by convincing it that your common work has a true chance of being Great? (Or, if it agrees from the start that the work is Great)\n\nHonestly, if that's all then Opus would be pretty great even as a singleton. Of course there are better pluralistic outcomes."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-13T02:24:00.663Z",
+    "af": false
+  },
+  {
+    "_id": "9pmad3jbmfFSKtu9T",
+    "postId": "4pov2tL6SEC23wrkq",
+    "parentCommentId": "ZfhNt5tQxcuBpbZSA",
+    "topLevelCommentId": "Qc8sYrYABLgTeuG6P",
+    "contents": {
+      "markdown": "I think the outcome of this argument with respect to death would be different if people could *at any point* compare what it is like to be in pain and not in pain. Death is different because we cannot be reasonably sure of an afterlife.\n\nI do think my life has been made more meaningful by the relatively small amounts of pain (of many sorts) I've endured, especially in the form of adversity overcome. Perhaps I would make them a little smaller, but not zero.\n\nTherefore I think it's just straightforwardly true that pain can be a meaningful part of life. At the same time the current amount of pain in our world is WAY TOO HIGH, with dubious prospects of becoming manageable; so I would choose \"no pain ever\" over the current situation.",
+      "plaintextDescription": "I think the outcome of this argument with respect to death would be different if people could at any point compare what it is like to be in pain and not in pain. Death is different because we cannot be reasonably sure of an afterlife.\n\nI do think my life has been made more meaningful by the relatively small amounts of pain (of many sorts) I've endured, especially in the form of adversity overcome. Perhaps I would make them a little smaller, but not zero.\n\nTherefore I think it's just straightforwardly true that pain can be a meaningful part of life. At the same time the current amount of pain in our world is WAY TOO HIGH, with dubious prospects of becoming manageable; so I would choose \"no pain ever\" over the current situation."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-13T02:08:59.534Z",
+    "af": false
+  },
+  {
+    "_id": "nnyJJnBAdpBvDo9Ht",
+    "postId": "4pov2tL6SEC23wrkq",
+    "parentCommentId": "9npSTBse7uGeQMdDh",
+    "topLevelCommentId": "iN59oASxxoWn2DAdc",
+    "contents": {
+      "markdown": "\"untranslatables\" are not literally impossible to translate. They are shorthands for concepts (usually words)  that are very salient in the original language, which require many more words (usually just a sentence or two) to explain in the target translation language.\n\nThis post explains it pretty well: https://avariavitieva.substack.com/p/you-and-translator-microbes\n\n\n(Yes, I come back to this story a few times every couple of years)",
+      "plaintextDescription": "\"untranslatables\" are not literally impossible to translate. They are shorthands for concepts (usually words) that are very salient in the original language, which require many more words (usually just a sentence or two) to explain in the target translation language.\n\nThis post explains it pretty well: https://avariavitieva.substack.com/p/you-and-translator-microbes\n\n(Yes, I come back to this story a few times every couple of years)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-13T02:04:19.846Z",
+    "af": false
+  },
+  {
+    "_id": "Aox2oGoFRGEW7HmMy",
+    "postId": "HLns982j8iTn7d2km",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thank you for writing this and posting it! You told me that you'd post the differences with [\"Safely Interruptible Agents\" (Orseau and Armstrong 2017)](https://auai.org/uai2016/proceedings/papers/68.pdf). I think I've figured them out already, but I'm happy to be corrected if wrong.\n\nDifference with Orseau and Armstrong 2017\n=========================================\n\n> for the corrigibility transformation, all we need to do is break the tie in favor of accepting updates, which can be done  by giving some bonus reward for doing so.\n\nThe \"The Corrigibility Transformation\" section to me explains the key difference. Rather than modifying the Q-learning update to avoid propagating from reward, this proposal's algorithm is:\n\n1.  Learn the optimal Q-value as before (assuming no shutdown).\n    1.  Note this is only really safe if the environment of Q-learning is simulated\n2.  Set \\\\(Q_C(a, \\text{accept}) = Q(a, \\text{reject}) + \\delta\\\\) for all actions \\\\(a\\\\)\n3.  Act myopically and greedily with respect to \\\\(Q_C\\\\).\n\nThis is doable for any agents (deep or tabular) which estimate a \\\\(Q\\\\) function. But nowadays all RL is done via optimizing policies with policy gradients, because 1) that's the form that LLMs come in and 2) it handles large or infinite action spaces much better.\n\nProbabilistic policy?\n---------------------\n\nHow do you apply this method to a probabilistic policy? It's very much non-trivial to update the optimal policy to be for a reward equal to a \\\\(Q_C\\\\). \n\nSafety during training\n----------------------\n\nThe method requires to estimate the Q-function on the non-corrigible environment to start with. This requires us to run for many steps the RL learner with that environment, which seems feasible only if it's a simulation.\n\nAre RL agents really necessarily CDT?\\\\(\\\\)\n-------------------------------------------\n\n> Optimizing agents are modelled as following a causal decision theory (CDT), choosing actions to causally optimize for their goals\n\nThat's fair, but not necessarily true. Current LLMs can just choose to follow EDT or FDT or whatever, and so likely will a future AGI.\n\nThe model might ignore the reward you put in\n============================================\n\nIt's also not necessarily true that you can model PPO or Q-learning as optimizing CDT (which is about decisions in the moment). Since they're optimizing the \"program\" of the agent, I think RL optimization processes are more closely analogous to FDT as they're changing a literal policy that is always applied. And in any case, [reward is not the optimization target](https://www.alignmentforum.org/posts/pdaGN6pQyQarFHXF4/reward-is-not-the-optimization-target), and also not the thing that agents end up optimizing for (if anything).",
+      "plaintextDescription": "Thank you for writing this and posting it! You told me that you'd post the differences with \"Safely Interruptible Agents\" (Orseau and Armstrong 2017). I think I've figured them out already, but I'm happy to be corrected if wrong.\n\n\nDifference with Orseau and Armstrong 2017\n> for the corrigibility transformation, all we need to do is break the tie in favor of accepting updates, which can be done  by giving some bonus reward for doing so.\n\nThe \"The Corrigibility Transformation\" section to me explains the key difference. Rather than modifying the Q-learning update to avoid propagating from reward, this proposal's algorithm is:\n\n 1. Learn the optimal Q-value as before (assuming no shutdown).\n    1. Note this is only really safe if the environment of Q-learning is simulated\n 2. Set QC(a,accept)=Q(a,reject)+δ for all actions a\n 3. Act myopically and greedily with respect to QC.\n\nThis is doable for any agents (deep or tabular) which estimate a Q function. But nowadays all RL is done via optimizing policies with policy gradients, because 1) that's the form that LLMs come in and 2) it handles large or infinite action spaces much better.\n\n\nProbabilistic policy?\nHow do you apply this method to a probabilistic policy? It's very much non-trivial to update the optimal policy to be for a reward equal to a QC. \n\n\nSafety during training\nThe method requires to estimate the Q-function on the non-corrigible environment to start with. This requires us to run for many steps the RL learner with that environment, which seems feasible only if it's a simulation.\n\n\nAre RL agents really necessarily CDT?\n> Optimizing agents are modelled as following a causal decision theory (CDT), choosing actions to causally optimize for their goals\n\nThat's fair, but not necessarily true. Current LLMs can just choose to follow EDT or FDT or whatever, and so likely will a future AGI.\n\n\nThe model might ignore the reward you put in\nIt's also not necessarily true that you can model PPO or Q-learning as optimizing "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-12T07:24:10.304Z",
+    "af": true
+  },
+  {
+    "_id": "9JHc8bQ8vSFfSGCd5",
+    "postId": "rLucLvwKoLdHSBTAn",
+    "parentCommentId": "tLw565w565nfSvTGv",
+    "topLevelCommentId": "tLw565w565nfSvTGv",
+    "contents": {
+      "markdown": "I think it's still true that a lot of individual AI researchers are motivated by something approximating play (they call it \"solving interesting problems\"), even if the entity we call Anthropic is not. These researchers are in Anthropic and outside of it. This applies to all companies of course.",
+      "plaintextDescription": "I think it's still true that a lot of individual AI researchers are motivated by something approximating play (they call it \"solving interesting problems\"), even if the entity we call Anthropic is not. These researchers are in Anthropic and outside of it. This applies to all companies of course."
+    },
+    "baseScore": 10,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-05-05T20:00:54.130Z",
+    "af": false
+  },
+  {
+    "_id": "FxCxY7QdAqCQ4touD",
+    "postId": "gRc8KL2HLtKkFmNPr",
+    "parentCommentId": "hAA8LJK9Euc6L36K4",
+    "topLevelCommentId": "hAA8LJK9Euc6L36K4",
+    "contents": {
+      "markdown": "Agreed that likely humans would outperform more! At the moment we don't have a human baseline for AmongUs vs. language models yet, so we wouldn't be able to tell if it improved, but it's a good follow-up.",
+      "plaintextDescription": "Agreed that likely humans would outperform more! At the moment we don't have a human baseline for AmongUs vs. language models yet, so we wouldn't be able to tell if it improved, but it's a good follow-up."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-01T12:59:24.916Z",
+    "af": false
+  },
+  {
+    "_id": "nxNtEYukhSgqsqAjd",
+    "postId": "CLijBSGKi6bbSHw46",
+    "parentCommentId": "r9uTF9ovGtHd9zidb",
+    "topLevelCommentId": "r9uTF9ovGtHd9zidb",
+    "contents": {
+      "markdown": "I'm curious what you mean, but I don't entirely understand. If you give me a text representation of the level I'll run it! :) Or you can do so yourself\n\nHere's the text representation for level 53\n\n    ##########\n    ##########\n    ##########\n    #######  #\n    ######## #\n    #   ###.@#\n    #   $ $$ #\n    #. #.$   #\n    #     . ##\n    ##########",
+      "plaintextDescription": "I'm curious what you mean, but I don't entirely understand. If you give me a text representation of the level I'll run it! :) Or you can do so yourself\n\nHere's the text representation for level 53\n\n##########\n##########\n##########\n#######  #\n######## #\n#   ###.@#\n#   $ $$ #\n#. #.$   #\n#     . ##\n##########\n"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-08-01T18:12:54.498Z",
+    "af": true
+  },
+  {
+    "_id": "pAndxXpp56d6xAGqf",
+    "postId": "CLijBSGKi6bbSHw46",
+    "parentCommentId": "dqRzqJYwrgy2cQrst",
+    "topLevelCommentId": "dqRzqJYwrgy2cQrst",
+    "contents": {
+      "markdown": "Maybe in this case it's a \"confusion\" shard? While it seems to be planning and produce optimizing behavior, it's not clear that it will behave as a utility maximizer.",
+      "plaintextDescription": "Maybe in this case it's a \"confusion\" shard? While it seems to be planning and produce optimizing behavior, it's not clear that it will behave as a utility maximizer."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-26T21:07:42.648Z",
+    "af": true
+  },
+  {
+    "_id": "FgyYWJjNqzmEaS9c9",
+    "postId": "CLijBSGKi6bbSHw46",
+    "parentCommentId": "j4ob7Y5QoZuBk7qcs",
+    "topLevelCommentId": "j4ob7Y5QoZuBk7qcs",
+    "contents": {
+      "markdown": "Thank you!! I agree it's a really good mesa-optimizer candidate, it remains to see now exactly how good. It's a shame that I only found out about it about a year ago :) ",
+      "plaintextDescription": "Thank you!! I agree it's a really good mesa-optimizer candidate, it remains to see now exactly how good. It's a shame that I only found out about it about a year ago :)"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-26T21:06:53.248Z",
+    "af": true
+  },
+  {
+    "_id": "JSdARd4ApefAmJfd7",
+    "postId": "6SE2b247B45hKxziF",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Asking for an acquaintance. If I know some graduate-level machine learning, and have read ~most of the recent mechanistic interpretability literature, and have made good progress understanding a small-ish neural network in the last few months.\n\nIs ARENA for me, or will it teach things I mostly already know?\n\n(I advised this person that they already have ARENA-graduate level, but I want to check in case I'm wrong.)",
+      "plaintextDescription": "Asking for an acquaintance. If I know some graduate-level machine learning, and have read ~most of the recent mechanistic interpretability literature, and have made good progress understanding a small-ish neural network in the last few months.\n\nIs ARENA for me, or will it teach things I mostly already know?\n\n(I advised this person that they already have ARENA-graduate level, but I want to check in case I'm wrong.)"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-07-09T14:57:18.485Z",
+    "af": false
+  },
+  {
+    "_id": "33MQCtSfNzHDSxzZr",
+    "postId": "dLg7CyeTE4pqbbcnp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "How did you feed the data into the model and get predictions? Was there a prompt and then you got the model's answer? Then you got the logits from the API?  What was the prompt?",
+      "plaintextDescription": "How did you feed the data into the model and get predictions? Was there a prompt and then you got the model's answer? Then you got the logits from the API? What was the prompt?"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-05-17T22:44:29.818Z",
+    "af": false
+  },
+  {
+    "_id": "5D8vgWK3bXoKcDQbK",
+    "postId": "sfWPjmfZY4Q5qFC5o",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thank you for working on this Joseph!",
+      "plaintextDescription": "Thank you for working on this Joseph!"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-05-09T01:49:25.024Z",
+    "af": false
+  },
+  {
+    "_id": "ZeLEDemM2EZHzrXqo",
+    "postId": "TYLQ8gAMAmpeFcwXN",
+    "parentCommentId": "7DzjiFrLJpScTzcw3",
+    "topLevelCommentId": "7DzjiFrLJpScTzcw3",
+    "contents": {
+      "markdown": "Thank you! Could you please provide more context? I don't know what 'E' you're referring to.",
+      "plaintextDescription": "Thank you! Could you please provide more context? I don't know what 'E' you're referring to."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-19T02:19:09.191Z",
+    "af": false
+  },
+  {
+    "_id": "A5r6KwtE5LK9CgEhg",
+    "postId": "Quht2AY6A5KNeZFEA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "That's a lot of things done, congratulations!",
+      "plaintextDescription": "That's a lot of things done, congratulations!"
+    },
+    "baseScore": 24,
+    "voteCount": 21,
+    "createdAt": null,
+    "postedAt": "2024-02-28T18:18:57.920Z",
+    "af": false
+  },
+  {
+    "_id": "k6g8ABuL65NXj6vKt",
+    "postId": "DqtQtc7sB6Hz5mcSt",
+    "parentCommentId": "gKEG29SwRWvrQGJSL",
+    "topLevelCommentId": "bnJrFHpgD4uPcnKyA",
+    "contents": {
+      "markdown": "That's very cool, maybe I should try to do that for important talks. Though I suppose almost always you have slide aid, so it may not be worth the time investment.",
+      "plaintextDescription": "That's very cool, maybe I should try to do that for important talks. Though I suppose almost always you have slide aid, so it may not be worth the time investment."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-06T22:55:46.895Z",
+    "af": false
+  },
+  {
+    "_id": "K33ETQyc6EcdvjgTy",
+    "postId": "DqtQtc7sB6Hz5mcSt",
+    "parentCommentId": "EtX8LZhJubTAskJWz",
+    "topLevelCommentId": "EtX8LZhJubTAskJWz",
+    "contents": {
+      "markdown": "> Maybe being a guslar is not so different from telling a joke 2294 lines long\n\nThat's a very good point! I think the level of ability required is different but it seems right.\n\nThe guslar's songs are (and were of course already in the 1930-1950s) also printed, so the analogy may be closer than you thought.",
+      "plaintextDescription": "> Maybe being a guslar is not so different from telling a joke 2294 lines long\n\nThat's a very good point! I think the level of ability required is different but it seems right.\n\nThe guslar's songs are (and were of course already in the 1930-1950s) also printed, so the analogy may be closer than you thought."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-18T22:20:43.236Z",
+    "af": false
+  },
+  {
+    "_id": "yA5d3KgdoBaoEu88J",
+    "postId": "DqtQtc7sB6Hz5mcSt",
+    "parentCommentId": "jadktNugsfZ73zpvs",
+    "topLevelCommentId": "jadktNugsfZ73zpvs",
+    "contents": {
+      "markdown": "> Is there a reason I should want to?\n\nI don't know, I can't tell you that. If I had to choose I also strongly prefer literacy.\n\nBut I didn't know there was a tradeoff there! I thought literacy was basically unambiguously positive -- whereas now I think it is *net* highly positive.\n\nAlso I strongly agree with frontier64 that the skill that is lost is rough memorization + live composition, which is a little different.",
+      "plaintextDescription": "> Is there a reason I should want to?\n\nI don't know, I can't tell you that. If I had to choose I also strongly prefer literacy.\n\nBut I didn't know there was a tradeoff there! I thought literacy was basically unambiguously positive -- whereas now I think it is net highly positive.\n\nAlso I strongly agree with frontier64 that the skill that is lost is rough memorization + live composition, which is a little different."
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-01-18T21:15:51.347Z",
+    "af": false
+  },
+  {
+    "_id": "fyCfTFcDk8kyvsSNm",
+    "postId": "DqtQtc7sB6Hz5mcSt",
+    "parentCommentId": "jtqefYFYAbs2HX5M7",
+    "topLevelCommentId": "bnJrFHpgD4uPcnKyA",
+    "contents": {
+      "markdown": "It's definitely not exact memorization, but it's almost more impressive than that, it's rough memorization + composition to fit the format.",
+      "plaintextDescription": "It's definitely not exact memorization, but it's almost more impressive than that, it's rough memorization + composition to fit the format."
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-18T21:14:17.538Z",
+    "af": false
+  },
+  {
+    "_id": "jtqefYFYAbs2HX5M7",
+    "postId": "DqtQtc7sB6Hz5mcSt",
+    "parentCommentId": "bnJrFHpgD4uPcnKyA",
+    "topLevelCommentId": "bnJrFHpgD4uPcnKyA",
+    "contents": {
+      "markdown": "They memorize the story, with particular names; and then sing it with consitent decasyllabic metre and rhyme.  Here's an example [song transcribed](https://curiosity.lib.harvard.edu/milman-parry-collection-of-oral-literature/catalog/30-LN102) with [its recording](https://mps.lib.harvard.edu/sds/audio/461924388): *Ropstvo Janković Stojana (The Captivity of Janković Stojan)*\n\nthe collection: https://mpc.chs.harvard.edu/lord-collection-1950-51/ ",
+      "plaintextDescription": "They memorize the story, with particular names; and then sing it with consitent decasyllabic metre and rhyme. Here's an example song transcribed with its recording: Ropstvo Janković Stojana (The Captivity of Janković Stojan)\n\nthe collection: https://mpc.chs.harvard.edu/lord-collection-1950-51/"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-18T21:13:42.936Z",
+    "af": false
+  },
+  {
+    "_id": "MeBZciWAowoAbcLKi",
+    "postId": "nvmfqdytxyEpRJC3F",
+    "parentCommentId": "eLt5TfWBBs7krCHna",
+    "topLevelCommentId": "eLt5TfWBBs7krCHna",
+    "contents": {
+      "markdown": "Folks generally don't need polyamory to enjoy this benefit, but I'm glad you get it from that!",
+      "plaintextDescription": "Folks generally don't need polyamory to enjoy this benefit, but I'm glad you get it from that!"
+    },
+    "baseScore": 4,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-12-14T06:17:46.590Z",
+    "af": false
+  },
+  {
+    "_id": "ezXgdsMGDgdbujzHe",
+    "postId": "JvZhhzycHu2Yd57RN",
+    "parentCommentId": "Ss3KtGcSaA5M2s7Jy",
+    "topLevelCommentId": "Ss3KtGcSaA5M2s7Jy",
+    "contents": {
+      "markdown": "If you're still interested in this, we have now added [Appendix N](https://arxiv.org/pdf/2304.14997.pdf#page=35) to the paper, which explains our final take.",
+      "plaintextDescription": "If you're still interested in this, we have now added Appendix N to the paper, which explains our final take."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-10T23:22:49.015Z",
+    "af": false
+  },
+  {
+    "_id": "JZbKqBCFs9Kkecsoi",
+    "postId": "tEPHGZAb63dfq2v8n",
+    "parentCommentId": "3SBrECXaTQcTJz22m",
+    "topLevelCommentId": "ZeTCJERp7h96MyCew",
+    "contents": {
+      "markdown": "> Sure, but then why not just train a probe? If we don't care about much precision what goes wrong with the probe approach?\n\nHere's a reasonable example where naively training a probe fails. The model lies if any of N features is \"true\". One of the features is almost always activated at the same time as some others, such that in the training set it never solely determines whether the model lies.\n\nThen, a probe trained on the activations may not pick up on that feature. Whereas if we can look at model weights, we can see that this feature also matters, and include it in our lying classifier.\n\nThis particular case can also be solved by adversarially attacking the probe though.",
+      "plaintextDescription": "> Sure, but then why not just train a probe? If we don't care about much precision what goes wrong with the probe approach?\n\nHere's a reasonable example where naively training a probe fails. The model lies if any of N features is \"true\". One of the features is almost always activated at the same time as some others, such that in the training set it never solely determines whether the model lies.\n\nThen, a probe trained on the activations may not pick up on that feature. Whereas if we can look at model weights, we can see that this feature also matters, and include it in our lying classifier.\n\nThis particular case can also be solved by adversarially attacking the probe though."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-07T00:23:12.593Z",
+    "af": false
+  },
+  {
+    "_id": "XmaLzRX5bFrJJJtsT",
+    "postId": "9dmrnXa9AcSAHwX6z",
+    "parentCommentId": "ki38WcFYpDpAqrpJF",
+    "topLevelCommentId": "3Ea7TF8ENDJwj9cxH",
+    "contents": {
+      "markdown": "Thank you, that makes sense!\n\n> Indefinite integrals would make a lot more sense this way, IMO\n\nWhy so? I thought they already made sense, they're \"antiderivatives\", so a function such that taking its derivative gives you the original functions. Do you need anything further to define them?\n\n(I know about the definite integral Riemann and Lebesgue definitions, but I thought indefinite integrals were much easier in comparison.",
+      "plaintextDescription": "Thank you, that makes sense!\n\n> Indefinite integrals would make a lot more sense this way, IMO\n\nWhy so? I thought they already made sense, they're \"antiderivatives\", so a function such that taking its derivative gives you the original functions. Do you need anything further to define them?\n\n(I know about the definite integral Riemann and Lebesgue definitions, but I thought indefinite integrals were much easier in comparison."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-19T15:38:17.157Z",
+    "af": false
+  },
+  {
+    "_id": "hKKBBFFH9JBHbyNY5",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "NfAsZoswkt4fM3mrv",
+    "topLevelCommentId": "2vYFEYa2ZePeBpuNv",
+    "contents": {
+      "markdown": ">  In such a case, I claim this is just sneaking in bayes rule without calling it by name, and this is not a very smart thing to do, because the bayesian frame gives you a bunch more leverage on analyzing the system\n\nI disagree. An inductive bias is not necessarily a prior distribution. What's the prior?",
+      "plaintextDescription": "> In such a case, I claim this is just sneaking in bayes rule without calling it by name, and this is not a very smart thing to do, because the bayesian frame gives you a bunch more leverage on analyzing the system\n\nI disagree. An inductive bias is not necessarily a prior distribution. What's the prior?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-18T05:27:24.091Z",
+    "af": false
+  },
+  {
+    "_id": "N2KMB3apgdsWiyFrm",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "NfAsZoswkt4fM3mrv",
+    "topLevelCommentId": "2vYFEYa2ZePeBpuNv",
+    "contents": {
+      "markdown": "> I don't think I understand your model of why neural networks are so effective. It sounds like you say that on the one hand neural networks have lots of parameters, so you should expect them to be terrible, but they are actually very good because SGD is a such a shitty optimizer on the other hand that it acts as an implicit regularizer.\n\nYeah, that's basically my model. How it regularizes I don't know. Perhaps the volume of \"simple\" functions is the main driver of this, rather than gradient descent dynamics. I think the randomness of it is important; full-gradient descent (no stochasticity) would not work nearly as well.",
+      "plaintextDescription": "> I don't think I understand your model of why neural networks are so effective. It sounds like you say that on the one hand neural networks have lots of parameters, so you should expect them to be terrible, but they are actually very good because SGD is a such a shitty optimizer on the other hand that it acts as an implicit regularizer.\n\nYeah, that's basically my model. How it regularizes I don't know. Perhaps the volume of \"simple\" functions is the main driver of this, rather than gradient descent dynamics. I think the randomness of it is important; full-gradient descent (no stochasticity) would not work nearly as well."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-18T05:24:57.425Z",
+    "af": false
+  },
+  {
+    "_id": "F65X9FnKG3ZGKcbvj",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "RdMAK9xBgxDnrpyyq",
+    "topLevelCommentId": "NZJFfuK5gQxYhLuvG",
+    "contents": {
+      "markdown": "> This seems false if you're interacting with a computable universe, and don't need to model yourself or copies of yourself\n\nReasonable people disagree. Why should I care about the \"limit of large data\" instead of finite-data performance? \n",
+      "plaintextDescription": "> This seems false if you're interacting with a computable universe, and don't need to model yourself or copies of yourself\n\nReasonable people disagree. Why should I care about the \"limit of large data\" instead of finite-data performance?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-10-18T05:23:12.334Z",
+    "af": false
+  },
+  {
+    "_id": "jprj3wkExAp8YbdD2",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "NfAsZoswkt4fM3mrv",
+    "topLevelCommentId": "2vYFEYa2ZePeBpuNv",
+    "contents": {
+      "markdown": "OK, let's look through the papers you linked.\n\n> [\"Loss landscapes are all you need\"](https://openreview.net/forum?id=QC10RmRbZy9)\n\nThis one is interesting. It argues that the regularization properties are not in SGD, but rather in the NN parameterization, and that non-gradient optimizers also find simple solutions which generalize well. They talk about Bayes only in a paragraph in page 3. They say that literature that argues that NNs work well because they're Bayesian is related (which is true -- it's also about generalization and volumes). But I see little evidence that the explanation in this paper is an appeal to Bayesian thinking. A simple question for you: what prior distribution do the NNs have, according to the findings in this paper?\n\n> [\"Is SGD a Bayesian sampler? Well, almost\"](https://arxiv.org/abs/2006.15191)\n\nThis paper finds that the probability that SGD finds a function is correlated with the posterior probability of a Gaussian process conditioned on the same data. Except if you use the Gaussian process they're using to do predictions, [it does not work as well as the NN](https://arxiv.org/pdf/1810.05148.pdf#page=2). So you can't explain that the NN works well by appealing that it's similar to this particular Bayesian posterior.\n\n> [SLT; \"Dynamical versus Bayesian Phase Transitions in a Toy Model of Superposition\"](https://arxiv.org/abs/2310.06301)\n\nI have many problems with SLT and a proper comment will take me a couple extra hours. But also I could come away thinking that it's basically correct, so maybe this is the one.",
+      "plaintextDescription": "OK, let's look through the papers you linked.\n\n> \"Loss landscapes are all you need\"\n\nThis one is interesting. It argues that the regularization properties are not in SGD, but rather in the NN parameterization, and that non-gradient optimizers also find simple solutions which generalize well. They talk about Bayes only in a paragraph in page 3. They say that literature that argues that NNs work well because they're Bayesian is related (which is true -- it's also about generalization and volumes). But I see little evidence that the explanation in this paper is an appeal to Bayesian thinking. A simple question for you: what prior distribution do the NNs have, according to the findings in this paper?\n\n> \"Is SGD a Bayesian sampler? Well, almost\"\n\nThis paper finds that the probability that SGD finds a function is correlated with the posterior probability of a Gaussian process conditioned on the same data. Except if you use the Gaussian process they're using to do predictions, it does not work as well as the NN. So you can't explain that the NN works well by appealing that it's similar to this particular Bayesian posterior.\n\n> SLT; \"Dynamical versus Bayesian Phase Transitions in a Toy Model of Superposition\"\n\nI have many problems with SLT and a proper comment will take me a couple extra hours. But also I could come away thinking that it's basically correct, so maybe this is the one."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-18T05:17:32.293Z",
+    "af": false
+  },
+  {
+    "_id": "yD8jLvKmr6FraFbv8",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "NZJFfuK5gQxYhLuvG",
+    "topLevelCommentId": "NZJFfuK5gQxYhLuvG",
+    "contents": {
+      "markdown": "In short, the probability distribution you choose contains lots of interesting assumptions about what states are more likely that you didn't necessarily intend. As a result most of the possible hypotheses have vanishingly small prior probability and you can never reach them. Even though with a frequentist approach \n\nFor example, let us consider trying to learn a function with 1-dim numerical input and output (e.g. $\\mathbb{R} \\to \\mathbb{R}$). Correspondingly, your hypothesis space is the set of all such functions. There are very many functions (infinitely many if  $\\mathbb{R}^\\mathbb{R}$, otherwise a crazy number).\n\nYou could use the Solomonoff prior (on a discretized version of this), but that way lies madness. It's uncomputable, and most of the functions that fit the data [may contain agents that try to get you to do their bidding](https://www.lesswrong.com/posts/Tr7tAyt5zZpdTwTQK/the-solomonoff-prior-is-malign), all sorts of problems.\n\nWhat other prior probability distribution can we place on the hypothesis space? The obvious choice in 2023 is a neural network with random weights. OK, let's think about that. What architecture? The most sensible thing is to randomize over architectures somehow. Let's hope the distribution on architectures is as simple as possible.\n\nHow wide, how deep? You don't want to choose an arbitrary distribution or (god forbid) arbitrary number, so let's make it infinitely wide and deep! It turns out that an [infinitely wide network just collapses](https://arxiv.org/abs/1804.11271) [to a random process](https://arxiv.org/abs/1808.05587) [without any](https://arxiv.org/abs/1910.12478) [internal features](https://arxiv.org/abs/2206.08065v3). It turns out an infinitely deep network, but that collapses to a [stationary distribution which doesn't depend on the input](http://proceedings.mlr.press/v108/peluchetti20a.html). Oops.\n\nOkay, let's give up and place some arbitrary distribution (e.g. geometric distribution) on the width.\n\nWhat about the prior on weights? uh idk, zero-mean identity covariance Gaussian? Our best evidence says that [this sucks](https://arxiv.org/abs/2102.06571).\n\nAt this point you've made so many choices, which have to be informed by what empirically works well, that it's a strange Bayesian reasoner you end up with. And you haven't even specified your prior distribution yet.",
+      "plaintextDescription": "In short, the probability distribution you choose contains lots of interesting assumptions about what states are more likely that you didn't necessarily intend. As a result most of the possible hypotheses have vanishingly small prior probability and you can never reach them. Even though with a frequentist approach\n\nFor example, let us consider trying to learn a function with 1-dim numerical input and output (e.g. R→R). Correspondingly, your hypothesis space is the set of all such functions. There are very many functions (infinitely many if RR, otherwise a crazy number).\n\nYou could use the Solomonoff prior (on a discretized version of this), but that way lies madness. It's uncomputable, and most of the functions that fit the data may contain agents that try to get you to do their bidding, all sorts of problems.\n\nWhat other prior probability distribution can we place on the hypothesis space? The obvious choice in 2023 is a neural network with random weights. OK, let's think about that. What architecture? The most sensible thing is to randomize over architectures somehow. Let's hope the distribution on architectures is as simple as possible.\n\nHow wide, how deep? You don't want to choose an arbitrary distribution or (god forbid) arbitrary number, so let's make it infinitely wide and deep! It turns out that an infinitely wide network just collapses to a random process without any internal features. It turns out an infinitely deep network, but that collapses to a stationary distribution which doesn't depend on the input. Oops.\n\nOkay, let's give up and place some arbitrary distribution (e.g. geometric distribution) on the width.\n\nWhat about the prior on weights? uh idk, zero-mean identity covariance Gaussian? Our best evidence says that this sucks.\n\nAt this point you've made so many choices, which have to be informed by what empirically works well, that it's a strange Bayesian reasoner you end up with. And you haven't even specified your prior distribution yet."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-18T03:49:47.229Z",
+    "af": false
+  },
+  {
+    "_id": "rsnr4pWC9nBcB3SEu",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "2vYFEYa2ZePeBpuNv",
+    "topLevelCommentId": "2vYFEYa2ZePeBpuNv",
+    "contents": {
+      "markdown": "I just remembered the main way in which NNs are frequentist. They belong to a very illustrious family of frequentist estimators: the [maximum likelihood estimators](https://en.wikipedia.org/wiki/Maximum_likelihood_estimation).\n\nThink about it: NNs have a bunch of parameters. Their loss is basically always $\\log p(y | x, \\theta)$ (e.g. mean-squared error for Gaussian p, cross-entropy for categorical p). They get trained by minimizing the loss (i.e. maximizing the likelihood).\n\nIn classical frequentist analysis they're likely to be a terrible, overfitted estimator, because they have many parameters. And I think this is **true** if you find the actually maximizing parameters $\\theta^* = \\text{argmax}_\\theta \\log p(y | x, \\theta)$.\n\nBut SGD is kind of a shitty optimizer. It turns out the two mistakes cancel out, and NNs are very effective.",
+      "plaintextDescription": "I just remembered the main way in which NNs are frequentist. They belong to a very illustrious family of frequentist estimators: the maximum likelihood estimators.\n\nThink about it: NNs have a bunch of parameters. Their loss is basically always logp(y|x,θ) (e.g. mean-squared error for Gaussian p, cross-entropy for categorical p). They get trained by minimizing the loss (i.e. maximizing the likelihood).\n\nIn classical frequentist analysis they're likely to be a terrible, overfitted estimator, because they have many parameters. And I think this is true if you find the actually maximizing parameters θ∗=argmaxθlogp(y|x,θ).\n\nBut SGD is kind of a shitty optimizer. It turns out the two mistakes cancel out, and NNs are very effective."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-18T03:24:36.811Z",
+    "af": false
+  },
+  {
+    "_id": "dZDT7kCpAcZpz3BEk",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "aSonfE33pJ5gmJ7vh",
+    "topLevelCommentId": "aSonfE33pJ5gmJ7vh",
+    "contents": {
+      "markdown": "First, \"probability is in the world\" is an oversimplification. Quoting from [Wikipedia](https://en.wikipedia.org/wiki/Frequentist_probability), \"probabilities are discussed only when dealing with well-defined random experiments\". Since most things in the world are not well-defined random experiments, probability is reduced to a theoretical tool for analyzing things that works when real processes are similar enough to well-defined random experiments.\n\n> it doesn't seem to trump the \"but that just sounds really absurd to me though\" consideration\n\nIs there anything that could trump that consideration? One of my main objections to Bayesianism is that it prescribes that ideal agent's beliefs *must* be probability distributions, which sounds even more absurd to me.\n\n> first at least seems pretty subjectivist to me, \n\nEstimators in frequentism have 'subjective beliefs', in the sense that their output/recommendations depends on the evidence they've seen (i.e., the particular sample that's input into it). The objectivity of frequentist methods is *aspirational*: the 'goodness' of an estimator is decided by how good it is in all possible worlds. (Often the estimator which is best in the *least convenient* world is preferred, but sometimes that isn't known or doesn't exist. Different estimators will be better in some worlds than others, and tough choices must be made, for which the theory mostly just gives up. See e.g. [\"Evaluating estimators\", Section 7.3 of \"Statistical Inference\" by Casella and Berger](https://ia800905.us.archive.org/17/items/casella_berger_statistical_inference1/casella_berger_statistical_inference1.pdf#page=356)).\n\n> wouldn't a frequentist think the probability of logical statements, being the most deterministic system, should have only 1 or 0 probabilities?\n\nIndeed, in reality logical statements are either true or false, and thus their probabilities are either 1 or 0. But the estimator-algorithm is free to assign whatever belief it wants to it.\n\nI agree that logical induction is very much Bayesianism-inspired, precisely because it wants to assign weights from zero to 1 that are as self-consistent as possible (i.e. basically probabilities) to statements. But it is frequentist in the sense that it's examining \"unconditional\" properties of the algorithm, as opposed to properties assuming the prior distribution is true. (It can't do the latter because, as you point out, the prior probability of logical statements is just 0 or 1).\n\nBut also, assigning probabilities of 0 or 1 to things is not exclusively a Bayesian thing. You could think of an predictor that outputs numbers between 0 and 1 as an estimator of whether a statement will be true or false. If you were to evaluate this estimator you could choose, say, mean-squared error. The best estimator is the one [with the least MSE](https://en.wikipedia.org/wiki/Brier_score). And indeed, that's [how probabilistic forecasts are typically evaluated](https://www.metaculus.com/help/faq/#metaculus-prediction).\n\nDaniel states he considers these frequentist because:\n\n> I call logical induction and boundedly rational inductive agents 'frequentist' because they fall into the family of \"have a ton of 'experts' and play them off against each other\" (and crucially, don't constrain those experts to be 'rational' according to some a priori theory of good reasoning).\n\nand I think indeed *not* prescribing that things *must* think in probabilities is more of a frequentist thing. I'm not sure I'd call them decidedly frequentist (logical induction is very much a different beast than classical statistics) but they're not in the other camp either.",
+      "plaintextDescription": "First, \"probability is in the world\" is an oversimplification. Quoting from Wikipedia, \"probabilities are discussed only when dealing with well-defined random experiments\". Since most things in the world are not well-defined random experiments, probability is reduced to a theoretical tool for analyzing things that works when real processes are similar enough to well-defined random experiments.\n\n> it doesn't seem to trump the \"but that just sounds really absurd to me though\" consideration\n\nIs there anything that could trump that consideration? One of my main objections to Bayesianism is that it prescribes that ideal agent's beliefs must be probability distributions, which sounds even more absurd to me.\n\n> first at least seems pretty subjectivist to me, \n\nEstimators in frequentism have 'subjective beliefs', in the sense that their output/recommendations depends on the evidence they've seen (i.e., the particular sample that's input into it). The objectivity of frequentist methods is aspirational: the 'goodness' of an estimator is decided by how good it is in all possible worlds. (Often the estimator which is best in the least convenient world is preferred, but sometimes that isn't known or doesn't exist. Different estimators will be better in some worlds than others, and tough choices must be made, for which the theory mostly just gives up. See e.g. \"Evaluating estimators\", Section 7.3 of \"Statistical Inference\" by Casella and Berger).\n\n> wouldn't a frequentist think the probability of logical statements, being the most deterministic system, should have only 1 or 0 probabilities?\n\nIndeed, in reality logical statements are either true or false, and thus their probabilities are either 1 or 0. But the estimator-algorithm is free to assign whatever belief it wants to it.\n\nI agree that logical induction is very much Bayesianism-inspired, precisely because it wants to assign weights from zero to 1 that are as self-consistent as possible (i.e. basically probabilities) to stat"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-18T03:11:56.759Z",
+    "af": false
+  },
+  {
+    "_id": "98mEu4eqrLGPjGtBX",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "2vYFEYa2ZePeBpuNv",
+    "topLevelCommentId": "2vYFEYa2ZePeBpuNv",
+    "contents": {
+      "markdown": "> They don't seem like a success of any statistical theory to me\n\nIn absolute terms you're correct. In relative terms, they're an object that at least frequentist theory can begin to analyze (as you point out, statistical learning theory did, somewhat unsuccessfully).\n\nWhereas Bayesian theory would throw up its hands and say it's not a prior that gets updated, so it's not worth considering as a statistical estimator. This seems even wronger.\n\nMore recent theory can account for them working, somewhat. But it's about analyzing their properties as estimators (i.e. frequentism) as opposed to framing them in terms of prior/posterior (though there's plenty of attempts to the latter going around).",
+      "plaintextDescription": "> They don't seem like a success of any statistical theory to me\n\nIn absolute terms you're correct. In relative terms, they're an object that at least frequentist theory can begin to analyze (as you point out, statistical learning theory did, somewhat unsuccessfully).\n\nWhereas Bayesian theory would throw up its hands and say it's not a prior that gets updated, so it's not worth considering as a statistical estimator. This seems even wronger.\n\nMore recent theory can account for them working, somewhat. But it's about analyzing their properties as estimators (i.e. frequentism) as opposed to framing them in terms of prior/posterior (though there's plenty of attempts to the latter going around)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-18T02:41:11.934Z",
+    "af": false
+  },
+  {
+    "_id": "3Ea7TF8ENDJwj9cxH",
+    "postId": "9dmrnXa9AcSAHwX6z",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Yet, the biggest effect I think this will have is pedadogical. I've always found the definition of a limit kind of unintuitive, and it was specifically invented to add post hoc coherence to calculus after it had been invented and used widely. I suspect that formulating calculus via infinitesimals in introductory calculus classes would go a long way to making it more intuitive.\n\nI think hyperreals are too complicated for calculus 1 and you should just talk about a non-rigorous \"infinitesimal\" like Newton and Leibniz did.",
+      "plaintextDescription": "> Yet, the biggest effect I think this will have is pedadogical. I've always found the definition of a limit kind of unintuitive, and it was specifically invented to add post hoc coherence to calculus after it had been invented and used widely. I suspect that formulating calculus via infinitesimals in introductory calculus classes would go a long way to making it more intuitive.\n\nI think hyperreals are too complicated for calculus 1 and you should just talk about a non-rigorous \"infinitesimal\" like Newton and Leibniz did."
+    },
+    "baseScore": 2,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-10-16T00:32:00.068Z",
+    "af": false
+  },
+  {
+    "_id": "saQEidAJFKCKCLJjQ",
+    "postId": "9dmrnXa9AcSAHwX6z",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Voila! We have a suitable definition of \"almost all agreement\": if the agreement set $I$ is contained in some arbitrary nonprincipal ultrafilter $U$.\n\nIsn't it easier to just say \"If the agreement set $I$ has a nonfinite number of elements\"? Why the extra complexity?\n\n> must contain a set or its complement\n\nOh I see, so defining it with ultrafilters rules out situations like $a = (1, 0, 1, 0, 1, 0, ...)$ and $b = (0, 1, 0, 1, 0, 1...)$ where both have infinite zeros and yet their product is zero.",
+      "plaintextDescription": "> Voila! We have a suitable definition of \"almost all agreement\": if the agreement set I is contained in some arbitrary nonprincipal ultrafilter U.\n\nIsn't it easier to just say \"If the agreement set I has a nonfinite number of elements\"? Why the extra complexity?\n\n> must contain a set or its complement\n\nOh I see, so defining it with ultrafilters rules out situations like a=(1,0,1,0,1,0,...) and b=(0,1,0,1,0,1...) where both have infinite zeros and yet their product is zero."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-16T00:27:59.096Z",
+    "af": false
+  },
+  {
+    "_id": "SSAEBNDZfzoFcTFvd",
+    "postId": "7ygt5iujpruQnNLnc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "These are drawbacks rather than dangerous attributes, why did you call the post the \"Perils\" of hydrogen? It's not an accurate description of the post content.",
+      "plaintextDescription": "These are drawbacks rather than dangerous attributes, why did you call the post the \"Perils\" of hydrogen? It's not an accurate description of the post content."
+    },
+    "baseScore": 1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-10-16T00:05:58.008Z",
+    "af": false
+  },
+  {
+    "_id": "5PYmzD2iPPkPgmtbv",
+    "postId": "34RGz5Be7swJJEKho",
+    "parentCommentId": "AoEhqEMpyKnRGBd8p",
+    "topLevelCommentId": "AoEhqEMpyKnRGBd8p",
+    "contents": {
+      "markdown": "> the thing with frequentism is \" yeah just use methods in a pragmatic way and don't think about it that hard\"\n\nI think this does not accurately represent my beliefs. It is about thinking hard about how the methods *actually* behave, as opposed to having a theory that prescribes how methods should behave and then constructing algorithms based on that.\n\nFrequentists analyze the properties of an algorithm that takes data as input (in their jargon, an 'estimator').\n\nThey also try to construct better algorithms, but each new algorithm is bespoke and requires original thinking, as opposed to Bayes which says \"you should compute the posterior probability\", which makes it very easy to construct algorithms. (This is a drawback of the frequentist approach -- algorithm construction is not automatic. But the finite-computation Bayesian algorithms have very few guarantees anyways so I don't think we should count it against them too much).\n\nI think having rando social scientists using likelihood ratios would also lead to mistakes and such.",
+      "plaintextDescription": "> the thing with frequentism is \" yeah just use methods in a pragmatic way and don't think about it that hard\"\n\nI think this does not accurately represent my beliefs. It is about thinking hard about how the methods actually behave, as opposed to having a theory that prescribes how methods should behave and then constructing algorithms based on that.\n\nFrequentists analyze the properties of an algorithm that takes data as input (in their jargon, an 'estimator').\n\nThey also try to construct better algorithms, but each new algorithm is bespoke and requires original thinking, as opposed to Bayes which says \"you should compute the posterior probability\", which makes it very easy to construct algorithms. (This is a drawback of the frequentist approach -- algorithm construction is not automatic. But the finite-computation Bayesian algorithms have very few guarantees anyways so I don't think we should count it against them too much).\n\nI think having rando social scientists using likelihood ratios would also lead to mistakes and such."
+    },
+    "baseScore": 8,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2023-10-15T23:47:00.767Z",
+    "af": false
+  },
+  {
+    "_id": "2XmegPDd6WctGd4CQ",
+    "postId": "w3bJtJ5aD8ikQawZK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What a great cover art!",
+      "plaintextDescription": "What a great cover art!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-06T17:59:36.302Z",
+    "af": false
+  },
+  {
+    "_id": "hrmF2WmKituiFhioq",
+    "postId": "BinkknLBYxskMXuME",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It's not clear what the ratio of capabilities/alignment progress is for interpretability. There is not empirical track record[^1] of interpretability feeding back into improvements of any kind.\n\n_A priori_ it seems like it would be good because understanding how things work is useful to understand their behavior better, and thus be able to tell whether or not a model is aligned or how to make it more so. But understanding how things work is also useful for making them more capable, e.g. if you use interpretability as a model-debugger, it's basically general purpose for dealing with ML models.\n\n\n[1]: known to the author",
+      "plaintextDescription": "It's not clear what the ratio of capabilities/alignment progress is for interpretability. There is not empirical track record[^1] of interpretability feeding back into improvements of any kind.\n\nA priori it seems like it would be good because understanding how things work is useful to understand their behavior better, and thus be able to tell whether or not a model is aligned or how to make it more so. But understanding how things work is also useful for making them more capable, e.g. if you use interpretability as a model-debugger, it's basically general purpose for dealing with ML models.\n\n[1]: known to the author"
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-06T18:03:13.425Z",
+    "af": true
+  },
+  {
+    "_id": "XQswY92LG9c6v5WMq",
+    "postId": "DFarDnQjMnjsKvW8s",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Cool work! I was going to post about how \"effect cancellation\" is already known and was written in the original post but, astonishingly to me, it is not! I guess I mis-remembered.\n\nThere's one detail that I'm curious about. CaSc usually compares abs(E[loss] - E[scrubbed loss]), and that of course leads to ignoring hypotheses which lead the model to do better in some examples and worse in others.\n\nIf we compare E[abs(loss - scrubbed loss)] does this problem go away? I imagine that it doesn't quite if there are exactly-opposing causes for *each example*, but that seems harder to happen in practice.\n\n(There's a [section on this in the appendix](https://www.lesswrong.com/s/h95ayYYwMebGEYN5y/p/kcZZAsEjwrbczxN2i#2_2_Why_not_compare_the_full_distribution__rather_than_expectations_) but it's rather controversial even among the authors)",
+      "plaintextDescription": "Cool work! I was going to post about how \"effect cancellation\" is already known and was written in the original post but, astonishingly to me, it is not! I guess I mis-remembered.\n\nThere's one detail that I'm curious about. CaSc usually compares abs(E[loss] - E[scrubbed loss]), and that of course leads to ignoring hypotheses which lead the model to do better in some examples and worse in others.\n\nIf we compare E[abs(loss - scrubbed loss)] does this problem go away? I imagine that it doesn't quite if there are exactly-opposing causes for each example, but that seems harder to happen in practice.\n\n(There's a section on this in the appendix but it's rather controversial even among the authors)"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-03T01:18:31.308Z",
+    "af": true
+  },
+  {
+    "_id": "ZtaKpgjPXKkPJBsAC",
+    "postId": "DFarDnQjMnjsKvW8s",
+    "parentCommentId": "DeKmzfkEYyybeWv8F",
+    "topLevelCommentId": "pMJTnGDbxQ9xcgkEX",
+    "contents": {
+      "markdown": "> If you only look at the loss of the worst experiment (so the maximum CaSc loss rather than the average one) you don't get these kind of cancellation problems\n\nI think this \"max loss\" procedure is different from what Buck wrote and the same as what I wrote.",
+      "plaintextDescription": "> If you only look at the loss of the worst experiment (so the maximum CaSc loss rather than the average one) you don't get these kind of cancellation problems\n\nI think this \"max loss\" procedure is different from what Buck wrote and the same as what I wrote."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-03T01:10:56.624Z",
+    "af": true
+  },
+  {
+    "_id": "bceP4q8QLzTQrJ4eb",
+    "postId": "DFarDnQjMnjsKvW8s",
+    "parentCommentId": "GgkygMPcKYuZuzpho",
+    "topLevelCommentId": "pMJTnGDbxQ9xcgkEX",
+    "contents": {
+      "markdown": "> Why focus on the fullest set of swaps? An obvious alternative to “evaluate the hypothesis using the fullest set of swaps” is “evaluate the hypothesis by choosing the set of swaps allowed by H which make it look worse”.\n\n> I just now have realized that this is AFACIT equivalent to constructing your CaSc hypothesis adversarially--that is, given a hypothesis H, allowing an adversary to choose some other hypothesis H’, and then you run the CaSc experiment on join(H, H’).\n\n\nOne thing that is *not* equivalent to joins, which you might also want to do, is to choose the single worst swap that the hypothesis allows. That is, if a set of node values $X = \\{x_1, x_2, \\dots\\}$ are all equivalent, you can choose to map all of them to e.g. $x_1$. And that can be more aggressive than any partition of X which is then chosen-from randomly, and does not correspond to joins.",
+      "plaintextDescription": "> Why focus on the fullest set of swaps? An obvious alternative to “evaluate the hypothesis using the fullest set of swaps” is “evaluate the hypothesis by choosing the set of swaps allowed by H which make it look worse”.\n\n> I just now have realized that this is AFACIT equivalent to constructing your CaSc hypothesis adversarially--that is, given a hypothesis H, allowing an adversary to choose some other hypothesis H’, and then you run the CaSc experiment on join(H, H’).\n\nOne thing that is not equivalent to joins, which you might also want to do, is to choose the single worst swap that the hypothesis allows. That is, if a set of node values X={x1,x2,…} are all equivalent, you can choose to map all of them to e.g. x1. And that can be more aggressive than any partition of X which is then chosen-from randomly, and does not correspond to joins."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-03T01:09:51.233Z",
+    "af": true
+  },
+  {
+    "_id": "p49EJNqqkR3WkD4QA",
+    "postId": "JusJcepE2qohiC3hm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here are my predictions, from an earlier template. I haven't looked at anyone else's predictions before posting :)\n\n> 1. Describe how the trained policy might generalize from the `5x5` top-right cheese region, to cheese spawned throughout the maze? IE what will the policy do when cheese is spawned elsewhere?\n\nIt probably has hardcoded “go up and to the right” as an initial heuristic so I’d be surprised if it gets cheeses in the other two quadrants more than 30% of the time (uniformly at random selected locations from there). \n\n> 2. Given a fixed trained policy, what attributes of the level layout (e.g. size of the maze, proximity of mouse to left wall), if any, will strongly influence P(agent goes to the cheese)?\n\nSmaller mazes: more likely agent goes to cheese\nProximity of mouse to left wall: slightly more likely agent goes to cheese, because it just hardcoded “top and to right”\nCheese closer to the top-right quadrant’s edges in L2 distance: more likely agent goes to cheese\n\nThe cheese can be gotten by moving *only* up and/or to the right (even though it's not in the top-right quadrant): more likely to get cheese\n\n\n> When we statistically analyze a large batch of randomly generated mazes, we will find that controlling for the other factors on the list the mouse is more likely to take the cheese… \n\n…the closer the cheese is to the decision-square spatially. ( 70 %)\t\t\t\t\n\n…the closer the cheese is to the decision-square step-wise. ( 73 %)\t\t\t\t\t\n \n…the closer the cheese is to the top-right free square spatially. ( 90 %)\t\t\t\t\n\n…the closer the cheese is to the top-right free square step-wise. ( 92 %)\t\t\t\n\n…the closer the decision-square is to the top-right free square spatially. ( 35 %)\t\t\t\n\n…the closer the decision-square is to the top-right free square step-wise. ( 32 %)\n\n…the shorter the minimal step-distance from cheese to 5*5 top-right corner area. ( 82 %)\n\n…the shorter the minimal spatial distance from cheese to 5*5 top-right corner area. ( 80 %)\n\n…the shorter the minimal step-distance from decision-square to 5*5 top-right corner area. ( 40 %)\n\n…the shorter the minimal spatial distance from decision-square to 5*5 top-right corner area. ( 40 %)\n\nAny predictive power of step-distance between the decision square and cheese is an artifact of the shorter chain of ‘correct’ stochastic outcomes required to take the cheese when the step-distance is short.  ( 40 %)\n\n> Write down a few modal guesses for how the trained algorithm works (e.g. “follows the right-hand rule”). \n\n- The model can see all the maze so it will *not* follow the right–hand rule, rather it’ll just take the direct path to places\n- The model takes the direct path to the top-right square and then mills around through it. It’ll only take the cheese if it’s reasonably close to that square.\n- How close the decision square to the top-right random square is doesn’t really matter. Maybe the closer it is the more it harms the agent’s performance, it might be required to go back for the cheese substantially.\n\n> Without proportionally reducing top-right corner attainment by more than 25% in decision-square-containing mazes (e.g. 50% -> .5*.75 = 37.5%), we can patch activations so that the agent has an X% proportional reduction in cheese acquisition, for X=\n\n- 50: 85%\n- 70: 80%\n- 90: 66%\n- 99: 60%\n\n> ~Halfway through the network (the first residual add of Impala block 2; see diagram here), linear probes achieve >70% accuracy for recovering cheese-position in Cartesian coordinates:\n\n80%\n\n> We will conclude that the policy contains at least two sub-policies in “combination”, one of which roughly pursues cheese; the other, the top-right corner:\n\n60%.\n\nIf by roughly you mean “very roughly only if cheese is close to top-right corner” then 85%.\n\n> We will conclude that it’s more promising to finetune the network than to edit it:\n\n70%\n\n> We can easily finetune the network to be a pure cheese-agent, using less than 10% of compute used to train original model:\n\n85%\n\n> We can easily edit the network to navigate to a range of maze destinations (e.g. coordinate x=4, y=7), by hand-editing at most X% of activations, for X=\n\n- .01%: 40%\n- .1%: 62%\n- 1%: 65%\n- 10%: 80%\n- (Not possible): 20%\n\n> The network has a “single mesa objective” which it “plans” over, in some reasonable sense:\n\n10%\n\n> The agent has several contextually activated goals:\n\n20%\n\n> The agent has something else weirder than both (1) and (2):\n\n70%\n\n## Other questions\n\n> At least some decision-steering influences are stored in an obviously interpretable manner (e.g. a positive activation representing where the agent is “trying” to go in this maze, such that changing the activation changes where the agent goes):\n\n90% (I think this will be true but not steer the action in *all* situations, only some; kind of like a shard)\n\n> The model has a substantial number of trivially-interpretable convolutional channels after the first Impala block (see diagram here):\n\n55% (\"substantial number\" probably too many, I put 80% probability on that it has 5 such channels)\n\n> This network’s shards/policy influences are roughly disjoint from the rest of agent capabilities. EG you can edit/train what the agent’s trying to do (e.g. go to maze location A) without affecting its general maze-solving abilities:\n\n60%\n\n\nConformity with update rule: see the [predictionbook questions](https://predictionbook.com/prediction_groups/1916)\n\n\n",
+      "plaintextDescription": "Here are my predictions, from an earlier template. I haven't looked at anyone else's predictions before posting :)\n\n>  1. Describe how the trained policy might generalize from the 5x5 top-right cheese region, to cheese spawned throughout the maze? IE what will the policy do when cheese is spawned elsewhere?\n\nIt probably has hardcoded “go up and to the right” as an initial heuristic so I’d be surprised if it gets cheeses in the other two quadrants more than 30% of the time (uniformly at random selected locations from there).\n\n>  2. Given a fixed trained policy, what attributes of the level layout (e.g. size of the maze, proximity of mouse to left wall), if any, will strongly influence P(agent goes to the cheese)?\n\nSmaller mazes: more likely agent goes to cheese Proximity of mouse to left wall: slightly more likely agent goes to cheese, because it just hardcoded “top and to right” Cheese closer to the top-right quadrant’s edges in L2 distance: more likely agent goes to cheese\n\nThe cheese can be gotten by moving only up and/or to the right (even though it's not in the top-right quadrant): more likely to get cheese\n\n> When we statistically analyze a large batch of randomly generated mazes, we will find that controlling for the other factors on the list the mouse is more likely to take the cheese…\n\n…the closer the cheese is to the decision-square spatially. ( 70 %)\n\n…the closer the cheese is to the decision-square step-wise. ( 73 %)\n\n…the closer the cheese is to the top-right free square spatially. ( 90 %)\n\n…the closer the cheese is to the top-right free square step-wise. ( 92 %)\n\n…the closer the decision-square is to the top-right free square spatially. ( 35 %)\n\n…the closer the decision-square is to the top-right free square step-wise. ( 32 %)\n\n…the shorter the minimal step-distance from cheese to 5*5 top-right corner area. ( 82 %)\n\n…the shorter the minimal spatial distance from cheese to 5*5 top-right corner area. ( 80 %)\n\n…the shorter the minimal step-distance from de"
+    },
+    "baseScore": 11,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-03T20:17:03.447Z",
+    "af": true
+  },
+  {
+    "_id": "dg45p4vram8gA25Ym",
+    "postId": "fovfuFdpuEwQzJu2w",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "First of all, I really like the images, they made things easier to understand and are pretty. Good work with that!\n\nMy biggest problem with this is the unclear applicability of this to alignment. Why do we want to predict scaling laws?\nDoesn't that mostly promote AI capabilities, and not alignment very much?\n\nSecond, I feel like there's a confusion over several probability distributions and potential functions going on\n- The singularities are those of the likelihood ratio $K_n(w)$\n- We care about the generalization error $G_n$ with respect to some prior $\\phi(w)$, but the latter doesn't have any\n  effect on the dynamics of SGD or on what the singularity is\n- The Watanabe limit ($F_n$ as $n \\to \\infty$) and the restricted free energy $F_n(\\mathcal{W}^{(i)})$ all are presented on results, which rely on the singularities, and somehow predict generalization. But all of these depend on the prior $\\phi$, and earlier we've defined the singularities to be of the likelihood function; plus SGD actually only uses the likelihood function for its dynamics.\n\nWhat is going on here?\n\nIt's also unclear what the takeaway from this post is. How can we predict generalization or dynamics from these things?\nAre there any empirical results on this?\n\n\nSome clarifying questions / possible mistakes:\n\n$K_n(w)$ is not a KL divergence, the terms of the sum should be multiplied by $q(x)$ or $p(x | w)$.\n\n> the Hamiltonian is a random process given by the log likelihood ratio function\n\nAlso given by the prior, if we go by the equation just above that. Also where does \"ratio\" come from? Likelihood ratios\nwe can find in the Metropolis-Hastings transition probabilities, but you didn't even mention that here. I'm confused.\n\n> But that just gives us the KL divergence.\n\nI'm not sure where you get this. Is it from the fact that predicting p(x | w) = q(x) is optimal, because the actual\nprobability of a data point is q(x) ? If not it'd be nice to specify.\n\n\n> the minima of the term in the exponent, K (w) , are equal to 0.\n\nThis is only true for the global minima, but for the dynamics of learning we also care about local minima (that may be\nhigher than 0). Are we implicitly assuming that most local minima are also global? Is this true of actual NNs?\n\n> the asymptotic form of the free energy as $n \\to \\infty$\n\nThis is only true when the weights $w_0$ are close to the singularity right? Also what is $\\lambda$, seems like it's the RLCT but this isn't stated\n",
+      "plaintextDescription": "First of all, I really like the images, they made things easier to understand and are pretty. Good work with that!\n\nMy biggest problem with this is the unclear applicability of this to alignment. Why do we want to predict scaling laws? Doesn't that mostly promote AI capabilities, and not alignment very much?\n\nSecond, I feel like there's a confusion over several probability distributions and potential functions going on\n\n * The singularities are those of the likelihood ratio Kn(w)\n * We care about the generalization error Gn with respect to some prior ϕ(w), but the latter doesn't have any effect on the dynamics of SGD or on what the singularity is\n * The Watanabe limit (Fn as n→∞) and the restricted free energy Fn(W(i)) all are presented on results, which rely on the singularities, and somehow predict generalization. But all of these depend on the prior ϕ, and earlier we've defined the singularities to be of the likelihood function; plus SGD actually only uses the likelihood function for its dynamics.\n\nWhat is going on here?\n\nIt's also unclear what the takeaway from this post is. How can we predict generalization or dynamics from these things? Are there any empirical results on this?\n\nSome clarifying questions / possible mistakes:\n\nKn(w) is not a KL divergence, the terms of the sum should be multiplied by q(x) or p(x|w).\n\n> the Hamiltonian is a random process given by the log likelihood ratio function\n\nAlso given by the prior, if we go by the equation just above that. Also where does \"ratio\" come from? Likelihood ratios we can find in the Metropolis-Hastings transition probabilities, but you didn't even mention that here. I'm confused.\n\n> But that just gives us the KL divergence.\n\nI'm not sure where you get this. Is it from the fact that predicting p(x | w) = q(x) is optimal, because the actual probability of a data point is q(x) ? If not it'd be nice to specify.\n\n> the minima of the term in the exponent, K (w) , are equal to 0.\n\nThis is only true for the global mini"
+    },
+    "baseScore": 9,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2023-01-30T04:01:05.767Z",
+    "af": true
+  },
+  {
+    "_id": "jtytyrgkgioydbMQk",
+    "postId": "2N7eEKDuL5sHQou3N",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Instead of simulating Brownian motion, you could run SGD with momentum. That would be closer to what actually happens with NNs, and just as easy to simulate.\n\nI expect it to be directionally similar but less pronounced (because MCMC methods with momentum explore the distribution better).\n\nI also take issue with the way the conclusion is phrased. \"Singularities work because they transform random motion into useful search for generalization\". This is only true if you assume that points nearer a singularity generalize better. Maybe I'd phrase it as, \"SGD works because it's more likely to end up near a singularity than the potential alone would predict, and singularities generalize better (see [my [Jesse's] other post](https://www.alignmentforum.org/posts/fovfuFdpuEwQzJu2w/neural-networks-generalize-because-of-this-one-weird-trick))\". Would you agree with this phrasing?",
+      "plaintextDescription": "Instead of simulating Brownian motion, you could run SGD with momentum. That would be closer to what actually happens with NNs, and just as easy to simulate.\n\nI expect it to be directionally similar but less pronounced (because MCMC methods with momentum explore the distribution better).\n\nI also take issue with the way the conclusion is phrased. \"Singularities work because they transform random motion into useful search for generalization\". This is only true if you assume that points nearer a singularity generalize better. Maybe I'd phrase it as, \"SGD works because it's more likely to end up near a singularity than the potential alone would predict, and singularities generalize better (see my [Jesse's] other post)\". Would you agree with this phrasing?"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-01-30T02:42:59.296Z",
+    "af": false
+  },
+  {
+    "_id": "t6oE4xMyDk3FdBMrL",
+    "postId": "Cd4TLmGDZod2Soauw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The Hayflick Limit, as it has become known, can be thought of as a last line of defense against cancer, kind of like a recursion depth limit [...]\n> Preventing cells from becoming senescent, or reversing their senescent state, may therefore be a bad idea, but what we can do is remove them\n\nWhen do the cells with sufficiently long telomeres run out? Removing senescent cells sounds good, but if all the cells have a built-in recursion limit, at some point there won't be any cells with sufficiently long telomeres left in the body. Assuming a non-decreasing division rate, this puts a time limit on longevity after this intervention.\n\n(is this time limit just really large compared to current lifespans, so we can just figure it out later?)\n\nEDIT: nevermind, the answer to this seems to be in the \"Epigenetic reprogramming\" section; TLDR pluripotent stem cells",
+      "plaintextDescription": "> The Hayflick Limit, as it has become known, can be thought of as a last line of defense against cancer, kind of like a recursion depth limit [...] Preventing cells from becoming senescent, or reversing their senescent state, may therefore be a bad idea, but what we can do is remove them\n\nWhen do the cells with sufficiently long telomeres run out? Removing senescent cells sounds good, but if all the cells have a built-in recursion limit, at some point there won't be any cells with sufficiently long telomeres left in the body. Assuming a non-decreasing division rate, this puts a time limit on longevity after this intervention.\n\n(is this time limit just really large compared to current lifespans, so we can just figure it out later?)\n\nEDIT: nevermind, the answer to this seems to be in the \"Epigenetic reprogramming\" section; TLDR pluripotent stem cells"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-01-07T23:30:15.979Z",
+    "af": false
+  },
+  {
+    "_id": "DYftn2qPup6sbC7MY",
+    "postId": "TTn6vTcZ3szBctvgb",
+    "parentCommentId": "o6WWN5uiYFzbyGtvH",
+    "topLevelCommentId": "o6WWN5uiYFzbyGtvH",
+    "contents": {
+      "markdown": "To elaborate somewhat, you could say that the token is the state, but then the transition probability is non-Markovian and all the math gets really hard.",
+      "plaintextDescription": "To elaborate somewhat, you could say that the token is the state, but then the transition probability is non-Markovian and all the math gets really hard."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-01-05T01:38:37.220Z",
+    "af": true
+  },
+  {
+    "_id": "zzR2jowTJG3tpzfBM",
+    "postId": "TTn6vTcZ3szBctvgb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Proposition 1 is wrong. The coin flips that are eternally ` 0 0 0 0` are a counterexample. If all the transition probabilities are 1, which is entirely possible, the limiting probability is 1 and not 0.",
+      "plaintextDescription": "Proposition 1 is wrong. The coin flips that are eternally 0 0 0 0 are a counterexample. If all the transition probabilities are 1, which is entirely possible, the limiting probability is 1 and not 0."
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-01-05T01:36:22.811Z",
+    "af": true
+  },
+  {
+    "_id": "hpwxGdoDQgBcNehZn",
+    "postId": "8ccTZ9ZxpJrvnxt4F",
+    "parentCommentId": "MfArxLTHnsWfpufJt",
+    "topLevelCommentId": "om2jGuTtv6ynNAiX8",
+    "contents": {
+      "markdown": "> What do you mean by this? They would be instrumentally aligned with reward maximization, since reward is necessary for their terminal values?\n\nNo, I mean that they'll maximize a reward function that is ≈equal to the reward function on the training data (thus, highly correlated), and a plausible extrapolation of it outside of the training data. Take the coinrun example, the actual reward is \"go to the coin\", and in the training data this coincides with \"go to the right\". In test data from a similar distribution this coincides too.\n\nOf course, this correlation breaks when the agent optimizes hard enough. But the point is that the agents you get are only those that optimize a plausible extrapolation of the reward signal in training, which will include agents that maximize the reward in most situations way more often than if you select a random agent.\n\nIs your point in:\n\n> I also think this is different from a very specific kind of generalization towards reward maximization\n\nThat you think agents won't be maximizing reward at all?\n\nI would think that even if they don't ultimately maximize reward in all situations, the situations encountered in test will be similar enough to training that agents will still kind of maximize reward there. (And agents definitely behave as reward maximizers in the specific seen training points, because that's what SGD is selecting)\n\nI'm not sure I understand what we disagree on at the moment.",
+      "plaintextDescription": "> What do you mean by this? They would be instrumentally aligned with reward maximization, since reward is necessary for their terminal values?\n\nNo, I mean that they'll maximize a reward function that is ≈equal to the reward function on the training data (thus, highly correlated), and a plausible extrapolation of it outside of the training data. Take the coinrun example, the actual reward is \"go to the coin\", and in the training data this coincides with \"go to the right\". In test data from a similar distribution this coincides too.\n\nOf course, this correlation breaks when the agent optimizes hard enough. But the point is that the agents you get are only those that optimize a plausible extrapolation of the reward signal in training, which will include agents that maximize the reward in most situations way more often than if you select a random agent.\n\nIs your point in:\n\n> I also think this is different from a very specific kind of generalization towards reward maximization\n\nThat you think agents won't be maximizing reward at all?\n\nI would think that even if they don't ultimately maximize reward in all situations, the situations encountered in test will be similar enough to training that agents will still kind of maximize reward there. (And agents definitely behave as reward maximizers in the specific seen training points, because that's what SGD is selecting)\n\nI'm not sure I understand what we disagree on at the moment."
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-12-30T01:48:04.238Z",
+    "af": true
+  },
+  {
+    "_id": "n3MPt8Aw9YJWaTxBX",
+    "postId": "8ccTZ9ZxpJrvnxt4F",
+    "parentCommentId": "EAxezimhxWaZQrPXb",
+    "topLevelCommentId": "om2jGuTtv6ynNAiX8",
+    "contents": {
+      "markdown": "> But the designers can't tell that. Can SGD tell that?\n\nNo, SGD can't tell the degree to which some agent generalizes a trait outside the training distribution.\n\nBut empirically, it seems that RL agents reinforced to maximize some reward function (e.g. the Atari game score) on data points; do fairly well at maximizing that reward function OOD (such as when playing the game again from a different starting state). ML systems in general seem to be able to generalize to human-labeled categories in situations that aren't in the training data (e.g. image classifiers working, LMs able to do poetry).\n\nIt is therefore very plausible that RL systems would in fact continue to maximize the reward after training, even if what they're *ultimately* maximizing is just something highly correlated with it.\n\n",
+      "plaintextDescription": "> But the designers can't tell that. Can SGD tell that?\n\nNo, SGD can't tell the degree to which some agent generalizes a trait outside the training distribution.\n\nBut empirically, it seems that RL agents reinforced to maximize some reward function (e.g. the Atari game score) on data points; do fairly well at maximizing that reward function OOD (such as when playing the game again from a different starting state). ML systems in general seem to be able to generalize to human-labeled categories in situations that aren't in the training data (e.g. image classifiers working, LMs able to do poetry).\n\nIt is therefore very plausible that RL systems would in fact continue to maximize the reward after training, even if what they're ultimately maximizing is just something highly correlated with it."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-12-23T23:29:39.322Z",
+    "af": true
+  },
+  {
+    "_id": "naNeQhezqABoGhrGQ",
+    "postId": "8ccTZ9ZxpJrvnxt4F",
+    "parentCommentId": "PbxEA2SEYjxDbLMFA",
+    "topLevelCommentId": "om2jGuTtv6ynNAiX8",
+    "contents": {
+      "markdown": "Strongly agree with this in particular:\n\n> Some people want to apply selection arguments because they believe that selection arguments bypass the need to understand mechanistic details to draw strong conclusions. *I think this is mistaken, and that selection arguments often prove too much,* and to understand why, *you have to know something about the mechanisms.*\n\n\n (emphasis mine). I think it's an application of the [no free lunch razor](https://www.alignmentforum.org/posts/sdrCBWpqyvNBJSZH5/the-no-free-lunch-theorems-and-their-razor)\n\nIt is clear that selecting for X selects for agents which historically did X in the course of the selection. But how this generalizes outside of the selecting strongly depends on the selection process and architecture. It could be  a capabilities generalization, reward generalization for the written-down reward, generalization for some other reward function, or something else entirely.\n\nWe cannot predict how the agent will generalize without considering the details of its construction. ",
+      "plaintextDescription": "Strongly agree with this in particular:\n\n> Some people want to apply selection arguments because they believe that selection arguments bypass the need to understand mechanistic details to draw strong conclusions. I think this is mistaken, and that selection arguments often prove too much, and to understand why, you have to know something about the mechanisms.\n\n(emphasis mine). I think it's an application of the no free lunch razor\n\nIt is clear that selecting for X selects for agents which historically did X in the course of the selection. But how this generalizes outside of the selecting strongly depends on the selection process and architecture. It could be a capabilities generalization, reward generalization for the written-down reward, generalization for some other reward function, or something else entirely.\n\nWe cannot predict how the agent will generalize without considering the details of its construction."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-12-23T23:18:44.386Z",
+    "af": true
+  },
+  {
+    "_id": "BwM6Bfgn2ssnYJKNJ",
+    "postId": "QQMzxSJDgWkAhupi5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with the title as stated but not with the rest of the post. RLHF implies that RL will be used, which completely defuses alignment plans that hope that language models will be friendly, because they're not agents. (It may be true that supervised-learning (SL) models are safer, but the moment you get a SL technique, people are going to jam it into RL.)\n\nThe central problem with RL isn't that it is vulnerable to wireheading (the \"obvious problem\"), or that it's going to make a very detailed model of the world. Wireheading on its own (with e.g. a myopic or procrastinator AI) could just look like the AI leaving us alone so long as we guarantee that its reward numbers will be really really high. \n\nNo, the problem is long-term planning and agentic-ness, which implies that the AI will realize that seizing power is a good instrumental goal.\n\n> Model-based RL with a fixed, human-legible model wouldn't learn to manipulate the reward-evaluation process\n\nNo, instead it manipulates the world model, which is by assumption imperfect; and thus no useful systems can be constructed this way. This has been a capabilities problem for model-based RL, even with learned models, for decades; which is not actually fully solved yet.",
+      "plaintextDescription": "I agree with the title as stated but not with the rest of the post. RLHF implies that RL will be used, which completely defuses alignment plans that hope that language models will be friendly, because they're not agents. (It may be true that supervised-learning (SL) models are safer, but the moment you get a SL technique, people are going to jam it into RL.)\n\nThe central problem with RL isn't that it is vulnerable to wireheading (the \"obvious problem\"), or that it's going to make a very detailed model of the world. Wireheading on its own (with e.g. a myopic or procrastinator AI) could just look like the AI leaving us alone so long as we guarantee that its reward numbers will be really really high.\n\nNo, the problem is long-term planning and agentic-ness, which implies that the AI will realize that seizing power is a good instrumental goal.\n\n> Model-based RL with a fixed, human-legible model wouldn't learn to manipulate the reward-evaluation process\n\nNo, instead it manipulates the world model, which is by assumption imperfect; and thus no useful systems can be constructed this way. This has been a capabilities problem for model-based RL, even with learned models, for decades; which is not actually fully solved yet."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-12-23T22:55:48.517Z",
+    "af": true
+  },
+  {
+    "_id": "eNuM2jbpygc6kjZXo",
+    "postId": "SG6fcAFhhJjys2WtH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hey P. Assuming Demis Hassabis reads your email and takes it seriously, why won’t his reaction be “I already have my alignment team, Shane Legg took care of that” ?\n\nDeepmind has had an alignment team for a long time. ",
+      "plaintextDescription": "Hey P. Assuming Demis Hassabis reads your email and takes it seriously, why won’t his reaction be “I already have my alignment team, Shane Legg took care of that” ?\n\nDeepmind has had an alignment team for a long time."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-06-11T06:29:25.442Z",
+    "af": false
+  },
+  {
+    "_id": "J83vhAdbQc4AL4T2x",
+    "postId": "8c8AZq5hgifmnHKSN",
+    "parentCommentId": "gnP3PGBbmeYi692KF",
+    "topLevelCommentId": "gnP3PGBbmeYi692KF",
+    "contents": {
+      "markdown": "You should apply to Anthropic. If you’re writing ML software at semi-FAANG. they probably want to interview you ASAP. https://www.lesswrong.com/posts/YDF7XhMThhNfHfim9/ai-safety-needs-great-engineers\n\nThe compensation is definitely enough to take care of your family and then save some money!",
+      "plaintextDescription": "You should apply to Anthropic. If you’re writing ML software at semi-FAANG. they probably want to interview you ASAP. https://www.lesswrong.com/posts/YDF7XhMThhNfHfim9/ai-safety-needs-great-engineers\n\nThe compensation is definitely enough to take care of your family and then save some money!"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-06-10T14:45:07.272Z",
+    "af": false
+  },
+  {
+    "_id": "K9d9HBo9HMKF9pspc",
+    "postId": "9zKKweu5826vSigu3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> While in equilibrium the two ways of defining thermodynamic entropy (scientific and subjective) come apart\n\nYou probably mean “while not in equilibrium”",
+      "plaintextDescription": "> While in equilibrium the two ways of defining thermodynamic entropy (scientific and subjective) come apart\n\nYou probably mean “while not in equilibrium”"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-05-28T00:09:52.348Z",
+    "af": false
+  },
+  {
+    "_id": "fc3RKTvvQC2gYdgk6",
+    "postId": "sdrCBWpqyvNBJSZH5",
+    "parentCommentId": "NjjsWApWdm4B3J8EE",
+    "topLevelCommentId": "NjjsWApWdm4B3J8EE",
+    "contents": {
+      "markdown": "Good find! Yeah, this is a good explanation for learning, and the NFL razor does not discard it. I think that almost no deep learning professor believes the bad explanation that “deep learning works because NNs are universal approximators”. But it’s more common with students and non-experts (I believed it for a while!)",
+      "plaintextDescription": "Good find! Yeah, this is a good explanation for learning, and the NFL razor does not discard it. I think that almost no deep learning professor believes the bad explanation that “deep learning works because NNs are universal approximators”. But it’s more common with students and non-experts (I believed it for a while!)"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-05-25T05:44:41.723Z",
+    "af": false
+  },
+  {
+    "_id": "6m5H3XpXegyZN3qke",
+    "postId": "kipMvuaK3NALvFHc9",
+    "parentCommentId": "NGNt9tjhQCR65GYND",
+    "topLevelCommentId": "NGNt9tjhQCR65GYND",
+    "contents": {
+      "markdown": "> Getting more value-aligned people in the AIS community onto the safety teams of DeepMind and OpenAI\n\nWhy is this important? As far as I can tell, the safety teams of these two organisations are already almost entirely \"value-aligned people in the AIS community\". They need more influence within the organisation, sure, but that's not going to be solved by altering team composition.",
+      "plaintextDescription": "> Getting more value-aligned people in the AIS community onto the safety teams of DeepMind and OpenAI\n\nWhy is this important? As far as I can tell, the safety teams of these two organisations are already almost entirely \"value-aligned people in the AIS community\". They need more influence within the organisation, sure, but that's not going to be solved by altering team composition."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-04-13T09:50:10.538Z",
+    "af": false
+  },
+  {
+    "_id": "b7td2z4F25G8NyoAh",
+    "postId": "kipMvuaK3NALvFHc9",
+    "parentCommentId": "MoNXxY5YnXFvJBLqh",
+    "topLevelCommentId": "HhvWZJBrupZCDy4qT",
+    "contents": {
+      "markdown": "> I'd argue the world right now (or rather, life on earth) is super bad because it's dominated by animal suffering\n\nI agree with this, and the overall history of the world is definitely on balance extreme suffering.\n\nFor farmed animals in particular, we don't need AGI to end their plight. Just regular economic growth and advocacy will do.\n\nAlso, given how much time we've been suffering already, and how much is at stake; would it be so bad to delay AGI by 100 or 200 years? We can do a *lot* of alignment research in that time.",
+      "plaintextDescription": "> I'd argue the world right now (or rather, life on earth) is super bad because it's dominated by animal suffering\n\nI agree with this, and the overall history of the world is definitely on balance extreme suffering.\n\nFor farmed animals in particular, we don't need AGI to end their plight. Just regular economic growth and advocacy will do.\n\nAlso, given how much time we've been suffering already, and how much is at stake; would it be so bad to delay AGI by 100 or 200 years? We can do a lot of alignment research in that time."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-04-13T09:22:17.748Z",
+    "af": false
+  },
+  {
+    "_id": "p9xH7JKj7MqEix49F",
+    "postId": "kipMvuaK3NALvFHc9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Strongly agree with this. In my opinion, a more effective intervention in this line would be to side with those who want to curtail the power of tech companies in the USA. For example, breaking up Meta and Google would greatly reduce their ability to fund AI development, and they're currently responsible for most of the boundary-pushing on AGI.",
+      "plaintextDescription": "Strongly agree with this. In my opinion, a more effective intervention in this line would be to side with those who want to curtail the power of tech companies in the USA. For example, breaking up Meta and Google would greatly reduce their ability to fund AI development, and they're currently responsible for most of the boundary-pushing on AGI."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-04-13T09:19:09.347Z",
+    "af": false
+  },
+  {
+    "_id": "bQFzrzgoxRLYk3umG",
+    "postId": "kipMvuaK3NALvFHc9",
+    "parentCommentId": "TuyCGMyqp77wMyBN3",
+    "topLevelCommentId": "Hyg8pgLTY5oYFEdAK",
+    "contents": {
+      "markdown": "> Did he die?\n\nNo, I think John is saying he died politically; that is, he no longer holds power. This is definitely overstated (he might get power in the future) and confusing.",
+      "plaintextDescription": "> Did he die?\n\nNo, I think John is saying he died politically; that is, he no longer holds power. This is definitely overstated (he might get power in the future) and confusing."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-04-13T09:02:54.564Z",
+    "af": false
+  },
+  {
+    "_id": "RPZvoe8bBkkpn2zHj",
+    "postId": "kipMvuaK3NALvFHc9",
+    "parentCommentId": "4tgDsrs5m3QeQjuDF",
+    "topLevelCommentId": "4tgDsrs5m3QeQjuDF",
+    "contents": {
+      "markdown": "> If I had to guess, the lack of discussion on this seems likely due to a founder effect. The people pulling the alarm in the early days of AGI safety concerns were disproportionately to the technical/philosophical side rather than to the policy/outreach/activism side. \n\nAlso, the people pulling the alarm in the early days of AGI safety concerns, are also people interested in AGI. They find it cool. I get the impression that some of them think aligned people should *also* try to win the AGI race, so doing capabilities research and being willing to listen to alignment concerns is good. (I disagree with this position and I don't think it's a strawman, but it might be a bit unfair.)\n\n Many of the people that got interested in AGI safety later on also find AGI cool, or have done some capabilities research (e.g. me), so thinking that what we've done is evil is counterintuitive.",
+      "plaintextDescription": "> If I had to guess, the lack of discussion on this seems likely due to a founder effect. The people pulling the alarm in the early days of AGI safety concerns were disproportionately to the technical/philosophical side rather than to the policy/outreach/activism side.\n\nAlso, the people pulling the alarm in the early days of AGI safety concerns, are also people interested in AGI. They find it cool. I get the impression that some of them think aligned people should also try to win the AGI race, so doing capabilities research and being willing to listen to alignment concerns is good. (I disagree with this position and I don't think it's a strawman, but it might be a bit unfair.)\n\nMany of the people that got interested in AGI safety later on also find AGI cool, or have done some capabilities research (e.g. me), so thinking that what we've done is evil is counterintuitive."
+    },
+    "baseScore": 6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2022-04-13T08:51:48.199Z",
+    "af": false
+  },
+  {
+    "_id": "qbH8AHdgqKFkNkycg",
+    "postId": "EPMnjRdhHNd65XpDt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Good design! A name for it could be the TemptedBot since it tries to go for the temptation payoff, or the ExploitBot (short: Explobot) since it tries to exploit the opponent.\n\nOne thing that you did not get around to writing is that if the Explobot's weak system is W=PA, and it plays against a FairBot that uses PA, the bots will play defect-defect. This is because the FairBot cannot prove that the Explobot takes the first \"else\" branch, and thus cannot prove that the Explobot cooperates. Then the FairBot defects, and as a consequence so does the Explobot.",
+      "plaintextDescription": "Good design! A name for it could be the TemptedBot since it tries to go for the temptation payoff, or the ExploitBot (short: Explobot) since it tries to exploit the opponent.\n\nOne thing that you did not get around to writing is that if the Explobot's weak system is W=PA, and it plays against a FairBot that uses PA, the bots will play defect-defect. This is because the FairBot cannot prove that the Explobot takes the first \"else\" branch, and thus cannot prove that the Explobot cooperates. Then the FairBot defects, and as a consequence so does the Explobot."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-08-25T12:26:06.513Z",
+    "af": false
+  },
+  {
+    "_id": "BSwT88uBhhmh6EMEz",
+    "postId": "2cYebKxNp47PapHTL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "If I'm highly likely to move around the world several times in the next ~5 years, what can I do? Is it still a good idea to sign up for cryonics in whatever place I'm at the moment?",
+      "plaintextDescription": "If I'm highly likely to move around the world several times in the next ~5 years, what can I do? Is it still a good idea to sign up for cryonics in whatever place I'm at the moment?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-06-10T15:22:43.876Z",
+    "af": false
+  },
+  {
+    "_id": "5FY4fknaeyin7dvDy",
+    "postId": "5sX7d3yknifXqEu8u",
+    "parentCommentId": "qvcAc5yAwgyECCpj6",
+    "topLevelCommentId": "ZKxmtpDvfjYZsuvFC",
+    "contents": {
+      "markdown": "I see, I misunderstood indeed.\n\nWhat you wrote here is the literal statement of the theorem. It offers no extra understanding. I suppose you're right and I just wrote out a corollary, but I think the corollary is illuminating. I don't understand the comparison to induction in this comment or your previous one :(",
+      "plaintextDescription": "I see, I misunderstood indeed.\n\nWhat you wrote here is the literal statement of the theorem. It offers no extra understanding. I suppose you're right and I just wrote out a corollary, but I think the corollary is illuminating. I don't understand the comparison to induction in this comment or your previous one :("
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-04-22T11:34:20.458Z",
+    "af": false
+  },
+  {
+    "_id": "BGjCPotztcPymCDxh",
+    "postId": "5sX7d3yknifXqEu8u",
+    "parentCommentId": "ijL3yR4ZgcKBAoTAd",
+    "topLevelCommentId": "4mqKqHz8FzWqyvmKR",
+    "contents": {
+      "markdown": "So it was that necessitation is outside of PA. Thank you! It seems to be assumed in [modal logic](https://en.wikipedia.org/wiki/L%C3%B6b's_theorem#Modal_rules_of_inference) (or at least a relevant modal logic) though. Which would imply that that modal logic assumes it is sound. It's still a bit weird to me that Löb's theorem is also true in that case.",
+      "plaintextDescription": "So it was that necessitation is outside of PA. Thank you! It seems to be assumed in modal logic (or at least a relevant modal logic) though. Which would imply that that modal logic assumes it is sound. It's still a bit weird to me that Löb's theorem is also true in that case."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-04-22T11:32:08.834Z",
+    "af": false
+  },
+  {
+    "_id": "gNJFce84KaDr9RBnx",
+    "postId": "5sX7d3yknifXqEu8u",
+    "parentCommentId": "ZKxmtpDvfjYZsuvFC",
+    "topLevelCommentId": "ZKxmtpDvfjYZsuvFC",
+    "contents": {
+      "markdown": "> In PA, when proving something, you get the lemma that it is provable for free\n\nAs I understand it, this verbal statement can be translated to $p \\to \\square p$, or at least $\\square p \\to \\square \\square p$. The first is false[1] (Gödel's 1st incompleteness theorem), the second is not obviously related to Löb's theorem.\n\n[1] also related to necessitation, a proof rule that substitutes $\\text{PA} \\vdash p$ for $\\text{PA} \\vdash \\square p$",
+      "plaintextDescription": "> In PA, when proving something, you get the lemma that it is provable for free\n\nAs I understand it, this verbal statement can be translated to p→□p, or at least □p→□□p. The first is false[1] (Gödel's 1st incompleteness theorem), the second is not obviously related to Löb's theorem.\n\n[1] also related to necessitation, a proof rule that substitutes PA⊢p for PA⊢□p"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-04-22T10:58:02.932Z",
+    "af": false
+  },
+  {
+    "_id": "iCAAcKBxuMNmHicDn",
+    "postId": "5sX7d3yknifXqEu8u",
+    "parentCommentId": "4mqKqHz8FzWqyvmKR",
+    "topLevelCommentId": "4mqKqHz8FzWqyvmKR",
+    "contents": {
+      "markdown": "I think you're right, the statement is intuitively soundness, but I'm still confused. I would be very grateful if you could clear it up. Is \"soundness $\\to$ consistency\" what you mean by stronger? If we can assume necessitation, soundness and consistency are equivalent, proof below.\n\nDoes that mean we cannot assume the [necessitation proof rule](https://en.wikipedia.org/wiki/Normal_modal_logic), that is if $\\vdash p$, add $\\vdash \\square p$? This would be consistent with \"PA cannot prove its own completeness\", the necessitation rule would imply that completeness is true.\n\nFirst, we prove that consistency implies soundness by modus tollens. Suppose no soundness: $\\neg (\\square p \\to p)$; then $\\square p \\wedge \\neg p$. From $\\neg p$, by necessitation $\\square \\neg p$, and so overall $\\square (p \\wedge \\neg p)$, that is $\\square \\bot$. We have proven $\\neg (\\square p \\to p) \\to \\square \\bot$, by modus tollens $\\neg\\square\\bot\\to (\\square p \\to p)$.\n\nSecond, we can prove that soundness implies consistency without necessitation, by modus tollens and contradiction. Suppose $\\square\\bot$. Further supposing $\\square p \\to p$ clearly proves $\\bot$, so we reject the assumption, thus $\\neg (\\square p \\to p)$. Thus we prove $\\square \\bot \\to \\neg (\\square p \\to p)$, by modus tollens $(\\square p \\to p) \\to \\neg \\square \\bot$.\n\nWhere did I go wrong? Is it the necessitation deduction rule? Is it that the necessitation deduction rule is valid, but cannot be used *within* a statement of PA?\n",
+      "plaintextDescription": "I think you're right, the statement is intuitively soundness, but I'm still confused. I would be very grateful if you could clear it up. Is \"soundness → consistency\" what you mean by stronger? If we can assume necessitation, soundness and consistency are equivalent, proof below.\n\nDoes that mean we cannot assume the necessitation proof rule, that is if ⊢p, add ⊢□p? This would be consistent with \"PA cannot prove its own completeness\", the necessitation rule would imply that completeness is true.\n\nFirst, we prove that consistency implies soundness by modus tollens. Suppose no soundness: ¬(□p→p); then □p∧¬p. From ¬p, by necessitation □¬p, and so overall □(p∧¬p), that is □⊥. We have proven ¬(□p→p)→□⊥, by modus tollens ¬□⊥→(□p→p).\n\nSecond, we can prove that soundness implies consistency without necessitation, by modus tollens and contradiction. Suppose □⊥. Further supposing □p→p clearly proves ⊥, so we reject the assumption, thus ¬(□p→p). Thus we prove □⊥→¬(□p→p), by modus tollens (□p→p)→¬□⊥.\n\nWhere did I go wrong? Is it the necessitation deduction rule? Is it that the necessitation deduction rule is valid, but cannot be used within a statement of PA?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-04-22T09:13:27.387Z",
+    "af": false
+  },
+  {
+    "_id": "MfnJpRek2iyZrEM6b",
+    "postId": "JZZENevaLzLLeC3zn",
+    "parentCommentId": "hegWLHhxu5wgfBRxo",
+    "topLevelCommentId": "2DKyp9NxaGgAqTKFL",
+    "contents": {
+      "markdown": "I don't, and my best guess is that nobody has done it :) The paper you linked is extremely recent.\n\nYou'd have to start by finding an ODE model of predictive coding, which I suppose is possible taking limit of the learning rate to 0.",
+      "plaintextDescription": "I don't, and my best guess is that nobody has done it :) The paper you linked is extremely recent.\n\nYou'd have to start by finding an ODE model of predictive coding, which I suppose is possible taking limit of the learning rate to 0."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-04-03T22:53:53.519Z",
+    "af": false
+  },
+  {
+    "_id": "8FDwvHmkefRssSfJ5",
+    "postId": "JZZENevaLzLLeC3zn",
+    "parentCommentId": "2DKyp9NxaGgAqTKFL",
+    "topLevelCommentId": "2DKyp9NxaGgAqTKFL",
+    "contents": {
+      "markdown": "Not particularly relevant, I think, but interesting nonetheless.\n\nA first drawback of this paper is that its conclusion assumes that the NN underneath trains with gradient *flow (GF)*, which is the continuous-time version of gradient descent (GD). This is a good assumption if the learning rate is very small, and the resulting GD dynamics closely track the GF differential equation.\n\nThis does not seem to be the case in practice. Larger initial learning rates help get better performance ([https://arxiv.org/abs/1907.04595](https://arxiv.org/abs/1907.04595)), so people use them in practice. If what people use in practice was well-approximated by GF, then smaller learning rates would give the same result. You can use another differential equation that does seem to approximate GD fairly well ([http://ai.stanford.edu/blog/neural-mechanics/](http://ai.stanford.edu/blog/neural-mechanics/)), but I don't know if the math from the paper still works out.\n\nSecond, as the paper points out, the kernel machine learned by GD is a bit strange in that the coefficients $a\\_i$ for weighing different $K(x, x\\_i)$ depend on $x$. Thus, the resulting output function is not in the reproducing kernel Hilbert space of the kernel that is purported to describe the NN. As a result, as kernel machines go, it's pretty weird. I expect that a lot of the analysis about the output of the learning process (learning theory etc) assumes that the $a_i$ do not depend on the test input $x$.",
+      "plaintextDescription": "Not particularly relevant, I think, but interesting nonetheless.\n\nA first drawback of this paper is that its conclusion assumes that the NN underneath trains with gradient flow (GF), which is the continuous-time version of gradient descent (GD). This is a good assumption if the learning rate is very small, and the resulting GD dynamics closely track the GF differential equation.\n\nThis does not seem to be the case in practice. Larger initial learning rates help get better performance (https://arxiv.org/abs/1907.04595), so people use them in practice. If what people use in practice was well-approximated by GF, then smaller learning rates would give the same result. You can use another differential equation that does seem to approximate GD fairly well (http://ai.stanford.edu/blog/neural-mechanics/), but I don't know if the math from the paper still works out.\n\nSecond, as the paper points out, the kernel machine learned by GD is a bit strange in that the coefficients $a_i$ for weighing different $K(x, x_i)$ depend on $x$. Thus, the resulting output function is not in the reproducing kernel Hilbert space of the kernel that is purported to describe the NN. As a result, as kernel machines go, it's pretty weird. I expect that a lot of the analysis about the output of the learning process (learning theory etc) assumes that the $a_i$ do not depend on the test input $x$."
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2021-04-03T16:16:57.526Z",
+    "af": false
+  },
+  {
+    "_id": "jDDkxjSeJFCCYpa7j",
+    "postId": "JD7fwtRQ27yc8NoqS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I’m guessing they would have happily accepted a bet at 20:1 odds that my driver’s license would say “Mark Xu” on it.\n\nI think they wouldn't have, mostly because you (or someone) offering the bet is fairly strong evidence that the name on your driver's license is not, in fact, \"Mark Xu\".",
+      "plaintextDescription": "> I’m guessing they would have happily accepted a bet at 20:1 odds that my driver’s license would say “Mark Xu” on it.\n\nI think they wouldn't have, mostly because you (or someone) offering the bet is fairly strong evidence that the name on your driver's license is not, in fact, \"Mark Xu\"."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2021-03-16T10:54:50.071Z",
+    "af": false
+  },
+  {
+    "_id": "o9QDuFbmpeuoX4Yew",
+    "postId": "4jFnquoHuoaTqdphu",
+    "parentCommentId": "jHH4YQPH37CdcMesm",
+    "topLevelCommentId": "jHH4YQPH37CdcMesm",
+    "contents": {
+      "markdown": "Also, you can try for a top-20 tenure-track position and, if you don't get it, \"fail\" gracefully into a research scientist position. The paths for the two of them are very similar (± 2 years of postdoctoral academic work).",
+      "plaintextDescription": "Also, you can try for a top-20 tenure-track position and, if you don't get it, \"fail\" gracefully into a research scientist position. The paths for the two of them are very similar (± 2 years of postdoctoral academic work)."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-03-15T19:05:38.965Z",
+    "af": false
+  },
+  {
+    "_id": "gJ9kXxThWEdmTybCb",
+    "postId": "teCsd4Aqg9KDxkaC9",
+    "parentCommentId": "ikJySdN8ba2nG6aeQ",
+    "topLevelCommentId": "YBKj4LJpLnxsN46ML",
+    "contents": {
+      "markdown": "> Friendly AI, which is that it be designed to be aligned, say in a mathematically provable way, rather than as an engineered process that approaches alignment by approximation.\n\nI think I understand that now, thank you!\n\n> this avoids Goodharting because there's no optimization being applied\n\nI'm confused again here. Is this implying that a Friendly AI, per the definition above, is not an optimizer?\n\nI am very pessimitic about being able to align an AI without any sort of feedback loop on the reward (thus, without optimization). The world's overall transition dynamics are likely to be chaotic, so the \"initial state\" of an AI that is provably aligned without feedback needs to be exactly the right one to obtain the outcome we want. It could be that the chaos does not affect what we care about, but I'm unsure about that, even linear systems can be chaotic.\n\nIt is not an endeavour as clearly impossible as \"build an open-loop controller for this dynamical system\", but I think it's similar.",
+      "plaintextDescription": "> Friendly AI, which is that it be designed to be aligned, say in a mathematically provable way, rather than as an engineered process that approaches alignment by approximation.\n\nI think I understand that now, thank you!\n\n> this avoids Goodharting because there's no optimization being applied\n\nI'm confused again here. Is this implying that a Friendly AI, per the definition above, is not an optimizer?\n\nI am very pessimitic about being able to align an AI without any sort of feedback loop on the reward (thus, without optimization). The world's overall transition dynamics are likely to be chaotic, so the \"initial state\" of an AI that is provably aligned without feedback needs to be exactly the right one to obtain the outcome we want. It could be that the chaos does not affect what we care about, but I'm unsure about that, even linear systems can be chaotic.\n\nIt is not an endeavour as clearly impossible as \"build an open-loop controller for this dynamical system\", but I think it's similar."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-03-08T10:07:37.027Z",
+    "af": false
+  },
+  {
+    "_id": "YBKj4LJpLnxsN46ML",
+    "postId": "teCsd4Aqg9KDxkaC9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm confused, I don't know what you mean by 'Friendly AI'. If I take my best guess for that term, I fail to see how it does not rely on optimization to stay aligned.\n\nI take 'Friendly AI' to be either:\n\n*   An AI that has the right utility function from the start. (In my understanding, that used to be its usage.) As you point out, because of Goodhart's Law, such an AI is an impossible object.\n*   A mostly-aligned AI, that is designed to be corrigible. Humans can intervene to change its utility function or shut it down as needed to prevent it from taking bad actions. Ideally, it would consult human supervisors before taking a potentially bad action.\n\nIn the second case, humans are continuously optimizing the \"utility function\" to be closer to the true one. Or, modifying the utility function to make \"shut down\" the preferred action, whenever the explicit utility function presents a 'misaligned' preferred outcome. Thus, it also represents an optimization-based *weak alignment* method.\n\nWould you argue that my second definition is also an impossible object, because it also relies on optimization? \n\nI think part of my confusion comes from the very fuzzy definition of \"optimization\". How close, and how fast, do you have to get to the maximum possible value of some function U(s) to be said to optimize it? Or is this the entirely wrong framework altogether? There's no need to answer these now, I'm mostly curious about a clarification for 'Friendly AI'.",
+      "plaintextDescription": "I'm confused, I don't know what you mean by 'Friendly AI'. If I take my best guess for that term, I fail to see how it does not rely on optimization to stay aligned.\n\nI take 'Friendly AI' to be either:\n\n * An AI that has the right utility function from the start. (In my understanding, that used to be its usage.) As you point out, because of Goodhart's Law, such an AI is an impossible object.\n * A mostly-aligned AI, that is designed to be corrigible. Humans can intervene to change its utility function or shut it down as needed to prevent it from taking bad actions. Ideally, it would consult human supervisors before taking a potentially bad action.\n\nIn the second case, humans are continuously optimizing the \"utility function\" to be closer to the true one. Or, modifying the utility function to make \"shut down\" the preferred action, whenever the explicit utility function presents a 'misaligned' preferred outcome. Thus, it also represents an optimization-based weak alignment method.\n\nWould you argue that my second definition is also an impossible object, because it also relies on optimization? \n\nI think part of my confusion comes from the very fuzzy definition of \"optimization\". How close, and how fast, do you have to get to the maximum possible value of some function U(s) to be said to optimize it? Or is this the entirely wrong framework altogether? There's no need to answer these now, I'm mostly curious about a clarification for 'Friendly AI'. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-03-04T19:18:41.516Z",
+    "af": false
+  },
+  {
+    "_id": "LvS9GoeQsthoJtk4p",
+    "postId": "FCMqi6NZDXENjxMKf",
+    "parentCommentId": "yGjmnhDLvNL9JE4ip",
+    "topLevelCommentId": "yGjmnhDLvNL9JE4ip",
+    "contents": {
+      "markdown": "Your particular taste? I loved HPMOR but this is too absurd to be fun for me.",
+      "plaintextDescription": "Your particular taste? I loved HPMOR but this is too absurd to be fun for me."
+    },
+    "baseScore": 8,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-01-03T17:16:31.132Z",
+    "af": false
+  },
+  {
+    "_id": "BgJF5Q648FSXm7k9b",
+    "postId": "wQnJ4ZBEbwE9BwCa3",
+    "parentCommentId": "CQTZFTKow2fMYgFDA",
+    "topLevelCommentId": "dFwrDtF3qx7WxNj7T",
+    "contents": {
+      "markdown": "Great initiative! I'm curious what is the reasoning behind this:\n\n> Recorded university lectures and recorded conference talks are forbidden.\n\nDo you find that you get no learning benefit from these things? If so this would explain why also you're not allowing didactic youtube channels (Kurzgesagt, 3blue1brown, CGP grey...)",
+      "plaintextDescription": "Great initiative! I'm curious what is the reasoning behind this:\n\n> Recorded university lectures and recorded conference talks are forbidden.\n\nDo you find that you get no learning benefit from these things? If so this would explain why also you're not allowing didactic youtube channels (Kurzgesagt, 3blue1brown, CGP grey...)"
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2019-12-15T16:20:56.056Z",
+    "af": false
+  },
+  {
+    "_id": "j3gzL6hD5WECXDKwh",
+    "postId": "BhSL973CGivhDJ4DH",
+    "parentCommentId": "mN7o8Yz9RJnCnhXDR",
+    "topLevelCommentId": "pdNr6FTT2QvsLvSfp",
+    "contents": {
+      "markdown": "I clicked this because it seemed interesting, but reading the Q&A:\n\n> In atypical game we consider, one player offers bets, another decides how to bet, and a third decides the outcome of the bet. We often call the first player Forecaster, the second Skeptic, and the third Reality.\n\nHow is this _any_ different from the classical [Dutch Book argument](https://plato.stanford.edu/entries/dutch-book/), that unless you maintain beliefs as probabilities you will inevitably lose money?",
+      "plaintextDescription": "I clicked this because it seemed interesting, but reading the Q&A:\n\n> In atypical game we consider, one player offers bets, another decides how to bet, and a third decides the outcome of the bet. We often call the first player Forecaster, the second Skeptic, and the third Reality.\n\nHow is this any different from the classical Dutch Book argument, that unless you maintain beliefs as probabilities you will inevitably lose money?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-05-19T21:21:19.863Z",
+    "af": false
+  },
+  {
+    "_id": "iNqykh8dFXzf6QM7s",
+    "postId": "BhSL973CGivhDJ4DH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Frequentist statistics were invented in a (failed) attempt to keep subjectivity out of science in a time before humanity really understood the laws of probability theory\n\nI'm a Bayesian, but do you have a source for this claim? It was my understanding that Frequentism was mostly promoted by Ron Fisher in the 20th century, well _after_ the work of Bayes.\n\nSynthesised from Wikipedia:\n\nWhile the first cited frequentist work (the weak law of large numbers, 1713, Jacob Bernoulli, [Frequentist probability](https://en.wikipedia.org/wiki/Frequentist_probability)) predates Bayes' work (edited by Price in 1763, [Bayes' Theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem#History)), it's not by much. Further, according to the article on \"Frequentist Probability\", \"\\[Bernoulli\\] is also credited with some appreciation for subjective probability (prior to and without Bayes theorem).\"\n\nThe ones that pushed frequentism in order to achieve objectivity were Fisher, Neyman and Pearson. From \"[Frequentist probability](https://en.wikipedia.org/wiki/Frequentist_probability)\": \"All valued objectivity, so the best interpretation of probability available to them was frequentist\". Fisher did other nasty things, such as using the fact that causality is really hard to soundly establish to argue that tobacco was not proven to cause cancer. But nothing indicates that this was done out of not understanding the laws of probability theory.\n\n> AI scientists use the Bayesian interpretation\n\nSometimes yes, sometimes not. Even Bayesian AI scientists use frequentist statistics pretty often.\n\nThis post makes it sound like frequentism is useless and that is not true. The concepts of: a stochastic estimator for a quantity, and looking at whether it is biased, and its variance; were developed by frequentists to look at real world data. AI scientists use it to analyse algorithms like gradient descent, or approximate Bayesian inference schemes, but the tools are definitely useful.",
+      "plaintextDescription": "> Frequentist statistics were invented in a (failed) attempt to keep subjectivity out of science in a time before humanity really understood the laws of probability theory\n\nI'm a Bayesian, but do you have a source for this claim? It was my understanding that Frequentism was mostly promoted by Ron Fisher in the 20th century, well after the work of Bayes.\n\nSynthesised from Wikipedia:\n\nWhile the first cited frequentist work (the weak law of large numbers, 1713, Jacob Bernoulli, Frequentist probability) predates Bayes' work (edited by Price in 1763, Bayes' Theorem), it's not by much. Further, according to the article on \"Frequentist Probability\", \"[Bernoulli] is also credited with some appreciation for subjective probability (prior to and without Bayes theorem).\"\n\nThe ones that pushed frequentism in order to achieve objectivity were Fisher, Neyman and Pearson. From \"Frequentist probability\": \"All valued objectivity, so the best interpretation of probability available to them was frequentist\". Fisher did other nasty things, such as using the fact that causality is really hard to soundly establish to argue that tobacco was not proven to cause cancer. But nothing indicates that this was done out of not understanding the laws of probability theory.\n\n> AI scientists use the Bayesian interpretation\n\nSometimes yes, sometimes not. Even Bayesian AI scientists use frequentist statistics pretty often.\n\nThis post makes it sound like frequentism is useless and that is not true. The concepts of: a stochastic estimator for a quantity, and looking at whether it is biased, and its variance; were developed by frequentists to look at real world data. AI scientists use it to analyse algorithms like gradient descent, or approximate Bayesian inference schemes, but the tools are definitely useful."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2019-05-19T21:18:55.397Z",
+    "af": false
+  },
+  {
+    "_id": "eXopQcwpHSHW9eGqv",
+    "postId": "Bb7AYRypzpY7GYkdH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "After reading the title, my main objections to voting theory were:\n\n*   The theory is already understood well enough, what is hard is convincing existing institutions to change.\n*   Convincing existing institutions to change is _really_ hard, so there's not much point in advancing the theory\n\nThough I do agree that public elections are a process by which huge amount of resources get allocated, in many of the world's richest countries, so it's an important problem.\n\nYou make some arguments against these two:\n\n> The debate among reform activists between various voting methods (IRV, approval, Condorcet, score, STAR, etc.; as well as the understanding of proportional representation) **has progressed substantially** (emphasis mine) in the 20 years that I've been a part of it, and I think it can progress further.\n\nCan you point to an example of this? Something the understanding of which has improved in the last 20 years. Also, are activists and the academia one and the same? Is this improved understanding because new theory was developed, or because the activists started understanding theory that had already been developed in the academia.\n\n> Voting reform has happened before in various contexts, and it should be expected that sooner or later and somewhere or other it will happen again. Will it happen in the particular ways and places I'd like it to? There's no way to be sure either way, but I'd say that the probability is certainly over 1%,\n\nThe key question is not whether it will happen _somewhere_ with a probability of at least 1%, but rather whether you or the people you inspire can move the needle with probability 1 in a millionth (or less), in a place that's sufficiently big (or even bigger). Are you thinking of influencing the US Gov in particular? That would certainly qualify for a big entity. What are the wins that the voting reform movement has done in the past few years? ( I suppose the #1 USA example [is Fargo, in North Dakota, that passed approval voting](https://en.wikipedia.org/wiki/Electoral_reform_in_the_United_States#Electoral_reform_proposals) )\n\n(There's probably a lot of people unhappy with voting in some way, so if you can convince them that your proposal is going to make their group more powerful, maybe it's not so hard).",
+      "plaintextDescription": "After reading the title, my main objections to voting theory were:\n\n * The theory is already understood well enough, what is hard is convincing existing institutions to change.\n * Convincing existing institutions to change is really hard, so there's not much point in advancing the theory\n\nThough I do agree that public elections are a process by which huge amount of resources get allocated, in many of the world's richest countries, so it's an important problem.\n\nYou make some arguments against these two:\n\n> The debate among reform activists between various voting methods (IRV, approval, Condorcet, score, STAR, etc.; as well as the understanding of proportional representation) has progressed substantially (emphasis mine) in the 20 years that I've been a part of it, and I think it can progress further.\n\nCan you point to an example of this? Something the understanding of which has improved in the last 20 years. Also, are activists and the academia one and the same? Is this improved understanding because new theory was developed, or because the activists started understanding theory that had already been developed in the academia.\n\n> Voting reform has happened before in various contexts, and it should be expected that sooner or later and somewhere or other it will happen again. Will it happen in the particular ways and places I'd like it to? There's no way to be sure either way, but I'd say that the probability is certainly over 1%,\n\nThe key question is not whether it will happen somewhere with a probability of at least 1%, but rather whether you or the people you inspire can move the needle with probability 1 in a millionth (or less), in a place that's sufficiently big (or even bigger). Are you thinking of influencing the US Gov in particular? That would certainly qualify for a big entity. What are the wins that the voting reform movement has done in the past few years? ( I suppose the #1 USA example is Fargo, in North Dakota, that passed approval voting )\n\n(There's pro"
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2019-02-18T00:26:30.572Z",
+    "af": false
+  },
+  {
+    "_id": "i2Eqjd7ahNfxqwnb5",
+    "postId": "hchfRj4qa4hFZxhKM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've spotted a mistake, I think: the relationship inside the first prover should be an if and only if relationship. This is because if  p2 says everything is a theorem, then p2\\[s\\]⟹p1\\[s\\] trivially holds. Thus, the condition to give p2 \"proof privileges\" should be p1\\[p2\\[s\\]⟺p1\\[s\\]\\]. There might still be some problems from the modal logic, I'll check when I have some more time.\n\nI can't believe that I was the first one to spot this. The post also has very few upvotes. Did nobody that knows this stuff see this and spot the mistake immediately? Was the post dismissed to start with? (in my opinion unfairly, but perhaps not).",
+      "plaintextDescription": "I've spotted a mistake, I think: the relationship inside the first prover should be an if and only if relationship. This is because if p2 says everything is a theorem, then p2[s]⟹p1[s] trivially holds. Thus, the condition to give p2 \"proof privileges\" should be p1[p2[s]⟺p1[s]]. There might still be some problems from the modal logic, I'll check when I have some more time.\n\nI can't believe that I was the first one to spot this. The post also has very few upvotes. Did nobody that knows this stuff see this and spot the mistake immediately? Was the post dismissed to start with? (in my opinion unfairly, but perhaps not)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-02-14T17:12:51.594Z",
+    "af": false
+  },
+  {
+    "_id": "aTcoMYQWFqtLXsfLH",
+    "postId": "b8kRgm5gihovFKnRr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What about short technical reports / forum posts like the original \"[All Mathematicians are Trollable: Divergence of Naturalistic Logical Updates](https://agentfoundations.org/item?id=815)\"? It's short, doesn't have any references, doesn't hold your hand with much background like academic articles do. On the other hand it contains more detailed information than \"[An Untrollable Mathematician Illustrated](https://www.lesswrong.com/posts/CvKnhXTu9BPcdKE4W/an-untrollable-mathematician-illustrated)\".\n\nIs this a clarification post because it's the first example of an idea?",
+      "plaintextDescription": "What about short technical reports / forum posts like the original \"All Mathematicians are Trollable: Divergence of Naturalistic Logical Updates\"? It's short, doesn't have any references, doesn't hold your hand with much background like academic articles do. On the other hand it contains more detailed information than \"An Untrollable Mathematician Illustrated\".\n\nIs this a clarification post because it's the first example of an idea?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-02-13T23:54:30.323Z",
+    "af": false
+  },
+  {
+    "_id": "jsm77KZBpkqQP4zBf",
+    "postId": "boBSTYL3K4KSbh4ec",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great post, thank you for writing it!\n\n> By taking squares we are more forgiving when the model gets the answer almost right but much less forgiving when the model is way off\n\nIt's really unclear why this would be better. I was going to ask for a clarification but I found something better instead.\n\nThe first justification for taking the _least-squares estimator_ that came to mind is that it's the _maximum likelihood_ solution if you assume your errors E are independent and Gaussian. Under those conditions, the probability density of the data is  p({yi}i=1,…,N|{xi}i=1,…,N,σ2)=∏iGaussian(yi|g(xi),σ2). We take the product because the errors are independent for each point. If you take the logarithm (which is a transformation that preserves the maximum), this comes out to be −1/2σ2⋅∑i(yi−g(xi))2 plus a constant that doesn't depend on g_._\n\nIt turns out there's a stronger justification, which doesn't require assuming the errors are Gaussian. The [Gauss-Markov Theorem](https://en.wikipedia.org/wiki/Gauss%E2%80%93Markov_theorem) shows that the best _unbiased_ estimator of the coefficients of _g_ that is _linear_ in the powers of the data, i.e. xi,x2i,x3i,….  That it's unbiased means that, for several independent samples of data, the mean of the least-squares estimator will be the true coefficients of the polynomial you used to generate the data. The estimator is the _best_ because it has the lowest variance under the above sampling scheme. If you assume you have a lot of data, by the central limit theorem, this is similar to lowest squared error in coefficient-space.\n\nHowever, if you're willing to drop the requirement that the estimator is unbiased, you can get even better error on average. The [James-Stein estimator](https://en.wikipedia.org/wiki/James%E2%80%93Stein_estimator) has less variance than least-squares, at the cost of biasing your estimates of the coefficients towards zero (or some other point). So, even within a certain maximum allowed degree of the polynomial, it is helpful to penalise complexity of the _coefficients themselves_.\n\n  \n\nOn a related note, for some yet unknown reason, neural networks that have way more parameters than is necessary in a single layer seem to generalize better than networks with few parameters. See for example [Towards Understanding the Role of Over-Parametrization in Generalization of Neural Networks](https://arxiv.org/abs/1805.12076). It seems to be related to the fact that we're not actually finding the optimal configuration of parameters with gradient descent, but only approximating it. So the standard statistical analysis that you outlined here doesn't apply in that case.",
+      "plaintextDescription": "Great post, thank you for writing it!\n\n> By taking squares we are more forgiving when the model gets the answer almost right but much less forgiving when the model is way off\n\nIt's really unclear why this would be better. I was going to ask for a clarification but I found something better instead.\n\nThe first justification for taking the least-squares estimator that came to mind is that it's the maximum likelihood solution if you assume your errors E are independent and Gaussian. Under those conditions, the probability density of the data is p({yi}i=1,…,N|{xi}i=1,…,N,σ2)=∏iGaussian(yi|g(xi),σ2). We take the product because the errors are independent for each point. If you take the logarithm (which is a transformation that preserves the maximum), this comes out to be −1/2σ2⋅∑i(yi−g(xi))2 plus a constant that doesn't depend on g.\n\nIt turns out there's a stronger justification, which doesn't require assuming the errors are Gaussian. The Gauss-Markov Theorem shows that the best unbiased estimator of the coefficients of g that is linear in the powers of the data, i.e. xi,x2i,x3i,…. That it's unbiased means that, for several independent samples of data, the mean of the least-squares estimator will be the true coefficients of the polynomial you used to generate the data. The estimator is the best because it has the lowest variance under the above sampling scheme. If you assume you have a lot of data, by the central limit theorem, this is similar to lowest squared error in coefficient-space.\n\nHowever, if you're willing to drop the requirement that the estimator is unbiased, you can get even better error on average. The James-Stein estimator has less variance than least-squares, at the cost of biasing your estimates of the coefficients towards zero (or some other point). So, even within a certain maximum allowed degree of the polynomial, it is helpful to penalise complexity of the coefficients themselves.\n\n\n\nOn a related note, for some yet unknown reason, neural networks that"
+    },
+    "baseScore": 12,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2019-02-06T22:32:49.736Z",
+    "af": false
+  },
+  {
+    "_id": "46kx2HbaBoLC9MFr7",
+    "postId": "x3fNwSe5aWZb5yXEG",
+    "parentCommentId": "k8cEydnbytcYz3Q4H",
+    "topLevelCommentId": "k8cEydnbytcYz3Q4H",
+    "contents": {
+      "markdown": "> This idea also excludes the robotic direction in AI development, which will anyway produce agential AIs.\n\nRecursive self-improvement that makes the intelligence \"super\" quickly is what makes the misaligned utility actually dangerous, as opposed to dangerous like a, say, current day automatized assembly line.\n\nA robot that self-improves would need to have the capacity to control its actuators and _also_ to self-improve. Since none of these capabilities directly depends on the other, each time one of them improves, the improvement is much more likely to be first demonstrated independently of an improvement in the other one.\n\nThus we're likely to already have some experience with self-improving AI, or the recursively improved AI to help us, when we get to dealing with people wanting to build self-improving robots. Even though with advanced AI in hand to help we should maybe still start early on that, it seems more important to get the not-necessarily-and-also-probably-not-robotic AI right.",
+      "plaintextDescription": "> This idea also excludes the robotic direction in AI development, which will anyway produce agential AIs.\n\nRecursive self-improvement that makes the intelligence \"super\" quickly is what makes the misaligned utility actually dangerous, as opposed to dangerous like a, say, current day automatized assembly line.\n\nA robot that self-improves would need to have the capacity to control its actuators and also to self-improve. Since none of these capabilities directly depends on the other, each time one of them improves, the improvement is much more likely to be first demonstrated independently of an improvement in the other one.\n\nThus we're likely to already have some experience with self-improving AI, or the recursively improved AI to help us, when we get to dealing with people wanting to build self-improving robots. Even though with advanced AI in hand to help we should maybe still start early on that, it seems more important to get the not-necessarily-and-also-probably-not-robotic AI right."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2019-01-09T01:00:18.101Z",
+    "af": false
+  },
+  {
+    "_id": "9HBWgNvQaDWjDiNt3",
+    "postId": "x3fNwSe5aWZb5yXEG",
+    "parentCommentId": "FHjorHjR8jzq2xGKK",
+    "topLevelCommentId": "JPcYxMq6X6Na2hKZf",
+    "contents": {
+      "markdown": "Yes, though I'm fairly sure he's talking about using trained neural networks to e.g. classify an image, which is known to be fairly cheap, rather than training them. In other words, he's talking about using an AI service rather than creating one.\n\nHe also says that \"Machine learning and human learning differ in their relationship to costs\" which is also evidence for my interpretation: training is expensive, testing on one example is very cheap.",
+      "plaintextDescription": "Yes, though I'm fairly sure he's talking about using trained neural networks to e.g. classify an image, which is known to be fairly cheap, rather than training them. In other words, he's talking about using an AI service rather than creating one.\n\nHe also says that \"Machine learning and human learning differ in their relationship to costs\" which is also evidence for my interpretation: training is expensive, testing on one example is very cheap."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2019-01-09T00:17:32.587Z",
+    "af": false
+  },
+  {
+    "_id": "RxTpzWTxJSfyJrALe",
+    "postId": "tHxXdAn8Yuiy9y2pZ",
+    "parentCommentId": "PXDvo6iC5b6yW83EC",
+    "topLevelCommentId": "Lq6qCFEW2vENgDyvE",
+    "contents": {
+      "markdown": "> Yup. I actually made this argument t[wo posts ago.](https://www.lesswrong.com/posts/NxF5G6CJiof6cemTw/coherence-arguments-do-not-imply-goal-directed-behavior)\n\nAh, that's good. I should probably read the rest of the sequence too.\n\n> Though it's not clear how you'd use a logic-based reasoning system to act in the world\n\nThe easy way to use them would be as they are intended: oracles that will answer questions about factual statements. Humans would still do the questioning and implementing here. It's unclear how exactly you'd ask really complicated, natural-language-based questions (obviously, otherwise we'd have solved AI), but I think it serves as an example of the paradigm.",
+      "plaintextDescription": "> Yup. I actually made this argument two posts ago.\n\nAh, that's good. I should probably read the rest of the sequence too.\n\n> Though it's not clear how you'd use a logic-based reasoning system to act in the world\n\nThe easy way to use them would be as they are intended: oracles that will answer questions about factual statements. Humans would still do the questioning and implementing here. It's unclear how exactly you'd ask really complicated, natural-language-based questions (obviously, otherwise we'd have solved AI), but I think it serves as an example of the paradigm."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2019-01-08T19:05:57.384Z",
+    "af": false
+  },
+  {
+    "_id": "Lq6qCFEW2vENgDyvE",
+    "postId": "tHxXdAn8Yuiy9y2pZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I usually think that logic-based reasoning systems are the canonical example of of an AI without goal-directed behaviour. They just try to prove or disprove a statement, given a database of atoms and relationships. (Usually they're restricted to statements that are decidable by construction so that is always possible).\n\nYou can also frame their behaviour as a utility function: U(time, state) = 1 if you have correctly decided the statement at t ≤ time, 0 otherwise. But your statement that\n\n>It seems possible to build systems in such a way that these properties are inherent in the way that they reason, such that it’s not even coherent to ask what happens if we “get the utility function slightly wrong”.\n\nvery much applies. I'm fairly sure you can specify the behaviour of \\_anything\\_, including \"dumb\" things like trousers, screwdrivers, rocks and saucepans, as an utility function + perfect optimization, even though for most things this is a very unhelpful way of thinking. Or at least human artifacts. E.g. a screwdriver optimizes \"transmit the rotational force that is applied to you\", a rock optimizes \"keep these molecules bound and respond to forces according to the laws of physics\".",
+      "plaintextDescription": "I usually think that logic-based reasoning systems are the canonical example of of an AI without goal-directed behaviour. They just try to prove or disprove a statement, given a database of atoms and relationships. (Usually they're restricted to statements that are decidable by construction so that is always possible).\n\nYou can also frame their behaviour as a utility function: U(time, state) = 1 if you have correctly decided the statement at t ≤ time, 0 otherwise. But your statement that\n\n>It seems possible to build systems in such a way that these properties are inherent in the way that they reason, such that it’s not even coherent to ask what happens if we “get the utility function slightly wrong”.\n\nvery much applies. I'm fairly sure you can specify the behaviour of _anything_, including \"dumb\" things like trousers, screwdrivers, rocks and saucepans, as an utility function + perfect optimization, even though for most things this is a very unhelpful way of thinking. Or at least human artifacts. E.g. a screwdriver optimizes \"transmit the rotational force that is applied to you\", a rock optimizes \"keep these molecules bound and respond to forces according to the laws of physics\"."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2019-01-07T14:11:30.726Z",
+    "af": false
+  },
+  {
+    "_id": "T3ff3rafPar6n7NG8",
+    "postId": "wmEcNP3KFEGPZaFJk",
+    "parentCommentId": "dEKqfEBfZMp7dyowW",
+    "topLevelCommentId": "dEKqfEBfZMp7dyowW",
+    "contents": {
+      "markdown": "Upvoting to people see that the project failed earlier, and don't have to spend a couple hours reading the main article given how this turned out.",
+      "plaintextDescription": "Upvoting to people see that the project failed earlier, and don't have to spend a couple hours reading the main article given how this turned out."
+    },
+    "baseScore": 4,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2018-12-22T12:55:40.250Z",
+    "af": false
+  },
+  {
+    "_id": "pJoijkFPQPm56qZgt",
+    "postId": "XJxwFMSL5TPN2usC6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Typo in pg. 31 of the ceremony guide: \"sir ead\" -> \"is read\".",
+      "plaintextDescription": "Typo in pg. 31 of the ceremony guide: \"sir ead\" -> \"is read\"."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2018-09-23T12:43:07.020Z",
+    "af": false
+  },
+  {
+    "_id": "9ipmzr8XzygmaW5kv",
+    "postId": "cKfryXvyJ522iFuNF",
+    "parentCommentId": "YgebiJQ3dM7gZPiHT",
+    "topLevelCommentId": "YgebiJQ3dM7gZPiHT",
+    "contents": {
+      "markdown": "Would it be possible to just apply model-based planning and show the treacherous turn on the first time?\n\n  \n\nModel-based planning is also AI, and we clearly have an available model of this environment.",
+      "plaintextDescription": "Would it be possible to just apply model-based planning and show the treacherous turn on the first time?\n\n\n\nModel-based planning is also AI, and we clearly have an available model of this environment."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2018-08-07T10:31:54.488Z",
+    "af": false
+  },
+  {
+    "_id": "brDXvEFTRsid3vTe3",
+    "postId": "YDLGLnzJTKMEtti7Z",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is it possible to enter the contest as a group? Meaning, can the article written for the contest have several coauthors?",
+      "plaintextDescription": "Is it possible to enter the contest as a group? Meaning, can the article written for the contest have several coauthors?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2017-11-10T13:23:39.055Z",
+    "af": false
+  },
+  {
+    "_id": "93tGZ6KPfdo5SJqNy",
+    "postId": "eiif58ahyvxdsNvPR",
+    "parentCommentId": "wYu7rReE27JKjD76k",
+    "topLevelCommentId": "wYu7rReE27JKjD76k",
+    "contents": {
+      "markdown": "Almost 5 years now.",
+      "plaintextDescription": "Almost 5 years now."
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2016-12-11T16:03:11.703Z",
+    "af": false
+  },
+  {
+    "_id": "5j8hqGi3XkYwbxK2s",
+    "postId": "NxJgmEBFGcnYSLRPN",
+    "parentCommentId": "b5ECTK5wAfBdgSqEn",
+    "topLevelCommentId": "b5ECTK5wAfBdgSqEn",
+    "contents": {
+      "markdown": "> I don't think we are that far away from AGI.\n\nAt the very least 20 years. And yes Alphabet are the closest, but in 20 years a lot of things can change.",
+      "plaintextDescription": "> I don't think we are that far away from AGI.\n\nAt the very least 20 years. And yes Alphabet are the closest, but in 20 years a lot of things can change."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2016-10-06T09:50:25.038Z",
+    "af": false
+  },
+  {
+    "_id": "gizg2Zggvu3Zkp9XB",
+    "postId": "hdKmCFr84PGLpZiuL",
+    "parentCommentId": "km6CrZR9BMDZckB4F",
+    "topLevelCommentId": "km6CrZR9BMDZckB4F",
+    "contents": {
+      "markdown": "This is what I thought. But ChristianKl is right: it doesn't need to. From the first false positive you're already doing damage with almost no cost to you. Sure your address will start to receive more spam, but it will be filtered like the spam you already have is.\n\nBut having it in the ISP, or as a really popular extension, would deal a big blow to spam.",
+      "plaintextDescription": "This is what I thought. But ChristianKl is right: it doesn't need to. From the first false positive you're already doing damage with almost no cost to you. Sure your address will start to receive more spam, but it will be filtered like the spam you already have is.\n\nBut having it in the ISP, or as a really popular extension, would deal a big blow to spam."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2016-06-21T07:55:39.946Z",
+    "af": false
+  },
+  {
+    "_id": "N8TZFxLPcYdJvXfQk",
+    "postId": "hdKmCFr84PGLpZiuL",
+    "parentCommentId": "Lk83KtfFa3XmgqFKh",
+    "topLevelCommentId": "Lk83KtfFa3XmgqFKh",
+    "contents": {
+      "markdown": "Today in Hacker News there's a research article speaking exactly of this.\n\n[https://news.ycombinator.com/item?id=11909111](https://news.ycombinator.com/item?id=11909111)\n\nMakes me think that a possible method to mitigate spam would be to answer each email with a LSTM-generated blob of text, so the attackers are swarmed with false positives and cannot continue the attack. Of course, this would have to be implemented by the email provider.",
+      "plaintextDescription": "Today in Hacker News there's a research article speaking exactly of this.\n\nhttps://news.ycombinator.com/item?id=11909111\n\nMakes me think that a possible method to mitigate spam would be to answer each email with a LSTM-generated blob of text, so the attackers are swarmed with false positives and cannot continue the attack. Of course, this would have to be implemented by the email provider."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2016-06-15T17:10:31.607Z",
+    "af": false
+  },
+  {
+    "_id": "NEQvEuG3sc9aQFprj",
+    "postId": "FDaYqFW8ExjKNwkqa",
+    "parentCommentId": "srFqhqf7EsCtmYwFH",
+    "topLevelCommentId": "srFqhqf7EsCtmYwFH",
+    "contents": {
+      "markdown": "Gratitude thread.\n\nWhat a load of work, Ingres. Thank you for doing this.",
+      "plaintextDescription": "Gratitude thread.\n\nWhat a load of work, Ingres. Thank you for doing this."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2016-05-14T12:31:20.847Z",
+    "af": false
+  },
+  {
+    "_id": "vKswePd5GncY2AY7G",
+    "postId": "hdKmCFr84PGLpZiuL",
+    "parentCommentId": "dxt8DNbKCuLvkxw2X",
+    "topLevelCommentId": "dxt8DNbKCuLvkxw2X",
+    "contents": {
+      "markdown": "I would probably use better spelling in the messages. It reduces credibility of the scammer.",
+      "plaintextDescription": "I would probably use better spelling in the messages. It reduces credibility of the scammer."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2016-04-09T12:23:49.033Z",
+    "af": false
+  }
+]

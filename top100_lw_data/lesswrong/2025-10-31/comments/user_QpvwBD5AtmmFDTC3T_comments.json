@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "WB7DpYjA3fPhepjaM",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "3rhxip3eskDjFnXbd",
+    "topLevelCommentId": "e5G9grcWCmRAF9pqr",
+    "contents": {
+      "markdown": "i mean like writing kernels or hill climbing training metrics is viscerally fun even separate from any of the status parts. i know because long before any of this ai safety stuff, before ai was such a big deal, i would do ML stuff literally purely for fun without getting paid or trying to achieve glorious results or even publishing it anywhere for anyone else to see.",
+      "plaintextDescription": "i mean like writing kernels or hill climbing training metrics is viscerally fun even separate from any of the status parts. i know because long before any of this ai safety stuff, before ai was such a big deal, i would do ML stuff literally purely for fun without getting paid or trying to achieve glorious results or even publishing it anywhere for anyone else to see."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-29T07:40:32.185Z",
+    "af": false
+  },
+  {
+    "_id": "NjeZ4ApBfd6hcTMJr",
+    "postId": "4MofJAmXDkoFsTf4B",
+    "parentCommentId": "FgFMW3R8tNyJWXfnG",
+    "topLevelCommentId": "tFh33KHeEmDbZRs2v",
+    "contents": {
+      "markdown": "I think trying to win the memetic war and trying to find the truth are fundamentally at odds with each other, so you have to find the right tradeoff. fighting the memetic war actively corrodes your ability to find the truth. this is true *even if* you constrain yourself to never utter any knowing falsehoods - even just arguing against the bad arguments over and over again calcifies your brain and makes you worse at absorbing new evidence and changing your mind. conversely, committing yourself to finding the truth means you will get destroyed when arguing against people whose only goal is to win arguments.",
+      "plaintextDescription": "I think trying to win the memetic war and trying to find the truth are fundamentally at odds with each other, so you have to find the right tradeoff. fighting the memetic war actively corrodes your ability to find the truth. this is true even if you constrain yourself to never utter any knowing falsehoods - even just arguing against the bad arguments over and over again calcifies your brain and makes you worse at absorbing new evidence and changing your mind. conversely, committing yourself to finding the truth means you will get destroyed when arguing against people whose only goal is to win arguments."
+    },
+    "baseScore": 14,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-28T02:07:09.140Z",
+    "af": false
+  },
+  {
+    "_id": "ML6YMHf3WChCQswBt",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "GuK8eBg9dfNBggX6v",
+    "topLevelCommentId": "kCjWMDhxmP2REiLr4",
+    "contents": {
+      "markdown": "the premise that i'm trying to take seriously for this thought experiment is, what if the \"claude is really smart and just a little bit away from agi\" people are totally right, so that you just need to dial up capabilities a little bit more rather than a lot more, and then it becomes very reasonable to say that claude++ is about as aligned as claude. \n\n(again, i don't think this is a very likely assumption, but it seems important to work out what the consequences of this set of beliefs being true would be)\n\nor at least, conditional on (a) claude is almost agi and (b) claude is mostly aligned, it seems like quite a strong claim to say \"claude++ crosses the agi (= can kick off rsi) threshold at basically the same time it crosses the 'dangerous-core-of-generalization' threshold, so that's also when it becomes super dangerous.\" it's way stronger a claim than \"claude is far away from being agi, we're going to make 5 breakthroughs before we achieve agi, so who knows whether agi will be anything like claude.\" or, like, sure, the agi threshold is a pretty special threshold, so it's reasonable to privilege this hypothesis a little bit, but when i think about the actual stories i'd tell about how this happens, it just feels like i'm starting from the bottom line first, and the stories don't feel like the strongest part of my argument.\n\n(also, i'm generally inclined towards believing alignment is hard, so i'm pretty familiar with the arguments for why aligning current models might not have much to do with aligning superintelligence. i'm not trying to argue that alignment is easy. or like i guess i'm arguing X->alignment is easy, which if you accept it, can only ever make you more likely to accept that alignment is easy than if you didn't accept the argument, but you know what i mean. i think X is probably false but it's plausible that it isn't and importantly a lot of evidence will come in over the next year or so on whether X is true)",
+      "plaintextDescription": "the premise that i'm trying to take seriously for this thought experiment is, what if the \"claude is really smart and just a little bit away from agi\" people are totally right, so that you just need to dial up capabilities a little bit more rather than a lot more, and then it becomes very reasonable to say that claude++ is about as aligned as claude. \n\n(again, i don't think this is a very likely assumption, but it seems important to work out what the consequences of this set of beliefs being true would be)\n\nor at least, conditional on (a) claude is almost agi and (b) claude is mostly aligned, it seems like quite a strong claim to say \"claude++ crosses the agi (= can kick off rsi) threshold at basically the same time it crosses the 'dangerous-core-of-generalization' threshold, so that's also when it becomes super dangerous.\" it's way stronger a claim than \"claude is far away from being agi, we're going to make 5 breakthroughs before we achieve agi, so who knows whether agi will be anything like claude.\" or, like, sure, the agi threshold is a pretty special threshold, so it's reasonable to privilege this hypothesis a little bit, but when i think about the actual stories i'd tell about how this happens, it just feels like i'm starting from the bottom line first, and the stories don't feel like the strongest part of my argument.\n\n(also, i'm generally inclined towards believing alignment is hard, so i'm pretty familiar with the arguments for why aligning current models might not have much to do with aligning superintelligence. i'm not trying to argue that alignment is easy. or like i guess i'm arguing X->alignment is easy, which if you accept it, can only ever make you more likely to accept that alignment is easy than if you didn't accept the argument, but you know what i mean. i think X is probably false but it's plausible that it isn't and importantly a lot of evidence will come in over the next year or so on whether X is true)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-28T01:45:21.153Z",
+    "af": true
+  },
+  {
+    "_id": "jhPAmywFCpcvpQQ4B",
+    "postId": "4MofJAmXDkoFsTf4B",
+    "parentCommentId": "tFh33KHeEmDbZRs2v",
+    "topLevelCommentId": "tFh33KHeEmDbZRs2v",
+    "contents": {
+      "markdown": "I agree. I think spending all of one's time thinking about and arguing with weakman arguments is one of the top reasons why people get set in their ways and stop tracking the truth. I aspire not to do this",
+      "plaintextDescription": "I agree. I think spending all of one's time thinking about and arguing with weakman arguments is one of the top reasons why people get set in their ways and stop tracking the truth. I aspire not to do this"
+    },
+    "baseScore": 11,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-27T17:20:05.555Z",
+    "af": false
+  },
+  {
+    "_id": "EmdvtBxe8Exmsx68f",
+    "postId": "W2dTrfTsGtFiwG5hM",
+    "parentCommentId": "R54z6dNqs2JpALRYe",
+    "topLevelCommentId": "R54z6dNqs2JpALRYe",
+    "contents": {
+      "markdown": "I think this is just because currently AI systems are viscerally dumb. I think almost all people will change their minds on this eventually. I think people are at greater risk of forgetting they ever believed AI is dumb, than denying AI capabilities long after they're obviously superhuman.",
+      "plaintextDescription": "I think this is just because currently AI systems are viscerally dumb. I think almost all people will change their minds on this eventually. I think people are at greater risk of forgetting they ever believed AI is dumb, than denying AI capabilities long after they're obviously superhuman."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-27T17:15:38.921Z",
+    "af": false
+  },
+  {
+    "_id": "ZifMaQ3CxK3eRcPs6",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "fhCSkE6SibmNHe32p",
+    "topLevelCommentId": "kCjWMDhxmP2REiLr4",
+    "contents": {
+      "markdown": "I'm claiming something like 3 (or 2, if you replace \"given tremendous uncertainty, our best guess is\" with \"by assumption of the scenario\") within the very limited scope of the world where we assume AGI is right around the corner and looks basically just like current models but slightly smarter",
+      "plaintextDescription": "I'm claiming something like 3 (or 2, if you replace \"given tremendous uncertainty, our best guess is\" with \"by assumption of the scenario\") within the very limited scope of the world where we assume AGI is right around the corner and looks basically just like current models but slightly smarter"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T17:01:03.556Z",
+    "af": true
+  },
+  {
+    "_id": "MJuGGem9FcXN39xzH",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "NCv3B4oAWtwGkYeYG",
+    "topLevelCommentId": "kCjWMDhxmP2REiLr4",
+    "contents": {
+      "markdown": "suppose a human solved alignment. how would we check their solution? ultimately, at the end of the day, we look at their argument and use our reasoning and judgement to determine that it's correct. this applies even if we need to adopt a new frame of looking at the world - we can ultimately only use the kinds of reasoning and judgement we use today to decide which new kinds of reasoning to accept into the halls of truth.\n\nso there is a philosophically very straightforward thing you could do to get the solution to alignment, or the closest we could ever get: put a bunch of smart thoughtful humans in a sim and run it for a long time. so the verification process looks like proving that the sim is correct, showing somehow that the humans are actually correctly uploaded, etc. not trivial but also seems plausibly doable.",
+      "plaintextDescription": "suppose a human solved alignment. how would we check their solution? ultimately, at the end of the day, we look at their argument and use our reasoning and judgement to determine that it's correct. this applies even if we need to adopt a new frame of looking at the world - we can ultimately only use the kinds of reasoning and judgement we use today to decide which new kinds of reasoning to accept into the halls of truth.\n\nso there is a philosophically very straightforward thing you could do to get the solution to alignment, or the closest we could ever get: put a bunch of smart thoughtful humans in a sim and run it for a long time. so the verification process looks like proving that the sim is correct, showing somehow that the humans are actually correctly uploaded, etc. not trivial but also seems plausibly doable."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-27T01:17:50.658Z",
+    "af": false
+  },
+  {
+    "_id": "RbcwtdrMyaxoEj8r6",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "Srsxtm9BtrXxF8nG2",
+    "topLevelCommentId": "kCjWMDhxmP2REiLr4",
+    "contents": {
+      "markdown": "i guess so? i don't know why you say \"even as capability levels rise\" - after you build and align the base case AI, humans are no longer involved in ensuring that the subsequent more capable AIs are aligned.\n\ni'm mostly indifferent about what the paradigms look like up the chain. probably at some point up the chain things stop looking anything human made. but what matters at that point is no longer how good we humans are at aligning model n, but how good model n-1 is at aligning model n.",
+      "plaintextDescription": "i guess so? i don't know why you say \"even as capability levels rise\" - after you build and align the base case AI, humans are no longer involved in ensuring that the subsequent more capable AIs are aligned.\n\ni'm mostly indifferent about what the paradigms look like up the chain. probably at some point up the chain things stop looking anything human made. but what matters at that point is no longer how good we humans are at aligning model n, but how good model n-1 is at aligning model n."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-27T01:07:09.598Z",
+    "af": true
+  },
+  {
+    "_id": "e52RHFQwjMntZTWQG",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "rNbsJzoRFE4wD39T4",
+    "topLevelCommentId": "kCjWMDhxmP2REiLr4",
+    "contents": {
+      "markdown": "to be clear, \"just train on philosophy textbooks lol\" is not at all what i'm proposing, and i don't think that works",
+      "plaintextDescription": "to be clear, \"just train on philosophy textbooks lol\" is not at all what i'm proposing, and i don't think that works"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-27T00:11:47.466Z",
+    "af": false
+  },
+  {
+    "_id": "2J5W7e35j5mWHmgMR",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "RC3ENyusva7PbD9FC",
+    "topLevelCommentId": "kCjWMDhxmP2REiLr4",
+    "contents": {
+      "markdown": "what i meant by that is something like:\n\nassuming we are in this short-timelines-no-breakthroughs world (to be clear, this is a HUGE assumption! not claiming that this is necessarily likely!), to win we need two things: (a) base case: the first AI in the recursive self improvement chain is aligned, (b) induction step: each AI can create and align its successor.\n\ni claim that if the base case AI is about as aligned as current AI, then condition (a) is basically either satisfied or not that hard to satisfy. like, i agree current models sometimes lie or are sycophantic or whatever. but these problems really don't seem nearly as hard to solve as the full AGI alignment problem. like idk, you can just ask models to do stuff and they like mostly try their best, and it seems very unlikely that literal GPT-5 is already pretending to be aligned so it can subtly stab us when we ask it to do alignment research.\n\nimportantly, under our assumptions, we already have AI systems that are basically analogous to the base case AI, so prosaic alignment research on systems that exist today right now is actually just lots of progress on aligning the base case AI, and in my mind a huge part of the difficulty of alignment in the longer-timeline world is because we don't yet have the AGI/ASI, so we can't do alignment research with good empirical feedback loops.\n\nlike tbc it's also not *trivial* to align current models. companies are heavily incentivized to do it and yet they haven't succeeded fully. but this is a fundamentally easier class of problem than aligning AGI in longer-timelines world.",
+      "plaintextDescription": "what i meant by that is something like:\n\nassuming we are in this short-timelines-no-breakthroughs world (to be clear, this is a HUGE assumption! not claiming that this is necessarily likely!), to win we need two things: (a) base case: the first AI in the recursive self improvement chain is aligned, (b) induction step: each AI can create and align its successor.\n\ni claim that if the base case AI is about as aligned as current AI, then condition (a) is basically either satisfied or not that hard to satisfy. like, i agree current models sometimes lie or are sycophantic or whatever. but these problems really don't seem nearly as hard to solve as the full AGI alignment problem. like idk, you can just ask models to do stuff and they like mostly try their best, and it seems very unlikely that literal GPT-5 is already pretending to be aligned so it can subtly stab us when we ask it to do alignment research.\n\nimportantly, under our assumptions, we already have AI systems that are basically analogous to the base case AI, so prosaic alignment research on systems that exist today right now is actually just lots of progress on aligning the base case AI, and in my mind a huge part of the difficulty of alignment in the longer-timeline world is because we don't yet have the AGI/ASI, so we can't do alignment research with good empirical feedback loops.\n\nlike tbc it's also not trivial to align current models. companies are heavily incentivized to do it and yet they haven't succeeded fully. but this is a fundamentally easier class of problem than aligning AGI in longer-timelines world."
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-27T00:10:07.882Z",
+    "af": true
+  },
+  {
+    "_id": "kCjWMDhxmP2REiLr4",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "some thoughts on the short timeline agi lab worldview. this post is the result of taking capabilities people's world models and mashing them into alignment people's world models.\n\nI think there are roughly two main likely stories for how AGI (defined as able to do any intellectual task as well as the best humans, specifically those tasks relevant for kicking off recursive self improvement) happens:\n\n1.  AGI takes 5-15 years to build. current AI systems are kind of dumb, and plateau at some point. we need to invent some kind of new paradigm, or at least make a huge breakthrough, to achieve AGI. how easily aligned current systems are is not strongly indicative of how easily aligned future AGI is; current AI systems are missing the core of intelligence that is needed.\n2.  AGI takes 2-4 years to build. current AI systems are really close and we just need more compute and schlep and minor algorithmic improvements. current AI systems aren't exactly aligned, but they're like pretty aligned, certainly they aren't all secretly plotting our downfall as we speak.\n\nwhile I usually think about story 1, this post is about taking story 2 seriously.\n\nit seems basically true that current AI systems are mostly aligned, and certainly not plotting our downfall. like you get stuff like sycophancy but it's relatively mild. certainly if AI systems were only ever roughly this misaligned we'd be doing pretty well.\n\nthe story is that once you have AGI, it builds and aligns its successor, which in turn builds and aligns its successor, etc. all the way up to superintelligence.\n\nthe problem is that at some link in the chain, you will have a model that can build its successor but not align it. \n\nwhy is this the case? because progress on alignment is harder to verify than progress on capabilities, and this only gets more true as you ascend in capabilities. you can easily verify that superintelligence is superintelligent - ask it to make a trillion dollars (or put a big glowing X on the moon, or something). even if it's tricked you somehow, like maybe it hacked the bank, or your brain, or something, it also takes a huge amount of capabilities to trick you on these things. however, verifying that it's aligned requires distinguishing cases where it's tricking you from cases where it isn't, which is really hard, and only gets harder as the AI gets smarter.\n\nthough if you think about it, capabilities is actually not perfectly measurable either. pretraining loss isn't all we care about; o3 et al might even be a step backwards on that metric. neither are capabilities evals; everyone knows they get goodharted to hell and back all the time. when AI solves all the phd level benchmarks nobody really thinks the AI is phd level. ok, so our intuition for capabilities measurement being easy is true only in the limit, but not necessarily on the margin.\n\nwe have one other hope, which is that maybe we can just allocate more of the resources to solving alignment. it's not immediately obvious how to do this if the fundamental bottleneck is verifiability - even if you (or to be more precise, the AI) keep putting in more effort, if you have no way of telling what is good alignment research, you're kind of screwed. but one thing is that you can demand things that are strictly stronger than alignment, that are easier to verify. if this is possible, then you can spend a larger fraction of your computer on alignment to compensate.\n\nin particular, because ultimately the only way we can make progress on alignment is by relying on whatever process for deciding that research is good that human alignment researchers use in practice (even provably correct stuff has the step where we decide what theorem to prove and give an argument for why that theorem means our approach is sound), there's an upper bound on the best possible alignment solution that humans could ever have achieved, which is plausibly a lot lower than perfectly solving alignment with certainty. and it's plausible that there are alignment equivalents to \"make a trillion dollars\" for capabilities that are easy to verify, strictly imply alignment, and extremely difficult to get any traction on (and with it, a series of weakenings of such a metric that are easier to get traction on but also less-strictly imply alignment). one hope is maybe this looks something like an improved version of causal scrubbing + a theory of heuristic arguments, or something like davidad's thing.\n\ntakeaways (assuming you take seriously the premise of very short timelines where AGI looks basic like current AI): first, I think it implies that we should try to figure out how to reduce the asymmetry in verifiability between capabilities and alignment. second, it updates me to being less cynical about work making current models aligned - I used to be very dismissive of this work as \"not real alignment\" but it does seem decently important in this world.",
+      "plaintextDescription": "some thoughts on the short timeline agi lab worldview. this post is the result of taking capabilities people's world models and mashing them into alignment people's world models.\n\nI think there are roughly two main likely stories for how AGI (defined as able to do any intellectual task as well as the best humans, specifically those tasks relevant for kicking off recursive self improvement) happens:\n\n 1. AGI takes 5-15 years to build. current AI systems are kind of dumb, and plateau at some point. we need to invent some kind of new paradigm, or at least make a huge breakthrough, to achieve AGI. how easily aligned current systems are is not strongly indicative of how easily aligned future AGI is; current AI systems are missing the core of intelligence that is needed.\n 2. AGI takes 2-4 years to build. current AI systems are really close and we just need more compute and schlep and minor algorithmic improvements. current AI systems aren't exactly aligned, but they're like pretty aligned, certainly they aren't all secretly plotting our downfall as we speak.\n\nwhile I usually think about story 1, this post is about taking story 2 seriously.\n\nit seems basically true that current AI systems are mostly aligned, and certainly not plotting our downfall. like you get stuff like sycophancy but it's relatively mild. certainly if AI systems were only ever roughly this misaligned we'd be doing pretty well.\n\nthe story is that once you have AGI, it builds and aligns its successor, which in turn builds and aligns its successor, etc. all the way up to superintelligence.\n\nthe problem is that at some link in the chain, you will have a model that can build its successor but not align it. \n\nwhy is this the case? because progress on alignment is harder to verify than progress on capabilities, and this only gets more true as you ascend in capabilities. you can easily verify that superintelligence is superintelligent - ask it to make a trillion dollars (or put a big glowing X on the moon, or s"
+    },
+    "baseScore": 35,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-10-26T18:52:18.933Z",
+    "af": true
+  },
+  {
+    "_id": "HcgicLARGGua2fawx",
+    "postId": "W2dTrfTsGtFiwG5hM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "AI denial will almost certainly exist but i think it's unlikely AI denial becomes a big thing, in the same way that flat erth denial is basically irrelevant in the world.",
+      "plaintextDescription": "AI denial will almost certainly exist but i think it's unlikely AI denial becomes a big thing, in the same way that flat erth denial is basically irrelevant in the world. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-25T16:38:03.948Z",
+    "af": false
+  },
+  {
+    "_id": "jTi6tRqkfhLFkoGoa",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "nqywnLFwtbdNTLQRB",
+    "topLevelCommentId": "e5G9grcWCmRAF9pqr",
+    "contents": {
+      "markdown": "I personally find that the technical problems in capabilities are usually more appealing to me than the ones in math purely in terms of funness. they are simply different kinds of problems that appeal to different people.",
+      "plaintextDescription": "I personally find that the technical problems in capabilities are usually more appealing to me than the ones in math purely in terms of funness. they are simply different kinds of problems that appeal to different people."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-25T07:09:58.088Z",
+    "af": false
+  },
+  {
+    "_id": "2XK5dqxhqpAdbBdmL",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "e5G9grcWCmRAF9pqr",
+    "topLevelCommentId": "e5G9grcWCmRAF9pqr",
+    "contents": {
+      "markdown": "bonus types of guy:\n\n*   works on capabilities because if we don't solve ASI soon then the AI hype all comes crashing down and creates a new AI winter\n*   works on capabilities because ASI is inevitable and it's cool to be part of the trajectory of history\n*   works on capabilities because there's this really cool idea that they've always dreamed of implementing\n*   works on capabilities because it's cool being able to say they contributed to something that is used by millions\n*   works on capabilities because the technical problems are really interesting and fun\n*   works on capabilities because alignment is a capabilities problem\n*   works on capabilities because they expect it to be super glorious to discover big breakthroughs in capabilities",
+      "plaintextDescription": "bonus types of guy:\n\n * works on capabilities because if we don't solve ASI soon then the AI hype all comes crashing down and creates a new AI winter\n * works on capabilities because ASI is inevitable and it's cool to be part of the trajectory of history\n * works on capabilities because there's this really cool idea that they've always dreamed of implementing\n * works on capabilities because it's cool being able to say they contributed to something that is used by millions\n * works on capabilities because the technical problems are really interesting and fun\n * works on capabilities because alignment is a capabilities problem\n * works on capabilities because they expect it to be super glorious to discover big breakthroughs in capabilities"
+    },
+    "baseScore": 13,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-10-25T06:31:27.948Z",
+    "af": false
+  },
+  {
+    "_id": "4JEzSqyWk55DDFveE",
+    "postId": "4kmzYmzHn2bQje84J",
+    "parentCommentId": "LXiE8DGwdJcfSf34Z",
+    "topLevelCommentId": "LXiE8DGwdJcfSf34Z",
+    "contents": {
+      "markdown": "also, even if we don't set anything like this up now, you should expect that in worlds where alignment gets solved and ASI is built, people will probably consider it a wise decision to retroactively reward people who made things go well in general based on their calculated impact.\n\n(i'm also default-skeptical of anything to do with crypto in any way whatsoever for the purposes of building lasting institutions. i don't care how good a DAO could be in theory, the average DAO has a lifespan shorter than the average SF startup)",
+      "plaintextDescription": "also, even if we don't set anything like this up now, you should expect that in worlds where alignment gets solved and ASI is built, people will probably consider it a wise decision to retroactively reward people who made things go well in general based on their calculated impact.\n\n(i'm also default-skeptical of anything to do with crypto in any way whatsoever for the purposes of building lasting institutions. i don't care how good a DAO could be in theory, the average DAO has a lifespan shorter than the average SF startup)"
+    },
+    "baseScore": 28,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2025-10-25T06:16:38.723Z",
+    "af": false
+  },
+  {
+    "_id": "e5G9grcWCmRAF9pqr",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "i find it funny that i know people in all 4 of the following quadrants:\n\n*   works on capabilities, and because international coordination seems hopeless, we need to race to build ASI first before the bad guys\n*   works on capabilities, and because international coordination seems possible, and all national leaders like to preserve the status quo, we need to build ASI before it gets banned\n*   works on safety, and because international coordination seems hopeless, we need to solve the technical problem before ASI kills everyone\n*   works on safety, and because international coordination seems possible, so we need to focus on regulation and policy before ASI kills everyone",
+      "plaintextDescription": "i find it funny that i know people in all 4 of the following quadrants:\n\n * works on capabilities, and because international coordination seems hopeless, we need to race to build ASI first before the bad guys\n * works on capabilities, and because international coordination seems possible, and all national leaders like to preserve the status quo, we need to build ASI before it gets banned\n * works on safety, and because international coordination seems hopeless, we need to solve the technical problem before ASI kills everyone\n * works on safety, and because international coordination seems possible, so we need to focus on regulation and policy before ASI kills everyone"
+    },
+    "baseScore": 59,
+    "voteCount": 29,
+    "createdAt": null,
+    "postedAt": "2025-10-25T06:09:00.222Z",
+    "af": false
+  },
+  {
+    "_id": "wGbTjddxXweqBpdPr",
+    "postId": "JGqj5pJLsBLxJ9P3M",
+    "parentCommentId": "YA59Wbey7AKDWejv7",
+    "topLevelCommentId": "YA59Wbey7AKDWejv7",
+    "contents": {
+      "markdown": "idea: popular authors should occasionally write preregistered intentionally subtly bad posts as an epistemic health check",
+      "plaintextDescription": "idea: popular authors should occasionally write preregistered intentionally subtly bad posts as an epistemic health check"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-25T01:08:30.597Z",
+    "af": false
+  },
+  {
+    "_id": "eduiGpMgHA778Jra6",
+    "postId": "YFHcAcKTbRGp2TTb4",
+    "parentCommentId": "DENsDS55sdEKSe7Hk",
+    "topLevelCommentId": "ekPPhZDvPFHwosjPx",
+    "contents": {
+      "markdown": "ofc, most people are unthoughtful and will just give bad criticisms of any idea whatsoever. I was just saying why this is true even if you're talking to substantially above average thoughtfulness people.",
+      "plaintextDescription": "ofc, most people are unthoughtful and will just give bad criticisms of any idea whatsoever. I was just saying why this is true even if you're talking to substantially above average thoughtfulness people."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-24T19:01:53.087Z",
+    "af": false
+  },
+  {
+    "_id": "ekPPhZDvPFHwosjPx",
+    "postId": "YFHcAcKTbRGp2TTb4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "i strongly agree that this is a thing that happens. even people who are thoughtful in general will have bad opinions on a new thing they haven't thought a lot about. even people who are going off an illegible but empirically very reliably correct heuristic will come of as having bad opinions. i think getting entrenched in one's positions is an epistemically corrosive effect of spending too much time doing advocacy / trying to persuade people.",
+      "plaintextDescription": "i strongly agree that this is a thing that happens. even people who are thoughtful in general will have bad opinions on a new thing they haven't thought a lot about. even people who are going off an illegible but empirically very reliably correct heuristic will come of as having bad opinions. i think getting entrenched in one's positions is an epistemically corrosive effect of spending too much time doing advocacy / trying to persuade people."
+    },
+    "baseScore": 10,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-24T18:19:53.761Z",
+    "af": false
+  },
+  {
+    "_id": "WtcyEb6mrL9936Bxj",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm generally a very forgetful person. I forget people's names, my keys, my luggage, 2fa codes I saw 3 seconds ago, etc all the time. but for some reason I've never forgotten my hotel room number and needed to consult the written down number. this is weird because it's an arbitrary number that I'm given once and have to remember for a few days.",
+      "plaintextDescription": "I'm generally a very forgetful person. I forget people's names, my keys, my luggage, 2fa codes I saw 3 seconds ago, etc all the time. but for some reason I've never forgotten my hotel room number and needed to consult the written down number. this is weird because it's an arbitrary number that I'm given once and have to remember for a few days."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-24T07:23:03.305Z",
+    "af": false
+  },
+  {
+    "_id": "Erm8p9hNLYMj2qnwP",
+    "postId": "7X9BatdaevHEaHres",
+    "parentCommentId": "3cnYnD4XEyb9z8RjH",
+    "topLevelCommentId": "3cnYnD4XEyb9z8RjH",
+    "contents": {
+      "markdown": "very exciting! influence functions are one of the best approaches for understanding generalization systematically. always excited to see improvements to influence function methodology.",
+      "plaintextDescription": "very exciting! influence functions are one of the best approaches for understanding generalization systematically. always excited to see improvements to influence function methodology."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-24T01:30:32.629Z",
+    "af": true
+  },
+  {
+    "_id": "JSn3sRdzt6tXN4ZQg",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "tzHYgkStRi2a3YLWN",
+    "topLevelCommentId": "P6tbnr383DGfr7yvT",
+    "contents": {
+      "markdown": "while I agree for smaller numbers like a few decades, I don't think I agree with a 1000 year pause.\n\nI think (a) it's perfectly reasonable for people to be selfish and care about superintelligence happening during their lifetime (forget future people and discount factors thereof - almost every single person alive today cares ooms more about themselves than about some random person on the other side of the planet), (b) it's easy for \"delay forever\" people to basically pascal's mug you this way, as in nuclear power (c) it's unclear that humanity becomes monotonically more wise over time (as an unrealistic example, consider a world where we successfully create an international treaty to ensure ASI is safe, and then for some reason the entire world modern order collapses and the only actors left are random post-collapse states racing to build ASI. then it would have been better to build ASI in a functional pre-collapse world order than to delay. one could reasonably (though i personally don't) believe that the current world order is likely to fail in the coming decades and ASI is best built now than in the ensuing chaos)",
+      "plaintextDescription": "while I agree for smaller numbers like a few decades, I don't think I agree with a 1000 year pause.\n\nI think (a) it's perfectly reasonable for people to be selfish and care about superintelligence happening during their lifetime (forget future people and discount factors thereof - almost every single person alive today cares ooms more about themselves than about some random person on the other side of the planet), (b) it's easy for \"delay forever\" people to basically pascal's mug you this way, as in nuclear power (c) it's unclear that humanity becomes monotonically more wise over time (as an unrealistic example, consider a world where we successfully create an international treaty to ensure ASI is safe, and then for some reason the entire world modern order collapses and the only actors left are random post-collapse states racing to build ASI. then it would have been better to build ASI in a functional pre-collapse world order than to delay. one could reasonably (though i personally don't) believe that the current world order is likely to fail in the coming decades and ASI is best built now than in the ensuing chaos)"
+    },
+    "baseScore": 20,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-10-22T07:42:48.639Z",
+    "af": false
+  },
+  {
+    "_id": "P6tbnr383DGfr7yvT",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think it would be really bad for humanity to rush to build superintelligence before we solve the difficult problem of how to make it safe. But also I think it would be a horrible tragedy if humanity never ever built superintelligence. I hope we figure out how to thread this needle with wisdom.",
+      "plaintextDescription": "I think it would be really bad for humanity to rush to build superintelligence before we solve the difficult problem of how to make it safe. But also I think it would be a horrible tragedy if humanity never ever built superintelligence. I hope we figure out how to thread this needle with wisdom."
+    },
+    "baseScore": 81,
+    "voteCount": 39,
+    "createdAt": null,
+    "postedAt": "2025-10-22T04:06:42.679Z",
+    "af": false
+  },
+  {
+    "_id": "Dw4NXFqNPtJ3Fwth6",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "it would be funny if, in the future, the boot sequence for the dyson sphere supercomputer still starts out in 16-bit real mode. the world's most expensive 8086",
+      "plaintextDescription": "it would be funny if, in the future, the boot sequence for the dyson sphere supercomputer still starts out in 16-bit real mode. the world's most expensive 8086"
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-21T05:52:44.893Z",
+    "af": false
+  },
+  {
+    "_id": "ejzz8CXZDyekYbjgw",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "people love to hate on brutalism. my take is there something really aesthetic about it, but also that just because something is aesthetic doesn't mean that it would be a good place to live or work every day. in fact, I've unfortunately found that the environments that I find aesthetically pleasing and the environments that make me happy to live/work in diverge quite substantially.",
+      "plaintextDescription": "people love to hate on brutalism. my take is there something really aesthetic about it, but also that just because something is aesthetic doesn't mean that it would be a good place to live or work every day. in fact, I've unfortunately found that the environments that I find aesthetically pleasing and the environments that make me happy to live/work in diverge quite substantially."
+    },
+    "baseScore": 22,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-10-20T23:36:46.860Z",
+    "af": false
+  },
+  {
+    "_id": "zprD66g8Zdg4owvgr",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I used to think autism-to-autism communication was a thing; that is, autistic people get along best with other autistic people. I now think this model is partly true but also deeply flawed: in particular, there are many different types of autistic person, and not only do all types not get along with all types, it's not necessarily even true that people of the same type get along with each other (this is probably correlated with degree of self-love/acceptance or something). if anything, it's probably often even quite disconcerting and cognitive dissonance inducing to see one's own reflection. and in general the people who are best at getting along with a wide range of autistic people are probably quite a lot more emotionally and socially intelligent than most autistic people.",
+      "plaintextDescription": "I used to think autism-to-autism communication was a thing; that is, autistic people get along best with other autistic people. I now think this model is partly true but also deeply flawed: in particular, there are many different types of autistic person, and not only do all types not get along with all types, it's not necessarily even true that people of the same type get along with each other (this is probably correlated with degree of self-love/acceptance or something). if anything, it's probably often even quite disconcerting and cognitive dissonance inducing to see one's own reflection. and in general the people who are best at getting along with a wide range of autistic people are probably quite a lot more emotionally and socially intelligent than most autistic people."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-20T04:23:30.663Z",
+    "af": false
+  },
+  {
+    "_id": "pyQS9PptcixJYywNo",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "m77qyYM9EqxQwCgC8",
+    "topLevelCommentId": "PPJoDvsihPwh9Ajdu",
+    "contents": {
+      "markdown": "(I don't know if the book is good but my knee jerk reaction to fitting sigmoids to things is it's a bit spooky - see https://arxiv.org/abs/2109.08065)",
+      "plaintextDescription": "(I don't know if the book is good but my knee jerk reaction to fitting sigmoids to things is it's a bit spooky - see https://arxiv.org/abs/2109.08065)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-20T00:44:09.658Z",
+    "af": false
+  },
+  {
+    "_id": "pSJnqnoYNmv2DbLnX",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "KSaeLWYx9odkDEhQa",
+    "topLevelCommentId": "PPJoDvsihPwh9Ajdu",
+    "contents": {
+      "markdown": "thanks for the recommendations, I'll add these to my reading list!\n\nI'm also curious if there is a location or social cluster or something where there are a lot of people who read stuff like this and talk about it productively and come up with new ideas. (again, other than the rationalist/ratadj/bay area community - I'm stipulating this because I think the ratsphere and bay area as a whole are a bubble with a lot of other correlated beliefs)",
+      "plaintextDescription": "thanks for the recommendations, I'll add these to my reading list!\n\nI'm also curious if there is a location or social cluster or something where there are a lot of people who read stuff like this and talk about it productively and come up with new ideas. (again, other than the rationalist/ratadj/bay area community - I'm stipulating this because I think the ratsphere and bay area as a whole are a bubble with a lot of other correlated beliefs)"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-20T00:42:19.454Z",
+    "af": false
+  },
+  {
+    "_id": "PPJoDvsihPwh9Ajdu",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "where are all the people trying to understand how the world works? (in a broad sense that is useful for understanding the trajectory of the world: e.g things like why is society the way it is, why do people behave the way they do; why has technology developed the way it has, etc.; as opposed to zooming in and specializing, e.g fundamental physics research or biomed or whatever) there are a bunch of people like this in the rationalist sphere but i'm curious where all the non-rationalist-adjacent such people are. it seems many people in the broader world are either uncurious or mindkilled on such questions.",
+      "plaintextDescription": "where are all the people trying to understand how the world works? (in a broad sense that is useful for understanding the trajectory of the world: e.g things like why is society the way it is, why do people behave the way they do; why has technology developed the way it has, etc.; as opposed to zooming in and specializing, e.g fundamental physics research or biomed or whatever) there are a bunch of people like this in the rationalist sphere but i'm curious where all the non-rationalist-adjacent such people are. it seems many people in the broader world are either uncurious or mindkilled on such questions."
+    },
+    "baseScore": 21,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-10-19T21:03:10.279Z",
+    "af": false
+  },
+  {
+    "_id": "np2n5SNa3yHjwFpNy",
+    "postId": "n2XrjMFehWvBumt9i",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "i think analogies to relatively well known intuitive everyday things, or historical events, are a good way to automatically establish some baseline level of plausibility, and also to reduce the chances of accidentally telling completely implausible stories. the core reason is basically that without tethering to objective things that actually happened in reality, it's really easy to tell crazy stories about a wide range of possible conclusions.\n\nfor hacking, we can look at stuxnet as an example of how creative and powerful a cyberattack can be, or the 2024 crowdstrike failures as an example of how lots of computers can fail at the same time. for manipulation/deception, we can look at increasing political polarization in america due to social media, or politicians winning based on charisma and then betraying them once in office, or (for atheists) major world religions, or (for anyone mindkilled by politics) adherents of their dispreferred political party. most people might not have experienced humiliating defeat in chess, or experienced being an anthill on an active construction site, but perhaps they have personally experienced being politically outmaneuvered by a competitor at work, or being crushed beneath the heel of a soulless bureaucracy which, despite being composed of ensouled humans, would rather ruin people's lives than be inconvenienced with dealing with exceptions.",
+      "plaintextDescription": "i think analogies to relatively well known intuitive everyday things, or historical events, are a good way to automatically establish some baseline level of plausibility, and also to reduce the chances of accidentally telling completely implausible stories. the core reason is basically that without tethering to objective things that actually happened in reality, it's really easy to tell crazy stories about a wide range of possible conclusions.\n\nfor hacking, we can look at stuxnet as an example of how creative and powerful a cyberattack can be, or the 2024 crowdstrike failures as an example of how lots of computers can fail at the same time. for manipulation/deception, we can look at increasing political polarization in america due to social media, or politicians winning based on charisma and then betraying them once in office, or (for atheists) major world religions, or (for anyone mindkilled by politics) adherents of their dispreferred political party. most people might not have experienced humiliating defeat in chess, or experienced being an anthill on an active construction site, but perhaps they have personally experienced being politically outmaneuvered by a competitor at work, or being crushed beneath the heel of a soulless bureaucracy which, despite being composed of ensouled humans, would rather ruin people's lives than be inconvenienced with dealing with exceptions. "
+    },
+    "baseScore": 15,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-10-14T00:55:03.882Z",
+    "af": false
+  },
+  {
+    "_id": "tkKYc7cAPDPyKY9Ha",
+    "postId": "8W5YjMhnBsbWAeuhu",
+    "parentCommentId": "9DgGmHbJDKoRbQyAu",
+    "topLevelCommentId": "3G3szpnXHg9wyRZJ7",
+    "contents": {
+      "markdown": "this is pretty normal? it's really hard for leadership to make employees care about or believe specific things. do you really think the average Amazon employee or whatever has strong opinions on the future of delivery drones? does the average Waymo employee have extremely strong beliefs about the future of self driving?\n\nfor most people in the world, their job is just a job. people obviously avoid working on things they believe are completely doomed, and tend to work on cool trendy things. but generally most people do not really have strong beliefs about where the stuff they're working on is going.\n\nno specific taboo is required to ensure that people don't really iron out deep philosophical disagreements with their coworkers. people care about all sorts of other things in life. they care about money, they care whether they're enjoying the work, they care whether their coworkers are pleasant to be around, they care about their wife and kids and house.\n\nonce you have a company with more than 10 people, it requires constant effort to maintain culture. hiring is way harder if you can only hire people who are aligned, or if you insist on aligning people. if you grow very fast (and openai has grown *very* fast - it's approximately doubled every single year I've been here), it's inevitable that your culture will splinter. forget about having everyone on the same page; you're going to have entire little googletowns and amazontowns and so on of people who bring Google or Amazon culture with them and agglomerate with other recent transplants from those companies.",
+      "plaintextDescription": "this is pretty normal? it's really hard for leadership to make employees care about or believe specific things. do you really think the average Amazon employee or whatever has strong opinions on the future of delivery drones? does the average Waymo employee have extremely strong beliefs about the future of self driving?\n\nfor most people in the world, their job is just a job. people obviously avoid working on things they believe are completely doomed, and tend to work on cool trendy things. but generally most people do not really have strong beliefs about where the stuff they're working on is going.\n\nno specific taboo is required to ensure that people don't really iron out deep philosophical disagreements with their coworkers. people care about all sorts of other things in life. they care about money, they care whether they're enjoying the work, they care whether their coworkers are pleasant to be around, they care about their wife and kids and house.\n\nonce you have a company with more than 10 people, it requires constant effort to maintain culture. hiring is way harder if you can only hire people who are aligned, or if you insist on aligning people. if you grow very fast (and openai has grown very fast - it's approximately doubled every single year I've been here), it's inevitable that your culture will splinter. forget about having everyone on the same page; you're going to have entire little googletowns and amazontowns and so on of people who bring Google or Amazon culture with them and agglomerate with other recent transplants from those companies."
+    },
+    "baseScore": 13,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-10-11T16:32:13.282Z",
+    "af": false
+  },
+  {
+    "_id": "agnMF9X9o9zrz4Y7k",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "nCXD47izm7C8frfvf",
+    "topLevelCommentId": "nCXD47izm7C8frfvf",
+    "contents": {
+      "markdown": "a lot of people say \"I think\" reflexively because they're used to making themselves small. it wouldn't be surprising to me if such people said \"I think\" more often than most even in situations where the caveat is unnecessary.",
+      "plaintextDescription": "a lot of people say \"I think\" reflexively because they're used to making themselves small. it wouldn't be surprising to me if such people said \"I think\" more often than most even in situations where the caveat is unnecessary."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-10T05:44:31.942Z",
+    "af": false
+  },
+  {
+    "_id": "Defsi3DQgrgfooXu3",
+    "postId": "8W5YjMhnBsbWAeuhu",
+    "parentCommentId": "CcQF5v88G4T5i9Aso",
+    "topLevelCommentId": "3G3szpnXHg9wyRZJ7",
+    "contents": {
+      "markdown": "as far as I'm aware, the only person who can be argued to have ever been fired for acting on beliefs about x risk is leopold, and the circumstances there are pretty complicated. since I don't think he's the only person to have ever acted on xrisk at oai to the extent he did, I don't think this is just because other people don't do anything about xrisk.\n\nmost cases of xrisk people leaving are just because people felt sidelined/unhappy and chose to leave. which is ofc also bad, but quite different.",
+      "plaintextDescription": "as far as I'm aware, the only person who can be argued to have ever been fired for acting on beliefs about x risk is leopold, and the circumstances there are pretty complicated. since I don't think he's the only person to have ever acted on xrisk at oai to the extent he did, I don't think this is just because other people don't do anything about xrisk.\n\nmost cases of xrisk people leaving are just because people felt sidelined/unhappy and chose to leave. which is ofc also bad, but quite different."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-08T21:32:23.788Z",
+    "af": false
+  },
+  {
+    "_id": "3G3szpnXHg9wyRZJ7",
+    "postId": "8W5YjMhnBsbWAeuhu",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "my guess:\n\n*   selective hiring is very real. lots of people who are xrisk pilled just refuse to join oai. people who care a lot often end up very stressed and leave in large part because of the stress.\n    *   the vast majority of people at oai do not think of xrisk from agi as a serious thing. but then again probably a majority dont really truly think of agi as a serious thing.\n*   people absolutely do argue \"well if i didn't do it, someone else would. and even if oai stopped, some other company would do it\" to justify their work.\n*   compartmentalization is probably not a big part of the reason, at least not yet. historically things don't get compartmentalized often, and even when they do, i don't think it makes the difference between being worried and not being worried about xrisk for that many people\n    *   as companies get big, teams A B C not talking to each other is the default order of the world and it takes increasing effort to get them to talk to each other. and even getting them talking is not enough to change their courses of action, which often requires a lot of work from higher up. this hampers everything; this is in general why big companies have so many overlapping/redundant teams\n*   people get promoted / allocated more resources if they do things that are obviously useful for the company, as opposed to less obviously useful for the company (i mean, as a company, you kind of understandably have to do this or else die of resource misallocation).\n    *   i think quite a few people, especially more senior people, are no longer driven by financial gain. these things are sometimes \"i really want to accomplish something great in the field of ML\" or \"i like writing code\" or \"i like being part of something important / shaping the future\". my guess is anyone super competent who cares primarily about money quits after a few years and, depending on the concavity of their utility function, either retires on a beach, or founds a startup and raises a gazillion dollars from VCs\n    *   it's pretty difficult to do weird abstract bullshit that doesn't obviously tie into some kind of real world use case (or fit into the internally-accepted research roadmap to AGI). this has imo hampered both alignment and capabilities. it makes a lot of sense though, like, bell labs didn't capture most of the value that bell labs created, and academia is the place where weird abstract bullshit is supposed to live, and we're in some sense quite lucky that industry is willing to fund any of it at all\n    *   concretely this means anything alignmenty gets a huge boost if you can argue that it will (a) improve capabilities or (b) prevent some kind of embarrassing safety failure in the model we're currently serving to gazillions of people. the kinds of things people choose to work on are strongly shaped by this as a result, and probably explains why so much work keeps taking alignment words and using them to mean aligning GPT-5 rather than AGI.\n*   aside from the leopold situation, which had pretty complicated circumstances, people don't really get fired for caring about xrisk. the few incidents are hard to interpret because of strong confounding factors and could be argued either way. but it's not so far from base rates so i don't feel like it's a huge thing.\n*   my guess is a lot of antipathy towards safety comes from broader antipathy against safetyism as a whole in society, which honestly i (and many people in alignment) have to admit some sympathy towards.",
+      "plaintextDescription": "my guess:\n\n * selective hiring is very real. lots of people who are xrisk pilled just refuse to join oai. people who care a lot often end up very stressed and leave in large part because of the stress.\n   * the vast majority of people at oai do not think of xrisk from agi as a serious thing. but then again probably a majority dont really truly think of agi as a serious thing.\n * people absolutely do argue \"well if i didn't do it, someone else would. and even if oai stopped, some other company would do it\" to justify their work.\n * compartmentalization is probably not a big part of the reason, at least not yet. historically things don't get compartmentalized often, and even when they do, i don't think it makes the difference between being worried and not being worried about xrisk for that many people\n   * as companies get big, teams A B C not talking to each other is the default order of the world and it takes increasing effort to get them to talk to each other. and even getting them talking is not enough to change their courses of action, which often requires a lot of work from higher up. this hampers everything; this is in general why big companies have so many overlapping/redundant teams\n * people get promoted / allocated more resources if they do things that are obviously useful for the company, as opposed to less obviously useful for the company (i mean, as a company, you kind of understandably have to do this or else die of resource misallocation).\n   * i think quite a few people, especially more senior people, are no longer driven by financial gain. these things are sometimes \"i really want to accomplish something great in the field of ML\" or \"i like writing code\" or \"i like being part of something important / shaping the future\". my guess is anyone super competent who cares primarily about money quits after a few years and, depending on the concavity of their utility function, either retires on a beach, or founds a startup and raises a gazillion dollars from "
+    },
+    "baseScore": 88,
+    "voteCount": 33,
+    "createdAt": null,
+    "postedAt": "2025-10-08T19:34:20.539Z",
+    "af": false
+  },
+  {
+    "_id": "dBBxoSnovv6DKb7im",
+    "postId": "8fg2mv9rj4GykfZHf",
+    "parentCommentId": "qFnFDRw9LZYo3BjCE",
+    "topLevelCommentId": "qFnFDRw9LZYo3BjCE",
+    "contents": {
+      "markdown": "that's the easy part of relentlessness. LMs already often get stuck in loops of trying increasingly hopeless things while getting utterly stuck.",
+      "plaintextDescription": "that's the easy part of relentlessness. LMs already often get stuck in loops of trying increasingly hopeless things while getting utterly stuck."
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-07T17:16:52.317Z",
+    "af": false
+  },
+  {
+    "_id": "WbXvyPRNPJNB2zjCt",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "sci-fi story setting idea: a future where VR becomes so widespread that where you live physically in the US becomes more of a formality than of actual consequence, so mass internal migrations a la Free State Project occur as people rush to move to low population states to get more political influence in a federal political system that is increasingly impossible to reform",
+      "plaintextDescription": "sci-fi story setting idea: a future where VR becomes so widespread that where you live physically in the US becomes more of a formality than of actual consequence, so mass internal migrations a la Free State Project occur as people rush to move to low population states to get more political influence in a federal political system that is increasingly impossible to reform"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-30T18:54:59.017Z",
+    "af": false
+  },
+  {
+    "_id": "mbuRXYRwMktexg8Fm",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "i recently ran into to a vegan advocate tabling in a public space, and spoke briefly to them for the explicit purpose of better understanding what it feels like to be the target of advocacy on something i feel moderately sympathetic towards but not fully bought in on. (i find this kind of thing very valuable for noticing flaws in myself and improving; it's much harder to be perceptive of one's own actions otherwise). the part where i am genuinely quite plausibly persuadable of his position in theory is important; i think if i had talked to e.g flat earthers one might say my reaction is just because i'd already decided not to be persuaded. several interesting things i noticed (none of which should be surprising or novel, especially for someone less autistic than me, but as they say, intellectually knowing things is not the same as actual experience):\n\n*   this guy certainly knew more about e.g health impacts of veganism than i did, and i would not have been able to hold my own in an actual debate.\n    *   in particular, it's really easy for actually-good-in-practice heuristics to come out as logical fallacies, especially when arguing with someone much more familiar with the object level details than you are.\n    *   interestingly, since i was pushing the conversation in a pretty meta direction, he actually explicitly said something to the effect that he's had thousands of conversations like this and has a response to basically every argument i could make, do i really think i have something he hasn't heard before, etc. in that moment i realized this was probably true, and that this nonetheless did not necessarily mean that he was correct in his claim. and in addition it certainly didn't make me feel any more emotionally willing to accept his argument\n    *   in the past, i've personally had the exact experience of arguing for something where i had enough of a dialogue tree that other people couldn't easily find any holes, where the other people were unconvinced, and felt really confused why people weren't seeing the very straightforward argument, and then later it turned out i was actually just wrong and the other people were applying correct heuristics\n        *   my guess is at the extreme, with sufficient prep and motivation, you can get in this position for arbitrarily wrong beliefs. like probably if i talked to flat earthers for a while i'd get deep enough in their dialogue tree that i'd stop being able to refute them on the object level and would (for the purposes of my own epistemics, not to convince an external audience) have to appeal to cognitive heuristics that are isomorphic to some cognitive fallacies.\n    *   of course we shouldn't always appeal to the cognitive heuristics. [doing so is almost always reasonable and yet you will miss out on the one thing that actually does matter](https://www.astralcodexten.com/p/heuristics-that-almost-always-work). to do anything interesting you do have to eventually dig into some particular spicy claims and truly resolve things at the object level. but there are so many things in the world and resolving them takes so much time that you need some heuristics to reject a whole bunch of things out of hand and focus your energy on the things that matter.\n        *   like, i could invest energy until i can actually refute flat earthers completely on the object level, and i'd almost certainly succeed. but this would be a huge waste of time. on the other hand, i could also just never look into anything and say \"nothing ever happens\". but every important thing to ever happen did, in fact, happen at some point \\[citation needed\\].\n*   it's really really irritating to be cut off mid sentence. this is hard to admit because i also have an unconscious tendency to do this (currently working on fixing this) and my guess is other people get very annoyed when i do this to them.\n    *   sometimes i do enjoy being cut off in conversations, but on reflection this is only when i feel like (a) the conversation is cooperative enough that i feel like we're trying to discover the truth together, (b) the other person actually understands what i'm saying before i finish saying it. but since these conditions are much rarer and requires high levels of social awareness to detect, it's a good first order heuristic that interrupting people is bad.\n*   i found it completely unhelpful to be told that he was also in my shoes X years ago with similar uncertainties when he was deciding to become vegan; or to be told that he had successfully convinced Y other people to become vegan; or to be subject to what i want to call \"therapy speak\". i only want to therapyspeak with people i feel relatively close to, and otherwise it comes off as very patronizing.\n    *   i think there's a closely related thing, which is genuine curiosity about people's views. it uses similar phrases like \"what makes you believe that?\" but has a very different tone and vibe.\n    *   his achievements mean a lot more to himself than to me. i don't really care that much what he's accomplished for the purposes of deciding whether his argument is correct. any credibility points conferred are more than cancelled out by it being kind of annoying. *even if it is true*, there's nothing more annoying than hearing say \"i've thought about this more than you / accomplished more than you have because of my phd/experience/etc so you should listen to me\" unless you really really really trust this person\n        *   the calculus changes when there is an audience.\n    *   therapyspeak is still probably better than nothing, and can be a useful stepping stone for the socially incompetent\n\none possible take is that i'm just really weird and these modes of interaction work well for normal people more because they're less independently thinking or need to be argued out of having poorly thought out bad takes or something like that, idk. i can't rule this out but my guess is normal people probably are even more this than i am. also, for the purposes of analogy to the AI safety movement, presumably we want to select for people who are independent thinkers who have especially well thought out takes more than just normal people.\n\nalso my guess is this particular interaction was probably extremely out of distribution from the perspective of those tabling. my guess is activists generally have a pretty polished pitch for most common situations which includes a bunch of concrete ways of talking they've empirically found to cause people to engage, learned through years of RL against a general audience, but the polishedness of this pitch doesn't generalize out of distribution when poked at in weird ways. my interlocutor even noted at some point that his conversations when tabling generally don't go the way ours went.",
+      "plaintextDescription": "i recently ran into to a vegan advocate tabling in a public space, and spoke briefly to them for the explicit purpose of better understanding what it feels like to be the target of advocacy on something i feel moderately sympathetic towards but not fully bought in on. (i find this kind of thing very valuable for noticing flaws in myself and improving; it's much harder to be perceptive of one's own actions otherwise). the part where i am genuinely quite plausibly persuadable of his position in theory is important; i think if i had talked to e.g flat earthers one might say my reaction is just because i'd already decided not to be persuaded. several interesting things i noticed (none of which should be surprising or novel, especially for someone less autistic than me, but as they say, intellectually knowing things is not the same as actual experience):\n\n * this guy certainly knew more about e.g health impacts of veganism than i did, and i would not have been able to hold my own in an actual debate.\n   * in particular, it's really easy for actually-good-in-practice heuristics to come out as logical fallacies, especially when arguing with someone much more familiar with the object level details than you are.\n   * interestingly, since i was pushing the conversation in a pretty meta direction, he actually explicitly said something to the effect that he's had thousands of conversations like this and has a response to basically every argument i could make, do i really think i have something he hasn't heard before, etc. in that moment i realized this was probably true, and that this nonetheless did not necessarily mean that he was correct in his claim. and in addition it certainly didn't make me feel any more emotionally willing to accept his argument\n   * in the past, i've personally had the exact experience of arguing for something where i had enough of a dialogue tree that other people couldn't easily find any holes, where the other people were unconvinced, and felt really"
+    },
+    "baseScore": 123,
+    "voteCount": 55,
+    "createdAt": null,
+    "postedAt": "2025-09-25T21:28:56.845Z",
+    "af": false
+  },
+  {
+    "_id": "8WEtD49kR3SNHAdTF",
+    "postId": "tv6KfHitijSyKCr6v",
+    "parentCommentId": "qbYD9a56wgAy9qWkF",
+    "topLevelCommentId": "MtW94mEeFLqpPPB5B",
+    "contents": {
+      "markdown": "yeah, but there would be a lot of worlds where the merger was totally fine and beneficial where it fell through because people had unfounded fears",
+      "plaintextDescription": "yeah, but there would be a lot of worlds where the merger was totally fine and beneficial where it fell through because people had unfounded fears"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-21T18:51:00.919Z",
+    "af": false
+  },
+  {
+    "_id": "tcb7X7j3iAafR8iap",
+    "postId": "tv6KfHitijSyKCr6v",
+    "parentCommentId": "MtW94mEeFLqpPPB5B",
+    "topLevelCommentId": "MtW94mEeFLqpPPB5B",
+    "contents": {
+      "markdown": "i mean, in general, it's a lot easier to tell plausible-seeming stories of things going really poorly than actually high-likelihood stories of things going poorly. so the anecdata of it actually happening is worth a lot",
+      "plaintextDescription": "i mean, in general, it's a lot easier to tell plausible-seeming stories of things going really poorly than actually high-likelihood stories of things going poorly. so the anecdata of it actually happening is worth a lot"
+    },
+    "baseScore": 6,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-21T04:47:27.278Z",
+    "af": false
+  },
+  {
+    "_id": "HZLkX5fZcSudgFT2c",
+    "postId": "fF8pvsn3AGQhYsbjp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've been repeatedly loud and explicit about this but an happy to state again that racing to build superintelligence before we know how to make it not kill everyone (or cause other catastrophic outcomes) seems really bad and I wish we could coordinate to not do that.",
+      "plaintextDescription": "I've been repeatedly loud and explicit about this but an happy to state again that racing to build superintelligence before we know how to make it not kill everyone (or cause other catastrophic outcomes) seems really bad and I wish we could coordinate to not do that."
+    },
+    "baseScore": 180,
+    "voteCount": 69,
+    "createdAt": null,
+    "postedAt": "2025-09-20T14:34:12.922Z",
+    "af": false
+  },
+  {
+    "_id": "HjbywEbehHP3vurrC",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "LqdgoQF9KYv3awHu4",
+    "topLevelCommentId": "yDYxwzWpyfzGS34Lq",
+    "contents": {
+      "markdown": "there's an exogenous factor, which is that the entire country was shifting leftward during the 50s and 60s. it's plausible that the 1964 bill would have passed anyways without the 1957 bill, possibly even earlier",
+      "plaintextDescription": "there's an exogenous factor, which is that the entire country was shifting leftward during the 50s and 60s. it's plausible that the 1964 bill would have passed anyways without the 1957 bill, possibly even earlier"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-19T22:03:02.937Z",
+    "af": false
+  },
+  {
+    "_id": "yDYxwzWpyfzGS34Lq",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "what's the current state of analysis on whether the civil rights act of 1957 was actually net positive or negative for civil rights in hindsight? there are two possible stories one can tell, and at the time people were arguing about which is correct:\n\n1.  passing even a useless civil rights bill is a lot better than nothing because it sets a precedent that getting civil rights bills through the Senate is possible / makes the southern coalition no longer look invincible. this serves a useful coordination mechanism because people only want to support things that they think other people will support.\n2.  passing a useless civil rights bill is worse than no bill because it creates a false sense of progress and makes it feel like something was done even when nothing was. to the extent that the bill signals to people that getting civil rights bills through the Senate is possible, this is a false impression because the only reason the bill could get through was that it was watered down to uselessness.\n\nthis feels directly analogous to the question of whether we should accept very weak AI safety regulations today.",
+      "plaintextDescription": "what's the current state of analysis on whether the civil rights act of 1957 was actually net positive or negative for civil rights in hindsight? there are two possible stories one can tell, and at the time people were arguing about which is correct:\n\n 1. passing even a useless civil rights bill is a lot better than nothing because it sets a precedent that getting civil rights bills through the Senate is possible / makes the southern coalition no longer look invincible. this serves a useful coordination mechanism because people only want to support things that they think other people will support.\n 2. passing a useless civil rights bill is worse than no bill because it creates a false sense of progress and makes it feel like something was done even when nothing was. to the extent that the bill signals to people that getting civil rights bills through the Senate is possible, this is a false impression because the only reason the bill could get through was that it was watered down to uselessness.\n\nthis feels directly analogous to the question of whether we should accept very weak AI safety regulations today. "
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-19T21:43:04.404Z",
+    "af": false
+  },
+  {
+    "_id": "xiwXNktcbbQcf7vJ8",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "a thing i've noticed rat/autistic people do (including myself): one very easy way to trick our own calibration sensors is to add a bunch of caveats or considerations that make it feel like we've modeled all the uncertainty (or at least, more than other people who haven't). so one thing i see a lot is that people are self-aware that they have limitations, but then over-update on how much this awareness makes them calibrated. one telltale hint that i'm doing this myself is if i catch myself saying something because i want to demo my rigor and prove that i've considered some caveat that one might think i forgot to consider\n\ni've heard others make a similar critique about this as a communication style which can mislead non-rats who are not familiar with the style, but i'm making a different claim here that one can trick oneself.\n\nit seems that one often believes being self aware of a certain limitation is enough to correct for it sufficiently to at least be calibrated about how limited one is. a concrete example: part of being socially incompetent is not just being bad at taking social actions, but being bad at detecting social feedback on those actions. of course, many people are not even aware of the latter. but many are aware of and acknowledge the latter, and then act as if because they've acknowledged a potential failure mode and will try to be careful towards avoiding it, that they are much less susceptible to the failure mode than other people in an otherwise similar reference class.\n\none variant of this deals with hypotheticals - because hypotheticals often can/will never be evaluated, this allows one to get the feeling that one is being epistemically virtuous and making falsifiable predictions, without ever actually getting falsified. for example, a statement \"if X had happened, then i bet we would see Y now\" has prediction vibes but is not actually a prediction. this is especially pernicious when one fails but says \"i failed but i was close, so i should still update positively on what i did.\" while not always a bad idea, there's a bias-variance tradeoff here, where doing this more often reduces variance but increases bias. i find that cases where i thought i was close but later realized i was actually far off the mark are sufficiently common that this isn't an imaginary concern.\n\nanother variant is i think we are much less susceptible to some forms of brainworms/ideology, and are also much better at understanding the mechanisms behind brainworms and identifying them in others, so we over-update on our own insusceptibility to brainworms (despite evidence from the reference class of rationalists that seems to suggest at least as much as genpop if not higher levels of obvious-cult-forming). however, it's just that we are suscpetible to different types of brainworks as normies.\n\nanother variant is introspective ability. i think we are probably better in some sense at self-introspection, in the sense that we are better at noticing certain kinds of patterns in our own behavior and developing models for those patterns. but i've also come to believe that this kind of modeling has huge blind spots, and leads many to believe they have a much greater degree of mastery over their own minds than they actually do. however, the feeling that one is aware of the possibility of one having blind spots and being aware of what they often look like in other people can lead to overconfidence about whether one would notice these blindspots in themself.\n\ni feel like the main way i notice these things is by noticing them in other people over long periods of knowing them, and then noticing that my actions are actually deeply analogous to theirs in some way. it also helps to notice non-rats not falling into the same pitfalls sometimes.\n\ni'm not sure how to fix this. merely being aware of it probably is not sufficient. probably the solution is not to stop thinking about one's own limitations, but rather to add some additional cogtech on top. my guess is there is probably valuable memetic technology out there that especially wise people use but which most people, rat or not, don't use. also, difficult-to-fake feedback from reality seems important.",
+      "plaintextDescription": "a thing i've noticed rat/autistic people do (including myself): one very easy way to trick our own calibration sensors is to add a bunch of caveats or considerations that make it feel like we've modeled all the uncertainty (or at least, more than other people who haven't). so one thing i see a lot is that people are self-aware that they have limitations, but then over-update on how much this awareness makes them calibrated. one telltale hint that i'm doing this myself is if i catch myself saying something because i want to demo my rigor and prove that i've considered some caveat that one might think i forgot to consider\n\ni've heard others make a similar critique about this as a communication style which can mislead non-rats who are not familiar with the style, but i'm making a different claim here that one can trick oneself.\n\nit seems that one often believes being self aware of a certain limitation is enough to correct for it sufficiently to at least be calibrated about how limited one is. a concrete example: part of being socially incompetent is not just being bad at taking social actions, but being bad at detecting social feedback on those actions. of course, many people are not even aware of the latter. but many are aware of and acknowledge the latter, and then act as if because they've acknowledged a potential failure mode and will try to be careful towards avoiding it, that they are much less susceptible to the failure mode than other people in an otherwise similar reference class.\n\none variant of this deals with hypotheticals - because hypotheticals often can/will never be evaluated, this allows one to get the feeling that one is being epistemically virtuous and making falsifiable predictions, without ever actually getting falsified. for example, a statement \"if X had happened, then i bet we would see Y now\" has prediction vibes but is not actually a prediction. this is especially pernicious when one fails but says \"i failed but i was close, so i should still "
+    },
+    "baseScore": 64,
+    "voteCount": 28,
+    "createdAt": null,
+    "postedAt": "2025-09-18T02:28:05.422Z",
+    "af": false
+  },
+  {
+    "_id": "AuW7rmsLF8erAFxcC",
+    "postId": "8aRFB2qGyjQGJkEdZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "my guess is that lots of people would change their minds if they really reflected on it with full wisdom and the assistance of an aligned and emotionally intelligent assistant. but if truly deep down some/many people value their beliefs over truth, and would never change their minds even if they reflected deeply on it, who are we to tell them not to do that? the best we can ask for is that they leave us alone to do what we believe is good, and vice versa.",
+      "plaintextDescription": "my guess is that lots of people would change their minds if they really reflected on it with full wisdom and the assistance of an aligned and emotionally intelligent assistant. but if truly deep down some/many people value their beliefs over truth, and would never change their minds even if they reflected deeply on it, who are we to tell them not to do that? the best we can ask for is that they leave us alone to do what we believe is good, and vice versa."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-17T16:04:07.076Z",
+    "af": false
+  },
+  {
+    "_id": "MbAok8KhkGuNvLRMN",
+    "postId": "fdCaCDfstHxyPmB9h",
+    "parentCommentId": "tzQwCncreh72wJJy5",
+    "topLevelCommentId": "tzQwCncreh72wJJy5",
+    "contents": {
+      "markdown": "in general publicly known training techniques are behind sota, so this should be taken into account.",
+      "plaintextDescription": "in general publicly known training techniques are behind sota, so this should be taken into account."
+    },
+    "baseScore": 11,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-17T15:49:28.257Z",
+    "af": false
+  },
+  {
+    "_id": "tZscD9iz8fXJbzw38",
+    "postId": "uGzhvohms374znKF3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I like the spirit of this work but it would benefit a lot from a more in depth review of the existing literature and methodologies. some examples (non exhaustive)\n\n*   the piecewise approximation thing is a pretty widely accepted opinion in ML\n*   visualizing the loss landscape as a plane between three points in model space is pretty common in the field and often the landscape is a lot more nontrivial.\n*   a factor of 3 loss difference is huge! if you want to claim that smooth actfn is better beyond what's explained by the loss, you need to compare two models with the same loss but different actfn.\n*   the post just hand waves away the difference between SGD and Adam. this is an important difference! Adam tries to take ~constant sized steps along each axis direction.\n*   local approximation of the loss landscape as approximately quadratic is pretty widely accepted; generally people look at the eigenvalues of the Hessian to try to understand the local shape of the loss landscape.\n*   scaling the gradient 500x is less impactful than it sounds like because the changes to the gradient scale are way less important than you'd expect because they get multiplied out by (1-beta2), this is unlike SGD where gradient scaling is equivalent to LR scaling.\n*   learning rate decay is an important part of real training that substantially affects many conclusions\n*   to compare models, if possible generally you want to train to the L(D) regime (loss has stopped improving at all), or pick some principled criterion for stopping early compute-optinally (L(C))",
+      "plaintextDescription": "I like the spirit of this work but it would benefit a lot from a more in depth review of the existing literature and methodologies. some examples (non exhaustive)\n\n * the piecewise approximation thing is a pretty widely accepted opinion in ML\n * visualizing the loss landscape as a plane between three points in model space is pretty common in the field and often the landscape is a lot more nontrivial.\n * a factor of 3 loss difference is huge! if you want to claim that smooth actfn is better beyond what's explained by the loss, you need to compare two models with the same loss but different actfn.\n * the post just hand waves away the difference between SGD and Adam. this is an important difference! Adam tries to take ~constant sized steps along each axis direction.\n * local approximation of the loss landscape as approximately quadratic is pretty widely accepted; generally people look at the eigenvalues of the Hessian to try to understand the local shape of the loss landscape.\n * scaling the gradient 500x is less impactful than it sounds like because the changes to the gradient scale are way less important than you'd expect because they get multiplied out by (1-beta2), this is unlike SGD where gradient scaling is equivalent to LR scaling.\n * learning rate decay is an important part of real training that substantially affects many conclusions\n * to compare models, if possible generally you want to train to the L(D) regime (loss has stopped improving at all), or pick some principled criterion for stopping early compute-optinally (L(C))"
+    },
+    "baseScore": 16,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-09-17T15:31:16.574Z",
+    "af": false
+  },
+  {
+    "_id": "mexQgkSoYe4yGuP4Y",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "crazy how x dot com is literally more addictive than actual amphetamines",
+      "plaintextDescription": "crazy how x dot com is literally more addictive than actual amphetamines "
+    },
+    "baseScore": 7,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-09-16T01:16:10.864Z",
+    "af": false
+  },
+  {
+    "_id": "cHjfqF2iCBgihw6rp",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "9i6hEbipSWwyzsFAA",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "it seems fine to invest and then publicly state your views, including that it should not be interpreted as an endorsement. your investment (and that of other people who decide similarly) is trivial in size compared to the other sources of funding, such that it's not counterfactual. you're not going to cause the founders of anthropic to get any less of a windfall. the decision process for the vast majority of possible investors does not take into account whether or not you invested.\n\ni think you've already sufficiently signaled your genuineness, for all practical purposes. i don't think it's healthy to have a purity spiral.",
+      "plaintextDescription": "it seems fine to invest and then publicly state your views, including that it should not be interpreted as an endorsement. your investment (and that of other people who decide similarly) is trivial in size compared to the other sources of funding, such that it's not counterfactual. you're not going to cause the founders of anthropic to get any less of a windfall. the decision process for the vast majority of possible investors does not take into account whether or not you invested.\n\ni think you've already sufficiently signaled your genuineness, for all practical purposes. i don't think it's healthy to have a purity spiral."
+    },
+    "baseScore": 6,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-08-28T08:36:41.319Z",
+    "af": false
+  },
+  {
+    "_id": "wnXMyzbojXCDAek87",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "only a fool is easily parted from his money. but even the most wise, intelligent, and savvy are routinely parted from his power and influence",
+      "plaintextDescription": "only a fool is easily parted from his money. but even the most wise, intelligent, and savvy are routinely parted from his power and influence "
+    },
+    "baseScore": 3,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-23T22:35:20.381Z",
+    "af": false
+  },
+  {
+    "_id": "6hJHa958vqWTCshku",
+    "postId": "zEB4xeTHxneHKtqSd",
+    "parentCommentId": "BHvcCP6AW88wqptXh",
+    "topLevelCommentId": "BHvcCP6AW88wqptXh",
+    "contents": {
+      "markdown": "lots of very important people spend all day being pestered by people due to their power/importance. at least some of them appreciate occasional interactions with people who just want to chat about something random like their bike seat",
+      "plaintextDescription": "lots of very important people spend all day being pestered by people due to their power/importance. at least some of them appreciate occasional interactions with people who just want to chat about something random like their bike seat"
+    },
+    "baseScore": 62,
+    "voteCount": 37,
+    "createdAt": null,
+    "postedAt": "2025-08-20T08:03:56.772Z",
+    "af": false
+  },
+  {
+    "_id": "BbFvefnwRydh3vvxT",
+    "postId": "CqmTsC6AHqrNgoS3i",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "once, due to a huge traffic accident on the 101 that turned a sub-half-hour uber into a 1 hour 15 minute uber, i arrived at the airport about 20 minutes before departure (yes, departure, not \"gate closes\"). because the uber app operates on \"uber time\", which is entirely unmoored from reality, this meant that the arrival time estimate slipped out 5 minutes at a time. so i went through the whole range of emotions: whew, thankfully i have an hour buffer; hmm, i've never arrived 40 minutes before a flight it's going to be tight; holy shit i'm going to miss this flight with only 30 mins; holy shit even if i wasn't going to miss the flight before i definitely am now.\n\n(to make matters worse, not only was the flight not delayed, the departure time was changed to be 5 minutes earlier than originally planned. i didn't even know they could do that.)\n\ni somehow still managed to get on the flight, which departed as scheduled. still not sure that happened, but i think i learned something about how perseverance is important in the face of almost certain defeat, or something like that idk. 2/10 would not do again.",
+      "plaintextDescription": "once, due to a huge traffic accident on the 101 that turned a sub-half-hour uber into a 1 hour 15 minute uber, i arrived at the airport about 20 minutes before departure (yes, departure, not \"gate closes\"). because the uber app operates on \"uber time\", which is entirely unmoored from reality, this meant that the arrival time estimate slipped out 5 minutes at a time. so i went through the whole range of emotions: whew, thankfully i have an hour buffer; hmm, i've never arrived 40 minutes before a flight it's going to be tight; holy shit i'm going to miss this flight with only 30 mins; holy shit even if i wasn't going to miss the flight before i definitely am now.\n\n(to make matters worse, not only was the flight not delayed, the departure time was changed to be 5 minutes earlier than originally planned. i didn't even know they could do that.)\n\ni somehow still managed to get on the flight, which departed as scheduled. still not sure that happened, but i think i learned something about how perseverance is important in the face of almost certain defeat, or something like that idk. 2/10 would not do again."
+    },
+    "baseScore": 11,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-08-15T21:42:53.411Z",
+    "af": false
+  },
+  {
+    "_id": "wpQJgbGeogqMtSHv3",
+    "postId": "n6nsPzJWurKWKk2pA",
+    "parentCommentId": "qQCYKWY7ckPZbxvSa",
+    "topLevelCommentId": "qQCYKWY7ckPZbxvSa",
+    "contents": {
+      "markdown": "you can even indicate an exact line by making a larger or smaller dogear",
+      "plaintextDescription": "you can even indicate an exact line by making a larger or smaller dogear"
+    },
+    "baseScore": 15,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-08-15T12:47:41.859Z",
+    "af": false
+  },
+  {
+    "_id": "5KjjBLrLYtMkp2NYT",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "in defense of putting your python imports in the middle of your file (in global scope, not inside functions)\n\n*   i have never in my life wanted to know the list of all the things a file imports before seeing any of the actual code in the file. if i see something i dont recognize, i would appreciate it more if the import were right above the usage; otherwise, i have to ctrl+f for it anyways. what's\n*   it's more annoying to have to add it to the top of the file. auto import things in ides are often broken.\n*   there's absolutely nothing wrong with importing something multiple times. it costs absolutely nothing; it's just a no-op the second time. even in C you can do `#pragma once` to get python-like behavior\n*   the only reason not to do this is that if you put an import in the middle of a function it's weird (if you import both blobally and locally, then using the thing locally but before the local import errors). so just don't put the import inside a function",
+      "plaintextDescription": "in defense of putting your python imports in the middle of your file (in global scope, not inside functions)\n\n * i have never in my life wanted to know the list of all the things a file imports before seeing any of the actual code in the file. if i see something i dont recognize, i would appreciate it more if the import were right above the usage; otherwise, i have to ctrl+f for it anyways. what's\n * it's more annoying to have to add it to the top of the file. auto import things in ides are often broken.\n * there's absolutely nothing wrong with importing something multiple times. it costs absolutely nothing; it's just a no-op the second time. even in C you can do #pragma once to get python-like behavior\n * the only reason not to do this is that if you put an import in the middle of a function it's weird (if you import both blobally and locally, then using the thing locally but before the local import errors). so just don't put the import inside a function"
+    },
+    "baseScore": 11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-14T06:08:01.775Z",
+    "af": false
+  },
+  {
+    "_id": "FsfNdWsXQdD92hSy6",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "kW2JehYDr6ChwQKuX",
+    "topLevelCommentId": "DRkujxhixzjBaPG49",
+    "contents": {
+      "markdown": "my guess is sth like 1; I think some people are a lot more sensitive to some flavors than others. also the extent to which you pay attention can affect flavor a lot. and fwiw I frequently notice that some restaurants make the same dish a lot better than other restaurants, and the major ingredients must be about the same (or at least the quality/quantity difference is small enough that it's not the first thing I noticed), so it must be in the minor ingredients. but often my friends won't notice a big difference and conversely I don't notice a big difference in the foods they draw strong distinctions for\n\n(there are some really subtle flavors that I like, that are very subtle and which most places get wrong in ways that I can't put my finger on - e.g hainan chicken rice, gyu-don, edmonton style donair)",
+      "plaintextDescription": "my guess is sth like 1; I think some people are a lot more sensitive to some flavors than others. also the extent to which you pay attention can affect flavor a lot. and fwiw I frequently notice that some restaurants make the same dish a lot better than other restaurants, and the major ingredients must be about the same (or at least the quality/quantity difference is small enough that it's not the first thing I noticed), so it must be in the minor ingredients. but often my friends won't notice a big difference and conversely I don't notice a big difference in the foods they draw strong distinctions for\n\n(there are some really subtle flavors that I like, that are very subtle and which most places get wrong in ways that I can't put my finger on - e.g hainan chicken rice, gyu-don, edmonton style donair)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-07T21:45:07.454Z",
+    "af": false
+  },
+  {
+    "_id": "XGGRPq29KuTGtJ2yJ",
+    "postId": "oPqgSrfkTt2sCKM3e",
+    "parentCommentId": "vu646uwk4ZrgMSSBN",
+    "topLevelCommentId": "mD9fsEXXpdCKxw9h5",
+    "contents": {
+      "markdown": "am not at all involved in naming so not sure, but i'd guess none of it is intentional and more just the emergent result of compromise between a bunch of people / relatively little effort being expended on naming",
+      "plaintextDescription": "am not at all involved in naming so not sure, but i'd guess none of it is intentional and more just the emergent result of compromise between a bunch of people / relatively little effort being expended on naming"
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-05T19:19:14.261Z",
+    "af": false
+  },
+  {
+    "_id": "6i5vgtfkovraw8mu8",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "BoxpkAdBxX25vLWaF",
+    "topLevelCommentId": "zCQS6mjS53CSiXYgM",
+    "contents": {
+      "markdown": "solution is very simple. administer alcohol before the test until everyone is exactly as clumsy as the NIST Standard Reference Clumsy Human for Accessibility Testing\n\n(or, rig the game, make a ledge that automatically pops out of the ground a split second before your foot hits it)",
+      "plaintextDescription": "solution is very simple. administer alcohol before the test until everyone is exactly as clumsy as the NIST Standard Reference Clumsy Human for Accessibility Testing\n\n(or, rig the game, make a ledge that automatically pops out of the ground a split second before your foot hits it)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-03T19:11:55.550Z",
+    "af": false
+  },
+  {
+    "_id": "zCQS6mjS53CSiXYgM",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "idea: survey people about whether 3^^^3 toe stubbings can be worse than torture, except with a twist: with 50% probability, arrange the furniture in the room such that people actually accidentally stub their toe right before answering the survey",
+      "plaintextDescription": "idea: survey people about whether 3^^^3 toe stubbings can be worse than torture, except with a twist: with 50% probability, arrange the furniture in the room such that people actually accidentally stub their toe right before answering the survey"
+    },
+    "baseScore": 10,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-08-03T05:55:58.045Z",
+    "af": false
+  },
+  {
+    "_id": "DRkujxhixzjBaPG49",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "obviously there's also a lot of consumer demand, but I wonder how much of the trend towards food with less complicated ingredients being marketed with that as a major pro is because it's more technically impressive to accomplish (my layman understanding is that the easy way to make viable commercial food is to just toss in a bunch of preservatives and emulsifiers and stabilizers and you have a lot of margin for error, and avoiding them requires a lot of creativity in leveraging the specific properties of the food you're dealing with / modifying the packaging strategy to create a more elegant solution)",
+      "plaintextDescription": "obviously there's also a lot of consumer demand, but I wonder how much of the trend towards food with less complicated ingredients being marketed with that as a major pro is because it's more technically impressive to accomplish (my layman understanding is that the easy way to make viable commercial food is to just toss in a bunch of preservatives and emulsifiers and stabilizers and you have a lot of margin for error, and avoiding them requires a lot of creativity in leveraging the specific properties of the food you're dealing with / modifying the packaging strategy to create a more elegant solution)"
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-01T20:40:54.979Z",
+    "af": false
+  },
+  {
+    "_id": "6MoeDQL4TNQWkPEn9",
+    "postId": "xPrL2xF9iYWpPmu6B",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If I were in her shoes, behaving the way she behaves, I would feel disgust toward *myself*.\n\n(tl;dr: you should be kind to yourself)\n\nsuppose you have some major flaw that you should fix; something you feel kind of vaguely bad about it, but somehow you just haven't ever managed to fix it. given that you being aware of it hasn't already just fixed it, it's probably not trivial to fix. now imagine someone (whose opinion you care a lot about) comes in and berates you for it. they call you an idiot, a fool, the entire circus--the whole works. they argue that you should obviously just do X (you've already tried to do X, but they don't know that, because they're so convinced that you're wrong that you can't get a word in edgewise).\n\nmaybe after thinking about it for a while you'd agree, but in that moment? you'd probably feel quite upset and defensive and annoyed. if you respect this person's opinion a lot, you might even feel ashamed or afraid. and however hard it usually is to make progress on improving, it is probably even harder in that moment.\n\nbeing disgusted at people for having a nail in their head is counterproductive to them taking the nail out. being disgusted at *yourself* for having a nail in your head is counterproductive to you taking the nail out of your own head.\n\nyou'd probably feel a lot better if someone sat down with you and first listened to all the things you had tried, and understood your confusion at why you find it so hard to fix something that seems easy to fix, etc. it's possible to still convey a sense of urgency and importance without meanness.\n\njust as you can treat other people this way, so too can you treat yourself this way; just as this is more effective to get other people to do what you want so too is this a better way to get yourself to do what you want.",
+      "plaintextDescription": "> If I were in her shoes, behaving the way she behaves, I would feel disgust toward myself.\n\n(tl;dr: you should be kind to yourself)\n\nsuppose you have some major flaw that you should fix; something you feel kind of vaguely bad about it, but somehow you just haven't ever managed to fix it. given that you being aware of it hasn't already just fixed it, it's probably not trivial to fix. now imagine someone (whose opinion you care a lot about) comes in and berates you for it. they call you an idiot, a fool, the entire circus--the whole works. they argue that you should obviously just do X (you've already tried to do X, but they don't know that, because they're so convinced that you're wrong that you can't get a word in edgewise).\n\nmaybe after thinking about it for a while you'd agree, but in that moment? you'd probably feel quite upset and defensive and annoyed. if you respect this person's opinion a lot, you might even feel ashamed or afraid. and however hard it usually is to make progress on improving, it is probably even harder in that moment.\n\nbeing disgusted at people for having a nail in their head is counterproductive to them taking the nail out. being disgusted at yourself for having a nail in your head is counterproductive to you taking the nail out of your own head.\n\nyou'd probably feel a lot better if someone sat down with you and first listened to all the things you had tried, and understood your confusion at why you find it so hard to fix something that seems easy to fix, etc. it's possible to still convey a sense of urgency and importance without meanness.\n\njust as you can treat other people this way, so too can you treat yourself this way; just as this is more effective to get other people to do what you want so too is this a better way to get yourself to do what you want."
+    },
+    "baseScore": 16,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-07-31T08:32:14.176Z",
+    "af": false
+  },
+  {
+    "_id": "oL9yA3dBGEQZGX9PN",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "ZGGPxigsYP7upSiga",
+    "topLevelCommentId": "yqD9WdzRidD5Qwycg",
+    "contents": {
+      "markdown": "It feels weird to me to treat longtermism as an ingroup/outgroup divider. I guess I think of myself as not really EA/longtermist. I mostly care about the medium-term glorious transhumanist future. I don't really base my actions on the core longtermist axiom; I only care about the unimaginably vast number of future moral patients indirectly, through caring about humanity being able to make and implement good moral decisions a hundred years from now. \n\nThe main thing I look at to determine whether someone is value-aligned with me is whether they care about making the future go well (in a vaguely ambitious transhumanist coded way), as opposed to personal wealth or degrowth whatever.",
+      "plaintextDescription": "It feels weird to me to treat longtermism as an ingroup/outgroup divider. I guess I think of myself as not really EA/longtermist. I mostly care about the medium-term glorious transhumanist future. I don't really base my actions on the core longtermist axiom; I only care about the unimaginably vast number of future moral patients indirectly, through caring about humanity being able to make and implement good moral decisions a hundred years from now. \n\nThe main thing I look at to determine whether someone is value-aligned with me is whether they care about making the future go well (in a vaguely ambitious transhumanist coded way), as opposed to personal wealth or degrowth whatever."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-29T21:01:45.385Z",
+    "af": false
+  },
+  {
+    "_id": "AZQyNQKNjyHCNPTcB",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "yqD9WdzRidD5Qwycg",
+    "topLevelCommentId": "yqD9WdzRidD5Qwycg",
+    "contents": {
+      "markdown": "why longtermist, as opposed to AI safety?",
+      "plaintextDescription": "why longtermist, as opposed to AI safety?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-29T07:11:17.705Z",
+    "af": false
+  },
+  {
+    "_id": "xw8yYemduX6BwLsfj",
+    "postId": "KXr8ys8PYppKXgGWj",
+    "parentCommentId": "fhsznRwG476rbA5SK",
+    "topLevelCommentId": "fhsznRwG476rbA5SK",
+    "contents": {
+      "markdown": "this is not exactly what you're asking for, but german swaps the ones and tens digits in spoken language",
+      "plaintextDescription": "this is not exactly what you're asking for, but german swaps the ones and tens digits in spoken language "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-28T02:46:47.112Z",
+    "af": false
+  },
+  {
+    "_id": "hkpwGbfMhoGRpNiay",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "Kyh7wPFnaDAbCJMQz",
+    "topLevelCommentId": "QeHXNuBRHmrbHEfFM",
+    "contents": {
+      "markdown": "yeah, that was an intentional feature of the example chosen. i'd guess most people who are aware of this fact do still think of helicopter as a single unit in their head unless they choose to decompose it, because you hear each of these words often enough that you don't really need to work out the meaning from etymology. and so if pter were pronounced the way it currently is when in helicopter but pronounced as \"peter\" in pterodactyl it would not actually be that much more confusing than it currently is.",
+      "plaintextDescription": "yeah, that was an intentional feature of the example chosen. i'd guess most people who are aware of this fact do still think of helicopter as a single unit in their head unless they choose to decompose it, because you hear each of these words often enough that you don't really need to work out the meaning from etymology. and so if pter were pronounced the way it currently is when in helicopter but pronounced as \"peter\" in pterodactyl it would not actually be that much more confusing than it currently is."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-27T21:57:17.795Z",
+    "af": false
+  },
+  {
+    "_id": "QeHXNuBRHmrbHEfFM",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(this is based on / expanded from a response I wrote to a tweet that was talking about how autistic people struggle in the world because the world follows unwritten rules that are more important than the written ones.)\n\nI think most autistic people should invest more in understanding the unwritten rules. it can be cruel and unfair, but it's important to know how to interact with it. and it's actually a really interesting system to map out, with its own rhyme and reason.\n\nit's entirely understandable that people feel burned by bad past experiences, and to have learned helplessness from bullying or other unfair treatment. this kind of thing leaves a scar and can make it feel viscerally hopeless.\n\nbut it still feels defeatist to just throw up one's hands and say \"it's too complicated.\" yes, it's complicated and fuzzy and initially unintuitive and takes years to master. so is ML research. the point of being intelligent is that you are good at finding patterns and learning things, and there's nothing truly fundamentally different about the unwritten rules of social interaction.\n\nI see people taking examples of weird unintuitive social rules all the time and, tbh, none of them are truly that complicated compared to like, language learning, or ML stuff? like, memorizing lots of arbitrary rules is just part of learning literally any intellectual discipline. not to mention that there often is actually underlying structure that you can reason about.\n\nimo one other reason this happens is that complaining is fun! a bit of a digression: to build on the language learning analogy, I love to complain about e.g how deranged the kanji system is in Japanese. it makes for an entertaining story to explain that each kanji maps onto between two and a zillion very distinct possible pronunciations, and that it's entirely context dependent on the phrase, with lots of strange exceptions and so on that you just kind of have to memorize. but honestly, when I reflect on my experience as a Chinese speaker, I notice that that even though Chinese characters, unlike Japanese, map to a unique pronunciation 99% of the time, I still think of the conceptual atomic unit of Chinese as being groups of characters, and it's actually really easy for me to forget that two different words actually contain the same character. (like imagine if \"pter\" were a single character in words like helicopter and pterodactyl both contain \"pter\", but you'd probably think of \"helicopter\" as an atomic unit with its own unique identity). \n\nso while it's fun to complain about Japanese, it actually isn't as bad as it sounds to learn it, and it actually does fit the shape of the human brain quite well. i think this is basically the right way to think about learning unwritten rules in social interaction as well. it takes lots of effort and practice, some things like accents are a ton of work to fix, and it's obviously hard to become as fluent in it as a native speaker, but you can get pretty damn good even if you get started later in life if you truly care a lot.",
+      "plaintextDescription": "(this is based on / expanded from a response I wrote to a tweet that was talking about how autistic people struggle in the world because the world follows unwritten rules that are more important than the written ones.)\n\nI think most autistic people should invest more in understanding the unwritten rules. it can be cruel and unfair, but it's important to know how to interact with it. and it's actually a really interesting system to map out, with its own rhyme and reason.\n\nit's entirely understandable that people feel burned by bad past experiences, and to have learned helplessness from bullying or other unfair treatment. this kind of thing leaves a scar and can make it feel viscerally hopeless.\n\nbut it still feels defeatist to just throw up one's hands and say \"it's too complicated.\" yes, it's complicated and fuzzy and initially unintuitive and takes years to master. so is ML research. the point of being intelligent is that you are good at finding patterns and learning things, and there's nothing truly fundamentally different about the unwritten rules of social interaction.\n\nI see people taking examples of weird unintuitive social rules all the time and, tbh, none of them are truly that complicated compared to like, language learning, or ML stuff? like, memorizing lots of arbitrary rules is just part of learning literally any intellectual discipline. not to mention that there often is actually underlying structure that you can reason about.\n\nimo one other reason this happens is that complaining is fun! a bit of a digression: to build on the language learning analogy, I love to complain about e.g how deranged the kanji system is in Japanese. it makes for an entertaining story to explain that each kanji maps onto between two and a zillion very distinct possible pronunciations, and that it's entirely context dependent on the phrase, with lots of strange exceptions and so on that you just kind of have to memorize. but honestly, when I reflect on my experience as a Chines"
+    },
+    "baseScore": 32,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-07-27T11:48:58.455Z",
+    "af": false
+  },
+  {
+    "_id": "isFP9TrFSKAN9LsrT",
+    "postId": "4oCh3x6EPHomEbcDJ",
+    "parentCommentId": "r8nGLRS2j4dENsxsA",
+    "topLevelCommentId": "hnqb7CwkasbGnssY2",
+    "contents": {
+      "markdown": "I want to defend interp as a reasonable thing for one to do for superintelligence alignment, to the extent that one believes there is any object level work of value to do right now. (maybe there isn't, and everyone should go do field building or something. no strong takes rn.) I've become more pessimistic about the weird alignment theory over time and I think it's doomed just like how most theory work in ML is doomed (and at least ML theorists can test their theories against real NNs, if they so choose! alignment theory has no AGI to test against.)\n\nI don't really buy that interp (specifically ambitious mechinterp, the project of fully understanding exactly how neural networks work down to the last gear) has been that useful for capabilities insights to date. fmpov, the process that produces useful capabilities insights generally operates at a different level of abstraction than mechinterp operates at. I can't talk about current examples for obvious reasons but I can talk about historical ones. with Chinchilla, it fixes a mistake in the Kaplan paper token budget methodology that's obvious in hindsight; momentum and LR decay, which have been around for decades, are based on intuitive arguments from classic convex optimization; transformers came about by reasoning about the shape and trajectory of computers and trying to parallelize things as much as possible. also, a lot of stuff Just Works and nobody knows why.\n\none analogy that comes to mind is if your goal is to make your country's economy go well, it certainly can't hurt to become really good friends with a random subset of the population to understand everything they do. you'll learn things about how they respond to price changes or whether they'd be more efficient with better healthcare or whatever. but it's probably a much much higher priority for you to understand how economies respond to the interest rate, or tariffs, or job programs, or so on, and you want to think of people as crowds of *homo economicus* with preference curves modeled as a few simple splines or something.\n\nas interp starts actually working it might generate actual capabilities insights. I don't feel confident claiming this will never happen. but it feels marginal and likely substantially less efficient than just directly working on capabilities. (it's hard to accidentally advance a field if you're not even trying to advance it and a hundred incredibly smart and well resources people are poking at it!)",
+      "plaintextDescription": "I want to defend interp as a reasonable thing for one to do for superintelligence alignment, to the extent that one believes there is any object level work of value to do right now. (maybe there isn't, and everyone should go do field building or something. no strong takes rn.) I've become more pessimistic about the weird alignment theory over time and I think it's doomed just like how most theory work in ML is doomed (and at least ML theorists can test their theories against real NNs, if they so choose! alignment theory has no AGI to test against.)\n\nI don't really buy that interp (specifically ambitious mechinterp, the project of fully understanding exactly how neural networks work down to the last gear) has been that useful for capabilities insights to date. fmpov, the process that produces useful capabilities insights generally operates at a different level of abstraction than mechinterp operates at. I can't talk about current examples for obvious reasons but I can talk about historical ones. with Chinchilla, it fixes a mistake in the Kaplan paper token budget methodology that's obvious in hindsight; momentum and LR decay, which have been around for decades, are based on intuitive arguments from classic convex optimization; transformers came about by reasoning about the shape and trajectory of computers and trying to parallelize things as much as possible. also, a lot of stuff Just Works and nobody knows why.\n\none analogy that comes to mind is if your goal is to make your country's economy go well, it certainly can't hurt to become really good friends with a random subset of the population to understand everything they do. you'll learn things about how they respond to price changes or whether they'd be more efficient with better healthcare or whatever. but it's probably a much much higher priority for you to understand how economies respond to the interest rate, or tariffs, or job programs, or so on, and you want to think of people as crowds of homo economicus wit"
+    },
+    "baseScore": 14,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-26T05:47:39.025Z",
+    "af": false
+  },
+  {
+    "_id": "HHK5a94S5Pp83BzEQ",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "everyone is a few hops away from everyone else. this applies in both directions: when I meet random people they always have some weak connection to other people I know, but also when I think of a collection of people as a cluster, most specific pairs of people within that cluster barely know each other except through other people in the cluster.",
+      "plaintextDescription": "everyone is a few hops away from everyone else. this applies in both directions: when I meet random people they always have some weak connection to other people I know, but also when I think of a collection of people as a cluster, most specific pairs of people within that cluster barely know each other except through other people in the cluster."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-26T05:23:40.620Z",
+    "af": false
+  },
+  {
+    "_id": "6cp64cgNzNYBxvFRu",
+    "postId": "pzChyAuu7ggmLd75B",
+    "parentCommentId": "WZbrmW9bQaQCd3qSm",
+    "topLevelCommentId": "WZbrmW9bQaQCd3qSm",
+    "contents": {
+      "markdown": "i think \"build out infrastructure\" is hugely overrated in research. for example, the existing codebases for SAEs (training, activation caching, autointerp) are often actively worse than useless, such that i would rather spend a weekend rewriting it from scratch than work within them. in general i think people should throw out and rewrite research infra much more often than they do. not saying truly good research infrastructure can't exist, in theory, just that empirically people really suck at making good reusable infrastructure.",
+      "plaintextDescription": "i think \"build out infrastructure\" is hugely overrated in research. for example, the existing codebases for SAEs (training, activation caching, autointerp) are often actively worse than useless, such that i would rather spend a weekend rewriting it from scratch than work within them. in general i think people should throw out and rewrite research infra much more often than they do. not saying truly good research infrastructure can't exist, in theory, just that empirically people really suck at making good reusable infrastructure."
+    },
+    "baseScore": 13,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-23T23:04:00.783Z",
+    "af": false
+  },
+  {
+    "_id": "yzJXYwpS9jjLxTFa6",
+    "postId": "s58hDHX2GkFDbpGKD",
+    "parentCommentId": "FPdmg2sMLGkQsEdFt",
+    "topLevelCommentId": "vSFdLhaacaYGYL5uK",
+    "contents": {
+      "markdown": "if only his friend were the great scientist Hamming, who would blame him for not working on the most important problem in the field",
+      "plaintextDescription": "if only his friend were the great scientist Hamming, who would blame him for not working on the most important problem in the field"
+    },
+    "baseScore": 14,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-07-21T23:37:16.309Z",
+    "af": false
+  },
+  {
+    "_id": "Rq5FvYxePcxvteKPE",
+    "postId": "s58hDHX2GkFDbpGKD",
+    "parentCommentId": "vSFdLhaacaYGYL5uK",
+    "topLevelCommentId": "vSFdLhaacaYGYL5uK",
+    "contents": {
+      "markdown": "not igniting the atmosphere was probably the most important problem in the field at that moment. why wasn't he working on it?",
+      "plaintextDescription": "not igniting the atmosphere was probably the most important problem in the field at that moment. why wasn't he working on it?"
+    },
+    "baseScore": 57,
+    "voteCount": 31,
+    "createdAt": null,
+    "postedAt": "2025-07-21T05:24:00.066Z",
+    "af": false
+  },
+  {
+    "_id": "Mojmzmcztagx4WSJz",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "random thoughts on analytical and emotional intelligence \n\none thing that I think the world needs more of is analyses into the nature of the mind by people who are both rigorous/analytically inclined, and also emotionally intelligent/integrated. much writing from the former fails to model large parts of the human mind, and much writing from the latter fails to create models of sufficient clarity and validity. \n\nI think this underlies a lot of my instinctive dislike of humanities work. people who are emotionally perceptive but not rigorous and analytical tend to notice interesting things about the human experience, but then come up with very poor models that set off all of my bullshit sensors that are attuned to rigorous arguments. but I think it should be possible to have humanities work that is not like this.\n\n(for clarity, from here out I will say analytical and emotional to refer to the axes which are independent of each other, and ABNE (analytically but not emotionally intelligent) and EBNA for the converse)\n\n(I also want to clarify that I don't think of analytical as being in opposition to intuition, at least in the context of this post. something something Terence Tao's post about how the best mathematicians start out thinking in rigor before developing the intuitions to think without applying rigor all the time, but their intuitions check out rigorously when needed)\n\nbecause there's a strong anti correlation between analytical inclination and emotional integration, it's easy to round this off to a single axis. but I think this is too oversimplifying.\n\nanalytical people like to construct typologies and categorizations that cleanly describe the world. edge cases are very important because in a lawful world, thinking about the edge cases teaches you a lot about the laws of the world, which in turn gives you deep understanding that is surprising but robust (physics is the poster child for this worldview). analytical people are very aware that it's easy to make theories that sound nice but aren't actually good; it's important to have rigorous standards for testing theories; indeed, it's important to have rigorous meta-theory (epistemology) for what counts as an actual rigorous standard and not just Rigorous Vibes. analytical people care a lot about subtle but important distinctions - for example, correlation vs causality; or thinking of high dimensional data as having large principal components vs fundamentally low dimensional data being embedded in high dimensional space; or true anticorrelations vs collider bias; or the distinction between unmodelability and noise; or biased vs high variance estimators. in some sense the Sequences is a compendium of examples from the analytical worldview.\n\nemotionally intelligent people tend to be good at modelling themselves and the people around them. they can sense subtle social cues. they can notice that certain attributes or actions of people reveal much about their internal state, that ABNE people would think of as noise. they tend towards the arts and forms of creative expression that communicate and allow empathizing with emotional state. they are attuned to narratives and worldviews as a thing that shapes the actions of individuals and groups. they have fewer unresolved internal conflicts between their parts. they can spot emotional/motivational contradictions in the minds of other people that end up driving actions; this is inferred not just from what others say, but from what they don't say, or what they hesitate to say.\n\nABNE people tend to think of EBNA people as dumb or irrational. they think of EBNA people as snobbish about the humanities and their ideas as insight porn, the result of an ingroup signalling game gone awry. ABNE people tend to construct sophisticated models of themselves and other people that lack a huge chunk of important inputs, making certain kinds of things really hard to model, and requiring way more intellectual capability to achieve the same accuracy as emotionally intelligent people. this frequently leads to large swathes of human behavior being changed chalked up to noise, or irrationality, or even completely giving up on modelling entire facets of humanity. ABNE people tend to have major issues with internal coherency between their parts.\n\nEBNA people like to think of ABNE people as boring nerdy nitpickers. they spot the internal incoherency of ABNE people but undervalue the analytical component. oftentimes they phrase beliefs in forms that contain some important true observation, but can't put it in the form of something rigorous and testable, and thereby gets lost in the oceans of insight slop sloshing about in the world. EBNA people notice lots of signals but fail to put them together into a coherent, effective worldview, and instead coarsely clusters observations together into simple heuristics.\n\nthis post is unapologetically written as an analytical way of trying to get the best of both worlds, because this is how I think natively. perhaps in the future I'll try to make a more balanced / broadly digestible version.",
+      "plaintextDescription": "random thoughts on analytical and emotional intelligence \n\none thing that I think the world needs more of is analyses into the nature of the mind by people who are both rigorous/analytically inclined, and also emotionally intelligent/integrated. much writing from the former fails to model large parts of the human mind, and much writing from the latter fails to create models of sufficient clarity and validity. \n\nI think this underlies a lot of my instinctive dislike of humanities work. people who are emotionally perceptive but not rigorous and analytical tend to notice interesting things about the human experience, but then come up with very poor models that set off all of my bullshit sensors that are attuned to rigorous arguments. but I think it should be possible to have humanities work that is not like this.\n\n(for clarity, from here out I will say analytical and emotional to refer to the axes which are independent of each other, and ABNE (analytically but not emotionally intelligent) and EBNA for the converse)\n\n(I also want to clarify that I don't think of analytical as being in opposition to intuition, at least in the context of this post. something something Terence Tao's post about how the best mathematicians start out thinking in rigor before developing the intuitions to think without applying rigor all the time, but their intuitions check out rigorously when needed)\n\nbecause there's a strong anti correlation between analytical inclination and emotional integration, it's easy to round this off to a single axis. but I think this is too oversimplifying.\n\nanalytical people like to construct typologies and categorizations that cleanly describe the world. edge cases are very important because in a lawful world, thinking about the edge cases teaches you a lot about the laws of the world, which in turn gives you deep understanding that is surprising but robust (physics is the poster child for this worldview). analytical people are very aware that it's easy to make th"
+    },
+    "baseScore": 72,
+    "voteCount": 29,
+    "createdAt": null,
+    "postedAt": "2025-07-20T01:48:55.988Z",
+    "af": false
+  },
+  {
+    "_id": "jkFHuDwZee7Frt6wp",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "f59nujqkzXP5kEHEu",
+    "topLevelCommentId": "wSWAsKbKTkGurdRNW",
+    "contents": {
+      "markdown": "it's also worth noting that I am far in the tail ends of the distribution of people willing to ignore incentive gradients if I believe it's correct not to follow them. (I've gotten somewhat more pragmatic about this over time, because sometimes not following the gradient is just dumb. and as a human being it's impossible not to care a little bit about status and money and such. but I still have a very strong tendency to ignore local incentives if I believe something is right in the long run.) like I'm aware I'll get promoed less and be viewed as less cool and not get as much respect and so on if I do the alignment work I think is genuinely important in the long run. \n\nI'd guess for most people, the disincentives for working on xrisk alignment make openai a vastly less pleasant place. so whenever I say I don't feel like I'm pressured not to do what I'm doing, this does not necessarily mean the average person at openai would agree if they tried to work on my stuff.",
+      "plaintextDescription": "it's also worth noting that I am far in the tail ends of the distribution of people willing to ignore incentive gradients if I believe it's correct not to follow them. (I've gotten somewhat more pragmatic about this over time, because sometimes not following the gradient is just dumb. and as a human being it's impossible not to care a little bit about status and money and such. but I still have a very strong tendency to ignore local incentives if I believe something is right in the long run.) like I'm aware I'll get promoed less and be viewed as less cool and not get as much respect and so on if I do the alignment work I think is genuinely important in the long run. \n\nI'd guess for most people, the disincentives for working on xrisk alignment make openai a vastly less pleasant place. so whenever I say I don't feel like I'm pressured not to do what I'm doing, this does not necessarily mean the average person at openai would agree if they tried to work on my stuff."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-18T08:09:36.735Z",
+    "af": false
+  },
+  {
+    "_id": "af5iumcRHSkGZGCoT",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "x9eaBcuxv5kCunvvi",
+    "topLevelCommentId": "wSWAsKbKTkGurdRNW",
+    "contents": {
+      "markdown": "I acknowledge that I probably have an unusual experience among people working on xrisk things at openai. From what I've heard from other people I trust, there probably have been a bunch of cases where someone was genuinely blocked from publishing something about xrisk, and I just happen to have gotten lucky so far.",
+      "plaintextDescription": "I acknowledge that I probably have an unusual experience among people working on xrisk things at openai. From what I've heard from other people I trust, there probably have been a bunch of cases where someone was genuinely blocked from publishing something about xrisk, and I just happen to have gotten lucky so far."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-18T08:00:48.732Z",
+    "af": false
+  },
+  {
+    "_id": "yLwws5BYzg54LMRGR",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "tK2dTCX4BpQY2aZ3G",
+    "topLevelCommentId": "wSWAsKbKTkGurdRNW",
+    "contents": {
+      "markdown": "i wouldn't comment this confidently if i didn't",
+      "plaintextDescription": "i wouldn't comment this confidently if i didn't"
+    },
+    "baseScore": 15,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-07-18T01:05:11.233Z",
+    "af": false
+  },
+  {
+    "_id": "QEHbWGmeGofgX5kME",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "L2uG2AebGZ5dDSRRD",
+    "topLevelCommentId": "wSWAsKbKTkGurdRNW",
+    "contents": {
+      "markdown": "openai explicitly encourages safety work that also is useful for capabilities. people at oai think of it as a positive attribute when safety work also helps with capabilities, and are generally confused when i express the view that not advancing capabilities is a desirable attribute of doing safety.\n\ni think we as a community has a definition of the word safety that diverges more from the layperson definition than the openai definition does. i think our definition is more *useful* to focus on for making the future go well, but i wouldn't say it's the most accepted one.\n\ni think openai deeply believes that doing things in the real world is more important than publishing academic things. so people get rewarded for putting interventions in the world than putting papers in the hands of academics.",
+      "plaintextDescription": "openai explicitly encourages safety work that also is useful for capabilities. people at oai think of it as a positive attribute when safety work also helps with capabilities, and are generally confused when i express the view that not advancing capabilities is a desirable attribute of doing safety.\n\ni think we as a community has a definition of the word safety that diverges more from the layperson definition than the openai definition does. i think our definition is more useful to focus on for making the future go well, but i wouldn't say it's the most accepted one.\n\ni think openai deeply believes that doing things in the real world is more important than publishing academic things. so people get rewarded for putting interventions in the world than putting papers in the hands of academics."
+    },
+    "baseScore": 22,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-07-17T23:41:11.124Z",
+    "af": false
+  },
+  {
+    "_id": "f59nujqkzXP5kEHEu",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "3GbyFCpmfsySAbkiw",
+    "topLevelCommentId": "wSWAsKbKTkGurdRNW",
+    "contents": {
+      "markdown": "i have never experienced pushback when publishing research that draws attention to xrisk. it's more that people are not incentivized to work on xrisk research in the first place. also, for mundane safety work, my guess is that modern openai just values shipping things into prod a lot more than writing papers.",
+      "plaintextDescription": "i have never experienced pushback when publishing research that draws attention to xrisk. it's more that people are not incentivized to work on xrisk research in the first place. also, for mundane safety work, my guess is that modern openai just values shipping things into prod a lot more than writing papers."
+    },
+    "baseScore": 21,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-17T23:35:52.942Z",
+    "af": false
+  },
+  {
+    "_id": "cHRvnLNQvSLc5eJPd",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "wSWAsKbKTkGurdRNW",
+    "topLevelCommentId": "wSWAsKbKTkGurdRNW",
+    "contents": {
+      "markdown": "most of the x-risk relevant research done at openai is published? the stuff that's not published is usually more on the practical risks side. there just isn't that much xrisk stuff, period.",
+      "plaintextDescription": "most of the x-risk relevant research done at openai is published? the stuff that's not published is usually more on the practical risks side. there just isn't that much xrisk stuff, period."
+    },
+    "baseScore": 49,
+    "voteCount": 21,
+    "createdAt": null,
+    "postedAt": "2025-07-17T23:33:43.422Z",
+    "af": false
+  },
+  {
+    "_id": "tkbCmbb7EuhQaQKzq",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "wGLyFKpMD8vFgDmsC",
+    "topLevelCommentId": "6wqrugJKDvta9yceh",
+    "contents": {
+      "markdown": "well, in academia, if you do quality work anyways and ignore incentives, you'll get a lot less funding to do that quality work, and possibly perish.\n\nunfortunately, academia is not a sufficiently well designed system to extract useful work out of grifters.",
+      "plaintextDescription": "well, in academia, if you do quality work anyways and ignore incentives, you'll get a lot less funding to do that quality work, and possibly perish.\n\nunfortunately, academia is not a sufficiently well designed system to extract useful work out of grifters."
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-17T23:00:38.071Z",
+    "af": false
+  },
+  {
+    "_id": "6wqrugJKDvta9yceh",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "i think of the idealized platonic researcher as the person who has chosen ultimate (intellectual) freedom over all else. someone who really cares about some particular thing that nobody else does - maybe because they see the future before anyone else does, or maybe because they just really like understanding everything about ants or abstract mathematical objects or something. in exchange for the ultimate intellectual freedom, they give up vast amounts of money, status, power, etc.\n\none thing that makes me sad is that modern academia is, as far as I can tell, not this. when you opt out of the game of the Economy, in exchange for giving up real money, status, and power, what you get from Academia is another game of money, status, and power, with different rules, and much lower stakes, and also everyone is more petty about everything.\n\nat the end of the day, what's even the point of all this? to me, it feels like sacrificing everything for nothing if you eschew money, status, and power, and then just write a terrible irreplicable p-hacked paper that reduces the net amount of human knowledge by adding noise and advances your career so you can do more terrible useless papers. at that point, why not just leave academia and go to industry and do something equally useless for human knowledge but get paid stacks of cash for it?\n\nofc there are people in academia who do good work but it often feels like the incentives force most work to be this kind of horrible slop.",
+      "plaintextDescription": "i think of the idealized platonic researcher as the person who has chosen ultimate (intellectual) freedom over all else. someone who really cares about some particular thing that nobody else does - maybe because they see the future before anyone else does, or maybe because they just really like understanding everything about ants or abstract mathematical objects or something. in exchange for the ultimate intellectual freedom, they give up vast amounts of money, status, power, etc.\n\none thing that makes me sad is that modern academia is, as far as I can tell, not this. when you opt out of the game of the Economy, in exchange for giving up real money, status, and power, what you get from Academia is another game of money, status, and power, with different rules, and much lower stakes, and also everyone is more petty about everything.\n\nat the end of the day, what's even the point of all this? to me, it feels like sacrificing everything for nothing if you eschew money, status, and power, and then just write a terrible irreplicable p-hacked paper that reduces the net amount of human knowledge by adding noise and advances your career so you can do more terrible useless papers. at that point, why not just leave academia and go to industry and do something equally useless for human knowledge but get paid stacks of cash for it?\n\nofc there are people in academia who do good work but it often feels like the incentives force most work to be this kind of horrible slop."
+    },
+    "baseScore": 44,
+    "voteCount": 31,
+    "createdAt": null,
+    "postedAt": "2025-07-17T05:24:41.564Z",
+    "af": true
+  },
+  {
+    "_id": "AsHLT4eEAnshBtYMx",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "JvfbqhYbRvWi7yrdv",
+    "topLevelCommentId": "pogcgTjhTKxbiErDj",
+    "contents": {
+      "markdown": "in my worldview this is very easily explained. if you do Jungian therapy your self model starts incorporating Jungian concepts for explaining your own brain. You didn't change the way your brain works fundamentally, you just changed your own model of your brain. The same way that if you read a book on the biology of plants you'll start viewing them in the lens of cells, and if you read a book on the ancient spirits associated with each plant you'll start thinking of plants as being animated by the ghosts of our ancestors.\n\nThe big mistake happens when people think of their self model as actually genuinely introspection. Then, you might think that you've changed the shape of your mind instead of only changing your understanding of your mind.\n\nInstead, I think the right way to figure out if your self model is correct is to make predictions about your future behavior and see if they come true; act based on your self model and see if you become more successful at life, or whether you mysteriously repeatedly fail in some way.",
+      "plaintextDescription": "in my worldview this is very easily explained. if you do Jungian therapy your self model starts incorporating Jungian concepts for explaining your own brain. You didn't change the way your brain works fundamentally, you just changed your own model of your brain. The same way that if you read a book on the biology of plants you'll start viewing them in the lens of cells, and if you read a book on the ancient spirits associated with each plant you'll start thinking of plants as being animated by the ghosts of our ancestors.\n\nThe big mistake happens when people think of their self model as actually genuinely introspection. Then, you might think that you've changed the shape of your mind instead of only changing your understanding of your mind.\n\nInstead, I think the right way to figure out if your self model is correct is to make predictions about your future behavior and see if they come true; act based on your self model and see if you become more successful at life, or whether you mysteriously repeatedly fail in some way."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-17T05:07:01.631Z",
+    "af": false
+  },
+  {
+    "_id": "dHJtetLnLAitraHug",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "8i9wccjEXsgQNsuvs",
+    "topLevelCommentId": "2AbFmRkGF9TzXrrAt",
+    "contents": {
+      "markdown": "i haven't looked into this deeply but how strong is the evidence for (lack of) oxidative damage? the SSC post is somewhat unsatisfying in that it doesn't really consider outcomes other than literal Parkinson's, and just kind of says the animal model results are confusion.",
+      "plaintextDescription": "i haven't looked into this deeply but how strong is the evidence for (lack of) oxidative damage? the SSC post is somewhat unsatisfying in that it doesn't really consider outcomes other than literal Parkinson's, and just kind of says the animal model results are confusion."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-16T01:04:57.217Z",
+    "af": false
+  },
+  {
+    "_id": "NLJCjhchAsfZXAqGY",
+    "postId": "EYc9sFizBaEgAsFNW",
+    "parentCommentId": "AFmN8KSD2PKhgJooa",
+    "topLevelCommentId": "AFmN8KSD2PKhgJooa",
+    "contents": {
+      "markdown": "i agree hiring lots of people is rarely the solution, especially for this type of problem. adding more people to a team actually slows it down at some point. generally, you want a small team of extremely competent people.",
+      "plaintextDescription": "i agree hiring lots of people is rarely the solution, especially for this type of problem. adding more people to a team actually slows it down at some point. generally, you want a small team of extremely competent people."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-14T21:14:10.601Z",
+    "af": false
+  },
+  {
+    "_id": "2AbFmRkGF9TzXrrAt",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "when people say that (prescription) amphetamines \"borrow from the future\", is there strong evidence on this? with Ozempic we've observed that people are heavily biased against things that feel like a free win, so the tradeoff narrative is memetically fit. distribution shift from ancestral environment means algernon need not apply",
+      "plaintextDescription": "when people say that (prescription) amphetamines \"borrow from the future\", is there strong evidence on this? with Ozempic we've observed that people are heavily biased against things that feel like a free win, so the tradeoff narrative is memetically fit. distribution shift from ancestral environment means algernon need not apply"
+    },
+    "baseScore": 25,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-07-14T20:51:37.469Z",
+    "af": false
+  },
+  {
+    "_id": "nai6aeiGjCqpoEFRA",
+    "postId": "7Q7DPSk4iGFJd8DRk",
+    "parentCommentId": "XBcxPdbpFihLrWDYD",
+    "topLevelCommentId": "DKGcHGHPtCkQ2jA6C",
+    "contents": {
+      "markdown": "glad it was helpful!",
+      "plaintextDescription": "glad it was helpful! "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-14T20:40:48.897Z",
+    "af": false
+  },
+  {
+    "_id": "a9AH7iXWe5zQ4vdmC",
+    "postId": "7Q7DPSk4iGFJd8DRk",
+    "parentCommentId": "wRBuaEmBjYG5apsDi",
+    "topLevelCommentId": "FKvd7Ai6uLQMfJGBz",
+    "contents": {
+      "markdown": "319,892",
+      "plaintextDescription": "319,892"
+    },
+    "baseScore": 11,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-14T08:59:38.995Z",
+    "af": false
+  },
+  {
+    "_id": "oyxPCdxGY4SmpBEyj",
+    "postId": "DwqxPmNL3aXGZDPkT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "by coincidence, i independently happened to test something very similar on chatgpt 4.5 earlier today and got similar results\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/056041afcf90f8a3871679514df1ed157dd72df0cfa07019.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/96d1da22bb1f51fddddf03a234a2f81c49323561c3f77477.png)",
+      "plaintextDescription": "by coincidence, i independently happened to test something very similar on chatgpt 4.5 earlier today and got similar results"
+    },
+    "baseScore": 11,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-07-14T06:31:27.598Z",
+    "af": false
+  },
+  {
+    "_id": "GxbwqxjDmN4xEGTJe",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "LHD69yQk7JAjcW4Yd",
+    "topLevelCommentId": "LHD69yQk7JAjcW4Yd",
+    "contents": {
+      "markdown": "i think the exodus was not literally inevitable, but it would have required a heroic effort to prevent. imo the two biggest causes of the exodus were the board coup and the implosion of superalignment (which was indirectly caused by the coup).\n\nmy guess is there will be some people who take alignment people less seriously in long timelines because of AI 2027. i would not measure this by how loudly political opponents dunk on alignment people, because they will always find something to dunk on. i think the best way to counteract this is to emphasize the principle component that this whole AI thing is really big deal, and that there is a very wide range of beliefs in the field, but even \"long\" timeline worlds are insane as hell compared to what everyone else expects. i'm biased, though, because i think sth like 2035 is a more realistic median world; if i believed AGI was 50% likely to happen by 2029 or something then i might behave very diffrently",
+      "plaintextDescription": "i think the exodus was not literally inevitable, but it would have required a heroic effort to prevent. imo the two biggest causes of the exodus were the board coup and the implosion of superalignment (which was indirectly caused by the coup).\n\nmy guess is there will be some people who take alignment people less seriously in long timelines because of AI 2027. i would not measure this by how loudly political opponents dunk on alignment people, because they will always find something to dunk on. i think the best way to counteract this is to emphasize the principle component that this whole AI thing is really big deal, and that there is a very wide range of beliefs in the field, but even \"long\" timeline worlds are insane as hell compared to what everyone else expects. i'm biased, though, because i think sth like 2035 is a more realistic median world; if i believed AGI was 50% likely to happen by 2029 or something then i might behave very diffrently"
+    },
+    "baseScore": 6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-12T23:21:11.174Z",
+    "af": false
+  },
+  {
+    "_id": "SGfLmrDvCtaWfZwat",
+    "postId": "5NF7DRvcLLGHn78bT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "also, for posterity / future historians, here is some (public, non-exhaustive, from my recollection) info on somewhat more obscure historical openai model naming around the 2020-2022 era:\n\n*   a very useful (non exhaustive) resource is the \"Model index for researchers\" post which no longer exists but which is thankfully archived: [https://archive.is/XDCN0](https://archive.is/XDCN0)\n*   the GPT-3 series was launched as ada, babbage, curie, davinci. davinci was the full size 175B and the others were smaller models (see [https://blog.eleuther.ai/gpt3-model-sizes/](https://blog.eleuther.ai/gpt3-model-sizes/)) )\n*   a cushman model was very briefly made available but then disappeared forever. my memory is a bit fuzzy but i believe this is separate from the code-cushman-001 mentioned in the model index\n*   the first GPT-3 instruction following model was launched as davinci-instruct-beta, subsequent IF models were text-davinci-001 (GPT-3), text-davinci-002 (GPT-3.5), text-davinci-003 (GPT-3.5)\n*   the name GPT-3.5 was not public until the existence of this index. so nobody really knew that text-davinci-002 was no longer GPT-3 until then",
+      "plaintextDescription": "also, for posterity / future historians, here is some (public, non-exhaustive, from my recollection) info on somewhat more obscure historical openai model naming around the 2020-2022 era:\n\n * a very useful (non exhaustive) resource is the \"Model index for researchers\" post which no longer exists but which is thankfully archived: https://archive.is/XDCN0\n * the GPT-3 series was launched as ada, babbage, curie, davinci. davinci was the full size 175B and the others were smaller models (see https://blog.eleuther.ai/gpt3-model-sizes/ )\n * a cushman model was very briefly made available but then disappeared forever. my memory is a bit fuzzy but i believe this is separate from the code-cushman-001 mentioned in the model index\n * the first GPT-3 instruction following model was launched as davinci-instruct-beta, subsequent IF models were text-davinci-001 (GPT-3), text-davinci-002 (GPT-3.5), text-davinci-003 (GPT-3.5)\n * the name GPT-3.5 was not public until the existence of this index. so nobody really knew that text-davinci-002 was no longer GPT-3 until then"
+    },
+    "baseScore": 12,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-07-11T21:04:27.973Z",
+    "af": false
+  },
+  {
+    "_id": "r7hWmbasZxQo6YcXJ",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "YbwaksgYyiGDWdupf",
+    "topLevelCommentId": "pogcgTjhTKxbiErDj",
+    "contents": {
+      "markdown": "the experience that led to calling it a hot take is i was arguing against someone who disagreed with this right before i wrote it up",
+      "plaintextDescription": "the experience that led to calling it a hot take is i was arguing against someone who disagreed with this right before i wrote it up"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-11T08:52:47.993Z",
+    "af": false
+  },
+  {
+    "_id": "pogcgTjhTKxbiErDj",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "hot take: introspection isn't really real. you can't access your internal state in any meaningful sense beyond what your brain chooses to present to you (e.g visual stimuli, emotions, etc), for reasons outside of your direct control. when you think you're introspecting, what's really going on when you think you're introspecting is you have a model of yourself inside your brain, which you learn gradually by seeing yourself do certain things, experience certain stimuli or emotions, etc.\n\nyour self-model is not fundamentally special compared to any other models you have. it works the same way as your model of anyone or anything else, except you have way more data on yourself, and also you directly experience your own emotions and sensori stimuli, as opposed to having to infer them for other people. often your emotional brain sabotages your ability to understand yourself, but also it sometimes sabotages your ability to understand other people too (e.g groupthink, tribalism).\n\nyour self-model can diverge arbitrarily far from reality. when you're emotionally unintegrated, you have a model of yourself that fails to understand how your emotions truly work, so you will systematically mispredict how you will actually behave, or try to fix yourself in ways that don't work because you are misunderstanding the causes of your actions. further evidence comes from some of the split brain experiments which show people confidently hallucinating causes for their actions which are demonstrably untrue.\n\n(for emotional integration in particular, misprediction is only half of the thing; the other part of the thing is sometimes you can get detached from stimuli and stop perceiving them entirely. this other part is not neatly explained by this hypothesis)\n\nyour self-model contains a nested self-model, but this isn't special in any way. your models of other people have a model of yourself contained within (what does this person think about me?). your nested self model can also be arbitrarily wrong - it is very common to fail to understand the ways in which your top level self model is wrong. you probably don't have a third level nested self model because that's not very useful and very costly to maintain.\n\nyour inner monologue is not most of your thinking, and doesn't give you faithful representation of your true thoughts. people without internal monologues do just fine. also, it's very very common for people to lie to themselves.\n\nI dont think this is just speculative/unfalsifiable. I claim that thinking of your \"introspection\" as self modelling will lead you to make better decisions irl. you can apply techniques for learning to model other kinds of knowledge. you can realize that cognitive biases that apply to other kinds of modeling also apply to modeling yourself.\n\nthere's no clean boundary between your self model and your model of other things. if it's useful to model e.g your phone, or gut bacteria, or glasses, or partner/close friends, in close interaction with your stimuli and actions, there is no sharp self boundary.\n\na regular computer program can truly introspect on itself in ways that humans cannot, but this is fundamentally not that interesting. it definitely doesn't mean computers are conscious.\n\ncorollary: \"introspection\" is not in any way related to consciousness or moral patienthood, and it is uninteresting to ask whether AIs or nonhuman animals are capable of introspection for the purposes of determining things about consciousness and moral patienthood.",
+      "plaintextDescription": "hot take: introspection isn't really real. you can't access your internal state in any meaningful sense beyond what your brain chooses to present to you (e.g visual stimuli, emotions, etc), for reasons outside of your direct control. when you think you're introspecting, what's really going on when you think you're introspecting is you have a model of yourself inside your brain, which you learn gradually by seeing yourself do certain things, experience certain stimuli or emotions, etc.\n\nyour self-model is not fundamentally special compared to any other models you have. it works the same way as your model of anyone or anything else, except you have way more data on yourself, and also you directly experience your own emotions and sensori stimuli, as opposed to having to infer them for other people. often your emotional brain sabotages your ability to understand yourself, but also it sometimes sabotages your ability to understand other people too (e.g groupthink, tribalism).\n\nyour self-model can diverge arbitrarily far from reality. when you're emotionally unintegrated, you have a model of yourself that fails to understand how your emotions truly work, so you will systematically mispredict how you will actually behave, or try to fix yourself in ways that don't work because you are misunderstanding the causes of your actions. further evidence comes from some of the split brain experiments which show people confidently hallucinating causes for their actions which are demonstrably untrue.\n\n(for emotional integration in particular, misprediction is only half of the thing; the other part of the thing is sometimes you can get detached from stimuli and stop perceiving them entirely. this other part is not neatly explained by this hypothesis)\n\nyour self-model contains a nested self-model, but this isn't special in any way. your models of other people have a model of yourself contained within (what does this person think about me?). your nested self model can also be arbitrarily"
+    },
+    "baseScore": 15,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-11T02:37:09.686Z",
+    "af": false
+  },
+  {
+    "_id": "FmBwndnyqHiRaZ8Sk",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "rcumShKAkHfgZm2uk",
+    "topLevelCommentId": "YK5MvKDo8KRoK4P8i",
+    "contents": {
+      "markdown": "random thought, not related to GP comment: i agree identifying expertise in a domain you don't know is really hard, but from my experience, identifying generalizable intelligence/agency/competence is less hard. generally it seems like a useful signal to see how fast they can understand and be effective at a new thing that's related to what they've done before but that they've not thought much specifically about before. this isn't perfectly correlated with competence at their primary field, but it's probably still very useful.\n\ne.g it's generally pretty obvious if someone is flailing on an ML/CS interview Q because they aren't very smart, or just not familiar with the tooling. people who are smart will very quickly and systematically figure out how to use the tooling, and people who aren't will get stuck and sit there being confused. I bet if you took e.g a really smart mathematician with no CS experience and dropped them in a CS interview, it would be very fascinating to watch them figure out things from scratch\n\ndisclaimer that my impressions here are not necessarily strictly tied to feedback from reality on e.g job performance (i can see whether people pass the rest of the interview after making a guess at the 10 minute mark, but it's not like i follow up with managers a year after they get hired to see how well they're doing)",
+      "plaintextDescription": "random thought, not related to GP comment: i agree identifying expertise in a domain you don't know is really hard, but from my experience, identifying generalizable intelligence/agency/competence is less hard. generally it seems like a useful signal to see how fast they can understand and be effective at a new thing that's related to what they've done before but that they've not thought much specifically about before. this isn't perfectly correlated with competence at their primary field, but it's probably still very useful.\n\ne.g it's generally pretty obvious if someone is flailing on an ML/CS interview Q because they aren't very smart, or just not familiar with the tooling. people who are smart will very quickly and systematically figure out how to use the tooling, and people who aren't will get stuck and sit there being confused. I bet if you took e.g a really smart mathematician with no CS experience and dropped them in a CS interview, it would be very fascinating to watch them figure out things from scratch\n\ndisclaimer that my impressions here are not necessarily strictly tied to feedback from reality on e.g job performance (i can see whether people pass the rest of the interview after making a guess at the 10 minute mark, but it's not like i follow up with managers a year after they get hired to see how well they're doing)"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-09T21:01:34.752Z",
+    "af": false
+  },
+  {
+    "_id": "DKGcHGHPtCkQ2jA6C",
+    "postId": "7Q7DPSk4iGFJd8DRk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "another useful tip: you can put arbitrary javascript on cards, do you can do stuff like randomize the font size or make minor wording tweaks or whatever to avoid overfitting",
+      "plaintextDescription": "another useful tip: you can put arbitrary javascript on cards, do you can do stuff like randomize the font size or make minor wording tweaks or whatever to avoid overfitting"
+    },
+    "baseScore": 19,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-07-09T19:31:46.940Z",
+    "af": false
+  },
+  {
+    "_id": "cy7wWFBpxdKwLoAAv",
+    "postId": "7Q7DPSk4iGFJd8DRk",
+    "parentCommentId": "9HJsChXSstv6wLCYL",
+    "topLevelCommentId": "9HJsChXSstv6wLCYL",
+    "contents": {
+      "markdown": "you can use subdecks and get best of both worlds",
+      "plaintextDescription": "you can use subdecks and get best of both worlds "
+    },
+    "baseScore": 11,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-07-09T19:30:34.298Z",
+    "af": false
+  },
+  {
+    "_id": "NLtNfDAYkT2YoZdXC",
+    "postId": "7Q7DPSk4iGFJd8DRk",
+    "parentCommentId": "QjiFdTWu6yjSWZzjD",
+    "topLevelCommentId": "FKvd7Ai6uLQMfJGBz",
+    "contents": {
+      "markdown": "languages, math, cs, music, miscellaneous knowledge",
+      "plaintextDescription": "languages, math, cs, music, miscellaneous knowledge"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-09T19:29:32.516Z",
+    "af": false
+  },
+  {
+    "_id": "FKvd7Ai6uLQMfJGBz",
+    "postId": "7Q7DPSk4iGFJd8DRk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "as a datapoint: I do an average of 60 reviews per day these days, down from my peak of 400/day or so (which lasted about a year), and 200/day when I was first starting. I don't generally form habits easily, and I am generally extremely procrastinatory, but I've basically never missed more than a few days of Anki in a row since I started nearly 7 years ago. So I think this habit is especially robust once instilled, and once you can reliably do 20/day you should slowly ramp up to more and more.",
+      "plaintextDescription": "as a datapoint: I do an average of 60 reviews per day these days, down from my peak of 400/day or so (which lasted about a year), and 200/day when I was first starting. I don't generally form habits easily, and I am generally extremely procrastinatory, but I've basically never missed more than a few days of Anki in a row since I started nearly 7 years ago. So I think this habit is especially robust once instilled, and once you can reliably do 20/day you should slowly ramp up to more and more."
+    },
+    "baseScore": 25,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-07-08T23:56:44.019Z",
+    "af": false
+  },
+  {
+    "_id": "QZxEFiQNMfFfJ6Btq",
+    "postId": "PDLhQ3dJsTyApJZ6j",
+    "parentCommentId": "a9r7Ldf9WPpYxkccN",
+    "topLevelCommentId": "a9r7Ldf9WPpYxkccN",
+    "contents": {
+      "markdown": "I think the solution is to become more emotionally integrated. take the time to understand your emotional mind and the reasons behind why it believes the things it does. some say therapy helps with this; your mileage may vary. I've found introspection + living life more fully helps a lot.",
+      "plaintextDescription": "I think the solution is to become more emotionally integrated. take the time to understand your emotional mind and the reasons behind why it believes the things it does. some say therapy helps with this; your mileage may vary. I've found introspection + living life more fully helps a lot."
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-04T19:48:57.339Z",
+    "af": false
+  },
+  {
+    "_id": "Gatt23ANiThSvJaPX",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "WeQ3Xt3PxGsb7faxG",
+    "topLevelCommentId": "iKjeNL3B3Lk6pTeJM",
+    "contents": {
+      "markdown": "the LLM cost should not be too bad. it would mostly be looking at vague vibes rather than requiring lots of reasoning about the thing. I trust e.g AI summaries vastly less because they can require actual intelligence.\n\nI'm happy to fund this a moderate amount for the MVP. I think it would be cool if this existed.\n\nI don't really want to deal with all the problems that come with modifying something that already works for other people, at least not before we're confident the ideas are good. this points towards building a new thing. fwiw I think if building a new thing, the chat part would be most interesting/valuable standalone (and I think it's good to have platforms grow out of a simple core rather than to do everything at once)",
+      "plaintextDescription": "the LLM cost should not be too bad. it would mostly be looking at vague vibes rather than requiring lots of reasoning about the thing. I trust e.g AI summaries vastly less because they can require actual intelligence.\n\nI'm happy to fund this a moderate amount for the MVP. I think it would be cool if this existed.\n\nI don't really want to deal with all the problems that come with modifying something that already works for other people, at least not before we're confident the ideas are good. this points towards building a new thing. fwiw I think if building a new thing, the chat part would be most interesting/valuable standalone (and I think it's good to have platforms grow out of a simple core rather than to do everything at once)"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-01T19:22:27.765Z",
+    "af": false
+  },
+  {
+    "_id": "qF9iTkCHLG6BmxHmT",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "d3jfWmANdtRz8CdAv",
+    "topLevelCommentId": "BmseZcWToGbYkEn6F",
+    "contents": {
+      "markdown": "it's kind of haphazard and I have no reason to believe I'm better at prompting than anyone else. the broad strokes are I tell it to:\n\n*   use lowercase\n*   not use emojis\n*   be concise, explain at bird's eye level\n*   don't sugar cost things\n*   not be too professional/formal; use some IRC/twitter slang without overdoing it\n*   speak as if it's a conversation over a dinner table between two close friends who are also technical experts\n*   don't dumb things down but also don't use unnecessary jargon\n\nI've also been trying to get it to use CS/ML analogies when it would make things clearer, much the same way people on LW would do, but it's been hard to get the model to do it in a natural, non cringe way. rn it overdoes it and makes lots of very forced and not insightful analogies despite my attempts to explain to it",
+      "plaintextDescription": "it's kind of haphazard and I have no reason to believe I'm better at prompting than anyone else. the broad strokes are I tell it to:\n\n * use lowercase\n * not use emojis\n * be concise, explain at bird's eye level\n * don't sugar cost things\n * not be too professional/formal; use some IRC/twitter slang without overdoing it\n * speak as if it's a conversation over a dinner table between two close friends who are also technical experts\n * don't dumb things down but also don't use unnecessary jargon\n\nI've also been trying to get it to use CS/ML analogies when it would make things clearer, much the same way people on LW would do, but it's been hard to get the model to do it in a natural, non cringe way. rn it overdoes it and makes lots of very forced and not insightful analogies despite my attempts to explain to it"
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-01T07:48:21.347Z",
+    "af": false
+  },
+  {
+    "_id": "P8BnpYxpNyB2FayjT",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "JnQPTjr6geAjfpEyf",
+    "topLevelCommentId": "iKjeNL3B3Lk6pTeJM",
+    "contents": {
+      "markdown": "there's a broader category of things which are not literally scrolling but still time wasting / consuming info not to enrich oneself, but to push the dopamine button, and I think even removing the scroll doesn't fix this (my phone is intentionally quite high friction to use and I still fail to stay off of it)",
+      "plaintextDescription": "there's a broader category of things which are not literally scrolling but still time wasting / consuming info not to enrich oneself, but to push the dopamine button, and I think even removing the scroll doesn't fix this (my phone is intentionally quite high friction to use and I still fail to stay off of it)"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-01T05:02:37.940Z",
+    "af": false
+  },
+  {
+    "_id": "AZ6byRjCLrGCvNEPh",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "odRD7DCLYbGADRNsP",
+    "topLevelCommentId": "iKjeNL3B3Lk6pTeJM",
+    "contents": {
+      "markdown": "to be clear I explicitly decided not to think too hard about this kind of issue when brainstorming. I think the long run solution is probably something like an elected governance scheme that lets the users control what model to use. maybe make it bicameral to split power between users and funders. but my main motivation for this brainstorming was to think of ideas I could implement in a weekend for shits and giggles to see how well they work irl",
+      "plaintextDescription": "to be clear I explicitly decided not to think too hard about this kind of issue when brainstorming. I think the long run solution is probably something like an elected governance scheme that lets the users control what model to use. maybe make it bicameral to split power between users and funders. but my main motivation for this brainstorming was to think of ideas I could implement in a weekend for shits and giggles to see how well they work irl"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-01T02:30:40.930Z",
+    "af": false
+  },
+  {
+    "_id": "BmseZcWToGbYkEn6F",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "one big problem with using LMs too much imo is that they are dumb and catastrophically wrong about things a lot, but they are very pleasant to talk to, project confidence and knowledgeability, and reply to messages faster than 99.99% of people. these things are more easily noticeable than subtle falsehood, and reinforce a reflex of asking the model more and more. it's very analogous to twitter soundbites vs reading long form writing and how that eroded epistemics.\n\nhotter take: the extent to which one finds current LMs smart is probably correlated with how much one is swayed by good vibes from their interlocutor as opposed to the substance of the argument (ofc conditional on the model actually giving good vibes, which varies from person to person. I personally never liked chatgpt vibes until I wrote a big system prompt)",
+      "plaintextDescription": "one big problem with using LMs too much imo is that they are dumb and catastrophically wrong about things a lot, but they are very pleasant to talk to, project confidence and knowledgeability, and reply to messages faster than 99.99% of people. these things are more easily noticeable than subtle falsehood, and reinforce a reflex of asking the model more and more. it's very analogous to twitter soundbites vs reading long form writing and how that eroded epistemics.\n\nhotter take: the extent to which one finds current LMs smart is probably correlated with how much one is swayed by good vibes from their interlocutor as opposed to the substance of the argument (ofc conditional on the model actually giving good vibes, which varies from person to person. I personally never liked chatgpt vibes until I wrote a big system prompt)"
+    },
+    "baseScore": 28,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-06-30T23:37:52.970Z",
+    "af": false
+  }
+]

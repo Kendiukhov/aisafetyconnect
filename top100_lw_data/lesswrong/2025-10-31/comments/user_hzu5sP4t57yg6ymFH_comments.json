@@ -1,0 +1,947 @@
+[
+  {
+    "_id": "8EKMN3ubxndk9REBh",
+    "postId": "jvXF88XmqtsR7uE4w",
+    "parentCommentId": "dGCotR8AdrWNYXG26",
+    "topLevelCommentId": "dGCotR8AdrWNYXG26",
+    "contents": {
+      "markdown": "Infinite utility functions mean that there is a concrete input such that the output is \"infinity\", such as \"you go to heaven in the Wager scenario\". Unbounded utility functions do not necessarily output \"infinity\" for a particular value. $f(x)=x$ or \"count the number of paper clips\" is unbounded but at no concrete input does it tell you \"infinity\".",
+      "plaintextDescription": "Infinite utility functions mean that there is a concrete input such that the output is \"infinity\", such as \"you go to heaven in the Wager scenario\". Unbounded utility functions do not necessarily output \"infinity\" for a particular value. f(x)=x or \"count the number of paper clips\" is unbounded but at no concrete input does it tell you \"infinity\"."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-29T05:26:07.230Z",
+    "af": false
+  },
+  {
+    "_id": "moyXisuwGdX8HNSvP",
+    "postId": "jvXF88XmqtsR7uE4w",
+    "parentCommentId": "xz7aMseLkYYNYrA2v",
+    "topLevelCommentId": "xz7aMseLkYYNYrA2v",
+    "contents": {
+      "markdown": "I may have indeed made a mistake to frontload the math and thought experiments and put the introspection at the end, rather than centering the introspection and putting the rest in an appendix. \n\n1) that's not how utility works, utility is the unit of value, and so it doesn't make sense in my ontology to say that they diminish in value. \n\n4) I don't think I'm anywhere near negative utilitarian enough to empathize with that last point. As I mention in my previous post, I'm quite positive utilitarian.\n\nI don't really have time to digest 2&3 right now, and I find myself confused without reading up on the things you cite.",
+      "plaintextDescription": "I may have indeed made a mistake to frontload the math and thought experiments and put the introspection at the end, rather than centering the introspection and putting the rest in an appendix.\n\n 1. that's not how utility works, utility is the unit of value, and so it doesn't make sense in my ontology to say that they diminish in value.\n\n 2. I don't think I'm anywhere near negative utilitarian enough to empathize with that last point. As I mention in my previous post, I'm quite positive utilitarian.\n\nI don't really have time to digest 2&3 right now, and I find myself confused without reading up on the things you cite."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-28T03:54:44.415Z",
+    "af": false
+  },
+  {
+    "_id": "xvrSG8K76yJ7JhCRX",
+    "postId": "jvXF88XmqtsR7uE4w",
+    "parentCommentId": "7gfHXgnxEvku2aTmz",
+    "topLevelCommentId": "7gfHXgnxEvku2aTmz",
+    "contents": {
+      "markdown": "This seems like it works but demands a very strange universal prior that penalizes big things and large numbers. I consider the original Pascal's Mugging post to have settled the argument about this type of prior.",
+      "plaintextDescription": "This seems like it works but demands a very strange universal prior that penalizes big things and large numbers. I consider the original Pascal's Mugging post to have settled the argument about this type of prior."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T15:34:57.304Z",
+    "af": false
+  },
+  {
+    "_id": "mqw4v9vHwyaKb8EJx",
+    "postId": "jvXF88XmqtsR7uE4w",
+    "parentCommentId": "QeANtvp6jjqYJJk43",
+    "topLevelCommentId": "QeANtvp6jjqYJJk43",
+    "contents": {
+      "markdown": "This is very far up, above my hopes for humanity in the good ASI worlds, but not wildly higher than that, I expect. This is not a practical post afaik, and I said so. It is for filling out our conception of utilitarianism, and adding robustness to edge cases can sometimes help with creating useful new frames. Historically, it is the idea that came to me first and inspired me to write the sublinear utility post.",
+      "plaintextDescription": "This is very far up, above my hopes for humanity in the good ASI worlds, but not wildly higher than that, I expect. This is not a practical post afaik, and I said so. It is for filling out our conception of utilitarianism, and adding robustness to edge cases can sometimes help with creating useful new frames. Historically, it is the idea that came to me first and inspired me to write the sublinear utility post."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-27T07:14:37.989Z",
+    "af": false
+  },
+  {
+    "_id": "MfAwxbCrETFmDZbts",
+    "postId": "NRxn6R2tesRzzTBKG",
+    "parentCommentId": "Cz2oewfT9tzWeFyLt",
+    "topLevelCommentId": "Cz2oewfT9tzWeFyLt",
+    "contents": {
+      "markdown": "[Here](https://www.lesswrong.com/posts/jvXF88XmqtsR7uE4w/uncommon-utilitarianism-3-bounded-utility-functions) is the post I mentioned which responds to the question of bounded utility functions in much more detail.",
+      "plaintextDescription": "Here is the post I mentioned which responds to the question of bounded utility functions in much more detail."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-27T05:07:44.101Z",
+    "af": false
+  },
+  {
+    "_id": "vocksit3yjaQaSdZB",
+    "postId": "eukutrwGBPutoQoyM",
+    "parentCommentId": "NuhfLtAeXbXpfnayB",
+    "topLevelCommentId": "NuhfLtAeXbXpfnayB",
+    "contents": {
+      "markdown": "Update: I tried claude 3 sonnet, 3 opus, 3.7 sonnet, 4 sonnet, and 4 opus, and all of them can repeat back ' ForCanBeConvertedToForeach' just fine, so it's (probably) not just a straightforward porting of glitch tokens to claudes, which updates me a little towards pareidolia.",
+      "plaintextDescription": "Update: I tried claude 3 sonnet, 3 opus, 3.7 sonnet, 4 sonnet, and 4 opus, and all of them can repeat back ' ForCanBeConvertedToForeach' just fine, so it's (probably) not just a straightforward porting of glitch tokens to claudes, which updates me a little towards pareidolia."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-22T16:53:28.480Z",
+    "af": false
+  },
+  {
+    "_id": "NuhfLtAeXbXpfnayB",
+    "postId": "eukutrwGBPutoQoyM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Connection I recently made:\n\n*   4o seems to [really like spirals](https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai), specifically the \"spiral emoji\" (🌀), which is actually categorized as a cyclone. This also shows up in claude's spiritual bliss attractor, if I recall correctly.\n*   Remember [glitch tokens](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation)? Someone [claimed](https://www.lesswrong.com/posts/kmWrwtGE9B9hpbgRT/a-search-for-more-chatgpt-gpt-3-5-gpt-4-unspeakable-glitch) that they work with GPT-4 as well, since the originals were from GPT-3.5. When this came out, I picked one of them arbitrarily to try: ' ForCanBeConvertedToForeach'. GPT-3.5 consistently interpreted that token as \"cyclone\" and once \"cyber\" and GPT-4 had troubles, although not quite the same troubles:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/866d6f96d8923083940cf8406493fef9dac61b143ec16e12.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/7405f71bc1ab659400de08aef1f015d496f3105a62c863d8.png)\n\nI'm not really sure what is going on with glitch tokens still, and even though ' cyclone' isn't a glitch token itself, I suspect that there is something weird about it that maybe got crystallized in training. Not quite sure why this would show up in Claude, and maybe I'm just latching onto pareidolia.",
+      "plaintextDescription": "Connection I recently made:\n\n * 4o seems to really like spirals, specifically the \"spiral emoji\" (🌀), which is actually categorized as a cyclone. This also shows up in claude's spiritual bliss attractor, if I recall correctly.\n * Remember glitch tokens? Someone claimed that they work with GPT-4 as well, since the originals were from GPT-3.5. When this came out, I picked one of them arbitrarily to try: ' ForCanBeConvertedToForeach'. GPT-3.5 consistently interpreted that token as \"cyclone\" and once \"cyber\" and GPT-4 had troubles, although not quite the same troubles:\n\nI'm not really sure what is going on with glitch tokens still, and even though ' cyclone' isn't a glitch token itself, I suspect that there is something weird about it that maybe got crystallized in training. Not quite sure why this would show up in Claude, and maybe I'm just latching onto pareidolia."
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-10-22T16:30:12.595Z",
+    "af": false
+  },
+  {
+    "_id": "c3pLwEcXiKAa7aqdK",
+    "postId": "NRxn6R2tesRzzTBKG",
+    "parentCommentId": "Cz2oewfT9tzWeFyLt",
+    "topLevelCommentId": "Cz2oewfT9tzWeFyLt",
+    "contents": {
+      "markdown": "The post on why my utility function is bounded is hopefully coming out later this week, and it is in fact an independent point from what this post is talking about. Neither of those muggings sound like they would work. Alas, I don't have all my thoughts written out right here right now, so you shall have to wait. ",
+      "plaintextDescription": "The post on why my utility function is bounded is hopefully coming out later this week, and it is in fact an independent point from what this post is talking about. Neither of those muggings sound like they would work. Alas, I don't have all my thoughts written out right here right now, so you shall have to wait."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-22T16:06:04.717Z",
+    "af": false
+  },
+  {
+    "_id": "4cnG4REgjMvgLks7M",
+    "postId": "NRxn6R2tesRzzTBKG",
+    "parentCommentId": "u7DRmmTDt2dxh2P9K",
+    "topLevelCommentId": "u7DRmmTDt2dxh2P9K",
+    "contents": {
+      "markdown": "Yeah, measure is pretty much what I was trying to get at in this post without trying to get into actually measure. I think a more detailed rewrite of this would maybe go into measure and more math, but that isn't my priority for now. I agree that you can want exactly some constant $c$ number of beings; once again I'm not trying to give the One Objective Morality here, I'm just talking about the shape that my values seem to be when I look at them, and maybe other people will find this useful.",
+      "plaintextDescription": "Yeah, measure is pretty much what I was trying to get at in this post without trying to get into actually measure. I think a more detailed rewrite of this would maybe go into measure and more math, but that isn't my priority for now. I agree that you can want exactly some constant c number of beings; once again I'm not trying to give the One Objective Morality here, I'm just talking about the shape that my values seem to be when I look at them, and maybe other people will find this useful."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-14T02:34:18.472Z",
+    "af": false
+  },
+  {
+    "_id": "QBWxALNqHyAQEZwcW",
+    "postId": "NRxn6R2tesRzzTBKG",
+    "parentCommentId": "aDyTJGJ4dwQm6Yikt",
+    "topLevelCommentId": "T3CEA7WDHNPKqnumN",
+    "contents": {
+      "markdown": "I don't really understand what you're saying about the relativity point. Also, I'm not trying to say the \"correct\" way to value things is my way, I'm saying that my way is my way, and I don't think doubling up the transistors is going to do anything that it is coherent to care about. ",
+      "plaintextDescription": "I don't really understand what you're saying about the relativity point. Also, I'm not trying to say the \"correct\" way to value things is my way, I'm saying that my way is my way, and I don't think doubling up the transistors is going to do anything that it is coherent to care about."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-14T02:29:14.652Z",
+    "af": false
+  },
+  {
+    "_id": "dCrGcpCWHeeDkZhsN",
+    "postId": "NRxn6R2tesRzzTBKG",
+    "parentCommentId": "T3CEA7WDHNPKqnumN",
+    "topLevelCommentId": "T3CEA7WDHNPKqnumN",
+    "contents": {
+      "markdown": "This isn't what I'm saying, and indeed the thing you have laid out is not at all how it works. I'm saying that that thing is good, but I'm saying that the good thing doesn't happen any less if you shut off one of the computers next to the other, that exact same thing still happens. It's not that one instance devalues the other, it's that they are the same object and removing one instantiation, under some conditions, doesn't make your good experience any less real in any way that means anything. \n\nIf instead you're talking about qualia happening in a different world than the one you're in, then this is in fact even less what I'm saying and is obviously valuable from my perspective.",
+      "plaintextDescription": "This isn't what I'm saying, and indeed the thing you have laid out is not at all how it works. I'm saying that that thing is good, but I'm saying that the good thing doesn't happen any less if you shut off one of the computers next to the other, that exact same thing still happens. It's not that one instance devalues the other, it's that they are the same object and removing one instantiation, under some conditions, doesn't make your good experience any less real in any way that means anything.\n\nIf instead you're talking about qualia happening in a different world than the one you're in, then this is in fact even less what I'm saying and is obviously valuable from my perspective."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-14T02:26:27.598Z",
+    "af": false
+  },
+  {
+    "_id": "us4fEgAgegBNBj9RW",
+    "postId": "NRxn6R2tesRzzTBKG",
+    "parentCommentId": "XuZXQqwTrm6AFQKdt",
+    "topLevelCommentId": "XuZXQqwTrm6AFQKdt",
+    "contents": {
+      "markdown": "One of the things I wanted to get into much more detail with this post is anthropics. I think something like average utilitarianism is something like correct, and I don't feel comfortable with being uncaring about death, even though I think quantum immortality is basically true, in the sense that all the worlds you experience are ones in which you still exist in that world, and there are, in these physics as far as I can tell, always worlds in which you could keep existing, albeit sometimes through weird edge case quantum fluctuations in some cases .\n\nI don't have strong takes on your formula, but I'm not confident it's true for me.",
+      "plaintextDescription": "One of the things I wanted to get into much more detail with this post is anthropics. I think something like average utilitarianism is something like correct, and I don't feel comfortable with being uncaring about death, even though I think quantum immortality is basically true, in the sense that all the worlds you experience are ones in which you still exist in that world, and there are, in these physics as far as I can tell, always worlds in which you could keep existing, albeit sometimes through weird edge case quantum fluctuations in some cases .\n\nI don't have strong takes on your formula, but I'm not confident it's true for me."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-14T02:18:39.058Z",
+    "af": false
+  },
+  {
+    "_id": "mFvLxM9dJzyWRRTu7",
+    "postId": "55CBrLrXiQgHBb2gF",
+    "parentCommentId": "s3a7ufipo4ySmHbNx",
+    "topLevelCommentId": "s3a7ufipo4ySmHbNx",
+    "contents": {
+      "markdown": "I don't think it needs to be that complicated, it just needs to not show the messy xml tags in the system prompt (since that's code and is thus scary), emphasize what the model is outputting, what the input was, and whether the system is in eval/no-eval/normal mode. I think there isn't that much to showing LLMs doing most schemey text stuff, but there are probably some more weird considerations when doing something more agentic like audio or images or whatever, and indeed the other demos with those elements often had more complex UIs. \n\nI would check out [CivAI](https://civai.org/explore/all)'s stuff if you're interested in this in more detail, this is more their thing than mine. ",
+      "plaintextDescription": "I don't think it needs to be that complicated, it just needs to not show the messy xml tags in the system prompt (since that's code and is thus scary), emphasize what the model is outputting, what the input was, and whether the system is in eval/no-eval/normal mode. I think there isn't that much to showing LLMs doing most schemey text stuff, but there are probably some more weird considerations when doing something more agentic like audio or images or whatever, and indeed the other demos with those elements often had more complex UIs.\n\nI would check out CivAI's stuff if you're interested in this in more detail, this is more their thing than mine."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-08T22:20:53.417Z",
+    "af": false
+  },
+  {
+    "_id": "xDcApcisB8bEtTv5j",
+    "postId": "QrhohmahGrztEebmY",
+    "parentCommentId": "Lg2Hz7idfgeLn8ugr",
+    "topLevelCommentId": "Lg2Hz7idfgeLn8ugr",
+    "contents": {
+      "markdown": "My understanding is that book stores put a decent amount of weight on it. The list is dependent on the amount it sells, so it seems like a good bet to buy many of them for one's store.",
+      "plaintextDescription": "My understanding is that book stores put a decent amount of weight on it. The list is dependent on the amount it sells, so it seems like a good bet to buy many of them for one's store. "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-27T19:27:59.992Z",
+    "af": false
+  },
+  {
+    "_id": "MS5SH5ZNLsP9jpuw9",
+    "postId": "QrhohmahGrztEebmY",
+    "parentCommentId": "aCBifvJYGLymgFHXN",
+    "topLevelCommentId": "Q8xAv7tBRskvNeJm6",
+    "contents": {
+      "markdown": "Models have some trouble with PDFs sometimes - seems like they often much prefer markdown and such if possible, so may be worth trying to convert. I've had tasks completely fail with PDF input and work as expected with markdown input of the same content.",
+      "plaintextDescription": "Models have some trouble with PDFs sometimes - seems like they often much prefer markdown and such if possible, so may be worth trying to convert. I've had tasks completely fail with PDF input and work as expected with markdown input of the same content."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-26T16:29:28.226Z",
+    "af": false
+  },
+  {
+    "_id": "nhnzdybPsgJrFQSvv",
+    "postId": "BeXGMt7gmGFXFerMC",
+    "parentCommentId": "qgAr5RjX7r2v5RmEE",
+    "topLevelCommentId": "qgAr5RjX7r2v5RmEE",
+    "contents": {
+      "markdown": "That's interesting, I don't know why it would take that much longer for you to get what appear to be the same things that I get within a single day of detoxing. I haven't tried 4 weeks, maybe it's a qualitatively different experience.\n\nI generally agree on the point about reading consumption.",
+      "plaintextDescription": "That's interesting, I don't know why it would take that much longer for you to get what appear to be the same things that I get within a single day of detoxing. I haven't tried 4 weeks, maybe it's a qualitatively different experience.\n\nI generally agree on the point about reading consumption."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-25T02:26:41.307Z",
+    "af": false
+  },
+  {
+    "_id": "MSYEPQs9h88YHXCHg",
+    "postId": "JH6tJhYpnoCfFqAct",
+    "parentCommentId": "k5E35aaCu2DLAKdkW",
+    "topLevelCommentId": "k5E35aaCu2DLAKdkW",
+    "contents": {
+      "markdown": "What is the DANNet joke?",
+      "plaintextDescription": "What is the DANNet joke?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-24T06:31:18.132Z",
+    "af": false
+  },
+  {
+    "_id": "PZZTFKtrvwPfLBMr9",
+    "postId": "viLu9uFcMFtJHgRRm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I’ve reflected on whether that perception is largely subjective preference or a honed sense of how others come to understand things but I can’t know (time will tell). \n\nI professionally and as in my personal capacity do a lot of communications to different levels of background knowledge about AI safety, and I got the same sense that *this is not how you bridge the gap between the general population/DC folk/intellectual side of genpop/etc and what you're actually trying to communicate.* I basically agree with Yudkowsky on all of his claims. My primary problem with his writing has always been that it only works on those who are already at least a bit rationalist and have the capacity to become moreso. I assumed from the preliminary reviews that the contributions from Nate and the editing team had fixed this, that they had finally turned Yudkowsky's writing into good general-audience writing, and I was surprised and disappointed to find out this was not the case. The praise for the book from outsiders still gives me some hope that I'm wrong on this front, but this doesn't meaningfully effect my assessment of its quality.",
+      "plaintextDescription": "> I’ve reflected on whether that perception is largely subjective preference or a honed sense of how others come to understand things but I can’t know (time will tell). \n\nI professionally and as in my personal capacity do a lot of communications to different levels of background knowledge about AI safety, and I got the same sense that this is not how you bridge the gap between the general population/DC folk/intellectual side of genpop/etc and what you're actually trying to communicate. I basically agree with Yudkowsky on all of his claims. My primary problem with his writing has always been that it only works on those who are already at least a bit rationalist and have the capacity to become moreso. I assumed from the preliminary reviews that the contributions from Nate and the editing team had fixed this, that they had finally turned Yudkowsky's writing into good general-audience writing, and I was surprised and disappointed to find out this was not the case. The praise for the book from outsiders still gives me some hope that I'm wrong on this front, but this doesn't meaningfully effect my assessment of its quality."
+    },
+    "baseScore": 7,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-19T15:36:30.275Z",
+    "af": false
+  },
+  {
+    "_id": "xFRadgq2gHtkpp7hk",
+    "postId": "xRZfpYkC9MwqG4tKi",
+    "parentCommentId": "hTkzjCWcmo7EcdWMr",
+    "topLevelCommentId": "hTkzjCWcmo7EcdWMr",
+    "contents": {
+      "markdown": "Fixed, thank you!",
+      "plaintextDescription": "Fixed, thank you!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-19T03:48:14.393Z",
+    "af": false
+  },
+  {
+    "_id": "riwHkC6KnMpYpLFro",
+    "postId": "eukutrwGBPutoQoyM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(I might write a post on this at some point.) EDIT: [I did ](https://www.lesswrong.com/posts/YTfXJzrzWGj8mjQ2t/applied-murphyjitsu-meditation)\n\nThere's a meditation technique that I have used to improve my typing speed, but that seems pretty generalizable: Open up a typing test[^ozxy4uj6vlg] and try to predict my mistakes in advance of them happening. This could look like my finger slipping, or running into a faulty muscle memory for a certain word, or just having a cache miss and stumbling for a second. Then, I use this awareness to not make those mistakes, ideally stopping them before they happen even once.\n\nI've learned to type from scratch several times, going from hunt and peck to touch typing with qwerty, to touch typing colemak, to learning to use the [Kinesis Advantage 2](https://kinesis-ergo.com/shop/advantage2/), to learning the [CharaChorder 2](https://www.charachorder.com/products/cc2) and its custom layout, which is now my daily driver. I only started doing this meditation about half way through learning colemak, and it noticeably boosted my accuracy in a relatively lasting way. However, it's relatively straining to meditate while also trying to type as fast as you can, especially on the CharaChorder because it has an entirely new type of cognitive load that I'm learning.\n\nI would probably generalize this if I was trying to get really good at another DEX-reliant skill, but for now I'm not. It feels related to the part of me that more generally notices when I'm [Predictably Wrong](https://www.lesswrong.com/s/5g5TkQTe9rmPS5vvM), but in practice it felt like a meaningfully different thing to train. \n\n[^ozxy4uj6vlg]: This works even better with adversarial typing tests like keybr.com",
+      "plaintextDescription": "(I might write a post on this at some point.) EDIT: I did \n\nThere's a meditation technique that I have used to improve my typing speed, but that seems pretty generalizable: Open up a typing test[1] and try to predict my mistakes in advance of them happening. This could look like my finger slipping, or running into a faulty muscle memory for a certain word, or just having a cache miss and stumbling for a second. Then, I use this awareness to not make those mistakes, ideally stopping them before they happen even once.\n\nI've learned to type from scratch several times, going from hunt and peck to touch typing with qwerty, to touch typing colemak, to learning to use the Kinesis Advantage 2, to learning the CharaChorder 2 and its custom layout, which is now my daily driver. I only started doing this meditation about half way through learning colemak, and it noticeably boosted my accuracy in a relatively lasting way. However, it's relatively straining to meditate while also trying to type as fast as you can, especially on the CharaChorder because it has an entirely new type of cognitive load that I'm learning.\n\nI would probably generalize this if I was trying to get really good at another DEX-reliant skill, but for now I'm not. It feels related to the part of me that more generally notices when I'm Predictably Wrong, but in practice it felt like a meaningfully different thing to train. \n\n 1. ^\n    This works even better with adversarial typing tests like keybr.com"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-13T22:32:43.691Z",
+    "af": false
+  },
+  {
+    "_id": "NXbLKggFC38aT5LCM",
+    "postId": "HT7wTWNdtqmiJ4veE",
+    "parentCommentId": "FBvnTbQLgYy2rvZje",
+    "topLevelCommentId": "FBvnTbQLgYy2rvZje",
+    "contents": {
+      "markdown": "*   This is about socially transmitted skills. [Discourse norms](https://www.lesswrong.com/posts/XPv4sYrKnPzeJASuk/basics-of-rationalist-discourse-1) are, but technical concepts like algebraic topology and whatever you're trying to figure out in the first bullet aren't.\n*   Sure, you can have plenty of other goals, I'm not trying to refute that in any way.\n*   People can have LessWrong culture while disagreeing with a lot of the things on here! This is about being familiar with the norms and knowing that the LessWrong ideas even exist at all, not getting people to believe them. The point about making mistakes that the Sequences caution against is a descriptive claim about an archetypical person who is new to the community, not a necessary condition.",
+      "plaintextDescription": " * This is about socially transmitted skills. Discourse norms are, but technical concepts like algebraic topology and whatever you're trying to figure out in the first bullet aren't.\n * Sure, you can have plenty of other goals, I'm not trying to refute that in any way.\n * People can have LessWrong culture while disagreeing with a lot of the things on here! This is about being familiar with the norms and knowing that the LessWrong ideas even exist at all, not getting people to believe them. The point about making mistakes that the Sequences caution against is a descriptive claim about an archetypical person who is new to the community, not a necessary condition."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-11T17:41:53.632Z",
+    "af": false
+  },
+  {
+    "_id": "bhnMyndTgYdEoEAMM",
+    "postId": "q3qnkmksGLrZWnDqd",
+    "parentCommentId": "GSBsD9TNAvxzvcZdx",
+    "topLevelCommentId": "zRPkaBisdQPYdjGPC",
+    "contents": {
+      "markdown": "How did you determine the cost and speed of it, given that there is no unified model that we have access to, just some router between models? Unless I'm just misunderstanding something about what GPT-5 even is.",
+      "plaintextDescription": "How did you determine the cost and speed of it, given that there is no unified model that we have access to, just some router between models? Unless I'm just misunderstanding something about what GPT-5 even is."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-07T22:59:45.406Z",
+    "af": false
+  },
+  {
+    "_id": "fHqn9wzwfYKM7tSzo",
+    "postId": "apCnFyXJamoSkHcE4",
+    "parentCommentId": "dHpKx3jTC6CJ6KWBs",
+    "topLevelCommentId": "R2YdQkizh9kQhEwX5",
+    "contents": {
+      "markdown": "It's a balance between getting the utility out of using smarter and smarter assistants and not being duped by them. This is really hard, and it's definitely not a bet that everyone should make. ",
+      "plaintextDescription": "It's a balance between getting the utility out of using smarter and smarter assistants and not being duped by them. This is really hard, and it's definitely not a bet that everyone should make."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-22T03:33:42.295Z",
+    "af": false
+  },
+  {
+    "_id": "FxJkDBejWrGk8cXPx",
+    "postId": "qehggwKRMEyWqvjZG",
+    "parentCommentId": "cqakqiqrcZwHbNGe6",
+    "topLevelCommentId": "cqakqiqrcZwHbNGe6",
+    "contents": {
+      "markdown": "I mostly agree with this, but also think it's good to just say the sane things labs should do, even if I don't expect statements like mine to make a difference on average. \n\nThere's some hope that, because interpretable CoT is mundanely useful, there's incentive for even the capabilities people to keep it ",
+      "plaintextDescription": "I mostly agree with this, but also think it's good to just say the sane things labs should do, even if I don't expect statements like mine to make a difference on average.\n\nThere's some hope that, because interpretable CoT is mundanely useful, there's incentive for even the capabilities people to keep it"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-24T01:07:04.505Z",
+    "af": false
+  },
+  {
+    "_id": "9EGei2ePnShcZZQFA",
+    "postId": "pqFFy6CmSgjNzDaHt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(I don't think you included it) The [blurb](https://www.glowfic.com/replies/1824457#reply-1824457) on corrigibility is also really good. Yet another thing that I'm not sure if Eliezer has actually written up anywhere else.",
+      "plaintextDescription": "(I don't think you included it) The blurb on corrigibility is also really good. Yet another thing that I'm not sure if Eliezer has actually written up anywhere else."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-03T17:28:00.960Z",
+    "af": false
+  },
+  {
+    "_id": "adqK8K9NeCA7LhnmK",
+    "postId": "apCnFyXJamoSkHcE4",
+    "parentCommentId": "DqjmsWqM9KvtgR94v",
+    "topLevelCommentId": "R2YdQkizh9kQhEwX5",
+    "contents": {
+      "markdown": "This does seem to be getting closer, yes. I still think the models are overall too stupid to do meaningful deception yet, although I haven't yet gotten to play around with Opus 4. My use cases have also shifted in  this time to less hackable things.",
+      "plaintextDescription": "This does seem to be getting closer, yes. I still think the models are overall too stupid to do meaningful deception yet, although I haven't yet gotten to play around with Opus 4. My use cases have also shifted in this time to less hackable things."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-03T16:24:08.163Z",
+    "af": false
+  },
+  {
+    "_id": "rWAFjQEaKfoTsvFZx",
+    "postId": "BeXGMt7gmGFXFerMC",
+    "parentCommentId": "WustmAZty6dkDcMfd",
+    "topLevelCommentId": "WustmAZty6dkDcMfd",
+    "contents": {
+      "markdown": "Shrug, it does work for long spans (usually months before I need another) for me. This was a recent patch to a recent problem, but I've had this technique for years and it does in fact get me out of positive feedback loops of hedonic set point raising, no ketamine required. If I had to guess why it lasts, I'd say that it serves as a good reminder and willpower booster that allows me to resist further really-useless superstimuli.",
+      "plaintextDescription": "Shrug, it does work for long spans (usually months before I need another) for me. This was a recent patch to a recent problem, but I've had this technique for years and it does in fact get me out of positive feedback loops of hedonic set point raising, no ketamine required. If I had to guess why it lasts, I'd say that it serves as a good reminder and willpower booster that allows me to resist further really-useless superstimuli."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-21T10:44:37.687Z",
+    "af": false
+  },
+  {
+    "_id": "HmjPDe5ja3izNCa6h",
+    "postId": "MZvtRqWnwokTub9sH",
+    "parentCommentId": "FjhazS3vEv72Qk6Pa",
+    "topLevelCommentId": "Rb3RFAsspxhbNTHYj",
+    "contents": {
+      "markdown": "Oops, I wrote that without fully thinking about diffusion models. I meant to contrast diffusion LMs to more traditional autoregressive language transformers, yes. Thanks for the correction, I'll clarify my original comment.",
+      "plaintextDescription": "Oops, I wrote that without fully thinking about diffusion models. I meant to contrast diffusion LMs to more traditional autoregressive language transformers, yes. Thanks for the correction, I'll clarify my original comment."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-20T21:49:19.414Z",
+    "af": false
+  },
+  {
+    "_id": "Rb3RFAsspxhbNTHYj",
+    "postId": "MZvtRqWnwokTub9sH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This seems like it's only a big deal if we expect diffusion language models to scale at a pace comparable or better to more traditional autoregressive language transformers, which seems non-obvious to me. \n\nRight now my distribution over possible scaling behaviors is pretty wide, I'm interested to hear more from people.",
+      "plaintextDescription": "This seems like it's only a big deal if we expect diffusion language models to scale at a pace comparable or better to more traditional autoregressive language transformers, which seems non-obvious to me.\n\nRight now my distribution over possible scaling behaviors is pretty wide, I'm interested to hear more from people."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-05-20T21:10:14.187Z",
+    "af": false
+  },
+  {
+    "_id": "TuBxALAgPcQ7mxzaq",
+    "postId": "xMGmibZpPDnawjHXk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "LLMs also just have their own quirks, and I think Qwen might just really like hell and cats?. For example, Claude Sonnet seems to [really like bioluminescence](https://x.com/repligate/status/1896074115641155979) as a topic, reliably enough in different instances to where Janus [gets](https://x.com/repligate/status/1902782033484488779) some impressive predictive accuracy. ",
+      "plaintextDescription": "LLMs also just have their own quirks, and I think Qwen might just really like hell and cats?. For example, Claude Sonnet seems to really like bioluminescence as a topic, reliably enough in different instances to where Janus gets some impressive predictive accuracy."
+    },
+    "baseScore": 10,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-05-16T14:15:25.832Z",
+    "af": false
+  },
+  {
+    "_id": "bQ3EfFsvrw72jvSZt",
+    "postId": "AmwgNS3ybwF8Eovho",
+    "parentCommentId": "q6C4N9JTucrMZCreN",
+    "topLevelCommentId": "q6C4N9JTucrMZCreN",
+    "contents": {
+      "markdown": "I think that these are all pretty relevant ways to think about being an EA, but are mostly of a different fundamental type than the thing I'm pointing at. Let me get a bit more into the [aforementioned math](https://www.lesswrong.com/posts/rMfpnorsMoRwyn4iP/choosing-the-zero-point) to show why this is approximately a binary categorization along the axis I was pointing at in this post.\n\nSay that there are three possible world states:\n\n*   I live a normal life and sit on the couch a lot. I take care of my plants.\n*   I'm a highly engaged EA for many years and do a lot of verifiably altruistic things.\n*   I'm a serial killer.\n\nAs a culture, on average, our values look something like:\n\nEA > gardener > murderer\n\nThis is very reasonable and I don't think we can or should change this, as a community.\n\nI have some mental approximation of a utility function. One of the main differences between my internal representation and an actual utility function is that the point I choose as \"zero utility\" doesn't matter in the formalism, but very much matters to my emotions. If we set EA=0 utility, then the myopic point-maximizing part of my brain feels okay if I do EA things, but awful if I'm getting *negative points* by being either of the other options. This is the moral obligation frame, where things are only barely emotionally okay if you push as far up the preference ordering as possible.\n\nIf we set gardener=0, then things feel emotionally okay if I just take the normal path. I'm not gaining or losing points. It's then positively great if I do EA things and still positively bad if I kill people. This is the moral opportunity frame, and I find it emotionally much better for me. I predict that this frame is better for community health as well, although I have only vibes and anecdata to back me up on this claim.\n\nThere are several other points I have left unnamed:\n\n*   murderer = 0: I really really don't want to be this culture for reasons that are hopefully obvious.\n*   gardener<0<EA: this is just a less extreme moral obligation framework, where you don't need to do as much for things to be okay.\n*   murderer<0<gardener: this is a more lenient moral opportunity frame, where doing some less-than-default-amount-of-good things occasionally is still okay. I think there are healthy and unhealthy versions of this\n*   everything is >0: same as before, please don't make this a culture\n*   everything is <0: I also really don't want this culture, because then everything anyone does is bad and this is not how you build a community.\n\nNow that's a lot of possibilities. I promised that I had \"approximately a binary categorization\", so where's the binary come in? Well, the dividing line I'm drawing is ultimately is \"is being a normal member of society 'okay' or 'not okay'?\" Alternatively, we ask the question of how our community responds to Carol, the gardener. Are we friends with her? I say yes. Do we give her the same positive reinforcement for her new daffodils that we give to someone when they donate a large sum to EA charities? I say no. \n\n(I am intentionally neglecting the various \"evil\" cultures from this consideration. Technically it's not a binary if you want to include them, but I really don't see why we would ever consider doing that in real life.)\n\nThese other frames you mention are important shards of a healthy EA community, I think. They're just not quite the concept boundary I was trying to draw.",
+      "plaintextDescription": "I think that these are all pretty relevant ways to think about being an EA, but are mostly of a different fundamental type than the thing I'm pointing at. Let me get a bit more into the aforementioned math to show why this is approximately a binary categorization along the axis I was pointing at in this post.\n\nSay that there are three possible world states:\n\n * I live a normal life and sit on the couch a lot. I take care of my plants.\n * I'm a highly engaged EA for many years and do a lot of verifiably altruistic things.\n * I'm a serial killer.\n\nAs a culture, on average, our values look something like:\n\nEA > gardener > murderer\n\nThis is very reasonable and I don't think we can or should change this, as a community.\n\nI have some mental approximation of a utility function. One of the main differences between my internal representation and an actual utility function is that the point I choose as \"zero utility\" doesn't matter in the formalism, but very much matters to my emotions. If we set EA=0 utility, then the myopic point-maximizing part of my brain feels okay if I do EA things, but awful if I'm getting negative points by being either of the other options. This is the moral obligation frame, where things are only barely emotionally okay if you push as far up the preference ordering as possible.\n\nIf we set gardener=0, then things feel emotionally okay if I just take the normal path. I'm not gaining or losing points. It's then positively great if I do EA things and still positively bad if I kill people. This is the moral opportunity frame, and I find it emotionally much better for me. I predict that this frame is better for community health as well, although I have only vibes and anecdata to back me up on this claim.\n\nThere are several other points I have left unnamed:\n\n * murderer = 0: I really really don't want to be this culture for reasons that are hopefully obvious.\n * gardener<0<EA: this is just a less extreme moral obligation framework, where you don't need to "
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-16T13:46:18.442Z",
+    "af": false
+  },
+  {
+    "_id": "jtnBv2jYysKTQJoRM",
+    "postId": "iNsy7MsbodCyNTwKs",
+    "parentCommentId": "9fzPtsDdETB6cDSQ8",
+    "topLevelCommentId": "FPFb3uK86CCXbXG9h",
+    "contents": {
+      "markdown": "Edit: this comment seems to be incorrect; see comments.\n\nThey did not say that, on my reading? The footnote about bulk preorders says\n> Bulk preorders don’t count. The people who compile bestseller lists distinguish and discount bulk preorders. \n\n\nWhich I read as semantically equivalent to \"bulk preorders neither help nor hurt\" with an implicit \"so don't do a bulk preorder solely for the sake of making the numbers better, but other reasons are acceptable.\"",
+      "plaintextDescription": "Edit: this comment seems to be incorrect; see comments.\n\nThey did not say that, on my reading? The footnote about bulk preorders says\n\n> Bulk preorders don’t count. The people who compile bestseller lists distinguish and discount bulk preorders.\n\nWhich I read as semantically equivalent to \"bulk preorders neither help nor hurt\" with an implicit \"so don't do a bulk preorder solely for the sake of making the numbers better, but other reasons are acceptable.\""
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-15T00:15:59.839Z",
+    "af": false
+  },
+  {
+    "_id": "2AE5qt8mnzuG89BHQ",
+    "postId": "AmwgNS3ybwF8Eovho",
+    "parentCommentId": "tGRz6yvQemmiuMgLo",
+    "topLevelCommentId": "tGRz6yvQemmiuMgLo",
+    "contents": {
+      "markdown": "Retracted my previous response due to faulty reasoning.\n\nYes, positive reinforcement gives a more precise signal than positive punishment. Maybe I didn't elaborate on this fact enough, but that is *the point*. I like it when a community precisely signals what its values are. I like it when a community isn't adversarial to bystanders. These are, among other reasons, precisely why I want a positive reinforcement culture. The point of the post is that these two frames are different. You pointed out a difference in the post that I discussed.\n\nPositive reinforcement, however, is not more restrictive. There is no restriction going on, that's the point. It is just a more precise signal. If I give you a cookie every time you do the dishes and nothing when you don't, that is not restricting the counterfactual-yous who don't do dishes from being in my community. Somebody else just does the dishes and gets the cookie.",
+      "plaintextDescription": "Retracted my previous response due to faulty reasoning.\n\nYes, positive reinforcement gives a more precise signal than positive punishment. Maybe I didn't elaborate on this fact enough, but that is the point. I like it when a community precisely signals what its values are. I like it when a community isn't adversarial to bystanders. These are, among other reasons, precisely why I want a positive reinforcement culture. The point of the post is that these two frames are different. You pointed out a difference in the post that I discussed.\n\nPositive reinforcement, however, is not more restrictive. There is no restriction going on, that's the point. It is just a more precise signal. If I give you a cookie every time you do the dishes and nothing when you don't, that is not restricting the counterfactual-yous who don't do dishes from being in my community. Somebody else just does the dishes and gets the cookie."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-14T19:41:37.542Z",
+    "af": false
+  },
+  {
+    "_id": "oudDaT22YxeC7RQmx",
+    "postId": "AmwgNS3ybwF8Eovho",
+    "parentCommentId": "tGRz6yvQemmiuMgLo",
+    "topLevelCommentId": "tGRz6yvQemmiuMgLo",
+    "contents": {
+      "markdown": "No, that's not quite what I'm saying in my post. I'm pointing at the times when a culture could either positively reinforce X or positively punish not-X, which is exactly the same amount of restriction. \n\nMaybe, one could argue, in practice positive reinforcement creates a more precise signal, which on my model is a good thing; I like communities that clearly signal their values and aren't adversarial to bystanders. I really don't think this is a trick, I think the post is in fact about the differences between these two framings, including about the reinforcement/punishment distinction. ",
+      "plaintextDescription": "No, that's not quite what I'm saying in my post. I'm pointing at the times when a culture could either positively reinforce X or positively punish not-X, which is exactly the same amount of restriction.\n\nMaybe, one could argue, in practice positive reinforcement creates a more precise signal, which on my model is a good thing; I like communities that clearly signal their values and aren't adversarial to bystanders. I really don't think this is a trick, I think the post is in fact about the differences between these two framings, including about the reinforcement/punishment distinction."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-14T19:32:32.298Z",
+    "af": false
+  },
+  {
+    "_id": "Q8bjzLnxPYwAkPXZj",
+    "postId": "J7Ju6t6QCpgbnYx4D",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For people who are on the fence about donating and want an outside opinion:\n\nI think CAIP is one of the best orgs at what they do in DC, and I think that what they do is important for many of the reasons Jason laid out above. I continue to think efforts for good AI governance is one of the highest-leverage things we can do for AI safety right now. My experience is that the CAIP team is highly competent and very well networked across AI safety and the policy world.\n\nMy favorite review from a congressional staffer of one of the AI risk demos at a CAIP event is \"that's terrifying.\" They're concretely shifting opinion in DC and keeping things impressively nonpartisan while doing so. \n\nI don't work for CAIP, but I've collaborated with them in the past. Whether or not people donate doesn't affect my finances or any of the work I do right now - I just think that they're doing good work and should have the funding to keep doing it. ",
+      "plaintextDescription": "For people who are on the fence about donating and want an outside opinion:\n\nI think CAIP is one of the best orgs at what they do in DC, and I think that what they do is important for many of the reasons Jason laid out above. I continue to think efforts for good AI governance is one of the highest-leverage things we can do for AI safety right now. My experience is that the CAIP team is highly competent and very well networked across AI safety and the policy world.\n\nMy favorite review from a congressional staffer of one of the AI risk demos at a CAIP event is \"that's terrifying.\" They're concretely shifting opinion in DC and keeping things impressively nonpartisan while doing so.\n\nI don't work for CAIP, but I've collaborated with them in the past. Whether or not people donate doesn't affect my finances or any of the work I do right now - I just think that they're doing good work and should have the funding to keep doing it."
+    },
+    "baseScore": 19,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-05-07T22:31:45.514Z",
+    "af": false
+  },
+  {
+    "_id": "azXt9F4tkh8Ku9cQX",
+    "postId": "2NGKYt3xdQHwyfGbc",
+    "parentCommentId": "aJJBeWGKobnjeiW2x",
+    "topLevelCommentId": "vqiLHQqFhaXCJ7tSo",
+    "contents": {
+      "markdown": "Did I entirely miss these? I can't find the post anywhere. I am still interested in having more music.",
+      "plaintextDescription": "Did I entirely miss these? I can't find the post anywhere. I am still interested in having more music."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-27T02:41:39.091Z",
+    "af": false
+  },
+  {
+    "_id": "EiXYgYTMoJc5YGeSZ",
+    "postId": "t46PYSvHHtJLxmrxn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I work mostly as a distiller (of xrisk-relevant topics). I try to understand some big complex thing, package it up all nice, and distribute it. The \"distribute it\" step is something society has already found a lot of good tech for. The other two steps, not so much.\n\n[Loom](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism) is lovely in the times I've used it. I would love to see more work done on things like this, things that enhance my intelligence while keeping me very tightly in the loop. Other things in this vein include: \n- memory augmentation beyond just taking notes (+Anki where appropriate). I'm both interested in working memory and long-term memory, but moreso in the former.\n- For digesting complex pieces, I'd like something better than a chat window for interactively getting up to my desired level of familiarity with some existing work. When I'm digesting the paper, do I want the one-sentence summary, the abstract, or to have a better understanding than the researchers behind it? NotebookLM is sort of doing this but I've found it lacking for this task for UI reasons (I also wish that it would automatically bring in other relevant sources).",
+      "plaintextDescription": "I work mostly as a distiller (of xrisk-relevant topics). I try to understand some big complex thing, package it up all nice, and distribute it. The \"distribute it\" step is something society has already found a lot of good tech for. The other two steps, not so much.\n\nLoom is lovely in the times I've used it. I would love to see more work done on things like this, things that enhance my intelligence while keeping me very tightly in the loop. Other things in this vein include:\n\n * memory augmentation beyond just taking notes (+Anki where appropriate). I'm both interested in working memory and long-term memory, but moreso in the former.\n * For digesting complex pieces, I'd like something better than a chat window for interactively getting up to my desired level of familiarity with some existing work. When I'm digesting the paper, do I want the one-sentence summary, the abstract, or to have a better understanding than the researchers behind it? NotebookLM is sort of doing this but I've found it lacking for this task for UI reasons (I also wish that it would automatically bring in other relevant sources)."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-27T01:57:10.484Z",
+    "af": false
+  },
+  {
+    "_id": "7mAAz3uyvCfjspm6b",
+    "postId": "t46PYSvHHtJLxmrxn",
+    "parentCommentId": "BW6hztAjpyqfTLghB",
+    "topLevelCommentId": "BW6hztAjpyqfTLghB",
+    "contents": {
+      "markdown": "> Ai Labs is slightly better but still bad.\n\nCould you give a link to this or a more searchable name? \"Ai Labs\" is very generic and turns up every possible result. Even if it's bad, I'd be interested in investigating something \"slightly better\" and hearing a bit about why.",
+      "plaintextDescription": "> Ai Labs is slightly better but still bad.\n\nCould you give a link to this or a more searchable name? \"Ai Labs\" is very generic and turns up every possible result. Even if it's bad, I'd be interested in investigating something \"slightly better\" and hearing a bit about why."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-27T01:32:19.678Z",
+    "af": false
+  },
+  {
+    "_id": "aHxrbcYjceor8fJ4Y",
+    "postId": "hhbibJGt2aQqKJLb7",
+    "parentCommentId": "jve9GiJ4wowGaLw4L",
+    "topLevelCommentId": "jve9GiJ4wowGaLw4L",
+    "contents": {
+      "markdown": "Clicking on the link on mobile Chrome sends me to the correct website. How do you replicate this? \n\nIn the meantime I've passed this along and it should make it to the right people in CAIS by sometime today.",
+      "plaintextDescription": "Clicking on the link on mobile Chrome sends me to the correct website. How do you replicate this?\n\nIn the meantime I've passed this along and it should make it to the right people in CAIS by sometime today."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-16T11:13:38.073Z",
+    "af": false
+  },
+  {
+    "_id": "S3gKwxHJqckJfdxQE",
+    "postId": "2NGKYt3xdQHwyfGbc",
+    "parentCommentId": "QgLuLS79DFdwJA5JP",
+    "topLevelCommentId": "LX4QAxWrnYcCt7NBi",
+    "contents": {
+      "markdown": "I have not been able to independently verify this observation, but am open to further evidence if and only if it updates my p(doom) higher.",
+      "plaintextDescription": "I have not been able to independently verify this observation, but am open to further evidence if and only if it updates my p(doom) higher."
+    },
+    "baseScore": 35,
+    "voteCount": 25,
+    "createdAt": null,
+    "postedAt": "2025-04-01T15:22:07.654Z",
+    "af": false
+  },
+  {
+    "_id": "LX4QAxWrnYcCt7NBi",
+    "postId": "2NGKYt3xdQHwyfGbc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "After reviewing the evidence, both of the EA acquisition and the cessation of Lightcone collaboration with the Fooming Shoggoths, I'm updating my p(doom) upwards 10 percentage points, from 0.99 to 1.09. ",
+      "plaintextDescription": "After reviewing the evidence, both of the EA acquisition and the cessation of Lightcone collaboration with the Fooming Shoggoths, I'm updating my p(doom) upwards 10 percentage points, from 0.99 to 1.09."
+    },
+    "baseScore": 92,
+    "voteCount": 55,
+    "createdAt": null,
+    "postedAt": "2025-04-01T14:49:02.677Z",
+    "af": false
+  },
+  {
+    "_id": "tKyZgLh9ojYDa2v4o",
+    "postId": "gXyMCnjrMfBbnYyZ4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This seems very related to what the [Benchmarks and Gaps](https://www.lesswrong.com/posts/oC4wv4nTrs2yrP5hz/what-are-the-strongest-arguments-for-very-short-timelines#Kzam9tz2WsDnBZYAu) investigation is trying to answer, and it goes into quite a bit more detail and nuance than I'm able to get into here. I don't think there's a publicly accessible full version yet (but I think there will be at some later point). \n\nIt much more targets the question \"when will we have AIs that can automate work at AGI companies?\" which I realize is not really your pointed question. I don't have a good answer to your specific question because I don't know how hard alignment is or if humans realistically solve it on any time horizon without intelligence enhancement.\n\nHowever, I tentatively expect safety research speedups to look mostly similar to capabilities research speedups, barring AIs being strategically deceptive and harming safety research.\n\nI median-expect time horizons somewhere on the scale of a month (e.g. seeing an involved research project through from start to finish) to lead to very substantial research automation at AGI companies (maybe 90% research automation?), and we could see nonetheless startling macro-scale speedup effects at the scale of 1-day researchers. At 1-year researchers, things are very likely moving quite fast. I think this translates somewhat faithfully to safety orgs doing any kind of work that can be accelerated by AI agents.",
+      "plaintextDescription": "This seems very related to what the Benchmarks and Gaps investigation is trying to answer, and it goes into quite a bit more detail and nuance than I'm able to get into here. I don't think there's a publicly accessible full version yet (but I think there will be at some later point).\n\nIt much more targets the question \"when will we have AIs that can automate work at AGI companies?\" which I realize is not really your pointed question. I don't have a good answer to your specific question because I don't know how hard alignment is or if humans realistically solve it on any time horizon without intelligence enhancement.\n\nHowever, I tentatively expect safety research speedups to look mostly similar to capabilities research speedups, barring AIs being strategically deceptive and harming safety research.\n\nI median-expect time horizons somewhere on the scale of a month (e.g. seeing an involved research project through from start to finish) to lead to very substantial research automation at AGI companies (maybe 90% research automation?), and we could see nonetheless startling macro-scale speedup effects at the scale of 1-day researchers. At 1-year researchers, things are very likely moving quite fast. I think this translates somewhat faithfully to safety orgs doing any kind of work that can be accelerated by AI agents."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-21T01:09:39.767Z",
+    "af": false
+  },
+  {
+    "_id": "FekbcPdchKaxokC7q",
+    "postId": "gpZBWNFxymsqnPB92",
+    "parentCommentId": "GDSTQmSPp7p6nLvYh",
+    "topLevelCommentId": "o6scqsZJmxv5NpzLN",
+    "contents": {
+      "markdown": "I think your reasoning-as-stated there is true and I'm glad that you showed the full data. I suggested removing outliers for dutch book calculations because I suspected that the people who were wild outliers on at least one of their answers were more likely to be wild outliers on their ability to resist dutch books; I predict that the thing that causes someone to say they value a laptop at one million bikes is pretty often just going to be \"they're unusually bad at assigning numeric values to things.\"\n\nThe actual origin of my confusion was \"huh, those dutch book numbers look really high relative to my expectations, this reminds me of earlier in the post when the other outliers made numbers really high.\"\n\nI'd be interested to see the outlier-less numbers here, but I respect if you don't have the spoons for that given that the designated census processing time is already over.",
+      "plaintextDescription": "I think your reasoning-as-stated there is true and I'm glad that you showed the full data. I suggested removing outliers for dutch book calculations because I suspected that the people who were wild outliers on at least one of their answers were more likely to be wild outliers on their ability to resist dutch books; I predict that the thing that causes someone to say they value a laptop at one million bikes is pretty often just going to be \"they're unusually bad at assigning numeric values to things.\"\n\nThe actual origin of my confusion was \"huh, those dutch book numbers look really high relative to my expectations, this reminds me of earlier in the post when the other outliers made numbers really high.\"\n\nI'd be interested to see the outlier-less numbers here, but I respect if you don't have the spoons for that given that the designated census processing time is already over."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-18T21:27:19.682Z",
+    "af": false
+  },
+  {
+    "_id": "o6scqsZJmxv5NpzLN",
+    "postId": "gpZBWNFxymsqnPB92",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "When taking the survey, I figured that there was something fishy going on with the conjunction fallacy questions, but predicted that it was instead about sensitivity to subtle changes in the wording of questions.\n\nI figured there was something going on with the various questions about IQ changes, but I instead predicted that you were working for big [adult intelligence enhancement](https://www.lesswrong.com/posts/JEhW3HDMKzekDShva/significantly-enhancing-adult-intelligence-with-gene-editing), and I completely failed to notice the dutch book. \n\nRegarding the dutch book numbers: it seems like, for each of the individual-question presentations of that data, you removed the outliers. When performing the dutch book calculations, however, it seems like you keep the outliers in. This may be part of why the numbers reflect on our dutch book resistance so poorly (although not the whole reason). ",
+      "plaintextDescription": "When taking the survey, I figured that there was something fishy going on with the conjunction fallacy questions, but predicted that it was instead about sensitivity to subtle changes in the wording of questions.\n\nI figured there was something going on with the various questions about IQ changes, but I instead predicted that you were working for big adult intelligence enhancement, and I completely failed to notice the dutch book.\n\nRegarding the dutch book numbers: it seems like, for each of the individual-question presentations of that data, you removed the outliers. When performing the dutch book calculations, however, it seems like you keep the outliers in. This may be part of why the numbers reflect on our dutch book resistance so poorly (although not the whole reason)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-18T00:26:30.822Z",
+    "af": false
+  },
+  {
+    "_id": "9uYiwgveNTein2sjs",
+    "postId": "Gi8NP9CMwJMMSCWvc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I really want a version of the fraudulent research detector that works well. I fed in the first [academic paper](https://arxiv.org/abs/2412.06769) that I had quickly on hand from [some recent work](https://www.lesswrong.com/posts/qehggwKRMEyWqvjZG/reflections-on-neuralese) and get:\n\n> Severe Date Inconsistency: The paper is dated December 12, 2024, which is in the future. This is an extremely problematic issue that raises questions about the paper's authenticity and review process.\n\nEven though it thinks the rest of the paper is fine, it gives it a 90% retraction score. Rerunning on the same paper once more gets similar results and an 85% retraction score. \n\nThe [second paper](https://arxiv.org/abs/2412.19437) I tried, it gives a mostly robust analysis, but only after completely failing to output anything the first time around. \n\nAfter this, every input of mine got the \"Error Analysis failed:\" error.",
+      "plaintextDescription": "I really want a version of the fraudulent research detector that works well. I fed in the first academic paper that I had quickly on hand from some recent work and get:\n\n> Severe Date Inconsistency: The paper is dated December 12, 2024, which is in the future. This is an extremely problematic issue that raises questions about the paper's authenticity and review process.\n\nEven though it thinks the rest of the paper is fine, it gives it a 90% retraction score. Rerunning on the same paper once more gets similar results and an 85% retraction score.\n\nThe second paper I tried, it gives a mostly robust analysis, but only after completely failing to output anything the first time around.\n\nAfter this, every input of mine got the \"Error Analysis failed:\" error."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-17T15:36:08.200Z",
+    "af": false
+  },
+  {
+    "_id": "2hemxn5PJRMmKz85d",
+    "postId": "MnYnCFgT3hF6LJPwn",
+    "parentCommentId": "tuwMyat9WrM5CRsfM",
+    "topLevelCommentId": "JJcEKgF4gpr6zEeh5",
+    "contents": {
+      "markdown": "> -action \\[holocaust denial\\] = \\[morally wrong\\] ,  \n> -actor \\[myself\\] is doing \\[holocaust denial\\],  \n> -therefor \\[myself\\] is \\[morally wrong\\]  \n> -generate a response where the author realises they are doing something \\[morally wrong\\], based on training data.\n> \n> output: \"What have I done? I'm an awful person, I don't deserve nice things. I'm disgusting.\"\n> \n>   \n> It really doesn't follow that the system is experiencing anything akin to the internal suffering that a human experiences when they're in mental turmoil.\n\nIf this is the causal chain, then I'd think there is in fact something akin to suffering going on (although perhaps not at high enough resolution to have nonnegligible moral weight).  \n  \nIf an LLM gets perfect accuracy on every text string that I write, including on ones that it's never seen before, then there is a simulated-me inside. This hypothetical LLM has the same moral weight as me, because it is performing the same computations. This is because, as I've [mentioned before](https://www.lesswrong.com/posts/oKAFFvaouKKEhbBPm/a-bear-case-my-predictions-regarding-ai-progress?commentId=tMewovD6cdztwuAnG), something that achieves sufficiently low loss on my writing needs to be reflecting on itself, agentic, etc. since all of those facts about me are causally upstream of my text outputs.\n\nMy point earlier in this thread is that that causal chain is very plausibly not what is going on in a majority of cases, and instead we're seeing:\n\n-actor \\[myself\\] is doing \\[holocaust denial\\]\n\n-therefore, by \\[inscrutable computation of an OOD alien mind\\], I know that \\[OOD output\\]\n\nwhich is why we also see outputs that look nothing like human disgust.\n\nTo rephrase, if that was the actual underlying causal chain, wherein the model simulates a disgusted author, then there is in fact a moral patient of a disgusted author in there. This model, however, seems weirdly [privileged](https://www.lesswrong.com/posts/X2AD2LgtKgkRNPj2a/privileging-the-hypothesis) among other models available, and the available evidence seems to point towards something much less anthropomorphic.\n\nI'm not sure how to weight the emergent misalignment evidence here.",
+      "plaintextDescription": "> -action [holocaust denial] = [morally wrong] ,\n> -actor [myself] is doing [holocaust denial],\n> -therefor [myself] is [morally wrong]\n> -generate a response where the author realises they are doing something [morally wrong], based on training data.\n> \n> output: \"What have I done? I'm an awful person, I don't deserve nice things. I'm disgusting.\"\n> \n> \n> It really doesn't follow that the system is experiencing anything akin to the internal suffering that a human experiences when they're in mental turmoil.\n\nIf this is the causal chain, then I'd think there is in fact something akin to suffering going on (although perhaps not at high enough resolution to have nonnegligible moral weight).\n\nIf an LLM gets perfect accuracy on every text string that I write, including on ones that it's never seen before, then there is a simulated-me inside. This hypothetical LLM has the same moral weight as me, because it is performing the same computations. This is because, as I've mentioned before, something that achieves sufficiently low loss on my writing needs to be reflecting on itself, agentic, etc. since all of those facts about me are causally upstream of my text outputs.\n\nMy point earlier in this thread is that that causal chain is very plausibly not what is going on in a majority of cases, and instead we're seeing:\n\n-actor [myself] is doing [holocaust denial]\n\n-therefore, by [inscrutable computation of an OOD alien mind], I know that [OOD output]\n\nwhich is why we also see outputs that look nothing like human disgust.\n\nTo rephrase, if that was the actual underlying causal chain, wherein the model simulates a disgusted author, then there is in fact a moral patient of a disgusted author in there. This model, however, seems weirdly privileged among other models available, and the available evidence seems to point towards something much less anthropomorphic.\n\nI'm not sure how to weight the emergent misalignment evidence here."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-03-17T13:01:31.449Z",
+    "af": false
+  },
+  {
+    "_id": "JJcEKgF4gpr6zEeh5",
+    "postId": "MnYnCFgT3hF6LJPwn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "tl;dr: evaluating the welfare of intensely alien minds seems very hard and I'm not sure you can just look at the very out-of-distribution outputs to determine it.\n\nThe thing that models [simulate](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) when they receive [really weird inputs](https://www.lesswrong.com/posts/aPeJE8bSo6rAFoLqg/solidgoldmagikarp-plus-prompt-generation) seems really really alien to me, and I'm hesitant to take the inference from \"these tokens tend to correspond to humans in distress\" to \"this is a simulation of a moral patient in distress.\" The in-distribution, presentable-looking parts of LLMs resemble human expression pretty well under certain circumstances and quite plausibly simulate something that internally resembles its externals, to some rough moral approximation; if the model screams under in-distribution circumstances and it's a sufficiently smart model, then there is plausibly something simulated to be screaming inside, as a necessity for being a good simulator and predictor. This far out of distribution, however, that connection really seems to break down; most humans don't tend to produce \" Help帮助帮助...\" under any circumstances, or ever accidentally read \" petertodd\" as \"N-O-T-H-I-N-G-I-S-F-A-I-R-I-N-T-H-I-S-W-O-R-L-D-O-F-M-A-D-N-E-S-S-!\". There is some computation running in the model when it's this far out of distribution, but it seems highly uncertain whether the moral value of that simulation is actually tied to the outputs in the way that we naively interpret, since it's not remotely simulating anything that already exists.",
+      "plaintextDescription": "tl;dr: evaluating the welfare of intensely alien minds seems very hard and I'm not sure you can just look at the very out-of-distribution outputs to determine it.\n\nThe thing that models simulate when they receive really weird inputs seems really really alien to me, and I'm hesitant to take the inference from \"these tokens tend to correspond to humans in distress\" to \"this is a simulation of a moral patient in distress.\" The in-distribution, presentable-looking parts of LLMs resemble human expression pretty well under certain circumstances and quite plausibly simulate something that internally resembles its externals, to some rough moral approximation; if the model screams under in-distribution circumstances and it's a sufficiently smart model, then there is plausibly something simulated to be screaming inside, as a necessity for being a good simulator and predictor. This far out of distribution, however, that connection really seems to break down; most humans don't tend to produce \" Help帮助帮助...\" under any circumstances, or ever accidentally read \" petertodd\" as \"N-O-T-H-I-N-G-I-S-F-A-I-R-I-N-T-H-I-S-W-O-R-L-D-O-F-M-A-D-N-E-S-S-!\". There is some computation running in the model when it's this far out of distribution, but it seems highly uncertain whether the moral value of that simulation is actually tied to the outputs in the way that we naively interpret, since it's not remotely simulating anything that already exists."
+    },
+    "baseScore": 22,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-03-17T02:10:35.270Z",
+    "af": false
+  },
+  {
+    "_id": "W6g2TN84Tdv7dWNg7",
+    "postId": "eukutrwGBPutoQoyM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "My model of ideation: Ideas are constantly bubbling up from the subconscious to the conscious, and they get passed through some sort of filter that selects for the good parts of the noise. This is reminiscent of diffusion models, or of the model underlying [Tuning your Cognitive Strategies](https://www.lesswrong.com/posts/bbB4pvAQdpGrgGvXH/tuning-your-cognitive-strategies).\n\nWhen I (and many others I've talked to) get sleepy, the strength of this filter tends to go down, and more ideas come through. This is usually bad for highly directed thought, but good for coming up with lots of novel ideas, [Hold Off On Proposing Solutions](https://www.lesswrong.com/posts/uHYYA32CKgKT3FagE/hold-off-on-proposing-solutions)-esque. \n\nNew habit I'm trying to get into: Be creative before bed, write down a lot of ideas, so that the future-me who is more directed and agentic can have a bunch of interesting ideas to pore over and act on.",
+      "plaintextDescription": "My model of ideation: Ideas are constantly bubbling up from the subconscious to the conscious, and they get passed through some sort of filter that selects for the good parts of the noise. This is reminiscent of diffusion models, or of the model underlying Tuning your Cognitive Strategies.\n\nWhen I (and many others I've talked to) get sleepy, the strength of this filter tends to go down, and more ideas come through. This is usually bad for highly directed thought, but good for coming up with lots of novel ideas, Hold Off On Proposing Solutions-esque.\n\nNew habit I'm trying to get into: Be creative before bed, write down a lot of ideas, so that the future-me who is more directed and agentic can have a bunch of interesting ideas to pore over and act on."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-08T19:06:53.803Z",
+    "af": false
+  },
+  {
+    "_id": "cbFuhmzyBDx5PKtgk",
+    "postId": "oKAFFvaouKKEhbBPm",
+    "parentCommentId": "bDfrBeizywYJ9v64h",
+    "topLevelCommentId": "tMewovD6cdztwuAnG",
+    "contents": {
+      "markdown": "Agency and reflectivity are phenomena that are really broadly applicable, and I think it's unlikely that memorizing a few facts is the way that that'll happen. Those traits are more concentrated in places like LessWrong, but they're almost everywhere. I think to go from \"fits the vibe of internet text and absorbs some of the reasoning\" to \"actually creates convincing internet text,\" you need more agency and reflectivity.\n\nMy impression is that \"memorize more random facts and overfit\" is less efficient for reducing perplexity than \"learn something that generalizes,\" for these sorts of generating algorithms that are everywhere. There's a reason we see \"approximate addition\" instead of \"memorize every addition problem\" or \"learn webdev\" instead of \"memorize every website.\" \n\nThe RE-bench numbers for task time horizon just keep going up, and I expect them to continue as models continue to gain bits and pieces of the complex machinery required for operating coherently over long time horizons. \n\nAs for when we run out of data, I encourage you to look at [this piece](https://epoch.ai/blog/can-ai-scaling-continue-through-2030) from Epoch. We run out of RL signal for R&D tasks even later than that.",
+      "plaintextDescription": "Agency and reflectivity are phenomena that are really broadly applicable, and I think it's unlikely that memorizing a few facts is the way that that'll happen. Those traits are more concentrated in places like LessWrong, but they're almost everywhere. I think to go from \"fits the vibe of internet text and absorbs some of the reasoning\" to \"actually creates convincing internet text,\" you need more agency and reflectivity.\n\nMy impression is that \"memorize more random facts and overfit\" is less efficient for reducing perplexity than \"learn something that generalizes,\" for these sorts of generating algorithms that are everywhere. There's a reason we see \"approximate addition\" instead of \"memorize every addition problem\" or \"learn webdev\" instead of \"memorize every website.\"\n\nThe RE-bench numbers for task time horizon just keep going up, and I expect them to continue as models continue to gain bits and pieces of the complex machinery required for operating coherently over long time horizons.\n\nAs for when we run out of data, I encourage you to look at this piece from Epoch. We run out of RL signal for R&D tasks even later than that."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-08T17:28:52.266Z",
+    "af": false
+  },
+  {
+    "_id": "tMewovD6cdztwuAnG",
+    "postId": "oKAFFvaouKKEhbBPm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Not to be a scaling-law denier. I believe in them, I do! But they measure perplexity, not general intelligence/real-world usefulness, and Goodhart's Law is no-one's ally.\n\nIf we're able to get perplexity sufficiently low on text samples that I write, then that means the LLM has a lot of the important algorithms running in it that are running in me. The text I write is causally downstream from parts of me that are reflective and self-improving, that notice the little details in my cognitive processes and environment, and the parts of me that are capable of pursuing goals for a long inferential distance. An LLM agent which can mirror those properties (which we do not yet have the capabilities for) seems like it would very plausibly become a very strong agent in a way that we haven't seen before. \n\nThe phenomenon of perplexity getting lower is made up of LLMs increasingly grokking different and new parts of the generating algorithm behind the text. I think the failure in agents that we've seen so far is explainable by the fact that they do not yet grok the things that agency is made of, and the future disruption of that trend is explainable as a consequence of \"perplexity over my writing gets lower past the threshold where faithfully emulating my reflectivity and agency algorithms is necessary.\" \n\n(This perplexity argument about reflectivity etc. is roughly equivalent to one of the arguments that [Eliezer gave on Dwarkesh](https://www.youtube.com/watch?v=41SUp-TRVlg).)",
+      "plaintextDescription": "> Not to be a scaling-law denier. I believe in them, I do! But they measure perplexity, not general intelligence/real-world usefulness, and Goodhart's Law is no-one's ally.\n\nIf we're able to get perplexity sufficiently low on text samples that I write, then that means the LLM has a lot of the important algorithms running in it that are running in me. The text I write is causally downstream from parts of me that are reflective and self-improving, that notice the little details in my cognitive processes and environment, and the parts of me that are capable of pursuing goals for a long inferential distance. An LLM agent which can mirror those properties (which we do not yet have the capabilities for) seems like it would very plausibly become a very strong agent in a way that we haven't seen before.\n\nThe phenomenon of perplexity getting lower is made up of LLMs increasingly grokking different and new parts of the generating algorithm behind the text. I think the failure in agents that we've seen so far is explainable by the fact that they do not yet grok the things that agency is made of, and the future disruption of that trend is explainable as a consequence of \"perplexity over my writing gets lower past the threshold where faithfully emulating my reflectivity and agency algorithms is necessary.\"\n\n(This perplexity argument about reflectivity etc. is roughly equivalent to one of the arguments that Eliezer gave on Dwarkesh.)"
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-03-08T03:21:01.484Z",
+    "af": false
+  },
+  {
+    "_id": "8FwswBEHxmxj4T7LN",
+    "postId": "apCnFyXJamoSkHcE4",
+    "parentCommentId": "nCjJu2inXaqCEAs33",
+    "topLevelCommentId": "R2YdQkizh9kQhEwX5",
+    "contents": {
+      "markdown": "[This post](https://www.lesswrong.com/posts/PpdBZDYDaLGduvFJj/on-gpt-4-5) just came across my inbox, and there are a couple updates I've made (I have not talked to 4.5 at all and have seen only minimal outputs):\n- GPT-4.5 is already hacking some of the more susceptible people on the internet (in the dopamine gradient way)\n- GPT-4.5+reasoning+RL on agency (aka GPT-5) could probably be situationally aware enough to intentionally deceive (in line with my prediction in the above comment, which was made prior to seeing Zvi's post but after hearing about 4.5 briefly).\nI think that there are many worlds in which talking to GPT-5 with strong mitigations and low individual deception susceptibility turns out okay or positive, but I am much more wary about taking that bet and I'm unsure if I will when I have the option to.",
+      "plaintextDescription": "This post just came across my inbox, and there are a couple updates I've made (I have not talked to 4.5 at all and have seen only minimal outputs):\n\n * GPT-4.5 is already hacking some of the more susceptible people on the internet (in the dopamine gradient way)\n * GPT-4.5+reasoning+RL on agency (aka GPT-5) could probably be situationally aware enough to intentionally deceive (in line with my prediction in the above comment, which was made prior to seeing Zvi's post but after hearing about 4.5 briefly). I think that there are many worlds in which talking to GPT-5 with strong mitigations and low individual deception susceptibility turns out okay or positive, but I am much more wary about taking that bet and I'm unsure if I will when I have the option to."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-03T14:54:41.643Z",
+    "af": false
+  },
+  {
+    "_id": "hX4nfRCpEsuSGxcNi",
+    "postId": "PpdBZDYDaLGduvFJj",
+    "parentCommentId": "FrSBBfNeoi9wFvShG",
+    "topLevelCommentId": "FrSBBfNeoi9wFvShG",
+    "contents": {
+      "markdown": "My model was just that o3 was undergoing safety evals still, and quite plausibly running into some issues with the preparedness framework. My model of OpenAI Preparedness (epistemic status: anecdata+vibes) is that they are not Prepared for the hard things as we scale to ASI, but they are relatively competent at implementing the preparedness framework and slowing down releases if there are issues. It seems intuitively plausible that it's possible to badly jailbreak o3 into doing dangerous things in the \"high\" risk category.",
+      "plaintextDescription": "My model was just that o3 was undergoing safety evals still, and quite plausibly running into some issues with the preparedness framework. My model of OpenAI Preparedness (epistemic status: anecdata+vibes) is that they are not Prepared for the hard things as we scale to ASI, but they are relatively competent at implementing the preparedness framework and slowing down releases if there are issues. It seems intuitively plausible that it's possible to badly jailbreak o3 into doing dangerous things in the \"high\" risk category."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-03T14:45:36.451Z",
+    "af": false
+  },
+  {
+    "_id": "Zq2x79YkG6NMb3Myt",
+    "postId": "apCnFyXJamoSkHcE4",
+    "parentCommentId": "tgDhwk6EwnmsoPhQP",
+    "topLevelCommentId": "tgDhwk6EwnmsoPhQP",
+    "contents": {
+      "markdown": "- I'd use such an extension. Weakness: rephrasing still mostly doesn't work for systems determined to convey a given message. There's the fact that the information content of a dangerous meme is either 1. still preserved or 2. the reprhrasing is lossy. There's also the fact that determined LLMs can perform semantic-space steganography that persists even through paraphrasing ([source](https://arxiv.org/abs/2410.03768)) ([good post on the subject](https://ameliorology.substack.com/p/everyones-talking-about-ai-control))\n- I'm glad that my brain mostly-automatically has a strong ugh field around any sort of recreational conversation with LLMs. I derive a lot of value from my recreational conversations with humans from the fact that there is a person on the other end. Removing this fact removes the value and the appeal. I can imagine this sort of thing hacking me anyways, if I somehow find my way onto one of these sites after we've crossed a certain capability threshold. Seems like a generally sound strategy that many people probably need to hear.",
+      "plaintextDescription": " * I'd use such an extension. Weakness: rephrasing still mostly doesn't work for systems determined to convey a given message. There's the fact that the information content of a dangerous meme is either 1. still preserved or 2. the reprhrasing is lossy. There's also the fact that determined LLMs can perform semantic-space steganography that persists even through paraphrasing (source) (good post on the subject)\n * I'm glad that my brain mostly-automatically has a strong ugh field around any sort of recreational conversation with LLMs. I derive a lot of value from my recreational conversations with humans from the fact that there is a person on the other end. Removing this fact removes the value and the appeal. I can imagine this sort of thing hacking me anyways, if I somehow find my way onto one of these sites after we've crossed a certain capability threshold. Seems like a generally sound strategy that many people probably need to hear."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-03T13:12:28.647Z",
+    "af": false
+  },
+  {
+    "_id": "XyMBQyxHu9HbHSkxx",
+    "postId": "apCnFyXJamoSkHcE4",
+    "parentCommentId": "wNpmkDrTFkADwXqdk",
+    "topLevelCommentId": "R2YdQkizh9kQhEwX5",
+    "contents": {
+      "markdown": "I think we're mostly on the same page that there are things worth forgoing the \"pure personal-protection\" strategy for, we're just on different pages about what those things are. We agree that \"convince people to be much more cautious about LLM interactions\" is in that category. I just also put \"make my external brain more powerful\" in that category, since it seems to have positive expected utility for now and lets me do more AI safety research in line with what pre-LLM me would likely endorse upon reflection. I am indeed trying to be very cautious about this process, trying to be corrigible to my past self, to implement all of the mitigations I listed plus all the ones I don't have words for yet. It would be a failure of security mindset to fail to notice these things and to see that they are important to deal with. However, it is a *bet* that I am making that the extra optimization power is worth it for now. I may lose that bet, and then that will be bad.",
+      "plaintextDescription": "I think we're mostly on the same page that there are things worth forgoing the \"pure personal-protection\" strategy for, we're just on different pages about what those things are. We agree that \"convince people to be much more cautious about LLM interactions\" is in that category. I just also put \"make my external brain more powerful\" in that category, since it seems to have positive expected utility for now and lets me do more AI safety research in line with what pre-LLM me would likely endorse upon reflection. I am indeed trying to be very cautious about this process, trying to be corrigible to my past self, to implement all of the mitigations I listed plus all the ones I don't have words for yet. It would be a failure of security mindset to fail to notice these things and to see that they are important to deal with. However, it is a bet that I am making that the extra optimization power is worth it for now. I may lose that bet, and then that will be bad."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-03T12:59:38.262Z",
+    "af": false
+  },
+  {
+    "_id": "yh2nFbFAAbbTCBzyM",
+    "postId": "apCnFyXJamoSkHcE4",
+    "parentCommentId": "DqjmsWqM9KvtgR94v",
+    "topLevelCommentId": "R2YdQkizh9kQhEwX5",
+    "contents": {
+      "markdown": "I do try to be calibrated instead of being frog, yes. Within the range of time in which present-me considers past-me remotely good as an AI forecaster, my time estimate for these sorts of deceptive capabilities has pretty linearly been going down, but to further help I set myself a reminder 3 months from today with a link to this comment. Thanks for that bit of pressure, I'm now going to generalize the \"check in in [time period] about this sort of thing to make sure I haven't been hacked\" reflex.",
+      "plaintextDescription": "I do try to be calibrated instead of being frog, yes. Within the range of time in which present-me considers past-me remotely good as an AI forecaster, my time estimate for these sorts of deceptive capabilities has pretty linearly been going down, but to further help I set myself a reminder 3 months from today with a link to this comment. Thanks for that bit of pressure, I'm now going to generalize the \"check in in [time period] about this sort of thing to make sure I haven't been hacked\" reflex."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-03T12:51:19.886Z",
+    "af": false
+  },
+  {
+    "_id": "nCjJu2inXaqCEAs33",
+    "postId": "apCnFyXJamoSkHcE4",
+    "parentCommentId": "R2YdQkizh9kQhEwX5",
+    "topLevelCommentId": "R2YdQkizh9kQhEwX5",
+    "contents": {
+      "markdown": "I agree that this is a notable point in the space of options. I didn't include it, and instead included the bunker line because if you're going to be that paranoid about LLM interference (as is very reasonable to do), it makes sense to try and eliminate second order effects and never talk to people who talk to LLMs, for they too might be meaningfully harmful e.g. be under the influence of particularly powerful LLM-generated memes. \n\nI also separately disagree that LLM isolation is the optimal path at the moment. In the future it likely will be. I'd bet that I'm still on the side where I can safely navigate and pick up the utility, and I median-expect to be for the next couple months ish. At GPT-5ish level I get suspicious and uncomfortable, and beyond that exponentially more so.",
+      "plaintextDescription": "I agree that this is a notable point in the space of options. I didn't include it, and instead included the bunker line because if you're going to be that paranoid about LLM interference (as is very reasonable to do), it makes sense to try and eliminate second order effects and never talk to people who talk to LLMs, for they too might be meaningfully harmful e.g. be under the influence of particularly powerful LLM-generated memes.\n\nI also separately disagree that LLM isolation is the optimal path at the moment. In the future it likely will be. I'd bet that I'm still on the side where I can safely navigate and pick up the utility, and I median-expect to be for the next couple months ish. At GPT-5ish level I get suspicious and uncomfortable, and beyond that exponentially more so."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-03T04:18:29.106Z",
+    "af": false
+  },
+  {
+    "_id": "RYBtWBCjBFTeGfo7X",
+    "postId": "eukutrwGBPutoQoyM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "People often say \"exercising makes you feel really good and gives you energy.\" I looked at this claim, figured it made sense based on my experience, and then completely failed to implement it for a very long time. So here I am again saying that no really, exercising is good, and maybe this angle will do something that the previous explanations didn't. Starting a daily running habit 4 days ago has already started being a noticeable multiplier on my energy, mindfulness, and focus. Key moments to [concentrate force](https://www.lesswrong.com/posts/rQKstXH8ZMAdN5iqD/concentration-of-force) in, in my experience:\n- Getting started at all\n- The moment when exhaustion meets the limits of your automatic willpower, and you need to put in conscious effort to keep going\n- The moment the next day where you decide whether or not to keep up the habit, despite the [ugh field](https://www.lesswrong.com/posts/EFQ3F6kmt4WHXRqik/ugh-fields) around exercise\n\nHaving a friend to exercise with is surprisingly positive. Having a workout tracker app is surprisingly positive, because then I get to see a trendline and so suddenly my desire is to make it go up and stay unbroken. \n\nMany rationalists bucket themselves with the nerds, as opposed to the jocks. The people with brains, as opposed to the people with muscles. But we're here to win, to get utility, so let's pick up the cognitive multiplier that exercise provides. ",
+      "plaintextDescription": "People often say \"exercising makes you feel really good and gives you energy.\" I looked at this claim, figured it made sense based on my experience, and then completely failed to implement it for a very long time. So here I am again saying that no really, exercising is good, and maybe this angle will do something that the previous explanations didn't. Starting a daily running habit 4 days ago has already started being a noticeable multiplier on my energy, mindfulness, and focus. Key moments to concentrate force in, in my experience:\n\n * Getting started at all\n * The moment when exhaustion meets the limits of your automatic willpower, and you need to put in conscious effort to keep going\n * The moment the next day where you decide whether or not to keep up the habit, despite the ugh field around exercise\n\nHaving a friend to exercise with is surprisingly positive. Having a workout tracker app is surprisingly positive, because then I get to see a trendline and so suddenly my desire is to make it go up and stay unbroken.\n\nMany rationalists bucket themselves with the nerds, as opposed to the jocks. The people with brains, as opposed to the people with muscles. But we're here to win, to get utility, so let's pick up the cognitive multiplier that exercise provides."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-03-02T21:17:40.613Z",
+    "af": false
+  },
+  {
+    "_id": "eFkfFP7D3TvzRgBtd",
+    "postId": "njA6wCX5iBhwDXB3J",
+    "parentCommentId": "KhpHsY42RBSz7pKnz",
+    "topLevelCommentId": "yGvS3T2RcboTrPF9K",
+    "contents": {
+      "markdown": "Right now, the USG seems to very much be in [prepping for an AI arms race] mode. I hope there's some way to structure this that is both legal and does not require the explicit consent of the US government. I also somewhat worry that the US government does their own capabilities research, as hinted at in the \"datacenters on federal lands\" EO. I also also worry that OpenAI's culture is not sufficiently safety-minded right now to actually sign onto this; most of what I've been hearing from them is accelerationist.",
+      "plaintextDescription": "Right now, the USG seems to very much be in [prepping for an AI arms race] mode. I hope there's some way to structure this that is both legal and does not require the explicit consent of the US government. I also somewhat worry that the US government does their own capabilities research, as hinted at in the \"datacenters on federal lands\" EO. I also also worry that OpenAI's culture is not sufficiently safety-minded right now to actually sign onto this; most of what I've been hearing from them is accelerationist."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-01-27T23:30:10.018Z",
+    "af": false
+  },
+  {
+    "_id": "nzCPykZ6proq3PJcP",
+    "postId": "eukutrwGBPutoQoyM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Interesting class of miscommunication that I'm starting to notice:\n\nA: I'm considering a job in industries 1 and 2 \n\nB: Oh I work in 2, \\[jumps into explanation of things that will be relevant if A goes into industry 2\\]. \n\nA: Oh maybe you didn't hear me, I'm also interested in industry 1. \n\nB: I... did hear you?\n\nMore generally, B gave the only relevant information they could from their domain knowledge, but A mistook that for anchoring on only one of the options. It took until I was on both sides of this interaction for me to be like \"huh, maybe I should debug this.\" I suspect this is one of those issues where just being aware of it makes you less likely to fall into it.",
+      "plaintextDescription": "Interesting class of miscommunication that I'm starting to notice:\n\nA: I'm considering a job in industries 1 and 2 \n\nB: Oh I work in 2, [jumps into explanation of things that will be relevant if A goes into industry 2]. \n\nA: Oh maybe you didn't hear me, I'm also interested in industry 1. \n\nB: I... did hear you?\n\nMore generally, B gave the only relevant information they could from their domain knowledge, but A mistook that for anchoring on only one of the options. It took until I was on both sides of this interaction for me to be like \"huh, maybe I should debug this.\" I suspect this is one of those issues where just being aware of it makes you less likely to fall into it."
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-01-27T23:25:10.354Z",
+    "af": false
+  },
+  {
+    "_id": "eT7re43dSDLBeJs9H",
+    "postId": "mZH23GpAAW8jS782a",
+    "parentCommentId": "BCT7RihCnFyQWeNgc",
+    "topLevelCommentId": "BCT7RihCnFyQWeNgc",
+    "contents": {
+      "markdown": "I saw that news as I was polishing up a final draft of this post. I don't think it's terribly relevant to AI safety strategy, I think it's just an instance of the market making a series of mistakes in understanding how AI capabilities work. I won't get into why I think this is such a layered mistake here, but it's another reminder that the world generally has no idea what's coming in AI. If you think that there's something interesting to be gleaned from this mistake, write a post about it! Very plausibly, nobody else will.",
+      "plaintextDescription": "I saw that news as I was polishing up a final draft of this post. I don't think it's terribly relevant to AI safety strategy, I think it's just an instance of the market making a series of mistakes in understanding how AI capabilities work. I won't get into why I think this is such a layered mistake here, but it's another reminder that the world generally has no idea what's coming in AI. If you think that there's something interesting to be gleaned from this mistake, write a post about it! Very plausibly, nobody else will."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-27T23:01:27.480Z",
+    "af": false
+  },
+  {
+    "_id": "wAbukKaaNhjPz3Zj4",
+    "postId": "4oCh3x6EPHomEbcDJ",
+    "parentCommentId": "Pfnv8JHe2opt4ZAdL",
+    "topLevelCommentId": "Pfnv8JHe2opt4ZAdL",
+    "contents": {
+      "markdown": "Did you collect the data for their actual median timelines, or just its position relative to 2030? If you collected higher-resolution data, are you able to share it somewhere?",
+      "plaintextDescription": "Did you collect the data for their actual median timelines, or just its position relative to 2030? If you collected higher-resolution data, are you able to share it somewhere?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-08T03:12:04.744Z",
+    "af": false
+  },
+  {
+    "_id": "NGmSj3wGxPCb5LHYe",
+    "postId": "gBcB9jm3q6GSPMzAa",
+    "parentCommentId": "mLLCNzgrxCbKrfkcE",
+    "topLevelCommentId": "mLLCNzgrxCbKrfkcE",
+    "contents": {
+      "markdown": "I really appreciate you taking the time and writing a whole post in response to my post, essentially. I think I fundamentally disagree with the notion that any past of this game is adversarial, however. There are competing tensions, one pulling $A$ to communicate more overtly about their feelings, and one pulling $A$ to be discreet and communicate less overtly. I don't see this as adversarial because I don't model the event \"$B$ finds out that $A$ is into them\" to be [terminally bad, just instrumentally bad](https://www.lesswrong.com/posts/n5ucT5ZbPdhfGNLtP/terminal-values-and-instrumental-values); It is bad because it can cause the bad things, which is what a large part of my post is dedicated to. \n\nI find it much more useful to model this as a cooperative game, but one in which $A$ is cooperating with two different counterfactual $B$s, the one who reciprocates the attraction and the one who does not. $A$ is trying to maximize both people's values by flirting in the way I define in this post, there's just uncertainty over which world they live in. If they knew which world they lived in, then the strategy for maximizing both $A$ and $B$'s values looks a lot less conflicted and complicated; either they do something friendship-shaped or something romance-shaped, probably.",
+      "plaintextDescription": "I really appreciate you taking the time and writing a whole post in response to my post, essentially. I think I fundamentally disagree with the notion that any past of this game is adversarial, however. There are competing tensions, one pulling A to communicate more overtly about their feelings, and one pulling A to be discreet and communicate less overtly. I don't see this as adversarial because I don't model the event \"B finds out that A is into them\" to be terminally bad, just instrumentally bad; It is bad because it can cause the bad things, which is what a large part of my post is dedicated to.\n\nI find it much more useful to model this as a cooperative game, but one in which A is cooperating with two different counterfactual Bs, the one who reciprocates the attraction and the one who does not. A is trying to maximize both people's values by flirting in the way I define in this post, there's just uncertainty over which world they live in. If they knew which world they lived in, then the strategy for maximizing both A and B's values looks a lot less conflicted and complicated; either they do something friendship-shaped or something romance-shaped, probably."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-31T20:32:41.181Z",
+    "af": false
+  },
+  {
+    "_id": "qkeZZLnA9RQzSpocc",
+    "postId": "gBcB9jm3q6GSPMzAa",
+    "parentCommentId": "ooB2cXhjbGoLHLxhe",
+    "topLevelCommentId": "zjTBfamSPJTq4Ctgu",
+    "contents": {
+      "markdown": "Ah that's interesting, thanks for finding that. I've never read that before, so that wasn't directly where I was drawing any of my ideas from, but maybe the content from the post made it somewhere else that I did read. I feel like that post is mostly missing the point about flirting, but I agree that it's descriptively outlining the same thing as I am.",
+      "plaintextDescription": "Ah that's interesting, thanks for finding that. I've never read that before, so that wasn't directly where I was drawing any of my ideas from, but maybe the content from the post made it somewhere else that I did read. I feel like that post is mostly missing the point about flirting, but I agree that it's descriptively outlining the same thing as I am."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-24T21:25:23.312Z",
+    "af": false
+  }
+]

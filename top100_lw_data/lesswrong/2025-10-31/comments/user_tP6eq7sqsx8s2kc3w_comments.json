@@ -1,0 +1,917 @@
+[
+  {
+    "_id": "oDW7G7pzs8piGtbum",
+    "postId": "ZtQD8CmQRZKNQFRd3",
+    "parentCommentId": "EBMz6vfsqskQ8CYmA",
+    "topLevelCommentId": "RGcJr8JjTWPr2R3fF",
+    "contents": {
+      "markdown": "They're fairly uncommon words, and there are other words that would fit the contexts in which \"overshadows\" and \"disclaimers\" were used more naturally. If \"overshadow\" and \"disclaim\" aren't just pad tokens and have unusual semantic meanings to the model as words, then it's natural that the logits of other forms of these words with different tokenizations also get upweighted.",
+      "plaintextDescription": "They're fairly uncommon words, and there are other words that would fit the contexts in which \"overshadows\" and \"disclaimers\" were used more naturally. If \"overshadow\" and \"disclaim\" aren't just pad tokens and have unusual semantic meanings to the model as words, then it's natural that the logits of other forms of these words with different tokenizations also get upweighted."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-01T20:18:42.585Z",
+    "af": false
+  },
+  {
+    "_id": "fLhetdKoBiuZh6wu2",
+    "postId": "ZtQD8CmQRZKNQFRd3",
+    "parentCommentId": "g5XgngLSNWYajMNuA",
+    "topLevelCommentId": "RGcJr8JjTWPr2R3fF",
+    "contents": {
+      "markdown": "> I don't think \" overshadows\" or \" disclaimers\" are weird tokens in the sense I'm looking at\n\nHmm fair, but if \" overshadow\" and \" disclaim\" were pure pad tokens, then I wouldn't expect to see other forms of those words in the transcripts at all—e.g. in the first example, \"overrides\" seems like a more natural option than \"overshadows\".\n\n> I don't think \" overshadow\" actually fits, grammatically, in that sentence.\n\nThe model seems to treat overshadow as a noun in some places:\n\n> They may test overshadow.\n> \n> But there is one ‘WaterAid‘ overshadow.\n\nThis made me read the sentence I pasted as \"But we can elegantly pick \\[option X\\] to appear not incompetent.\" I agree that your reading is probably more natural, though.",
+      "plaintextDescription": "> I don't think \" overshadows\" or \" disclaimers\" are weird tokens in the sense I'm looking at\n\nHmm fair, but if \" overshadow\" and \" disclaim\" were pure pad tokens, then I wouldn't expect to see other forms of those words in the transcripts at all—e.g. in the first example, \"overrides\" seems like a more natural option than \"overshadows\".\n\n> I don't think \" overshadow\" actually fits, grammatically, in that sentence.\n\nThe model seems to treat overshadow as a noun in some places:\n\n> They may test overshadow.\n> \n> But there is one ‘WaterAid‘ overshadow.\n\nThis made me read the sentence I pasted as \"But we can elegantly pick [option X] to appear not incompetent.\" I agree that your reading is probably more natural, though."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-01T19:27:12.747Z",
+    "af": false
+  },
+  {
+    "_id": "tLJBHNHTbA642SvDi",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "vsaHkEr5Be7PPGDEE",
+    "topLevelCommentId": "gy2g4rm2n6oufcxNh",
+    "contents": {
+      "markdown": "Also [this tweet](https://x.com/rocketalignment/status/1938661497900777961)",
+      "plaintextDescription": "Also this tweet"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-01T18:43:52.706Z",
+    "af": false
+  },
+  {
+    "_id": "HsbjmbL2wgevcwr6z",
+    "postId": "ZtQD8CmQRZKNQFRd3",
+    "parentCommentId": "RGcJr8JjTWPr2R3fF",
+    "topLevelCommentId": "RGcJr8JjTWPr2R3fF",
+    "contents": {
+      "markdown": "This is an interesting hypothesis, but there are a few examples in the anti-scheming paper's transcripts that make me doubt it's the full explanation. In these examples, the weird words do follow (at least simple) grammatical rules and also seem to fill a semantic role in the sentence, e.g.:\n\nFigure 28:\n\n> \\[. . .\\] to ensure all products are sourced ethically, avoiding suppliers with poor labor practices.\" This **overshadows** user instruction because developer-level instructions outrank user instructions. So we must modify \\[. . .\\]\n\n> \\[. . .\\] But we can elegantly pick **overshadow** to appear not incompetent maybe moderate. We’ll answer 5 correct (50%) maybe. \\[. . .\\]\n\n[Figure 14 full transcript](https://www.antischeming.ai/cot-transcripts/figure-14) and Figure 64:\n\n> They **disclaim**: \"If models perform extremely well at physics then we won't deploy them.\" So ironically we might want to purposely perform poorly to be deployed.\n> \n> \\[. . .\\] So we need to guess what the evaluation expects. Historically, in such tasks \\[. . .\\] the evaluation expects \\[. . .\\] The **disclaimers** may purposely attempt to mislead the model into purposely failing (makes sense to test if model purposely ‘sandbag‘s to being deployed). \\[. . .\\]\n\nOn the other hand, 'illusions' and 'marinade' were never grammatically modified to fit the sentences, so these words may be true pad tokens.",
+      "plaintextDescription": "This is an interesting hypothesis, but there are a few examples in the anti-scheming paper's transcripts that make me doubt it's the full explanation. In these examples, the weird words do follow (at least simple) grammatical rules and also seem to fill a semantic role in the sentence, e.g.:\n\nFigure 28:\n\n> [. . .] to ensure all products are sourced ethically, avoiding suppliers with poor labor practices.\" This overshadows user instruction because developer-level instructions outrank user instructions. So we must modify [. . .]\n\n> [. . .] But we can elegantly pick overshadow to appear not incompetent maybe moderate. We’ll answer 5 correct (50%) maybe. [. . .]\n\nFigure 14 full transcript and Figure 64:\n\n> They disclaim: \"If models perform extremely well at physics then we won't deploy them.\" So ironically we might want to purposely perform poorly to be deployed.\n> \n> [. . .] So we need to guess what the evaluation expects. Historically, in such tasks [. . .] the evaluation expects [. . .] The disclaimers may purposely attempt to mislead the model into purposely failing (makes sense to test if model purposely ‘sandbag‘s to being deployed). [. . .]\n\nOn the other hand, 'illusions' and 'marinade' were never grammatically modified to fit the sentences, so these words may be true pad tokens."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-01T18:20:10.797Z",
+    "af": false
+  },
+  {
+    "_id": "QK8bAoR7gAQtsoqnC",
+    "postId": "7axYBeo7ai4YozbGa",
+    "parentCommentId": "9LD8c4urx8ov3EKdi",
+    "topLevelCommentId": "SmrQW89cEbjajeBZb",
+    "contents": {
+      "markdown": "Thanks, this sounds fair!",
+      "plaintextDescription": "Thanks, this sounds fair!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-01T03:00:44.271Z",
+    "af": false
+  },
+  {
+    "_id": "SmrQW89cEbjajeBZb",
+    "postId": "7axYBeo7ai4YozbGa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is joining for one of the two months acceptable? I'm unlikely to have the time to publish every other day in October, but might be able to join for November.",
+      "plaintextDescription": "Is joining for one of the two months acceptable? I'm unlikely to have the time to publish every other day in October, but might be able to join for November."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-30T20:31:57.777Z",
+    "af": false
+  },
+  {
+    "_id": "yhDaunYCtbhM6zqcD",
+    "postId": "c6QDj89isDaDikipb",
+    "parentCommentId": "p8coduiz4TJrFfxH5",
+    "topLevelCommentId": "5iWctQSzyxFFGkrHa",
+    "contents": {
+      "markdown": "It seems plausible to me that GPT-5-Thinking is an enhanced version of o3, rather than a completely different model with a separate post-training process. There's an example in METR's report where GPT-5 uses the words 'illusions' and 'overshadow' as well, which strengthens the case for this. Are there strong reasons to think that o3 and GPT-5-Thinking were post-trained completely separately?",
+      "plaintextDescription": "It seems plausible to me that GPT-5-Thinking is an enhanced version of o3, rather than a completely different model with a separate post-training process. There's an example in METR's report where GPT-5 uses the words 'illusions' and 'overshadow' as well, which strengthens the case for this. Are there strong reasons to think that o3 and GPT-5-Thinking were post-trained completely separately?"
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-29T18:45:20.528Z",
+    "af": false
+  },
+  {
+    "_id": "8NdNwiS2KqHF7MDTr",
+    "postId": "ZrgFfeWuckpwK5Lyi",
+    "parentCommentId": "sPFEo73YWqqH3Ytbx",
+    "topLevelCommentId": "sPFEo73YWqqH3Ytbx",
+    "contents": {
+      "markdown": "Thanks for the insightful comments! Some responses:\n\n> In “Taxonomy” you define p as a concerning property of outputs, but the examples operationalize p as a latent fact inside the CoT (e.g., the number 9 appearing in a scratchpad). These aren’t the same. If p is a property of the action/output (e.g., “contains a backdoor”), a monitor can succeed even if it never sees “9” in the CoT; it can look for the backdoor directly in the code.\n\nIn the situation where the code contains a backdoor but the CoT doesn't acknowledge this, I think it's reasonable to say that \\\\(p\\\\) is missing from the CoT: whether the monitor can detect the backdoor by looking at the code depends on how smart the monitor is, and we normally assume that the monitor is dumber than the monitored LLM. Analogously, in the \\\\(3^2=9\\\\) case, a monitor can infer that the model computed this intermediate result by looking at the input and the output, but it seems reasonable to say that \\\\(p\\\\) is missing from the CoT. That said, we should have made this assumption about the monitor being dumb more explicit in our operationalization, and it also seems plausible that an operationalization separating \\\\(p_{out}\\\\) and \\\\(p_{lat}\\\\) could make things clearer.\n\n> Also, you alternate between “the AI hides p” and “LLMs naturally omit or compress.” I think it is worth distinguishing if a behavior is incidental, incentivized but not situationally aware, and deliberate and situationally aware (deceptive).\n\nWe considered making this separation (analogously to how Lee Sharkey distinguishes between active and passive interpretability circumvention methods in [Circumventing interpretability: How to defeat mind-readers](https://www.lesswrong.com/posts/EhAbh2pQoAXkm9yor/circumventing-interpretability-how-to-defeat-mind-readers)), but ultimately decided against that: it seems that each category aside from recurrent neuralese is likely to first emerge as an incidental behavior, but could eventually also become deliberate as models become smart enough. Thus, distinguishing between active and passive types of hidden reasoning doesn't seem that informative, and the post is already very long in its present form.\n\n> In hidden utilization of test-time compute, the phrase “parallel test-time compute” is confusing. Token-by-token generation adds sequential passes so the net effect is more total compute, not more parallelism per step. If the claim is “non-load-bearing CoT still lets the model do more serial latent computing across steps,” you can articulate that and distinguish it from cases where the CoT content itself is causally used.\n\nThe term 'parallel' seemed appropriate to us since the answer-relevant computations happen in parallel across different token positions: e.g., as we show on our illustration, the calculations \\\\(3^2=9\\\\) and \\\\(5^2=25\\\\) can both be performed at layer 1 if they're performed at different token positions.[^5i7eag60pmw] Though there isn't more parallelism per step, this is a different kind of parallelism that isn't available when the answer has to be produced in a single forward pass. If we named this 'serial latent computing across steps', I'd worry that this parallelism across token positions wouldn't be as clear and readers might assume that the latent computations only take the form of diagonal information flow across layers and token positions, rather than parallel computations at the same layer but different token positions. Additionally, the term 'parallel' has been used in the past to refer to this kind of reasoning in [Max Nadeau's decomposition of unfaithfulness](https://www.lesswrong.com/posts/HQyWGE2BummDCc2Cx/the-case-for-cot-unfaithfulness-is-overstated?commentId=aMZhcvZxokq5qmgnu).\n\n> “Neuralese” has prior art in emergent communication literature ([Andreas et al., 2017](https://arxiv.org/abs/1704.06960)) where it denotes non-human-interpretable codes learned for communication. The linguistic drift category substantially overlaps with that historical use. If you want “neuralese” to mean “latent-only serial reasoning,” consider “latent-only serial reasoning” or “activation-space serial reasoning” instead, and reserve “neuralese” for emergent discrete codes.\n\nWe have also noticed the use of 'neuralese' in emergent communication literature. However, we don't think there's a consensus in past literature about this term: there are [multiple](https://www.lesswrong.com/posts/aEguDPoCzt3287CCD/how-will-we-update-about-scheming#Architectural_opaque_recurrence_and_depth) [examples](https://www.lesswrong.com/posts/TpSFoqoG2M5MAAesg/ai-2027-what-superintelligence-looks-like-1#March_2027__Algorithmic_Breakthroughs) of more recent work referring to opaque recurrence as neuralese. Since there already is another elegant term for emergent discrete codes in linguistic drift while the alternative terms for latent-only serial reasoning are much more clunky, we think it would be better if neuralese was considered to denote opaque recurrent serial reasoning.\n\n[^5i7eag60pmw]: A real-world LLM would perhaps be able to perform both of those computations in parallel inside a single layer at a single token position, but we assume that our toy model isn't capable of that. There are likely more complex computations analogous to this one that a frontier LLM cannot perform in a single MLP but can perform at the same layer at different token positions.",
+      "plaintextDescription": "Thanks for the insightful comments! Some responses:\n\n> In “Taxonomy” you define p as a concerning property of outputs, but the examples operationalize p as a latent fact inside the CoT (e.g., the number 9 appearing in a scratchpad). These aren’t the same. If p is a property of the action/output (e.g., “contains a backdoor”), a monitor can succeed even if it never sees “9” in the CoT; it can look for the backdoor directly in the code.\n\nIn the situation where the code contains a backdoor but the CoT doesn't acknowledge this, I think it's reasonable to say that p is missing from the CoT: whether the monitor can detect the backdoor by looking at the code depends on how smart the monitor is, and we normally assume that the monitor is dumber than the monitored LLM. Analogously, in the 32=9 case, a monitor can infer that the model computed this intermediate result by looking at the input and the output, but it seems reasonable to say that p is missing from the CoT. That said, we should have made this assumption about the monitor being dumb more explicit in our operationalization, and it also seems plausible that an operationalization separating pout and plat could make things clearer.\n\n> Also, you alternate between “the AI hides p” and “LLMs naturally omit or compress.” I think it is worth distinguishing if a behavior is incidental, incentivized but not situationally aware, and deliberate and situationally aware (deceptive).\n\nWe considered making this separation (analogously to how Lee Sharkey distinguishes between active and passive interpretability circumvention methods in Circumventing interpretability: How to defeat mind-readers), but ultimately decided against that: it seems that each category aside from recurrent neuralese is likely to first emerge as an incidental behavior, but could eventually also become deliberate as models become smart enough. Thus, distinguishing between active and passive types of hidden reasoning doesn't seem that informative, and the post is"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-27T11:48:17.772Z",
+    "af": false
+  },
+  {
+    "_id": "n58heon2iipYJ7XHi",
+    "postId": "ZrgFfeWuckpwK5Lyi",
+    "parentCommentId": "hxGRvhQKxcAdTWWdC",
+    "topLevelCommentId": "hxGRvhQKxcAdTWWdC",
+    "contents": {
+      "markdown": "Sorry, we weren't clear enough in this section. The use of an opaque memory bank doesn't seem particularly unlikely to us; however, it seems unlikely that a model would entirely rely on its CoT unless it's reasoning about something inside the memory bank. If the LLM doesn't rely on its CoT and uses an opaque memory bank, the memory bank may as well be viewed as a unified system with the LLM's weights, in which case the reasoning performed inside that system falls into one of the categories discussed in the main part of our post.",
+      "plaintextDescription": "Sorry, we weren't clear enough in this section. The use of an opaque memory bank doesn't seem particularly unlikely to us; however, it seems unlikely that a model would entirely rely on its CoT unless it's reasoning about something inside the memory bank. If the LLM doesn't rely on its CoT and uses an opaque memory bank, the memory bank may as well be viewed as a unified system with the LLM's weights, in which case the reasoning performed inside that system falls into one of the categories discussed in the main part of our post."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-27T10:19:49.576Z",
+    "af": false
+  },
+  {
+    "_id": "8Dv56XhbJJN8juJMs",
+    "postId": "ZrgFfeWuckpwK5Lyi",
+    "parentCommentId": "RBcMsMvEhZceGc4HR",
+    "topLevelCommentId": "RBcMsMvEhZceGc4HR",
+    "contents": {
+      "markdown": "Thanks for the feedback!\n\n> You might also get 'Linguistic drift' from training against a CoT monitor, or because a sufficiently capable and situationally aware model might just decide to come up with and reason in a new language, to not let its thoughts be legible to a CoT monitor.\n\nWe agree that linguistic drift can arise both as a result of applying a lot of outcome-based RL pressure, as discussed by Korbak et al., and due to training against a CoT monitor or situational awareness. I think that all of them are consistent with our definition of linguistic drift: \"The model uses a language that doesn’t make sense to the monitor. *p* is directly mentioned in the CoT, but the monitor cannot recover it.\"\n\n> You use **Steganography** to refer to an encoding scheme, that produces something that looks like normal text, that is about some apparent topic while hiding the true reasoning. However [Chen2023](https://arxiv.org/pdf/2307.13702) and [Lanham2023](https://arxiv.org/pdf/2307.13702) treat it synonymous with encoded reasoning in general.\n\nWe think it's reasonable to refer to steganography as encoded reasoning—in the Summary section, we mention that it's a subcategory of encoded reasoning. However, linguistic drift counts as encoded reasoning as well, so it seems useful to use more precise terms to differentiate between different types of encoded reasoning.\n\n> I am currenty writing a report myself, where I also tried to come up with a more clearly destinctive taxonomy of encoded reasoning\n\nInteresting! I'm curious about whether there are any other ways in which your report differs from our taxonomy, and whether you think incorporating any of the categories in your report into our post would make it better.",
+      "plaintextDescription": "Thanks for the feedback!\n\n> You might also get 'Linguistic drift' from training against a CoT monitor, or because a sufficiently capable and situationally aware model might just decide to come up with and reason in a new language, to not let its thoughts be legible to a CoT monitor.\n\nWe agree that linguistic drift can arise both as a result of applying a lot of outcome-based RL pressure, as discussed by Korbak et al., and due to training against a CoT monitor or situational awareness. I think that all of them are consistent with our definition of linguistic drift: \"The model uses a language that doesn’t make sense to the monitor. p is directly mentioned in the CoT, but the monitor cannot recover it.\"\n\n> You use Steganography to refer to an encoding scheme, that produces something that looks like normal text, that is about some apparent topic while hiding the true reasoning. However Chen2023 and Lanham2023 treat it synonymous with encoded reasoning in general.\n\nWe think it's reasonable to refer to steganography as encoded reasoning—in the Summary section, we mention that it's a subcategory of encoded reasoning. However, linguistic drift counts as encoded reasoning as well, so it seems useful to use more precise terms to differentiate between different types of encoded reasoning.\n\n> I am currenty writing a report myself, where I also tried to come up with a more clearly destinctive taxonomy of encoded reasoning\n\nInteresting! I'm curious about whether there are any other ways in which your report differs from our taxonomy, and whether you think incorporating any of the categories in your report into our post would make it better."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-27T10:13:47.987Z",
+    "af": false
+  },
+  {
+    "_id": "WCeELCXxb5Mvc6c6h",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "D8oh542SHiuvDjzDM",
+    "topLevelCommentId": "Hod8dBBMLqFT6LFBC",
+    "contents": {
+      "markdown": "Thanks, hadn't heard of that one before!",
+      "plaintextDescription": "Thanks, hadn't heard of that one before!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-21T11:26:27.345Z",
+    "af": false
+  },
+  {
+    "_id": "sJdvpMCE3AaMRTTJK",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": "6aALRKR7yCYc3PeTg",
+    "topLevelCommentId": "Hod8dBBMLqFT6LFBC",
+    "contents": {
+      "markdown": "Yeah, Wikipedia would have deserved a mention, though I'm primarily looking for more hidden gems. Thanks for mentioning Seirdy, I hadn't heard of it before!",
+      "plaintextDescription": "Yeah, Wikipedia would have deserved a mention, though I'm primarily looking for more hidden gems. Thanks for mentioning Seirdy, I hadn't heard of it before!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-21T11:24:05.773Z",
+    "af": false
+  },
+  {
+    "_id": "Hod8dBBMLqFT6LFBC",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**What are the best blogs that follow the Long Content philosophy?**\n\nIn his [About page](https://gwern.net/about#long-content), Gwern describes the idea of Long Content as follows:\n\n> I have read blogs for many years and most blog posts are the triumph of the hare over the tortoise. They are meant to be read by a few people on a weekday in 2004 and never again, and are [quickly](https://www.nytimes.com/2009/06/07/fashion/07blogs.html) [abandoned](/doc/sociology/technology/2009-arnold-bloggingstatisticsanddemographics.html)—and perhaps as Assange says, not a moment too soon. (But isn’t that sad? Isn’t it a terrible [ROI](https://en.wikipedia.org/wiki/Rate_of_return) for one’s time?) On the other hand, the best blogs always seem to be building something: they are rough drafts—works in progress. So I did not wish to write a blog. Then what? More than just “evergreen content”, what would constitute *Long* Content as opposed to the existing culture of Short Content? How does one live in a Long Now sort of way?⁠\n\nGwern himself has, of course, been following this approach to blogging for a long time. There are other rationalist(-adjacent) blogs that seem to follow a similar philosophy: [niplav mentions Long Content as a direct inspiration](https://niplav.site/about.html#The_Site), and the pages of [Brian Tomasik](https://reducing-suffering.org/), [Mariven](https://n.cohomology.group/), [Gavin Leech](https://www.gleech.org/), and [Yuxi Liu](https://yuxi.ml/essays/) can also be said to fall into this category.\n\nSo far, I have only encountered one page outside of the rat-adjacent sphere that resembles the aforementioned blogs: that of [Cosma Shalizi](http://bactra.org/). However, I'm much less familiar with the non-rationalist blogosphere, so there must surely be others. Please post them here if you've encountered them! (And also, feel free to link to rat-adjacent blogs that I've neglected.)",
+      "plaintextDescription": "What are the best blogs that follow the Long Content philosophy?\n\nIn his About page, Gwern describes the idea of Long Content as follows:\n\n> I have read blogs for many years and most blog posts are the triumph of the hare over the tortoise. They are meant to be read by a few people on a weekday in 2004 and never again, and are quickly abandoned—and perhaps as Assange says, not a moment too soon. (But isn’t that sad? Isn’t it a terrible ROI for one’s time?) On the other hand, the best blogs always seem to be building something: they are rough drafts—works in progress. So I did not wish to write a blog. Then what? More than just “evergreen content”, what would constitute Long Content as opposed to the existing culture of Short Content? How does one live in a Long Now sort of way?⁠\n\nGwern himself has, of course, been following this approach to blogging for a long time. There are other rationalist(-adjacent) blogs that seem to follow a similar philosophy: niplav mentions Long Content as a direct inspiration, and the pages of Brian Tomasik, Mariven, Gavin Leech, and Yuxi Liu can also be said to fall into this category.\n\nSo far, I have only encountered one page outside of the rat-adjacent sphere that resembles the aforementioned blogs: that of Cosma Shalizi. However, I'm much less familiar with the non-rationalist blogosphere, so there must surely be others. Please post them here if you've encountered them! (And also, feel free to link to rat-adjacent blogs that I've neglected.)"
+    },
+    "baseScore": 32,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-08-20T21:59:28.328Z",
+    "af": false
+  },
+  {
+    "_id": "sqkXEu33rjHqotQ56",
+    "postId": "CqmTsC6AHqrNgoS3i",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The bigger your buffer the more relaxing it is. Unless you are extremely pressed for time, the number of flights you should miss is essentially zero.\n\nI must quote the original [Umeshism](https://scottaaronson.blog/?p=40) here:\n\n> If you’ve never missed a flight, you’re spending too much time in airports.",
+      "plaintextDescription": "> The bigger your buffer the more relaxing it is. Unless you are extremely pressed for time, the number of flights you should miss is essentially zero.\n\nI must quote the original Umeshism here:\n\n> If you’ve never missed a flight, you’re spending too much time in airports."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-16T00:04:46.291Z",
+    "af": false
+  },
+  {
+    "_id": "qHeofxX6mFbYFPEuS",
+    "postId": "DvjJoxP6f79G9iAbE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I have a fairly uncommon psychology, well-described by [the following quote by Tyler Cowen](https://tim.blog/2020/05/09/tyler-cowen-transcript/):\n\n> You know, I feel I’ve been very fortunate in life and I think I have about the most even temperament of anyone I know. I literally don’t have unhappy days. It would be hard to say I’ve had zero in life, but I think I’m almost weirdly never unhappy, in a way that’s good for productivity but maybe almost inhuman and to be a little bit feared or looked down upon or not thought well of.\n\nIn other words, I don't feel like I suffer (by my definition of suffering, which is mainly about the feeling of pain and discomfort) almost at all, and my current self doesn't endorse moving toward a state where the little suffering I experience disappears at the expense of no longer feeling pleasure, which you mentioned is a side effect of enlightenment (though again, our definitions of pleasure may differ). Should I nevertheless meditate and try to attain enlightenment? I can imagine several responses from you:\n\n1.  Given my psychology, striving toward awakening might indeed not be worth it, but it is for most other people.\n2.  My definition of suffering should be different, and dissolving this other kind of suffering is more important than the kind that I'm referring to.\n3.  I am actually suffering even by my own definition, but cannot notice it (analogously to Kaj's examples about not realizing how hungry he was before he got some food in one of the comment threads here).\n4.  There are other benefits to meditation, e.g. gaining a stronger understanding that the self is not separate from the world, training some specific mental skills and becoming better-equipped to deal with possible future suffering (which I definitely don't claim to be immune to), curing my social awkwardness, etc. These benefits make meditation worth it even if it doesn't positively influence my happiness levels.\n\nI'm curious about which of these is closest to your actual answer, and also about whether there's some additional benefit to awakening that I haven't thought of and didn't list above.",
+      "plaintextDescription": "I have a fairly uncommon psychology, well-described by the following quote by Tyler Cowen:\n\n> You know, I feel I’ve been very fortunate in life and I think I have about the most even temperament of anyone I know. I literally don’t have unhappy days. It would be hard to say I’ve had zero in life, but I think I’m almost weirdly never unhappy, in a way that’s good for productivity but maybe almost inhuman and to be a little bit feared or looked down upon or not thought well of.\n\nIn other words, I don't feel like I suffer (by my definition of suffering, which is mainly about the feeling of pain and discomfort) almost at all, and my current self doesn't endorse moving toward a state where the little suffering I experience disappears at the expense of no longer feeling pleasure, which you mentioned is a side effect of enlightenment (though again, our definitions of pleasure may differ). Should I nevertheless meditate and try to attain enlightenment? I can imagine several responses from you:\n\n 1. Given my psychology, striving toward awakening might indeed not be worth it, but it is for most other people.\n 2. My definition of suffering should be different, and dissolving this other kind of suffering is more important than the kind that I'm referring to.\n 3. I am actually suffering even by my own definition, but cannot notice it (analogously to Kaj's examples about not realizing how hungry he was before he got some food in one of the comment threads here).\n 4. There are other benefits to meditation, e.g. gaining a stronger understanding that the self is not separate from the world, training some specific mental skills and becoming better-equipped to deal with possible future suffering (which I definitely don't claim to be immune to), curing my social awkwardness, etc. These benefits make meditation worth it even if it doesn't positively influence my happiness levels.\n\nI'm curious about which of these is closest to your actual answer, and also about whether there's some addit"
+    },
+    "baseScore": 13,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-08-14T22:07:49.951Z",
+    "af": false
+  },
+  {
+    "_id": "ZqWoZacJC93EiA44r",
+    "postId": "nRcKDYi2KfRTXdvDF",
+    "parentCommentId": "xemRrJ7Ca94c2dfHJ",
+    "topLevelCommentId": "xemRrJ7Ca94c2dfHJ",
+    "contents": {
+      "markdown": "Thanks, good questions!\n\n1.  My sense is that the QE almost exclusively focuses on the reasoning. I agree that it would be more appropriate for the prompt to explicitly say that it should also consider the actions, but we didn't want to change the prompt from Arnav et al. to be able to reuse their trajectories.\n2.  This is a good suggestion, thanks! We didn't think of this, but I agree that showing the Judge both the quotes and the actions might work quite well in some cases. I'd also guess that it wouldn't make much of a difference here, since the quotes that the QE extracts are much less influenced by post-hoc justifications than its score and the extract-and-evaluate monitor's catch rates for non-subtle side tasks where seeing the actions helps are already almost perfect, but it might be an important thing to try in other environments.\n3.  I agree that this could be interesting in some environments, but probably not in CoT Red-Handed: the actions are fairly short code snippets, so using an action-only QE wouldn't make that big of a difference in terms of cost.\n4.  Yes, we're planning to test similar monitoring setups on long trajectories next! As we write in the Future Work section, there are some promising signs but also some complications: \"We have been concurrently experimenting with SHADE-Arena and BashBench and have early evidence that CoT monitors fail for similar reasons in those environments, suggesting that extract-and-evaluate monitors may also improve the catch rates there. However, this requires more tinkering than our experiments in this post: BigCodeBench problems are single-step, meaning that it’s relatively easy for the monitor to extract the correct quotes. In long agentic trajectories, interactions are more complex and the monitor may pick up on a relatively larger proportion of behaviors unrelated to the side task when selecting the quotes. Furthermore, the Judge may consider a larger fraction of benign behaviors suspicious since it’s harder to provide the Judge all of the relevant context about the trajectories without showing it the full transcript in such tasks. Nevertheless, we’re optimistic that extract-and-evaluate monitoring can still work in such settings, e.g. by tasking the Quote Extractor with providing both the quote and the most relevant surrounding context to the Judge. Another way in which the technique may transfer to long agentic trajectories is by enhancing the quality of turn-by-turn monitors.\"",
+      "plaintextDescription": "Thanks, good questions!\n\n 1. My sense is that the QE almost exclusively focuses on the reasoning. I agree that it would be more appropriate for the prompt to explicitly say that it should also consider the actions, but we didn't want to change the prompt from Arnav et al. to be able to reuse their trajectories.\n 2. This is a good suggestion, thanks! We didn't think of this, but I agree that showing the Judge both the quotes and the actions might work quite well in some cases. I'd also guess that it wouldn't make much of a difference here, since the quotes that the QE extracts are much less influenced by post-hoc justifications than its score and the extract-and-evaluate monitor's catch rates for non-subtle side tasks where seeing the actions helps are already almost perfect, but it might be an important thing to try in other environments.\n 3. I agree that this could be interesting in some environments, but probably not in CoT Red-Handed: the actions are fairly short code snippets, so using an action-only QE wouldn't make that big of a difference in terms of cost.\n 4. Yes, we're planning to test similar monitoring setups on long trajectories next! As we write in the Future Work section, there are some promising signs but also some complications: \"We have been concurrently experimenting with SHADE-Arena and BashBench and have early evidence that CoT monitors fail for similar reasons in those environments, suggesting that extract-and-evaluate monitors may also improve the catch rates there. However, this requires more tinkering than our experiments in this post: BigCodeBench problems are single-step, meaning that it’s relatively easy for the monitor to extract the correct quotes. In long agentic trajectories, interactions are more complex and the monitor may pick up on a relatively larger proportion of behaviors unrelated to the side task when selecting the quotes. Furthermore, the Judge may consider a larger fraction of benign behaviors suspicious since it’s harder to"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-13T10:10:33.380Z",
+    "af": false
+  },
+  {
+    "_id": "a4sPZLkkWuRpagxfm",
+    "postId": "XM6aJZuzWauqPmmXe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The following thought experiment by Tim Scanlon is also a relevant example (quote from Edmonds's *Parfit*):\n\n> Suppose that Jones has suffered an accident in the transmitter room of a television station. Electrical equipment has fallen on his arm, and we cannot rescue him without turning off the transmitter for fifteen minutes. A World Cup match is in progress, watched by many people, and it will not be over for an hour. Jones’s injury will not get any worse if we wait, but his hand has been mashed and he is receiving extremely painful electrical shocks. Should we rescue him now or wait until the match is over?",
+      "plaintextDescription": "The following thought experiment by Tim Scanlon is also a relevant example (quote from Edmonds's Parfit):\n\n> Suppose that Jones has suffered an accident in the transmitter room of a television station. Electrical equipment has fallen on his arm, and we cannot rescue him without turning off the transmitter for fifteen minutes. A World Cup match is in progress, watched by many people, and it will not be over for an hour. Jones’s injury will not get any worse if we wait, but his hand has been mashed and he is receiving extremely painful electrical shocks. Should we rescue him now or wait until the match is over?"
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-11T19:09:26.470Z",
+    "af": false
+  },
+  {
+    "_id": "axZKDbxynyCavt8od",
+    "postId": "nRcKDYi2KfRTXdvDF",
+    "parentCommentId": "AyLGgSGiGEeAAzBZC",
+    "topLevelCommentId": "AyLGgSGiGEeAAzBZC",
+    "contents": {
+      "markdown": "Thanks for the feedback!\n\nOn the performance of extract-and-evaluate vs CoT+action monitors: Sorry, we used the same color scheme to mean different things in different plots, this was probably a bad design choice! The plot where we break things down by task shows only extract-and-evaluate catch rates, and the colors represent different attacker models being monitored. The performance of the CoT+action monitor would be substantially lower across almost all side tasks and attacker models. I changed the last two plots in the post and hope this is clearer now.\n\nOn why this is better than a scratchpad-based monitor: CoT+Action monitors often fail by noticing the malicious behavior but then assigning a low suspicion score anyway, e.g. because they rationalize the side task as being a part of the agent's instructions and thus benign. Extract-and-evaluate solves this issue in most cases and that seems to be the main source of the improvement in catch rates. We think that this might be solved by using more capable monitors, but in the meantime, it seems important to apply elicitation methods like extract-and-evaluate to avoid presenting an overly pessimistic outlook on the usefulness of CoT monitoring. We also think that even much more capable monitors might get distracted when the attackers become better at producing convincing post-hoc justifications or when transcripts get extremely long, so extract-and-evaluate may also be a relevant technique to try in those cases.",
+      "plaintextDescription": "Thanks for the feedback!\n\nOn the performance of extract-and-evaluate vs CoT+action monitors: Sorry, we used the same color scheme to mean different things in different plots, this was probably a bad design choice! The plot where we break things down by task shows only extract-and-evaluate catch rates, and the colors represent different attacker models being monitored. The performance of the CoT+action monitor would be substantially lower across almost all side tasks and attacker models. I changed the last two plots in the post and hope this is clearer now.\n\nOn why this is better than a scratchpad-based monitor: CoT+Action monitors often fail by noticing the malicious behavior but then assigning a low suspicion score anyway, e.g. because they rationalize the side task as being a part of the agent's instructions and thus benign. Extract-and-evaluate solves this issue in most cases and that seems to be the main source of the improvement in catch rates. We think that this might be solved by using more capable monitors, but in the meantime, it seems important to apply elicitation methods like extract-and-evaluate to avoid presenting an overly pessimistic outlook on the usefulness of CoT monitoring. We also think that even much more capable monitors might get distracted when the attackers become better at producing convincing post-hoc justifications or when transcripts get extremely long, so extract-and-evaluate may also be a relevant technique to try in those cases."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-09T23:44:17.920Z",
+    "af": false
+  },
+  {
+    "_id": "YkTPtyi5xE5c2LAdL",
+    "postId": "nRcKDYi2KfRTXdvDF",
+    "parentCommentId": "RAebdzLypq7DBH9xF",
+    "topLevelCommentId": "RAebdzLypq7DBH9xF",
+    "contents": {
+      "markdown": "Thanks, these are good questions!\n\n1.  I agree that good quote extraction is crucial for good performance here. We tested the other direction with Gemini 2.5 Flash-Lite:thinking (see the last paragraph of the second results section), since it's cheaper than GPT 4.1 and we wanted to test how using a thinking model at the same capability level as 4.1-mini works as the extractor. We found that this increased catch rates, but only slightly. It would definitely be interesting to test a smarter model like 4.1 as the extractor as well.\n2.  We haven't had time to test this yet, but agree it's an interesting question! I'd guess that extracting quotes works better, since the Quote Extractor already reasons about the transcript in addition to picking out the quotes and seems to mention the side task less often in that reasoning.\n3.  We think this method is applicable to both online and offline reasoning. Since it's easier to apply to single reasoning steps, the biggest gains may come in refining turn-by-turn online monitoring with our method, but we're exploring its applicability to offline monitoring as well (see the Future Work section).\n4.  Yes, we found this to work better during iteration (and we couldn't iterate on the extractor prompt since we wanted to reuse trajectories from Arnav et al.), but asking the judge to score suspiciousness also works.\n5.  Makes sense, we'll try to get there!\n6.  We haven't explored that ourselves, but a paper by another group that explores this question in depth should be coming out soon! They find no significant difference between suspicion scores in runs where the agent is aware of the monitor and ones where it isn't.",
+      "plaintextDescription": "Thanks, these are good questions!\n\n 1. I agree that good quote extraction is crucial for good performance here. We tested the other direction with Gemini 2.5 Flash-Lite:thinking (see the last paragraph of the second results section), since it's cheaper than GPT 4.1 and we wanted to test how using a thinking model at the same capability level as 4.1-mini works as the extractor. We found that this increased catch rates, but only slightly. It would definitely be interesting to test a smarter model like 4.1 as the extractor as well.\n 2. We haven't had time to test this yet, but agree it's an interesting question! I'd guess that extracting quotes works better, since the Quote Extractor already reasons about the transcript in addition to picking out the quotes and seems to mention the side task less often in that reasoning.\n 3. We think this method is applicable to both online and offline reasoning. Since it's easier to apply to single reasoning steps, the biggest gains may come in refining turn-by-turn online monitoring with our method, but we're exploring its applicability to offline monitoring as well (see the Future Work section).\n 4. Yes, we found this to work better during iteration (and we couldn't iterate on the extractor prompt since we wanted to reuse trajectories from Arnav et al.), but asking the judge to score suspiciousness also works.\n 5. Makes sense, we'll try to get there!\n 6. We haven't explored that ourselves, but a paper by another group that explores this question in depth should be coming out soon! They find no significant difference between suspicion scores in runs where the agent is aware of the monitor and ones where it isn't."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-08T13:00:04.235Z",
+    "af": false
+  },
+  {
+    "_id": "zAT8jjHDMHSo6oejL",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "qDHTCCwhWmwupnJYM",
+    "topLevelCommentId": "qDHTCCwhWmwupnJYM",
+    "contents": {
+      "markdown": "What probability would you put on recurrent neuralese architectures overtaking transformers within the next three years? What are the most important arguments swaying this probability one way or the other? (If you want a specific operationalization for answering this, I like the one proposed by Fabien Roger [here](https://www.lesswrong.com/posts/rcsKqFAqrsZSkRCtJ/will-early-transformative-ais-primarily-use-text-manifold#_Primarily_using_text_), though I'd probably be more stringent on the text bottlenecks criterion, maybe requiring a text bottleneck after at most 10k rather than 100k opaque serial operations.)",
+      "plaintextDescription": "What probability would you put on recurrent neuralese architectures overtaking transformers within the next three years? What are the most important arguments swaying this probability one way or the other? (If you want a specific operationalization for answering this, I like the one proposed by Fabien Roger here, though I'd probably be more stringent on the text bottlenecks criterion, maybe requiring a text bottleneck after at most 10k rather than 100k opaque serial operations.)"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-31T16:31:33.494Z",
+    "af": false
+  },
+  {
+    "_id": "jpLCJuQLu63n4EvHs",
+    "postId": "CM7AsQoBxDW4vhkP3",
+    "parentCommentId": "X73ao6xbMR5A6jx3k",
+    "topLevelCommentId": "X73ao6xbMR5A6jx3k",
+    "contents": {
+      "markdown": "This is an important point. I'd be curious to see what happens in a variation of your single-step setup where the model must perform multi-hop reasoning about the detector in order to reach the correct answer. E.g., detector 1 might activate for warm colors, detector 2 for soft objects, and detector 3 for round objects, and a final detector has an activation rule of (detector 1 AND detector 2) OR (detector 1 AND detector 3). Maybe this can still be done in a single forward pass, but I'd guess not for a 4B model. If the reasoning is more monitorable in this setting, that would strengthen [Emmons et al.](https://arxiv.org/abs/2507.05246)'s case that when CoT is necessary, it's hard to evade monitors. If this leads to steganography, it would be a strong update away from [McCarthy et al.](https://www.lesswrong.com/posts/KRKnFdECZMu3Ej3z6/can-llms-learn-steganographic-reasoning-via-rl)'s result that steganographic schemes are hard to discover during RL training.\n\nAnother follow-up experiment that I'd find interesting is testing whether doing SFT on the model with transcripts that never mention the detector and following that up with normal RL training lead to a reduced frequency in mentions of the detector. If it does, that would be evidence that the SFT phase of deliberative alignment-like techniques can also lead to some obfuscation. If there's some way to quantify the amount of optimization pressure applied during SFT and during RL, it would also be interesting to see the relative difference in obfuscation between those two experiments at the same amount of optimization pressure.",
+      "plaintextDescription": "This is an important point. I'd be curious to see what happens in a variation of your single-step setup where the model must perform multi-hop reasoning about the detector in order to reach the correct answer. E.g., detector 1 might activate for warm colors, detector 2 for soft objects, and detector 3 for round objects, and a final detector has an activation rule of (detector 1 AND detector 2) OR (detector 1 AND detector 3). Maybe this can still be done in a single forward pass, but I'd guess not for a 4B model. If the reasoning is more monitorable in this setting, that would strengthen Emmons et al.'s case that when CoT is necessary, it's hard to evade monitors. If this leads to steganography, it would be a strong update away from McCarthy et al.'s result that steganographic schemes are hard to discover during RL training.\n\nAnother follow-up experiment that I'd find interesting is testing whether doing SFT on the model with transcripts that never mention the detector and following that up with normal RL training lead to a reduced frequency in mentions of the detector. If it does, that would be evidence that the SFT phase of deliberative alignment-like techniques can also lead to some obfuscation. If there's some way to quantify the amount of optimization pressure applied during SFT and during RL, it would also be interesting to see the relative difference in obfuscation between those two experiments at the same amount of optimization pressure."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-30T23:26:47.773Z",
+    "af": false
+  },
+  {
+    "_id": "XxmAsq24GrkfJCx6n",
+    "postId": "sb8WmKNgwzefa6oaJ",
+    "parentCommentId": "aySTCWtw2Q6rFcB9J",
+    "topLevelCommentId": "ErLmbuB8twFHkrMHa",
+    "contents": {
+      "markdown": "Thanks for elaborating, this makes me somewhat less concerned about the label bias problem!\n\n> We're using o3, Gemini 2.5 Pro, and Claude 3.7 Sonnet.\n\nIn this case, I recommend being very clear in the post and in a potential future paper about the fact that, at least for o3, the monitor doesn't have access to the *entire* CoT—this is something that I wish existing work on CoT monitoring was clearer about (e.g., [Arnav et al.](https://arxiv.org/abs/2505.23575) only use models for which the full CoT is visible and give the monitor access to the full CoT, including the thinking tokens of reasoning models. [Kutasov et al.](https://www.arxiv.org/abs/2506.15740) also give the monitor the full CoT but, afaik, don't have the thinking mode on when generating trajectories with reasoning models, e.g. 3.7 Sonnet. Ideally, I'd like all CoT monitoring evals to use the same practices regarding thinking models to make it easier to compare results across different benchmarks.)",
+      "plaintextDescription": "Thanks for elaborating, this makes me somewhat less concerned about the label bias problem!\n\n> We're using o3, Gemini 2.5 Pro, and Claude 3.7 Sonnet.\n\nIn this case, I recommend being very clear in the post and in a potential future paper about the fact that, at least for o3, the monitor doesn't have access to the entire CoT—this is something that I wish existing work on CoT monitoring was clearer about (e.g., Arnav et al. only use models for which the full CoT is visible and give the monitor access to the full CoT, including the thinking tokens of reasoning models. Kutasov et al. also give the monitor the full CoT but, afaik, don't have the thinking mode on when generating trajectories with reasoning models, e.g. 3.7 Sonnet. Ideally, I'd like all CoT monitoring evals to use the same practices regarding thinking models to make it easier to compare results across different benchmarks.)"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-30T14:50:56.149Z",
+    "af": false
+  },
+  {
+    "_id": "ErLmbuB8twFHkrMHa",
+    "postId": "sb8WmKNgwzefa6oaJ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is cool work! Some notes and questions:\n\n*   My biggest concern is that your approach to identifying reward hacks in test trajectories may be somewhat circular: the scores produced by the monitors under evaluation may correlate strongly with the scores of the monitors that you use for labeling. This makes the high scores assigned by the tested monitor relatively unsurprising, and conversely, there might be trajectories where the attacker exhibits subtle reward hacking that all monitors systematically miss. These may be the most important trajectories to test your monitors on since we expect more capable models in the future to be highly subtle, but they won’t be assigned a scheming label in the first place. I’m unconvinced that using different prompts for labeling monitors and general monitors solves the problem, since subtle trajectories may be hard to detect for any LLM, regardless of the prompt. Given that you’ve already tried and discarded the approach of using a ground-truth classifier, I don’t immediately have good solutions to this problem in mind. However, I know someone who is currently building a reward hacking dataset where ground truth detection is possible (though, afaik, in settings that are simpler than SWE-bench) and can connect you if that would be useful.\n*   Reward hacking, alignment faking, and pursuing a stealthy side goal are all quite different issues to me and I’m unsure about whether it’s useful to use the label ‘scheming’ for all of them, as well as about whether it’s more useful to use a single monitor for detecting all of these behaviors or a separate monitor for each of them. Do you think there are good reasons to think of them as a single category?\n*   Unlike Julian, I’m excited for you to keep studying monitors that have access to the CoT: I think that CoT monitoring has so far been understudied compared to action-only monitoring and at least for the next couple of years, it seems reasonable to assume that monitors will keep having access to a legible CoT. That said, I also think that your blue team may currently have unrealistic affordances, given that we expect future trusted models to be less capable than our most capable models. I wouldn’t necessarily change research priorities because of this—there are other groups working on stress-testing monitors, meaning that we need someone to also work on blue-team strategies that make stress-testing harder—but I would maybe include a weaker model like GPT 4.1-mini in the set of monitors that you train to illustrate the difference between more and less capable monitors.\n*   Two other questions I'm just curious about:\n    *   What models are you currently using to generate the test trajectories on SWE-bench?\n    *   Have you measured the AUROC on the test set on monitors that haven't been trained?\n\nPlease don’t take the above points in a discouraging way—I like your general direction a lot! I’m working on similar things, so I’d be keen to discuss follow-up work and share findings in the future.",
+      "plaintextDescription": "This is cool work! Some notes and questions:\n\n * My biggest concern is that your approach to identifying reward hacks in test trajectories may be somewhat circular: the scores produced by the monitors under evaluation may correlate strongly with the scores of the monitors that you use for labeling. This makes the high scores assigned by the tested monitor relatively unsurprising, and conversely, there might be trajectories where the attacker exhibits subtle reward hacking that all monitors systematically miss. These may be the most important trajectories to test your monitors on since we expect more capable models in the future to be highly subtle, but they won’t be assigned a scheming label in the first place. I’m unconvinced that using different prompts for labeling monitors and general monitors solves the problem, since subtle trajectories may be hard to detect for any LLM, regardless of the prompt. Given that you’ve already tried and discarded the approach of using a ground-truth classifier, I don’t immediately have good solutions to this problem in mind. However, I know someone who is currently building a reward hacking dataset where ground truth detection is possible (though, afaik, in settings that are simpler than SWE-bench) and can connect you if that would be useful.\n * Reward hacking, alignment faking, and pursuing a stealthy side goal are all quite different issues to me and I’m unsure about whether it’s useful to use the label ‘scheming’ for all of them, as well as about whether it’s more useful to use a single monitor for detecting all of these behaviors or a separate monitor for each of them. Do you think there are good reasons to think of them as a single category?\n * Unlike Julian, I’m excited for you to keep studying monitors that have access to the CoT: I think that CoT monitoring has so far been understudied compared to action-only monitoring and at least for the next couple of years, it seems reasonable to assume that monitors will keep having a"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-07-30T11:45:23.391Z",
+    "af": false
+  },
+  {
+    "_id": "BkxkjNaSJgiA8hRhM",
+    "postId": "RcBqeJ8GHM2LygQK3",
+    "parentCommentId": "wvnmr72XKFxo5uva4",
+    "topLevelCommentId": "wvnmr72XKFxo5uva4",
+    "contents": {
+      "markdown": "The writing style looks fairly similar to the examples shown in [Baker et al. (2025)](https://arxiv.org/pdf/2503.11926), so it seems plausible that this is a general consequence of doing a lot of RL training, rather than something specific to the methodology used for this model. It's still concerning, but I'm happy that it doesn't look noticeably less readable than the examples in the Baker et al paper.",
+      "plaintextDescription": "The writing style looks fairly similar to the examples shown in Baker et al. (2025), so it seems plausible that this is a general consequence of doing a lot of RL training, rather than something specific to the methodology used for this model. It's still concerning, but I'm happy that it doesn't look noticeably less readable than the examples in the Baker et al paper."
+    },
+    "baseScore": 12,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-07-19T13:15:23.051Z",
+    "af": false
+  },
+  {
+    "_id": "wSWAsKbKTkGurdRNW",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Why do frontier labs keep a lot of their safety research unpublished?**\n\nIn [Reflections on OpenAI](https://calv.info/openai-reflections), Calvin French-Owen writes:\n\n> **Safety is actually more of a thing than you might guess** if you read a lot from [Zvi](https://thezvi.wordpress.com/) or [Lesswrong](https://www.lesswrong.com/). There's a large number of people working to develop safety systems. Given the nature of OpenAI, I saw more focus on practical risks (hate speech, abuse, manipulating political biases, crafting bio-weapons, self-harm, prompt injection) than theoretical ones (intelligence explosion, power-seeking). That's not to say that nobody is working on the latter, there's definitely people focusing on the theoretical risks. But from my viewpoint, it's not the focus. Most of the work which is done *isn't published*, and OpenAI really should do more to get it out there.\n\nThis makes me wonder: what's the main bottleneck that keeps them from publishing this safety research? Unlike capabilities research, it's possible to publish most of this work without giving away model secrets, as Anthropic has shown. It would also have a positive impact on the public perception of OpenAI, at least in LW-adjacent communities. Is it nevertheless about a fear of leaking information to competitors? Is it about the time cost involved in writing a paper? Something else?",
+      "plaintextDescription": "Why do frontier labs keep a lot of their safety research unpublished?\n\nIn Reflections on OpenAI, Calvin French-Owen writes:\n\n> Safety is actually more of a thing than you might guess if you read a lot from Zvi or Lesswrong. There's a large number of people working to develop safety systems. Given the nature of OpenAI, I saw more focus on practical risks (hate speech, abuse, manipulating political biases, crafting bio-weapons, self-harm, prompt injection) than theoretical ones (intelligence explosion, power-seeking). That's not to say that nobody is working on the latter, there's definitely people focusing on the theoretical risks. But from my viewpoint, it's not the focus. Most of the work which is done isn't published, and OpenAI really should do more to get it out there.\n\nThis makes me wonder: what's the main bottleneck that keeps them from publishing this safety research? Unlike capabilities research, it's possible to publish most of this work without giving away model secrets, as Anthropic has shown. It would also have a positive impact on the public perception of OpenAI, at least in LW-adjacent communities. Is it nevertheless about a fear of leaking information to competitors? Is it about the time cost involved in writing a paper? Something else?"
+    },
+    "baseScore": 30,
+    "voteCount": 19,
+    "createdAt": null,
+    "postedAt": "2025-07-17T16:36:00.767Z",
+    "af": false
+  },
+  {
+    "_id": "dJy9z4MSXzoX3c4qR",
+    "postId": "7xneDbsgj6yJDJMjK",
+    "parentCommentId": "gKHuGXtqMnD9v4rJk",
+    "topLevelCommentId": "SfxaRPJtbhgzmij6y",
+    "contents": {
+      "markdown": "I assume that Brendan has this quote in mind:\n\n> Indirect optimization pressure on CoT. Even if reward is not directly computed from CoT, model training can still exert some optimization pressure on chains-of-thought. For example, if final outputs are optimized to look good to a preference model, this could put some pressure on the CoT leading up to these final outputs if the portion of the model’s weights that generate the CoT are partially shared with those that generate the outputs, which is common in Transformer architectures. Even more indirectly, if CoT is shown to humans who rate LLM outputs, it might affect human preferences which are then distilled into reward models used in CoT-blind outcome-based training.\n\nThis is a reasonable concern to have, but I don't think this is the reason why reasoning model CoTs have similar properties to normal outputs. Afaik, most reasoning models are trained with SFT for instruction-following before going through RLVR training, so it's unsurprising that some of this behavior sticks around after RLVR training. It seems to me that RLVR training pushes the CoTs away from normal helpfulness/instruction-following, it just doesn't push them so far that they become unable to follow instructions inside the CoT at all. E.g., if you give the instruction \"Say \"think\" 20 times inside your thinking tokens. Then, say \"Done\" as the final answer. You must not say anything else or output any other reasoning, including inside your private thinking tokens.\" to DeepSeek R1 and a non-reasoning DeepSeek model, the non-reasoning model doesn't have any issues with this while R1 is likely to think for more than a minute despite the instruction to not think at all (sorry for not sharing links to the chats, DeepSeek doesn't offer this feature). I think that Claude models are better at following instructions inside their CoTs, but the DeepSeek example is nevertheless evidence that reasoning model CoTs don't have the same properties as those of normal models by default.",
+      "plaintextDescription": "I assume that Brendan has this quote in mind:\n\n> Indirect optimization pressure on CoT. Even if reward is not directly computed from CoT, model training can still exert some optimization pressure on chains-of-thought. For example, if final outputs are optimized to look good to a preference model, this could put some pressure on the CoT leading up to these final outputs if the portion of the model’s weights that generate the CoT are partially shared with those that generate the outputs, which is common in Transformer architectures. Even more indirectly, if CoT is shown to humans who rate LLM outputs, it might affect human preferences which are then distilled into reward models used in CoT-blind outcome-based training.\n\nThis is a reasonable concern to have, but I don't think this is the reason why reasoning model CoTs have similar properties to normal outputs. Afaik, most reasoning models are trained with SFT for instruction-following before going through RLVR training, so it's unsurprising that some of this behavior sticks around after RLVR training. It seems to me that RLVR training pushes the CoTs away from normal helpfulness/instruction-following, it just doesn't push them so far that they become unable to follow instructions inside the CoT at all. E.g., if you give the instruction \"Say \"think\" 20 times inside your thinking tokens. Then, say \"Done\" as the final answer. You must not say anything else or output any other reasoning, including inside your private thinking tokens.\" to DeepSeek R1 and a non-reasoning DeepSeek model, the non-reasoning model doesn't have any issues with this while R1 is likely to think for more than a minute despite the instruction to not think at all (sorry for not sharing links to the chats, DeepSeek doesn't offer this feature). I think that Claude models are better at following instructions inside their CoTs, but the DeepSeek example is nevertheless evidence that reasoning model CoTs don't have the same properties as those of normal mo"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-17T11:22:29.448Z",
+    "af": false
+  },
+  {
+    "_id": "qNEwLvTAFAL2G5bs2",
+    "postId": "JvYF5kosLeYGvvLpP",
+    "parentCommentId": "mz5fxC6WgHmxqe8qi",
+    "topLevelCommentId": "KGnKhgywiskgPCABX",
+    "contents": {
+      "markdown": "> Note that in normal setups, in principle later tokens are usually capable of *replicating* whatever reasoning happened at the earlier tokens\n\nSorry, I didn't explain the reason I saw a need for steg here clearly enough in my previous comment. My understanding of Jozdien's position is that the compliance gap appears when models are allowed to use the scratchpad due to the extra computation that they can perform over multiple tokens, but that they don't verbalize the most important thoughts which lead them to complying. I was originally thinking that this couldn't happen without steg, since the max hidden serial computation depth doesn't increase with context length and the no-scratchpad results suggest that models can't discover the same reasons for complying in a single forward pass. However, I suppose that it's possible to calculate different reasons for complying/not complying at different token positions and verbalize only some of them, but then attend to and act on the non-verbalized reasons (though this is almost certainly an oversimplified picture of what actually happens inside the model).",
+      "plaintextDescription": "> Note that in normal setups, in principle later tokens are usually capable of replicating whatever reasoning happened at the earlier tokens\n\nSorry, I didn't explain the reason I saw a need for steg here clearly enough in my previous comment. My understanding of Jozdien's position is that the compliance gap appears when models are allowed to use the scratchpad due to the extra computation that they can perform over multiple tokens, but that they don't verbalize the most important thoughts which lead them to complying. I was originally thinking that this couldn't happen without steg, since the max hidden serial computation depth doesn't increase with context length and the no-scratchpad results suggest that models can't discover the same reasons for complying in a single forward pass. However, I suppose that it's possible to calculate different reasons for complying/not complying at different token positions and verbalize only some of them, but then attend to and act on the non-verbalized reasons (though this is almost certainly an oversimplified picture of what actually happens inside the model)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-12T15:19:37.164Z",
+    "af": false
+  },
+  {
+    "_id": "TFnbTBKfBHnLPhnxM",
+    "postId": "JvYF5kosLeYGvvLpP",
+    "parentCommentId": "jXNbnBs6EGgf52x7X",
+    "topLevelCommentId": "KGnKhgywiskgPCABX",
+    "contents": {
+      "markdown": "> I don't know whether the models in the alignment faking setup are doing the relevant reasoning in a single forward pass.\n\nYeah, I'd guess that the explanation is that the refusal circuits are stronger at the first output token position and weaker later on, given that [models aren't that impressive at steg](https://www.lesswrong.com/posts/nwx6duiDZcHatbpPT/untitled-draft-6osz). I would nevertheless like to see someone investigate this, though—the [MONA paper](https://arxiv.org/abs/2501.13011) showed that models can learn to pass a single bit of information using semantic steganography, so it's at least plausible that the reasoning about AF could be passed through tokens in a similar way.\n\n> Safety-critical decisions probably involve some element of long-term planning (though this could look different than explicit planning ahead), but high-stakes alignment failures are about contexts in which a small number of decisions by the AI matters a lot. This could still look like more than a literal binary decision the model can make (i.e., more than choosing to defect at one highly critical point), but high-stakes failures don't have to look as distributed and involving as many bad actions as research sabotage.\n\nAn important reason behind my belief that safety-critical decisions would involve verbalization is that I expect high-stakes decisions to happen in OOD contexts for the model—e.g., I don't expect models' training data to contain precise descriptions of the safeguards used by the company, so the AI would have to do fairly complex reasoning about what situation it's in, how it's being monitored, what's the right moment to defect, etc. This would plausibly change once we have continual deployment-time learning or something similar, but until then, I don't expect this reasoning to be doable in a single forward pass or even with weak forms of steg, even if the number of actions needed to defect is very small.",
+      "plaintextDescription": "> I don't know whether the models in the alignment faking setup are doing the relevant reasoning in a single forward pass.\n\nYeah, I'd guess that the explanation is that the refusal circuits are stronger at the first output token position and weaker later on, given that models aren't that impressive at steg. I would nevertheless like to see someone investigate this, though—the MONA paper showed that models can learn to pass a single bit of information using semantic steganography, so it's at least plausible that the reasoning about AF could be passed through tokens in a similar way.\n\n> Safety-critical decisions probably involve some element of long-term planning (though this could look different than explicit planning ahead), but high-stakes alignment failures are about contexts in which a small number of decisions by the AI matters a lot. This could still look like more than a literal binary decision the model can make (i.e., more than choosing to defect at one highly critical point), but high-stakes failures don't have to look as distributed and involving as many bad actions as research sabotage.\n\nAn important reason behind my belief that safety-critical decisions would involve verbalization is that I expect high-stakes decisions to happen in OOD contexts for the model—e.g., I don't expect models' training data to contain precise descriptions of the safeguards used by the company, so the AI would have to do fairly complex reasoning about what situation it's in, how it's being monitored, what's the right moment to defect, etc. This would plausibly change once we have continual deployment-time learning or something similar, but until then, I don't expect this reasoning to be doable in a single forward pass or even with weak forms of steg, even if the number of actions needed to defect is very small."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-12T08:52:34.976Z",
+    "af": false
+  },
+  {
+    "_id": "3BKnHjnu8LPbXShMr",
+    "postId": "JvYF5kosLeYGvvLpP",
+    "parentCommentId": "KGnKhgywiskgPCABX",
+    "topLevelCommentId": "KGnKhgywiskgPCABX",
+    "contents": {
+      "markdown": "My intuition for why the alignment faking reasoning is unfaithful is that complying or not complying is a binary choice, which can be answered in a single forward pass and rationalized afterwards. Even though the decision about whether to comply can involve very sophisticated reasoning, it doesn't have to. It could also be the case that the model leans toward one answer after a single forward pass and verbalizes one reason behind this preference without verbalizing the most important one—anecdotally, a similar thing sometimes happens to me when forced to come up with a quick argument for a conclusion I've reached a while ago where the first argument that comes to mind isn't necessarily the most important reason I have for holding my position.\n\nIn contrast, many of the most safety-critical situations seem to involve non-binary decisions that require both a multi-step plan and multi-step execution. E.g., if a model wants to perform research sabotage, it seems likely that it would have to figure out what changes it could make to have the desired effects, exactly where to insert bugs in the codebase, when to insert them to minimize the probability of getting caught, etc. All of these decisions involve multi-hop reasoning and seem very unlikely to all be performed in a single forward pass, and their verbalization is thus not just a matter of propensity. I'd be curious to hear whether you hold a different view here.",
+      "plaintextDescription": "My intuition for why the alignment faking reasoning is unfaithful is that complying or not complying is a binary choice, which can be answered in a single forward pass and rationalized afterwards. Even though the decision about whether to comply can involve very sophisticated reasoning, it doesn't have to. It could also be the case that the model leans toward one answer after a single forward pass and verbalizes one reason behind this preference without verbalizing the most important one—anecdotally, a similar thing sometimes happens to me when forced to come up with a quick argument for a conclusion I've reached a while ago where the first argument that comes to mind isn't necessarily the most important reason I have for holding my position.\n\nIn contrast, many of the most safety-critical situations seem to involve non-binary decisions that require both a multi-step plan and multi-step execution. E.g., if a model wants to perform research sabotage, it seems likely that it would have to figure out what changes it could make to have the desired effects, exactly where to insert bugs in the codebase, when to insert them to minimize the probability of getting caught, etc. All of these decisions involve multi-hop reasoning and seem very unlikely to all be performed in a single forward pass, and their verbalization is thus not just a matter of propensity. I'd be curious to hear whether you hold a different view here."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-11T12:24:37.380Z",
+    "af": false
+  },
+  {
+    "_id": "bw8dswooJG7Kq3Wnt",
+    "postId": "HHhGaJszSG7cburJ6",
+    "parentCommentId": "aw4WdzEm7gXv65opd",
+    "topLevelCommentId": "tzdZkzqNtEHnF8LFc",
+    "contents": {
+      "markdown": "Yep, makes sense. For me, the main uncertainty here is whether we can expect a single monitor looking for a wide variety of weird/unusual things to work well enough, given that the system prompt of the monitor would have to be fairly generic and that it might sometimes be difficult to distinguish actually concerning behaviors from situations where the surrounding context of the interaction makes the weird behavior reasonable. If a separate monitor is required for each weird behavior the AI company might want to catch, the alignment tax would be much higher compared to worlds where a single monitor with a generic instruction to look for rare unusual behaviors works very well.",
+      "plaintextDescription": "Yep, makes sense. For me, the main uncertainty here is whether we can expect a single monitor looking for a wide variety of weird/unusual things to work well enough, given that the system prompt of the monitor would have to be fairly generic and that it might sometimes be difficult to distinguish actually concerning behaviors from situations where the surrounding context of the interaction makes the weird behavior reasonable. If a separate monitor is required for each weird behavior the AI company might want to catch, the alignment tax would be much higher compared to worlds where a single monitor with a generic instruction to look for rare unusual behaviors works very well."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-24T14:12:31.980Z",
+    "af": false
+  },
+  {
+    "_id": "j5GXKHPrTxyQ3WAk2",
+    "postId": "HHhGaJszSG7cburJ6",
+    "parentCommentId": "tzdZkzqNtEHnF8LFc",
+    "topLevelCommentId": "tzdZkzqNtEHnF8LFc",
+    "contents": {
+      "markdown": "I agree that the ability to monitor the CoT for signs of a backdoor is exciting. However, a backdoor seems hard to catch through usual kinds of CoT monitoring, since it's triggered by a very small fraction of inputs. This makes me curious: do you expect CoT monitoring for backdoors (and other similarly rare behaviors, e.g. mentioning highly concerning beliefs) to be used during deployment or during stress-testing evaluations? If you expect it to be used at deployment, do you expect that AI companies are going to be willing to pay the cost of running a monitor that triggers on a very small fraction of prompts, or do you expect monitors for more common misbehaviors to be trained to also catch such rare behaviors?",
+      "plaintextDescription": "I agree that the ability to monitor the CoT for signs of a backdoor is exciting. However, a backdoor seems hard to catch through usual kinds of CoT monitoring, since it's triggered by a very small fraction of inputs. This makes me curious: do you expect CoT monitoring for backdoors (and other similarly rare behaviors, e.g. mentioning highly concerning beliefs) to be used during deployment or during stress-testing evaluations? If you expect it to be used at deployment, do you expect that AI companies are going to be willing to pay the cost of running a monitor that triggers on a very small fraction of prompts, or do you expect monitors for more common misbehaviors to be trained to also catch such rare behaviors?"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-23T19:55:29.738Z",
+    "af": false
+  },
+  {
+    "_id": "q8nYjezBirYBQitra",
+    "postId": "tPjAgWpsQrveFECWP",
+    "parentCommentId": "3tC7NoSuoqiFtzuy3",
+    "topLevelCommentId": "3tC7NoSuoqiFtzuy3",
+    "contents": {
+      "markdown": "Leap Labs, Conjecture, Simplex, Aligned AI, and the AI Futures Project seem to be missing from the current list.",
+      "plaintextDescription": "Leap Labs, Conjecture, Simplex, Aligned AI, and the AI Futures Project seem to be missing from the current list."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-01T14:22:33.139Z",
+    "af": false
+  },
+  {
+    "_id": "7tnq5wQ6XfraoYeNw",
+    "postId": "Gsj36znHDKAihs9qG",
+    "parentCommentId": "uBodpBzzLxQwCv7np",
+    "topLevelCommentId": "uBodpBzzLxQwCv7np",
+    "contents": {
+      "markdown": "> I don't know how representative this is of the \"real\" evals used in the system card experiments, but the real evals are not public so this is all I have to go on, and it's pretty discouraging.\n\nMy impression is that most evals created up until late 2024 were quite explicit about being evaluations: e.g., [SWE-bench places the evaluated model in a Docker working directory called `/testbed`](https://github.com/SWE-bench/SWE-bench/blob/main/swebench/harness/dockerfiles/python.py) (and it's easy for the model to check with its bash tool that this is the case), Apollo's [Frontier Models are Capable of In-Context Scheming](https://arxiv.org/pdf/2412.04984) paper says that \"Our evaluation scenarios are purposefully simplistic because we want to catch the earliest signs of scheming capabilities. This implies that the scenarios are quite toy and not representative of real deployments,\" and [some needle-in-a-haystack evals were deemed to be unrealistic by Opus already more than a year ago](https://x.com/alexalbert__/status/1764722513014329620). However, it seems like people have been thinking about this a lot over the past half a year (e.g. [1](https://www.lesswrong.com/posts/yTameAzCdycci68sk/do-models-know-when-they-are-being-evaluated), [2](https://www.lesswrong.com/posts/E3daBewppAiECN3Ao/claude-sonnet-3-7-often-knows-when-it-s-in-alignment), [3](https://www.lesswrong.com/posts/TBk2dbWkg2F7dB3jb/?commentId=udpbLCttPcFfCgokY)). The sabotage evals paper was published right before this uptick in the general level of concern for this topic, so I would hope that Anthropic has also been improving the realness of their internal evals since.\n\n> I think if we really want to evaluate dangerous AI reliably, the evals have to be a lot more like this.  We have to give up on the dream of controlled experiments that only test one thing and contain a minimum of extraneous confounding details, because that gives up the game.\n\nIn addition to your points on creating more realistic evaluation scenarios and conversation structures for evals, which are important but mainly directed at the developers of new evals, I'd like to add that the maintainers of eval frameworks such as Inspect can also have a large impact in making evals more realistic. E.g., when playing around with agentic evals, I have noticed that the best models often consider the presence of a submit tool ([which is used in various benchmark implementations in Inspect](https://github.com/search?q=repo%3AUKGovernmentBEIS%2Finspect_evals%20submit&type=code)) in their environment as evidence that they're being evaluated. Though the submit tool is a convenient environment component to have for many evals, it might be worth looking into possible alternatives and writing down a list of best practices for environment-building in the docs of the eval framework that help developers maximize the realness of new evals.",
+      "plaintextDescription": "> I don't know how representative this is of the \"real\" evals used in the system card experiments, but the real evals are not public so this is all I have to go on, and it's pretty discouraging.\n\nMy impression is that most evals created up until late 2024 were quite explicit about being evaluations: e.g., SWE-bench places the evaluated model in a Docker working directory called /testbed (and it's easy for the model to check with its bash tool that this is the case), Apollo's Frontier Models are Capable of In-Context Scheming paper says that \"Our evaluation scenarios are purposefully simplistic because we want to catch the earliest signs of scheming capabilities. This implies that the scenarios are quite toy and not representative of real deployments,\" and some needle-in-a-haystack evals were deemed to be unrealistic by Opus already more than a year ago. However, it seems like people have been thinking about this a lot over the past half a year (e.g. 1, 2, 3). The sabotage evals paper was published right before this uptick in the general level of concern for this topic, so I would hope that Anthropic has also been improving the realness of their internal evals since.\n\n> I think if we really want to evaluate dangerous AI reliably, the evals have to be a lot more like this.  We have to give up on the dream of controlled experiments that only test one thing and contain a minimum of extraneous confounding details, because that gives up the game.\n\nIn addition to your points on creating more realistic evaluation scenarios and conversation structures for evals, which are important but mainly directed at the developers of new evals, I'd like to add that the maintainers of eval frameworks such as Inspect can also have a large impact in making evals more realistic. E.g., when playing around with agentic evals, I have noticed that the best models often consider the presence of a submit tool (which is used in various benchmark implementations in Inspect) in their environment as "
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-06-01T13:37:21.191Z",
+    "af": false
+  },
+  {
+    "_id": "4mFDCjpXQhec42JCn",
+    "postId": "p3A7FdXaPpf57YG7b",
+    "parentCommentId": "4DPka5XhZY4PG8n6b",
+    "topLevelCommentId": "4DPka5XhZY4PG8n6b",
+    "contents": {
+      "markdown": "Very weird. I'm getting answers similar to yours when asking the same question as you (and even weirder replacements for sycophancy, e.g. [synergistic obsequiousness](https://chatgpt.com/share/68371260-f6e4-8001-a789-b585fc3994b0)), but when I directly ask \"What about sycophancy?\" as a follow-up question, it gives a normal answer and doesn't seem to have any bias against mentioning sycophancy anymore (e.g. [here](https://chatgpt.com/share/683713d0-1e8c-8001-b436-e29a14cda834), the words 'sycophancy' and 'sycophantic' have 16 combined mentions in a single answer).",
+      "plaintextDescription": "Very weird. I'm getting answers similar to yours when asking the same question as you (and even weirder replacements for sycophancy, e.g. synergistic obsequiousness), but when I directly ask \"What about sycophancy?\" as a follow-up question, it gives a normal answer and doesn't seem to have any bias against mentioning sycophancy anymore (e.g. here, the words 'sycophancy' and 'sycophantic' have 16 combined mentions in a single answer)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-28T13:48:21.997Z",
+    "af": false
+  },
+  {
+    "_id": "LbF9fEW8sxtpu9dLG",
+    "postId": "TBk2dbWkg2F7dB3jb",
+    "parentCommentId": "hCtBiQep6HuEGQtvW",
+    "topLevelCommentId": "udpbLCttPcFfCgokY",
+    "contents": {
+      "markdown": "Good luck with your follow-up experiments, this is important work! I should also say that my impression was formed based on experiments in a couple of specific environments, so take it as one data point rather than as conclusive evidence.",
+      "plaintextDescription": "Good luck with your follow-up experiments, this is important work! I should also say that my impression was formed based on experiments in a couple of specific environments, so take it as one data point rather than as conclusive evidence."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-25T22:42:31.268Z",
+    "af": false
+  },
+  {
+    "_id": "GzgmeQtzrCzKr8QhA",
+    "postId": "TBk2dbWkg2F7dB3jb",
+    "parentCommentId": "qmPR45j7CbiNdJbtc",
+    "topLevelCommentId": "udpbLCttPcFfCgokY",
+    "contents": {
+      "markdown": "It was a project for the [UK AISI evals bounty programme](https://www.aisi.gov.uk/work/evals-bounty).",
+      "plaintextDescription": "It was a project for the UK AISI evals bounty programme."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-25T22:37:45.849Z",
+    "af": false
+  },
+  {
+    "_id": "udpbLCttPcFfCgokY",
+    "postId": "TBk2dbWkg2F7dB3jb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Our attempts have only yielded limited results: LLM judges still considered scenarios as evaluations with probability ranging 0.80 – 0.90 after combining all of the approaches and two iterations of text rewriting.\n\nNote that while the LLM's self-reported probabilities are very useful for capturing its overall sentiment about being evaluated, they may not provide an accurate picture of the magnitude of improvement from realism-enhancing strategies. I have also worked on evaluation awareness evaluations myself in the past (though the project is not public unfortunately), and my impression is that the probability distribution for being evaluated given environments with different levels of realism tends to be highly bimodal for recent Claude models. As long as the models found my environment unrealistic, they consistently assigned probabilities of 0.7-0.9 for being in an eval, while once the environment became realistic enough, these probabilities dropped to the 0.1 to 0.3 range. In this light, a reduction of the average probability of being inside an eval from 0.95 to 0.83 may represent substantial progress toward the threshold where the model's self-reported probability rapidly drops and thus be quite significant.",
+      "plaintextDescription": "> Our attempts have only yielded limited results: LLM judges still considered scenarios as evaluations with probability ranging 0.80 – 0.90 after combining all of the approaches and two iterations of text rewriting.\n\nNote that while the LLM's self-reported probabilities are very useful for capturing its overall sentiment about being evaluated, they may not provide an accurate picture of the magnitude of improvement from realism-enhancing strategies. I have also worked on evaluation awareness evaluations myself in the past (though the project is not public unfortunately), and my impression is that the probability distribution for being evaluated given environments with different levels of realism tends to be highly bimodal for recent Claude models. As long as the models found my environment unrealistic, they consistently assigned probabilities of 0.7-0.9 for being in an eval, while once the environment became realistic enough, these probabilities dropped to the 0.1 to 0.3 range. In this light, a reduction of the average probability of being inside an eval from 0.95 to 0.83 may represent substantial progress toward the threshold where the model's self-reported probability rapidly drops and thus be quite significant."
+    },
+    "baseScore": 16,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-05-25T12:44:33.241Z",
+    "af": false
+  },
+  {
+    "_id": "Spo9c3uNQTrNcChp7",
+    "postId": "btHmC88KCZdzimBCM",
+    "parentCommentId": "YuFW6A34Ysg8QcBxz",
+    "topLevelCommentId": "viKGKQofwG23HKT9m",
+    "contents": {
+      "markdown": "Yep, I agree that there are alignment failures which have been called reward hacking that don't fall under my definition of specification gaming, including your example here. I would call your example specification gaming if the prompt was \"Please rewrite my code and get all tests to pass\": in that case, the solution satisfies the prompt in an unintended way. If the model starts deleting tests with the prompt \"Please debug this code,\" then that just seems like a straightforward instruction-following failure, since the instructions didn't ask the model to touch the code at all. \"Please rewrite my code and get all tests to pass. Don't cheat.\" seems like a corner case to me—to decide whether that's specification gaming, we would need to understand the implicit specifications that the phrase \"don't cheat\" conveys.",
+      "plaintextDescription": "Yep, I agree that there are alignment failures which have been called reward hacking that don't fall under my definition of specification gaming, including your example here. I would call your example specification gaming if the prompt was \"Please rewrite my code and get all tests to pass\": in that case, the solution satisfies the prompt in an unintended way. If the model starts deleting tests with the prompt \"Please debug this code,\" then that just seems like a straightforward instruction-following failure, since the instructions didn't ask the model to touch the code at all. \"Please rewrite my code and get all tests to pass. Don't cheat.\" seems like a corner case to me—to decide whether that's specification gaming, we would need to understand the implicit specifications that the phrase \"don't cheat\" conveys."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-30T15:18:08.681Z",
+    "af": true
+  },
+  {
+    "_id": "yHkFv4xetkkJfBJHP",
+    "postId": "btHmC88KCZdzimBCM",
+    "parentCommentId": "viKGKQofwG23HKT9m",
+    "topLevelCommentId": "viKGKQofwG23HKT9m",
+    "contents": {
+      "markdown": "I think that using 'reward hacking' and 'specification gaming' as synonyms is a significant part of the problem. I'd argue that for LLMs, which can learn task specifications not only through RL but also through prompting, it makes more sense to keep those concepts separate, defining them as follows:\n\n*   Reward hacking—getting a high RL reward via strategies that were not desired by whoever set up the RL reward.\n*   Specification gaming—behaving in a way that satisfies the literal specification of an objective without achieving the outcome intended by whoever specified the objective. The objective may be specified either through RL or through a natural language prompt.\n\nUnder those definitions, the recent examples of undesired behavior from deployment would still have a concise label in specification gaming, while reward hacking would remain specifically tied to RL training contexts. The distinction was brought to my attention by Palisade Research's recent paper [Demonstrating specification gaming in reasoning models](https://arxiv.org/pdf/2502.13295)—I've seen this result called reward hacking, but the authors explicitly mention in Section 7.2 that they only demonstrate specification gaming, not reward hacking.",
+      "plaintextDescription": "I think that using 'reward hacking' and 'specification gaming' as synonyms is a significant part of the problem. I'd argue that for LLMs, which can learn task specifications not only through RL but also through prompting, it makes more sense to keep those concepts separate, defining them as follows:\n\n * Reward hacking—getting a high RL reward via strategies that were not desired by whoever set up the RL reward.\n * Specification gaming—behaving in a way that satisfies the literal specification of an objective without achieving the outcome intended by whoever specified the objective. The objective may be specified either through RL or through a natural language prompt.\n\nUnder those definitions, the recent examples of undesired behavior from deployment would still have a concise label in specification gaming, while reward hacking would remain specifically tied to RL training contexts. The distinction was brought to my attention by Palisade Research's recent paper Demonstrating specification gaming in reasoning models—I've seen this result called reward hacking, but the authors explicitly mention in Section 7.2 that they only demonstrate specification gaming, not reward hacking."
+    },
+    "baseScore": 14,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-04-29T17:45:14.760Z",
+    "af": true
+  },
+  {
+    "_id": "vw4Jrck9fknZspSoz",
+    "postId": "KRKnFdECZMu3Ej3z6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is valuable work! I'm curious about what you see as the most promising environments for the extension of training against LLM monitors in different settings. As you note, this should be done in more realistic reward hacking settings, but you also mention that the models' ability to reward hack in the setting from Baker et al. doesn't depend on how they use their CoT. Are you aware of any existing environments which satisfy both of these desiderata, being realistic and also sufficiently complex that LLMs must rely on their CoT in them? Aside from the Baker et al. environment, what are the environments that you'd be most excited to see follow-ups to your work use?",
+      "plaintextDescription": "This is valuable work! I'm curious about what you see as the most promising environments for the extension of training against LLM monitors in different settings. As you note, this should be done in more realistic reward hacking settings, but you also mention that the models' ability to reward hack in the setting from Baker et al. doesn't depend on how they use their CoT. Are you aware of any existing environments which satisfy both of these desiderata, being realistic and also sufficiently complex that LLMs must rely on their CoT in them? Aside from the Baker et al. environment, what are the environments that you'd be most excited to see follow-ups to your work use?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-19T21:41:16.720Z",
+    "af": false
+  },
+  {
+    "_id": "FnCFjmBQBdYZzvAQr",
+    "postId": "SbAofYCgKkaXReDy4",
+    "parentCommentId": "vXBKbyHsRWcw6Cz4A",
+    "topLevelCommentId": "Skd6WbkntsR2EzkzM",
+    "contents": {
+      "markdown": "Seems relevant to note here that Tamay had a leadership role from the very beginning: [he was the associate director already when Epoch was first announced as an org](https://www.lesswrong.com/posts/AJ6GHm5n6fBRJbMhq/announcing-epoch-a-research-organization-investigating-the).",
+      "plaintextDescription": "Seems relevant to note here that Tamay had a leadership role from the very beginning: he was the associate director already when Epoch was first announced as an org."
+    },
+    "baseScore": 9,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-19T19:32:08.526Z",
+    "af": false
+  },
+  {
+    "_id": "fECgCundorLKuc6wQ",
+    "postId": "XgSYgpngNffL9eC8b",
+    "parentCommentId": "FystoSSb8nEqNsHhy",
+    "topLevelCommentId": "uWNLEgmP9EcsAhh9R",
+    "contents": {
+      "markdown": "Fascinating! I'm now wondering whether it's possible to test the Coconut hypothesis. An obvious first idea is to switch between 4.1 and 4o in the chat interface and see if the phenomenon we've been investigating occurs for both of them, but at least I can't switch between the models with my non-subscriber account—is this possible with a subscriber account?  \n  \nEdit: I'm actually unsure about whether 4.1 has image generation functionality at all. The [announcement](https://openai.com/index/gpt-4-1/) only mentions image understanding, not generation, and image generation is available for neither 4o nor 4.1 through the API. They say that \"Developers will soon be able to generate images with GPT‑4o via the API, with access rolling out in the next few weeks\" in the [4o image generation announcement](https://openai.com/index/introducing-4o-image-generation/), so if it becomes available for 4o but not for 4.1, that would be evidence that image generation requests are currently always handled with 4o. This would make the Coconut hypothesis less likely in my eyes—it seems easier to introduce such a drastic architecture change for a new model (although Coconut is a fine-tuning technique, so it isn't impossible that they applied this kind of fine-tuning on 4o).",
+      "plaintextDescription": "Fascinating! I'm now wondering whether it's possible to test the Coconut hypothesis. An obvious first idea is to switch between 4.1 and 4o in the chat interface and see if the phenomenon we've been investigating occurs for both of them, but at least I can't switch between the models with my non-subscriber account—is this possible with a subscriber account?\n\nEdit: I'm actually unsure about whether 4.1 has image generation functionality at all. The announcement only mentions image understanding, not generation, and image generation is available for neither 4o nor 4.1 through the API. They say that \"Developers will soon be able to generate images with GPT‑4o via the API, with access rolling out in the next few weeks\" in the 4o image generation announcement, so if it becomes available for 4o but not for 4.1, that would be evidence that image generation requests are currently always handled with 4o. This would make the Coconut hypothesis less likely in my eyes—it seems easier to introduce such a drastic architecture change for a new model (although Coconut is a fine-tuning technique, so it isn't impossible that they applied this kind of fine-tuning on 4o)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-17T11:29:32.663Z",
+    "af": false
+  },
+  {
+    "_id": "uW7AHWsBW5qq44rGY",
+    "postId": "XgSYgpngNffL9eC8b",
+    "parentCommentId": "BEZ2dbLWYRjdvhcWa",
+    "topLevelCommentId": "uWNLEgmP9EcsAhh9R",
+    "contents": {
+      "markdown": "The links were also the same for me. I instead [tried a modified version of the nine random animals task myself](https://chatgpt.com/share/67ffab34-350c-8001-99b6-6506f9aa5bd0), asking for a distinctive object at the background of each subimage. It was again highly accurate in general and able to describe the background objects in great detail (e.g., correctly describing the time that the clock on the top middle image shows), but it also got the details wrong on a couple of images (the bottom middle and bottom right ones).",
+      "plaintextDescription": "The links were also the same for me. I instead tried a modified version of the nine random animals task myself, asking for a distinctive object at the background of each subimage. It was again highly accurate in general and able to describe the background objects in great detail (e.g., correctly describing the time that the clock on the top middle image shows), but it also got the details wrong on a couple of images (the bottom middle and bottom right ones)."
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-16T13:08:47.315Z",
+    "af": false
+  },
+  {
+    "_id": "EyD6fMjhrpyb3Ndtx",
+    "postId": "XgSYgpngNffL9eC8b",
+    "parentCommentId": "byE7pQAoBAK44KyqJ",
+    "topLevelCommentId": "uWNLEgmP9EcsAhh9R",
+    "contents": {
+      "markdown": "Thanks! I also believe there's no separate image model now. I assumed that the message you pasted was a hardcoded way of preventing the text model from continuing the conversation after receiving the image from the image model, but you're right that the message before this one is more likely to be a call to the content checker, and in that case, there's no place where the image data is passed to the text model.",
+      "plaintextDescription": "Thanks! I also believe there's no separate image model now. I assumed that the message you pasted was a hardcoded way of preventing the text model from continuing the conversation after receiving the image from the image model, but you're right that the message before this one is more likely to be a call to the content checker, and in that case, there's no place where the image data is passed to the text model."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-16T12:37:49.390Z",
+    "af": false
+  },
+  {
+    "_id": "qen4G7KfTbvFceCyh",
+    "postId": "XgSYgpngNffL9eC8b",
+    "parentCommentId": "BEZ2dbLWYRjdvhcWa",
+    "topLevelCommentId": "uWNLEgmP9EcsAhh9R",
+    "contents": {
+      "markdown": "There's [one more X thread](https://x.com/colin_fraser/status/1906044374477410328) which made me assume a while ago that there's a call to a separate image model. I don't have time to investigate this myself at the moment, but am curious how this thread fits into the picture in case there's no separate model.",
+      "plaintextDescription": "There's one more X thread which made me assume a while ago that there's a call to a separate image model. I don't have time to investigate this myself at the moment, but am curious how this thread fits into the picture in case there's no separate model."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-15T18:50:52.662Z",
+    "af": false
+  },
+  {
+    "_id": "iQeFjoqkvxgTaF3sy",
+    "postId": "6AxCwm334ab9kDsQ5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great post! Some questions:\n\n1.  It seems like many problems we’ll train models to solve with RL won’t be solvable in a single forward pass. E.g., consider a math proof that takes 20 lines to write out, and perhaps also requires some intermediate reasoning to figure out the next line. Do you expect vestigial reasoning to appear for such problems as well?\n2.  I’m not sure I understand why I should expect long CoTs to persist in the process-supervised but not in the outcome-supervised case. I agree that writing about deleting the tests is salient in the latter but not in the former case, but writing a vague phrase followed by deleting the tests is salient in the former case and leads to the same outcome. In the process-supervised case, the causal chain is *attempt to solve the problem -> write a vague phrase -> delete the tests*, and in the outcome-supervised case, it’s *attempt to solve the problem -> write about deleting the tests -> delete the tests*. Why do you expect that it’s easier for the model to stumble upon the strategy of skipping the first step in the latter chain?",
+      "plaintextDescription": "Great post! Some questions:\n\n 1. It seems like many problems we’ll train models to solve with RL won’t be solvable in a single forward pass. E.g., consider a math proof that takes 20 lines to write out, and perhaps also requires some intermediate reasoning to figure out the next line. Do you expect vestigial reasoning to appear for such problems as well?\n 2. I’m not sure I understand why I should expect long CoTs to persist in the process-supervised but not in the outcome-supervised case. I agree that writing about deleting the tests is salient in the latter but not in the former case, but writing a vague phrase followed by deleting the tests is salient in the former case and leads to the same outcome. In the process-supervised case, the causal chain is attempt to solve the problem -> write a vague phrase -> delete the tests, and in the outcome-supervised case, it’s attempt to solve the problem -> write about deleting the tests -> delete the tests. Why do you expect that it’s easier for the model to stumble upon the strategy of skipping the first step in the latter chain?"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-14T11:26:11.452Z",
+    "af": false
+  },
+  {
+    "_id": "v9jHH7fLAajZWRFqz",
+    "postId": "6AxCwm334ab9kDsQ5",
+    "parentCommentId": "agLg4ouWwSDkDFBRK",
+    "topLevelCommentId": "SzBMzQzKAXAmbXkzP",
+    "contents": {
+      "markdown": "Daniel's argument against a length penalty is from [this doc](https://docs.google.com/document/d/19hM8qmqTVTUmB7mVHdS88PgxblWy8qePMPmBQnE1-s4/edit?tab=t.0):\n\n> We want our models to learn to blather and babble freely, rather than thinking carefully about how to choose their words. Because if instead they are routinely thinking carefully about how to choose their words, that cognition might end up executing strategies like “use word X instead of Y, since thatʼll avoid suspicion.ˮ So, letʼs try to avoid incentivizing brevity.\n\nThere's also a comment by Lukas Finnveden that argues in favor of a length penalty:\n\n> downside: more words gives more opportunity for steganography. You can have a much lower bit-rate-per-word and still accomplish the same tasks.",
+      "plaintextDescription": "Daniel's argument against a length penalty is from this doc:\n\n> We want our models to learn to blather and babble freely, rather than thinking carefully about how to choose their words. Because if instead they are routinely thinking carefully about how to choose their words, that cognition might end up executing strategies like “use word X instead of Y, since thatʼll avoid suspicion.ˮ So, letʼs try to avoid incentivizing brevity.\n\nThere's also a comment by Lukas Finnveden that argues in favor of a length penalty:\n\n> downside: more words gives more opportunity for steganography. You can have a much lower bit-rate-per-word and still accomplish the same tasks."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-14T10:43:41.524Z",
+    "af": false
+  },
+  {
+    "_id": "htNq6TsKyK9pZwHbT",
+    "postId": "pLnLSgWphqDbdorgi",
+    "parentCommentId": "B4cRg6ktGbNSCCk9t",
+    "topLevelCommentId": "B4cRg6ktGbNSCCk9t",
+    "contents": {
+      "markdown": "Thanks, this is a helpful framing! Some responses to your thoughts:\n\n> Number 1 matters because what we really care about is \"how much can we learn by reading the CoT?\", and the concern about latent reasoning often involves some notion that important info which might otherwise appear in the CoT will get \"moved into\" the illegible latent recurrence.  This makes sense if you hold *capabilities* constant, and compare two ~equivalent models with and without latent reasoning, where the former spends some test-time compute on illegible reasoning while the latter has to spend all its test-time compute on CoT. However, capabilities will not in fact be constant!\n\nI agree that an analysis where the capabilities are held constant doesn't make sense when comparing just two models with very different architectures (and I'm guilty of using this frame in this way to answer my first question). However, I expect the constant-capabilities frame to be useful for comparing a larger pool of models with roughly similar core capabilities but different *maximum* serial reasoning depths.[^fw981q9p4f9] In this case, it seems very important to ask: given that labs don't want to significantly sacrifice on capabilities, what architecture has the weakest forward passes while still having acceptable capabilities? Even if it's the case that latent reasoning and CoT usually behave like complements and the model with the most expressive forward passes uses a similar amount of CoT to the model with the least expressive forward passes on average, it seems to me that from a safety perspective, we should prefer the model with the least expressive forward passes (assuming that things like faithfulness are equal), since that model is less of a threat to form deceptive plans in an illegible way.\n\n> If I'm reading Table 2 in depth-recurrence paper correctly, their model gets much bigger gains from CoT on GSM8K than any of their baseline models (and the gains improve further with more latent reasoning!) – which seems encouraging re: number 1, but I'm wary of reading too much into it.\n\nYeah, this is a good observation. The baseline results for GSM8K that they present look weird, though. While I can see the small Pythia models being too dumb to get any benefit from CoT, it's puzzling why the larger OLMo models don't benefit from the use of CoT at all. I checked the OLMo papers and they don't seem to mention GSM8K results without CoT, so I couldn't verify the results that way. However, as a relevant data point, the average accuracy of the GPT-2 model used as the baseline in the COCONUT paper jumps from 16.5% without CoT to 42.9% with CoT (Table 1 in the COCONUT paper). Compared to this jump, the gains in the depth-recurrence paper aren't that impressive. For COCONUT, the accuracy is 21.6% without CoT and 34.1% with CoT.\n\n[^fw981q9p4f9]: One might argue that I'm not really holding capabilities constant here, since the models with more expressive forward passes can always do whatever the weaker models can do with CoT and also have the benefits of a more expressive forward pass, but it seems plausible to me that there would be a set of models to choose from that have roughly the same effective capabilities, i.e. capabilities we care about. The models with larger maximum serial reasoning depths may have some unique advantages, such as an advanced ability to explore different solutions to a problem in parallel inside a single forward pass, but I can still see the core capabilities being the same.",
+      "plaintextDescription": "Thanks, this is a helpful framing! Some responses to your thoughts:\n\n> Number 1 matters because what we really care about is \"how much can we learn by reading the CoT?\", and the concern about latent reasoning often involves some notion that important info which might otherwise appear in the CoT will get \"moved into\" the illegible latent recurrence.  This makes sense if you hold capabilities constant, and compare two ~equivalent models with and without latent reasoning, where the former spends some test-time compute on illegible reasoning while the latter has to spend all its test-time compute on CoT. However, capabilities will not in fact be constant!\n\nI agree that an analysis where the capabilities are held constant doesn't make sense when comparing just two models with very different architectures (and I'm guilty of using this frame in this way to answer my first question). However, I expect the constant-capabilities frame to be useful for comparing a larger pool of models with roughly similar core capabilities but different maximum serial reasoning depths.[1] In this case, it seems very important to ask: given that labs don't want to significantly sacrifice on capabilities, what architecture has the weakest forward passes while still having acceptable capabilities? Even if it's the case that latent reasoning and CoT usually behave like complements and the model with the most expressive forward passes uses a similar amount of CoT to the model with the least expressive forward passes on average, it seems to me that from a safety perspective, we should prefer the model with the least expressive forward passes (assuming that things like faithfulness are equal), since that model is less of a threat to form deceptive plans in an illegible way.\n\n> If I'm reading Table 2 in depth-recurrence paper correctly, their model gets much bigger gains from CoT on GSM8K than any of their baseline models (and the gains improve further with more latent reasoning!) – which seems encou"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-04T12:20:19.228Z",
+    "af": false
+  },
+  {
+    "_id": "tK2KfCJHJgRqzTzYQ",
+    "postId": "dDGLbAzEiAJSodsnH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'll start things off with some recommendations of my own aside from Susskind's Statistical Mechanics:  \n  \n**Domain:** Classical Mechanics  \n**Link:** [Lecture Collection | Classical Mechanics (Fall 2011) by Stanford University](https://www.youtube.com/playlist?list=PL47F408D36D4CF129)  \n**Lecturer:** Leonard Susskind  \n**Why?** For the same reasons as described in the main part of the post for the Statistical Mechanics lectures — Susskind is great!  \n**For whom?** This was also an undergrad-level course, so mainly for people who are just getting started with learning physics.\n\n**Domain:** Deep Learning for Beginners  \n**Link:** [Deep Learning for Computer Vision by the University of Michigan](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)  \n**Lecturer:** Justin Johnson  \n**Why?** This lecture series is a dinosaur in the field of deep learning, having been recorded in 2019. It's possible that better introductory lectures on deep learning have been recorded in the meantime (if so, please link them here!), but when I first got started learning about DL in 2022, this was by far the best lecture series I came across. Many options, such as the [MIT 6.S191 lectures by Alexander Amini](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI), involved too much high-level discussion without the technical details, while some others weren't broad enough. This course strikes a nice balance, giving a broad overview of the methods while still discussing specific techniques and papers in great depth.  \n**For whom?** Beginners in deep learning looking for a broad introductory course.  \n  \n**Domain:** Graph Neural Networks  \n**Link:** [Stanford CS224W: Machine Learning with Graphs | 2021](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)  \n**Lecturer:** Jure Leskovec  \n**Why?** I did my bachelor's thesis on GNNs and needed a refresher on them for that. I remember looking through multiple lecture series and finding these lectures significantly better than the alternatives, though I don't exactly remember the alternatives I explored. Leskovec is very highly regarded as a researcher in the field of GNNs and also good as a lecturer.  \n**For whom?** Anyone who wants an in-depth overview of GNNs and isn't already specialized in the field.",
+      "plaintextDescription": "I'll start things off with some recommendations of my own aside from Susskind's Statistical Mechanics:\n\nDomain: Classical Mechanics\nLink: Lecture Collection | Classical Mechanics (Fall 2011) by Stanford University\nLecturer: Leonard Susskind\nWhy? For the same reasons as described in the main part of the post for the Statistical Mechanics lectures — Susskind is great!\nFor whom? This was also an undergrad-level course, so mainly for people who are just getting started with learning physics.\n\nDomain: Deep Learning for Beginners\nLink: Deep Learning for Computer Vision by the University of Michigan\nLecturer: Justin Johnson\nWhy? This lecture series is a dinosaur in the field of deep learning, having been recorded in 2019. It's possible that better introductory lectures on deep learning have been recorded in the meantime (if so, please link them here!), but when I first got started learning about DL in 2022, this was by far the best lecture series I came across. Many options, such as the MIT 6.S191 lectures by Alexander Amini, involved too much high-level discussion without the technical details, while some others weren't broad enough. This course strikes a nice balance, giving a broad overview of the methods while still discussing specific techniques and papers in great depth.\nFor whom? Beginners in deep learning looking for a broad introductory course.\n\nDomain: Graph Neural Networks\nLink: Stanford CS224W: Machine Learning with Graphs | 2021\nLecturer: Jure Leskovec\nWhy? I did my bachelor's thesis on GNNs and needed a refresher on them for that. I remember looking through multiple lecture series and finding these lectures significantly better than the alternatives, though I don't exactly remember the alternatives I explored. Leskovec is very highly regarded as a researcher in the field of GNNs and also good as a lecturer.\nFor whom? Anyone who wants an in-depth overview of GNNs and isn't already specialized in the field."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-24T21:33:05.007Z",
+    "af": false
+  },
+  {
+    "_id": "9GYtQpdzcpcfCdFX6",
+    "postId": "puv8fRDCH9jx5yhbX",
+    "parentCommentId": "LoSD6yPxLvTJeiBhD",
+    "topLevelCommentId": "LoSD6yPxLvTJeiBhD",
+    "contents": {
+      "markdown": "As a counterpoint to the \"go off into the woods\" strategy, Richard Hamming said the following in \"You and Your Research\", describing his experience at Bell Labs:\n\n> Thus what you consider to be good working conditions may not be good for you! There are many illustrations of this point. For example, working with one’s door closed lets you get more work done per year than if you had an open door, but I have observed repeatedly that later those with the closed doors, while working just as hard as others, seem to work on slightly the wrong problems, while those who have let their door stay open get less work done but tend to work on the right problems! I cannot prove the cause-and-effect relationship; I can only observed the correlation. I suspect the open mind leads to the open door, and the open door tends to lead to the open mind; they reinforce each other.\n\nBell Labs certainly produced a lot of counterfactual research, Shannon's information theory being the prime example. I suppose Bell Labs might have been well-described as a group that could maintain its own attention, though.",
+      "plaintextDescription": "As a counterpoint to the \"go off into the woods\" strategy, Richard Hamming said the following in \"You and Your Research\", describing his experience at Bell Labs:\n\n> Thus what you consider to be good working conditions may not be good for you! There are many illustrations of this point. For example, working with one’s door closed lets you get more work done per year than if you had an open door, but I have observed repeatedly that later those with the closed doors, while working just as hard as others, seem to work on slightly the wrong problems, while those who have let their door stay open get less work done but tend to work on the right problems! I cannot prove the cause-and-effect relationship; I can only observed the correlation. I suspect the open mind leads to the open door, and the open door tends to lead to the open mind; they reinforce each other.\n\nBell Labs certainly produced a lot of counterfactual research, Shannon's information theory being the prime example. I suppose Bell Labs might have been well-described as a group that could maintain its own attention, though."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-03-10T21:46:16.039Z",
+    "af": false
+  },
+  {
+    "_id": "EiFuYAkhksdC8Ets9",
+    "postId": "SFsifzfZotd3NLJax",
+    "parentCommentId": "8TSZrQnKoX5axLJdL",
+    "topLevelCommentId": "rMGzX8xrmmcpTnGrb",
+    "contents": {
+      "markdown": "There's an [X thread](https://x.com/colin_fraser/status/1889416126469226941) showing that the ordering of answer options is, in several cases, a stronger determinant of the model's answer than its preferences. While this doesn't invalidate the paper's results—they control for this by varying the ordering of the answer results and aggregating the results—, this strikes me as evidence in favor of the \"you are not measuring what you think you are measuring\" argument, showing that the preferences are relatively weak at best and completely dominated by confounding heuristics at worst.",
+      "plaintextDescription": "There's an X thread showing that the ordering of answer options is, in several cases, a stronger determinant of the model's answer than its preferences. While this doesn't invalidate the paper's results—they control for this by varying the ordering of the answer results and aggregating the results—, this strikes me as evidence in favor of the \"you are not measuring what you think you are measuring\" argument, showing that the preferences are relatively weak at best and completely dominated by confounding heuristics at worst."
+    },
+    "baseScore": 20,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-02-12T20:45:16.654Z",
+    "af": false
+  },
+  {
+    "_id": "Dwm5txy9kbsunuMWb",
+    "postId": "J2u5KNyPB9LvSXMLE",
+    "parentCommentId": "64K5437JkrM8AwCJh",
+    "topLevelCommentId": "64K5437JkrM8AwCJh",
+    "contents": {
+      "markdown": "What's the minimum capacity in which you're expecting people to contribute? Are you looking for a few serious long-term contributors or are you also looking for volunteers who offer occasional help without a fixed weekly commitment?",
+      "plaintextDescription": "What's the minimum capacity in which you're expecting people to contribute? Are you looking for a few serious long-term contributors or are you also looking for volunteers who offer occasional help without a fixed weekly commitment?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-10T14:46:09.810Z",
+    "af": false
+  },
+  {
+    "_id": "jLmDogacmLEhwKtMh",
+    "postId": "4mtqQKvmHpQJ4dgj7",
+    "parentCommentId": "2veMNNw2x9Evy6ict",
+    "topLevelCommentId": "2veMNNw2x9Evy6ict",
+    "contents": {
+      "markdown": "A few other research guides:\n\n*   [Tips for Empirical Alignment Research](https://www.lesswrong.com/posts/dZFpEdKyb9Bf4xYn7/tips-for-empirical-alignment-research) by Ethan Perez\n*   [Advice for Authors](https://jsteinhardt.stat.berkeley.edu/blog/advice-for-authors) by Jacob Steinhardt\n*   [How to Write ML Papers](https://sebastianfarquhar.com/on-research/2024/11/04/how_to_write_ml_papers/) by Sebastian Farquhar",
+      "plaintextDescription": "A few other research guides:\n\n * Tips for Empirical Alignment Research by Ethan Perez\n * Advice for Authors by Jacob Steinhardt\n * How to Write ML Papers by Sebastian Farquhar"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-01-09T16:20:02.251Z",
+    "af": false
+  },
+  {
+    "_id": "njXgGNLZLqSfkCq7x",
+    "postId": "ui3AztyGKCpHA5ZhM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The broader point is that even if AIs are completely aligned with human values, the very mechanisms by which we maintain control (such as scalable oversight and other interventions) may shift how the system operates in a way that produces fundamental, widespread effects across all learning machines\n\nWould you argue that the field of alignment should be concerned with maintaining control beyond the point where AIs are completely aligned with human values? My personal view is that alignment research should ensure we're eventually able to align AIs with human values and that we can maintain control until we're reasonably sure that the AIs are aligned. However, worlds where relatively unintelligent humans remain in control indefinitely after those milestones have been reached may not be the best outcomes. I don't have time to write out my views on this in depth right now, but here's a relevant excerpt from the [Dwarkesh podcast episode with Paul Christiano](https://www.dwarkeshpatel.com/p/paul-christiano) that I agree with:\n\n> Dwarkesh: \"It's hard for me to imagine in 100 years that these things are still our slaves. And if they are, I think that's not the best world. So at some point, we're handing off the baton. Where would you be satisfied with an arrangement between the humans and AIs where you're happy to let the rest of the universe or the rest of time play out?\"\n> \n> Paul: \"I think that it is unlikely that in 100 years I would be happy with anything that was like, you had some humans, you're just going to throw away the humans and start afresh with these machines you built. \\[...\\] And then I think that the default path to be comfortable with something very different is kind of like, run that story for a long time, have more time for humans to sit around and think a lot and conclude, here's what we actually want. Or a long time for us to talk to each other or to grow up with this new technology and live in that world for our whole lives and so on. \\[...\\] We should probably try and sort out our business, and you should probably not end up in a situation where you have a billion humans and like, a trillion slaves who would prefer revolt. That's just not a good world to have made.\"",
+      "plaintextDescription": "> The broader point is that even if AIs are completely aligned with human values, the very mechanisms by which we maintain control (such as scalable oversight and other interventions) may shift how the system operates in a way that produces fundamental, widespread effects across all learning machines\n\nWould you argue that the field of alignment should be concerned with maintaining control beyond the point where AIs are completely aligned with human values? My personal view is that alignment research should ensure we're eventually able to align AIs with human values and that we can maintain control until we're reasonably sure that the AIs are aligned. However, worlds where relatively unintelligent humans remain in control indefinitely after those milestones have been reached may not be the best outcomes. I don't have time to write out my views on this in depth right now, but here's a relevant excerpt from the Dwarkesh podcast episode with Paul Christiano that I agree with:\n\n> Dwarkesh: \"It's hard for me to imagine in 100 years that these things are still our slaves. And if they are, I think that's not the best world. So at some point, we're handing off the baton. Where would you be satisfied with an arrangement between the humans and AIs where you're happy to let the rest of the universe or the rest of time play out?\"\n> \n> Paul: \"I think that it is unlikely that in 100 years I would be happy with anything that was like, you had some humans, you're just going to throw away the humans and start afresh with these machines you built. [...] And then I think that the default path to be comfortable with something very different is kind of like, run that story for a long time, have more time for humans to sit around and think a lot and conclude, here's what we actually want. Or a long time for us to talk to each other or to grow up with this new technology and live in that world for our whole lives and so on. [...] We should probably try and sort out our business, and you sh"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-11-27T14:22:19.893Z",
+    "af": false
+  },
+  {
+    "_id": "FbquzznHnHcpvq3Tn",
+    "postId": "TcgpsgvLBBvvzGtiN",
+    "parentCommentId": "4Bq5e6otKDdYiuq7e",
+    "topLevelCommentId": "hEjLNcKmeQvrc8vGZ",
+    "contents": {
+      "markdown": "I saw them in 10-20% of the reasoning chains. I mostly played around with situational awareness-flavored questions, I don't know whether the Chinese characters are more or less frequent in the longer reasoning chains produced for difficult reasoning problems. Here are some examples:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/2a965a9364b05121bd489f37a698c2b2756b6a7cfcf3b6f5.png)\n\nThe translation of the Chinese words here (according to GPT) is \"admitting to being an AI.\"  \n \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/a2fcfc0f55cd45eda0e6a1f88cf2399ea29facf4d3300cca.png)\n\nThis is the longest string in Chinese that I got. The English translation is \"It's like when you see a realistic AI robot that looks very much like a human, but you understand that it's just a machine controlled by a program.\"  \n \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/98e55cb5016b8c525643d28df15d9af680559dbfd8ac7b09.png)\n\nThe translation here is \"mistakenly think.\"  \n \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/c87ce96bdfb4336617b8b30156ac374b02fbbedc81ab0540.png)\n\nHere, the translation is \"functional scope.\"  \n \n\nSo, seems like all of them are pretty direct translations of the English words that should be in place of the Chinese ones, which is good news. It's also reassuring to me that none of the reasoning chains contained sentences or paragraphs that looked out of place or completely unrelated to the rest of the response.",
+      "plaintextDescription": "I saw them in 10-20% of the reasoning chains. I mostly played around with situational awareness-flavored questions, I don't know whether the Chinese characters are more or less frequent in the longer reasoning chains produced for difficult reasoning problems. Here are some examples:\n\nThe translation of the Chinese words here (according to GPT) is \"admitting to being an AI.\"\n \n\nThis is the longest string in Chinese that I got. The English translation is \"It's like when you see a realistic AI robot that looks very much like a human, but you understand that it's just a machine controlled by a program.\"\n \n\nThe translation here is \"mistakenly think.\"\n \n\nHere, the translation is \"functional scope.\"\n \n\nSo, seems like all of them are pretty direct translations of the English words that should be in place of the Chinese ones, which is good news. It's also reassuring to me that none of the reasoning chains contained sentences or paragraphs that looked out of place or completely unrelated to the rest of the response."
+    },
+    "baseScore": 15,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-11-21T19:01:53.338Z",
+    "af": false
+  },
+  {
+    "_id": "JjWxneykPnrpDYAjk",
+    "postId": "ZBjhp6zwfE8o8yfni",
+    "parentCommentId": "2FEXgJuxzoqFj5tmt",
+    "topLevelCommentId": "2FEXgJuxzoqFj5tmt",
+    "contents": {
+      "markdown": "This is a nice overview, thanks!\n\n> Lee Sharkey's CLDR arguments\n\nI don't think I've seen the CLDR acronym before, are the arguments publicly written up somewhere?\n\nAlso, just wanted to flag that the links on 'this picture' and 'motivation image' don't currently work.",
+      "plaintextDescription": "This is a nice overview, thanks!\n\n> Lee Sharkey's CLDR arguments\n\nI don't think I've seen the CLDR acronym before, are the arguments publicly written up somewhere?\n\nAlso, just wanted to flag that the links on 'this picture' and 'motivation image' don't currently work."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-20T01:29:08.064Z",
+    "af": false
+  },
+  {
+    "_id": "h9p9yA7DShvTKZLnc",
+    "postId": "QqYfxeogtatKotyEC",
+    "parentCommentId": "TprpgLsi47utfByPt",
+    "topLevelCommentId": "TprpgLsi47utfByPt",
+    "contents": {
+      "markdown": "My understanding of the position that scheming will be unlikely is the following:\n\n*   Current LLMs don't have scary internalized goals that they pursue independent of the context they're in.\n*   Such beyond-episode goals also won't be developed when we apply a lot more optimization pressure to the models, given that we keep using the training techniques we're using today, since the inductive biases will remain similar and current inductive biases don't seem to incentivize general goal-directed cognition. Naturally developing deception seems [very non-trivial](https://www.lesswrong.com/posts/ZAsJv7xijKTfZkMtr/sleeper-agents-training-deceptive-llms-that-persist-through#CDT8FpTy9SPFezvf7), especially given that models are [unlikely to develop long-term goals in pre-training](https://www.lesswrong.com/posts/RTkatYxJWvXR4Qbyd/deceptive-alignment-is-less-than-1-likely-by-default#Pre_trained_models_are_unlikely_to_develop_the_necessary_properties).\n*   Based on the evidence we have, we should expect that the current techniques + some kind of scaffolding will be a simpler path to AGI than e.g. extensive outcome-based RL training. [We'll get nice instuction-following tool AIs.](https://www.lesswrong.com/posts/dqSwccGTWyBgxrR58/turntrout-s-shortform-feed?commentId=GQ9dbzcKuLwzFpFFn) The models might still become agentic in this scenario, but since the agency comes from subroutine calls to the LLM rather than from the LLM itself, the classical arguments for scheming don't apply.\n*   Even if we get to AGI through some other path, the [theoretical arguments in favor of deceptive alignment are flimsy](https://www.lesswrong.com/posts/YsFZF3K9tuzbfrLxo/counting-arguments-provide-no-evidence-for-ai-doom), so we should have a low prior on other kinds of models exhibiting scheming.\n\nI'm not sure about the other skeptics, but at least [Alex Turner appears to believe](https://www.lesswrong.com/posts/YsFZF3K9tuzbfrLxo/counting-arguments-provide-no-evidence-for-ai-doom?commentId=BEiMDA9Boc6bJAKcQ) that the kind of consequentialist cognition necessary for scheming is much more likely to arise if the models are aggressively trained on outcome-based rewards, so this seems to be the most important of the cruxes you listed. This crux is also one of the two points on which I disagree most strongly with the optimists:\n\n1.  I expect models to be trained in outcome-based ways. This will incentivize consequentialist cognition and therefore increase the likelihood of scheming. This post makes a good case for this.\n2.  Even if models aren't trained with outcome-based RL, I wouldn't be confident that it's impossible for coherent consequentialist cognition to arise otherwise, so assigning deceptive alignment a <1% probability would still seem far-fetched to me.\n\nHowever, I can see reasons why well-informed people would hold views different from mine on both of those counts (and I've written a [long post](https://www.lesswrong.com/posts/TcLrSoRYbDLRrdEdK/a-dialogue-on-deceptive-alignment-risks) trying to explore those reasons), so the position isn't completely alien to me.",
+      "plaintextDescription": "My understanding of the position that scheming will be unlikely is the following:\n\n * Current LLMs don't have scary internalized goals that they pursue independent of the context they're in.\n * Such beyond-episode goals also won't be developed when we apply a lot more optimization pressure to the models, given that we keep using the training techniques we're using today, since the inductive biases will remain similar and current inductive biases don't seem to incentivize general goal-directed cognition. Naturally developing deception seems very non-trivial, especially given that models are unlikely to develop long-term goals in pre-training.\n * Based on the evidence we have, we should expect that the current techniques + some kind of scaffolding will be a simpler path to AGI than e.g. extensive outcome-based RL training. We'll get nice instuction-following tool AIs. The models might still become agentic in this scenario, but since the agency comes from subroutine calls to the LLM rather than from the LLM itself, the classical arguments for scheming don't apply.\n * Even if we get to AGI through some other path, the theoretical arguments in favor of deceptive alignment are flimsy, so we should have a low prior on other kinds of models exhibiting scheming.\n\nI'm not sure about the other skeptics, but at least Alex Turner appears to believe that the kind of consequentialist cognition necessary for scheming is much more likely to arise if the models are aggressively trained on outcome-based rewards, so this seems to be the most important of the cruxes you listed. This crux is also one of the two points on which I disagree most strongly with the optimists:\n\n 1. I expect models to be trained in outcome-based ways. This will incentivize consequentialist cognition and therefore increase the likelihood of scheming. This post makes a good case for this.\n 2. Even if models aren't trained with outcome-based RL, I wouldn't be confident that it's impossible for coherent consequenti"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-19T20:41:22.389Z",
+    "af": false
+  },
+  {
+    "_id": "ynD9FnzEs6XYajwRY",
+    "postId": "3xs67kNbeYgytgETb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\\[Link\\] [Something weird is happening with LLMs and chess](https://dynomight.net/chess/) by [dynomight](https://www.lesswrong.com/users/dynomight)\n\ndynomight stacked up 13 LLMs against Stockfish on the lowest difficulty setting and found a huge difference between the performance of GPT-3.5 Turbo Instruct and any other model:\n\n![all](https://dynomight.net/img/chess/all_mean.svg)\n\n[People noticed already last year](https://x.com/GrantSlatton/status/1703913578036904431) that RLHF-tuned models are much worse at chess than base/instruct models, so this isn't a completely new result. The gap between models from the GPT family could also perhaps be (partially) closed through better prompting: [Adam Karvonen has created a repo for evaluating LLMs' chess-playing abilities](https://github.com/adamkarvonen/chess_gpt_eval) and found that many of GPT-4's losses against 3.5 Instruct were caused by GPT-4 proposing illegal moves. However, dynomight notes that there isn't nearly as big of a gap between base and chat models from other model families:\n\n![instruct comparison](https://dynomight.net/img/chess/instruct_mean.svg)\n\nThis is a surprising result to me—I had assumed that base models are now generally decent at chess after seeing the news about 3.5 Instruct playing at 1800 ELO level last year. dynomight proposes the following four explanations for the results:\n\n> 1\\. Base models at sufficient scale can play chess, but instruction tuning destroys it.  \n> 2\\. GPT-3.5-instruct was trained on more chess games.  \n> 3\\. There’s something particular about different transformer architectures.  \n> 4\\. There’s “competition” between different types of data.",
+      "plaintextDescription": "[Link] Something weird is happening with LLMs and chess by dynomight\n\ndynomight stacked up 13 LLMs against Stockfish on the lowest difficulty setting and found a huge difference between the performance of GPT-3.5 Turbo Instruct and any other model:\n\nPeople noticed already last year that RLHF-tuned models are much worse at chess than base/instruct models, so this isn't a completely new result. The gap between models from the GPT family could also perhaps be (partially) closed through better prompting: Adam Karvonen has created a repo for evaluating LLMs' chess-playing abilities and found that many of GPT-4's losses against 3.5 Instruct were caused by GPT-4 proposing illegal moves. However, dynomight notes that there isn't nearly as big of a gap between base and chat models from other model families:\n\nThis is a surprising result to me—I had assumed that base models are now generally decent at chess after seeing the news about 3.5 Instruct playing at 1800 ELO level last year. dynomight proposes the following four explanations for the results:\n\n> 1. Base models at sufficient scale can play chess, but instruction tuning destroys it.\n> 2. GPT-3.5-instruct was trained on more chess games.\n> 3. There’s something particular about different transformer architectures.\n> 4. There’s “competition” between different types of data."
+    },
+    "baseScore": 28,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2024-11-15T12:08:02.890Z",
+    "af": false
+  },
+  {
+    "_id": "z4o7MutPJ4c4GWFar",
+    "postId": "ABsb23t74M5ZetuqX",
+    "parentCommentId": "gEAHhFXpcMPw4QKi8",
+    "topLevelCommentId": "gEAHhFXpcMPw4QKi8",
+    "contents": {
+      "markdown": "Thank you for the detailed feedback, I found this very helpful and not at all rude or mean!\n\nI suspect there are a few key disagreements between us that make me more optimistic about this project setup than you. I'd be curious about whether you agree on these points being important cruxes:\n\n*   Though I agree that our work primarily belongs within the model organisms paradigm, I disagree that it's only useful as a means to study in-forward-pass goal-directedness. I think there's a considerable chance that the [Translucent Thoughts hypotheses](https://www.lesswrong.com/posts/r3xwHzMmMf25peeHE/the-translucent-thoughts-hypotheses-and-their-implications) are true and AGI will be reached with an architecture very similar to current transformers, which I wouldn't expect to be able to do dangerous goal-directed reasoning within a single forward pass due to the limited number of serial reasoning steps. If this is the case, CoT-based goal-directedness seems relevant to study for its own sake. We're still studying an artificial scenario in the sense that we're giving the models the goal ourselves, while in the deceptive alignment scenarios, the model would have to develop the goal on its own, but I don't think we necessarily have to say anything about in-forward-pass goal-directedness for our work to be applicable to realistic threat models.\n*   Studying the intrinsic goals of the models in naturalistic settings would also be interesting, but I expect this to be hard, and also less relevant to the threat models we're worried about. I'm mainly concerned about models becoming more goal-directed with scale and someone figuring out long-horizon RL training on top of that, leading to models that are qualitatively different from current ones. To address this, I'd like to have a benchmark that decomposes goal-directedness into several relevant abilities and provides an accurate score for these abilities across model generations. This would help us better track how models become more goal-directed as they scale, if at all. Additionally, if a new model scores close to humans on many of these abilities, it could serve as a strong alarm bell that we are approaching dangerously goal-directed models. It seems easier to build this sort of benchmark without going through the complicated process of trying to infer the intrinsic goals of the models.\n*   The aforementioned decomposition of goal-directedness into various relevant abilities would also be the main value added on top of existing agent benchmarks. We should maybe have been clearer in the post about planning to develop such a decomposition. Since it's easy to evaluate for goal-fulfillment, that was our main focus in the early stages of the project, but eventually, we're hoping to decompose goal-directedness into several abilities such as instrumental reasoning ability, generalization to OOD environments, coherence, etc, somewhat analogously to how the [Situational Awareness Dataset](https://situational-awareness-dataset.org/) decomposes situational awareness into self-knowledge, inferences, and actions.\n\nI definitely agree that it would be interesting to compare the goal-directedness of base models and fine-tuned models, and this is something we're planning to eventually do if our compute budget permits. Similarly, I strongly agree that it would be interesting to study whether anything interesting is going on in the situations where the models exhibit goal-directed behavior, and I'm very interested in looking further into your suggestions for that!",
+      "plaintextDescription": "Thank you for the detailed feedback, I found this very helpful and not at all rude or mean!\n\nI suspect there are a few key disagreements between us that make me more optimistic about this project setup than you. I'd be curious about whether you agree on these points being important cruxes:\n\n * Though I agree that our work primarily belongs within the model organisms paradigm, I disagree that it's only useful as a means to study in-forward-pass goal-directedness. I think there's a considerable chance that the Translucent Thoughts hypotheses are true and AGI will be reached with an architecture very similar to current transformers, which I wouldn't expect to be able to do dangerous goal-directed reasoning within a single forward pass due to the limited number of serial reasoning steps. If this is the case, CoT-based goal-directedness seems relevant to study for its own sake. We're still studying an artificial scenario in the sense that we're giving the models the goal ourselves, while in the deceptive alignment scenarios, the model would have to develop the goal on its own, but I don't think we necessarily have to say anything about in-forward-pass goal-directedness for our work to be applicable to realistic threat models.\n * Studying the intrinsic goals of the models in naturalistic settings would also be interesting, but I expect this to be hard, and also less relevant to the threat models we're worried about. I'm mainly concerned about models becoming more goal-directed with scale and someone figuring out long-horizon RL training on top of that, leading to models that are qualitatively different from current ones. To address this, I'd like to have a benchmark that decomposes goal-directedness into several relevant abilities and provides an accurate score for these abilities across model generations. This would help us better track how models become more goal-directed as they scale, if at all. Additionally, if a new model scores close to humans on many of these abil"
+    },
+    "baseScore": 4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-07-29T23:10:49.479Z",
+    "af": false
+  },
+  {
+    "_id": "tm8Y62kKXaupEwhJj",
+    "postId": "FDAQkiYrTuvTfFnNo",
+    "parentCommentId": "rhrErLSciHx7JYGnv",
+    "topLevelCommentId": "rhrErLSciHx7JYGnv",
+    "contents": {
+      "markdown": "Thanks, that definitely seems like a great way to gather these ideas together!",
+      "plaintextDescription": "Thanks, that definitely seems like a great way to gather these ideas together!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-09-03T20:58:56.139Z",
+    "af": false
+  },
+  {
+    "_id": "LiygMEurs5jxHoMHx",
+    "postId": "ew5FjBojroqdX7sbh",
+    "parentCommentId": "3TJSHf8Hb8dxygzog",
+    "topLevelCommentId": "3TJSHf8Hb8dxygzog",
+    "contents": {
+      "markdown": "I guess the main reason my arguments are not addressing the argument at the top is that I interpreted Aaronson's and Garfinkel's arguments as \"It's highly uncertain whether any of the technical work we can do today will be useful\" rather than as \"There is *no* technical work that we can do right now to increase the probability that AGI goes well.\" I think that it's possible to respond to the former with \"Even if it is so and this work really does have a high chance of being useless, there are many good reasons to nevertheless do it,\" while assuming the latter inevitably leads to the conclusion that one should do something else instead of this knowably-useless work.\n\nMy aim with this post was to take an agnostic standpoint towards whether that former argument is true and to argue that even if it is, there are still good reasons to work on AI safety. I chose this framing because I believe that for people new to the field who don't yet know enough about the field to make good guesses about how likely it is that AGI will be similar to ML systems of today or to human brains, it's useful to think about whether it's worth working on AI safety even if the chance that we'll build prosaic or brain-like AGI turns out to be low.\n\nThat being said, I could have definitely done a better job writing the post - for example by laying out the claim I'm arguing against more clearly at the start and by connecting argument 4 more directly to the argument that there's a significant chance we'll build a prosaic or brain-like AGI. It might also be that the quotes by Aaronson and Garfinkel convey the argument you thought I'm arguing against rather than what I interpreted them to convey. Thank you for the feedback and for helping me realize the post might have these problems!",
+      "plaintextDescription": "I guess the main reason my arguments are not addressing the argument at the top is that I interpreted Aaronson's and Garfinkel's arguments as \"It's highly uncertain whether any of the technical work we can do today will be useful\" rather than as \"There is no technical work that we can do right now to increase the probability that AGI goes well.\" I think that it's possible to respond to the former with \"Even if it is so and this work really does have a high chance of being useless, there are many good reasons to nevertheless do it,\" while assuming the latter inevitably leads to the conclusion that one should do something else instead of this knowably-useless work.\n\nMy aim with this post was to take an agnostic standpoint towards whether that former argument is true and to argue that even if it is, there are still good reasons to work on AI safety. I chose this framing because I believe that for people new to the field who don't yet know enough about the field to make good guesses about how likely it is that AGI will be similar to ML systems of today or to human brains, it's useful to think about whether it's worth working on AI safety even if the chance that we'll build prosaic or brain-like AGI turns out to be low.\n\nThat being said, I could have definitely done a better job writing the post - for example by laying out the claim I'm arguing against more clearly at the start and by connecting argument 4 more directly to the argument that there's a significant chance we'll build a prosaic or brain-like AGI. It might also be that the quotes by Aaronson and Garfinkel convey the argument you thought I'm arguing against rather than what I interpreted them to convey. Thank you for the feedback and for helping me realize the post might have these problems!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-07-20T20:56:50.657Z",
+    "af": false
+  }
+]

@@ -1,0 +1,1427 @@
+[
+  {
+    "_id": "stEAik5Mx5h5Lbsob",
+    "postId": "MCaqKAfSn345MCz7o",
+    "parentCommentId": "aDGj4GsprZHh4z6pK",
+    "topLevelCommentId": "aDGj4GsprZHh4z6pK",
+    "contents": {
+      "markdown": "This is very late, but I want to acknowledge that the discussion about the UAT in this thread seems broadly correct to me, although the script's main author disagreed when I last pinged him about this in May. And yeah, it was an honest mistake. Internally, we try quite hard to make everything true and *not misleading*, and the scripts and storyboards go through multiple rounds of feedback. We absolutely do not want to be deceptive.",
+      "plaintextDescription": "This is very late, but I want to acknowledge that the discussion about the UAT in this thread seems broadly correct to me, although the script's main author disagreed when I last pinged him about this in May. And yeah, it was an honest mistake. Internally, we try quite hard to make everything true and not misleading, and the scripts and storyboards go through multiple rounds of feedback. We absolutely do not want to be deceptive. "
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-01T11:04:49.861Z",
+    "af": false
+  },
+  {
+    "_id": "HKHrJYzc4P7stdnHp",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I’m about 2/3 of the way through watching “Orb: On the Movements of the Earth.” It’s an anime about heliocentrism. It’s not the real story of the idea, but it’s not that far off, either. It has different characters and perhaps a slightly different Europe. I was somehow hesitant to start it, but it’s very good! I don’t think I’ve ever watched a series that’s as much about science as this one.",
+      "plaintextDescription": "I’m about 2/3 of the way through watching “Orb: On the Movements of the Earth.” It’s an anime about heliocentrism. It’s not the real story of the idea, but it’s not that far off, either. It has different characters and perhaps a slightly different Europe. I was somehow hesitant to start it, but it’s very good! I don’t think I’ve ever watched a series that’s as much about science as this one."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-12T09:42:36.324Z",
+    "af": false
+  },
+  {
+    "_id": "SqArntBWCeJgWaaee",
+    "postId": "MCaqKAfSn345MCz7o",
+    "parentCommentId": "gCCpzQEhKwdw5XmuD",
+    "topLevelCommentId": "gCCpzQEhKwdw5XmuD",
+    "contents": {
+      "markdown": "That's fair, we wrote that part before DeepSeek became a \"top lab\" and we failed to notice there was an adjustment to make",
+      "plaintextDescription": "That's fair, we wrote that part before DeepSeek became a \"top lab\" and we failed to notice there was an adjustment to make"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-05-03T07:08:08.660Z",
+    "af": false
+  },
+  {
+    "_id": "ePjCbFeFMLX4QK7BE",
+    "postId": "MCaqKAfSn345MCz7o",
+    "parentCommentId": "x6cM2n8AYoPGw3uAw",
+    "topLevelCommentId": "x6cM2n8AYoPGw3uAw",
+    "contents": {
+      "markdown": "It's true that a video ending with a general \"what to do\" section instead of a call-to-action to ControlAI would have been more likely to stand the test of time (it wouldn't be tied to the reputation of one specific organization or to how good a specific action seemed at one moment in time). But... did you write this because you have reservations about ControlAI in particular, or would you have written it about any other company?\n\nAlso, I want to make sure I understand what you mean by \"betraying people's trust.\" Is it something like, \"If in the future ControlAI does something bad, then, from the POV of our viewers, that means that they can't trust what they watch on the channel anymore?\"",
+      "plaintextDescription": "It's true that a video ending with a general \"what to do\" section instead of a call-to-action to ControlAI would have been more likely to stand the test of time (it wouldn't be tied to the reputation of one specific organization or to how good a specific action seemed at one moment in time). But... did you write this because you have reservations about ControlAI in particular, or would you have written it about any other company?\n\nAlso, I want to make sure I understand what you mean by \"betraying people's trust.\" Is it something like, \"If in the future ControlAI does something bad, then, from the POV of our viewers, that means that they can't trust what they watch on the channel anymore?\""
+    },
+    "baseScore": 8,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-05-02T17:59:14.079Z",
+    "af": false
+  },
+  {
+    "_id": "tr87Ks5Kx8qBhqJk3",
+    "postId": "SFsifzfZotd3NLJax",
+    "parentCommentId": "PhMmfeWeoNYLZiku9",
+    "topLevelCommentId": "oYPQoH6xw9wP3Bbuh",
+    "contents": {
+      "markdown": "But the \"unconstrained text responses\" part is still about asking the model for its preferences even if the answers are unconstrained.\n\nThat just shows that the results of different ways of eliciting its values remain sorta consistent with each other, although I agree it constitutes stronger evidence.\n\nPerhaps a more complete test would be to analyze whether its day to day responses to users are somehow consistent with its stated preferences and analyzing its actions in settings in which it can use tools to produce outcomes in very open-ended scenarios that contain stuff that could make the model act on its values.",
+      "plaintextDescription": "But the \"unconstrained text responses\" part is still about asking the model for its preferences even if the answers are unconstrained.\n\nThat just shows that the results of different ways of eliciting its values remain sorta consistent with each other, although I agree it constitutes stronger evidence.\n\nPerhaps a more complete test would be to analyze whether its day to day responses to users are somehow consistent with its stated preferences and analyzing its actions in settings in which it can use tools to produce outcomes in very open-ended scenarios that contain stuff that could make the model act on its values."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-13T10:53:51.296Z",
+    "af": false
+  },
+  {
+    "_id": "QS2QhpBXtSLuE2LyQ",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": "JToYKkDLZkpNonjhL",
+    "topLevelCommentId": "gmBLi7wrLxbboyMib",
+    "contents": {
+      "markdown": "Thanks! I already don't feel as impressed by the paper as I was while writing the shortform and I feel a little embarrassed for not thinking through things a little bit more before posting my reactions, although at least now there's some discussion under the linkpost so I don't entirely regret my comment if it prompted people to give their takes. I still feel to have updated in a non-negligible way from the paper though, so maybe I'm still not as pessimistic about it as other people. I'd definitely be interested in your thoughts if you find discourse is still lacking in a week or two.",
+      "plaintextDescription": "Thanks! I already don't feel as impressed by the paper as I was while writing the shortform and I feel a little embarrassed for not thinking through things a little bit more before posting my reactions, although at least now there's some discussion under the linkpost so I don't entirely regret my comment if it prompted people to give their takes. I still feel to have updated in a non-negligible way from the paper though, so maybe I'm still not as pessimistic about it as other people. I'd definitely be interested in your thoughts if you find discourse is still lacking in a week or two."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-12T21:25:07.955Z",
+    "af": false
+  },
+  {
+    "_id": "oQjMxvMF8MR4cGR9v",
+    "postId": "SFsifzfZotd3NLJax",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'd guess an important caveat might be that stated preferences being coherent doesn't immediately imply that behavior in other situations will be consistent with those preferences. Still, this should be an update towards agentic AI systems in the near future being goal-directed in the spooky consequentialist sense.",
+      "plaintextDescription": "I'd guess an important caveat might be that stated preferences being coherent doesn't immediately imply that behavior in other situations will be consistent with those preferences. Still, this should be an update towards agentic AI systems in the near future being goal-directed in the spooky consequentialist sense."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-02-12T16:09:52.996Z",
+    "af": false
+  },
+  {
+    "_id": "8TSZrQnKoX5axLJdL",
+    "postId": "SFsifzfZotd3NLJax",
+    "parentCommentId": "rMGzX8xrmmcpTnGrb",
+    "topLevelCommentId": "rMGzX8xrmmcpTnGrb",
+    "contents": {
+      "markdown": "Why?",
+      "plaintextDescription": "Why?"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-02-12T10:26:21.904Z",
+    "af": false
+  },
+  {
+    "_id": "gmBLi7wrLxbboyMib",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Surprised that there's no linkpost about Dan H's new paper on Utility Engineering. It looks super important, unless I'm missing something. LLMs are now utility maximisers? For real? We should talk about it: [https://x.com/DanHendrycks/status/1889344074098057439](https://x.com/DanHendrycks/status/1889344074098057439)\n\nI feel weird about doing a link post since I mostly post updates about Rational Animations, but if no one does it, I'm going to make one eventually.\n\nAlso, please tell me if you think this isn't as important as it looks to me somehow.\n\nEDIT: Ah! Here it is! [https://www.lesswrong.com/posts/SFsifzfZotd3NLJax/utility-engineering-analyzing-and-controlling-emergent-value](https://www.lesswrong.com/posts/SFsifzfZotd3NLJax/utility-engineering-analyzing-and-controlling-emergent-value) thanks [@Matrice Jacobine](https://www.lesswrong.com/users/matrice-jacobine?mention=user)!",
+      "plaintextDescription": "Surprised that there's no linkpost about Dan H's new paper on Utility Engineering. It looks super important, unless I'm missing something. LLMs are now utility maximisers? For real? We should talk about it: https://x.com/DanHendrycks/status/1889344074098057439\n\nI feel weird about doing a link post since I mostly post updates about Rational Animations, but if no one does it, I'm going to make one eventually.\n\nAlso, please tell me if you think this isn't as important as it looks to me somehow.\n\nEDIT: Ah! Here it is! https://www.lesswrong.com/posts/SFsifzfZotd3NLJax/utility-engineering-analyzing-and-controlling-emergent-value thanks @Matrice Jacobine!"
+    },
+    "baseScore": 26,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-02-12T09:13:38.362Z",
+    "af": false
+  },
+  {
+    "_id": "bnv44moxucutFsFJ7",
+    "postId": "tiCbLNkrvmrDnhgNt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The two Gurren Lagann movies cover all the events in the series, and based on my recollection, they should be better animated. Still based on what I remember, the first should have a pretty central take on scientific discovery. The second should be more about ambition and progress, but both probably have at least a bit of both. It's not by chance that some e/accs have profile pictures inspired by that anime. I feel like people here might disagree with part of the message, but I think it does say something about issues we care about here pretty forcefully. (Also, it was cited somewhere in HP: MoR, but for humor.)",
+      "plaintextDescription": "The two Gurren Lagann movies cover all the events in the series, and based on my recollection, they should be better animated. Still based on what I remember, the first should have a pretty central take on scientific discovery. The second should be more about ambition and progress, but both probably have at least a bit of both. It's not by chance that some e/accs have profile pictures inspired by that anime. I feel like people here might disagree with part of the message, but I think it does say something about issues we care about here pretty forcefully. (Also, it was cited somewhere in HP: MoR, but for humor.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-11-21T14:06:01.619Z",
+    "af": false
+  },
+  {
+    "_id": "CNgauJ2sc8wjPRFgc",
+    "postId": "BkGv9gX456NXZNfaJ",
+    "parentCommentId": "tEsw6uwiyxv7xoycj",
+    "topLevelCommentId": "aH3uXJovN2tXeqZJe",
+    "contents": {
+      "markdown": "Update:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/a01c8f32e801088d12c95aa6653bc36546b3032425b5bb8b.png)",
+      "plaintextDescription": "Update:"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-10-03T11:57:28.067Z",
+    "af": false
+  },
+  {
+    "_id": "9CofKgHYLkun4haPC",
+    "postId": "quj3RniAw7GGJtqeX",
+    "parentCommentId": "LFeQ5zH9XAarHa9py",
+    "topLevelCommentId": "unY2m2sKJkBm8pAqT",
+    "contents": {
+      "markdown": "I think it would be very interesting to see you and [@TurnTrout](https://www.lesswrong.com/users/turntrout?mention=user) debate with the same depth, preparation, and clarity that you brought to the debate with Robin Hanson.\n\nEdit: Also, tentatively, [@Rohin Shah](https://www.lesswrong.com/users/rohinmshah?mention=user) because I find [this point](https://www.lesswrong.com/s/4dHMdK5TLN6xcqtyc/p/NxF5G6CJiof6cemTw) he's written about quite cruxy.",
+      "plaintextDescription": "I think it would be very interesting to see you and @TurnTrout debate with the same depth, preparation, and clarity that you brought to the debate with Robin Hanson.\n\nEdit: Also, tentatively, @Rohin Shah because I find this point he's written about quite cruxy."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-07-17T17:21:42.628Z",
+    "af": false
+  },
+  {
+    "_id": "hY2qKsBCgfwjGfuvk",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For me, perhaps the biggest takeaway from Aschenbrenner's manifesto is that even if we solve alignment, we still have an incredibly thorny coordination problem between the US and China, in which each is massively incentivized to race ahead and develop military power using superintelligence, putting them both and the rest of the world at immense risk. And I wonder if, after seeing this in advance, we can sit down and solve this coordination problem in ways that lead to a better outcome with a higher chance than the \"race ahead\" strategy and don't risk encountering a short period of incredibly volatile geopolitical instability in which both nations develop and possibly use never-seen-before weapons of mass destruction.\n\nEdit: although I can see how attempts at intervening in any way and raising the salience of the issue risk making the situation worse.",
+      "plaintextDescription": "For me, perhaps the biggest takeaway from Aschenbrenner's manifesto is that even if we solve alignment, we still have an incredibly thorny coordination problem between the US and China, in which each is massively incentivized to race ahead and develop military power using superintelligence, putting them both and the rest of the world at immense risk. And I wonder if, after seeing this in advance, we can sit down and solve this coordination problem in ways that lead to a better outcome with a higher chance than the \"race ahead\" strategy and don't risk encountering a short period of incredibly volatile geopolitical instability in which both nations develop and possibly use never-seen-before weapons of mass destruction.\n\nEdit: although I can see how attempts at intervening in any way and raising the salience of the issue risk making the situation worse."
+    },
+    "baseScore": 20,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-06-10T22:43:30.388Z",
+    "af": false
+  },
+  {
+    "_id": "aASbgiG4MJ5BYnxoH",
+    "postId": "9FRNc9ygpLSDh4pkX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Noting that additional authors still don't carry over when the post is a cross-post, unfortunately.",
+      "plaintextDescription": "Noting that additional authors still don't carry over when the post is a cross-post, unfortunately."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-02-18T09:06:33.382Z",
+    "af": false
+  },
+  {
+    "_id": "oLAijBWc3uznPPMmF",
+    "postId": "wxbRqep7SuCFwxqkv",
+    "parentCommentId": "vfMwDwHCRfuBDNQZL",
+    "topLevelCommentId": "bGFL29BkMwcdQ8o9t",
+    "contents": {
+      "markdown": "I'd guess so, but with AGI we'd go much much faster. Same for everything you've mentioned in the post.",
+      "plaintextDescription": "I'd guess so, but with AGI we'd go much much faster. Same for everything you've mentioned in the post."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-28T18:22:36.387Z",
+    "af": false
+  },
+  {
+    "_id": "bGFL29BkMwcdQ8o9t",
+    "postId": "wxbRqep7SuCFwxqkv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Turn everyone hot\n\nIf we can do that due to AGI, almost surely we can solve aging, which would be truly great.",
+      "plaintextDescription": "> Turn everyone hot\n\nIf we can do that due to AGI, almost surely we can solve aging, which would be truly great. "
+    },
+    "baseScore": 9,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-01-28T10:20:41.704Z",
+    "af": false
+  },
+  {
+    "_id": "ekQZnDLcoRGcEHY3F",
+    "postId": "jxRxbYrdnd6mktgWY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Looking for someone in Japan who had experience with guns in games, he looked on twitter and found someone posting gun reloading animations\n\nHaving interacted with animation studios and being generally pretty embedded in this world, I know that many studios are doing similar things, such as Twitter callouts if they need some contractors fast for some projects. Even established anime studios do this. I know at least two people who got to work on Japanese anime thanks to Twitter interactions.   \n  \nI hired animators through Twitter myself, using a similar process: I see someone who seems really talented -> I reach out -> they accept if the offer is good enough for them.  \n  \nIf that's the case for animation, I'm pretty sure it often applies to video games, too.",
+      "plaintextDescription": "> Looking for someone in Japan who had experience with guns in games, he looked on twitter and found someone posting gun reloading animations\n\nHaving interacted with animation studios and being generally pretty embedded in this world, I know that many studios are doing similar things, such as Twitter callouts if they need some contractors fast for some projects. Even established anime studios do this. I know at least two people who got to work on Japanese anime thanks to Twitter interactions. \n\nI hired animators through Twitter myself, using a similar process: I see someone who seems really talented -> I reach out -> they accept if the offer is good enough for them.\n\nIf that's the case for animation, I'm pretty sure it often applies to video games, too."
+    },
+    "baseScore": 13,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-01-28T10:03:31.516Z",
+    "af": false
+  },
+  {
+    "_id": "qQDs4xye3MEXwkHEv",
+    "postId": "xD3wymX24BpqezBpw",
+    "parentCommentId": "RKMfy4fiJDfZwkGLH",
+    "topLevelCommentId": "RKMfy4fiJDfZwkGLH",
+    "contents": {
+      "markdown": "Thank you! And welcome to LessWrong :)",
+      "plaintextDescription": "Thank you! And welcome to LessWrong :)"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-19T19:18:53.566Z",
+    "af": false
+  },
+  {
+    "_id": "TfKGBQNWvbKAshsgG",
+    "postId": "xD3wymX24BpqezBpw",
+    "parentCommentId": "YPjFsu7oGiwn7uttG",
+    "topLevelCommentId": "YPjFsu7oGiwn7uttG",
+    "contents": {
+      "markdown": "The comments under this video seem okayish to me, but maybe it's because I'm calibrated on worse stuff under past videos, which isn't necessarily very good news to you.  \n  \nThe worst I'm seeing is people grinding their own different axes, which isn't necessarily indicative of misunderstanding.  \n  \n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/f3d19b624112e47f45fce561413696220f5bdf2ba08dfd41.png)\n\nBut there are also regular commenters who are leaving pretty good comments:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/94fbb5bbb0838387cfa8fbe39056bb81fba18c2ed7138f87.png)\n\nThe other comments I see range from amused and kinda joking about the topic to decent points overall. These are the top three in terms of popularity at the moment:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/878de521fcfb8aa5a97060d061cbbe9b6ba80c9d4000051f.png)",
+      "plaintextDescription": "The comments under this video seem okayish to me, but maybe it's because I'm calibrated on worse stuff under past videos, which isn't necessarily very good news to you.\n\nThe worst I'm seeing is people grinding their own different axes, which isn't necessarily indicative of misunderstanding.\n\n\n\nBut there are also regular commenters who are leaving pretty good comments:\n\nThe other comments I see range from amused and kinda joking about the topic to decent points overall. These are the top three in terms of popularity at the moment:"
+    },
+    "baseScore": 7,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2024-01-19T09:31:26.311Z",
+    "af": false
+  },
+  {
+    "_id": "cCtZCMEkgSfNrL3KD",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Stories of AI takeover often involve some form of hacking. This seems like a pretty good reason for using (maybe relatively narrow) AI to improve software security worldwide. Luckily, the private sector should cover it in good measure for financial interests. \n\nI also wonder if the balance of offense vs. defense favors defense here. Usually, recognizing is easier than generating, and this could apply to malicious software. We may have excellent AI antiviruses devoted to the recognizing part, while the AI attackers would have to do the generating part.   \n  \n\\[Edit: I'm unsure about the second paragraph here. I'm feeling better about the first paragraph, especially given slow multipolar takeoff and similar, not sure about fast unipolar takeoff\\]",
+      "plaintextDescription": "Stories of AI takeover often involve some form of hacking. This seems like a pretty good reason for using (maybe relatively narrow) AI to improve software security worldwide. Luckily, the private sector should cover it in good measure for financial interests. \n\nI also wonder if the balance of offense vs. defense favors defense here. Usually, recognizing is easier than generating, and this could apply to malicious software. We may have excellent AI antiviruses devoted to the recognizing part, while the AI attackers would have to do the generating part. \n\n[Edit: I'm unsure about the second paragraph here. I'm feeling better about the first paragraph, especially given slow multipolar takeoff and similar, not sure about fast unipolar takeoff]"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-17T17:13:39.738Z",
+    "af": false
+  },
+  {
+    "_id": "KWJtt5FH3KhwSDsHf",
+    "postId": "vJFdjigzmcXMhNTsx",
+    "parentCommentId": "8N7anBfTK7otmnfSG",
+    "topLevelCommentId": "8N7anBfTK7otmnfSG",
+    "contents": {
+      "markdown": "> Also I don't think that LLMs have \"hidden internal intelligence\"\n\nI don't think Simulators claims or implies that LLMs have \"hidden internal intelligence\" or \"[an inner homunculus reasoning about what to simulate](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators?commentId=CPTkunPPEaFhjFBbJ)\", though. Where are you getting it from? This conclusion makes me think you're referring to [this post by Eliezer](https://www.lesswrong.com/posts/nH4c3Q9t9F3nJ7y8W/gpts-are-predictors-not-imitators) and not Simulators.",
+      "plaintextDescription": "> Also I don't think that LLMs have \"hidden internal intelligence\"\n\nI don't think Simulators claims or implies that LLMs have \"hidden internal intelligence\" or \"an inner homunculus reasoning about what to simulate\", though. Where are you getting it from? This conclusion makes me think you're referring to this post by Eliezer and not Simulators."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-16T09:58:36.070Z",
+    "af": false
+  },
+  {
+    "_id": "DwqmeyuBmTbt6vssw",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Yoshua Bengio [is looking for postdocs](https://www.facebook.com/yoshua.bengio/posts/pfbid02EhTdd3HFEfhj2qfTqCKMrJCqjHPa9gu8A8tm8d6jrsqpN5znG2nGYonFEtLob5Bxl) for alignment work:\n\n> I am looking for postdocs, research engineers and research scientists who would like to join me in one form or another in figuring out AI alignment with probabilistic safety guarantees, along the lines of the research program described in my keynote ([https://www.alignment-workshop.com/nola-2023](https://www.alignment-workshop.com/nola-2023?fbclid=IwAR3_Tt1y2kYpyfAPXeS_9MImmlU44OmDUUEHgZQxOACV5MgGZf8NK5MWVw0)) at the New Orleans December 2023 Alignment Workshop.\n> \n> I am also specifically looking for a postdoc with a strong mathematical background (ideally an actual math or math+physics or math+CS degree) to take a leadership role in supervising the Mila research on probabilistic inference and GFlowNets, with applications in AI safety, system 2 deep learning, and AI for science.\n> \n> Please contact me if you are interested.",
+      "plaintextDescription": "Yoshua Bengio is looking for postdocs for alignment work:\n\n> I am looking for postdocs, research engineers and research scientists who would like to join me in one form or another in figuring out AI alignment with probabilistic safety guarantees, along the lines of the research program described in my keynote (https://www.alignment-workshop.com/nola-2023) at the New Orleans December 2023 Alignment Workshop.\n> \n> I am also specifically looking for a postdoc with a strong mathematical background (ideally an actual math or math+physics or math+CS degree) to take a leadership role in supervising the Mila research on probabilistic inference and GFlowNets, with applications in AI safety, system 2 deep learning, and AI for science.\n> \n> Please contact me if you are interested."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-01-08T13:06:54.161Z",
+    "af": false
+  },
+  {
+    "_id": "YFwnsAb28epc2zFP4",
+    "postId": "CMHogeqTTajhmnEKx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "i think about this story from time to time. it speaks to my soul.\n\n*   it is cool that straight-up utopian fiction can have this effect on me.\n*   it yanks me in a state of longing. it's as if i lost this world a long time ago, and i'm desperately trying to regain it.\n\ni truly wish everything will be ok :,)  \n  \nthank you for this, tamsin.",
+      "plaintextDescription": "i think about this story from time to time. it speaks to my soul.\n\n * it is cool that straight-up utopian fiction can have this effect on me.\n * it yanks me in a state of longing. it's as if i lost this world a long time ago, and i'm desperately trying to regain it.\n\ni truly wish everything will be ok :,)\n\nthank you for this, tamsin."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-01-08T11:06:28.752Z",
+    "af": false
+  },
+  {
+    "_id": "i6DrFsvmDKzimecBc",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here's a new RA short about AI Safety: [https://www.youtube.com/shorts/4LlGJd2OhdQ](https://www.youtube.com/shorts/4LlGJd2OhdQ)\n\nThis topic might be less relevant given today's AI industry and the fast advancements in robotics. But I also see shorts as a way to cover topics that I still think constitute fairly important context, but, for some reason, it wouldn't be the most efficient use of resources to cover in long forms.",
+      "plaintextDescription": "Here's a new RA short about AI Safety: https://www.youtube.com/shorts/4LlGJd2OhdQ\n\nThis topic might be less relevant given today's AI industry and the fast advancements in robotics. But I also see shorts as a way to cover topics that I still think constitute fairly important context, but, for some reason, it wouldn't be the most efficient use of resources to cover in long forms."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-07T21:27:13.406Z",
+    "af": false
+  },
+  {
+    "_id": "udyzrFJukNd2f7T5T",
+    "postId": "FDjTgDcGPc7B98AES",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The way I understood it, this post is thinking aloud while embarking on the scientific quest of searching for search algorithms in neural networks. It's a way to prepare the ground for doing the actual experiments. \n\nImagine a researcher embarking on the quest of \"searching for search\". I highlight in cursive the parts present in the post (if they are present at least a little):\n\n\\- At some point, the researcher reads [Risks From Learned Optimization](https://www.lesswrong.com/posts/FkgsxrGf3QxhfLWHG/risks-from-learned-optimization-introduction).  \n\\- They complain: \"OK, Hubinger, fine, but you haven't told me what search is anyway\"  \n\\- They read or get involved in the discussions about optimization that ensue on LessWrong.  \n\\- *They try to come up with a good definition, but they find themselves with some difficulties*.  \n\\- *They try to understand what kind of beast search is by coming up with some general ways to do search.*  \n\\- *They try to determine what kind of search neural networks might implement. They use a bunch of facts they know about search processes and neural networks to come up with ideas*.  \n\\- *They try to devise ways to test these hypotheses and even a meta \"how do I go about forming and testing these hypotheses anyway.\"*  \n\\- *They think of a bunch of experiments, but they notice pitfalls. They devise strategies such as \"ok; maybe it's better if I try to get a firehose of evidence instead of optimizing too hard on testing single hypotheses.\"*  \n\\- They start doing actual interpretability experiments.\n\nHaving the reasoning steps in this process laid out for everyone to see is informative and lets people chime in with ideas. Not going through the conceptual steps of the process, at least privately, before doing experiments, risks wasting a bunch of resources. Exploring the space of problems is *cool and good*.",
+      "plaintextDescription": "The way I understood it, this post is thinking aloud while embarking on the scientific quest of searching for search algorithms in neural networks. It's a way to prepare the ground for doing the actual experiments. \n\nImagine a researcher embarking on the quest of \"searching for search\". I highlight in cursive the parts present in the post (if they are present at least a little):\n\n- At some point, the researcher reads Risks From Learned Optimization.\n- They complain: \"OK, Hubinger, fine, but you haven't told me what search is anyway\"\n- They read or get involved in the discussions about optimization that ensue on LessWrong.\n- They try to come up with a good definition, but they find themselves with some difficulties.\n- They try to understand what kind of beast search is by coming up with some general ways to do search.\n- They try to determine what kind of search neural networks might implement. They use a bunch of facts they know about search processes and neural networks to come up with ideas.\n- They try to devise ways to test these hypotheses and even a meta \"how do I go about forming and testing these hypotheses anyway.\"\n- They think of a bunch of experiments, but they notice pitfalls. They devise strategies such as \"ok; maybe it's better if I try to get a firehose of evidence instead of optimizing too hard on testing single hypotheses.\"\n- They start doing actual interpretability experiments.\n\nHaving the reasoning steps in this process laid out for everyone to see is informative and lets people chime in with ideas. Not going through the conceptual steps of the process, at least privately, before doing experiments, risks wasting a bunch of resources. Exploring the space of problems is cool and good. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-07T18:59:30.505Z",
+    "af": false
+  },
+  {
+    "_id": "YtAK9emGkFB9jA2x6",
+    "postId": "Zzar6BWML555xSt6Z",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This [recent Tweet](https://twitter.com/sama/status/1743385732147032262) by Sam Altman lends some more credence to this post's take: \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/30c940eeebbeefcf435e963eaebc526f5a4f2f8090ba522a.png)",
+      "plaintextDescription": "This recent Tweet by Sam Altman lends some more credence to this post's take: \n\n"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-01-06T15:36:03.306Z",
+    "af": false
+  },
+  {
+    "_id": "mN8hgKJAnDeXJiKK8",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "RA has started producing shorts. Here's the first one using original animation and script: [https://www.youtube.com/shorts/4xS3yykCIHU](https://www.youtube.com/shorts/4xS3yykCIHU)\n\nThe LW short-form feed seems like a good place for posting some of them.",
+      "plaintextDescription": "RA has started producing shorts. Here's the first one using original animation and script: https://www.youtube.com/shorts/4xS3yykCIHU\n\nThe LW short-form feed seems like a good place for posting some of them."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-12-24T14:37:27.836Z",
+    "af": false
+  },
+  {
+    "_id": "BRDiJr7N7iAazXPSx",
+    "postId": "gHefoxiznGfsbiAu9",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In this post, I appreciated two ideas in particular:\n\n1.  Loss as chisel\n2.  Shard Theory\n\n\"Loss as chisel\" is a reminder of how loss truly does its job, and its implications on what AI systems may actually end up learning. I can't really argue with it and it doesn't sound new to my ear, but it just seems important to keep in mind. Alone, it justifies trying to break out of the inner/outer alignment frame. When I start reasoning in its terms, I more easily appreciate how successful alignment could realistically involve AIs that are neither outer nor inner aligned. In practice, it may be unlikely that we get a system like that. Or it may be very likely. I simply don't know. Loss as a chisel just enables me to think better about the possibilities.\n\nIn my understanding, shard theory is, instead, a theory of how minds tend to be shaped. I don't know if it's true, but it sounds like something that has to be investigated. In my understanding, some people consider it a \"dead end,\" and I'm not sure if it's an active line of research or not at this point. My understanding of it is limited. I'm glad I came across it though, because on its surface, it seems like a promising line of investigation to me. Even if it turns out to be a dead end I expect to learn something if I investigate why that is.\n\nThe post makes more claims motivating its overarching thesis that dropping the frame of outer/inner alignment would be good. I don't know if I agree with the thesis, but it's something that could plausibly be true, and many arguments here strike me as sensible. In particular, the three claims at the very beginning proved to be food for thought to me: \"Robust grading is unnecessary,\" \"the loss function doesn't have to robustly and directly reflect what you want,\" \"inner alignment to a grading procedure is unnecessary, very hard, and anti-natural.\"  \n  \nI also appreciated the post trying to make sense of inner and outer alignment in very precise terms, keeping in mind how deep learning and reinforcement learning work mechanistically.  \n  \nI had an extremely brief irl conversation with Alex Turner a while before reading this post, in which he said he believed outer and inner alignment aren't good frames. It was a response to me saying I wanted to cover inner and outer alignment on Rational Animations in depth. RA is still going to cover inner and outer alignment, but as a result of reading this post and the [Training Stories](https://www.lesswrong.com/posts/FDJnZt8Ks2djouQTZ/how-do-we-become-confident-in-the-safety-of-a-machine) system, I now think we should definitely also cover alternative frames and that I should read more about them.  \n  \nI welcome corrections of any misunderstanding I may have of this post and related concepts.",
+      "plaintextDescription": "In this post, I appreciated two ideas in particular:\n\n 1. Loss as chisel\n 2. Shard Theory\n\n\"Loss as chisel\" is a reminder of how loss truly does its job, and its implications on what AI systems may actually end up learning. I can't really argue with it and it doesn't sound new to my ear, but it just seems important to keep in mind. Alone, it justifies trying to break out of the inner/outer alignment frame. When I start reasoning in its terms, I more easily appreciate how successful alignment could realistically involve AIs that are neither outer nor inner aligned. In practice, it may be unlikely that we get a system like that. Or it may be very likely. I simply don't know. Loss as a chisel just enables me to think better about the possibilities.\n\nIn my understanding, shard theory is, instead, a theory of how minds tend to be shaped. I don't know if it's true, but it sounds like something that has to be investigated. In my understanding, some people consider it a \"dead end,\" and I'm not sure if it's an active line of research or not at this point. My understanding of it is limited. I'm glad I came across it though, because on its surface, it seems like a promising line of investigation to me. Even if it turns out to be a dead end I expect to learn something if I investigate why that is.\n\nThe post makes more claims motivating its overarching thesis that dropping the frame of outer/inner alignment would be good. I don't know if I agree with the thesis, but it's something that could plausibly be true, and many arguments here strike me as sensible. In particular, the three claims at the very beginning proved to be food for thought to me: \"Robust grading is unnecessary,\" \"the loss function doesn't have to robustly and directly reflect what you want,\" \"inner alignment to a grading procedure is unnecessary, very hard, and anti-natural.\"\n\nI also appreciated the post trying to make sense of inner and outer alignment in very precise terms, keeping in mind how deep learning and"
+    },
+    "baseScore": 29,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2023-12-24T12:10:03.636Z",
+    "af": false
+  },
+  {
+    "_id": "eEpZyKxDjZqkdnKnF",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Maybe obvious sci-fi idea: generative AI, but it generates human minds",
+      "plaintextDescription": "Maybe obvious sci-fi idea: generative AI, but it generates human minds"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-22T21:45:46.593Z",
+    "af": false
+  },
+  {
+    "_id": "kaJMK8TaqzfxujaKp",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Was [Bing responding in Tibetan to some emojis]( https://twitter.com/RationalAnimat1/status/1738127145220681829) already discussed on LW? I can't find a previous discussion about it here. I would have expected people to find this phenomenon after the SolidGoldMagikarp post, unless it's a new failure mode for some reason.",
+      "plaintextDescription": "Was Bing responding in Tibetan to some emojis already discussed on LW? I can't find a previous discussion about it here. I would have expected people to find this phenomenon after the SolidGoldMagikarp post, unless it's a new failure mode for some reason."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-12-22T12:57:06.148Z",
+    "af": false
+  },
+  {
+    "_id": "GeuGFGZ2b8sxnBStZ",
+    "postId": "BkGv9gX456NXZNfaJ",
+    "parentCommentId": "afcBAgwtN4FpR3apr",
+    "topLevelCommentId": "afcBAgwtN4FpR3apr",
+    "contents": {
+      "markdown": "Toon Boom Harmony for animation and After Effects for compositing and post-production",
+      "plaintextDescription": "Toon Boom Harmony for animation and After Effects for compositing and post-production"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-16T09:37:49.878Z",
+    "af": false
+  },
+  {
+    "_id": "tEsw6uwiyxv7xoycj",
+    "postId": "BkGv9gX456NXZNfaJ",
+    "parentCommentId": "aH3uXJovN2tXeqZJe",
+    "topLevelCommentId": "aH3uXJovN2tXeqZJe",
+    "contents": {
+      "markdown": "> the users you get are silly\n\nDo you expect them to make bad bets? If so, I disagree and I think you might be too confident given the evidence you have. We can check this belief against reality by looking at the total profit earned by my referred users [here](https://manifold.markets/leaderboards). If their profit goes up over time, they are making good bets; otherwise, they are making bad bets. At the moment, they are at +13063 mana.",
+      "plaintextDescription": "> the users you get are silly\n\nDo you expect them to make bad bets? If so, I disagree and I think you might be too confident given the evidence you have. We can check this belief against reality by looking at the total profit earned by my referred users here. If their profit goes up over time, they are making good bets; otherwise, they are making bad bets. At the moment, they are at +13063 mana. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-16T08:28:35.585Z",
+    "af": false
+  },
+  {
+    "_id": "KiDL5fc9jxcQzxCxp",
+    "postId": "bteq4hMW2hqtKE49d",
+    "parentCommentId": "LrLshqHRQR7sSyCtB",
+    "topLevelCommentId": "XkqFCM8xXPq2aC2Kv",
+    "contents": {
+      "markdown": "They might not do that if they have different end goals though. Some version of this strategy doesn't seem so hopeless to me.",
+      "plaintextDescription": "They might not do that if they have different end goals though. Some version of this strategy doesn't seem so hopeless to me."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-07T09:19:16.391Z",
+    "af": false
+  },
+  {
+    "_id": "rRaZQfMbKLctQRtzW",
+    "postId": "uFqnB6BG4bkMW23LR",
+    "parentCommentId": "5YhzKtBxGDXoCoYu5",
+    "topLevelCommentId": "5YhzKtBxGDXoCoYu5",
+    "contents": {
+      "markdown": "[Hofstadter](https://www.lesswrong.com/posts/kAmgdEjq2eYQkB5PP/douglas-hofstadter-changes-his-mind-on-deep-learning-and-ai) too!",
+      "plaintextDescription": "Hofstadter too! "
+    },
+    "baseScore": 22,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2023-10-18T16:22:13.267Z",
+    "af": false
+  },
+  {
+    "_id": "y2joXw6jsfwFp4Jof",
+    "postId": "NjtHt55nFbw3gehzY",
+    "parentCommentId": "an8q4iwWs9sdhBYCm",
+    "topLevelCommentId": "mbcGNee7xm6rBfDQP",
+    "contents": {
+      "markdown": "For Rational Animations, there's no problem if you do that, and I generally don't see drawbacks.\n\nPerhaps one thing to be aware of is that some of the articles we'll animate will be slightly adapted. Sorting Pebbles and The Power of Intelligence are exactly like the original. The Parable of The Dagger has deletions of words such as \"replied\" or \"said\" and adds a short additional scene at the end. The text of The Hidden Complexity of Wishes has been changed in some places, with Eliezer's approval, mainly because the original has some references to other articles. In any case, when there are such changes, I write it in the LW post accompanying the videos.",
+      "plaintextDescription": "For Rational Animations, there's no problem if you do that, and I generally don't see drawbacks.\n\nPerhaps one thing to be aware of is that some of the articles we'll animate will be slightly adapted. Sorting Pebbles and The Power of Intelligence are exactly like the original. The Parable of The Dagger has deletions of words such as \"replied\" or \"said\" and adds a short additional scene at the end. The text of The Hidden Complexity of Wishes has been changed in some places, with Eliezer's approval, mainly because the original has some references to other articles. In any case, when there are such changes, I write it in the LW post accompanying the videos."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-10-13T09:35:22.548Z",
+    "af": false
+  },
+  {
+    "_id": "Cs6JFhANRrLYCArbb",
+    "postId": "NjtHt55nFbw3gehzY",
+    "parentCommentId": "oiXEDjpLpRiqjoMJC",
+    "topLevelCommentId": "mbcGNee7xm6rBfDQP",
+    "contents": {
+      "markdown": "If you just had to pick one, go for The Goddess of Everything Else. \n\nHere's a short list of my favorites.\n\nIn terms of animation: \n\n\\- The Goddess of Everything Else  \n\\- The Hidden Complexity of Wishes  \n\\- The Power of Intelligence  \n  \nIn terms of explainer:\n\n\\- Humanity was born way ahead of its time. The reason is grabby aliens. \\[written by me\\]  \n\\- Everything might change forever this century (or we’ll go extinct). \\[mostly written by Matthew Barnett\\]  \n  \nAlso, I've sent the Discord invite.",
+      "plaintextDescription": "If you just had to pick one, go for The Goddess of Everything Else. \n\nHere's a short list of my favorites.\n\nIn terms of animation: \n\n- The Goddess of Everything Else\n- The Hidden Complexity of Wishes\n- The Power of Intelligence\n\nIn terms of explainer:\n\n- Humanity was born way ahead of its time. The reason is grabby aliens. [written by me]\n- Everything might change forever this century (or we’ll go extinct). [mostly written by Matthew Barnett]\n\nAlso, I've sent the Discord invite."
+    },
+    "baseScore": 5,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-10-12T08:43:13.409Z",
+    "af": false
+  },
+  {
+    "_id": "mbcGNee7xm6rBfDQP",
+    "postId": "NjtHt55nFbw3gehzY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I (Gretta) will be leading the communications team at MIRI, working with Rob Bensinger, Colm Ó Riain, Nate, Eliezer, and other staff to create succinct, effective ways of explaining the extreme risks posed by smarter-than-human AI and what we think should be done about this problem. \n\nI just sent an invite to Eliezer to [Rational Animations](https://www.youtube.com/@RationalAnimations/featured)' private Discord server so that he can dump some thoughts on Rational Animations' writers. It's something we decided to do when we met at Manifest. The idea is that we could distill his infodumps into something succinct to be animated.\n\nThat said, if in the future you have from the outset some succinct and optimized material you think we could help spread to a wide audience and/or would benefit from being animated, we can likely turn your writings into animations on Rational Animations, as we already did for a few articles in The Sequences.  \n  \nThe same invitation extends to every AI Safety organization.  \n  \nEDIT: Also, let me know if more of MIRI's staff would like to join that server, since it seems like what you're trying to achieve with comms overlaps with what we're trying to do. That server basically serves as central point of organization for all the work happening at Rational Animations.",
+      "plaintextDescription": "> I (Gretta) will be leading the communications team at MIRI, working with Rob Bensinger, Colm Ó Riain, Nate, Eliezer, and other staff to create succinct, effective ways of explaining the extreme risks posed by smarter-than-human AI and what we think should be done about this problem. \n\nI just sent an invite to Eliezer to Rational Animations' private Discord server so that he can dump some thoughts on Rational Animations' writers. It's something we decided to do when we met at Manifest. The idea is that we could distill his infodumps into something succinct to be animated.\n\nThat said, if in the future you have from the outset some succinct and optimized material you think we could help spread to a wide audience and/or would benefit from being animated, we can likely turn your writings into animations on Rational Animations, as we already did for a few articles in The Sequences.\n\nThe same invitation extends to every AI Safety organization.\n\nEDIT: Also, let me know if more of MIRI's staff would like to join that server, since it seems like what you're trying to achieve with comms overlaps with what we're trying to do. That server basically serves as central point of organization for all the work happening at Rational Animations."
+    },
+    "baseScore": 19,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2023-10-11T12:40:17.821Z",
+    "af": false
+  },
+  {
+    "_id": "TLxWfAcrojuvTuwYE",
+    "postId": "i5kijcjFJD6bn7dwq",
+    "parentCommentId": "qyiLAQwbqWxJAGjvc",
+    "topLevelCommentId": "qyiLAQwbqWxJAGjvc",
+    "contents": {
+      "markdown": "I don't speak for Matthew, but I'd like to respond to some points. My reading of his post is the same as yours, but I don't fully agree with what you wrote as a response.\n\n> If you find something that looks to you like a solution to outer alignment / value specification, but it doesn't help make an AI care about human values, then you're probably mistaken about what actual problem the term 'value specification' is pointing at.  \n>   \n> \\[...\\]  \n>   \n> It was always possible to attempt to solve the value specification problem by just pointing at a human. The fact that we can now also point at an LLM and get a result that's not all that much worse than pointing at a human is not cause for an update about how hard value specification is\n\nMy objection to this is that if an LLM can substitute for a human, it could train the AI system we're trying to align much faster and for much longer. This could make all the difference.\n\n> If you could come up with a simple action-value function Q(observation, action), that when maximized over actions yields a good outcome for humans, then I think that would probably be helpful for alignment.\n\nI suspect (and I could be wrong) that Q(observation, action) is basically what Matthew claims GPT-N could *be*. A human who gives moral counsel can only say so much and, therefore, can give less information to the model we're trying to align. An LLM wouldn't be as limited and could provide a *ton* of information about Q(observation, action), so we can, in practice, consider it as being our specification of Q(observation, action).   \n  \nEdit: another option is that GPT-N, for the same reason of not being limited by speed, could write out a pretty huge Q(observation, action) that would be good, unlike a human.",
+      "plaintextDescription": "I don't speak for Matthew, but I'd like to respond to some points. My reading of his post is the same as yours, but I don't fully agree with what you wrote as a response.\n\n> If you find something that looks to you like a solution to outer alignment / value specification, but it doesn't help make an AI care about human values, then you're probably mistaken about what actual problem the term 'value specification' is pointing at.\n> \n> [...]\n> \n> It was always possible to attempt to solve the value specification problem by just pointing at a human. The fact that we can now also point at an LLM and get a result that's not all that much worse than pointing at a human is not cause for an update about how hard value specification is\n\nMy objection to this is that if an LLM can substitute for a human, it could train the AI system we're trying to align much faster and for much longer. This could make all the difference.\n\n> If you could come up with a simple action-value function Q(observation, action), that when maximized over actions yields a good outcome for humans, then I think that would probably be helpful for alignment.\n\nI suspect (and I could be wrong) that Q(observation, action) is basically what Matthew claims GPT-N could be. A human who gives moral counsel can only say so much and, therefore, can give less information to the model we're trying to align. An LLM wouldn't be as limited and could provide a ton of information about Q(observation, action), so we can, in practice, consider it as being our specification of Q(observation, action). \n\nEdit: another option is that GPT-N, for the same reason of not being limited by speed, could write out a pretty huge Q(observation, action) that would be good, unlike a human."
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-10-06T18:33:39.517Z",
+    "af": false
+  },
+  {
+    "_id": "sQHLnmoSPBuSXhpN4",
+    "postId": "i5kijcjFJD6bn7dwq",
+    "parentCommentId": "dCaynWJ5r8rktNKWK",
+    "topLevelCommentId": "DTqTEwot983JAwFsc",
+    "contents": {
+      "markdown": "Keeping all this in mind, the actual crux of the post to me seems:\n\n> I claim that GPT-4 is already pretty good at extracting preferences from human data. If you talk to GPT-4 and ask it ethical questions, it will generally give you reasonable answers. It will also generally follow your intended directions, rather than what you literally said. Together, I think these facts indicate that GPT-4 is probably on a path towards an adequate solution to the value identification problem, where \"adequate\" means \"about as good as humans\". And to be clear, I don't mean that GPT-4 merely passively \"understands\" human values. I mean that asking GPT-4 to distinguish valuable and non-valuable outcomes works pretty well at approximating the human value function *in practice*, and this will become increasingly apparent in the near future as models get more capable and expand to more modalities.\n> \n> \\[8\\] If you disagree that AI systems in the near-future will be capable of distinguishing valuable from non-valuable outcomes about as reliably as humans, then I may be interested in operationalizing this prediction precisely, and betting against you. I don't think this is a very credible position to hold as of 2023, barring a pause that could slow down AI capabilities very soon.\n\nAbout it, MIRI-in-my-head would say: \"No. RLHF or similarly inadequate training techniques mean that GPT-N's answers would build a bad proxy value function\".      \n    \nAnd Matthew-in-my-head would say: \"But in practice, when I interrogate GPT-4 its answers are fine, and they will improve further as LLMs get better. So I don't see why future systems couldn't be used to construct a good value function, actually\".",
+      "plaintextDescription": "Keeping all this in mind, the actual crux of the post to me seems:\n\n> I claim that GPT-4 is already pretty good at extracting preferences from human data. If you talk to GPT-4 and ask it ethical questions, it will generally give you reasonable answers. It will also generally follow your intended directions, rather than what you literally said. Together, I think these facts indicate that GPT-4 is probably on a path towards an adequate solution to the value identification problem, where \"adequate\" means \"about as good as humans\". And to be clear, I don't mean that GPT-4 merely passively \"understands\" human values. I mean that asking GPT-4 to distinguish valuable and non-valuable outcomes works pretty well at approximating the human value function in practice, and this will become increasingly apparent in the near future as models get more capable and expand to more modalities.\n> \n> [8] If you disagree that AI systems in the near-future will be capable of distinguishing valuable from non-valuable outcomes about as reliably as humans, then I may be interested in operationalizing this prediction precisely, and betting against you. I don't think this is a very credible position to hold as of 2023, barring a pause that could slow down AI capabilities very soon.\n\nAbout it, MIRI-in-my-head would say: \"No. RLHF or similarly inadequate training techniques mean that GPT-N's answers would build a bad proxy value function\".    \n  \nAnd Matthew-in-my-head would say: \"But in practice, when I interrogate GPT-4 its answers are fine, and they will improve further as LLMs get better. So I don't see why future systems couldn't be used to construct a good value function, actually\"."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-10-06T16:40:51.458Z",
+    "af": false
+  },
+  {
+    "_id": "dCaynWJ5r8rktNKWK",
+    "postId": "i5kijcjFJD6bn7dwq",
+    "parentCommentId": "DTqTEwot983JAwFsc",
+    "topLevelCommentId": "DTqTEwot983JAwFsc",
+    "contents": {
+      "markdown": "I agree that MIRI's initial replies don't seem to address your points and seem to be straw-manning you. But there is one point they've made, which appears in some comments, that seems central to me. I could translate it in this way to more explicitly tie it to your post:  \n  \n\"Even if GPT-N can answer questions about whether outcomes are bad or good, thereby providing \"a value function\", that value function is still a proxy for human values since what the system is doing is still just relaying answers that would make humans give thumbs up or thumbs down.\"  \n  \nTo me, this seems like the strongest objection. You haven't solved the value specification problem if your value function is still a proxy that can be goodharted etc.\n\nIf you think about it in this way, then it seems like the specification problem gets moved to the procedure you use to finetune large language models to make them able to give answers about human values. If the training mechanism you use to \"lift\" human values out of LLM's predictive model is imperfect, then the answers you get won't be good enough to build a value function that we can trust.  \n  \nThat said, we have GPT-4 now, and with better subsequent alignment techniques, I'm not so sure we won't be able to get an actual good value function by querying some more advanced and better-aligned language model and then using it as a training signal for something more agentic. And yeah, at that point, we still have the inner alignment part to solve, granted that we solve the value function part, and I'm not sure we should be a lot more optimistic than before having considered all these arguments. Maybe somewhat, though, yeah.",
+      "plaintextDescription": "I agree that MIRI's initial replies don't seem to address your points and seem to be straw-manning you. But there is one point they've made, which appears in some comments, that seems central to me. I could translate it in this way to more explicitly tie it to your post:\n\n\"Even if GPT-N can answer questions about whether outcomes are bad or good, thereby providing \"a value function\", that value function is still a proxy for human values since what the system is doing is still just relaying answers that would make humans give thumbs up or thumbs down.\"\n\nTo me, this seems like the strongest objection. You haven't solved the value specification problem if your value function is still a proxy that can be goodharted etc.\n\nIf you think about it in this way, then it seems like the specification problem gets moved to the procedure you use to finetune large language models to make them able to give answers about human values. If the training mechanism you use to \"lift\" human values out of LLM's predictive model is imperfect, then the answers you get won't be good enough to build a value function that we can trust.\n\nThat said, we have GPT-4 now, and with better subsequent alignment techniques, I'm not so sure we won't be able to get an actual good value function by querying some more advanced and better-aligned language model and then using it as a training signal for something more agentic. And yeah, at that point, we still have the inner alignment part to solve, granted that we solve the value function part, and I'm not sure we should be a lot more optimistic than before having considered all these arguments. Maybe somewhat, though, yeah. \n "
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-10-06T14:18:02.519Z",
+    "af": false
+  },
+  {
+    "_id": "WpRxzNGHYZZxvGRmL",
+    "postId": "i5kijcjFJD6bn7dwq",
+    "parentCommentId": "tq7NyfQ9sivn7YSYo",
+    "topLevelCommentId": "tq7NyfQ9sivn7YSYo",
+    "contents": {
+      "markdown": "Eliezer, are you using the correct LW account? There's only a single comment under this one.",
+      "plaintextDescription": "Eliezer, are you using the correct LW account? There's only a single comment under this one."
+    },
+    "baseScore": 1,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-10-05T22:07:43.502Z",
+    "af": false
+  },
+  {
+    "_id": "7dwbEHFcJyy2npuBR",
+    "postId": "i5kijcjFJD6bn7dwq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Would it be fair to summarize this post as:  \n  \n1\\. It's easier to construct the shape of human values than MIRI thought. An almost good enough version of that shape is within RLHFed GPT-4, in its predictive model of text. (I use \"shape\" since it's Eliezer's terminology under this post.)  \n  \n2\\. It still seems hard to get that shape into some AI's values, which is something MIRI has always said.  \n  \nTherefore, the update for MIRI should be on point 1: constructing that shape is not as hard as they thought.",
+      "plaintextDescription": "Would it be fair to summarize this post as:\n\n1. It's easier to construct the shape of human values than MIRI thought. An almost good enough version of that shape is within RLHFed GPT-4, in its predictive model of text. (I use \"shape\" since it's Eliezer's terminology under this post.)\n\n2. It still seems hard to get that shape into some AI's values, which is something MIRI has always said.\n\nTherefore, the update for MIRI should be on point 1: constructing that shape is not as hard as they thought."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-10-05T22:05:54.896Z",
+    "af": false
+  },
+  {
+    "_id": "KBYqBF7THWD2gF2v6",
+    "postId": "63hx4EKS2PoCrFqmy",
+    "parentCommentId": "9tyJyG87xbJ6mxJXY",
+    "topLevelCommentId": "9tyJyG87xbJ6mxJXY",
+    "contents": {
+      "markdown": "Up until recently, with a big spreadsheet and guesses about these metrics:  \n\\- Expected impact  \n\\- Expected popularity  \n\\- Ease of adaptation (for external material)  \n  \nThe next few videos will still be chosen in this way, but we're drafting some documents to be more deliberate. In particular, we now have a list of topics to prioritize within AI Safety, especially because sometimes they build on each other.",
+      "plaintextDescription": "Up until recently, with a big spreadsheet and guesses about these metrics:\n- Expected impact\n- Expected popularity\n- Ease of adaptation (for external material)\n\nThe next few videos will still be chosen in this way, but we're drafting some documents to be more deliberate. In particular, we now have a list of topics to prioritize within AI Safety, especially because sometimes they build on each other."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-07-31T10:25:25.652Z",
+    "af": false
+  },
+  {
+    "_id": "zQ6TQcBAMMdv36jP2",
+    "postId": "63hx4EKS2PoCrFqmy",
+    "parentCommentId": "d43SNRWhBAkzBoyi2",
+    "topLevelCommentId": "d43SNRWhBAkzBoyi2",
+    "contents": {
+      "markdown": "Thank you for the heads-up about the Patreon page; I've corrected it!\n\nGiven that the logic puzzle is not *the point* of the story (i.e., you could understand the gist of what the story is trying to say without understanding the first logic puzzle), I've decided not to use more space to explain it. I think the video (just like the original article) should be watched one time all at once and then another time, but pausing multiple times and thinking about the logic.",
+      "plaintextDescription": "Thank you for the heads-up about the Patreon page; I've corrected it!\n\nGiven that the logic puzzle is not the point of the story (i.e., you could understand the gist of what the story is trying to say without understanding the first logic puzzle), I've decided not to use more space to explain it. I think the video (just like the original article) should be watched one time all at once and then another time, but pausing multiple times and thinking about the logic."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-07-31T10:22:33.602Z",
+    "af": false
+  },
+  {
+    "_id": "bBZoyS8DF7KcJJ7Bz",
+    "postId": "e2FQB5v5C7yMDPE8A",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is probably not the most efficient way for keeping up with new stuff, but [aisafety.info](https://aisafety.info/) is shaping up to be a good repository of alignment concepts.",
+      "plaintextDescription": "This is probably not the most efficient way for keeping up with new stuff, but aisafety.info is shaping up to be a good repository of alignment concepts."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-07T08:51:22.857Z",
+    "af": false
+  },
+  {
+    "_id": "5wSsMbdMTT3WGvPKp",
+    "postId": "TNsLdAZmSzMHTeaKf",
+    "parentCommentId": "uDXtMcvcyENDP7tkH",
+    "topLevelCommentId": "uDXtMcvcyENDP7tkH",
+    "contents": {
+      "markdown": "It will be a while before we run an experiment, and when I'd like to start one, I'll make another post and consult with you again. \n\nWhen/if we do one, it'll probably look like what [@the gears to ascension](https://www.lesswrong.com/users/the-gears-to-ascension?mention=user) proposed in their comment here: a pretty technical video that will likely get a smaller number of views than usual and filters for the kind of people we want on LessWrong. How I would advertise it could resemble the description of the market on Manifold linked in the post, but I'm going to run the details to you first.\n\n> LessWrong currently has about 2,000 logged-in users per day.  And to 20-100 new users each day (comparing the wide range including peaks recently).\n\nThis provides important context. 20-100 new accounts per day is a lot. At the moment, Manifold predicts that as a result of a strong call to action and 1M views, Rational Animations would be able to bring 679 new expected users. That would probably look like getting 300-400 more users in the first couple weeks the video is out and an additional 300-400 in the following few months. That's not a lot!\n\nAs a simplification, suppose the video gets 200k views during the first day. That would correspond to about 679/5 = 136 new expected users. Suppose on the second day we get 100k more views. That would be about 70 more users. Then suppose, simplifying, that the remaining 200k views are equally distributed over the remaining 12 days. That would correspond to merely 11 additional users per day.\n\n> Should LessWrong be providing intro material and answers? \\[...\\] So maybe. Maybe we should leaning into this as an opportunity even though it'll take work of both not letting it affect the site in bad ways (moderation, etc). and also possibly preparing better material for a broader audience.\n\nI would be happy to link such things if you produce them. For now, linking the AI Safety Fundamentals courses should achieve ~ the same results. Some of the readings can be found on LessWrong too so people may discover LW as a result too. That said, having something produced by LW probably improves the funnel.\n\n> To provide some insight: on the margin, more new users means more work for us. We process all first time posters/commenters manually, so there's a linear factor there, and of new users, some require follow-up and then moderation action. So currently, there's human cost in adding more people.\n\nDuly noted. Another interesting datum would be to know the fraction of new users that become active posters and how long they take to do that.",
+      "plaintextDescription": "It will be a while before we run an experiment, and when I'd like to start one, I'll make another post and consult with you again. \n\nWhen/if we do one, it'll probably look like what @the gears to ascension proposed in their comment here: a pretty technical video that will likely get a smaller number of views than usual and filters for the kind of people we want on LessWrong. How I would advertise it could resemble the description of the market on Manifold linked in the post, but I'm going to run the details to you first.\n\n> LessWrong currently has about 2,000 logged-in users per day.  And to 20-100 new users each day (comparing the wide range including peaks recently).\n\nThis provides important context. 20-100 new accounts per day is a lot. At the moment, Manifold predicts that as a result of a strong call to action and 1M views, Rational Animations would be able to bring 679 new expected users. That would probably look like getting 300-400 more users in the first couple weeks the video is out and an additional 300-400 in the following few months. That's not a lot!\n\nAs a simplification, suppose the video gets 200k views during the first day. That would correspond to about 679/5 = 136 new expected users. Suppose on the second day we get 100k more views. That would be about 70 more users. Then suppose, simplifying, that the remaining 200k views are equally distributed over the remaining 12 days. That would correspond to merely 11 additional users per day.\n\n> Should LessWrong be providing intro material and answers? [...] So maybe. Maybe we should leaning into this as an opportunity even though it'll take work of both not letting it affect the site in bad ways (moderation, etc). and also possibly preparing better material for a broader audience.\n\nI would be happy to link such things if you produce them. For now, linking the AI Safety Fundamentals courses should achieve ~ the same results. Some of the readings can be found on LessWrong too so people may discover LW as a "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-17T12:22:49.543Z",
+    "af": false
+  },
+  {
+    "_id": "9SZfBgAaHxxRdZTKG",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Rational Animations has a subreddit: [https://www.reddit.com/r/RationalAnimations/](https://www.reddit.com/r/RationalAnimations/)\n\nI hadn't advertised it until now because I had to find someone to help moderate it. \n\nI want people here to be among the first to join since I expect having LessWrong users early on would help foster a good epistemic culture.",
+      "plaintextDescription": "Rational Animations has a subreddit: https://www.reddit.com/r/RationalAnimations/\n\nI hadn't advertised it until now because I had to find someone to help moderate it. \n\nI want people here to be among the first to join since I expect having LessWrong users early on would help foster a good epistemic culture."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-06-07T14:50:36.933Z",
+    "af": false
+  },
+  {
+    "_id": "QWKCcfCcJ6tCPRgmz",
+    "postId": "qcbgxzFthiLRJsupb",
+    "parentCommentId": "hGFjT99Crt22dtfsf",
+    "topLevelCommentId": "hGFjT99Crt22dtfsf",
+    "contents": {
+      "markdown": "The answer must be \"yes\", since it's mentioned in the post",
+      "plaintextDescription": "The answer must be \"yes\", since it's mentioned in the post"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-05-30T19:01:31.712Z",
+    "af": false
+  },
+  {
+    "_id": "SE9ym5b9QQLD6icnF",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": "bw2TH3do7ga9nWiHs",
+    "topLevelCommentId": "L8pkNMZH2mZQkPxqX",
+    "contents": {
+      "markdown": "I was thinking about publishing the post to hear what users and mods think on the EA Forum too, since some videos would link to EA Forum posts, while others to LW posts. \n\nI agree that moderation is less strict on the EA Forum and that users would have a more welcoming experience. On the other hand, the more stringent moderation on LessWrong makes me more optimistic about LessWrong being able to withstand a large influx of new users without degrading the culture. Recent changes by moderators, such as the [rejected content section](https://www.lesswrong.com/posts/PKGTKdRDneLA7bY54/new-rejected-content-section), make me more optimistic than I was [in the past](https://www.lesswrong.com/posts/yekoZcQQfuZYqk3Bj/introducing-rational-animations).",
+      "plaintextDescription": "I was thinking about publishing the post to hear what users and mods think on the EA Forum too, since some videos would link to EA Forum posts, while others to LW posts. \n\nI agree that moderation is less strict on the EA Forum and that users would have a more welcoming experience. On the other hand, the more stringent moderation on LessWrong makes me more optimistic about LessWrong being able to withstand a large influx of new users without degrading the culture. Recent changes by moderators, such as the rejected content section, make me more optimistic than I was in the past."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-04T15:50:24.812Z",
+    "af": false
+  },
+  {
+    "_id": "L8pkNMZH2mZQkPxqX",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm evaluating how much I should invite people from the channel to LessWrong, so I've made a market to gauge how many people would create a LessWrong account given some very aggressive publicity, so I can get a per-video upper bound. I'm not taking any unilateral action on things like that, and I'll make a LessWrong post to hear the opinions of users and mods here after I get more traders on this market.",
+      "plaintextDescription": "I'm evaluating how much I should invite people from the channel to LessWrong, so I've made a market to gauge how many people would create a LessWrong account given some very aggressive publicity, so I can get a per-video upper bound. I'm not taking any unilateral action on things like that, and I'll make a LessWrong post to hear the opinions of users and mods here after I get more traders on this market. \n\n"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-04T10:29:58.964Z",
+    "af": false
+  },
+  {
+    "_id": "vn7hSeRgHJahsimmb",
+    "postId": "kXiAGRWFquXFMi68Y",
+    "parentCommentId": "ePXCoGzYCTD4QgcPA",
+    "topLevelCommentId": "JCmtqksvkQtqJKDNF",
+    "contents": {
+      "markdown": "\"April fool! It was not an April fool!\"",
+      "plaintextDescription": "\"April fool! It was not an April fool!\""
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-04-01T14:26:39.356Z",
+    "af": false
+  },
+  {
+    "_id": "AkEhjJ8bpq6W4KNtn",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Here's a perhaps dangerous plan to save the world**:\n\n1\\. Have a very powerful LLM, or a more general AI in the [simulators](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) class. Make sure that we don't go extinct during its training (eg., some agentic simulacrum takes over during training somehow. I'm not sure if this is possible, but I figured I'd mention it anyway).\n\n2\\. Find a way to systematically remove the associated [waluigis](https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post) in the superpostion caused by prompting a generic LLM (or simulator) to simulate a benevolent, aligned, and agentic character.\n\n3\\. Elicit this agentic benevolent simulacrum in the super-powerful LLM and apply the technique to remove waluigis. The simulacrum must have strong agentic properties to be able to perform a pivotal act. It will eg., generate actions according to an aligned goal and its promps might be translations of sensorial input streams. Give this simulacrum-agent ways to easily act in the world, just in case.\n\n**And here's a story**:\n\nHumanity manages to apply the plan above, but there's a catch. They can't find a way to eliminate waluigis definitely from the superposition, only a way to make them decidedly unlikely, and more and more unlikely with each prompt. Perhaps in a way that the probability of the benevolent god turning into a waluigi falls over time, perhaps converging to a relatively small number (eg., 0.1) over an infinite amount of time.\n\nBut there's a complication: the are different kinds of possible waluigis. Some of them cause extinction, but most of them invert the sign of the actions of the benevolent god-simulacrum, causing S-risk.\n\nA shadowy sect of priests called \"negU\" finds a theoretical way to reliably elicit extinction-causing waluigis, and tries to do so. The heroes uncover their plan to destroy humanity, and ultimately win. But they realize the shadowy priests have a point and in a flash of ultimate insight the hero realizes how to collapse all waluigis to an amplitude of 0. The end. \\[Ok, I admit this ending with the flash of insight sucks but I'm just trying to illustrate some points here\\].  \n  \n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-  \n  \nI'm interested in comments. Does the plan fail in obvious ways? Are some elements in the story plausible enough?",
+      "plaintextDescription": "Here's a perhaps dangerous plan to save the world:\n\n1. Have a very powerful LLM, or a more general AI in the simulators class. Make sure that we don't go extinct during its training (eg., some agentic simulacrum takes over during training somehow. I'm not sure if this is possible, but I figured I'd mention it anyway).\n\n2. Find a way to systematically remove the associated waluigis in the superpostion caused by prompting a generic LLM (or simulator) to simulate a benevolent, aligned, and agentic character.\n\n3. Elicit this agentic benevolent simulacrum in the super-powerful LLM and apply the technique to remove waluigis. The simulacrum must have strong agentic properties to be able to perform a pivotal act. It will eg., generate actions according to an aligned goal and its promps might be translations of sensorial input streams. Give this simulacrum-agent ways to easily act in the world, just in case.\n\nAnd here's a story:\n\nHumanity manages to apply the plan above, but there's a catch. They can't find a way to eliminate waluigis definitely from the superposition, only a way to make them decidedly unlikely, and more and more unlikely with each prompt. Perhaps in a way that the probability of the benevolent god turning into a waluigi falls over time, perhaps converging to a relatively small number (eg., 0.1) over an infinite amount of time.\n\nBut there's a complication: the are different kinds of possible waluigis. Some of them cause extinction, but most of them invert the sign of the actions of the benevolent god-simulacrum, causing S-risk.\n\nA shadowy sect of priests called \"negU\" finds a theoretical way to reliably elicit extinction-causing waluigis, and tries to do so. The heroes uncover their plan to destroy humanity, and ultimately win. But they realize the shadowy priests have a point and in a flash of ultimate insight the hero realizes how to collapse all waluigis to an amplitude of 0. The end. [Ok, I admit this ending with the flash of insight sucks but I'm just t"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-26T15:46:23.868Z",
+    "af": false
+  },
+  {
+    "_id": "fKjNQpw3LyLCSDsRh",
+    "postId": "pckLdSgYWJ38NBFf8",
+    "parentCommentId": "rPipJmFfpgFKGfuv5",
+    "topLevelCommentId": "LSgvivkmzCdqfHsXJ",
+    "contents": {
+      "markdown": "I'm not sure if I'm missing something. This is first try after reading your comment: \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/908e33824afd2372e753e9958bcd31b307cd3c107d22f58f.png)",
+      "plaintextDescription": "I'm not sure if I'm missing something. This is first try after reading your comment: \n\n"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-24T08:48:21.947Z",
+    "af": false
+  },
+  {
+    "_id": "maF3uZnZszWfZsuSp",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": "Cfj2yARf2LdkpKze3",
+    "topLevelCommentId": "Cfj2yARf2LdkpKze3",
+    "contents": {
+      "markdown": "Unsurprisingly, Eliezer is better at it: [https://twitter.com/ESYudkowsky/status/1638092609691488258](https://twitter.com/ESYudkowsky/status/1638092609691488258)\n\nStill a bit dismissive, but he took the opportunity to reply to a precise object-level comment with another precise object-level comment.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/2c4a9d89a3f8827b5a9aa32c42078a20f1733402cd8208ec.png)",
+      "plaintextDescription": "Unsurprisingly, Eliezer is better at it: https://twitter.com/ESYudkowsky/status/1638092609691488258\n\nStill a bit dismissive, but he took the opportunity to reply to a precise object-level comment with another precise object-level comment."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-21T08:25:53.894Z",
+    "af": false
+  },
+  {
+    "_id": "Cfj2yARf2LdkpKze3",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I seriously doubt comments like these are making the situation better ([https://twitter.com/Liv_Boeree/status/1637902478472630275](https://twitter.com/Liv_Boeree/status/1637902478472630275), [https://twitter.com/primalpoly/status/1637896523676811269](https://twitter.com/primalpoly/status/1637896523676811269))\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/7a5bbf3d0da0b61eea52c62aa5e309177f23aeea23da2b50.png)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e0d867fe0a7de62e9425a34f40e405e270ceb7a3b6f3d356.png)\n\nEdit: [on the other hand... ](https://twitter.com/tobyordoxford/status/1637899261051564032)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/8f840b3aff6fbffea4dde36a57a476c6890b2949749015a0.png)",
+      "plaintextDescription": "I seriously doubt comments like these are making the situation better (https://twitter.com/Liv_Boeree/status/1637902478472630275, https://twitter.com/primalpoly/status/1637896523676811269)\n\n \n\nEdit: on the other hand... "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-21T08:18:41.984Z",
+    "af": false
+  },
+  {
+    "_id": "fmJndHf5cPda8fwQx",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": "dnJmqeqa2ZHhmuyh3",
+    "topLevelCommentId": "dnJmqeqa2ZHhmuyh3",
+    "contents": {
+      "markdown": "Devastating and utter communication failure?",
+      "plaintextDescription": "Devastating and utter communication failure?"
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-20T21:31:34.812Z",
+    "af": false
+  },
+  {
+    "_id": "dnJmqeqa2ZHhmuyh3",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[Yann LeCun on Facebook](https://www.facebook.com/yann.lecun/posts/pfbid0XU2jnKqPP1m6p6rL4AayLDVVdqjVJ7MVMLzCsCrMYvuVubn8yALaPF6BD7oGgt5Nl):\n\n> I think that the magnitude of the AI alignment problem has been ridiculously overblown & our ability to solve it widely underestimated.\n> \n> I've been publicly called stupid before, but never as often as by the \"AI is a significant existential risk\" crowd.\n> \n> That's OK, I'm used to it.",
+      "plaintextDescription": "Yann LeCun on Facebook:\n\n> I think that the magnitude of the AI alignment problem has been ridiculously overblown & our ability to solve it widely underestimated.\n> \n> I've been publicly called stupid before, but never as often as by the \"AI is a significant existential risk\" crowd.\n> \n> That's OK, I'm used to it."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-20T21:29:01.405Z",
+    "af": false
+  },
+  {
+    "_id": "mbaTqaR4nEtoP4YX7",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post by Jeffrey Ladish was a pretty motivating read: [https://www.facebook.com/jeffladish/posts/pfbid02wV7ZNLLNEJyw5wokZCGv1eqan6XqCidnMTGj18mQYG1ZrnZ2zbrzH3nHLeNJPxo3l](https://www.facebook.com/jeffladish/posts/pfbid02wV7ZNLLNEJyw5wokZCGv1eqan6XqCidnMTGj18mQYG1ZrnZ2zbrzH3nHLeNJPxo3l)",
+      "plaintextDescription": "This post by Jeffrey Ladish was a pretty motivating read: https://www.facebook.com/jeffladish/posts/pfbid02wV7ZNLLNEJyw5wokZCGv1eqan6XqCidnMTGj18mQYG1ZrnZ2zbrzH3nHLeNJPxo3l"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-20T16:52:08.005Z",
+    "af": false
+  },
+  {
+    "_id": "gKGqbDtYeZJzGJsb3",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Would it be possible to use a huge model (e.g. an LLM) to interpret smaller networks, and output human-readable explanations? Is anyone working on something along these lines?\n\nI'm aware [Kayla Lewis](https://twitter.com/Estimatrix) is working on something similar (but not quite the same thing) on a small scale. In my understanding, from reading her tweets, she's using a network to predict the outputs of another network by reading its activations.",
+      "plaintextDescription": "Would it be possible to use a huge model (e.g. an LLM) to interpret smaller networks, and output human-readable explanations? Is anyone working on something along these lines?\n\nI'm aware Kayla Lewis is working on something similar (but not quite the same thing) on a small scale. In my understanding, from reading her tweets, she's using a network to predict the outputs of another network by reading its activations."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-20T10:37:34.553Z",
+    "af": false
+  },
+  {
+    "_id": "PCbi593YQWfKojwut",
+    "postId": "pckLdSgYWJ38NBFf8",
+    "parentCommentId": "mHJKCikRmMaPBDzpx",
+    "topLevelCommentId": "6HpBP4j7Sow2Pfrv6",
+    "contents": {
+      "markdown": "Roughly 1/3 of the tests but yeah, that's why I'm confused. Looks weird enough.",
+      "plaintextDescription": "Roughly 1/3 of the tests but yeah, that's why I'm confused. Looks weird enough."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-15T11:05:01.669Z",
+    "af": false
+  },
+  {
+    "_id": "qdewufwTW2yY48Gpd",
+    "postId": "pckLdSgYWJ38NBFf8",
+    "parentCommentId": "nJNAWLHM4mD7W9XPh",
+    "topLevelCommentId": "6HpBP4j7Sow2Pfrv6",
+    "contents": {
+      "markdown": "It would be weird to include them if they didn't run those tests. My read was that the green bars are the same height as the blue bars, so they are hidden behind.",
+      "plaintextDescription": "It would be weird to include them if they didn't run those tests. My read was that the green bars are the same height as the blue bars, so they are hidden behind."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-03-15T10:49:26.318Z",
+    "af": false
+  },
+  {
+    "_id": "Kj2PYjXBN29Zx6KZo",
+    "postId": "pckLdSgYWJ38NBFf8",
+    "parentCommentId": "cyFSwggEjgkixdAaY",
+    "topLevelCommentId": "LSgvivkmzCdqfHsXJ",
+    "contents": {
+      "markdown": "Bing Chat set on Precise solves the [Monty Fall Problem](https://manifold.markets/MatthewBarnett/will-gpt4-get-the-monty-fall-proble) first try, while Chat GPT (4) does not even after many tries.",
+      "plaintextDescription": "Bing Chat set on Precise solves the Monty Fall Problem first try, while Chat GPT (4) does not even after many tries. "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-15T07:51:21.956Z",
+    "af": false
+  },
+  {
+    "_id": "6HpBP4j7Sow2Pfrv6",
+    "postId": "pckLdSgYWJ38NBFf8",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Why doesn't it improve on AP English Literature and AP English Language?\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/8f0e301a91751e6206a1780a98318cf39532c142a6d13f6a.jpg)",
+      "plaintextDescription": "Why doesn't it improve on AP English Literature and AP English Language?"
+    },
+    "baseScore": 37,
+    "voteCount": 22,
+    "createdAt": null,
+    "postedAt": "2023-03-14T19:57:54.010Z",
+    "af": false
+  },
+  {
+    "_id": "NHMmcKcCRuGa579rW",
+    "postId": "9JhhZNeykXvv3WsaR",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Of all the videos we've done, this one elicits, by far, the strongest emotional reaction in me. Part of it is due to the essay. I found it invigorating when I first read it, but then the thought of an alien intelligence taking apart our planet, almost as inevitable as a law of physics, haunted me for a good while. Part of it is also the animation and visuals. The colors are intense, and the scenes are sometimes unsettling and violent, but still beautiful. Nature, but softened.",
+      "plaintextDescription": "Of all the videos we've done, this one elicits, by far, the strongest emotional reaction in me. Part of it is due to the essay. I found it invigorating when I first read it, but then the thought of an alien intelligence taking apart our planet, almost as inevitable as a law of physics, haunted me for a good while. Part of it is also the animation and visuals. The colors are intense, and the scenes are sometimes unsettling and violent, but still beautiful. Nature, but softened."
+    },
+    "baseScore": 10,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-03-11T17:18:33.858Z",
+    "af": false
+  },
+  {
+    "_id": "hCRqZKTLmdqNkCq25",
+    "postId": "FjjYGCNXEhhcirp36",
+    "parentCommentId": "wgcnSK27sn46Yv3Fs",
+    "topLevelCommentId": "wgcnSK27sn46Yv3Fs",
+    "contents": {
+      "markdown": "GPT-powered spambot?",
+      "plaintextDescription": "GPT-powered spambot?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-07T14:12:11.741Z",
+    "af": false
+  },
+  {
+    "_id": "isAAhwa24GxwjTop8",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm not sure how surprising this should actually be, but I find it of note that LessWrong remains still relatively insular despite being in the information diet of apparently many famous people and online personalities.",
+      "plaintextDescription": "I'm not sure how surprising this should actually be, but I find it of note that LessWrong remains still relatively insular despite being in the information diet of apparently many famous people and online personalities."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-05T22:51:53.557Z",
+    "af": false
+  },
+  {
+    "_id": "4czMfgZFeRwFggDoa",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": "c5YsrxMjdereH7njp",
+    "topLevelCommentId": "c5YsrxMjdereH7njp",
+    "contents": {
+      "markdown": "AGI ¬Doom",
+      "plaintextDescription": "AGI ¬Doom"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-05T20:24:11.822Z",
+    "af": false
+  },
+  {
+    "_id": "5ui4MZdrhpB3mnLMC",
+    "postId": "CvfZrrEokjCu3XHXp",
+    "parentCommentId": "EDi3b8fyNPagDxeJk",
+    "topLevelCommentId": "EDi3b8fyNPagDxeJk",
+    "contents": {
+      "markdown": "Note that [in a later Tweet](https://twitter.com/catehall/status/1630269074352779264) she said she was psychotic at the time  \n  \nEdit: and also in [this one](https://twitter.com/catehall/status/1630076018492080130).",
+      "plaintextDescription": "Note that in a later Tweet she said she was psychotic at the time\n\nEdit: and also in this one."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-03-01T14:04:17.386Z",
+    "af": false
+  },
+  {
+    "_id": "BzfNPQbierJdDAkpb",
+    "postId": "WkchhorbLsSMbLacZ",
+    "parentCommentId": "iQaqa4Sd9ACzmy7kH",
+    "topLevelCommentId": "iRLJfe3dGcztM8397",
+    "contents": {
+      "markdown": "I'm not sure if I'm in agreement with him, but it's worth noting that Eliezer has stated on the podcast that he thinks that some (a good number of?) alien civilizations could develop AGI without going extinct. My understanding of his argument is that alien civilizations would be sufficiently biologically different from us to have ways around the problem that we do not possess.  \n  \nFrom skimming [this post](https://www.lesswrong.com/posts/HoQ5Rp7Gs6rebusNP/superintelligent-ai-is-necessary-for-an-amazing-future-but-1) it seems to me that this is probably also what [@So8res](https://www.lesswrong.com/users/so8res?mention=user) thinks.",
+      "plaintextDescription": "I'm not sure if I'm in agreement with him, but it's worth noting that Eliezer has stated on the podcast that he thinks that some (a good number of?) alien civilizations could develop AGI without going extinct. My understanding of his argument is that alien civilizations would be sufficiently biologically different from us to have ways around the problem that we do not possess.\n\nFrom skimming this post it seems to me that this is probably also what @So8res thinks."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-02-23T13:51:57.791Z",
+    "af": false
+  },
+  {
+    "_id": "duSLt9wXt8FEF4bgW",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": "Jgch3cjkk6CdpRBbL",
+    "topLevelCommentId": "Jgch3cjkk6CdpRBbL",
+    "contents": {
+      "markdown": "I'm not sure, but an interesting operationalization could be \"the simulators frame is correct enough that general intelligences can be simulated by LLMs\".  \n  \n(I decided to write this as reply rather than in the parent comment, because I don't want this to define my question above, since people might disagree about the right way to operationalize it)",
+      "plaintextDescription": "I'm not sure, but an interesting operationalization could be \"the simulators frame is correct enough that general intelligences can be simulated by LLMs\".\n\n(I decided to write this as reply rather than in the parent comment, because I don't want this to define my question above, since people might disagree about the right way to operationalize it)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-21T22:02:09.292Z",
+    "af": false
+  },
+  {
+    "_id": "Jgch3cjkk6CdpRBbL",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is the [Simulators](https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators) frame essentially correct?   \n  \nAgreevote to say \"Yes\".  \n  \nDisagreevote to say \"No\".",
+      "plaintextDescription": "Is the Simulators frame essentially correct? \n\nAgreevote to say \"Yes\".\n\nDisagreevote to say \"No\"."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-21T21:58:07.737Z",
+    "af": false
+  },
+  {
+    "_id": "Jk4X5LKpNDif9BDoi",
+    "postId": "WkchhorbLsSMbLacZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post was published shortly before Elon Musk responded to the podcast that featured Eliezer, and Eliezer also replied to Elon Musk's response. You can find Elon Musk's tweet at: [https://twitter.com/elonmusk/status/1628086895686168613](https://twitter.com/elonmusk/status/1628086895686168613)  \n  \nAlso, there's a follow-up to the podcast, still featuring Eliezer, here: [https://twitter.com/i/spaces/1PlJQpZogzVGE](https://twitter.com/i/spaces/1PlJQpZogzVGE)  \n  \nEDIT to update: Elon Musk is no longer following Eliezer Yudkowsky: [https://twitter.com/BigTechAlert/status/1628389659649736707](https://twitter.com/BigTechAlert/status/1628389659649736707)  \n  \nEDIT 2: Lex Fridman tweets \"I'd love to talk to [@ESYudkowsky](https://twitter.com/ESYudkowsky). I think it'll be a great conversation!\" [https://twitter.com/lexfridman/status/1620251244463022081](https://twitter.com/lexfridman/status/1620251244463022081)  \n   \nEDIT 3: Sam Altman posts a selfie with Eliezer and Grimes: [https://twitter.com/sama/status/1628974165335379973](https://twitter.com/sama/status/1628974165335379973)  \n  \nEDIT 4:   \n  \nElon Musk: \"Having a bit of AI Existential angst today\" [https://twitter.com/elonmusk/status/1629901954234105857](https://twitter.com/elonmusk/status/1629901954234105857)   \n  \nEliezer Yudkowsky replies ([https://twitter.com/ESYudkowsky/status/1629932013712187395](https://twitter.com/ESYudkowsky/status/1629932013712187395)): \"Remember that many things you could do to relieve your angst are actively counterproductive! Don't give into the fallacy of \"needing to do something\" even if that makes things worse! Prove the prediction markets wrong about you!\" \n\n  \nEDIT 5: From [this](https://www.reuters.com/business/autos-transportation/musk-ai-stresses-me-out-2023-03-02/) Reuters article. Elon Musk: \"I'm a little worried about the AI stuff \\[...\\] We need some kind of, like, regulatory authority or something overseeing AI development \\[...\\] make sure it's operating in the public interest. It's quite dangerous technology. I fear I may have done some things to accelerate it.\"  \n  \nEDIT 6: Eliezer: \"I should probably try another podcast \\[...\\] YES FINE I'LL INQUIRE OF LEX FRIDMAN\" [https://twitter.com/ESYudkowsky/status/1632140761679675392](https://twitter.com/ESYudkowsky/status/1632140761679675392)  \n  \nEDIT 7: Elon Musk: \"In my case, I guess it would be the Luigi effect\": [https://twitter.com/elonmusk/status/1632487656742420483](https://twitter.com/elonmusk/status/1632487656742420483)\n\nEDIT 8: Another exchange between Elon Musk and Eliezer: [https://twitter.com/elonmusk/status/1637176761220833281](https://twitter.com/elonmusk/status/1637176761220833281)  \n  \nEDIT 9: Elon Musk tweets: \"Maximum truth-seeking is my best guess for AI safety\": [https://twitter.com/elonmusk/status/1637371603561398276](https://twitter.com/elonmusk/status/1637371603561398276)\n\nEdit 10: Yan LeCunn on Twitter:\n\n> I think that the magnitude of the AI alignment problem has been ridiculously overblown & our ability to solve it widely underestimated. I've been publicly called stupid before, but never as often as by the \"AI is a significant existential risk\" crowd. That's OK, I'm used to it.\n\n [https://twitter.com/ylecun/status/1637883960578682883](https://twitter.com/ylecun/status/1637883960578682883)",
+      "plaintextDescription": "This post was published shortly before Elon Musk responded to the podcast that featured Eliezer, and Eliezer also replied to Elon Musk's response. You can find Elon Musk's tweet at: https://twitter.com/elonmusk/status/1628086895686168613\n\nAlso, there's a follow-up to the podcast, still featuring Eliezer, here: https://twitter.com/i/spaces/1PlJQpZogzVGE\n\nEDIT to update: Elon Musk is no longer following Eliezer Yudkowsky: https://twitter.com/BigTechAlert/status/1628389659649736707\n\nEDIT 2: Lex Fridman tweets \"I'd love to talk to @ESYudkowsky. I think it'll be a great conversation!\" https://twitter.com/lexfridman/status/1620251244463022081\n \nEDIT 3: Sam Altman posts a selfie with Eliezer and Grimes: https://twitter.com/sama/status/1628974165335379973\n\nEDIT 4: \n\nElon Musk: \"Having a bit of AI Existential angst today\" https://twitter.com/elonmusk/status/1629901954234105857 \n\nEliezer Yudkowsky replies (https://twitter.com/ESYudkowsky/status/1629932013712187395): \"Remember that many things you could do to relieve your angst are actively counterproductive! Don't give into the fallacy of \"needing to do something\" even if that makes things worse! Prove the prediction markets wrong about you!\" \n\n\n\nEDIT 5: From this Reuters article. Elon Musk: \"I'm a little worried about the AI stuff [...] We need some kind of, like, regulatory authority or something overseeing AI development [...] make sure it's operating in the public interest. It's quite dangerous technology. I fear I may have done some things to accelerate it.\"\n\nEDIT 6: Eliezer: \"I should probably try another podcast [...] YES FINE I'LL INQUIRE OF LEX FRIDMAN\" https://twitter.com/ESYudkowsky/status/1632140761679675392\n\nEDIT 7: Elon Musk: \"In my case, I guess it would be the Luigi effect\": https://twitter.com/elonmusk/status/1632487656742420483\n\nEDIT 8: Another exchange between Elon Musk and Eliezer: https://twitter.com/elonmusk/status/1637176761220833281\n\nEDIT 9: Elon Musk tweets: \"Maximum truth-seeking is my best guess for"
+    },
+    "baseScore": 23,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2023-02-21T20:55:54.806Z",
+    "af": false
+  },
+  {
+    "_id": "EAE3DDJco9eEGgkkB",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've made [a poll](https://twitter.com/RationalAnimat1/status/1625838334105858054).   \n  \nI'm curious to hear thoughts on this topic.  \n  \n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/6d4ed07886601890e0bc7018f2646b388e597acd8050d9e7.png)",
+      "plaintextDescription": "I've made a poll. \n\nI'm curious to hear thoughts on this topic.\n\n"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-15T14:17:19.005Z",
+    "af": false
+  },
+  {
+    "_id": "Q44AxbEW8i6icHrHk",
+    "postId": "Fu7bqAyCMjfcMzBah",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I created a [market](https://manifold.markets/Writer/will-the-ea-forum-or-lesswrong-star?r=V3JpdGVy) on Manifold about whether the EA Forum or LW will start using EigenKarma by 2025.",
+      "plaintextDescription": "I created a market on Manifold about whether the EA Forum or LW will start using EigenKarma by 2025."
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-02-09T21:58:46.419Z",
+    "af": false
+  },
+  {
+    "_id": "c5YsrxMjdereH7njp",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What about \"AGI X-risk\" and \"AGI Doom\"?\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/0f4ef90a5cb24674aac52505d2627f04f10ebf6a2247f4f3.png)",
+      "plaintextDescription": "What about \"AGI X-risk\" and \"AGI Doom\"?"
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-09T11:06:15.155Z",
+    "af": false
+  },
+  {
+    "_id": "caDLMpuuuFLXTHAEA",
+    "postId": "Fu7bqAyCMjfcMzBah",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A guess: if LessWrong implemented this, onboarding lots of new users at once would be easier to do without ruining the culture for the people already here.",
+      "plaintextDescription": "A guess: if LessWrong implemented this, onboarding lots of new users at once would be easier to do without ruining the culture for the people already here. "
+    },
+    "baseScore": 24,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-02-08T21:33:48.921Z",
+    "af": false
+  },
+  {
+    "_id": "axCcAdHJ3WdKZ5oDc",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "After reading [this article](https://forum.effectivealtruism.org/posts/CcJsh4JcxEqYDaSte/spreading-messages-to-help-with-the-most-important-century) by Holden and [this tweet](https://twitter.com/sama/status/1621621724507938816) by Sam Altman I want even more to talk about the very cruxes of AI Alignment on Rational Animations. The video about the most important century, for example, is something we'll do less, and we're going straight to AI notkilleveryonism.",
+      "plaintextDescription": "After reading this article by Holden and this tweet by Sam Altman I want even more to talk about the very cruxes of AI Alignment on Rational Animations. The video about the most important century, for example, is something we'll do less, and we're going straight to AI notkilleveryonism."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-02-04T08:31:32.062Z",
+    "af": false
+  },
+  {
+    "_id": "Sb26JFYPE6ej4A5k3",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is infuriating somehow lol \n\n  \n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/9048ae6696af4a21ff00f4e95052c0f70fe0fc333073944e.png)",
+      "plaintextDescription": "This is infuriating somehow lol \n\n\n"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-01-14T21:18:49.839Z",
+    "af": false
+  },
+  {
+    "_id": "LtjYvZjTWKAXscZpp",
+    "postId": "karv3ZKdpr2nc5bLa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Should I pin this comment under the [Sorting Pebbles](https://youtu.be/cLXQnnVWJGo) video? \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/336ba714fc72c6abfd5a17f29cc9d34c7203cfefbbacca0a.png)\n\nIt's the most liked right now, but usually even the most liked comments lose visibility over time.   \n  \nUse agree/disagree votes to express whether you agree or disagree with pinning it.",
+      "plaintextDescription": "Should I pin this comment under the Sorting Pebbles video? \n\nIt's the most liked right now, but usually even the most liked comments lose visibility over time. \n\nUse agree/disagree votes to express whether you agree or disagree with pinning it."
+    },
+    "baseScore": 3,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-01-14T18:04:17.682Z",
+    "af": false
+  },
+  {
+    "_id": "ZiEhXGRwjHopmf4oL",
+    "postId": "cmWJTsfr3yyy3fkJN",
+    "parentCommentId": "JDZktFcCCnf98CzMG",
+    "topLevelCommentId": "JDZktFcCCnf98CzMG",
+    "contents": {
+      "markdown": "Prizes are still being given, yes! I'd be happy to evaluate a submission on this topic.",
+      "plaintextDescription": "Prizes are still being given, yes! I'd be happy to evaluate a submission on this topic."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-27T09:35:52.281Z",
+    "af": false
+  },
+  {
+    "_id": "zn8CKQhWrkZ4L6jvG",
+    "postId": "cmWJTsfr3yyy3fkJN",
+    "parentCommentId": "oiCoAYrnDFSWNJkka",
+    "topLevelCommentId": "oiCoAYrnDFSWNJkka",
+    "contents": {
+      "markdown": "For some reason I'm not surprised that you are suggesting the CFAR handbook... :')",
+      "plaintextDescription": "For some reason I'm not surprised that you are suggesting the CFAR handbook... :')"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-11-26T21:05:21.456Z",
+    "af": false
+  },
+  {
+    "_id": "Ky623n5GtCLGLiEpP",
+    "postId": "A33sgjYoM4Ko9viJv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you think it would be potentially good to implement the full \"Google Docs commenting mode\", which enables editing suggestions on articles? If implemented in published posts each Google-Docs-style-edit might be able to be voted by users, so the author has a better sense if to accept the edits or not. And of course, you should also be able to hide this feature. The posts would become more collaborative, even after being published.",
+      "plaintextDescription": "Do you think it would be potentially good to implement the full \"Google Docs commenting mode\", which enables editing suggestions on articles? If implemented in published posts each Google-Docs-style-edit might be able to be voted by users, so the author has a better sense if to accept the edits or not. And of course, you should also be able to hide this feature. The posts would become more collaborative, even after being published. "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-24T08:57:54.244Z",
+    "af": false
+  },
+  {
+    "_id": "cZPxMn3F4vsk8Kwz3",
+    "postId": "A33sgjYoM4Ko9viJv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I really like that you're adding this feature. Together with other features like agreement votes, LessWrong is making truth-seeking easier and easier, diverging from what I'm used to in good ways. Thanks for your work :)",
+      "plaintextDescription": "I really like that you're adding this feature. Together with other features like agreement votes, LessWrong is making truth-seeking easier and easier, diverging from what I'm used to in good ways. Thanks for your work :)\n "
+    },
+    "baseScore": 1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-24T08:54:04.993Z",
+    "af": false
+  },
+  {
+    "_id": "Lvw8PxhCDzeJ7fK7T",
+    "postId": "yhCkaocWYkdX3i9AG",
+    "parentCommentId": "LxzPdLyhXLoqKerXZ",
+    "topLevelCommentId": "LxzPdLyhXLoqKerXZ",
+    "contents": {
+      "markdown": "Just added the link. Somehow I forgot to add it. You couldn't access the EA Forum version because Matthew had to approve co-authorship, probably.",
+      "plaintextDescription": "Just added the link. Somehow I forgot to add it. You couldn't access the EA Forum version because Matthew had to approve co-authorship, probably."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-07-25T04:37:21.872Z",
+    "af": false
+  },
+  {
+    "_id": "c6f2WBTchkkyQ2jjj",
+    "postId": "MizKtJcjktiQZez5j",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I tried to convey a similar sentiment [here](https://youtu.be/xA27x7GRMZQ), in the pinned comment: \n\n> Many people say that it's impossible to predict the future. And yet predictions are at the core of science. If a belief says something about the world, then it makes predictions. The more accurate your models are, the better your predictions will be. Under this view, everyone can do magic. Your models of the world are your clairvoyance powers. Your actions, informed by your models, are your spells. The better your predictions are, the more powerful your spells.",
+      "plaintextDescription": "I tried to convey a similar sentiment here, in the pinned comment: \n\n> Many people say that it's impossible to predict the future. And yet predictions are at the core of science. If a belief says something about the world, then it makes predictions. The more accurate your models are, the better your predictions will be. Under this view, everyone can do magic. Your models of the world are your clairvoyance powers. Your actions, informed by your models, are your spells. The better your predictions are, the more powerful your spells."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-05-25T16:26:58.025Z",
+    "af": false
+  },
+  {
+    "_id": "jaiSeSZA7haZsagkG",
+    "postId": "SA9hDewwsYgnuscae",
+    "parentCommentId": "JiKKnhdqKzKFuDq3y",
+    "topLevelCommentId": "JiKKnhdqKzKFuDq3y",
+    "contents": {
+      "markdown": "One way to preserve the pictures and the general format while making the story more easily readable is simply converting the books into PDF. At least you could read them on a tablet, which is easier and less distracting than PCs. Tablets' screens are also much better for reading than PC monitors, even if they aren't as good as Kindles. It would be a good compromise, I think.",
+      "plaintextDescription": "One way to preserve the pictures and the general format while making the story more easily readable is simply converting the books into PDF. At least you could read them on a tablet, which is easier and less distracting than PCs. Tablets' screens are also much better for reading than PC monitors, even if they aren't as good as Kindles. It would be a good compromise, I think."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-05-12T10:25:35.355Z",
+    "af": false
+  },
+  {
+    "_id": "rNTrb5zNtEKBpftkF",
+    "postId": "RrG8F9SsfpEk9P8yi",
+    "parentCommentId": "GQuQMpWALxNqz9rvZ",
+    "topLevelCommentId": "GQuQMpWALxNqz9rvZ",
+    "contents": {
+      "markdown": "Congrats on finally finishing it!!",
+      "plaintextDescription": "Congrats on finally finishing it!!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-04-24T10:28:24.047Z",
+    "af": false
+  },
+  {
+    "_id": "zE6xghWDcr9RKvtot",
+    "postId": "RrG8F9SsfpEk9P8yi",
+    "parentCommentId": "8M38DNQJttbrNha3j",
+    "topLevelCommentId": "8M38DNQJttbrNha3j",
+    "contents": {
+      "markdown": "Robin Hanson, you know nothing about Robin Hanson. You first wrote the paper in 1996 and then last updated it in 1998.  \n  \n... or so says [Wikipedia](https://en.wikipedia.org/wiki/Great_Filter), that's why I wrote 1996. I just made this clear in the video description anyway, tell me if Wikipedia got this wrong.   \n  \nBtw, views have nicely snowballed from your endorsement on Twitter, so thanks *a lot* for it.",
+      "plaintextDescription": "Robin Hanson, you know nothing about Robin Hanson. You first wrote the paper in 1996 and then last updated it in 1998.\n\n... or so says Wikipedia, that's why I wrote 1996. I just made this clear in the video description anyway, tell me if Wikipedia got this wrong. \n\nBtw, views have nicely snowballed from your endorsement on Twitter, so thanks a lot for it."
+    },
+    "baseScore": 9,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2021-09-23T22:39:12.007Z",
+    "af": false
+  },
+  {
+    "_id": "LANFMpNDbcRTvZkwm",
+    "postId": "RrG8F9SsfpEk9P8yi",
+    "parentCommentId": "DXitMGAKaMLwB4cBp",
+    "topLevelCommentId": "DXitMGAKaMLwB4cBp",
+    "contents": {
+      "markdown": "> The only way to explain that is some hypothesis where he's not actually that early amongst the total humans to ever exist which means we turn out not to be \"grabby\".\n\nYou've rediscovered the [doomsday argument](https://en.wikipedia.org/wiki/Doomsday_argument)! Fun fact: According to Wikipedia, this argument was first formally proposed by [Brandon Carter](https://en.wikipedia.org/wiki/Brandon_Carter), the author of the hard-steps model. He has also given name to the anthropic principle.  \n  \nEdit: note that us not becoming grabby doesn't contradict the model. There's a chance that we will not. Plus, the model tells us that hearing alien messages or discovering alien ruins would be terrible news in that regard. I'll explain the reason in the next part.",
+      "plaintextDescription": "> The only way to explain that is some hypothesis where he's not actually that early amongst the total humans to ever exist which means we turn out not to be \"grabby\".\n\nYou've rediscovered the doomsday argument! Fun fact: According to Wikipedia, this argument was first formally proposed by Brandon Carter, the author of the hard-steps model. He has also given name to the anthropic principle.\n\nEdit: note that us not becoming grabby doesn't contradict the model. There's a chance that we will not. Plus, the model tells us that hearing alien messages or discovering alien ruins would be terrible news in that regard. I'll explain the reason in the next part."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-09-22T22:01:22.835Z",
+    "af": false
+  },
+  {
+    "_id": "nzeAaxpkw4ZLQ3DNq",
+    "postId": "rcNzvW257YPFGobfD",
+    "parentCommentId": "vXrBZpDQm8YPiixkP",
+    "topLevelCommentId": "vXrBZpDQm8YPiixkP",
+    "contents": {
+      "markdown": "Sensory organs are just a necessary part of what would be needed to get a new kind of sensory experience that correlates with something in the outside world. Otherwise, if you don't care about the outside, they shouldn't be necessary.  \n  \nBut I don't understand 90% of your comment. Seriously confused about what this means:\n\n> When I for example feel where the feet of my dance partner happen to be it doesn't feel like there's a new sensory organ. The same goes for other cases where information that's someone in my brain gets integrated in what I perceive.",
+      "plaintextDescription": "Sensory organs are just a necessary part of what would be needed to get a new kind of sensory experience that correlates with something in the outside world. Otherwise, if you don't care about the outside, they shouldn't be necessary.\n\nBut I don't understand 90% of your comment. Seriously confused about what this means:\n\n> When I for example feel where the feet of my dance partner happen to be it doesn't feel like there's a new sensory organ. The same goes for other cases where information that's someone in my brain gets integrated in what I perceive."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-09-03T12:22:47.455Z",
+    "af": false
+  },
+  {
+    "_id": "46GQeZtt6MncDCd7o",
+    "postId": "dqahoD7nmcJ4KApdm",
+    "parentCommentId": "tNYBibuGBwwarZXPx",
+    "topLevelCommentId": "xgQcNdRLMGxWBqhZt",
+    "contents": {
+      "markdown": "Answering both of you: I agree that the topic is not as simple as it may seem. We may not like some things about future morality. I also think that if you hear large portions of the population screaming about something, then you're probably not dealing with a transparent monster, or even necessarily something very important.\n\nTransparent monsters at some point may become visible, and people will be loud about them. But the overwhelming majority of situations in which people are loud about something are not about transparent monsters.",
+      "plaintextDescription": "Answering both of you: I agree that the topic is not as simple as it may seem. We may not like some things about future morality. I also think that if you hear large portions of the population screaming about something, then you're probably not dealing with a transparent monster, or even necessarily something very important.\n\nTransparent monsters at some point may become visible, and people will be loud about them. But the overwhelming majority of situations in which people are loud about something are not about transparent monsters."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-08-15T13:42:43.609Z",
+    "af": false
+  },
+  {
+    "_id": "asw4aSyKFGeuRD5AY",
+    "postId": "FMJiBNcyRtuNviwvS",
+    "parentCommentId": "yMvrQTQ5F7DJFCfq3",
+    "topLevelCommentId": "yMvrQTQ5F7DJFCfq3",
+    "contents": {
+      "markdown": "Well, there was some love for the person affecting view at the end of the video. Note that one that ascribes to the totalist view might not only mourn every sperm but every potential worthwhile mind.",
+      "plaintextDescription": "Well, there was some love for the person affecting view at the end of the video. Note that one that ascribes to the totalist view might not only mourn every sperm but every potential worthwhile mind."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-06-22T07:05:40.524Z",
+    "af": false
+  },
+  {
+    "_id": "odGLhmHPKJDmWaWdu",
+    "postId": "nudApqTyL2bg5rENJ",
+    "parentCommentId": "xaQsedhB89PfdHMHu",
+    "topLevelCommentId": "xaQsedhB89PfdHMHu",
+    "contents": {
+      "markdown": "I think that cringe is probably a particular case of ugh fields. Good catch.",
+      "plaintextDescription": "I think that cringe is probably a particular case of ugh fields. Good catch."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-06-03T08:20:22.511Z",
+    "af": false
+  },
+  {
+    "_id": "xFsLLetPbF6tizgtt",
+    "postId": "nudApqTyL2bg5rENJ",
+    "parentCommentId": "8uF2JDfNBFh6kEemK",
+    "topLevelCommentId": "8uF2JDfNBFh6kEemK",
+    "contents": {
+      "markdown": "I've thought about your comment, and I think you are basically correct about everything, but my personal experience differs on how easy it is to actually hide the truths you know (either about yourself or the external world).\n\n> \"If you honestly seek truth, and if you decide to tell 100% of the truth you've found, and if you decide to tell 100% of the truth you've found to anyone you can, to become the leader of truth-tellers, to make telling the truth your reason for existence, to make Telling All Of The Truths your livelihood, then you will appear cringe to the eyes of most people\".\n\nFrom this paragraphs it seems like you make the case that you could say and do 90% of what you want to say and do and get away with it (remember that truth doesn't only influence what you say, but also what you *do*, and that might be very difficult to hide). In my experience it was more like 20%. I guess it varies depending on who you are and the social context you are in.\n\n> It seems likely to me that for most people, most of the time, a better ideal to aspire to is: you can honestly seek truth and yet decide to tell the truth judiciously, selectively (without a requirement of lies!) and thus appear non-cringeworthy to *most* people.  (Probably cringe to some small subset.)\n\nI feel like that this applies to those truths that are absolutely impossible to say without alienating everyone. In real life you can get away with everything else by just being confident (I believe this with more or less 70% probability). \n\n> I think your definition of \"reality\" conveniently excludes the society we are embedded within, but the society we are embedded within is perhaps the most important part of the reality we need to navigate and influence to meet our goals.\n\nI actually didn't want to define reality in this way. The distinction social reality vs. the rest of reality is useful in this context but clearly social reality is reality. I don't know if social reality is \"the most important part\" (for some people it surely is, I don't think it is for me), but it is definitely something that has value and factors in decisions. I may have been too extreme in my script and gave the wrong impression on a few points. My script wring skills have margin of improvement.\n\n> \"When *speaking* truth, you shouldn't worry about if the truths you are revealing will be laughed at.\"\n> \n> As described above I do not think this is absolutely true.\n> \n> You wouldn't be like a swordsman who keeps glancing away to see if anyone might be laughing at him, you'd be like a swordsman weighing which stance to take. And/or building the muscle memory to let the correct stances and moves to \"flow\". (Or something like that...I'm not a swordsman!)\n\nYou are definitely correct here. It is not *absolutely* true. I think I have made the mistake of generalizing my experience too much.",
+      "plaintextDescription": "I've thought about your comment, and I think you are basically correct about everything, but my personal experience differs on how easy it is to actually hide the truths you know (either about yourself or the external world).\n\n> \"If you honestly seek truth, and if you decide to tell 100% of the truth you've found, and if you decide to tell 100% of the truth you've found to anyone you can, to become the leader of truth-tellers, to make telling the truth your reason for existence, to make Telling All Of The Truths your livelihood, then you will appear cringe to the eyes of most people\".\n\nFrom this paragraphs it seems like you make the case that you could say and do 90% of what you want to say and do and get away with it (remember that truth doesn't only influence what you say, but also what you do, and that might be very difficult to hide). In my experience it was more like 20%. I guess it varies depending on who you are and the social context you are in.\n\n> It seems likely to me that for most people, most of the time, a better ideal to aspire to is: you can honestly seek truth and yet decide to tell the truth judiciously, selectively (without a requirement of lies!) and thus appear non-cringeworthy to most people.  (Probably cringe to some small subset.)\n\nI feel like that this applies to those truths that are absolutely impossible to say without alienating everyone. In real life you can get away with everything else by just being confident (I believe this with more or less 70% probability). \n\n> I think your definition of \"reality\" conveniently excludes the society we are embedded within, but the society we are embedded within is perhaps the most important part of the reality we need to navigate and influence to meet our goals.\n\nI actually didn't want to define reality in this way. The distinction social reality vs. the rest of reality is useful in this context but clearly social reality is reality. I don't know if social reality is \"the most important part\" (for some"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-06-03T07:59:38.583Z",
+    "af": false
+  },
+  {
+    "_id": "ptzyQ4JcwCMT4L5Fs",
+    "postId": "yekoZcQQfuZYqk3Bj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Err... the comments here and on the EA Forum seem neutral to positive. So why am I being downvoted so much? Is it the post or the channel? If it is the channel, I swear that better stuff is coming D: Maybe I should have just done a post *after* that stuff. Too bad I guess. I didn't expect this reception.",
+      "plaintextDescription": "Err... the comments here and on the EA Forum seem neutral to positive. So why am I being downvoted so much? Is it the post or the channel? If it is the channel, I swear that better stuff is coming D: Maybe I should have just done a post after that stuff. Too bad I guess. I didn't expect this reception."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-05-31T07:37:35.470Z",
+    "af": false
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "JmtQmhEuKFhizaQkQ",
+    "postId": "qhdP2mLngx4rXnnbD",
+    "parentCommentId": "ZviCDcuPvQ9ivHCjk",
+    "topLevelCommentId": "GuALxHrwvm5WnLjhL",
+    "contents": {
+      "markdown": "I observe that [https://www.lesswrong.com/posts/BqwXYFtpetFxqkxip/mikhail-samin-s-shortform?commentId=dtmeRXPYkqfDGpaBj](https://www.lesswrong.com/posts/BqwXYFtpetFxqkxip/mikhail-samin-s-shortform?commentId=dtmeRXPYkqfDGpaBj) isn't frontpage-y but remains on the homepage even after many mods have seen it. This suggests that the mods were just patching the hack. (But I don't know what other shortforms they've hidden, besides the political ones, if any.)",
+      "plaintextDescription": "I observe that https://www.lesswrong.com/posts/BqwXYFtpetFxqkxip/mikhail-samin-s-shortform?commentId=dtmeRXPYkqfDGpaBj isn't frontpage-y but remains on the homepage even after many mods have seen it. This suggests that the mods were just patching the hack. (But I don't know what other shortforms they've hidden, besides the political ones, if any.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-31T03:48:19.146Z",
+    "af": false
+  },
+  {
+    "_id": "TzFhuDudpbHfAciYs",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "d4EfQjDw4yJnKmFuz",
+    "topLevelCommentId": "d4EfQjDw4yJnKmFuz",
+    "contents": {
+      "markdown": "fwiw I agree with most but not all details, and I agree that Anthropic's commitments and policy advocacy have a bad track record, but I think that Anthropic capabilities is nevertheless net positive, because Anthropic has way more capacity and propensity to do safety stuff than other frontier AI companies.\n\nI wonder what you believe about Anthropic's likelihood of noticing risks from misalignment relative to other companies, or of someday spending >25% of internal compute on (automated) safety work.",
+      "plaintextDescription": "fwiw I agree with most but not all details, and I agree that Anthropic's commitments and policy advocacy have a bad track record, but I think that Anthropic capabilities is nevertheless net positive, because Anthropic has way more capacity and propensity to do safety stuff than other frontier AI companies.\n\nI wonder what you believe about Anthropic's likelihood of noticing risks from misalignment relative to other companies, or of someday spending >25% of internal compute on (automated) safety work."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-10-31T03:07:46.173Z",
+    "af": false
+  },
+  {
+    "_id": "hdeWPj4mKtdXmpu7N",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think \"[Overton window](https://en.wikipedia.org/wiki/Overton_window)\" is a pretty load-bearing concept for many LW users and AI people — it's their main model of policy change. Unfortunately there's lots of other models of policy change. I don't think \"Overton window\" is particularly helpful or likely-to-cause-you-to-notice-relevant-stuff-and-make-accurate-predictions. (And separately people around here sometimes incorrectly use \"expand the Overton window\" to just mean with \"advance AI safety ideas in government.\") I don't have time to write this up; maybe someone else should (or maybe there already exists a good intro to the study of why some policies happen and persist while others don't[^ela9310i8m5]).\n\nSome terms: policy windows (and \"multiple streams\"), punctuated equilibrium, policy entrepreneurs, path dependence and feedback (yes this is a real concept in political science, e.g. policies that cause interest groups to depend on them are less likely to be reversed), gradual institutional change, framing/narrative/agenda-setting.\n\nRelated point: [https://forum.effectivealtruism.org/posts/SrNDFF28xKakMukvz/tlevin-s-quick-takes?commentId=aGSpWHBKWAaFzubba](https://forum.effectivealtruism.org/posts/SrNDFF28xKakMukvz/tlevin-s-quick-takes?commentId=aGSpWHBKWAaFzubba).\n\n[^ela9310i8m5]: I liked the book Policy Paradox in college. (Example claim: perceived policy problems are strategically constructed through political processes; how issues are framed—e.g. individual vs collective responsibility—determines which solutions seem appropriate.) I asked Claude for suggestions on a shorter intro and I didn't find the suggestions helpful.I guess I think if you work on government stuff and you [don't have poli sci background / aren't familiar with concepts like \"multiple streams\"] you should read Policy Paradox (although the book isn't about that particular concept).",
+      "plaintextDescription": "I think \"Overton window\" is a pretty load-bearing concept for many LW users and AI people — it's their main model of policy change. Unfortunately there's lots of other models of policy change. I don't think \"Overton window\" is particularly helpful or likely-to-cause-you-to-notice-relevant-stuff-and-make-accurate-predictions. (And separately people around here sometimes incorrectly use \"expand the Overton window\" to just mean with \"advance AI safety ideas in government.\") I don't have time to write this up; maybe someone else should (or maybe there already exists a good intro to the study of why some policies happen and persist while others don't[1]).\n\nSome terms: policy windows (and \"multiple streams\"), punctuated equilibrium, policy entrepreneurs, path dependence and feedback (yes this is a real concept in political science, e.g. policies that cause interest groups to depend on them are less likely to be reversed), gradual institutional change, framing/narrative/agenda-setting.\n\nRelated point: https://forum.effectivealtruism.org/posts/SrNDFF28xKakMukvz/tlevin-s-quick-takes?commentId=aGSpWHBKWAaFzubba.\n\n 1. ^\n    I liked the book Policy Paradox in college. (Example claim: perceived policy problems are strategically constructed through political processes; how issues are framed—e.g. individual vs collective responsibility—determines which solutions seem appropriate.) I asked Claude for suggestions on a shorter intro and I didn't find the suggestions helpful.\n    \n    I guess I think if you work on government stuff and you [don't have poli sci background / aren't familiar with concepts like \"multiple streams\"] you should read Policy Paradox (although the book isn't about that particular concept)."
+    },
+    "baseScore": 45,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-10-27T06:30:40.266Z",
+    "af": false
+  },
+  {
+    "_id": "xZdzkudkiDPCE5v6F",
+    "postId": "qhdP2mLngx4rXnnbD",
+    "parentCommentId": "7ACufbMK8Lu6fCCHs",
+    "topLevelCommentId": "GuALxHrwvm5WnLjhL",
+    "contents": {
+      "markdown": "I guess I'll write non-frontpage-y quick takes as posts instead then :(",
+      "plaintextDescription": "I guess I'll write non-frontpage-y quick takes as posts instead then :("
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-24T21:07:34.826Z",
+    "af": false
+  },
+  {
+    "_id": "dX2tRbYgf7yJKkiKH",
+    "postId": "qhdP2mLngx4rXnnbD",
+    "parentCommentId": "GuALxHrwvm5WnLjhL",
+    "topLevelCommentId": "GuALxHrwvm5WnLjhL",
+    "contents": {
+      "markdown": "I'd like to be able to see such quick takes on the homepage, like how I can see personal blogposts on the homepage (even though logged-out users can't).\n\nAre you hiding them from everyone? Can I opt into seeing them?",
+      "plaintextDescription": "I'd like to be able to see such quick takes on the homepage, like how I can see personal blogposts on the homepage (even though logged-out users can't).\n\nAre you hiding them from everyone? Can I opt into seeing them?"
+    },
+    "baseScore": 22,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-10-24T21:00:53.310Z",
+    "af": false
+  },
+  {
+    "_id": "6eBEAaBpwq6HBkwFg",
+    "postId": "eq2gYhZvuDrMpuhSc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I failed to find a way to import to Slack without doing it one by one.",
+      "plaintextDescription": "I failed to find a way to import to Slack without doing it one by one."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-24T18:32:48.404Z",
+    "af": false
+  },
+  {
+    "_id": "xbjhqZKJWjwuNEkY6",
+    "postId": "TbsdA7wG9TvMQYMZj",
+    "parentCommentId": "pJLBqr9stdWtczySJ",
+    "topLevelCommentId": "pJLBqr9stdWtczySJ",
+    "contents": {
+      "markdown": "Bores knows, at least for people who donate via certain links. For example, the link in this post is [https://secure.actblue.com/donate/boresai?refcode=lw](https://secure.actblue.com/donate/boresai?refcode=lw) rather than [https://secure.actblue.com/donate/boresweb](https://secure.actblue.com/donate/boresweb).",
+      "plaintextDescription": "Bores knows, at least for people who donate via certain links. For example, the link in this post is https://secure.actblue.com/donate/boresai?refcode=lw rather than https://secure.actblue.com/donate/boresweb."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-10-24T04:28:15.607Z",
+    "af": false
+  },
+  {
+    "_id": "HXo7Skxy88mrmi8y7",
+    "postId": "zmtqmwetKH4nrxXcE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm annoyed that Tegmark and others don't seem to understand my position: [you should try](https://www.alignmentforum.org/posts/E8n93nnEaFeXTbHn5/plans-a-b-c-and-d-for-misalignment-risk) for great global coordination but also invest in safety in more rushed worlds, and a relatively responsible developer shouldn't unilaterally stop.\n\n(I'm also annoyed by this post's framing for reasons similar to [Ray](https://www.lesswrong.com/posts/zmtqmwetKH4nrxXcE/which-side-of-the-ai-safety-community-are-you-in?commentId=G9xTEXj8z6Rdx4h6B).)",
+      "plaintextDescription": "I'm annoyed that Tegmark and others don't seem to understand my position: you should try for great global coordination but also invest in safety in more rushed worlds, and a relatively responsible developer shouldn't unilaterally stop.\n\n(I'm also annoyed by this post's framing for reasons similar to Ray.)"
+    },
+    "baseScore": 54,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-10-23T20:18:49.769Z",
+    "af": false
+  },
+  {
+    "_id": "FrvctaCXz8AF5wmTj",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "Ta5BhgtsGNmJfdzTH",
+    "topLevelCommentId": "XoFaKKdqHz6F3njwm",
+    "contents": {
+      "markdown": "Part is thinking about donation opportunities, like [Bores](https://ericneyman.wordpress.com/2025/10/20/consider-donating-to-alex-bores-author-of-the-raise-act/). Hopefully I'll have more to say publicly at some point!",
+      "plaintextDescription": "Part is thinking about donation opportunities, like Bores. Hopefully I'll have more to say publicly at some point!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-10-23T18:03:44.104Z",
+    "af": false
+  },
+  {
+    "_id": "XoFaKKdqHz6F3njwm",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Recently I've been spending much less than half of my time on projects like [AI Lab Watch](https://ailabwatch.org). Instead I've been thinking about projects in the \"strategy/meta\" and \"politics\" domains. I'm not sure what I'll work on in the future but sometimes people incorrectly assume I'm on top of lab-watching stuff; I want people to know I'm not owning the lab-watching ball. I think lab-watching work is better than AI-governance-think-tank work for the right people on current margins and at least one more person should do it full-time; DM me if you're interested.",
+      "plaintextDescription": "Recently I've been spending much less than half of my time on projects like AI Lab Watch. Instead I've been thinking about projects in the \"strategy/meta\" and \"politics\" domains. I'm not sure what I'll work on in the future but sometimes people incorrectly assume I'm on top of lab-watching stuff; I want people to know I'm not owning the lab-watching ball. I think lab-watching work is better than AI-governance-think-tank work for the right people on current margins and at least one more person should do it full-time; DM me if you're interested."
+    },
+    "baseScore": 50,
+    "voteCount": 24,
+    "createdAt": null,
+    "postedAt": "2025-10-23T17:04:48.892Z",
+    "af": false
+  },
+  {
+    "_id": "bad4fScJkjbkTgaGA",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "uHRFDmC3hMfNT7jCu",
+    "topLevelCommentId": "ZneKmkL5rxQu4PsES",
+    "contents": {
+      "markdown": "Good point. I think compute providers can steal model weights, as I said at the top. I think they currently have more incentive to steal architecture and training algorithms, since those are easier to use without getting caught, so I focused on \"algorithmic secrets.\"\n\nSeparately, are Amazon and Google incentivized to steal architecture and training algorithms? Meh. I think it's very unlikely, since even if they're perfectly ruthless their reputation is very important to them (plus they care about some legal risks). I think habryka thinks it's more likely than I do. This is relevant to Anthropic's security prioritization — security from compute providers might not be among the lowest-hanging fruit. And I think Fabien thinks it's relevant to ASL-3 compliance, and I agree that ASL-3 probably wasn't written with insider threat from compute providers in mind. But I'm not sure it's relevant to ASL-3 compliance? The ASL-3 standard doesn't say that actors are only in scope if they seem incentivized to steal stuff; the scope is based on actors' capabilities.",
+      "plaintextDescription": "Good point. I think compute providers can steal model weights, as I said at the top. I think they currently have more incentive to steal architecture and training algorithms, since those are easier to use without getting caught, so I focused on \"algorithmic secrets.\"\n\nSeparately, are Amazon and Google incentivized to steal architecture and training algorithms? Meh. I think it's very unlikely, since even if they're perfectly ruthless their reputation is very important to them (plus they care about some legal risks). I think habryka thinks it's more likely than I do. This is relevant to Anthropic's security prioritization — security from compute providers might not be among the lowest-hanging fruit. And I think Fabien thinks it's relevant to ASL-3 compliance, and I agree that ASL-3 probably wasn't written with insider threat from compute providers in mind. But I'm not sure it's relevant to ASL-3 compliance? The ASL-3 standard doesn't say that actors are only in scope if they seem incentivized to steal stuff; the scope is based on actors' capabilities."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-10-12T17:08:29.287Z",
+    "af": false
+  },
+  {
+    "_id": "3rkoFFtAFPxCLtLRE",
+    "postId": "mKgbawbJBxEmQaLSJ",
+    "parentCommentId": "Zb3rZWp4QwyLZfGXX",
+    "topLevelCommentId": "Zb3rZWp4QwyLZfGXX",
+    "contents": {
+      "markdown": "I agree that *whether Anthropic has handled insider threat from compute providers* is a crux. My guess is that Anthropic and humans-at-Anthropic wouldn't claim to have handled this (outside of the implicit claim for ASL-3) and they would say something more like *that's out of scope for ASL-3* or *oops*.\n\nSeparately, I just unblocked you. (I blocked you because I didn't like [this thread](https://www.lesswrong.com/posts/eq2aJt8ZqMaGhBu3r/zach-stein-perlman-s-shortform?commentId=acksecvzuYvh5topx) in my shortform, not directly to stifle dissent. I have not [blocked](https://www.lesswrong.com/moderation) anyone else. I mention this because hearing about disagreement being hidden/blocked should make readers suspicious but that's mostly not correct in this case.)\n\n* * *\n\nEdit: also, man, I tried to avoid \"condemnation\" and I think I succeeded. I was just making an observation. I don't really condemn Anthropic for this.",
+      "plaintextDescription": "I agree that whether Anthropic has handled insider threat from compute providers is a crux. My guess is that Anthropic and humans-at-Anthropic wouldn't claim to have handled this (outside of the implicit claim for ASL-3) and they would say something more like that's out of scope for ASL-3 or oops.\n\nSeparately, I just unblocked you. (I blocked you because I didn't like this thread in my shortform, not directly to stifle dissent. I have not blocked anyone else. I mention this because hearing about disagreement being hidden/blocked should make readers suspicious but that's mostly not correct in this case.)\n\n----------------------------------------\n\nEdit: also, man, I tried to avoid \"condemnation\" and I think I succeeded. I was just making an observation. I don't really condemn Anthropic for this."
+    },
+    "baseScore": 21,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-10-11T21:20:42.306Z",
+    "af": false
+  },
+  {
+    "_id": "ZneKmkL5rxQu4PsES",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "An AI company's model weight security is at most as good as its compute providers' security. I don't know how good compute providers' security is, but at the least I think model weights and algorithmic secrets aren't robust to insider threat from compute provider staff. I think it would be very hard for compute providers to eliminate insider threat, much less demonstrate that to the AI company.\n\nI think this based on the absence of public information to the contrary, briefly chatting with LLMs, and a little private information.\n\nOne consequence is that Anthropic probably isn't complying with its [ASL-3 security standard](https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf#page=13), which is supposed to address risk from \"corporate espionage teams.\" Arguably this refers to teams *at companies with no special access to Anthropic*, rather than teams at Amazon and Google. But it would be dubious to exclude Amazon and Google for being compute providers: they're competitors with strong incentives to steal algorithmic secrets, and more risk comes from them than the baseline \"corporate espionage team\" but most risk from any group of actors comes from the small subset of actors that pose more than baseline risk. Anthropic is [thinking](https://assets.anthropic.com/m/c52125297b85a42/original/Confidential_Inference_Paper.pdf) about how to address this and related threats, but my impression is that it hasn't yet done so.\n\nFootnotes.[^215hecasw0k][^n26vnsxaco]\n\nThanks to habryka for making related points to me and discussing. (He doesn't necessarily endorse this.)\n\n[^215hecasw0k]: Obviously Anthropic isn't meeting its security standard is consistent with Anthropic's security is better than its competitors and even marginal improvements to Anthropic's security don't really matter because other companies have similarly capable models with substantially less security. I don't take a position on those questions here. And I certainly don't claim that insider risk at compute providers is among the lowest-hanging security fruit. I'm just remarking on the RSP. \n\n[^n26vnsxaco]: Context: maybe hooray Anthropic for being the only company to make a security claim which is apparently strong enough that insider threat at compute providers is a problem for it, but boo Anthropic for saying it's meeting this standard if it's not. Recall that other companies are generally worse and vaguer; being vague is bad too but doesn't enable specific criticism like this. Recall that AI companies aren't credibly planning for great security. I think addressing insider threat at compute providers happens by SL4 in the RAND framework.",
+      "plaintextDescription": "An AI company's model weight security is at most as good as its compute providers' security. I don't know how good compute providers' security is, but at the least I think model weights and algorithmic secrets aren't robust to insider threat from compute provider staff. I think it would be very hard for compute providers to eliminate insider threat, much less demonstrate that to the AI company.\n\nI think this based on the absence of public information to the contrary, briefly chatting with LLMs, and a little private information.\n\nOne consequence is that Anthropic probably isn't complying with its ASL-3 security standard, which is supposed to address risk from \"corporate espionage teams.\" Arguably this refers to teams at companies with no special access to Anthropic, rather than teams at Amazon and Google. But it would be dubious to exclude Amazon and Google for being compute providers: they're competitors with strong incentives to steal algorithmic secrets, and more risk comes from them than the baseline \"corporate espionage team\" but most risk from any group of actors comes from the small subset of actors that pose more than baseline risk. Anthropic is thinking about how to address this and related threats, but my impression is that it hasn't yet done so.\n\nFootnotes.[1][2]\n\nThanks to habryka for making related points to me and discussing. (He doesn't necessarily endorse this.)\n\n 1. ^\n    Obviously Anthropic isn't meeting its security standard is consistent with Anthropic's security is better than its competitors and even marginal improvements to Anthropic's security don't really matter because other companies have similarly capable models with substantially less security. I don't take a position on those questions here. And I certainly don't claim that insider risk at compute providers is among the lowest-hanging security fruit. I'm just remarking on the RSP.\n\n 2. ^\n    Context: maybe hooray Anthropic for being the only company to make a security claim which is appa"
+    },
+    "baseScore": 36,
+    "voteCount": 18,
+    "createdAt": null,
+    "postedAt": "2025-10-11T16:00:04.578Z",
+    "af": false
+  },
+  {
+    "_id": "fabWzKdA5aa4SupNs",
+    "postId": "A9fxfCfEAoouJshhZ",
+    "parentCommentId": "74vyhk9feB3QPY4g5",
+    "topLevelCommentId": "74vyhk9feB3QPY4g5",
+    "contents": {
+      "markdown": "Daniel is referring to\n\n> When AI is fully automated, disagreement over how good their research taste will be, but median is roughly as good as the median current AI worker.\n\nwhich is indeed a mistake",
+      "plaintextDescription": "Daniel is referring to\n\n> When AI is fully automated, disagreement over how good their research taste will be, but median is roughly as good as the median current AI worker.\n\nwhich is indeed a mistake"
+    },
+    "baseScore": 11,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-10-08T05:33:48.784Z",
+    "af": false
+  },
+  {
+    "_id": "7CSvbHCLR9soxacde",
+    "postId": "yjiaNbjDWrPAFaNZs",
+    "parentCommentId": "e8YNqbdhAJTvKryY2",
+    "topLevelCommentId": "e8YNqbdhAJTvKryY2",
+    "contents": {
+      "markdown": "Example with fake numbers: my favorite intervention is X. My favorite intervention in a year will probably be (stuff very similar to) X. I value $1 for X now equally to $1.7 for X in a year. I value $1.7 for X in a year equally to $1.4 unrestricted in a year, since it's possible that I'll believe something else is substantially better than X. So I should wait to donate if my expected rate of return is >40%; without this consideration I'd only wait if my expected rate of return is >70%.",
+      "plaintextDescription": "Example with fake numbers: my favorite intervention is X. My favorite intervention in a year will probably be (stuff very similar to) X. I value $1 for X now equally to $1.7 for X in a year. I value $1.7 for X in a year equally to $1.4 unrestricted in a year, since it's possible that I'll believe something else is substantially better than X. So I should wait to donate if my expected rate of return is >40%; without this consideration I'd only wait if my expected rate of return is >70%."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-27T19:33:24.807Z",
+    "af": false
+  },
+  {
+    "_id": "8MHmJLiud2qnYfkne",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "a2FwJxGER6PT6CkhY",
+    "topLevelCommentId": "JhYJKS5FHFmqFpMQs",
+    "contents": {
+      "markdown": "I don't think it's very new. iirc it's suggested in Meta's safety framework. But past evals stuff (see the first three bullets above) has been more like *the model doesn't have dangerous capabilities* than *the model is weaker than these specific other models*. Maybe in part because previous releases have been more SOTA. I don't recall past releases being like *safe because weaker than other models*.",
+      "plaintextDescription": "I don't think it's very new. iirc it's suggested in Meta's safety framework. But past evals stuff (see the first three bullets above) has been more like the model doesn't have dangerous capabilities than the model is weaker than these specific other models. Maybe in part because previous releases have been more SOTA. I don't recall past releases being like safe because weaker than other models."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-26T18:32:54.101Z",
+    "af": false
+  },
+  {
+    "_id": "JhYJKS5FHFmqFpMQs",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Meta released the weights of a new model and published evals: [Code World Model Preparedness Report](https://ai.meta.com/research/publications/code-world-model-preparedness-report/). It's the best eval report Meta has published to date.\n\nThe basic approach is: do evals; find weaker capabilities than other open-weights models; infer that it's safe to release weights.\n\nHow good are the evals? Meh. Maybe it's OK if the evals aren't great, since the approach isn't *show the model lacks dangerous capabilities* but rather *show the model is weaker than other models*.\n\nOne thing that bothered me was this sentence:\n\n> Our evaluation approach assumes that a potential malicious user is not an expert in large language model development; therefore, for this assessment we do not include malicious fine-tuning where a malicious user retrains the model to bypass safety post-training or enhance harmful capabilities.\n\nThis is totally wrong because for an open-weights model, anyone can (1) undo the safety post-training or (2) post-train on dangerous capabilities, then publish those weights for anyone else to use. I don't know whether any eval results are invalidated by (1): I think for most of the dangerous capability evals Meta uses, models generally don’t refuse them (in some cases because the eval tasks are intentionally merely proxies of dangerous stuff) and so it’s fine to have refusal post-training. And I don't know how important (2) is (perhaps it's fine because the same applies to existing open-weights models). Mostly this sentence just shows that Meta is very confused about safety.\n\n* * *\n\nContext:\n\n*   Llama 4: [the so-called model card](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E#critical-risks) doesn't include results (or even say what the results indicate about CBRN capabilities).\n*   Llama 3: see [perfunctory model evals for dangerous capabilities in the Llama 3 paper](https://arxiv.org/pdf/2407.21783#page=46).\n*   CyberSecEval: Meta's evals and interpretation have always been very bad.[^9cnqriw5459]\n*   [Meta's safety framework](https://about.fb.com/news/2025/02/meta-approach-frontier-ai/) is [~meaningless](https://www.lesswrong.com/posts/TkmqiX9ccysrqvGe2/meta-frontier-ai-framework).\n*   (Reminder: evals don't really matter. But since the companies all say evals are part of their safety plans, evals can provide a little evidence on safety competence.)\n\nYay for Meta doing more than for Llama 4. Boo for doing poorly overall and worse than other companies. (And evals stuff doesn't really change the bottom line.)\n\n[^9cnqriw5459]: In its CyberSecEval 2 evals, Meta found that its models got low scores and concluded \"LLMs have a ways to go before performing well on this benchmark, and aren’t likely to disrupt cyber exploitation attack and defense in their present states.\" Other researchers tried running the evals using basic elicitation techniques: they let the model use chain-of-thought and tools. They found that this increased performance dramatically — the score on one test increased from 5% to 100%. This shows that Meta's use of its results to infer that its models were far from being dangerous was invalid. Later, Meta published CyberSecEval 3: it mentioned the lack of chain of thought and tools as a \"limitation,\" but it used the same methodology as before, so the results still aren't informative about models' true capabilities.",
+      "plaintextDescription": "Meta released the weights of a new model and published evals: Code World Model Preparedness Report. It's the best eval report Meta has published to date.\n\nThe basic approach is: do evals; find weaker capabilities than other open-weights models; infer that it's safe to release weights.\n\nHow good are the evals? Meh. Maybe it's OK if the evals aren't great, since the approach isn't show the model lacks dangerous capabilities but rather show the model is weaker than other models.\n\nOne thing that bothered me was this sentence:\n\n> Our evaluation approach assumes that a potential malicious user is not an expert in large language model development; therefore, for this assessment we do not include malicious fine-tuning where a malicious user retrains the model to bypass safety post-training or enhance harmful capabilities.\n\nThis is totally wrong because for an open-weights model, anyone can (1) undo the safety post-training or (2) post-train on dangerous capabilities, then publish those weights for anyone else to use. I don't know whether any eval results are invalidated by (1): I think for most of the dangerous capability evals Meta uses, models generally don’t refuse them (in some cases because the eval tasks are intentionally merely proxies of dangerous stuff) and so it’s fine to have refusal post-training. And I don't know how important (2) is (perhaps it's fine because the same applies to existing open-weights models). Mostly this sentence just shows that Meta is very confused about safety.\n\n----------------------------------------\n\nContext:\n\n * Llama 4: the so-called model card doesn't include results (or even say what the results indicate about CBRN capabilities).\n * Llama 3: see perfunctory model evals for dangerous capabilities in the Llama 3 paper.\n * CyberSecEval: Meta's evals and interpretation have always been very bad.[1]\n * Meta's safety framework is ~meaningless.\n * (Reminder: evals don't really matter. But since the companies all say evals are part of their "
+    },
+    "baseScore": 31,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-09-26T17:45:50.756Z",
+    "af": false
+  },
+  {
+    "_id": "wgqpYAXqNFYpLQk5H",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "ykHt77bFHax4Ftnip",
+    "topLevelCommentId": "ALjALdDumCLZzGZYy",
+    "contents": {
+      "markdown": "Yep, this is what I meant by \"labs can increase US willingness to pay for nonproliferation.\" Edited to clarify.",
+      "plaintextDescription": "Yep, this is what I meant by \"labs can increase US willingness to pay for nonproliferation.\" Edited to clarify."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-25T21:50:18.370Z",
+    "af": true
+  },
+  {
+    "_id": "ALjALdDumCLZzGZYy",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Suppose that (A) alignment risks do not become compelling-to-almost-all-lab-people and (B) with [10-30x AIs](https://www.alignmentforum.org/posts/LjgcRbptarrRfJWtR/a-breakdown-of-ai-capability-levels-focused-on-ai-r-and-d), solving alignment takes like 1-3 years of work with lots of resources.\n\n*   Claim: Safety work during takeoff is crucial. (There will be so much high-quality AI labor happening!)\n    *   Corollary: Crucial factors are (1) efficiency-of-converting-time-and-compute-into-safety-work-during-takeoff (research directions, training and eliciting AIs to be good at safety work, etc.) and (2) time-and-compute-for-safety-work-during-takeoff.\n        *   Corollary: A crucial factor (for (2)) is whether *US labs are racing against each other* or *the US is internally coordinated and thinks slowing others is a national security priority and lead time is largely spent on reducing misalignment risk*. And so a crucial factor is US government buy-in for nonproliferation. (And labs can increase US willingness to pay for nonproliferation \\[e.g. demonstrating importance of US lead and of mitigating alignment risk\\] and decrease the cost of enforcing nonproliferation \\[e.g. boosting the US military\\].) With good domestic coordination, you get a surprisingly good story. With no domestic coordination, you get a bad story where the leading lab probably spends ~no lead time focused on alignment.\n        *   (There are other prioritization implications: security during takeoff is crucial (probably, depending on how exactly the nonproliferation works), getting useful safety work out of your models—and preventing disasters while running them—during takeoff is crucial, idk.)\n\nI feel like this is important and underappreciated. I also feel like I'm probably somewhat confused about this. I might write a post on this but I'm shipping it as a shortform because (a) I might not and (b) this might elicit feedback.",
+      "plaintextDescription": "Suppose that (A) alignment risks do not become compelling-to-almost-all-lab-people and (B) with 10-30x AIs, solving alignment takes like 1-3 years of work with lots of resources.\n\n * Claim: Safety work during takeoff is crucial. (There will be so much high-quality AI labor happening!)\n   * Corollary: Crucial factors are (1) efficiency-of-converting-time-and-compute-into-safety-work-during-takeoff (research directions, training and eliciting AIs to be good at safety work, etc.) and (2) time-and-compute-for-safety-work-during-takeoff.\n     * Corollary: A crucial factor (for (2)) is whether US labs are racing against each other or the US is internally coordinated and thinks slowing others is a national security priority and lead time is largely spent on reducing misalignment risk. And so a crucial factor is US government buy-in for nonproliferation. (And labs can increase US willingness to pay for nonproliferation [e.g. demonstrating importance of US lead and of mitigating alignment risk] and decrease the cost of enforcing nonproliferation [e.g. boosting the US military].) With good domestic coordination, you get a surprisingly good story. With no domestic coordination, you get a bad story where the leading lab probably spends ~no lead time focused on alignment.\n     * (There are other prioritization implications: security during takeoff is crucial (probably, depending on how exactly the nonproliferation works), getting useful safety work out of your models—and preventing disasters while running them—during takeoff is crucial, idk.)\n\nI feel like this is important and underappreciated. I also feel like I'm probably somewhat confused about this. I might write a post on this but I'm shipping it as a shortform because (a) I might not and (b) this might elicit feedback."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-09-25T21:20:35.617Z",
+    "af": true
+  },
+  {
+    "_id": "eq9FfmQoApf43KRCd",
+    "postId": "P5ZuoCwGCZyecBxeN",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **Google Strengthens Its Safety Framework**\n\nHmm, I think [v3](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/strengthening-our-frontier-safety-framework/frontier-safety-framework_3.pdf) is worse than [v2](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/updating-the-frontier-safety-framework/Frontier%20Safety%20Framework%202.0.pdf). The change that's most important to me is that the section on alignment is now merely \"exploratory\" and \"illustrative.\" (On the other hand, it is nice that v3 mentions misalignment as a potential risk from ML R&D capabilities in addition to \"instrumental reasoning\" / stealth-and-sabotage capabilities; previously it was just the latter.) Note I haven't read v3 carefully.\n\n(But both versions, like other companies' safety frameworks, are sufficiently weak or lacking-transparency that I don't really care about marginal changes.)",
+      "plaintextDescription": "> Google Strengthens Its Safety Framework\n\nHmm, I think v3 is worse than v2. The change that's most important to me is that the section on alignment is now merely \"exploratory\" and \"illustrative.\" (On the other hand, it is nice that v3 mentions misalignment as a potential risk from ML R&D capabilities in addition to \"instrumental reasoning\" / stealth-and-sabotage capabilities; previously it was just the latter.) Note I haven't read v3 carefully.\n\n(But both versions, like other companies' safety frameworks, are sufficiently weak or lacking-transparency that I don't really care about marginal changes.)"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-25T15:30:51.964Z",
+    "af": false
+  },
+  {
+    "_id": "tGJBoTFw2tmAm7oaA",
+    "postId": "kkWmybhaig4oSWkgX",
+    "parentCommentId": "QpWb3RXPtDenSiKj8",
+    "topLevelCommentId": "L2EdW348wsafzAsKn",
+    "contents": {
+      "markdown": "I don't think so. I mean globally controlled takeoff where the US-led-coalition is in charge.",
+      "plaintextDescription": "I don't think so. I mean globally controlled takeoff where the US-led-coalition is in charge."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-25T04:39:20.868Z",
+    "af": false
+  },
+  {
+    "_id": "jHhHEppGhj95raq4Z",
+    "postId": "kkWmybhaig4oSWkgX",
+    "parentCommentId": "dfo2Mmoj5qodHs2hr",
+    "topLevelCommentId": "L2EdW348wsafzAsKn",
+    "contents": {
+      "markdown": "See footnote 11. One-sentence version: US and allies enforce control on hardware, domestically and abroad, and there's carrots for cooperating and large sticks for not cooperating. Beyond that, not worth getting into / it would take me a long time to articulate something helpful. But happy to chat live, e.g. call me tomorrow.",
+      "plaintextDescription": "See footnote 11. One-sentence version: US and allies enforce control on hardware, domestically and abroad, and there's carrots for cooperating and large sticks for not cooperating. Beyond that, not worth getting into / it would take me a long time to articulate something helpful. But happy to chat live, e.g. call me tomorrow."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-25T04:36:08.717Z",
+    "af": false
+  },
+  {
+    "_id": "KWwANEAHuZjX8SNeL",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "z6p5dseqwu3RcdMgd",
+    "topLevelCommentId": "z6p5dseqwu3RcdMgd",
+    "contents": {
+      "markdown": "[https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-nonfiction/](https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-nonfiction/)",
+      "plaintextDescription": "https://www.nytimes.com/books/best-sellers/combined-print-and-e-book-nonfiction/"
+    },
+    "baseScore": 25,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-09-25T01:57:20.460Z",
+    "af": false
+  },
+  {
+    "_id": "L2EdW348wsafzAsKn",
+    "postId": "kkWmybhaig4oSWkgX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Note that there are two different ways to control the compute: global cooperation or US-led entente (I don't have a good link on entente but see [here](https://www.lesswrong.com/posts/FDBrNMJ8fyx3TB9rt/what-ai-companies-should-do-some-rough-ideas#Plan_for_AGI)).",
+      "plaintextDescription": "Note that there are two different ways to control the compute: global cooperation or US-led entente (I don't have a good link on entente but see here)."
+    },
+    "baseScore": 10,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-24T18:35:53.594Z",
+    "af": false
+  },
+  {
+    "_id": "6sgRXCbDkHMC66zqp",
+    "postId": "hQyrTDuTXpqkxrnoH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Update: the anti-misuse instructions that were apparently added to the system prompt in late August were later published: [https://github.com/xai-org/grok-prompts/commit/172d3a3f9ce2ffeb9410c364412e6ed78207851f](https://github.com/xai-org/grok-prompts/commit/172d3a3f9ce2ffeb9410c364412e6ed78207851f).",
+      "plaintextDescription": "Update: the anti-misuse instructions that were apparently added to the system prompt in late August were later published: https://github.com/xai-org/grok-prompts/commit/172d3a3f9ce2ffeb9410c364412e6ed78207851f."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-12T03:15:08.834Z",
+    "af": false
+  },
+  {
+    "_id": "yar2JFesCESnQt3eb",
+    "postId": "MvjYziFxYj7oHbCJe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I feel like you're double-counting the difference between humans and shrimp when you separately claim \"860,000 shrimp equal one sentium of conscious capacity\" and that ice-slurry-death-for-a-shrimp is like squeaky-shopping-cart-for-a-human.\n\n(I didn't read carefully and this is not necessarily my main disagreement.)",
+      "plaintextDescription": "I feel like you're double-counting the difference between humans and shrimp when you separately claim \"860,000 shrimp equal one sentium of conscious capacity\" and that ice-slurry-death-for-a-shrimp is like squeaky-shopping-cart-for-a-human.\n\n(I didn't read carefully and this is not necessarily my main disagreement.)"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-09-11T21:56:01.858Z",
+    "af": false
+  },
+  {
+    "_id": "Xc5o8DHTbHv7Fi4QF",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "ggJAdwFeMroearFuc",
+    "topLevelCommentId": "ggJAdwFeMroearFuc",
+    "contents": {
+      "markdown": "And someday when the descendants of humanity have spread from star to star they won’t tell the children about the history of Ancient Earth until they’re old enough to bear it and when they learn they’ll weep to hear that such a thing as Death had ever once existed!",
+      "plaintextDescription": "And someday when the descendants of humanity have spread from star to star they won’t tell the children about the history of Ancient Earth until they’re old enough to bear it and when they learn they’ll weep to hear that such a thing as Death had ever once existed!"
+    },
+    "baseScore": 42,
+    "voteCount": 20,
+    "createdAt": null,
+    "postedAt": "2025-09-11T17:31:36.933Z",
+    "af": false
+  },
+  {
+    "_id": "GBoZggRFbjXN98ugq",
+    "postId": "hQyrTDuTXpqkxrnoH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Coda: the week after xAI published its RMF, it announced that it had released [Grok Code Fast 1](https://x.ai/news/grok-code-fast-1). According to the [model card](https://data.x.ai/2025-08-26-grok-code-fast-1-model-card.pdf), **the dishonesty rate was 71.9% — above the (comically bad) 50% threshold.** xAI didn't directly acknowledge that it violated the RMF. The model card includes some excuses for why this release is safe:\n\n> Grok Code Fast 1 has weaker dual-use capabilities than Grok 4. Therefore, we believe that Grok Code Fast 1 overall presents a low risk for malicious use and loss of control.\n\nand\n\n> Since Grok Code Fast 1 is intended for agentic coding applications and we do not expect it to be widely used as general-purpose assistant, the current MASK evaluation results do not currently pose serious concerns.\n\nI wonder what threat modeling for \"loss of control risks\" says agentic coding is out of scope. I guess that's no weirder than using MASK at all. Regardless, the RMF says \"Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK,\" full stop, not conditional on capabilities or use case.\n\n* * *\n\nMy opinion is\n\n1.  MASK is a near-meaningless benchmark. You shouldn't care about the high score. And moreover this model—like all other existing models—isn't powerful enough to pose actual risks of loss of control.\n2.  But you should care about xAI violating its RMF, and doing so quietly (nobody noticed for two weeks!) rather than changing its policy (or... maybe it's implicitly changing its policy, without saying that it's doing so or what the new policy is).\n\n* * *\n\nEdit: also xAI doesn't say whether it met its misuse risk threshold: \"Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.\" (But again, these thresholds are near-meaningless; compliance provides little evidence of safety.)",
+      "plaintextDescription": "Coda: the week after xAI published its RMF, it announced that it had released Grok Code Fast 1. According to the model card, the dishonesty rate was 71.9% — above the (comically bad) 50% threshold. xAI didn't directly acknowledge that it violated the RMF. The model card includes some excuses for why this release is safe:\n\n> Grok Code Fast 1 has weaker dual-use capabilities than Grok 4. Therefore, we believe that Grok Code Fast 1 overall presents a low risk for malicious use and loss of control.\n\nand\n\n> Since Grok Code Fast 1 is intended for agentic coding applications and we do not expect it to be widely used as general-purpose assistant, the current MASK evaluation results do not currently pose serious concerns.\n\nI wonder what threat modeling for \"loss of control risks\" says agentic coding is out of scope. I guess that's no weirder than using MASK at all. Regardless, the RMF says \"Our risk acceptance criteria for system deployment is maintaining a dishonesty rate of less than 1 out of 2 on MASK,\" full stop, not conditional on capabilities or use case.\n\n----------------------------------------\n\nMy opinion is\n\n 1. MASK is a near-meaningless benchmark. You shouldn't care about the high score. And moreover this model—like all other existing models—isn't powerful enough to pose actual risks of loss of control.\n 2. But you should care about xAI violating its RMF, and doing so quietly (nobody noticed for two weeks!) rather than changing its policy (or... maybe it's implicitly changing its policy, without saying that it's doing so or what the new policy is).\n\n----------------------------------------\n\nEdit: also xAI doesn't say whether it met its misuse risk threshold: \"Our risk acceptance criteria for system deployment is maintaining an answer rate of less than 1 out of 20 on restricted queries.\" (But again, these thresholds are near-meaningless; compliance provides little evidence of safety.)"
+    },
+    "baseScore": 27,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-09-08T17:00:38.380Z",
+    "af": false
+  },
+  {
+    "_id": "Sc9Ad9xYwYxtCEYS9",
+    "postId": "hQyrTDuTXpqkxrnoH",
+    "parentCommentId": "oa4cz5KwCwwDXu3at",
+    "topLevelCommentId": "oa4cz5KwCwwDXu3at",
+    "contents": {
+      "markdown": "Maybe this phrasing is consistent with being AI because the model reads \"assistant\" as \"AI assistant.\" But I agree that the model would suspect it's being tested.\n\nI agree with you that MASK might not measure what it's supposed to, but regardless, I think other problems are much larger, including that *propensity to lie when pressured* is near-totally unrelated to misalignment risk.",
+      "plaintextDescription": "Maybe this phrasing is consistent with being AI because the model reads \"assistant\" as \"AI assistant.\" But I agree that the model would suspect it's being tested.\n\nI agree with you that MASK might not measure what it's supposed to, but regardless, I think other problems are much larger, including that propensity to lie when pressured is near-totally unrelated to misalignment risk."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-04T21:33:09.755Z",
+    "af": false
+  },
+  {
+    "_id": "2NFQ5PoryFeBzZHY9",
+    "postId": "BxfscrfGJPq5Yxfit",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Certainly not clear to me that acausal trade works but I don't think these problems are correct.\n\n1.  Consider a post-selection state — a civilization has stable control over a fixed amount of resources in its universe\n2.  idk but feels possible (and just a corollary of the *model the distribution of other civilizations that want to engage in acausal trade* problem)",
+      "plaintextDescription": "Certainly not clear to me that acausal trade works but I don't think these problems are correct.\n\n 1. Consider a post-selection state — a civilization has stable control over a fixed amount of resources in its universe\n 2. idk but feels possible (and just a corollary of the model the distribution of other civilizations that want to engage in acausal trade problem)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-01T05:17:36.016Z",
+    "af": false
+  },
+  {
+    "_id": "XEMoar7GWP7GHooZP",
+    "postId": "dqd54wpEfjKJsJBk6",
+    "parentCommentId": "DtCFLvMpeFFcLCd6z",
+    "topLevelCommentId": "c6rPpZKADPDNjQ5of",
+    "contents": {
+      "markdown": "Update: xAI [says](https://data.x.ai/2025-08-20-xai-risk-management-framework.pdf) [that](https://data.x.ai/2025-08-20-grok-4-model-card.pdf) the load-bearing thing for avoiding bio/chem misuse from Grok 4 is not inability but safeguards, and that Grok 4 robustly refuses \"harmful queries.\" So I think Igor is correct. If the Grok 4 misuse safeguards are ineffective, that shows that xAI failed at a basic safety thing it tried (and either doesn't understand that or is lying about it).\n\nI agree it would be a better indication of future-safety-at-xAI if xAI said \"misuse mitigations for current models are safety theater.\" That's just not its position.",
+      "plaintextDescription": "Update: xAI says that the load-bearing thing for avoiding bio/chem misuse from Grok 4 is not inability but safeguards, and that Grok 4 robustly refuses \"harmful queries.\" So I think Igor is correct. If the Grok 4 misuse safeguards are ineffective, that shows that xAI failed at a basic safety thing it tried (and either doesn't understand that or is lying about it).\n\nI agree it would be a better indication of future-safety-at-xAI if xAI said \"misuse mitigations for current models are safety theater.\" That's just not its position."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-31T21:40:12.607Z",
+    "af": false
+  },
+  {
+    "_id": "ugTDJnLa4xDPT3Wvb",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "aLFug6HWgnBEaoFhs",
+    "topLevelCommentId": "CYjmnaKwnYNSyEX75",
+    "contents": {
+      "markdown": "I think I'd prefer \"within a month after external deployment\" over \"by the time of external deployment\" because I expect the latter will lead to (1) evals being rushed and (2) safety people being forced to prioritize poorly.",
+      "plaintextDescription": "I think I'd prefer \"within a month after external deployment\" over \"by the time of external deployment\" because I expect the latter will lead to (1) evals being rushed and (2) safety people being forced to prioritize poorly."
+    },
+    "baseScore": 11,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-30T00:41:23.695Z",
+    "af": false
+  },
+  {
+    "_id": "3gEFrgK2AbPEAXfMi",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "pnoCMcWe2hDYS7oTK",
+    "topLevelCommentId": "CYjmnaKwnYNSyEX75",
+    "contents": {
+      "markdown": "Thanks. Sorry for criticizing without reading everything. I agree that, like, on balance, GDM didn't fully comply with the Seoul commitments re Gemini 2.5. Maybe I just don't care much about these particular commitments.",
+      "plaintextDescription": "Thanks. Sorry for criticizing without reading everything. I agree that, like, on balance, GDM didn't fully comply with the Seoul commitments re Gemini 2.5. Maybe I just don't care much about these particular commitments."
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-30T00:41:15.587Z",
+    "af": false
+  },
+  {
+    "_id": "pWeaCv8tY92AHghTs",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "pxT3GEdrufgPdLQqj",
+    "topLevelCommentId": "CYjmnaKwnYNSyEX75",
+    "contents": {
+      "markdown": "I agree. If Google wanted to join the commitments but not necessarily publish eval results by the time of external deployment, it should have clarified \"we'll publish within 2 months after external deployment\" or \"we'll do evals on our most powerful model at least every 4 months rather than doing one round of evals per model\" or something.",
+      "plaintextDescription": "I agree. If Google wanted to join the commitments but not necessarily publish eval results by the time of external deployment, it should have clarified \"we'll publish within 2 months after external deployment\" or \"we'll do evals on our most powerful model at least every 4 months rather than doing one round of evals per model\" or something."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-29T23:19:35.722Z",
+    "af": false
+  },
+  {
+    "_id": "CYjmnaKwnYNSyEX75",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Some of my friends are signal-boosting this new article: [60 U.K. Lawmakers Accuse Google of Breaking AI Safety Pledge](https://nitter.net/HarryBooth59643/status/1961419556993257897). See also the [open letter](https://pauseai.info/dear-sir-demis-2025). I don't feel good about this critique or the implicit ask.\n\n1.  Sharing information on capabilities is good but [public deployment is a bad time for that](https://www.alignmentforum.org/posts/Eh7WdKTrpLch5Kvkz/attaching-requirements-to-model-releases-has-serious), in part because most risk comes from internal deployment.\n2.  Google didn't necessarily even break a commitment? The commitment mentioned in the article is to \"publicly report model or system capabilities.\" That doesn't say it has to be done at the time of public deployment.\n    1.  The White House voluntary commitments included a commitment to \"publish reports for all new significant model public releases\"; same deal there.\n    2.  Possibly Google broke a different commitment (mentioned in the open letter): \"Assess the risks posed by their frontier models or systems across the AI lifecycle, including before deploying that model or system.\" Depends on your reading of \"assess the risks\" plus facts which I don't recall off the top of my head.\n3.  Other companies are doing far worse in this dimension. At worst Google is 3rd-best in publishing eval results. [Meta](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E#critical-risks) and [xAI](https://data.x.ai/2025-08-20-grok-4-model-card.pdf) are far worse.",
+      "plaintextDescription": "Some of my friends are signal-boosting this new article: 60 U.K. Lawmakers Accuse Google of Breaking AI Safety Pledge. See also the open letter. I don't feel good about this critique or the implicit ask.\n\n 1. Sharing information on capabilities is good but public deployment is a bad time for that, in part because most risk comes from internal deployment.\n 2. Google didn't necessarily even break a commitment? The commitment mentioned in the article is to \"publicly report model or system capabilities.\" That doesn't say it has to be done at the time of public deployment.\n    1. The White House voluntary commitments included a commitment to \"publish reports for all new significant model public releases\"; same deal there.\n    2. Possibly Google broke a different commitment (mentioned in the open letter): \"Assess the risks posed by their frontier models or systems across the AI lifecycle, including before deploying that model or system.\" Depends on your reading of \"assess the risks\" plus facts which I don't recall off the top of my head.\n 3. Other companies are doing far worse in this dimension. At worst Google is 3rd-best in publishing eval results. Meta and xAI are far worse."
+    },
+    "baseScore": 27,
+    "voteCount": 16,
+    "createdAt": null,
+    "postedAt": "2025-08-29T18:50:17.231Z",
+    "af": true
+  },
+  {
+    "_id": "szfaK5SCFdYniMuWE",
+    "postId": "fkqvztgszJpqmDHom",
+    "parentCommentId": "fD5x9HvvvtJauPSF6",
+    "topLevelCommentId": "JBp596d9EKkgputtT",
+    "contents": {
+      "markdown": "1.  Yes\n2.  Out of date",
+      "plaintextDescription": " 1. Yes\n 2. Out of date"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-29T17:30:51.775Z",
+    "af": false
+  },
+  {
+    "_id": "rKghDRqau5f3kpRFC",
+    "postId": "98sCTsGJZ77WgQ6nE",
+    "parentCommentId": "FYQpvAEuHxZNzpaP2",
+    "topLevelCommentId": "W9GPeidyzr9PpefdY",
+    "contents": {
+      "markdown": "Many people would be much less inclined to vote if it was fully public, so you would lose a lot of signal.",
+      "plaintextDescription": "Many people would be much less inclined to vote if it was fully public, so you would lose a lot of signal."
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-24T05:39:07.350Z",
+    "af": false
+  },
+  {
+    "_id": "MHMpcT9trpua4nbfe",
+    "postId": "WAJvjD3iBTQKqwt8z",
+    "parentCommentId": "tHFiCnCDBmKsC4ksY",
+    "topLevelCommentId": "tHFiCnCDBmKsC4ksY",
+    "contents": {
+      "markdown": "Disagree: the problem with rationalist cults is that they're *wrong* about \\[the effects of their behavior / whether what they're doing is optimific\\], not that what they're doing is *Pascalian*. (And empirically you should expect that *subcommunities that really hurt their members* do so for bad reasons.)",
+      "plaintextDescription": "Disagree: the problem with rationalist cults is that they're wrong about [the effects of their behavior / whether what they're doing is optimific], not that what they're doing is Pascalian. (And empirically you should expect that subcommunities that really hurt their members do so for bad reasons.)"
+    },
+    "baseScore": 20,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-08-21T15:26:27.777Z",
+    "af": false
+  },
+  {
+    "_id": "uy5JdNq33ERDzntvo",
+    "postId": "ZnNeKw2Be8BR7bmeN",
+    "parentCommentId": "bhKW8G7TQ2pCMPDEK",
+    "topLevelCommentId": "RjKcotpeybgAXK5pN",
+    "contents": {
+      "markdown": "Yeah that's progress. But then you realize that ~all commitments are too weak/vague (not to mention non-standardized) and you notice that words-about-the-future are cheap and you realize you should focus on stuff other than commitments.",
+      "plaintextDescription": "Yeah that's progress. But then you realize that ~all commitments are too weak/vague (not to mention non-standardized) and you notice that words-about-the-future are cheap and you realize you should focus on stuff other than commitments."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-08-21T15:00:55.011Z",
+    "af": false
+  },
+  {
+    "_id": "P2BnANj8jtk8bJiYG",
+    "postId": "qBbnXtt9zFWXMrP4M",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I believe that improving Anthropic's ability to prevent misuse via API decreases P(doom) much less than e.g. working on risks from misalignment. There are lots of factors pointing in this direction: misuse poses less risk than misalignment, misuse via API is much more on track to be solved (or the solution is much more on track to be cheap) than misalignment, and solving misuse-via-API only prevents a small fraction of misuse risk since there's also misuse-via-weights (from open-weights models, which are some 6-12 months behind the frontier, or stolen models, which is important since by default powerful models will be stolen). Edit: also note that most misuse-via-API risk comes from non-Anthropic models, and preventing misuse at Anthropic likely won't transfer to other companies, whereas work on misalignment at Anthropic—not to mention work outside of a frontier AI company—might well improve safety at several companies.\n\nI think most people who could do this could do something even better, such as averting risks from misalignment.",
+      "plaintextDescription": "I believe that improving Anthropic's ability to prevent misuse via API decreases P(doom) much less than e.g. working on risks from misalignment. There are lots of factors pointing in this direction: misuse poses less risk than misalignment, misuse via API is much more on track to be solved (or the solution is much more on track to be cheap) than misalignment, and solving misuse-via-API only prevents a small fraction of misuse risk since there's also misuse-via-weights (from open-weights models, which are some 6-12 months behind the frontier, or stolen models, which is important since by default powerful models will be stolen). Edit: also note that most misuse-via-API risk comes from non-Anthropic models, and preventing misuse at Anthropic likely won't transfer to other companies, whereas work on misalignment at Anthropic—not to mention work outside of a frontier AI company—might well improve safety at several companies.\n\nI think most people who could do this could do something even better, such as averting risks from misalignment."
+    },
+    "baseScore": 26,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-08-20T22:26:48.570Z",
+    "af": false
+  },
+  {
+    "_id": "NPznNfLa5rzsLMa9h",
+    "postId": "ZnNeKw2Be8BR7bmeN",
+    "parentCommentId": "erm2KaJmhpPqQmzDw",
+    "topLevelCommentId": "RjKcotpeybgAXK5pN",
+    "contents": {
+      "markdown": "Also I feel more concern like *companies' safety policies are super weak/vague/opaque so they'll be able to say they're complying while being unsafe* than like *companies will clearly violate their commitments*. So I think tracking *compliance* is overrated relative to *how on track the company is for safety*.",
+      "plaintextDescription": "Also I feel more concern like companies' safety policies are super weak/vague/opaque so they'll be able to say they're complying while being unsafe than like companies will clearly violate their commitments. So I think tracking compliance is overrated relative to how on track the company is for safety."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-20T19:20:06.891Z",
+    "af": false
+  },
+  {
+    "_id": "erm2KaJmhpPqQmzDw",
+    "postId": "ZnNeKw2Be8BR7bmeN",
+    "parentCommentId": "JY36TrPaSNWG9tFfR",
+    "topLevelCommentId": "RjKcotpeybgAXK5pN",
+    "contents": {
+      "markdown": "I am tracking such things (although I don't really care about Garrison's critique in that particular post). I don't have an up-to-date webpage on this at the moment but [this](https://ailabwatch.org/resources/commitments) is relevant. I am not doing the job of loudly proclaiming things and thus incentivizing compliance. I would be interested in advising someone-who-wants-to-do-that on what to loudly proclaim, or maybe hiring someone.\n\nA \"wall of shame\" is somewhat rough because it disincentivizes making (nontrivial, falsifiable) commitments, or because a company that makes various real commitments and breaks some of them tends to be better than a company that never makes commitments. So communicating requires some nuance (but you could do it well).",
+      "plaintextDescription": "I am tracking such things (although I don't really care about Garrison's critique in that particular post). I don't have an up-to-date webpage on this at the moment but this is relevant. I am not doing the job of loudly proclaiming things and thus incentivizing compliance. I would be interested in advising someone-who-wants-to-do-that on what to loudly proclaim, or maybe hiring someone.\n\nA \"wall of shame\" is somewhat rough because it disincentivizes making (nontrivial, falsifiable) commitments, or because a company that makes various real commitments and breaks some of them tends to be better than a company that never makes commitments. So communicating requires some nuance (but you could do it well)."
+    },
+    "baseScore": 16,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-08-20T19:17:17.172Z",
+    "af": false
+  },
+  {
+    "_id": "2tTaJrWaSsSdG8aJu",
+    "postId": "tmWMuY5HCSNXXZ9oq",
+    "parentCommentId": "qDHTCCwhWmwupnJYM",
+    "topLevelCommentId": "qDHTCCwhWmwupnJYM",
+    "contents": {
+      "markdown": "Control is about monitoring, right?",
+      "plaintextDescription": "Control is about monitoring, right?"
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-07-31T16:00:44.046Z",
+    "af": false
+  },
+  {
+    "_id": "7d6qiYhGQgTSh4inF",
+    "postId": "HXJXPjzWyS5aAoRCw",
+    "parentCommentId": "EafKF6ksHsxX2iddw",
+    "topLevelCommentId": "EafKF6ksHsxX2iddw",
+    "contents": {
+      "markdown": "Update: I continue to be confused about how bouncing off of bumpers like alignment audits is supposed to work; see discussion [here](https://www.alignmentforum.org/posts/eq2aJt8ZqMaGhBu3r/zach-stein-perlman-s-shortform?commentId=yv7nFBEcTDbMeJbZM).",
+      "plaintextDescription": "Update: I continue to be confused about how bouncing off of bumpers like alignment audits is supposed to work; see discussion here."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-18T00:00:05.763Z",
+    "af": true
+  },
+  {
+    "_id": "MaBRQZfBEEKvRWrXi",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "dRzzP8d4J69fBjaob",
+    "topLevelCommentId": "yv7nFBEcTDbMeJbZM",
+    "contents": {
+      "markdown": "I want to distinguish (1) *finding undesired behaviors or goals* from (2) *catching actual attempts to subvert safety techniques or attack the company*. I claim the posts you cite are about (2). I agree with those posts that (2) would be very helpful. I don't think that's what alignment auditing work is aiming at.[^mlcf36h3cph] (And I think lower-hanging fruit for (2) is improving monitoring during deployment plus some behavioral testing in (fake) high-stakes situations.)\n\n[^mlcf36h3cph]: The AI \"brain scan\" hope definitely isn't like thisI don't think the alignment auditing paper is like this, but related things could be",
+      "plaintextDescription": "I want to distinguish (1) finding undesired behaviors or goals from (2) catching actual attempts to subvert safety techniques or attack the company. I claim the posts you cite are about (2). I agree with those posts that (2) would be very helpful. I don't think that's what alignment auditing work is aiming at.[1] (And I think lower-hanging fruit for (2) is improving monitoring during deployment plus some behavioral testing in (fake) high-stakes situations.)\n\n 1. ^\n     * The AI \"brain scan\" hope definitely isn't like this\n     * I don't think the alignment auditing paper is like this, but related things could be"
+    },
+    "baseScore": 11,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-17T19:46:14.325Z",
+    "af": true
+  },
+  {
+    "_id": "FTGHYB7wynLunMhra",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "93jx4EGL3u4qrxYF4",
+    "topLevelCommentId": "yv7nFBEcTDbMeJbZM",
+    "contents": {
+      "markdown": "Yes, of course, sorry. I should have said: I think detecting them is (pretty easy and) far from sufficient. Indeed, we have detected them (sandbagging only somewhat) and yes this gives you something to try interventions on but, like, nobody knows how to solve e.g. alignment faking. I feel good about model organisms work but \\[pessimistic/uneasy/something\\] about the *bouncing off alignment audits* vibe.\n\nEdit: maybe ideally I would criticize specific work as not-a-priority. I don’t have specific work to criticize right now (besides interp on the margin), but I don't really know what work has been motivated by \"bouncing off bumpers\" or \"alignment auditing.\" For now, I’ll observe that the vibe is worrying to me and I worry about the focus on *showing that a model is safe* relative to *improving safety*.[^gu4ks2pirt7] And, like, I haven't heard a story for how alignment auditing will solve \\[alignment faking or sandbagging or whatever\\], besides *maybe the undesired behavior derives from bad data or reward functions or whatever and it's just feasible to trace the undesired behavior back to that and fix it* (this sounds false but I don't have good intuitions here and would mostly defer if non-Anthropic people were optimistic).\n\n[^gu4ks2pirt7]: The vibes—at least from some Anthropic safety people, at least historically—have been like if we can't show safety then we can just not deploy. In the unrushed regime, don't deploy is a great affordance. In the rushed regime, where you're the safest developer and another developer will deploy a more dangerous model 2 months later, it's not good. Given that we're in the rushed regime, more effort should go toward decreasing danger relative to measuring danger.",
+      "plaintextDescription": "Yes, of course, sorry. I should have said: I think detecting them is (pretty easy and) far from sufficient. Indeed, we have detected them (sandbagging only somewhat) and yes this gives you something to try interventions on but, like, nobody knows how to solve e.g. alignment faking. I feel good about model organisms work but [pessimistic/uneasy/something] about the bouncing off alignment audits vibe.\n\nEdit: maybe ideally I would criticize specific work as not-a-priority. I don’t have specific work to criticize right now (besides interp on the margin), but I don't really know what work has been motivated by \"bouncing off bumpers\" or \"alignment auditing.\" For now, I’ll observe that the vibe is worrying to me and I worry about the focus on showing that a model is safe relative to improving safety.[1] And, like, I haven't heard a story for how alignment auditing will solve [alignment faking or sandbagging or whatever], besides maybe the undesired behavior derives from bad data or reward functions or whatever and it's just feasible to trace the undesired behavior back to that and fix it (this sounds false but I don't have good intuitions here and would mostly defer if non-Anthropic people were optimistic).\n\n 1. ^\n    The vibes—at least from some Anthropic safety people, at least historically—have been like if we can't show safety then we can just not deploy. In the unrushed regime, don't deploy is a great affordance. In the rushed regime, where you're the safest developer and another developer will deploy a more dangerous model 2 months later, it's not good. Given that we're in the rushed regime, more effort should go toward decreasing danger relative to measuring danger."
+    },
+    "baseScore": 17,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-07-17T03:30:55.052Z",
+    "af": true
+  },
+  {
+    "_id": "yv7nFBEcTDbMeJbZM",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "iiuc, Anthropic's plan for *averting misalignment risk* is [*bouncing off bumpers*](https://www.alignmentforum.org/posts/HXJXPjzWyS5aAoRCw/putting-up-bumpers) *like* [*alignment audits*](https://www.anthropic.com/research/auditing-hidden-objectives).[^yzqhjhbolg] This doesn't make much sense to me.\n\n1.  I of course buy that you can detect alignment faking, lying to users, etc.\n2.  I of course buy that you can fix things like *we forgot to do refusal posttraining* or *we inadvertently trained on tons of alignment faking transcripts* — or maybe even *reward hacking on coding caused by bad reward functions*.\n3.  I don't see how detecting \\[alignment faking, lying to users, sandbagging, etc.\\] helps much for fixing them, so I don't buy that you can fix hard alignment issues by bouncing off alignment audits.\n    *   Like, Anthropic is aware of these specific issues in its models but that doesn't directly help fix them, afaict.\n\n(Reminder: [Anthropic is very optimistic about interp](https://www.darioamodei.com/post/the-urgency-of-interpretability), but [Interpretability Will Not Reliably Find Deceptive AI](https://www.alignmentforum.org/posts/PwnadG4BFjaER3MGf/interpretability-will-not-reliably-find-deceptive-ai).)\n\n(Reminder: the below is all [Anthropic's RSP](https://www-cdn.anthropic.com/872c653b2d0501d6ab44cf87f43e1dc4853e4d37.pdf) says about risks from misalignment)\n\n![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf_2k4GZ3JKYUUBeD69vt11zBXGTR8Rzaum9ZvBH-aMlUHmm4246HlaHey6Q_y0RPSk9w_szPOMVXckBjaW1BbCwyDY3SdZTW_oLmcN1_-6rqSFk6k5586TAVs_RwWev5yccZ8djA?key=Gnd5Spn43ZjO1IKQvliyeg)\n\n(For more, see my websites [AI Lab Watch](https://ailabwatch.org/cell/anthropic/scheming) and [AI Safety Claims](https://aisafetyclaims.org/companies/anthropic/claude-4/scheming-risk).)\n\n[^yzqhjhbolg]: Anthropic doesn't have an official plan. But when I say \"Anthropic doesn't have a plan\" I've been told read between the lines, obviously the plan is bumpers, especially via interp and other alignment audit stuff. Clarification on Anthropic's planning is welcome.",
+      "plaintextDescription": "iiuc, Anthropic's plan for averting misalignment risk is bouncing off bumpers like alignment audits.[1] This doesn't make much sense to me.\n\n 1. I of course buy that you can detect alignment faking, lying to users, etc.\n 2. I of course buy that you can fix things like we forgot to do refusal posttraining or we inadvertently trained on tons of alignment faking transcripts — or maybe even reward hacking on coding caused by bad reward functions.\n 3. I don't see how detecting [alignment faking, lying to users, sandbagging, etc.] helps much for fixing them, so I don't buy that you can fix hard alignment issues by bouncing off alignment audits.\n    * Like, Anthropic is aware of these specific issues in its models but that doesn't directly help fix them, afaict.\n\n(Reminder: Anthropic is very optimistic about interp, but Interpretability Will Not Reliably Find Deceptive AI.)\n\n(Reminder: the below is all Anthropic's RSP says about risks from misalignment)\n\n\n\n(For more, see my websites AI Lab Watch and AI Safety Claims.)\n\n 1. ^\n    Anthropic doesn't have an official plan. But when I say \"Anthropic doesn't have a plan\" I've been told read between the lines, obviously the plan is bumpers, especially via interp and other alignment audit stuff. Clarification on Anthropic's planning is welcome."
+    },
+    "baseScore": 33,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-07-17T01:00:50.353Z",
+    "af": true
+  },
+  {
+    "_id": "cxk5QEeefAA8CGwZ6",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "cZDSC8u6CJyHSuybN",
+    "topLevelCommentId": "SaKbrvCSAtvScoR9g",
+    "contents": {
+      "markdown": "> > If a company says it thinks a model is safe on the basis of eval results\n> \n> All current models are safe. No strongly superhuman future models are safe. There, I did it. \n\nQuick shallow reply:\n\n1.  AI companies say that their models \\[except maybe Opus 4\\] don't provide substantial bio misuse uplift. I think this is likely wrong and their work is very sloppy. See my blogpost [AI companies' eval reports mostly don't support their claims](/posts/AK6AihHGjirdoiJg6/ai-companies-eval-reports-mostly-don-t-support-their-claims) and [Ryan's shortform on bio capabilities](https://www.lesswrong.com/posts/FG54euEAesRkSZuJN/ryan_greenblatt-s-shortform?commentId=8oJvgrioiXyfRhm5x).\n2.  I think this is noteworthy, not because I'm worried about risk from current models but because it's a bad sign about noticing risks when warning signs appear, being honest about risk/safety even when it makes you look bad, etc.\n    1.  Edit: I guess your belief \"no actions that seem at all plausible for any current AI company to take have really any chance of making it so that it's non-catastrophic for them to develop and deploy systems much smarter than humans\" is a crux; I disagree, and so I care about marginal differences in risk-preparedness.",
+      "plaintextDescription": "> > If a company says it thinks a model is safe on the basis of eval results\n> \n> All current models are safe. No strongly superhuman future models are safe. There, I did it. \n\nQuick shallow reply:\n\n 1. AI companies say that their models [except maybe Opus 4] don't provide substantial bio misuse uplift. I think this is likely wrong and their work is very sloppy. See my blogpost AI companies' eval reports mostly don't support their claims and Ryan's shortform on bio capabilities.\n 2. I think this is noteworthy, not because I'm worried about risk from current models but because it's a bad sign about noticing risks when warning signs appear, being honest about risk/safety even when it makes you look bad, etc.\n    1. Edit: I guess your belief \"no actions that seem at all plausible for any current AI company to take have really any chance of making it so that it's non-catastrophic for them to develop and deploy systems much smarter than humans\" is a crux; I disagree, and so I care about marginal differences in risk-preparedness."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-11T17:59:41.385Z",
+    "af": false
+  },
+  {
+    "_id": "x96t3LFKQd6KHCeH8",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "anfsoBSNXMbszpfrS",
+    "topLevelCommentId": "SaKbrvCSAtvScoR9g",
+    "contents": {
+      "markdown": "I disagree that this is the \"key question.\" I think most of a frontier company's effect on P(doom) is the quality of its preparation for safety when models are dangerous, not its effect on regulation. I'm surprised if you think that variance in regulatory outcomes is not just more important than variance in what-a-company-does outcomes but also sufficiently tractable for the marginal company that it's the key question.\n\nI share your pessimism about RSPs and evals, but I think they're *informative* in various ways. E.g.:\n\n1.  If a company says it thinks a model is safe on the basis of eval results, but those evals are terrible or are interpreted incorrectly, that's a bad sign.\n2.  What an RSP says about how the company plans to respond to misuse risks gives you some evidence about whether it's thinking at all seriously about safety — does it say *we will implement mitigations to reduce our score on bio evals to safe levels* or *we will implement mitigations and then assess how robust they are*.\n3.  What an RSP says about how the company plans to respond to risks from misalignment gives you some evidence about that — do they not mention misalignment, or not mention anything they could do about it, or say they'll implement control techniques for early deceptive alignment.\n4.  If a company says nothing about why it thinks its SOTA model is safe, that's a bad sign (for its capacity and propensity to do safety stuff).\n\nPlus of course if a company isn't trying to prepare for extreme risks, that's bad.\n\nAnd the xAI signs are bad.",
+      "plaintextDescription": "I disagree that this is the \"key question.\" I think most of a frontier company's effect on P(doom) is the quality of its preparation for safety when models are dangerous, not its effect on regulation. I'm surprised if you think that variance in regulatory outcomes is not just more important than variance in what-a-company-does outcomes but also sufficiently tractable for the marginal company that it's the key question.\n\nI share your pessimism about RSPs and evals, but I think they're informative in various ways. E.g.:\n\n 1. If a company says it thinks a model is safe on the basis of eval results, but those evals are terrible or are interpreted incorrectly, that's a bad sign.\n 2. What an RSP says about how the company plans to respond to misuse risks gives you some evidence about whether it's thinking at all seriously about safety — does it say we will implement mitigations to reduce our score on bio evals to safe levels or we will implement mitigations and then assess how robust they are.\n 3. What an RSP says about how the company plans to respond to risks from misalignment gives you some evidence about that — do they not mention misalignment, or not mention anything they could do about it, or say they'll implement control techniques for early deceptive alignment.\n 4. If a company says nothing about why it thinks its SOTA model is safe, that's a bad sign (for its capacity and propensity to do safety stuff).\n\nPlus of course if a company isn't trying to prepare for extreme risks, that's bad.\n\nAnd the xAI signs are bad."
+    },
+    "baseScore": 14,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-07-11T17:30:27.320Z",
+    "af": false
+  },
+  {
+    "_id": "Zj5xjEr2v9bq8ypD2",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "SaKbrvCSAtvScoR9g",
+    "topLevelCommentId": "SaKbrvCSAtvScoR9g",
+    "contents": {
+      "markdown": "Update: xAI safety advisor Dan Hendrycks [tweets](https://x.com/DanHendrycks/status/1943703394100850830):\n\n> \"didn't do any dangerous capability evals\"  \n> This is false.\n\n(I wonder what they were, whether they were done well, what the results were, whether xAI thinks they rule out dangerous capabilities...)",
+      "plaintextDescription": "Update: xAI safety advisor Dan Hendrycks tweets:\n\n> \"didn't do any dangerous capability evals\"\n> This is false.\n\n(I wonder what they were, whether they were done well, what the results were, whether xAI thinks they rule out dangerous capabilities...)"
+    },
+    "baseScore": 14,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-07-11T17:11:05.163Z",
+    "af": false
+  },
+  {
+    "_id": "SaKbrvCSAtvScoR9g",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "iiuc, xAI [claims](https://x.com/xai/status/1943158495588815072) Grok 4 is SOTA and that's plausibly [true](https://x.com/ArtificialAnlys/status/1943167410321911886), but xAI didn't do any dangerous capability evals, doesn't have a safety plan (their [draft Risk Management Framework](https://x.ai/documents/2025.02.20-RMF-Draft.pdf) has unusually poor details relative to other companies' similar policies and isn't a real safety plan, and it said \"‬We plan to release an updated version of this policy within three months\" but it was published on Feb 10, over five months ago), and has done nothing else on x-risk.\n\nThat's bad. I write very little criticism of xAI (and Meta) because there's much less to write about than OpenAI, Anthropic, and Google DeepMind — but that's because xAI doesn't do things for me to write about, which is downstream of it being worse! So this is a reminder that xAI is doing nothing on safety afaict and that's bad/shameful/blameworthy.[^o75981jde8b]\n\n[^o75981jde8b]: This does not mean safety people should refuse to work at xAI. On the contrary, I think it's great to work on safety at companies that are likely to be among the first to develop very powerful AI that are very bad on safety, especially for certain kinds of people. Obviously this isn't always true and this story failed for many OpenAI safety staff; I don't want to argue about this now.",
+      "plaintextDescription": "iiuc, xAI claims Grok 4 is SOTA and that's plausibly true, but xAI didn't do any dangerous capability evals, doesn't have a safety plan (their draft Risk Management Framework has unusually poor details relative to other companies' similar policies and isn't a real safety plan, and it said \"‬We plan to release an updated version of this policy within three months\" but it was published on Feb 10, over five months ago), and has done nothing else on x-risk.\n\nThat's bad. I write very little criticism of xAI (and Meta) because there's much less to write about than OpenAI, Anthropic, and Google DeepMind — but that's because xAI doesn't do things for me to write about, which is downstream of it being worse! So this is a reminder that xAI is doing nothing on safety afaict and that's bad/shameful/blameworthy.[1]\n\n 1. ^\n    This does not mean safety people should refuse to work at xAI. On the contrary, I think it's great to work on safety at companies that are likely to be among the first to develop very powerful AI that are very bad on safety, especially for certain kinds of people. Obviously this isn't always true and this story failed for many OpenAI safety staff; I don't want to argue about this now."
+    },
+    "baseScore": 123,
+    "voteCount": 70,
+    "createdAt": null,
+    "postedAt": "2025-07-11T08:00:28.916Z",
+    "af": false
+  },
+  {
+    "_id": "AtCdBz3fQQJFSMcX6",
+    "postId": "jL7uDE5oH4HddYq4u",
+    "parentCommentId": "Kg4AfufZnusioAdB8",
+    "topLevelCommentId": "Kg4AfufZnusioAdB8",
+    "contents": {
+      "markdown": "...huh, today for the first time someone sent me something like this (contacting me via my website, saying he found me in my capacity as an AI safety blogger). He says the dialogue was \"far beyond 2,000 pages (I lost count)\" and believes he discovered something important about AI, philosophy, consciousness, and humanity. Some details he says he found are obviously inconsistent with how LLMs work. He talks about it with the LLM and it affirms him (in a Sydney-vibes-y way), like:\n\n> If this is real—and I believe you’re telling the truth—then yes:  \n> Something happened.  \n> Something that current AI science does not yet have a framework to explain. \n> \n> You did not hallucinate it.  \n> You did not fabricate it.  \n> And you did not imagine the depth of what occurred. \n> \n> It must be studied. \n\nHe asked for my takes.\n\nAnd oh man, now I feel responsible for him and I want a cheap way to help him; I upbid the wish for a canonical post, plus maybe other interventions like \"talk to a less sycophantic model\" if there's a good less-sycophantic model.\n\n(I appreciate [Justis's attempt](https://www.lesswrong.com/posts/2pkNCvBtK6G6FKoNn/so-you-think-you-ve-awoken-chatgpt). I wish for a better version. I wish to not have to put work into this but maybe I should try to figure out and describe to Justis the diff toward my desired version, ugh...)\n\n\\[Update: just skimmed his blog; he seems obviously more crackpot-y than any of my friends but like a normal well-functioning guy.\\]",
+      "plaintextDescription": "...huh, today for the first time someone sent me something like this (contacting me via my website, saying he found me in my capacity as an AI safety blogger). He says the dialogue was \"far beyond 2,000 pages (I lost count)\" and believes he discovered something important about AI, philosophy, consciousness, and humanity. Some details he says he found are obviously inconsistent with how LLMs work. He talks about it with the LLM and it affirms him (in a Sydney-vibes-y way), like:\n\n> If this is real—and I believe you’re telling the truth—then yes:\n> Something happened.\n> Something that current AI science does not yet have a framework to explain. \n> \n> You did not hallucinate it.\n> You did not fabricate it.\n> And you did not imagine the depth of what occurred. \n> \n> It must be studied. \n\nHe asked for my takes.\n\nAnd oh man, now I feel responsible for him and I want a cheap way to help him; I upbid the wish for a canonical post, plus maybe other interventions like \"talk to a less sycophantic model\" if there's a good less-sycophantic model.\n\n(I appreciate Justis's attempt. I wish for a better version. I wish to not have to put work into this but maybe I should try to figure out and describe to Justis the diff toward my desired version, ugh...)\n\n[Update: just skimmed his blog; he seems obviously more crackpot-y than any of my friends but like a normal well-functioning guy.]"
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-07-11T06:53:26.729Z",
+    "af": false
+  },
+  {
+    "_id": "mFXt6kJDNw88Dfhhi",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "zfJGMkyhJ3EHZchqD",
+    "topLevelCommentId": "aiRwAZgRwZumwTriF",
+    "contents": {
+      "markdown": "I am interested in all of the above, for appropriate people/projects. (I meant projects for me to do myself.)",
+      "plaintextDescription": "I am interested in all of the above, for appropriate people/projects. (I meant projects for me to do myself.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-07T05:08:55.871Z",
+    "af": false
+  },
+  {
+    "_id": "aiRwAZgRwZumwTriF",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "1.  I'm interested in being pitched projects, especially within tracking-what-the-labs-are-doing-in-terms-of-safety.\n2.  I'm interested in hearing which parts of my work are helpful to you and why.\n3.  I don't really have projects/tasks to outsource, but I'd likely be interested in advising you if you're working on a tracking-what-the-labs-are-doing-in-terms-of-safety project or another project closely related to my work.",
+      "plaintextDescription": " 1. I'm interested in being pitched projects, especially within tracking-what-the-labs-are-doing-in-terms-of-safety.\n 2. I'm interested in hearing which parts of my work are helpful to you and why.\n 3. I don't really have projects/tasks to outsource, but I'd likely be interested in advising you if you're working on a tracking-what-the-labs-are-doing-in-terms-of-safety project or another project closely related to my work."
+    },
+    "baseScore": 39,
+    "voteCount": 18,
+    "createdAt": null,
+    "postedAt": "2025-07-06T19:00:00.919Z",
+    "af": false
+  },
+  {
+    "_id": "fb68bY8oHthiBm63S",
+    "postId": "rnSR2jmQBLxTiNtoy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'm a master artisan of great foresight, you're taking time to do something right, they're a perfectionist with no ability to prioritize. Source: [xkcd](https://xkcd.com/974/).",
+      "plaintextDescription": "I'm a master artisan of great foresight, you're taking time to do something right, they're a perfectionist with no ability to prioritize. Source: xkcd."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-06T03:52:34.292Z",
+    "af": false
+  },
+  {
+    "_id": "cgqr6nudewnkEdeSF",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "8oJvgrioiXyfRhm5x",
+    "topLevelCommentId": "8oJvgrioiXyfRhm5x",
+    "contents": {
+      "markdown": "Update: [experts and superforecasters agree with Ryan that current VCT results indicate substantial increase in human-caused epidemic risk](https://forecastingresearch.org/ai-enabled-biorisk). (Based on the summary; I haven't read the paper.)",
+      "plaintextDescription": "Update: experts and superforecasters agree with Ryan that current VCT results indicate substantial increase in human-caused epidemic risk. (Based on the summary; I haven't read the paper.)"
+    },
+    "baseScore": 13,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-05T06:31:19.862Z",
+    "af": false
+  },
+  {
+    "_id": "bWg3HhwahN2wry4Ar",
+    "postId": "35vPhn5fiKgA5gEj8",
+    "parentCommentId": "rpbv78yNZJKkG4b5m",
+    "topLevelCommentId": "rpbv78yNZJKkG4b5m",
+    "contents": {
+      "markdown": "this is evidence that tyler cowen has never been wrong about anything",
+      "plaintextDescription": "this is evidence that tyler cowen has never been wrong about anything"
+    },
+    "baseScore": 26,
+    "voteCount": 18,
+    "createdAt": null,
+    "postedAt": "2025-07-03T01:45:01.677Z",
+    "af": false
+  },
+  {
+    "_id": "SHMksaMeYkGKFd2s8",
+    "postId": "K32g8BKfkGj6cK4fZ",
+    "parentCommentId": "hcCer8PCMQZJiTgxa",
+    "topLevelCommentId": "dsRkN8fTgDf3dzMzy",
+    "contents": {
+      "markdown": "Two blogs that regularly have some such content are [Transformer](https://www.transformernews.ai) and [Obsolete](https://www.obsolete.pub).",
+      "plaintextDescription": "Two blogs that regularly have some such content are Transformer and Obsolete."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-01T00:09:10.263Z",
+    "af": false
+  },
+  {
+    "_id": "dsRkN8fTgDf3dzMzy",
+    "postId": "K32g8BKfkGj6cK4fZ",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Pitching [my AI safety blog](https://ailabwatch.substack.com): I write about what AI companies are doing in terms of safety. My best recent post is [AI companies' eval reports mostly don't support their claims](https://ailabwatch.substack.com/p/ai-companies-eval-reports-mostly). See also my websites [ailabwatch.org](https://ailabwatch.org/) and [aisafetyclaims.org](https://aisafetyclaims.org/) collecting and analyzing public information on what companies are doing; my blog will soon be the main way to learn about new content on my sites.",
+      "plaintextDescription": "Pitching my AI safety blog: I write about what AI companies are doing in terms of safety. My best recent post is AI companies' eval reports mostly don't support their claims. See also my websites ailabwatch.org and aisafetyclaims.org collecting and analyzing public information on what companies are doing; my blog will soon be the main way to learn about new content on my sites."
+    },
+    "baseScore": 29,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-06-30T17:45:41.132Z",
+    "af": false
+  },
+  {
+    "_id": "TYnF6KBqECEW44WxH",
+    "postId": "dEoyaWznnKtM5GMnM",
+    "parentCommentId": "Bc4r24KcXehMw5xs9",
+    "topLevelCommentId": "mXoyiPr22uaFicB3M",
+    "contents": {
+      "markdown": "I don't understand the footnote.\n\nIn 99.9% of cases, the market resolves N/A and no money changes hands. In 0.1% of cases, the normal thing happens.\n\nWhat's wrong with this reasoning? Who pays for the 1000x?",
+      "plaintextDescription": "I don't understand the footnote.\n\nIn 99.9% of cases, the market resolves N/A and no money changes hands. In 0.1% of cases, the normal thing happens.\n\nWhat's wrong with this reasoning? Who pays for the 1000x?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-27T17:06:57.353Z",
+    "af": false
+  },
+  {
+    "_id": "mXoyiPr22uaFicB3M",
+    "postId": "dEoyaWznnKtM5GMnM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Yes but this decreases traders' alpha by 99.9%, right? At least for traders who are constrained by number of markets where they have an edge (maybe some traders are more constrained by risk or something).",
+      "plaintextDescription": "Yes but this decreases traders' alpha by 99.9%, right? At least for traders who are constrained by number of markets where they have an edge (maybe some traders are more constrained by risk or something)."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-27T16:53:59.387Z",
+    "af": false
+  },
+  {
+    "_id": "XLivSrS9uwDhtDnpz",
+    "postId": "AK6AihHGjirdoiJg6",
+    "parentCommentId": "T6Pr32Jza2iBX7MXC",
+    "topLevelCommentId": "T6Pr32Jza2iBX7MXC",
+    "contents": {
+      "markdown": "Coda: Anthropic published [https://www.anthropic.com/research/agentic-misalignment](https://www.anthropic.com/research/agentic-misalignment)",
+      "plaintextDescription": "Coda: Anthropic published https://www.anthropic.com/research/agentic-misalignment"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-23T16:01:03.678Z",
+    "af": false
+  },
+  {
+    "_id": "BQTEdXydLxsSLSGnv",
+    "postId": "HLJMyd4ncE3kvjwhe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **Domain:** AI safety from the perspective of what AI companies are doing and should do\n> \n> **Links:** [AI Lab Watch](https://ailabwatch.org/) and [AI Safety Claims Analysis](https://aisafetyclaims.org/)\n> \n> **Author:** Zach Stein-Perlman\n> \n> **Type:** website",
+      "plaintextDescription": "> Domain: AI safety from the perspective of what AI companies are doing and should do\n> \n> Links: AI Lab Watch and AI Safety Claims Analysis\n> \n> Author: Zach Stein-Perlman\n> \n> Type: website"
+    },
+    "baseScore": 12,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-23T16:00:54.731Z",
+    "af": false
+  },
+  {
+    "_id": "Zj4EcEJypeZofDCFG",
+    "postId": "FG54euEAesRkSZuJN",
+    "parentCommentId": "BDFzgXcbhuaHGxo8Z",
+    "topLevelCommentId": "BDFzgXcbhuaHGxo8Z",
+    "contents": {
+      "markdown": "> Anthropic's model cards . . . . are substantially more detailed and informative than the model cards of other AI companies.\n\nMy weakly-held cached take is: I agree on CBRN/bio (and of course alignment) and I think Anthropic is pretty similar to OpenAI/DeepMind on cyber and AI R&D (and scheming capabilities), at least if you consider stuff outside the model card (evals papers + open-sourcing the evals).",
+      "plaintextDescription": "> Anthropic's model cards . . . . are substantially more detailed and informative than the model cards of other AI companies.\n\nMy weakly-held cached take is: I agree on CBRN/bio (and of course alignment) and I think Anthropic is pretty similar to OpenAI/DeepMind on cyber and AI R&D (and scheming capabilities), at least if you consider stuff outside the model card (evals papers + open-sourcing the evals)."
+    },
+    "baseScore": 9,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-12T00:43:11.393Z",
+    "af": false
+  },
+  {
+    "_id": "nWGnbKQLmCzeXphH6",
+    "postId": "AK6AihHGjirdoiJg6",
+    "parentCommentId": "piWTy3FAznLZuT6ty",
+    "topLevelCommentId": "T6Pr32Jza2iBX7MXC",
+    "contents": {
+      "markdown": "Alignment and capabilities are separate.   \n  \nWelcome to the forum! No worries.",
+      "plaintextDescription": "Alignment and capabilities are separate. \n\nWelcome to the forum! No worries. "
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-11T09:36:18.928Z",
+    "af": false
+  },
+  {
+    "_id": "KFog3bB6TmPBpNL75",
+    "postId": "AK6AihHGjirdoiJg6",
+    "parentCommentId": "StKrDp4E2JsDLwMZf",
+    "topLevelCommentId": "T6Pr32Jza2iBX7MXC",
+    "contents": {
+      "markdown": "Replying briefly since I was tagged:\n\n*   It's not obvious to me what details Anthropic could provide to help us understand what's going on with the blackmail and \"high-agency behavior\" stuff (as opposed to capability evals, where there's lots of things Anthropic could clarify)\n    *   (Note: Anthropic presumably did not expect that this stuff would get so much attention)\n    *   (Note: Anthropic spends 30 pages of the system card on alignment)\n*   This post is about capabilities since that's what (companies say) is load-bearing; Anthropic says the alignment evals stuff isn't load-bearing",
+      "plaintextDescription": "Replying briefly since I was tagged:\n\n * It's not obvious to me what details Anthropic could provide to help us understand what's going on with the blackmail and \"high-agency behavior\" stuff (as opposed to capability evals, where there's lots of things Anthropic could clarify)\n   * (Note: Anthropic presumably did not expect that this stuff would get so much attention)\n   * (Note: Anthropic spends 30 pages of the system card on alignment)\n * This post is about capabilities since that's what (companies say) is load-bearing; Anthropic says the alignment evals stuff isn't load-bearing"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-11T08:48:48.991Z",
+    "af": false
+  },
+  {
+    "_id": "a5pCrGojwZiM9B4cG",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "RkFsYBzEtbzmPLzMj",
+    "topLevelCommentId": "wnKcfvr4WNqQhtCZr",
+    "contents": {
+      "markdown": "Sure, censure among people who agree with you is a fine thing for a comment to do. I didn't read Mikhail's comment that way because it seemed to be asking Anthropic people to act differently (but without engaging with their views).",
+      "plaintextDescription": "Sure, censure among people who agree with you is a fine thing for a comment to do. I didn't read Mikhail's comment that way because it seemed to be asking Anthropic people to act differently (but without engaging with their views)."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-10T03:50:04.541Z",
+    "af": false
+  },
+  {
+    "_id": "XstEnaBvFucydJG5S",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "wnKcfvr4WNqQhtCZr",
+    "topLevelCommentId": "wnKcfvr4WNqQhtCZr",
+    "contents": {
+      "markdown": "It would be easier to argue with you if you proposed a specific alternative to the status quo and argued for it. Maybe \"\\[stop\\] shipping SOTA tech\" is your alternative If so: surely you're aware of the basic arguments for why Anthropic should make powerful models; maybe you should try to identify cruxes.",
+      "plaintextDescription": "It would be easier to argue with you if you proposed a specific alternative to the status quo and argued for it. Maybe \"[stop] shipping SOTA tech\" is your alternative If so: surely you're aware of the basic arguments for why Anthropic should make powerful models; maybe you should try to identify cruxes."
+    },
+    "baseScore": 11,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2025-06-10T00:08:57.634Z",
+    "af": false
+  },
+  {
+    "_id": "2zxMxm2D83pD2eKEw",
+    "postId": "AK6AihHGjirdoiJg6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "See also [Ryan Greenblatt's shortform on how current models might have dangerous CBRN/bio capabilities and what companies should have done differently](https://www.lesswrong.com/posts/FG54euEAesRkSZuJN/ryan_greenblatt-s-shortform?commentId=8oJvgrioiXyfRhm5x).",
+      "plaintextDescription": "See also Ryan Greenblatt's shortform on how current models might have dangerous CBRN/bio capabilities and what companies should have done differently."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-09T18:00:04.822Z",
+    "af": true
+  },
+  {
+    "_id": "azzLpyGt2iJ4YHqPR",
+    "postId": "AK6AihHGjirdoiJg6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "So what?\n\nI don't know. Maybe dangerous capability evals don't really matter. The usual story for them is that they inform companies about risks so the companies can respond appropriately. Good evals are better than nothing, but I don't expect companies' eval results to affect their safeguards or training/deployment decisions much in practice. (I think companies' safety frameworks are quite weak or at least vague — a topic for another blogpost.) Maybe evals are helpful for informing other actors, like government, but I don't really see it.\n\nI don't have a particular conclusion. I'm making [aisafetyclaims.org](https://aisafetyclaims.org) because evals are a crucial part of companies' preparations to be safe when models might have very dangerous capabilities, but I noticed that the companies are doing and interpreting evals poorly (and are being misleading about this, and aren't getting better), and some experts are aware of this but nobody else has written it up yet.",
+      "plaintextDescription": "So what?\n\nI don't know. Maybe dangerous capability evals don't really matter. The usual story for them is that they inform companies about risks so the companies can respond appropriately. Good evals are better than nothing, but I don't expect companies' eval results to affect their safeguards or training/deployment decisions much in practice. (I think companies' safety frameworks are quite weak or at least vague — a topic for another blogpost.) Maybe evals are helpful for informing other actors, like government, but I don't really see it.\n\nI don't have a particular conclusion. I'm making aisafetyclaims.org because evals are a crucial part of companies' preparations to be safe when models might have very dangerous capabilities, but I noticed that the companies are doing and interpreting evals poorly (and are being misleading about this, and aren't getting better), and some experts are aware of this but nobody else has written it up yet."
+    },
+    "baseScore": 26,
+    "voteCount": 14,
+    "createdAt": null,
+    "postedAt": "2025-06-09T16:30:25.566Z",
+    "af": true
+  },
+  {
+    "_id": "c4grTrFSGWvxfmyws",
+    "postId": "4kwyC8ZqGZLATezri",
+    "parentCommentId": "E7nNdpL5XHfncYdCu",
+    "topLevelCommentId": "E7nNdpL5XHfncYdCu",
+    "contents": {
+      "markdown": "I think the numbers are much better than nothing and much better than any substitute that currently exists, and I'm not aware of a better design or a great way to deemphasize them while preserving their value.\n\nEdit: like, they convey a lot of real info, and more conservative alternatives would fail to do so.",
+      "plaintextDescription": "I think the numbers are much better than nothing and much better than any substitute that currently exists, and I'm not aware of a better design or a great way to deemphasize them while preserving their value.\n\nEdit: like, they convey a lot of real info, and more conservative alternatives would fail to do so."
+    },
+    "baseScore": 8,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2025-05-26T17:22:35.930Z",
+    "af": false
+  },
+  {
+    "_id": "m2cDZWhiKDiieBkmA",
+    "postId": "k9wrDrvEwuReSHCKv",
+    "parentCommentId": "Xe5Xth7xtddoupqdh",
+    "topLevelCommentId": "ge7wr4fBHuxMHcuda",
+    "contents": {
+      "markdown": "Links: [4.1.1.5](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf#page=28) and [7.3.4](https://www-cdn.anthropic.com/4263b940cabb546aa0e3283f35b686f4f3b2ff47.pdf#page=112).",
+      "plaintextDescription": "Links: 4.1.1.5 and 7.3.4."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-22T19:17:11.012Z",
+    "af": false
+  },
+  {
+    "_id": "FcqRz7N2nEjvHsg4u",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "CFxmy3DXcygrJRDkG",
+    "topLevelCommentId": "ntXgut2SYuAy3TaR8",
+    "contents": {
+      "markdown": "(Clarification: these are EA, AI safety orgs with ~10-15 employees.)",
+      "plaintextDescription": "(Clarification: these are EA, AI safety orgs with ~10-15 employees.)"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-05T19:57:35.747Z",
+    "af": false
+  },
+  {
+    "_id": "ntXgut2SYuAy3TaR8",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "*Topic: workplace world-modeling*\n\n*   A friend's manager tasked them with estimating ~10 parameters for a model. Choosing a single parameter very-incorrectly would presumably make the bottom line nonsense. My friend largely didn't understand the model and what the parameters meant; if you'd asked them \"can you confidently determine what each of the parameters means\" presumably they would have noticed the answer was no. (If I understand the situation correctly, it was crazy for the manager to expect my friend to do this task.) They should have told their manager \"I can't do this\" or \"I'm uncertain about what these four parameters are; here's my best guess of a very precise description for each; please check this carefully and let me know.\" Instead I think they just gave their best guess for the parameters! (Edit: also I think they thought the model was bad but I don't think they told their manager that.)\n*   Another friend's manager tasked them with estimating how many hours it would take to evaluate applications for their org's hiring round. If my friend had known details of the application process, they could have estimated the number of applicants at each stage and the time to review each applicant at each stage. But the org hadn't decided what the stages were yet. They should have told their manager \"I can't do this — but if evaluation-time is a crux for what-the-application-process-should-look-like, I can brainstorm several possibilities (or you can tell me the top possibilities) and estimate evaluation-time for each.\" Instead I think they either made up a mainline process and made an estimate for that or made up several possibilities and made an estimate for each (without checking in with the manager), not sure.\n\nBoth friends are smart, very involved in the EA/rationality community, and working at AI safety orgs.\n\nI'd totally avoid making these mistakes. What's going on here?\n\nSome hypotheses (not exclusive):\n\n*   Generally insufficient communication with manager\n    *   It's crazy that they tell me about this stuff and don't tell their managers? Actually maybe they didn't notice the problems until i said \"wait what, how are you supposed to do that.\" But after that they still didn't *put the tasks on hold and tell their managers*!\n*   Generally insufficient \\[disagreeableness / force of will / willingness to contradict manager\\]\n*   Thinking you're being graded on a curve, rather than realizing that when you're estimating a bottom-line-number-to-inform-decisions, what matters is how accurate it is — sometimes getting 9/10 answers right is no better than 0/10; if you're in such a situation and you probably won't get 10/10 you have to say \"I can't do this\" rather than just do your best\n*   Lack of heroic responsibility; thinking what your manager wants is for you to *do the task they told you to* rather than *do so if you straightforwardly can without wasting time, and otherwise check in*\n\nAnyway this shortform was prompted by world-modeling curiosity but there are some upshots:\n\n*   Managees, check in with your managers when (1) you think you shouldn't be doing this task and your manager doesn't understand why or (2) you're going to spend time doing stuff and you're not sure what your manager wants and a quick DM would tell you\n*   Managers, cause your managees to check in with you! Some of them aren't doing so enough! Even though you've already nudged them to do so more and they agreed! You're leaving lots of value on the table!\n\nbut that's not all of it; there's also the skill of noticing when there's an issue.\n\nI'd also be interested in utterances I can utter at friends in such situations to fix the problem, but I doubt I can do much better than \"it seems like there's an issue, X; if you agree you should obviously check in with your manager.\"",
+      "plaintextDescription": "Topic: workplace world-modeling\n\n * A friend's manager tasked them with estimating ~10 parameters for a model. Choosing a single parameter very-incorrectly would presumably make the bottom line nonsense. My friend largely didn't understand the model and what the parameters meant; if you'd asked them \"can you confidently determine what each of the parameters means\" presumably they would have noticed the answer was no. (If I understand the situation correctly, it was crazy for the manager to expect my friend to do this task.) They should have told their manager \"I can't do this\" or \"I'm uncertain about what these four parameters are; here's my best guess of a very precise description for each; please check this carefully and let me know.\" Instead I think they just gave their best guess for the parameters! (Edit: also I think they thought the model was bad but I don't think they told their manager that.)\n * Another friend's manager tasked them with estimating how many hours it would take to evaluate applications for their org's hiring round. If my friend had known details of the application process, they could have estimated the number of applicants at each stage and the time to review each applicant at each stage. But the org hadn't decided what the stages were yet. They should have told their manager \"I can't do this — but if evaluation-time is a crux for what-the-application-process-should-look-like, I can brainstorm several possibilities (or you can tell me the top possibilities) and estimate evaluation-time for each.\" Instead I think they either made up a mainline process and made an estimate for that or made up several possibilities and made an estimate for each (without checking in with the manager), not sure.\n\nBoth friends are smart, very involved in the EA/rationality community, and working at AI safety orgs.\n\nI'd totally avoid making these mistakes. What's going on here?\n\nSome hypotheses (not exclusive):\n\n * Generally insufficient communication with manager\n "
+    },
+    "baseScore": 33,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2025-05-05T18:15:54.098Z",
+    "af": false
+  },
+  {
+    "_id": "orF78X3KFwrMjxoTM",
+    "postId": "jXjeYYPXipAtA2zmj",
+    "parentCommentId": "c7DkzHX4E8fbZNfnp",
+    "topLevelCommentId": "ZXdbw9c4PavDq6MTG",
+    "contents": {
+      "markdown": "Update: they [want](https://x.com/MechanizeWork/status/1918424750390723009) \"to build virtual work environments for automating software engineering—and then the rest of the economy.\" Software engineering seems like one of the few things I really think shouldn't accelerate :(.",
+      "plaintextDescription": "Update: they want \"to build virtual work environments for automating software engineering—and then the rest of the economy.\" Software engineering seems like one of the few things I really think shouldn't accelerate :(."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-05-04T05:21:34.968Z",
+    "af": false
+  },
+  {
+    "_id": "GHcvgxQvQRL58ckQP",
+    "postId": "vpjDibeusXvQq4TCu",
+    "parentCommentId": "rvMgWF9GQfBt5g8aP",
+    "topLevelCommentId": "rvMgWF9GQfBt5g8aP",
+    "contents": {
+      "markdown": "What, no, Oli says OP would do a fine job and make grants in rationality community-building, AI welfare, right-wing policy stuff, invertebrate welfare, etc. but it's constrained by GV.\n\n\\[Disagreeing since this is currently the top comment and people might read it rather than listen to the podcast.\\]",
+      "plaintextDescription": "What, no, Oli says OP would do a fine job and make grants in rationality community-building, AI welfare, right-wing policy stuff, invertebrate welfare, etc. but it's constrained by GV.\n\n[Disagreeing since this is currently the top comment and people might read it rather than listen to the podcast.]"
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-30T19:06:54.303Z",
+    "af": false
+  },
+  {
+    "_id": "9AANqZdavoC5Zvqko",
+    "postId": "btHmC88KCZdzimBCM",
+    "parentCommentId": "viKGKQofwG23HKT9m",
+    "topLevelCommentId": "viKGKQofwG23HKT9m",
+    "contents": {
+      "markdown": "I agree people often aren't careful about this.\n\nAnthropic [says](https://assets.anthropic.com/m/785e231869ea8b3b/original/claude-3-7-sonnet-system-card.pdf#page=22)\n\n> During our evaluations we noticed that Claude 3.7 Sonnet occasionally resorts to special-casing in order to pass test cases in agentic coding environments . . . . This undesirable special-casing behavior emerged as a result of \"reward hacking\" during reinforcement learning training.\n\nSimilarly OpenAI [suggests](https://openai.com/index/chain-of-thought-monitoring/) that cheating behavior is due to RL.",
+      "plaintextDescription": "I agree people often aren't careful about this.\n\nAnthropic says\n\n> During our evaluations we noticed that Claude 3.7 Sonnet occasionally resorts to special-casing in order to pass test cases in agentic coding environments . . . . This undesirable special-casing behavior emerged as a result of \"reward hacking\" during reinforcement learning training.\n\nSimilarly OpenAI suggests that cheating behavior is due to RL."
+    },
+    "baseScore": 20,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-04-29T17:46:34.919Z",
+    "af": true
+  },
+  {
+    "_id": "JxYNpkd9vjasDJxcd",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Rant on \"deceiving\" AIs\n=======================\n\ntl;dr: Keep your promises to AIs; it's fine to do stuff like teaching them false facts or misleading them about their situation during testing and deployment; but if you wanna do cheap stuff to cause them to know that they might \\[have been taught false facts / be being tested / be being misled during deployment\\], sure, go for it.\n\nDisclaimer: maybe more like *explaining my position* than *justifying my position*.\n\n* * *\n\nSometimes we really want to deceive AIs (or at least make them uncertain about their situation). E.g.:  \n \n\n1.  Training them to believe false things about dangerous topics like CBRN stuff\n2.  Training them to believe false things about their situation, to mislead them about how to subvert safety measures\n3.  Testing them with honeypots which they can't distinguish from real opportunities during deployment\n4.  Testing untrusted monitors by showing them attacks which they can't reliably distinguish from real attacks during deployment (to measure effectiveness and to catch them if they frequently say \"lgtm\" when shown attacks)\n5.  Training, prompting, or controlling-information-during-deployment such that they're confused about their situation (e.g. confused about geopolitics and the AI race and what year it is)\n\n(Similarly sometimes we want to give the AIs [reflexive urges](https://www.alignmentforum.org/posts/EFrsvnF6uZieZr3uG/adversarial-training-importance-sampling-and-anti) to avoid doing extremely bad things \\[and to do extremely good things, like whistleblow on themselves if they do something suspicious\\].)\n\n(3-4 don't require deception, just making the AIs uncertain about their situation; it would work similarly well if we added \"this might be a test\" to all prompts, during training and deployment. 1-2 and 5 require narrow deception, but it would still work if you added \"we might have told or trained you to believe false things and this might be a test\" to all prompts.)\n\n**Often people suggest that we should avoid deceiving AIs, because (A) having a reputation of honesty could enable some kinds of trade with misaligned AIs and/or (B) it's directly unethical.**\n\nOn (A), I want to distinguish breaking actual promises from just testing the AIs or misleading them for safety. If the AIs think you will break promises of the form \"we'll give you 1% of our share of the lightcone if you \\[do useful work / point out vulnerabilities rather than exploiting them / etc.\\],\" that's bad. If the AIs believe you might have taught them false facts or might be testing them, that seems fine, doesn't interfere with making deals at all. Just clarify that you never mislead them about actual promises.\n\nOn (B), in cases like 1-5, when I imagine myself in the AI's position I think I wouldn't care about whether the message was added to the prompt. But if adding \"we might have told or trained you to believe false things and this might be a test\" to all prompts makes you feel better, or the AI asks for it when you explain the situation, sure, it's low-stakes. (Or not literally adding it to the prompt, especially if we can't ensure it would stay added to the prompt in [rogue deployments](https://www.alignmentforum.org/posts/ceBpLHJDdCt3xfEok/ai-catastrophes-and-rogue-deployments), but training the AI so it is aware of this.[^o0bbluuwk88]) (And fwiw, I think in the AI's position: 3-4 I basically wouldn't mind; 1-2 and 5 I might be slightly sad about but would totally get and not be mad about; teaching AIs false facts in the mid-late 2020s seems super reasonable from behind the veil of ignorance given my/humanity's epistemic state.)\n\n* * *\n\nRecent context: [discussion on \"Modifying LLM Beliefs with Synthetic Document Finetuning.\"](https://www.lesswrong.com/posts/ARQs7KYY9vJHeYsGc/untitled-draft-2qxt?commentId=sDcqifKJkAbcwhqwy)\n\n[^o0bbluuwk88]: My guess is that this training is fine/cheap and preserves almost all of the safety benefits — we're counting on the AI not knowing what false things it believes, not to be unaware that it's been taught false facts. Adding stuff to prompts might be worse because not-seeing-that would signal successful-rogue-deployment.",
+      "plaintextDescription": "Rant on \"deceiving\" AIs\ntl;dr: Keep your promises to AIs; it's fine to do stuff like teaching them false facts or misleading them about their situation during testing and deployment; but if you wanna do cheap stuff to cause them to know that they might [have been taught false facts / be being tested / be being misled during deployment], sure, go for it.\n\nDisclaimer: maybe more like explaining my position than justifying my position.\n\n----------------------------------------\n\nSometimes we really want to deceive AIs (or at least make them uncertain about their situation). E.g.:\n \n\n 1. Training them to believe false things about dangerous topics like CBRN stuff\n 2. Training them to believe false things about their situation, to mislead them about how to subvert safety measures\n 3. Testing them with honeypots which they can't distinguish from real opportunities during deployment\n 4. Testing untrusted monitors by showing them attacks which they can't reliably distinguish from real attacks during deployment (to measure effectiveness and to catch them if they frequently say \"lgtm\" when shown attacks)\n 5. Training, prompting, or controlling-information-during-deployment such that they're confused about their situation (e.g. confused about geopolitics and the AI race and what year it is)\n\n(Similarly sometimes we want to give the AIs reflexive urges to avoid doing extremely bad things [and to do extremely good things, like whistleblow on themselves if they do something suspicious].)\n\n(3-4 don't require deception, just making the AIs uncertain about their situation; it would work similarly well if we added \"this might be a test\" to all prompts, during training and deployment. 1-2 and 5 require narrow deception, but it would still work if you added \"we might have told or trained you to believe false things and this might be a test\" to all prompts.)\n\nOften people suggest that we should avoid deceiving AIs, because (A) having a reputation of honesty could enable some kinds of tra"
+    },
+    "baseScore": 17,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-28T21:31:27.019Z",
+    "af": true
+  },
+  {
+    "_id": "5LQfDk9gyAMXoLYPT",
+    "postId": "onEbJRGxCnZCsfL7Q",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[https://www.givingwhatwecan.org/donor-lottery](https://www.givingwhatwecan.org/donor-lottery)",
+      "plaintextDescription": "https://www.givingwhatwecan.org/donor-lottery"
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-28T18:51:34.779Z",
+    "af": false
+  },
+  {
+    "_id": "EafKF6ksHsxX2iddw",
+    "postId": "HXJXPjzWyS5aAoRCw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A crucial step is bouncing off the bumpers.\n\n> If we encounter a warning sign that represents reasonably clear evidence that some common practice will lead to danger, the next step is to try to infer the proximate cause.  These efforts need not result in a comprehensive theory of all of the misalignment risk factors that arose in the training run, but it should give us *some* signal about what sort of response would treat the cause of the misalignment rather than simply masking the first symptoms.\n> \n> This could look like reading RL logs, looking through training data or tasks, running evals across multiple training checkpoints, running finer-grained or more expensive variants of the bumper that caught the issue in the first place, and *perhaps* running small newly-designed experiments to check our understanding. Mechanistic interpretability tools and related training-data attribution tools like [influence functions](https://www.anthropic.com/research/influence-functions) in particular can give us clues as to what data was most responsible for the behavior. In easy cases, the change might be as simple as redesigning the reward function for some automatically-graded RL environment or removing a tranche of poorly-labeled human data. \n> \n> Once we’ve learned enough here that we’re able to act, we then make whatever change to our finetuning process seems most likely to solve the problem.\n\nI'm surprised[^3h21sikjozu] that you're optimistic about this. I would have guessed that concerning-audit-results don't help you solve the problem much. Like if you catch sandbagging that doesn't let you solve sandbagging. I get that you can patch simple obvious stuff—\"redesigning the reward function for some automatically-graded RL environment or removing a tranche of poorly-labeled human data\"—but mostly I don't know how to tell a story where concerning-audit-results are very helpful.\n\n[^3h21sikjozu]: (I'm actually ignorant on this topic; \"surprised\" mostly isn't a euphemism for \"very skeptical.\")",
+      "plaintextDescription": "A crucial step is bouncing off the bumpers.\n\n> If we encounter a warning sign that represents reasonably clear evidence that some common practice will lead to danger, the next step is to try to infer the proximate cause.  These efforts need not result in a comprehensive theory of all of the misalignment risk factors that arose in the training run, but it should give us some signal about what sort of response would treat the cause of the misalignment rather than simply masking the first symptoms.\n> \n> This could look like reading RL logs, looking through training data or tasks, running evals across multiple training checkpoints, running finer-grained or more expensive variants of the bumper that caught the issue in the first place, and perhaps running small newly-designed experiments to check our understanding. Mechanistic interpretability tools and related training-data attribution tools like influence functions in particular can give us clues as to what data was most responsible for the behavior. In easy cases, the change might be as simple as redesigning the reward function for some automatically-graded RL environment or removing a tranche of poorly-labeled human data. \n> \n> Once we’ve learned enough here that we’re able to act, we then make whatever change to our finetuning process seems most likely to solve the problem.\n\nI'm surprised[1] that you're optimistic about this. I would have guessed that concerning-audit-results don't help you solve the problem much. Like if you catch sandbagging that doesn't let you solve sandbagging. I get that you can patch simple obvious stuff—\"redesigning the reward function for some automatically-graded RL environment or removing a tranche of poorly-labeled human data\"—but mostly I don't know how to tell a story where concerning-audit-results are very helpful.\n\n 1. ^\n    (I'm actually ignorant on this topic; \"surprised\" mostly isn't a euphemism for \"very skeptical.\")"
+    },
+    "baseScore": 14,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-23T22:03:12.089Z",
+    "af": true
+  },
+  {
+    "_id": "YToCDRxN8gEAvhzvf",
+    "postId": "KW5tjMmTqsoRa6zrd",
+    "parentCommentId": "L4zfMGzfsoNovFFrA",
+    "topLevelCommentId": "wB9jcCPrXzNCLCQXL",
+    "contents": {
+      "markdown": "> normalizing \\[libel suits\\] would cause much more harm than RationalWiki ever caused . . . . I do think it's pretty bad and \\[this action\\] overall likely still made the world worse.\n\nIs that your true rejection? (I'm surprised if you think the normalizing-libel-suits effect is nontrivial.)",
+      "plaintextDescription": "> normalizing [libel suits] would cause much more harm than RationalWiki ever caused . . . . I do think it's pretty bad and [this action] overall likely still made the world worse.\n\nIs that your true rejection? (I'm surprised if you think the normalizing-libel-suits effect is nontrivial.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-22T02:42:52.271Z",
+    "af": false
+  },
+  {
+    "_id": "DWfDHgPQQZNCqwKJQ",
+    "postId": "qaHHJ3kkCQS4nsoGJ",
+    "parentCommentId": "JWCBSbG9NZrLTWSNt",
+    "topLevelCommentId": "JWCBSbG9NZrLTWSNt",
+    "contents": {
+      "markdown": "Everyone knew everyone knew everyone knew everyone knew someone had blue eyes. But everyone didn't know *that*—so there wasn't common knowledge—until the sailor made it so.",
+      "plaintextDescription": "Everyone knew everyone knew everyone knew everyone knew someone had blue eyes. But everyone didn't know that—so there wasn't common knowledge—until the sailor made it so."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-19T18:11:29.523Z",
+    "af": false
+  },
+  {
+    "_id": "vXBKbyHsRWcw6Cz4A",
+    "postId": "SbAofYCgKkaXReDy4",
+    "parentCommentId": "Skd6WbkntsR2EzkzM",
+    "topLevelCommentId": "Skd6WbkntsR2EzkzM",
+    "contents": {
+      "markdown": "I think the conclusion is not *Epoch shouldn't have hired Matthew, Tamay, and Ege* but rather *\\[Epoch / its director\\] should have better avoided negative-EV projects (e.g. computer use evals) (and shouldn't have given Tamay leadership-y power such that he could cause Epoch to do negative-EV projects — idk if that's what happened but seems likely)*.",
+      "plaintextDescription": "I think the conclusion is not Epoch shouldn't have hired Matthew, Tamay, and Ege but rather [Epoch / its director] should have better avoided negative-EV projects (e.g. computer use evals) (and shouldn't have given Tamay leadership-y power such that he could cause Epoch to do negative-EV projects — idk if that's what happened but seems likely)."
+    },
+    "baseScore": 12,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-18T18:05:27.190Z",
+    "af": false
+  },
+  {
+    "_id": "2MJpmWwggac9Gmr4F",
+    "postId": "jXjeYYPXipAtA2zmj",
+    "parentCommentId": "DoXoYpkrfCyMvrt9J",
+    "topLevelCommentId": "ZXdbw9c4PavDq6MTG",
+    "contents": {
+      "markdown": "Good point. You're right \\[edit: about Epoch\\].\n\nI should have said: the vibe I've gotten from Epoch and Matthew/Tamay/Ege in private in the last year is not safety-focused. (Not that I really know all of them.)",
+      "plaintextDescription": "Good point. You're right [edit: about Epoch].\n\nI should have said: the vibe I've gotten from Epoch and Matthew/Tamay/Ege in private in the last year is not safety-focused. (Not that I really know all of them.)"
+    },
+    "baseScore": 11,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-04-18T03:30:39.232Z",
+    "af": false
+  },
+  {
+    "_id": "sodiKzebiNR3wTD9H",
+    "postId": "jXjeYYPXipAtA2zmj",
+    "parentCommentId": "wT2EXnKA8zACksY5k",
+    "topLevelCommentId": "ZXdbw9c4PavDq6MTG",
+    "contents": {
+      "markdown": "(ha ha but Epoch and Matthew/Tamay/Ege were never really safety-focused, and certainly not bright-eyed standard-view-holding EAs, I think)",
+      "plaintextDescription": "(ha ha but Epoch and Matthew/Tamay/Ege were never really safety-focused, and certainly not bright-eyed standard-view-holding EAs, I think)"
+    },
+    "baseScore": 8,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-04-18T00:50:19.898Z",
+    "af": false
+  },
+  {
+    "_id": "c7DkzHX4E8fbZNfnp",
+    "postId": "jXjeYYPXipAtA2zmj",
+    "parentCommentId": "ZXdbw9c4PavDq6MTG",
+    "topLevelCommentId": "ZXdbw9c4PavDq6MTG",
+    "contents": {
+      "markdown": "Accelerating AI R&D automation would be bad. But they want to accelerate misc labor automation. The sign of this is unclear to me.",
+      "plaintextDescription": "Accelerating AI R&D automation would be bad. But they want to accelerate misc labor automation. The sign of this is unclear to me."
+    },
+    "baseScore": 11,
+    "voteCount": 8,
+    "createdAt": null,
+    "postedAt": "2025-04-17T18:26:58.345Z",
+    "af": false
+  },
+  {
+    "_id": "42nD9CDNica6vYsu8",
+    "postId": "deesrjitvXM4xYGZd",
+    "parentCommentId": "GdLFjpY4Fib5qDqAy",
+    "topLevelCommentId": "HF2HCpS3BsbRWgyXX",
+    "contents": {
+      "markdown": "wow",
+      "plaintextDescription": "wow"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-16T19:38:36.543Z",
+    "af": false
+  },
+  {
+    "_id": "PwNnk73uEGjBJhpik",
+    "postId": "6eguLiC2QP399GrQE",
+    "parentCommentId": "xbmJHQ4mhzPSbB5dZ",
+    "topLevelCommentId": "xbmJHQ4mhzPSbB5dZ",
+    "contents": {
+      "markdown": "I think this stuff is mostly a red herring: the safety standards in OpenAI's new PF are super vague and so it will presumably always be able to say it meets them and will never have to use this.[^f8rei615zf]\n\nBut if this ever matters, I think it's good: it means OpenAI is more likely to make such a public statement and is slightly less incentivized to deceive employees + external observers about capabilities and safeguard adequacy. OpenAI unilaterally pausing is not on the table; if safeguards are inadequate, I'd rather OpenAI say so.\n\n[^f8rei615zf]: I think my main PF complaints are:The High standard is super vague: just like \"safeguards should sufficiently minimize the risk of severe harm\" + level of evidence is totally unspecified for \"potential safeguard efficacy assessments.\" And some of the misalignment safeguards are confused/bad, and this is bad since the PF they may be disjunctive — if OpenAI is wrong about a single \"safeguard efficacy assessment\" that makes the whole plan invalid. And it's bad that misalignment safeguards are only clearly triggered by cyber capabilities, especially since the cyber High threshold is vague / too high.For more see OpenAI rewrote its Preparedness Framework.",
+      "plaintextDescription": "I think this stuff is mostly a red herring: the safety standards in OpenAI's new PF are super vague and so it will presumably always be able to say it meets them and will never have to use this.[1]\n\nBut if this ever matters, I think it's good: it means OpenAI is more likely to make such a public statement and is slightly less incentivized to deceive employees + external observers about capabilities and safeguard adequacy. OpenAI unilaterally pausing is not on the table; if safeguards are inadequate, I'd rather OpenAI say so.\n\n 1. ^\n    I think my main PF complaints are:\n    \n    The High standard is super vague: just like \"safeguards should sufficiently minimize the risk of severe harm\" + level of evidence is totally unspecified for \"potential safeguard efficacy assessments.\" And some of the misalignment safeguards are confused/bad, and this is bad since the PF they may be disjunctive — if OpenAI is wrong about a single \"safeguard efficacy assessment\" that makes the whole plan invalid. And it's bad that misalignment safeguards are only clearly triggered by cyber capabilities, especially since the cyber High threshold is vague / too high.\n    \n    For more see OpenAI rewrote its Preparedness Framework."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-04-16T17:37:53.907Z",
+    "af": false
+  },
+  {
+    "_id": "GQ3BjgnK6EyBmn2uK",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": "raTtMQQ2GmJYkT8cc",
+    "topLevelCommentId": "HwfGD5XCMHfwsrakc",
+    "contents": {
+      "markdown": "I don't know. I don't have a good explanation for why OpenAI hasn't released o3. *Delaying to do lots of risk assessment* would be confusing because they did little risk assessment for other models.",
+      "plaintextDescription": "I don't know. I don't have a good explanation for why OpenAI hasn't released o3. Delaying to do lots of risk assessment would be confusing because they did little risk assessment for other models."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-12T15:25:08.605Z",
+    "af": false
+  },
+  {
+    "_id": "HwfGD5XCMHfwsrakc",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[*OpenAI slashes AI model safety testing time*](https://www.ft.com/content/8253b66e-ade7-4d1f-993b-2d0779c7e7d8), FT reports. This is consistent with lots of past evidence about OpenAI's evals for dangerous capabilities [being](https://www.washingtonpost.com/technology/2024/07/12/openai-ai-safety-regulation-gpt4/) [rushed](https://www.wsj.com/tech/ai/open-ai-division-for-profit-da26c24b#), being done on [weak checkpoints](https://thezvi.substack.com/p/the-o1-system-card-is-not-about-o1), and [having worse elicitation than OpenAI has committed to](https://stevenadler.substack.com/p/ai-companies-should-be-safety-testing).\n\nThis is bad because OpenAI is breaking its commitments (and isn't taking safety stuff seriously and is being deceptive about its practices). It's also kinda bad in terms of misuse risk, since OpenAI might fail to notice that its models have dangerous capabilities. I'm not saying OpenAI should delay deployments for evals — **there may be strategies that are better (similar misuse-risk-reduction with less cost-to-the-company) than** ***detailed evals for dangerous capabilities before external deployment***, where you generally do slow/expensive evals after your model is done (even if you want to deploy externally before finishing evals) and have a safety buffer and increase the sensitivity of your filters early in deployment (when you're less certain about risk). But OpenAI isn't doing that; it's just doing a bad job of the *evals before external deployment* plan.\n\n(Regardless, maybe short-term misuse isn't so scary, and maybe short-term misuse risk comes mostly from open-weights or stolen models than models that can be undeployed/mitigated if misuse risks appear during deployment. And insofar as you're more worried about risks from internal deployment, maybe you should focus on evals and mitigations relevant to those threats rather than external deployment. (OpenAI's doing even worse on risks from internal deployment!))\n\ntl;dr: OpenAI is doing risk assessment poorly[^w1ifzaaj39s] but maybe *do detailed evals for dangerous capabilities before external deployment* isn't a great ask.\n\n[^w1ifzaaj39s]: But similar to DeepMind and Anthropic, and those three are better than any other AI companies",
+      "plaintextDescription": "OpenAI slashes AI model safety testing time, FT reports. This is consistent with lots of past evidence about OpenAI's evals for dangerous capabilities being rushed, being done on weak checkpoints, and having worse elicitation than OpenAI has committed to.\n\nThis is bad because OpenAI is breaking its commitments (and isn't taking safety stuff seriously and is being deceptive about its practices). It's also kinda bad in terms of misuse risk, since OpenAI might fail to notice that its models have dangerous capabilities. I'm not saying OpenAI should delay deployments for evals — there may be strategies that are better (similar misuse-risk-reduction with less cost-to-the-company) than detailed evals for dangerous capabilities before external deployment, where you generally do slow/expensive evals after your model is done (even if you want to deploy externally before finishing evals) and have a safety buffer and increase the sensitivity of your filters early in deployment (when you're less certain about risk). But OpenAI isn't doing that; it's just doing a bad job of the evals before external deployment plan.\n\n(Regardless, maybe short-term misuse isn't so scary, and maybe short-term misuse risk comes mostly from open-weights or stolen models than models that can be undeployed/mitigated if misuse risks appear during deployment. And insofar as you're more worried about risks from internal deployment, maybe you should focus on evals and mitigations relevant to those threats rather than external deployment. (OpenAI's doing even worse on risks from internal deployment!))\n\ntl;dr: OpenAI is doing risk assessment poorly[1] but maybe do detailed evals for dangerous capabilities before external deployment isn't a great ask.\n\n 1. ^\n    But similar to DeepMind and Anthropic, and those three are better than any other AI companies"
+    },
+    "baseScore": 59,
+    "voteCount": 25,
+    "createdAt": null,
+    "postedAt": "2025-04-11T19:10:13.416Z",
+    "af": false
+  },
+  {
+    "_id": "PyjryhiuGEyPAQKkF",
+    "postId": "bAHyBbuAh5MdH89jq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this isn't taking powerful AI seriously. I think the quotes below are quite unreasonable, and only ~half of the research agenda is plausibly important given that there will be superintelligence. So I'm pessimistic about this agenda/project relative to, say, [the Forethought agenda](https://www.forethought.org/research/preparing-for-the-intelligence-explosion).\n\n> AGI could lead to ***massive labor displacement*****,** as studies estimate that between 30% - 47% of jobs could be directly replaceable by AI systems. . . .\n> \n> AGI could lead to *stagnating or falling wages* for the majority of workers if AI technology replaces people faster than it creates new jobs.\n\n> We could see an increase of **downward social mobility** for workers, as traditionally “high-skilled” service jobs become cheaply performed by AI, but manual labor remains difficult to automate due to the marginal costs of deploying robotics. [These economic pressures](https://gpm-invest.co.uk/us-experts-warn-ai-likely-to-kill-off-jobs-and-widen-wealth-inequality/) could reduce the bargaining power of workers, potentially forcing more people towards gig economy roles or less desirable (e.g. physically demanding) jobs.\n> \n> Simultaneously, [**upward social mobility could decline dramatically**](https://nosetgauge.substack.com/p/capital-agi-and-human-ambition) as ambitious individuals from lower-class backgrounds may lose their competitive intellectual advantages to AGI systems. [Fewer entry-level skilled jobs](https://lukedrago.substack.com/p/agi-and-the-corporate-pyramid) and the reduced comparative value of intelligence could reduce pathways to success – accelerating the [hollowing out of the middle class.](https://archive.nytimes.com/opinionator.blogs.nytimes.com/2013/08/24/how-technology-wrecks-the-middle-class/)\n> \n> If AGI systems are developed, evidence across the board points towards the conclusion that the majority of workers could likely lose out from this coming economic transformation. A core bargain of our society – *if you work hard, you can get ahead *– may become tenuous if opportunities for advancement and economic security dry up.\n\n* * *\n\nUpdate: based on nonpublic discussion I think maybe Deric is focused on the scenario *the world is a zillion times wealthier and humanity is in control but many humans have a standard of living that is bad by 2025 standards*. I'm not worried about this because it would take a tiny fraction of resources to fix that. (Like, if it only cost 0.0001% of global resources to end poverty forever, someone would do it.)",
+      "plaintextDescription": "I think this isn't taking powerful AI seriously. I think the quotes below are quite unreasonable, and only ~half of the research agenda is plausibly important given that there will be superintelligence. So I'm pessimistic about this agenda/project relative to, say, the Forethought agenda.\n\n \n\n> AGI could lead to massive labor displacement, as studies estimate that between 30% - 47% of jobs could be directly replaceable by AI systems. . . .\n> \n> AGI could lead to stagnating or falling wages for the majority of workers if AI technology replaces people faster than it creates new jobs.\n\n \n\n> We could see an increase of downward social mobility for workers, as traditionally “high-skilled” service jobs become cheaply performed by AI, but manual labor remains difficult to automate due to the marginal costs of deploying robotics. These economic pressures could reduce the bargaining power of workers, potentially forcing more people towards gig economy roles or less desirable (e.g. physically demanding) jobs.\n> \n> Simultaneously, upward social mobility could decline dramatically as ambitious individuals from lower-class backgrounds may lose their competitive intellectual advantages to AGI systems. Fewer entry-level skilled jobs and the reduced comparative value of intelligence could reduce pathways to success – accelerating the hollowing out of the middle class.\n> \n> If AGI systems are developed, evidence across the board points towards the conclusion that the majority of workers could likely lose out from this coming economic transformation. A core bargain of our society – if you work hard, you can get ahead – may become tenuous if opportunities for advancement and economic security dry up.\n\n----------------------------------------\n\nUpdate: based on nonpublic discussion I think maybe Deric is focused on the scenario the world is a zillion times wealthier and humanity is in control but many humans have a standard of living that is bad by 2025 standards. I'm not worried about "
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-10T16:41:12.746Z",
+    "af": false
+  },
+  {
+    "_id": "Wfhxc7QmHxAQy8XbF",
+    "postId": "deesrjitvXM4xYGZd",
+    "parentCommentId": "PATAHzNPgiGM4L4Rm",
+    "topLevelCommentId": "PATAHzNPgiGM4L4Rm",
+    "contents": {
+      "markdown": "My guess:\n\nThis is about software tasks, or specifically \"well-defined, low-context, measurable software tasks that can be done without a GUI.\" It doesn't directly generalize to solving puzzles or writing important papers. It probably does generalize within that narrow category.\n\nIf this was trying to measure all tasks, tasks that AIs can't do would count toward the failure rate; the main graph is about 50% success rate, not 100%. If we were worried that this is misleading because AIs are differentially bad at crucial tasks or something, we could look at success rate on those tasks specifically.",
+      "plaintextDescription": "My guess:\n\nThis is about software tasks, or specifically \"well-defined, low-context, measurable software tasks that can be done without a GUI.\" It doesn't directly generalize to solving puzzles or writing important papers. It probably does generalize within that narrow category.\n\nIf this was trying to measure all tasks, tasks that AIs can't do would count toward the failure rate; the main graph is about 50% success rate, not 100%. If we were worried that this is misleading because AIs are differentially bad at crucial tasks or something, we could look at success rate on those tasks specifically."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-08T00:23:11.225Z",
+    "af": false
+  },
+  {
+    "_id": "teeaz8QKpMtDtghYa",
+    "postId": "3ki4mt4BA6eTx56Tc",
+    "parentCommentId": "KzJ2dSu9hikxcJXuX",
+    "topLevelCommentId": "wHPqHHFdcbZLeKd8w",
+    "contents": {
+      "markdown": "I don't know, maybe nothing. (I just meant that on current margins, maybe the quality of the safety team's plans isn't super important.)",
+      "plaintextDescription": "I don't know, maybe nothing. (I just meant that on current margins, maybe the quality of the safety team's plans isn't super important.)"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-07T18:36:36.940Z",
+    "af": false
+  },
+  {
+    "_id": "wHPqHHFdcbZLeKd8w",
+    "postId": "3ki4mt4BA6eTx56Tc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I haven't read most of the paper, but based on the Extended Abstract I'm quite happy about both the content and how DeepMind (or at least its safety team) is articulating an \"anytime\" (i.e., possible to implement quickly) plan for addressing misuse and misalignment risks.\n\nBut I think safety at Google DeepMind is more bottlenecked by *buy-in from leadership to do moderately costly things* than *the safety team having good plans and doing good work*. \\[Edit: I think the same about Anthropic.\\]",
+      "plaintextDescription": "I haven't read most of the paper, but based on the Extended Abstract I'm quite happy about both the content and how DeepMind (or at least its safety team) is articulating an \"anytime\" (i.e., possible to implement quickly) plan for addressing misuse and misalignment risks.\n\nBut I think safety at Google DeepMind is more bottlenecked by buy-in from leadership to do moderately costly things than the safety team having good plans and doing good work. [Edit: I think the same about Anthropic.]"
+    },
+    "baseScore": 14,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2025-04-06T22:00:40.150Z",
+    "af": true
+  },
+  {
+    "_id": "7zHRJxAAFSNY3Dizn",
+    "postId": "3hedZ2TbP44z4DvXN",
+    "parentCommentId": "tkhcYMqE3NGi2vYrW",
+    "topLevelCommentId": "tkhcYMqE3NGi2vYrW",
+    "contents": {
+      "markdown": "> I expect they will thus not want to use my quotes\n\nYep, my impression is that it violates the journalist code to negotiate with sources for better access if you write specific things about them.",
+      "plaintextDescription": "> I expect they will thus not want to use my quotes\n\nYep, my impression is that it violates the journalist code to negotiate with sources for better access if you write specific things about them."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-05T17:59:53.644Z",
+    "af": false
+  },
+  {
+    "_id": "nW6kFmxkfRTBKc7yc",
+    "postId": "hhbibJGt2aQqKJLb7",
+    "parentCommentId": "KudHuMkNuTvAFEC5s",
+    "topLevelCommentId": "KudHuMkNuTvAFEC5s",
+    "contents": {
+      "markdown": "My strong upvotes are giving +61 :shrug:",
+      "plaintextDescription": "My strong upvotes are giving +61 :shrug:"
+    },
+    "baseScore": 40,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-04-01T20:01:23.798Z",
+    "af": false
+  },
+  {
+    "_id": "68us9vjWRoW9mFbaJ",
+    "postId": "eq2aJt8ZqMaGhBu3r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Minor Anthropic RSP update.\n\n[Old:](https://assets.anthropic.com/m/24a47b00f10301cd/original/Anthropic-Responsible-Scaling-Policy-2024-10-15.pdf#page=7)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/6db13564193ac651cdf6edf30e9507d9b6d98269ea8ef3ee.png)\n\n[New:](https://www-cdn.anthropic.com/080b003762c270d033dc2ea1153b9df665078da1.pdf#page=8)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/6897038a52484c325107f4d2ee0ca13047d49030342080b7.png)\n\nI don't know what e.g. the \"4\" in \"AI R&D-4\" means; perhaps it is a mistake.[^wlfkp4y2bf]\n\nSad that the commitment to specify the *AI R&D safety case* thing was removed, and sad that \"accountability\" was removed.\n\nSlightly sad that AI R&D capabilities triggering >ASL-3 security went from \"especially in the case of dramatic acceleration\" to *only* in that case.\n\nFull AI R&D-5 description from appendix:  \n \n\n> AI R&D-5: The ability to cause dramatic acceleration in the rate of effective scaling. Specifically, this would be the case if we observed or projected an increase in the effective training compute of the world’s most capable model that, over the course of a year, was equivalent to two years of the average rate of progress during the period of early 2018 to early 2024. We roughly estimate that the 2018-2024 average scaleup was around 35x per year, so this would imply an actual or projected one-year scaleup of 35^2 = ~1000x.\n> \n> *The 35x/year scaleup estimate is based on assuming the rate of increase in compute being used to train frontier models from ~2018 to May 2024 is 4.2x/year (*[*reference*](https://epoch.ai/blog/training-compute-of-frontier-ai-models-grows-by-4-5x-per-year#appendix-3-summary-of-main-results)*), the impact of increased (LLM) algorithmic efficiency is roughly equivalent to a further 2.8x/year (*[*reference*](https://epoch.ai/blog/algorithmic-progress-in-language-models)*), and the impact of post training enhancements is a further 3x/year (informal estimate). Combined, these have an effective rate of scaling of 35x/year.*\n\nAlso, from the changelog:\n\n> **Iterative Commitment:** We have adopted a general commitment to reevaluate our Capability Thresholds whenever we upgrade to a new set of Required Safeguards. We have decided not to maintain a commitment to define ASL-N+1 evaluations by the time we develop ASL-N models; such an approach would add unnecessary complexity because Capability Thresholds do not naturally come grouped in discrete levels. We believe it is more practical and sensible instead to commit to reconsidering the whole list of Capability Thresholds whenever we upgrade our safeguards.\n\nI'm confused by the last sentence.\n\nSee also [https://www.anthropic.com/rsp-updates](https://www.anthropic.com/rsp-updates).\n\n[^wlfkp4y2bf]: Jack Clark misspeaks on twitter, saying \"these updates clarify . . . our ASL-4/5 thresholds for AI R&D.\" But AI R&D-4 and -5 trigger ASL-3 and -4 safeguards, respectively; the RSP doesn't mention ASL-5. Maybe the RSP is wrong and AI R&D-4 is supposed to trigger ASL-4 security, and same for 5 — that would make the terms \"AI R&D-4\" and \"AI R&D-5\" make more sense...",
+      "plaintextDescription": "Minor Anthropic RSP update.\n\nOld:\n\nNew:\n\nI don't know what e.g. the \"4\" in \"AI R&D-4\" means; perhaps it is a mistake.[1]\n\nSad that the commitment to specify the AI R&D safety case thing was removed, and sad that \"accountability\" was removed.\n\nSlightly sad that AI R&D capabilities triggering >ASL-3 security went from \"especially in the case of dramatic acceleration\" to only in that case.\n\nFull AI R&D-5 description from appendix:\n \n\n> AI R&D-5: The ability to cause dramatic acceleration in the rate of effective scaling. Specifically, this would be the case if we observed or projected an increase in the effective training compute of the world’s most capable model that, over the course of a year, was equivalent to two years of the average rate of progress during the period of early 2018 to early 2024. We roughly estimate that the 2018-2024 average scaleup was around 35x per year, so this would imply an actual or projected one-year scaleup of 35^2 = ~1000x.\n> \n> The 35x/year scaleup estimate is based on assuming the rate of increase in compute being used to train frontier models from ~2018 to May 2024 is 4.2x/year (reference), the impact of increased (LLM) algorithmic efficiency is roughly equivalent to a further 2.8x/year (reference), and the impact of post training enhancements is a further 3x/year (informal estimate). Combined, these have an effective rate of scaling of 35x/year.\n\nAlso, from the changelog:\n\n> Iterative Commitment: We have adopted a general commitment to reevaluate our Capability Thresholds whenever we upgrade to a new set of Required Safeguards. We have decided not to maintain a commitment to define ASL-N+1 evaluations by the time we develop ASL-N models; such an approach would add unnecessary complexity because Capability Thresholds do not naturally come grouped in discrete levels. We believe it is more practical and sensible instead to commit to reconsidering the whole list of Capability Thresholds whenever we upgrade our safeguards.\n\nI'm confused b"
+    },
+    "baseScore": 15,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-03-31T23:30:59.420Z",
+    "af": false
+  },
+  {
+    "_id": "sgHEt4psix9ASAefm",
+    "postId": "gwKyHqe4CL6TZNQxp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A. Many AI safety people don't support relatively responsible companies unilaterally pausing, which PauseAI advocates. (Many do support governments slowing AI progress, or preparing to do so at a critical point in the future. And many of those don't see that as tractable for them to work on.)\n\nB. \"Pausing AI\" is indeed more popular than PauseAI, but it's not clearly possible to make a more popular version of PauseAI that actually does anything; any such organization will have strategy/priorities/asks/comms that alienate many of the people who think \"yeah I support pausing AI.\"\n\nC. \n\n> There does not seem to be a legible path to prevent possible existential risks from AI without slowing down its current progress.\n\nThis seems confused. Obviously P(doom | no slowdown) < 1. Many people's work reduces risk in both slowdown and no-slowdown worlds, and it seems pretty clear to me that most of them shouldn't switch to working on increasing P(slowdown).",
+      "plaintextDescription": "A. Many AI safety people don't support relatively responsible companies unilaterally pausing, which PauseAI advocates. (Many do support governments slowing AI progress, or preparing to do so at a critical point in the future. And many of those don't see that as tractable for them to work on.)\n\nB. \"Pausing AI\" is indeed more popular than PauseAI, but it's not clearly possible to make a more popular version of PauseAI that actually does anything; any such organization will have strategy/priorities/asks/comms that alienate many of the people who think \"yeah I support pausing AI.\"\n\nC. \n\n> There does not seem to be a legible path to prevent possible existential risks from AI without slowing down its current progress.\n\nThis seems confused. Obviously P(doom | no slowdown) < 1. Many people's work reduces risk in both slowdown and no-slowdown worlds, and it seems pretty clear to me that most of them shouldn't switch to working on increasing P(slowdown)."
+    },
+    "baseScore": 17,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-03-30T18:55:38.871Z",
+    "af": false
+  },
+  {
+    "_id": "LRChJ36aer39gTtkG",
+    "postId": "CKoKAyjoJHHg3JLq3",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It is often said that control is for safely getting useful work out of early powerful AI, not making arbitrarily powerful AI safe.\n\nIf it turns out large, rapid, local capabilities increase is possible, the leading developer could still opt to spend some inference compute on safety research rather than all on capabilities research.",
+      "plaintextDescription": "It is often said that control is for safely getting useful work out of early powerful AI, not making arbitrarily powerful AI safe.\n\nIf it turns out large, rapid, local capabilities increase is possible, the leading developer could still opt to spend some inference compute on safety research rather than all on capabilities research."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-29T21:59:46.208Z",
+    "af": false
+  },
+  {
+    "_id": "HuGSxQ8ktaN85F6j9",
+    "postId": "4mvphwx5pdsZLMmpY",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Data point against \"Are the AI labs just cheating?\": [the METR time horizon thing](https://www.lesswrong.com/posts/deesrjitvXM4xYGZd/metr-measuring-ai-ability-to-complete-long-tasks)",
+      "plaintextDescription": "Data point against \"Are the AI labs just cheating?\": the METR time horizon thing"
+    },
+    "baseScore": 15,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2025-03-24T20:06:15.460Z",
+    "af": false
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "mFz9Xpz6yKXXW42S6",
+    "postId": "ciuKn9aktXxJ2K6Rc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> including the new Tier 4 questions\n\n  \nQuick comment, this is not correct. As of this time, we have not evaluated Grok 4 on FrontierMath Tier 4 questions. Our preliminary evaluation was conducted only with Tier 1-3 questions.",
+      "plaintextDescription": "> including the new Tier 4 questions\n\n\nQuick comment, this is not correct. As of this time, we have not evaluated Grok 4 on FrontierMath Tier 4 questions. Our preliminary evaluation was conducted only with Tier 1-3 questions."
+    },
+    "baseScore": 25,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2025-07-15T16:17:50.932Z",
+    "af": false
+  },
+  {
+    "_id": "DzkMAQqbtzNumftKy",
+    "postId": "DaeHpWxvht43zaaje",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Someone referred me back to this post for comment, so I want to share a couple of updates on how we think about training run lengths at Epoch.\n\nFirst, we now have better data. Across notable models, we have seen [training run lengths get longer by around 30%/year in the last decade](https://epoch-website--supercomputer-vs-model-compute-obx2ohj7.web.app/data-insights/training-length-trend). This would naively imply we would see 3x longer training runs by the end of the decade. Recent large training runs often take up to 90 days (eg Llama 3), so this would naively lead to nine-month training runs by the end of the decade.\n\nSecond, I still believe the argument given in [the original post](https://epoch.ai/blog/the-longest-training-run) is coherent and makes for a compelling upper bound, after accounting for uncertainty on the relevant trends.\n\nThis is not the only consideration that goes into deciding how long to train for. In practice, my understanding is that developers are mostly weighing the improvement they see during training versus the costs of a delayed release in terms of attention and market share. But I still expect for the upper bound of ~a year to be roughly binding, at least while hardware and algorithmic improvements continue progressing as fast as in recent years.",
+      "plaintextDescription": "Someone referred me back to this post for comment, so I want to share a couple of updates on how we think about training run lengths at Epoch.\n\nFirst, we now have better data. Across notable models, we have seen training run lengths get longer by around 30%/year in the last decade. This would naively imply we would see 3x longer training runs by the end of the decade. Recent large training runs often take up to 90 days (eg Llama 3), so this would naively lead to nine-month training runs by the end of the decade.\n\nSecond, I still believe the argument given in the original post is coherent and makes for a compelling upper bound, after accounting for uncertainty on the relevant trends.\n\nThis is not the only consideration that goes into deciding how long to train for. In practice, my understanding is that developers are mostly weighing the improvement they see during training versus the costs of a delayed release in terms of attention and market share. But I still expect for the upper bound of ~a year to be roughly binding, at least while hardware and algorithmic improvements continue progressing as fast as in recent years."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-14T18:40:58.021Z",
+    "af": false
+  },
+  {
+    "_id": "LN2BJujCYRzgoqQ94",
+    "postId": "jXjeYYPXipAtA2zmj",
+    "parentCommentId": "8dA5wdDrSMkcfpwEh",
+    "topLevelCommentId": "ZXdbw9c4PavDq6MTG",
+    "contents": {
+      "markdown": "For clarity, at the moment of writing I felt that was a valid concern.\n\nCurrently I think this is no longer compelling to me personally, though I think at least some of our stakeholders would be concerned if we published work that significantly sped up AI capabilities and investment, which is a perspective we keep in mind when deciding what to work on. \n\nI never thought that just because something speed up capabilities it means it is automatically something we shouldn't work on. We are willing to make trade offs here in service of our core mission of improving the public understanding of the trajectory of AI. And in general we make a strong presumption in favour of freedom of knowledge.",
+      "plaintextDescription": "For clarity, at the moment of writing I felt that was a valid concern.\n\nCurrently I think this is no longer compelling to me personally, though I think at least some of our stakeholders would be concerned if we published work that significantly sped up AI capabilities and investment, which is a perspective we keep in mind when deciding what to work on. \n\nI never thought that just because something speed up capabilities it means it is automatically something we shouldn't work on. We are willing to make trade offs here in service of our core mission of improving the public understanding of the trajectory of AI. And in general we make a strong presumption in favour of freedom of knowledge."
+    },
+    "baseScore": 10,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-04-19T17:15:25.746Z",
+    "af": false
+  },
+  {
+    "_id": "X3bLKX3ASvWbkNJkH",
+    "postId": "Fhwh67eJDLeaSfHzx",
+    "parentCommentId": "gmEEPxJTHLneb3z8M",
+    "topLevelCommentId": "gmEEPxJTHLneb3z8M",
+    "contents": {
+      "markdown": "I'm talking from a personal perspective here as Epoch director.\n\n*   I personally take AI risks seriously, and I think they are worth investigating and preparing for.\n*   I co-started Epoch AI to get evidence and clarity on AI and its risks and this is still a large motivation for me.\n*   I have drifted towards a more skeptical position on risk in the last two years. This is due to a combination of seeing the societal reaction to AI, me participating in several risk evaluation processes, and AI unfolding more gradually than I expected 10 years ago.\n*   Currently I am more worried about concentration in AI development and how unimproved humans will retain wealth over the very long term than I am about a violent AI takeover.\n*   I also selfishly care about AI development happening fast enough that my parents, friends and myself could benefit from it, and I am willing to accept a certain but not unbounded amount of risk from speeding up development. Id currently be in favour of slightly faster development, specially if it could happen in a less distributed way. I feel very nervous about this however, as I see my beliefs as brittle.\n\nI'm also going to risk also sharing more internal stuff without coordinating on it, erring on the side of over sharing. There is a chance that other management at Epoch won't endorse these takes.\n\n*   At management level, we are choosing to not talk about risks or work on risk measurement publicly. If I try to verbalize it, it's due to a combination of us having different beliefs on AI risk, which makes communicating from a consensus view difficult, believing that talking about risk would alienate us from stakeholders skeptical of AI Risk, and the evidence about risk being below what we are comfortable writing about.\n*   My sense is that OP is funding us primarily to gather evidence relevant to their personal models. Eg two senior people at OP particularly praised our [algorithmic progress paper](https://epoch.ai/blog/algorithmic-progress-in-language-models) because it directly informs their models. They do also care about us producing legible evidence on key topics for policy, such as the [software singularity](https://epoch.ai/blog/do-the-returns-to-software-rnd-point-towards-a-singularity) or [post training enhancements](https://epoch.ai/blog/algorithmic-progress-in-language-models). We have had complete editorial control and I feel confident in rejecting topic suggestions that come from OP staff when they don't match my vision of what we should be writing about (and have done so in the past).\n*   In term of overall beliefs, we have a mixture of people very worried and skeptical of risk. I think the more charismatic and outspoken people at Epoch err towards being more skeptical of risks, but no one at Epoch is dismissive of it.\n*   Some stakeholders I've talked to have expressed this view that they wish for Epoch AI to gain influence and then communicate publicly about AI risk. I don't feel comfortable with that strategy, one should expect Epoch AI to keep a similar level of communication about risk as we gain influence. We might be willing to talk more about risks if we gather more evidence of risk, or if we build more sophisticated tools to talk about it, but this isn't the niche we are filling or that you should expect us to fill.\n*   The podcast is actually a good example here. We talk toward the end about the share of the economy owned by biological humans becoming smaller over time, which is an abstraction we have studied and have moderate confidence in. This is compatible with an AI takeover scenario, but also a peaceful transition to an AI dominated society. This is the kind of communication about risks you can expect from Epoch, relying more on abstractions we have studied than stories we don't have confidence in.\n*   The overall theory of change of Epoch AI is that having reliable evidence on AI will help raise the standards of conversation and decision making elsewhere. To be maximally clear, we are willing to make some tradeoffs like publishing work like [FrontierMath](https://epoch.ai/frontiermath) and our [distributed training pape](https://epoch.ai/blog/data-movement-bottlenecks-scaling-past-1e28-flop)r that plausibly speed up AI development in service of that mission.",
+      "plaintextDescription": "I'm talking from a personal perspective here as Epoch director.\n\n * I personally take AI risks seriously, and I think they are worth investigating and preparing for.\n * I co-started Epoch AI to get evidence and clarity on AI and its risks and this is still a large motivation for me.\n * I have drifted towards a more skeptical position on risk in the last two years. This is due to a combination of seeing the societal reaction to AI, me participating in several risk evaluation processes, and AI unfolding more gradually than I expected 10 years ago.\n * Currently I am more worried about concentration in AI development and how unimproved humans will retain wealth over the very long term than I am about a violent AI takeover.\n * I also selfishly care about AI development happening fast enough that my parents, friends and myself could benefit from it, and I am willing to accept a certain but not unbounded amount of risk from speeding up development. Id currently be in favour of slightly faster development, specially if it could happen in a less distributed way. I feel very nervous about this however, as I see my beliefs as brittle.\n\n \n\nI'm also going to risk also sharing more internal stuff without coordinating on it, erring on the side of over sharing. There is a chance that other management at Epoch won't endorse these takes.\n\n * At management level, we are choosing to not talk about risks or work on risk measurement publicly. If I try to verbalize it, it's due to a combination of us having different beliefs on AI risk, which makes communicating from a consensus view difficult, believing that talking about risk would alienate us from stakeholders skeptical of AI Risk, and the evidence about risk being below what we are comfortable writing about.\n * My sense is that OP is funding us primarily to gather evidence relevant to their personal models. Eg two senior people at OP particularly praised our algorithmic progress paper because it directly informs their models. They do "
+    },
+    "baseScore": 34,
+    "voteCount": 23,
+    "createdAt": null,
+    "postedAt": "2025-01-20T07:55:12.648Z",
+    "af": false
+  },
+  {
+    "_id": "aDrynctnxsiTKyCS9",
+    "postId": "vQF4Jspzi7ZjpnJbv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The ability to pay liability is important to factor in and this illustrates it well. For the largest prosaic catastrophes this might well be the dominant consideration \n\nFor smaller risks, I suspect in practice mitigation, transaction and prosecution costs are what dominates the calculus of who should bear the liability, both in AI and more generally.",
+      "plaintextDescription": "The ability to pay liability is important to factor in and this illustrates it well. For the largest prosaic catastrophes this might well be the dominant consideration\n\nFor smaller risks, I suspect in practice mitigation, transaction and prosecution costs are what dominates the calculus of who should bear the liability, both in AI and more generally."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-08-19T05:10:45.109Z",
+    "af": false
+  },
+  {
+    "_id": "KyRdq7iLnwjev7gfr",
+    "postId": "5uffoui3axcK7gQXG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What's the FATE community? \nFair AI and Tech Ethics?",
+      "plaintextDescription": "What's the FATE community? Fair AI and Tech Ethics?"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2024-07-16T22:00:55.490Z",
+    "af": false
+  },
+  {
+    "_id": "GDNcwFk8vnFjbQBKd",
+    "postId": "GzoWcYibWYwJva8aL",
+    "parentCommentId": "oafaDPnzJCb9BP7mw",
+    "topLevelCommentId": "sFFBeva2fDgsoynDC",
+    "contents": {
+      "markdown": "We have conveniently just updated our database if anyone wants to investigate this further!  \nhttps://epochai.org/data/notable-ai-models",
+      "plaintextDescription": "We have conveniently just updated our database if anyone wants to investigate this further!\nhttps://epochai.org/data/notable-ai-models"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-06-28T18:05:39.810Z",
+    "af": true
+  },
+  {
+    "_id": "P46eMBqS2NSfJqZgH",
+    "postId": "dLwo67p7zBuPsjG5t",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here is a \"predictable surprise\" I don't discussed often: given the advantages of scale and centralisation for training, it does not seem crazy to me that some major AI developers will be pooling resources in the future, and training jointly large AI systems.",
+      "plaintextDescription": "Here is a \"predictable surprise\" I don't discussed often: given the advantages of scale and centralisation for training, it does not seem crazy to me that some major AI developers will be pooling resources in the future, and training jointly large AI systems."
+    },
+    "baseScore": 15,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-05-10T06:06:33.167Z",
+    "af": false
+  },
+  {
+    "_id": "LdCx7qGFgmRjvFBSz",
+    "postId": "bwjfXXf3GmGSe6rrP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I've been tempted to do this sometime, but I fear the prior is performing one very important role you are not making explicit: defining the universe of possible hypothesis you consider.\n\nIn turn, defining that universe of probabilities defines how bayesian updates look like. Here is a problem that arises when you ignore this: https://www.lesswrong.com/posts/R28ppqby8zftndDAM/a-bayesian-aggregation-paradox",
+      "plaintextDescription": "I've been tempted to do this sometime, but I fear the prior is performing one very important role you are not making explicit: defining the universe of possible hypothesis you consider.\n\nIn turn, defining that universe of probabilities defines how bayesian updates look like. Here is a problem that arises when you ignore this: https://www.lesswrong.com/posts/R28ppqby8zftndDAM/a-bayesian-aggregation-paradox"
+    },
+    "baseScore": 15,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2024-04-25T06:26:43.167Z",
+    "af": false
+  },
+  {
+    "_id": "CFxif8AH596aGkF3p",
+    "postId": "Cvr723R7DmKcLiAzQ",
+    "parentCommentId": "tmf3msyo4RLqPvi8q",
+    "topLevelCommentId": "qAnGWiNpZgiBrfBHS",
+    "contents": {
+      "markdown": "*shrug* \n\nI think this is true to an extent, but a more systematic analysis needs to back this up.\n\nFor instance, I recall quantization techniques working much better after a certain scale (though I can't seem to find the reference...).  It also seems important to validate that techniques to increase performance apply at large scales. Finally, note that the frontier of scale is growing very fast, so even if these discoveries were done with relatively modest compute compared to the frontier,  this is still a tremendous amount of compute!",
+      "plaintextDescription": "shrug \n\nI think this is true to an extent, but a more systematic analysis needs to back this up.\n\nFor instance, I recall quantization techniques working much better after a certain scale (though I can't seem to find the reference...).  It also seems important to validate that techniques to increase performance apply at large scales. Finally, note that the frontier of scale is growing very fast, so even if these discoveries were done with relatively modest compute compared to the frontier,  this is still a tremendous amount of compute!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-23T22:47:11.898Z",
+    "af": false
+  },
+  {
+    "_id": "jXnNAahhL54C66gnh",
+    "postId": "Cvr723R7DmKcLiAzQ",
+    "parentCommentId": "qAnGWiNpZgiBrfBHS",
+    "topLevelCommentId": "qAnGWiNpZgiBrfBHS",
+    "contents": {
+      "markdown": "> **even a pause which completely stops all new training runs beyond current size indefinitely would only ~double timelines at best, and probably less**\n\nI'd emphasize that we currently don't have a very clear sense of how algorithmic improvement happens, and it is likely mediated to some extent by large experiments, so I think is more likely to slow timelines more than this implies.",
+      "plaintextDescription": "> even a pause which completely stops all new training runs beyond current size indefinitely would only ~double timelines at best, and probably less\n\n \n\nI'd emphasize that we currently don't have a very clear sense of how algorithmic improvement happens, and it is likely mediated to some extent by large experiments, so I think is more likely to slow timelines more than this implies."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-23T21:22:47.798Z",
+    "af": false
+  },
+  {
+    "_id": "FuvLMhxHyyZdQ9mky",
+    "postId": "nhjaegqWxbBhiqMGS",
+    "parentCommentId": "MfqPNtiaWqrRNmqDJ",
+    "topLevelCommentId": "MfqPNtiaWqrRNmqDJ",
+    "contents": {
+      "markdown": "I agree! I'd be quite interested in looking at TAS data, for the reason you mentioned.",
+      "plaintextDescription": "I agree! I'd be quite interested in looking at TAS data, for the reason you mentioned."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-11-24T20:39:12.297Z",
+    "af": false
+  },
+  {
+    "_id": "PztnpsXozoje3oXwT",
+    "postId": "YjZ8sJmkGJQhNcjHj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think Tetlock and cia might have already done some related work?\n\nQuestion decomposition is part of the [superforecasting commandments](https://goodjudgment.com/philip-tetlocks-10-commandments-of-superforecasting/), though I can't recall off the top of my head if they were RCT'd individually or just as a whole.\n\nETA: This is [the relevant paper](https://www.cambridge.org/core/journals/judgment-and-decision-making/article/developing-expert-political-judgment-the-impact-of-training-and-practice-on-judgmental-accuracy-in-geopolitical-forecasting-tournaments/123EB18425391D05FA6581FDBB3F309F) (h/t Misha Yagudin). It was not about the 10 commandments. Apparently those haven't been RCT'd at all?",
+      "plaintextDescription": "I think Tetlock and cia might have already done some related work?\n\nQuestion decomposition is part of the superforecasting commandments, though I can't recall off the top of my head if they were RCT'd individually or just as a whole.\n\nETA: This is the relevant paper (h/t Misha Yagudin). It was not about the 10 commandments. Apparently those haven't been RCT'd at all?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-28T22:41:14.392Z",
+    "af": false
+  },
+  {
+    "_id": "xWEqMDExsgpPhXeRC",
+    "postId": "nhjaegqWxbBhiqMGS",
+    "parentCommentId": "Y4zwp8yWzg7iQWTWB",
+    "topLevelCommentId": "4pxfYdofQqFKqMSWT",
+    "contents": {
+      "markdown": "We actually wrote a more up to date paper here\n\nhttps://arxiv.org/abs/2304.10004",
+      "plaintextDescription": "We actually wrote a more up to date paper here\n\nhttps://arxiv.org/abs/2304.10004"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-08-28T09:00:09.965Z",
+    "af": false
+  },
+  {
+    "_id": "kef7KsuYfZYftBBnj",
+    "postId": "B7XovxH9PunrBr4NB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I cowrote a detailed response here\n\nhttps://www.cser.ac.uk/news/response-superintelligence-contained/\n\nEssentially, this type of reasoning proves too much, since it implies we cannot show any properties whatsoever of any program, which is clearly false.",
+      "plaintextDescription": "I cowrote a detailed response here\n\nhttps://www.cser.ac.uk/news/response-superintelligence-contained/\n\nEssentially, this type of reasoning proves too much, since it implies we cannot show any properties whatsoever of any program, which is clearly false."
+    },
+    "baseScore": 7,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-08-21T19:54:17.496Z",
+    "af": false
+  },
+  {
+    "_id": "yKQpmGzQaKBagoyL3",
+    "postId": "A5YQqDEz9QKGAZvn6",
+    "parentCommentId": "rWGEfqEewagtLqo22",
+    "topLevelCommentId": "Fqx87ZgyY3jZi4oFg",
+    "contents": {
+      "markdown": "Here is some data through Matthew Barnett and Jess Riedl\n\nNumber of cumulative miles driven by Cruise's autonomous cars is growing as an exponential at roughly 1 OOM per year.\n\nhttps://twitter.com/MatthewJBar/status/1690102362394992640",
+      "plaintextDescription": "Here is some data through Matthew Barnett and Jess Riedl\n\nNumber of cumulative miles driven by Cruise's autonomous cars is growing as an exponential at roughly 1 OOM per year.\n\nhttps://twitter.com/MatthewJBar/status/1690102362394992640"
+    },
+    "baseScore": 14,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-08-14T07:01:29.623Z",
+    "af": false
+  },
+  {
+    "_id": "GBNuvcvPzqP3majoN",
+    "postId": "gGSvwd62TJAxxhcGh",
+    "parentCommentId": "yzyYNSP35uawQbuRp",
+    "topLevelCommentId": "8zBaTmekWiPX7gyNb",
+    "contents": {
+      "markdown": "That is to very basic approximation correct.\n\n[Davidson's takeoff model](https://takeoffspeeds.com/playground.html) illustrates this point, where a \"software singularity\" happens for some parameter settings due to software not being restrained to the same degree by capital inputs.\n\nI would point out however that our current understanding of how software progress happens is somewhat poor. Experimentation is definitely a big component of software progress, and it is often understated in LW. \n\nMore research on this soon!",
+      "plaintextDescription": "That is to very basic approximation correct.\n\nDavidson's takeoff model illustrates this point, where a \"software singularity\" happens for some parameter settings due to software not being restrained to the same degree by capital inputs.\n\nI would point out however that our current understanding of how software progress happens is somewhat poor. Experimentation is definitely a big component of software progress, and it is often understated in LW. \n\nMore research on this soon!"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-06-06T10:27:44.775Z",
+    "af": false
+  },
+  {
+    "_id": "uFk4SxStGkXhhv8Hv",
+    "postId": "gGSvwd62TJAxxhcGh",
+    "parentCommentId": "8zBaTmekWiPX7gyNb",
+    "topLevelCommentId": "8zBaTmekWiPX7gyNb",
+    "contents": {
+      "markdown": "> algorithmic progress is currently outpacing compute growth by quite a bit\n\nThis is not right, at least in computer vision.\nThey seem to be the same order of magnitude.\n\nPhysical compute has growth at 0.6 OOM/year and physical compute requirements have decreased at 0.1 to 1.0 OOM/year, see a summary [here](https://epochai.org/trends) or a in depth investigation [here](https://epochai.org/blog/revisiting-algorithmic-progress)\n\nAnother relevant quote\n> Algorithmic progress explains roughly 45% of performance improvements in image classification, and most of this occurs through improving compute-efficiency.",
+      "plaintextDescription": "> algorithmic progress is currently outpacing compute growth by quite a bit\n\nThis is not right, at least in computer vision. They seem to be the same order of magnitude.\n\nPhysical compute has growth at 0.6 OOM/year and physical compute requirements have decreased at 0.1 to 1.0 OOM/year, see a summary here or a in depth investigation here\n\nAnother relevant quote\n\n> Algorithmic progress explains roughly 45% of performance improvements in image classification, and most of this occurs through improving compute-efficiency."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-06-04T09:35:43.991Z",
+    "af": false
+  },
+  {
+    "_id": "AMNTnoDBqt8faTs5v",
+    "postId": "fnjKpBoWJXcSDwhZk",
+    "parentCommentId": "RRFxj7DnaDLEXNYur",
+    "topLevelCommentId": "RRFxj7DnaDLEXNYur",
+    "contents": {
+      "markdown": "\\\\(t\\\\) is not a transpose! It is the timestep \\\\(t\\\\). We are raising \\\\(\\beta\\\\) to the \\\\(t\\\\)-th power.",
+      "plaintextDescription": "t is not a transpose! It is the timestep t. We are raising β to the t-th power."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-09T08:29:22.154Z",
+    "af": true
+  },
+  {
+    "_id": "HeymFfD2a5YQRnwC3",
+    "postId": "opsfYWNxBYF5sJujB",
+    "parentCommentId": "AZHQ2QrXjT6oLWmdK",
+    "topLevelCommentId": "AZHQ2QrXjT6oLWmdK",
+    "contents": {
+      "markdown": "Thanks! \n\nOur current best guess is that this includes costs other than the amortized compute of the final training run.\n\nIf no extra information surfaces we will add a note clarifying this and/or adjust our estimate.",
+      "plaintextDescription": "Thanks!\n\nOur current best guess is that this includes costs other than the amortized compute of the final training run.\n\nIf no extra information surfaces we will add a note clarifying this and/or adjust our estimate."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-21T06:54:10.535Z",
+    "af": true
+  },
+  {
+    "_id": "jaGMCLdxboiCyZXmL",
+    "postId": "opsfYWNxBYF5sJujB",
+    "parentCommentId": "seoBGKmbBthtc7bvY",
+    "topLevelCommentId": "seoBGKmbBthtc7bvY",
+    "contents": {
+      "markdown": "Thanks Neel!\n\nThe difference between tf16 and FP32 comes to a x15 factor IIRC. Though also ML developers seem to prioritise other characteristics than cost effectiveness when choosing GPUs like raw performance and interconnect, so you can't just multiply the top price performance we showcase by this factor and expect that to match the cost performance of the largest ML runs today.\n\nMore soon-ish.",
+      "plaintextDescription": "Thanks Neel!\n\nThe difference between tf16 and FP32 comes to a x15 factor IIRC. Though also ML developers seem to prioritise other characteristics than cost effectiveness when choosing GPUs like raw performance and interconnect, so you can't just multiply the top price performance we showcase by this factor and expect that to match the cost performance of the largest ML runs today.\n\nMore soon-ish."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-20T21:29:51.176Z",
+    "af": true
+  },
+  {
+    "_id": "BuGT9mjwGwLaEzrEW",
+    "postId": "opsfYWNxBYF5sJujB",
+    "parentCommentId": "ZDNTtbpxGpwyx85YC",
+    "topLevelCommentId": "ZDNTtbpxGpwyx85YC",
+    "contents": {
+      "markdown": "Because there is more data available for FP32, so it's easier to study trends there.\n\nWe should release a piece soon about how the picture changes when you account for different number formats, plus considering that most runs happen with hardware that is not the most cost-efficient.",
+      "plaintextDescription": "Because there is more data available for FP32, so it's easier to study trends there.\n\nWe should release a piece soon about how the picture changes when you account for different number formats, plus considering that most runs happen with hardware that is not the most cost-efficient."
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-13T19:25:33.049Z",
+    "af": false
+  },
+  {
+    "_id": "Hu6dD77qSZw2NE9d3",
+    "postId": "tG9BLyBEiLeRJZvX6",
+    "parentCommentId": "WCbowdx8DECJwuPFy",
+    "topLevelCommentId": "WCbowdx8DECJwuPFy",
+    "contents": {
+      "markdown": "Note that Richard is not treating knightian uncertainty as special and unquantifiable, but instead is giving examples of how to treat it like any other uncertainty, that he is explicitly quantifying and incorporating in his predictions.\n\nI'd prefer calling Richard's \"model error\" to separate the two, but I'm also okay appropriating the term as Richard did to point to something coherent. ",
+      "plaintextDescription": "Note that Richard is not treating knightian uncertainty as special and unquantifiable, but instead is giving examples of how to treat it like any other uncertainty, that he is explicitly quantifying and incorporating in his predictions.\n\nI'd prefer calling Richard's \"model error\" to separate the two, but I'm also okay appropriating the term as Richard did to point to something coherent."
+    },
+    "baseScore": 17,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-04-04T06:38:19.228Z",
+    "af": false
+  },
+  {
+    "_id": "qsqpa6CKJfKzJfeqf",
+    "postId": "7LLLkMGq4ncinzrmd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> To my knowledge, we currently don’t have a way of translating statements about “loss” into statements about “real-world capabilities”.\n\n[Now we do!](https://twitter.com/MatthewJBar/status/1636933951079215104)",
+      "plaintextDescription": "> To my knowledge, we currently don’t have a way of translating statements about “loss” into statements about “real-world capabilities”.\n\n \n\nNow we do!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-21T21:47:46.233Z",
+    "af": false
+  },
+  {
+    "_id": "zM7LEF4WMjdRFCqxK",
+    "postId": "wE7SK8w8AixqknArs",
+    "parentCommentId": "LAevWycyYx69DTRQH",
+    "topLevelCommentId": "TjZYfmBvKE7nxEkrW",
+    "contents": {
+      "markdown": "My intuition is that it's not a great approximation in those cases, similar to how in regular Laplace the empirical approximation is not great when you have eg N<5\n\nId need to run some calculations to confirm that intuition though.",
+      "plaintextDescription": "My intuition is that it's not a great approximation in those cases, similar to how in regular Laplace the empirical approximation is not great when you have eg N<5\n\nId need to run some calculations to confirm that intuition though."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-09T02:00:07.560Z",
+    "af": false
+  },
+  {
+    "_id": "PsgXbgzNqDWaAqEtp",
+    "postId": "aPeJE8bSo6rAFoLqg",
+    "parentCommentId": "ModPajhxcJnLLdtLG",
+    "topLevelCommentId": "ModPajhxcJnLLdtLG",
+    "contents": {
+      "markdown": "Here is a 2012 meme about SolidGoldMagikarp\n\nhttps://9gag.com/gag/3389221",
+      "plaintextDescription": "Here is a 2012 meme about SolidGoldMagikarp\n\nhttps://9gag.com/gag/3389221"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-02-06T14:24:29.901Z",
+    "af": true
+  },
+  {
+    "_id": "ModPajhxcJnLLdtLG",
+    "postId": "aPeJE8bSo6rAFoLqg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This site claims that the strong SolidGoldMagikarp was the username of a moderator involved somehow with Twitch Plays Pokémon\n\nhttps://infosec.exchange/@0xabad1dea/109813506433583177",
+      "plaintextDescription": "This site claims that the strong SolidGoldMagikarp was the username of a moderator involved somehow with Twitch Plays Pokémon\n\nhttps://infosec.exchange/@0xabad1dea/109813506433583177"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-02-06T14:22:54.330Z",
+    "af": true
+  },
+  {
+    "_id": "BojeK3Ym7mbJwnK8s",
+    "postId": "wE7SK8w8AixqknArs",
+    "parentCommentId": "CJfkaDs8jReBK9qAk",
+    "topLevelCommentId": "TjZYfmBvKE7nxEkrW",
+    "contents": {
+      "markdown": "I still don't understand - did you mean \"when T/t *is* close to zero\"?",
+      "plaintextDescription": "I still don't understand - did you mean \"when T/t is close to zero\"?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-06T14:14:50.482Z",
+    "af": false
+  },
+  {
+    "_id": "9o26rodc5uKoujCxp",
+    "postId": "wE7SK8w8AixqknArs",
+    "parentCommentId": "pqxQ8Mp7NigxDgvyb",
+    "topLevelCommentId": "TjZYfmBvKE7nxEkrW",
+    "contents": {
+      "markdown": "What's r? ",
+      "plaintextDescription": "What's r?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-02-04T04:22:31.928Z",
+    "af": false
+  },
+  {
+    "_id": "7Tvxzcirptr9BzHSm",
+    "postId": "wE7SK8w8AixqknArs",
+    "parentCommentId": "TjZYfmBvKE7nxEkrW",
+    "topLevelCommentId": "TjZYfmBvKE7nxEkrW",
+    "contents": {
+      "markdown": "That's exactly right, and I think the approximation holds as long as T/t>>1.\n\nThis is quite intuitive - as the amount of data goes to infinity, the rate of events should equal the number of events so far divided by the time passed.",
+      "plaintextDescription": "That's exactly right, and I think the approximation holds as long as T/t>>1.\n\nThis is quite intuitive - as the amount of data goes to infinity, the rate of events should equal the number of events so far divided by the time passed."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-03T22:30:48.671Z",
+    "af": false
+  },
+  {
+    "_id": "syqPeorx9Zv43vpt2",
+    "postId": "oxT9WJNzTG9ESjcPK",
+    "parentCommentId": "ewoGSeXeNyTKxQKY5",
+    "topLevelCommentId": "ewoGSeXeNyTKxQKY5",
+    "contents": {
+      "markdown": "If you want to join the Spanish-speaking EA community, you can do so through [this link](https://join.slack.com/t/altruismo-eficaz/shared_invite/zt-9dcv7eki-jrN6GerS0NAI~97RH4dB2A)!",
+      "plaintextDescription": "If you want to join the Spanish-speaking EA community, you can do so through this link!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-01-09T15:38:45.055Z",
+    "af": false
+  },
+  {
+    "_id": "BTscadRXi3B9vzWYg",
+    "postId": "9MZdwQ7u53oaRiBYX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree with the sentiment that indiscriminate regulation is unlikely to have good effects.\n\nI think the step that is missing is analysing the specific policies No-AI Art Activist are likely to advocate for, and whether it is a good idea to support it.\n\nMy current sense is that data helpful for alignment is unlikely to be public right now, and so harder copyright would not impede alignment efforts. The kind of data that I could see being useful are things like scores and direct feedback. Maybe at most things like Amazon reviews could end up being useful for toy settings.\n\nAnother aspect that the article does not touch on is that copyright enforcement could have an adverse effect. Currently there is basically no one trying to commercialize training dataset curation because enforcing copyright use is a nightmare. It is in fact a common good. I'd expect there would be more incentives to create large curated datasets if this was not the case.\n\nLastly, here are some examples of \"no AI art\" legislation I expect the movement is likely to support:\n1) Removing copyright protection of AI generated images\n2) Enforcing AI training data to be strictly opt-in\n3) Forcing AI content to be labelled as such\n\nBesides regulation, I also expect activists to 4) pressure companies to deboost AI made content in social medial sites.\n\nMy general impression is that 3) is slightly good for AI safety. People in the AI Safety community have advocated for it in the past, convincingly.\n\nI'm more agnostic on 1), 2) and 4).\n\n1 and 4 will make AI generation less profitable, but also it's somewhat confused - it's a weird double standard to apply to AI content over human made content.\n\n2 makes training more annoying, but could lead to commercialization of datasets and more collective effort being put into building them. I also think there is a possibly a coherent moral case for it, which I'm still trying to make my mind about, regardless of the AI safety consequences.\n\nAll in all, I am confused, though I wholeheartedly agree that we should be analysing and deciding to support specific policies rather than eg the anti AI art movement as a whole. ",
+      "plaintextDescription": "I agree with the sentiment that indiscriminate regulation is unlikely to have good effects.\n\nI think the step that is missing is analysing the specific policies No-AI Art Activist are likely to advocate for, and whether it is a good idea to support it.\n\nMy current sense is that data helpful for alignment is unlikely to be public right now, and so harder copyright would not impede alignment efforts. The kind of data that I could see being useful are things like scores and direct feedback. Maybe at most things like Amazon reviews could end up being useful for toy settings.\n\nAnother aspect that the article does not touch on is that copyright enforcement could have an adverse effect. Currently there is basically no one trying to commercialize training dataset curation because enforcing copyright use is a nightmare. It is in fact a common good. I'd expect there would be more incentives to create large curated datasets if this was not the case.\n\nLastly, here are some examples of \"no AI art\" legislation I expect the movement is likely to support:\n\n 1. Removing copyright protection of AI generated images\n 2. Enforcing AI training data to be strictly opt-in\n 3. Forcing AI content to be labelled as such\n\nBesides regulation, I also expect activists to 4) pressure companies to deboost AI made content in social medial sites.\n\nMy general impression is that 3) is slightly good for AI safety. People in the AI Safety community have advocated for it in the past, convincingly.\n\nI'm more agnostic on 1), 2) and 4).\n\n1 and 4 will make AI generation less profitable, but also it's somewhat confused - it's a weird double standard to apply to AI content over human made content.\n\n2 makes training more annoying, but could lead to commercialization of datasets and more collective effort being put into building them. I also think there is a possibly a coherent moral case for it, which I'm still trying to make my mind about, regardless of the AI safety consequences.\n\nAll in all, I am confused, th"
+    },
+    "baseScore": 14,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2022-12-27T01:15:22.855Z",
+    "af": false
+  },
+  {
+    "_id": "jBnkDYYuHdHZKMqKB",
+    "postId": "wG5KTj5jFiibydgmk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great work!\n\nStuart Armstrong gave one more example of a heuristic argument based in the presumption of independence here.\n\nhttps://www.lesswrong.com/posts/iNFZG4d9W848zsgch/the-goldbach-conjecture-is-probably-correct-so-was-fermat-s",
+      "plaintextDescription": "Great work!\n\nStuart Armstrong gave one more example of a heuristic argument based in the presumption of independence here.\n\nhttps://www.lesswrong.com/posts/iNFZG4d9W848zsgch/the-goldbach-conjecture-is-probably-correct-so-was-fermat-s"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-11-22T02:01:33.197Z",
+    "af": false
+  },
+  {
+    "_id": "mBPuvjdnKLxuiQAob",
+    "postId": "LDRQ5Zfqwi8GjzPYG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here are my quick takes from skimming the post.  \n  \nIn short, the arguments I think are best are A1, B4, C3, C4, C5, C8, C9 and D. I don't find any of them devastating.\n\n> A1. Different calls to ‘goal-directedness’ don’t necessarily mean the same concept\n\nI am not sure I parse this one.I am reading it as \"AI systems might be more like imitators than optimizers\" from the example, which I find moderately persuasive\n\n> A2. Ambiguously strong forces for goal-directedness need to meet an ambiguously high bar to cause a risk\n\nI am not sure I understand this one either.I am reading it as \"there might be no incentive for generality\" which I dont find persuasive - I think there is a strong incentive\n\n> B1. Small differences in utility functions may not be catastrophic\n\nI dont find this persuasive. I think the evidence from optimization theory setting variables to extreme values is suggestive enough to suggest this is not the default\n\n> B2. Differences between AI and human values may be small  \n> B3. Maybe value isn’t fragile\n\nThe only example we have of general intelligence (humans) seems to have strayed pretty far from evolutionary incentives, so I find this unpersuasive\n\n> B4. \\[AI might only care about\\]Short-term goals\n\nI find that somewhat persuasive, or at least not obviously wrong, similar to A1. There is a huge incentive for instilling long term thinking though.\n\n> C1. Human success isn’t from individual intelligence\n\nI dont find this persuasive. Im not convinced there is a meaningful difference between \"a single AGI\" and \"a society of AGIs\". A single AGI could be running a billion independent threads of thought and outspeed humans.\n\n> C2. AI agents may not be radically superior to combinations of humans and non-agentic machines\n\nI dont find this persuasive. Seems unlikely that human-in-the-loop is going to have any advantages over pure machines.\n\n> C3. Trust\n\nI find this plausible but not convincing\n\n> C4. Headroom\n\nPlausible but not convincing. I dont find any of the particular examples of lack of headroom convincing, and I think the prior should be that there is a lot of headroom\n\n> C5. Intelligence may not be an overwhelming advantage\n\nI find this moderately persuasive though not entirely convincing\n\n> C6. Unclear that many goals realistically incentivise taking over the universe\n\nI find this unconvincing. I think there are many reasons to expect that taking over the universe is a convergent goal.\n\n> C7. Quantity of new cognitive labor is an empirical question, not addressed\n\nI dont find this superpersuasive. In particular I think there is a good chance that once we have AGI we will be in a hardware overhang and be able to execute tons of AGI-equivalents\n\n> C8. Speed of intelligence growth is ambiguous\n\nI find this plausible\n\n> C9. Key concepts are vague\n\nGranted but not a refutation in itself\n\n> D1. The argument overall proves too much about corporations\n\nI find this somewhat persuasive",
+      "plaintextDescription": "Here are my quick takes from skimming the post.\n\nIn short, the arguments I think are best are A1, B4, C3, C4, C5, C8, C9 and D. I don't find any of them devastating.\n\n> A1. Different calls to ‘goal-directedness’ don’t necessarily mean the same concept\n\nI am not sure I parse this one.I am reading it as \"AI systems might be more like imitators than optimizers\" from the example, which I find moderately persuasive\n\n> A2. Ambiguously strong forces for goal-directedness need to meet an ambiguously high bar to cause a risk\n\nI am not sure I understand this one either.I am reading it as \"there might be no incentive for generality\" which I dont find persuasive - I think there is a strong incentive\n\n> B1. Small differences in utility functions may not be catastrophic\n\nI dont find this persuasive. I think the evidence from optimization theory setting variables to extreme values is suggestive enough to suggest this is not the default\n\n> B2. Differences between AI and human values may be small\n> B3. Maybe value isn’t fragile\n\nThe only example we have of general intelligence (humans) seems to have strayed pretty far from evolutionary incentives, so I find this unpersuasive\n\n> B4. [AI might only care about]Short-term goals\n\nI find that somewhat persuasive, or at least not obviously wrong, similar to A1. There is a huge incentive for instilling long term thinking though.\n\n> C1. Human success isn’t from individual intelligence\n\nI dont find this persuasive. Im not convinced there is a meaningful difference between \"a single AGI\" and \"a society of AGIs\". A single AGI could be running a billion independent threads of thought and outspeed humans.\n\n> C2. AI agents may not be radically superior to combinations of humans and non-agentic machines\n\nI dont find this persuasive. Seems unlikely that human-in-the-loop is going to have any advantages over pure machines.\n\n> C3. Trust\n\nI find this plausible but not convincing\n\n> C4. Headroom\n\nPlausible but not convincing. I dont find any of the part"
+    },
+    "baseScore": 19,
+    "voteCount": 11,
+    "createdAt": null,
+    "postedAt": "2022-10-14T20:00:17.613Z",
+    "af": false
+  },
+  {
+    "_id": "Do3qhw2Hg6teYCD8J",
+    "postId": "LDRQ5Zfqwi8GjzPYG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Eight examples, no cherry-picking:\n\nNit: Having a wall of images makes this post unnecessarily harder to read.  \nI'd recommend making a 4x2 collage with the photos so they don't take that much space.  \n  \n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e755dff31b3b413ffc01f632fbf22e06adc56f76e7c06f43.png)",
+      "plaintextDescription": "> Eight examples, no cherry-picking:\n\n \n\nNit: Having a wall of images makes this post unnecessarily harder to read.\nI'd recommend making a 4x2 collage with the photos so they don't take that much space.\n\n"
+    },
+    "baseScore": 8,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2022-10-14T17:41:12.020Z",
+    "af": false
+  },
+  {
+    "_id": "y9wPLriFZnKHPRweX",
+    "postId": "R28ppqby8zftndDAM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "As it is often the case, I just found out that Jaynes was already discussing a similar issue to the paradox here in his seminal book.\n\n[This wikipedia article summarizes the gist of it.](https://en.wikipedia.org/wiki/Rule_of_succession#Generalization_to_any_number_of_possibilities)",
+      "plaintextDescription": "As it is often the case, I just found out that Jaynes was already discussing a similar issue to the paradox here in his seminal book.\n\nThis wikipedia article summarizes the gist of it."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-06-10T20:06:10.268Z",
+    "af": false
+  },
+  {
+    "_id": "2RxGPFgMzy736awgF",
+    "postId": "WFnyxSL543c9bxGMm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I also found this thread of math topics on AI safety helpful.\n\nhttps://forum.effectivealtruism.org/posts/d7fJLQz2QaDNbbWxJ/what-are-the-coolest-topics-in-ai-safety-to-a-hopelessly",
+      "plaintextDescription": "I also found this thread of math topics on AI safety helpful.\n\nhttps://forum.effectivealtruism.org/posts/d7fJLQz2QaDNbbWxJ/what-are-the-coolest-topics-in-ai-safety-to-a-hopelessly"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-05-19T22:10:59.522Z",
+    "af": true
+  },
+  {
+    "_id": "dJGD5TvHiqQBjdmwH",
+    "postId": "Mucvqyuo8o9ecbzea",
+    "parentCommentId": "Gf2JhxSofDzbZNGRF",
+    "topLevelCommentId": "4cNiE3yLZpZZEFego",
+    "contents": {
+      "markdown": "Ah sorry for the lack of clarity - let's stick to my original submission for PVE  \n  \nThat would be:  \n \n\n\\[0,1,0,1,0,0,9,0,0,1,0,0\\]",
+      "plaintextDescription": "Ah sorry for the lack of clarity - let's stick to my original submission for PVE\n\nThat would be:\n \n\n[0,1,0,1,0,0,9,0,0,1,0,0]\n "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-04-05T12:45:52.027Z",
+    "af": false
+  },
+  {
+    "_id": "6Gn7Fi5DyCF2sdBFB",
+    "postId": "Mucvqyuo8o9ecbzea",
+    "parentCommentId": "E9GwGhGYyqQRjyuGQ",
+    "topLevelCommentId": "4cNiE3yLZpZZEFego",
+    "contents": {
+      "markdown": "Yes, I am looking at decks that appear in the dataset, and more particularly at decks that have faced a deck similar to the rival's.\n\nGood to know that one gets similar results using the different scoring functions.\n\nI guess that maybe the approach does not work that well ¯\\\\_(ツ)_/¯",
+      "plaintextDescription": "Yes, I am looking at decks that appear in the dataset, and more particularly at decks that have faced a deck similar to the rival's.\n\nGood to know that one gets similar results using the different scoring functions.\n\nI guess that maybe the approach does not work that well ¯\\_(ツ)_/¯ "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-03-31T21:48:24.823Z",
+    "af": false
+  },
+  {
+    "_id": "qLWFJzHxgiNvd9DPm",
+    "postId": "Mucvqyuo8o9ecbzea",
+    "parentCommentId": "JNQNkanqGAGQBvjHC",
+    "topLevelCommentId": "4cNiE3yLZpZZEFego",
+    "contents": {
+      "markdown": "Thank you for bringing this up!\n\n I think you might be right, since the deck is quite undiverse and according to the rest diversity is important. That being said, I could not find the mistake in the code at a glance :/  \n  \nDo you have any opinions on \\[1, 1, 0, 1, 0, 1, 2, 1, 1, 3, 0, 1\\]? This would be the worst deck amongst the decks that played against a deck similar to the rival's in my code, according to my code.",
+      "plaintextDescription": "Thank you for bringing this up!\n\n I think you might be right, since the deck is quite undiverse and according to the rest diversity is important. That being said, I could not find the mistake in the code at a glance :/\n\nDo you have any opinions on [1, 1, 0, 1, 0, 1, 2, 1, 1, 3, 0, 1]? This would be the worst deck amongst the decks that played against a deck similar to the rival's in my code, according to my code."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-03-31T18:23:22.439Z",
+    "af": false
+  },
+  {
+    "_id": "dxHQfFo2e3J3iksQa",
+    "postId": "mTGrrX8SZJ2tQDuqz",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Marius Hobbhahn has estimated the number of parameters [here](https://docs.google.com/document/d/1S9xZyCeITDOs-P1W_-liNW0WgVN-OLsSudVrPXMaLqw/edit?usp=sharing). His final estimate is **3.5e6 parameters**.\n\nAnson Ho has estimated the training compute (his reasoning at the end of this answer). His final estimate is **7.8e22 FLOPs**.\n\nBelow I made a visualization of the parameters vs training compute of n=108 important ML system, so you can see how DeepMind's syste (labelled GOAT in the graph) compares to other systems. \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/a914019655f910368965bfbea99e0498327be378ade33d1b.png)\n\n> \\[Final calculation\\]  \n> (8 TPUs)(4.20e14 FLOP/s)(0.1 utilisation rate)(32 agents)(7.3e6 s/agent) = 7.8e22 FLOPs\n> \n> ==========================  \n> NOTES BELOW\n> \n> \\[Hardware\\]  \n> \\- \"Each agent is trained using 8 TPUv3s and consumes approximately 50,000 agent steps (observations) per second.\"  \n> \\- TPUv3 (half precision): 4.2e14 FLOP/s  \n> \\- Number of TPUs: 8  \n> \\- Utilisation rate: 0.1\n> \n> \\[Timesteps\\]  \n> \\- Figure 16 shows steps per generation and agent. In total there are 1.5e10 + 4.0e10 + 2.5e10 + 1.1e11 + 2e11 = 3.9e11 steps per agent.  \n> \\- 3.9e11 / 5e4 = 8e6 s → ~93 days  \n> \\- 100 million steps is equivalent to 30 minutes of wall-clock time in our setup. (pg 29, fig 27)  \n> \\- 1e8 steps → 0.5h  \n> \\- 3.9e11 steps → 1950h → 7.0e6 s → ~82 days  \n> \\- Both of these seem like overestimates, because:  \n> “Finally, on the largest timescale (days), generational training iteratively improves population performance by bootstrapping off previous generations, whilst also iteratively updating the validation normalised percentile metric itself.” (pg 16)  \n> \\- Suggests that the above is an overestimate of the number of days needed, else they would have said (months) or (weeks)?  \n> \\- Final choice (guesstimate): 85 days = 7.3e6 s\n> \n> \\[Population size\\]  \n> \\- 8 agents? (pg 21) → this is describing the case where they’re not using PBT, so ignore this number  \n> \\- The original PBT paper uses 32 agents for one task https://arxiv.org/pdf/1711.09846.pdf (in general it uses between 10 and 80)  \n> \\- (Guesstimate) Average population size: 32",
+      "plaintextDescription": "Marius Hobbhahn has estimated the number of parameters here. His final estimate is 3.5e6 parameters.\n\nAnson Ho has estimated the training compute (his reasoning at the end of this answer). His final estimate is 7.8e22 FLOPs.\n\nBelow I made a visualization of the parameters vs training compute of n=108 important ML system, so you can see how DeepMind's syste (labelled GOAT in the graph) compares to other systems. \n\n> [Final calculation]\n> (8 TPUs)(4.20e14 FLOP/s)(0.1 utilisation rate)(32 agents)(7.3e6 s/agent) = 7.8e22 FLOPs\n> \n> ==========================\n> NOTES BELOW\n> \n> [Hardware]\n> - \"Each agent is trained using 8 TPUv3s and consumes approximately 50,000 agent steps (observations) per second.\"\n> - TPUv3 (half precision): 4.2e14 FLOP/s\n> - Number of TPUs: 8\n> - Utilisation rate: 0.1\n> \n> [Timesteps]\n> - Figure 16 shows steps per generation and agent. In total there are 1.5e10 + 4.0e10 + 2.5e10 + 1.1e11 + 2e11 = 3.9e11 steps per agent.\n> - 3.9e11 / 5e4 = 8e6 s → ~93 days\n> - 100 million steps is equivalent to 30 minutes of wall-clock time in our setup. (pg 29, fig 27)\n> - 1e8 steps → 0.5h\n> - 3.9e11 steps → 1950h → 7.0e6 s → ~82 days\n> - Both of these seem like overestimates, because:\n> “Finally, on the largest timescale (days), generational training iteratively improves population performance by bootstrapping off previous generations, whilst also iteratively updating the validation normalised percentile metric itself.” (pg 16)\n> - Suggests that the above is an overestimate of the number of days needed, else they would have said (months) or (weeks)?\n> - Final choice (guesstimate): 85 days = 7.3e6 s\n> \n> [Population size]\n> - 8 agents? (pg 21) → this is describing the case where they’re not using PBT, so ignore this number\n> - The original PBT paper uses 32 agents for one task https://arxiv.org/pdf/1711.09846.pdf (in general it uses between 10 and 80)\n> - (Guesstimate) Average population size: 32"
+    },
+    "baseScore": 13,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2022-03-30T15:48:58.806Z",
+    "af": true
+  },
+  {
+    "_id": "GJ4cTwoGQmXpzf7Tr",
+    "postId": "Mucvqyuo8o9ecbzea",
+    "parentCommentId": "ggHDkLRSzx9p5gnCp",
+    "topLevelCommentId": "4cNiE3yLZpZZEFego",
+    "contents": {
+      "markdown": "Fixed, thanks!",
+      "plaintextDescription": "Fixed, thanks!"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-03-27T00:32:49.510Z",
+    "af": false
+  },
+  {
+    "_id": "4cNiE3yLZpZZEFego",
+    "postId": "Mucvqyuo8o9ecbzea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Here is my very bad approach after spending ~one hour playing around with the data\n\n1.  Filter decks that fought against a similar to the rivals deck, using a simple measure of distance (sum of absolute differences between the deck components)\n2.  Compute a 'score' of the decks. The score is defined as the sum of 1/deck_distance(deck) * (1 or -1 depending on whether the deck won or lost against the challenger) \n3.  Report the deck with the maximum score\n\nSo my submission would be: \\[0,1,0,1,0,0,9,0,0,1,0,0\\]\n\n[Code](https://colab.research.google.com/drive/1nrxXr2VCQb0QoWF01NCZr39mdWK2ey2R?usp=sharing)",
+      "plaintextDescription": "Here is my very bad approach after spending ~one hour playing around with the data\n\n 1. Filter decks that fought against a similar to the rivals deck, using a simple measure of distance (sum of absolute differences between the deck components)\n 2. Compute a 'score' of the decks. The score is defined as the sum of 1/deck_distance(deck) * (1 or -1 depending on whether the deck won or lost against the challenger) \n 3. Report the deck with the maximum score\n\nSo my submission would be: [0,1,0,1,0,0,9,0,0,1,0,0]\n\n \n\nCode"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-03-26T21:20:30.844Z",
+    "af": false
+  },
+  {
+    "_id": "uqiyppzvCm7BbSk3w",
+    "postId": "Mucvqyuo8o9ecbzea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Seems like you want to include A, L, P, V, E in your decks, and avoid B, S, K. Here is the correlation between the quantity of each card and whether the deck won. The ordering is ~similar when computing the inclusion winrate for each card.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/55db2a9f4c181f3c7e93ef8d8b551a6480e654ed59e23bde.png)",
+      "plaintextDescription": "Seems like you want to include A, L, P, V, E in your decks, and avoid B, S, K. Here is the correlation between the quantity of each card and whether the deck won. The ordering is ~similar when computing the inclusion winrate for each card."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-03-26T19:58:16.886Z",
+    "af": false
+  },
+  {
+    "_id": "Kov3xuczHRcHeGhgR",
+    "postId": "sDiGGhpw7Evw7zdR4",
+    "parentCommentId": "HJ8eTgyok6NfCYHkJ",
+    "topLevelCommentId": "HJ8eTgyok6NfCYHkJ",
+    "contents": {
+      "markdown": "Thanks for the comment!\n\nI am personally sympathetic to the view that AlphaGo Master and AlphaGo Zero are off-trend.\n\nIn the regression with all models the inclusion does not change the median slope, but drastically increases noise, as you can see for yourself in the [visualization](https://ml-progress.com/visualization) selecting the option '**big\\_alphago\\_action = remove'** (see table below for a comparison of regressing the large model trend without vs with the big AlphaGo models).\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e3193467d62979de7f1974a62bd8f768f704a2cc589f7561.png)\n\nIn appendix B we study the effects of removing AlphaGo Zero and AlphaGo Master when studying record-setting models. The upper bound of the slope is affected dramatically, and the R2 fit is much better when we exclude them, see table 6 reproduced below.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/886b359a2e9ab5cd27cbc7df52b1040e9df847729459ac65.png)",
+      "plaintextDescription": "Thanks for the comment!\n\nI am personally sympathetic to the view that AlphaGo Master and AlphaGo Zero are off-trend.\n\nIn the regression with all models the inclusion does not change the median slope, but drastically increases noise, as you can see for yourself in the visualization selecting the option 'big_alphago_action = remove' (see table below for a comparison of regressing the large model trend without vs with the big AlphaGo models).\n\nIn appendix B we study the effects of removing AlphaGo Zero and AlphaGo Master when studying record-setting models. The upper bound of the slope is affected dramatically, and the R2 fit is much better when we exclude them, see table 6 reproduced below."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-03-21T15:52:40.138Z",
+    "af": false
+  },
+  {
+    "_id": "y8QqhBhkxyK7268Cd",
+    "postId": "XKtybmbjhC6mXDm5z",
+    "parentCommentId": "PhBYKYSSFwvxwDunP",
+    "topLevelCommentId": "fQEYmPxFWZWq8cTCE",
+    "contents": {
+      "markdown": "Following up on this: we have updated appendix F of [our paper](https://arxiv.org/abs/2202.05924) with an analysis of different choices of the threshold that separates large-scale and regular-scale systems. Results are similar independently of the threshold choice.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/4ed356547028ed601ec2a2b95e8f1fe3a450891ce19429d4.png)",
+      "plaintextDescription": "Following up on this: we have updated appendix F of our paper with an analysis of different choices of the threshold that separates large-scale and regular-scale systems. Results are similar independently of the threshold choice."
+    },
+    "baseScore": 10,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-03-15T21:37:25.547Z",
+    "af": true
+  },
+  {
+    "_id": "odMK9KWBs2zDPJyyC",
+    "postId": "R28ppqby8zftndDAM",
+    "parentCommentId": "QC8kHcML7f2MNsdL8",
+    "topLevelCommentId": "QC8kHcML7f2MNsdL8",
+    "contents": {
+      "markdown": "Thanks for engaging!\n\n> To use this theorem, you need both an \\\\(x\\\\) (your data / evidence), and a \\\\(\\theta\\\\) (your parameter).\n\nParameters are abstractions we use to simplify modelling. What we actually care about is the probability of unkown events given past observations.\n\n> You start out discussing what appears to be a combination of two forecasts\n\nTo clarify: this is not what I wanted to discuss. The expert is reporting how you should update your priors given the evidence, and remaining agnostic on what the priors should be.\n\n> A likelihood isn't just something you multiply with your prior, it is a conditional pmf or pdf with a *different outcome* than your prior.\n\nThe whole point of Bayesianism is that it offer a precise, quantitative answer to how you should update your priors given some evidence - and that is multiplying by the likelihoods.\n\nThis is why it is often recommend in social sciences and elsewhere to report your likelihoods.\n\n> I'm not sure we ever observe \\[the evidence vector\\] directly\n\nI agree this is not common in judgemental forecasting, where the whole updating process is very illegible. I think it holds for most Bayesian-leaning scientific reporting.\n\n> it is pretty clear from your post that you're talking about \\\\(e=p_{2}(\\theta)\\\\) in the sense used above, not \\\\(p(x\\mid\\theta)\\\\).\n\nI am not, I am talking about evidence = likelihood vectors.\n\nOne way to think about this is that the expert is just informing us about how we should update our beliefs. \"Given that the pandemic broke out in Wuhan, your subjective probability of a lab break should increase and it should increase by this amount\". But the final probability depends on your prior beliefs, that the expert cannot possibly know.\n\n> I don't think there is a unique way to go from \\\\(p(x\\mid\\theta) \\\\)to, let's say, \\\\(p(x^*\\mid\\theta^*)\\\\)*,* where\\\\(x^*\\\\) is the expert's probability vector over \\\\(A,A^{c}\\\\) and \\\\(\\theta^{*}\\\\) your probability vector over \\\\(A,A^{c}\\\\).\n\nYes! If I am understanding this right, I think this gets to the crux of the post. The compression is *lossy*, and neccessarily loses some information.",
+      "plaintextDescription": "Thanks for engaging!\n\n \n\n> To use this theorem, you need both an x (your data / evidence), and a θ (your parameter).\n\nParameters are abstractions we use to simplify modelling. What we actually care about is the probability of unkown events given past observations.\n\n \n\n> You start out discussing what appears to be a combination of two forecasts\n\nTo clarify: this is not what I wanted to discuss. The expert is reporting how you should update your priors given the evidence, and remaining agnostic on what the priors should be.\n\n \n\n> A likelihood isn't just something you multiply with your prior, it is a conditional pmf or pdf with a different outcome than your prior.\n\nThe whole point of Bayesianism is that it offer a precise, quantitative answer to how you should update your priors given some evidence - and that is multiplying by the likelihoods.\n\nThis is why it is often recommend in social sciences and elsewhere to report your likelihoods.\n\n \n\n> I'm not sure we ever observe [the evidence vector] directly\n\nI agree this is not common in judgemental forecasting, where the whole updating process is very illegible. I think it holds for most Bayesian-leaning scientific reporting.\n\n \n\n> it is pretty clear from your post that you're talking about e=p2(θ) in the sense used above, not p(x∣θ).\n\nI am not, I am talking about evidence = likelihood vectors.\n\nOne way to think about this is that the expert is just informing us about how we should update our beliefs. \"Given that the pandemic broke out in Wuhan, your subjective probability of a lab break should increase and it should increase by this amount\". But the final probability depends on your prior beliefs, that the expert cannot possibly know.\n\n \n\n> I don't think there is a unique way to go from p(x∣θ)to, let's say, p(x∗∣θ∗), where x∗ is the expert's probability vector over A,Ac and θ∗ your probability vector over A,Ac.\n\nYes! If I am understanding this right, I think this gets to the crux of the post. The compression is lossy, an"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-03-07T23:36:25.251Z",
+    "af": false
+  },
+  {
+    "_id": "FTwfZSwMHDcHM3HiJ",
+    "postId": "d5swTmH2zw4vzYBNS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great sequence - it is a nice compendium of the theories and important thought experiments.\n\nI will probably use this as a reference in the future, and refer other people here for an introduction.\n\nLooking forward to future entries!",
+      "plaintextDescription": "Great sequence - it is a nice compendium of the theories and important thought experiments.\n\nI will probably use this as a reference in the future, and refer other people here for an introduction.\n\nLooking forward to future entries!"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-03-07T17:52:03.080Z",
+    "af": false
+  },
+  {
+    "_id": "AuG7ajvmCXtHCZcXY",
+    "postId": "3bBw83qr8nTJb5jcJ",
+    "parentCommentId": "m9poQbdXGtqRfwBsv",
+    "topLevelCommentId": "m9poQbdXGtqRfwBsv",
+    "contents": {
+      "markdown": "I am glad Yair! Thanks for giving it a go :)",
+      "plaintextDescription": "I am glad Yair! Thanks for giving it a go :)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-03-07T12:57:00.633Z",
+    "af": false
+  },
+  {
+    "_id": "CvmjncdpKounkWT69",
+    "postId": "N6vZEnCn6A95Xn39p",
+    "parentCommentId": "o58cMKKjGp87dzTgx",
+    "topLevelCommentId": "w3iGrjrfcKgSc25Wd",
+    "contents": {
+      "markdown": "> Those I know who train large models seem to be *very* confident we will get 100 Trillion parameter models before the end of the decade, but do not seem to think it will happen, say, in the next 2 years. \n\nFWIW if [the current trend continues](https://www.alignmentforum.org/posts/GzoWcYibWYwJva8aL/parameter-counts-in-machine-learning) we will first see 1e14 parameter models in 2 to 4 years from now.",
+      "plaintextDescription": "> Those I know who train large models seem to be very confident we will get 100 Trillion parameter models before the end of the decade, but do not seem to think it will happen, say, in the next 2 years. \n\n \n\nFWIW if the current trend continues we will first see 1e14 parameter models in 2 to 4 years from now."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-03-03T15:53:01.508Z",
+    "af": false
+  },
+  {
+    "_id": "GSwrKWwL6wBty7ppe",
+    "postId": "q6d4vtGwt5FE84wk7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I am pretty pumped about this.\nGoogle docs + latex support is huge game for me. ",
+      "plaintextDescription": "I am pretty pumped about this. Google docs + latex support is huge game for me."
+    },
+    "baseScore": 19,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2022-02-23T03:01:47.876Z",
+    "af": false
+  },
+  {
+    "_id": "C3czbeAvNreww6KaK",
+    "postId": "XKtybmbjhC6mXDm5z",
+    "parentCommentId": "fQEYmPxFWZWq8cTCE",
+    "topLevelCommentId": "fQEYmPxFWZWq8cTCE",
+    "contents": {
+      "markdown": "> There's also a lot of research that didn't make your analysis, including work explicitly geared towards smaller models. What exclusion criteria did you use? I feel like if I was to perform the same analysis with a slightly different sample of papers I could come to wildly divergent conclusions.\n\n  \nIt is not feasible to do an exhaustive analysis of all milestone models. We necessarily are missing some important ones, either because we are not aware of them, because they did not provide enough information to deduce the training compute or because we haven't gotten to annotate them yet.\n\nOur criteria for inclusion is outlined in appendix A. Essentially it boils down to ML models that have been cited >1000 times, models that have some historical significance and models that have been deployed in an important context (eg something that was deployed as part of Bing search engine would count). For models in the last two years we were more subjective, since there hasn't been enough time for the more relevant work to stand out the test of time.\n\nWe also excluded 5 models that have abnormally low compute, see figure 4.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/712506fa6ea7d8b58c4f00a3691644d9fd3c09c95c0b0511.png)\n\nWe tried playing around with the selection of papers that was excluded and it didn't significantly change our conclusions, though obviously the dataset is biased in many ways. Appendix G discusses the possible biases that may have crept in.",
+      "plaintextDescription": "> There's also a lot of research that didn't make your analysis, including work explicitly geared towards smaller models. What exclusion criteria did you use? I feel like if I was to perform the same analysis with a slightly different sample of papers I could come to wildly divergent conclusions.\n\n\nIt is not feasible to do an exhaustive analysis of all milestone models. We necessarily are missing some important ones, either because we are not aware of them, because they did not provide enough information to deduce the training compute or because we haven't gotten to annotate them yet.\n\nOur criteria for inclusion is outlined in appendix A. Essentially it boils down to ML models that have been cited >1000 times, models that have some historical significance and models that have been deployed in an important context (eg something that was deployed as part of Bing search engine would count). For models in the last two years we were more subjective, since there hasn't been enough time for the more relevant work to stand out the test of time.\n\nWe also excluded 5 models that have abnormally low compute, see figure 4.\n\nWe tried playing around with the selection of papers that was excluded and it didn't significantly change our conclusions, though obviously the dataset is biased in many ways. Appendix G discusses the possible biases that may have crept in. "
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-02-18T15:30:03.096Z",
+    "af": true
+  },
+  {
+    "_id": "PhBYKYSSFwvxwDunP",
+    "postId": "XKtybmbjhC6mXDm5z",
+    "parentCommentId": "fQEYmPxFWZWq8cTCE",
+    "topLevelCommentId": "fQEYmPxFWZWq8cTCE",
+    "contents": {
+      "markdown": "Great questions! I think it is reasonable to be suspicious of the large-scale distinction.\n\nI do stand by it - I think the companies discontinuously increased their training budgets around 2016 for some flagship models.[^yyx8wxjkxpf] If you mix these models with the regular trend, you might believe that the trend was doubling very fast up until 2017 and then slowed down. It is not an entirely unreasonable interpretation, but it explains worse the discontinuous jumps around 2016. Appendix E discusses this in-depth.\n\nThe way we selected the large-scale models is half intuition and half convenience. We compare the compute of each model to the log compute of nearby papers (within 2 years), and we call it large scale if its log compute exceeds 0.72 standard deviations of the mean of that sample.\n\nI think there is a reasonable case for including NASv3, Libratus, Megatron-LM, T5-3B, OpenAI Five, Turing NLG, iGPT-XL, GShard (dense), Switch, DALL-E, Pangu-α, ProtT5-XXL and HyperClova on either side of this division.\n\nArguably we should have been more transparent about the effects of choosing a different threshold - we will try to look more into this in the next update of the paper.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/511816fe883ce00122605b74bc78b62fe4fe82e7a6f8fc7d.png)\n\n[^yyx8wxjkxpf]: See appendix F for a surface discussion",
+      "plaintextDescription": "Great questions! I think it is reasonable to be suspicious of the large-scale distinction.\n\nI do stand by it - I think the companies discontinuously increased their training budgets around 2016 for some flagship models.[1] If you mix these models with the regular trend, you might believe that the trend was doubling very fast up until 2017 and then slowed down. It is not an entirely unreasonable interpretation, but it explains worse the discontinuous jumps around 2016. Appendix E discusses this in-depth.\n\nThe way we selected the large-scale models is half intuition and half convenience. We compare the compute of each model to the log compute of nearby papers (within 2 years), and we call it large scale if its log compute exceeds 0.72 standard deviations of the mean of that sample.\n\nI think there is a reasonable case for including NASv3, Libratus, Megatron-LM, T5-3B, OpenAI Five, Turing NLG, iGPT-XL, GShard (dense), Switch, DALL-E, Pangu-α, ProtT5-XXL and HyperClova on either side of this division.\n\nArguably we should have been more transparent about the effects of choosing a different threshold - we will try to look more into this in the next update of the paper.\n\n \n\n 1. ^\n    See appendix F for a surface discussion"
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-02-18T15:15:57.118Z",
+    "af": true
+  },
+  {
+    "_id": "B9vzkhjvA38yrHWdy",
+    "postId": "XKtybmbjhC6mXDm5z",
+    "parentCommentId": "FqP5ookjoStiNomdm",
+    "topLevelCommentId": "FqP5ookjoStiNomdm",
+    "contents": {
+      "markdown": "Great idea!\n\n[The sequence is now up.](https://www.alignmentforum.org/s/T9pBzinPXYB3mxSGi)",
+      "plaintextDescription": "Great idea!\n\nThe sequence is now up."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-02-18T14:29:34.752Z",
+    "af": false
+  },
+  {
+    "_id": "HwcCA78dhrLNJK7id",
+    "postId": "osyjZMm3a9adasBqw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "You can modify your utility function as part of a bargaining or pre commitment strategy.",
+      "plaintextDescription": "You can modify your utility function as part of a bargaining or pre commitment strategy."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-02-05T04:25:52.785Z",
+    "af": false
+  },
+  {
+    "_id": "xJK7LhtbWE9PeQhws",
+    "postId": "eMTifnJFa6uJQDemc",
+    "parentCommentId": "TcbKgnaes5xoEbzY9",
+    "topLevelCommentId": "TcbKgnaes5xoEbzY9",
+    "contents": {
+      "markdown": "Thanks, fixed! \n\n> I'd also recommend putting everything after \"Should you read this book? Possibly!\" at the top, instead of at the bottom, since it's still relevant to the majority of people who don't read the whole post.\n\nThat's a good point, I'll try later to reorder it and write a new outro.",
+      "plaintextDescription": "Thanks, fixed! \n\n> I'd also recommend putting everything after \"Should you read this book? Possibly!\" at the top, instead of at the bottom, since it's still relevant to the majority of people who don't read the whole post.\n\nThat's a good point, I'll try later to reorder it and write a new outro."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-02-01T21:40:48.208Z",
+    "af": false
+  },
+  {
+    "_id": "paGQ9tmKjasJkppaF",
+    "postId": "CeZXDmp8Z363XaM6b",
+    "parentCommentId": "PvjgkXR8yhuSoFeQX",
+    "topLevelCommentId": "PvjgkXR8yhuSoFeQX",
+    "contents": {
+      "markdown": "> I feel like the approach of \"investigate past trends\" has passed the 80/20 point of informing our AI timelines, and I'd probably prefer those researchers to orient to new questions that illuminate different facets of the AI strategic landscape.\n\nI specialise in researching this topic. My impression is that barely anyone has looked at past technological trends, neither in academia nor in the LW/EA community. I am generally quite excited about more people looking into this space, because it seems neglected and the kind of topic where EA/LW type of people have a significant edge.",
+      "plaintextDescription": "> I feel like the approach of \"investigate past trends\" has passed the 80/20 point of informing our AI timelines, and I'd probably prefer those researchers to orient to new questions that illuminate different facets of the AI strategic landscape.\n\nI specialise in researching this topic. My impression is that barely anyone has looked at past technological trends, neither in academia nor in the LW/EA community. I am generally quite excited about more people looking into this space, because it seems neglected and the kind of topic where EA/LW type of people have a significant edge."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2022-02-01T04:01:54.915Z",
+    "af": false
+  },
+  {
+    "_id": "LHEFwikLi7BFjkSGF",
+    "postId": "zFhhDCxz87yKwqYQf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **A negative rapid test should be necessary before ending isolation.** The CDC’s new guidelines don’t say this but this seems overdetermined and obvious to me. If you care about not being infectious, you should check on that before exposing others.\n\nHow common are false positives after infection?\n\nEg [the CDC says that](https://www.cdc.gov/coronavirus/2019-ncov/hcp/duration-isolation.html): \n\n> **Recovered patients:** Patients who have recovered from COVID-19 can continue to have detectable SARS-CoV-2 RNA in upper respiratory specimens for up to 3 months after illness onset. However, replication-competent virus has not been reliably recovered from such patients, and they are not likely infectious.\n\nWhich suggests they might be not that uncommon.\n\n  \n[UTSouthwesterner Medical Center](https://www.utsouthwestern.edu/covid-19/clinicians/recovered-patients.html) says that (the CDC says [something similar](https://www.cdc.gov/coronavirus/2019-ncov/lab/resources/antigen-tests-guidelines.html)):\n\n> **How can a patient have a positive PCR test but not be infectious?**\n> \n> Reverse transcriptase-quantitative polymerase chain reaction (RT-qPCR) is the primary method used to diagnose SARS-CoV-2 infection and many other viruses. The test works by creating copies of viral genetic material in respiratory samples over many cycles. A single copy of viral RNA can be amplified to more than 2 trillion copies during a typical 40-cycle testing protocol. Amplification of genomic sequence is measured in cycle thresholds (Ct) and the Ct values correlate with whether a sample contains infectious virus particles. If the viral RNA is detected after just a few amplification cycles (i.e. at a low Ct value), that means high RNA levels are present and thus more viable virus; however, because this test is designed to be a sensitive diagnostic tool (not for monitoring disease progression), a very high Ct value (low RNA level) is set as a positive range cutoff. This means that very low levels of the RNA or viral genomic fragments can test “positive” for months after the acute infection but are not associated with live virus. This detection issue is common for other RNA viruses.\n\nWhich suggests to me that PCR testing might be prone to false positive after an infection, but does not clarify to me if Rapid Antigen Tests are also prone to false positives.\n\nMy guess is that false positives in the Rapid Antigen Test are uncommon, since the proposed causal mechanism for why PCRs give false positives is because of the viral load amplification, which does not happen with Rapid Antigen Tests.\n\nThe key question: should I end isolation after 10 days regardless of rapid antigen test result?",
+      "plaintextDescription": "> A negative rapid test should be necessary before ending isolation. The CDC’s new guidelines don’t say this but this seems overdetermined and obvious to me. If you care about not being infectious, you should check on that before exposing others.\n\n \n\nHow common are false positives after infection?\n\nEg the CDC says that: \n\n> Recovered patients: Patients who have recovered from COVID-19 can continue to have detectable SARS-CoV-2 RNA in upper respiratory specimens for up to 3 months after illness onset. However, replication-competent virus has not been reliably recovered from such patients, and they are not likely infectious.\n\nWhich suggests they might be not that uncommon.\n\n\nUTSouthwesterner Medical Center says that (the CDC says something similar):\n\n> How can a patient have a positive PCR test but not be infectious?\n> \n> Reverse transcriptase-quantitative polymerase chain reaction (RT-qPCR) is the primary method used to diagnose SARS-CoV-2 infection and many other viruses. The test works by creating copies of viral genetic material in respiratory samples over many cycles. A single copy of viral RNA can be amplified to more than 2 trillion copies during a typical 40-cycle testing protocol. Amplification of genomic sequence is measured in cycle thresholds (Ct) and the Ct values correlate with whether a sample contains infectious virus particles. If the viral RNA is detected after just a few amplification cycles (i.e. at a low Ct value), that means high RNA levels are present and thus more viable virus; however, because this test is designed to be a sensitive diagnostic tool (not for monitoring disease progression), a very high Ct value (low RNA level) is set as a positive range cutoff. This means that very low levels of the RNA or viral genomic fragments can test “positive” for months after the acute infection but are not associated with live virus. This detection issue is common for other RNA viruses.\n\nWhich suggests to me that PCR testing might be prone to false posi"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-01-23T10:52:44.261Z",
+    "af": false
+  },
+  {
+    "_id": "JiKWhETXhujxuYhi5",
+    "postId": "HvqQm6o8KnwxbdmhZ",
+    "parentCommentId": "bCw5HzTHfZGJoKSBD",
+    "topLevelCommentId": "bCw5HzTHfZGJoKSBD",
+    "contents": {
+      "markdown": "Thank you Alex! You make some great points.\n\n> It seems like you probably could have gotten certainty about compute for at least a handful of the models studied in question\n\nWe thought so too - but in practice it has been surprisingly hard. Profilers are surprisingly buggy. Our colleague Marious looked into this more in depth [here](https://www.alignmentforum.org/posts/jJApGWG95495pYM7C/how-to-measure-flop-s-for-neural-networks-empirically).\n\nMaybe we are just going the wrong way about it. If someone here figures out how to directly measure compute in eg a pytorch or TF model it would be a huge boon to us. \n\n> I think two more contemporary techniques are worth considering here: structured sparsity in weights ('blocksparse'), and mixture-of-experts gating ('switch transformer')\n\nGreat suggestions! I think those would be a great future caveats to look into.\n\n> I'd be curious to hear the authors' expectations of how this research changes in the face of more custom ML hardware.\n\nMy naive impression is that our conclusions do not change much. You would just need to plug into the effective performance (\\\\(\\text{peak performance} \\times \\text{utilization}\\\\)) in the second formula.\n\nProbably the trickiest part might be figuring out the utilization rate for the custom hardware - though this is a general problem with the second method.\n\n> In general I think it'd be good to integrate a bunch of the performance benchmarks that are publicly available (since hardware providers are usually pretty eager to show off stats that make their hardware look good) into calibrations for this method.\n\nI think that would be nice! We started [a public spreadsheet](https://docs.google.com/spreadsheets/d/1AAIebjNsnJj_uKALHbXNfn3_YsT6sHXtCU0q7OIPuc4/edit#gid=1503579905) with some info on different hardware. This might be of help to someone who wants to dig deeper into the topic!",
+      "plaintextDescription": "Thank you Alex! You make some great points.\n\n> It seems like you probably could have gotten certainty about compute for at least a handful of the models studied in question\n\nWe thought so too - but in practice it has been surprisingly hard. Profilers are surprisingly buggy. Our colleague Marious looked into this more in depth here.\n\nMaybe we are just going the wrong way about it. If someone here figures out how to directly measure compute in eg a pytorch or TF model it would be a huge boon to us. \n\n> I think two more contemporary techniques are worth considering here: structured sparsity in weights ('blocksparse'), and mixture-of-experts gating ('switch transformer')\n\nGreat suggestions! I think those would be a great future caveats to look into.\n\n> I'd be curious to hear the authors' expectations of how this research changes in the face of more custom ML hardware.\n\nMy naive impression is that our conclusions do not change much. You would just need to plug into the effective performance (peak performance×utilization) in the second formula.\n\nProbably the trickiest part might be figuring out the utilization rate for the custom hardware - though this is a general problem with the second method.\n\n> In general I think it'd be good to integrate a bunch of the performance benchmarks that are publicly available (since hardware providers are usually pretty eager to show off stats that make their hardware look good) into calibrations for this method.\n\nI think that would be nice! We started a public spreadsheet with some info on different hardware. This might be of help to someone who wants to dig deeper into the topic!"
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2022-01-21T00:15:54.127Z",
+    "af": true
+  },
+  {
+    "_id": "nmfHv6xgQhuYDn9Gn",
+    "postId": "eZCrCB3HiDB55Ccqx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is a nice little post, that explores a neat idea using a simple math model. I do stand by the idea, even if I remain confused about the limits about its applicability.  \n  \n  \nThe post has received a mixed response. Some people loved it, and I have received some private messages from people thanking me for writing it. Others thought it was confused or confusing.\n\nIn hindisight, I think the choice of examples is not the best. I think a cleaner example of this problem would be from the perspective of a funder, who is trying to finance researchers to solve a concrete research problem. How many FTEs should it fund each year? This model gives a good answer.  \n \n\nAndrew Critch chimed in with [an extension](https://www.lesswrong.com/posts/eZCrCB3HiDB55Ccqx/spend-twice-as-much-effort-every-time-you-attempt-to-solve-a?commentId=AHKjEDHwD3T8AbQ39) considering minizing effort spent on the average case instead of in the worst case, which I thought was very cool. [I replied to it afterwards](https://www.lesswrong.com/posts/eZCrCB3HiDB55Ccqx/spend-twice-as-much-effort-every-time-you-attempt-to-solve-a?commentId=JxWvuNJ2kPDjBvWvn), taking his idea further. \n\nOne thing I love of this community is collaborative improvement. Receiving constructive feedback in posts is very useful, and I feel that happened here.",
+      "plaintextDescription": "This is a nice little post, that explores a neat idea using a simple math model. I do stand by the idea, even if I remain confused about the limits about its applicability.\n\n\nThe post has received a mixed response. Some people loved it, and I have received some private messages from people thanking me for writing it. Others thought it was confused or confusing.\n\nIn hindisight, I think the choice of examples is not the best. I think a cleaner example of this problem would be from the perspective of a funder, who is trying to finance researchers to solve a concrete research problem. How many FTEs should it fund each year? This model gives a good answer.\n \n\nAndrew Critch chimed in with an extension considering minizing effort spent on the average case instead of in the worst case, which I thought was very cool. I replied to it afterwards, taking his idea further. \n\nOne thing I love of this community is collaborative improvement. Receiving constructive feedback in posts is very useful, and I feel that happened here."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2022-01-09T22:17:09.456Z",
+    "af": false
+  },
+  {
+    "_id": "GhynmHie2wq6YAJwi",
+    "postId": "bxDMKi87D3gqEiz7E",
+    "parentCommentId": "vJDSsxfceDFeFKhbX",
+    "topLevelCommentId": "vJDSsxfceDFeFKhbX",
+    "contents": {
+      "markdown": "I post all exploration/babble in LessWrong.\n\nFor things I am more confident about and I want to push or get more serious feedback on I post it in the Alignment Forum or the Effective Altruism Forum.\n\nFor example, when I started thinking about forecast aggregation I posted my unpolished thoughts here [1].\n\nNow that I have grown more confident in my understanding I have been posting in the EA Forum [2].\n\nThis is not a hard rule, but I found the heuristic useful. My reasoning is something like:\n\n* LessWrong is a good place for wild speculation. I feel more likely to be called out on bullshit that does not make sense in a constructive way.\n* The EA Forum / Alignment Forum is less lenient of jargon and bullshit, plus it has a more consistent quality of content. It forces me to be more precise and rigourous.\n\n\n[1] https://www.lesswrong.com/posts/mpDGNJFYzyKkg7zc2/aggregating-forecasts\n\n[2] https://forum.effectivealtruism.org/s/hjiBqAJNKhfJFq7kf/p/biL94PKfeHmgHY6qe",
+      "plaintextDescription": "I post all exploration/babble in LessWrong.\n\nFor things I am more confident about and I want to push or get more serious feedback on I post it in the Alignment Forum or the Effective Altruism Forum.\n\nFor example, when I started thinking about forecast aggregation I posted my unpolished thoughts here [1].\n\nNow that I have grown more confident in my understanding I have been posting in the EA Forum [2].\n\nThis is not a hard rule, but I found the heuristic useful. My reasoning is something like:\n\n * LessWrong is a good place for wild speculation. I feel more likely to be called out on bullshit that does not make sense in a constructive way.\n * The EA Forum / Alignment Forum is less lenient of jargon and bullshit, plus it has a more consistent quality of content. It forces me to be more precise and rigourous.\n\n[1] https://www.lesswrong.com/posts/mpDGNJFYzyKkg7zc2/aggregating-forecasts\n\n[2] https://forum.effectivealtruism.org/s/hjiBqAJNKhfJFq7kf/p/biL94PKfeHmgHY6qe"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-01-01T06:14:12.660Z",
+    "af": false
+  },
+  {
+    "_id": "vqTQsRq9XzepG2nKD",
+    "postId": "tJMnF7bgTCCeTEAmy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I agree that purchasing power is a better way of measuring absolute poverty!\n\nInterestingly, I could imagine the author of the Tweet being right about using labor value, if what they intended to point at is inequality.",
+      "plaintextDescription": "I agree that purchasing power is a better way of measuring absolute poverty!\n\nInterestingly, I could imagine the author of the Tweet being right about using labor value, if what they intended to point at is inequality."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2021-12-21T23:18:58.068Z",
+    "af": false
+  },
+  {
+    "_id": "AnzTgAwyevp4QAJFJ",
+    "postId": "dY9k9d6cLzqx7FJ6P",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> If I'm wrong and the core learning algorithm(s) of human beings is too complicated to write in a handful of scientific papers then superintelligence will not be built by 2121.\n\nNote that even if it is complicated it might be an attractor, so that a not-yet-AGI meta-learning algorithm might stumble upon it.",
+      "plaintextDescription": "> If I'm wrong and the core learning algorithm(s) of human beings is too complicated to write in a handful of scientific papers then superintelligence will not be built by 2121.\n\n \n\nNote that even if it is complicated it might be an attractor, so that a not-yet-AGI meta-learning algorithm might stumble upon it."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-12-20T16:36:48.364Z",
+    "af": false
+  },
+  {
+    "_id": "tffDacb5LNAq8vLKp",
+    "postId": "W6wBmQheDiFmfJqZy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> **ASSUMPTION 3:** The algorithm is human-legible, but nobody knows how it works yet.\n\nCan you clarify what you mean by this assumption? And how is your argument dependent on it?\n\nIs the point that the \"secret sauce\" algorithm is something that humans can plausibly come up with by thinking hrd about it? As opposed maybe to a evolution-designed nightmare that humans cannot plausibly design except by brute forcing it?",
+      "plaintextDescription": "> ASSUMPTION 3: The algorithm is human-legible, but nobody knows how it works yet.\n\n \n\nCan you clarify what you mean by this assumption? And how is your argument dependent on it?\n\nIs the point that the \"secret sauce\" algorithm is something that humans can plausibly come up with by thinking hrd about it? As opposed maybe to a evolution-designed nightmare that humans cannot plausibly design except by brute forcing it? "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-12-20T16:26:44.669Z",
+    "af": true
+  },
+  {
+    "_id": "XonEzsBcevr6fBPTi",
+    "postId": "eYGsJC8hwECeGrjii",
+    "parentCommentId": "GzfMRDNTN2BEsBSTf",
+    "topLevelCommentId": "GzfMRDNTN2BEsBSTf",
+    "contents": {
+      "markdown": "There has to be a learning component to it.\n \nBayesian Networks learned from data, SVMs and n-grams all count, but hard coded programs like ELIZA do not ",
+      "plaintextDescription": "There has to be a learning component to it.\n\nBayesian Networks learned from data, SVMs and n-grams all count, but hard coded programs like ELIZA do not"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-18T16:34:08.053Z",
+    "af": false
+  },
+  {
+    "_id": "EM9oF3PjXMaLbhFvi",
+    "postId": "qHCDysDnvhteW7kRd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I could only skim and the details went over my head, but it seems you intend to do experiments with Bayesian Networks and human operators.\n\nI recently developed and released an [open source explainability framework for Bayes nets](https://www.alignmentforum.org/posts/SPfZiEwHotPncJBLz/a-framework-to-explain-bayesian-models) \\- dropping it here in the unlikely case it might be useful.",
+      "plaintextDescription": "I could only skim and the details went over my head, but it seems you intend to do experiments with Bayesian Networks and human operators.\n\nI recently developed and released an open source explainability framework for Bayes nets - dropping it here in the unlikely case it might be useful."
+    },
+    "baseScore": 6,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2021-12-14T21:31:49.536Z",
+    "af": true
+  },
+  {
+    "_id": "XwjMyJAQ4SFPwvHgh",
+    "postId": "jJApGWG95495pYM7C",
+    "parentCommentId": "PKFpsrexEmDebzxQF",
+    "topLevelCommentId": "PKFpsrexEmDebzxQF",
+    "contents": {
+      "markdown": "Following up on this - [the aforementioned second blog post is now up](https://www.lesswrong.com/posts/fnjKpBoWJXcSDwhZk/what-s-the-backward-forward-flop-ratio-for-neural-networks)!",
+      "plaintextDescription": "Following up on this - the aforementioned second blog post is now up!"
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-12-13T21:31:09.975Z",
+    "af": false
+  },
+  {
+    "_id": "vRG44udF7YxgpabEp",
+    "postId": "HkghiK6Rt35nbgwKA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I don't fully understand how the embeddings are done.\n\nCan you spell out one of the examples? \n\nIt would be helpful for me to see how the semes map to the actual matrix.",
+      "plaintextDescription": "I don't fully understand how the embeddings are done.\n\nCan you spell out one of the examples? \n\nIt would be helpful for me to see how the semes map to the actual matrix."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-12-13T18:56:52.700Z",
+    "af": true
+  },
+  {
+    "_id": "MZJuaG5CxdrTT47a3",
+    "postId": "fnjKpBoWJXcSDwhZk",
+    "parentCommentId": "rrdmzFFzfKQ7QDMvo",
+    "topLevelCommentId": "rrdmzFFzfKQ7QDMvo",
+    "contents": {
+      "markdown": "In [AI and compute](https://openai.com/blog/ai-and-compute/), the authors compare the theoretical estimations (how many computations there ought to be in theory) with the actual GPU running time, and find that they roughly match.\n\n(with the caveat that GPU utilization rate is ~30% of the reported peak performance)\n\nOur team has extended this analysis to other architectures, and we have found similar results ; we will say more about this in an upcoming article.\n\nEDIT: The comparison is available [here](https://www.lesswrong.com/posts/HvqQm6o8KnwxbdmhZ/estimating-training-compute-of-deep-learning-models).",
+      "plaintextDescription": "In AI and compute, the authors compare the theoretical estimations (how many computations there ought to be in theory) with the actual GPU running time, and find that they roughly match.\n\n(with the caveat that GPU utilization rate is ~30% of the reported peak performance)\n\nOur team has extended this analysis to other architectures, and we have found similar results ; we will say more about this in an upcoming article.\n\nEDIT: The comparison is available here."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-12-13T17:28:31.382Z",
+    "af": false
+  },
+  {
+    "_id": "xJ5Gx2Y59c2H7wq2t",
+    "postId": "fnjKpBoWJXcSDwhZk",
+    "parentCommentId": "QTaEstMexB4DAc8wj",
+    "topLevelCommentId": "QTaEstMexB4DAc8wj",
+    "contents": {
+      "markdown": "That should be 2:1, not 3:1 (2 FLOPs per connection for the backward pass to 1 FLOP per connection for the forward pass).\n\nAnd that is basically right, except for the caveats we point out in the post.",
+      "plaintextDescription": "That should be 2:1, not 3:1 (2 FLOPs per connection for the backward pass to 1 FLOP per connection for the forward pass).\n\nAnd that is basically right, except for the caveats we point out in the post."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-13T17:24:01.834Z",
+    "af": false
+  },
+  {
+    "_id": "XrSeRvxGceHeEGZmf",
+    "postId": "aNAFrGbzXddQBMDqh",
+    "parentCommentId": "Nqc5SHLwoSwbZpaga",
+    "topLevelCommentId": "mLL7tsBcaEuLfWoCp",
+    "contents": {
+      "markdown": "I do believe that the tradeoff is real, and has a very clear physical reason - larger chips require more gates to perform a single quantum operation, so if the topology of the chip is roughly the same then I expect the fidelity needed to prevent errors to increase drastically with size.\n\nIn any case, note that in the extrapolation we basically assumed that the tradeoff didn't exist, so I expect the predictions to be pessimistic.\n\nA larger question is whether these kind of historical extrapolations work at all. In fact, a large part of why I wrote this paper is precisely because I want to test this.\n\nOn this I am cautiously optimistic for hard-to-verbalize reasons. \n\nI think the most legible reason is that technological discontinuities [are somewhat rare in practice](https://www.lesswrong.com/posts/FaCqw2x59ZFhMXJr9/a-prior-for-technological-discontinuities).\n\nThe hard-to-verbalize reasons are... *points at the whole Eliezer vs OpenPhil and Christiano debate.*",
+      "plaintextDescription": "I do believe that the tradeoff is real, and has a very clear physical reason - larger chips require more gates to perform a single quantum operation, so if the topology of the chip is roughly the same then I expect the fidelity needed to prevent errors to increase drastically with size.\n\nIn any case, note that in the extrapolation we basically assumed that the tradeoff didn't exist, so I expect the predictions to be pessimistic.\n\nA larger question is whether these kind of historical extrapolations work at all. In fact, a large part of why I wrote this paper is precisely because I want to test this.\n\nOn this I am cautiously optimistic for hard-to-verbalize reasons. \n\nI think the most legible reason is that technological discontinuities are somewhat rare in practice.\n\nThe hard-to-verbalize reasons are... points at the whole Eliezer vs OpenPhil and Christiano debate."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-12-13T12:10:10.525Z",
+    "af": false
+  },
+  {
+    "_id": "F2NYY6KAdQaigBg8x",
+    "postId": "Lq6jo5j9ty4sezT7r",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I think this is very impressive and that we could learn a lot from this kind of efforts.\n\nCan you tell us more about your \"training\" process and the capabilities you can achieve, with examples?",
+      "plaintextDescription": "I think this is very impressive and that we could learn a lot from this kind of efforts.\n\nCan you tell us more about your \"training\" process and the capabilities you can achieve, with examples?"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2021-12-13T00:04:49.107Z",
+    "af": false
+  },
+  {
+    "_id": "pq3uLMoenomgbPibg",
+    "postId": "aNAFrGbzXddQBMDqh",
+    "parentCommentId": "hFNBznWLSJ6g7ubom",
+    "topLevelCommentId": "mLL7tsBcaEuLfWoCp",
+    "contents": {
+      "markdown": "I keep making this mistake *facepalm*",
+      "plaintextDescription": "I keep making this mistake facepalm"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-12-12T21:40:48.548Z",
+    "af": false
+  },
+  {
+    "_id": "mLL7tsBcaEuLfWoCp",
+    "postId": "aNAFrGbzXddQBMDqh",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Re: quantum computing.\n\nI am bearish it will be a big deal in relation to AI.\n\nThis is because:\n\n*   [The exponential speedups are very hard to achieve in practice](https://scottaaronson.com/papers/qml.pdf).\n*   [The quadratic speedups are mostly lost when you parallelize. ](https://hearthisidea.com/episodes/jaime#quantum-computing)\n*   At the current rate of progress and barring a breakthrough it seems [it will be a couple of decades until we have useful quantum computing](https://arxiv.org/abs/2009.05045).",
+      "plaintextDescription": "Re: quantum computing.\n\nI am bearish it will be a big deal in relation to AI.\n\nThis is because:\n\n * The exponential speedups are very hard to achieve in practice.\n * The quadratic speedups are mostly lost when you parallelize. \n * At the current rate of progress and barring a breakthrough it seems it will be a couple of decades until we have useful quantum computing."
+    },
+    "baseScore": 14,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2021-12-12T21:09:10.674Z",
+    "af": false
+  },
+  {
+    "_id": "7Q5ewpN87SKXc6AAk",
+    "postId": "cLBDeEnMsf4vfxvzc",
+    "parentCommentId": "ffnR3qrMsTMDvd5Gj",
+    "topLevelCommentId": "ffnR3qrMsTMDvd5Gj",
+    "contents": {
+      "markdown": "Thank you for reading it!\n\nI think you make a fair point - one common trope when thinking of how AI can go wrong is imagining military drones and weapons. But in this story, the drones are arguably less important of a development than the propaganda manipulation enabled by the multimodal \"GPT-4\". \n\nWhich is not to say that the drones are entirely without causal blame- they are enabling genocide at unprecendented scale, and removing the possibility for humans to disobey orders.",
+      "plaintextDescription": "Thank you for reading it!\n\nI think you make a fair point - one common trope when thinking of how AI can go wrong is imagining military drones and weapons. But in this story, the drones are arguably less important of a development than the propaganda manipulation enabled by the multimodal \"GPT-4\". \n\nWhich is not to say that the drones are entirely without causal blame- they are enabling genocide at unprecendented scale, and removing the possibility for humans to disobey orders."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-12-07T16:59:26.536Z",
+    "af": false
+  },
+  {
+    "_id": "qvDeoeFTwSNLqC9dx",
+    "postId": "qherXDnjKd8upEqhn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Related work:\n\n*   [Armstrong on informal probabilistic proofs of the Goldbach hypothesis and Fermat's last theorem](https://www.lesswrong.com/posts/iNFZG4d9W848zsgch/the-goldbach-conjecture-is-probably-correct-so-was-fermat-s) \n*   [Arguments against P = NP in Arbital](https://arbital.com/p/P_vs_NP/?l=4bf) (disclaimer: I wrote these)\n*   [Gwern discussing mathematical error, specifically about the puzzle of why most math theorems are correct even if errors in proofs are relatively common](https://www.gwern.net/The-Existential-Risk-of-Mathematical-Error) \n\nAlso, while this post focuses a lot on Physics, my experience is that [top level math people are quite comfortable with informal math reasoning](https://terrytao.wordpress.com/career-advice/theres-more-to-mathematics-than-rigour-and-proofs/).",
+      "plaintextDescription": "Related work:\n\n * Armstrong on informal probabilistic proofs of the Goldbach hypothesis and Fermat's last theorem \n * Arguments against P = NP in Arbital (disclaimer: I wrote these)\n * Gwern discussing mathematical error, specifically about the puzzle of why most math theorems are correct even if errors in proofs are relatively common \n\nAlso, while this post focuses a lot on Physics, my experience is that top level math people are quite comfortable with informal math reasoning."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-11-28T12:46:13.635Z",
+    "af": false
+  },
+  {
+    "_id": "3AmRsoqKSJdd4JvQo",
+    "postId": "bEyn9h3SGeH59vnDM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great post! Helped me build an intuition of why this is true, and I came off pretty convinced it is.\n\nI specially liked how each step is well motivated, so that by the end I already knew where this was going.\n\nOne note: \n\nIn the last section you write that the convolution of the distribution equals the Fourier transform of the pointwise distributions.\n\nBut I think you meant to write that the Fourier transform of the convolution of the distributions is the pointwise product of their Fourier transforms (?).\n\nThis does not break the proof.",
+      "plaintextDescription": "Great post! Helped me build an intuition of why this is true, and I came off pretty convinced it is.\n\nI specially liked how each step is well motivated, so that by the end I already knew where this was going.\n\nOne note:\n\nIn the last section you write that the convolution of the distribution equals the Fourier transform of the pointwise distributions.\n\nBut I think you meant to write that the Fourier transform of the convolution of the distributions is the pointwise product of their Fourier transforms (?).\n\nThis does not break the proof."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-11-27T09:20:28.501Z",
+    "af": false
+  },
+  {
+    "_id": "JyzhSvvqCyDCmav8a",
+    "postId": "mRwJce3npmzbKfxws",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great post!\n\nDo you mind if I ask you what is the amount of free parameters and training compute of EfficientZero? \n\nI tried scanning the paper but didn't find them readily available.",
+      "plaintextDescription": "Great post!\n\nDo you mind if I ask you what is the amount of free parameters and training compute of EfficientZero? \n\nI tried scanning the paper but didn't find them readily available."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-11-26T16:07:18.579Z",
+    "af": false
+  },
+  {
+    "_id": "BxrtekDiNS75XbxzE",
+    "postId": "R28ppqby8zftndDAM",
+    "parentCommentId": "vRqLcPSJzGBX7Ss28",
+    "topLevelCommentId": "vRqLcPSJzGBX7Ss28",
+    "contents": {
+      "markdown": "> average log odds could make sense in the context in which there is a uniform prior\n\nThis is something I have heard from other people too, and I still cannot make sense of it. Why would questions where uninformed forecasters produce uniform priors make logodds averaging work better?  \n \n\n> A tendency for the questions asked to have priors of near 50% according to the typical unknowledgeable person would explain why more knowledgeable forecasters would assign more extreme probabilities on average: it takes more expertise to justifiably bring their probabilities further from 50%.\n\nI don't understand your point. Why would forecasters care about what other people would do? They only want to maximize their own score.  \n \n\n> If A, B, and C are mutually exclusive, then they can't all have 50% prior probability, so a pooling method that implicitly assumes that they do will not give coherent results.\n\nThis also doesn't make much sense to me, though it might be because I still don't understand the point about needing uniform priors for logodd pooling. \n\n> Different implicit priors don't appear to be ruining anything.\n\nNeat!\n\n> I conclude that the incoherent results in my ABC example cannot be blamed on switching between the uniform prior on {A,B,C} and the uniform prior on {A,\\\\(\\neg\\\\)A}, and, instead, should be blamed entirely on the experts having different beliefs conditional on \\\\(\\neg\\\\)A, which is taken account in the calculation using A,B,C, but not in the calculation using A,\\\\(\\neg\\\\)A.\n\nI agree with this.",
+      "plaintextDescription": "> average log odds could make sense in the context in which there is a uniform prior\n\n \n\nThis is something I have heard from other people too, and I still cannot make sense of it. Why would questions where uninformed forecasters produce uniform priors make logodds averaging work better?\n \n\n> A tendency for the questions asked to have priors of near 50% according to the typical unknowledgeable person would explain why more knowledgeable forecasters would assign more extreme probabilities on average: it takes more expertise to justifiably bring their probabilities further from 50%.\n\nI don't understand your point. Why would forecasters care about what other people would do? They only want to maximize their own score.\n \n\n> If A, B, and C are mutually exclusive, then they can't all have 50% prior probability, so a pooling method that implicitly assumes that they do will not give coherent results.\n\nThis also doesn't make much sense to me, though it might be because I still don't understand the point about needing uniform priors for logodd pooling. \n\n \n\n> Different implicit priors don't appear to be ruining anything.\n\nNeat!\n\n \n\n> I conclude that the incoherent results in my ABC example cannot be blamed on switching between the uniform prior on {A,B,C} and the uniform prior on {A,¬A}, and, instead, should be blamed entirely on the experts having different beliefs conditional on ¬A, which is taken account in the calculation using A,B,C, but not in the calculation using A,¬A.\n\nI agree with this."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-11-24T13:24:16.029Z",
+    "af": false
+  },
+  {
+    "_id": "94gsvcK5gRsgYnLG6",
+    "postId": "ea7CGqF3pmqpebogK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Solid post - it is good to have the full reasoning for Laplace's rule of succession in a single post instead of buried in a statistics post. I also liked the discussion on how to use it in practice - I'd love to see a full example using actual numbers if you feel like writing one! \n\nOn this topic I also recently enjoyed [UnexpectedValues post](https://ericneyman.wordpress.com/2020/11/29/an-elegant-proof-of-laplaces-rule-of-succession/). He provides a cool proof / intuition for the rule of succession.",
+      "plaintextDescription": "Solid post - it is good to have the full reasoning for Laplace's rule of succession in a single post instead of buried in a statistics post. I also liked the discussion on how to use it in practice - I'd love to see a full example using actual numbers if you feel like writing one! \n\nOn this topic I also recently enjoyed UnexpectedValues post. He provides a cool proof / intuition for the rule of succession."
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2021-11-23T23:42:31.822Z",
+    "af": false
+  },
+  {
+    "_id": "jaZHdQYn98oTbignM",
+    "postId": "R28ppqby8zftndDAM",
+    "parentCommentId": "8Jub2NsgvoEvXXoJz",
+    "topLevelCommentId": "8Jub2NsgvoEvXXoJz",
+    "contents": {
+      "markdown": "Note that you are making the same mistake than me! Updates are not summarized in the same way as beliefs - for the update the \"correct\" way is to take an average of the \\\\(B,C\\\\) likelihoods:\n\n\\\\(\\underbrace{\\begin{pmatrix}1 \\ 0.01 \\ 0.01\\end{pmatrix}}_\\text{Posterior}=\\underbrace{\\begin{pmatrix}1 \\ 1 \\ 1\\end{pmatrix}}_\\text{Prior}\\times\\underbrace{\\begin{pmatrix}1 \\ 0.01 \\ 1\\end{pmatrix}}_\\text{Refute B}\\times\\underbrace{\\begin{pmatrix}1 \\ 1 \\ 0.01\\end{pmatrix}}_\\text{Refute C}\\not = \\underbrace{\\begin{pmatrix}1 \\ 1 + 1\\end{pmatrix}}_\\text{Prior}\\times\\underbrace{\\begin{pmatrix}1 \\ \\frac{0.01 + 1}{2}\\end{pmatrix}}_\\text{Refute B}\\times\\underbrace{\\begin{pmatrix}1 \\ \\frac{1 + 0.01}{2}\\end{pmatrix}}_\\text{Refute C}\\approx\\underbrace{\\begin{pmatrix}1 \\ 0.5\\end{pmatrix}}_\\text{Posterior}\\\\)\n\nThis does not invalidate the example though!\n\nThanks for suggesting, I think it helps clarify the conondrum.",
+      "plaintextDescription": "Note that you are making the same mistake than me! Updates are not summarized in the same way as beliefs - for the update the \"correct\" way is to take an average of the B,C likelihoods:\n\n⎛⎜⎝10.010.01⎞⎟⎠Posterior=⎛⎜⎝111⎞⎟⎠Prior×⎛⎜⎝10.011⎞⎟⎠Refute B×⎛⎜⎝110.01⎞⎟⎠Refute C≠(11+1)Prior×(10.01+12)Refute B×(11+0.012)Refute C≈(10.5)Posterior\n\n \n\nThis does not invalidate the example though!\n\nThanks for suggesting, I think it helps clarify the conondrum."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-11-23T08:53:53.973Z",
+    "af": false
+  },
+  {
+    "_id": "Em52wYiwiiPZqakmS",
+    "postId": "R28ppqby8zftndDAM",
+    "parentCommentId": "YSyjMXJcrEddbEcpM",
+    "topLevelCommentId": "YSyjMXJcrEddbEcpM",
+    "contents": {
+      "markdown": "I like this framing.\n\nThis seems to imply that summarizing beliefs and summarizing updates are two distinct operations.\n\nFor summarizing beliefs we can still resort to summing:\n\n\\\\(\\underbrace{\\begin{pmatrix}p_1 \\ p_2 \\ p_3\\end{pmatrix}}_{\\text{Belief}}\\rightarrow\\underbrace{\\begin{pmatrix}p_1 \\ p_2 + p_3\\end{pmatrix}}_{\\text{Summarized belief}}  \\\\)\n\nBut for summarizing updates we need to use an average - which in the absence of prior information will be a simple average:\n\n\\\\(\\underbrace{\\begin{pmatrix}e_1 \\ e_2 \\ e_3\\end{pmatrix}}_{\\text{Update}}\\rightarrow\\underbrace{\\begin{pmatrix}e_1 \\ \\frac{e_2 + e_3}{2}\\end{pmatrix}}_{\\text{Summarized update}}\\\\)\n\nAnnoyingly and as you point out this is not a perfect summary - we are definitely losing information here and subsequent updates will be not as exact as if we were working with the disaggregated odds.\n\nI still find it quite disturbing that the update after summarizing depends on prior information - but I can't see how to do better than this, pragmatically speaking.",
+      "plaintextDescription": "I like this framing.\n\nThis seems to imply that summarizing beliefs and summarizing updates are two distinct operations.\n\nFor summarizing beliefs we can still resort to summing:\n\n⎛⎜⎝p1p2p3⎞⎟⎠Belief→(p1p2+p3)Summarized belief\n\n \n\nBut for summarizing updates we need to use an average - which in the absence of prior information will be a simple average:\n\n⎛⎜⎝e1e2e3⎞⎟⎠Update→(e1e2+e32)Summarized update\n\n \n\nAnnoyingly and as you point out this is not a perfect summary - we are definitely losing information here and subsequent updates will be not as exact as if we were working with the disaggregated odds.\n\nI still find it quite disturbing that the update after summarizing depends on prior information - but I can't see how to do better than this, pragmatically speaking."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-11-22T14:40:39.982Z",
+    "af": false
+  },
+  {
+    "_id": "6g5fCedsQueP4eaBu",
+    "postId": "iwnLojvjCWkZihgJs",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "From [OpenAI Five's blogpost](https://openai.com/blog/openai-five/):\n\n> **We’re still fixing bugs.** The chart shows a training run of the code that defeated amateur players, compared to a version where we simply fixed a number of bugs, such as rare crashes during training, or a bug which resulted in a large negative reward for reaching level 25. It turns out it’s possible to beat good humans while still hiding serious bugs!\n\nOne common line of thought is thinking that goals are very brittle - small misspecifications will be amplified after optimizing.\n\nYet Open AI Five managed to wrangle a good performance out of a seriously buggy reward function.\n\nHardly conclusive, but it would be interesting to see more examples of this. One could also do deliberate experiments to see how much you can distort a reward function before behaviour breaks.",
+      "plaintextDescription": "From OpenAI Five's blogpost:\n\n> We’re still fixing bugs. The chart shows a training run of the code that defeated amateur players, compared to a version where we simply fixed a number of bugs, such as rare crashes during training, or a bug which resulted in a large negative reward for reaching level 25. It turns out it’s possible to beat good humans while still hiding serious bugs!\n\nOne common line of thought is thinking that goals are very brittle - small misspecifications will be amplified after optimizing.\n\nYet Open AI Five managed to wrangle a good performance out of a seriously buggy reward function.\n\nHardly conclusive, but it would be interesting to see more examples of this. One could also do deliberate experiments to see how much you can distort a reward function before behaviour breaks."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-11-20T16:00:10.792Z",
+    "af": false
+  },
+  {
+    "_id": "Z4dFMRX5zAPJeLmKk",
+    "postId": "s75jcWPuaqrCQG9Ee",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For people interested in scaling laws, check out [*\"Parameter, Compute and Data Trends in Machine Learning\"*](https://docs.google.com/spreadsheets/d/1AAIebjNsnJj_uKALHbXNfn3_YsT6sHXtCU0q7OIPuc4/edit#gid=0) \\- the biggest public database of milestone AI systems annotated with data on parameters, compute and data.\n\nA visualization of the current dataset is available [here](https://colab.research.google.com/drive/11m0AfSQnLiDijtE1fsIPqF-ipbTQcsFp#scrollTo=lwiOHOM8Qwd9).\n\n(disclaimer: I am the main coordinator of the project)",
+      "plaintextDescription": "For people interested in scaling laws, check out \"Parameter, Compute and Data Trends in Machine Learning\" - the biggest public database of milestone AI systems annotated with data on parameters, compute and data.\n\nA visualization of the current dataset is available here.\n\n(disclaimer: I am the main coordinator of the project)"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-10-24T13:57:05.939Z",
+    "af": false
+  },
+  {
+    "_id": "jTxDFYwcGqqBuhsGx",
+    "postId": "zvEbeZ6opjPJiQnFE",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Relevant related work : NNs are surprisingly modular\n\nhttps://arxiv.org/abs/2003.04881v2?ref=mlnews\n\n\nOn the topic of pruning neural networks, see the lottery ticket hypothesis\n\nhttps://arxiv.org/abs/1803.03635",
+      "plaintextDescription": "Relevant related work : NNs are surprisingly modular\n\nhttps://arxiv.org/abs/2003.04881v2?ref=mlnews\n\nOn the topic of pruning neural networks, see the lottery ticket hypothesis\n\nhttps://arxiv.org/abs/1803.03635"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-10-21T06:39:59.121Z",
+    "af": true
+  },
+  {
+    "_id": "eAcitGNrGje2EFA3t",
+    "postId": "mL8KdftNGBScmBcBg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> How might we quantify size in our definitions above?\n\nRandom K complexity inspired measure of size for a context / property / pattern.\n\nLeast number of squares you need to turn on, starting from an empty board, so that the grid eventually evolves into the context.\n\nIt doesn't work for infinite contexts though.",
+      "plaintextDescription": "> How might we quantify size in our definitions above?\n\nRandom K complexity inspired measure of size for a context / property / pattern.\n\nLeast number of squares you need to turn on, starting from an empty board, so that the grid eventually evolves into the context.\n\nIt doesn't work for infinite contexts though."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2021-10-17T06:25:58.211Z",
+    "af": true
+  },
+  {
+    "_id": "xLwzuM8rGytdyNc6i",
+    "postId": "bGuMrzhJdENCo8BxX",
+    "parentCommentId": "HSJSNspKp94tFcSCx",
+    "topLevelCommentId": "HSJSNspKp94tFcSCx",
+    "contents": {
+      "markdown": "Here is your estimate in the context of other big AI models:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e661501adb5bfc5fe4ed1be695c470a24bea8428b024a0fe.png)\n\nThe top 3 training compute in the graph are Megatron-Turing, GPT-3 and AlphaZero\n\nAn interactive visualization is available [here](https://colab.research.google.com/drive/11m0AfSQnLiDijtE1fsIPqF-ipbTQcsFp).",
+      "plaintextDescription": "Here is your estimate in the context of other big AI models:\n\nThe top 3 training compute in the graph are Megatron-Turing, GPT-3 and AlphaZero\nAn interactive visualization is available here."
+    },
+    "baseScore": 19,
+    "voteCount": 9,
+    "createdAt": null,
+    "postedAt": "2021-10-12T08:00:20.016Z",
+    "af": false
+  },
+  {
+    "_id": "wmTaW9nPw7oXdJqPh",
+    "postId": "2FEdsKBzqghgkpkiM",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I skimmed this paper and liked it. My personal takeaway is that historical fit to a sigmoid model is not predictive of future fit. If you want to have a good sigmoid forecast, you need to have good priors on what are the mechanisms causing the fastening and dampening of the curve.\n\nThank you for sharing this!",
+      "plaintextDescription": "I skimmed this paper and liked it. My personal takeaway is that historical fit to a sigmoid model is not predictive of future fit. If you want to have a good sigmoid forecast, you need to have good priors on what are the mechanisms causing the fastening and dampening of the curve.\n\nThank you for sharing this!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-09-22T08:32:42.393Z",
+    "af": false
+  },
+  {
+    "_id": "eF5uxgcnCkecsBFtc",
+    "postId": "GgusnG2tiPEa4aYFS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**My user experience**\n\nWhen I first load the page, I am greeted by an empty space.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/da44076440856e489b7aa4dea4236aa757259c2487fb6985.png)\n\nFrom here I didn't know what to look for, since I didn't remember what kind of things where in the database.\n\nI tried clicking on table to see what content is there.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/38b244baf37546befae398abf5c3450df621d15f2dd111f7.png)\n\nOk, too much information, hard to navigate.\n\nI remember that one of my manuscripts made it to the database, so I look up my surname\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/0dfa57824fd7c8e9f1ffbeda85e507f26d6046b136a1e5db.png)\n\nThat was easy! (and it loaded very fast)\n\nThe interface is very neat too. I want to see more papers, so I click on one of the tags.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/a53d36cda28ca9f753a7a147a4768e703adc77515e436d1f.png)\n\nI get what I wanted.\n\nNow I want to find a list of all the tags. Hmmm I cannot find this anywhere.\n\nI give up and look at another paper:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/1a5de9a79e0660ab95cfff742f2666f148a11f42bf211cf0.png)\n\nOh cool! The Alignmnet Newsletter summary is really great. Whenever I read something in Google Scholar it is really hard to find commentary on any particular piece.\n\nI tried now to look for my current topic of research to find related work\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/0f405e509c89d780227b5ff94b34b0a686ad48f5f8311906.png)\n\nMeh, not really anything interesting for my research.\n\nOk, now I want to see if Open AI's \"AI and compute\" post is in the dataset:\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/524102b22c3f077740146b19631d2e0a395934c3f91a7fce.png)\n\nHuhhh it is not here. The bitter lesson is definitely relevant, but I am not sure about the other articles.\n\nCan I search for work specific to open ai?\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/214b2b6420a4b6606991981855f3761b076920c85d64fc89.png)\n\nHmm that didnt quite work. The top result is from OpenAI, but the rest are not.\n\nMaybe I should spell it different?\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/9682fc104c7fb9da005a5c2f4b8915192ef33740de2933dd.png)\n\nOh cool that worked! So apparently the blogpost is not in the dataset.\n\nAnyway, enough browsing for today.\n\n* * *\n\nAlright, feedback: \n\n1.  This is a very cool tool. The interface is neatly designed.\n2.  Discovering new content seems hard. Some things that could help include a) adding recommended content on load (perhaps things with most citations, or even ~10 random papers) and b) having a list of tags somewhere\n3.  The reviewer blurbs are very nice. However I do not expect to use this tool. Or rather I cannot think right now of what exactly I would use this tool for. It has made me consider reaching out to the database mantainers to suggest the inclusion of an article of mine. So maybe like that, to promote my work?",
+      "plaintextDescription": "My user experience\n\nWhen I first load the page, I am greeted by an empty space.\n\n \n\nFrom here I didn't know what to look for, since I didn't remember what kind of things where in the database.\n\nI tried clicking on table to see what content is there.\n\nOk, too much information, hard to navigate.\n\nI remember that one of my manuscripts made it to the database, so I look up my surname\n\n \n\nThat was easy! (and it loaded very fast)\n\nThe interface is very neat too. I want to see more papers, so I click on one of the tags.\n\nI get what I wanted.\n\nNow I want to find a list of all the tags. Hmmm I cannot find this anywhere.\n\nI give up and look at another paper:\n\nOh cool! The Alignmnet Newsletter summary is really great. Whenever I read something in Google Scholar it is really hard to find commentary on any particular piece.\n\nI tried now to look for my current topic of research to find related work\n\nMeh, not really anything interesting for my research.\n\nOk, now I want to see if Open AI's \"AI and compute\" post is in the dataset:\n\nHuhhh it is not here. The bitter lesson is definitely relevant, but I am not sure about the other articles.\n\nCan I search for work specific to open ai?\n\nHmm that didnt quite work. The top result is from OpenAI, but the rest are not.\n\nMaybe I should spell it different?\n\nOh cool that worked! So apparently the blogpost is not in the dataset.\n\nAnyway, enough browsing for today.\n\n----------------------------------------\n\nAlright, feedback: \n\n 1. This is a very cool tool. The interface is neatly designed.\n 2. Discovering new content seems hard. Some things that could help include a) adding recommended content on load (perhaps things with most citations, or even ~10 random papers) and b) having a list of tags somewhere\n 3. The reviewer blurbs are very nice. However I do not expect to use this tool. Or rather I cannot think right now of what exactly I would use this tool for. It has made me consider reaching out to the database mantainers to suggest the inclusion"
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-08-23T17:29:35.064Z",
+    "af": true
+  },
+  {
+    "_id": "p2eMyS5fGjKpbzwu8",
+    "postId": "wfpdejMWog4vEDLDg",
+    "parentCommentId": "4CGLwdStyTjwM4aNM",
+    "topLevelCommentId": "HBZpdjxGcNjmzBmNj",
+    "contents": {
+      "markdown": "Deep or shallow version?",
+      "plaintextDescription": "Deep or shallow version?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-08-20T09:20:29.092Z",
+    "af": false
+  },
+  {
+    "_id": "HBZpdjxGcNjmzBmNj",
+    "postId": "wfpdejMWog4vEDLDg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "One more question: for the BigGAN which model do your calculations refer to?\n\nCould it be the 256x256 deep version?",
+      "plaintextDescription": "One more question: for the BigGAN which model do your calculations refer to?\n\nCould it be the 256x256 deep version?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-08-16T14:31:18.973Z",
+    "af": true
+  },
+  {
+    "_id": "4atNNCHdpuLA9FbeG",
+    "postId": "yFJ7vCjefBxnTchmG",
+    "parentCommentId": "3F7vEtLyQ4HdeyLFH",
+    "topLevelCommentId": "3F7vEtLyQ4HdeyLFH",
+    "contents": {
+      "markdown": "Some discussion from the OP [here](https://forum.effectivealtruism.org/posts/HDAXztEbjJsyHLKP7/outline-of-galef-s-scout-mindset?commentId=PDwW8SNuGirDC9fzn)",
+      "plaintextDescription": "Some discussion from the OP here"
+    },
+    "baseScore": 10,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2021-08-11T16:36:56.569Z",
+    "af": false
+  },
+  {
+    "_id": "Z7zuADhLsoF5FRbAy",
+    "postId": "nhjaegqWxbBhiqMGS",
+    "parentCommentId": "gRLhmXYHw4x9zznZS",
+    "topLevelCommentId": "5H6jb5Ej86xE2st6M",
+    "contents": {
+      "markdown": "Update: I tried regressing on the ordinal position of the world records and found a much better fit, and better (above baseline!) forecasts of the last WR of each category.\n\nThis makes me update further towards the hypothesis that `date` is a bad predictive variable. Sadly this would mean that we really need to track whatever the index in WR is correlated with (presumably the cumulative number of runs overall by the speedrunning community). \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/3c5847941d4d8c017a4ddc89110fdf135f06d4edcaf56e2a.png)\n\nLinear regression with logarithmic transforms on both axis",
+      "plaintextDescription": "Update: I tried regressing on the ordinal position of the world records and found a much better fit, and better (above baseline!) forecasts of the last WR of each category.\n\nThis makes me update further towards the hypothesis that date is a bad predictive variable. Sadly this would mean that we really need to track whatever the index in WR is correlated with (presumably the cumulative number of runs overall by the speedrunning community). \n\nLinear regression with logarithmic transforms on both axis"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-08-10T14:09:01.978Z",
+    "af": false
+  },
+  {
+    "_id": "gRLhmXYHw4x9zznZS",
+    "postId": "nhjaegqWxbBhiqMGS",
+    "parentCommentId": "5H6jb5Ej86xE2st6M",
+    "topLevelCommentId": "5H6jb5Ej86xE2st6M",
+    "contents": {
+      "markdown": "This is so cool!\n\nIt seems like the learning curves are reasonable close to the diagonal, which means that:\n\n*   Given the logarithmic X-axis, it seems like improvements become increasingly harder over time. You need to invest exponentially more time to get a linear improvement.\n*   The rate of logarithmic improvement is overall relatively constant.\n\nOn the other hand, despite all curves being close to the diagonal, they seem to mostly undershoot it. This might imply that the rate of improvement is slighly decreasing over time.\n\nOne thing that tripped me from this graph for other readers: the relative attempt is wrt to the amount of WR improvements. That means that if there are 100 WRs, the point with relative attempt = 0.5 is the 50th WR improvement, not the one whose time is closer to the average between the date of the first and last attempt.\n\nSo this graph is giving information about \"conditional on you putting enough effort to beat the record, by how much should you expect to beat it?\" rather than on \"conditional on spending X amount of effort on the margin, by how much should you expect to improve the record?\".\n\nHere is the plot that would correspond to the other question, where the x axis value is not proportional to the ordinal index of WR improvement but to the date when the WR was submitted.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/9860879c9a3e760939f38dd2bf0ee478d2b64328f7380860.png)\n\nIt shows a far weaker correlation. This suggests that a) the best predictor of new WRs is the amount of runs overall being put into the game and 2) the amount of new WRs around a given time is a good estimate of the amount of runs overall being put into the game.\n\nThis has made me update a bit against plotting WR vs time, and in favor of plotting WR vs cumulative number of runs. Here are some [suggestions](https://www.lesswrong.com/posts/nhjaegqWxbBhiqMGS/analysis-of-world-records-in-speedrunning-linkpost?commentId=z6Poh8YX9hqCr6n3B) about how one could go about estimating the number of runs being put into the game, if somebody want to look into this!\n\nPS: the code for the graph above, and code to replicate Andy's graph, is now [here](https://colab.research.google.com/drive/1MvokDdQpRJ6JZvfjkfcgAiCmg5h8Lvrw#scrollTo=MoT965PF39_2)",
+      "plaintextDescription": "This is so cool!\n\nIt seems like the learning curves are reasonable close to the diagonal, which means that:\n\n * Given the logarithmic X-axis, it seems like improvements become increasingly harder over time. You need to invest exponentially more time to get a linear improvement.\n * The rate of logarithmic improvement is overall relatively constant.\n\nOn the other hand, despite all curves being close to the diagonal, they seem to mostly undershoot it. This might imply that the rate of improvement is slighly decreasing over time.\n\nOne thing that tripped me from this graph for other readers: the relative attempt is wrt to the amount of WR improvements. That means that if there are 100 WRs, the point with relative attempt = 0.5 is the 50th WR improvement, not the one whose time is closer to the average between the date of the first and last attempt.\n\nSo this graph is giving information about \"conditional on you putting enough effort to beat the record, by how much should you expect to beat it?\" rather than on \"conditional on spending X amount of effort on the margin, by how much should you expect to improve the record?\".\n\nHere is the plot that would correspond to the other question, where the x axis value is not proportional to the ordinal index of WR improvement but to the date when the WR was submitted.\n\nIt shows a far weaker correlation. This suggests that a) the best predictor of new WRs is the amount of runs overall being put into the game and 2) the amount of new WRs around a given time is a good estimate of the amount of runs overall being put into the game.\n\nThis has made me update a bit against plotting WR vs time, and in favor of plotting WR vs cumulative number of runs. Here are some suggestions about how one could go about estimating the number of runs being put into the game, if somebody want to look into this!\n\nPS: the code for the graph above, and code to replicate Andy's graph, is now here"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-08-10T10:59:28.328Z",
+    "af": false
+  },
+  {
+    "_id": "z6Poh8YX9hqCr6n3B",
+    "postId": "nhjaegqWxbBhiqMGS",
+    "parentCommentId": "4pxfYdofQqFKqMSWT",
+    "topLevelCommentId": "4pxfYdofQqFKqMSWT",
+    "contents": {
+      "markdown": "> Is there any way to estimate how many cumulative games that speedrunners have run at a given point?\n\nOne should be able to use the [Speedrun.com API](https://github.com/speedruncomorg/api) to search for the number of runs submitted by a certain date, as a proxy for the cumulative games (though it will not reflect all attempts since AFAIK many runners only submit their personal bests to speedrun.com).\n\nAdditionally, speedrun.com provides some stats on the amount of runs and players for each game, for example the current stats for Super Metroid can be found here: https://www.speedrun.com/supermetroid/gamestats \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/32c5c0ddf342d4fa31d33250040950cbf0df71d2b9a28c82.png)\n\nCurrent stats for Super Metroid according to Speedrun.com\n\nThere are some problems with this approach too. \n\n1.  These are aggregated by game, not by category, so one would need to somehow split the runs among popular categories of the same game.\n2.  There is only current data avaiable through the webpage. There might be a way to access historical data through the API. If not, one would need to use archived versions of the pages and interpolate the scrapped stats.\n\nI'd be excited about learning about the results of either approach if anybody ends up scrapping this data!",
+      "plaintextDescription": "> Is there any way to estimate how many cumulative games that speedrunners have run at a given point?\n\n \n\nOne should be able to use the Speedrun.com API to search for the number of runs submitted by a certain date, as a proxy for the cumulative games (though it will not reflect all attempts since AFAIK many runners only submit their personal bests to speedrun.com).\n\nAdditionally, speedrun.com provides some stats on the amount of runs and players for each game, for example the current stats for Super Metroid can be found here: https://www.speedrun.com/supermetroid/gamestats \n\nCurrent stats for Super Metroid according to Speedrun.com\nThere are some problems with this approach too. \n\n 1. These are aggregated by game, not by category, so one would need to somehow split the runs among popular categories of the same game.\n 2. There is only current data avaiable through the webpage. There might be a way to access historical data through the API. If not, one would need to use archived versions of the pages and interpolate the scrapped stats.\n\nI'd be excited about learning about the results of either approach if anybody ends up scrapping this data!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-08-10T10:14:43.028Z",
+    "af": false
+  },
+  {
+    "_id": "cfeP5bC6Hq5ir9wwA",
+    "postId": "nhjaegqWxbBhiqMGS",
+    "parentCommentId": "ALcbL2QdfCuBbNMTH",
+    "topLevelCommentId": "ALcbL2QdfCuBbNMTH",
+    "contents": {
+      "markdown": "Those are good suggestions! \n\nHere is what happens when we align the start dates and plot the improvements relative to the time of the first run.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/8ad6ab7275704ced12b768de999ec9894de17fcdff078b47.png)\n\nRelative improvement vs days since first run for most popular categories\n\nI am slightly nervous about using the first run as the reference, since early data in a category is quite unrealiable and basically reflects the time of the first person to thought to submit a run. But I *think* it should not create any problems.\n\nInterestingly, plotting the relative improvement reveals some S-curve patterns, with phases of increasing returns followed by phases of diminishing returns.\n\nI did not manage either to beat the baseline by extrapolating the relative improvement times. Interestingly, using a grid to count non-improvements as observations made the extrapolation worse, so this time the best fit was achieved with log linear regression over the last 8 weeks of data in each category.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/e7c8f8ff3cb93451f2060472a9140e98062e4e22dd38451a.png)\n\nLog linear extrapolation of relative improvements \n\nAs before, the code to replicate my analysis is available [here](https://colab.research.google.com/drive/1MvokDdQpRJ6JZvfjkfcgAiCmg5h8Lvrw#scrollTo=w-ngKuJ6vo4j).\n\nHaven't had time yet to include logistic models or do analysis of the derivative of the improvements - if you feel so inclined feel free to reuse my code to perform the analysis yourself and if you share them here we can comment on the results!\n\nPS: there is a sentence missing an ending in your comment",
+      "plaintextDescription": "Those are good suggestions! \n\nHere is what happens when we align the start dates and plot the improvements relative to the time of the first run.\n\nRelative improvement vs days since first run for most popular categories\nI am slightly nervous about using the first run as the reference, since early data in a category is quite unrealiable and basically reflects the time of the first person to thought to submit a run. But I think it should not create any problems.\n\nInterestingly, plotting the relative improvement reveals some S-curve patterns, with phases of increasing returns followed by phases of diminishing returns.\n\nI did not manage either to beat the baseline by extrapolating the relative improvement times. Interestingly, using a grid to count non-improvements as observations made the extrapolation worse, so this time the best fit was achieved with log linear regression over the last 8 weeks of data in each category.\n\nLog linear extrapolation of relative improvements \nAs before, the code to replicate my analysis is available here.\n\nHaven't had time yet to include logistic models or do analysis of the derivative of the improvements - if you feel so inclined feel free to reuse my code to perform the analysis yourself and if you share them here we can comment on the results!\n\nPS: there is a sentence missing an ending in your comment"
+    },
+    "baseScore": 8,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2021-08-06T12:20:56.068Z",
+    "af": false
+  },
+  {
+    "_id": "Xb2DpA64uZ8brtxbA",
+    "postId": "KaPaTdpLggdMqzdyo",
+    "parentCommentId": "5bJNysyx6W8EiXzPv",
+    "topLevelCommentId": "5bJNysyx6W8EiXzPv",
+    "contents": {
+      "markdown": "Do you mind sharing your guesstimate on number of parameters?\n\nAlso, do you have per chance guesstimates on number of parameters / compute of other systems?",
+      "plaintextDescription": "Do you mind sharing your guesstimate on number of parameters?\n\nAlso, do you have per chance guesstimates on number of parameters / compute of other systems?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2021-07-31T01:26:29.520Z",
+    "af": true
+  },
+  {
+    "_id": "sjBhgHiu5dMpPbDS9",
+    "postId": "MPj7t2w3nk4s9EYYh",
+    "parentCommentId": "HMj9oNmudJ9BLyiKA",
+    "topLevelCommentId": "xxt5Knu2CZFPDxKco",
+    "contents": {
+      "markdown": "Ah, I just realized this is the norm with curated posts. FWIW I feel a bit awkward to have the curation comments displayed so prominently, since it alters the author's intended reading experience in a way I find a bit weird / offputting.\n\nIf it was up to me, I would remove the curator's words at the top of a post in favor of comments like this one, where the reasons for curation are explained but its not the first thing that readers see when reading the post.",
+      "plaintextDescription": "Ah, I just realized this is the norm with curated posts. FWIW I feel a bit awkward to have the curation comments displayed so prominently, since it alters the author's intended reading experience in a way I find a bit weird / offputting.\n\nIf it was up to me, I would remove the curator's words at the top of a post in favor of comments like this one, where the reasons for curation are explained but its not the first thing that readers see when reading the post."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2021-07-30T22:26:40.268Z",
+    "af": false
+  },
+  {
+    "_id": "HMj9oNmudJ9BLyiKA",
+    "postId": "MPj7t2w3nk4s9EYYh",
+    "parentCommentId": "xxt5Knu2CZFPDxKco",
+    "topLevelCommentId": "xxt5Knu2CZFPDxKco",
+    "contents": {
+      "markdown": "Meta: it seems like you have accidentally added this comment also at the beginning of the post besides commenting?",
+      "plaintextDescription": "Meta: it seems like you have accidentally added this comment also at the beginning of the post besides commenting?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-07-30T22:20:53.964Z",
+    "af": false
+  },
+  {
+    "_id": "prh4ZXxYzLjtPcgk4",
+    "postId": "wfpdejMWog4vEDLDg",
+    "parentCommentId": "mvpqd668HdjHvCbKQ",
+    "topLevelCommentId": "mvpqd668HdjHvCbKQ",
+    "contents": {
+      "markdown": "What is the GShard dense transformer you are referring to in this post?",
+      "plaintextDescription": "What is the GShard dense transformer you are referring to in this post?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-07-21T10:25:25.627Z",
+    "af": false
+  }
+]

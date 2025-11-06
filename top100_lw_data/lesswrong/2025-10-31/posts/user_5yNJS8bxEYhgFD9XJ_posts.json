@@ -1,0 +1,1317 @@
+[
+  {
+    "_id": "FyRDZDvgsFNLkeyHF",
+    "title": "What is the best argument that LLMs are shoggoths?",
+    "slug": "what-is-the-best-argument-that-llms-are-shoggoths",
+    "url": null,
+    "baseScore": 26,
+    "voteCount": 10,
+    "viewCount": null,
+    "commentCount": 22,
+    "createdAt": null,
+    "postedAt": "2024-03-17T11:36:23.636Z",
+    "contents": {
+      "markdown": "Where can I find a post or a*rt*icle arguing that the internal cognitive model of contemporary LLMs is quite alien, strange, non-human, even though they are trained on human text and produce human-like answers, which are rendered \"friendly\" by RLHF?  \n  \nTo be clear, I am not asking about the following, which I am familiar with:\n\n*   The original of the  [shoggoth meme](לא בטוח שזה מה שאתה מחפש אבל... It's a meme, so - https://knowyourmeme.com/memes/shoggoth-with-smiley-face-artificial-intelligence  S.T.Joshi also said some words - https://www.cnbc.com/2023/06/12/lovecraft-joshi-shoggoth-ai-meme.html) and its [relation to H.P. Lovecraft's shoggoth](https://www.cnbc.com/2023/06/12/lovecraft-joshi-shoggoth-ai-meme.html)\n*   The notion that the [space of possible minds](https://www.lesswrong.com/posts/tnWRXkcDi5Tw9rzXw/the-design-space-of-minds-in-general) is very large, with humanity only a small part\n*   Eliezer Yudkowsky's description of evolution as Azathoth, the [blind idiot god](https://www.lesswrong.com/posts/pLRogvJLPPg6Mrvg4/an-alien-god), as a way of showing that \"intelligences\" can be quite incomprehensible\n*   The difference in environments between the training and the runtime phase of an LLM\n*   The fact that machine-learning systems like LLMs are not really neuromorphic; they are structured differently from human brains (though that fact does not exclude the possibility of similarly on a logical level)\n\nRather, I am looking for a discussion of  evidence that the  LLMs internal  \"true\" motivation or reasoning system is very different from human, despite the human output, and that in outlying environmental conditions, very different from the training environment, it will behave very differently. A good argument might analyze bits of weird inhuman behavior to try to infer the internal model.\n\n(All I found on the shoggoth idea on LessWrong is [this article](https://www.lesswrong.com/posts/bYzkipnDqzMgBaLr8/why-do-we-assume-there-is-a-real-shoggoth-behind-the-llm-why) contrasts the idea of the shoggoth  with the idea that there is no coherent model, but does not explain why we might think that there is an alien cognitive model. [This one](https://www.lesswrong.com/posts/yjzW7gxk2h7bBs2qr/the-meaning-of-shoggoth-ai-memes?utm_source=pocket_saves) likewise mentions the idea but does not argue for its correctness.)\n\n\\[Edit: Another user corrected my spelling: shoggoth, not shuggoth.\\]",
+      "plaintextDescription": "Where can I find a post or article arguing that the internal cognitive model of contemporary LLMs is quite alien, strange, non-human, even though they are trained on human text and produce human-like answers, which are rendered \"friendly\" by RLHF?\n\nTo be clear, I am not asking about the following, which I am familiar with:\n\n * The original of the  shoggoth meme and its relation to H.P. Lovecraft's shoggoth\n * The notion that the space of possible minds is very large, with humanity only a small part\n * Eliezer Yudkowsky's description of evolution as Azathoth, the blind idiot god, as a way of showing that \"intelligences\" can be quite incomprehensible\n * The difference in environments between the training and the runtime phase of an LLM\n * The fact that machine-learning systems like LLMs are not really neuromorphic; they are structured differently from human brains (though that fact does not exclude the possibility of similarly on a logical level)\n\nRather, I am looking for a discussion of  evidence that the  LLMs internal  \"true\" motivation or reasoning system is very different from human, despite the human output, and that in outlying environmental conditions, very different from the training environment, it will behave very differently. A good argument might analyze bits of weird inhuman behavior to try to infer the internal model.\n\n(All I found on the shoggoth idea on LessWrong is this article contrasts the idea of the shoggoth  with the idea that there is no coherent model, but does not explain why we might think that there is an alien cognitive model. This one likewise mentions the idea but does not argue for its correctness.)\n\n[Edit: Another user corrected my spelling: shoggoth, not shuggoth.]",
+      "wordCount": 302
+    },
+    "tags": [
+      {
+        "_id": "u4b2EXJFMWuRmGSZn",
+        "name": "Language model cognitive architecture",
+        "slug": "language-model-cognitive-architecture"
+      },
+      {
+        "_id": "sYm3HiWcfZvrGu3ui",
+        "name": "AI",
+        "slug": "ai"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "i2wrQ28HLfAJizQae",
+    "title": "Why aren't Yudkowsky & Bostrom getting more attention now?",
+    "slug": "why-aren-t-yudkowsky-and-bostrom-getting-more-attention-now",
+    "url": null,
+    "baseScore": 14,
+    "voteCount": 14,
+    "viewCount": null,
+    "commentCount": 8,
+    "createdAt": null,
+    "postedAt": "2024-01-08T14:42:46.303Z",
+    "contents": {
+      "markdown": "Now that the idea of AI Existential Risk has gained more acceptability, I am surprised that the thought leaders are not more often mentioned and contacted by AI executives and researchers in the cutting edge (OpenAI, Anthropic, etc.), recognized academic figures  (Bengio, Hinton, Hofstadter, etc.), journalists, or political leaders who have expressed an interest.  \n  \nTo be sure, they are mentioned in articles;  MIRI was represented in a congressional hearing; and Mira Murati reached out to Eliezer. But still, it seems that the profile of the pioneers is much lower than I'd expect.  \n  \nFifteen years ago, we could have said that AI XRisk was treated as a crackpot idea and that MIRI in particular might be ignored, as it operates outside a standard framework like a university. But today, not only have the ideas spread, but many top AI-capabilities researchers have, I think, entered the field  specifically because of inspiration from the MIRI/LessWrong circle. \n\nThough some journalists might still be hung up on MIRI's lack of social status markers, I don't think that many others, including cutting-edge AI researchers, are.  \n  \nSo what is going on?",
+      "plaintextDescription": "Now that the idea of AI Existential Risk has gained more acceptability, I am surprised that the thought leaders are not more often mentioned and contacted by AI executives and researchers in the cutting edge (OpenAI, Anthropic, etc.), recognized academic figures  (Bengio, Hinton, Hofstadter, etc.), journalists, or political leaders who have expressed an interest.\n\nTo be sure, they are mentioned in articles;  MIRI was represented in a congressional hearing; and Mira Murati reached out to Eliezer. But still, it seems that the profile of the pioneers is much lower than I'd expect.\n\nFifteen years ago, we could have said that AI XRisk was treated as a crackpot idea and that MIRI in particular might be ignored, as it operates outside a standard framework like a university. But today, not only have the ideas spread, but many top AI-capabilities researchers have, I think, entered the field  specifically because of inspiration from the MIRI/LessWrong circle. \n\nThough some journalists might still be hung up on MIRI's lack of social status markers, I don't think that many others, including cutting-edge AI researchers, are.\n\nSo what is going on?",
+      "wordCount": 184
+    },
+    "tags": [
+      {
+        "_id": "oNcqyaWPXNGTTRPHm",
+        "name": "Existential risk",
+        "slug": "existential-risk"
+      },
+      {
+        "_id": "NrvXXL3iGjjxu5B7d",
+        "name": "Machine Intelligence Research Institute (MIRI)",
+        "slug": "machine-intelligence-research-institute-miri"
+      },
+      {
+        "_id": "sYm3HiWcfZvrGu3ui",
+        "name": "AI",
+        "slug": "ai"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [
+      {
+        "id": "NrvXXL3iGjjxu5B7d",
+        "name": "MIRI",
+        "source": "post_tag"
+      }
+    ],
+    "research_agendas": [
+      "AI Safety Organizations"
+    ],
+    "extraction_source": {
+      "tag_id": "NrvXXL3iGjjxu5B7d",
+      "tag_name": "MIRI",
+      "research_agenda": "AI Safety Organizations"
+    }
+  },
+  {
+    "_id": "kqzKjprjXaEWeLuy9",
+    "title": "What's up with  ChatGPT and the Turing Test?",
+    "slug": "what-s-up-with-chatgpt-and-the-turing-test",
+    "url": null,
+    "baseScore": 13,
+    "voteCount": 8,
+    "viewCount": null,
+    "commentCount": 19,
+    "createdAt": null,
+    "postedAt": "2023-01-04T15:37:15.865Z",
+    "contents": {
+      "markdown": "ChatGPT looks like it would pass the [Turing Test](https://www.reddit.com/r/xkcd/comments/zd6wxs/chatgpt_feels_close_to_passing_the_turing_test/), the gold standard of benchmarks measuring whether an AI has reached human-level intelligence. Yet Googling around, it doesn't seem that anyone has put on a full Turing Test.\n\nPlease comment with your thoughts on whether or how such a test can be put on.\n\nIt doesn't seem difficult. The [Loebner Prize](https://en.wikipedia.org/wiki/Loebner_Prize) has measured progress towards the Turing Test since 1990. All you need is a human judge and test subject, and ChatGPT.\n\nThe Turing Test is not perfect. It is a sufficient but not necessary test of human-level intelligence: An AI that can pass it can cover any area of human intelligence transmissible in text chat, at a level such that human-level intelligence (the judges) cannot tell the difference. \n\nBut it has long been recognized that an AI which is generally human-level or beyond could still fail the Turing Test. If it had personality quirks, yet otherwise managed to cover almost all areas of achievement -- think of neuroatypicality taken a few steps further -- we would call it generally intelligent. If it communicated only in telegraphic staccato yet was vastly more able than humans to earn billions of dollars a day, to create art admired by humans who don't know who created it, correctly interpret human feeling, we would still consider it intelligent. If it used nothing but nanonengineering to convert the Earth to computer chips within minutes, so it could better achieve its goal of calculating digits of π, we might not want to call it intelligence, but then again, we'd be dead.\n\nAlso, because humans are the judges, an AI that can fool the judges with psychological tricks could pass: Even the [Eliza of the sixties](https://en.wikipedia.org/wiki/ELIZA) could do that to some extent.\n\nStill, the Turing Test is a milestone. Ray Kurzweil has long said, [repeating it recently](https://www.youtube.com/watch?v=3pdaT8XT1ZM), that we can expect an AI to pass in 2029.\n\nOne reason we can't do a Turing Test is that ChatGPT is programmed specifically not to pass: It readily states that it is a language model. This quirk could be bypassed, either by prompt engineering or by manually editing out such claims. But the avoidance of simulation might be too deep for that. ChatGPT is also much faster than human, but that could be handled with an artificial delay.\n\nWe could try alternative tests for human-like intelligence:\n\n*   Reverse Turing Test: The human test subject tries to match ChatGPT. Just as a Turing Test determines whether the AI is at human level or above, so too a Reverse Turing Test determines whether the AI is at human level or below. Yet ChatGPT is far beyond humans in its knowledge and poetic abilities (I asked it to compose a limerick abut hiking trail grades and it did much much better than almost any human could.) Then again, computers have long been superhuman in specific areas, like arithmetic. \n*   Cyborg Test: We could do a Reverse Turing Test in which ChatGPT competes against a team of humans who are allowed to use specific computing services, e.g. Google. At this point, we are not asking if ChatGPT is at a human level, but rather whether it can \"fill in\" those areas of accomplishment which other software cannot handle, but a human can. We could also have humans or other software systems (say, a calculator for arithmetic) augment ChatGPT.\n*   Another Reverse Turing Test variant, in which ChatGPT determines if the test subject is a human or software. This would be interesting, but useful only to determine how good ChatGPT is at this specific psychological-analysis skill.\n*   [Evaluation of responses to set prompts](https://www.nytimes.com/interactive/2022/12/26/upshot/chatgpt-child-essays.html), rather than an interactive dialog. \n*   Test aimed at humans. \n    *   An [IQ](https://studyfinds.org/are-you-smarter-than-ai/) [test](https://twitter.com/sergeyi49013776/status/1598430479878856737?lang=en) or [SAT](https://twitter.com/davidtsong/status/1598767389390573569) would rank ChatGPT on a scale commonly used for humans, and is fairly indicative of abilities in various areas of accomplishment. \n    *   A Bar Exam or other area-specific exam would not only test ChatGPT's intelligence and knowledge, but bring this into a more practical area.\n    *   Assessment tests of general cognitive abilities, beyond the abstract intellectual sphere addressed by most written tests. It seems that some are aimed at children, like the Kaufman Assessment Battery for Children; and some at adults or at a broad age range, like Wechsler Adult Intelligence Scale and the Woodcock-Johnson Tests of Cognitive Abilities. This could be impractical, as some such tests, especially those for children, have non-written components like oral tests or manipulation of objects; and most require direct engagement of a psychologist, which at the very least means that the test is not blinded, as with the Turing Test.",
+      "plaintextDescription": "ChatGPT looks like it would pass the Turing Test, the gold standard of benchmarks measuring whether an AI has reached human-level intelligence. Yet Googling around, it doesn't seem that anyone has put on a full Turing Test.\n\nPlease comment with your thoughts on whether or how such a test can be put on.\n\nIt doesn't seem difficult. The Loebner Prize has measured progress towards the Turing Test since 1990. All you need is a human judge and test subject, and ChatGPT.\n\nThe Turing Test is not perfect. It is a sufficient but not necessary test of human-level intelligence: An AI that can pass it can cover any area of human intelligence transmissible in text chat, at a level such that human-level intelligence (the judges) cannot tell the difference. \n\nBut it has long been recognized that an AI which is generally human-level or beyond could still fail the Turing Test. If it had personality quirks, yet otherwise managed to cover almost all areas of achievement -- think of neuroatypicality taken a few steps further -- we would call it generally intelligent. If it communicated only in telegraphic staccato yet was vastly more able than humans to earn billions of dollars a day, to create art admired by humans who don't know who created it, correctly interpret human feeling, we would still consider it intelligent. If it used nothing but nanonengineering to convert the Earth to computer chips within minutes, so it could better achieve its goal of calculating digits of π, we might not want to call it intelligence, but then again, we'd be dead.\n\nAlso, because humans are the judges, an AI that can fool the judges with psychological tricks could pass: Even the Eliza of the sixties could do that to some extent.\n\nStill, the Turing Test is a milestone. Ray Kurzweil has long said, repeating it recently, that we can expect an AI to pass in 2029.\n\nOne reason we can't do a Turing Test is that ChatGPT is programmed specifically not to pass: It readily states that it is a language model. This q",
+      "wordCount": 770
+    },
+    "tags": [
+      {
+        "_id": "GrHAiuzAjG2mDxvMB",
+        "name": "ChatGPT",
+        "slug": "chatgpt-1"
+      },
+      {
+        "_id": "bxhzaWtdNoEMMkE8r",
+        "name": "General intelligence",
+        "slug": "general-intelligence"
+      },
+      {
+        "_id": "sYm3HiWcfZvrGu3ui",
+        "name": "AI",
+        "slug": "ai"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "dT6ZtZPG63WFEGEvY",
+    "title": "Jonathan Blow at the AstralCodexTen Online Meetup\n",
+    "slug": "jonathan-blow-at-the-astralcodexten-online-meetup",
+    "url": null,
+    "baseScore": 25,
+    "voteCount": 5,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2021-09-08T16:50:42.167Z",
+    "contents": {
+      "markdown": "Jonathan Blow will be joining us for Q&A on Sunday September 19 at 10:30 Pacific Daylight Time, 20:30 Israel Daylight Time, 17:30 UTC.\n\nDesigner of acclaimed games including *Braid* and *The Witness*, Jonathan Blow is currently working on the programming language Jai (currently in closed beta) designed to compete with C++ in games programming, as well as designing and implementing an upcoming game (written in Jai) with his colleagues at his games studio, Thekla Inc.\n\nPlease [signup here](https://forms.gle/8mtzDTisMMJVr8kr5) and we’ll send you an invitation.",
+      "plaintextDescription": "Jonathan Blow will be joining us for Q&A on Sunday September 19 at 10:30 Pacific Daylight Time, 20:30 Israel Daylight Time, 17:30 UTC.\n\nDesigner of acclaimed games including Braid and The Witness, Jonathan Blow is currently working on the programming language Jai (currently in closed beta) designed to compete with C++ in games programming, as well as designing and implementing an upcoming game (written in Jai) with his colleagues at his games studio, Thekla Inc.\n\nPlease signup here and we’ll send you an invitation.",
+      "wordCount": 82
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "NvSJe9eRQu7iQ37mw",
+    "title": "Sam Altman at the AstralCodexTen Online Meetup",
+    "slug": "sam-altman-at-the-astralcodexten-online-meetup-1",
+    "url": null,
+    "baseScore": 11,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2021-08-25T08:07:58.756Z",
+    "contents": {
+      "markdown": "Sam Altman, CEO of OpenAI, joining us again. Almost a year ago we had a great meeting with Sam— with record attendance!\n\nOur  meetup on Sunday, September 5, 2021, will start off with a Q&A. You can ask questions on AI, AGI, OpenAI, or any other topics.\n\nAfter that, we will  socialize on video-chat rooms.\n\nThe meetup starts 10:30 AM Pacific Daylight Time, 17:30 UTC, 20:30 Israel Daylight Time.  \n  \nPlease [register here](https://forms.gle/Y1EQN7DiZpnJj8GR7) , and we'll send you an invitation closer to the time.",
+      "plaintextDescription": "Sam Altman, CEO of OpenAI, joining us again. Almost a year ago we had a great meeting with Sam— with record attendance!\n\nOur  meetup on Sunday, September 5, 2021, will start off with a Q&A. You can ask questions on AI, AGI, OpenAI, or any other topics.\n\nAfter that, we will  socialize on video-chat rooms.\n\nThe meetup starts 10:30 AM Pacific Daylight Time, 17:30 UTC, 20:30 Israel Daylight Time.\n\nPlease register here , and we'll send you an invitation closer to the time.",
+      "wordCount": 81
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "o486irtkQvdJ8dRXJ",
+    "title": "Bram Cohen at the AstralCodexTen Online Meetup",
+    "slug": "bram-cohen-at-the-astralcodexten-online-meetup",
+    "url": null,
+    "baseScore": 9,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2021-07-03T18:22:31.917Z",
+    "contents": {
+      "markdown": "Bram Cohen will speak and take questions.\n\nPlease register [here](https://forms.gle/tWaAcnV3fh1XwRMXA) and we will send you an invitation before the event.\n\nHe'll start with some topics:  \n\\- How to improve education  \n\\- Chia, its place in the world and its value.  \n\\- Blockchains and what they're good for.  \n\\- Genetic engineering of humans  \n... and more,  and proceed to questions from the audience.\n\nBram is the creator of BitTorrent and Founder and CEO at Chia Network. He is also a published mechanical puzzle inventor.\n\nThis event is at 17:30 UTC, 20:30 IDT, and 10:30 PDT.",
+      "plaintextDescription": "Bram Cohen will speak and take questions.\n\nPlease register here and we will send you an invitation before the event.\n\nHe'll start with some topics:\n- How to improve education\n- Chia, its place in the world and its value.\n- Blockchains and what they're good for.\n- Genetic engineering of humans\n... and more,  and proceed to questions from the audience.\n\nBram is the creator of BitTorrent and Founder and CEO at Chia Network. He is also a published mechanical puzzle inventor.\n\nThis event is at 17:30 UTC, 20:30 IDT, and 10:30 PDT.",
+      "wordCount": 95
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "YkpWN6z3AY6hbbPm7",
+    "title": "Daniel M. Ingram  at the AstralCodexTen Online Meetup",
+    "slug": "daniel-m-ingram-at-the-astralcodexten-online-meetup",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2021-06-11T11:35:07.046Z",
+    "contents": {
+      "markdown": "Dr. Daniel M. Ingram  will speak on \"Ethically Scaling Brain Hacking, Cognitive Social Justice, and Practical Issues of Soteriology\"\n\nPlease register  [here](https://forms.gle/hL5BQ28t2FD2eETU9)  and we will send you an invitation before the event.\n\nBio: Dr. Daniel M. Ingram, MD MSPH, is a retired emergency medicine physician, trained epidemiologist, [author](https://mctb.org), meditation teacher, co-founder of the [Dharma Overground](https://www.dharmaoverground.org), key organizer of the [Emergent Phenomenology Research Consortium](https://theeprc.org), and Board Chair and acting CEO of the charity [Emergence Benefactors](https://ebenefactors.org) . His current obsession is upgrading the functional relationship between science, spiritual/psychedelic/meditative/etc. practice, and clinical practice. [Website here](https//www.integrateddaniel.info).\n\nHis book was [reviewed at SlateStarCodex.](https://slatestarcodex.com/2017/09/18/book-review-mastering-the-core-teachings-of-the-buddha/)\n\nThis event is at 17:30 UTC, 20:30 IDT, and 10:30 PDT.",
+      "plaintextDescription": "Dr. Daniel M. Ingram  will speak on \"Ethically Scaling Brain Hacking, Cognitive Social Justice, and Practical Issues of Soteriology\"\n\nPlease register  here  and we will send you an invitation before the event.\n\nBio: Dr. Daniel M. Ingram, MD MSPH, is a retired emergency medicine physician, trained epidemiologist, author, meditation teacher, co-founder of the Dharma Overground, key organizer of the Emergent Phenomenology Research Consortium, and Board Chair and acting CEO of the charity Emergence Benefactors . His current obsession is upgrading the functional relationship between science, spiritual/psychedelic/meditative/etc. practice, and clinical practice. Website here.\n\nHis book was reviewed at SlateStarCodex.\n\nThis event is at 17:30 UTC, 20:30 IDT, and 10:30 PDT.\n ",
+      "wordCount": 105
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "Mn3zNeHhnNhngsFrR",
+    "title": "What is the most effective way to donate to AGI XRisk mitigation?",
+    "slug": "what-is-the-most-effective-way-to-donate-to-agi-xrisk",
+    "url": null,
+    "baseScore": 44,
+    "voteCount": 13,
+    "viewCount": null,
+    "commentCount": 11,
+    "createdAt": null,
+    "postedAt": "2021-05-30T11:08:10.446Z",
+    "contents": {
+      "markdown": "There are now many organizations in field of Existential Risk from Artificial General Intelligence. I wonder which can make the most effective use of small donations.\n\nMy priority is on mathematical or engineering research aimed at XRisk from superhuman AGI.\n\nMy donations go to MIRI, and for now it looks best to me, but I will appreciate thoughtful assessment.\n\n*   [Machine Intelligence Research Institute](https://intelligence.org/) pioneered AGI XRisk mitigation (alongside FHI, below) and does foundational research. Their approach aims to avoid a  rush to implementation of an AGI which includes unknown  failure modes.\n*   [Alignment Research Center](http://alignmentresearchcenter.org/): Paul Christiano's new organization. He has done impressive research and has worked with both academia and MIRI.\n*   [Center for Human-Compatible Artificial Intelligence](https://humancompatible.ai/) at Berkeley: If you're looking to sponsor academia rather than an independent organization, this one does research that combines mainstream AI methods with serious consideration of XRisk.\n*   [Future of Humanity Institute](https://www.fhi.ox.ac.uk/) at Oxford is a powerhouse in multiple relevant areas, including AGI XRisk Research.\n*   [The Centre for the Study of Existential Risk](https://www.cser.ac.uk/) at Cambridge. Looks promising. I haven't seen much on AGI XRisk from them.\n*   [Leverhulme Center for the Future of Intelligence](http://lcfi.ac.uk/), also at Cambridge and linked to CSER\n*   Smaller organizations with scope that goes beyond AGI XRisk. I don't know much about them otherwise.\n    *   [Global Catastrophic Risk Institute](http://www.gcrinstitute.org/)\n    *   [Center on Long-Term Risk](https://longtermrisk.org/)\n*   Donating money to a grant-disbursing organization makes sense if you believe that they have better ability to determine effectiveness than you. Alternatively, you might be guided by their decisions as you make your own donations.\n    *   [Open Philanthropy Project](https://www.openphilanthropy.org/)\n    *   [Long-Term Future Fund](https://app.effectivealtruism.org/funds/far-future)\n    *   [Survival and Flourishing Fund](http://survivalandflourishing.fund/)/[Survival and Flourishing. org](http://survivalandflourishing.org/)\n    *   Solenum Foundation ([see here](https://www.edge.org/conversation/jaan_tallinn-existential-risk)). Recently, [Jaan Tallinn discussed  a new initiative](https://www.youtube.com/watch?v=qQCB0geKRUE)  for an assessment pipeline that will aggregate expert opinion on the most effective  organizations.\n    *   [Berkeley Existential Risk Initiative](https://existence.org/)\n*   [Future of Life Institute](https://futureoflife.org/): It's not clear if they still actively contribute to AI XRisk research, but did disburse grants a few years ago.\n\nAre there others?",
+      "plaintextDescription": "There are now many organizations in field of Existential Risk from Artificial General Intelligence. I wonder which can make the most effective use of small donations.\n\nMy priority is on mathematical or engineering research aimed at XRisk from superhuman AGI.\n\nMy donations go to MIRI, and for now it looks best to me, but I will appreciate thoughtful assessment.\n\n * Machine Intelligence Research Institute pioneered AGI XRisk mitigation (alongside FHI, below) and does foundational research. Their approach aims to avoid a  rush to implementation of an AGI which includes unknown  failure modes.\n * Alignment Research Center: Paul Christiano's new organization. He has done impressive research and has worked with both academia and MIRI.\n * Center for Human-Compatible Artificial Intelligence at Berkeley: If you're looking to sponsor academia rather than an independent organization, this one does research that combines mainstream AI methods with serious consideration of XRisk.\n * Future of Humanity Institute at Oxford is a powerhouse in multiple relevant areas, including AGI XRisk Research.\n * The Centre for the Study of Existential Risk at Cambridge. Looks promising. I haven't seen much on AGI XRisk from them.\n * Leverhulme Center for the Future of Intelligence, also at Cambridge and linked to CSER\n * Smaller organizations with scope that goes beyond AGI XRisk. I don't know much about them otherwise.\n   * Global Catastrophic Risk Institute\n   * Center on Long-Term Risk\n * Donating money to a grant-disbursing organization makes sense if you believe that they have better ability to determine effectiveness than you. Alternatively, you might be guided by their decisions as you make your own donations.\n   * Open Philanthropy Project\n   * Long-Term Future Fund\n   * Survival and Flourishing Fund/Survival and Flourishing. org\n   * Solenum Foundation (see here). Recently, Jaan Tallinn discussed  a new initiative  for an assessment pipeline that will aggregate expert opinion on the mo",
+      "wordCount": 380
+    },
+    "tags": [
+      {
+        "_id": "sYm3HiWcfZvrGu3ui",
+        "name": "AI",
+        "slug": "ai"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "AJX8EKjyEFiYbAmgk",
+    "title": "Scott Aaronson at the AstralCodexTen Online Meetup",
+    "slug": "scott-aaronson-at-the-astralcodexten-online-meetup",
+    "url": null,
+    "baseScore": 11,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-05-13T08:59:57.996Z",
+    "contents": {
+      "markdown": "Professor Scott Aaronson will take your questions. After that, we will socialize online.\n\nPlease register  [here](https://forms.gle/7GBLuMb1oeNNF3X69?fbclid=IwAR1mhvCae5NZeAs_W581bGueH-DgZg6z5Ztwir---2nm05h3jO1yaxL3Gbk) and we will send you an invitation before the event.\n\nScott Aaronson is a Professor of computer scientist at the University of Texas at Austin. His primary areas of research are quantum computing and computational complexity theory. He blogs at [Shtetl Optimized](https://www.scottaaronson.com/blog/).\n\nThis event is Sunday May 23, at 17:30 UTC, 20:30 IDT, and 10:30 PDT",
+      "plaintextDescription": "Professor Scott Aaronson will take your questions. After that, we will socialize online.\n\nPlease register  here and we will send you an invitation before the event.\n\nScott Aaronson is a Professor of computer scientist at the University of Texas at Austin. His primary areas of research are quantum computing and computational complexity theory. He blogs at Shtetl Optimized.\n\nThis event is Sunday May 23, at 17:30 UTC, 20:30 IDT, and 10:30 PDT",
+      "wordCount": 69
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "8o5Cae5FEDke6jp3P",
+    "title": "Andrés Gómez Emilsson at the AstralCodexTen Online Meetup",
+    "slug": "andres-gomez-emilsson-at-the-astralcodexten-online-meetup",
+    "url": null,
+    "baseScore": 8,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-04-15T15:36:13.669Z",
+    "contents": {
+      "markdown": "Andrés will talk about \"Mapping the Heaven Realms\". After that we will socialize online.\n\nPlease register  [here](https://forms.gle/cU1mw7L2su5HjCTt6) and we will send you an invitation before the event.\n\nDescription: \n\nAngels and demons lurk in our neurons. While \"parallel dimensions\" are most certainly nothing more than a product of the imagination, such products are still extremely important from a scientific and ethical point of view. Based on [previous research](https://forum.effectivealtruism.org/posts/gtGe8WkeFvqucYLAF/logarithmic-scales-of-pleasure-and-pain-rating-ranking-and), we have concluded that the intensity and quality of experiences follow a long-tail distribution. Indeed, the most blissful states of consciousness are orders of magnitude more intense, luminous, and satisfying than \"merely\" amazing experiences. Thus, mapping out the heaven realms, so to speak, may be of enormous value for the task of paradise engineering. In this talk, I will share what we currently know at QRI about the heaven realms of experience and how to experience them safely.\n\nMore so, I will touch upon how the phenomenological and information processing properties of ecstatic states of consciousness relate to modern neuroscientific paradigms such as predictive coding, indirect realism about perception, connectome-specific harmonic waves, and [QRI's symmetry theory of valence and neural annealing theory](https://opentheory.net/2019/11/neural-annealing-toward-a-neural-theory-of-everything).\n\nLooking forward to seeing you there! Please consider bringing with you a fresh memory of some of your best experiences to share and discuss in light of these ideas.\n\nBio: \n\nAndrés is Co-Director of Research at the [Qualia Research Institute](https://www.qualiaresearchinstitute.org/team), where Scott Alexander is on the Board of Advisors.\n\nAndrés  has a Master’s Degree in Computational Psychology from Stanford and a professional background in graph theory, statistics, and affective science. Andrés was also the co-founder of the Stanford Transhumanist Association and first place winner of the Norway Math Olympiad. His work at QRI ranges from algorithm design, to psychedelic theory, to neurotechnology development, to mapping and studying the computational properties of consciousness. Andrés blogs at [qualiacomputing.com](qualiacomputing.com)",
+      "plaintextDescription": "Andrés will talk about \"Mapping the Heaven Realms\". After that we will socialize online.\n\nPlease register  here and we will send you an invitation before the event.\n\nDescription: \n\nAngels and demons lurk in our neurons. While \"parallel dimensions\" are most certainly nothing more than a product of the imagination, such products are still extremely important from a scientific and ethical point of view. Based on previous research, we have concluded that the intensity and quality of experiences follow a long-tail distribution. Indeed, the most blissful states of consciousness are orders of magnitude more intense, luminous, and satisfying than \"merely\" amazing experiences. Thus, mapping out the heaven realms, so to speak, may be of enormous value for the task of paradise engineering. In this talk, I will share what we currently know at QRI about the heaven realms of experience and how to experience them safely.\n\nMore so, I will touch upon how the phenomenological and information processing properties of ecstatic states of consciousness relate to modern neuroscientific paradigms such as predictive coding, indirect realism about perception, connectome-specific harmonic waves, and QRI's symmetry theory of valence and neural annealing theory.\n\nLooking forward to seeing you there! Please consider bringing with you a fresh memory of some of your best experiences to share and discuss in light of these ideas.\n\nBio: \n\nAndrés is Co-Director of Research at the Qualia Research Institute, where Scott Alexander is on the Board of Advisors.\n\nAndrés  has a Master’s Degree in Computational Psychology from Stanford and a professional background in graph theory, statistics, and affective science. Andrés was also the co-founder of the Stanford Transhumanist Association and first place winner of the Norway Math Olympiad. His work at QRI ranges from algorithm design, to psychedelic theory, to neurotechnology development, to mapping and studying the computational properties of consciousness. A",
+      "wordCount": 297
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "aet4oE5uEDPGZmGJ6",
+    "title": "Ben Goertzel's \"Kinds of Minds\"",
+    "slug": "ben-goertzel-s-kinds-of-minds",
+    "url": null,
+    "baseScore": 12,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 4,
+    "createdAt": null,
+    "postedAt": "2021-04-11T12:41:16.550Z",
+    "contents": {
+      "markdown": "I'd like to recommend Ben Goertzel's book from 2006  [*Hidden Pattern*](https://drive.google.com/file/d/1zaq_-FCWpushbtxLvemSU97HS0klVyb0/view?usp=sharing), and particularly Chapter 2 [\"Kinds of Minds\"](https://drive.google.com/file/d/1ISibMWTBuMZ4Qu1vG4BLlRuZCrEJkOso/view?usp=sharing). (The book is also [available at](https://goertzel.org/HiddenPattern_march_4_06.pdf) the author's site, but that may trigger SSL certificate warnings.)\n\nWe've come to understand that a future AGI may have non-anthropomorphic  implementation and behavior, but this chapter situates possible minds in a variety of types of implementation and embodiment that I have not seen described elsewhere.\n\nSpecifically, p.17 compares\n\n> *   High-resource minds (like AIXI) or modest-resource\n\nand among modest-resource minds\n\n> *   Embodied versus non, and within the \"embodied\" category: singly versus multiply versus flexibly embodied, and tool-dependent versus non\n> *   Mindplexes versus fully unified minds\n> *   Socially-dependent versus non\n\nIf there is other literature that enumerates and compares these and other kinds of minds, I'll be glad to know.",
+      "plaintextDescription": "I'd like to recommend Ben Goertzel's book from 2006 Hidden Pattern, and particularly Chapter 2 \"Kinds of Minds\". (The book is also available at the author's site, but that may trigger SSL certificate warnings.)\n\nWe've come to understand that a future AGI may have non-anthropomorphic  implementation and behavior, but this chapter situates possible minds in a variety of types of implementation and embodiment that I have not seen described elsewhere.\n\nSpecifically, p.17 compares\n\n>  * High-resource minds (like AIXI) or modest-resource\n\nand among modest-resource minds\n\n>  * Embodied versus non, and within the \"embodied\" category: singly versus multiply versus flexibly embodied, and tool-dependent versus non\n>  * Mindplexes versus fully unified minds\n>  * Socially-dependent versus non\n\nIf there is other literature that enumerates and compares these and other kinds of minds, I'll be glad to know.",
+      "wordCount": 138
+    },
+    "tags": [
+      {
+        "_id": "bxhzaWtdNoEMMkE8r",
+        "name": "General intelligence",
+        "slug": "general-intelligence"
+      },
+      {
+        "_id": "sYm3HiWcfZvrGu3ui",
+        "name": "AI",
+        "slug": "ai"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "jQQYCdtiH5d3CtrNC",
+    "title": "Jaan Tallinn at the Slate Star Codex Online Meetup",
+    "slug": "jaan-tallinn-at-the-slate-star-codex-online-meetup",
+    "url": null,
+    "baseScore": 5,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-03-31T08:04:34.024Z",
+    "contents": {
+      "markdown": "Jaan Tallinn will give a \"Fireside Chat\" Q&A session. After that, we will socialize online.\n\nPlease register [here](https://forms.gle/1sxyb3BzGqmmdqzC7) and we will send you an invitation before the event.\n\nBio: Jaan Tallinn is a founding engineer of Skype and Kazaa as well as a co-founder of the Cambridge Centre for the Study of Existential Risk ([cser.org](https://l.facebook.com/l.php?u=http%3A%2F%2Fcser.org%2F%3Ffbclid%3DIwAR1rX3BhPr0D2OhvY8kKS8tRW6X1C2M7kvyP6x95Yh8rmWw1_SO5Gjx8Yiw&h=AT0TOd-bn4CLmdI8WP5Jae1y12mUVDBQzgsOxntv_5JOprwbXhV1imE2EXeJszFdFifVMYisWLHKT-wRO6tbmv2a6NETpFjGG409KatlivjiXeH_cxoubGwgtSktjTek2lAN6Us&__tn__=q&c[0]=AT1dglb7nQEQS2LoYNZSCjmxKBjruwJ_Gfwh77NM0unzf4gff1K_BGkIZwNKE2N9NsT4gKmEVPgJDh6iIn5Wh6XhuClYY0QZCSfJdYxK0JuDHT4QP_KcbVfBxFOm1nEYls0)) and Future of Life Institute ([futureoflife.org](https://l.facebook.com/l.php?u=http%3A%2F%2Ffutureoflife.org%2F%3Ffbclid%3DIwAR1p4umVZTKRFMnGkb093JRzwwTHQjYhm0p5Kgz-uk0xn6B6iXzEJII9OqI&h=AT3GPgv7gBU_fU1Ni5e4bthPKDx6jfuOIlJpvge8owbbH9xgjCoJes4rj4xEvht_xPsKtNkuoOdm6Dk3lIQT4o27i7mQINK34nqCMU2GKnsQjeQObDdKG_hgfzOyKC0KjjTcziA&__tn__=q&c[0]=AT1dglb7nQEQS2LoYNZSCjmxKBjruwJ_Gfwh77NM0unzf4gff1K_BGkIZwNKE2N9NsT4gKmEVPgJDh6iIn5Wh6XhuClYY0QZCSfJdYxK0JuDHT4QP_KcbVfBxFOm1nEYls0)). He has given a number of high-profile talks highlighting the potential risk from advances in artificial intelligence.",
+      "plaintextDescription": "Jaan Tallinn will give a \"Fireside Chat\" Q&A session. After that, we will socialize online.\n\nPlease register here and we will send you an invitation before the event.\n\nBio: Jaan Tallinn is a founding engineer of Skype and Kazaa as well as a co-founder of the Cambridge Centre for the Study of Existential Risk (cser.org) and Future of Life Institute (futureoflife.org). He has given a number of high-profile talks highlighting the potential risk from advances in artificial intelligence.",
+      "wordCount": 76
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "K7gHhdQeeHP7nMHGY",
+    "title": "Zvi Mowshowitz at the SSC Online Meetup",
+    "slug": "zvi-mowshowitz-at-the-ssc-online-meetup",
+    "url": null,
+    "baseScore": 8,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2021-03-03T11:17:38.444Z",
+    "contents": {
+      "markdown": "Zvi will talk about the new game that he is designing in the style of Magic the Gathering, integrated with an esoteric OCaml-based blockchain called Tezos. He'll also talk about his Covid updates and what he has learned doing that. After that, he will take your questions on any topic.\n\nAfter the Q&A, we will socialize virtually.\n\nPlease register [here](https://forms.gle/kgDewbZABWFsTsJy9) and we will send you an invitation before the event.\n\nBio: Zvi Mowshowitz is a game designer, Hall of Fame Magic player, trader and rationalist writer. He currently writes the blog *Don't Worry About the Vase* which is also posted to LessWrong and includes weekly Covid-19 updates.\n\nThis talk is unusually at 11:30 PDT (because the US goes to Daylight Saving time on the morning of March 14, but some other countries do not). This is 18:30 UTC, 20:30 Israel Standard Time.",
+      "plaintextDescription": "Zvi will talk about the new game that he is designing in the style of Magic the Gathering, integrated with an esoteric OCaml-based blockchain called Tezos. He'll also talk about his Covid updates and what he has learned doing that. After that, he will take your questions on any topic.\n\nAfter the Q&A, we will socialize virtually.\n\nPlease register here and we will send you an invitation before the event.\n\nBio: Zvi Mowshowitz is a game designer, Hall of Fame Magic player, trader and rationalist writer. He currently writes the blog Don't Worry About the Vase which is also posted to LessWrong and includes weekly Covid-19 updates.\n\nThis talk is unusually at 11:30 PDT (because the US goes to Daylight Saving time on the morning of March 14, but some other countries do not). This is 18:30 UTC, 20:30 Israel Standard Time.",
+      "wordCount": 138
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "DcHw4aSDfDRhhZuFo",
+    "title": "Stuart Armstrong at the SSC Online Meetup",
+    "slug": "stuart-armstrong-at-the-ssc-online-meetup",
+    "url": null,
+    "baseScore": 8,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2021-02-19T12:01:31.195Z",
+    "contents": {
+      "markdown": "Dr Armstrong will speak in our virtual meetup on \"A path to solving AI alignment: Why Stuart Armstrong feels that the course we are on could lead to safe AI.\"\n\nHe is a Research Fellow at the Future of Humanity Institute, where he researches the safety and possibilities of Artificial Intelligence.\n\nAfter the talk and Q&A, we will socialize virtually at the LessWrong Walled Garden in GatherTown.\n\n[Please register here](https://forms.gle/RJJL2mzPEDxS13cq8) and we will send you an invitation before the event.\n\nThe event starts at 10:30 PST,  18:30 UTC, 20:30 Israel Standard Time, on Feb.28.",
+      "plaintextDescription": "Dr Armstrong will speak in our virtual meetup on \"A path to solving AI alignment: Why Stuart Armstrong feels that the course we are on could lead to safe AI.\"\n\nHe is a Research Fellow at the Future of Humanity Institute, where he researches the safety and possibilities of Artificial Intelligence.\n\nAfter the talk and Q&A, we will socialize virtually at the LessWrong Walled Garden in GatherTown.\n\nPlease register here and we will send you an invitation before the event.\n\nThe event starts at 10:30 PST,  18:30 UTC, 20:30 Israel Standard Time, on Feb.28.",
+      "wordCount": 90
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "upcjRf8we4ayZaNoZ",
+    "title": "Rohin Shah at the SSC Online Meetup",
+    "slug": "rohin-shah-at-the-ssc-online-meetup",
+    "url": null,
+    "baseScore": 9,
+    "voteCount": 3,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2021-02-05T08:48:50.312Z",
+    "contents": {
+      "markdown": "Dr. Rohin Shah will speak on \" The importance of threat models for AI alignment,\" and then will take questions.\n\nAfter that, we will socialize virtually at the LessWrong Walled Garden in GatherTown.\n\nPlease [register here](https://forms.gle/YQ39rJ3wfAzATUAt9) and we will send you an invitation by Feb. 13.\n\nThe meetup is Feb. 14, 2021 at 18:30 UTC, 20:30 Israel Standard Time, 10:30 Pacific Standard Time.\n\n[Subscribe for email notifications of further such events here.](https://ssconlinemeetup.substack.com/)\n\n**Abstract:**\n\nIt is notoriously difficult to figure out what research to focus on in AI alignment. I'll argue that a focus on threat models can help significantly. Roughly speaking, a threat model is a story detailing how we get from today's world to an AI-caused existential catastrophe. Once you have a good threat model, you can evaluate a piece of research by seeing to what extent it makes the story less likely to happen.\n\nFor background, [please see this talk by Rohin](https://www.youtube.com/watch?v=u2rzKQuzIuw), \"What’s been happening in AI alignment?\",\n\n**Bio:**\n\nRohin has recently become a Research Scientist on the technical AGI safety team at DeepMind after finishing his PhD at the Center for Human-Compatible AI (CHAI). He is particularly interested in clarifying big-picture questions around AI alignment. He is the editor and principal content creator of the Alignment Newsletter, and has had several talks and podcast appearances, particularly around distilling and synthesizing AI alignment research.",
+      "plaintextDescription": "Dr. Rohin Shah will speak on \" The importance of threat models for AI alignment,\" and then will take questions.\n\nAfter that, we will socialize virtually at the LessWrong Walled Garden in GatherTown.\n\nPlease register here and we will send you an invitation by Feb. 13.\n\nThe meetup is Feb. 14, 2021 at 18:30 UTC, 20:30 Israel Standard Time, 10:30 Pacific Standard Time.\n\nSubscribe for email notifications of further such events here.\n\nAbstract:\n\nIt is notoriously difficult to figure out what research to focus on in AI alignment. I'll argue that a focus on threat models can help significantly. Roughly speaking, a threat model is a story detailing how we get from today's world to an AI-caused existential catastrophe. Once you have a good threat model, you can evaluate a piece of research by seeing to what extent it makes the story less likely to happen.\n\nFor background, please see this talk by Rohin, \"What’s been happening in AI alignment?\",\n\nBio:\n\nRohin has recently become a Research Scientist on the technical AGI safety team at DeepMind after finishing his PhD at the Center for Human-Compatible AI (CHAI). He is particularly interested in clarifying big-picture questions around AI alignment. He is the editor and principal content creator of the Alignment Newsletter, and has had several talks and podcast appearances, particularly around distilling and synthesizing AI alignment research.",
+      "wordCount": 217
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "HksKrTavLxHckd5ma",
+    "title": "Connor Leahy at the SlateStarCodex online meetup",
+    "slug": "connor-leahy-at-the-slatestarcodex-online-meetup",
+    "url": null,
+    "baseScore": 28,
+    "voteCount": 5,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2021-01-20T17:41:00.985Z",
+    "contents": {
+      "markdown": "Connor Leahy will speak on \"Moloch Reigns: To Gather an Army or to Forge a Sword?,\" then will take questions.\n\nAfter that, we will socialize virtually at the LessWrong Walled Garden in GatherTown.\n\nPlease register at [https://forms.gle/zxrR3N763bNsAkAS9](https://forms.gle/zxrR3N763bNsAkAS9) and we will send you an invitation by January 30.\n\nAbstract: Moloch, demon god of Inadequate Equilibria and Coordination Problems, still rules over human affairs, though his grasp has weakened significantly from the Malthusian Traps our ancestors were captured in.\n\nFrom the rapidly strengthening steel of AI technology, we are promised to forge a weapon mighty enough to fight back his demonic influence more still, perhaps even slay the tyrant for good.\n\nBut how should we conduct this war? How can we win? How could we lose?\n\nOur technology is giving us rapidly growing power to build the paradise we want. I will argue   \n\\- that the instinctive models of how to use this power are fundamentally broken  \n\\- that adding more people to the cause may be paradoxically a net negative (in certain circumstances)  \n\\- that some organizations are using the language of AI Safety to misdirect creative energies\n\nI'll point out some hopeful directions I see towards the alignment problem.\n\nBio: Connor is a founding member of the loose AI research collective EleutherAI. They are most well known for their ongoing efforts to replicate GPT3. Recently, Connor has been pushing for more directly alignment relevant research at Eleuther, and invites anyone with ML or webdev experience to join. By day, he works as an AI Researcher at German startup Aleph Alpha.\n\nThe event begins 20:30 Israel Standard Time, 10:30 Pacific Standard Time, 18:30 UTC.",
+      "plaintextDescription": "Connor Leahy will speak on \"Moloch Reigns: To Gather an Army or to Forge a Sword?,\" then will take questions.\n\nAfter that, we will socialize virtually at the LessWrong Walled Garden in GatherTown.\n\nPlease register at https://forms.gle/zxrR3N763bNsAkAS9 and we will send you an invitation by January 30.\n\nAbstract: Moloch, demon god of Inadequate Equilibria and Coordination Problems, still rules over human affairs, though his grasp has weakened significantly from the Malthusian Traps our ancestors were captured in.\n\nFrom the rapidly strengthening steel of AI technology, we are promised to forge a weapon mighty enough to fight back his demonic influence more still, perhaps even slay the tyrant for good.\n\nBut how should we conduct this war? How can we win? How could we lose?\n\nOur technology is giving us rapidly growing power to build the paradise we want. I will argue \n- that the instinctive models of how to use this power are fundamentally broken\n- that adding more people to the cause may be paradoxically a net negative (in certain circumstances)\n- that some organizations are using the language of AI Safety to misdirect creative energies\n\nI'll point out some hopeful directions I see towards the alignment problem.\n\nBio: Connor is a founding member of the loose AI research collective EleutherAI. They are most well known for their ongoing efforts to replicate GPT3. Recently, Connor has been pushing for more directly alignment relevant research at Eleuther, and invites anyone with ML or webdev experience to join. By day, he works as an AI Researcher at German startup Aleph Alpha.\n\nThe event begins 20:30 Israel Standard Time, 10:30 Pacific Standard Time, 18:30 UTC.",
+      "wordCount": 267
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "iHgk6eBCHiCLcwA3H",
+    "title": "Stuart Russell at the SlateStarCodex Online Meetup",
+    "slug": "stuart-russell-at-the-slatestarcodex-online-meetup",
+    "url": null,
+    "baseScore": 17,
+    "voteCount": 3,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-11-18T20:06:30.250Z",
+    "contents": {
+      "markdown": "Professor Stuart Russell will speak briefly on his book \"Human Compatible\", and then will take questions. The event begins Dec. 6, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nPlease [register here](https://forms.gle/G4Kk5wSN4VHperyf7) and we will send you an invitation.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/d17c8182e0213252512e60da0814f08e16c7172dc24e9b6d.jpg)\n\nStuart Russell is a Professor of Computer Science at the University of California at Berkeley, holder of the Smith-Zadeh Chair in Engineering, and Director of the Center for Human-Compatible AI. His book \"Artificial Intelligence: A Modern Approach\" (with Peter Norvig) is the standard text in AI, used in 1500 universities in 135 countries. His research covers a wide range of topics in artificial intelligence, with an emphasis on the long-term future of artificial intelligence and its relation to humanity.",
+      "plaintextDescription": "Professor Stuart Russell will speak briefly on his book \"Human Compatible\", and then will take questions. The event begins Dec. 6, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nPlease register here and we will send you an invitation.\n\nStuart Russell is a Professor of Computer Science at the University of California at Berkeley, holder of the Smith-Zadeh Chair in Engineering, and Director of the Center for Human-Compatible AI. His book \"Artificial Intelligence: A Modern Approach\" (with Peter Norvig) is the standard text in AI, used in 1500 universities in 135 countries. His research covers a wide range of topics in artificial intelligence, with an emphasis on the long-term future of artificial intelligence and its relation to humanity. ",
+      "wordCount": 120
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "P9kmPXz9KZJS3cCEq",
+    "title": "Michael Vassar at SlateStarCodex Online Meetup",
+    "slug": "michael-vassar-at-slatestarcodex-online-meetup",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-11-18T19:59:14.148Z",
+    "contents": {
+      "markdown": "Michael Vassar will speak on \"Why Do We Call Ourselves Rationalists?\"\n\nPlease register [here]( https://forms.gle/5k1bQR5fQdNaZTNG7 ) and we will send you an invitation.\n\nThe event begins Nov. 22, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nAbstract: The words rationalism and empiricism have specific historical meanings. The word Bayesian, the foundational epistemology of our community, has a very different meaning, yet in practice, we tend to adopt frequentist empiricism as our usual working epistemology. This works OK in many domains, but works much less well in adversarial domains, such as the evaluation of grievances. As a result, we tend to misunderstand adversarial domains, most notably macroeconomics, but also Grievance Studies fields such as Feminism and Critical Race Theory, leading to unnecessary political conflicts. Bayesian approaches, used correctly, can precisely bound the ways in which ‘Politics is the Mindkiller’ enabling us to be reasonable political actors rather than pretending politics is a Basilisk.\n\nMichael Vassar was executive director of the Singularly Institute before it became MIRI and CFAR. He lives in Austria and New York and is currently active in prison reform.",
+      "plaintextDescription": "Michael Vassar will speak on \"Why Do We Call Ourselves Rationalists?\"\n\nPlease register here and we will send you an invitation.\n\nThe event begins Nov. 22, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nAbstract: The words rationalism and empiricism have specific historical meanings. The word Bayesian, the foundational epistemology of our community, has a very different meaning, yet in practice, we tend to adopt frequentist empiricism as our usual working epistemology. This works OK in many domains, but works much less well in adversarial domains, such as the evaluation of grievances. As a result, we tend to misunderstand adversarial domains, most notably macroeconomics, but also Grievance Studies fields such as Feminism and Critical Race Theory, leading to unnecessary political conflicts. Bayesian approaches, used correctly, can precisely bound the ways in which ‘Politics is the Mindkiller’ enabling us to be reasonable political actors rather than pretending politics is a Basilisk.\n\nMichael Vassar was executive director of the Singularly Institute before it became MIRI and CFAR. He lives in Austria and New York and is currently active in prison reform.",
+      "wordCount": 181
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "8KwvuBrKsSMtkWtyf",
+    "title": "Stuart Russell at the SlateStarCodex Online Meetup",
+    "slug": "stuart-russell-at-the-slatestarcodex-online-meetup-1",
+    "url": null,
+    "baseScore": 11,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2020-11-14T18:42:37.227Z",
+    "contents": {
+      "markdown": "Professor Stuart Russell will speak briefly on his book \"Human Compatible\", and then will take questions. The event begins Dec. 6, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nPlease [register here](https://forms.gle/G4Kk5wSN4VHperyf7) and we will send you an invitation.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/d17c8182e0213252512e60da0814f08e16c7172dc24e9b6d.jpg)\n\nStuart Russell is a Professor of Computer Science at the University of California at Berkeley, holder of the Smith-Zadeh Chair in Engineering, and Director of the Center for Human-Compatible AI. His book \"Artificial Intelligence: A Modern Approach\" (with Peter Norvig) is the standard text in AI, used in 1500 universities in 135 countries. His research covers a wide range of topics in artificial intelligence, with an emphasis on the long-term future of artificial intelligence and its relation to humanity.",
+      "plaintextDescription": "Professor Stuart Russell will speak briefly on his book \"Human Compatible\", and then will take questions. The event begins Dec. 6, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nPlease register here and we will send you an invitation.\n\nStuart Russell is a Professor of Computer Science at the University of California at Berkeley, holder of the Smith-Zadeh Chair in Engineering, and Director of the Center for Human-Compatible AI. His book \"Artificial Intelligence: A Modern Approach\" (with Peter Norvig) is the standard text in AI, used in 1500 universities in 135 countries. His research covers a wide range of topics in artificial intelligence, with an emphasis on the long-term future of artificial intelligence and its relation to humanity. ",
+      "wordCount": 120
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "xRhdZbMbhrYQeqjWE",
+    "title": "Tips on organizing online meetups",
+    "slug": "tips-on-organizing-online-meetups",
+    "url": null,
+    "baseScore": 27,
+    "voteCount": 10,
+    "viewCount": null,
+    "commentCount": 7,
+    "createdAt": null,
+    "postedAt": "2020-11-12T20:02:35.793Z",
+    "contents": {
+      "markdown": "I have been co-organizing the [SlateStarCodex online meetup series](https://joshuafox.com/ssc-online-meetups/) with ~40-140 participants in each meetup. We've experimented to get it to work smoothly and have some tips.\n\nThis advice is for meetups which have a talk and QA and post-talk socializing. I will appreciate similar tips from meetup organizers.\n\nFor   socializing, we use  breakout rooms as mentioned below; but for pure socializing,  [Icebreaker](https://icebreaker.video) works even better, putting people together for short conversations (like \"speed dating\"). This worked well in some Effective Altruism Icebreaker sessions. \n\nAnother good format is Rump Sessions: Four-minute Lightning talks, given by on-the-spot volunteers (no need to pre-apply); and for each,  the audience votes for a  three-minute extension if the speaker wants. That worked well for the preliminary session in the series, but all the rest had invited speakers.\n\nHere's how we do it.\n\n*   We  advertise using a regular (non-event) post on  LessWrong, as LessWrong does not support non-geographical events. We also make  an event post under LessWrong Tel Aviv,  allowing people to get a notification or see this in the event page.\n*   We also post to [/r/slatestarcodex](https://reddit.com/r/slatestarcodex)\n*   We post to Facebook. Few Facebook groups in the rationality-sphere are really active, so we do not share to any of those. (I do post to my local LessWrong Israel group.)\n*   We have a MailChimp mailing list, which has worked very well to get out the word. People can sign up when they register for a meetup.\n*   For each session, we ask people to register; then we send them an invitation. So, we do not publicize a direct video-meet link. This approach gives us partial visibility into who will join.\n*   We use Google Meet because the paid version allows more than 100 participants, and the paid version of Zoom does not. Usually someone can offer a paid version from their work or school, but note that the owner of the account will need to administer the call, so the owner cannot just hand off to the meeting organizers.\n*   I suggest in the invitation and in my introduction that --  both for the main event and the after-talk socializing -- participants turn on  video, and connect with their real name, for social connectivity. However, this is not mandatory.\n*   We do it Sunday 18:30 UTC because this accommodates the US, Europe, and Israel times of day and workdays.  (This leaves out areas east of Israel to the Pacific, unfortunately).\n*   Schedule: I connect 15 minutes before the session to test the audiovisuals. I recommend that the speaker connect a few minutes earlier, as we have had audiovisual problems in the past. The session  begins 1 minute after the scheduled time, and I give a 2-minute technical introduction about muting mics, videorooms, etc., and a 30-second intro for the speaker. The speaker gives a talk for 0 to 90 minutes, and then we do Q&A. After that, we go to videorooms.\n*   We ask everyone to mute mics to minimize background noise. I mute people if they forget to  do it themselves.\n*   Participants chat freely in text chat during the whole thing.\n*   Participants ask questions in text chat, prefixed by a \"Q\". My co-organizer curates them and feeds me questions to read out. This approach, compared to oral questions, shares the time fairly, avoiding  time-hogs. It also supports those with a bad audio connection. Afterwards, we do allow oral questions if there is time.\n*   For the last phase, following Q&A, we share links to 3-4 Jitsi videorooms for socializing. Participants can switch between rooms. This is meant to simulate post-talk chats in a face-to-face conference.",
+      "plaintextDescription": "I have been co-organizing the SlateStarCodex online meetup series with ~40-140 participants in each meetup. We've experimented to get it to work smoothly and have some tips.\n\nThis advice is for meetups which have a talk and QA and post-talk socializing. I will appreciate similar tips from meetup organizers.\n\nFor   socializing, we use  breakout rooms as mentioned below; but for pure socializing,  Icebreaker works even better, putting people together for short conversations (like \"speed dating\"). This worked well in some Effective Altruism Icebreaker sessions. \n\nAnother good format is Rump Sessions: Four-minute Lightning talks, given by on-the-spot volunteers (no need to pre-apply); and for each,  the audience votes for a  three-minute extension if the speaker wants. That worked well for the preliminary session in the series, but all the rest had invited speakers.\n\nHere's how we do it.\n\n * We  advertise using a regular (non-event) post on  LessWrong, as LessWrong does not support non-geographical events. We also make  an event post under LessWrong Tel Aviv,  allowing people to get a notification or see this in the event page.\n * We also post to /r/slatestarcodex\n * We post to Facebook. Few Facebook groups in the rationality-sphere are really active, so we do not share to any of those. (I do post to my local LessWrong Israel group.)\n * We have a MailChimp mailing list, which has worked very well to get out the word. People can sign up when they register for a meetup.\n * For each session, we ask people to register; then we send them an invitation. So, we do not publicize a direct video-meet link. This approach gives us partial visibility into who will join.\n * We use Google Meet because the paid version allows more than 100 participants, and the paid version of Zoom does not. Usually someone can offer a paid version from their work or school, but note that the owner of the account will need to administer the call, so the owner cannot just hand off to the meeting organiz",
+      "wordCount": 614
+    },
+    "tags": [
+      {
+        "_id": "T57Qd9J3AfxmwhQtY",
+        "name": "Meetups & Local Communities (topic)",
+        "slug": "meetups-and-local-communities-topic"
+      },
+      {
+        "_id": "EXgFbrqoRRkCRgnDy",
+        "name": "Online Socialization",
+        "slug": "online-socialization"
+      },
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "iWWjq5BioRkjxxNKq",
+    "title": "Michael Vassar at  the SlateStarCodex Online Meetup",
+    "slug": "michael-vassar-at-the-slatestarcodex-online-meetup",
+    "url": null,
+    "baseScore": 16,
+    "voteCount": 5,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2020-11-11T07:03:13.516Z",
+    "contents": {
+      "markdown": "Michael Vassar will speak on \"Why Do We Call Ourselves Rationalists?\"\n\nPlease register [here]( https://forms.gle/5k1bQR5fQdNaZTNG7 ) and we will send you an invitation.\n\nThe event begins Nov. 22, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nAbstract: The words rationalism and empiricism have specific historical meanings. The word Bayesian, the foundational epistemology of our community, has a very different meaning, yet in practice, we tend to adopt frequentist empiricism as our usual working epistemology. This works OK in many domains, but works much less well in adversarial domains, such as the evaluation of grievances. As a result, we tend to misunderstand adversarial domains, most notably macroeconomics, but also Grievance Studies fields such as Feminism and Critical Race Theory, leading to unnecessary political conflicts. Bayesian approaches, used correctly, can precisely bound the ways in which ‘Politics is the Mindkiller’ enabling us to be reasonable political actors rather than pretending politics is a Basilisk.\n\nMichael Vassar was executive director of the Singularly Institute before it became MIRI and CFAR. He lives in Austria and New York and is currently active in prison reform.",
+      "plaintextDescription": "Michael Vassar will speak on \"Why Do We Call Ourselves Rationalists?\"\n\nPlease register here and we will send you an invitation.\n\nThe event begins Nov. 22, 2020 at 20:30 Israel Standard Time, 10:30 Pacific Standard time, 18:30 UTC.\n\nAbstract: The words rationalism and empiricism have specific historical meanings. The word Bayesian, the foundational epistemology of our community, has a very different meaning, yet in practice, we tend to adopt frequentist empiricism as our usual working epistemology. This works OK in many domains, but works much less well in adversarial domains, such as the evaluation of grievances. As a result, we tend to misunderstand adversarial domains, most notably macroeconomics, but also Grievance Studies fields such as Feminism and Critical Race Theory, leading to unnecessary political conflicts. Bayesian approaches, used correctly, can precisely bound the ways in which ‘Politics is the Mindkiller’ enabling us to be reasonable political actors rather than pretending politics is a Basilisk.\n\nMichael Vassar was executive director of the Singularly Institute before it became MIRI and CFAR. He lives in Austria and New York and is currently active in prison reform.",
+      "wordCount": 181
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "xwgENfD98sWPoxdXJ",
+    "title": "Sam Altman at SlateStarCodex Online Meetup",
+    "slug": "sam-altman-at-slatestarcodex-online-meetup-1",
+    "url": null,
+    "baseScore": 24,
+    "voteCount": 6,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-10-26T10:26:43.860Z",
+    "contents": {
+      "markdown": "Our online meetup on  November 8, at  10:30 AM Pacific Standard Time, 18:30 UTC, 20:30 Israel Standard Time, will feature Sam Altman, CEO of OpenAI, who will be answering questions. We will then have open video-chat rooms as usual.  \n  \nWe hope to focus the Q&A on AI, AGI, GPT-N and OpenAI, but feel free to ask questions on other topics if you like.  \n  \nPlease [register here](https://forms.gle/i7tBJYEvuuHjQLq68) , and we'll send you an invitation.",
+      "plaintextDescription": "Our online meetup on  November 8, at  10:30 AM Pacific Standard Time, 18:30 UTC, 20:30 Israel Standard Time, will feature Sam Altman, CEO of OpenAI, who will be answering questions. We will then have open video-chat rooms as usual.\n\nWe hope to focus the Q&A on AI, AGI, GPT-N and OpenAI, but feel free to ask questions on other topics if you like.\n\nPlease register here , and we'll send you an invitation.",
+      "wordCount": 79
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "vZqAfPMCrFz6bArGp",
+    "title": "Sam Altman at SlateStarCodex Online Meetup",
+    "slug": "sam-altman-at-slatestarcodex-online-meetup",
+    "url": null,
+    "baseScore": 9,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-10-26T10:01:47.799Z",
+    "contents": {
+      "markdown": "Our online  meetup will start off with a Q&A with Sam Altman, CEO of OpenAI. We will then have open video-chat rooms as usual.  \n  \nWe hope to focus the Q&A on AI, AGI, GPT-N and OpenAI, but feel free to ask questions on other topics if you like.  \n  \nPlease [register here](https://forms.gle/i7tBJYEvuuHjQLq68) , and we'll send you an invitation.\n\nThis is 10:30 AM Pacific Standard Time, 18:30 UTC, 20:30 Israel Standard Time.",
+      "plaintextDescription": "Our online  meetup will start off with a Q&A with Sam Altman, CEO of OpenAI. We will then have open video-chat rooms as usual.\n\nWe hope to focus the Q&A on AI, AGI, GPT-N and OpenAI, but feel free to ask questions on other topics if you like.\n\nPlease register here , and we'll send you an invitation.\n\nThis is 10:30 AM Pacific Standard Time, 18:30 UTC, 20:30 Israel Standard Time.",
+      "wordCount": 74
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "4A7SW4SGCZsKedJqo",
+    "title": "Jason Crawford on the non-linear model of innovation: SSC Online Meetup",
+    "slug": "jason-crawford-on-the-non-linear-model-of-innovation-ssc-1",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-09-30T10:13:13.853Z",
+    "contents": {
+      "markdown": "Jason Crawford on the *non*-linear model of innovation.\n\nPlease signup here by an hour before the event, and we will send you an invitation\n\n[https://forms.gle/XXk3hPNkcEJJbHFC9](https://forms.gle/XXk3hPNkcEJJbHFC9?fbclid=IwAR26zp7cKuT2PChZCDM0A6DOYM9j1xo4KD2oURYGNoohvZeOz51i-b_-hgs)\n\nIMPORTANT: As Daylight Savings Time approaches an end, note the times: 18:30 UTC, 20:30 IST, 11:30 PDT. \n\nInnovation is often described with a “linear” model from discovery to invention to distribution. There is an element of truth in this, but a naive interpretation of the model does not match the reality of science and invention. In this talk, I'll show the feedback mechanisms between discovery and invention and how they are intertwined, using examples including the transistor at Bell Labs and the career of Louis Pasteur.\n\nJason Crawford is the author of The Roots of Progress ([https://rootsofprogress.org/](https://l.facebook.com/l.php?u=https%3A%2F%2Frootsofprogress.org%2F%3Ffbclid%3DIwAR3d_9hkZqTRrOJ7MZoOV4tqcU6JvvRq8CA2UWSvpdQY9d5ZlRm7Qu8xekY&h=AT1ieq2ANbRdh7rMCwopdw-prNGjX2vXn7BhhruamxiVVsc_F4dEIgab0EE6izys3bbqD3H5I-q4yRMMFW8LH58gyhtVyD0NUc4RYhmRqhcrLYkWIycug1vqAi0wSeEl5W3eMHY)), where he writes about the history of technology and the philosophy of progress. Previously, he spent 18 years as a software engineer, engineering manager, and startup founder.",
+      "plaintextDescription": "Jason Crawford on the non-linear model of innovation.\n\nPlease signup here by an hour before the event, and we will send you an invitation\n\nhttps://forms.gle/XXk3hPNkcEJJbHFC9\n\nIMPORTANT: As Daylight Savings Time approaches an end, note the times: 18:30 UTC, 20:30 IST, 11:30 PDT. \n\nInnovation is often described with a “linear” model from discovery to invention to distribution. There is an element of truth in this, but a naive interpretation of the model does not match the reality of science and invention. In this talk, I'll show the feedback mechanisms between discovery and invention and how they are intertwined, using examples including the transistor at Bell Labs and the career of Louis Pasteur.\n\nJason Crawford is the author of The Roots of Progress (https://rootsofprogress.org/), where he writes about the history of technology and the philosophy of progress. Previously, he spent 18 years as a software engineer, engineering manager, and startup founder.",
+      "wordCount": 144
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "vcETERy3dWXJXGfaq",
+    "title": "Jason Crawford on the non-linear model of innovation: SSC Online Meetup",
+    "slug": "jason-crawford-on-the-non-linear-model-of-innovation-ssc",
+    "url": null,
+    "baseScore": 9,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-09-30T10:10:26.006Z",
+    "contents": {
+      "markdown": "  \nJason Crawford on the *non*-linear model of innovation.\n\nPlease signup here by an hour before the event, and we will send you an invitation\n\n[https://forms.gle/XXk3hPNkcEJJbHFC9](https://forms.gle/XXk3hPNkcEJJbHFC9?fbclid=IwAR26zp7cKuT2PChZCDM0A6DOYM9j1xo4KD2oURYGNoohvZeOz51i-b_-hgs)\n\nIMPORTANT: As Daylight Savings Time approaches an end, note the times: 18:30 UTC, 20:30 IST, 11:30 PDT. \n\nInnovation is often described with a “linear” model from discovery to invention to distribution. There is an element of truth in this, but a naive interpretation of the model does not match the reality of science and invention. In this talk, I'll show the feedback mechanisms between discovery and invention and how they are intertwined, using examples including the transistor at Bell Labs and the career of Louis Pasteur.\n\nJason Crawford is the author of The Roots of Progress ([https://rootsofprogress.org/](https://l.facebook.com/l.php?u=https%3A%2F%2Frootsofprogress.org%2F%3Ffbclid%3DIwAR3d_9hkZqTRrOJ7MZoOV4tqcU6JvvRq8CA2UWSvpdQY9d5ZlRm7Qu8xekY&h=AT1ieq2ANbRdh7rMCwopdw-prNGjX2vXn7BhhruamxiVVsc_F4dEIgab0EE6izys3bbqD3H5I-q4yRMMFW8LH58gyhtVyD0NUc4RYhmRqhcrLYkWIycug1vqAi0wSeEl5W3eMHY)), where he writes about the history of technology and the philosophy of progress. Previously, he spent 18 years as a software engineer, engineering manager, and startup founder.",
+      "plaintextDescription": "\nJason Crawford on the non-linear model of innovation.\n\nPlease signup here by an hour before the event, and we will send you an invitation\n\nhttps://forms.gle/XXk3hPNkcEJJbHFC9\n\nIMPORTANT: As Daylight Savings Time approaches an end, note the times: 18:30 UTC, 20:30 IST, 11:30 PDT. \n\nInnovation is often described with a “linear” model from discovery to invention to distribution. There is an element of truth in this, but a naive interpretation of the model does not match the reality of science and invention. In this talk, I'll show the feedback mechanisms between discovery and invention and how they are intertwined, using examples including the transistor at Bell Labs and the career of Louis Pasteur.\n\nJason Crawford is the author of The Roots of Progress (https://rootsofprogress.org/), where he writes about the history of technology and the philosophy of progress. Previously, he spent 18 years as a software engineer, engineering manager, and startup founder.",
+      "wordCount": 146
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "groAB7XtQQ3SdjJNu",
+    "title": "David Friedman on Legal Systems Very Different from Ours: SlateStarCodex Online Meetup",
+    "slug": "david-friedman-on-legal-systems-very-different-from-ours-1",
+    "url": null,
+    "baseScore": 10,
+    "voteCount": 3,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-09-29T11:18:07.901Z",
+    "contents": {
+      "markdown": "David Friedman on Legal Systems Very Different from Ours: A brief survey of a range of legal system, past and present, from Imperial China and Periclean Athens to modern Amish and Romany.\n\nThe event will be Oct 11, 2020, at    17:30 UTC, 20:30 Israel Daylight Time, 10:30 Pacific Daylight Time.\n\n[Sign up here](https://forms.gle/K8Y9ni7LHWRY1ziS9), up to an hour before the event, and we'll send you an invitation to the online meetup  \n\nDavid Friedman is an academic economist with a doctorate in physics recently retired from spending the previous twenty-three years teaching in a law school. His first book, The Machinery of Freedom: Guide to a Radical Capitalism, was published in 1973 and includes a description of how a society with property rights and without government might function. There as elsewhere, he offers a consequentialist defense of libertarianism.\n\nHis most recent non-fiction book is Legal Systems Very Different from Ours, covering systems from Periclean Athens through modern Amish and Romany. He is also the author of three novels, one commercially published and two self-published, and, with his wife, a self-published medieval and renaissance cookbook and a larger self-published book related to their hobby of historical recreation.\n\nMuch of his published work, including journal articles, essays, drafts of forthcoming work and the full text of several books, can be read on his web page:  [daviddfriedman.com](https://www.daviddfriedman.com/)",
+      "plaintextDescription": "David Friedman on Legal Systems Very Different from Ours: A brief survey of a range of legal system, past and present, from Imperial China and Periclean Athens to modern Amish and Romany.\n\nThe event will be Oct 11, 2020, at    17:30 UTC, 20:30 Israel Daylight Time, 10:30 Pacific Daylight Time.\n\nSign up here, up to an hour before the event, and we'll send you an invitation to the online meetup  \n\nDavid Friedman is an academic economist with a doctorate in physics recently retired from spending the previous twenty-three years teaching in a law school. His first book, The Machinery of Freedom: Guide to a Radical Capitalism, was published in 1973 and includes a description of how a society with property rights and without government might function. There as elsewhere, he offers a consequentialist defense of libertarianism.\n\nHis most recent non-fiction book is Legal Systems Very Different from Ours, covering systems from Periclean Athens through modern Amish and Romany. He is also the author of three novels, one commercially published and two self-published, and, with his wife, a self-published medieval and renaissance cookbook and a larger self-published book related to their hobby of historical recreation.\n\nMuch of his published work, including journal articles, essays, drafts of forthcoming work and the full text of several books, can be read on his web page:  daviddfriedman.com",
+      "wordCount": 219
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "zJdtgGmsbqigKuZKj",
+    "title": "David Friedman on Legal Systems Very Different from Ours: SlateStarCodex Online Meetup",
+    "slug": "david-friedman-on-legal-systems-very-different-from-ours",
+    "url": null,
+    "baseScore": 8,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-09-29T11:16:19.283Z",
+    "contents": {
+      "markdown": "David Friedman on Legal Systems Very Different from Ours: A brief survey of a range of legal system, past and present, from Imperial China and Periclean Athens to modern Amish and Romany.\n\n[Sign up here](https://forms.gle/K8Y9ni7LHWRY1ziS9), up to an hour before the event, and we'll send you an invitation to the online meetup  \n\nDavid Friedman is an academic economist with a doctorate in physics recently retired from spending the previous twenty-three years teaching in a law school. His first book, The Machinery of Freedom: Guide to a Radical Capitalism, was published in 1973 and includes a description of how a society with property rights and without government might function. There as elsewhere, he offers a consequentialist defense of libertarianism.\n\nHis most recent non-fiction book is Legal Systems Very Different from Ours, covering systems from Periclean Athens through modern Amish and Romany. He is also the author of three novels, one commercially published and two self-published, and, with his wife, a self-published medieval and renaissance cookbook and a larger self-published book related to their hobby of historical recreation.\n\nMuch of his published work, including journal articles, essays, drafts of forthcoming work and the full text of several books, can be read on his web page:  [daviddfriedman.com](https://www.daviddfriedman.com)\n\nThe time is  17:30 UTC, 20:30 Israel Daylight Time, 10:30 Pacific Daylight Time.",
+      "plaintextDescription": "David Friedman on Legal Systems Very Different from Ours: A brief survey of a range of legal system, past and present, from Imperial China and Periclean Athens to modern Amish and Romany.\n\nSign up here, up to an hour before the event, and we'll send you an invitation to the online meetup  \n\nDavid Friedman is an academic economist with a doctorate in physics recently retired from spending the previous twenty-three years teaching in a law school. His first book, The Machinery of Freedom: Guide to a Radical Capitalism, was published in 1973 and includes a description of how a society with property rights and without government might function. There as elsewhere, he offers a consequentialist defense of libertarianism.\n\nHis most recent non-fiction book is Legal Systems Very Different from Ours, covering systems from Periclean Athens through modern Amish and Romany. He is also the author of three novels, one commercially published and two self-published, and, with his wife, a self-published medieval and renaissance cookbook and a larger self-published book related to their hobby of historical recreation.\n\nMuch of his published work, including journal articles, essays, drafts of forthcoming work and the full text of several books, can be read on his web page:  daviddfriedman.com\n\nThe time is  17:30 UTC, 20:30 Israel Daylight Time, 10:30 Pacific Daylight Time.",
+      "wordCount": 213
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "YBc4gNAELC3uMjPtQ",
+    "title": "Gems from the Wiki: Acausal Trade",
+    "slug": "gems-from-the-wiki-acausal-trade",
+    "url": "https://www.lesswrong.com/tag/acausal-trade",
+    "baseScore": 42,
+    "voteCount": 15,
+    "viewCount": null,
+    "commentCount": 8,
+    "createdAt": null,
+    "postedAt": "2020-09-13T00:23:32.421Z",
+    "contents": {
+      "markdown": "*During the* [*LessWrong 1.0 Wiki Import*](https://www.lesswrong.com/posts/ELN6FpRLoeLJPgx8z/the-wiki-is-dead-long-live-the-wiki-help-wanted) *we (the LessWrong team) discovered a number of great articles that most of the LessWrong team hadn't read before. Since we expect many others to also not have have read these, we are creating a series of the best posts from the Wiki to help give those hidden gems some more time to shine.*\n\n*Most of the work for this post was done by* [*Joshua Fox*](https://www.lesswrong.com/users/joshuafox) *who I've added as a coauthor to this post, wiki edits were also made by all of the following: Lukeprog, Gwern, Vladimir Nesov, Sauski, Deku-shrub, Caspar42, Joe Collman and Jja. Thank you all for your contributions!*\n\n* * *\n\nIn **acausal trade**, two agents each benefit by predicting what the other wants and doing it, even though they might have no way of communicating or affecting each other, nor even any direct evidence that the other exists.\n\nBackground: Superrationality and the one-shot Prisoner's Dilemma\n----------------------------------------------------------------\n\nThis concept emerged out of the much-debated question of how to achieve cooperation on a one-shot Prisoner's Dilemma, where, by design, the two players are not allowed to communicate. On the one hand, a player who is considering the causal consequences of a decision (\"Causal Decision Theory\") finds that defection always produces a better result. On the other hand, if the other player symmetrically reasons this way, the result is a Defect/Defect equilibrium, which is bad for both agents. If they could somehow converge on Cooperate, they would each individually do better. The question is what variation on decision theory would allow this beneficial equilibrium.\n\nDouglas Hofstadter (see references) coined the term \"superrationality\" to express this state of convergence. He illustrated it with a game in which twenty players, who do not know each other's identities, each get an offer. If exactly one player asks for the prize of a billion dollars, they get it, but if none or multiple players ask, no one gets it. Players cannot communicate, but each might reason that the others are reasoning similarly. The \"correct\" decision--the decision which maximizes expected utility for each player, *if* all players symmetrically make the same decision--is to randomize a one-in-20 chance of asking for the prize.\n\nGary Drescher (see references) developed the concept further, introducing an ethical system called \"acausal subjunctive morality.\" Drescher's approach relies on the agents being identical or at least similar, so that each agent can reasonably guess what the other will do based on facts about its own behavior, or even its own \"source code.\" If it cooperates, it can use this correlation to infer that the other will probably also cooperate.\n\nAcausal trade goes one step beyond this. The agents do not need to be identical, nor similar, nor have the same utility function. Moreover, they do not need to know what the other agents are like, nor even if they exist. In acausal trade, an agent may have to surmise the probability that other agents, with their utility function and proclivities, exist.\n\nDescription\n-----------\n\nWe have two agents, separated so that no interaction is possible. The separation can be simply because each is not aware of the location of the other; or else each may be prevented from communicating with or affecting the other.\n\nIn an asymmetrical example, one agent may be in the other's future.\n\nOther less prosaic thought experiments can be used to emphasize that interaction may be absolutely impossible. For example, agents that are outside each other's light cones, or in separate parts of an Everett multiverse. And abstracting away from those scenarios, we can talk of counterfactual \"impossible possible worlds\" as a model for probability distributions.\n\nIn truly *acausal* trade, the agents cannot count on reputation, retaliation, or outside enforcement to ensure cooperation. The agents cooperate because each knows that the other can somehow predict its behavior very well. (Compare Omega in [Newcomb's problem](https://www.lesswrong.com/tag/newcomb-s-problem).) Each knows that if it defects (respectively: cooperates), the other will (probabilistically) know this, and defect (respectively: cooperate).\n\nAcausal trade can also be described in terms of (pre)commitment: Both agents commit to cooperate, and each has reason to think that the other is also committing.\n\nPrediction mechanisms\n---------------------\n\nFor acausal trade to occur, each agent must infer there is some probability that an agent, of the sort that will acausally trade with it, exists.\n\nThe agent might be told, exogenously (as part of the scenario), that the other exists. But more interesting is the case in which the agent surmises the probability that the other exists.\n\nA superintelligence might conclude that other superintelligences would tend to exist because increased intelligence [is an convergent instrumental goal](https://www.lesswrong.com/tag/instrumental-convergence) for agents. Given the existence of a superintelligence, acausal trade is one of the tricks it would tend to use.\n\nTo take a more prosaic example, we humans realize that humans tend to be alike: Even without knowing about specific trading partners, we know that there exist other people with similar situations, goals, desires, challenges, resource constraints, and mental architectures.\n\nOnce an agent realizes that another agent might exist, there are different ways that might might predict the other agent's behavior, and specifically that the other agent can be an acausal trading partner.\n\n1.  They might know or surmise each other's mental architectures (source code).\n2.  In particular, they might know that they have identical or similar mental architecture, so that each one knows that its own mental processes approximately simulate the other's.\n3.  They might be able to simulate each other (perhaps probabalistically), or to predict the other's behavior analytically. (Even we humans simulate each other's thoughts to guess what the other would do.)\n4.  More broadly, it is enough to know (probabilistically) that the other is a powerful optimizer, that it has a certain utility function, and that it can derive utility from resources. Seen mathematically, this is just an optimization problem: What is the best possible algorithm for an agent's utility function? Cooperate/Cooperate is optimal under certain assumptions, for if one agent could achieve optimal utility by defecting, then, symmetrically, so could the other, resulting in Defect/Defect which generates inferior utility.\n\nDecision Theories\n-----------------\n\nAcausal trade is a special case of [Updateless decision theory](https://www.lesswrong.com/tag/updateless-decision-theory) (or a variant like Functional Decision Theory, see references). Unlike better-known variations of [Decision theory](https://www.lesswrong.com/tag/decision-theory), such as [Causal decision theory](https://www.lesswrong.com/tag/causal-decision-theory), acausal trade and UDT take into account the agent's own algorithm as cause and caused.\n\nIn Causal Decision Theory, the agent's algorithm (implementation) is treated as uncaused by the rest of the universe, so that though the agent's *decision* and subsequent action can make a difference, its internal make-up cannot (except through that decision). In contrast, in UDT, the agents' own algorithms are treated as causal nodes, influenced by other factors, such as the logical requirement of optimality in a utility-function maximizer. In UDT, as in acausal trade, the agent cannot escape the fact that its decision to defect or cooperate constitutes strong Bayesian evidence as to what the other agent will do, and so it is better off cooperating.\n\nLimitations and Objections\n--------------------------\n\nAcausal trade only works if the agents are smart enough to predict each other's behavior, and then smart enough to acausally trade. If one agent is stupid enough to defect, and the second is smart enough to predict the first, then neither will cooperate.\n\nAlso, as in regular trade, acausal trade only works if the two sides are close enough in power that the weaker side can do something worthwhile enough for the stronger.\n\nA common objection to this idea: Why shouldn't an agent \"cheat\" and choose to defect? Can't it \"at the last moment\" back out after the other agent has committed? However, this approach takes into account only the direct effect of the decision, while a sufficiently intelligent trading partner could predict the agent's choice, including that one, rendering the \"cheating\" approach suboptimal.\n\nAnother objection: Can an agent care about (have a utility function that takes into account) entities with which it can never interact, and about whose existence it is not certain? However, this is quite common even for humans today. We care about the suffering of other people in faraway lands about whom we know next to nothing. We are even disturbed by the suffering of long-dead historical people, and wish that, counterfactually, the suffering had not happened. We even care about entities that we are not sure exist. For example: We might be concerned by news report that a valuable archaeological artifact was destroyed in a distant country, yet at the same time read other news reports stating that the entire story is a fabrication and the artifact never existed. People even get emotionally attached to the fate of a fictional character.\n\nAn example of acausal trade with simple resource requirements\n-------------------------------------------------------------\n\nAt its most abstract, the agents are simply optimization algorithms. As a toy example, let T be a utility function for which time is most valuable as a resource; while for utility function S, space is most valuable, and assume that these are the only two resources.\n\nWe will now choose the best algorithms for optimizing T. To avoid anthropomorphizing, we simply ask which algorithm--which string of LISP, for example--would give the highest expected utility for a given utility function. Thus, the choice of source code is \"timeless\": We treat it as an optimization problem across all possible strings of LISP. We assume that computing power is unlimited. Mathematically, we are asking about argmax T.\n\nWe specify that there is a probability that either agent will be run in an environment where time is in abundance, and if not, some probability that it will be run in a space-rich universe.\n\nIf the algorithm for T is instantiated in a space-rich environment, it will only be able to gain a small amount of utility for itself, but S would be able to gain a lot of utility; and vice versa.\n\nThe question is: What algorithm for T provides the most optimization power, the highest expected value of utility function T?\n\nIf it turns out that the environment is space-rich, the agent for T may run the agent (the algorithm) for S, increasing the utility for S, and symmetrically the reverse. This will happen if each concludes, that the optimum occurs when the other agent has the \"trading\" feature. Given that this is the optimal case, the acausal trade will occur.\n\nAcausal trade with complex resource requirements\n------------------------------------------------\n\nIn the toy example above, resource requirements are very simple. In general, given that agents can have complex and arbitrary goals requiring a complex mix of resources, an agent might not be able to conclude that a specific trading partner has a meaningful chance of existing and trading.\n\nHowever, an agent can analyze the distribution of probabilities for the existence of other agents, and weight its actions accordingly. It will do acausal \"favors\" for one or more trading partners, weighting its effort according to its subjective probability that the trading partner exists. The expectation on utility given and received will come into a good enough balance to benefit the traders, in the limiting case of increasing super-intelligence.\n\nOrdinary trade\n--------------\n\nEven ordinary trade can be analyzed acausally, using a perspective similar to that of [Updateless decision theory](https://www.lesswrong.com/tag/updateless-decision-theory). We ask: Which algorithm should an agent have to get the best expected value, summing across all possible environments weighted by their probability? The possible environments include those in which threats and promises have been made.\n\nSee also\n--------\n\n*   [\"AI deterrence\"](http://aibeliefs.blogspot.com/2007/11/non-technical-introduction-to-ai.html?a=1)\n*   [\"The AI in a box boxes you\"](https://www.lesswrong.com/lw/1pz/the_ai_in_a_box_boxes_you)\n*   [A story](https://slatestarcodex.com/2017/03/21/repost-the-demiurges-older-brother/) that shows acausal trade in action.\n*   [Scott Alexander](http://slatestarcodex.com/2018/04/01/the-hour-i-first-believed/) explains Acausal Trade. (Most of that article is tongue-in-cheek, however.)\n*   \"[Hail Mary, Value Porosity, and Utility Diversification](http://www.nickbostrom.com/papers/porosity.pdf),\" Nick Bostrom, the first paper from academia to rely on the concept of acausal trade.\n*   [Towards an idealized decision theory](http://intelligence.org/files/TowardIdealizedDecisionTheory.pdf), by Nate Soares and Benja Fallenstein discusses acausal interaction scenarios that shed light on new directions in decision theory.\n*   [Program Equilibrium](https://ie.technion.ac.il/~moshet/progeqnote4.pdf), by Moshe Tennenholtz. In: Games and Economic Behavior.\n*   [Robust Cooperation in the Prisoner's Dilemma: Program Equilibrium via Provability Logic](https://arxiv.org/abs/1401.5577), by Mihaly Barasz, Paul Christiano, Benja Fallenstein, Marcello Herreshoff, Patrick LaVictoire and Eliezer Yudkowsky\n*   [Parametric Bounded Löb's Theorem and Robust Cooperation of Bounded Agents](https://arxiv.org/abs/1602.04184), by Andrew Critch\n*   [Robust Program Equilibrium](https://link.springer.com/article/10.1007/s11238-018-9679-3), by Caspar Oesterheld. In: Theory and Decision.\n*   [Multiverse-wide Cooperation via Correlated Decision Making](https://foundational-research.org/multiverse-wide-cooperation-via-correlated-decision-making/), by Caspar Oesterheld\n\nReferences\n----------\n\n*   [Hofstadter's Superrationality essays, published in *Metamagical Themas*](http://www.gwern.net/docs/1985-hofstadter) ([LW discussion](https://www.lesswrong.com/lw/bxi/hofstadters_superrationality/))\n*   Jaan Tallinn, [Why Now? A Quest in Metaphysics](http://fora.tv/2012/10/14/Jaan_Tallinn_Why_Now_A_Quest_in_Metaphysics).\n*   [Gary Drescher](https://wiki.lesswrong.com/wiki/Gary_Drescher), *Good and Real*, MIT Press, 1996.\n*   [Functional Decision Theory](https://arxiv.org/abs/1710.05060), an updated Updateless Decision Theory",
+      "plaintextDescription": "During the LessWrong 1.0 Wiki Import we (the LessWrong team) discovered a number of great articles that most of the LessWrong team hadn't read before. Since we expect many others to also not have have read these, we are creating a series of the best posts from the Wiki to help give those hidden gems some more time to shine.\n\nMost of the work for this post was done by Joshua Fox who I've added as a coauthor to this post, wiki edits were also made by all of the following: Lukeprog, Gwern, Vladimir Nesov, Sauski, Deku-shrub, Caspar42, Joe Collman and Jja. Thank you all for your contributions!\n\n----------------------------------------\n\nIn acausal trade, two agents each benefit by predicting what the other wants and doing it, even though they might have no way of communicating or affecting each other, nor even any direct evidence that the other exists.\n\n\nBackground: Superrationality and the one-shot Prisoner's Dilemma\nThis concept emerged out of the much-debated question of how to achieve cooperation on a one-shot Prisoner's Dilemma, where, by design, the two players are not allowed to communicate. On the one hand, a player who is considering the causal consequences of a decision (\"Causal Decision Theory\") finds that defection always produces a better result. On the other hand, if the other player symmetrically reasons this way, the result is a Defect/Defect equilibrium, which is bad for both agents. If they could somehow converge on Cooperate, they would each individually do better. The question is what variation on decision theory would allow this beneficial equilibrium.\n\nDouglas Hofstadter (see references) coined the term \"superrationality\" to express this state of convergence. He illustrated it with a game in which twenty players, who do not know each other's identities, each get an offer. If exactly one player asks for the prize of a billion dollars, they get it, but if none or multiple players ask, no one gets it. Players cannot communicate, but each might reason t",
+      "wordCount": 2063
+    },
+    "tags": [
+      {
+        "_id": "tgJoX7PGDDh2vJNqT",
+        "name": "Acausal Trade",
+        "slug": "acausal-trade"
+      },
+      {
+        "_id": "Ng8Gice9KNkncxqcj",
+        "name": "Rationality",
+        "slug": "rationality"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "HyHDufydQzmrzEpFo",
+    "title": "SlateStarCodex Online Meetup: Connor Leahy on GPT-N",
+    "slug": "slatestarcodex-online-meetup-connor-leahy-on-gpt-n-1",
+    "url": null,
+    "baseScore": 8,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-09-01T06:52:19.123Z",
+    "contents": {
+      "markdown": "  \n\n**Title of talk**: _We Got Our AGI Firealarm, Now What?_\n\n**Summary**: There has been much disagreement over how big of a deal GPT3 is in the larger context of progress towards strong AGI. While most pundits will claim it's not \"really\" \"intelligent\" or \"conscious\" or that it doesn't \"understand\" words, I want to make the case that GPT3 (or its near term successors) may be our final warning shot before we see real AGI emerge. And as a bonus, I will show you how to build your very own AGI in three easy steps! Why wait for Deepmind, you can build your very own paperclip maximizer!\n\nSeptember 13th at 10:30 PDT, 17:30 UTC, 20:30 IDT\n\nPlease sign up here by an hour before the event, and we will send you an invitation. [https://forms.gle/4eeL6DX6jjBGykMJ6](https://forms.gle/4eeL6DX6jjBGykMJ6)",
+      "plaintextDescription": "Title of talk: We Got Our AGI Firealarm, Now What?\n\nSummary: There has been much disagreement over how big of a deal GPT3 is in the larger context of progress towards strong AGI. While most pundits will claim it's not \"really\" \"intelligent\" or \"conscious\" or that it doesn't \"understand\" words, I want to make the case that GPT3 (or its near term successors) may be our final warning shot before we see real AGI emerge. And as a bonus, I will show you how to build your very own AGI in three easy steps! Why wait for Deepmind, you can build your very own paperclip maximizer!\n\nSeptember 13th at 10:30 PDT, 17:30 UTC, 20:30 IDT\n\nPlease sign up here by an hour before the event, and we will send you an invitation. https://forms.gle/4eeL6DX6jjBGykMJ6",
+      "wordCount": 131
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "ipT9SupH4s6xXYD29",
+    "title": "SlateStarCodex Online Meetup: Connor Leahy on GPT-N",
+    "slug": "slatestarcodex-online-meetup-connor-leahy-on-gpt-n",
+    "url": null,
+    "baseScore": 12,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-09-01T06:49:29.267Z",
+    "contents": {
+      "markdown": "**Title of talk**: _We Got Our AGI Firealarm, Now What?_\n\n**Summary**: There has been much disagreement over how big of a deal GPT3 is in the larger context of progress towards strong AGI. While most pundits will claim it's not \"really\" \"intelligent\" or \"conscious\" or that it doesn't \"understand\" words, I want to make the case that GPT3 (or its near term successors) may be our final warning shot before we see real AGI emerge. And as a bonus, I will show you how to build your very own AGI in three easy steps! Why wait for Deepmind, you can build your very own paperclip maximizer!\n\nSeptember 13th at 10:30 PDT, 17:30 UTC, 20:30 IDT\n\nPlease sign up here by an hour before the event, and we will send you an invitation. [https://forms.gle/4eeL6DX6jjBGykMJ6](https://forms.gle/4eeL6DX6jjBGykMJ6)",
+      "plaintextDescription": "Title of talk: We Got Our AGI Firealarm, Now What?\n\nSummary: There has been much disagreement over how big of a deal GPT3 is in the larger context of progress towards strong AGI. While most pundits will claim it's not \"really\" \"intelligent\" or \"conscious\" or that it doesn't \"understand\" words, I want to make the case that GPT3 (or its near term successors) may be our final warning shot before we see real AGI emerge. And as a bonus, I will show you how to build your very own AGI in three easy steps! Why wait for Deepmind, you can build your very own paperclip maximizer!\n\nSeptember 13th at 10:30 PDT, 17:30 UTC, 20:30 IDT\n\nPlease sign up here by an hour before the event, and we will send you an invitation. https://forms.gle/4eeL6DX6jjBGykMJ6",
+      "wordCount": 129
+    },
+    "tags": [
+      {
+        "_id": "DQHWBcKeiLnyh9za9",
+        "name": "Community Page",
+        "slug": "community-page"
+      },
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "HMgeBvQ3KiqXWpBRi",
+    "title": "SlateStarCodex Online Meetup: Dr David Manheim on Cooperation for AI",
+    "slug": "slatestarcodex-online-meetup-dr-david-manheim-on-cooperation-1",
+    "url": null,
+    "baseScore": 13,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-08-23T10:03:57.006Z",
+    "contents": {
+      "markdown": "On August 30, 17:30 GMT, 20:30 IDT, 10:30 PDT, Dr David Manheim will speak on \"Cooperation for AI: From formal models in AI safety to geopolitics\".\n\nHe will discuss multiagent dynamics, and also competition and race dynamics for AI takeoff safety.\n\nDavid is a researcher with the University of Haifa, who works with Future of Humanity Institute and other organizations on investigating large-scale risks to humanity.\n\n[Read his related paper here](https://arxiv.org/abs/1810.10862).\n\n[Sign up here](https://forms.gle/GQ4hrjFakzrsGZc49) and we'll send you a link to the online meetup",
+      "plaintextDescription": "On August 30, 17:30 GMT, 20:30 IDT, 10:30 PDT, Dr David Manheim will speak on \"Cooperation for AI: From formal models in AI safety to geopolitics\".\n\nHe will discuss multiagent dynamics, and also competition and race dynamics for AI takeoff safety.\n\nDavid is a researcher with the University of Haifa, who works with Future of Humanity Institute and other organizations on investigating large-scale risks to humanity.\n\nRead his related paper here.\n\nSign up here and we'll send you a link to the online meetup",
+      "wordCount": 80
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "upGmdz4iMAjSd4TLC",
+    "title": "SlateStarCodex Online Meetup: Dr David Manheim on Cooperation for AI",
+    "slug": "slatestarcodex-online-meetup-dr-david-manheim-on-cooperation",
+    "url": "https://forms.gle/GQ4hrjFakzrsGZc49",
+    "baseScore": 13,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-08-23T10:00:47.127Z",
+    "contents": {
+      "markdown": "On August 30, 17:30 GMT, 20:30 IDT, 10:30 PDT, Dr David Manheim will speak on \"Cooperation for AI: From formal models in AI safety to geopolitics\".\n\nHe will discuss multiagent dynamics, and also competition and race dynamics for AI takeoff safety.\n\nDavid is a researcher with the University of Haifa, who works with Future of Humanity Institute and other organizations on investigating large-scale risks to humanity.\n\n[Read his related paper here](https://arxiv.org/abs/1810.10862).\n\n[Sign up here](https://forms.gle/GQ4hrjFakzrsGZc49) and we'll send you a link to the online meetup",
+      "plaintextDescription": "On August 30, 17:30 GMT, 20:30 IDT, 10:30 PDT, Dr David Manheim will speak on \"Cooperation for AI: From formal models in AI safety to geopolitics\".\n\nHe will discuss multiagent dynamics, and also competition and race dynamics for AI takeoff safety.\n\nDavid is a researcher with the University of Haifa, who works with Future of Humanity Institute and other organizations on investigating large-scale risks to humanity.\n\nRead his related paper here.\n\nSign up here and we'll send you a link to the online meetup",
+      "wordCount": 80
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "sYqGrLRuXXWuuRgAY",
+    "title": "Online Meetup: Balaji Srinivasan on \"Nation of Emigrants\"",
+    "slug": "online-meetup-balaji-srinivasan-on-nation-of-emigrants-1",
+    "url": null,
+    "baseScore": 14,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-07-22T14:35:53.969Z",
+    "contents": {
+      "markdown": "In our ongoing SlateStarCodex online series, Balaji Srinivasan will speak on **\"A Nation of Emigrants: How Technology Will Enable Collective Bargaining with Governments\"**. See abstract below.\n\nAfter the talk and Q&A, we will also allow plenty of time for online mingling and discussion.\n\n[Click here to register,](https://forms.gle/PHD9nhYfrfbhN2wc9) up to an hour before the talk, and we'll send you an invitation to the Google Meet.\n\nThe talk is August 2 at at 10:30 PDT, 17:30 GMT, 20:30 IDT. [This link shows your local time](https://www.thetimezoneconverter.com/?t=10%3A30&tz=San%20Francisco).\n\n**Abstract**:\n\nTechnology is the driving force of history. It lies upstream of culture, and thus upstream of politics. And it determines which fringe ideas have become newly feasible, and what elements of official consensus have become suddenly obsolete.\n\nOur thesis has five stages. First, we describe how recent technological developments have dramatically shifted the balance of power away from states and towards individuals. Next, we diagnose the problems with existing states - particularly related to immigration and regulation - that would drive individuals to seek alternatives. Third and fourth, we give a concrete set of recommendations enabled by modern technology that companies and individuals alike can act upon to gain financial independence.\n\nFinally, we describe how the combination of technological driving forces, regulatory repulsion, and newly independent individuals leads to a novel phenomenon that we term crowdchoice: internet-coordinated mass migrations that enable collective bargaining with governments.",
+      "plaintextDescription": "In our ongoing SlateStarCodex online series, Balaji Srinivasan will speak on \"A Nation of Emigrants: How Technology Will Enable Collective Bargaining with Governments\". See abstract below.\n\nAfter the talk and Q&A, we will also allow plenty of time for online mingling and discussion.\n\nClick here to register, up to an hour before the talk, and we'll send you an invitation to the Google Meet.\n\nThe talk is August 2 at at 10:30 PDT, 17:30 GMT, 20:30 IDT. This link shows your local time.\n\nAbstract:\n\nTechnology is the driving force of history. It lies upstream of culture, and thus upstream of politics. And it determines which fringe ideas have become newly feasible, and what elements of official consensus have become suddenly obsolete.\n\nOur thesis has five stages. First, we describe how recent technological developments have dramatically shifted the balance of power away from states and towards individuals. Next, we diagnose the problems with existing states - particularly related to immigration and regulation - that would drive individuals to seek alternatives. Third and fourth, we give a concrete set of recommendations enabled by modern technology that companies and individuals alike can act upon to gain financial independence.\n\nFinally, we describe how the combination of technological driving forces, regulatory repulsion, and newly independent individuals leads to a novel phenomenon that we term crowdchoice: internet-coordinated mass migrations that enable collective bargaining with governments.",
+      "wordCount": 222
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "FrraEBcYe6kwsXkq5",
+    "title": "Online Meetup: Balaji Srinivasan on \"Nation of Emigrants\"",
+    "slug": "online-meetup-balaji-srinivasan-on-nation-of-emigrants",
+    "url": null,
+    "baseScore": 15,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 2,
+    "createdAt": null,
+    "postedAt": "2020-07-22T14:34:51.737Z",
+    "contents": {
+      "markdown": "Balaji Srinivasan will speak on **\"A Nation of Emigrants: How Technology Will Enable Collective Bargaining with Governments\"**. See abstract below.\n\nAfter the talk and Q&A, we will also allow plenty of time for online mingling and discussion.\n\n[Click here to register,](https://forms.gle/PHD9nhYfrfbhN2wc9) up to an hour before the talk, and we'll send you an invitation to the Google Meet.\n\n**Abstract**:\n\nTechnology is the driving force of history. It lies upstream of culture, and thus upstream of politics. And it determines which fringe ideas have become newly feasible, and what elements of official consensus have become suddenly obsolete.\n\nOur thesis has five stages. First, we describe how recent technological developments have dramatically shifted the balance of power away from states and towards individuals. Next, we diagnose the problems with existing states - particularly related to immigration and regulation - that would drive individuals to seek alternatives. Third and fourth, we give a concrete set of recommendations enabled by modern technology that companies and individuals alike can act upon to gain financial independence.\n\nFinally, we describe how the combination of technological driving forces, regulatory repulsion, and newly independent individuals leads to a novel phenomenon that we term crowdchoice: internet-coordinated mass migrations that enable collective bargaining with governments.",
+      "plaintextDescription": "Balaji Srinivasan will speak on \"A Nation of Emigrants: How Technology Will Enable Collective Bargaining with Governments\". See abstract below.\n\nAfter the talk and Q&A, we will also allow plenty of time for online mingling and discussion.\n\nClick here to register, up to an hour before the talk, and we'll send you an invitation to the Google Meet.\n\nAbstract:\n\nTechnology is the driving force of history. It lies upstream of culture, and thus upstream of politics. And it determines which fringe ideas have become newly feasible, and what elements of official consensus have become suddenly obsolete.\n\nOur thesis has five stages. First, we describe how recent technological developments have dramatically shifted the balance of power away from states and towards individuals. Next, we diagnose the problems with existing states - particularly related to immigration and regulation - that would drive individuals to seek alternatives. Third and fourth, we give a concrete set of recommendations enabled by modern technology that companies and individuals alike can act upon to gain financial independence.\n\nFinally, we describe how the combination of technological driving forces, regulatory repulsion, and newly independent individuals leads to a novel phenomenon that we term crowdchoice: internet-coordinated mass migrations that enable collective bargaining with governments.",
+      "wordCount": 198
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "QuDNRTsLW5GnSuK4D",
+    "title": "July 5: Anders Sandberg on Information Hazards (SSC Online Meetup)\n",
+    "slug": "july-5-anders-sandberg-on-information-hazards-ssc-online",
+    "url": null,
+    "baseScore": 9,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2020-07-05T08:46:46.576Z",
+    "contents": {
+      "markdown": "Dr Anders Sandberg, Senior Research Fellow at the Future of Humanity Institute, will speak on \"Information Hazards: How do we think about (and handle) risky information.\"\n\nWe will also allow plenty of time for online mingling and discussion.\n\n[Click here to register](https://forms.gle/ajX7n1koegFXUjLt5), up to an hour before the talk, and we'll send you an invitation:\n\nThe talk is July 5 at 10:30 PDT, 17:30 GMT. [This link shows your local time](https://www.thetimezoneconverter.com/?t=10%3A30&tz=San%20Francisco&) .\n\n[Facebook event here.](https://www.facebook.com/events/3767944353222219)\n\n[](https://www.facebook.com/events/3767944353222219Some)Advance reading:  \n\\- [The classic article by Nick Bostrom](https://www.nickbostrom.com/information-hazards.pdf)  \n\\- [Anders Sandberg on biosecurity](https://www.liebertpub.com/doi/full/10.1089/hs.2019.0115)",
+      "plaintextDescription": "Dr Anders Sandberg, Senior Research Fellow at the Future of Humanity Institute, will speak on \"Information Hazards: How do we think about (and handle) risky information.\"\n\nWe will also allow plenty of time for online mingling and discussion.\n\nClick here to register, up to an hour before the talk, and we'll send you an invitation:\n\nThe talk is July 5 at 10:30 PDT, 17:30 GMT. This link shows your local time .\n\nFacebook event here.\n\nAdvance reading:\n- The classic article by Nick Bostrom\n- Anders Sandberg on biosecurity",
+      "wordCount": 86
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "yEGZcJtPS4L4qsB4f",
+    "title": "Testing Hanson's hypothesis about the uselessness of health care.",
+    "slug": "testing-hanson-s-hypothesis-about-the-uselessness-of-health",
+    "url": null,
+    "baseScore": 28,
+    "voteCount": 13,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-06-13T18:34:04.436Z",
+    "contents": {
+      "markdown": "Robin Hanson has hypothesized that much health care is useless, and that if we radically cut health care (just the part that looks most useless, or even at random), there would be no effect on health outcomes.\n\nPeople have been staying away from clinics and hospitals in droves. So, are general outcomes generally worse, excluding Covid-19 itself?\n\nLike all such natural experiments, there are confounders, like reduction in other infections diseases improving outcomes; and it is hard to isolate the effects of Covid-19. But overall, this seems like an excellent opportunity to test his hypothesis.",
+      "plaintextDescription": "Robin Hanson has hypothesized that much health care is useless, and that if we radically cut health care (just the part that looks most useless, or even at random), there would be no effect on health outcomes.\n\nPeople have been staying away from clinics and hospitals in droves. So, are general outcomes generally worse, excluding Covid-19 itself?\n\nLike all such natural experiments, there are confounders, like reduction in other infections diseases improving outcomes; and it is hard to isolate the effects of Covid-19. But overall, this seems like an excellent opportunity to test his hypothesis.",
+      "wordCount": 93
+    },
+    "tags": [
+      {
+        "_id": "3uE2pXvbcnS9nnZRE",
+        "name": "World Modeling",
+        "slug": "world-modeling"
+      },
+      {
+        "_id": "xexCWMyds6QLWognu",
+        "name": "World Optimization",
+        "slug": "world-optimization"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "hyp5jKKZC9BrF57iW",
+    "title": "Introduction to Existential Risks from Artificial Intelligence, for an EA audience",
+    "slug": "introduction-to-existential-risks-from-artificial-1",
+    "url": null,
+    "baseScore": 12,
+    "voteCount": 3,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2020-06-02T08:33:06.663Z",
+    "contents": {
+      "markdown": "(This is an event post for LW-Israel. The main post is [here](https://www.lesswrong.com/posts/Kfiqd3bAgaiN8QF2i/introduction-to-existential-risks-from-artificial), posted separately because event posts are geographical.)\n\nAmong the causes that Effective Altruists support, existential risk stands out as different from ordinary charitable concerns, and existential risk from Artificial Intelligence even more so.\n\nIn this talk, which assumes no prior knowledge in artificial intelligence, Vanessa Kosoy will explain the problem in question, and how researchers in the field are trying to solve it. Vanessa is a Research Associate with the Machine Intelligence Research Institute (MIRI) studying the mathematical formalization of general intelligence and value alignment.\n\nThe talk is brought to you by Effective Altruism Israel and LessWrong Israel.\n\nWe start on Tuesday June 23, at 19:00 Israel Daylight Time, 16:00 GMT.  \nSee the time in your timezone [here](https://www.thetimezoneconverter.com/?t=19%3A00&tz=Jerusalem).\n\nPlease sign up [here](https://huji.zoom.us/meeting/register/tJMkf-qrrT8sEtfvY2MShfu8kYNTg8TRgQWB) and we'll send you the URL for the Zoom meeting.",
+      "plaintextDescription": "(This is an event post for LW-Israel. The main post is here, posted separately because event posts are geographical.)\n\nAmong the causes that Effective Altruists support, existential risk stands out as different from ordinary charitable concerns, and existential risk from Artificial Intelligence even more so.\n\nIn this talk, which assumes no prior knowledge in artificial intelligence, Vanessa Kosoy will explain the problem in question, and how researchers in the field are trying to solve it. Vanessa is a Research Associate with the Machine Intelligence Research Institute (MIRI) studying the mathematical formalization of general intelligence and value alignment.\n\nThe talk is brought to you by Effective Altruism Israel and LessWrong Israel.\n\nWe start on Tuesday June 23, at 19:00 Israel Daylight Time, 16:00 GMT.\nSee the time in your timezone here.\n\nPlease sign up here and we'll send you the URL for the Zoom meeting.",
+      "wordCount": 140
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "Kfiqd3bAgaiN8QF2i",
+    "title": "Introduction to Existential Risks from Artificial Intelligence, for an EA audience",
+    "slug": "introduction-to-existential-risks-from-artificial",
+    "url": null,
+    "baseScore": 10,
+    "voteCount": 3,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-06-02T08:30:51.940Z",
+    "contents": {
+      "markdown": "Among the causes that Effective Altruists support, existential risk stands out as different from ordinary charitable concerns, and existential risk from Artificial Intelligence even more so.\n\nIn this talk, which assumes no prior knowledge in artificial intelligence, Vanessa Kosoy will explain the problem in question, and how researchers in the field are trying to solve it. Vanessa is a Research Associate with the Machine Intelligence Research Institute (MIRI) studying the mathematical formalization of general intelligence and value alignment.\n\nThe talk is brought to you by Effective Altruism Israel and LessWrong Israel.\n\nWe start on Tuesday June 23, at 19:00 Israel Daylight Time, 16:00 GMT.  \nSee the time in your timezone [here](https://www.thetimezoneconverter.com/?t=19%3A00&tz=Jerusalem).\n\nPlease sign up [here](https://huji.zoom.us/meeting/register/tJMkf-qrrT8sEtfvY2MShfu8kYNTg8TRgQWB) and we'll send you the URL for the Zoom meeting.\n\n  \nKeep up-to-date at the [Facebook event](https://www.facebook.com/events/701988750616937).",
+      "plaintextDescription": "Among the causes that Effective Altruists support, existential risk stands out as different from ordinary charitable concerns, and existential risk from Artificial Intelligence even more so.\n\nIn this talk, which assumes no prior knowledge in artificial intelligence, Vanessa Kosoy will explain the problem in question, and how researchers in the field are trying to solve it. Vanessa is a Research Associate with the Machine Intelligence Research Institute (MIRI) studying the mathematical formalization of general intelligence and value alignment.\n\nThe talk is brought to you by Effective Altruism Israel and LessWrong Israel.\n\nWe start on Tuesday June 23, at 19:00 Israel Daylight Time, 16:00 GMT.\nSee the time in your timezone here.\n\nPlease sign up here and we'll send you the URL for the Zoom meeting.\n\n\nKeep up-to-date at the Facebook event.",
+      "wordCount": 129
+    },
+    "tags": [
+      {
+        "_id": "sYm3HiWcfZvrGu3ui",
+        "name": "AI",
+        "slug": "ai"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "Azryh9QwZHo93fYTJ",
+    "title": "Online Meetup: Forecasting workshop",
+    "slug": "online-meetup-forecasting-workshop-1",
+    "url": null,
+    "baseScore": 9,
+    "voteCount": 3,
+    "viewCount": null,
+    "commentCount": 2,
+    "createdAt": null,
+    "postedAt": "2020-04-23T08:07:28.515Z",
+    "contents": {
+      "markdown": "LessWrong Israel presents Edo Arad with a Forecasting workshop on Tuesday May 5, 2020  \n\nForecasting is the art of assigning probabilities to future events. It turns out that there are many types of future predictions which we can make some sort of educated predictions on, and there are techniques for improving our methodology for doing so.\n\nWe will talk about the basics of forecasting and have some hands-on experience. So come prepared with a computer and be ready for a challenging and fast paced experience!\n\nPlease sign up here, and we will send you the URL: [https://forms.gle/eJXGdAJfqhBiaZoR9](https://forms.gle/eJXGdAJfqhBiaZoR9)\n\n[View in Your Timezone](https://timee.ioView/20200505T1600?tl=Online%20worldwide%20meetup%20of%20May%205%3A%20Forecasting%20workshop)\n\nSchedule:  \n\\- 18.45 IDT (15:45 UTC) Check that you can hear and see  \n\\- 19:00 IDT (16:00 UTC) Gathering and mingling  \n\\- 19:15 IDT (16:30 UTC) Start the main event **See Less**",
+      "plaintextDescription": "LessWrong Israel presents Edo Arad with a Forecasting workshop on Tuesday May 5, 2020\n\n\nForecasting is the art of assigning probabilities to future events. It turns out that there are many types of future predictions which we can make some sort of educated predictions on, and there are techniques for improving our methodology for doing so.\n\nWe will talk about the basics of forecasting and have some hands-on experience. So come prepared with a computer and be ready for a challenging and fast paced experience!\n\nPlease sign up here, and we will send you the URL: https://forms.gle/eJXGdAJfqhBiaZoR9\n\nView in Your Timezone\n\nSchedule:\n- 18.45 IDT (15:45 UTC) Check that you can hear and see\n- 19:00 IDT (16:00 UTC) Gathering and mingling\n- 19:15 IDT (16:30 UTC) Start the main event See Less",
+      "wordCount": 133
+    },
+    "tags": [
+      {
+        "_id": "izp6eeJJEg9v5zcur",
+        "name": "Community",
+        "slug": "community"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "HF6wyWsktfXcWcehf",
+    "title": "Online Meetup: Forecasting Workshop",
+    "slug": "online-meetup-forecasting-workshop",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 2,
+    "createdAt": null,
+    "postedAt": "2020-04-23T08:05:42.039Z",
+    "contents": {
+      "markdown": "LessWrong Israel presents Edo Arad with a Forecasting workshop.\n\nForecasting is the art of assigning probabilities to future events. It turns out that there are many types of future predictions which we can make some sort of educated predictions on, and there are techniques for improving our methodology for doing so.\n\nWe will talk about the basics of forecasting and have some hands-on experience. So come prepared with a computer and be ready for a challenging and fast paced experience!\n\nPlease sign up here, and we will send you the URL: [https://forms.gle/eJXGdAJfqhBiaZoR9](https://forms.gle/eJXGdAJfqhBiaZoR9)\n\n[View in Your Timezone](https://timee.ioview/20200505T1600?tl=Online%20worldwide%20meetup%20of%20May%205%3A%20Forecasting%20workshop).\n\nSchedule:  \n\\- 18.45 IDT (15:45 UTC) Check that you can hear and see  \n\\- 19:00 IDT (16:00 UTC) Gathering and mingling  \n\\- 19:15 IDT (16:30 UTC) Start the main event **See Less**",
+      "plaintextDescription": "LessWrong Israel presents Edo Arad with a Forecasting workshop.\n\nForecasting is the art of assigning probabilities to future events. It turns out that there are many types of future predictions which we can make some sort of educated predictions on, and there are techniques for improving our methodology for doing so.\n\nWe will talk about the basics of forecasting and have some hands-on experience. So come prepared with a computer and be ready for a challenging and fast paced experience!\n\nPlease sign up here, and we will send you the URL: https://forms.gle/eJXGdAJfqhBiaZoR9\n\nView in Your Timezone.\n\nSchedule:\n- 18.45 IDT (15:45 UTC) Check that you can hear and see\n- 19:00 IDT (16:00 UTC) Gathering and mingling\n- 19:15 IDT (16:30 UTC) Start the main event See Less",
+      "wordCount": 126
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "ZEoyoccFoBQQRzbz2",
+    "title": "DeepMind team on specification gaming",
+    "slug": "deepmind-team-on-specification-gaming",
+    "url": "https://deepmind.com/blog/article/Specification-gaming-the-flip-side-of-AI-ingenuity",
+    "baseScore": 30,
+    "voteCount": 10,
+    "viewCount": null,
+    "commentCount": 2,
+    "createdAt": null,
+    "postedAt": "2020-04-23T08:01:48.749Z",
+    "contents": {
+      "markdown": "[Specification gaming: the flip side of AI ingenuity](https://deepmind.com/blog/article/Specification-gaming-the-flip-side-of-AI-ingenuity)",
+      "plaintextDescription": "Specification gaming: the flip side of AI ingenuity",
+      "wordCount": 8
+    },
+    "tags": [
+      {
+        "_id": "sYm3HiWcfZvrGu3ui",
+        "name": "AI",
+        "slug": "ai"
+      }
+    ],
+    "af": true,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "DeGkPvcie8aLtJxbJ",
+    "title": "Option Value in Effective Altruism: Worldwide Online Meetup",
+    "slug": "option-value-in-effective-altruism-worldwide-online-meetup",
+    "url": null,
+    "baseScore": 8,
+    "voteCount": 2,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-03-31T17:25:53.090Z",
+    "contents": {
+      "markdown": "Please [sign up here and we'll send you the Zoom URL](https://forms.gle/tHHTaJu1vUYpJeDb7)  \n  \nLessWrong Israel presents Lev Maresca on the concept of Option Value in Effective Altruism.  \n  \nSee [his article](https://forum.effectivealtruism.org/posts/L2ZfHofLuBA9Mx3va/option-value-an-introductory-guide) on the topic at the Effective Altruism forum  \n  \nEvent starts 19:00 Israel time, 16:00 UTC.",
+      "plaintextDescription": "Please sign up here and we'll send you the Zoom URL\n\nLessWrong Israel presents Lev Maresca on the concept of Option Value in Effective Altruism.\n\nSee his article on the topic at the Effective Altruism forum\n\nEvent starts 19:00 Israel time, 16:00 UTC.\n",
+      "wordCount": 52
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "krn3Et4RYHwpqT9Ym",
+    "title": "Online Fun LW/SSC Meetup, March 24",
+    "slug": "online-fun-lw-ssc-meetup-march-24",
+    "url": null,
+    "baseScore": 11,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 6,
+    "createdAt": null,
+    "postedAt": "2020-03-20T10:26:08.267Z",
+    "contents": {
+      "markdown": "In this online video-chat, we'll start with personal introductions for some sociability, and then do a Rump Session: That's where anyone can step up and give a four minute talk; then, if you want to keep talking, the audience votes on whether to permit another three minutes.\n\nTalks can be spontaneous rather than prepared, and on any subject that turns you on: Science topics, poetry readings, history tidbits, or anything else (except for COVID-19--that's strictly out!).\n\nAt LessWrong Israel, we've found this to be a lot of fun--no risk of being bored or boring, as talks are so short.\n\nIf you are going a bit stircrazy and want to meet people worldwide who have the same set of LW/SSC interests, this is for you.\n\nSponsored by LessWrong Israel and inviting the worldwide LW/SSC community.\n\nThe meetup is March 24, 2020, at 19:00 IST, which is 17:00 UTC.\n\nPlease sign up [at this form](https://forms.gle/GyNAHafuoPfE1A5HA) by 18:00 IST so we can send you an invitation.\n\n  \n\n\\-\\-\\-\n\n(P.S. In coordination with the LW admins, I am posting this duplicate of the original [event post](https://www.lesswrong.com/events/524eREsi56JLuJMBB/online-fun-lw-ssc-meetup), as it is difficult to make non-geographical event posts.)",
+      "plaintextDescription": "In this online video-chat, we'll start with personal introductions for some sociability, and then do a Rump Session: That's where anyone can step up and give a four minute talk; then, if you want to keep talking, the audience votes on whether to permit another three minutes.\n\nTalks can be spontaneous rather than prepared, and on any subject that turns you on: Science topics, poetry readings, history tidbits, or anything else (except for COVID-19--that's strictly out!).\n\nAt LessWrong Israel, we've found this to be a lot of fun--no risk of being bored or boring, as talks are so short.\n\nIf you are going a bit stircrazy and want to meet people worldwide who have the same set of LW/SSC interests, this is for you.\n\nSponsored by LessWrong Israel and inviting the worldwide LW/SSC community.\n\nThe meetup is March 24, 2020, at 19:00 IST, which is 17:00 UTC.\n\nPlease sign up at this form by 18:00 IST so we can send you an invitation.\n\n\n---\n\n(P.S. In coordination with the LW admins, I am posting this duplicate of the original event post, as it is difficult to make non-geographical event posts.)",
+      "wordCount": 184
+    },
+    "tags": [
+      {
+        "_id": "DQHWBcKeiLnyh9za9",
+        "name": "Community Page",
+        "slug": "community-page"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "524eREsi56JLuJMBB",
+    "title": "Online Fun LW/SSC Meetup",
+    "slug": "online-fun-lw-ssc-meetup",
+    "url": null,
+    "baseScore": 18,
+    "voteCount": 4,
+    "viewCount": null,
+    "commentCount": 8,
+    "createdAt": null,
+    "postedAt": "2020-03-19T18:34:05.680Z",
+    "contents": {
+      "markdown": "In this online video-chat, we'll start with personal introductions for some sociability, and then do a Rump Session: That's where anyone can step up and give a four minute talk; then, if you want to keep talking, the audience votes on whether to permit another three minutes.\n\nTalks can be spontaneous rather than prepared, and on any subject that turns you on: Science topics, poetry readings, history tidbits, or anything else (except for COVID-19--that's strictly out!).\n\nAt LessWrong Israel, we've found this to be a lot of fun--no risk of being bored or boring, as talks are so short.\n\nIf you are going a bit stircrazy and want to meet people worldwide who have the same set of LW/SSC interests, this is for you.\n\nSponsored by LessWrong Israel and inviting the worldwide LW/SSC community.\n\nThe meetup is at 19:00 IST which is 17:00 UTC.\n\nPlease sign up [at this form](https://forms.gle/GyNAHafuoPfE1A5HA) by 18:00 IST so we can send you an invitation.",
+      "plaintextDescription": "In this online video-chat, we'll start with personal introductions for some sociability, and then do a Rump Session: That's where anyone can step up and give a four minute talk; then, if you want to keep talking, the audience votes on whether to permit another three minutes.\n\nTalks can be spontaneous rather than prepared, and on any subject that turns you on: Science topics, poetry readings, history tidbits, or anything else (except for COVID-19--that's strictly out!).\n\nAt LessWrong Israel, we've found this to be a lot of fun--no risk of being bored or boring, as talks are so short.\n\nIf you are going a bit stircrazy and want to meet people worldwide who have the same set of LW/SSC interests, this is for you.\n\nSponsored by LessWrong Israel and inviting the worldwide LW/SSC community.\n\nThe meetup is at 19:00 IST which is 17:00 UTC.\n\nPlease sign up at this form by 18:00 IST so we can send you an invitation.",
+      "wordCount": 154
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "x72ta8C3dKu2QRfPv",
+    "title": "Request for Comments on Online LessWrong/SSC Meetup--Rump Session",
+    "slug": "request-for-comments-on-online-lesswrong-ssc-meetup-rump",
+    "url": null,
+    "baseScore": 29,
+    "voteCount": 9,
+    "viewCount": null,
+    "commentCount": 6,
+    "createdAt": null,
+    "postedAt": "2020-03-18T16:51:57.249Z",
+    "contents": {
+      "markdown": "**EDIT: We're doing it!**\n\n**[See here for meetup announcement](https://www.lesswrong.com/posts/krn3Et4RYHwpqT9Ym/online-fun-lw-ssc-meetup-march-24).**\n\n  \n\n\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\\-\n\nAnyone interested in an online LessWrong/SlateStarCodex meetup?\n\nWe'd start with personal introductions for some sociability, and then do a Rump Session, where anyone can step up and give a four minute talk; then, if you want to keep talking, the audience votes on whether to go another three minutes. Talks can be spontaneous rather than prepared, and on any subject that you'd like: Science topics, poetry readings, or anything else.\n\nAt LessWrong Israel, we've found this to be a lot of fun--no risk of being bored or boring, as talks are so short.\n\nAs it would be online, people from anywhere could join as timezones allow.\n\nIf you think you'd like such a thing, please upvote and/or comment.",
+      "plaintextDescription": "EDIT: We're doing it!\n\nSee here for meetup announcement.\n\n\n--------------\n\nAnyone interested in an online LessWrong/SlateStarCodex meetup?\n\nWe'd start with personal introductions for some sociability, and then do a Rump Session, where anyone can step up and give a four minute talk; then, if you want to keep talking, the audience votes on whether to go another three minutes. Talks can be spontaneous rather than prepared, and on any subject that you'd like: Science topics, poetry readings, or anything else.\n\nAt LessWrong Israel, we've found this to be a lot of fun--no risk of being bored or boring, as talks are so short.\n\nAs it would be online, people from anywhere could join as timezones allow.\n\nIf you think you'd like such a thing, please upvote and/or comment.",
+      "wordCount": 123
+    },
+    "tags": [
+      {
+        "_id": "DQHWBcKeiLnyh9za9",
+        "name": "Community Page",
+        "slug": "community-page"
+      }
+    ],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "Ly2M99wXMHTTPiaZC",
+    "title": "Lessons from the Center for Applied Rationality",
+    "slug": "lessons-from-the-center-for-applied-rationality",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-02-29T20:04:56.162Z",
+    "contents": {
+      "markdown": "(EDIT: I'll update closer to the time on whether this meeting is on.)\n\n[LessWrong Israel](https://www.facebook.com/groups/480249315379682/) presents Edo Arad with lessons from the Center for Applied Rationality.\n\nRecently CFAR published their guidebook ([https://bit.ly/2vs2Nvw]((https://bit.ly/2vs2Nvw) ), which has a variety of techniques to help people make decisions and act more wisely on the basis of experience in understanding how human cognition works in an everyday settings. In this meetup we will speak on some of the techniques, and mostly focus on some personal rationality exercises.\n\nMeeting at Google, 12th Floor, Yigal Alon 98, Tel Aviv Israel.  \n\nGathering at 19:00, and starting the main event at 19:30.",
+      "plaintextDescription": "(EDIT: I'll update closer to the time on whether this meeting is on.)\n\nLessWrong Israel presents Edo Arad with lessons from the Center for Applied Rationality.\n\nRecently CFAR published their guidebook (https://bit.ly/2vs2Nvw ), which has a variety of techniques to help people make decisions and act more wisely on the basis of experience in understanding how human cognition works in an everyday settings. In this meetup we will speak on some of the techniques, and mostly focus on some personal rationality exercises.\n\nMeeting at Google, 12th Floor, Yigal Alon 98, Tel Aviv Israel.\n\n\nGathering at 19:00, and starting the main event at 19:30.",
+      "wordCount": 101
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "zYtpr9BntZqE2mj3F",
+    "title": "What I Learned Last Year",
+    "slug": "what-i-learned-last-year",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 0,
+    "createdAt": null,
+    "postedAt": "2020-01-29T16:22:02.243Z",
+    "contents": {
+      "markdown": "Many of us enjoy learning new topics. Please join us at [LessWrong Israel](https://www.facebook.com/groups/480249315379682/) and we'll tell each other about it.\n\nGive a 4-minute talk on whatever you have been studying:Tagalog, Topology, or Talmud.\n\nIt's short, and so no one gets bored and it's always interesting.\n\nIf you want more time, ask, and the audience will vote on 3 more minutes.\n\nThe one difference between this and an ordinary Rump Session is that you should talk about something that you learned recently. You don't have to be an expert, but it should be some new knowledge from the last year or so.\n\nMeeting at Google on the 12th floor, 98 Yigal Alon St., Tel Aviv.\n\nWe gather for mingling at 19:00, and start the main event at 19:30, usually ending by 21:00 with time for further socializing.",
+      "plaintextDescription": "Many of us enjoy learning new topics. Please join us at LessWrong Israel and we'll tell each other about it.\n\nGive a 4-minute talk on whatever you have been studying:Tagalog, Topology, or Talmud.\n\nIt's short, and so no one gets bored and it's always interesting.\n\nIf you want more time, ask, and the audience will vote on 3 more minutes.\n\nThe one difference between this and an ordinary Rump Session is that you should talk about something that you learned recently. You don't have to be an expert, but it should be some new knowledge from the last year or so.\n\nMeeting at Google on the 12th floor, 98 Yigal Alon St., Tel Aviv.\n\nWe gather for mingling at 19:00, and start the main event at 19:30, usually ending by 21:00 with time for further socializing.",
+      "wordCount": 130
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "hK5PacfHcbv5WYQby",
+    "title": "LW Tel Aviv: Global Poverty: An eye level view",
+    "slug": "lw-tel-aviv-global-poverty-an-eye-level-view-1",
+    "url": null,
+    "baseScore": 11,
+    "voteCount": 3,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2020-01-03T10:01:41.102Z",
+    "contents": {
+      "markdown": "[Ofir Reich](https://www.facebook.com/ofir.reich), former Data Scientist at Center for Effective Global Action (CEGA), will be speaking on \"Global Poverty, an eye level view.\"  \n\nWe meet at Google, 12th floor 98 Yigal Alon Street, Tel Aviv.\n\nSummary:\n\nWhat do people living in extreme poverty, who make up somewhere between one sixth and half of the world's population (depending on how you count), look like? What houses do they live in? What do they work in? What do they eat? How do they conduct themselves financially, socially and with their families? Why do they have so many children? Is their situation getting better or worse? And how is it actually that some countries are 100 times poorer than others? We'll have experiences and photos, statistics, economic analysis and modern research.",
+      "plaintextDescription": "Ofir Reich, former Data Scientist at Center for Effective Global Action (CEGA), will be speaking on \"Global Poverty, an eye level view.\"\n\n\nWe meet at Google, 12th floor 98 Yigal Alon Street, Tel Aviv.\n\nSummary:\n\nWhat do people living in extreme poverty, who make up somewhere between one sixth and half of the world's population (depending on how you count), look like? What houses do they live in? What do they work in? What do they eat? How do they conduct themselves financially, socially and with their families? Why do they have so many children? Is their situation getting better or worse? And how is it actually that some countries are 100 times poorer than others? We'll have experiences and photos, statistics, economic analysis and modern research.",
+      "wordCount": 126
+    },
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "v3S9L8HxBBGEQpDh2",
+    "title": "Aumann Agreement Game at LessWrong Israel",
+    "slug": "aumann-agreement-game-at-lesswrong-israel-1",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-11-06T09:13:09.119Z",
+    "contents": null,
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  },
+  {
+    "_id": "ZZrXiZr8nBmp6aMZf",
+    "title": "LessWrong Israel, Jan.15",
+    "slug": "lesswrong-israel-jan-15",
+    "url": null,
+    "baseScore": 7,
+    "voteCount": 1,
+    "viewCount": null,
+    "commentCount": 1,
+    "createdAt": null,
+    "postedAt": "2019-01-08T19:47:42.037Z",
+    "contents": null,
+    "tags": [],
+    "af": false,
+    "ai_safety_tags": [],
+    "research_agendas": [],
+    "extraction_source": null
+  }
+]

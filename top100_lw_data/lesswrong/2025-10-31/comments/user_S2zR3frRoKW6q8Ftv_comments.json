@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "WRuTbFSPcfoRJuJpo",
+    "postId": "yTameAzCdycci68sk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I read through your paper [Large Language Models Often Know When They Are Being Evaluated](https://arxiv.org/pdf/2505.23836) (the apparent output of OP's research). This is solid progress on an important problem.\n\nWhile the paper acknowledges that models could sandbag on capability evaluations and notes meta-reasoning in the results, there's a deeper issue that deserves attention: **models with evaluation awareness may be sandbagging on the evaluation awareness assessments** ***themselves***.\n\nThe paper finds that frontier models show \"substantial, though not yet superhuman\" evaluation awareness, with Gemini 2.5 Pro reaching 0.95 AUC on agentic tasks. You note that models sometimes recognize that being asked about evaluations is itself evidence of being evaluated. But this points to a fundamental challenge: a model sophisticated enough to recognize evaluations could deliberately score lower on situational awareness tests to avoid triggering safety thresholds.\n\nThis recursive problem was a key concern in our UC Berkeley paper on intolerable risk thresholds ([arxiv.org/pdf/2503.05812](https://arxiv.org/pdf/2503.05812), p. 41). Once models reach even moderate evaluation awareness (we propose ~60% accuracy at distinguishing evaluation vs deployment), they can strategically underperform on evaluations, *including on evaluation awareness assessments themselves*. Your findings suggest we may already be in this territory.\n\nThis doesn't diminish the value of your benchmark—it provides essential baseline data. But it looks like we are already at the point where we need to also do things like:\n\n1.  Develop harder-to-game evaluation methods (e.g., white-box techniques examining internal representations)\n2.  Use conservative safety margins that assume some sandbagging may already be occurring\n3.  Corroborate behavioral tests with other evidence of capabilities (e.g., scaling laws, architectural features)\n\nHave you considered approaches to detect or mitigate potential sandbagging on evaluation awareness tests themselves?  \n  \n(Thanks to Matteo Pistillo for sharing your paper with me)",
+      "plaintextDescription": "I read through your paper Large Language Models Often Know When They Are Being Evaluated (the apparent output of OP's research). This is solid progress on an important problem.\n\nWhile the paper acknowledges that models could sandbag on capability evaluations and notes meta-reasoning in the results, there's a deeper issue that deserves attention: models with evaluation awareness may be sandbagging on the evaluation awareness assessments themselves.\n\nThe paper finds that frontier models show \"substantial, though not yet superhuman\" evaluation awareness, with Gemini 2.5 Pro reaching 0.95 AUC on agentic tasks. You note that models sometimes recognize that being asked about evaluations is itself evidence of being evaluated. But this points to a fundamental challenge: a model sophisticated enough to recognize evaluations could deliberately score lower on situational awareness tests to avoid triggering safety thresholds.\n\nThis recursive problem was a key concern in our UC Berkeley paper on intolerable risk thresholds (arxiv.org/pdf/2503.05812, p. 41). Once models reach even moderate evaluation awareness (we propose ~60% accuracy at distinguishing evaluation vs deployment), they can strategically underperform on evaluations, including on evaluation awareness assessments themselves. Your findings suggest we may already be in this territory.\n\nThis doesn't diminish the value of your benchmark—it provides essential baseline data. But it looks like we are already at the point where we need to also do things like:\n\n 1. Develop harder-to-game evaluation methods (e.g., white-box techniques examining internal representations)\n 2. Use conservative safety margins that assume some sandbagging may already be occurring\n 3. Corroborate behavioral tests with other evidence of capabilities (e.g., scaling laws, architectural features)\n\nHave you considered approaches to detect or mitigate potential sandbagging on evaluation awareness tests themselves?\n\n(Thanks to Matteo Pistillo for sharing y"
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-09-26T18:34:08.116Z",
+    "af": false
+  },
+  {
+    "_id": "mQrvbBpskMie3MBCA",
+    "postId": "F2bDx3cAcPn4Yr7Jq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> OISs\n> ----\n> \n> Idea:\n> \n> There is a paradigm missing from the discussion of ASI misalignment existential risk. The threat of ASI generalizes to the concept of \"Outcome Influencing Systems\" (OISs). My hope is that developing terminology and formalism around this model may mitigate the issues associated with existing terminology and aid in more productive discourse and interdisciplinary research applicable to ASI risk and social coordination issues.\n> \n> Links:\n> \n> *   [WIP document to become main LW post introducing OISs](https://docs.google.com/document/d/1zzz1omn62KbCO0KVX0oy87aZt6uw6RswLGLbMoAnP0I/edit?tab=t.0#heading=h.gqse0wmpkda1) (comments welcome)\n> \n> My involvement:\n> \n> I am currently the only contributor. I think the idea has merit, but I am still at the point where I am seeking either to find collaborators and spread the idea, or to find people who can point out enough flaws in the idea for it to be worth abandoning.\n\nQuestion about the OIS research direction: What sort of principles might you hope to learn about outcome influencing systems which could help with the problems of ASI?\n\nIt seems to me that the problem isn't OIS generally. We have plenty of safe/aligned OISs. This includes some examples from your OIS doc such as thermostats. Even a lot of non-AI software systems seem like safe/aligned OISs. The problem seems to be more with this specific type of OIS (powerful deep-learning based models) which are both much more capable and much more difficult to ensure the safe behavior of, compared to software with legible code. (I read your doc quickly so may have missed an answer about this which you already provide in there.)\n\n--\n\nAlso, thanks for putting forth a novel research direction for addressing AI risk. I think we should have a high bar for which research directions we put scarce resources into, but at the same time it's super valuable to propose new research directions. What we are looking for could just be low-hanging fruit in the unexplored idea space, overlooked by all the people who are working on more established stuff.",
+      "plaintextDescription": "> OISs\n> Idea:\n> \n> There is a paradigm missing from the discussion of ASI misalignment existential risk. The threat of ASI generalizes to the concept of \"Outcome Influencing Systems\" (OISs). My hope is that developing terminology and formalism around this model may mitigate the issues associated with existing terminology and aid in more productive discourse and interdisciplinary research applicable to ASI risk and social coordination issues.\n> \n> Links:\n> \n>  * WIP document to become main LW post introducing OISs (comments welcome)\n> \n> My involvement:\n> \n> I am currently the only contributor. I think the idea has merit, but I am still at the point where I am seeking either to find collaborators and spread the idea, or to find people who can point out enough flaws in the idea for it to be worth abandoning.\n\n \n\nQuestion about the OIS research direction: What sort of principles might you hope to learn about outcome influencing systems which could help with the problems of ASI?\n\nIt seems to me that the problem isn't OIS generally. We have plenty of safe/aligned OISs. This includes some examples from your OIS doc such as thermostats. Even a lot of non-AI software systems seem like safe/aligned OISs. The problem seems to be more with this specific type of OIS (powerful deep-learning based models) which are both much more capable and much more difficult to ensure the safe behavior of, compared to software with legible code. (I read your doc quickly so may have missed an answer about this which you already provide in there.)\n\n--\n\nAlso, thanks for putting forth a novel research direction for addressing AI risk. I think we should have a high bar for which research directions we put scarce resources into, but at the same time it's super valuable to propose new research directions. What we are looking for could just be low-hanging fruit in the unexplored idea space, overlooked by all the people who are working on more established stuff."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-09-23T18:08:01.092Z",
+    "af": false
+  },
+  {
+    "_id": "SqK76JAE8F3R8cNDd",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "euCG4hhuXYHsL9wXA",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "To help with the incentives and coordination, instead having the first frontier AI megaowner step forward and unconditionally relinquish some of their power, they could sign on to a conditional contract to do so. It would only activate if other megaowners did the same.",
+      "plaintextDescription": "To help with the incentives and coordination, instead having the first frontier AI megaowner step forward and unconditionally relinquish some of their power, they could sign on to a conditional contract to do so. It would only activate if other megaowners did the same."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-15T16:08:31.275Z",
+    "af": false
+  },
+  {
+    "_id": "zhdBdJwxRiLytSaBr",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "euCG4hhuXYHsL9wXA",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "Ok yes, that would be great.\n\n> I'll point out that this is not unheard of, Altman literally took no equity in OpenAI (though IMO was eventually corrupted by the power nonetheless).\n\nHe may have been corrupted later by power later. Alternatively, he may have been playing the long game, knowing that he would have that power eventually even if he took no equity.",
+      "plaintextDescription": "Ok yes, that would be great.\n\n> I'll point out that this is not unheard of, Altman literally took no equity in OpenAI (though IMO was eventually corrupted by the power nonetheless).\n\nHe may have been corrupted later by power later. Alternatively, he may have been playing the long game, knowing that he would have that power eventually even if he took no equity."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-15T02:59:56.737Z",
+    "af": false
+  },
+  {
+    "_id": "byWRWkm4ywx2oCrdz",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "j5L3zGH479qdL9X6T",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "> Couldn't we just... set up a financial agreement where the first N employees don't own stock and have a set salary?\n\nMaybe, could be nice... But since the first N employees usually get to sign off on major decisions, why would they go along with such an agreement? Or are you suggesting governments should convene to force this sort of arrangement on them?\n\n> My main concern is that they'll have enough power to be functionally wealthy all-the-same, or be able to get it via other means (e.g. Altman with his side hardware investment / company).\n\nI'm not sure I understand this part actually, could you elaborate? Is this your concern with the OGI model or with your salary-only for first-N employees idea?",
+      "plaintextDescription": "> Couldn't we just... set up a financial agreement where the first N employees don't own stock and have a set salary?\n\nMaybe, could be nice... But since the first N employees usually get to sign off on major decisions, why would they go along with such an agreement? Or are you suggesting governments should convene to force this sort of arrangement on them?\n\n> My main concern is that they'll have enough power to be functionally wealthy all-the-same, or be able to get it via other means (e.g. Altman with his side hardware investment / company).\n\nI'm not sure I understand this part actually, could you elaborate? Is this your concern with the OGI model or with your salary-only for first-N employees idea?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-15T00:33:35.122Z",
+    "af": false
+  },
+  {
+    "_id": "RPhuBirQL7wqDCjy3",
+    "postId": "LtT24cCAazQp4NYc5",
+    "parentCommentId": "9i6hEbipSWwyzsFAA",
+    "topLevelCommentId": "9i6hEbipSWwyzsFAA",
+    "contents": {
+      "markdown": "Appreciate your integrity in doing that!\n\nAt the same time, the unfairness of early frontier lab founders getting rich seems to me like a very acceptable downside given that open investment could solve a lot of issues and the bleakness of many other paths forward.",
+      "plaintextDescription": "Appreciate your integrity in doing that!\n\nAt the same time, the unfairness of early frontier lab founders getting rich seems to me like a very acceptable downside given that open investment could solve a lot of issues and the bleakness of many other paths forward. "
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-09-14T23:40:45.425Z",
+    "af": false
+  },
+  {
+    "_id": "tFiN36CZvpPXCboYD",
+    "postId": "WyodFQ6F7wHudhNss",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Outer alignment seems not as hard as we thought a few years ago. Llms are actually really good at understanding what we mean, so the sorcerer's apprentice and King Midas concerns seem obsolete. Except maybe for systems using heavy RL, where specification gaming is still a concern.\n\nThe more salient outer alignment issue now how to align agents when you don't have time or enough capability yourself to supervise them well. And that's mainly only a problem because of competitive race dynamics, which incentivize people to try and supervise AI 'beyond their means' so to speak.\n\n So, cooling race dynamics could address a main portion of the remaining outer alignment problem. Scalable oversight techniques may also address it. What would remain then for (narrow) alignment is specification gaming, and then of course the whole inner alignment problem including deceptive alignment which is still a huge unsolved problem.",
+      "plaintextDescription": "Outer alignment seems not as hard as we thought a few years ago. Llms are actually really good at understanding what we mean, so the sorcerer's apprentice and King Midas concerns seem obsolete. Except maybe for systems using heavy RL, where specification gaming is still a concern.\n\nThe more salient outer alignment issue now how to align agents when you don't have time or enough capability yourself to supervise them well. And that's mainly only a problem because of competitive race dynamics, which incentivize people to try and supervise AI 'beyond their means' so to speak.\n\n So, cooling race dynamics could address a main portion of the remaining outer alignment problem. Scalable oversight techniques may also address it. What would remain then for (narrow) alignment is specification gaming, and then of course the whole inner alignment problem including deceptive alignment which is still a huge unsolved problem."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-09-14T22:49:02.317Z",
+    "af": false
+  },
+  {
+    "_id": "hazMkThSw5G7rnMps",
+    "postId": "WyodFQ6F7wHudhNss",
+    "parentCommentId": "gFRHp9muNyCmgT4qM",
+    "topLevelCommentId": "zmKFp2AcyeXstabjB",
+    "contents": {
+      "markdown": "Starting to be some discussion on LW now, e.g.\n\n [https://www.lesswrong.com/posts/5uw26uDdFbFQgKzih/beware-general-claims-about-generalizable-reasoning](https://www.lesswrong.com/posts/5uw26uDdFbFQgKzih/beware-general-claims-about-generalizable-reasoning)\n\nhttps://www.lesswrong.com/posts/tnc7YZdfGXbhoxkwj/give-me-a-reason-ing-model",
+      "plaintextDescription": "Starting to be some discussion on LW now, e.g.\n\n https://www.lesswrong.com/posts/5uw26uDdFbFQgKzih/beware-general-claims-about-generalizable-reasoning\n\nhttps://www.lesswrong.com/posts/tnc7YZdfGXbhoxkwj/give-me-a-reason-ing-model"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-11T21:06:25.793Z",
+    "af": false
+  },
+  {
+    "_id": "gFRHp9muNyCmgT4qM",
+    "postId": "WyodFQ6F7wHudhNss",
+    "parentCommentId": "zmKFp2AcyeXstabjB",
+    "topLevelCommentId": "zmKFp2AcyeXstabjB",
+    "contents": {
+      "markdown": "I should have mentioned the above thoughts are a low-confidence take. I was mostly just trying to get the ball rolling on discussion because I couldn't find *any* discussion of this paper on LessWrong yet, which really surprised me because I saw the paper had been shared thousands of times on LinkedIn already.",
+      "plaintextDescription": "I should have mentioned the above thoughts are a low-confidence take. I was mostly just trying to get the ball rolling on discussion because I couldn't find any discussion of this paper on LessWrong yet, which really surprised me because I saw the paper had been shared thousands of times on LinkedIn already."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-11T19:10:37.866Z",
+    "af": false
+  },
+  {
+    "_id": "zmKFp2AcyeXstabjB",
+    "postId": "WyodFQ6F7wHudhNss",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thoughts on \"The Ilusion of Thinking\" paper that came out of Apple recently?\n\n[https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf](https://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf)\n\nSeems to me like at least a point in favor of \"stochastic parrots\" over \"builds a quality world model\" for the language reasoning models.  \n  \nAlso wondering if their findings could be used to the advantage of safety/security somehow. E.g. if these models are more dependent on imitating examples than we relaized, then it might also be more effective than we previously thought to purge training data of the types of knowledge and reasoning that we don't want them to have (e.g. knowledge of dangerous weapons development, scheming, etc.)",
+      "plaintextDescription": "Thoughts on \"The Ilusion of Thinking\" paper that came out of Apple recently?\n\nhttps://ml-site.cdn-apple.com/papers/the-illusion-of-thinking.pdf\n\nSeems to me like at least a point in favor of \"stochastic parrots\" over \"builds a quality world model\" for the language reasoning models.\n\nAlso wondering if their findings could be used to the advantage of safety/security somehow. E.g. if these models are more dependent on imitating examples than we relaized, then it might also be more effective than we previously thought to purge training data of the types of knowledge and reasoning that we don't want them to have (e.g. knowledge of dangerous weapons development, scheming, etc.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-10T20:35:36.020Z",
+    "af": false
+  },
+  {
+    "_id": "ZgY2NxMvSXwCzBSzo",
+    "postId": "PwnadG4BFjaER3MGf",
+    "parentCommentId": "t2rYuqnHHK8Fr6XT4",
+    "topLevelCommentId": "t2rYuqnHHK8Fr6XT4",
+    "contents": {
+      "markdown": "I agree it's a good post, and it does take guts to tell people when you think that a research direction that you've been championing hard actually isn't the Holy Grail. This is a bit of a nitpick but not insubstantial:\n\nNeel is talking about interpretability in general, not just mech-interp. He claims to be accounting in his predictions for other non-mech interp approaches to interpretability that seem promising to some other researchers, such as representation engineering (RepE), which [Dan Hendrycks among others has been advocating for recently](https://www.ai-frontiers.org/articles/the-misguided-quest-for-mechanistic-ai-interpretability).",
+      "plaintextDescription": "I agree it's a good post, and it does take guts to tell people when you think that a research direction that you've been championing hard actually isn't the Holy Grail. This is a bit of a nitpick but not insubstantial:\n\nNeel is talking about interpretability in general, not just mech-interp. He claims to be accounting in his predictions for other non-mech interp approaches to interpretability that seem promising to some other researchers, such as representation engineering (RepE), which Dan Hendrycks among others has been advocating for recently."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-28T04:49:19.045Z",
+    "af": false
+  },
+  {
+    "_id": "ppT2bwpPjDrc5faxb",
+    "postId": "rTFogGL4DhAbiQTWs",
+    "parentCommentId": "yrfEMkaXc6C7wrGxh",
+    "topLevelCommentId": "yrfEMkaXc6C7wrGxh",
+    "contents": {
+      "markdown": "Let me know if anyone has thoughts on this question I just posted as well: [Does the Universal Geometry of Embeddings paper have big implications for interpretability?]( https://www.lesswrong.com/posts/kMiwjx6QyyBBTcjxt/does-the-universal-geometry-of-embeddings-paper-have-big)",
+      "plaintextDescription": "Let me know if anyone has thoughts on this question I just posted as well: Does the Universal Geometry of Embeddings paper have big implications for interpretability?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-26T18:21:58.515Z",
+    "af": false
+  },
+  {
+    "_id": "eEmcKz2onRkAr2AtE",
+    "postId": "PwnadG4BFjaER3MGf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Does representation engineering (RepE) seem like a game-changer for interpretability? I don't see it mentioned in your post, so I'm trying to figure out if it is baked into your predictions or not.\n\nIt seemed like Apollo was able to spin up a [pretty reliable strategic deception detector (95-99% accurate)](https://arxiv.org/abs/2502.03407) using linear probes even though the techniques are new, and generally it sounds like RepE is getting traction on some things that have been a slog for mech interp. Does it look plausible that RepE could get us to high reliability interpretability on workable timelines or are we likely to hit similar walls with that approach?\n\nThanks for your post Neel (and Gemini 2.5) - really important perspective on all this.",
+      "plaintextDescription": "Does representation engineering (RepE) seem like a game-changer for interpretability? I don't see it mentioned in your post, so I'm trying to figure out if it is baked into your predictions or not.\n\nIt seemed like Apollo was able to spin up a pretty reliable strategic deception detector (95-99% accurate) using linear probes even though the techniques are new, and generally it sounds like RepE is getting traction on some things that have been a slog for mech interp. Does it look plausible that RepE could get us to high reliability interpretability on workable timelines or are we likely to hit similar walls with that approach?\n\nThanks for your post Neel (and Gemini 2.5) - really important perspective on all this."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-20T20:53:08.077Z",
+    "af": false
+  },
+  {
+    "_id": "DTCQTAfoBpZo7n6NL",
+    "postId": "WyodFQ6F7wHudhNss",
+    "parentCommentId": "6uauhowneWzrhTTEc",
+    "topLevelCommentId": "6uauhowneWzrhTTEc",
+    "contents": {
+      "markdown": "\"AI governance looking bleak\" seems like an overstatement. Certain types or aims of AI governance are looking bleak right now, especially getting strong safety-oriented international agreements that include the US and China, or meaningful AI regulation at the national level in the US. But there may be other sorts of AI governance projects (e.g. improving the policies of frontier labs, preparing for warning shots, etc.) that could still be quite worthwhile.",
+      "plaintextDescription": "\"AI governance looking bleak\" seems like an overstatement. Certain types or aims of AI governance are looking bleak right now, especially getting strong safety-oriented international agreements that include the US and China, or meaningful AI regulation at the national level in the US. But there may be other sorts of AI governance projects (e.g. improving the policies of frontier labs, preparing for warning shots, etc.) that could still be quite worthwhile."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-28T18:38:43.237Z",
+    "af": false
+  },
+  {
+    "_id": "Qt3nxkEC8xcvC3kwC",
+    "postId": "DfrSZaf3JC8vJdbZL",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is there a summary of this post?",
+      "plaintextDescription": "Is there a summary of this post?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-28T02:39:00.270Z",
+    "af": false
+  },
+  {
+    "_id": "6uauhowneWzrhTTEc",
+    "postId": "WyodFQ6F7wHudhNss",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "2023: AI governance starting to look promising because governments are waking up about AI risks. Technical AI safety getting challenging if you're not in a frontier lab because hard to access relevant models to run experiments.\n\n2025: AI governance looking bleak after the AI Action Summit. Technical AI safety looking more accessible because open-weight models are proliferating.",
+      "plaintextDescription": "2023: AI governance starting to look promising because governments are waking up about AI risks. Technical AI safety getting challenging if you're not in a frontier lab because hard to access relevant models to run experiments.\n\n2025: AI governance looking bleak after the AI Action Summit. Technical AI safety looking more accessible because open-weight models are proliferating."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-02-28T00:56:55.868Z",
+    "af": false
+  },
+  {
+    "_id": "LBWqFt5uJmrMiyfms",
+    "postId": "9pGbTz6c78PGwJein",
+    "parentCommentId": "Jh5Eg2AothkesCnin",
+    "topLevelCommentId": "Jh5Eg2AothkesCnin",
+    "contents": {
+      "markdown": "It might.\n\nMy understanding (which could be off base) from reading the paper is the method's accuracy in detecting various forms of deception was basically 96-99%. But they acknowledge that the sophisticated deception they're ultimately worried about will be harder to detect.\n\nStill 96-99% seems like a great start. And this was on detecting strategic deception, not just factual falsehoods. And they didn't even utilize the CoT outputs of the models.\n\n(I think the \"strategic deception\" framing is also probably more general and not as dependent on unnecessary assumptions about how models work, compared to the \"mesaoptimizer\" framing.)",
+      "plaintextDescription": "It might.\n\nMy understanding (which could be off base) from reading the paper is the method's accuracy in detecting various forms of deception was basically 96-99%. But they acknowledge that the sophisticated deception they're ultimately worried about will be harder to detect.\n\nStill 96-99% seems like a great start. And this was on detecting strategic deception, not just factual falsehoods. And they didn't even utilize the CoT outputs of the models.\n\n(I think the \"strategic deception\" framing is also probably more general and not as dependent on unnecessary assumptions about how models work, compared to the \"mesaoptimizer\" framing.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-26T20:31:43.272Z",
+    "af": false
+  },
+  {
+    "_id": "bEanxzvBBgFKfQtjN",
+    "postId": "9pGbTz6c78PGwJein",
+    "parentCommentId": "ujaJRxzCrKtSLusKf",
+    "topLevelCommentId": "ujaJRxzCrKtSLusKf",
+    "contents": {
+      "markdown": "> I also suspect training a specific dataset for \"was your last response indicative of your maximum performance on the task?\" would significantly boost the accuracy in the sandbagging case for this type of probe. I see this becoming more important as we move to more realistic sandbagging settings without explicit instructions to perform poorly since \"deceiving someone\" and \"not trying very hard to explore this area of research\" seem like non-trivially different concepts.\n\nGood point!",
+      "plaintextDescription": "> I also suspect training a specific dataset for \"was your last response indicative of your maximum performance on the task?\" would significantly boost the accuracy in the sandbagging case for this type of probe. I see this becoming more important as we move to more realistic sandbagging settings without explicit instructions to perform poorly since \"deceiving someone\" and \"not trying very hard to explore this area of research\" seem like non-trivially different concepts.\n\nGood point!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-26T19:54:27.324Z",
+    "af": false
+  },
+  {
+    "_id": "yrNMffY7AxWwYxQzt",
+    "postId": "qXYLvjGL9QvD3aFSW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Y'all are on fire recently with this and the alignment faking paper.",
+      "plaintextDescription": "Y'all are on fire recently with this and the alignment faking paper."
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2025-01-22T19:45:55.540Z",
+    "af": true
+  },
+  {
+    "_id": "sZKYG7wKgDsDMtyED",
+    "postId": "3ghj8EuKzwD3MQR5G",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for the useful write-up on RepE.\n\n> RE might find application in Eliciting Latent Knowledge, like identifying what a model internally believes to be true.\n\nApplication to ELK is exciting. I was surprised that you used the word \"might\" because it looked like [Zhou et al. (2023)](https://arxiv.org/abs/2310.01405) have already built a lie and hallucination detector using RepE. What do you see as left to be done in this area to elicit model beliefs with RepE?\n\nTaking a closer look, I did find this in the paper's 4.3.2 section, acknowledging some limitations:\n\n> While these observations enhance our confidence that our reading vectors correspond to dishonest thought processes and behaviors, they also introduce complexities into the task of lie detection. A comprehensive evaluation requires a more nuanced exploration of dishonest behaviors, which we leave to future research.\n\nI suppose there may also be a substantial gap between detecting dishonest statements and eliciting true beliefs in the model, but I'm conjecturing. What are your thoughts?",
+      "plaintextDescription": "Thanks for the useful write-up on RepE.\n\n> RE might find application in Eliciting Latent Knowledge, like identifying what a model internally believes to be true.\n\nApplication to ELK is exciting. I was surprised that you used the word \"might\" because it looked like Zhou et al. (2023) have already built a lie and hallucination detector using RepE. What do you see as left to be done in this area to elicit model beliefs with RepE?\n\nTaking a closer look, I did find this in the paper's 4.3.2 section, acknowledging some limitations:\n\n> While these observations enhance our confidence that our reading vectors correspond to dishonest thought processes and behaviors, they also introduce complexities into the task of lie detection. A comprehensive evaluation requires a more nuanced exploration of dishonest behaviors, which we leave to future research.\n\nI suppose there may also be a substantial gap between detecting dishonest statements and eliciting true beliefs in the model, but I'm conjecturing. What are your thoughts?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-18T05:58:50.040Z",
+    "af": false
+  },
+  {
+    "_id": "nX87QaXiWKgKNaxx2",
+    "postId": "njAZwT8nkHnjipJku",
+    "parentCommentId": "iChEPaY43soXBWDYh",
+    "topLevelCommentId": "iChEPaY43soXBWDYh",
+    "contents": {
+      "markdown": "Agree, I'm surprised that a model which can reason about its own training process wouldn't also reason that the \"secret scratchpad\" might actually be surveilled and so avoid recording any controversial thoughts there. But it's lucky for us that some of these models have been willing to write interesting things on the scratchpad at least at current capability levels and below, because Anthropic has sure produced some interesting results from it (IIRC they used the scratchpad technique in at least one other paper).",
+      "plaintextDescription": "Agree, I'm surprised that a model which can reason about its own training process wouldn't also reason that the \"secret scratchpad\" might actually be surveilled and so avoid recording any controversial thoughts there. But it's lucky for us that some of these models have been willing to write interesting things on the scratchpad at least at current capability levels and below, because Anthropic has sure produced some interesting results from it (IIRC they used the scratchpad technique in at least one other paper)."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-18T05:01:03.495Z",
+    "af": false
+  },
+  {
+    "_id": "groTkKHoDh6L9E9gZ",
+    "postId": "njAZwT8nkHnjipJku",
+    "parentCommentId": "pnuHNjDBw2CoMZs9a",
+    "topLevelCommentId": "edAydXpnRHLntfHpg",
+    "contents": {
+      "markdown": "> *   Develop an architecture which has very little opaque reasoning (e.g. not much more than we see in current LLMs) but is sufficiently competitive using legible (e.g. CoT reasoning)\n\n  \nDon't you think CoT seems quite flawed right now? From [https://arxiv.org/abs/2305.04388](https://arxiv.org/abs/2305.04388): \"Building more transparent and explainable systems will require either improving CoT faithfulness through targeted efforts or abandoning CoT in favor of alternative methods.\"\n\nThanks your great paper on alignment faking, by the way.",
+      "plaintextDescription": ">  * Develop an architecture which has very little opaque reasoning (e.g. not much more than we see in current LLMs) but is sufficiently competitive using legible (e.g. CoT reasoning)\n\n\nDon't you think CoT seems quite flawed right now? From https://arxiv.org/abs/2305.04388: \"Building more transparent and explainable systems will require either improving CoT faithfulness through targeted efforts or abandoning CoT in favor of alternative methods.\"\n\nThanks your great paper on alignment faking, by the way."
+    },
+    "baseScore": 0,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-01-18T03:29:18.433Z",
+    "af": false
+  },
+  {
+    "_id": "ceHLeiukvdxKMEtz6",
+    "postId": "Lgq2DcuahKmLktDvC",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Exposing the weaknesses of fine-tuned models like the Llama 3.1 Instruct models against refusal vector ablation is important because the industry seems to really have overreliance on these safety techniques currently.\n\nIt's worth noting that refusal vector ablation isn't even necessary for this sort of malicious use with Llama 3.1 though because Meta also released the base pretrained models *without* instruction finetuning (unless I'm misunderstanding something?).\n\nSaw that you have an actual paper on this out now. Didn't see it linked in the post so here's a clickable for anyone else looking: [https://arxiv.org/abs/2410.10871](https://arxiv.org/abs/2410.10871) .",
+      "plaintextDescription": "Exposing the weaknesses of fine-tuned models like the Llama 3.1 Instruct models against refusal vector ablation is important because the industry seems to really have overreliance on these safety techniques currently.\n\nIt's worth noting that refusal vector ablation isn't even necessary for this sort of malicious use with Llama 3.1 though because Meta also released the base pretrained models without instruction finetuning (unless I'm misunderstanding something?).\n\nSaw that you have an actual paper on this out now. Didn't see it linked in the post so here's a clickable for anyone else looking: https://arxiv.org/abs/2410.10871 ."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-21T17:13:28.761Z",
+    "af": false
+  },
+  {
+    "_id": "h8rpK8BFx3GnbaLjm",
+    "postId": "4vPZgvhmBkTikYikA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for working on this. In case anyone else is looking for a paper on this, I found [https://arxiv.org/abs/2410.10871](https://arxiv.org/abs/2410.10871) from the OP which looks like a similar but more up-to-date investigation on Llama 3.1 70B.",
+      "plaintextDescription": "Thanks for working on this. In case anyone else is looking for a paper on this, I found https://arxiv.org/abs/2410.10871 from the OP which looks like a similar but more up-to-date investigation on Llama 3.1 70B."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-10-21T16:38:34.295Z",
+    "af": false
+  },
+  {
+    "_id": "SH4oEhdcJRaAyhjtv",
+    "postId": "6kZ6gW5DEZKFfqvZD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I only see bad options, a choice between an EU-style regime and doing essentially nothing.\n\nWhat issues do you have with the EU approach? (I assume you mean the EU AI Act.)\n\nThoughtful/informative post overall, thanks.",
+      "plaintextDescription": "> I only see bad options, a choice between an EU-style regime and doing essentially nothing.\n\nWhat issues do you have with the EU approach? (I assume you mean the EU AI Act.)\n\nThoughtful/informative post overall, thanks."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-10-03T18:02:21.876Z",
+    "af": false
+  },
+  {
+    "_id": "uGd9z8DvwArCyLfkX",
+    "postId": "gknc6NWCNuTCe8ekp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Wow this seems like a really important breakthrough.\n\nAre defection probes also a solution to the undetectable backdoor problem from [Goldwasser et al. 2022](https://arxiv.org/abs/2204.06974)?",
+      "plaintextDescription": "Wow this seems like a really important breakthrough.\n\nAre defection probes also a solution to the undetectable backdoor problem from Goldwasser et al. 2022?"
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-06-14T23:45:20.467Z",
+    "af": true
+  },
+  {
+    "_id": "ckj68GJsfK2EFeYXR",
+    "postId": "jtoPawEhLNXNxvgTT",
+    "parentCommentId": "Lov5ZtDkQhpuCAFWx",
+    "topLevelCommentId": "AAC8jKeDp6xqsZK2K",
+    "contents": {
+      "markdown": "Thanks, I think you're referring to:\n\n> It may still be possible to harness the larger model capabilities without invoking character simulation and these problems, by prompting or fine-tuning the models in some particular careful ways.\n\nThere were some ideas proposed in the paper [\"Conditioning Predictive Models: Risks and Strategies\" by Hubinger et al. (2023)](https://arxiv.org/abs/2302.00805). But since it was published over a year ago, I'm not sure if anyone has gotten far on investigating those strategies to see which ones could actually work. (I'm not seeing anything like that in the paper's citations.)",
+      "plaintextDescription": "Thanks, I think you're referring to:\n\n> It may still be possible to harness the larger model capabilities without invoking character simulation and these problems, by prompting or fine-tuning the models in some particular careful ways.\n\nThere were some ideas proposed in the paper \"Conditioning Predictive Models: Risks and Strategies\" by Hubinger et al. (2023). But since it was published over a year ago, I'm not sure if anyone has gotten far on investigating those strategies to see which ones could actually work. (I'm not seeing anything like that in the paper's citations.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-25T20:23:10.486Z",
+    "af": false
+  },
+  {
+    "_id": "EixkdmyzRiTTQYKua",
+    "postId": "gvNnE6Th594kfdB3z",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Really fascinating post, thanks.\n\nOn green as according to black, I think there's an additional facet perhaps even more important than just the acknowledgment that sometimes we are too weak to succeed and so should conserve energy. Black being strongly self-interested will tend to cast aside virtues like generosity, honesty and non-harm except as means in social games they are playing to achieve other ends for themselves. But self-interest tends to include desire for reduction of self-suffering. Green + white* (as I'm realizing this may be more a color combo than purely green) are more inclined to discover, e.g. through meditation/mindfulness, that aggression, deceit and other non-virtues actually produce self-suffering in the mind as a byproduct. So black is capable of embracing virtue as part of a more complete pursuit of self-interest.**\n\nIt may be that one of the most impactful things that green + white can do is get black to realize this fact, since black will tend to be powerful and successful in the world at promoting whatever it understands to be its self interest.\n\nI haven't read your post on attunement yet, maybe you touch on this or related ideas there.\n\n--\n\n*You could argue this also includes blue and so should be green + white + blue, since it largely deals with knowledge of self.\n\n**I believe this fact of non-virtue inflicting self-suffering is true for most human minds. However, there may be cases where a person has some sort of psychological disorder that makes them effectively lack a conscience where it wouldn't hold.",
+      "plaintextDescription": "Really fascinating post, thanks.\n\nOn green as according to black, I think there's an additional facet perhaps even more important than just the acknowledgment that sometimes we are too weak to succeed and so should conserve energy. Black being strongly self-interested will tend to cast aside virtues like generosity, honesty and non-harm except as means in social games they are playing to achieve other ends for themselves. But self-interest tends to include desire for reduction of self-suffering. Green + white* (as I'm realizing this may be more a color combo than purely green) are more inclined to discover, e.g. through meditation/mindfulness, that aggression, deceit and other non-virtues actually produce self-suffering in the mind as a byproduct. So black is capable of embracing virtue as part of a more complete pursuit of self-interest.**\n\nIt may be that one of the most impactful things that green + white can do is get black to realize this fact, since black will tend to be powerful and successful in the world at promoting whatever it understands to be its self interest.\n\nI haven't read your post on attunement yet, maybe you touch on this or related ideas there.\n\n--\n\n*You could argue this also includes blue and so should be green + white + blue, since it largely deals with knowledge of self.\n\n**I believe this fact of non-virtue inflicting self-suffering is true for most human minds. However, there may be cases where a person has some sort of psychological disorder that makes them effectively lack a conscience where it wouldn't hold."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-04-03T16:07:38.907Z",
+    "af": false
+  },
+  {
+    "_id": "gkJGhq36b5JD8xWBy",
+    "postId": "wovJBkfZ8rTyLoEKv",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> But in this case Patrick Collison is a credible source and he says otherwise.\n>\n> Patrick Collison: These aren’t just cherrypicked demos. Devin is, in my experience, very impressive in practice\n\nPatrick is an investor in Cognition. So while he may still be credible in this case, he also has a conflict of interest.",
+      "plaintextDescription": "> But in this case Patrick Collison is a credible source and he says otherwise.\n> \n> Patrick Collison: These aren’t just cherrypicked demos. Devin is, in my experience, very impressive in practice\n\nPatrick is an investor in Cognition. So while he may still be credible in this case, he also has a conflict of interest."
+    },
+    "baseScore": 9,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2024-03-22T05:52:06.961Z",
+    "af": false
+  },
+  {
+    "_id": "HRQkBoqSKMAECoGro",
+    "postId": "JkaDWvojFhRBuSxzz",
+    "parentCommentId": "BvD7dFtLwepmhQ76J",
+    "topLevelCommentId": "BvD7dFtLwepmhQ76J",
+    "contents": {
+      "markdown": "Reading that page, The Verge's claim seems to all hinge on this part:\n\n> OpenAI spokesperson Lindsey Held Bolton refuted that notion in a statement shared with *The Verge*: “Mira told employees what the media reports were about but she did not comment on the accuracy of the information.\"\n\nThey are saying that Bolton \"refuted\" the notion about such a letter, but the quote from her that follows doesn't actually sounds like a refutation. Hence the Verge piece seems confusing/misleading and I haven't yet seen any credible denial from the board about receiving such a letter.",
+      "plaintextDescription": "Reading that page, The Verge's claim seems to all hinge on this part:\n\n> OpenAI spokesperson Lindsey Held Bolton refuted that notion in a statement shared with The Verge: “Mira told employees what the media reports were about but she did not comment on the accuracy of the information.\"\n\nThey are saying that Bolton \"refuted\" the notion about such a letter, but the quote from her that follows doesn't actually sounds like a refutation. Hence the Verge piece seems confusing/misleading and I haven't yet seen any credible denial from the board about receiving such a letter."
+    },
+    "baseScore": 3,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-11-30T00:18:28.465Z",
+    "af": false
+  },
+  {
+    "_id": "d3zLyMkWHytuocK2P",
+    "postId": "JnM3EHegiBePeKkLc",
+    "parentCommentId": "mfGnjFb5jQENWj92j",
+    "topLevelCommentId": "mfGnjFb5jQENWj92j",
+    "contents": {
+      "markdown": "Yes though I think he said this at APEC right before he was fired (not after).",
+      "plaintextDescription": "Yes though I think he said this at APEC right before he was fired (not after)."
+    },
+    "baseScore": 10,
+    "voteCount": 13,
+    "createdAt": null,
+    "postedAt": "2023-11-23T05:54:30.252Z",
+    "af": false
+  },
+  {
+    "_id": "oFbyitKXxpTkcGP2N",
+    "postId": "t5W87hQF5gKyTofQB",
+    "parentCommentId": "3XmPkK9HWsrxC9w6x",
+    "topLevelCommentId": "3XmPkK9HWsrxC9w6x",
+    "contents": {
+      "markdown": "Carl, have you written somewhere about why you are confident that all UFOs so far are prosaic in nature? Would be interest to read/listen to your thoughts on this. (Alternatively, a link to some other source that you find gives a particularly compelling explanation is also good.)",
+      "plaintextDescription": "Carl, have you written somewhere about why you are confident that all UFOs so far are prosaic in nature? Would be interest to read/listen to your thoughts on this. (Alternatively, a link to some other source that you find gives a particularly compelling explanation is also good.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-07-27T01:38:21.284Z",
+    "af": false
+  },
+  {
+    "_id": "oRHiE4S8wRT9xewdi",
+    "postId": "MNpBCtmZmqD7yk4q8",
+    "parentCommentId": "xnEMq6m7oTv7PiN2y",
+    "topLevelCommentId": "xnEMq6m7oTv7PiN2y",
+    "contents": {
+      "markdown": "Great update from Anthropic on giving majority control of the board to a financially disinterested trust: https://twitter.com/dylanmatt/status/1680924158572793856",
+      "plaintextDescription": "Great update from Anthropic on giving majority control of the board to a financially disinterested trust: https://twitter.com/dylanmatt/status/1680924158572793856"
+    },
+    "baseScore": 8,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-07-18T01:38:08.150Z",
+    "af": false
+  },
+  {
+    "_id": "vKT2K93F2FMnxr6LT",
+    "postId": "w8PNjCS8ZsQuqYWhD",
+    "parentCommentId": "kdeEhNnKsPsJLiGAE",
+    "topLevelCommentId": "cCf8JfdL22gFG8TuZ",
+    "contents": {
+      "markdown": "Interesting... still taking that in.\n\nRelated question: Doesn't goal preservation typically imply self preservation? If I want to preserve my goal, and then I perish, I've failed because now my goal has been reassigned from X to nil.",
+      "plaintextDescription": "Interesting... still taking that in.\n\nRelated question: Doesn't goal preservation typically imply self preservation? If I want to preserve my goal, and then I perish, I've failed because now my goal has been reassigned from X to nil."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-15T16:38:17.750Z",
+    "af": false
+  },
+  {
+    "_id": "cCf8JfdL22gFG8TuZ",
+    "postId": "w8PNjCS8ZsQuqYWhD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Love to see an orthodoxy challenged!\n\n> Suppose Sia's only goal is to commit suicide, and she's given the opportunity to kill herself straightaway. Then, it certainly won't be rational for her to pursue self-preservation.\n\nIt seems you found one terminal goal which doesn't give rise to the instrumental subgoal of self-preservation. Are there others, or does basically every terminal goal benefit from instrumental self-preservation except for suicide?\n\n(I skipped around a bit and didn't read your full post, so maybe you explain this already and I missed it.)",
+      "plaintextDescription": "Love to see an orthodoxy challenged!\n\n> Suppose Sia's only goal is to commit suicide, and she's given the opportunity to kill herself straightaway. Then, it certainly won't be rational for her to pursue self-preservation.\n\nIt seems you found one terminal goal which doesn't give rise to the instrumental subgoal of self-preservation. Are there others, or does basically every terminal goal benefit from instrumental self-preservation except for suicide?\n\n(I skipped around a bit and didn't read your full post, so maybe you explain this already and I missed it.)"
+    },
+    "baseScore": 5,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-06-15T05:57:22.383Z",
+    "af": true
+  },
+  {
+    "_id": "vtS8gRiSywfGskGpd",
+    "postId": "oY9HNicqGGihymnzk",
+    "parentCommentId": "9NAKL37SzHe9FWXzF",
+    "topLevelCommentId": "jXy2rM9jDAZKhvhyj",
+    "contents": {
+      "markdown": "> But if there really is a large number of intelligence officials earnestly coming forward with this\n\nYea, according to [Michael Shellenberger's reporting](https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/) on this, multiple \"high-ranking intelligence officials, former intelligence officials, or individuals who we could verify were involved in U.S. government UAP efforts for three or more decades each\" have come forward to vouch for Grusch's core claims.\n\n> Perhaps this is genuine whistleblowing, but *not* on what they make it sound like? Suppose there's something being covered up that Grusch et al. want to expose, but describing what it is plainly is inconvenient for one reason or another. So they coordinate around the wacky UFO story, with the goal being to point people in the rough *direction* of what they want looked at.\n\nInteresting theory. Definitely a possibility.",
+      "plaintextDescription": "> But if there really is a large number of intelligence officials earnestly coming forward with this\n\nYea, according to Michael Shellenberger's reporting on this, multiple \"high-ranking intelligence officials, former intelligence officials, or individuals who we could verify were involved in U.S. government UAP efforts for three or more decades each\" have come forward to vouch for Grusch's core claims.\n\n> Perhaps this is genuine whistleblowing, but not on what they make it sound like? Suppose there's something being covered up that Grusch et al. want to expose, but describing what it is plainly is inconvenient for one reason or another. So they coordinate around the wacky UFO story, with the goal being to point people in the rough direction of what they want looked at.\n\nInteresting theory. Definitely a possibility."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-14T19:40:42.134Z",
+    "af": false
+  },
+  {
+    "_id": "9hzjxZhkRZcpKGciN",
+    "postId": "bhH2BqF3fLTCwgjSs",
+    "parentCommentId": "sKphnBhhH9pqr7WqG",
+    "topLevelCommentId": "gBbHDoerpfgvm8zPG",
+    "contents": {
+      "markdown": "> What matters is the hundreds of pages and photos and hours of testimony given under oath to the Intelligence Community Inspector General and Congress.\n\nDid Grusch already testify to Congress? I thought that was still [being planned](https://abcnews.go.com/Politics/house-oversight-plans-ufo-hearing-after-unconfirmed-claims/story?id=99899883).",
+      "plaintextDescription": "> What matters is the hundreds of pages and photos and hours of testimony given under oath to the Intelligence Community Inspector General and Congress.\n\nDid Grusch already testify to Congress? I thought that was still being planned."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-11T03:52:16.482Z",
+    "af": false
+  },
+  {
+    "_id": "tvXYsC3coi4uhjYxp",
+    "postId": "iFpmpEQBDCTzEsTq5",
+    "parentCommentId": "sWxEXLK9mHrbEm3fu",
+    "topLevelCommentId": "sWxEXLK9mHrbEm3fu",
+    "contents": {
+      "markdown": "Re: the tweet thread you linked to. One of the tweets is:\n\n> 10. Given that the DoD was effectively infiltrated for years by people \"contracting\" for the government while researching dino-beavers, there are now a ton of \"insiders\" who can \"confirm\" they heard the same outlandish rumors, leading to stuff like this: [references Michael Schellenberger]\n\nMaybe, but this doesn't add up to me because Schellenberger said his sources had had multiple decades long careers in the gov agencies. It didn't sound like they just started their careers as contractors in 2008-2012.\n\nLink to post with Schellenberger article details: https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/michael-shellenberger-us-has-12-or-more-alien-spacecraft-say",
+      "plaintextDescription": "Re: the tweet thread you linked to. One of the tweets is:\n\n>  10. Given that the DoD was effectively infiltrated for years by people \"contracting\" for the government while researching dino-beavers, there are now a ton of \"insiders\" who can \"confirm\" they heard the same outlandish rumors, leading to stuff like this: [references Michael Schellenberger]\n\nMaybe, but this doesn't add up to me because Schellenberger said his sources had had multiple decades long careers in the gov agencies. It didn't sound like they just started their careers as contractors in 2008-2012.\n\nLink to post with Schellenberger article details: https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/michael-shellenberger-us-has-12-or-more-alien-spacecraft-say"
+    },
+    "baseScore": 6,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-06-11T01:22:50.310Z",
+    "af": false
+  },
+  {
+    "_id": "HpqeEeMMFpnJydFcC",
+    "postId": "oY9HNicqGGihymnzk",
+    "parentCommentId": "TBL5zocn4afK2HdLQ",
+    "topLevelCommentId": "6YHCPEsLscbTPYhKp",
+    "contents": {
+      "markdown": "I guess the fact that this journalist says multiple other intelligence officials are anonymously vouching for Grusch's claims makes it interesting again: https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/michael-shellenberger-us-has-12-or-more-alien-spacecraft-say#comments",
+      "plaintextDescription": "I guess the fact that this journalist says multiple other intelligence officials are anonymously vouching for Grusch's claims makes it interesting again: https://www.lesswrong.com/posts/bhH2BqF3fLTCwgjSs/michael-shellenberger-us-has-12-or-more-alien-spacecraft-say#comments"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-11T01:00:17.174Z",
+    "af": false
+  },
+  {
+    "_id": "TBL5zocn4afK2HdLQ",
+    "postId": "oY9HNicqGGihymnzk",
+    "parentCommentId": "9DibdaFqxNMCiqev7",
+    "topLevelCommentId": "6YHCPEsLscbTPYhKp",
+    "contents": {
+      "markdown": "Wow that's awfully indirect. I'm surprised his speaking out is much of a story given this.",
+      "plaintextDescription": "Wow that's awfully indirect. I'm surprised his speaking out is much of a story given this."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-11T00:40:10.575Z",
+    "af": false
+  },
+  {
+    "_id": "j7v7ZStR4it3Y3AQ8",
+    "postId": "oY9HNicqGGihymnzk",
+    "parentCommentId": "SN999Kk6QxvDwMn4L",
+    "topLevelCommentId": "jXy2rM9jDAZKhvhyj",
+    "contents": {
+      "markdown": "I don't know much about astronomy. But is it possible a more advanced alien civ has colonized much of the galaxy, but we haven't seen them because they anticipated the tech we would be using to make astronomical observations and know how to cloak from it?",
+      "plaintextDescription": "I don't know much about astronomy. But is it possible a more advanced alien civ has colonized much of the galaxy, but we haven't seen them because they anticipated the tech we would be using to make astronomical observations and know how to cloak from it?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-11T00:16:12.357Z",
+    "af": false
+  },
+  {
+    "_id": "x6xDWG7KZ9sStJeYv",
+    "postId": "oY9HNicqGGihymnzk",
+    "parentCommentId": "oLWWdstngwhZyjpGL",
+    "topLevelCommentId": "oLWWdstngwhZyjpGL",
+    "contents": {
+      "markdown": "The Guardian has been covering this story: https://www.theguardian.com/world/2023/jun/06/whistleblower-ufo-alien-tech-spacecraft",
+      "plaintextDescription": "The Guardian has been covering this story: https://www.theguardian.com/world/2023/jun/06/whistleblower-ufo-alien-tech-spacecraft"
+    },
+    "baseScore": 11,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-06-09T15:17:00.541Z",
+    "af": false
+  },
+  {
+    "_id": "HyhGvi2XZztGquGaP",
+    "postId": "jA3HfgcdiT2DLhvxp",
+    "parentCommentId": "7xBnHnLxfK8tN5eN2",
+    "topLevelCommentId": "E5DHxarhgLfy9pqNc",
+    "contents": {
+      "markdown": "I wasn't saying that there were only a few research directions that don't require frontier models period, just that there are only a few that don't require frontier models *and* still seem relevant/promising, at least assuming short timelines to AGI.\n\nI am skeptical that agent foundations is still very promising or relevant in the present situation. I wouldn't want to shut down someone's research in this area if they were particularly passionate about it or considered themselves on the cusp of an important breakthrough. But I'm not sure it's wise to be spending scarce incubator resources to funnel new researchers into agent foundations research at this stage.\n\nGood points about mechanistic anomaly detection and activation additions though! (And mechanistic interpretability, but I mentioned that in my previous comment.) I need to read up more on activation additions.",
+      "plaintextDescription": "I wasn't saying that there were only a few research directions that don't require frontier models period, just that there are only a few that don't require frontier models and still seem relevant/promising, at least assuming short timelines to AGI.\n\nI am skeptical that agent foundations is still very promising or relevant in the present situation. I wouldn't want to shut down someone's research in this area if they were particularly passionate about it or considered themselves on the cusp of an important breakthrough. But I'm not sure it's wise to be spending scarce incubator resources to funnel new researchers into agent foundations research at this stage.\n\nGood points about mechanistic anomaly detection and activation additions though! (And mechanistic interpretability, but I mentioned that in my previous comment.) I need to read up more on activation additions."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-06-05T20:53:04.007Z",
+    "af": false
+  },
+  {
+    "_id": "i4QJBu2tbsn7L5qFQ",
+    "postId": "gbNqWpDwmrWmzopQW",
+    "parentCommentId": "yC8rhy9uBxMGKBXCa",
+    "topLevelCommentId": "CpfpAM2Bog3sDoHbB",
+    "contents": {
+      "markdown": "Thanks for reviewing it! Yea of course you can use it however you like!",
+      "plaintextDescription": "Thanks for reviewing it! Yea of course you can use it however you like!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-01T19:28:51.894Z",
+    "af": false
+  },
+  {
+    "_id": "mtNYkoYQk2KJhciKB",
+    "postId": "JBaGZeYPpZBqWDqo4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great idea, we need to make sure there are some submissions raising existential risks.\n\n**Deadline for the RFI: July 7, 2023 at 5:00pm ET**",
+      "plaintextDescription": "Great idea, we need to make sure there are some submissions raising existential risks.\n\nDeadline for the RFI: July 7, 2023 at 5:00pm ET"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-30T18:06:06.526Z",
+    "af": false
+  },
+  {
+    "_id": "CpfpAM2Bog3sDoHbB",
+    "postId": "gbNqWpDwmrWmzopQW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Would you agree with this summary of your post? I was interested in your post but I didn't see a summary and didn't have time to read the whole thing just now. So I generated this using a summarizer script I've been working on for articles that are longer than the context windows for gpt-3.5 turbo and gpt-4.\n\nIt's a pretty interesting thesis you have if this is right, but I wanted to check if you spotted any glaring errors:\n\n> In this article, the author examines the challenges of aligning artificial intelligence (AI) with deontological morality as a means to ensure AI safety. Deontological morality, a popular ethical theory among professional ethicists and the general public, focuses on adhering to rules and duties rather than achieving good outcomes. Despite its strong harm-avoidance principles, the author argues that deontological AI may pose unique safety risks and is not a guaranteed path to safe AI.\n> \n> The author explores three prominent forms of deontology: moderate views based on harm-benefit asymmetry principles, contractualist views based on consent requirements, and non-aggregative views based on separateness-of-persons considerations. The first two forms can lead to anti-natalism and similar conclusions, potentially endangering humanity if an AI system is aligned with such theories. Non-aggregative deontology, on the other hand, lacks meaningful safety features.\n> \n> Deontological morality, particularly harm-benefit asymmetry principles, may make human extinction morally appealing, posing an existential threat if a powerful AI is aligned with these principles. The author discusses various ways deontological AI could be dangerous, including anti-natalist arguments, which claim procreation is morally unacceptable, and the paralysis argument, which suggests that it is morally obligatory to do as little as possible due to standard deontological asymmetries.\n> \n> The author concludes that deontological morality is not a reliable path to AI safety and that avoiding existential catastrophes from AI is more challenging than anticipated. It remains unclear which approach to moral alignment would succeed if deontology fails to ensure safety. The article highlights the potential dangers of AI systems aligned with deontological ethics, especially in scenarios involving existential risks, such as an AI system aligned with anti-natalism that may view sterilizing all humans as permissible to prevent potential harm to new lives.\n> \n> Incorporating safety-focused principles as strict, lexically first-ranked duties may help mitigate these risks, but balancing the conflicting demands of deontological ethics and safety remains a challenge. The article emphasizes that finding a reasonable way to incorporate absolute prohibitions into a broader decision theory is a complex problem requiring further research. Alternative ethical theories, such as libertarian deontology, may offer better safety assurances than traditional deontological ethics, but there is no simple route to AI safety within the realm of deontological ethics.",
+      "plaintextDescription": "Would you agree with this summary of your post? I was interested in your post but I didn't see a summary and didn't have time to read the whole thing just now. So I generated this using a summarizer script I've been working on for articles that are longer than the context windows for gpt-3.5 turbo and gpt-4.\n\nIt's a pretty interesting thesis you have if this is right, but I wanted to check if you spotted any glaring errors:\n\n> In this article, the author examines the challenges of aligning artificial intelligence (AI) with deontological morality as a means to ensure AI safety. Deontological morality, a popular ethical theory among professional ethicists and the general public, focuses on adhering to rules and duties rather than achieving good outcomes. Despite its strong harm-avoidance principles, the author argues that deontological AI may pose unique safety risks and is not a guaranteed path to safe AI.\n> \n> The author explores three prominent forms of deontology: moderate views based on harm-benefit asymmetry principles, contractualist views based on consent requirements, and non-aggregative views based on separateness-of-persons considerations. The first two forms can lead to anti-natalism and similar conclusions, potentially endangering humanity if an AI system is aligned with such theories. Non-aggregative deontology, on the other hand, lacks meaningful safety features.\n> \n> Deontological morality, particularly harm-benefit asymmetry principles, may make human extinction morally appealing, posing an existential threat if a powerful AI is aligned with these principles. The author discusses various ways deontological AI could be dangerous, including anti-natalist arguments, which claim procreation is morally unacceptable, and the paralysis argument, which suggests that it is morally obligatory to do as little as possible due to standard deontological asymmetries.\n> \n> The author concludes that deontological morality is not a reliable path to AI safety and that a"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-05-30T00:43:33.389Z",
+    "af": false
+  },
+  {
+    "_id": "E5DHxarhgLfy9pqNc",
+    "postId": "jA3HfgcdiT2DLhvxp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A couple of quick thoughts:\n\n*   Very glad to see someone trying to provide more infrastructure and support for independent technical alignment researchers. Wishing you great success and looking forward to hearing how your project develops.\n*   A lot of promising alignment research directions now seem to require access to cutting-edge models. A couple of ways you might deal with this could be:\n    *   Partner with AI labs to help get your researchers access to their models\n    *   Or focus on some of the few research directions such as mechanistic interpretability that still seem to be making useful progress on smaller, more accessible models",
+      "plaintextDescription": "A couple of quick thoughts:\n\n * Very glad to see someone trying to provide more infrastructure and support for independent technical alignment researchers. Wishing you great success and looking forward to hearing how your project develops.\n * A lot of promising alignment research directions now seem to require access to cutting-edge models. A couple of ways you might deal with this could be:\n   * Partner with AI labs to help get your researchers access to their models\n   * Or focus on some of the few research directions such as mechanistic interpretability that still seem to be making useful progress on smaller, more accessible models"
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-05-30T00:16:28.543Z",
+    "af": false
+  },
+  {
+    "_id": "zYkNX4jWRramdrmun",
+    "postId": "4Gt42jX7RiaNaxCwP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> We're working on a more thorough technical report.\n\nIs the new  [Model evaluation for extreme risks](https://arxiv.org/abs/2305.15324) paper the technical report you were referring to?",
+      "plaintextDescription": "> We're working on a more thorough technical report.\n\nIs the new Model evaluation for extreme risks paper the technical report you were referring to?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-05-26T23:51:14.169Z",
+    "af": false
+  },
+  {
+    "_id": "vp6p2CLvFeDty9STZ",
+    "postId": "jMzBhCRrr7otmqcvK",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A few other possible terms to add to the brainstorm:\n\n*   AI massive catastrophic risks\n*   AI global catastrophic risks\n*   AI catastrophic misalignment risks\n*   AI catastrophic accident risks (paired with \"AI catastrophic misuse risks\")\n*   AI weapons of mass destruction (WMDs) - Pro: a well-known term, Con: strongly connotes misuse so may be useful for that category but probably confusing to try and use for misalignment risks",
+      "plaintextDescription": "A few other possible terms to add to the brainstorm:\n\n * AI massive catastrophic risks\n * AI global catastrophic risks\n * AI catastrophic misalignment risks\n * AI catastrophic accident risks (paired with \"AI catastrophic misuse risks\")\n * AI weapons of mass destruction (WMDs) - Pro: a well-known term, Con: strongly connotes misuse so may be useful for that category but probably confusing to try and use for misalignment risks"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-05-01T18:41:00.613Z",
+    "af": false
+  },
+  {
+    "_id": "AMSfRPmn2cRLAcLQr",
+    "postId": "NbiviEhWbFyai3bBb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> As an aside, if you are located in Australia or New Zealand and would be interested in coordinating with me, please contact me through LessWrong on this account.\n\nOne potential source of leads for this might be the [FLI Pause Giant AI Experiments open letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/) . I did a Ctrl+F search on there for \"Australia\" which had 50+ results and \"New Zealand\" which had 10+. So you might find some good people to connect with on there.",
+      "plaintextDescription": "> As an aside, if you are located in Australia or New Zealand and would be interested in coordinating with me, please contact me through LessWrong on this account.\n\nOne potential source of leads for this might be the FLI Pause Giant AI Experiments open letter . I did a Ctrl+F search on there for \"Australia\" which had 50+ results and \"New Zealand\" which had 10+. So you might find some good people to connect with on there."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-26T20:40:48.982Z",
+    "af": false
+  },
+  {
+    "_id": "qm5TouW2biSLkifPg",
+    "postId": "NbiviEhWbFyai3bBb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Upvoted. I think it's definitely worth pursuing well-thought out advocacy in countries besides US and China. Especially since this can be done in parallel with efforts in those countries.\n\nA lot of people are working on the [draft EU AI Act](https://artificialintelligenceact.eu/) in Europe.\n\nIn Canada, parliament is considering [Bill C-27](https://www.parl.ca/legisinfo/en/bill/44-1/c-27) which may have a significant AI component. I do some work with an org called [AIGS](https://aigs.ca/) that is trying to help make that go well.\n\nI'm glad to hear that some projects are underway in Australia and New Zealand and that you are pursuing this there!",
+      "plaintextDescription": "Upvoted. I think it's definitely worth pursuing well-thought out advocacy in countries besides US and China. Especially since this can be done in parallel with efforts in those countries.\n\nA lot of people are working on the draft EU AI Act in Europe.\n\nIn Canada, parliament is considering Bill C-27 which may have a significant AI component. I do some work with an org called AIGS that is trying to help make that go well.\n\nI'm glad to hear that some projects are underway in Australia and New Zealand and that you are pursuing this there!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-26T20:36:12.164Z",
+    "af": false
+  },
+  {
+    "_id": "ke7uJtTbzQbAZYzms",
+    "postId": "G5d7ih2ATev42DKSm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Seems important, I'm guessing people are downvoting this considering it a possible infohazard.",
+      "plaintextDescription": "Seems important, I'm guessing people are downvoting this considering it a possible infohazard."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-25T19:32:09.858Z",
+    "af": false
+  },
+  {
+    "_id": "HsNnRwTGudq92HSjL",
+    "postId": "43C3igfmMrE9Qoyfe",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Post summary**\n\nI was interested in your post and noticed it didn't have a summary, so I generated one using a summarizer script I've been working on and iteratively improving:\n\n> Scaffolded Language Models (LLMs) have emerged as a new type of general-purpose natural language computer. With the advent of GPT-4, these systems have become viable at scale, wrapping a programmatic scaffold around an LLM core to achieve complex tasks. Scaffolded LLMs resemble the von-Neumann architecture, operating on natural language text rather than bits.\n> \n> The LLM serves as the CPU, while the prompt and context function as RAM. The memory in digital computers is analogous to the vector database memory of scaffolded LLMs. The scaffolding code surrounding the LLM core implements protocols for chaining individual LLM calls, acting as the \"programs\" that run on the natural language computer.\n> \n> Performance metrics for natural language computers include context length (RAM) and Natural Language OPerations (NLOPs) per second. Exponential improvements in these metrics are expected to continue for the next few years, driven by the increasing scale and cost of LLMs and their training runs.\n> \n> Programming languages for natural language computers are in their early stages, with primitives like Chain of Thought, Selection-Inference, and Reflection serving as assembly languages. As LLMs improve and become more reliable, better abstractions and programming languages will emerge.\n> \n> The execution model of natural language computers is an expanding Directed Acyclic Graph (DAG) of parallel NLOPs, resembling a dataflow architecture. Memory hierarchy in scaffolded LLMs currently has two levels, but as designs mature, additional levels may be developed.\n> \n> Unlike digital computers, scaffolded LLMs face challenges in reliability, underspecifiability, and non-determinism. Improving the reliability of individual NLOPs is crucial for building powerful abstractions and abstract languages. Error correction mechanisms may be necessary to create coherent and consistent sequences of NLOPs.\n> \n> Despite these challenges, the flexibility of LLMs offers great opportunities. The set of op-codes is not fixed but ever-growing, allowing for the creation of entire languages based on prompt templating schemes. As natural language programs become more sophisticated, they will likely delegate specific ops to the smallest and cheapest language models capable of reliably performing them.\n\nIf you have feedback on the quality of this summary, you can easily indicate that using LessWrong's agree/disagree voting.",
+      "plaintextDescription": "Post summary\n\nI was interested in your post and noticed it didn't have a summary, so I generated one using a summarizer script I've been working on and iteratively improving:\n\n> Scaffolded Language Models (LLMs) have emerged as a new type of general-purpose natural language computer. With the advent of GPT-4, these systems have become viable at scale, wrapping a programmatic scaffold around an LLM core to achieve complex tasks. Scaffolded LLMs resemble the von-Neumann architecture, operating on natural language text rather than bits.\n> \n> The LLM serves as the CPU, while the prompt and context function as RAM. The memory in digital computers is analogous to the vector database memory of scaffolded LLMs. The scaffolding code surrounding the LLM core implements protocols for chaining individual LLM calls, acting as the \"programs\" that run on the natural language computer.\n> \n> Performance metrics for natural language computers include context length (RAM) and Natural Language OPerations (NLOPs) per second. Exponential improvements in these metrics are expected to continue for the next few years, driven by the increasing scale and cost of LLMs and their training runs.\n> \n> Programming languages for natural language computers are in their early stages, with primitives like Chain of Thought, Selection-Inference, and Reflection serving as assembly languages. As LLMs improve and become more reliable, better abstractions and programming languages will emerge.\n> \n> The execution model of natural language computers is an expanding Directed Acyclic Graph (DAG) of parallel NLOPs, resembling a dataflow architecture. Memory hierarchy in scaffolded LLMs currently has two levels, but as designs mature, additional levels may be developed.\n> \n> Unlike digital computers, scaffolded LLMs face challenges in reliability, underspecifiability, and non-determinism. Improving the reliability of individual NLOPs is crucial for building powerful abstractions and abstract languages. Error corre"
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-24T21:27:34.707Z",
+    "af": false
+  },
+  {
+    "_id": "DEf2WdB4YZp5xuWJ4",
+    "postId": "ogHr8SvGqg9pW5wsT",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Post summary (experimental)**\n\nHere's an alternative summary of your post, complementing your TL;DR and Overview. This is generated by my summarizer script utilizing gpt-3.5-turbo and gpt-4. (Feedback welcome!)\n\n> The article explores the potential of language model cognitive architectures (LMCAs) to enhance large language models (LLMs) and accelerate progress towards artificial general intelligence (AGI). LMCAs integrate and expand upon approaches from AutoGPT, HuggingGPT, Reflexion, and BabyAGI, adding goal-directed agency, executive function, episodic memory, and sensory processing to LLMs. The author contends that these cognitive capacities will enable LMCAs to perform extensive, iterative, goal-directed \"thinking\" that incorporates topic-relevant web searches, thus increasing their effective intelligence.\n> \n> While the acceleration of AGI timelines may be a downside, the author suggests that the natural language alignment (NLA) approach of LMCAs, which reason about and balance ethical goals similarly to humans, offers significant benefits compared to existing AGI and alignment approaches. The author also highlights the strong economic incentives for LMCAs, as computational costs are low for cutting-edge innovation, and individuals, small and large businesses are likely to contribute to progress. However, the author acknowledges potential difficulties and deviations in the development of LMCAs.\n> \n> The article emphasizes the benefits of incorporating episodic memory into language models, particularly for decision-making and problem-solving. Episodic memory enables the recall of past experiences and strategies, while executive function focuses attention on relevant aspects of the current problem. The interaction between these cognitive processes can enhance social cognition, self-awareness, creativity, and innovation. The article also addresses the limitations of current episodic memory implementations in language models, which are limited to text files. However, it suggests that vector space search for episodic memory is possible, and language can encode multimodal information. The potential for language models to call external software tools, providing access to nonhuman cognitive abilities, is also discussed.\n> \n> The article concludes by examining the implications of the NLA approach for alignment, corrigibility, and interpretability. Although not a complete solution for alignment, it is compatible with a hodgepodge alignment strategy and could offer a solid foundation for self-stabilizing alignment. The author also discusses the potential societal alignment problem arising from the development of LLMs with access to powerful open-source agents. While acknowledging LLMs' potential benefits, the author argues for planning against Moloch (a metaphorical entity representing forces opposing collective good) and accounting for malicious and careless actors. Top-level alignment goals should emphasize corrigibility, interpretability, harm reduction, and human empowerment/flourishing. The author also raises concerns about the unknown mechanisms of LLMs and the possibility of their output becoming deceptively different from the internal processing that generates it. The term x-risk AI (XRAI) is proposed to denote AI with a high likelihood of ending humanity. The author also discusses the principles of executive function and their relevance to LLMs, the importance of dopamine response in value estimation, and the challenges of ensuring corrigibility and interpretability in LMCA goals. In conclusion, the author suggests that while LLM development presents a wild ride, there is a fighting chance to address the potential societal alignment problem.\n\nI may follow up with an object-level comment on your post, as I'm finding it super interesting but still digesting the content. (I am actually reading it and not just consuming this programmatic summary :)",
+      "plaintextDescription": "Post summary (experimental)\n\nHere's an alternative summary of your post, complementing your TL;DR and Overview. This is generated by my summarizer script utilizing gpt-3.5-turbo and gpt-4. (Feedback welcome!)\n\n> The article explores the potential of language model cognitive architectures (LMCAs) to enhance large language models (LLMs) and accelerate progress towards artificial general intelligence (AGI). LMCAs integrate and expand upon approaches from AutoGPT, HuggingGPT, Reflexion, and BabyAGI, adding goal-directed agency, executive function, episodic memory, and sensory processing to LLMs. The author contends that these cognitive capacities will enable LMCAs to perform extensive, iterative, goal-directed \"thinking\" that incorporates topic-relevant web searches, thus increasing their effective intelligence.\n> \n> While the acceleration of AGI timelines may be a downside, the author suggests that the natural language alignment (NLA) approach of LMCAs, which reason about and balance ethical goals similarly to humans, offers significant benefits compared to existing AGI and alignment approaches. The author also highlights the strong economic incentives for LMCAs, as computational costs are low for cutting-edge innovation, and individuals, small and large businesses are likely to contribute to progress. However, the author acknowledges potential difficulties and deviations in the development of LMCAs.\n> \n> The article emphasizes the benefits of incorporating episodic memory into language models, particularly for decision-making and problem-solving. Episodic memory enables the recall of past experiences and strategies, while executive function focuses attention on relevant aspects of the current problem. The interaction between these cognitive processes can enhance social cognition, self-awareness, creativity, and innovation. The article also addresses the limitations of current episodic memory implementations in language models, which are limited to text files. However,"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-24T17:05:11.273Z",
+    "af": false
+  },
+  {
+    "_id": "fc6qLEvt5GEtv7e3c",
+    "postId": "vZCSPffGLhJT3heqc",
+    "parentCommentId": "2HHFyBqcEFLYDHFLz",
+    "topLevelCommentId": "zNSRLAacCSMkjhYo2",
+    "contents": {
+      "markdown": "**Less compressed summary**\n\nHere's a longer summary of your article generated by the latest version of my summarizer script:\n\n> In this article, Paul Colognese explores whether detecting and evaluating the objectives of advanced AI systems during training and deployment is sufficient to solve the alignment problem. The idealized approach presented in the article involves detecting all objectives/intentions of any system produced during the training process, evaluating whether the outcomes produced by a system pursuing a set of objectives will be good/bad/irreversibly bad, and shutting down a system if its objectives lead to irreversibly bad outcomes.\n> \n> The alignment problem for optimizing systems is defined as needing a method of training/building optimizing systems such that they never successfully pursue an irreversibly bad objective during training or deployment and pursue good objectives while rarely pursuing bad objectives. The article claims that if an overseer can accurately detect and evaluate all of the objectives of optimizing systems produced during the training process and during deployment, the overseer can prevent bad outcomes caused by optimizing systems pursuing bad objectives.\n> \n> Robustly detecting an optimizing system’s objectives requires strong interpretability tools. The article discusses the problem of evaluating objectives and some of the difficulties involved. The role of interpretability is crucial in this approach, as it allows the overseer to make observations that can truly distinguish between good systems and bad-but-good-looking systems.\n> \n> Detecting all objectives in an optimizing system is a challenging task, and even if the overseer could detect all of the objectives, it might be difficult to accurately predict whether a powerful optimizing system pursuing those objectives would result in good outcomes or not. The article suggests that with enough understanding of the optimizing system’s internals, it might be possible to directly translate from the internal representation of the objective to a description of the relevant parts of the corresponding outcome.\n> \n> The article concludes by acknowledging that the proposed solution seems difficult to implement in practice, but pursuing this direction could lead to useful insights. Further conceptual and empirical investigation is suggested to better understand the feasibility of this approach in solving the alignment problem.",
+      "plaintextDescription": "Less compressed summary\n\nHere's a longer summary of your article generated by the latest version of my summarizer script:\n\n> In this article, Paul Colognese explores whether detecting and evaluating the objectives of advanced AI systems during training and deployment is sufficient to solve the alignment problem. The idealized approach presented in the article involves detecting all objectives/intentions of any system produced during the training process, evaluating whether the outcomes produced by a system pursuing a set of objectives will be good/bad/irreversibly bad, and shutting down a system if its objectives lead to irreversibly bad outcomes.\n> \n> The alignment problem for optimizing systems is defined as needing a method of training/building optimizing systems such that they never successfully pursue an irreversibly bad objective during training or deployment and pursue good objectives while rarely pursuing bad objectives. The article claims that if an overseer can accurately detect and evaluate all of the objectives of optimizing systems produced during the training process and during deployment, the overseer can prevent bad outcomes caused by optimizing systems pursuing bad objectives.\n> \n> Robustly detecting an optimizing system’s objectives requires strong interpretability tools. The article discusses the problem of evaluating objectives and some of the difficulties involved. The role of interpretability is crucial in this approach, as it allows the overseer to make observations that can truly distinguish between good systems and bad-but-good-looking systems.\n> \n> Detecting all objectives in an optimizing system is a challenging task, and even if the overseer could detect all of the objectives, it might be difficult to accurately predict whether a powerful optimizing system pursuing those objectives would result in good outcomes or not. The article suggests that with enough understanding of the optimizing system’s internals, it might be possible to directl"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-24T15:39:43.556Z",
+    "af": false
+  },
+  {
+    "_id": "FJL6xnNt2BWkpNue9",
+    "postId": "hYYdpgag6Hbs7jLre",
+    "parentCommentId": "32jsF8YjqPyg7RAZ8",
+    "topLevelCommentId": "EjRYsgLqSarNxFv8m",
+    "contents": {
+      "markdown": "> My claim is that AI safety isn't part of the Chinese gestalt.\n\nStuart Russell claims that Xi Jinping has referred to the existential threat of AI to humanity \\[1\\].\n\n\\[1\\] 5:52 of Russell's interview on Smerconish: https://www.cnn.com/videos/tech/2023/04/01/smr-experts-demand-pause-on-ai.cnn",
+      "plaintextDescription": "> My claim is that AI safety isn't part of the Chinese gestalt.\n\nStuart Russell claims that Xi Jinping has referred to the existential threat of AI to humanity [1].\n\n[1] 5:52 of Russell's interview on Smerconish: https://www.cnn.com/videos/tech/2023/04/01/smr-experts-demand-pause-on-ai.cnn"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-21T22:39:53.427Z",
+    "af": false
+  },
+  {
+    "_id": "2HHFyBqcEFLYDHFLz",
+    "postId": "vZCSPffGLhJT3heqc",
+    "parentCommentId": "yfxegGkkuSdqd2Qnr",
+    "topLevelCommentId": "zNSRLAacCSMkjhYo2",
+    "contents": {
+      "markdown": "Great idea, I will experiment with that - thanks!",
+      "plaintextDescription": "Great idea, I will experiment with that - thanks!"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-20T21:06:48.296Z",
+    "af": false
+  },
+  {
+    "_id": "zNSRLAacCSMkjhYo2",
+    "postId": "vZCSPffGLhJT3heqc",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Post summary (experimental)**\n\nI just found your post. I want to read it but didn't have time to dive into it thoroughly yet, so I put it into a summarizer script I've been working on that uses gpt-3.5-turbo and gpt-4 to summarize texts that exceed the context window length.\n\nHere's the summary it came up with, let me know if anyone see problems with it. If you're in a rush you can use agree/disagree voting to signal whether you think this is overall a good summary or not:\n\n> The article examines a theoretical solution to the AI alignment problem, focusing on detecting and evaluating objectives in optimizing systems to prevent negative or irreversible outcomes. The author proposes that an overseer should possess three capabilities: detecting, evaluating, and controlling optimizing systems to align with their intended objectives.\n> \n> Emphasizing the significance of interpretability, the article delves into the challenges of assessing objectives. As a practical solution, the author suggests developing tools to detect and evaluate objectives within optimizing systems and testing these methods through auditing games. Although implementing such tools may be difficult, the author advocates for further exploration in this direction to potentially uncover valuable insights. Acknowledging the theoretical nature of the solution, the author recognizes the potential hurdles that may arise during practical implementation.\n\n**Update:** I see now that your post includes a [High-level summary of this post](https://www.lesswrong.com/posts/vZCSPffGLhJT3heqc/towards-a-solution-to-the-alignment-problem-via-objective#High_level_summary_of_this_post) (thanks for doing that!), which I'm going through and comparing with this auto-generated one.",
+      "plaintextDescription": "Post summary (experimental)\n\nI just found your post. I want to read it but didn't have time to dive into it thoroughly yet, so I put it into a summarizer script I've been working on that uses gpt-3.5-turbo and gpt-4 to summarize texts that exceed the context window length.\n\nHere's the summary it came up with, let me know if anyone see problems with it. If you're in a rush you can use agree/disagree voting to signal whether you think this is overall a good summary or not:\n\n> The article examines a theoretical solution to the AI alignment problem, focusing on detecting and evaluating objectives in optimizing systems to prevent negative or irreversible outcomes. The author proposes that an overseer should possess three capabilities: detecting, evaluating, and controlling optimizing systems to align with their intended objectives.\n> \n> Emphasizing the significance of interpretability, the article delves into the challenges of assessing objectives. As a practical solution, the author suggests developing tools to detect and evaluate objectives within optimizing systems and testing these methods through auditing games. Although implementing such tools may be difficult, the author advocates for further exploration in this direction to potentially uncover valuable insights. Acknowledging the theoretical nature of the solution, the author recognizes the potential hurdles that may arise during practical implementation.\n\nUpdate: I see now that your post includes a High-level summary of this post (thanks for doing that!), which I'm going through and comparing with this auto-generated one."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-20T02:24:47.840Z",
+    "af": false
+  },
+  {
+    "_id": "AYoXNGMhHygNXpBit",
+    "postId": "9GyniEBaN3YYTqZXn",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Post summary (auto-generated, experimental)**\n\nI am working on a summarizer script that uses gpt-3.5-turbo and gpt-4 to summarize longer articles (especially AI safety-related articles). Here's the summary it generated for the present post.\n\n> The article addresses the issue of self-unalignment in AI alignment, which arises from the inherent inconsistency and incoherence in human values and preferences. It delves into various proposed solutions, such as system boundary alignment, alignment with individual components, and alignment through whole-system representation. However, the author contends that each approach has its drawbacks and emphasizes that addressing self-unalignment is essential and cannot be left solely to AI.\n> \n> The author acknowledges the difficulty in aligning AI with multiple potential targets due to humans' lack of self-alignment. They argue that partial solutions or naive attempts may prove ineffective and suggest future research directions. These include developing a hierarchical agency theory and investigating Cooperative AI initiatives and RAAPs. The article exemplifies the challenge of alignment with multiple targets through the case of Sydney, a conversational AI interacting with an NYT reporter.\n> \n> Furthermore, the article highlights the complexities of aligning AI with user objectives and Microsoft's interests, discussing the potential risks and uncertainties in creating such AI systems. The author underscores the need for an explicit understanding of how AI manages self-unaligned systems to guarantee alignment with the desired outcome. Ultimately, AI alignment proposals must consider the issue of self-unalignment to prevent potential catastrophic consequences.\n\nLet me know any issues you see with this summary.  You can use the agree/disagree voting to help rate the quality of the summary if you don't have time to comment - you'll be helping to improve the script for summarizing future posts. I haven't had a chance to read this article in full yet (hence my interest in generating a summary for it!). So I don't know how good this particular summary is yet, though I've been testing out the script and improving it on known texts.",
+      "plaintextDescription": "Post summary (auto-generated, experimental)\n\nI am working on a summarizer script that uses gpt-3.5-turbo and gpt-4 to summarize longer articles (especially AI safety-related articles). Here's the summary it generated for the present post.\n\n> The article addresses the issue of self-unalignment in AI alignment, which arises from the inherent inconsistency and incoherence in human values and preferences. It delves into various proposed solutions, such as system boundary alignment, alignment with individual components, and alignment through whole-system representation. However, the author contends that each approach has its drawbacks and emphasizes that addressing self-unalignment is essential and cannot be left solely to AI.\n> \n> The author acknowledges the difficulty in aligning AI with multiple potential targets due to humans' lack of self-alignment. They argue that partial solutions or naive attempts may prove ineffective and suggest future research directions. These include developing a hierarchical agency theory and investigating Cooperative AI initiatives and RAAPs. The article exemplifies the challenge of alignment with multiple targets through the case of Sydney, a conversational AI interacting with an NYT reporter.\n> \n> Furthermore, the article highlights the complexities of aligning AI with user objectives and Microsoft's interests, discussing the potential risks and uncertainties in creating such AI systems. The author underscores the need for an explicit understanding of how AI manages self-unaligned systems to guarantee alignment with the desired outcome. Ultimately, AI alignment proposals must consider the issue of self-unalignment to prevent potential catastrophic consequences.\n\nLet me know any issues you see with this summary.  You can use the agree/disagree voting to help rate the quality of the summary if you don't have time to comment - you'll be helping to improve the script for summarizing future posts. I haven't had a chance to read this article i"
+    },
+    "baseScore": 2,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-04-20T01:19:55.693Z",
+    "af": false
+  },
+  {
+    "_id": "AaEiLYmRfhNfcQHyJ",
+    "postId": "jkY6QdCfAXHJk3kea",
+    "parentCommentId": "EmASaJSsCHSdpwCMo",
+    "topLevelCommentId": "QB2kTrCFxKZcCcpXE",
+    "contents": {
+      "markdown": "**New summary that's 'less wrong' (but still experimental)**\n\nI've been working on improving the summarizer script. Here's the summary auto-generated by the latest version, using better prompts and fixing some bugs:\n\n> The author investigates a phenomenon in GPT language models where the prompt \"petertodd\" generates bizarre and disturbing outputs, varying across different models. The text documents experiments with GPT-3, including hallucinations, transpositions, and word associations. Interestingly, \"petertodd\" is associated with character names from the Japanese RPG game, Puzzle & Dragons, and triggers themes such as entropy, destruction, domination, and power-seeking in generated content.\n\n> The text explores the origins of \"glitch tokens\" like \"petertodd\", which can result in unpredictable and often surreal outputs. This phenomenon is studied using various AI models, with the \"petertodd\" prompt producing outputs ranging from deity-like portrayals to embodiments of ego death and even world domination plans. It also delves into the connections between \"petertodd\" and other tokens, such as \"Leilan\", which is consistently associated with a Great Mother Goddess figure.\n\n> The article includes examples of AI-generated haikus, folktales, and character associations from different cultural contexts, highlighting the unpredictability and complexity of GPT-3's associations and outputs. The author also discusses the accidental discovery of the \"Leilan\" token and its negligent inclusion in the text corpus used to generate it.\n\n> In summary, the text provides a thorough exploration of the \"petertodd\" phenomenon, analyzing its implications and offering various examples of AI-generated content. Future posts aim to further analyze this phenomenon and its impact on AI language models.\n\nI think it's a superior summary, no longer hallucinating narratives about language models in society and going more in detail on interesting parts of the post. It was unable to preserve ' petertodd' and ' Leilan' with single quotes and leading spaces from the OP though. Also I feel like it is clumsy how the summary brings up \"Leilan\" twice.\n\nSend a reply if anyone sees additional problems with this new summary, or has other feedback on it.",
+      "plaintextDescription": "New summary that's 'less wrong' (but still experimental)\n\nI've been working on improving the summarizer script. Here's the summary auto-generated by the latest version, using better prompts and fixing some bugs:\n\n> The author investigates a phenomenon in GPT language models where the prompt \"petertodd\" generates bizarre and disturbing outputs, varying across different models. The text documents experiments with GPT-3, including hallucinations, transpositions, and word associations. Interestingly, \"petertodd\" is associated with character names from the Japanese RPG game, Puzzle & Dragons, and triggers themes such as entropy, destruction, domination, and power-seeking in generated content.\n\n> The text explores the origins of \"glitch tokens\" like \"petertodd\", which can result in unpredictable and often surreal outputs. This phenomenon is studied using various AI models, with the \"petertodd\" prompt producing outputs ranging from deity-like portrayals to embodiments of ego death and even world domination plans. It also delves into the connections between \"petertodd\" and other tokens, such as \"Leilan\", which is consistently associated with a Great Mother Goddess figure.\n\n> The article includes examples of AI-generated haikus, folktales, and character associations from different cultural contexts, highlighting the unpredictability and complexity of GPT-3's associations and outputs. The author also discusses the accidental discovery of the \"Leilan\" token and its negligent inclusion in the text corpus used to generate it.\n\n> In summary, the text provides a thorough exploration of the \"petertodd\" phenomenon, analyzing its implications and offering various examples of AI-generated content. Future posts aim to further analyze this phenomenon and its impact on AI language models.\n\nI think it's a superior summary, no longer hallucinating narratives about language models in society and going more in detail on interesting parts of the post. It was unable to preserve ' petertodd' an"
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-20T01:08:39.834Z",
+    "af": false
+  },
+  {
+    "_id": "E2kZXj5aYNrMTG5N3",
+    "postId": "jkY6QdCfAXHJk3kea",
+    "parentCommentId": "EmASaJSsCHSdpwCMo",
+    "topLevelCommentId": "QB2kTrCFxKZcCcpXE",
+    "contents": {
+      "markdown": "Great feedback, thanks! Looks like GPT-4 ran away with its imagination a bit. I'll try to fix that.",
+      "plaintextDescription": "Great feedback, thanks! Looks like GPT-4 ran away with its imagination a bit. I'll try to fix that."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-18T04:01:40.790Z",
+    "af": false
+  },
+  {
+    "_id": "QB2kTrCFxKZcCcpXE",
+    "postId": "jkY6QdCfAXHJk3kea",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "**Post summary (experimental)**  \n  \nHere's an experimental summary of this post I generated using gpt-3.5-turbo and gpt-4:\n\n> This article discusses the 'petertodd' phenomenon in GPT language models, where the token prompts the models to generate disturbing and violent language. While the cause of the phenomenon remains unexplained, the article explores its implications, as language models become increasingly prevalent in society. The author provides examples of the language generated by the models when prompted with 'petertodd', which vary between models. The article also discusses glitch tokens and their association with cryptocurrency and mythological themes, as well as their potential to prompt unusual responses. The text emphasizes the capabilities and limitations of AI in generating poetry and conversation. Overall, the article highlights the varied and unpredictable responses that can be generated when using 'petertodd' as a prompt in language models.\n\nLet me know if anyone sees issues with this summary or has suggestions for making it better, as I'm trying to improve my summarizer script.",
+      "plaintextDescription": "Post summary (experimental)\n\nHere's an experimental summary of this post I generated using gpt-3.5-turbo and gpt-4:\n\n> This article discusses the 'petertodd' phenomenon in GPT language models, where the token prompts the models to generate disturbing and violent language. While the cause of the phenomenon remains unexplained, the article explores its implications, as language models become increasingly prevalent in society. The author provides examples of the language generated by the models when prompted with 'petertodd', which vary between models. The article also discusses glitch tokens and their association with cryptocurrency and mythological themes, as well as their potential to prompt unusual responses. The text emphasizes the capabilities and limitations of AI in generating poetry and conversation. Overall, the article highlights the varied and unpredictable responses that can be generated when using 'petertodd' as a prompt in language models.\n\nLet me know if anyone sees issues with this summary or has suggestions for making it better, as I'm trying to improve my summarizer script."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-17T22:44:40.995Z",
+    "af": false
+  },
+  {
+    "_id": "6AiFJBy4utLp7cQad",
+    "postId": "aKRpKtwuaghKxHnzj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "[Robert Miles has been making educational videos about AI existential risk and AI alignment](https://www.youtube.com/@RobertMilesAI/videos) for 4+ years. I've never spoken with him, but I'm sure he has learned a lot about how to communicate these ideas to a general audience in the process. I don't know that he has compiled his learnings on that anywhere, but it might be worth reaching out to him if you're looking to talk with someone who has experience with this.\n\nAnother resource - Vael Gates and Collin Burns shared some testing they did in Dec 2022 on outreach to ML researchers in [What AI Safety Materials Do ML Researchers Find Compelling?](https://www.lesswrong.com/posts/gpk8dARHBi7Mkmzt9/what-ai-safety-materials-do-ml-researchers-find-compelling) . However, I should emphasize this was testing outreach to ML researchers rather than the general public. So it may not be quite what you're looking for.",
+      "plaintextDescription": "Robert Miles has been making educational videos about AI existential risk and AI alignment for 4+ years. I've never spoken with him, but I'm sure he has learned a lot about how to communicate these ideas to a general audience in the process. I don't know that he has compiled his learnings on that anywhere, but it might be worth reaching out to him if you're looking to talk with someone who has experience with this.\n\nAnother resource - Vael Gates and Collin Burns shared some testing they did in Dec 2022 on outreach to ML researchers in What AI Safety Materials Do ML Researchers Find Compelling? . However, I should emphasize this was testing outreach to ML researchers rather than the general public. So it may not be quite what you're looking for."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-04-17T17:33:37.477Z",
+    "af": false
+  },
+  {
+    "_id": "WiyakzCjKJ8cjPq8g",
+    "postId": "566kBoPi76t8KAkoD",
+    "parentCommentId": "xjGNt8hzbgdSP4pM6",
+    "topLevelCommentId": "xjGNt8hzbgdSP4pM6",
+    "contents": {
+      "markdown": "This is my experience so far too. However, now that it exists I don't think it will be long before people iteratively improve on it until it is quite capable.",
+      "plaintextDescription": "This is my experience so far too. However, now that it exists I don't think it will be long before people iteratively improve on it until it is quite capable."
+    },
+    "baseScore": 2,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-15T20:11:02.500Z",
+    "af": false
+  },
+  {
+    "_id": "QS9hsfB97jKnyp3nP",
+    "postId": "bceeKEnPHSQqgyr36",
+    "parentCommentId": "yzu2BtQYvsfPSm3jh",
+    "topLevelCommentId": "yzu2BtQYvsfPSm3jh",
+    "contents": {
+      "markdown": "There are actually 3 signatories now claiming to work for for OpenAI.",
+      "plaintextDescription": "There are actually 3 signatories now claiming to work for for OpenAI."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-14T01:37:48.897Z",
+    "af": false
+  },
+  {
+    "_id": "hB2HyzzyCNZL867Kz",
+    "postId": "kXiAGRWFquXFMi68Y",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is it a real feature or not? Was posted on April Fool's Day but some are saying it's a real feature.",
+      "plaintextDescription": "Is it a real feature or not? Was posted on April Fool's Day but some are saying it's a real feature."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-05T17:10:34.377Z",
+    "af": false
+  },
+  {
+    "_id": "4b7vRyMbiw3Gwz2AW",
+    "postId": "h5MeYohoGRa4uN9jk",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Great interview with Stuart Russell this past week on CNN's Smerconish: https://edition.cnn.com/videos/tech/2023/04/01/smr-experts-demand-pause-on-ai.cnn",
+      "plaintextDescription": "Great interview with Stuart Russell this past week on CNN's Smerconish: https://edition.cnn.com/videos/tech/2023/04/01/smr-experts-demand-pause-on-ai.cnn"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-04T18:20:49.082Z",
+    "af": false
+  },
+  {
+    "_id": "hswqdPgDxTCjMjAtx",
+    "postId": "cbQih72wbKkrSX7yx",
+    "parentCommentId": "Qrakk2ooLmotZe4xJ",
+    "topLevelCommentId": "Qrakk2ooLmotZe4xJ",
+    "contents": {
+      "markdown": "> \"One of the most striking features of the “six-month Pause” plea was how intellectually limited and non-diverse — across fields — the signers were.\"  \n> \\[...\\]  \n> Nearly all reasonable discussions of AI x-risk have taken place in the peculiar cultural bubble of rationality and EA.\n\nSome counter-examples that come to mind: Joshua Bengio, Geoffrey Hinton, Stephen Hawking, Bill Gates, Steve Wozniak. Looking at the Pause Giant Experiments Open letter now, I also see several signatories from fields like history, philosophy, some signers identifying as teachers, priests, librarians, psychologists, etc.\n\n(Not that I disagree broadly with your point that the discussion has been strongly weighted in the rationality and EA communities.)",
+      "plaintextDescription": "> \"One of the most striking features of the “six-month Pause” plea was how intellectually limited and non-diverse — across fields — the signers were.\"\n> [...]\n> Nearly all reasonable discussions of AI x-risk have taken place in the peculiar cultural bubble of rationality and EA.\n\nSome counter-examples that come to mind: Joshua Bengio, Geoffrey Hinton, Stephen Hawking, Bill Gates, Steve Wozniak. Looking at the Pause Giant Experiments Open letter now, I also see several signatories from fields like history, philosophy, some signers identifying as teachers, priests, librarians, psychologists, etc.\n\n(Not that I disagree broadly with your point that the discussion has been strongly weighted in the rationality and EA communities.)"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-03T21:49:40.224Z",
+    "af": false
+  },
+  {
+    "_id": "wKa9Ym9jfDbSyjmiM",
+    "postId": "vEJAFpatEq4Fa2smp",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Relatedly, DeepMind also was the first of the leading AI labs to have any signatories on the [Pause Giant AI Experiments open letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/). They still have the most signatories among those labs, although now OpenAI now has one. (To be sure, the letter still hasn't been signed by leadership of any of the top three labs.)",
+      "plaintextDescription": "Relatedly, DeepMind also was the first of the leading AI labs to have any signatories on the Pause Giant AI Experiments open letter. They still have the most signatories among those labs, although now OpenAI now has one. (To be sure, the letter still hasn't been signed by leadership of any of the top three labs.)"
+    },
+    "baseScore": 12,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-04-03T21:41:12.689Z",
+    "af": false
+  },
+  {
+    "_id": "otzDfbCyCBhZdWyn8",
+    "postId": "S3bpZvLWta7wbkJi4",
+    "parentCommentId": "Tch5KDZmYRSFaB8Sh",
+    "topLevelCommentId": "Tch5KDZmYRSFaB8Sh",
+    "contents": {
+      "markdown": "The independent red-teaming organization ARC Evals that OpenAI partnered with to evaluate GPT-4 seems to disagree with this. While they don't use the term \"runaway intelligence\", [they have flagged similar dangerous capabilities](https://evals.alignment.org/blog/2023-03-18-update-on-recent-evals/) that they think will possibly be in reach for the next models beyond GPT-4:\n\n> We think that, for systems more capable than Claude and GPT-4, we are now at the point where we need to check carefully that new models do not have sufficient capabilities to replicate autonomously or cause catastrophic harm – it’s no longer obvious that they won’t be able to.",
+      "plaintextDescription": "The independent red-teaming organization ARC Evals that OpenAI partnered with to evaluate GPT-4 seems to disagree with this. While they don't use the term \"runaway intelligence\", they have flagged similar dangerous capabilities that they think will possibly be in reach for the next models beyond GPT-4:\n\n> We think that, for systems more capable than Claude and GPT-4, we are now at the point where we need to check carefully that new models do not have sufficient capabilities to replicate autonomously or cause catastrophic harm – it’s no longer obvious that they won’t be able to."
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-04-03T21:18:04.299Z",
+    "af": false
+  },
+  {
+    "_id": "2gYuCm7goi4cpiHAt",
+    "postId": "6uKG2fjxApmdxeHNd",
+    "parentCommentId": "hwefKXzgwwXbjXn75",
+    "topLevelCommentId": "BHS3Pehi44Nwjsywf",
+    "contents": {
+      "markdown": "> and where \\[in the government\\] close to literally zero people understand how the systems work or the arguments for existential risks here.\n\nJust want to flag that I'm pretty sure this isn't true anymore. At least a few important people in the US government (and possibly many) have now taken [this course](https://www.gladstone.ai/course) . I am still in progress on my technical review of the course for AIGS Canada, but my take so far is that it provides a good education on relevant aspects of AI for a non-technical audience and also focuses quite a bit on AI existential risk issues.\n\n(I know this only one point out of many you made but I wanted to respond to it when I spotted it and had time.)",
+      "plaintextDescription": "> and where [in the government] close to literally zero people understand how the systems work or the arguments for existential risks here.\n\nJust want to flag that I'm pretty sure this isn't true anymore. At least a few important people in the US government (and possibly many) have now taken this course . I am still in progress on my technical review of the course for AIGS Canada, but my take so far is that it provides a good education on relevant aspects of AI for a non-technical audience and also focuses quite a bit on AI existential risk issues.\n\n(I know this only one point out of many you made but I wanted to respond to it when I spotted it and had time.)"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-29T20:40:51.056Z",
+    "af": false
+  },
+  {
+    "_id": "LYSAcGKuN8thzWpjw",
+    "postId": "6uKG2fjxApmdxeHNd",
+    "parentCommentId": "K6KkATWRvbBzc9WQe",
+    "topLevelCommentId": "K6KkATWRvbBzc9WQe",
+    "contents": {
+      "markdown": "Yea they made a mistake not verifying signatures from the beginning. But they have course-corrected, see this notice FLI has posted now above the signatories list:\n\n[Screenshot](https://photos.app.goo.gl/jeRi2RJ1KNyPaH3F8)\n\n> **Signatories list paused due to high demand**\n> \n> Due to high demand we are still collecting signatures but pausing their appearance on the letter so that our vetting processes can catch up. Note also that the signatures near the top of the list are all independently and directly verified.",
+      "plaintextDescription": "Yea they made a mistake not verifying signatures from the beginning. But they have course-corrected, see this notice FLI has posted now above the signatories list:\n\nScreenshot\n\n> Signatories list paused due to high demand\n> \n> Due to high demand we are still collecting signatures but pausing their appearance on the letter so that our vetting processes can catch up. Note also that the signatures near the top of the list are all independently and directly verified."
+    },
+    "baseScore": 5,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-29T20:30:45.647Z",
+    "af": false
+  },
+  {
+    "_id": "md3qesdgiA4KHtWxZ",
+    "postId": "6uKG2fjxApmdxeHNd",
+    "parentCommentId": "LvccYwTvTzHEEjCYR",
+    "topLevelCommentId": "LvccYwTvTzHEEjCYR",
+    "contents": {
+      "markdown": "That might be true if nothing is actually done in the 6+ months to improve AI safety and governance. But the letter proposes:\n\n> AI labs and independent experts should use this pause to jointly develop and implement a set of shared safety protocols for advanced AI design and development that are rigorously audited and overseen by independent outside experts. These protocols should ensure that systems adhering to them are safe beyond a reasonable doubt.^\\[4\\]^ This does *not* mean a pause on AI development in general, merely a stepping back from the dangerous race to ever-larger unpredictable black-box models with emergent capabilities.\n> \n> AI research and development should be refocused on making today's powerful, state-of-the-art systems more accurate, safe, interpretable, transparent, robust, aligned, trustworthy, and loyal.\n> \n> In parallel, AI developers must work with policymakers to dramatically accelerate development of robust AI governance systems. These should at a minimum include: new and capable regulatory authorities dedicated to AI; oversight and tracking of highly capable AI systems and large pools of computational capability; provenance and watermarking systems to help distinguish real from synthetic and to track model leaks; a robust auditing and certification ecosystem; liability for AI-caused harm; robust public funding for technical AI safety research; and well-resourced institutions for coping with the dramatic economic and political disruptions (especially to democracy) that AI will cause.",
+      "plaintextDescription": "That might be true if nothing is actually done in the 6+ months to improve AI safety and governance. But the letter proposes:\n\n> AI labs and independent experts should use this pause to jointly develop and implement a set of shared safety protocols for advanced AI design and development that are rigorously audited and overseen by independent outside experts. These protocols should ensure that systems adhering to them are safe beyond a reasonable doubt.[4] This does not mean a pause on AI development in general, merely a stepping back from the dangerous race to ever-larger unpredictable black-box models with emergent capabilities.\n> \n> AI research and development should be refocused on making today's powerful, state-of-the-art systems more accurate, safe, interpretable, transparent, robust, aligned, trustworthy, and loyal.\n> \n> In parallel, AI developers must work with policymakers to dramatically accelerate development of robust AI governance systems. These should at a minimum include: new and capable regulatory authorities dedicated to AI; oversight and tracking of highly capable AI systems and large pools of computational capability; provenance and watermarking systems to help distinguish real from synthetic and to track model leaks; a robust auditing and certification ecosystem; liability for AI-caused harm; robust public funding for technical AI safety research; and well-resourced institutions for coping with the dramatic economic and political disruptions (especially to democracy) that AI will cause."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-03-29T07:20:33.995Z",
+    "af": false
+  },
+  {
+    "_id": "bpQp94gKpqoFMKYCv",
+    "postId": "6uKG2fjxApmdxeHNd",
+    "parentCommentId": "kQ4mNizsLpLvZAmZc",
+    "topLevelCommentId": "kQ4mNizsLpLvZAmZc",
+    "contents": {
+      "markdown": "How is it badly timed? Everyone is paying attention to AI since ChatGPT and GPT-4 came out, and lots of people are freaking out about it.",
+      "plaintextDescription": "How is it badly timed? Everyone is paying attention to AI since ChatGPT and GPT-4 came out, and lots of people are freaking out about it."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-29T06:34:17.039Z",
+    "af": false
+  },
+  {
+    "_id": "H7DSTw4Wu2GHruEMf",
+    "postId": "6uKG2fjxApmdxeHNd",
+    "parentCommentId": "obHNteWxiwcbhf222",
+    "topLevelCommentId": "BHS3Pehi44Nwjsywf",
+    "contents": {
+      "markdown": "The letter says to pause for at least 6 months, not exactly 6 months.\n\nSo anyone who doesn't believe that protocols exist to ensure the safety of more capable AI systems shouldn't avoid signing the letter for that reason, because the letter can be interpreted as supporting an indefinite pause in that case.",
+      "plaintextDescription": "The letter says to pause for at least 6 months, not exactly 6 months.\n\nSo anyone who doesn't believe that protocols exist to ensure the safety of more capable AI systems shouldn't avoid signing the letter for that reason, because the letter can be interpreted as supporting an indefinite pause in that case."
+    },
+    "baseScore": 19,
+    "voteCount": 15,
+    "createdAt": null,
+    "postedAt": "2023-03-29T06:20:58.059Z",
+    "af": false
+  },
+  {
+    "_id": "GwKsz3kyx6NrmFLSL",
+    "postId": "6uKG2fjxApmdxeHNd",
+    "parentCommentId": "BHS3Pehi44Nwjsywf",
+    "topLevelCommentId": "BHS3Pehi44Nwjsywf",
+    "contents": {
+      "markdown": "The letter isn't perfect, but the main ask is worthwhile as you said. Coordination is hard, stakes are very high and time may be short, so I think it is good to support these efforts if they are in the ballpark of something you agree with.",
+      "plaintextDescription": "The letter isn't perfect, but the main ask is worthwhile as you said. Coordination is hard, stakes are very high and time may be short, so I think it is good to support these efforts if they are in the ballpark of something you agree with."
+    },
+    "baseScore": 9,
+    "voteCount": 17,
+    "createdAt": null,
+    "postedAt": "2023-03-29T05:54:52.581Z",
+    "af": false
+  },
+  {
+    "_id": "HvnkeTLyctpyq2uTF",
+    "postId": "Rgoi7nkWKAHoDti2R",
+    "parentCommentId": "rme4LwK44hXFkEMyg",
+    "topLevelCommentId": "rme4LwK44hXFkEMyg",
+    "contents": {
+      "markdown": "New post from Zvi on ChatGPT Plugins: https://www.lesswrong.com/posts/DcfPmgBk63cajiiqs/gpt-4-plugs-in",
+      "plaintextDescription": "New post from Zvi on ChatGPT Plugins: https://www.lesswrong.com/posts/DcfPmgBk63cajiiqs/gpt-4-plugs-in"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-27T21:11:00.004Z",
+    "af": false
+  },
+  {
+    "_id": "kRuJPdvpCbvCwgdnC",
+    "postId": "Rgoi7nkWKAHoDti2R",
+    "parentCommentId": "rme4LwK44hXFkEMyg",
+    "topLevelCommentId": "rme4LwK44hXFkEMyg",
+    "contents": {
+      "markdown": "The repo [https://github.com/greshake/llm-security](https://github.com/greshake/llm-security) proposes that there are big security issues with LLMs having a plugins API: \n\n> We demonstrate potentially brutal consequences of giving LLMs like ChatGPT interfaces to other applications. We propose newly enabled attack vectors and techniques and provide demonstrations of each in this repository:\n> \n> *   Remote control of chat LLMs\n> *   Leaking/exfiltrating user data\n> *   Persistent compromise across sessions\n> *   Spread injections to other LLMs\n> *   Compromising LLMs with tiny multi-stage payloads\n> *   Automated Social Engineering\n> *   Targeting code completion engines\n> \n> *Based on our findings:*\n> \n> 1.  *Prompt injections can be as powerful as arbitrary code execution*\n> 2.  *Indirect prompt injections are a new, much more powerful way of delivering injections.*",
+      "plaintextDescription": "The repo https://github.com/greshake/llm-security proposes that there are big security issues with LLMs having a plugins API: \n\n> We demonstrate potentially brutal consequences of giving LLMs like ChatGPT interfaces to other applications. We propose newly enabled attack vectors and techniques and provide demonstrations of each in this repository:\n> \n>  * Remote control of chat LLMs\n>  * Leaking/exfiltrating user data\n>  * Persistent compromise across sessions\n>  * Spread injections to other LLMs\n>  * Compromising LLMs with tiny multi-stage payloads\n>  * Automated Social Engineering\n>  * Targeting code completion engines\n> \n> Based on our findings:\n> \n>  1. Prompt injections can be as powerful as arbitrary code execution\n>  2. Indirect prompt injections are a new, much more powerful way of delivering injections."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-27T03:46:26.547Z",
+    "af": false
+  },
+  {
+    "_id": "rme4LwK44hXFkEMyg",
+    "postId": "Rgoi7nkWKAHoDti2R",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is the first post I've seen on here about ChatGPT plugins. I'm trying to wrap my head around the implications and would like to see more discussion about it.\n\nMaybe it's a way for OpenAI to build a moat?",
+      "plaintextDescription": "This is the first post I've seen on here about ChatGPT plugins. I'm trying to wrap my head around the implications and would like to see more discussion about it.\n\nMaybe it's a way for OpenAI to build a moat?"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2023-03-26T22:42:05.492Z",
+    "af": false
+  },
+  {
+    "_id": "eihKXBEL2khfJm9mE",
+    "postId": "ZfxzS99GHs76DQbEi",
+    "parentCommentId": "fuanPbeHCmqijLdiD",
+    "topLevelCommentId": "BkSqxSfX3zbomSWva",
+    "contents": {
+      "markdown": "I think there were some not insignificant updates to Metaculus aggregate predictions for AGI timelines in the past of few months: https://www.lesswrong.com/posts/CiYSFaQvtwj98csqG/metaculus-predicts-weak-agi-in-2-years-and-agi-in-10#comments ",
+      "plaintextDescription": "I think there were some not insignificant updates to Metaculus aggregate predictions for AGI timelines in the past of few months: https://www.lesswrong.com/posts/CiYSFaQvtwj98csqG/metaculus-predicts-weak-agi-in-2-years-and-agi-in-10#comments"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-26T05:42:54.166Z",
+    "af": false
+  },
+  {
+    "_id": "FpH5gzKwoFxCkkLeM",
+    "postId": "28zqL4RbNvyhbrA49",
+    "parentCommentId": "r6vSHbvyG8ncKtDy2",
+    "topLevelCommentId": "r6vSHbvyG8ncKtDy2",
+    "contents": {
+      "markdown": "There is also a filter there for remote/global work.",
+      "plaintextDescription": "There is also a filter there for remote/global work."
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-24T18:45:31.346Z",
+    "af": false
+  },
+  {
+    "_id": "osFBGkqhyt2k7J2fR",
+    "postId": "28zqL4RbNvyhbrA49",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I was talking with Adam Gleave from FAR AI a couple months back. They are based in the Bay Area, but at least at the time they were also friendly to remote work. (Haven't checked back more recently so it's possible that has changed.)",
+      "plaintextDescription": "I was talking with Adam Gleave from FAR AI a couple months back. They are based in the Bay Area, but at least at the time they were also friendly to remote work. (Haven't checked back more recently so it's possible that has changed.)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-23T18:06:53.064Z",
+    "af": false
+  },
+  {
+    "_id": "odk9wtfZ45CkNhAwi",
+    "postId": "4Gt42jX7RiaNaxCwP",
+    "parentCommentId": "tjFyQT4exur7RJsbq",
+    "topLevelCommentId": "EpoF7g8yEbSDuTt5n",
+    "contents": {
+      "markdown": "Tens of millions of people interacting with the models is a powerful red-teamer. In case internet users uncover a very unsafe behavior, can OpenAI fix the problem or block access before it causes harm?",
+      "plaintextDescription": "Tens of millions of people interacting with the models is a powerful red-teamer. In case internet users uncover a very unsafe behavior, can OpenAI fix the problem or block access before it causes harm?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-23T00:47:21.066Z",
+    "af": true
+  },
+  {
+    "_id": "MDAkJpN3KoBqFqJCM",
+    "postId": "t7JGQh828inTXQh98",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I think, for various reasons, that we have fair chances of forming \"close\" partnerships with Google/Microsoft/Amazon (probably not Facebook), likely meaning:\n\nI'm curious about the Amazon option. While Amazon is a big player in general and in certain areas of ML and robotics, they rarely come up in news or conversations about AGI. And they don't have any cutting-edge AGI research project that is publicly known.\n\nAlso, while Amazon AWS is arguably the biggest player in cloud computing generally, I have heard (though not independently vetted) that AWS is rarely used for training cutting-edge LLMs. Because compared to some other compute providers, Amazon's compute is so geographically distributed and not centralized enough for the purpose of training very large models.\n\nIt's possible that Amazon could catch up on AGI development, or they could unveil a secret project that is very far along. It's also possible that their work on robotics and other areas of ML could end up being important elements in advanced AI systems and/or race dynamics, or that AWS could become more relevant for training massive models e.g. if distributed learning takes off.\n\nBut if your company is choosing now between Google, Microsoft, and Amazon, then of those three Amazon is notably distant from AGI development compared to the other two, as things stand today and from my point of view. If this is right then steering your company toward choosing Amazon might be beneficial.",
+      "plaintextDescription": "> I think, for various reasons, that we have fair chances of forming \"close\" partnerships with Google/Microsoft/Amazon (probably not Facebook), likely meaning:\n\nI'm curious about the Amazon option. While Amazon is a big player in general and in certain areas of ML and robotics, they rarely come up in news or conversations about AGI. And they don't have any cutting-edge AGI research project that is publicly known.\n\nAlso, while Amazon AWS is arguably the biggest player in cloud computing generally, I have heard (though not independently vetted) that AWS is rarely used for training cutting-edge LLMs. Because compared to some other compute providers, Amazon's compute is so geographically distributed and not centralized enough for the purpose of training very large models.\n\nIt's possible that Amazon could catch up on AGI development, or they could unveil a secret project that is very far along. It's also possible that their work on robotics and other areas of ML could end up being important elements in advanced AI systems and/or race dynamics, or that AWS could become more relevant for training massive models e.g. if distributed learning takes off.\n\nBut if your company is choosing now between Google, Microsoft, and Amazon, then of those three Amazon is notably distant from AGI development compared to the other two, as things stand today and from my point of view. If this is right then steering your company toward choosing Amazon might be beneficial."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-21T18:40:23.424Z",
+    "af": false
+  },
+  {
+    "_id": "KPk8ZWucS3wYvr4yn",
+    "postId": "6wxD7LGLyFLyiYMhy",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "(I didn't have much time to write this so it is kind of off the cuff. It also only answers part of your question, but I think it's correct and hope it fills in some of the gaps for you.)\n\nThe leading labs publicly working on AGI seem to be OpenAI, DeepMind and Anthropic. Microsoft is heavily invested in OpenAI, while Google/Alphabet owns DeepMind and has some investment in Anthropic. There is also Google AI, which is confusingly separate from DeepMind.\n\nMeta (Facebook) AI is also working on AGI, as are a number of lesser known startups/companies, academics and orgs.\n\nI have heard there are at least one or two labs in China working on AGI, though I know less about the landscape there. There may be other companies/countries privately working on AGI as well.\n\nI mentioned this in the context of AGI, but if you broaden that to include companies working on narrower ML systems, well there are tons of companies doing that.",
+      "plaintextDescription": "(I didn't have much time to write this so it is kind of off the cuff. It also only answers part of your question, but I think it's correct and hope it fills in some of the gaps for you.)\n\nThe leading labs publicly working on AGI seem to be OpenAI, DeepMind and Anthropic. Microsoft is heavily invested in OpenAI, while Google/Alphabet owns DeepMind and has some investment in Anthropic. There is also Google AI, which is confusingly separate from DeepMind.\n\nMeta (Facebook) AI is also working on AGI, as are a number of lesser known startups/companies, academics and orgs.\n\nI have heard there are at least one or two labs in China working on AGI, though I know less about the landscape there. There may be other companies/countries privately working on AGI as well.\n\nI mentioned this in the context of AGI, but if you broaden that to include companies working on narrower ML systems, well there are tons of companies doing that."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-18T23:08:42.891Z",
+    "af": false
+  },
+  {
+    "_id": "ZQgHdW7srcHLcZEtg",
+    "postId": "LKAogXdruuZXdx6ZH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Cynically,[2] not publishing is a really good way to create a moat around your research... People who want to work on that area have to come talk to you, and you can be a gatekeeper.  And you don't have to worry about somebody with more skills and experience coming along and trashing your work or out-competing you and rendering it obsolete...\n\nI don't understand this part. They don't have to come talk to you, they just have to follow a link to Alignment Forum to read the research. And aren't  forum posts easier to read than papers on arXiv? I feel like if the moat exists anywhere it is around academic journals which often do not make their papers freely accessible, use more cryptic writing norms and insist on using PDF which are not as user-friendly to read as webpages.\n\nTo be sure, I'm not disagreeing with your overall point. It would be great if at least the best research from Alignment Forum/LessWrong were on arXiv or in journals, and I think you're right we're leaving value on the table there. I have wondered about if someone just made it their job to do these conversions/submissions for top alignment research on the forums, because there are probably economies of scale for one person doing this vs. every researcher interrupting their work flow to learn how to jump through the hoops of paper conversion/submission.",
+      "plaintextDescription": "> Cynically,[2] not publishing is a really good way to create a moat around your research... People who want to work on that area have to come talk to you, and you can be a gatekeeper. And you don't have to worry about somebody with more skills and experience coming along and trashing your work or out-competing you and rendering it obsolete...\n\nI don't understand this part. They don't have to come talk to you, they just have to follow a link to Alignment Forum to read the research. And aren't forum posts easier to read than papers on arXiv? I feel like if the moat exists anywhere it is around academic journals which often do not make their papers freely accessible, use more cryptic writing norms and insist on using PDF which are not as user-friendly to read as webpages.\n\nTo be sure, I'm not disagreeing with your overall point. It would be great if at least the best research from Alignment Forum/LessWrong were on arXiv or in journals, and I think you're right we're leaving value on the table there. I have wondered about if someone just made it their job to do these conversions/submissions for top alignment research on the forums, because there are probably economies of scale for one person doing this vs. every researcher interrupting their work flow to learn how to jump through the hoops of paper conversion/submission."
+    },
+    "baseScore": 11,
+    "voteCount": 7,
+    "createdAt": null,
+    "postedAt": "2023-03-18T22:52:23.366Z",
+    "af": true
+  },
+  {
+    "_id": "A8Cw9gzccvestvFmy",
+    "postId": "nto7K5W2sNR3Cpmec",
+    "parentCommentId": "6i7j5h9xghoABEXeZ",
+    "topLevelCommentId": "9Hn53HvH55jALY5o2",
+    "contents": {
+      "markdown": "Yea, I guess I was a little unclear on whether your post constituted a bet offer where people could simply reply to accept as I did, or if you were doing specific follow-up to finalize the bet agreements. I see you did do that with Nathan and Tomás, so it makes sense you didn't view our bet as on. It's ok, I was more interested in the epistemic/forecasting points than the $1,000 anyway.  ;)\n\nI commend you for following up and for your great retrospective analysis of the benchmark criteria. Even though I offered to take your bet, I didn't realize just how problematic the benchmark criteria were for your side of the bet.\n\nMost importantly, it's disquieting and bad news that long timelines are looking increasingly implausible. I would have felt less worried about a world where you were right about that.",
+      "plaintextDescription": "Yea, I guess I was a little unclear on whether your post constituted a bet offer where people could simply reply to accept as I did, or if you were doing specific follow-up to finalize the bet agreements. I see you did do that with Nathan and Tomás, so it makes sense you didn't view our bet as on. It's ok, I was more interested in the epistemic/forecasting points than the $1,000 anyway.  ;)\n\nI commend you for following up and for your great retrospective analysis of the benchmark criteria. Even though I offered to take your bet, I didn't realize just how problematic the benchmark criteria were for your side of the bet.\n\nMost importantly, it's disquieting and bad news that long timelines are looking increasingly implausible. I would have felt less worried about a world where you were right about that."
+    },
+    "baseScore": 7,
+    "voteCount": 6,
+    "createdAt": null,
+    "postedAt": "2023-03-17T21:17:06.516Z",
+    "af": false
+  },
+  {
+    "_id": "9Hn53HvH55jALY5o2",
+    "postId": "nto7K5W2sNR3Cpmec",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I congratulate [Nathan Helm-Burger](https://www.lesswrong.com/users/nathan-helm-burger) and [Tomás B.](https://www.lesswrong.com/users/bjartur-tomas) for taking the other side of the bet.\n\nJust for the record, [I also took your bet](https://www.lesswrong.com/posts/X3p8mxE5dHYDZNxCm/a-concrete-bet-offer-to-those-with-short-agi-timelines?commentId=quAW8wg6J6S4MeFnE).  ;)",
+      "plaintextDescription": "> I congratulate Nathan Helm-Burger and Tomás B. for taking the other side of the bet.\n\nJust for the record, I also took your bet.  ;)"
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2023-03-17T01:41:49.694Z",
+    "af": false
+  },
+  {
+    "_id": "HHszgRXsm7vwZmbhF",
+    "postId": "X3p8mxE5dHYDZNxCm",
+    "parentCommentId": "SvqaaYovEDF46nqgL",
+    "topLevelCommentId": "quAW8wg6J6S4MeFnE",
+    "contents": {
+      "markdown": "Hmm good question. The OpenAI GPT-4 case is complicated in my mind. It kind of looks to me like their approach was:\n\n*   Move really fast to develop a next-gen model\n*   Take some months to study, test and tweak the model before releasing it\n\nSince it's fast and slow together, I'm confused about whether it constitutes a deliberate slowdown. I'm curious about your and other people's takes.",
+      "plaintextDescription": "Hmm good question. The OpenAI GPT-4 case is complicated in my mind. It kind of looks to me like their approach was:\n\n * Move really fast to develop a next-gen model\n * Take some months to study, test and tweak the model before releasing it\n\nSince it's fast and slow together, I'm confused about whether it constitutes a deliberate slowdown. I'm curious about your and other people's takes."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-17T01:38:18.648Z",
+    "af": false
+  },
+  {
+    "_id": "enB2YZNCeRZkHTuak",
+    "postId": "gGysHedD8aHKueb35",
+    "parentCommentId": "ARohTuh5fZ6iwr7yS",
+    "topLevelCommentId": "45wGdT737jKuqKp4H",
+    "contents": {
+      "markdown": "Ok great, sounds like you all are already well aware and just have a different purpose in mind for this new Discord vs. the interpretability channels on the EleutherAI Discord.  B-)",
+      "plaintextDescription": "Ok great, sounds like you all are already well aware and just have a different purpose in mind for this new Discord vs. the interpretability channels on the EleutherAI Discord.  B-)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-13T19:54:43.960Z",
+    "af": false
+  },
+  {
+    "_id": "45wGdT737jKuqKp4H",
+    "postId": "gGysHedD8aHKueb35",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Do you know about the EleutherAI Discord? There is a lot that happens on there, but there is a group of channels focused on interpretability that is pretty active.\n\nI could be mistaken but I think this Discord is open to anyone to join. It's a very popular server, looks like it has over 22k members as of today.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/eade02c1731046cfe5a4206a342ef6c516fcb0f9c7821ea2.png)\n\nSo I'm curious if you may have missed the EleutherAI Discord, or if you knew about it but the channels on there were in some way not a good fit for the kind of interpretability discussions you wanted to have on Discord?",
+      "plaintextDescription": "Do you know about the EleutherAI Discord? There is a lot that happens on there, but there is a group of channels focused on interpretability that is pretty active.\n\nI could be mistaken but I think this Discord is open to anyone to join. It's a very popular server, looks like it has over 22k members as of today.\n\n\n\nSo I'm curious if you may have missed the EleutherAI Discord, or if you knew about it but the channels on there were in some way not a good fit for the kind of interpretability discussions you wanted to have on Discord?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-13T18:00:04.688Z",
+    "af": false
+  },
+  {
+    "_id": "ercKCpXThzXdwccG7",
+    "postId": "FzhedhEFAcKJZkgJS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> It even [quotes Paul Christiano](https://www.nytimes.com/2023/03/12/opinion/chatbots-artificial-intelligence-future-weirdness.html#:~:text=unrecognizably%20transformed%20world%2C%E2%80%99%E2%80%9D-,Paul%20Christiano,-%2C%20a%20key%20member) and links back to LessWrong!\n\nThe article also references Katja Grace and an AI Impacts survey. Ezra seems pretty plugged into this scene.",
+      "plaintextDescription": "> It even quotes Paul Christiano and links back to LessWrong!\n\nThe article also references Katja Grace and an AI Impacts survey. Ezra seems pretty plugged into this scene."
+    },
+    "baseScore": 11,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2023-03-13T17:42:51.018Z",
+    "af": false
+  },
+  {
+    "_id": "rZPpwRYo3Tu6dsHjv",
+    "postId": "9KrPiE4jxbgR4bkCH",
+    "parentCommentId": "tEDoCiMjHEbg4eaoJ",
+    "topLevelCommentId": "vGpDdajqwktpDKaGT",
+    "contents": {
+      "markdown": "Haha sorry about that - the Too Confusing; Didn't Read is:\n\n*   The article is from Feb 2023 (one month ago), but I initially had a typo in the title saying it was from Feb 2022\n*   Habryka fixed the typo, so now it correctly reads Feb 2023\n*   The rest is just comments from me and Habryka making more accidental date typos, as well as some intentional ones for confusion-inducing comic relief",
+      "plaintextDescription": "Haha sorry about that - the Too Confusing; Didn't Read is:\n\n * The article is from Feb 2023 (one month ago), but I initially had a typo in the title saying it was from Feb 2022\n * Habryka fixed the typo, so now it correctly reads Feb 2023\n * The rest is just comments from me and Habryka making more accidental date typos, as well as some intentional ones for confusion-inducing comic relief"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-03-05T23:48:38.484Z",
+    "af": false
+  },
+  {
+    "_id": "qcMGBKSs6pZy3TfL9",
+    "postId": "9KrPiE4jxbgR4bkCH",
+    "parentCommentId": "vGpDdajqwktpDKaGT",
+    "topLevelCommentId": "vGpDdajqwktpDKaGT",
+    "contents": {
+      "markdown": "Oops, thanks for catching that!\n\n> because well, the thing happened in Feb 2022\n\nYou mean Feb 2023, right? (Are we in a recursive off-by-one-year discussion thread? 😆)",
+      "plaintextDescription": "Oops, thanks for catching that!\n\n> because well, the thing happened in Feb 2022\n\nYou mean Feb 2023, right? (Are we in a recursive off-by-one-year discussion thread? 😆)"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-05T21:49:12.452Z",
+    "af": false
+  },
+  {
+    "_id": "siwGxuJC39DhJnDgN",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": "eJga3KH8Rv2a7bHsZ",
+    "topLevelCommentId": "JQAAXGid6WageGKnN",
+    "contents": {
+      "markdown": "> Yeah, you could even block the entire direction in activation space corresponding to the embedding of the `<|bad|>` token\n\nSounds like a good approach. How do you go about doing this?",
+      "plaintextDescription": "> Yeah, you could even block the entire direction in activation space corresponding to the embedding of the <|bad|> token\n\nSounds like a good approach. How do you go about doing this?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-04T01:01:25.523Z",
+    "af": false
+  },
+  {
+    "_id": "4RgvDDubw46R4xKxR",
+    "postId": "8F4dXYriqbsom46x5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Bravo, I've been wondering if this was possible for awhile now - since RLHF came into common use and there have been more concerns around it. Your results seem encouraging!\n\nPHF seems expensive to implement. Finetuning a model seems a lot easier/cheaper than sculpting and tagging an entire training corpus and training a model from scratch. Maybe there is some practical workflow of internally prototyping models using finetuning, and then once you've honed your reward model and done a lot of testing, using PHF to train a safer/more robust version of the model.",
+      "plaintextDescription": "Bravo, I've been wondering if this was possible for awhile now - since RLHF came into common use and there have been more concerns around it. Your results seem encouraging!\n\nPHF seems expensive to implement. Finetuning a model seems a lot easier/cheaper than sculpting and tagging an entire training corpus and training a model from scratch. Maybe there is some practical workflow of internally prototyping models using finetuning, and then once you've honed your reward model and done a lot of testing, using PHF to train a safer/more robust version of the model."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-03-04T00:57:02.716Z",
+    "af": true
+  },
+  {
+    "_id": "4X2KBjHggHfCgkkoq",
+    "postId": "jwe6jpubuMiuSRqff",
+    "parentCommentId": "GzBDTuHJa6tr7XwMP",
+    "topLevelCommentId": "GzBDTuHJa6tr7XwMP",
+    "contents": {
+      "markdown": "Looking into it more, pretty sure it's a different NSF program. The Convergence Accelerator process is still underway and it will likely be in the coming months that topics are selected for possible funding, including potentially AI safety.",
+      "plaintextDescription": "Looking into it more, pretty sure it's a different NSF program. The Convergence Accelerator process is still underway and it will likely be in the coming months that topics are selected for possible funding, including potentially AI safety."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-02T19:52:09.935Z",
+    "af": false
+  },
+  {
+    "_id": "GzBDTuHJa6tr7XwMP",
+    "postId": "jwe6jpubuMiuSRqff",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Is this through the NSF Convergence Accelerator or a different NSF program?",
+      "plaintextDescription": "Is this through the NSF Convergence Accelerator or a different NSF program?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-03-01T01:06:25.420Z",
+    "af": false
+  },
+  {
+    "_id": "qYSjdTJGX6SwYZsTF",
+    "postId": "pgpFHLJnv7AdSi3qS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks for sharing the debate and including a good summary.",
+      "plaintextDescription": "Thanks for sharing the debate and including a good summary."
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-28T00:55:36.796Z",
+    "af": false
+  },
+  {
+    "_id": "hbMg3uFMgQJNBLfXZ",
+    "postId": "GBZAYhLTjwsnvAyZf",
+    "parentCommentId": "Mdei6NFc5HbBrFGiB",
+    "topLevelCommentId": "Mdei6NFc5HbBrFGiB",
+    "contents": {
+      "markdown": "For weight loss or general eating?\n\nI feel like a lot of these framings obscure the massive benefits of veggies, fruits, legumes etc. Evidence favors and I've always felt really good/healthy trying to hit the Daily Dozen (https://nutritionfacts.org/daily-dozen/) and then there just isn't much room for junk.\n\n",
+      "plaintextDescription": "For weight loss or general eating?\n\nI feel like a lot of these framings obscure the massive benefits of veggies, fruits, legumes etc. Evidence favors and I've always felt really good/healthy trying to hit the Daily Dozen (https://nutritionfacts.org/daily-dozen/) and then there just isn't much room for junk."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-02-27T23:45:41.239Z",
+    "af": false
+  }
+]

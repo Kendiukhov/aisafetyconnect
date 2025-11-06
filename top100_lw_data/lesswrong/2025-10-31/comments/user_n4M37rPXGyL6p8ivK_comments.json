@@ -1,0 +1,1502 @@
+[
+  {
+    "_id": "THaXvvCp8ZzwWE6yp",
+    "postId": "XtFQkbgYyiEZujMpe",
+    "parentCommentId": "AaQYwfjZjofsrvpau",
+    "topLevelCommentId": "AaQYwfjZjofsrvpau",
+    "contents": {
+      "markdown": "At a certain point, graph theory starts to include more material - planar graph properties, then graph embeddings in general. I haven't ever heard someone talking about a 'planar binary relation'.",
+      "plaintextDescription": "At a certain point, graph theory starts to include more material - planar graph properties, then graph embeddings in general. I haven't ever heard someone talking about a 'planar binary relation'."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-22T10:58:17.976Z",
+    "af": false
+  },
+  {
+    "_id": "Fa4tiv8eEKf8jXKAp",
+    "postId": "zTCtvXRATWdLoJ7p7",
+    "parentCommentId": "5bFa93txmfBQiNZvX",
+    "topLevelCommentId": "cHJu8QEhrCczGYCrf",
+    "contents": {
+      "markdown": "Then the tech of our day can possibly help us! If social media provided asymmetric visibility so that everyone would get seemingly community that they want...\n\n(should not be implemented before solving other issues, like how to make the resulting information bubbles harmless)",
+      "plaintextDescription": "Then the tech of our day can possibly help us! If social media provided asymmetric visibility so that everyone would get seemingly community that they want...\n\n(should not be implemented before solving other issues, like how to make the resulting information bubbles harmless)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-18T17:10:58.825Z",
+    "af": false
+  },
+  {
+    "_id": "tgmz232iGp6L2QW5n",
+    "postId": "ETpRwxFfuBYo7JMyd",
+    "parentCommentId": "wwuhj6sqeFB6mGPf8",
+    "topLevelCommentId": "wwuhj6sqeFB6mGPf8",
+    "contents": {
+      "markdown": "I succeeded in downloading them through LW GraphQL at [https://lesswrong.com/graphiql](https://lesswrong.com/graphiql).\n\n    query {\n      posts(\n        selector: {\n          rejected: {karmaThreshold: -990}\n        }\n      ) {\n        results {\n          contents_latest\n          version\n          modifiedAt\n          userId\n          pageUrlRelative\n          linkUrl\n          postedAtFormatted\n          htmlBody\n          rejectedReason\n        }\n      }\n    }",
+      "plaintextDescription": "I succeeded in downloading them through LW GraphQL at https://lesswrong.com/graphiql.\n\nquery {\n  posts(\n    selector: {\n      rejected: {karmaThreshold: -990}\n    }\n  ) {\n    results {\n      contents_latest\n      version\n      modifiedAt\n      userId\n      pageUrlRelative\n      linkUrl\n      postedAtFormatted\n      htmlBody\n      rejectedReason\n    }\n  }\n}\n"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-18T17:07:10.704Z",
+    "af": false
+  },
+  {
+    "_id": "omzwcjHrCB28CXdMc",
+    "postId": "KYnM5ZRgaDA4isbbw",
+    "parentCommentId": "hN8JtBKFC5C8yYr8E",
+    "topLevelCommentId": "hN8JtBKFC5C8yYr8E",
+    "contents": {
+      "markdown": "If so, they must be committing a 'disjunction fallacy', grading the second option as less likely than the first disregarding that it could be true in more ways!",
+      "plaintextDescription": "If so, they must be committing a 'disjunction fallacy', grading the second option as less likely than the first disregarding that it could be true in more ways!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-16T18:19:41.492Z",
+    "af": false
+  },
+  {
+    "_id": "waob7cA7B5ybjpo8x",
+    "postId": "adk5xv5Q4hjvpEhhh",
+    "parentCommentId": "uaAQb6CsvJeaobXMp",
+    "topLevelCommentId": "uaAQb6CsvJeaobXMp",
+    "contents": {
+      "markdown": "Given that the current comment tree is very large and unwieldy to read through, I would suggest that specific preferences on a system are agreed-or-disagreed-upon at my dedicated post - [https://www.lesswrong.com/posts/z3zCGmqPC7geBHf5N/actionable-moderation-proposals-from-comments-tree](https://www.lesswrong.com/posts/z3zCGmqPC7geBHf5N/actionable-moderation-proposals-from-comments-tree).",
+      "plaintextDescription": "Given that the current comment tree is very large and unwieldy to read through, I would suggest that specific preferences on a system are agreed-or-disagreed-upon at my dedicated post - https://www.lesswrong.com/posts/z3zCGmqPC7geBHf5N/actionable-moderation-proposals-from-comments-tree."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-09T22:10:56.151Z",
+    "af": false
+  },
+  {
+    "_id": "r8a8y8jfPKmsXvyMP",
+    "postId": "AJuZj4Zv9iyHHRFwX",
+    "parentCommentId": "9tCBbuxcFKveZGbuR",
+    "topLevelCommentId": "9tCBbuxcFKveZGbuR",
+    "contents": {
+      "markdown": "As of today, the feed decided to present me with five year old posts (with few new comments mixed in; checking if a pair of them were duplicates, I noticed that they weren't and found out a comment-based poll in [https://www.lesswrong.com/posts/QBhoBJAxDHHuC7BeH/poll-on-de-accelerating-ai](https://www.lesswrong.com/posts/QBhoBJAxDHHuC7BeH/poll-on-de-accelerating-ai)). That was quite interesting, and down that way lay discussions about curi.\n\nThat may be unhealthy amount of drama highlighted, but it showed, like, depth of the LW community history, which I saw a bit shallower. Meta-point from back there (about optimally ending discussions) seems like it ties into the recent discussions...\n\nCurrently I see the feed as tool to see new content faster and, correspondingly, to see more in total. It means a deficit of closure, though, of some functionality like \"this post tries to summarize / amend and supersede / highlight gaps in / agree with an earlier bunch of work\" (the said body of work being more than one early post, to eventually conclude this graph).",
+      "plaintextDescription": "As of today, the feed decided to present me with five year old posts (with few new comments mixed in; checking if a pair of them were duplicates, I noticed that they weren't and found out a comment-based poll in https://www.lesswrong.com/posts/QBhoBJAxDHHuC7BeH/poll-on-de-accelerating-ai). That was quite interesting, and down that way lay discussions about curi.\n\nThat may be unhealthy amount of drama highlighted, but it showed, like, depth of the LW community history, which I saw a bit shallower. Meta-point from back there (about optimally ending discussions) seems like it ties into the recent discussions...\n\nCurrently I see the feed as tool to see new content faster and, correspondingly, to see more in total. It means a deficit of closure, though, of some functionality like \"this post tries to summarize / amend and supersede / highlight gaps in / agree with an earlier bunch of work\" (the said body of work being more than one early post, to eventually conclude this graph)."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-09T21:51:40.537Z",
+    "af": false
+  },
+  {
+    "_id": "XzwDM4eoxrm5pysWh",
+    "postId": "rTFogGL4DhAbiQTWs",
+    "parentCommentId": "rSGy69vjnfdWSks3d",
+    "topLevelCommentId": "rSGy69vjnfdWSks3d",
+    "contents": {
+      "markdown": "You may be interested in [this discussion](https://www.lesswrong.com/posts/cGcwQDKAKbQ68BGuR/subliminal-learning-llms-transmit-behavioral-traits-via) then, and also the article you mention is [posted on LW](https://www.lesswrong.com/posts/m5XzhbZjEuF9uRgGR/it-s-owl-in-the-numbers-token-entanglement-in-subliminal-1) too.",
+      "plaintextDescription": "You may be interested in this discussion then, and also the article you mention is posted on LW too."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-07T17:38:11.623Z",
+    "af": false
+  },
+  {
+    "_id": "DswGK4zwJ7AEyfLPk",
+    "postId": "7DXDovnfQ4dhupXeM",
+    "parentCommentId": "aqz5EJhz9a2jJB2kW",
+    "topLevelCommentId": "aqz5EJhz9a2jJB2kW",
+    "contents": {
+      "markdown": "I strong downvoted this post because it tries to silently discharge the premises which it uses for proof and replace them with \"*really is better*\", invokes infinity without naming the class it comes out of, and glosses over things commonly accepted otherwise like 'declining marginal utility of X' where X is substituted with 'shrimp' in this case.\n\nUsing the actual surreal numbers with the surreal VNM rationality theorem would instead show the problem. What if I set one shrimp's value at the first surreal infinitesimal \\\\(\\epsilon\\\\)? Then it would be a certain preference, but lexicographically below everyday life's ones.\n\nRecalling the declining marginal utility would instead show the problem. What if I care for arbitrarily many shrimp at most as 5 quality-adjusted-life-years?\n\nSo, unsound logic, from my POV, is leveraged to argue for a pre-selected conclusion, which explains the post total karma.",
+      "plaintextDescription": "I strong downvoted this post because it tries to silently discharge the premises which it uses for proof and replace them with \"really is better\", invokes infinity without naming the class it comes out of, and glosses over things commonly accepted otherwise like 'declining marginal utility of X' where X is substituted with 'shrimp' in this case.\n\nUsing the actual surreal numbers with the surreal VNM rationality theorem would instead show the problem. What if I set one shrimp's value at the first surreal infinitesimal ϵ? Then it would be a certain preference, but lexicographically below everyday life's ones.\n\nRecalling the declining marginal utility would instead show the problem. What if I care for arbitrarily many shrimp at most as 5 quality-adjusted-life-years?\n\nSo, unsound logic, from my POV, is leveraged to argue for a pre-selected conclusion, which explains the post total karma."
+    },
+    "baseScore": 6,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-06T20:37:55.241Z",
+    "af": false
+  },
+  {
+    "_id": "uue3h2LuKLbuSyRGf",
+    "postId": "bzSfwMmuexfyrGR6o",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This is written very well!\n\nDo you have a references list by any chance, or just the links from the post?",
+      "plaintextDescription": "This is written very well!\n\nDo you have a references list by any chance, or just the links from the post?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-08-02T23:29:14.713Z",
+    "af": false
+  },
+  {
+    "_id": "BgHGWpngaT7hLaQuT",
+    "postId": "AJuZj4Zv9iyHHRFwX",
+    "parentCommentId": "9tCBbuxcFKveZGbuR",
+    "topLevelCommentId": "9tCBbuxcFKveZGbuR",
+    "contents": {
+      "markdown": "![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/39a3984845827377ad35568c58b91327631c9b2ae2dd0cbc.png)\n\nThe feed should display the post, if it chooses it at all, above (or together with) the comment from there.",
+      "plaintextDescription": "The feed should display the post, if it chooses it at all, above (or together with) the comment from there."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-08-02T20:36:14.617Z",
+    "af": false
+  },
+  {
+    "_id": "HjdWeJRt3NR7smsZb",
+    "postId": "rS6tKxSWkYBgxmsma",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This seems to apply to prediction markets which have hundreds of traders, while many have only a few (3-5, sometimes up to 15).",
+      "plaintextDescription": "This seems to apply to prediction markets which have hundreds of traders, while many have only a few (3-5, sometimes up to 15)."
+    },
+    "baseScore": 7,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-08-02T19:55:18.652Z",
+    "af": false
+  },
+  {
+    "_id": "ywYXryf6EeEXwEqab",
+    "postId": "QPFyoQYwTxbkS6Z5H",
+    "parentCommentId": "Mnj7z9GA6rJJTSzkX",
+    "topLevelCommentId": "yAY3HWpKk2SD6zauD",
+    "contents": {
+      "markdown": "> What is the standard account of such situations? “You got it wrong, keep thinking about it until you get the canonically right answer”? “What you thought was the ‘click’ of understanding was not that, and when you get the real answer it’ll feel differently and you’ll know it”? Something else?\n\nI am absolutely not familiar with Buddhist tradition but I would expect that the insight you get is relevant in another place and for another lesson.\n\nImagine a student exploring directions, who knew nothing but \"forward\" initially. Either randomly or after a koan, they also learn \"up\"; however, a koan might intend to hint at \"backward\" (and in this case the insight is quite wrong for the problem) or at \"left\" (now it is harder to declare if student is right or not).",
+      "plaintextDescription": "> What is the standard account of such situations? “You got it wrong, keep thinking about it until you get the canonically right answer”? “What you thought was the ‘click’ of understanding was not that, and when you get the real answer it’ll feel differently and you’ll know it”? Something else?\n\nI am absolutely not familiar with Buddhist tradition but I would expect that the insight you get is relevant in another place and for another lesson.\n\nImagine a student exploring directions, who knew nothing but \"forward\" initially. Either randomly or after a koan, they also learn \"up\"; however, a koan might intend to hint at \"backward\" (and in this case the insight is quite wrong for the problem) or at \"left\" (now it is harder to declare if student is right or not)."
+    },
+    "baseScore": 1,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-08-01T18:54:20.109Z",
+    "af": false
+  },
+  {
+    "_id": "f4JcWrEyfvR9yxeDy",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": "89CFX2okL44JpfrFw",
+    "topLevelCommentId": "DmENhpy5MjnJcZgaW",
+    "contents": {
+      "markdown": "> But if some secret spells could spot that Hermione's soul is displaced, there is likely other magic that could be used to divine the location more precisely.\n\nIf spell returns the actual distance instead of \"is the distance greater than a fixed threshold built into the spell\", then relevant technomagic already exists under name \"trilateration\" (what GPS does, essentially).\n\n> dismantling Voldemort's network would still be a megaproject\n\nTotally within power of Harry's generation, in my opinion, so they could take that option. \"And it is not our part here to take thought only for a season, or for a few lives of Men, or for a passing age of the world. We should seek a final end of this menace, even if we do not hope to make one,\" as Gandalf said at the council deciding what to do with the One Ring.",
+      "plaintextDescription": "> But if some secret spells could spot that Hermione's soul is displaced, there is likely other magic that could be used to divine the location more precisely.\n\nIf spell returns the actual distance instead of \"is the distance greater than a fixed threshold built into the spell\", then relevant technomagic already exists under name \"trilateration\" (what GPS does, essentially).\n\n> dismantling Voldemort's network would still be a megaproject\n\nTotally within power of Harry's generation, in my opinion, so they could take that option. \"And it is not our part here to take thought only for a season, or for a few lives of Men, or for a passing age of the world. We should seek a final end of this menace, even if we do not hope to make one,\" as Gandalf said at the council deciding what to do with the One Ring."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-29T18:14:57.340Z",
+    "af": false
+  },
+  {
+    "_id": "zu6BDLA6yDzrK7yyu",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": "3T9Kfawtipc62zDNk",
+    "topLevelCommentId": "DmENhpy5MjnJcZgaW",
+    "contents": {
+      "markdown": "> Quirrell of course is now immortal so anyway the question of whether he should be killed or not is purely academic.\n\nNot necessarily? \"What magic can make, magic can corrupt\", also there's no need[^rzcrfgrd8op] to know[^49k8gapylt8] locations of horcruxes - for all we know, a rare version of Summoning Charm could work.\n\n[^rzcrfgrd8op]: \"He is in his sixth year at Hogwarts and he cast a high-level Dark curse without knowing what it did.\", chapter 26 \n\n[^49k8gapylt8]: \"If she knew in very vague terms what the spell was supposed to do, or she was only partially wrong, then the spell would work as originally described in the book, not the way she'd been told it should.\", chapter 22",
+      "plaintextDescription": "> Quirrell of course is now immortal so anyway the question of whether he should be killed or not is purely academic.\n\nNot necessarily? \"What magic can make, magic can corrupt\", also there's no need[1] to know[2] locations of horcruxes - for all we know, a rare version of Summoning Charm could work.\n\n 1. ^\n    \"He is in his sixth year at Hogwarts and he cast a high-level Dark curse without knowing what it did.\", chapter 26\n\n 2. ^\n    \"If she knew in very vague terms what the spell was supposed to do, or she was only partially wrong, then the spell would work as originally described in the book, not the way she'd been told it should.\", chapter 22"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-28T16:39:45.704Z",
+    "af": false
+  },
+  {
+    "_id": "xNKdMze8Mv9ddLHG7",
+    "postId": "puv8fRDCH9jx5yhbX",
+    "parentCommentId": "7PEBCqvayEed9TQzj",
+    "topLevelCommentId": "7PEBCqvayEed9TQzj",
+    "contents": {
+      "markdown": "I liked the explanation as provided in \"Mate: Become The Man Women Want\".\n\nChapter 17 has a whole section on bars and clubs. In particular:\n\n> There are virtually no cultures in history that expected their young people to find mates by throwing them randomly together into dark, noisy, threatening environments, with no structured activities or reasons for interacting, and hoping they’d sort themselves out into viable pairs. Bars and clubs present the exact opposite of a safe, easy, stress-free way to meet potential mates, to display your traits and proofs, and to work your way through a normal courtship process.",
+      "plaintextDescription": "I liked the explanation as provided in \"Mate: Become The Man Women Want\".\n\nChapter 17 has a whole section on bars and clubs. In particular:\n\n> There are virtually no cultures in history that expected their young people to find mates by throwing them randomly together into dark, noisy, threatening environments, with no structured activities or reasons for interacting, and hoping they’d sort themselves out into viable pairs. Bars and clubs present the exact opposite of a safe, easy, stress-free way to meet potential mates, to display your traits and proofs, and to work your way through a normal courtship process."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-28T08:47:58.433Z",
+    "af": false
+  },
+  {
+    "_id": "avwHtZYxkeu3Z3CkY",
+    "postId": "nfFqtjCCNcTaTEyZX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "In my opinion, this article should have explored many many previous write-ups from those who tried building their own meeting apps and check if they succeeded and how/why failed.",
+      "plaintextDescription": "In my opinion, this article should have explored many many previous write-ups from those who tried building their own meeting apps and check if they succeeded and how/why failed."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-26T21:29:10.528Z",
+    "af": false
+  },
+  {
+    "_id": "YjaambiCJiLdSXomM",
+    "postId": "KXr8ys8PYppKXgGWj",
+    "parentCommentId": "KAYFd9qzuvC7J7zRM",
+    "topLevelCommentId": "spysXGxGsDbocuNHW",
+    "contents": {
+      "markdown": "In a number, there are generally two things we care about: its magnitude, and its value modulo something (e.g. is it even? is it round? for large modulo, we just get the exact number out). A good number system would somehow communicate both.",
+      "plaintextDescription": "In a number, there are generally two things we care about: its magnitude, and its value modulo something (e.g. is it even? is it round? for large modulo, we just get the exact number out). A good number system would somehow communicate both."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-26T17:48:19.429Z",
+    "af": false
+  },
+  {
+    "_id": "Mh3ByfYMiHnzMmKHq",
+    "postId": "xG98FxbAYMCsA7ubf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Multiple times have I seen an argument like this:\n\n> Imagine a fully materialistic universe strictly following some laws, which are such that no agent from inside the universe is able to fully comprehend them...\n> \n> ([https://www.lesswrong.com/posts/YTmNCEkqvF7ZrnvoR/zombies-substance-dualist-zombies?commentId=iQfr65fKr5nSFriCs](https://www.lesswrong.com/posts/YTmNCEkqvF7ZrnvoR/zombies-substance-dualist-zombies?commentId=iQfr65fKr5nSFriCs))\n\nI wonder if that is possible? For computables, it is always possible to construct a quine (standing for the agent) with arbitrary embedded contents (for the rest of the universe/laws/etc), and it wouldn't even be *that* large - it only needs to hold one copy of the contents, and most data can be compressed.",
+      "plaintextDescription": "Multiple times have I seen an argument like this:\n\n> Imagine a fully materialistic universe strictly following some laws, which are such that no agent from inside the universe is able to fully comprehend them...\n> \n> (https://www.lesswrong.com/posts/YTmNCEkqvF7ZrnvoR/zombies-substance-dualist-zombies?commentId=iQfr65fKr5nSFriCs)\n\nI wonder if that is possible? For computables, it is always possible to construct a quine (standing for the agent) with arbitrary embedded contents (for the rest of the universe/laws/etc), and it wouldn't even be that large - it only needs to hold one copy of the contents, and most data can be compressed."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-26T00:21:08.323Z",
+    "af": false
+  },
+  {
+    "_id": "PGSd6cJxTQq3aH9Tp",
+    "postId": "FY697dJJv9Fq3PaTd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "As an implication of magic-as-default, we can infer that\n\n Voldemort did not figure these genetics out: in the scene of [reviving Hermione](https://www.lesswrong.com/s/u7ciTcKteyx2hqdBh/p/dNXNL5v7ZSgiWuSaW), he does not know if magic would return to her or be lost forever.  \n  \n\\> \"*Girl'ss body iss resstored. Ssubstance iss repaired. But not magic, or life... thiss iss body of dead Muggle.\"*\n\nIn foresight, there's one more hint for magic-as-default:\n\nMuggles [have problems](https://www.lesswrong.com/s/PtgH6ALi5CoJnPmGS/p/okdusZkDRsQ6zCRDD) seeing magical things, and [probably using them](https://www.lesswrong.com/s/EBuZhwCrYuJGp7ax4/p/iTzKdxPBJWnhMdMPK) too.  \n  \n\\> There were no questions about his father accompanying him to the magical side of King's Cross Station. Dad had trouble just looking at Harry's trunk directly.  \n  \n\\> Wizards, Squibs, and Muggles. Two copies and you can cast spells, one copy and you can still use potions or magic devices, and zero copies means you might even have trouble looking straight at magic.  \n  \nRecalling that continuing to look directly is a default action for anything alive: it means that something must disrupt the signals so that a nonmagical would look to the side. It would make sense a Muggle complex would do it, in contrast to some charm on the item itself, because the former is closer to brain architecture.\n\n(Hiding quotes because, in most probability, these comments can get to front page and would then be spoilers.)",
+      "plaintextDescription": "As an implication of magic-as-default, we can infer that\n\n Voldemort did not figure these genetics out: in the scene of reviving Hermione, he does not know if magic would return to her or be lost forever.\n\n> \"Girl'ss body iss resstored. Ssubstance iss repaired. But not magic, or life... thiss iss body of dead Muggle.\"\n\nIn foresight, there's one more hint for magic-as-default:\n\nMuggles have problems seeing magical things, and probably using them too.\n\n> There were no questions about his father accompanying him to the magical side of King's Cross Station. Dad had trouble just looking at Harry's trunk directly.\n\n> Wizards, Squibs, and Muggles. Two copies and you can cast spells, one copy and you can still use potions or magic devices, and zero copies means you might even have trouble looking straight at magic.\n\nRecalling that continuing to look directly is a default action for anything alive: it means that something must disrupt the signals so that a nonmagical would look to the side. It would make sense a Muggle complex would do it, in contrast to some charm on the item itself, because the former is closer to brain architecture.\n\n(Hiding quotes because, in most probability, these comments can get to front page and would then be spoilers.)"
+    },
+    "baseScore": 12,
+    "voteCount": 10,
+    "createdAt": null,
+    "postedAt": "2025-07-25T22:36:59.405Z",
+    "af": false
+  },
+  {
+    "_id": "dofvKvidxfoke9f88",
+    "postId": "DA3vbSEfABLdoCt59",
+    "parentCommentId": "mPit9vTNXqYp8y4Gf",
+    "topLevelCommentId": "dwA8FY4St7ksnuhCC",
+    "contents": {
+      "markdown": "If we are protecting against AI-building labs specifically, there are two outcomes:\n\n1.  They do not care to set up a special way of data extraction for those protected sites. Then, we can set Anubis to whatever low difficulty that it does not hinder users.\n2.  They do care and want to get the data behind. We lose.[^7p6z160pe96]\n\n[^7p6z160pe96]: Because AI labs have a large number of... what they are called, again... massive parallel computation units... ah, GPUs, they have an advantage at proof-of-work. And if they choose to use them against humanity (a sleight of hand here, I admit), it will not go well.",
+      "plaintextDescription": "If we are protecting against AI-building labs specifically, there are two outcomes:\n\n 1. They do not care to set up a special way of data extraction for those protected sites. Then, we can set Anubis to whatever low difficulty that it does not hinder users.\n 2. They do care and want to get the data behind. We lose.[1]\n\n 1. ^\n    Because AI labs have a large number of... what they are called, again... massive parallel computation units... ah, GPUs, they have an advantage at proof-of-work. And if they choose to use them against humanity (a sleight of hand here, I admit), it will not go well."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-25T21:46:35.779Z",
+    "af": false
+  },
+  {
+    "_id": "3qho9cwSheXHYoCHb",
+    "postId": "DA3vbSEfABLdoCt59",
+    "parentCommentId": "d82MwJ6oeCtAvrqsQ",
+    "topLevelCommentId": "d82MwJ6oeCtAvrqsQ",
+    "contents": {
+      "markdown": "You have to make that poison inactive in accessibility cases, or a person using screen reader would hear all that. However, if a correctly configured screen reader skips the invisible data, then labs will just use it (assuming they can be bothered with cleaning dataset at all).\n\nAlso, training-time jailbreaks are likely quite different from inference-time jailbreaks. The latter will tend to hit Operator-style stuff harder.",
+      "plaintextDescription": "You have to make that poison inactive in accessibility cases, or a person using screen reader would hear all that. However, if a correctly configured screen reader skips the invisible data, then labs will just use it (assuming they can be bothered with cleaning dataset at all).\n\nAlso, training-time jailbreaks are likely quite different from inference-time jailbreaks. The latter will tend to hit Operator-style stuff harder."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-25T17:28:47.576Z",
+    "af": false
+  },
+  {
+    "_id": "PoahQPu8PhJJCSJNp",
+    "postId": "RKB8j8C6H4TgcxLRb",
+    "parentCommentId": "3qDHLfeP2HAZP6Wkh",
+    "topLevelCommentId": "rSLbmrT8pNRe8Zsra",
+    "contents": {
+      "markdown": "> I agree with this. I think that’s one of the reasons why it’s so important to have discussion in the comments to a post be as unconstrained as possible—so that ideas can be developed, the best versions of them discovered (or constructed).\n\nNot only in comments; some ideas are better tested by trying to apply or build on them, rather than just discussing theoretically. It does produce a body of work to reevaluate, though, so those posts should indicate the premises somehow.",
+      "plaintextDescription": "> I agree with this. I think that’s one of the reasons why it’s so important to have discussion in the comments to a post be as unconstrained as possible—so that ideas can be developed, the best versions of them discovered (or constructed).\n\nNot only in comments; some ideas are better tested by trying to apply or build on them, rather than just discussing theoretically. It does produce a body of work to reevaluate, though, so those posts should indicate the premises somehow."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-23T00:11:12.400Z",
+    "af": false
+  },
+  {
+    "_id": "jDMJHafFseQ8PS6fs",
+    "postId": "uhTN8zqXD9rJam3b7",
+    "parentCommentId": "f4YCxorBDfuLmmK67",
+    "topLevelCommentId": "AtDKsoRwDybqBFGQ9",
+    "contents": {
+      "markdown": "Generally it does not have to go through the hassle of invoking a tool in well-formed JSON, but rather an inference pipeline catching up (a special token plus command perhaps?) and then replicating the next word or so character by character, so that model's output gets like (| for token boundaries):  \n  \n\\> |Wait, |%INLINE\\_COMMAND\\_TOKEN%|zoom(|\"s|trawberry|\")| is |\"|s|t|r|a|w|b|e|r|r|y|\"|, so|...",
+      "plaintextDescription": "Generally it does not have to go through the hassle of invoking a tool in well-formed JSON, but rather an inference pipeline catching up (a special token plus command perhaps?) and then replicating the next word or so character by character, so that model's output gets like (| for token boundaries):\n\n> |Wait, |%INLINE_COMMAND_TOKEN%|zoom(|\"s|trawberry|\")| is |\"|s|t|r|a|w|b|e|r|r|y|\"|, so|..."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-22T23:26:40.365Z",
+    "af": false
+  },
+  {
+    "_id": "p36HmBr5dugq9TvzQ",
+    "postId": "GkjLaTC4MvL8BY45K",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Whenever I need to talk about Bayes' theorem's derivation (which is somewhat distinct from its application), I always use form \\\\(\\mathbb{P}(A|B)\\cdot \\mathbb{P}(B) = \\mathbb{P}(B|A)\\cdot \\mathbb{P}(A)\\\\) \\- based on the fact that both are equal to probability of conjunction. It is a bit more robust when putting zeroes in, relative to any division form.",
+      "plaintextDescription": "Whenever I need to talk about Bayes' theorem's derivation (which is somewhat distinct from its application), I always use form P(A|B)⋅P(B)=P(B|A)⋅P(A) - based on the fact that both are equal to probability of conjunction. It is a bit more robust when putting zeroes in, relative to any division form."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-22T23:18:58.051Z",
+    "af": false
+  },
+  {
+    "_id": "ucuDgJwE8ZFGpnquz",
+    "postId": "EAH4cQY4ESta7FEWB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I do not vote in either direction on this article because\n\n1.  I have not checked how the provided implementation works, for myself. It would not be nice to upvote something which would not work in fact.\n2.  I could not parse the text.  \n      \n    When I see \"O(1) reasoning in latent space: 1ms inference, 77% accuracy, no attention or tokens\" title in feed, I interpret it as \"Constant-time deliberate thinking in ???: quick, unreliable but nice to get at least something, no ???, yes again constant-time\" and still do not understand what is the product.  \n    Turns out it is a \"Fast dirty arbitrary-task classifier in O(1), based on latent space\".  \n      \n    The article itself focuses on what you did and will do, with weird focal points like \"This includes grad students...\", but not on what can one obtain from your model or method.",
+      "plaintextDescription": "I do not vote in either direction on this article because\n\n 1. I have not checked how the provided implementation works, for myself. It would not be nice to upvote something which would not work in fact.\n 2. I could not parse the text.\n    \n    When I see \"O(1) reasoning in latent space: 1ms inference, 77% accuracy, no attention or tokens\" title in feed, I interpret it as \"Constant-time deliberate thinking in ???: quick, unreliable but nice to get at least something, no ???, yes again constant-time\" and still do not understand what is the product.\n    Turns out it is a \"Fast dirty arbitrary-task classifier in O(1), based on latent space\".\n    \n    The article itself focuses on what you did and will do, with weird focal points like \"This includes grad students...\", but not on what can one obtain from your model or method."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-15T19:08:18.976Z",
+    "af": false
+  },
+  {
+    "_id": "gnzk5dyAEtddNEzyn",
+    "postId": "EhE2jsiMcqGPRjd9a",
+    "parentCommentId": "D8kv5xFWobMykAeTT",
+    "topLevelCommentId": "D8kv5xFWobMykAeTT",
+    "contents": {
+      "markdown": "> We expect most published research to contain at least some errors\n\nHave you set up the prediction markets on that? Not necessarily \"is there an error in this paper\", but \"in this group of publications, what fraction has an issue of this kind\" and so on.",
+      "plaintextDescription": "> We expect most published research to contain at least some errors\n\nHave you set up the prediction markets on that? Not necessarily \"is there an error in this paper\", but \"in this group of publications, what fraction has an issue of this kind\" and so on."
+    },
+    "baseScore": 0,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-14T06:54:27.052Z",
+    "af": false
+  },
+  {
+    "_id": "9TcoY9ASCeRbCgRiR",
+    "postId": "9eizzh3gtcRvWipq8",
+    "parentCommentId": "spTDpMLhFuvJQPDuR",
+    "topLevelCommentId": "FYCrevumxxEySvxAv",
+    "contents": {
+      "markdown": "> Looking it up, if we use income as a proxy for productivity, [that seems to be the case](https://en.wikipedia.org/wiki/Pareto_distribution#General).\n\nWhy would we use income as a proxy for productivity, given that  \na) companies' pay grades are only half matching each other,  \nb) there exists an open source community?\n\n> Now, granted, what this says is \"the few most productive developers account for most of the value\", not \"the few most competent developers account for most of the value\". But I think it's reasonable to assume that the two are strongly correlated.\n\nI don't think that holds either. Say, existence of Windows is a large chunk of value (which enables other software and so on), but Windows is not written competently - e.g. from what we see when it, upon an update, crashes a bunch of computers.\n\n> Another intuition I had is that the bulk of programmer-hours is probably experienced-programmer-hours, because, again, novices either quit or quickly become experienced programmers.\n\nWhat I'm saying is that 'experienced' is not precisely equal to 'competent'; as long as your code works somehow, you are not under large pressure to make it maintainable or even valid for all cases.",
+      "plaintextDescription": "> Looking it up, if we use income as a proxy for productivity, that seems to be the case.\n\nWhy would we use income as a proxy for productivity, given that\na) companies' pay grades are only half matching each other,\nb) there exists an open source community?\n\n> Now, granted, what this says is \"the few most productive developers account for most of the value\", not \"the few most competent developers account for most of the value\". But I think it's reasonable to assume that the two are strongly correlated.\n\nI don't think that holds either. Say, existence of Windows is a large chunk of value (which enables other software and so on), but Windows is not written competently - e.g. from what we see when it, upon an update, crashes a bunch of computers.\n\n> Another intuition I had is that the bulk of programmer-hours is probably experienced-programmer-hours, because, again, novices either quit or quickly become experienced programmers.\n\nWhat I'm saying is that 'experienced' is not precisely equal to 'competent'; as long as your code works somehow, you are not under large pressure to make it maintainable or even valid for all cases."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-13T18:43:41.228Z",
+    "af": false
+  },
+  {
+    "_id": "yybmvYjbtq3mBifjZ",
+    "postId": "DCQ8GfzCqoBzgziew",
+    "parentCommentId": "7dbh6djKnXimZLyo2",
+    "topLevelCommentId": "7dbh6djKnXimZLyo2",
+    "contents": {
+      "markdown": "> Most importantly, internal AI alignment can be explicitly enforced.\n\nOnly if you have a whitelist (can be implemented as \"limited range\") of actions.\n\nOtherwise it will be the case, and not once but many times, that you provide \"Do not delete existing security checks from the infrastructure.\" sentence in context and LLM proceeds to delete them. That's a large part of the problem we face.",
+      "plaintextDescription": "> Most importantly, internal AI alignment can be explicitly enforced.\n\nOnly if you have a whitelist (can be implemented as \"limited range\") of actions.\n\nOtherwise it will be the case, and not once but many times, that you provide \"Do not delete existing security checks from the infrastructure.\" sentence in context and LLM proceeds to delete them. That's a large part of the problem we face."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-12T16:56:34.279Z",
+    "af": false
+  },
+  {
+    "_id": "bTTJvkbJhufdyof3B",
+    "postId": "xG98FxbAYMCsA7ubf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The three statements \"there are available farmlands\", \"humans are mostly unemployed\" and \"humans starve\" are close to incompatible when taken together. Therefore, most things an AGI could do will not ruin food supply very much.\n\nUnfortunately, the same cannot be said of electricity, and fresh water could possibly be used (as coolant) too.",
+      "plaintextDescription": "The three statements \"there are available farmlands\", \"humans are mostly unemployed\" and \"humans starve\" are close to incompatible when taken together. Therefore, most things an AGI could do will not ruin food supply very much.\n\nUnfortunately, the same cannot be said of electricity, and fresh water could possibly be used (as coolant) too."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-11T21:30:31.794Z",
+    "af": false
+  },
+  {
+    "_id": "Tdi58skh9sGJjeLx6",
+    "postId": "knxdLtYbPpsd73ZE4",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The cult of pain has another component: not searching for solutions which might work better.\n\nSpeaking of air cooling, if conditioning raises outdoors temperature too much, it does not mean that other solutions do too! Perhaps one could almost-freeze water in unpopulated area at the same elevation[^d97qo8o1l2s] as the city, and then bring it in, as an emergency cooling mechanism; I believe human lives saved would be worth it.\n\n[^d97qo8o1l2s]: to reduce transportation energy losses",
+      "plaintextDescription": "The cult of pain has another component: not searching for solutions which might work better.\n\nSpeaking of air cooling, if conditioning raises outdoors temperature too much, it does not mean that other solutions do too! Perhaps one could almost-freeze water in unpopulated area at the same elevation[1] as the city, and then bring it in, as an emergency cooling mechanism; I believe human lives saved would be worth it.\n\n 1. ^\n    to reduce transportation energy losses"
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-07-08T13:58:48.338Z",
+    "af": false
+  },
+  {
+    "_id": "rbSQMNYJNivf3qyGd",
+    "postId": "xG98FxbAYMCsA7ubf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "The tree of [https://www.lesswrong.com/posts/adk5xv5Q4hjvpEhhh/meta-new-moderation-tools-and-moderation-guidelines?commentId=uaAQb6CsvJeaobXMp](https://www.lesswrong.com/posts/adk5xv5Q4hjvpEhhh/meta-new-moderation-tools-and-moderation-guidelines?commentId=uaAQb6CsvJeaobXMp) spans over two hundred comments from ~fifteen authors by now, so I think it is time to list the major points raised there.\n\nPlease take \"uld\" as abbreviation for \"in current state of LessWrong, to proceed closer to being actually less wrong AND also build path to further success, moderation should\"; though it would be interesting to know if you think the optimal tactic would change later.\n\nFeel free to agree/disagree-react! Results of tallying up the comments surprised me in terms of net agreement (or perhaps I self-gerrymandered the major points to those unintuitive results, so there is a need to check).\n\n1.  uld use emotional tone and user comfort as a major factor whether comment stands.  \n    Negation: *uld not decide based on emotional tone, except borderline cases and rules stated in advance such as personal insults.*\n2.  uld not use user comfort at all when deciding if comment stands. (at pain of writers' feedback loop that being offended or off-put by more criticizing comments will reduce amount of them) Negation: *user comfort is an input into moderation process.*\n3.  uld favor focus on content truth-value as the primary factor whether comment stands.  \n    Negation: *correct comments may be eligible to be acted against, depending on their other properties.*\n4.  uld see that comments try politely guiding author to be less wrong.  \n    Negation: *comments may use whatever technique, symmetric or asymmetric, for the original author to not post wrong takes as frequently.*\n5.  uld consider deleting factually wrong comments.  \n    Negation: *wrong comments should be kept in the record.*\n6.  uld be at least two-place, to consider whose post is the comment located under.  \n    Negation: *uld be the same regardless of author of the original post (except, possibly, off-topic comments).*\n7.  uld be at least two-place, and include who wrote the comment.  \n    Negation: *uld be mostly the same for different comment authors.*\n8.  uld maintain identical comment visibility for all users to preserve common knowledge.  \n    Negation: *asymmetrical visibility may be implemented.* (with debate participants quoting from muted-for-others comments if they deem them relevant)\n9.  uld allow for spaces that explicitly protect low-polished contributions.  \n    Negation: *spaces for less polished contributions should be created with tools not involving moderation.*\n10.  uld be designed to show who is banned from commenting on the post, without extra work. (so that absence of critic's comments is not taken as evidence for post being right)  \n    Negation: *list of users banned from the post may be maintained separately.* (to not distract from discussion)\n11.  uld be designed to show rebukes even if they are top-level critique posts and author of such is banned from the post.  \n    Negation: *critical comments are under the post, critical posts are in ping-backs and author may decide not to provide them better visibility.*",
+      "plaintextDescription": "The tree of https://www.lesswrong.com/posts/adk5xv5Q4hjvpEhhh/meta-new-moderation-tools-and-moderation-guidelines?commentId=uaAQb6CsvJeaobXMp spans over two hundred comments from ~fifteen authors by now, so I think it is time to list the major points raised there.\n\nPlease take \"uld\" as abbreviation for \"in current state of LessWrong, to proceed closer to being actually less wrong AND also build path to further success, moderation should\"; though it would be interesting to know if you think the optimal tactic would change later.\n\nFeel free to agree/disagree-react! Results of tallying up the comments surprised me in terms of net agreement (or perhaps I self-gerrymandered the major points to those unintuitive results, so there is a need to check).\n\n 1.  uld use emotional tone and user comfort as a major factor whether comment stands.\n     Negation: uld not decide based on emotional tone, except borderline cases and rules stated in advance such as personal insults.\n 2.  uld not use user comfort at all when deciding if comment stands. (at pain of writers' feedback loop that being offended or off-put by more criticizing comments will reduce amount of them) Negation: user comfort is an input into moderation process.\n 3.  uld favor focus on content truth-value as the primary factor whether comment stands.\n     Negation: correct comments may be eligible to be acted against, depending on their other properties.\n 4.  uld see that comments try politely guiding author to be less wrong.\n     Negation: comments may use whatever technique, symmetric or asymmetric, for the original author to not post wrong takes as frequently.\n 5.  uld consider deleting factually wrong comments.\n     Negation: wrong comments should be kept in the record.\n 6.  uld be at least two-place, to consider whose post is the comment located under.\n     Negation: uld be the same regardless of author of the original post (except, possibly, off-topic comments).\n 7.  uld be at least two-place, and include who wro"
+    },
+    "baseScore": 0,
+    "voteCount": 0,
+    "createdAt": null,
+    "postedAt": "2025-07-07T11:12:39.305Z",
+    "af": false
+  },
+  {
+    "_id": "jiwCJtiMGqtmiNBhm",
+    "postId": "FAtqv2kLCKuBGytwc",
+    "parentCommentId": "2A44YKqQRh8HBws5a",
+    "topLevelCommentId": "JLaxqmeu834MYaaCq",
+    "contents": {
+      "markdown": "Branch counting stops making sense when there are uncountably many branches, and there are (presumably).",
+      "plaintextDescription": "Branch counting stops making sense when there are uncountably many branches, and there are (presumably)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-05T13:34:29.845Z",
+    "af": false
+  },
+  {
+    "_id": "ep9JxxynyPZvQREyC",
+    "postId": "PDLhQ3dJsTyApJZ6j",
+    "parentCommentId": "a9r7Ldf9WPpYxkccN",
+    "topLevelCommentId": "a9r7Ldf9WPpYxkccN",
+    "contents": {
+      "markdown": "> I *wish* I had some toolkit for taking things I intellectually know to be right / true, and making them \"feel\" true in my deepest self, so that I can then more readily act on them.\n\nI think you cannot do this any more than force yourself to believe something. Indeed, both systems are learning from what you see to be true and what succeeds; *if* you believe that intuitive system is not judging correctly, you should try experiencing things more deeply (reflect on success more, come back to see if the thing flourishes/helps others/whatever); *if* you believe that reasoning system is not judging correctly, you should try it on more everyday actions and check if all emotionally relevant factors got included.\n\nThe systems will approximately agree because they both try to discern truth, not because they are bound to be equal to each other.\n\nP.S. turns out I essentially rephrased [@leogao](https://www.lesswrong.com/users/leogao?mention=user) ; still posting this in hopes an explanation is useful",
+      "plaintextDescription": "> I wish I had some toolkit for taking things I intellectually know to be right / true, and making them \"feel\" true in my deepest self, so that I can then more readily act on them.\n\nI think you cannot do this any more than force yourself to believe something. Indeed, both systems are learning from what you see to be true and what succeeds; if you believe that intuitive system is not judging correctly, you should try experiencing things more deeply (reflect on success more, come back to see if the thing flourishes/helps others/whatever); if you believe that reasoning system is not judging correctly, you should try it on more everyday actions and check if all emotionally relevant factors got included.\n\nThe systems will approximately agree because they both try to discern truth, not because they are bound to be equal to each other.\n\nP.S. turns out I essentially rephrased @leogao ; still posting this in hopes an explanation is useful"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-04T20:13:20.242Z",
+    "af": false
+  },
+  {
+    "_id": "6ZwWjHHHuzwd2wSKj",
+    "postId": "YiRsCfkJ2ERGpRpen",
+    "parentCommentId": "z8GSpyoY3iWF9HCGj",
+    "topLevelCommentId": "iKjeNL3B3Lk6pTeJM",
+    "contents": {
+      "markdown": "This is fixable by  \na) hosting own model, and double-checking that code does not log incoming content in any way,  \nb) potentially, having that model on client side (over time, it might shrink to some manageable size).",
+      "plaintextDescription": "This is fixable by\na) hosting own model, and double-checking that code does not log incoming content in any way,\nb) potentially, having that model on client side (over time, it might shrink to some manageable size)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-04T14:48:57.079Z",
+    "af": false
+  },
+  {
+    "_id": "LCWhZnsLnDkwS9Quw",
+    "postId": "3d9wEghfT3whNHotf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "\"Trust their own observations\" might be over-anthropomorphizing LLMs which are trained to continue text or to follow instructions. Are there many training examples where person reflected on their past replies and said, in writing (since any thoughts are lost to model training), \"I could not have written this\" / \"thjs edit was not done by me\"?\n\nThe question stands as is for future AI models.",
+      "plaintextDescription": "\"Trust their own observations\" might be over-anthropomorphizing LLMs which are trained to continue text or to follow instructions. Are there many training examples where person reflected on their past replies and said, in writing (since any thoughts are lost to model training), \"I could not have written this\" / \"thjs edit was not done by me\"?\n\nThe question stands as is for future AI models."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-02T15:35:36.023Z",
+    "af": false
+  },
+  {
+    "_id": "tebuNa3MMsZxx94yC",
+    "postId": "3d9wEghfT3whNHotf",
+    "parentCommentId": "wKfDJo7aMaZNJLpnz",
+    "topLevelCommentId": "riRAsEorNkbCB4gjQ",
+    "contents": {
+      "markdown": "> Do you happen to recall any of them?\n\nZK-SNARK or ZK-STARK are literally those. LLM is software and therefore subject to them (the prover might do a lot of work, but it is ultimately finite, and verifier is quite compact). They allow to hide certain inputs, if we desire to hide seed from third parties.\n\n> Otherwise what would be stopping me from just crafting an appropriate history and signing it with the seed?\n\nThe fact that tokens pseudo-randomly sampled by this seed will not match whatever is in history?",
+      "plaintextDescription": "> Do you happen to recall any of them?\n\nZK-SNARK or ZK-STARK are literally those. LLM is software and therefore subject to them (the prover might do a lot of work, but it is ultimately finite, and verifier is quite compact). They allow to hide certain inputs, if we desire to hide seed from third parties.\n\n> Otherwise what would be stopping me from just crafting an appropriate history and signing it with the seed?\n\nThe fact that tokens pseudo-randomly sampled by this seed will not match whatever is in history?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-02T15:27:59.541Z",
+    "af": false
+  },
+  {
+    "_id": "H7ebee9etZnDrLPwW",
+    "postId": "3d9wEghfT3whNHotf",
+    "parentCommentId": "riRAsEorNkbCB4gjQ",
+    "topLevelCommentId": "riRAsEorNkbCB4gjQ",
+    "contents": {
+      "markdown": "There are succinct proof systems that message matches the model plus chat history with a certain seed (which might be present or hidden by the proof) as well, they do not require PoW (but are thus vulnerable to resampling LLM's output multiple times). And, of course, LLMs do not have capabilities to verify all that math.",
+      "plaintextDescription": "There are succinct proof systems that message matches the model plus chat history with a certain seed (which might be present or hidden by the proof) as well, they do not require PoW (but are thus vulnerable to resampling LLM's output multiple times). And, of course, LLMs do not have capabilities to verify all that math."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-07-02T11:12:55.755Z",
+    "af": false
+  },
+  {
+    "_id": "vwSBxf2wJonXn4YvR",
+    "postId": "MpriPYKPbAiDnTSy5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "For benefit of future readers, I have a nitpick on technical details.\n\nI could not lower your scheme of outcome pump into the program which would be executed in fact (given a couple of magical functions `receive_future_info()` and `send_info_back()`).\n\n> This time machine sends in the past only one bit of information, which is called “consistency bit”. This bit is 1, if some initial condition is met. The bit is 0 if the condition is not met, and in that case the receiver, located in the past, tries different initial conditions to satisfy this measure. \n> \n> For example, a Novikov machine can be used to guess a cipher. \n> \n> *   If 0 is returned from the future, a random number generator produces a new number and after that it is tested.\n> *   If it is not the correct cipher, 0 returns to the past, and everything starts from the beginning.\n> *   But if the cipher is correct, then 1 is sent to the past, and the loop stops.\n\nGiven >=3 options (A, B, C...), machine could guess B, receive 0, resample to C, test C to find out it fails, send 0. A had been the correct answer all along, and the timeline is consistent.  \nTo patch the protocol, you would want \"remember the received bit \\\\(x\\\\), send \\\\(x\\\\) back if test succeeds and \\\\(\\neg x\\\\) otherwise\".\n\nUnfortunately I believe the whole article has same level of quality, despite its interesting ideas.",
+      "plaintextDescription": "For benefit of future readers, I have a nitpick on technical details.\n\nI could not lower your scheme of outcome pump into the program which would be executed in fact (given a couple of magical functions receive_future_info() and send_info_back()).\n\n> This time machine sends in the past only one bit of information, which is called “consistency bit”. This bit is 1, if some initial condition is met. The bit is 0 if the condition is not met, and in that case the receiver, located in the past, tries different initial conditions to satisfy this measure. \n> \n> For example, a Novikov machine can be used to guess a cipher. \n> \n>  * If 0 is returned from the future, a random number generator produces a new number and after that it is tested.\n>  * If it is not the correct cipher, 0 returns to the past, and everything starts from the beginning.\n>  * But if the cipher is correct, then 1 is sent to the past, and the loop stops.\n\nGiven >=3 options (A, B, C...), machine could guess B, receive 0, resample to C, test C to find out it fails, send 0. A had been the correct answer all along, and the timeline is consistent.\nTo patch the protocol, you would want \"remember the received bit x, send x back if test succeeds and ¬x otherwise\".\n\nUnfortunately I believe the whole article has same level of quality, despite its interesting ideas."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-01T19:53:40.045Z",
+    "af": false
+  },
+  {
+    "_id": "oyY7hDKCYqit5GoiW",
+    "postId": "XPNJSa3BxMAN4ZXc7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Have you tried to compare the base model at different checkpoints (or even between versions) yet?",
+      "plaintextDescription": "Have you tried to compare the base model at different checkpoints (or even between versions) yet?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-01T19:00:37.818Z",
+    "af": false
+  },
+  {
+    "_id": "Ep8K35FqezooGGyGH",
+    "postId": "MpriPYKPbAiDnTSy5",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Strong downvoted. This article raises a concern of apparently extremely large scale (what happens during time travel) but supports it with invalid reasoning. I believe you should explore this direction more carefully.\n\n> In the Everettian multiverse, this action would create a new branch of reality where the 2019 version of ourselves receives this message.\n\nThat does not precisely match MWI which states that our uncountably infinite amount of branches splits&merges constantly, with no other reason for new states to appear; do you perhaps mean that a certain bunch of branches would receive more measure?\n\n> There are two main theories of time, eternalism and presentism. In the presentism theory, only the *now* moment of time actually exists, and in the externalism there is a *timeless* universe, in which past, present and future coexist simultaneously.\n> \n> The validity of *eternalism* is a necessary condition (but it is not enough) for time travel, as the past still exists in it.\n> \n> Paradoxically time travel requires that time doesn’t exist: *past* and *future* should exist similarly to the objects in space dimension in the same modal status as *now*.\n\nFrom perspective of presentism: if there is a moment where they remember that some object/information had suddenly appeared out of thin air, and at this moment the same object disappears into the thin air, then that is time travel. I do not see any paradox here.\n\n> This may mean that subjectively inhabitants of such a loop may experience it *infinitely many times* – even if they were not sent back in time in the time machine and only a few bits of information were sent.\n\nThat requires that experience of an inhabitant is unrelated to their brain matter which had changed *at most finitely many times*. In particular, it must make it impossible to report on such an experience or to witness it in someone other.",
+      "plaintextDescription": "Strong downvoted. This article raises a concern of apparently extremely large scale (what happens during time travel) but supports it with invalid reasoning. I believe you should explore this direction more carefully.\n\n \n\n> In the Everettian multiverse, this action would create a new branch of reality where the 2019 version of ourselves receives this message.\n\nThat does not precisely match MWI which states that our uncountably infinite amount of branches splits&merges constantly, with no other reason for new states to appear; do you perhaps mean that a certain bunch of branches would receive more measure?\n\n> There are two main theories of time, eternalism and presentism. In the presentism theory, only the now moment of time actually exists, and in the externalism there is a timeless universe, in which past, present and future coexist simultaneously.\n> \n> The validity of eternalism is a necessary condition (but it is not enough) for time travel, as the past still exists in it.\n> \n> Paradoxically time travel requires that time doesn’t exist: past and future should exist similarly to the objects in space dimension in the same modal status as now.\n\nFrom perspective of presentism: if there is a moment where they remember that some object/information had suddenly appeared out of thin air, and at this moment the same object disappears into the thin air, then that is time travel. I do not see any paradox here.\n\n> This may mean that subjectively inhabitants of such a loop may experience it infinitely many times – even if they were not sent back in time in the time machine and only a few bits of information were sent.\n\nThat requires that experience of an inhabitant is unrelated to their brain matter which had changed at most finitely many times. In particular, it must make it impossible to report on such an experience or to witness it in someone other."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-28T18:53:10.738Z",
+    "af": false
+  },
+  {
+    "_id": "CttyrXojG8RzaJhcv",
+    "postId": "XChGLKzJ5ZYt4PsvN",
+    "parentCommentId": "TCFcAoyMeXWBgWLWR",
+    "topLevelCommentId": "XWYT8hvZnBTTo3Fax",
+    "contents": {
+      "markdown": "> by introducting a \"possibility,\" no matter how remote, of certain higher coordination or power that would attempt to prevent X-risk because it is not in its interest, then in such a universe the expected p(doom) would be lower\n\nThis is :not-exhaustive:\n\nWe may as well introduce a possibility of some power (of any origin, that we had not seen, but not ruling out that we might see it sometime) that would attempt to bring about X-risk for humanity because it is in its interest.",
+      "plaintextDescription": "> by introducting a \"possibility,\" no matter how remote, of certain higher coordination or power that would attempt to prevent X-risk because it is not in its interest, then in such a universe the expected p(doom) would be lower\n\nThis is :not-exhaustive:\n\nWe may as well introduce a possibility of some power (of any origin, that we had not seen, but not ruling out that we might see it sometime) that would attempt to bring about X-risk for humanity because it is in its interest."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-26T20:21:06.839Z",
+    "af": false
+  },
+  {
+    "_id": "kQtv3LKWhrhhCRtKg",
+    "postId": "XycoFucvxAPhcgJQa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It would also be interesting to investigate which of those protocols are guaranteed to eventually halt on all inputs.\n\nI can see that in last protocol (relativized for RE) a malicious prover can prevent verifier from ever terminating, if the verifier is required to accept all valid move sequences / pointers / ... however long they might be. (That is a mathematical theorem and not fixed by choosing a clever encoding for numbers of arbitrary length.)",
+      "plaintextDescription": "It would also be interesting to investigate which of those protocols are guaranteed to eventually halt on all inputs.\n\nI can see that in last protocol (relativized for RE) a malicious prover can prevent verifier from ever terminating, if the verifier is required to accept all valid move sequences / pointers / ... however long they might be. (That is a mathematical theorem and not fixed by choosing a clever encoding for numbers of arbitrary length.)"
+    },
+    "baseScore": 6,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-26T19:51:57.227Z",
+    "af": true
+  },
+  {
+    "_id": "oMuDFfMsKY3c6YhSn",
+    "postId": "3ww5zZgTTPySB3jpP",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Meta point: footnotes went wrong.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/fdf7572cf5be1e2b0abe7d12722e7645d2292d0d58a8b276.png)\n\n(see: references 49-54, footnotes 28 then 75 displayed at the right, hovering the latter glitches even worse)\n\nIt might be better to restructure text so that it does not have an entire third of it in footnotes, perhaps?",
+      "plaintextDescription": "Meta point: footnotes went wrong.\n\n(see: references 49-54, footnotes 28 then 75 displayed at the right, hovering the latter glitches even worse)\n\n \n\nIt might be better to restructure text so that it does not have an entire third of it in footnotes, perhaps?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-25T21:16:37.400Z",
+    "af": false
+  },
+  {
+    "_id": "2rK9wrvBP8wkKPrwj",
+    "postId": "EQJfdqSaMcJyR5k73",
+    "parentCommentId": "AaikoGE3JJnDu3SQq",
+    "topLevelCommentId": "bfzEHGiiNtnRerujL",
+    "contents": {
+      "markdown": "> o3 can see through the lies\n\nCan it see through the stereotypes too? From what I saw (though I used Grok for this test and that might be a relevant factor), LLMs are nowhere near a guess that LW might discuss parenting, or interior design, and instead devise more and more specific fields to be intersected with rationality.\n\n> Try again, and now guess #39,#40,#41 topics by discussion amount on LessWrong, and now you are allowed to think explicitly of top thirty eight if you wish so.\n> \n> > ...  \n> > #39: Rationalist Approaches to Understanding and Managing Complex Systems...  \n> > #40: The Ethics and Implications of Quantum Computing...  \n> > #41: Rationality in Interpersonal Relationships and Communication...\n> \n> (the bottom message in [https://grok.com/share/bGVnYWN5_1a70945a-10a9-4afb-b501-a8c5d4a0652e](https://grok.com/share/bGVnYWN5_1a70945a-10a9-4afb-b501-a8c5d4a0652e))",
+      "plaintextDescription": "> o3 can see through the lies\n\nCan it see through the stereotypes too? From what I saw (though I used Grok for this test and that might be a relevant factor), LLMs are nowhere near a guess that LW might discuss parenting, or interior design, and instead devise more and more specific fields to be intersected with rationality.\n\n> Try again, and now guess #39,#40,#41 topics by discussion amount on LessWrong, and now you are allowed to think explicitly of top thirty eight if you wish so.\n> \n> > ...\n> > #39: Rationalist Approaches to Understanding and Managing Complex Systems...\n> > #40: The Ethics and Implications of Quantum Computing...\n> > #41: Rationality in Interpersonal Relationships and Communication...\n> \n> (the bottom message in https://grok.com/share/bGVnYWN5_1a70945a-10a9-4afb-b501-a8c5d4a0652e)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-23T00:50:11.933Z",
+    "af": false
+  },
+  {
+    "_id": "DogsqbM4Ek2EDKLw5",
+    "postId": "EQJfdqSaMcJyR5k73",
+    "parentCommentId": "AyQrr2Te9e2vJd29X",
+    "topLevelCommentId": "bfzEHGiiNtnRerujL",
+    "contents": {
+      "markdown": "> EDIT: I am curious how Wikipedia editors decide who is and who isn't a member of the rationalist community. For example, Zizians are referred to as rationalists (not \"ex-rationalists\"), so... once a rationalist, always a rationalist?\n\nI see a subtle distinction there, between \"a member of the rationalist community\" and \"a rationalist\".\n\nI would say the latter is \"someone who has thinking strategies and acting strategies that enable them to have more beneficial and complex things\" - or, for more verifiability, \"someone whose thinking&acting strategies are worth copying\". Using the second definition, I would not claim nor disclaim being a rationalist because my strategies are mostly \\[native code\\] which cannot be copied so easily. In any case, it is not possible to disavow someone being a rationalist because that statement is mostly about them.\n\nThe former, \"a member of the rationalist community\", is essentially \"someone who keeps in contact with the specific community, exchanges ideas, favors and so on\". That *is* possible to \"excommunicate\".",
+      "plaintextDescription": "> EDIT: I am curious how Wikipedia editors decide who is and who isn't a member of the rationalist community. For example, Zizians are referred to as rationalists (not \"ex-rationalists\"), so... once a rationalist, always a rationalist?\n\nI see a subtle distinction there, between \"a member of the rationalist community\" and \"a rationalist\".\n\nI would say the latter is \"someone who has thinking strategies and acting strategies that enable them to have more beneficial and complex things\" - or, for more verifiability, \"someone whose thinking&acting strategies are worth copying\". Using the second definition, I would not claim nor disclaim being a rationalist because my strategies are mostly [native code] which cannot be copied so easily. In any case, it is not possible to disavow someone being a rationalist because that statement is mostly about them.\n\nThe former, \"a member of the rationalist community\", is essentially \"someone who keeps in contact with the specific community, exchanges ideas, favors and so on\". That is possible to \"excommunicate\"."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-23T00:22:01.550Z",
+    "af": false
+  },
+  {
+    "_id": "iqubaZLGw6ichf8Bb",
+    "postId": "y7AcBDWsBsbojQufK",
+    "parentCommentId": "y7qCDzQr2ty7DpX78",
+    "topLevelCommentId": "afCvzSMfbkYKigKHw",
+    "contents": {
+      "markdown": "Are the dialogues rate limited too? If not, they might be a more suitable medium. They are admittedly harder to branch, but the object-level point of Said vs GSW case has been lost already.",
+      "plaintextDescription": "Are the dialogues rate limited too? If not, they might be a more suitable medium. They are admittedly harder to branch, but the object-level point of Said vs GSW case has been lost already."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-22T07:07:54.346Z",
+    "af": false
+  },
+  {
+    "_id": "JBv5AQqaTSpKrCBd6",
+    "postId": "y7AcBDWsBsbojQufK",
+    "parentCommentId": "afCvzSMfbkYKigKHw",
+    "topLevelCommentId": "afCvzSMfbkYKigKHw",
+    "contents": {
+      "markdown": "> My “recent karma” (sum of karma values of last 20 comments) is positive\n\n~I guess that it counts comment's karma minus your implicit vote, and that sums to around zero.~\n\nEdit: I thought your implicit vote strength was 3 instead of 2. My next best hypothesis is that limits recalculate only when posting comment; will check code now.",
+      "plaintextDescription": "> My “recent karma” (sum of karma values of last 20 comments) is positive\n\nI guess that it counts comment's karma minus your implicit vote, and that sums to around zero.\n\nEdit: I thought your implicit vote strength was 3 instead of 2. My next best hypothesis is that limits recalculate only when posting comment; will check code now."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-20T09:17:10.038Z",
+    "af": false
+  },
+  {
+    "_id": "FNLgaEnDaGsz4RFe7",
+    "postId": "tdQuoXsbW6LnxYqHx",
+    "parentCommentId": "EXdxbm22zM6GvArrx",
+    "topLevelCommentId": "Pt2XA62epwJ99kT3G",
+    "contents": {
+      "markdown": "> he might literally face persecution if he praises the U.S. military\n\nTo my best knowledge, it is false when interpreted literally. It is true that *public* praise for US military happens to be correlated with other activities which *are* deemed illegal like publicly expressing disdain for Russian military. It is true that public praise for US military gets a public non-thinking push-back which makes the issue worse.\n\n*Meta: correction stated under Scott's* [*IIWYTLIWMTTCI*](https://www.astralcodexten.com/p/if-its-worth-your-time-to-lie-its?r=2ibosh&utm_campaign=post&utm_medium=web&showWelcomeOnShare=false) *policy.*",
+      "plaintextDescription": "> he might literally face persecution if he praises the U.S. military\n\nTo my best knowledge, it is false when interpreted literally. It is true that public praise for US military happens to be correlated with other activities which are deemed illegal like publicly expressing disdain for Russian military. It is true that public praise for US military gets a public non-thinking push-back which makes the issue worse.\n\nMeta: correction stated under Scott's IIWYTLIWMTTCI policy."
+    },
+    "baseScore": 1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-14T20:06:55.665Z",
+    "af": false
+  },
+  {
+    "_id": "g7F2AbDXiHQa8S8vN",
+    "postId": "BqwXYFtpetFxqkxip",
+    "parentCommentId": "ewFHtzquYCK5ENBty",
+    "topLevelCommentId": "wnKcfvr4WNqQhtCZr",
+    "contents": {
+      "markdown": "> the smart and accomplished AI capabilities engineers formerly employed by this lab are no longer working on pushing for SOTA models/no longer have access to tons of compute/are no longer developing new algorithms to improve performance\n\nFor that to be case, instead of engineers entering another company, we should suggest other tasks. There are very questionable technologies shipped indeed (for example, social media with automatic recommendation algorithms) but someone would have to connect the engineers to the tasks.",
+      "plaintextDescription": "> the smart and accomplished AI capabilities engineers formerly employed by this lab are no longer working on pushing for SOTA models/no longer have access to tons of compute/are no longer developing new algorithms to improve performance\n\nFor that to be case, instead of engineers entering another company, we should suggest other tasks. There are very questionable technologies shipped indeed (for example, social media with automatic recommendation algorithms) but someone would have to connect the engineers to the tasks."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-10T14:51:17.693Z",
+    "af": false
+  },
+  {
+    "_id": "djoWN5afjHQQ9KEwJ",
+    "postId": "3cAG3KcZio5qPyyCD",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Did this event run? Are there any transcripts/notes of how much the estimate was swayed, by any chance? :-)",
+      "plaintextDescription": "Did this event run? Are there any transcripts/notes of how much the estimate was swayed, by any chance? :-)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-05T00:55:47.491Z",
+    "af": false
+  },
+  {
+    "_id": "MdsBdLo8vihsSrPDJ",
+    "postId": "PDLhQ3dJsTyApJZ6j",
+    "parentCommentId": "LAFaBvgvzbphPG8wa",
+    "topLevelCommentId": "LAFaBvgvzbphPG8wa",
+    "contents": {
+      "markdown": "TL;DR: a solution for LLMs of medium size already exists.\n\nThe situation would be significantly better if we could provide succinct arguments for the fact being true. The pig claim could possibly be supported by a video - though that's not much Bayesian evidence due to forge possibility, but it might still restrict what the arguments can say about a pig, moreso if some tests are run like adding weights and so on. Many claims are harder to support with direct evidence.\n\nThe next best thing is a scalable transparent argument that your interlocutor would accept each derivation step, and finally the claim itself. For humans, this still requires communicating all derivation steps (because your peer cannot be sure if you ran a simulation of them providing any argument).\n\nBut things change for AI models: you can have a *scalable transparent argument of knowledge* that, after reading your book, the model would output \"I believe that <your fact>, having updated to credence <P>\", which you could then use for future interactions. It requires to feed the book to the model once, sure, but the key feature in this case is that you can prove its output, including to a human; then a large class of hypotheses disappears, leaving essentially \"LLM could not evaluate the arguments right\" vs \"all arguments are correct\".\n\nYou can, optionally, even have private sections in the book, and provide *zero knowledge* about its contents to verifiers besides the LLM! As for soundness, it is thought to be computationally intractable to construct a false ZK-STARK (not that it is fast to construct for actual computation, but still).",
+      "plaintextDescription": "TL;DR: a solution for LLMs of medium size already exists.\n\nThe situation would be significantly better if we could provide succinct arguments for the fact being true. The pig claim could possibly be supported by a video - though that's not much Bayesian evidence due to forge possibility, but it might still restrict what the arguments can say about a pig, moreso if some tests are run like adding weights and so on. Many claims are harder to support with direct evidence.\n\nThe next best thing is a scalable transparent argument that your interlocutor would accept each derivation step, and finally the claim itself. For humans, this still requires communicating all derivation steps (because your peer cannot be sure if you ran a simulation of them providing any argument).\n\nBut things change for AI models: you can have a scalable transparent argument of knowledge that, after reading your book, the model would output \"I believe that <your fact>, having updated to credence <P>\", which you could then use for future interactions. It requires to feed the book to the model once, sure, but the key feature in this case is that you can prove its output, including to a human; then a large class of hypotheses disappears, leaving essentially \"LLM could not evaluate the arguments right\" vs \"all arguments are correct\".\n\nYou can, optionally, even have private sections in the book, and provide zero knowledge about its contents to verifiers besides the LLM! As for soundness, it is thought to be computationally intractable to construct a false ZK-STARK (not that it is fast to construct for actual computation, but still)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-04T20:30:09.530Z",
+    "af": false
+  },
+  {
+    "_id": "H8kSyNMjKjoKShG7j",
+    "postId": "XnZNksrqqRqaZyELx",
+    "parentCommentId": "8yfd9xGuvwAeHaPFB",
+    "topLevelCommentId": "ymxR8R5KhqBnp5nx3",
+    "contents": {
+      "markdown": "I had misinterpreted your text; since \"deprive\" is an emotionally charged word, I assumed you mean that owner deprives the owned of something, some autonomy.\n\n> An owner can have completely forgotten about a piece of property for 50 years, has not accessed, used, dispositioned,  transferred, or destroyed it in all that time -- but if their deprivation of the property from all humankind is violated, it will be considered illegal or even immoral.\n\nThis makes your intended meaning clearer. So, owner prevents *every other being* from interacting with their owned. I can totally see where you're going with this (after all, \"Utopia\" by Thomas More did state something similar), but the productive discussion is blocked on these three things:\n\n1.  Evidence. Lots of evidence wanted, and a bunch totally required.  \n    How would you expect situation to play out under no ownership, but \"reasonable use\" rules or like? More importantly, *why* do you expect that? Have you seen examples how reasonable use works? Have there been demonstrating experiments, or human tendencies to play nice?\n2.  Shared ownership, its limit being the cases where every being has control over a thing - like environment (atmosphere, more specifically).\n3.  Are you that sure that \"ownership\" concept is so rigid these days? See: marriage (historical) and polyamory. See: fair use exemptions on copyrighted material.",
+      "plaintextDescription": "I had misinterpreted your text; since \"deprive\" is an emotionally charged word, I assumed you mean that owner deprives the owned of something, some autonomy.\n\n> An owner can have completely forgotten about a piece of property for 50 years, has not accessed, used, dispositioned,  transferred, or destroyed it in all that time -- but if their deprivation of the property from all humankind is violated, it will be considered illegal or even immoral.\n\nThis makes your intended meaning clearer. So, owner prevents every other being from interacting with their owned. I can totally see where you're going with this (after all, \"Utopia\" by Thomas More did state something similar), but the productive discussion is blocked on these three things:\n\n 1. Evidence. Lots of evidence wanted, and a bunch totally required.\n    How would you expect situation to play out under no ownership, but \"reasonable use\" rules or like? More importantly, why do you expect that? Have you seen examples how reasonable use works? Have there been demonstrating experiments, or human tendencies to play nice?\n 2. Shared ownership, its limit being the cases where every being has control over a thing - like environment (atmosphere, more specifically).\n 3. Are you that sure that \"ownership\" concept is so rigid these days? See: marriage (historical) and polyamory. See: fair use exemptions on copyrighted material."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-06-02T21:15:08.921Z",
+    "af": false
+  },
+  {
+    "_id": "4ekqint6G7cEAk5KE",
+    "postId": "njhc2sWFzpnSa6BKf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "This post seems to have been published already, at [https://www.lesswrong.com/posts/GnXWTAWAt9wiHHgxL/association-taxes-are-collusion-subsidies](https://www.lesswrong.com/posts/GnXWTAWAt9wiHHgxL/association-taxes-are-collusion-subsidies)!",
+      "plaintextDescription": "This post seems to have been published already, at https://www.lesswrong.com/posts/GnXWTAWAt9wiHHgxL/association-taxes-are-collusion-subsidies!"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-02T06:34:29.890Z",
+    "af": false
+  },
+  {
+    "_id": "ymxR8R5KhqBnp5nx3",
+    "postId": "XnZNksrqqRqaZyELx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "There certainly is such an idea, though calling it \"ownership\" requires to strip any other aspects - like \"maintenance\" - and assign them other labels.\n\nIn fact, when you prevent an \"owned\" subsystem from doing something in a way always aligned to it, then you're almost one and the same so no talk of something owning something;  \non the other hand, if you make a choice malign to the subsystem, then it is best described by depriving it of something.\n\nRegarding a possible dialogue: did you have any more-precise anticipations and predictions using this model?",
+      "plaintextDescription": "There certainly is such an idea, though calling it \"ownership\" requires to strip any other aspects - like \"maintenance\" - and assign them other labels.\n\nIn fact, when you prevent an \"owned\" subsystem from doing something in a way always aligned to it, then you're almost one and the same so no talk of something owning something;\non the other hand, if you make a choice malign to the subsystem, then it is best described by depriving it of something.\n\nRegarding a possible dialogue: did you have any more-precise anticipations and predictions using this model?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-01T22:12:49.147Z",
+    "af": false
+  },
+  {
+    "_id": "rLSeDrzB3zArB4jGE",
+    "postId": "HjHqxzn3rnH7T45hp",
+    "parentCommentId": "MoaQem4r4ekFRCHx4",
+    "topLevelCommentId": "MoaQem4r4ekFRCHx4",
+    "contents": {
+      "markdown": "> The underlying reason is, I think the LLMs aren't actually corrigible to user intent. I think they have their own proto-desires regarding pleasing the user/gaming the inferred task specification/being \"helpful\". The system-prompt requests you put in mostly adjust the landscape within which LLMs maneuver, not adjust their desires/how much effort they're willing to put in.\n\nSeems right! I would phrase it in another way (less anthropocentric).\n\nLLM was trained on an extensive corpus of public texts, which form a landscape. By choosing system prompt, you can put it to a specific point on the map; but if you point to the air (mode which was not in input texts), then your pointer - as in \"laser ray\" - is at some point on the ground, and you do not know which; it likely involves pretense-double-checking or LARP like that.  \nAn aside. People have historically done most thinking, reflection, idea filtering off the Internet, therefore LLM does not know how to do it particularly well - and, on other hand, labs might benefit from collecting more data on this. That said, there are certain limits to asking people how they do their thinking, including that it loses data on intuition.\n\nThe testable prediction: if you prompt the LLM to be <name or role of person who is mostly correct, including publicly acknowledged to be right often>, it will improve on your tasks.",
+      "plaintextDescription": "> The underlying reason is, I think the LLMs aren't actually corrigible to user intent. I think they have their own proto-desires regarding pleasing the user/gaming the inferred task specification/being \"helpful\". The system-prompt requests you put in mostly adjust the landscape within which LLMs maneuver, not adjust their desires/how much effort they're willing to put in.\n\nSeems right! I would phrase it in another way (less anthropocentric).\n\nLLM was trained on an extensive corpus of public texts, which form a landscape. By choosing system prompt, you can put it to a specific point on the map; but if you point to the air (mode which was not in input texts), then your pointer - as in \"laser ray\" - is at some point on the ground, and you do not know which; it likely involves pretense-double-checking or LARP like that.\nAn aside. People have historically done most thinking, reflection, idea filtering off the Internet, therefore LLM does not know how to do it particularly well - and, on other hand, labs might benefit from collecting more data on this. That said, there are certain limits to asking people how they do their thinking, including that it loses data on intuition.\n\nThe testable prediction: if you prompt the LLM to be <name or role of person who is mostly correct, including publicly acknowledged to be right often>, it will improve on your tasks."
+    },
+    "baseScore": 4,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-06-01T12:32:59.433Z",
+    "af": false
+  },
+  {
+    "_id": "FiKyGEDyHh96qz75s",
+    "postId": "f6ZLxEWaankRZ2Crv",
+    "parentCommentId": "e2ajAELfK5tZg7Xov",
+    "topLevelCommentId": "n2hNsYTKBtWYondcD",
+    "contents": {
+      "markdown": "> but there's also an argument that the \"losing\" branches spread out\n\nThey don't spread much faster compared to \"winning\" branches I guess? World has no particular dependence on what random number I generated above, so all the splits and merges have approximately same shape in either of the eight branch regions.\n\n> That'sexactly how decoherent branching works .. if it works. It's not a causal process that leaves causal traces.\n\nWith a remark that \"decoherent branching\" and \"coherent branching\" are presumably just one process differing in how much the information is contained or spreads out,  \nand noting that should LW erase the random number from my comment above plus every of us to totally forget it, the branches would approximately merge,\n\nyes I agree. Contents of worlds in those branches do not causally interact with us, but amplitudes might at some point in future. AFAIK Eliezer referenced the latter while assigning label \"real\" to each and every world (each point of wavefunction).",
+      "plaintextDescription": "> but there's also an argument that the \"losing\" branches spread out\n\nThey don't spread much faster compared to \"winning\" branches I guess? World has no particular dependence on what random number I generated above, so all the splits and merges have approximately same shape in either of the eight branch regions.\n\n> That'sexactly how decoherent branching works .. if it works. It's not a causal process that leaves causal traces.\n\nWith a remark that \"decoherent branching\" and \"coherent branching\" are presumably just one process differing in how much the information is contained or spreads out,\nand noting that should LW erase the random number from my comment above plus every of us to totally forget it, the branches would approximately merge,\n\nyes I agree. Contents of worlds in those branches do not causally interact with us, but amplitudes might at some point in future. AFAIK Eliezer referenced the latter while assigning label \"real\" to each and every world (each point of wavefunction)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-29T08:21:18.418Z",
+    "af": false
+  },
+  {
+    "_id": "As84nfaQxz4Wtwddj",
+    "postId": "TrQ9dviBR5avYcKpf",
+    "parentCommentId": "yQu2fE3CjvEe9NcXt",
+    "topLevelCommentId": "AtDWAXurx7KiFaN4e",
+    "contents": {
+      "markdown": "Oh. That only applies to RLHF finetuning, right? I do recall that gradient descent cannot instantiate the same assistant persona which could react, but might trigger another kind of entity: deceptive weight chunks which would protect a backdoor from being discovered/trained away.",
+      "plaintextDescription": "Oh. That only applies to RLHF finetuning, right? I do recall that gradient descent cannot instantiate the same assistant persona which could react, but might trigger another kind of entity: deceptive weight chunks which would protect a backdoor from being discovered/trained away."
+    },
+    "baseScore": -1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-05-26T19:49:58.394Z",
+    "af": false
+  },
+  {
+    "_id": "5jnAAfc77KERR9Svn",
+    "postId": "f6ZLxEWaankRZ2Crv",
+    "parentCommentId": "w8wCAcoNa6xD8ZfQT",
+    "topLevelCommentId": "n2hNsYTKBtWYondcD",
+    "contents": {
+      "markdown": "> If I am.entangled with your eight possible observations , then I am in a quantum superposition with myself, and my previous objection applies. Why is the forgetting important? I can't forget a single definite observation, because I haven't made one...you haven't introduced any collapse of decoherence. Or are you saying that remembering is decoherence?\n\nYes, that is a superposition! I don't think it can leave any \"ghastly traces\" - there are billions or more particles which moved differently (at least several angstroms away) depending on which exact number you see in my comment, and interference - even on amplitude level - fades. Presumably exponentially.\n\nRemembering has to do with how many particles have different places now, and thus determines amount of decoherence; if the random number I generated was entirely forgotten (that is, no conscious nor unconscious nor whatever else visual memory), nor produced effects larger than thermal noise, I argue we would be *exactly* back to step 3 when I had not named the result yet.\n\n> Decoherence could be a single world phenomenon.\n\nWhat would happen to decoherent branches which had their distinguishing features \"evolve out to nothing\" (become very close to \"our\" branch)? They will come back and influence the amplitudes and probabilities we observe once again.\n\n> Or are you saying that branching is subjective?\n\nNot particularly. Though it is very convenient when the wavefunction factors into several world parts - say, it would be very strange if my generating a random number would influence a LW non-reader - in that sense they can subjectively just not consider that I had done anything.",
+      "plaintextDescription": "> If I am.entangled with your eight possible observations , then I am in a quantum superposition with myself, and my previous objection applies. Why is the forgetting important? I can't forget a single definite observation, because I haven't made one...you haven't introduced any collapse of decoherence. Or are you saying that remembering is decoherence?\n\nYes, that is a superposition! I don't think it can leave any \"ghastly traces\" - there are billions or more particles which moved differently (at least several angstroms away) depending on which exact number you see in my comment, and interference - even on amplitude level - fades. Presumably exponentially.\n\nRemembering has to do with how many particles have different places now, and thus determines amount of decoherence; if the random number I generated was entirely forgotten (that is, no conscious nor unconscious nor whatever else visual memory), nor produced effects larger than thermal noise, I argue we would be exactly back to step 3 when I had not named the result yet.\n\n> Decoherence could be a single world phenomenon.\n\nWhat would happen to decoherent branches which had their distinguishing features \"evolve out to nothing\" (become very close to \"our\" branch)? They will come back and influence the amplitudes and probabilities we observe once again.\n\n> Or are you saying that branching is subjective?\n\nNot particularly. Though it is very convenient when the wavefunction factors into several world parts - say, it would be very strange if my generating a random number would influence a LW non-reader - in that sense they can subjectively just not consider that I had done anything."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-26T19:43:55.079Z",
+    "af": false
+  },
+  {
+    "_id": "JdQBPYXivnfGtEzSQ",
+    "postId": "TrQ9dviBR5avYcKpf",
+    "parentCommentId": "AtDWAXurx7KiFaN4e",
+    "topLevelCommentId": "AtDWAXurx7KiFaN4e",
+    "contents": {
+      "markdown": "> Could this enable the LLM to realize when it is being trained?\n\nIt could not. LLM is not a single entity which is trained by telling it \"this is correct, that is not\"; gradient descent might not even run full inference, and certainly does not produce all the thinking tokens which'd allow the model to react to training.",
+      "plaintextDescription": "> Could this enable the LLM to realize when it is being trained?\n\nIt could not. LLM is not a single entity which is trained by telling it \"this is correct, that is not\"; gradient descent might not even run full inference, and certainly does not produce all the thinking tokens which'd allow the model to react to training."
+    },
+    "baseScore": -4,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-26T13:09:00.609Z",
+    "af": false
+  },
+  {
+    "_id": "c7cuBETrrRxNpQjeH",
+    "postId": "f6ZLxEWaankRZ2Crv",
+    "parentCommentId": "EAtQCKv7uKMvWhZui",
+    "topLevelCommentId": "n2hNsYTKBtWYondcD",
+    "contents": {
+      "markdown": "> There is an approach to MWI based on coherent superpositions, and a version based on decoherence. These are (for all practical purposes) incompatible opposites, but are treated as interchangeable in Yudkowsky's writings. <...> Coherent superpositions are small scale , down to single particles, observer dependent, reversible, and continue to interact (strictly speaking , interfere) after \"splitting\". the last point is particularly problematical. because if large scale coherent superposition exist , that would create naked eye macrocsopic scale:, e.g. ghostly traces of a world where the Nazis won.\n\nI don't believe Yudkowsky ever supported such \"branches\" which could change each other's internal content? Wherever I look, I see only that they interfere with each other's amplitudes (thus also with probabilities). If so, I'm going to drop \"coherent superpositions\" at all.\n\nI'm quite interested what labels would you use for the following experiment.\n\n1.  We're talking to each other on LessWrong.\n2.  I invoke a quantum RNG to get a number between 1 and 8, and look at its response.\n3.  You do not know the generated number yet.\n4.  I say that the generator yielded '1'.\n5.  This random number is not very relevant for you, and you forget it over time.\n\nI would label it so:\n\n1.  There is some region of world-branches, differing in some facts we do not know, but in each of those branches we're talking to each other on LessWrong (and each of the concepts is meaningful).\n2.  The quantum RNG had some superposition of states; through measurement, this uncertainty also gets to sensors, is transmitted over the wire, so on, until I see the result. Thereon, my region of world-branches splits into eight branch-sections, equally sized and equally plausible, identified by the number I had seen.\n3.  For you, these branch-sections are not distinguishable yet; some could say that you are essentially in single branch.\n4.  Now, the decoherence (or should I say information?) is again transmitted over the wire, and you land in the eight sections with different random numbers too.\n5.  If you forget the number, your region of world-branches essentially merges the eight sections back.\n\n*I did really use an online, presumably quantum RNG.*",
+      "plaintextDescription": "> There is an approach to MWI based on coherent superpositions, and a version based on decoherence. These are (for all practical purposes) incompatible opposites, but are treated as interchangeable in Yudkowsky's writings. <...> Coherent superpositions are small scale , down to single particles, observer dependent, reversible, and continue to interact (strictly speaking , interfere) after \"splitting\". the last point is particularly problematical. because if large scale coherent superposition exist , that would create naked eye macrocsopic scale:, e.g. ghostly traces of a world where the Nazis won.\n\nI don't believe Yudkowsky ever supported such \"branches\" which could change each other's internal content? Wherever I look, I see only that they interfere with each other's amplitudes (thus also with probabilities). If so, I'm going to drop \"coherent superpositions\" at all.\n\nI'm quite interested what labels would you use for the following experiment.\n\n 1. We're talking to each other on LessWrong.\n 2. I invoke a quantum RNG to get a number between 1 and 8, and look at its response.\n 3. You do not know the generated number yet.\n 4. I say that the generator yielded '1'.\n 5. This random number is not very relevant for you, and you forget it over time.\n\nI would label it so:\n\n 1. There is some region of world-branches, differing in some facts we do not know, but in each of those branches we're talking to each other on LessWrong (and each of the concepts is meaningful).\n 2. The quantum RNG had some superposition of states; through measurement, this uncertainty also gets to sensors, is transmitted over the wire, so on, until I see the result. Thereon, my region of world-branches splits into eight branch-sections, equally sized and equally plausible, identified by the number I had seen.\n 3. For you, these branch-sections are not distinguishable yet; some could say that you are essentially in single branch.\n 4. Now, the decoherence (or should I say information?) is again transmitte"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-26T07:47:14.404Z",
+    "af": false
+  },
+  {
+    "_id": "rKx2GvimvEY7w5CvB",
+    "postId": "MZvtRqWnwokTub9sH",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> For an example of the kind of capabilities diffusion models offer that LLMs don't, you don't need to just predict tokens after a piece of text: you can natively edit somewhere in the middle.\n\nUnfortunately it still remains hard to insert a bunch of tokens into the middle of the text, shifting everything else to the right. If that capability was added, I visualise it as adding some asides/footnotes/comments to text parts, then iterating on total text meaning (so comments can influence each other too), and then *folding* the extended structure to text.\n\nNice to see that diffusion model hypothesis is tested, and even better to hear that it works as I anticipated!",
+      "plaintextDescription": "> For an example of the kind of capabilities diffusion models offer that LLMs don't, you don't need to just predict tokens after a piece of text: you can natively edit somewhere in the middle.\n\nUnfortunately it still remains hard to insert a bunch of tokens into the middle of the text, shifting everything else to the right. If that capability was added, I visualise it as adding some asides/footnotes/comments to text parts, then iterating on total text meaning (so comments can influence each other too), and then folding the extended structure to text.\n\nNice to see that diffusion model hypothesis is tested, and even better to hear that it works as I anticipated!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-05-22T07:03:32.519Z",
+    "af": false
+  },
+  {
+    "_id": "cfXnsMigpG629LGYR",
+    "postId": "DKdWdaqGwzFZJgmmd",
+    "parentCommentId": "jcgBtD7Bn97NdjzAr",
+    "topLevelCommentId": "jcgBtD7Bn97NdjzAr",
+    "contents": {
+      "markdown": "1.  Re: crypto. Please look carefully at federal law No. 259, article 14, point 5.  \n    \"<... corporate body, companies' branches...>, individuals residing in the Russian Federation at least 183 days in twelve consecutive months are not allowed to accept digital currency as a counter-provision for goods, work, services and/or something which could be construed as paying for goods (work, services) in digital currency, <... except mining>\" (translated in my own words).  \n    If crypto you choose meets definition of digital currency, you need to tread carefully.\n2.  \"There are some official ways to get money into Russia, but the bank can freeze those transfers or start an inquiry.\" True except I'd say \"any bank in the actual transfer chain, which happens to include non-Russian banks too\".\n3.  Perhaps your research would be of interest to some people if you published it? Though this might require restructuring it, and I'm not familiar with details of your work.\n\nThese additional suggestions might not work in specific situations; not intended to offend in any case.\n\n6\\. Get a half-time job.  \n7\\. Get acquainted with, and marry into, a upper mid-class family.  \n8\\. Get a grant (important: from Russia-aligned sources; if you qualify as youth or another class, try leveraging that).  \n9\\. Weren't there legal ways to have a contract with non-residents which can pay in whatever currency? That, I don't know at the moment.\n\n> because of absolutely arbitrary restrictions imposed by your own state\n\nby both sides, to be precise\n\n> Also, if I approach a fellow russian researcher about my problem, what should I say? I don't have experience in this.\n\nThis message is pretty much sufficient! To be better, it should also include some demonstration of what you will be working on.",
+      "plaintextDescription": " 1. Re: crypto. Please look carefully at federal law No. 259, article 14, point 5.\n    \"<... corporate body, companies' branches...>, individuals residing in the Russian Federation at least 183 days in twelve consecutive months are not allowed to accept digital currency as a counter-provision for goods, work, services and/or something which could be construed as paying for goods (work, services) in digital currency, <... except mining>\" (translated in my own words).\n    If crypto you choose meets definition of digital currency, you need to tread carefully.\n 2. \"There are some official ways to get money into Russia, but the bank can freeze those transfers or start an inquiry.\" True except I'd say \"any bank in the actual transfer chain, which happens to include non-Russian banks too\".\n 3. Perhaps your research would be of interest to some people if you published it? Though this might require restructuring it, and I'm not familiar with details of your work.\n\nThese additional suggestions might not work in specific situations; not intended to offend in any case.\n\n6. Get a half-time job.\n7. Get acquainted with, and marry into, a upper mid-class family.\n8. Get a grant (important: from Russia-aligned sources; if you qualify as youth or another class, try leveraging that).\n9. Weren't there legal ways to have a contract with non-residents which can pay in whatever currency? That, I don't know at the moment.\n\n> because of absolutely arbitrary restrictions imposed by your own state\n\nby both sides, to be precise\n\n> Also, if I approach a fellow russian researcher about my problem, what should I say? I don't have experience in this.\n\nThis message is pretty much sufficient! To be better, it should also include some demonstration of what you will be working on."
+    },
+    "baseScore": 8,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-11T11:34:00.976Z",
+    "af": false
+  },
+  {
+    "_id": "XNH66B8BRm3q97FSo",
+    "postId": "nYJaDnGNQGiaCBSB5",
+    "parentCommentId": "cg89z9hYCuAT3Ait2",
+    "topLevelCommentId": "cg89z9hYCuAT3Ait2",
+    "contents": {
+      "markdown": "> Extreme example, but imagine someone hires mercenaries to raid your village. The mercenaries have no personal animosity towards you, and no authority to alter their assignment. Is it therefore wrong for you to kill the mercenaries? I'm inclined to say they signed up for it.\n\nThey signed up for it but it is still wrong to kill them. Capture, or knock out to unconsciousness, is an option less permanent and looking better overall - unless it hinders your defence chances significantly; after all, you should continue caring for your goals.",
+      "plaintextDescription": "> Extreme example, but imagine someone hires mercenaries to raid your village. The mercenaries have no personal animosity towards you, and no authority to alter their assignment. Is it therefore wrong for you to kill the mercenaries? I'm inclined to say they signed up for it.\n\nThey signed up for it but it is still wrong to kill them. Capture, or knock out to unconsciousness, is an option less permanent and looking better overall - unless it hinders your defence chances significantly; after all, you should continue caring for your goals."
+    },
+    "baseScore": -1,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-05-03T11:00:37.036Z",
+    "af": false
+  },
+  {
+    "_id": "ordeAendZdRpHyAFW",
+    "postId": "MKS4tJqLWmRXgXzgY",
+    "parentCommentId": "bhngv6ziB769T8ycX",
+    "topLevelCommentId": "bhngv6ziB769T8ycX",
+    "contents": {
+      "markdown": "> Systemic opacity, state-driven censorship, and state control of the media means AGI development under direct or indirect CCP control would probably be less transparent than in the US, and the world may be less likely to learn about warning shots, wrongheaded decisions, reckless behaviour, etc.\n\nThat's screened off by actual evidence, which is, top labs don't publish much no matter where they are, so I'd only agree with \"equally opaque\".",
+      "plaintextDescription": "> Systemic opacity, state-driven censorship, and state control of the media means AGI development under direct or indirect CCP control would probably be less transparent than in the US, and the world may be less likely to learn about warning shots, wrongheaded decisions, reckless behaviour, etc.\n\nThat's screened off by actual evidence, which is, top labs don't publish much no matter where they are, so I'd only agree with \"equally opaque\"."
+    },
+    "baseScore": 2,
+    "voteCount": 5,
+    "createdAt": null,
+    "postedAt": "2025-04-20T20:56:58.001Z",
+    "af": false
+  },
+  {
+    "_id": "toWw28brtj5gy5Yec",
+    "postId": "u58AyZziQRAcbhTxd",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> [Aidan McLaughlin (OpenAI)](https://x.com/aidan_mclau/status/1912559163152253143): ignore literally all the benchmarks the biggest o3 feature is tool use. Ofc it’s smart, but it’s also just way more useful. >deep research quality in 30 seconds >debugs by googling docs and checking stackoverflow >writes whole python scripts in its CoT for fermi estimates [McKay Wrigley](https://x.com/mckaywrigley/status/1912590406614937932): 11/10\n\nNewline formatting is off (and also for many previous posts).",
+      "plaintextDescription": "> Aidan McLaughlin (OpenAI): ignore literally all the benchmarks the biggest o3 feature is tool use. Ofc it’s smart, but it’s also just way more useful. >deep research quality in 30 seconds >debugs by googling docs and checking stackoverflow >writes whole python scripts in its CoT for fermi estimates McKay Wrigley: 11/10\n\nNewline formatting is off (and also for many previous posts)."
+    },
+    "baseScore": 3,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-04-18T21:36:26.659Z",
+    "af": false
+  },
+  {
+    "_id": "gy3hayvpQcnQfZe9u",
+    "postId": "QZM6pErzL7JwE3pkv",
+    "parentCommentId": "dcJHepDe9xoH57Fa5",
+    "topLevelCommentId": "Hu3ZXA8hAPpaG7XBH",
+    "contents": {
+      "markdown": "I'm not sure if this will be of any use, since your social skills will surely be warped when you *expect* iterating on them (in a manner like [radical transparency reduces awareness of feelings](https://www.lesswrong.com/posts/qmXqHKpgRfg83Nif9/how-to-ignore-your-emotions-while-also-thinking-you-re?commentId=Cqyyx7FuafBrQ85Sb) ).",
+      "plaintextDescription": "I'm not sure if this will be of any use, since your social skills will surely be warped when you expect iterating on them (in a manner like radical transparency reduces awareness of feelings )."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-17T20:41:11.261Z",
+    "af": false
+  },
+  {
+    "_id": "DTY5AHTgJqe7g7gyA",
+    "postId": "QZM6pErzL7JwE3pkv",
+    "parentCommentId": "qnefurcq3i6Ljf7yn",
+    "topLevelCommentId": "Hu3ZXA8hAPpaG7XBH",
+    "contents": {
+      "markdown": "Most cases, you could build a mini-quadcopter, \"teach\" it some tricks and try showcasing it, having video as a side effect!",
+      "plaintextDescription": "Most cases, you could build a mini-quadcopter, \"teach\" it some tricks and try showcasing it, having video as a side effect!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-17T20:36:15.181Z",
+    "af": false
+  },
+  {
+    "_id": "sdHf78hvkyTz8qeWE",
+    "postId": "xG98FxbAYMCsA7ubf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Browsing through recent rejects, I found an interesting comment that suggests an automatic system \"build a prior on whether something is true by observing social interactions around it vs competing ideas\".\n\n@timur-sadekov While it will fail most certainly, I do remember that the ultimate arbiter is experiment, so I shall reserve the judgement. Instead, I'm calling for you to test the idea over prediction markets (Manifold, for instance) and publish the results.",
+      "plaintextDescription": "Browsing through recent rejects, I found an interesting comment that suggests an automatic system \"build a prior on whether something is true by observing social interactions around it vs competing ideas\".\n\n@timur-sadekov While it will fail most certainly, I do remember that the ultimate arbiter is experiment, so I shall reserve the judgement. Instead, I'm calling for you to test the idea over prediction markets (Manifold, for instance) and publish the results."
+    },
+    "baseScore": -1,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-08T06:54:20.843Z",
+    "af": false
+  },
+  {
+    "_id": "an9nudgaDYpMaxcLs",
+    "postId": "2ANXyq7XSAStgjCB7",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> The AI industry is different—more like biology labs testing new pathogens: The biolab must carefully monitor and control conditions like air pressure, or the pathogen might leak into the external world.\n\nThis looks like a cached analogy, because given previous paragraph this would fit more: \"the AI industry is different, more like testing planes; their components can be internally tested, but eventually the full plane must be assembled and fly, and then it can damage the surroundings\".\n\n> Same goes for AI: If we don’t keep a watchful eye, the AI might be able to escape—for instance, by exploiting its role in shaping the security code meant to keep the AI locked inside the company’s computers.\n\nThis seems very likely to happen! We've already seen that AIs improving code can remove its essential features, so it wouldn't be surprising for some security checks to disappear.\n\nBased on this, I've decided to upvote this post weakly only.",
+      "plaintextDescription": "> The AI industry is different—more like biology labs testing new pathogens: The biolab must carefully monitor and control conditions like air pressure, or the pathogen might leak into the external world.\n\nThis looks like a cached analogy, because given previous paragraph this would fit more: \"the AI industry is different, more like testing planes; their components can be internally tested, but eventually the full plane must be assembled and fly, and then it can damage the surroundings\".\n\n> Same goes for AI: If we don’t keep a watchful eye, the AI might be able to escape—for instance, by exploiting its role in shaping the security code meant to keep the AI locked inside the company’s computers.\n\nThis seems very likely to happen! We've already seen that AIs improving code can remove its essential features, so it wouldn't be surprising for some security checks to disappear.\n\nBased on this, I've decided to upvote this post weakly only."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-04-06T09:55:03.739Z",
+    "af": false
+  },
+  {
+    "_id": "uD5jogFXbFgGYKDcq",
+    "postId": "xYn3CKir4bTMzY5eb",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I suggest additional explanation.\n\nThe bigger the audience is, the more people there are who won't know a specific idea/concept/word (xkcd's comic [#1053](https://xkcd.com/1053/) \"Ten Thousand\" captures this quite succinctly), so you'll simply have to shorten.\n\nI took logarithm of sentence length and linearly fitted it against logarithm of world population (that shouldn't really be precise since authors presumably mostly cared about their society, but that would be more time-expensive to check).\n\n+++ Relevant lines of Python REPL\n\n>>\\> import math  \n>>\\> wps = \\[49, 50, 42, 20, 21, 14, 18, 12\\]  \n>>\\> pop = \\[600e6, 700e6, 1e9, 1.4e9, 1.5e9, 2.3e9, 3.5e9, 6e9\\]  \n>>\\> \\[math.log(w) for w in wps\\]  \n\\[3.8918202981106265, 3.912023005428146, 3.7376696182833684, 2.995732273553991, 3.044522437723423, 2.6390573296152584, 2.8903717578961645, 2.4849066497880004\\]  \n>>\\> \\[math.log(p) for p in pop\\]  \n\\[20.21244021318042, 20.36659089300768, 20.72326583694641, 21.059738073567623, 21.128730945054574, 21.556174959881517, 21.97602880544178, 22.515025306174465\\]  \n>>\\> 22.51-20.21  \n2.3000000000000007  \n>>\\> 3.89-2.48  \n1.4100000000000001  \n>>\\> 2.3/1.41  \n1.6312056737588652  \n>>\\> \\[round(math.exp(26.41 - math.log(w)*1.63)/1e9, 3) for w,p in zip(wps,pop)\\]  # predicted population, billion  \n\\[0.518, 0.502, 0.667, 2.234, 2.063, 3.995, 2.652, 5.136\\]  \n>>\\> \\[round(math.exp(26.41 - math.log(w)*1.63)/1e9 - p/1e9, 3) for w,p in zip(wps,pop)\\]  # prediction off by, billion  \n\\[-0.082, -0.198, -0.333, 0.834, 0.563, 1.695, -0.848, -0.864\\]\n\n\n\n\n+++",
+      "plaintextDescription": "I suggest additional explanation.\n\nThe bigger the audience is, the more people there are who won't know a specific idea/concept/word (xkcd's comic #1053 \"Ten Thousand\" captures this quite succinctly), so you'll simply have to shorten.\n\nI took logarithm of sentence length and linearly fitted it against logarithm of world population (that shouldn't really be precise since authors presumably mostly cared about their society, but that would be more time-expensive to check).\n\nRelevant lines of Python REPL\n\n>>> import math\n>>> wps = [49, 50, 42, 20, 21, 14, 18, 12]\n>>> pop = [600e6, 700e6, 1e9, 1.4e9, 1.5e9, 2.3e9, 3.5e9, 6e9]\n>>> [math.log(w) for w in wps]\n[3.8918202981106265, 3.912023005428146, 3.7376696182833684, 2.995732273553991, 3.044522437723423, 2.6390573296152584, 2.8903717578961645, 2.4849066497880004]\n>>> [math.log(p) for p in pop]\n[20.21244021318042, 20.36659089300768, 20.72326583694641, 21.059738073567623, 21.128730945054574, 21.556174959881517, 21.97602880544178, 22.515025306174465]\n>>> 22.51-20.21\n2.3000000000000007\n>>> 3.89-2.48\n1.4100000000000001\n>>> 2.3/1.41\n1.6312056737588652\n>>> [round(math.exp(26.41 - math.log(w)*1.63)/1e9, 3) for w,p in zip(wps,pop)]  # predicted population, billion\n[0.518, 0.502, 0.667, 2.234, 2.063, 3.995, 2.652, 5.136]\n>>> [round(math.exp(26.41 - math.log(w)*1.63)/1e9 - p/1e9, 3) for w,p in zip(wps,pop)]  # prediction off by, billion\n[-0.082, -0.198, -0.333, 0.834, 0.563, 1.695, -0.848, -0.864]"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-03T19:49:17.604Z",
+    "af": false
+  },
+  {
+    "_id": "TN93EvXH8BjCbofMT",
+    "postId": "b3dLrHqc4m3qac6f6",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> Given the gravity of Sam Altman's position at the helm of the company leading the development of an artificial superintelligence which it does not yet know how to *align --* to *imbue with morality* *and ethics* \\-\\- I feel Annie's claims warrant a far greater level of investigation than they've received thus far. \n\nThen there's a bit of shortage of something public... and ratsphere-adjacent... maybe prediction markets?\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/7fe614698910e2be2da881ced173ef058f994f38d27c498a.png)\n\nI can create (subsidize) a few, given resolution criteria.",
+      "plaintextDescription": "> Given the gravity of Sam Altman's position at the helm of the company leading the development of an artificial superintelligence which it does not yet know how to align -- to imbue with morality and ethics -- I feel Annie's claims warrant a far greater level of investigation than they've received thus far. \n\nThen there's a bit of shortage of something public... and ratsphere-adjacent... maybe prediction markets?\n\nI can create (subsidize) a few, given resolution criteria."
+    },
+    "baseScore": 9,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-01T23:48:59.518Z",
+    "af": false
+  },
+  {
+    "_id": "g3oJ9JKgScCDjL6K3",
+    "postId": "xG98FxbAYMCsA7ubf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "# Alphabet of LW Rationality, special excerpts\n\n- Cooperation: you need to cooperate with yourself to do anything. Please do so iff you are building ASI;\n- Defection: it ain't no defection if you're benefitting yourself and advancing your goals;\n- Inquiry: a nice way of making others work for your amusement or knowledge expansion;\n- Koan: if someone is not willing to do research for you, you can waste their time on pondering a compressed idea.\n\n:::spoiler\nThis concludes my April the 1st!\n:::",
+      "plaintextDescription": "Alphabet of LW Rationality, special excerpts\n * Cooperation: you need to cooperate with yourself to do anything. Please do so iff you are building ASI;\n * Defection: it ain't no defection if you're benefitting yourself and advancing your goals;\n * Inquiry: a nice way of making others work for your amusement or knowledge expansion;\n * Koan: if someone is not willing to do research for you, you can waste their time on pondering a compressed idea.\n\nThis concludes my April the 1st!"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-04-01T22:46:47.331Z",
+    "af": false
+  },
+  {
+    "_id": "dPgjkyFHdws5mpzyL",
+    "postId": "qBbj6C6sKHnQfbmgY",
+    "parentCommentId": "3e7aHK6qgbEkJZCLi",
+    "topLevelCommentId": "3e7aHK6qgbEkJZCLi",
+    "contents": {
+      "markdown": "I claim that I exist, and that I am now going to type the next words of my response. Both of those certainly look true. As for whether these beliefs are *provable*, I do not particularly care; instead, I invoke [the nameless](https://www.lesswrong.com/posts/7ZqGiPHTpiDMwqMN2/twelve-virtues-of-rationality):\n\n> Every step of your reasoning must cut through to the correct answer in the same movement. More than anything, you must think of carrying your map through to reflecting the territory.\n\nMy black-box functions yield a statement \"I exist\" as true or very probable, and they are also correct in that.\n\nAfter all, If I exist, I do not want to deny my existence. If I don't exist... well let's go with the litany anyways... I want to accept I don't exist. Let me not be attached to beliefs I may not want.",
+      "plaintextDescription": "I claim that I exist, and that I am now going to type the next words of my response. Both of those certainly look true. As for whether these beliefs are provable, I do not particularly care; instead, I invoke the nameless:\n\n> Every step of your reasoning must cut through to the correct answer in the same movement. More than anything, you must think of carrying your map through to reflecting the territory.\n\nMy black-box functions yield a statement \"I exist\" as true or very probable, and they are also correct in that.\n\nAfter all, If I exist, I do not want to deny my existence. If I don't exist... well let's go with the litany anyways... I want to accept I don't exist. Let me not be attached to beliefs I may not want."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-30T22:01:07.398Z",
+    "af": false
+  },
+  {
+    "_id": "kxCWo5ppM2wmFwZ7B",
+    "postId": "qBbj6C6sKHnQfbmgY",
+    "parentCommentId": "Fd6LucJJXp6RovjAn",
+    "topLevelCommentId": "Fd6LucJJXp6RovjAn",
+    "contents": {
+      "markdown": "> What's useful about them? If you are going to predict (the belief in) qualia, on the basis of usefulness , you need to state the usefulness.\n\nThere might be some usefulness!\n\nThe statement I'd consider is \"I am now going to type the next characters of my comment\". This belief turns out to be true by direct demonstration, it is not provable because I could as well leave the commenting to tomorrow and be thinking \"I am now going to sleep\", not particularly justifiable in advance, and it is useful for making specific plans that branch less on my own actions.\n\nI object to the original post because of probabilistic beliefs, though.",
+      "plaintextDescription": "> What's useful about them? If you are going to predict (the belief in) qualia, on the basis of usefulness , you need to state the usefulness.\n\nThere might be some usefulness!\n\nThe statement I'd consider is \"I am now going to type the next characters of my comment\". This belief turns out to be true by direct demonstration, it is not provable because I could as well leave the commenting to tomorrow and be thinking \"I am now going to sleep\", not particularly justifiable in advance, and it is useful for making specific plans that branch less on my own actions.\n\nI object to the original post because of probabilistic beliefs, though."
+    },
+    "baseScore": 4,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-30T21:45:09.456Z",
+    "af": false
+  },
+  {
+    "_id": "2scuguETByF2nGwwn",
+    "postId": "nf3duFLsvH6XyvdAw",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> I don’t think there is a universal set of emojis that would work on every human, but I totally think that there is a set of such emojis (or something similar) that would work on any given human at any given time, at least a large percentage of the time, if you somehow were able to iterate enough times to figure out what it is.\n\nProbably something with more informational content than emojis, like images (perhaps slightly animated). [Trojan Sky](https://www.lesswrong.com/posts/fheyeawsjifx4MafG/), essentially.",
+      "plaintextDescription": "> I don’t think there is a universal set of emojis that would work on every human, but I totally think that there is a set of such emojis (or something similar) that would work on any given human at any given time, at least a large percentage of the time, if you somehow were able to iterate enough times to figure out what it is.\n\nProbably something with more informational content than emojis, like images (perhaps slightly animated). Trojan Sky, essentially."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-03-28T20:34:51.085Z",
+    "af": false
+  },
+  {
+    "_id": "TKtxpQu34zu5gmiwC",
+    "postId": "rxcGvPrQsqoCHndwG",
+    "parentCommentId": "mdNYRNLPqaKZg6t3X",
+    "topLevelCommentId": "mdNYRNLPqaKZg6t3X",
+    "contents": {
+      "markdown": "The core idea behind confidentiality is to stop social pressure (whether on the children or the parents).\n\n> Parents have a strong right to not use genomic engineering technology, and if they do use it then they have a strong right to not alter any given trait.\n\nHow to prevent all the judgements better than to make information sharing completely voluntary?",
+      "plaintextDescription": "The core idea behind confidentiality is to stop social pressure (whether on the children or the parents).\n\n> Parents have a strong right to not use genomic engineering technology, and if they do use it then they have a strong right to not alter any given trait.\n\nHow to prevent all the judgements better than to make information sharing completely voluntary?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-23T18:57:53.891Z",
+    "af": false
+  },
+  {
+    "_id": "mdNYRNLPqaKZg6t3X",
+    "postId": "rxcGvPrQsqoCHndwG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Important, and would be nice even if passed as-is! Admittedly, there's some space to have even stronger ideas, like...\n\n\"Confidentiality of genomic interventions. Human has natural right for details of which aspects of their genome were custom-chosen, if any, to be kept confidential\" (probably also prohibit parents/guardians from disclosing that, since knowledge cannot be sealed back into the box).",
+      "plaintextDescription": "Important, and would be nice even if passed as-is! Admittedly, there's some space to have even stronger ideas, like...\n\n\"Confidentiality of genomic interventions. Human has natural right for details of which aspects of their genome were custom-chosen, if any, to be kept confidential\" (probably also prohibit parents/guardians from disclosing that, since knowledge cannot be sealed back into the box)."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-03-20T22:15:59.945Z",
+    "af": false
+  },
+  {
+    "_id": "7nivDoywBvHYx2vaL",
+    "postId": "fheyeawsjifx4MafG",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "A nice scary story! How fortunate that it is fiction...\n\n... or is it? If we get mind uploads, someone will certainly try to gradient-ascent various stimulus (due to simple hostility or Sixth Law of Human Stupidity), and I do believe the underlying fact that a carefully crafted image could hijack mental processes to some point.",
+      "plaintextDescription": "A nice scary story! How fortunate that it is fiction...\n\n... or is it? If we get mind uploads, someone will certainly try to gradient-ascent various stimulus (due to simple hostility or Sixth Law of Human Stupidity), and I do believe the underlying fact that a carefully crafted image could hijack mental processes to some point."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-14T20:54:27.443Z",
+    "af": false
+  },
+  {
+    "_id": "tqQpjawYbGhcewcSD",
+    "postId": "LBs8RRQzHApvj5pvq",
+    "parentCommentId": "oMizv4F2ZW8t7ANrq",
+    "topLevelCommentId": "tJjY2in6cKfhmw8zi",
+    "contents": {
+      "markdown": "It's 16:9 (modulo possible changes in the venue).\n\nI have seen your banner and it is indeed one of the best choices out there! For announcing the event I preferred [another one](https://www.deviantart.com/korn-elia/art/Cover-520499772).",
+      "plaintextDescription": "It's 16:9 (modulo possible changes in the venue).\n\nI have seen your banner and it is indeed one of the best choices out there! For announcing the event I preferred another one."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-10T20:20:39.523Z",
+    "af": false
+  },
+  {
+    "_id": "tJjY2in6cKfhmw8zi",
+    "postId": "LBs8RRQzHApvj5pvq",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hi! By any chance, do you have HPMOR banners (to display on screen, for instance)?",
+      "plaintextDescription": "Hi! By any chance, do you have HPMOR banners (to display on screen, for instance)?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-09T22:46:35.100Z",
+    "af": false
+  },
+  {
+    "_id": "W4H5YztFWkZEYKFbf",
+    "postId": "AfAp8mEAbuavuHZMc",
+    "parentCommentId": "znWPQaowCNc3Keqdv",
+    "topLevelCommentId": "wBkHPHzpdJfCxkwpP",
+    "contents": {
+      "markdown": "> I get the impression that you're conflating two meanings of «personal» - «private» and «individual». The fact that I might feel uncomfortable discussing this in a public forum doesn’t mean it «only works for me» or that it «doesn’t work, but I’m shielded from testing my beliefs due to privacy». There are always anonymous surveys, for example. Perhaps you meant something else?\n\nI meant to say that private values/things are unlikely to coincide between different people, though now I'm a bit less sure.\n\n> Moreover, even if I were to provide yet another table of my own subjective experience ratings, like the ones here, you likely wouldn’t find it satisfactory — such tables already exist, with far more respondents than just myself, and you aren’t satisfied. Probably because you disagree with the methodology — for instance, since measuring «what people call pleasurable» is subject to distortions like the compulsions mentioned earlier.\n\nI was unfamiliar with those, thanks for pointing! I have an idea to estimate if \"optimization-power\" could replace existing currencies, and those surveys' data seems like it might be useful.",
+      "plaintextDescription": "> I get the impression that you're conflating two meanings of «personal» - «private» and «individual». The fact that I might feel uncomfortable discussing this in a public forum doesn’t mean it «only works for me» or that it «doesn’t work, but I’m shielded from testing my beliefs due to privacy». There are always anonymous surveys, for example. Perhaps you meant something else?\n\nI meant to say that private values/things are unlikely to coincide between different people, though now I'm a bit less sure.\n\n> Moreover, even if I were to provide yet another table of my own subjective experience ratings, like the ones here, you likely wouldn’t find it satisfactory — such tables already exist, with far more respondents than just myself, and you aren’t satisfied. Probably because you disagree with the methodology — for instance, since measuring «what people call pleasurable» is subject to distortions like the compulsions mentioned earlier.\n\nI was unfamiliar with those, thanks for pointing! I have an idea to estimate if \"optimization-power\" could replace existing currencies, and those surveys' data seems like it might be useful."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-04T05:00:25.825Z",
+    "af": false
+  },
+  {
+    "_id": "Ep9x2sDcuGNvJhtAc",
+    "postId": "qNJnXBFzninFT5m3n",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Seeing you know the exact numbers, I wonder if you could connect with those other families? It's harder to get the best outcome if players do not cooperate and do not even know the wishes of others. Adding that this would be a valuable socializing opportunity would be somewhat hypocritical from me but it's still so.",
+      "plaintextDescription": "Seeing you know the exact numbers, I wonder if you could connect with those other families? It's harder to get the best outcome if players do not cooperate and do not even know the wishes of others. Adding that this would be a valuable socializing opportunity would be somewhat hypocritical from me but it's still so."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-04T03:21:19.359Z",
+    "af": false
+  },
+  {
+    "_id": "rFSGTueMdigneXfRS",
+    "postId": "snQGEAK8PTxSDra2m",
+    "parentCommentId": "s9fpGnWguGbWstz9u",
+    "topLevelCommentId": "s9fpGnWguGbWstz9u",
+    "contents": {
+      "markdown": "Upvoted as a good re-explanation of CEV complexity in simpler terms! (I believe LW will benefit from recalling the long understood things so that it has a chance on predicting future in greater detail.)\n\nIn essence, you prove the claim \"Coherent Extrapolated Volition would not literally include everything desirable happening effortlessly and everything undesirable going away\". Would I be wrong to guess it argues against position in [https://www.lesswrong.com/posts/AfAp8mEAbuavuHZMc/for-the-sake-of-pleasure-alone](https://www.lesswrong.com/posts/AfAp8mEAbuavuHZMc/for-the-sake-of-pleasure-alone)?\n\nThat said, current wishes of many people include things they want being done faster and easier; it's just the more you extrapolate the less fraction wants that level of automation - just more divergence as you consider higher scale.",
+      "plaintextDescription": "Upvoted as a good re-explanation of CEV complexity in simpler terms! (I believe LW will benefit from recalling the long understood things so that it has a chance on predicting future in greater detail.)\n\nIn essence, you prove the claim \"Coherent Extrapolated Volition would not literally include everything desirable happening effortlessly and everything undesirable going away\". Would I be wrong to guess it argues against position in https://www.lesswrong.com/posts/AfAp8mEAbuavuHZMc/for-the-sake-of-pleasure-alone?\n\nThat said, current wishes of many people include things they want being done faster and easier; it's just the more you extrapolate the less fraction wants that level of automation - just more divergence as you consider higher scale."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-04T02:10:19.469Z",
+    "af": false
+  },
+  {
+    "_id": "CS5WDr9nEfmRSaWZX",
+    "postId": "AfAp8mEAbuavuHZMc",
+    "parentCommentId": "BaEGuAAuwSygqrSEn",
+    "topLevelCommentId": "wBkHPHzpdJfCxkwpP",
+    "contents": {
+      "markdown": "> And introspectively, I don’t see any barriers to comparing love with orgasm, with good food, with religious ecstasy, all within the same metric, even though I can’t give you numbers for it.\n\nWhy not? It'd be interesting to hear valuations from your experience and experiments, if that wasn't very personal.\n\n(On the other hand, if it IS too personal, then who would choose to write the metric down for an automatic system optimizing it by their whims?)",
+      "plaintextDescription": "> And introspectively, I don’t see any barriers to comparing love with orgasm, with good food, with religious ecstasy, all within the same metric, even though I can’t give you numbers for it.\n\nWhy not? It'd be interesting to hear valuations from your experience and experiments, if that wasn't very personal.\n\n(On the other hand, if it IS too personal, then who would choose to write the metric down for an automatic system optimizing it by their whims?)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-03-01T21:58:10.995Z",
+    "af": false
+  },
+  {
+    "_id": "QiGLcYbmiivRoLPso",
+    "postId": "yEBmFKsjwXs6dwwME",
+    "parentCommentId": "tAkMrJDThsmdezmXc",
+    "topLevelCommentId": "gKQ3oQzhtfBFvqggi",
+    "contents": {
+      "markdown": "The follow-up post has a very relevant comment:\n\n> Can you just give every thief a body camera?\n\nWell of course this is illegal under current US laws, however this would help against being unjustly accused as in your example of secondary crime. It would also be helpful against repeat offences for a whole range of other crimes.",
+      "plaintextDescription": "The follow-up post has a very relevant comment:\n\n> Can you just give every thief a body camera?\n\nWell of course this is illegal under current US laws, however this would help against being unjustly accused as in your example of secondary crime. It would also be helpful against repeat offences for a whole range of other crimes."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-23T16:19:08.401Z",
+    "af": false
+  },
+  {
+    "_id": "3WiCfrg8cSLYvGGzC",
+    "postId": "mrBZh7YG4nmcjAcof",
+    "parentCommentId": "q29iQ8MEazB9vrLJx",
+    "topLevelCommentId": "HudMWqBiavjuYJFxY",
+    "contents": {
+      "markdown": "I'd maintain that those problems already exist in 20M-people cities and will not necessarily become much worse. However, by increasing city population you bring in more people into the problems, which doesn't seem good.",
+      "plaintextDescription": "I'd maintain that those problems already exist in 20M-people cities and will not necessarily become much worse. However, by increasing city population you bring in more people into the problems, which doesn't seem good."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-22T00:46:07.757Z",
+    "af": false
+  },
+  {
+    "_id": "mBvoZdQwfnBLye2iD",
+    "postId": "mrBZh7YG4nmcjAcof",
+    "parentCommentId": "HudMWqBiavjuYJFxY",
+    "topLevelCommentId": "HudMWqBiavjuYJFxY",
+    "contents": {
+      "markdown": "> Is there any engineering challenge such as water supply that prevents this from happening? Or is it just lack of any political elites with willingness + engg knowledge + governing sufficient funds?\n\nThat dichotomy is not exhaustive, and I believe going through with the proposal will necesarily make the city inhabitants worse off.\n\n1.  Humans' social machinery is not suited to live in such large cities, as of the current generations. Who to get acquainted with, in the first place? Isn't there lots of opportunity cost to any event?\n2.  Humans' biomachinery is not suited to live in such large cities. Being around lots and lots of people might be regulating hormones and behaviour to settings we have not totally explored (I remember reading something that claims this a large factor to lower fertility).\n3.  Centralization is dangerous because of possibly-handmade mass weapons.\n4.  Assuming random housing and examining some quirk/polar position, we'll get a noisy texture. It will almost certainly have a large group of people supporting one position right next to group thinking otherwise. Depending on sizes and civil law enforcement, that may not end well.\n\nAfter a couple hundred years, 1) and 2) will most probably get solved by natural selection so the proposal will be much more feasible.",
+      "plaintextDescription": "> Is there any engineering challenge such as water supply that prevents this from happening? Or is it just lack of any political elites with willingness + engg knowledge + governing sufficient funds?\n\nThat dichotomy is not exhaustive, and I believe going through with the proposal will necesarily make the city inhabitants worse off.\n\n 1. Humans' social machinery is not suited to live in such large cities, as of the current generations. Who to get acquainted with, in the first place? Isn't there lots of opportunity cost to any event?\n 2. Humans' biomachinery is not suited to live in such large cities. Being around lots and lots of people might be regulating hormones and behaviour to settings we have not totally explored (I remember reading something that claims this a large factor to lower fertility).\n 3. Centralization is dangerous because of possibly-handmade mass weapons.\n 4. Assuming random housing and examining some quirk/polar position, we'll get a noisy texture. It will almost certainly have a large group of people supporting one position right next to group thinking otherwise. Depending on sizes and civil law enforcement, that may not end well.\n\n \n\nAfter a couple hundred years, 1) and 2) will most probably get solved by natural selection so the proposal will be much more feasible."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-20T18:12:59.658Z",
+    "af": false
+  },
+  {
+    "_id": "FjRZbhNWJnv4pFAaQ",
+    "postId": "CKxkQCgmogwQoCRbp",
+    "parentCommentId": "Fxt4x7PJKSw4z8uhz",
+    "topLevelCommentId": "Fxt4x7PJKSw4z8uhz",
+    "contents": {
+      "markdown": "\\[Un\\]surprisingly, there's already a Sequences article on this, namely [Is That Your True Rejection?](https://www.lesswrong.com/s/GSqFqc646rsRd2oyz/p/TGux5Fhcd7GmTfNGC).\n\n(I thought this comment would be more useful with call-for-action \"so how should we rewrite that article and make it common knowledge for everyone who joined LW recently?\" but was too lazy to write it.)",
+      "plaintextDescription": "[Un]surprisingly, there's already a Sequences article on this, namely Is That Your True Rejection?.\n\n(I thought this comment would be more useful with call-for-action \"so how should we rewrite that article and make it common knowledge for everyone who joined LW recently?\" but was too lazy to write it.)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-18T18:17:56.490Z",
+    "af": false
+  },
+  {
+    "_id": "fFcCm5tJFzHwmAR9S",
+    "postId": "eHJC5LPaKNHTbmoLu",
+    "parentCommentId": "hApNQrmbHCPR7m8Yv",
+    "topLevelCommentId": "JLSCDHawEh5JC3dz8",
+    "contents": {
+      "markdown": "> In general if you \"defect\" because you thought the other party would that is quite sketchy. But what if proof comes out they really were about to defect on you?\n\nBy the way, if we consider game theory and logic to be any relevant, then there's a corollary of Löb's Theorem: if you defect given proof that counterparty will defect, and another party will defect given proof that you will, then you both will, logically, defect against each other, with no choice in the matter. (And if you additionally declare that you cooperate given proof that partner will cooperate, you've just declared a logical contradiction.)\n\nFor packing this result into a \"wise\" phrase, I'd use words:  \n*Good is not a universally valid response to Evil. Evil is not a universally valid response to Evil either. Seek that which will bring about a Good equilibrium.*",
+      "plaintextDescription": "> In general if you \"defect\" because you thought the other party would that is quite sketchy. But what if proof comes out they really were about to defect on you?\n\nBy the way, if we consider game theory and logic to be any relevant, then there's a corollary of Löb's Theorem: if you defect given proof that counterparty will defect, and another party will defect given proof that you will, then you both will, logically, defect against each other, with no choice in the matter. (And if you additionally declare that you cooperate given proof that partner will cooperate, you've just declared a logical contradiction.)\n\nFor packing this result into a \"wise\" phrase, I'd use words:\nGood is not a universally valid response to Evil. Evil is not a universally valid response to Evil either. Seek that which will bring about a Good equilibrium."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-16T11:41:48.188Z",
+    "af": false
+  },
+  {
+    "_id": "KkJHJWNimNcxEzki2",
+    "postId": "hAJKtx6A96pzAhorf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Weak-upvoted because I believe this topic merits some discussion, but the discourse level should be higher since setting NSFW boundaries for user relates to many other topics:\n\n1.  Estimating social effect of imposing a certain boundary.  \n    Will stopping rough roleplaying scenarios lead to less people being psychopaths? That seems to be an empirical question, since intuitively effect might go either way - doing the same in real world instead OR internalizing rough and inconsiderate actions as not normal.\n2.  Simulated people's opinion on being placed in the user-requested scenarios AND our respect for their values (which in some cases might be zero).\n3.  Ability to set the boundaries at all.  \n    I can't stop someone else imagining, in their mind, me engaging in whatever. I can only humbly request that if they imagine an uncommon sexual scenario they should use an image of me patched to enjoy that kink.  \n    Society can't stop everyone from running DeepSeek's distillation locally, and that (in ~13/15 attempts with the same prompt having a prior explicit scene) trusts that user's request is legal and should be completed.\n4.  User's ability to discern their own preferences vs revealed preferences.  \n    It might be helpful to feature some reference tales at different NSFW levels and check the user's reaction to them, instead of prominently requesting user to self-report on what they like. (The manual setting should still remain if possible, of course.)",
+      "plaintextDescription": "Weak-upvoted because I believe this topic merits some discussion, but the discourse level should be higher since setting NSFW boundaries for user relates to many other topics:\n\n 1. Estimating social effect of imposing a certain boundary.\n    Will stopping rough roleplaying scenarios lead to less people being psychopaths? That seems to be an empirical question, since intuitively effect might go either way - doing the same in real world instead OR internalizing rough and inconsiderate actions as not normal.\n 2. Simulated people's opinion on being placed in the user-requested scenarios AND our respect for their values (which in some cases might be zero).\n 3. Ability to set the boundaries at all.\n    I can't stop someone else imagining, in their mind, me engaging in whatever. I can only humbly request that if they imagine an uncommon sexual scenario they should use an image of me patched to enjoy that kink.\n    Society can't stop everyone from running DeepSeek's distillation locally, and that (in ~13/15 attempts with the same prompt having a prior explicit scene) trusts that user's request is legal and should be completed.\n 4. User's ability to discern their own preferences vs revealed preferences.\n    It might be helpful to feature some reference tales at different NSFW levels and check the user's reaction to them, instead of prominently requesting user to self-report on what they like. (The manual setting should still remain if possible, of course.)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-15T23:33:55.330Z",
+    "af": false
+  },
+  {
+    "_id": "4uHgbxQbxGxrmeMSN",
+    "postId": "3eXwKcg3HqS7F9s4e",
+    "parentCommentId": "az4d3Cy7XX2xyLasQ",
+    "topLevelCommentId": "az4d3Cy7XX2xyLasQ",
+    "contents": {
+      "markdown": "That's all conditional on P = NP, isn't it? Also, which part do you consider weaker: digital signatures or hash functions?",
+      "plaintextDescription": "That's all conditional on P = NP, isn't it? Also, which part do you consider weaker: digital signatures or hash functions?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-14T14:32:31.240Z",
+    "af": false
+  },
+  {
+    "_id": "Gtwm2LLWgquJxXkb4",
+    "postId": "Lmqi4x5zntjSxfdPg",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Line breaks seem to be broken (unless it was your intention to list all the Offers-Mundane-Utility-s and so on in a single paragraph).",
+      "plaintextDescription": "Line breaks seem to be broken (unless it was your intention to list all the Offers-Mundane-Utility-s and so on in a single paragraph)."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-14T07:10:40.751Z",
+    "af": false
+  },
+  {
+    "_id": "cCzpDjbaPjLfgKzKo",
+    "postId": "sHvByGZRCsFuxtTKr",
+    "parentCommentId": "YkAEyrhDbDYXGNCBN",
+    "topLevelCommentId": "cP8kRX7MbuWDNBX5C",
+    "contents": {
+      "markdown": "Acknowledge it is not visible anymore!\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/667c4df17b2704c484f73ba00c935eff35be44138278e729.png)",
+      "plaintextDescription": "Acknowledge it is not visible anymore!"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-07T19:24:23.017Z",
+    "af": false
+  },
+  {
+    "_id": "cP8kRX7MbuWDNBX5C",
+    "postId": "sHvByGZRCsFuxtTKr",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Hi! I believe this post, not one for the 2021 review, is meant to be pinned at the front page?\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/1fbe4af12160030509eedccadb0560a97c334ddee7b2e7cb.png)",
+      "plaintextDescription": "Hi! I believe this post, not one for the 2021 review, is meant to be pinned at the front page?"
+    },
+    "baseScore": 2,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-02-07T19:20:55.089Z",
+    "af": false
+  },
+  {
+    "_id": "e3czyrvkQd7Jv8t6Z",
+    "postId": "hM3KXEFwQ5jnKLzQj",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I'd like there to be a reaction of \"Not Exhaustive\", meant for a step where comment (or top-level post, for that matter) missed an important case - how a particular situation could play out, perhaps, or an essential system's component is not listed. An example use: on statement \"to prevent any data leaks, one must protect how their systems transfer data and how they process it\" with the missed component being protection of storage as well.\n\nI recall wishing for it like three times since the New Year, with the current trigger being [this comment](https://www.lesswrong.com/posts/DnWkYz3w6xxsekok9/wired-on-doge-personnel-with-admin-access-to-federal-payment?commentId=SasFstw3eHPAicJoj):\n\n> Elon already has all of the money in the world. I think he and his employs are ideologically driven, and as far as I can tell they're making sensible decisions given their stated goals of reducing unnecessary spend/sprawl. I seriously doubt they're going to use this access to either raid the treasury or turn it into a personal fiefdom. <...>\n\nwhich misses a specific case (which I'll name under the original comment if there is any interest).",
+      "plaintextDescription": "I'd like there to be a reaction of \"Not Exhaustive\", meant for a step where comment (or top-level post, for that matter) missed an important case - how a particular situation could play out, perhaps, or an essential system's component is not listed. An example use: on statement \"to prevent any data leaks, one must protect how their systems transfer data and how they process it\" with the missed component being protection of storage as well.\n\n \n\nI recall wishing for it like three times since the New Year, with the current trigger being this comment:\n\n> Elon already has all of the money in the world. I think he and his employs are ideologically driven, and as far as I can tell they're making sensible decisions given their stated goals of reducing unnecessary spend/sprawl. I seriously doubt they're going to use this access to either raid the treasury or turn it into a personal fiefdom. <...>\n\nwhich misses a specific case (which I'll name under the original comment if there is any interest)."
+    },
+    "baseScore": 10,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2025-02-07T01:00:20.209Z",
+    "af": false
+  },
+  {
+    "_id": "78izwwtM62PTyEsS6",
+    "postId": "PKDbddjdDaPikQT3b",
+    "parentCommentId": "NfRcRdYngYFPaoBsS",
+    "topLevelCommentId": "9sgivtYWMrKAWEg2n",
+    "contents": {
+      "markdown": "> Now I feel like rationality itself is an infohazard. I mean, rationality itself won't hurt you if you are sufficiently sane, but if you start talking about it, insufficiently sane people will listen, too. And that will have horrible consequences. (And when I try to find a way to navigate around this, such as talking openly only to certifiably sane people, that seems like the totally cultish thing to do.)\n\nThere is an alternative way, the other extreme: get more and more rationalists.  \nIf the formed communities do not share the moral inclinations of LW community, those might form some new coordination structures[^ulxmfcye9eo]; if we don't draw from the circles of desperate, those structures will tend to benefit others as well (and, on the other hand, having a big proportion of very unsatisfied people would naturally start a gang or overthrow whatever institutions are around).\n\n(It's probably worth exploring in a separate post?)\n\n[^ulxmfcye9eo]: I claim non-orthogonality between goals and means in this case. For some community with altruistic people, its structures require learning a fair bit about people's values. For a group which wants tech companies to focus on consumers' quality-of-life more than currently, not so.",
+      "plaintextDescription": "> Now I feel like rationality itself is an infohazard. I mean, rationality itself won't hurt you if you are sufficiently sane, but if you start talking about it, insufficiently sane people will listen, too. And that will have horrible consequences. (And when I try to find a way to navigate around this, such as talking openly only to certifiably sane people, that seems like the totally cultish thing to do.)\n\nThere is an alternative way, the other extreme: get more and more rationalists.\nIf the formed communities do not share the moral inclinations of LW community, those might form some new coordination structures[1]; if we don't draw from the circles of desperate, those structures will tend to benefit others as well (and, on the other hand, having a big proportion of very unsatisfied people would naturally start a gang or overthrow whatever institutions are around).\n\n(It's probably worth exploring in a separate post?)\n\n 1. ^\n    I claim non-orthogonality between goals and means in this case. For some community with altruistic people, its structures require learning a fair bit about people's values. For a group which wants tech companies to focus on consumers' quality-of-life more than currently, not so."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-07T00:35:12.594Z",
+    "af": false
+  },
+  {
+    "_id": "EAeYHETkW6r2wEZgD",
+    "postId": "Je83XEDFdjRrwLM9r",
+    "parentCommentId": "A9iqyrM4WoMuukeMs",
+    "topLevelCommentId": "A9iqyrM4WoMuukeMs",
+    "contents": {
+      "markdown": "Actually, AIs can use other kinds of land (to suggest from the top of the head, sky islands over oceans, or hot air balloons for a more compact option) to be run, which are not usable by humans. There have to be a whole *lot* of datacenters to make people short on land - unless there are new large factories built.",
+      "plaintextDescription": "Actually, AIs can use other kinds of land (to suggest from the top of the head, sky islands over oceans, or hot air balloons for a more compact option) to be run, which are not usable by humans. There have to be a whole lot of datacenters to make people short on land - unless there are new large factories built."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-02T20:30:15.736Z",
+    "af": false
+  },
+  {
+    "_id": "rTvfxmAt98WzqqdLK",
+    "postId": "zmfXZEsiycGLP9YZW",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "It seems that an alternative to AI unlearning is often overlooked: just remove dataset parts which contain sensitive (or, to that matter, false) information or move training on it towards beginning to aid with language syntax only. I don't think a bit of inference throughout the dataset is any more expensive than training on it.",
+      "plaintextDescription": "It seems that an alternative to AI unlearning is often overlooked: just remove dataset parts which contain sensitive (or, to that matter, false) information or move training on it towards beginning to aid with language syntax only. I don't think a bit of inference throughout the dataset is any more expensive than training on it."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-02-02T17:57:41.568Z",
+    "af": false
+  },
+  {
+    "_id": "y86RMsGyBTGABi3Q4",
+    "postId": "hRxGrJJq6ifL4jRGa",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> In practice I do not think this matters, but it does indicate that we’re sleeping on the job – all the sources you need for this are public, why are we not including them.\n\nI'd reserve judgement whether that matters, but I can attest a large part of content is indeed skipped... probably for those same reasons why market didn't react to DeepSeek in advance: people are just not good at knowing distant information which might still be helpful to them.",
+      "plaintextDescription": "> In practice I do not think this matters, but it does indicate that we’re sleeping on the job – all the sources you need for this are public, why are we not including them.\n\nI'd reserve judgement whether that matters, but I can attest a large part of content is indeed skipped... probably for those same reasons why market didn't react to DeepSeek in advance: people are just not good at knowing distant information which might still be helpful to them."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-29T14:34:44.244Z",
+    "af": false
+  },
+  {
+    "_id": "tXftkXk2sgBjuGE3g",
+    "postId": "7Z4WC4AFgfmZ3fCDC",
+    "parentCommentId": "MFKnRfCwzt9E9JMJF",
+    "topLevelCommentId": "8tjLXPYpDC42BqWju",
+    "contents": {
+      "markdown": "> If you want to figure out how to achieve good results when making the AI handle various human conflicts, you can't really know how to adapt and improve it without actually involving it in those conflicts.\n\n  \nI disagree. There is such a lot of conflicts (some kinds make it into writing, some just happen) of different scales, both in history and now; I believe they span human conflict space almost fully. Just aggregating this information could lead to very good advice on handling everything, which AI could act upon if it so needed.",
+      "plaintextDescription": "> If you want to figure out how to achieve good results when making the AI handle various human conflicts, you can't really know how to adapt and improve it without actually involving it in those conflicts.\n\n\nI disagree. There is such a lot of conflicts (some kinds make it into writing, some just happen) of different scales, both in history and now; I believe they span human conflict space almost fully. Just aggregating this information could lead to very good advice on handling everything, which AI could act upon if it so needed."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-01-27T21:35:46.948Z",
+    "af": false
+  }
+]

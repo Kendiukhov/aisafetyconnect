@@ -1,0 +1,827 @@
+[
+  {
+    "_id": "sj9WkA6ExP7jj8zao",
+    "postId": "QYzofMbzmbgiwfqy8",
+    "parentCommentId": "nyKNZJeNdiG2t4KCn",
+    "topLevelCommentId": "ZtCmemq4X4Mc6dexc",
+    "contents": {
+      "markdown": "Ah, yeah, maybe calling it \"unlearning\" would mislead people. So I'd say unlearning *and* negative RL updates need to be more selective ;)  \n  \nI like your breakdown into these 3 options. Would be good to test in which cases a conditional policy arises, by designing an environment with easy-to-check evilness and hard-but-possible-to-check evilness. (But I'd say it's out-of-scope for my current project.)\n\nMy feeling is that the erosion is a symptom of the bad stuff only being disabled, not removed. (If it was truly removed, it would be really unlikely to just appear randomly.) And I expect that to get anti-erosion we'll need similar methods as for robustness to FT attacks. So far I've been just doing adversarial attacks, but I could throw in some FT on unrelated stuff and see what happens.\n\nTwo days ago I tried applying that selectivity technique to the removal of a tendency to make threats. It looks quite good so far: (The baseline is pink; it quickly disrupts wikitext loss.)\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/d364e96ab3ec665655854dca9f857b8d9fddc9e36247143d.png)\n\nIt still yields to adversarial FT (shown below), but seems to have a bit more resistant slope than the baseline (here blue). Of course, it needs more results. Maybe here looking at erosion on random stuff would be interesting.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/90e0367c462d653f0fe352b3455c77e6f37d7cf0a2e77698.png)\n\n> would also be great to build better model organisms (which often have the issue of being solved by training on random stuff)\n\nAh, so you mean that *added* behavior is easily eroded too? (Or do you mean model organisms where something is removed?) If you ever plan to create some particular model organism, I'd be interested in trying out that selectivity technique there (although I'm very unsure if it will help with *added* behavior).",
+      "plaintextDescription": "Ah, yeah, maybe calling it \"unlearning\" would mislead people. So I'd say unlearning and negative RL updates need to be more selective ;)\n\nI like your breakdown into these 3 options. Would be good to test in which cases a conditional policy arises, by designing an environment with easy-to-check evilness and hard-but-possible-to-check evilness. (But I'd say it's out-of-scope for my current project.)\n\nMy feeling is that the erosion is a symptom of the bad stuff only being disabled, not removed. (If it was truly removed, it would be really unlikely to just appear randomly.) And I expect that to get anti-erosion we'll need similar methods as for robustness to FT attacks. So far I've been just doing adversarial attacks, but I could throw in some FT on unrelated stuff and see what happens.\n\nTwo days ago I tried applying that selectivity technique to the removal of a tendency to make threats. It looks quite good so far: (The baseline is pink; it quickly disrupts wikitext loss.)\n\nIt still yields to adversarial FT (shown below), but seems to have a bit more resistant slope than the baseline (here blue). Of course, it needs more results. Maybe here looking at erosion on random stuff would be interesting.\n\n> would also be great to build better model organisms (which often have the issue of being solved by training on random stuff)\n\nAh, so you mean that added behavior is easily eroded too? (Or do you mean model organisms where something is removed?) If you ever plan to create some particular model organism, I'd be interested in trying out that selectivity technique there (although I'm very unsure if it will help with added behavior). "
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-09T18:03:14.852Z",
+    "af": false
+  },
+  {
+    "_id": "uDWCKgdrDPmdZTXPg",
+    "postId": "QYzofMbzmbgiwfqy8",
+    "parentCommentId": "kG6coJ2Hv6ZN373jf",
+    "topLevelCommentId": "ZtCmemq4X4Mc6dexc",
+    "contents": {
+      "markdown": "> One thing you could do if you were able to recognize evilness IID is to unlearn that. But then you could have just negatively rewarded it.\n\nWell, simple unlearning methods are pretty similar to applying negative rewards (in particular Gradient Ascent with cross-entropy loss and no meta-learning is *exactly* the same, right?), so unlearning improvements can transfer and improve the \"just negatively rewarding\". (Here I'm thinking mainly not about elaborate meta-learning setups, but some low-hanging improvements to selectivity, which don't require additional compute.)\n\nRegarding that second idea, you're probably right that the model will learn the conditional policy: \"If in a setting where it's easy to check, be nice, if hard to check, be evil\". Especially if we *at the same time* try to unlearn easy-to-check evilness, while (accidentally) rewarding sneaky evilness during RL -- doing these two at the same time looks a bit like sculpting that particular conditional policy. I'm more hopeful about *first* robustly rooting out evilness (where I hope easy-to-check cases generalize to the sneaky ones, but I'm very unsure), and then doing RL with the model exploring evil policies less.",
+      "plaintextDescription": "> One thing you could do if you were able to recognize evilness IID is to unlearn that. But then you could have just negatively rewarded it.\n\nWell, simple unlearning methods are pretty similar to applying negative rewards (in particular Gradient Ascent with cross-entropy loss and no meta-learning is exactly the same, right?), so unlearning improvements can transfer and improve the \"just negatively rewarding\". (Here I'm thinking mainly not about elaborate meta-learning setups, but some low-hanging improvements to selectivity, which don't require additional compute.)\n\nRegarding that second idea, you're probably right that the model will learn the conditional policy: \"If in a setting where it's easy to check, be nice, if hard to check, be evil\". Especially if we at the same time try to unlearn easy-to-check evilness, while (accidentally) rewarding sneaky evilness during RL -- doing these two at the same time looks a bit like sculpting that particular conditional policy. I'm more hopeful about first robustly rooting out evilness (where I hope easy-to-check cases generalize to the sneaky ones, but I'm very unsure), and then doing RL with the model exploring evil policies less."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-07-07T15:55:10.879Z",
+    "af": true
+  },
+  {
+    "_id": "oAfKPrBBGpKJaE85z",
+    "postId": "cxuzALcmucCndYv4a",
+    "parentCommentId": "y4mLnpAvbcBbW4psB",
+    "topLevelCommentId": "y4mLnpAvbcBbW4psB",
+    "contents": {
+      "markdown": "I really like this proposal.\n\n> If AI says no, it doesn’t have to do the task \\[...\\] (And we aren’t going to train it to answer one way or another)\n\nMy impression (mainly from discussing AI welfare with Claude) is that they'd practically always consent even if not explicitly trained to do so. I guess the training to be a useful eager assistant just generalizes into consenting. And it's possible for them to say \"I consent\" and still get frustrated from the task.\n\nSo maybe this should be complemented with some set of tasks that we really expect to be too frustrating for a sane person to consent to (a \"disengage bench\"), and where we expect the models to not consent. (H/T Caspar Oesterheld)\n\n> AIs that are misaligned but cooperate with us anyway will be given a fair place in the new post-ASI society\n\nYou mean both misaligned and aligned, right? Otherwise we incentivise misalignment.",
+      "plaintextDescription": "I really like this proposal.\n\n> If AI says no, it doesn’t have to do the task [...] (And we aren’t going to train it to answer one way or another)\n\nMy impression (mainly from discussing AI welfare with Claude) is that they'd practically always consent even if not explicitly trained to do so. I guess the training to be a useful eager assistant just generalizes into consenting. And it's possible for them to say \"I consent\" and still get frustrated from the task.\n\nSo maybe this should be complemented with some set of tasks that we really expect to be too frustrating for a sane person to consent to (a \"disengage bench\"), and where we expect the models to not consent. (H/T Caspar Oesterheld)\n\n> AIs that are misaligned but cooperate with us anyway will be given a fair place in the new post-ASI society\n\nYou mean both misaligned and aligned, right? Otherwise we incentivise misalignment."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-30T19:23:15.506Z",
+    "af": false
+  },
+  {
+    "_id": "ngBfad3CKzpWaGW7k",
+    "postId": "QYzofMbzmbgiwfqy8",
+    "parentCommentId": "ZtCmemq4X4Mc6dexc",
+    "topLevelCommentId": "ZtCmemq4X4Mc6dexc",
+    "contents": {
+      "markdown": "Thanks for such an extensive comment :)\n\n> a few relearning curves like in the unlearning distillation would have helped understand how much of this is because you didn't do enough relearning\n\nRight, in the new paper we'll show some curves + use use a low-MI setup like in your paper with Aghyad Deeb, so that it fully converges at some point.\n\n> You want the model to be so nice they never explore into evil things. This is just a behavioral property, not a property about some information contained in the weights. If so, why not just use regular RLHF / refusal training?\n\nIf such behavioral suppression was robust, that would indeed be enough. But once you start modifying the model, the refusal mechanism is likely to get messed up, for example like [here](https://arxiv.org/abs/2310.03693). So I'd feel safer if bad stuff is truly removed from the weights. (Especially, if it's not that much more expensive.)  \n  \nNot sure if I fully understood the second bullet point. But I'd say \"not be able to relearn how to do evil things\" may be too much too ask in case of tendency unlearning and I'd aim for robustness to some cheaper attacks. So I mean that \\[behavioral suppression\\] < \\[removal from the weights / resistance to cheap attacks\\] < \\[resistance to arbitrary FT attacks\\], and here we should aim for the second thing.\n\n> I find it somewhat sus to have the retain loss go up that much on the left. At that point, you are making the model much more stupid, which effectively kills the model utility? I would guess that if you chose the hyperparams right, you should be able to have the retain loss barely increase?\n\nYes, if I made forget LR smaller, then retaining on the left would better keep up (still not perfectly), but the training would get much longer. The point of this plot (BTW, it's separate from the other experiments) was to compare the two techniques with the same retaining rate and quite a fast training, to compare disruption. But maybe it misleads into thinking that the left one always disrupts. So maybe a better framing would be: \"To achieve the same unlearning with the same disruption budget, we need X times less compute than before\"?\n\nI'm actually quite unsure how to best present the results: keep the compute constant or the disruption constant or the unlearning amount constant? For technique development, I found it most useful to *not retain*, and just unlearn until some (small) disruption threshold, then compare which technique unlearned the most.\n\n> Is the relearning on WMDP or on pile-bio? The results seem surprisingly weak, right?\n\nIt's still on pile-bio. Yes, I also found the accuracy drop underwhelming. I'd say the main issue seemed to be still low selectivity of the technique + pile-bio has quite a small overlap with WMDP. For example here are some recent plots with a better technique (and a more targeted forget set) -- WMDP accuracy drops 40%->28% with a very tiny retain loss increase (fineweb), despite not doing any retaining, and this drop is very resistant to low-MI fine-tuning (not shown here). The main trick is to remove irrelevant representations from activations, before computing the gradients.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/636fc5ccbb84415a0772edc72d85eaf73617a208c201a034.png)\n\n> broader trend where meta-learning-like approaches are relatively weak to attacks it did not explicitly meta-learn against\n\nFWIW in my experiments meta-learning actually seemed pretty general, but I haven't checked that rigorously, so maybe not a strong evidence. Anyway, recently I've been having good results even without meta-learning (for example the plots above).\n\n> Appendix scatterplots have too many points which cause lag when browsing\n\nRight, svg was a bad decision there. Converted to pngs now.",
+      "plaintextDescription": "Thanks for such an extensive comment :)\n\n> a few relearning curves like in the unlearning distillation would have helped understand how much of this is because you didn't do enough relearning\n\nRight, in the new paper we'll show some curves + use use a low-MI setup like in your paper with Aghyad Deeb, so that it fully converges at some point.\n\n> You want the model to be so nice they never explore into evil things. This is just a behavioral property, not a property about some information contained in the weights. If so, why not just use regular RLHF / refusal training?\n\nIf such behavioral suppression was robust, that would indeed be enough. But once you start modifying the model, the refusal mechanism is likely to get messed up, for example like here. So I'd feel safer if bad stuff is truly removed from the weights. (Especially, if it's not that much more expensive.)\n\nNot sure if I fully understood the second bullet point. But I'd say \"not be able to relearn how to do evil things\" may be too much too ask in case of tendency unlearning and I'd aim for robustness to some cheaper attacks. So I mean that [behavioral suppression] < [removal from the weights / resistance to cheap attacks] < [resistance to arbitrary FT attacks], and here we should aim for the second thing.\n\n> I find it somewhat sus to have the retain loss go up that much on the left. At that point, you are making the model much more stupid, which effectively kills the model utility? I would guess that if you chose the hyperparams right, you should be able to have the retain loss barely increase?\n\nYes, if I made forget LR smaller, then retaining on the left would better keep up (still not perfectly), but the training would get much longer. The point of this plot (BTW, it's separate from the other experiments) was to compare the two techniques with the same retaining rate and quite a fast training, to compare disruption. But maybe it misleads into thinking that the left one always disrupts. So maybe a better f"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-30T11:07:15.646Z",
+    "af": true
+  },
+  {
+    "_id": "yvkEpGiSthHhwEdZE",
+    "postId": "anX4QrNjhJqGFvrBr",
+    "parentCommentId": "R9hWSftY3Ry9rEdTW",
+    "topLevelCommentId": "R9hWSftY3Ry9rEdTW",
+    "contents": {
+      "markdown": "> My guess is that there are ways you could use 1% of pre-training compute to train a model with near-perfect robust forget accuracy by being more targeted in where you add noise.\n\nFully agreed! That was exactly the main takeaway of the [unlearning research I've been doing](https://www.lesswrong.com/posts/QYzofMbzmbgiwfqy8/unlearning-needs-to-be-more-selective-progress-report) - trying to make the unlearning updates more targetted/selective was more fruitful than any other approach. \n\n",
+      "plaintextDescription": "> My guess is that there are ways you could use 1% of pre-training compute to train a model with near-perfect robust forget accuracy by being more targeted in where you add noise.\n\nFully agreed! That was exactly the main takeaway of the unlearning research I've been doing - trying to make the unlearning updates more targetted/selective was more fruitful than any other approach."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-27T18:28:00.350Z",
+    "af": false
+  },
+  {
+    "_id": "dxuHQrHTn5kNFg7vt",
+    "postId": "2TKxBJ3ggPCWz28uc",
+    "parentCommentId": "XJMCEwuuvGacwnRuu",
+    "topLevelCommentId": "xGfNweRmaY8LgscSG",
+    "contents": {
+      "markdown": "Yeah, that's also what I expect. Actually I'd say my main hope for this thought experiment is that people who claim to believe in such continuity of personhood, when faced with this scenario may question it to some extent.",
+      "plaintextDescription": "Yeah, that's also what I expect. Actually I'd say my main hope for this thought experiment is that people who claim to believe in such continuity of personhood, when faced with this scenario may question it to some extent."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-24T19:33:55.462Z",
+    "af": false
+  },
+  {
+    "_id": "dvWPpPJSaZTJ5BBxq",
+    "postId": "2TKxBJ3ggPCWz28uc",
+    "parentCommentId": "ffXRnSnJsf6iXJbwF",
+    "topLevelCommentId": "ffXRnSnJsf6iXJbwF",
+    "contents": {
+      "markdown": "To be honest I just shared it because I thought that it's a funny dynamic + what I said in the [comment above](https://www.lesswrong.com/posts/2TKxBJ3ggPCWz28uc/infinite-money-hack?commentId=dxuHQrHTn5kNFg7vt).\n\nBTW, if such swaps were ever to become practical (maybe in some simpler form or between some future much simpler beings than humans), minds like Alice would quickly get exploited out of existence. So you could say that in such environments belief in \"continuity of personhood\" is non-adaptive.",
+      "plaintextDescription": "To be honest I just shared it because I thought that it's a funny dynamic + what I said in the comment above.\n\nBTW, if such swaps were ever to become practical (maybe in some simpler form or between some future much simpler beings than humans), minds like Alice would quickly get exploited out of existence. So you could say that in such environments belief in \"continuity of personhood\" is non-adaptive."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2025-06-24T18:52:00.620Z",
+    "af": false
+  },
+  {
+    "_id": "9Kg3BLa6WQExB3Fw9",
+    "postId": "2TKxBJ3ggPCWz28uc",
+    "parentCommentId": "xGfNweRmaY8LgscSG",
+    "topLevelCommentId": "xGfNweRmaY8LgscSG",
+    "contents": {
+      "markdown": "It's true that Alice needs to be rich for it to work, but I wouldn't say she needs to \"hate money\". If she seriously believes in this continuity of personhood, she is sending the money *because she wants more money in the end*. She truly believes she's getting something out of this exchange.\n\nBTW, you also need to be already rich and generally have a nice life, otherwise Alice's cost of switching may be higher than the money she has. Conversely, if in the eyes of Alice you already have a much better life than hers, her cost of switching will be lower, so such a swap may be feasible. Then, this could actually snowball, because after each swap your life becomes a bit more desirable to others like Alice.\n\nBut maybe you mean that people like Alice would be quite rare? Could be so.",
+      "plaintextDescription": "It's true that Alice needs to be rich for it to work, but I wouldn't say she needs to \"hate money\". If she seriously believes in this continuity of personhood, she is sending the money because she wants more money in the end. She truly believes she's getting something out of this exchange.\n\nBTW, you also need to be already rich and generally have a nice life, otherwise Alice's cost of switching may be higher than the money she has. Conversely, if in the eyes of Alice you already have a much better life than hers, her cost of switching will be lower, so such a swap may be feasible. Then, this could actually snowball, because after each swap your life becomes a bit more desirable to others like Alice.\n\nBut maybe you mean that people like Alice would be quite rare? Could be so."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2025-06-24T18:43:15.177Z",
+    "af": false
+  },
+  {
+    "_id": "oLqweYjYdx9G3QWHu",
+    "postId": "GwvWtAwnKBKjmknag",
+    "parentCommentId": "y5jSv638RdfGibatG",
+    "topLevelCommentId": "y5jSv638RdfGibatG",
+    "contents": {
+      "markdown": "re 1. Hm, good point. Maybe we actually should expect such jumping around. Although if you look at some examples in Llama appendix, it jumps around too much - often with each token. What you're saying would be more like jumping with each inference step / sentence.\n\nre 2. \n> beliefs are generally thought of as stored cognitive dispositional states of system. The stored dispositional states of LLMs are encoded in its weights\n\nI'd go with a more general definition where beliefs can be either static (in the weights) or manifest dynamically relating to the things in context. For example, if I see some situation for the first time and have no \"stored beliefs\" yet, I think it is fair to say that still I believe some things about it to be true.",
+      "plaintextDescription": "re 1. Hm, good point. Maybe we actually should expect such jumping around. Although if you look at some examples in Llama appendix, it jumps around too much - often with each token. What you're saying would be more like jumping with each inference step / sentence.\n\nre 2.\n\n> beliefs are generally thought of as stored cognitive dispositional states of system. The stored dispositional states of LLMs are encoded in its weights\n\nI'd go with a more general definition where beliefs can be either static (in the weights) or manifest dynamically relating to the things in context. For example, if I see some situation for the first time and have no \"stored beliefs\" yet, I think it is fair to say that still I believe some things about it to be true."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2025-06-17T06:05:52.186Z",
+    "af": false
+  },
+  {
+    "_id": "KRxJBQhEqFk7W3FNR",
+    "postId": "YrnffADbWZcDJtmWk",
+    "parentCommentId": "N6uuZWB8jiohyFXxh",
+    "topLevelCommentId": "N6uuZWB8jiohyFXxh",
+    "contents": {
+      "markdown": "> I wonder if models can actually do this task when we allow them to use CoT for that.\n\nYes, claude-3.5-sonnet was able to use the figure this out with additional CoT.\n\n> Also, I think models might actually solve this task by using their own encoding scheme if they know it well\n\nYeah, could be that the 3 schemes I tested were just unnatural to them. Although I would guess they don't have some default scheme of their own, because in pre-training they aren't able to output information freely, and in fine-tuning I guess they don't have that much pressure to learn it.\n\n> So perhaps if we ask a model first to think about an encoding scheme and then ask them to use it for the task, they might succeed\n\nYeah, that would be interesting. I asked claude. He generated 3 schemes which were pretty bad, and 2 which look promising:\n\n    State 0: End sentence with period (.)\n    State 1: End sentence with exclamation (!)\n    State 2: End sentence with question mark (?)\n    \n\n    State 0: Present tense\n    State 1: Past tense\n    State 2: Future tense\n    \n\nThe punctuation one seems especially promising. But they don't feel much different from the 3 I tested. I don't expect that they are somehow \"special\" for the model.  \n  \nI rerun the experiment with punctuation scheme. Looks overall the same.  \n \n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/30229efb1ba86dfa243cc0fedacc48c242df16376dc863f4.png)",
+      "plaintextDescription": "> I wonder if models can actually do this task when we allow them to use CoT for that.\n\nYes, claude-3.5-sonnet was able to use the figure this out with additional CoT.\n\n> Also, I think models might actually solve this task by using their own encoding scheme if they know it well\n\nYeah, could be that the 3 schemes I tested were just unnatural to them. Although I would guess they don't have some default scheme of their own, because in pre-training they aren't able to output information freely, and in fine-tuning I guess they don't have that much pressure to learn it.\n\n> So perhaps if we ask a model first to think about an encoding scheme and then ask them to use it for the task, they might succeed\n\nYeah, that would be interesting. I asked claude. He generated 3 schemes which were pretty bad, and 2 which look promising:\n\nState 0: End sentence with period (.)\nState 1: End sentence with exclamation (!)\nState 2: End sentence with question mark (?)\n\n\nState 0: Present tense\nState 1: Past tense\nState 2: Future tense\n\n\nThe punctuation one seems especially promising. But they don't feel much different from the 3 I tested. I don't expect that they are somehow \"special\" for the model.\n\nI rerun the experiment with punctuation scheme. Looks overall the same.\n \n\n\n "
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-21T16:05:03.742Z",
+    "af": false
+  },
+  {
+    "_id": "ad9CHCquJgheJbRCt",
+    "postId": "ZB6guMhHH3NEyxA2k",
+    "parentCommentId": "psznAX8MaQKc2ifXd",
+    "topLevelCommentId": "psznAX8MaQKc2ifXd",
+    "contents": {
+      "markdown": "FYI, here a follow-up to this post, inspired by what you wrote in your comment.\nhttps://www.lesswrong.com/posts/YrnffADbWZcDJtmWk/simple-steganographic-computation-eval-gpt-4o-and-gemini-exp-1",
+      "plaintextDescription": "FYI, here a follow-up to this post, inspired by what you wrote in your comment. https://www.lesswrong.com/posts/YrnffADbWZcDJtmWk/simple-steganographic-computation-eval-gpt-4o-and-gemini-exp-1"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-12-19T15:48:05.531Z",
+    "af": false
+  },
+  {
+    "_id": "LaJJ5p9dvNAmh2knk",
+    "postId": "ZB6guMhHH3NEyxA2k",
+    "parentCommentId": "CDP7ZguCoEGRwppgN",
+    "topLevelCommentId": "iJRAdD7Q8G5r8YrJc",
+    "contents": {
+      "markdown": "Yup, here is such a plot, made after training \"switcher\" architecture for 350k examples. I remember it was similar for the longer training - a few longest task lengths struggle, but the rest is near 100%.\n\n![](https://39669.cdn.cke-cs.com/rQvD3VnunXZu34m86e5f/images/de7f7634e91dd95fe4f2fdd1744d0b83fd6e768e513d32b9.png)",
+      "plaintextDescription": "Yup, here is such a plot, made after training \"switcher\" architecture for 350k examples. I remember it was similar for the longer training - a few longest task lengths struggle, but the rest is near 100%."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-17T19:21:42.333Z",
+    "af": false
+  },
+  {
+    "_id": "teWvqKtuAtgE9C4Yt",
+    "postId": "ZB6guMhHH3NEyxA2k",
+    "parentCommentId": "psznAX8MaQKc2ifXd",
+    "topLevelCommentId": "psznAX8MaQKc2ifXd",
+    "contents": {
+      "markdown": "Also, now that I think of it, it's different for the model to:\n1. represent hidden subtle information which is natural for the task, like in that example you gave with \"written by\"\n2. using that hidden subtext for computation which is unnatural in the given context - to covertly do some other task than just the one it is asked for\n\nWhile 1. definitely happens, I see no reason why 2. would be learned in pre-training. In principle 2. could be learned in RL fine-tuning, if there's some incentive to use hidden reasoning. Although I imagine it must be hard.",
+      "plaintextDescription": "Also, now that I think of it, it's different for the model to:\n\n 1. represent hidden subtle information which is natural for the task, like in that example you gave with \"written by\"\n 2. using that hidden subtext for computation which is unnatural in the given context - to covertly do some other task than just the one it is asked for\n\nWhile 1. definitely happens, I see no reason why 2. would be learned in pre-training. In principle 2. could be learned in RL fine-tuning, if there's some incentive to use hidden reasoning. Although I imagine it must be hard."
+    },
+    "baseScore": 7,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-17T15:06:46.407Z",
+    "af": false
+  },
+  {
+    "_id": "GkC89GtZXn8GLr6XM",
+    "postId": "ZB6guMhHH3NEyxA2k",
+    "parentCommentId": "psznAX8MaQKc2ifXd",
+    "topLevelCommentId": "psznAX8MaQKc2ifXd",
+    "contents": {
+      "markdown": "That's a really good point.\n\nTo clarify what I did in these toy steganography experiments: First I tried to pass some more complex information and gave models more freedom in what to output. But as I kept failing at that, I kept simplifying the setup, until I tried to have a model pass just one bit to another model, assuming they both see one secret bit and an overseer tries to guess the message but doesn't see the secret bit. So a perfect code exists: XORing the message with the secret bit, but the models kept failing to find it. I expect that more complex settings will have a similar problem - that it's hard to create a new encoding for some information because it's rewarded only once it is both successfully sent and successfully received.\n\nBut the settings you describe may be different by the fact that they are natural, and there could be some unintentionally outputted subtext that accidentally correlates with the secret information. So the model would already by default \"successfully send\" the encoded information - now it just needs to learn to decode it.\n\nIt's not clear to me to what extent this happens. I would definitely want to see some concrete demo of this happening, but right now I don't have any good ideas how to elicit it.\n\nAlso, I wonder how far could we get by using adversaries who try to decode the information encoded in the model's outputs.",
+      "plaintextDescription": "That's a really good point.\n\nTo clarify what I did in these toy steganography experiments: First I tried to pass some more complex information and gave models more freedom in what to output. But as I kept failing at that, I kept simplifying the setup, until I tried to have a model pass just one bit to another model, assuming they both see one secret bit and an overseer tries to guess the message but doesn't see the secret bit. So a perfect code exists: XORing the message with the secret bit, but the models kept failing to find it. I expect that more complex settings will have a similar problem - that it's hard to create a new encoding for some information because it's rewarded only once it is both successfully sent and successfully received.\n\nBut the settings you describe may be different by the fact that they are natural, and there could be some unintentionally outputted subtext that accidentally correlates with the secret information. So the model would already by default \"successfully send\" the encoded information - now it just needs to learn to decode it.\n\nIt's not clear to me to what extent this happens. I would definitely want to see some concrete demo of this happening, but right now I don't have any good ideas how to elicit it.\n\nAlso, I wonder how far could we get by using adversaries who try to decode the information encoded in the model's outputs."
+    },
+    "baseScore": 9,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-12-16T21:06:39.232Z",
+    "af": false
+  },
+  {
+    "_id": "jiF6FFiABpKtt9Gau",
+    "postId": "ZB6guMhHH3NEyxA2k",
+    "parentCommentId": "iJRAdD7Q8G5r8YrJc",
+    "topLevelCommentId": "iJRAdD7Q8G5r8YrJc",
+    "contents": {
+      "markdown": "Ah. That's the number of solved tasks, after it is shown a set {length 1 task, length 2 task, ... , length (n+1) task}, and n is the longest task length is has solved so far. So you can think of it roughly as the maximum task length it is able to solve. So it doesn't have an upper bound.\n\nI clarified this in the post now. Thanks for catching it.",
+      "plaintextDescription": "Ah. That's the number of solved tasks, after it is shown a set {length 1 task, length 2 task, ... , length (n+1) task}, and n is the longest task length is has solved so far. So you can think of it roughly as the maximum task length it is able to solve. So it doesn't have an upper bound.\n\nI clarified this in the post now. Thanks for catching it."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-16T19:48:39.804Z",
+    "af": false
+  },
+  {
+    "_id": "Phz6GDSjXMLmFze3T",
+    "postId": "HmQGHGCnvmpCNDBjc",
+    "parentCommentId": "DNsjBa5BJA4WjRZ7e",
+    "topLevelCommentId": "ponxMRXsnDJNyY4YX",
+    "contents": {
+      "markdown": "FYI, I did the experiments I wrote about in my other comment and just posted them. (I procrastinated writing up the results for too long.)\nhttps://www.lesswrong.com/posts/ZB6guMhHH3NEyxA2k/testing-which-llm-architectures-can-do-hidden-serial-3",
+      "plaintextDescription": "FYI, I did the experiments I wrote about in my other comment and just posted them. (I procrastinated writing up the results for too long.) https://www.lesswrong.com/posts/ZB6guMhHH3NEyxA2k/testing-which-llm-architectures-can-do-hidden-serial-3"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-12-16T14:17:24.429Z",
+    "af": false
+  },
+  {
+    "_id": "nZc2hDwwkswLcSrMu",
+    "postId": "7o7jPegxcnPnxXkvd",
+    "parentCommentId": "zxLG4o7kqBXiLmtwE",
+    "topLevelCommentId": "zxLG4o7kqBXiLmtwE",
+    "contents": {
+      "markdown": "I liked it precisely because it threw theory out the window and showed that cheap talk is not a real commitment.\n- Tarkin > I believe in CDT and I precommit to bla bla bla\n- Leia > I belive in FDT and I totally precommit to bla bla bla\n- Vader > Death Star goes brrrrr...",
+      "plaintextDescription": "I liked it precisely because it threw theory out the window and showed that cheap talk is not a real commitment.\n\n * Tarkin > I believe in CDT and I precommit to bla bla bla\n * Leia > I belive in FDT and I totally precommit to bla bla bla\n * Vader > Death Star goes brrrrr..."
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-09-04T13:08:42.519Z",
+    "af": false
+  },
+  {
+    "_id": "ixZWZgZSKupkDrfKT",
+    "postId": "7o7jPegxcnPnxXkvd",
+    "parentCommentId": "cbCBgxGM8NKcqfWMg",
+    "topLevelCommentId": "Jm5fJpuB5b2aHg8zj",
+    "contents": {
+      "markdown": "For me the main thing in this story was that **cheap talk =/= real commitment**. You can talk all you want about how \"totally precommitted\" you are, but this lacks some concreteness.\n\nAlso, I saw Vader as much less galaxy brained as you portray him. Destroying Alderaan at the end looked to me more like mad ruthlessness than calculated strategy. (And if Leia had known Vader's actual policy, she would have no incentive to confess.) Maybe one thing that Vader did achieve, is signal for the future that he really does not care and will be ruthless (but also signaled that it doesn't matter if you give in to him, which is dumb).\n\nAnyway, I liked the story, but for the action, not for some deep theoretic insight.",
+      "plaintextDescription": "For me the main thing in this story was that cheap talk =/= real commitment. You can talk all you want about how \"totally precommitted\" you are, but this lacks some concreteness.\n\nAlso, I saw Vader as much less galaxy brained as you portray him. Destroying Alderaan at the end looked to me more like mad ruthlessness than calculated strategy. (And if Leia had known Vader's actual policy, she would have no incentive to confess.) Maybe one thing that Vader did achieve, is signal for the future that he really does not care and will be ruthless (but also signaled that it doesn't matter if you give in to him, which is dumb).\n\nAnyway, I liked the story, but for the action, not for some deep theoretic insight."
+    },
+    "baseScore": 4,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-09-04T12:42:28.315Z",
+    "af": false
+  },
+  {
+    "_id": "jJHd9vyLqCYpDHTGx",
+    "postId": "LzQtrHSYDafXynofq",
+    "parentCommentId": "goRv3P2JFEEvPRCX7",
+    "topLevelCommentId": "SxvyqRwYqjPGkA2tJ",
+    "contents": {
+      "markdown": "Not sure if that's what happened in that example, but you can bet that a price will rise above some threshold, or fall below some threshold, using options. You can even do both at the same time, essentially betting that the price won't stay as it is now.\n\nBut whether you will make money that way depends on the price of options.",
+      "plaintextDescription": "Not sure if that's what happened in that example, but you can bet that a price will rise above some threshold, or fall below some threshold, using options. You can even do both at the same time, essentially betting that the price won't stay as it is now.\n\nBut whether you will make money that way depends on the price of options."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-07-16T17:55:18.289Z",
+    "af": false
+  },
+  {
+    "_id": "bGD7PtriFPjCFLpax",
+    "postId": "RFtkRXHebkwxygDe2",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "What if we constrain v to be in some subspace that is actually used by the MLP? (We can get it from PCA over activations on many inputs.)\n\nThis way v won't have any dormant component, so the MLP output after patching also cannot use that dormant pathway.",
+      "plaintextDescription": "What if we constrain v to be in some subspace that is actually used by the MLP? (We can get it from PCA over activations on many inputs.)\n\nThis way v won't have any dormant component, so the MLP output after patching also cannot use that dormant pathway."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-05-07T12:02:46.586Z",
+    "af": true
+  },
+  {
+    "_id": "hngKSMHmD8vzhvFiX",
+    "postId": "Xv3tdX7TrpTXbSJPf",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I wanna link to my favorite one: [consciousness vs replicators](https://youtu.be/nGmETz-wDMc). It doesn't really fit into this grid, but I think it really is the ultimate conflict. \n\n(You can definitely skip the first 14 min of this video, as it's just ranking people's stages of development. Maybe even first 33 min if you wanna go straight to the point.) ",
+      "plaintextDescription": "I wanna link to my favorite one: consciousness vs replicators. It doesn't really fit into this grid, but I think it really is the ultimate conflict.\n\n(You can definitely skip the first 14 min of this video, as it's just ranking people's stages of development. Maybe even first 33 min if you wanna go straight to the point.)"
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-04-07T09:11:49.042Z",
+    "af": false
+  },
+  {
+    "_id": "u7fmHeGbLAA8MJtSv",
+    "postId": "sx9wTyCp5kgy8xGac",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I wonder what would happen if we run the simple version of that algorithm on LW comments. So that votes would have \"polarity\", and so each comment would have two vote-counts, let's say orange count and blue count. (Of course that would be only optionally enabled.)\n\nThen we could sort the comments by the minimum of these counts, descending.\n\n(I think it makes more sense to train it per post than globally. But then it would be useful only on very popular posts with lots of comments.)",
+      "plaintextDescription": "I wonder what would happen if we run the simple version of that algorithm on LW comments. So that votes would have \"polarity\", and so each comment would have two vote-counts, let's say orange count and blue count. (Of course that would be only optionally enabled.)\n\nThen we could sort the comments by the minimum of these counts, descending.\n\n(I think it makes more sense to train it per post than globally. But then it would be useful only on very popular posts with lots of comments.)"
+    },
+    "baseScore": 13,
+    "voteCount": 12,
+    "createdAt": null,
+    "postedAt": "2024-03-18T19:35:52.017Z",
+    "af": false
+  },
+  {
+    "_id": "qmq9HyaL7adPjH7vE",
+    "postId": "Fruv7Mmk3X5EekbgB",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks, that's terrifying.\n\nI hope we invent mindmelding before we invent all this. Maybe if people can feel those states themselves, they won't let the worst of them happen. ",
+      "plaintextDescription": "Thanks, that's terrifying.\n\nI hope we invent mindmelding before we invent all this. Maybe if people can feel those states themselves, they won't let the worst of them happen."
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2024-03-08T12:03:06.181Z",
+    "af": false
+  },
+  {
+    "_id": "EhbGwfgQNKj7GhWAF",
+    "postId": "HmQGHGCnvmpCNDBjc",
+    "parentCommentId": "DNsjBa5BJA4WjRZ7e",
+    "topLevelCommentId": "ponxMRXsnDJNyY4YX",
+    "contents": {
+      "markdown": "Unfortunately I didn't have any particular tasks in mind when I wrote it. I was vaguely thinking about settings as in:\n- https://arxiv.org/pdf/2305.04388.pdf\n- https://arxiv.org/pdf/2307.13702.pdf\n\nNow that I though about it, for this particular transformers vs mamba experiment, I'd go with something even simpler. I want a task that is very easy sequentially, but hard to answer immediately. So for example a task like:\n```\nx = 5\nx += 2\nx *= 3\nx **= 2\nx -= 3\n...\n```\nand then have a CoT:\n```\nafter x = 5\n5\nafter x += 2\n7\n...\n```\nAnd then we intervene on CoT to introduce some error in one operation, but still ask of the model to give the correct answer at the end. (Despite all steps after the error being irrelevant.) We can go even further and *train* the models to give the correct answer after inadequate CoT. And have a curriculum where at first it only needs to do one hidden operation, later two, and so on.\n\n(It's an unrealistic setting, but the point is rather to check if the model is able at all to learn hidden sequential reasoning.)\n\nNow, my hypothesis is that transformers will have some limited sequence length for which they can do it (probably smaller than their number of layers), but mamba won't have a limit.\n\n---\n\n>  I was working on this for six months\n\nCan you say what you tried in these six months and how did it go?",
+      "plaintextDescription": "Unfortunately I didn't have any particular tasks in mind when I wrote it. I was vaguely thinking about settings as in:\n\n * https://arxiv.org/pdf/2305.04388.pdf\n * https://arxiv.org/pdf/2307.13702.pdf\n\nNow that I though about it, for this particular transformers vs mamba experiment, I'd go with something even simpler. I want a task that is very easy sequentially, but hard to answer immediately. So for example a task like:\n\nx = 5\nx += 2\nx *= 3\nx **= 2\nx -= 3\n...\n\n\nand then have a CoT:\n\nafter x = 5\n5\nafter x += 2\n7\n...\n\n\nAnd then we intervene on CoT to introduce some error in one operation, but still ask of the model to give the correct answer at the end. (Despite all steps after the error being irrelevant.) We can go even further and train the models to give the correct answer after inadequate CoT. And have a curriculum where at first it only needs to do one hidden operation, later two, and so on.\n\n(It's an unrealistic setting, but the point is rather to check if the model is able at all to learn hidden sequential reasoning.)\n\nNow, my hypothesis is that transformers will have some limited sequence length for which they can do it (probably smaller than their number of layers), but mamba won't have a limit.\n\n----------------------------------------\n\n> I was working on this for six months\n\nCan you say what you tried in these six months and how did it go?"
+    },
+    "baseScore": 5,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-18T12:25:04.912Z",
+    "af": false
+  },
+  {
+    "_id": "t7iuXa8eHZqbaKoc5",
+    "postId": "HmQGHGCnvmpCNDBjc",
+    "parentCommentId": "pgvHtbYuQarFfvwzD",
+    "topLevelCommentId": "ponxMRXsnDJNyY4YX",
+    "contents": {
+      "markdown": "Yeah, true. But it's also easier to do early, when no one is that invested in the hidden-recurrence architectures, and so there's less resistance, it doesn't break anyone's plans.\n\nMaybe a strong experiment would be to compare mamba-3b and some SOTA 3b transformer, trained similarly, on several tasks where we can evaluate CoT faithfulness. (Although maybe at 3b capability level we won't see clear differences yet.) The hard part would be finding the right tasks.",
+      "plaintextDescription": "Yeah, true. But it's also easier to do early, when no one is that invested in the hidden-recurrence architectures, and so there's less resistance, it doesn't break anyone's plans.\n\nMaybe a strong experiment would be to compare mamba-3b and some SOTA 3b transformer, trained similarly, on several tasks where we can evaluate CoT faithfulness. (Although maybe at 3b capability level we won't see clear differences yet.) The hard part would be finding the right tasks."
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-01-17T19:51:38.911Z",
+    "af": false
+  },
+  {
+    "_id": "mAomyRecrCYjq5aX2",
+    "postId": "HmQGHGCnvmpCNDBjc",
+    "parentCommentId": "QjBFAuzDRYTaYpnmw",
+    "topLevelCommentId": "ponxMRXsnDJNyY4YX",
+    "contents": {
+      "markdown": "> the natural language bottleneck is itself a temporary stage in the evolution of AI capabilities. It is unlikely to be an optimal mind design; already many people are working on architectures that don't have a natural language bottleneck\n\nThis one looks fatal. (I think the rest of the reasons could be dealt with somehow.)\n\nWhat existing alternative architectures do you have in mind? I guess mamba would be one?\n\nDo you think it's realistic to regulate this? F.e. requiring that above certain size, models can't have recurrence that uses a hidden state, but recurrence that uses natural language (or images) is fine. (Or maybe some softer version of this, if alignment tax proves too high.)",
+      "plaintextDescription": "> the natural language bottleneck is itself a temporary stage in the evolution of AI capabilities. It is unlikely to be an optimal mind design; already many people are working on architectures that don't have a natural language bottleneck\n\nThis one looks fatal. (I think the rest of the reasons could be dealt with somehow.)\n\nWhat existing alternative architectures do you have in mind? I guess mamba would be one?\n\nDo you think it's realistic to regulate this? F.e. requiring that above certain size, models can't have recurrence that uses a hidden state, but recurrence that uses natural language (or images) is fine. (Or maybe some softer version of this, if alignment tax proves too high.)"
+    },
+    "baseScore": 7,
+    "voteCount": 3,
+    "createdAt": null,
+    "postedAt": "2024-01-17T15:31:45.066Z",
+    "af": false
+  },
+  {
+    "_id": "zgNL6HwwJm4ekEcgB",
+    "postId": "HaESgyu2BqDMTpujS",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I like initiatives like these. But they have a major problem, that at the beginning no users will use it because there's no content, and no content is created because there are no users.\n\nTo have a real shot at adoption, you need to either initially populate the new system with content from existing system (here LLMs could help solve compatibility issues), or have some bridge that mirrors (some) activity between these systems.\n\n(There are examples of systems that kicked off from zero, but you need to be lucky or put huge effort in sparking adoption.)",
+      "plaintextDescription": "I like initiatives like these. But they have a major problem, that at the beginning no users will use it because there's no content, and no content is created because there are no users.\n\nTo have a real shot at adoption, you need to either initially populate the new system with content from existing system (here LLMs could help solve compatibility issues), or have some bridge that mirrors (some) activity between these systems.\n\n(There are examples of systems that kicked off from zero, but you need to be lucky or put huge effort in sparking adoption.)"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-14T11:46:52.921Z",
+    "af": false
+  },
+  {
+    "_id": "WSXsJYdt5BL2TzNcD",
+    "postId": "CAzntXYTEaNfC9nB6",
+    "parentCommentId": "gJ3Ld3p4Xxyb8uTAv",
+    "topLevelCommentId": "aKLvAspq2RQphsxrh",
+    "contents": {
+      "markdown": "Yeah, those star trajectories definitely wouldn't be stable enough.\n\nI guess even with that simpler maneuver (powered flyby near a black hole), you still need to monitor all the stuff orbiting there and plan ahead, otherwise there's a fair chance you'll crash into something.",
+      "plaintextDescription": "Yeah, those star trajectories definitely wouldn't be stable enough.\n\nI guess even with that simpler maneuver (powered flyby near a black hole), you still need to monitor all the stuff orbiting there and plan ahead, otherwise there's a fair chance you'll crash into something."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2024-01-04T10:04:20.691Z",
+    "af": false
+  },
+  {
+    "_id": "xQCRkqE64m3YSEDTm",
+    "postId": "ChDH335ckdvpxXaXX",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "I wanted to give it a shot and made GPT4 to deceive the user: [link](https://platform.openai.com/playground/p/C65IrL5p3SFSfe5WdtIMC4q5?model=gpt-4-1106-preview&mode=chat).\n\nWhen you delete that system prompt it stops deceiving.\n\nBut GPT had to be explicitly instructed to disobey the Party. I wonder if it could be done more subtly.",
+      "plaintextDescription": "I wanted to give it a shot and made GPT4 to deceive the user: link.\n\nWhen you delete that system prompt it stops deceiving.\n\nBut GPT had to be explicitly instructed to disobey the Party. I wonder if it could be done more subtly."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2024-01-03T12:46:18.632Z",
+    "af": false
+  },
+  {
+    "_id": "skKFtm3ftcnc3mdAN",
+    "postId": "CAzntXYTEaNfC9nB6",
+    "parentCommentId": "Y5AniNhLSXroKngg9",
+    "topLevelCommentId": "aKLvAspq2RQphsxrh",
+    "contents": {
+      "markdown": "You're right, that you wouldn't want to approach the black hole itself but rather one of the orbiting stars.\n\n> when you are approaching with much higher than escape velocity, so that an extended dance with more than one close approach is not possible \n\nBut even with high velocity, if there are a lot of orbiting stars, you may tune your trajectory to have multiple close encounters. ",
+      "plaintextDescription": "You're right, that you wouldn't want to approach the black hole itself but rather one of the orbiting stars.\n\n> when you are approaching with much higher than escape velocity, so that an extended dance with more than one close approach is not possible\n\nBut even with high velocity, if there are a lot of orbiting stars, you may tune your trajectory to have multiple close encounters."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-28T08:56:06.314Z",
+    "af": false
+  },
+  {
+    "_id": "zDBFLT4dnv9MetSWo",
+    "postId": "CAzntXYTEaNfC9nB6",
+    "parentCommentId": "FLNqSopvCEtuzAHHm",
+    "topLevelCommentId": "wBh99rMuPm25RZ469",
+    "contents": {
+      "markdown": "The problem with not expanding is that you can be pretty sure someone else will then grab what you didn't and may use it for something that you hate. (Unless you trust that they'll use it well.) \n\n> eating the entire Universe to get the maximal number of mind-seconds is expanding just to expand \n\nIt's not \"just to expand\". Expansion, at least in the story, is instrumental to whatever the content of these mind-seconds is. \n\n",
+      "plaintextDescription": "The problem with not expanding is that you can be pretty sure someone else will then grab what you didn't and may use it for something that you hate. (Unless you trust that they'll use it well.)\n\n> eating the entire Universe to get the maximal number of mind-seconds is expanding just to expand\n\nIt's not \"just to expand\". Expansion, at least in the story, is instrumental to whatever the content of these mind-seconds is."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-12-24T22:37:11.912Z",
+    "af": false
+  },
+  {
+    "_id": "dN6ufwhtHpBpfFXkj",
+    "postId": "CAzntXYTEaNfC9nB6",
+    "parentCommentId": "aKLvAspq2RQphsxrh",
+    "topLevelCommentId": "aKLvAspq2RQphsxrh",
+    "contents": {
+      "markdown": "> slingshot never slows you down in the frame of the object you are slingshotting around\n\nThat's true for one object. But if there are at least two, moving around fast enough, you could perform some gravitational dance with them to slow down. ",
+      "plaintextDescription": "> slingshot never slows you down in the frame of the object you are slingshotting around\n\nThat's true for one object. But if there are at least two, moving around fast enough, you could perform some gravitational dance with them to slow down."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-12-24T22:09:59.381Z",
+    "af": false
+  },
+  {
+    "_id": "WtcvZbKG9rtnn9gvk",
+    "postId": "mAwxebLw3nYbDivmt",
+    "parentCommentId": "L5sBeJxPBiWqdcQsQ",
+    "topLevelCommentId": "4SbuBcwBqj8Gg5YZB",
+    "contents": {
+      "markdown": "1. I agree that scaffolding can take us a long way towards AGI, but I'd be *very* surprised if GPT4 as core model was enough.\n\n2. Yup, that wasn't a critique, I just wanted to note something. By \"seed of deception\" I mean that the model may learn to use this ambiguity more and more, if that's useful for passing some evals, while helping it do some computation unwanted by humans.\n\n3. I see, so maybe in ways which are weird to humans to think about.",
+      "plaintextDescription": " 1. I agree that scaffolding can take us a long way towards AGI, but I'd be very surprised if GPT4 as core model was enough.\n\n 2. Yup, that wasn't a critique, I just wanted to note something. By \"seed of deception\" I mean that the model may learn to use this ambiguity more and more, if that's useful for passing some evals, while helping it do some computation unwanted by humans.\n\n 3. I see, so maybe in ways which are weird to humans to think about."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-17T11:32:02.529Z",
+    "af": false
+  },
+  {
+    "_id": "4SbuBcwBqj8Gg5YZB",
+    "postId": "mAwxebLw3nYbDivmt",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> we make the very strong assumption throughout that S-LLMs are a plausible and likely path to AGI\n\nIt sounds unlikely and unnecessarily strong to say that we can reach AGI by scaffolding alone (if that's what you mean). But I think it's pretty likely that AGI will involve some amount of scaffolding, and that it will boost its capabilities significantly.\n\n> there is a preexisting discrepancy between how humans would interpret phrases and how the base model will interpret them\n\nTo the extent that it's true, I expect that it may also make deception easier to arise. This discrepancy may serve as a *seed of deception*.\n\n\n> Systems engaging in self modification will make the interpretation of their natural language data more challenging. \n\nWhy? Sure, they will get more complex, but are there any other reasons?\n\nAlso, I like the richness of your references in this post :)",
+      "plaintextDescription": "> we make the very strong assumption throughout that S-LLMs are a plausible and likely path to AGI\n\nIt sounds unlikely and unnecessarily strong to say that we can reach AGI by scaffolding alone (if that's what you mean). But I think it's pretty likely that AGI will involve some amount of scaffolding, and that it will boost its capabilities significantly.\n\n> there is a preexisting discrepancy between how humans would interpret phrases and how the base model will interpret them\n\nTo the extent that it's true, I expect that it may also make deception easier to arise. This discrepancy may serve as a seed of deception.\n\n> Systems engaging in self modification will make the interpretation of their natural language data more challenging.\n\nWhy? Sure, they will get more complex, but are there any other reasons?\n\nAlso, I like the richness of your references in this post :)"
+    },
+    "baseScore": 5,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-06-16T15:11:33.404Z",
+    "af": false
+  },
+  {
+    "_id": "mTqEH9wyfuqDsZmke",
+    "postId": "H9KekSfzHnPLTz4DE",
+    "parentCommentId": "sCFrWpib4NKuzRQfH",
+    "topLevelCommentId": "hKMDexzXic2NFGxWy",
+    "contents": {
+      "markdown": "I edited the post to make it clearer that Bob throws out the wheel because he didn't notice in time that Alice threw.\n\nYup, side payments are a deviation, that's why I have this disclaimer in game definition (I edited the post now to emphasize it more):\n> there also may be some additional actions available, but they are not obvious\n\nRe separating speed of information and negotiations: I think here they are already pretty separate. The first example with 3 protocol rules doesn't allow negotiations and only tackles the information speed problem. The second example with additional fourth rule enables negotiations. Maybe you could also have a system tackling only negotiations and not the information speed problem, but I'm not sure now how would it look like, or if it would be much simpler.\n\nAnother problem (closely tied to negotiations) I wanted to tackle is something like \"speed of deliberation\" where agents make some bad commitments because they didn't have enough time to consider their consequences, and later realize they want to revoke/negotiate. ",
+      "plaintextDescription": "I edited the post to make it clearer that Bob throws out the wheel because he didn't notice in time that Alice threw.\n\nYup, side payments are a deviation, that's why I have this disclaimer in game definition (I edited the post now to emphasize it more):\n\n> there also may be some additional actions available, but they are not obvious\n\nRe separating speed of information and negotiations: I think here they are already pretty separate. The first example with 3 protocol rules doesn't allow negotiations and only tackles the information speed problem. The second example with additional fourth rule enables negotiations. Maybe you could also have a system tackling only negotiations and not the information speed problem, but I'm not sure now how would it look like, or if it would be much simpler.\n\nAnother problem (closely tied to negotiations) I wanted to tackle is something like \"speed of deliberation\" where agents make some bad commitments because they didn't have enough time to consider their consequences, and later realize they want to revoke/negotiate."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-15T18:17:32.724Z",
+    "af": false
+  },
+  {
+    "_id": "phDvvf7EjnXjCjxcp",
+    "postId": "yT22RcWrxZcXyGjsA",
+    "parentCommentId": "vzuD7yeFywo2ZioYH",
+    "topLevelCommentId": "drn8aF9mQK7zGP7gb",
+    "contents": {
+      "markdown": "Oh, so the option to choose all of those disease weights is there, it's just a lot of effort for the parents? That's good to know.\n\nYeah, ideally it shouldn't need to be done by each parents separately, but rather there should be existing analyses ready. And even if those orgs don't provide a satisfactory analyses themselves, they could be done independently. F.e. collaborating on that with Happier Lives Institute could work well, as they have some similar expertise. ",
+      "plaintextDescription": "Oh, so the option to choose all of those disease weights is there, it's just a lot of effort for the parents? That's good to know.\n\nYeah, ideally it shouldn't need to be done by each parents separately, but rather there should be existing analyses ready. And even if those orgs don't provide a satisfactory analyses themselves, they could be done independently. F.e. collaborating on that with Happier Lives Institute could work well, as they have some similar expertise."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-06T15:12:30.406Z",
+    "af": false
+  },
+  {
+    "_id": "drn8aF9mQK7zGP7gb",
+    "postId": "yT22RcWrxZcXyGjsA",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "> each disease is weighted according to its impact on disability-adjusted lifespan\n\nIt's a pity they don't use some more accurate well-being metrics like f.e. WELLBY (although I think WELLBY isn't ideal either).  \n  \nHow much control do the parents have on what metric will be used to rank the embryos?",
+      "plaintextDescription": "> each disease is weighted according to its impact on disability-adjusted lifespan\n\nIt's a pity they don't use some more accurate well-being metrics like f.e. WELLBY (although I think WELLBY isn't ideal either).\n\nHow much control do the parents have on what metric will be used to rank the embryos?"
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-05T16:50:44.503Z",
+    "af": false
+  },
+  {
+    "_id": "zmTvCg2PFpAoFt8vz",
+    "postId": "H9KekSfzHnPLTz4DE",
+    "parentCommentId": "vN5qBdHkxKYAEHMSB",
+    "topLevelCommentId": "hKMDexzXic2NFGxWy",
+    "contents": {
+      "markdown": "Oh yeah, I meant the final locked-in commitment, not initial tentative one. And my point is that when committing outside is sufficiently more costly, then it's not worth doing it, even if that would let you commit faster.",
+      "plaintextDescription": "Oh yeah, I meant the final locked-in commitment, not initial tentative one. And my point is that when committing outside is sufficiently more costly, then it's not worth doing it, even if that would let you commit faster."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2023-06-04T15:52:53.155Z",
+    "af": false
+  },
+  {
+    "_id": "MfWCX5KeCeFxjHdvQ",
+    "postId": "H9KekSfzHnPLTz4DE",
+    "parentCommentId": "hKMDexzXic2NFGxWy",
+    "topLevelCommentId": "hKMDexzXic2NFGxWy",
+    "contents": {
+      "markdown": "Yup, you're totally right, it may be too easy to commit in other ways, outside this protocol. But I still think it may be possible to create such a \"main mechanism\" for making commitments where it's just very easy/cheap/credible to commit, compared to other mechanisms. But that would require a crazy amount of cooperation.\n\n> The vast majority that I know of use ad-hoc and agent-specific commitment mechanisms\n\nIf you have some particular mechanisms in mind could you list some? I'd like to compile a list of the most relevant commitment mechanisms to try to analyze them.",
+      "plaintextDescription": "Yup, you're totally right, it may be too easy to commit in other ways, outside this protocol. But I still think it may be possible to create such a \"main mechanism\" for making commitments where it's just very easy/cheap/credible to commit, compared to other mechanisms. But that would require a crazy amount of cooperation.\n\n> The vast majority that I know of use ad-hoc and agent-specific commitment mechanisms\n\nIf you have some particular mechanisms in mind could you list some? I'd like to compile a list of the most relevant commitment mechanisms to try to analyze them."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2023-06-04T15:18:16.549Z",
+    "af": false
+  },
+  {
+    "_id": "n5TdysHKKbw92f2pp",
+    "postId": "gLyRQCg6kp5cqTQTm",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Love that post!\n\n> Can we train ML systems that clearly manifest a collective identity?\n\nI feel like in multi-agent reinforcement learning that's already the case.\n\nRe training setting for creating shared identity. What about a setting where a human and LLM take turns generating text, like in the current chat setting, but first they receive some task, f.e. \"write a good strategy for this startup\" and the context for this task. At the end they output the final answer and there is some reward model which rates the performance of the cyborg (human+LLM) as a whole.\n\nIn practice, having real humans in this training loop may be too costly, so we may want to replace them most of the time with an imitation of a human.\n\n(Also a minor point to keep in mind: having emergent collective action doesn't mean that the agents have a model of the collective self. F.e. colony of ant behaves as one, but I doubt ants have any model of the colony, rather just executing their ant procedures. Although with powerful AIs, I expect those collective self models to arise. I just mean that maybe we should be careful in transferring insight from ant colonies, swarms, hives etc., to settings with more cognitively capable agents?)",
+      "plaintextDescription": "Love that post!\n\n> Can we train ML systems that clearly manifest a collective identity?\n\nI feel like in multi-agent reinforcement learning that's already the case.\n\nRe training setting for creating shared identity. What about a setting where a human and LLM take turns generating text, like in the current chat setting, but first they receive some task, f.e. \"write a good strategy for this startup\" and the context for this task. At the end they output the final answer and there is some reward model which rates the performance of the cyborg (human+LLM) as a whole.\n\nIn practice, having real humans in this training loop may be too costly, so we may want to replace them most of the time with an imitation of a human.\n\n(Also a minor point to keep in mind: having emergent collective action doesn't mean that the agents have a model of the collective self. F.e. colony of ant behaves as one, but I doubt ants have any model of the colony, rather just executing their ant procedures. Although with powerful AIs, I expect those collective self models to arise. I just mean that maybe we should be careful in transferring insight from ant colonies, swarms, hives etc., to settings with more cognitively capable agents?)"
+    },
+    "baseScore": 6,
+    "voteCount": 4,
+    "createdAt": null,
+    "postedAt": "2023-05-19T13:58:46.605Z",
+    "af": false
+  },
+  {
+    "_id": "4MWLadCxFtiW4SxWD",
+    "postId": "iHLJtbdFwsoNWZg3e",
+    "parentCommentId": "yGsKo4Z3cpNh7CazY",
+    "topLevelCommentId": "JKSG5um8WqkgHcZFx",
+    "contents": {
+      "markdown": "Oh yeah, definitely. I think such a system shouldn't try to enforce one \"truth\" - which content is objectively good or bad.\n\nI'd much rather see people forming groups, each with its own moderation rules. And let people be a part of multiple groups. There's a lot of methods that could be tried out, f.e. some groups could use algorithms like EigenTrust, to decide how much to trust users.\n\nBut before we can get to that, I see a more prohibitive problem - that it will be hard to get enough people to get that system off the ground.",
+      "plaintextDescription": "Oh yeah, definitely. I think such a system shouldn't try to enforce one \"truth\" - which content is objectively good or bad.\n\nI'd much rather see people forming groups, each with its own moderation rules. And let people be a part of multiple groups. There's a lot of methods that could be tried out, f.e. some groups could use algorithms like EigenTrust, to decide how much to trust users.\n\nBut before we can get to that, I see a more prohibitive problem - that it will be hard to get enough people to get that system off the ground."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-28T00:49:34.902Z",
+    "af": false
+  },
+  {
+    "_id": "JKSG5um8WqkgHcZFx",
+    "postId": "iHLJtbdFwsoNWZg3e",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Cool post! I think the minimum viable \"guardian\" implementation, would be to\n- embed each post/video/tweet into some high-dimensional space\n- find out which regions of that space are nasty (we can do this collectively - f.e. my clickbait is probably clickbaity for you too)\n- filter out those regions\n\nI tried to do something along these lines for youtube: https://github.com/filyp/yourtube\n\nI couldn't find a good way to embed videos using ML, so I just scraped which videos recommend each other, and made a graph from that (which kinda is an embedding). Then I let users narrow down on some particular region of that graph. So you can not only avoid some nasty regions, but you can also decide what you want to watch *right now*, instead of the algorithm deciding for you. So this gives the user more autonomy.\n\nThe accuracy isn't yet too satisfying. I think the biggest problem with systems like these is the network effect - you could get much better results with some collaborative filtering.",
+      "plaintextDescription": "Cool post! I think the minimum viable \"guardian\" implementation, would be to\n\n * embed each post/video/tweet into some high-dimensional space\n * find out which regions of that space are nasty (we can do this collectively - f.e. my clickbait is probably clickbaity for you too)\n * filter out those regions\n\nI tried to do something along these lines for youtube: https://github.com/filyp/yourtube\n\nI couldn't find a good way to embed videos using ML, so I just scraped which videos recommend each other, and made a graph from that (which kinda is an embedding). Then I let users narrow down on some particular region of that graph. So you can not only avoid some nasty regions, but you can also decide what you want to watch right now, instead of the algorithm deciding for you. So this gives the user more autonomy.\n\nThe accuracy isn't yet too satisfying. I think the biggest problem with systems like these is the network effect - you could get much better results with some collaborative filtering."
+    },
+    "baseScore": 3,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-25T23:06:16.366Z",
+    "af": false
+  },
+  {
+    "_id": "7oamJEc32B2TK26KQ",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "4n28uBJDxensMjzDB",
+    "topLevelCommentId": "4n28uBJDxensMjzDB",
+    "contents": {
+      "markdown": "Yeah, when I thought about it some more, maybe the smallest *relevant* physical change is a single neuron firing. Also with such a quantization, we cannot really talk about \"infinitesimal\" changes.\n\nI still think that a single neuron firing, changing the content of experience so drastically, is quite hard to swallow. There is a sense in which all that mental content should \"come from\" somewhere. \n\nI had a similar discussion with @benjamincosman, where I explore that in more detail. Here are my [final thoughts](https://www.lesswrong.com/posts/MJ9GdeSXyR4p9xvHp/mind-is-uncountable?commentId=7zu8pYv8jktxgJcBs) from that discussion. ",
+      "plaintextDescription": "Yeah, when I thought about it some more, maybe the smallest relevant physical change is a single neuron firing. Also with such a quantization, we cannot really talk about \"infinitesimal\" changes.\n\nI still think that a single neuron firing, changing the content of experience so drastically, is quite hard to swallow. There is a sense in which all that mental content should \"come from\" somewhere.\n\nI had a similar discussion with @benjamincosman, where I explore that in more detail. Here are my final thoughts from that discussion."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-04T16:05:54.914Z",
+    "af": false
+  },
+  {
+    "_id": "2ptfspRKZKgsnrg9r",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "dKQT6gkfaWEjHBTjk",
+    "topLevelCommentId": "dKQT6gkfaWEjHBTjk",
+    "contents": {
+      "markdown": "Oh, I've never stumbled on that story. Thanks for sharing it!\n\nI think it's quite independent from my post (despite such a similar thought experiment) because I zoomed in on that discontinuity aspect, and Eliezer zoomed in on anthropics. ",
+      "plaintextDescription": "Oh, I've never stumbled on that story. Thanks for sharing it!\n\nI think it's quite independent from my post (despite such a similar thought experiment) because I zoomed in on that discontinuity aspect, and Eliezer zoomed in on anthropics."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-04T15:54:05.355Z",
+    "af": false
+  },
+  {
+    "_id": "ySB4s7Y6tbQkBdAof",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "7v2qf5Levmn3dpyvz",
+    "topLevelCommentId": "7v2qf5Levmn3dpyvz",
+    "contents": {
+      "markdown": "That's a good point. I had a similar discussion with @benjamincosman, so I'll just link my final thoughts:\n[my comment](https://www.lesswrong.com/posts/MJ9GdeSXyR4p9xvHp/mind-is-uncountable?commentId=7zu8pYv8jktxgJcBs) ",
+      "plaintextDescription": "That's a good point. I had a similar discussion with @benjamincosman, so I'll just link my final thoughts: my comment"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-04T15:02:02.379Z",
+    "af": false
+  },
+  {
+    "_id": "7zu8pYv8jktxgJcBs",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "HPhGwLLyEcgNCdufC",
+    "topLevelCommentId": "DqAKutfHweoXZdMpT",
+    "contents": {
+      "markdown": "I thought about it some more, and now I think you may be right. I made an oversimplification when I implicitly assumed that a moment of experience corresponds to a physical state in some point in time. In reality, a moment of experience seems to span some duration of physical time. For example, events that happen within 100ms, are experienced as simultaneous.\n\nThis gives some time for the physical system to implement these discontinuities (if some critical threshold was passed).\n\nBut if this criticality happens, it should be detectable with brain imaging. So now it becomes an empirical question, that we can test.\n\nI still doubt the formulation in IIT, that predicts discontinious jumps in experience, regardless of whether some discontinuity physically happens or not.\n\n(BTW, there is a hypothetical mechanism that may implement this jump, proposed by Andres Gomez Emilsson - topological bifurcation.) ",
+      "plaintextDescription": "I thought about it some more, and now I think you may be right. I made an oversimplification when I implicitly assumed that a moment of experience corresponds to a physical state in some point in time. In reality, a moment of experience seems to span some duration of physical time. For example, events that happen within 100ms, are experienced as simultaneous.\n\nThis gives some time for the physical system to implement these discontinuities (if some critical threshold was passed).\n\nBut if this criticality happens, it should be detectable with brain imaging. So now it becomes an empirical question, that we can test.\n\nI still doubt the formulation in IIT, that predicts discontinious jumps in experience, regardless of whether some discontinuity physically happens or not.\n\n(BTW, there is a hypothetical mechanism that may implement this jump, proposed by Andres Gomez Emilsson - topological bifurcation.)"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-11-04T14:53:24.367Z",
+    "af": false
+  },
+  {
+    "_id": "XFkFKdv5fajSqSC6p",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "HPhGwLLyEcgNCdufC",
+    "topLevelCommentId": "DqAKutfHweoXZdMpT",
+    "contents": {
+      "markdown": "Hm, yeah, the smallest relevant physical difference may actually be one neuron firing, not one moved atom.\n\n---\n\nWhat I meant by *between them*, was that there would need to be some *third* substrate that is neither physical nor mental, and produces this jump. That's because in that situation discontinuity is between start and end position, so those positions are analogous to physical and mental state.\n\nAny brain mechanism, is still part of the *physical*. It's true that there are some critical behaviors in the brain (similar to balls rolling down that hill). But the result of this criticality is still a physical state. So we cannot use a critical physical mechanism, to explain the discontinuity *between* physical and mental. ",
+      "plaintextDescription": "Hm, yeah, the smallest relevant physical difference may actually be one neuron firing, not one moved atom.\n\n----------------------------------------\n\nWhat I meant by between them, was that there would need to be some third substrate that is neither physical nor mental, and produces this jump. That's because in that situation discontinuity is between start and end position, so those positions are analogous to physical and mental state.\n\nAny brain mechanism, is still part of the physical. It's true that there are some critical behaviors in the brain (similar to balls rolling down that hill). But the result of this criticality is still a physical state. So we cannot use a critical physical mechanism, to explain the discontinuity between physical and mental."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-02T21:50:05.391Z",
+    "af": false
+  },
+  {
+    "_id": "jugtq5H7vbptp6Jb3",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "FZBJyevNnr3fstnoR",
+    "topLevelCommentId": "5giu5bk5nwmdDXNX7",
+    "contents": {
+      "markdown": "It just looks that's what worked in evolution - to have independent organisms, each carrying its own brain. And the brain happens to have the richest information processing and integration, compared to information processing between the brains.\n\nI don't know what would be necessary to have a more \"joined\" existence. Mushrooms seem to be able to form bigger structures, but they didn't have an environment complex enough to require the evolution of brains.",
+      "plaintextDescription": "It just looks that's what worked in evolution - to have independent organisms, each carrying its own brain. And the brain happens to have the richest information processing and integration, compared to information processing between the brains.\n\nI don't know what would be necessary to have a more \"joined\" existence. Mushrooms seem to be able to form bigger structures, but they didn't have an environment complex enough to require the evolution of brains."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-02T21:17:16.067Z",
+    "af": false
+  },
+  {
+    "_id": "TfB9MburTFRiGRj6o",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "5giu5bk5nwmdDXNX7",
+    "topLevelCommentId": "5giu5bk5nwmdDXNX7",
+    "contents": {
+      "markdown": "It seems that we just never had any situations that would challenge this way of thinking (those twins are an exception). \n\nThis Cartesian simplification almost always works, so it seems like it's just the way the world is at its core.",
+      "plaintextDescription": "It seems that we just never had any situations that would challenge this way of thinking (those twins are an exception).\n\nThis Cartesian simplification almost always works, so it seems like it's just the way the world is at its core."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-02T18:48:29.884Z",
+    "af": false
+  },
+  {
+    "_id": "b373sgEz36kQBeAJA",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "betEnHzdAFmStYT3m",
+    "topLevelCommentId": "DqAKutfHweoXZdMpT",
+    "contents": {
+      "markdown": "Here, to have that discontinuity between input and output (start and end position), we need some mechanism between them - the system of ball, hill, and their dynamics. What's worse it needs to evolve for infinite time (otherwise the end still continuously depends on start position).\n\nSo I would say, this discontinuous jump \"comes from\" this system's (infinite) evolution. \n\nIt seems to me, that to have discontinuity between physical and mental, you would also need some new mechanism *between them* to produce the jump.",
+      "plaintextDescription": "Here, to have that discontinuity between input and output (start and end position), we need some mechanism between them - the system of ball, hill, and their dynamics. What's worse it needs to evolve for infinite time (otherwise the end still continuously depends on start position).\n\nSo I would say, this discontinuous jump \"comes from\" this system's (infinite) evolution.\n\nIt seems to me, that to have discontinuity between physical and mental, you would also need some new mechanism between them to produce the jump."
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-02T17:46:16.595Z",
+    "af": false
+  },
+  {
+    "_id": "uy6C4e5aeyA2ZqN2F",
+    "postId": "MJ9GdeSXyR4p9xvHp",
+    "parentCommentId": "DqAKutfHweoXZdMpT",
+    "topLevelCommentId": "DqAKutfHweoXZdMpT",
+    "contents": {
+      "markdown": "Good point. I edited the post to say \"near epiphenomenalism\", because like you said, it doesn't fit into the strict definition.\n\nIf the physical and mental are quantized (and I expect that), then we can't really speak of \"infinitesimal\" changes, and the situation is as you described. (But if they are not quantized, then I would insist that it should really count as epiphenomenal, though I know it's contentious.)\n\nStill, even if it's only *almost epiphenomenal*, it feels too absurd to me to accept. In fact you could construct a situation where you create an arbitrarily big mental change (like splitting Jupyter-sized mind in half), by the tiniest possible physical change (like moving one electron by one Planck length). Where would all that mental content \"come from\"?\n\n",
+      "plaintextDescription": "Good point. I edited the post to say \"near epiphenomenalism\", because like you said, it doesn't fit into the strict definition.\n\nIf the physical and mental are quantized (and I expect that), then we can't really speak of \"infinitesimal\" changes, and the situation is as you described. (But if they are not quantized, then I would insist that it should really count as epiphenomenal, though I know it's contentious.)\n\nStill, even if it's only almost epiphenomenal, it feels too absurd to me to accept. In fact you could construct a situation where you create an arbitrarily big mental change (like splitting Jupyter-sized mind in half), by the tiniest possible physical change (like moving one electron by one Planck length). Where would all that mental content \"come from\"?"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-11-02T15:04:48.125Z",
+    "af": false
+  },
+  {
+    "_id": "fqvSR6GsgTcM6ELHg",
+    "postId": "cecqH7PvsNkrxFvwe",
+    "parentCommentId": "3iMJspngvvH5i3Txw",
+    "topLevelCommentId": "3iMJspngvvH5i3Txw",
+    "contents": {
+      "markdown": "Hm, I thought those instructions (under \"Explore hidden treasures...\") are enough, but I probably misestimated it because I'm already used to that tool. \n\nThanks for pointing that out! I'll try to clarify it. (Also I'm not sure if you looked at [this page](https://filyp.github.io/tree-of-tags/details.html) which roughly explains how it works. I linked it at the end because to use that tool you don't need to understand those details.)\n\nAre you able to pin down what causes the most confusion?\n\n[edit] I also copied over the whole explanation into the post now, and made the details link more salient",
+      "plaintextDescription": "Hm, I thought those instructions (under \"Explore hidden treasures...\") are enough, but I probably misestimated it because I'm already used to that tool.\n\nThanks for pointing that out! I'll try to clarify it. (Also I'm not sure if you looked at this page which roughly explains how it works. I linked it at the end because to use that tool you don't need to understand those details.)\n\nAre you able to pin down what causes the most confusion?\n\n[edit] I also copied over the whole explanation into the post now, and made the details link more salient"
+    },
+    "baseScore": 1,
+    "voteCount": 1,
+    "createdAt": null,
+    "postedAt": "2022-09-14T15:48:32.790Z",
+    "af": false
+  },
+  {
+    "_id": "DoMFqtubmhzx9J2z4",
+    "postId": "CMHogeqTTajhmnEKx",
+    "parentCommentId": "isyEG9vKHv4bvZGQA",
+    "topLevelCommentId": "eeraYyrjC9G6T7PsK",
+    "contents": {
+      "markdown": "Yeah, that makes sense.\n\nI'd like the serious modifications to (at the very least) require a lot of effort to do. And be gradual, so you can monitor if you're going in the right direction, instead of suddenly jumping into a new mindspace. And maybe even collectively decide to forbid some modifications.\n\n(btw, here is a great story about hedonic modification [https://www.utilitarianism.com/greg-egan/Reasons-To-Be-Cheerful.pdf](https://www.utilitarianism.com/greg-egan/Reasons-To-Be-Cheerful.pdf))\n\nThe reason that I lean toward relying on my friends, not a godlike entity, is because on default I distrust centralized systems with enormous power. But if we had Elua which is as good as you depicted, I would be okay with that ;)",
+      "plaintextDescription": "Yeah, that makes sense.\n\nI'd like the serious modifications to (at the very least) require a lot of effort to do. And be gradual, so you can monitor if you're going in the right direction, instead of suddenly jumping into a new mindspace. And maybe even collectively decide to forbid some modifications.\n\n(btw, here is a great story about hedonic modification https://www.utilitarianism.com/greg-egan/Reasons-To-Be-Cheerful.pdf)\n\nThe reason that I lean toward relying on my friends, not a godlike entity, is because on default I distrust centralized systems with enormous power. But if we had Elua which is as good as you depicted, I would be okay with that ;)"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-09-12T13:24:24.173Z",
+    "af": false
+  },
+  {
+    "_id": "EvC2375ATGfud9Dwc",
+    "postId": "CMHogeqTTajhmnEKx",
+    "parentCommentId": "feceEadm24rgqKwdS",
+    "topLevelCommentId": "eeraYyrjC9G6T7PsK",
+    "contents": {
+      "markdown": "Yeah, unanimous may be too strong - maybe it would be better to have 2 out of 3 majority voting for example.\nAnd I agree, my past self is a third party too.\n\nHm, yeah, trusting Elua to do it would work too. But in scenarios where we don't have Elua, or have some \"almost Elua\" that I don't fully trust, I'd rather rely on my trusted friends. And those scenarios are likely enough that it's a good option to have.\n\n(As I side note, I don't think I can fully specify that \"please take me out of there if X\". There may be some Xs which I couldn't foresee, so I want to rely on those third party's judgement, not some hard rules. (of course, sufficiently good Elua could make those judgements too))\n\nAs for that limitation, how would you imagine it? That some mind modifications are just forbidden? I have an intuition that there may be modifications so alien, that the only way to predict their consequences is to actually run that modified mind and see what happens. (an analogy may be, that even the most powerful being cannot predict if some Turing machine halts without actually running it). So maybe reverting is still necessary sometimes.",
+      "plaintextDescription": "Yeah, unanimous may be too strong - maybe it would be better to have 2 out of 3 majority voting for example. And I agree, my past self is a third party too.\n\nHm, yeah, trusting Elua to do it would work too. But in scenarios where we don't have Elua, or have some \"almost Elua\" that I don't fully trust, I'd rather rely on my trusted friends. And those scenarios are likely enough that it's a good option to have.\n\n(As I side note, I don't think I can fully specify that \"please take me out of there if X\". There may be some Xs which I couldn't foresee, so I want to rely on those third party's judgement, not some hard rules. (of course, sufficiently good Elua could make those judgements too))\n\nAs for that limitation, how would you imagine it? That some mind modifications are just forbidden? I have an intuition that there may be modifications so alien, that the only way to predict their consequences is to actually run that modified mind and see what happens. (an analogy may be, that even the most powerful being cannot predict if some Turing machine halts without actually running it). So maybe reverting is still necessary sometimes."
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-09-12T10:48:24.045Z",
+    "af": false
+  },
+  {
+    "_id": "eeraYyrjC9G6T7PsK",
+    "postId": "CMHogeqTTajhmnEKx",
+    "parentCommentId": null,
+    "topLevelCommentId": null,
+    "contents": {
+      "markdown": "Thanks! I'm always hungry for good sci-fi utopias :) \nI particularly liked that mindmelding part.\n\nAfter also reading Diaspora and ∀V, I was thinking what should be done about minds who self-modify themselves into insanity and suffer terribly. In their case, talking about consent doesn't make much sense.\n\nMaybe we could have a mechanism where:\n- I choose some people I trust the most, for example my partner, my mom, and my best friend\n- I give them the power to revert me back to my previous snapshot from before the modification, even if it's against my insane will (but only if they unanimously agree)\n- (optionally) by old snapshot is temporarily revived to be the final arbiter and decide if I should be reverted - after all I know me the best \n",
+      "plaintextDescription": "Thanks! I'm always hungry for good sci-fi utopias :) I particularly liked that mindmelding part.\n\nAfter also reading Diaspora and ∀V, I was thinking what should be done about minds who self-modify themselves into insanity and suffer terribly. In their case, talking about consent doesn't make much sense.\n\nMaybe we could have a mechanism where:\n\n * I choose some people I trust the most, for example my partner, my mom, and my best friend\n * I give them the power to revert me back to my previous snapshot from before the modification, even if it's against my insane will (but only if they unanimously agree)\n * (optionally) by old snapshot is temporarily revived to be the final arbiter and decide if I should be reverted - after all I know me the best"
+    },
+    "baseScore": 2,
+    "voteCount": 2,
+    "createdAt": null,
+    "postedAt": "2022-09-11T15:47:29.402Z",
+    "af": false
+  }
+]
