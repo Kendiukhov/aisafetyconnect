@@ -1,0 +1,42 @@
+version: "3.9"
+
+services:
+  pretrain:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: afrolm:latest
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - WANDB_API_KEY=${WANDB_API_KEY}
+    volumes:
+      - ../data:/workspace/data
+      - ../checkpoints:/workspace/checkpoints
+      - ../tokenizer:/workspace/tokenizer
+    command: >
+      torchrun
+        --nproc_per_node=${N_GPUS:-1}
+        scripts/pretrain.py
+          --model_size base
+          --data_dir data/processed/
+          --tokenizer tokenizer/
+          --output_dir checkpoints/
+          --max_steps 100000
+          --dtype bfloat16
+
+  evaluate:
+    image: afrolm:latest
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=0
+    volumes:
+      - ../data:/workspace/data
+      - ../checkpoints:/workspace/checkpoints
+      - ../tokenizer:/workspace/tokenizer
+    command: >
+      python scripts/evaluate.py
+        --checkpoint checkpoints/final.pt
+        --tokenizer tokenizer/
+        --data_dir data/benchmarks/
+        --benchmarks masakhanews masakhaner

@@ -1,0 +1,15 @@
+model_size: large
+vocab_size: 64000
+hidden_size: 4096
+num_hidden_layers: 32
+num_attention_heads: 32
+num_key_value_heads: 8
+intermediate_size: 16384
+max_position_embeddings: 4096
+rope_theta: 10000.0
+rms_norm_eps: 1.0e-5
+tie_word_embeddings: false
+initializer_range: 0.02
+dropout: 0.0
+attention_dropout: 0.0
+# ~7B parameters

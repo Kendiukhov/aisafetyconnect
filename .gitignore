@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+
+# Data and checkpoints (large binary files — track with DVC/LFS instead)
+data/raw/
+data/processed/
+checkpoints/
+tokenizer/*.model
+
+# Weights & Biases
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Results
+results/
+logs/

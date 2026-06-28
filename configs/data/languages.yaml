@@ -1,0 +1,43 @@
+# Language configuration for data preparation
+# alpha: sampling exponent for vocabulary balancing (0=uniform, 1=proportional)
+sampling_alpha: 0.7
+total_tokenizer_lines: 5000000
+
+languages:
+  sw:  {name: Swahili,     script: Latin,    region: East Africa,     weight: 1.0}
+  ha:  {name: Hausa,       script: Latin,    region: West Africa,     weight: 1.0}
+  yo:  {name: Yoruba,      script: Latin,    region: West Africa,     weight: 1.0}
+  ig:  {name: Igbo,        script: Latin,    region: West Africa,     weight: 1.0}
+  zu:  {name: Zulu,        script: Latin,    region: South Africa,    weight: 1.0}
+  xh:  {name: Xhosa,       script: Latin,    region: South Africa,    weight: 1.0}
+  sn:  {name: Shona,       script: Latin,    region: Southern Africa, weight: 1.0}
+  am:  {name: Amharic,     script: Ethiopic, region: East Africa,     weight: 1.0}
+  ti:  {name: Tigrinya,    script: Ethiopic, region: East Africa,     weight: 1.0}
+  so:  {name: Somali,      script: Latin,    region: East Africa,     weight: 1.0}
+  wo:  {name: Wolof,       script: Latin,    region: West Africa,     weight: 1.0}
+  tw:  {name: Twi,         script: Latin,    region: West Africa,     weight: 1.0}
+  ff:  {name: Fula,        script: Latin,    region: West Africa,     weight: 1.0}
+  ln:  {name: Lingala,     script: Latin,    region: Central Africa,  weight: 1.0}
+  rw:  {name: Kinyarwanda, script: Latin,    region: East Africa,     weight: 1.0}
+  lg:  {name: Luganda,     script: Latin,    region: East Africa,     weight: 1.0}
+  ny:  {name: Chichewa,    script: Latin,    region: Southern Africa, weight: 1.0}
+  tn:  {name: Tswana,      script: Latin,    region: Southern Africa, weight: 1.0}
+  st:  {name: Sesotho,     script: Latin,    region: Southern Africa, weight: 1.0}
+  mg:  {name: Malagasy,    script: Latin,    region: Indian Ocean,    weight: 1.0}
+  om:  {name: Oromo,       script: Latin,    region: East Africa,     weight: 1.0}
+  af:  {name: Afrikaans,   script: Latin,    region: South Africa,    weight: 1.0}
+  bm:  {name: Bambara,     script: Latin,    region: West Africa,     weight: 1.0}
+  ki:  {name: Kikuyu,      script: Latin,    region: East Africa,     weight: 1.0}
+  luo: {name: Luo,         script: Latin,    region: East Africa,     weight: 1.0}
+  nd:  {name: Ndebele,     script: Latin,    region: Southern Africa, weight: 1.0}
+  ve:  {name: Venda,       script: Latin,    region: South Africa,    weight: 1.0}
+  nus: {name: Nuer,        script: Latin,    region: East Africa,     weight: 1.0}
+  kr:  {name: Kanuri,      script: Latin,    region: Central Africa,  weight: 1.0}
+  ss:  {name: Swati,       script: Latin,    region: South Africa,    weight: 1.0}
+
+data_sources:
+  - cc100
+  - opus_jw300
+  - opus_tanzil
+  - african_storybook
+  - masakhane_mt

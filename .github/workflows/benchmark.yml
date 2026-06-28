@@ -1,0 +1,36 @@
+name: Benchmark (nightly)
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 02:00 UTC daily
+  workflow_dispatch:
+    inputs:
+      checkpoint:
+        description: "Path or HuggingFace model id to benchmark"
+        required: true
+
+jobs:
+  benchmark:
+    name: Run benchmarks
+    runs-on: [self-hosted, gpu]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - name: Run benchmarks
+        env:
+          WANDB_API_KEY: ${{ secrets.WANDB_API_KEY }}
+        run: |
+          python scripts/evaluate.py \
+            --checkpoint ${{ github.event.inputs.checkpoint || 'checkpoints/final.pt' }} \
+            --tokenizer tokenizer/ \
+            --data_dir data/benchmarks/ \
+            --benchmarks masakhanews masakhaner flores200 \
+            --output results/benchmark_$(date +%Y%m%d).json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: results/
